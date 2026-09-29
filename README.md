@@ -33,6 +33,14 @@ After that it runs by itself every 15 minutes.
 Without a key, the fetcher looks up 12 new CVSS scores per run, which is NIST's limit for anonymous use. The rest fill in over the next few runs. A free key from https://nvd.nist.gov/developers/request-an-api-key raises this to 40 per run.
 Add it under Settings, then Secrets and variables, then Actions, as a secret named `NVD_API_KEY`.
 
+## Real attack data on the map
+
+With a Cloudflare API token saved as the repository secret `CLOUDFLARE_API_TOKEN` (permission: Account → Radar → Read), the fetcher pulls the busiest attack routes from Cloudflare Radar about once an hour. It pulls both web application attacks (layer 7) and network DDoS attacks (layer 3) for the last 24 hours, and saves them to `docs/data/attacks.json`.
+
+The map then replays those routes, drawing busier routes more often. Each arc stands for a share of attack traffic, not a single attack. Without the token, or if Radar is unavailable, the map falls back to simulated traffic and says so.
+
+If the Actions log says a country has "no map location", add its two-letter code and rough coordinates to `COUNTRY_LOC` in `scripts/fetch_feeds.py`.
+
 ## How severity is decided
 
 Everything on CISA's Known Exploited Vulnerabilities list is being attacked, so it starts at **High**.
@@ -71,4 +79,4 @@ Then open http://localhost:8000.
 ## Notes
 
 - News items show the headline, a short snippet from the publisher's feed and a link. Full articles are not copied.
-- The map's attack arcs are still simulated, and the page says so. Real attack data from Cloudflare Radar is the next step.
+- Attack map data comes from Cloudflare Radar, and the map credits it. Check Radar's licence terms before using the data anywhere else.
