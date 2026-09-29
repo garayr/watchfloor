@@ -49,6 +49,22 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
+     "summary": "A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-09-29T17:10:11+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
+     "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and…",
+     "source": "The Hacker News",
+     "date": "2026-09-29T17:00:00+00:00",
+     "url": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks",
      "summary": "Branch Target Reuse (BTR) is a new Spectre v2 attack targeting JIT compilers in web browsers, language runtimes, and the operating system kernel The post New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks…",
      "source": "SecurityWeek",
@@ -150,6 +166,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "DARPA Selects Xint to Use AI in Securing Military Messaging Apps",
+     "summary": "The AIxCC competition winner will analyze messaging app code and compiled binaries for vulnerabilities, with technology that could also help commercial customers secure their software. The post DARPA Selects Xint to Use…",
+     "source": "SecurityWeek",
+     "date": "2026-09-29T17:24:04+00:00",
+     "url": "https://www.securityweek.com/darpa-selects-xint-to-use-ai-in-securing-military-messaging-apps/",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
      "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown. \"During the…",
      "source": "The Hacker News",
@@ -220,19 +244,6 @@
       "CVE-2026-88771",
       "CVE-2026-19490"
      ]
-    },
-    {
-     "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
-     "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-09-28T06:24:19+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-88772",
-      "CVE-2026-88771",
-      "CVE-2026-19490"
-     ]
     }
    ]
   },
@@ -245,14 +256,6 @@
      "source": "The Hacker News",
      "date": "2026-09-29T13:45:10+00:00",
      "url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Daemon Tools Hackers’ NeedyMantis Malware Dissected by Microsoft",
-     "summary": "The malware framework uses a modular architecture and a custom executable file format for long-term persistence. The post Daemon Tools Hackers’ NeedyMantis Malware Dissected by Microsoft appeared first on SecurityWeek .",
-     "source": "SecurityWeek",
-     "date": "2026-09-29T09:46:13+00:00",
-     "url": "https://www.securityweek.com/daemon-tools-hackers-needymantis-malware-dissected-by-microsoft/",
      "group": "Malware and campaigns"
     },
     {
@@ -346,14 +349,6 @@
      "source": "The Hacker News",
      "date": "2026-09-28T18:20:38+00:00",
      "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
-     "group": "Other news"
-    },
-    {
-     "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
-     "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-09-27T23:40:39+00:00",
-     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
      "group": "Other news"
     }
    ]
