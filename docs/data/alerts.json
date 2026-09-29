@@ -483,6 +483,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
    "kev": true,
+   "cvss": 8.8,
    "sev": "high"
   },
   {
@@ -500,7 +501,26 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
    "kev": true,
-   "sev": "high"
+   "cvss": 9.3,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-20079",
+   "date": "2026-09-09",
+   "src": "CISA",
+   "vendor": "Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
+   "title": "Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "detail": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-09-12",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-20079"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
+   "kev": true,
+   "cvss": 10.0,
+   "sev": "critical"
   },
   {
    "id": "CVE-2025-25249",
@@ -517,6 +537,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
    "kev": true,
+   "cvss": 8.1,
    "sev": "high"
   },
   {
@@ -534,23 +555,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491",
    "kev": true,
-   "sev": "high"
-  },
-  {
-   "id": "CVE-2026-20079",
-   "date": "2026-09-09",
-   "src": "CISA",
-   "vendor": "Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
-   "title": "Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-   "detail": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-12",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-20079"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
-   "kev": true,
+   "cvss": 8.8,
    "sev": "high"
   },
   {
@@ -568,24 +573,8 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650",
    "kev": true,
-   "sev": "high"
-  },
-  {
-   "id": "CVE-2026-81963",
-   "date": "2026-09-08",
-   "src": "CISA",
-   "vendor": "Microsoft Windows",
-   "title": "Microsoft Windows Link Following Vulnerability",
-   "detail": "Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-22",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-81963"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
-   "kev": true,
-   "sev": "high"
+   "cvss": 10.0,
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-86218",
@@ -602,6 +591,25 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
    "kev": true,
+   "cvss": 10.0,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-81963",
+   "date": "2026-09-08",
+   "src": "CISA",
+   "vendor": "Microsoft Windows",
+   "title": "Microsoft Windows Link Following Vulnerability",
+   "detail": "Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-09-22",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-81963"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
+   "kev": true,
+   "cvss": 7.8,
    "sev": "high"
   },
   {
@@ -619,6 +627,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
    "kev": true,
+   "cvss": 7.8,
    "sev": "high"
   },
   {
@@ -636,6 +645,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
    "kev": true,
+   "cvss": 8.8,
    "sev": "high"
   },
   {
@@ -653,6 +663,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59822",
    "kev": true,
+   "cvss": 8.8,
    "sev": "high"
   },
   {
@@ -670,6 +681,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710",
    "kev": true,
+   "cvss": 6.5,
    "sev": "high"
   },
   {
