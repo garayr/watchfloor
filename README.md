@@ -49,6 +49,18 @@ If the Actions log says a country has "no map location", add its two-letter code
 
 The first run after that quietly records the Critical alerts already on the list. After that you get one notification per new Critical alert, and tapping it opens the CVE record. More than five at once become a single summary message.
 
+## Using the dashboard
+
+- **Search** boxes on the alerts and news tabs match titles, vendors, descriptions and CVE numbers.
+- **In the news:** when a news story names an alert's CVE, or names both its vendor and product, the alert gets an "In the news" label with links. The story shows which alerts it relates to, and clicking one jumps to that alert. "Only in the news" filters to those alerts.
+- **Mark as patched / Not relevant to me** hides an alert and takes it out of the counts. This is saved in your browser only, so each device keeps its own list. Choose "Handled" to see them again, or "Undo" to restore one.
+- **Map:** click a country dot, or use "Focus on a country", to see only that country's attack routes. The 7-day chart shows hourly attack volume for each type, and whether the last 24 hours were busier than the 6 days before.
+
+## Weekly digest
+
+If phone alerts are set up, you also get a summary every Monday at 7am UTC (8am UK summer time, 7am in winter). It covers the week's Critical and High counts, the Critical alerts, the alerts most mentioned in the news, and the latest headlines. Tapping it opens your dashboard.
+To change the day or time, add `DIGEST_WEEKDAY` (0 = Monday … 6 = Sunday) or `DIGEST_HOUR_UTC` to the `env:` section of the "Fetch feeds" step in the workflow.
+
 ## How severity is decided
 
 Everything on CISA's Known Exploited Vulnerabilities list is being attacked, so it starts at **High**.
