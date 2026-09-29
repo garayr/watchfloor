@@ -143,20 +143,25 @@
      "date": "2026-09-28T14:00:10+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-     "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes…",
-     "source": "The Hacker News",
-     "date": "2026-09-28T11:46:00+00:00",
-     "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+     "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-09-29T18:37:12+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88772",
+      "CVE-2026-88771",
+      "CVE-2026-19490"
+     ]
+    },
     {
      "title": "DARPA Selects Xint to Use AI in Securing Military Messaging Apps",
      "summary": "The AIxCC competition winner will analyze messaging app code and compiled binaries for vulnerabilities, with technology that could also help commercial customers secure their software. The post DARPA Selects Xint to Use…",
