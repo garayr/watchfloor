@@ -178,22 +178,22 @@ footer p{margin:0 0 6px;max-width:80ch}
 
   <section role="tabpanel" id="panel-map" aria-labelledby="tab-map" hidden>
     <h2 class="lede">Attack traffic across the globe</h2>
-    <p class="sub">Arcs show a simulated stream of attacks between major internet hubs, to give a feel for volume and type. Square markers are real reported incidents.</p>
+    <p class="sub" id="map-sub">Arcs show a simulated stream of attacks between major internet hubs, to give a feel for volume and type. Square markers are real reported incidents.</p>
     <div class="map-layout">
       <div class="map-card">
         <div class="map-head">
-          <p class="notice"><b>Simulated traffic.</b> Arcs are illustrative, not live sensor data. Markers are real reported incidents.</p>
+          <p class="notice" id="map-notice"><b>Simulated traffic.</b> Arcs are illustrative, not live sensor data. Markers are real reported incidents.</p>
           <button class="btn" id="pause" type="button">Pause</button>
         </div>
         <div class="map-wrap" id="map-wrap">
-          <canvas id="map" aria-label="World map with simulated attack arcs and markers for reported incidents" role="img"></canvas>
+          <canvas id="map" aria-label="World map with animated attack arcs between countries and markers for reported incidents" role="img"></canvas>
           <div class="tip" id="tip"></div>
         </div>
         <div class="legend" id="legend"></div>
       </div>
       <aside class="side">
         <div class="panel">
-          <h3>Since you opened this page</h3>
+          <h3 id="tally-title">Since you opened this page</h3>
           <div class="tally" id="tally"></div>
         </div>
         <div class="panel">
@@ -234,13 +234,14 @@ async function getJSON(name){
   return r.json();
 }
 async function loadAll(){
-  const [a,n,m,i]=await Promise.allSettled([getJSON('alerts.json'),getJSON('news.json'),getJSON('meta.json'),getJSON('incidents.json')]);
+  const [a,n,m,i,k]=await Promise.allSettled([getJSON('alerts.json'),getJSON('news.json'),getJSON('meta.json'),getJSON('incidents.json'),getJSON('attacks.json')]);
   loadError=a.status==='rejected'&&n.status==='rejected';
   if(a.status==='fulfilled') ALERTS=a.value.alerts||[];
   if(n.status==='fulfilled') NEWS=n.value.groups||[];
   if(m.status==='fulfilled') META=m.value;
   INCIDENTS=(i.status==='fulfilled'&&i.value.incidents)||[];
   renderStamp(); renderAlerts(); renderNews(); MapView.setIncidents(INCIDENTS);
+  MapView.setAttacks(k.status==='fulfilled'?k.value:null);
 }
 function ago(iso){
   const mins=Math.round((Date.now()-new Date(iso))/60000);
@@ -358,17 +359,27 @@ const MapView=(function(){
   const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   let W=0,H=0,S=0,dpr=1, base=null, dots=[], land=null, visible=false, running=!reduce, raf=0, nextAt=0;
   let arcs=[], rings=[], counts={}; TYPES.forEach(t=>counts[t.k]=0);
+  const LAYERS={l7:{k:'l7',name:'Web application attacks',v:'--t-exploit'},l3:{k:'l3',name:'Network DDoS attacks',v:'--t-ddos'}};
+  let mode='sim', routes=[], radarSig='';
   const LAT_TOP=84, LAT_SPAN=142;
   const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
   const P=(lon,lat)=>[W/2+S*lon*Math.PI/180, S*(LAT_TOP-lat)*Math.PI/180];
 
   // legend, incidents list
-  document.getElementById('legend').innerHTML=TYPES.map(t=>`<span><i style="background:var(${t.v})"></i>${t.name}</span>`).join('')+`<span class="pin"><i></i>Reported incident</span>`;
+  function renderLegend(){
+    const list=mode==='radar'?Object.values(LAYERS).filter(l=>routes.some(r=>r.layer===l)):TYPES;
+    document.getElementById('legend').innerHTML=list.map(t=>`<span><i style="background:var(${t.v})"></i>${t.name}</span>`).join('')+(INCIDENTS.length?`<span class="pin"><i></i>Reported incident</span>`:'');
+  }
+  renderLegend();
     const pauseBtn=document.getElementById('pause');
   pauseBtn.textContent=running?'Pause':'Play';
   pauseBtn.addEventListener('click',()=>{running=!running;pauseBtn.textContent=running?'Pause':'Play';if(running)loop()});
 
   function renderTally(){
+    if(mode==='radar'){
+      tallyEl.innerHTML=routes.slice().sort((a,b)=>b.share-a.share).slice(0,8).map(r=>`<span><i style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(${r.layer.v});margin-right:6px"></i>${esc(r.from.name)} to ${esc(r.to.name)}</span><span>${r.share.toFixed(1)}%</span>`).join('');
+      return;
+    }
     tallyEl.innerHTML=TYPES.map(t=>`<span><i style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(${t.v});margin-right:6px"></i>${t.name}</span><span>${counts[t.k].toLocaleString('en-GB')}</span>`).join('');
   }
   renderTally();
@@ -428,7 +439,17 @@ const MapView=(function(){
   }
 
   function bez(a,c,b,t){const u=1-t;return[u*u*a[0]+2*u*t*c[0]+t*t*b[0],u*u*a[1]+2*u*t*c[1]+t*t*b[1]]}
+  function pickRoute(){
+    let tw=routes.reduce((s,r)=>s+r.share,0), x=Math.random()*tw;
+    for(const r of routes){ if((x-=r.share)<0) return r; }
+    return routes[routes.length-1];
+  }
+  const jit=()=>(Math.random()-.5)*3;
   function pick(){
+    if(mode==='radar'&&routes.length){
+      const r=pickRoute();
+      return {type:r.layer,a:[r.from.name,r.from.lat+jit(),r.from.lon+jit()],b:[r.to.name,r.to.lat+jit(),r.to.lon+jit()]};
+    }
     let tw=TYPES.reduce((s,t)=>s+t.w,0), r=Math.random()*tw, type=TYPES[0];
     for(const t of TYPES){ if((r-=t.w)<0){type=t;break} }
     let a=CITIES[Math.floor(Math.random()*CITIES.length)], b;
@@ -441,10 +462,10 @@ const MapView=(function(){
     const dx=p1[0]-p0[0], dy=p1[1]-p0[1], dist=Math.hypot(dx,dy);
     const c=[(p0[0]+p1[0])/2, Math.min(p0[1],p1[1])-dist*.28];
     arcs.push({p0,p1,c,color:css(type.v),t0:now,dur:1400+dist*3});
-    counts[type.k]++; renderTally();
+    if(mode!=='radar'){ counts[type.k]++; renderTally(); }
     const li=document.createElement('li');
     const tm=new Date().toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
-    li.innerHTML=`<time>${tm}</time><span><span class="ty" style="color:var(${type.v})">${type.name}</span><br>${a[0]} to ${b[0]}</span>`;
+    li.innerHTML=`<time>${tm}</time><span><span class="ty" style="color:var(${type.v})">${type.name}</span><br>${esc(a[0])} to ${esc(b[0])}</span>`;
     feedEl.prepend(li); while(feedEl.children.length>8) feedEl.lastChild.remove();
   }
   function draw(now){
@@ -502,8 +523,29 @@ const MapView=(function(){
 
   let loaded=false;
   return {
+    setAttacks(data){
+      const layers=(data&&Array.isArray(data.layers))?data.layers:[];
+      const next=[];
+      layers.forEach(l=>{ const def=LAYERS[l.key]; if(!def) return;
+        (l.pairs||[]).forEach(p=>{ if(p.from&&p.to&&p.share>0) next.push({layer:def,from:p.from,to:p.to,share:+p.share}); }); });
+      const sig=next.length?data.generated_at:'';
+      if(sig===radarSig) return;
+      radarSig=sig; routes=next; mode=next.length?'radar':'sim';
+      const sub=document.getElementById('map-sub'), notice=document.getElementById('map-notice'), tt=document.getElementById('tally-title');
+      if(mode==='radar'){
+        sub.textContent='Arcs replay the busiest attack routes Cloudflare saw in the last 24 hours. Busier routes appear more often. Square markers are real reported incidents.';
+        notice.innerHTML=`<b>Real proportions from Cloudflare Radar.</b> Each arc stands for a share of attack traffic, not a single attack. Data from ${ago(data.generated_at)}.`;
+        tt.textContent='Busiest attack routes, last 24 hours';
+      } else {
+        sub.textContent='Arcs show a simulated stream of attacks between major internet hubs, to give a feel for volume and type. Square markers are real reported incidents.';
+        notice.innerHTML='<b>Simulated traffic.</b> Arcs are illustrative, not live sensor data. Markers are real reported incidents.';
+        tt.textContent='Since you opened this page';
+      }
+      arcs=[]; rings=[]; feedEl.innerHTML=''; renderLegend(); renderTally();
+    },
     setIncidents(list){
       document.getElementById('incidents-panel').hidden=!list.length;
+      renderLegend();
       document.getElementById('incidents').innerHTML=list.map(i=>`<li>${esc(i.name)}<small>${esc(i.place)}, ${fmt(i.date)}</small></li>`).join('');
       if(visible) build();
     },
