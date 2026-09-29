@@ -41,6 +41,14 @@ The map then replays those routes, drawing busier routes more often. Each arc st
 
 If the Actions log says a country has "no map location", add its two-letter code and rough coordinates to `COUNTRY_LOC` in `scripts/fetch_feeds.py`.
 
+## Phone alerts for new Critical items
+
+1. Install the **ntfy** app (free, iPhone and Android) and allow notifications.
+2. In the app, tap **+** and subscribe to a topic name only you know, like `watchfloor-` followed by a string of random letters and numbers. Anyone who knows the name can read the alerts, so treat it like a password.
+3. In your repo, go to Settings → Secrets and variables → Actions and add a secret called `NTFY_TOPIC` containing that exact name.
+
+The first run after that quietly records the Critical alerts already on the list. After that you get one notification per new Critical alert, and tapping it opens the CVE record. More than five at once become a single summary message.
+
 ## How severity is decided
 
 Everything on CISA's Known Exploited Vulnerabilities list is being attacked, so it starts at **High**.
