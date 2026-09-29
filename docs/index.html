@@ -89,6 +89,37 @@ main{padding:28px 0 60px}
 .cve{font-size:12.5px;font-variant-numeric:tabular-nums;border:1px solid var(--rule);padding:1px 7px;border-radius:3px;color:var(--muted)}
 .src-link{font-size:14px;margin-top:8px;display:inline-block}
 .warn{color:var(--high)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.search{display:block;flex:1 1 260px;max-width:360px}
+.search input{width:100%;font:inherit;font-size:15px;padding:7px 12px;border:1px solid var(--rule);border-radius:6px;background:var(--surface);color:var(--ink)}
+.search input::placeholder{color:var(--muted)}
+.news-tools{margin:0 0 22px}
+.inews{font-weight:600;color:var(--medium)}
+.newslist{margin:10px 0 0;padding:10px 0 0;border-top:1px dashed var(--rule);font-size:14px}
+.newslist b{font-weight:650}
+.newslist ul{list-style:none;margin:4px 0 0;padding:0}
+.newslist li{margin:2px 0}
+.newslist small{color:var(--muted)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:12px;font-size:14px}
+.act{appearance:none;font:inherit;font-size:13.5px;border:1px solid var(--rule);background:none;color:var(--ink);padding:3px 10px;border-radius:4px;cursor:pointer}
+.act:hover{border-color:var(--ink)}
+.alert.handled{opacity:.62}
+.handled-state{color:var(--muted)}
+.linkbtn{appearance:none;border:0;background:none;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer}
+.handled-note{font-size:14px;color:var(--muted);margin:-6px 0 14px}
+@keyframes flash{from{box-shadow:0 0 0 3px var(--focus)}to{box-shadow:0 0 0 3px transparent}}
+.alert.flash{animation:flash 2.2s ease-out}
+@media (prefers-reduced-motion: reduce){.alert.flash{animation:none;outline:3px solid var(--focus)}}
+.related{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px;font-size:13px;color:var(--muted)}
+.related .cve{cursor:pointer;background:none;font:inherit;font-size:12.5px}
+.related .cve:hover{border-color:var(--ink);color:var(--ink)}
+.plabel{display:block;font-size:15px;font-weight:700;font-variation-settings:"wdth" 88;margin-bottom:8px}
+.panel select{width:100%;font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--rule);border-radius:4px;background:var(--surface);color:var(--ink)}
+.trend-row{margin-top:10px}
+.trend-row:first-of-type{margin-top:0}
+.trend-row .tname{font-size:13px;display:flex;justify-content:space-between;gap:8px}
+.trend-row svg{display:block;width:100%;height:44px;margin-top:3px}
+.trend-note{font-size:12.5px;color:var(--muted);margin:8px 0 0}
 .flag{font-weight:600;color:var(--critical)}
 .empty{padding:30px;text-align:center;color:var(--muted);border:1px dashed var(--rule)}
 
@@ -170,9 +201,12 @@ footer p{margin:0 0 6px;max-width:80ch}
     <h2 class="lede" id="alerts-lede">Latest alerts</h2>
     <p class="sub">Flaws CISA has confirmed are being exploited, plus NCSC and CISA advisories, from the last 30 days. Everything on CISA’s list is under attack. Critical means ransomware gangs use it, it scores 9 or more out of 10, or exploitation is very likely to spread.</p>
     <div class="filters">
+      <label class="search"><span class="sr-only">Search alerts</span><input type="search" id="alert-q" placeholder="Search alerts, vendors or CVEs" autocomplete="off"></label>
       <div class="chips" id="sev-chips" role="group" aria-label="Filter by severity"></div>
       <div class="chips" id="src-chips" role="group" aria-label="Filter by source"></div>
+      <div class="chips" role="group" aria-label="More filters"><span class="flabel">Show</span><button class="chip" type="button" id="news-chip" aria-pressed="false">Only in the news</button><button class="chip" type="button" id="handled-chip" aria-pressed="false">Handled</button></div>
     </div>
+    <p class="handled-note" id="handled-note" hidden></p>
     <div class="alerts" id="alerts"></div>
   </section>
 
@@ -192,6 +226,15 @@ footer p{margin:0 0 6px;max-width:80ch}
         <div class="legend" id="legend"></div>
       </div>
       <aside class="side">
+        <div class="panel" id="country-panel" hidden>
+          <label class="plabel" for="country">Focus on a country</label>
+          <select id="country"><option value="">All countries</option></select>
+        </div>
+        <div class="panel" id="trend-panel" hidden>
+          <h3>Attack volume, last 7 days</h3>
+          <div id="trend"></div>
+          <p class="trend-note">Hourly, compared with the busiest hour of the week.</p>
+        </div>
         <div class="panel">
           <h3 id="tally-title">Since you opened this page</h3>
           <div class="tally" id="tally"></div>
@@ -211,6 +254,7 @@ footer p{margin:0 0 6px;max-width:80ch}
   <section role="tabpanel" id="panel-news" aria-labelledby="tab-news" hidden>
     <h2 class="lede">The last seven days in cyber</h2>
     <p class="sub">Headlines from the main security news sites, sorted by theme. Each links to the full report.</p>
+    <div class="news-tools"><label class="search"><span class="sr-only">Search news</span><input type="search" id="news-q" placeholder="Search headlines" autocomplete="off"></label></div>
     <div class="news-grid" id="news"></div>
   </section>
 
@@ -284,7 +328,14 @@ tabs.forEach((t,i)=>{
 /* ---------------- Alerts ---------------- */
 const SEV=["critical","high","medium","info"], SEVNAME={critical:"Critical",high:"High",medium:"Medium",info:"Info"};
 const SRC=["CISA","NCSC"];
-const state={sev:new Set(),src:new Set()};
+const state={sev:new Set(),src:new Set(),q:'',inNews:false,showHandled:false};
+const HANDLED_KEY='wf-handled';
+let HANDLED={};
+try{ HANDLED=JSON.parse(localStorage.getItem(HANDLED_KEY)||'{}')||{}; }catch(e){ HANDLED={}; }
+function saveHandled(){ try{ localStorage.setItem(HANDLED_KEY,JSON.stringify(HANDLED)); }catch(e){} }
+const HANDLED_LABEL={patched:'Marked as patched',irrelevant:'Marked as not relevant'};
+const norm=t=>String(t||'').toLowerCase();
+function matchesQ(q,...fields){ if(!q) return true; const hay=norm(fields.flat().join(' ')); return q.split(/\s+/).every(w=>hay.includes(w)); }
 const fmt=d=>d?new Date(d.length===10?d+"T12:00:00":d).toLocaleDateString('en-GB',{day:'numeric',month:'short'}):'';
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:'#';
@@ -298,44 +349,96 @@ function chips(el,list,set,label){
 }
 chips(document.getElementById('sev-chips'),SEV,state.sev,'Severity');
 chips(document.getElementById('src-chips'),SRC,state.src,'Source');
+document.getElementById('alert-q').addEventListener('input',e=>{ state.q=norm(e.target.value.trim()); renderAlerts(); });
+document.getElementById('news-q').addEventListener('input',()=>renderNews());
+[['news-chip','inNews'],['handled-chip','showHandled']].forEach(([id,key])=>{
+  const b=document.getElementById(id);
+  b.addEventListener('click',()=>{ state[key]=!state[key]; b.setAttribute('aria-pressed',state[key]); renderAlerts(); });
+});
+document.getElementById('alerts').addEventListener('click',e=>{
+  const b=e.target.closest('[data-act]'); if(!b) return;
+  const id=b.closest('.alert').dataset.id;
+  if(b.dataset.act==='undo') delete HANDLED[id]; else HANDLED[id]={state:b.dataset.act,at:new Date().toISOString().slice(0,10)};
+  saveHandled(); renderAlerts();
+  const again=document.querySelector(`.alert[data-id="${CSS.escape(id)}"] [data-act]`); if(again) again.focus();
+  else document.getElementById('alert-q').focus();
+});
+function jumpToAlert(id){
+  const a=ALERTS.find(x=>x.id===id); if(!a) return;
+  state.sev.clear(); state.src.clear(); state.q=''; state.inNews=false;
+  if(HANDLED[id]) state.showHandled=true;
+  document.getElementById('alert-q').value='';
+  document.querySelectorAll('#sev-chips .chip,#src-chips .chip,#news-chip').forEach(c=>c.setAttribute('aria-pressed','false'));
+  document.getElementById('handled-chip').setAttribute('aria-pressed',state.showHandled);
+  selectTab(document.getElementById('tab-alerts'));
+  renderAlerts();
+  const el=document.querySelector(`.alert[data-id="${CSS.escape(id)}"]`); if(!el) return;
+  el.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'});
+  el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
+  el.setAttribute('tabindex','-1'); el.focus({preventScroll:true});
+}
 function renderAlerts(){
-  const crit=ALERTS.filter(a=>a.sev==='critical'), high=ALERTS.filter(a=>a.sev==='high');
+  const open=ALERTS.filter(a=>!HANDLED[a.id]);
+  const crit=open.filter(a=>a.sev==='critical'), high=open.filter(a=>a.sev==='high');
+  const handledCount=ALERTS.length-open.length;
   const countEl=document.getElementById('alert-count');
   countEl.textContent=ALERTS.length?crit.length+high.length:''; countEl.title='Critical and high alerts';
   const lede=document.getElementById('alerts-lede');
   lede.textContent=!ALERTS.length?'No alerts loaded yet'
-    : crit.length?`${crit.length} critical and ${high.length} high alerts in the last 30 days`
-    : `${high.length} high alerts in the last 30 days`;
-  const list=ALERTS.filter(a=>(!state.sev.size||state.sev.has(a.sev))&&(!state.src.size||state.src.has(a.src)));
+    : crit.length?`${crit.length} critical and ${high.length} high alerts need attention`
+    : high.length?`${high.length} high alerts need attention`
+    : 'Nothing critical or high needs attention';
+  const note=document.getElementById('handled-note');
+  note.hidden=!handledCount;
+  note.textContent=handledCount?`You’ve marked ${handledCount} alert${handledCount>1?'s':''} as handled on this device.${state.showHandled?'':' Choose Handled to see them.'}`:'';
+  const list=ALERTS.filter(a=>(!state.sev.size||state.sev.has(a.sev))&&(!state.src.size||state.src.has(a.src))
+    &&(!state.inNews||(a.news&&a.news.length))&&(state.showHandled||!HANDLED[a.id])
+    &&matchesQ(state.q,a.title,a.detail,a.vendor,a.cves||[]));
   const el=document.getElementById('alerts');
   if(!ALERTS.length){el.innerHTML=`<p class="empty">${loadError?'The alerts file couldn’t be loaded.':'No alerts yet. They appear after the first feed update runs.'}</p>`;return}
-  if(!list.length){el.innerHTML='<p class="empty">No alerts match these filters. Clear a filter to see more.</p>';return}
+  if(!list.length){el.innerHTML=`<p class="empty">${state.q?'No alerts match your search. Try a vendor name or a CVE number.':'No alerts match these filters. Clear a filter to see more.'}</p>`;return}
   el.innerHTML=list.map(a=>{
     const facts=[];
     if(a.ransomware) facts.push('<span class="flag">Used by ransomware</span>');
     if(a.cvss!=null) facts.push(`CVSS ${Number(a.cvss).toFixed(1)}`);
     if(a.epss!=null) facts.push(`EPSS ${Math.round(a.epss*100)}%`);
     if(a.due) facts.push(`US federal deadline ${fmt(a.due)}`);
+    if(a.news&&a.news.length) facts.unshift('<span class="inews">In the news</span>');
+    const h=HANDLED[a.id];
+    const actions=h
+      ? `<span class="handled-state">${HANDLED_LABEL[h.state]||'Handled'}, ${fmt(h.at)}.</span><button class="linkbtn" type="button" data-act="undo">Undo</button>`
+      : `<button class="act" type="button" data-act="patched">Mark as patched</button><button class="act" type="button" data-act="irrelevant">Not relevant to me</button>`;
+    const newsHtml=(a.news&&a.news.length)?`<div class="newslist"><b>In the news</b><ul>${a.news.map(n=>`<li><a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">${esc(n.title)}</a> <small>${esc(n.source)}, ${fmt(n.date)}</small></li>`).join('')}</ul></div>`:'';
     return `
-    <article class="alert ${esc(a.sev)}">
+    <article class="alert ${esc(a.sev)}${h?' handled':''}" data-id="${esc(a.id)}">
       <div class="ameta"><span class="sev">${SEVNAME[a.sev]||esc(a.sev)}</span><time datetime="${esc(a.date)}">${fmt(a.date)}</time><span>${esc(a.src)}</span><span>${esc(a.vendor)}</span>${facts.map(f=>`<span>${f}</span>`).join('')}</div>
       <h3>${esc(a.title)}</h3>
       ${a.detail?`<p>${esc(a.detail)}</p>`:''}
       ${a.todo?`<p class="do"><b>What to do:</b> ${esc(a.todo)}</p>`:''}
       <div>${(a.cves||[]).length?`<div class="cves">${a.cves.map(c=>`<span class="cve">${esc(c)}</span>`).join('')}</div>`:''}
-      <a class="src-link" href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${a.kev?'View the CVE record':'Read the advisory'}</a></div>
+      <a class="src-link" href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${a.kev?'View the CVE record':'Read the advisory'}</a>
+      ${newsHtml}
+      <div class="actions">${actions}</div></div>
     </article>`}).join('');
 }
 
 /* ---------------- News ---------------- */
+const alertIds=()=>new Set(ALERTS.map(a=>a.id));
 function renderNews(){
   const el=document.getElementById('news');
   if(!NEWS.length){el.innerHTML=`<p class="empty">${loadError?'The news file couldn’t be loaded.':'No news yet. Stories appear after the first feed update runs.'}</p>`;return}
-  el.innerHTML=NEWS.map(g=>`
+  const q=norm(document.getElementById('news-q').value.trim()), known=alertIds();
+  const groups=NEWS.map(g=>({group:g.group,items:g.items.filter(n=>matchesQ(q,n.title,n.summary,n.source))})).filter(g=>g.items.length);
+  if(!groups.length){el.innerHTML='<p class="empty">No headlines match your search.</p>';return}
+  el.innerHTML=groups.map(g=>`
   <section class="news-group"><h2>${esc(g.group)}</h2>
-  ${g.items.map(n=>`<article class="story"><h3><a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>${n.summary?`<p>${esc(n.summary)}</p>`:''}<div class="by">${esc(n.source)}, ${fmt(n.date)}</div></article>`).join('')}
+  ${g.items.map(n=>{
+    const rel=(n.alerts||[]).filter(id=>known.has(id));
+    const relHtml=rel.length?`<div class="related">On the alerts list:${rel.map(id=>`<button class="cve" type="button" data-jump="${esc(id)}">${esc(/^CVE-/.test(id)?id:'Advisory')}</button>`).join('')}</div>`:'';
+    return `<article class="story"><h3><a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>${n.summary?`<p>${esc(n.summary)}</p>`:''}<div class="by">${esc(n.source)}, ${fmt(n.date)}</div>${relHtml}</article>`;}).join('')}
   </section>`).join('');
 }
+document.getElementById('news').addEventListener('click',e=>{ const b=e.target.closest('[data-jump]'); if(b) jumpToAlert(b.dataset.jump); });
 
 /* ---------------- Map ---------------- */
 const TYPES=[
@@ -360,7 +463,45 @@ const MapView=(function(){
   let W=0,H=0,S=0,dpr=1, base=null, dots=[], land=null, visible=false, running=!reduce, raf=0, nextAt=0;
   let arcs=[], rings=[], counts={}; TYPES.forEach(t=>counts[t.k]=0);
   const LAYERS={l7:{k:'l7',name:'Web application attacks',v:'--t-exploit'},l3:{k:'l3',name:'Network DDoS attacks',v:'--t-ddos'}};
-  let mode='sim', routes=[], radarSig='';
+  let mode='sim', routes=[], radarSig='', focus='';
+  const countrySel=document.getElementById('country');
+  function countries(){
+    const m=new Map();
+    routes.forEach(r=>[r.from,r.to].forEach(c=>{
+      if(!m.has(c.code)) m.set(c.code,{code:c.code,name:c.name,lat:c.lat,lon:c.lon,n:0});
+      m.get(c.code).n++;
+    }));
+    return [...m.values()].sort((a,b)=>a.name.localeCompare(b.name));
+  }
+  const activeRoutes=()=>focus?routes.filter(r=>r.from.code===focus||r.to.code===focus):routes;
+  function setFocus(code){
+    focus=(code===focus)?'':code;
+    countrySel.value=focus;
+    arcs=[]; rings=[]; feedEl.innerHTML='';
+    updateTitles(); renderTally(); if(visible) build();
+  }
+  function updateTitles(){
+    const tt=document.getElementById('tally-title');
+    if(mode!=='radar'){ tt.textContent='Since you opened this page'; return; }
+    const c=countries().find(x=>x.code===focus);
+    tt.textContent=c?`Attack routes involving ${c.name}`:'Busiest attack routes, last 24 hours';
+  }
+  countrySel.addEventListener('change',()=>{ focus=''; setFocus(countrySel.value); });
+  function renderTrend(layers){
+    const panel=document.getElementById('trend-panel'), box=document.getElementById('trend');
+    const withTrend=layers.filter(l=>l.trend&&l.trend.v&&l.trend.v.length>1&&LAYERS[l.key]);
+    panel.hidden=!withTrend.length;
+    box.innerHTML=withTrend.map(l=>{
+      const v=l.trend.v, n=v.length, W2=240, H2=44;
+      const pts=v.map((y,i)=>`${(i/(n-1)*W2).toFixed(1)},${(H2-2-y*(H2-4)).toFixed(1)}`).join(' ');
+      const ch=l.trend.change;
+      const chTxt=ch==null?'':Math.abs(ch)<1?'About the same as the week before':`${ch>0?'Up':'Down'} ${Math.abs(Math.round(ch))}% on the previous 6 days`;
+      const def=LAYERS[l.key];
+      return `<div class="trend-row"><div class="tname"><span>${esc(def.name)}</span></div>
+        <svg viewBox="0 0 ${W2} ${H2}" preserveAspectRatio="none" role="img" aria-label="${esc(def.name)} over the last 7 days. ${esc(chTxt)}"><polyline points="${pts}" fill="none" stroke="var(${def.v})" stroke-width="1.5" vector-effect="non-scaling-stroke"/></svg>
+        <div class="tname"><small style="color:var(--muted)">7 days ago</small><small style="color:var(--muted)">${esc(chTxt||'Now')}</small></div></div>`;
+    }).join('');
+  }
   const LAT_TOP=84, LAT_SPAN=142;
   const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
   const P=(lon,lat)=>[W/2+S*lon*Math.PI/180, S*(LAT_TOP-lat)*Math.PI/180];
@@ -377,7 +518,9 @@ const MapView=(function(){
 
   function renderTally(){
     if(mode==='radar'){
-      tallyEl.innerHTML=routes.slice().sort((a,b)=>b.share-a.share).slice(0,8).map(r=>`<span><i style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(${r.layer.v});margin-right:6px"></i>${esc(r.from.name)} to ${esc(r.to.name)}</span><span>${r.share.toFixed(1)}%</span>`).join('');
+      const list=activeRoutes();
+      if(!list.length){ tallyEl.innerHTML='<span>No top routes involve this country today.</span><span></span>'; return; }
+      tallyEl.innerHTML=list.slice().sort((a,b)=>b.share-a.share).slice(0,8).map(r=>`<span><i style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(${r.layer.v});margin-right:6px"></i>${esc(r.from.name)} to ${esc(r.to.name)}</span><span>${r.share.toFixed(1)}%</span>`).join('');
       return;
     }
     tallyEl.innerHTML=TYPES.map(t=>`<span><i style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(${t.v});margin-right:6px"></i>${t.name}</span><span>${counts[t.k].toLocaleString('en-GB')}</span>`).join('');
@@ -432,22 +575,33 @@ const MapView=(function(){
       for(let lat=-60;lat<=80;lat+=20){const [,y]=P(0,lat);b.beginPath();b.moveTo(0,y);b.lineTo(W,y);b.stroke()}
       b.fillStyle=css('--muted'); b.font='13px Archivo, sans-serif'; b.fillText('Country outlines could not load, showing grid only',12,20);
     }
+    // clickable country points (real data only)
+    const ink=css('--ink');
+    if(mode==='radar'){
+      countries().forEach(c=>{ const [x,y]=P(c.lon,c.lat);
+        b.globalAlpha=focus&&focus!==c.code?.35:.8; b.fillStyle=ink;
+        b.beginPath(); b.arc(x,y,c.code===focus?4.5:3,0,Math.PI*2); b.fill();
+        if(c.code===focus){ b.globalAlpha=1; b.strokeStyle=ink; b.lineWidth=1.5; b.beginPath(); b.arc(x,y,9,0,Math.PI*2); b.stroke(); }
+      });
+      b.globalAlpha=1;
+    }
     // incident pins
-    const ink=css('--ink'); b.strokeStyle=ink; b.lineWidth=2;
+    b.strokeStyle=ink; b.lineWidth=2;
     INCIDENTS.forEach(i=>{const [x,y]=P(i.lon,i.lat); b.strokeRect(x-5,y-5,10,10)});
     draw(performance.now());
   }
 
   function bez(a,c,b,t){const u=1-t;return[u*u*a[0]+2*u*t*c[0]+t*t*b[0],u*u*a[1]+2*u*t*c[1]+t*t*b[1]]}
   function pickRoute(){
-    let tw=routes.reduce((s,r)=>s+r.share,0), x=Math.random()*tw;
-    for(const r of routes){ if((x-=r.share)<0) return r; }
-    return routes[routes.length-1];
+    const list=activeRoutes(); if(!list.length) return null;
+    let tw=list.reduce((s,r)=>s+r.share,0), x=Math.random()*tw;
+    for(const r of list){ if((x-=r.share)<0) return r; }
+    return list[list.length-1];
   }
   const jit=()=>(Math.random()-.5)*3;
   function pick(){
     if(mode==='radar'&&routes.length){
-      const r=pickRoute();
+      const r=pickRoute(); if(!r) return null;
       return {type:r.layer,a:[r.from.name,r.from.lat+jit(),r.from.lon+jit()],b:[r.to.name,r.to.lat+jit(),r.to.lon+jit()]};
     }
     let tw=TYPES.reduce((s,t)=>s+t.w,0), r=Math.random()*tw, type=TYPES[0];
@@ -457,7 +611,8 @@ const MapView=(function(){
     return {type,a,b};
   }
   function spawn(now){
-    const {type,a,b}=pick();
+    const pk=pick(); if(!pk) return;
+    const {type,a,b}=pk;
     const p0=P(a[2],a[1]), p1=P(b[2],b[1]);
     const dx=p1[0]-p0[0], dy=p1[1]-p0[1], dist=Math.hypot(dx,dy);
     const c=[(p0[0]+p1[0])/2, Math.min(p0[1],p1[1])-dist*.28];
@@ -505,8 +660,20 @@ const MapView=(function(){
   }
 
   // hover tooltips for incident pins
+  function countryAt(x,y){
+    if(mode!=='radar') return null;
+    let best=null, bd=12;
+    countries().forEach(c=>{ const [px,py]=P(c.lon,c.lat), d=Math.hypot(px-x,py-y); if(d<bd){bd=d;best=c;} });
+    return best;
+  }
+  cv.addEventListener('click',e=>{ const r=cv.getBoundingClientRect(); const c=countryAt(e.clientX-r.left,e.clientY-r.top); if(c) setFocus(c.code); });
   function hover(e){
     const r=cv.getBoundingClientRect(), x=e.clientX-r.left, y=e.clientY-r.top;
+    const c=countryAt(x,y);
+    cv.style.cursor=c?'pointer':'default';
+    if(c){ const [px,py]=P(c.lon,c.lat);
+      tip.innerHTML=`<b>${esc(c.name)}</b><br>${c.n} top route${c.n>1?'s':''}. ${c.code===focus?'Click to show all countries':'Click to focus'}`;
+      tip.style.left=px+'px'; tip.style.top=py+'px'; tip.style.display='block'; return; }
     const hits=INCIDENTS.filter(i=>{const [px,py]=P(i.lon,i.lat);return Math.abs(px-x)<9&&Math.abs(py-y)<9});
     if(hits.length){
       const [px,py]=P(hits[0].lon,hits[0].lat);
@@ -531,17 +698,21 @@ const MapView=(function(){
       const sig=next.length?data.generated_at:'';
       if(sig===radarSig) return;
       radarSig=sig; routes=next; mode=next.length?'radar':'sim';
+      const cs=countries();
+      if(focus&&!cs.some(c=>c.code===focus)) focus='';
+      countrySel.innerHTML='<option value="">All countries</option>'+cs.map(c=>`<option value="${esc(c.code)}">${esc(c.name)}</option>`).join('');
+      countrySel.value=focus;
+      document.getElementById('country-panel').hidden=mode!=='radar';
+      renderTrend(mode==='radar'?layers:[]);
       const sub=document.getElementById('map-sub'), notice=document.getElementById('map-notice'), tt=document.getElementById('tally-title');
       if(mode==='radar'){
-        sub.textContent='Arcs replay the busiest attack routes Cloudflare saw in the last 24 hours. Busier routes appear more often. Square markers are real reported incidents.';
+        sub.textContent='Arcs replay the busiest attack routes Cloudflare saw in the last 24 hours. Busier routes appear more often. Click a country, or pick one from the list, to see only its routes.';
         notice.innerHTML=`<b>Real proportions from Cloudflare Radar.</b> Each arc stands for a share of attack traffic, not a single attack. Data from ${ago(data.generated_at)}.`;
-        tt.textContent='Busiest attack routes, last 24 hours';
       } else {
         sub.textContent='Arcs show a simulated stream of attacks between major internet hubs, to give a feel for volume and type. Square markers are real reported incidents.';
         notice.innerHTML='<b>Simulated traffic.</b> Arcs are illustrative, not live sensor data. Markers are real reported incidents.';
-        tt.textContent='Since you opened this page';
       }
-      arcs=[]; rings=[]; feedEl.innerHTML=''; renderLegend(); renderTally();
+      arcs=[]; rings=[]; feedEl.innerHTML=''; updateTitles(); renderLegend(); renderTally(); if(visible) build();
     },
     setIncidents(list){
       document.getElementById('incidents-panel').hidden=!list.length;
