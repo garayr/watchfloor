@@ -61,6 +61,46 @@ NVD_PAUSE = 0.8 if NVD_API_KEY else 6.5   # NVD allows 5 requests / 30 s without
 
 MAX_ALERTS = 120
 
+# Cloudflare Radar attack data for the map. Needs the CLOUDFLARE_API_TOKEN secret.
+RADAR_TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN", "").strip()
+RADAR_BASE = "https://api.cloudflare.com/client/v4/radar"
+RADAR_RANGE = "1d"               # last 24 hours
+RADAR_EVERY_MIN = 60             # Radar data moves slowly; refresh hourly to avoid needless commits
+RADAR_LAYERS = [
+    {"key": "l7", "name": "Web application attacks", "path": "attacks/layer7/top/attacks"},
+    {"key": "l3", "name": "Network DDoS attacks", "path": "attacks/layer3/top/attacks"},
+]
+
+# Approximate country locations (capital or population centre) for drawing arcs.
+COUNTRY_LOC = {
+    "AE": (24.5, 54.4), "AF": (34.5, 69.2), "AL": (41.3, 19.8), "AM": (40.2, 44.5), "AO": (-8.8, 13.2),
+    "AR": (-34.6, -58.4), "AT": (48.2, 16.4), "AU": (-33.9, 151.2), "AZ": (40.4, 49.9), "BA": (43.9, 18.4),
+    "BD": (23.8, 90.4), "BE": (50.8, 4.4), "BG": (42.7, 23.3), "BH": (26.2, 50.6), "BO": (-16.5, -68.1),
+    "BR": (-23.5, -46.6), "BY": (53.9, 27.6), "CA": (43.7, -79.4), "CH": (46.9, 7.4), "CL": (-33.4, -70.6),
+    "CM": (3.9, 11.5), "CN": (39.9, 116.4), "CO": (4.7, -74.1), "CR": (9.9, -84.1), "CY": (35.2, 33.4),
+    "CZ": (50.1, 14.4), "DE": (50.1, 8.7), "DK": (55.7, 12.6), "DO": (18.5, -69.9), "DZ": (36.8, 3.1),
+    "EC": (-0.2, -78.5), "EE": (59.4, 24.8), "EG": (30.0, 31.2), "ES": (40.4, -3.7), "ET": (9.0, 38.7),
+    "FI": (60.2, 24.9), "FR": (48.9, 2.35), "GB": (51.5, -0.1), "GE": (41.7, 44.8), "GH": (5.6, -0.2),
+    "GR": (38.0, 23.7), "GT": (14.6, -90.5), "HK": (22.3, 114.2), "HN": (14.1, -87.2), "HR": (45.8, 16.0),
+    "HU": (47.5, 19.0), "ID": (-6.2, 106.8), "IE": (53.3, -6.3), "IL": (32.1, 34.8), "IN": (19.1, 72.9),
+    "IQ": (33.3, 44.4), "IR": (35.7, 51.4), "IS": (64.1, -21.9), "IT": (41.9, 12.5), "JM": (18.0, -76.8),
+    "JO": (31.9, 35.9), "JP": (35.7, 139.7), "KE": (-1.3, 36.8), "KG": (42.9, 74.6), "KH": (11.6, 104.9),
+    "KR": (37.6, 127.0), "KP": (39.0, 125.75), "KW": (29.4, 48.0), "KZ": (43.2, 76.9), "LA": (18.0, 102.6),
+    "LB": (33.9, 35.5), "LK": (6.9, 79.9), "LT": (54.7, 25.3), "LU": (49.6, 6.1), "LV": (56.9, 24.1),
+    "LY": (32.9, 13.2), "MA": (33.6, -7.6), "MD": (47.0, 28.9), "ME": (42.4, 19.3), "MK": (42.0, 21.4),
+    "MM": (16.8, 96.2), "MN": (47.9, 106.9), "MO": (22.2, 113.5), "MT": (35.9, 14.5), "MU": (-20.2, 57.5),
+    "MX": (19.4, -99.1), "MY": (3.1, 101.7), "MZ": (-25.9, 32.6), "NG": (6.5, 3.4), "NI": (12.1, -86.3),
+    "NL": (52.4, 4.9), "NO": (59.9, 10.8), "NP": (27.7, 85.3), "NZ": (-36.8, 174.8), "OM": (23.6, 58.4),
+    "PA": (9.0, -79.5), "PE": (-12.0, -77.0), "PH": (14.6, 121.0), "PK": (24.9, 67.0), "PL": (52.2, 21.0),
+    "PR": (18.5, -66.1), "PS": (31.9, 35.2), "PT": (38.7, -9.1), "PY": (-25.3, -57.6), "QA": (25.3, 51.5),
+    "RO": (44.4, 26.1), "RS": (44.8, 20.5), "RU": (55.75, 37.6), "SA": (24.7, 46.7), "SC": (-4.6, 55.5),
+    "SE": (59.3, 18.1), "SG": (1.35, 103.8), "SI": (46.1, 14.5), "SK": (48.1, 17.1), "SN": (14.7, -17.5),
+    "SV": (13.7, -89.2), "SY": (33.5, 36.3), "TH": (13.75, 100.5), "TN": (36.8, 10.2), "TR": (41.0, 29.0),
+    "TT": (10.7, -61.5), "TW": (25.0, 121.5), "TZ": (-6.8, 39.3), "UA": (50.45, 30.5), "UG": (0.3, 32.6),
+    "US": (39.0, -77.5), "UY": (-34.9, -56.2), "UZ": (41.3, 69.3), "VE": (10.5, -66.9), "VN": (21.0, 105.8),
+    "YE": (15.4, 44.2), "ZA": (-26.2, 28.0), "ZM": (-15.4, 28.3), "ZW": (-17.8, 31.0),
+}
+
 NOW = datetime.now(timezone.utc)
 status = []   # per-source results for meta.json
 
@@ -379,6 +419,69 @@ def load_news():
     return [g for g in groups if g["items"]]
 
 
+# ---------------------------------------------------------------- Cloudflare Radar
+
+def radar_is_fresh():
+    path = OUT_DIR / "attacks.json"
+    if not path.exists():
+        return False
+    try:
+        ts = json.loads(path.read_text()).get("generated_at")
+        return bool(ts) and NOW - datetime.fromisoformat(ts) < timedelta(minutes=RADAR_EVERY_MIN - 5)
+    except (json.JSONDecodeError, ValueError):
+        return False
+
+
+def load_radar():
+    """Top origin -> target attack pairs from Cloudflare Radar.
+    Values are each pair's share (%) of all attacks Cloudflare saw in the period."""
+    if not RADAR_TOKEN:
+        log("SKIP Cloudflare Radar: no CLOUDFLARE_API_TOKEN secret set")
+        return None
+    if radar_is_fresh():
+        log("SKIP Cloudflare Radar: data is less than an hour old")
+        return None
+    layers, errors, unknown = [], [], set()
+    for layer in RADAR_LAYERS:
+        q = urllib.parse.urlencode({"dateRange": RADAR_RANGE, "limit": 25, "format": "json"})
+        try:
+            data = json.loads(fetch(f"{RADAR_BASE}/{layer['path']}?{q}",
+                                    headers={"Authorization": f"Bearer {RADAR_TOKEN}"}, tries=2))
+            if not data.get("success", True):
+                raise RuntimeError("; ".join(e.get("message", "") for e in data.get("errors", [])) or "request failed")
+            rows = (data.get("result") or {}).get("top_0") or []
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"{layer['name']}: {str(e)[:150]}")
+            continue
+        pairs = []
+        for r in rows:
+            o = (r.get("originCountryAlpha2") or r.get("origin_country_alpha2") or "").upper()
+            t = (r.get("targetCountryAlpha2") or r.get("target_country_alpha2") or "").upper()
+            try:
+                share = float(r.get("value", 0))
+            except (TypeError, ValueError):
+                continue
+            if o not in COUNTRY_LOC or t not in COUNTRY_LOC:
+                unknown.update(c for c in (o, t) if c and c not in COUNTRY_LOC)
+                continue
+            if o == t or share <= 0:
+                continue  # an arc needs two different places
+            pairs.append({
+                "from": {"code": o, "name": r.get("originCountryName") or o, "lat": COUNTRY_LOC[o][0], "lon": COUNTRY_LOC[o][1]},
+                "to": {"code": t, "name": r.get("targetCountryName") or t, "lat": COUNTRY_LOC[t][0], "lon": COUNTRY_LOC[t][1]},
+                "share": round(share, 3),
+            })
+        layers.append({"key": layer["key"], "name": layer["name"], "pairs": pairs})
+    if unknown:
+        log(f"  Radar: no map location for {', '.join(sorted(unknown))} (add them to COUNTRY_LOC)")
+    ok = any(l["pairs"] for l in layers)
+    record("Cloudflare Radar", ok, sum(len(l["pairs"]) for l in layers), "; ".join(errors) or None)
+    if not ok:
+        return None
+    return {"generated_at": NOW.isoformat(timespec="seconds"), "range": RADAR_RANGE,
+            "source": "Cloudflare Radar", "layers": layers}
+
+
 # ---------------------------------------------------------------- main
 
 def write_json(name, obj):
@@ -415,6 +518,7 @@ def main():
     alerts = alerts[:MAX_ALERTS]
 
     news = load_news()
+    radar = load_radar()
 
     alert_sources_ok = any(s["ok"] for s in status if s["name"] in ("CISA KEV", *[f["name"] for f in ADVISORY_FEEDS]))
     news_sources_ok = any(s["ok"] for s in status if s["name"] in [f["name"] for f in NEWS_FEEDS])
@@ -426,6 +530,8 @@ def main():
     # Only touch alerts/news when content changed, so the workflow can skip empty commits.
     write_json("alerts.json", {"alerts": alerts})
     write_json("news.json", {"groups": news})
+    if radar:
+        write_json("attacks.json", radar)
     write_json("meta.json", {"generated_at": NOW.isoformat(timespec="seconds"), "sources": status})
 
     failed = [s["name"] for s in status if not s["ok"]]
