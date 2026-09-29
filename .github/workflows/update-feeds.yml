@@ -2,8 +2,8 @@ name: Update feeds
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
-  workflow_dispatch:
+    - cron: "*/15 * * * *"   # every 15 minutes (GitHub may run it a few minutes late)
+  workflow_dispatch:          # lets you press "Run workflow" by hand
 
 permissions:
   contents: write
@@ -25,13 +25,14 @@ jobs:
 
       - name: Fetch feeds
         env:
-          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}                     # optional
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}   # for the attack map
         run: python scripts/fetch_feeds.py
 
-      - name: Commit if alerts or news changed
+      - name: Commit if alerts, news or map data changed
         run: |
-          if git diff --quiet -- docs/data/alerts.json docs/data/news.json; then
-            echo "No new alerts or news. Nothing to commit."
+          if [ -z "$(git status --porcelain -- docs/data/alerts.json docs/data/news.json docs/data/attacks.json)" ]; then
+            echo "No new alerts, news or map data. Nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
