@@ -75,7 +75,20 @@ RADAR_LAYERS = [
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
 NOTIFIED_FILE = ROOT / "cache" / "notified.json"
-NOTIFY_MAX_PER_RUN = 5           # more than this in one run becomes a single summary message
+NOTIFY_MAX_PER_RUN = 5
+DIGEST_FILE = ROOT / "cache" / "digest.json"
+DIGEST_WEEKDAY = int(os.environ.get("DIGEST_WEEKDAY", "0"))      # 0 = Monday
+DIGEST_HOUR_UTC = int(os.environ.get("DIGEST_HOUR_UTC", "7"))    # 7 UTC = 8am UK summer time, 7am winter
+
+
+def dashboard_url():
+    if os.environ.get("DASHBOARD_URL"):
+        return os.environ["DASHBOARD_URL"]
+    repo = os.environ.get("GITHUB_REPOSITORY", "")          # set automatically by GitHub Actions
+    if "/" in repo:
+        owner, name = repo.split("/", 1)
+        return f"https://{owner.lower()}.github.io/{name}/"
+    return None           # more than this in one run becomes a single summary message
 
 # Approximate country locations (capital or population centre) for drawing arcs.
 COUNTRY_LOC = {
@@ -235,6 +248,8 @@ def load_kev():
             "date": v["dateAdded"],
             "src": "CISA",
             "vendor": " ".join(x for x in [v.get("vendorProject", ""), v.get("product", "")] if x).strip(),
+            "vendor_name": v.get("vendorProject", ""),
+            "product": v.get("product", ""),
             "title": v.get("vulnerabilityName") or cve,
             "detail": clean_text(v.get("shortDescription", ""), 400),
             "todo": clean_text(v.get("requiredAction", ""), 300),
@@ -409,6 +424,7 @@ def load_news():
             seen.update({key, it["link"]})
             summary = clean_text(it["summary"], SNIPPET_CHARS)
             stories.append({
+                "_text": f"{it['title']} {clean_text(it['summary'])}",
                 "title": it["title"],
                 "summary": summary,
                 "source": feed["name"],
@@ -436,6 +452,33 @@ def radar_is_fresh():
         return bool(ts) and NOW - datetime.fromisoformat(ts) < timedelta(minutes=RADAR_EVERY_MIN - 5)
     except (json.JSONDecodeError, ValueError):
         return False
+
+
+def radar_trend(path):
+    """Hourly attack volume for the last 7 days, scaled 0-1 (1 = busiest hour)."""
+    q = urllib.parse.urlencode({"dateRange": "7d", "aggInterval": "1h", "normalization": "MIN0_MAX", "format": "json"})
+    try:
+        data = json.loads(fetch(f"{RADAR_BASE}/{path}?{q}", headers={"Authorization": f"Bearer {RADAR_TOKEN}"}, tries=2))
+        result = data.get("result") or {}
+        serie = next((v for k, v in result.items() if k.startswith("serie")), None) or {}
+        ts, vals = serie.get("timestamps") or [], serie.get("values") or []
+        points = []
+        for t, v in zip(ts, vals):
+            try:
+                points.append((t, float(v)))
+            except (TypeError, ValueError):
+                continue
+        if len(points) < 48:
+            return None
+        values = [v for _, v in points]
+        last_day, before = values[-24:], values[:-24]
+        change = None
+        if before and sum(before) > 0:
+            change = round((sum(last_day) / len(last_day)) / (sum(before) / len(before)) * 100 - 100, 1)
+        return {"t": [t for t, _ in points], "v": [round(v, 4) for v in values], "change": change}
+    except Exception as e:  # noqa: BLE001
+        log(f"  Radar trend failed for {path}: {e}")
+        return None
 
 
 def load_radar():
@@ -480,6 +523,10 @@ def load_radar():
         layers.append({"key": layer["key"], "name": layer["name"], "pairs": pairs})
     if unknown:
         log(f"  Radar: no map location for {', '.join(sorted(unknown))} (add them to COUNTRY_LOC)")
+    for layer, cfg in zip(layers, [l for l in RADAR_LAYERS if l["name"] in {x["name"] for x in layers}]):
+        trend = radar_trend(cfg["path"].replace("/top/attacks", "/timeseries"))
+        if trend:
+            layer["trend"] = trend
     ok = any(l["pairs"] for l in layers)
     record("Cloudflare Radar", ok, sum(len(l["pairs"]) for l in layers), "; ".join(errors) or None)
     if not ok:
@@ -554,6 +601,101 @@ def notify_new_critical(alerts):
     NOTIFIED_FILE.write_text(json.dumps({"ids": ids[:500]}, indent=1))
 
 
+# ---------------------------------------------------------------- linking news to alerts
+
+GENERIC_WORDS = {
+    "server", "servers", "multiple", "products", "product", "enterprise", "edition", "community", "windows",
+    "linux", "kernel", "management", "manager", "appliance", "appliances", "gateway", "firewall", "web",
+    "client", "platform", "security", "cloud", "network", "service", "services", "system", "systems",
+    "office", "center", "centre", "console", "software", "application", "applications", "plugin", "the",
+}
+
+
+def product_words(product):
+    return {w for w in re.findall(r"[a-z0-9][a-z0-9\-]{3,}", product.lower()) if w not in GENERIC_WORDS}
+
+
+def link_news(alerts, groups):
+    """Tag alerts that the news is talking about, and news that mentions an alert.
+    A story matches if it names the CVE, or names both the vendor and a distinctive
+    product word (for example "Citrix" and "NetScaler")."""
+    stories = [s for g in groups for s in g["items"]]
+    for s in stories:
+        s["alerts"] = []
+    linked = 0
+    for a in alerts:
+        matches = []
+        vendor = (a.get("vendor_name") or "").lower()
+        words = product_words(a.get("product") or "")
+        for s in stories:
+            text = s["_text"].lower()
+            hit = any(c.lower() in text for c in a.get("cves", []))
+            if not hit and vendor and len(vendor) > 2 and words:
+                hit = re.search(rf"\b{re.escape(vendor)}\b", text) and any(re.search(rf"\b{re.escape(w)}\b", text) for w in words)
+            if hit:
+                matches.append(s)
+        if matches:
+            linked += 1
+            a["news"] = [{"title": s["title"], "url": s["url"], "source": s["source"], "date": s["date"]}
+                         for s in sorted(matches, key=lambda s: s["date"] or "", reverse=True)[:3]]
+            for s in matches:
+                if a["id"] not in s["alerts"] and len(s["alerts"]) < 4:
+                    s["alerts"].append(a["id"])
+    for s in stories:
+        s.pop("_text", None)
+        if not s["alerts"]:
+            s.pop("alerts")
+    log(f"linked {linked} alerts to news stories")
+
+
+# ---------------------------------------------------------------- weekly digest
+
+def send_digest(alerts, groups):
+    """A Monday-morning phone summary of the past week."""
+    if not NTFY_TOPIC or NOW.weekday() != DIGEST_WEEKDAY or NOW.hour < DIGEST_HOUR_UTC:
+        return
+    week = NOW.strftime("%G-W%V")
+    try:
+        last = json.loads(DIGEST_FILE.read_text()).get("week") if DIGEST_FILE.exists() else None
+    except json.JSONDecodeError:
+        last = None
+    if last == week:
+        return
+    since = (NOW - timedelta(days=7)).strftime("%Y-%m-%d")
+    recent = [a for a in alerts if a["date"] >= since]
+    crit = [a for a in recent if a["sev"] == "critical"]
+    high = [a for a in recent if a["sev"] == "high"]
+    lines = [f"{len(crit)} critical and {len(high)} high alerts in the last 7 days."]
+    if crit:
+        lines.append("")
+        lines.append("Critical:")
+        lines += [f"- {a['title']}" for a in crit[:5]]
+        if len(crit) > 5:
+            lines.append(f"- and {len(crit) - 5} more")
+    in_news = [a for a in recent if a.get("news") and a["sev"] in ("critical", "high")]
+    if in_news:
+        lines.append("")
+        lines.append("Most talked about:")
+        lines += [f"- {a['title']}" for a in in_news[:3]]
+    top = sorted((s for g in groups for s in g["items"]), key=lambda s: s["date"] or "", reverse=True)[:3]
+    if top:
+        lines.append("")
+        lines.append("Headlines:")
+        lines += [f"- {s['title']}" for s in top]
+    msg = {"topic": NTFY_TOPIC, "title": f"Your week in cyber, to {NOW.strftime('%-d %b')}",
+           "message": "\n".join(lines)[:3500], "priority": 3, "tags": ["newspaper"]}
+    url = dashboard_url()
+    if url:
+        msg["click"] = url
+    try:
+        post_json(NTFY_SERVER, msg)
+        DIGEST_FILE.parent.mkdir(parents=True, exist_ok=True)
+        DIGEST_FILE.write_text(json.dumps({"week": week, "sent_at": NOW.isoformat(timespec="seconds")}))
+        record("Weekly digest", True, 1)
+    except Exception as e:  # noqa: BLE001
+        record("Weekly digest", False, 0, str(e)[:200])
+
+
 # ---------------------------------------------------------------- main
 
 def write_json(name, obj):
@@ -590,9 +732,11 @@ def main():
     alerts = alerts[:MAX_ALERTS]
 
     news = load_news()
+    link_news(alerts, news)
     radar = load_radar()
     if any(s["ok"] for s in status if s["name"] == "CISA KEV"):
         notify_new_critical(alerts)
+    send_digest(alerts, news)
 
     alert_sources_ok = any(s["ok"] for s in status if s["name"] in ("CISA KEV", *[f["name"] for f in ADVISORY_FEEDS]))
     news_sources_ok = any(s["ok"] for s in status if s["name"] in [f["name"] for f in NEWS_FEEDS])
