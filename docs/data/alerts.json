@@ -229,6 +229,24 @@
    "sev": "high"
   },
   {
+   "id": "CVE-2025-39682",
+   "date": "2026-09-18",
+   "src": "CISA",
+   "vendor": "Linux Kernel",
+   "title": "Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
+   "detail": "Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended recvmsg() record-type handling, potentially causing subsequent TLS records to be processed using incorrect zero-copy and queuing assumptions. The impacted product(s) could be end-of-life (EoL) and/or…",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-09-21",
+   "ransomware": false,
+   "cves": [
+    "CVE-2025-39682"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
+   "kev": true,
+   "cvss": 9.8,
+   "sev": "critical"
+  },
+  {
    "id": "CVE-2025-39964",
    "date": "2026-09-18",
    "src": "CISA",
@@ -243,6 +261,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39964",
    "kev": true,
+   "cvss": 7.8,
    "sev": "high"
   },
   {
@@ -260,40 +279,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
    "kev": true,
-   "sev": "high"
-  },
-  {
-   "id": "CVE-2025-39682",
-   "date": "2026-09-18",
-   "src": "CISA",
-   "vendor": "Linux Kernel",
-   "title": "Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
-   "detail": "Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended recvmsg() record-type handling, potentially causing subsequent TLS records to be processed using incorrect zero-copy and queuing assumptions. The impacted product(s) could be end-of-life (EoL) and/or…",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-21",
-   "ransomware": false,
-   "cves": [
-    "CVE-2025-39682"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
-   "kev": true,
-   "sev": "high"
-  },
-  {
-   "id": "CVE-2026-58704",
-   "date": "2026-09-16",
-   "src": "CISA",
-   "vendor": "Google Pixel",
-   "title": "Google Pixel Improper Authorization Vulnerability",
-   "detail": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-19",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-58704"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58704",
-   "kev": true,
+   "cvss": 8.8,
    "sev": "high"
   },
   {
@@ -311,6 +297,25 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
    "kev": true,
+   "cvss": 10.0,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-58704",
+   "date": "2026-09-16",
+   "src": "CISA",
+   "vendor": "Google Pixel",
+   "title": "Google Pixel Improper Authorization Vulnerability",
+   "detail": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-09-19",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-58704"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58704",
+   "kev": true,
+   "cvss": 8.8,
    "sev": "high"
   },
   {
@@ -328,6 +333,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87886",
    "kev": true,
+   "cvss": 7.8,
    "sev": "high"
   },
   {
@@ -369,7 +375,8 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461",
    "kev": true,
-   "sev": "high"
+   "cvss": 9.8,
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-84869",
@@ -386,7 +393,26 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84869",
    "kev": true,
-   "sev": "high"
+   "cvss": 9.9,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-85706",
+   "date": "2026-09-11",
+   "src": "CISA",
+   "vendor": "GitLab Community Edition and Enterprise Edition",
+   "title": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
+   "detail": "GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing authentication enforcement in the repository commits API.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-09-14",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-85706"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
+   "kev": true,
+   "cvss": 10.0,
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-42016",
@@ -403,6 +429,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42016",
    "kev": true,
+   "cvss": 8.1,
    "sev": "high"
   },
   {
@@ -420,23 +447,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
    "kev": true,
-   "sev": "high"
-  },
-  {
-   "id": "CVE-2026-85706",
-   "date": "2026-09-11",
-   "src": "CISA",
-   "vendor": "GitLab Community Edition and Enterprise Edition",
-   "title": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
-   "detail": "GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing authentication enforcement in the repository commits API.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-14",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-85706"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
-   "kev": true,
+   "cvss": 7.5,
    "sev": "high"
   },
   {
@@ -454,7 +465,8 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
    "kev": true,
-   "sev": "high"
+   "cvss": 9.2,
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-67277",
