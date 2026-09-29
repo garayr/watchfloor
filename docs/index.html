@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Watchfloor: cyber security alerts, map and news</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EDF0F4; --surface:#FFFFFF; --ink:#16202E; --muted:#556275; --rule:#C9D1DC;
+  --land:#A3B0C2; --sea:#E3E8EE;
+  --critical:#C8102E; --high:#C45F00; --medium:#2E68AE; --info:#5E6B7D;
+  --t-exploit:#C8102E; --t-malware:#C98A00; --t-phish:#7A4FD0; --t-ddos:#0B8F9C; --t-brute:#2E68AE;
+  --focus:#2E68AE;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#101824; --surface:#172231; --ink:#E4EAF1; --muted:#95A3B5; --rule:#2A3949;
+    --land:#3F5068; --sea:#0C131D;
+    --critical:#FF5B70; --high:#FF9E3D; --medium:#6FA9F2; --info:#95A3B5;
+    --t-exploit:#FF5B70; --t-malware:#F2C14E; --t-phish:#AE8CFF; --t-ddos:#3FD0DC; --t-brute:#6FA9F2;
+    --focus:#6FA9F2; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#101824; --surface:#172231; --ink:#E4EAF1; --muted:#95A3B5; --rule:#2A3949;
+  --land:#3F5068; --sea:#0C131D;
+  --critical:#FF5B70; --high:#FF9E3D; --medium:#6FA9F2; --info:#95A3B5;
+  --t-exploit:#FF5B70; --t-malware:#F2C14E; --t-phish:#AE8CFF; --t-ddos:#3FD0DC; --t-brute:#6FA9F2;
+  --focus:#6FA9F2; color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Archivo",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-size:16px;line-height:1.5;font-variation-settings:"wdth" 100;-webkit-text-size-adjust:100%}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* Header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--paper);border-bottom:1px solid var(--rule)}
+.bar{display:flex;align-items:flex-end;gap:24px;flex-wrap:wrap;padding-top:18px}
+.brand{font-weight:800;font-variation-settings:"wdth" 62;font-size:34px;line-height:1;letter-spacing:-.01em;margin:0 0 12px}
+.brand span{display:block;font-size:13px;font-weight:500;font-variation-settings:"wdth" 100;color:var(--muted);letter-spacing:0;margin-top:6px}
+.stamp{margin-left:auto;margin-bottom:14px;font-size:13px;color:var(--muted);text-align:right}
+.stamp b{color:var(--ink);font-weight:600}
+[role="tablist"]{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+[role="tab"]{appearance:none;border:0;background:none;color:var(--muted);font:inherit;font-weight:600;
+  font-variation-settings:"wdth" 88;font-size:17px;padding:10px 14px 12px;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}
+[role="tab"]:hover{color:var(--ink)}
+[role="tab"][aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+.count{display:inline-block;min-width:22px;padding:0 6px;margin-left:6px;border-radius:11px;background:var(--rule);color:var(--ink);font-size:12px;text-align:center;line-height:20px}
+
+main{padding:28px 0 60px}
+[role="tabpanel"][hidden]{display:none}
+.lede{font-weight:700;font-variation-settings:"wdth" 75;font-size:clamp(26px,4vw,40px);line-height:1.08;letter-spacing:-.01em;max-width:22ch;margin:0 0 10px}
+.sub{color:var(--muted);max-width:68ch;margin:0 0 24px}
+
+/* Filters */
+.filters{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin-bottom:18px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{appearance:none;font:inherit;font-size:14px;border:1px solid var(--rule);background:var(--surface);color:var(--ink);
+  padding:5px 12px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.flabel{font-size:13px;color:var(--muted)}
+
+/* Alerts */
+.alerts{display:grid;gap:10px}
+.alert{background:var(--surface);border:1px solid var(--rule);border-left:5px solid var(--info);padding:16px 20px;display:grid;
+  grid-template-columns:150px 1fr;gap:4px 24px}
+.alert.critical{border-left-color:var(--critical)}
+.alert.high{border-left-color:var(--high)}
+.alert.medium{border-left-color:var(--medium)}
+.ameta{grid-row:span 4;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:2px}
+.sev{font-weight:700;font-size:14px;color:var(--info)}
+.critical .sev{color:var(--critical)} .high .sev{color:var(--high)} .medium .sev{color:var(--medium)}
+.alert h3{margin:0;font-size:18px;line-height:1.3;font-weight:650;font-variation-settings:"wdth" 92}
+.alert p{margin:4px 0 0;max-width:72ch}
+.alert .do{font-size:15px}
+.alert .do b{font-weight:650}
+.cves{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.cve{font-size:12.5px;font-variant-numeric:tabular-nums;border:1px solid var(--rule);padding:1px 7px;border-radius:3px;color:var(--muted)}
+.src-link{font-size:14px;margin-top:8px;display:inline-block}
+.warn{color:var(--high)}
+.flag{font-weight:600;color:var(--critical)}
+.empty{padding:30px;text-align:center;color:var(--muted);border:1px dashed var(--rule)}
+
+/* Map */
+.map-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:20px;align-items:start}
+.map-card{background:var(--surface);border:1px solid var(--rule);padding:14px}
+.map-head{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-bottom:10px}
+.notice{font-size:13px;color:var(--muted);flex:1 1 280px}
+.notice b{color:var(--ink);font-weight:600}
+.btn{appearance:none;font:inherit;font-size:14px;font-weight:600;border:1px solid var(--ink);background:none;color:var(--ink);padding:5px 14px;border-radius:4px;cursor:pointer}
+.map-wrap{position:relative;background:var(--sea);border-radius:4px;overflow:hidden}
+.map-wrap canvas{display:block;width:100%;height:auto}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--paper);font-size:13px;line-height:1.35;padding:7px 10px;border-radius:4px;max-width:240px;transform:translate(-50%,calc(-100% - 12px));display:none}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:10px;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.legend .pin i{border-radius:0;background:none;border:2px solid var(--ink);width:10px;height:10px}
+aside.side{display:grid;gap:16px}
+.panel{background:var(--surface);border:1px solid var(--rule);padding:14px 16px}
+.panel h3{margin:0 0 8px;font-size:15px;font-weight:700;font-variation-settings:"wdth" 88}
+.tally{display:grid;grid-template-columns:1fr auto;gap:4px 10px;font-size:14px;font-variant-numeric:tabular-nums}
+.tally span:nth-child(even){text-align:right;font-weight:600}
+.feed{list-style:none;margin:0;padding:0;font-size:13px;font-variant-numeric:tabular-nums;max-height:260px;overflow:hidden}
+.feed li{display:grid;grid-template-columns:62px 1fr;gap:6px;padding:4px 0;border-top:1px solid var(--rule)}
+.feed li:first-child{border-top:0}
+.feed time{color:var(--muted)}
+.feed .ty{font-weight:600}
+.incidents{list-style:none;margin:0;padding:0;font-size:14px}
+.incidents li{padding:6px 0;border-top:1px solid var(--rule)}
+.incidents li:first-child{border-top:0}
+.incidents small{display:block;color:var(--muted);font-size:12.5px}
+
+/* News */
+.news-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 48px}
+.news-group h2{font-size:22px;font-weight:700;font-variation-settings:"wdth" 75;margin:0 0 4px;padding-bottom:8px;border-bottom:2px solid var(--ink)}
+.story{padding:14px 0;border-bottom:1px solid var(--rule)}
+.story h3{margin:0;font-size:18px;line-height:1.3;font-weight:650;font-variation-settings:"wdth" 92}
+.story h3 a{text-decoration:none}
+.story h3 a:hover{text-decoration:underline}
+.story p{font-family:"Newsreader",Georgia,"Times New Roman",serif;font-size:17px;line-height:1.55;margin:6px 0 6px;max-width:62ch}
+.story .by{font-size:13px;color:var(--muted)}
+
+footer{border-top:1px solid var(--rule);padding:18px 0 30px;font-size:13px;color:var(--muted)}
+footer p{margin:0 0 6px;max-width:80ch}
+
+@media (max-width:860px){
+  .map-layout{grid-template-columns:1fr}
+  .news-grid{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+  .wrap{padding:0 14px}
+  .stamp{margin-left:0;text-align:left;width:100%;margin-bottom:4px}
+  .bar{gap:0}
+  .alert{grid-template-columns:1fr;padding:14px 16px}
+  .ameta{grid-row:auto;flex-direction:row;flex-wrap:wrap;gap:4px 12px}
+  [role="tab"]{font-size:16px;padding:10px 10px 12px}
+}
+@media (prefers-reduced-motion: reduce){ *{scroll-behavior:auto!important} }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="bar">
+      <h1 class="brand">Watchfloor<span>Cyber security alerts, attack map and news</span></h1>
+      <p class="stamp" id="stamp">Loading latest data…</p>
+    </div>
+    <div role="tablist" aria-label="Sections">
+      <button role="tab" id="tab-alerts" aria-controls="panel-alerts" aria-selected="true">Live alerts<span class="count" id="alert-count"></span></button>
+      <button role="tab" id="tab-map" aria-controls="panel-map" aria-selected="false" tabindex="-1">Global map</button>
+      <button role="tab" id="tab-news" aria-controls="panel-news" aria-selected="false" tabindex="-1">News roundup</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section role="tabpanel" id="panel-alerts" aria-labelledby="tab-alerts">
+    <h2 class="lede" id="alerts-lede">Latest alerts</h2>
+    <p class="sub">Flaws CISA has confirmed are being exploited, plus NCSC and CISA advisories, from the last 30 days. Everything on CISA’s list is under attack. Critical means ransomware gangs use it, it scores 9 or more out of 10, or exploitation is very likely to spread.</p>
+    <div class="filters">
+      <div class="chips" id="sev-chips" role="group" aria-label="Filter by severity"></div>
+      <div class="chips" id="src-chips" role="group" aria-label="Filter by source"></div>
+    </div>
+    <div class="alerts" id="alerts"></div>
+  </section>
+
+  <section role="tabpanel" id="panel-map" aria-labelledby="tab-map" hidden>
+    <h2 class="lede">Attack traffic across the globe</h2>
+    <p class="sub">Arcs show a simulated stream of attacks between major internet hubs, to give a feel for volume and type. Square markers are real reported incidents.</p>
+    <div class="map-layout">
+      <div class="map-card">
+        <div class="map-head">
+          <p class="notice"><b>Simulated traffic.</b> Arcs are illustrative, not live sensor data. Markers are real reported incidents.</p>
+          <button class="btn" id="pause" type="button">Pause</button>
+        </div>
+        <div class="map-wrap" id="map-wrap">
+          <canvas id="map" aria-label="World map with simulated attack arcs and markers for reported incidents" role="img"></canvas>
+          <div class="tip" id="tip"></div>
+        </div>
+        <div class="legend" id="legend"></div>
+      </div>
+      <aside class="side">
+        <div class="panel">
+          <h3>Since you opened this page</h3>
+          <div class="tally" id="tally"></div>
+        </div>
+        <div class="panel">
+          <h3>Attack stream</h3>
+          <ul class="feed" id="feed" aria-live="off"></ul>
+        </div>
+        <div class="panel" id="incidents-panel" hidden>
+          <h3>Reported incidents on the map</h3>
+          <ul class="incidents" id="incidents"></ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section role="tabpanel" id="panel-news" aria-labelledby="tab-news" hidden>
+    <h2 class="lede">The last seven days in cyber</h2>
+    <p class="sub">Headlines from the main security news sites, sorted by theme. Each links to the full report.</p>
+    <div class="news-grid" id="news"></div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Sources: CISA Known Exploited Vulnerabilities catalogue, CISA and NCSC advisories, BleepingComputer, The Hacker News, SecurityWeek. Severity scores use NIST NVD (CVSS) and FIRST (EPSS). Data refreshes about every 15 minutes.</p>
+    <p id="source-status"></p>
+    <p>Always confirm fixes and affected versions against the vendor’s own advisory before acting.</p>
+  </div>
+</footer>
+
+<script>
+/* ---------------- Data (loaded from data/*.json) ---------------- */
+let ALERTS=[], NEWS=[], INCIDENTS=[], META=null, loadError=false;
+const REFRESH_MS=5*60*1000;
+async function getJSON(name){
+  const r=await fetch(`data/${name}?t=${Date.now()}`,{cache:'no-store'});
+  if(!r.ok) throw new Error(`${name}: ${r.status}`);
+  return r.json();
+}
+async function loadAll(){
+  const [a,n,m,i]=await Promise.allSettled([getJSON('alerts.json'),getJSON('news.json'),getJSON('meta.json'),getJSON('incidents.json')]);
+  loadError=a.status==='rejected'&&n.status==='rejected';
+  if(a.status==='fulfilled') ALERTS=a.value.alerts||[];
+  if(n.status==='fulfilled') NEWS=n.value.groups||[];
+  if(m.status==='fulfilled') META=m.value;
+  INCIDENTS=(i.status==='fulfilled'&&i.value.incidents)||[];
+  renderStamp(); renderAlerts(); renderNews(); MapView.setIncidents(INCIDENTS);
+}
+function ago(iso){
+  const mins=Math.round((Date.now()-new Date(iso))/60000);
+  if(mins<1) return 'just now'; if(mins<60) return `${mins} min ago`;
+  const h=Math.round(mins/60); if(h<48) return `${h} hour${h>1?'s':''} ago`;
+  return new Date(iso).toLocaleDateString('en-GB',{day:'numeric',month:'short'});
+}
+function renderStamp(){
+  const el=document.getElementById('stamp'), st=document.getElementById('source-status');
+  if(loadError){ el.innerHTML='<span class="warn">Couldn’t load the data files.</span><br>Check the feed update has run at least once.'; return; }
+  if(!META||!META.generated_at){ el.innerHTML='Waiting for the first update.<br>It runs every 15 minutes.'; st.textContent=''; return; }
+  const failed=(META.sources||[]).filter(s=>!s.ok);
+  el.innerHTML=`Updated <b>${ago(META.generated_at)}</b><br>`+(failed.length?`<span class="warn">${failed.length} source${failed.length>1?'s':''} failed last run</span>`:'All sources responding');
+  st.textContent=failed.length?`Not responding on the last run: ${failed.map(f=>f.name).join(', ')}. Their previous items may be missing until they recover.`:'';
+}
+
+/* ---------------- Tabs ---------------- */
+const tabs=[...document.querySelectorAll('[role="tab"]')];
+function selectTab(tab, focus){
+  tabs.forEach(t=>{
+    const on=t===tab;
+    t.setAttribute('aria-selected',on); t.tabIndex=on?0:-1;
+    document.getElementById(t.getAttribute('aria-controls')).hidden=!on;
+  });
+  if(focus) tab.focus();
+  try{localStorage.setItem('wf-tab',tab.id)}catch(e){}
+  MapView.setVisible(tab.id==='tab-map');
+}
+tabs.forEach((t,i)=>{
+  t.addEventListener('click',()=>selectTab(t));
+  t.addEventListener('keydown',e=>{
+    let j=null;
+    if(e.key==='ArrowRight') j=(i+1)%tabs.length;
+    if(e.key==='ArrowLeft') j=(i-1+tabs.length)%tabs.length;
+    if(e.key==='Home') j=0; if(e.key==='End') j=tabs.length-1;
+    if(j!==null){e.preventDefault();selectTab(tabs[j],true)}
+  });
+});
+
+/* ---------------- Alerts ---------------- */
+const SEV=["critical","high","medium","info"], SEVNAME={critical:"Critical",high:"High",medium:"Medium",info:"Info"};
+const SRC=["CISA","NCSC"];
+const state={sev:new Set(),src:new Set()};
+const fmt=d=>d?new Date(d.length===10?d+"T12:00:00":d).toLocaleDateString('en-GB',{day:'numeric',month:'short'}):'';
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:'#';
+function chips(el,list,set,label){
+  el.innerHTML=`<span class="flabel">${label}</span>`+list.map(v=>`<button class="chip" type="button" aria-pressed="false" data-v="${v}">${SEVNAME[v]||v}</button>`).join('');
+  el.addEventListener('click',e=>{
+    const b=e.target.closest('.chip'); if(!b) return;
+    const v=b.dataset.v; set.has(v)?set.delete(v):set.add(v);
+    b.setAttribute('aria-pressed',set.has(v)); renderAlerts();
+  });
+}
+chips(document.getElementById('sev-chips'),SEV,state.sev,'Severity');
+chips(document.getElementById('src-chips'),SRC,state.src,'Source');
+function renderAlerts(){
+  const crit=ALERTS.filter(a=>a.sev==='critical'), high=ALERTS.filter(a=>a.sev==='high');
+  const countEl=document.getElementById('alert-count');
+  countEl.textContent=ALERTS.length?crit.length+high.length:''; countEl.title='Critical and high alerts';
+  const lede=document.getElementById('alerts-lede');
+  lede.textContent=!ALERTS.length?'No alerts loaded yet'
+    : crit.length?`${crit.length} critical and ${high.length} high alerts in the last 30 days`
+    : `${high.length} high alerts in the last 30 days`;
+  const list=ALERTS.filter(a=>(!state.sev.size||state.sev.has(a.sev))&&(!state.src.size||state.src.has(a.src)));
+  const el=document.getElementById('alerts');
+  if(!ALERTS.length){el.innerHTML=`<p class="empty">${loadError?'The alerts file couldn’t be loaded.':'No alerts yet. They appear after the first feed update runs.'}</p>`;return}
+  if(!list.length){el.innerHTML='<p class="empty">No alerts match these filters. Clear a filter to see more.</p>';return}
+  el.innerHTML=list.map(a=>{
+    const facts=[];
+    if(a.ransomware) facts.push('<span class="flag">Used by ransomware</span>');
+    if(a.cvss!=null) facts.push(`CVSS ${Number(a.cvss).toFixed(1)}`);
+    if(a.epss!=null) facts.push(`EPSS ${Math.round(a.epss*100)}%`);
+    if(a.due) facts.push(`US federal deadline ${fmt(a.due)}`);
+    return `
+    <article class="alert ${esc(a.sev)}">
+      <div class="ameta"><span class="sev">${SEVNAME[a.sev]||esc(a.sev)}</span><time datetime="${esc(a.date)}">${fmt(a.date)}</time><span>${esc(a.src)}</span><span>${esc(a.vendor)}</span>${facts.map(f=>`<span>${f}</span>`).join('')}</div>
+      <h3>${esc(a.title)}</h3>
+      ${a.detail?`<p>${esc(a.detail)}</p>`:''}
+      ${a.todo?`<p class="do"><b>What to do:</b> ${esc(a.todo)}</p>`:''}
+      <div>${(a.cves||[]).length?`<div class="cves">${a.cves.map(c=>`<span class="cve">${esc(c)}</span>`).join('')}</div>`:''}
+      <a class="src-link" href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${a.kev?'View the CVE record':'Read the advisory'}</a></div>
+    </article>`}).join('');
+}
+
+/* ---------------- News ---------------- */
+function renderNews(){
+  const el=document.getElementById('news');
+  if(!NEWS.length){el.innerHTML=`<p class="empty">${loadError?'The news file couldn’t be loaded.':'No news yet. Stories appear after the first feed update runs.'}</p>`;return}
+  el.innerHTML=NEWS.map(g=>`
+  <section class="news-group"><h2>${esc(g.group)}</h2>
+  ${g.items.map(n=>`<article class="story"><h3><a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>${n.summary?`<p>${esc(n.summary)}</p>`:''}<div class="by">${esc(n.source)}, ${fmt(n.date)}</div></article>`).join('')}
+  </section>`).join('');
+}
+
+/* ---------------- Map ---------------- */
+const TYPES=[
+  {k:"exploit",name:"Exploit attempt",v:"--t-exploit",w:3},
+  {k:"malware",name:"Malware delivery",v:"--t-malware",w:3},
+  {k:"phish",name:"Phishing",v:"--t-phish",w:2},
+  {k:"ddos",name:"DDoS",v:"--t-ddos",w:2},
+  {k:"brute",name:"Credential brute force",v:"--t-brute",w:3}
+];
+const CITIES=[
+  ["London",51.5,-0.1],["Frankfurt",50.1,8.7],["Amsterdam",52.4,4.9],["Paris",48.9,2.35],["Stockholm",59.3,18.1],
+  ["Warsaw",52.2,21.0],["Kyiv",50.45,30.5],["Moscow",55.75,37.6],["Istanbul",41.0,29.0],["Tehran",35.7,51.4],
+  ["Dubai",25.2,55.3],["Mumbai",19.1,72.9],["Singapore",1.35,103.8],["Hong Kong",22.3,114.2],["Shanghai",31.2,121.5],
+  ["Beijing",39.9,116.4],["Seoul",37.6,127.0],["Pyongyang",39.0,125.75],["Tokyo",35.7,139.7],["Sydney",-33.9,151.2],
+  ["Johannesburg",-26.2,28.0],["Lagos",6.5,3.4],["São Paulo",-23.55,-46.6],["Mexico City",19.4,-99.1],
+  ["Ashburn",39.0,-77.5],["New York",40.7,-74.0],["Chicago",41.9,-87.6],["Dallas",32.8,-96.8],["San Jose",37.3,-121.9],["Toronto",43.7,-79.4]
+];
+const MapView=(function(){
+  const wrap=document.getElementById('map-wrap'), cv=document.getElementById('map'), ctx=cv.getContext('2d');
+  const tip=document.getElementById('tip'), feedEl=document.getElementById('feed'), tallyEl=document.getElementById('tally');
+  const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let W=0,H=0,S=0,dpr=1, base=null, dots=[], land=null, visible=false, running=!reduce, raf=0, nextAt=0;
+  let arcs=[], rings=[], counts={}; TYPES.forEach(t=>counts[t.k]=0);
+  const LAT_TOP=84, LAT_SPAN=142;
+  const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const P=(lon,lat)=>[W/2+S*lon*Math.PI/180, S*(LAT_TOP-lat)*Math.PI/180];
+
+  // legend, incidents list
+  document.getElementById('legend').innerHTML=TYPES.map(t=>`<span><i style="background:var(${t.v})"></i>${t.name}</span>`).join('')+`<span class="pin"><i></i>Reported incident</span>`;
+    const pauseBtn=document.getElementById('pause');
+  pauseBtn.textContent=running?'Pause':'Play';
+  pauseBtn.addEventListener('click',()=>{running=!running;pauseBtn.textContent=running?'Pause':'Play';if(running)loop()});
+
+  function renderTally(){
+    tallyEl.innerHTML=TYPES.map(t=>`<span><i style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(${t.v});margin-right:6px"></i>${t.name}</span><span>${counts[t.k].toLocaleString('en-GB')}</span>`).join('');
+  }
+  renderTally();
+
+  function loadScript(urls){
+    return new Promise((res,rej)=>{
+      const tryAt=i=>{ if(i>=urls.length) return rej(new Error('load failed'));
+        const s=document.createElement('script'); s.src=urls[i]; s.onload=()=>res(); s.onerror=()=>{s.remove();tryAt(i+1)}; document.head.appendChild(s);};
+      tryAt(0);
+    });
+  }
+  async function loadLand(){
+    try{
+      await loadScript(["https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js","https://cdn.jsdelivr.net/npm/d3@3.5.17/d3.min.js"]);
+      await loadScript(["https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.20/topojson.min.js","https://cdn.jsdelivr.net/npm/topojson@1.6.20/build/topojson.min.js"]);
+      await loadScript(["https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.5.9/datamaps.world.min.js","https://cdn.jsdelivr.net/npm/datamaps@0.5.9/dist/datamaps.world.min.js"]);
+      const topo=window.Datamap&&Datamap.prototype.worldTopo;
+      if(!topo||!topo.objects) throw new Error('no topo');
+      const key=Object.keys(topo.objects)[0];
+      land=topojson.feature(topo,topo.objects[key]);
+      land.features=land.features.filter(f=>f.id!=='ATA');
+    }catch(e){ land=null; }
+    build();
+  }
+
+  function build(){
+    const w=wrap.clientWidth; if(!w) return;
+    W=w; H=Math.round(w*LAT_SPAN/360); S=W/(2*Math.PI); dpr=Math.min(window.devicePixelRatio||1,2);
+    cv.width=W*dpr; cv.height=H*dpr; cv.style.height=H+'px';
+    // sample land into a dot grid
+    dots=[];
+    const step=Math.max(3,Math.round(W/150));
+    if(land&&window.d3){
+      const off=document.createElement('canvas'); off.width=W; off.height=H;
+      const oc=off.getContext('2d');
+      const proj=d3.geo.equirectangular().scale(S).translate([W/2,S*LAT_TOP*Math.PI/180]).precision(.5);
+      const path=d3.geo.path().projection(proj).context(oc);
+      oc.fillStyle='#000'; oc.beginPath(); land.features.forEach(f=>path(f)); oc.fill();
+      const img=oc.getImageData(0,0,W,H).data;
+      for(let y=Math.floor(step/2);y<H;y+=step) for(let x=Math.floor(step/2);x<W;x+=step){ if(img[(y*W+x)*4+3]>100) dots.push([x,y]); }
+    }
+    base=document.createElement('canvas'); base.width=W*dpr; base.height=H*dpr;
+    const b=base.getContext('2d'); b.scale(dpr,dpr);
+    b.fillStyle=css('--land');
+    const r=Math.max(1,step*.34);
+    if(dots.length){ dots.forEach(([x,y])=>{b.beginPath();b.arc(x,y,r,0,Math.PI*2);b.fill()}); }
+    else { // graticule fallback
+      b.strokeStyle=css('--land'); b.lineWidth=.6;
+      for(let lon=-180;lon<=180;lon+=30){const [x]=P(lon,0);b.beginPath();b.moveTo(x,0);b.lineTo(x,H);b.stroke()}
+      for(let lat=-60;lat<=80;lat+=20){const [,y]=P(0,lat);b.beginPath();b.moveTo(0,y);b.lineTo(W,y);b.stroke()}
+      b.fillStyle=css('--muted'); b.font='13px Archivo, sans-serif'; b.fillText('Country outlines could not load, showing grid only',12,20);
+    }
+    // incident pins
+    const ink=css('--ink'); b.strokeStyle=ink; b.lineWidth=2;
+    INCIDENTS.forEach(i=>{const [x,y]=P(i.lon,i.lat); b.strokeRect(x-5,y-5,10,10)});
+    draw(performance.now());
+  }
+
+  function bez(a,c,b,t){const u=1-t;return[u*u*a[0]+2*u*t*c[0]+t*t*b[0],u*u*a[1]+2*u*t*c[1]+t*t*b[1]]}
+  function pick(){
+    let tw=TYPES.reduce((s,t)=>s+t.w,0), r=Math.random()*tw, type=TYPES[0];
+    for(const t of TYPES){ if((r-=t.w)<0){type=t;break} }
+    let a=CITIES[Math.floor(Math.random()*CITIES.length)], b;
+    do{ b=CITIES[Math.floor(Math.random()*CITIES.length)] }while(b===a);
+    return {type,a,b};
+  }
+  function spawn(now){
+    const {type,a,b}=pick();
+    const p0=P(a[2],a[1]), p1=P(b[2],b[1]);
+    const dx=p1[0]-p0[0], dy=p1[1]-p0[1], dist=Math.hypot(dx,dy);
+    const c=[(p0[0]+p1[0])/2, Math.min(p0[1],p1[1])-dist*.28];
+    arcs.push({p0,p1,c,color:css(type.v),t0:now,dur:1400+dist*3});
+    counts[type.k]++; renderTally();
+    const li=document.createElement('li');
+    const tm=new Date().toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+    li.innerHTML=`<time>${tm}</time><span><span class="ty" style="color:var(${type.v})">${type.name}</span><br>${a[0]} to ${b[0]}</span>`;
+    feedEl.prepend(li); while(feedEl.children.length>8) feedEl.lastChild.remove();
+  }
+  function draw(now){
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    ctx.clearRect(0,0,W,H);
+    if(base) ctx.drawImage(base,0,0,W,H);
+    arcs=arcs.filter(a=>{
+      const p=(now-a.t0)/a.dur;
+      if(p>=1){ rings.push({x:a.p1[0],y:a.p1[1],color:a.color,t0:now}); return false; }
+      const tail=Math.max(0,p-.35), n=18;
+      ctx.lineCap='round';
+      for(let i=0;i<n;i++){
+        const t1=tail+(p-tail)*i/n, t2=tail+(p-tail)*(i+1)/n;
+        const q1=bez(a.p0,a.c,a.p1,t1), q2=bez(a.p0,a.c,a.p1,t2);
+        ctx.globalAlpha=(i+1)/n*.9; ctx.strokeStyle=a.color; ctx.lineWidth=1.8;
+        ctx.beginPath(); ctx.moveTo(q1[0],q1[1]); ctx.lineTo(q2[0],q2[1]); ctx.stroke();
+      }
+      const h=bez(a.p0,a.c,a.p1,p); ctx.globalAlpha=1; ctx.fillStyle=a.color;
+      ctx.beginPath(); ctx.arc(h[0],h[1],2.6,0,Math.PI*2); ctx.fill();
+      return true;
+    });
+    rings=rings.filter(r=>{
+      const p=(now-r.t0)/900; if(p>=1) return false;
+      ctx.globalAlpha=1-p; ctx.strokeStyle=r.color; ctx.lineWidth=1.5;
+      ctx.beginPath(); ctx.arc(r.x,r.y,3+p*14,0,Math.PI*2); ctx.stroke(); return true;
+    });
+    ctx.globalAlpha=1;
+  }
+  function loop(){
+    cancelAnimationFrame(raf);
+    const tick=now=>{
+      if(!running||!visible||document.hidden) return;
+      if(now>=nextAt){ spawn(now); nextAt=now+350+Math.random()*900; }
+      draw(now); raf=requestAnimationFrame(tick);
+    };
+    raf=requestAnimationFrame(tick);
+  }
+
+  // hover tooltips for incident pins
+  function hover(e){
+    const r=cv.getBoundingClientRect(), x=e.clientX-r.left, y=e.clientY-r.top;
+    const hits=INCIDENTS.filter(i=>{const [px,py]=P(i.lon,i.lat);return Math.abs(px-x)<9&&Math.abs(py-y)<9});
+    if(hits.length){
+      const [px,py]=P(hits[0].lon,hits[0].lat);
+      tip.innerHTML=hits.map(h=>`<b>${esc(h.name)}</b><br>${esc(h.place)}, ${fmt(h.date)}`).join('<br><br>');
+      tip.style.left=px+'px'; tip.style.top=py+'px'; tip.style.display='block';
+    } else tip.style.display='none';
+  }
+  cv.addEventListener('mousemove',hover); cv.addEventListener('mouseleave',()=>tip.style.display='none');
+
+  new ResizeObserver(()=>{ if(visible) build(); }).observe(wrap);
+  document.addEventListener('visibilitychange',()=>{ if(!document.hidden&&running&&visible) loop(); });
+  const mq=window.matchMedia('(prefers-color-scheme: dark)');
+  mq.addEventListener&&mq.addEventListener('change',()=>{ if(visible) build(); });
+
+  let loaded=false;
+  return {
+    setIncidents(list){
+      document.getElementById('incidents-panel').hidden=!list.length;
+      document.getElementById('incidents').innerHTML=list.map(i=>`<li>${esc(i.name)}<small>${esc(i.place)}, ${fmt(i.date)}</small></li>`).join('');
+      if(visible) build();
+    },
+    setVisible(v){
+      visible=v;
+      if(!v){ cancelAnimationFrame(raf); return; }
+      if(!loaded){ loaded=true; build(); loadLand(); }
+      else build();
+      if(running) loop();
+    }
+  };
+})();
+
+/* restore last tab */
+(function(){
+  let id=null; try{id=localStorage.getItem('wf-tab')}catch(e){}
+  const t=tabs.find(x=>x.id===id)||tabs[0]; selectTab(t);
+})();
+loadAll();
+setInterval(()=>{ if(!document.hidden) loadAll(); },REFRESH_MS);
+document.addEventListener('visibilitychange',()=>{ if(!document.hidden&&META&&Date.now()-new Date(META.generated_at)>REFRESH_MS) loadAll(); });
+</script>
+</body>
+</html>
