@@ -1,6 +1,40 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-86950",
+   "date": "2026-09-29",
+   "src": "CISA",
+   "vendor": "Apple Multiple Products",
+   "vendor_name": "Apple",
+   "product": "Multiple Products",
+   "title": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
+   "detail": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-02",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-86950"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950",
+   "kev": true,
+   "cvss": 8.8,
+   "sev": "high",
+   "news": [
+    {
+     "title": "Apple Patches Zero-Day Linked to ‘Extremely Sophisticated Attack’",
+     "url": "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/",
+     "source": "SecurityWeek",
+     "date": "2026-09-29T06:18:27+00:00"
+    },
+    {
+     "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+     "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+     "source": "The Hacker News",
+     "date": "2026-09-28T19:18:01+00:00"
+    }
+   ]
+  },
+  {
    "id": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
    "date": "2026-09-28",
    "src": "NCSC",
@@ -413,18 +447,6 @@
    "sev": "high"
   },
   {
-   "id": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
-   "date": "2026-09-15",
-   "src": "NCSC",
-   "vendor": "NCSC",
-   "title": "Iranian cyber targeting of dissidents, activists and journalists",
-   "detail": "Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.",
-   "todo": "Read the advisory for affected products and mitigations.",
-   "cves": [],
-   "url": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
-   "sev": "medium"
-  },
-  {
    "id": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
    "date": "2026-09-15",
    "src": "NCSC",
@@ -434,6 +456,18 @@
    "todo": "Read the advisory for affected products and mitigations.",
    "cves": [],
    "url": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
+   "sev": "medium"
+  },
+  {
+   "id": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
+   "date": "2026-09-15",
+   "src": "NCSC",
+   "vendor": "NCSC",
+   "title": "Iranian cyber targeting of dissidents, activists and journalists",
+   "detail": "Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.",
+   "todo": "Read the advisory for affected products and mitigations.",
+   "cves": [],
+   "url": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
    "sev": "medium"
   },
   {
