@@ -71,6 +71,12 @@ RADAR_LAYERS = [
     {"key": "l3", "name": "Network DDoS attacks", "path": "attacks/layer3/top/attacks"},
 ]
 
+# Phone notifications via ntfy (https://ntfy.sh). Set the NTFY_TOPIC secret to turn on.
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
+NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
+NOTIFIED_FILE = ROOT / "cache" / "notified.json"
+NOTIFY_MAX_PER_RUN = 5           # more than this in one run becomes a single summary message
+
 # Approximate country locations (capital or population centre) for drawing arcs.
 COUNTRY_LOC = {
     "AE": (24.5, 54.4), "AF": (34.5, 69.2), "AL": (41.3, 19.8), "AM": (40.2, 44.5), "AO": (-8.8, 13.2),
@@ -482,6 +488,72 @@ def load_radar():
             "source": "Cloudflare Radar", "layers": layers}
 
 
+# ---------------------------------------------------------------- phone notifications
+
+def post_json(url, payload, timeout=20):
+    req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), method="POST",
+                                 headers={"User-Agent": USER_AGENT, "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.status
+
+
+def notify_new_critical(alerts):
+    """Send one push per newly Critical alert. The first run only records what's
+    already there, so you don't get a flood of old alerts when you switch this on."""
+    if not NTFY_TOPIC:
+        return
+    critical = [a for a in alerts if a.get("sev") == "critical"]
+    first_run = not NOTIFIED_FILE.exists()
+    seen = []
+    if not first_run:
+        try:
+            seen = json.loads(NOTIFIED_FILE.read_text()).get("ids", [])
+        except json.JSONDecodeError:
+            seen = []
+    new = [a for a in critical if a["id"] not in seen]
+
+    sent, failed = 0, 0
+    if first_run:
+        log(f"ntfy: first run, recording {len(new)} existing critical alerts without notifying")
+    else:
+        messages = []
+        for a in new[:NOTIFY_MAX_PER_RUN]:
+            lines = [a.get("vendor", ""), a.get("detail", "")]
+            if a.get("todo"):
+                lines.append(f"What to do: {a['todo']}")
+            if a.get("due"):
+                lines.append(f"US federal deadline: {a['due']}")
+            messages.append({
+                "title": f"Critical: {a['title']}"[:150],
+                "message": "\n".join(x for x in lines if x)[:900],
+                "click": a.get("url"),
+                "tags": ["rotating_light"],
+            })
+        if len(new) > NOTIFY_MAX_PER_RUN:
+            extra = len(new) - NOTIFY_MAX_PER_RUN
+            messages.append({"title": f"{extra} more critical alert{'s' if extra > 1 else ''}",
+                             "message": "Open Watchfloor to see them all.", "tags": ["rotating_light"]})
+        for m in messages:
+            m.update({"topic": NTFY_TOPIC, "priority": 4})
+            if not m.get("click"):
+                m.pop("click", None)
+            try:
+                post_json(NTFY_SERVER, m)
+                sent += 1
+            except Exception as e:  # noqa: BLE001
+                failed += 1
+                log(f"  ntfy send failed: {e}")
+        if failed and not sent:
+            # nothing got through: don't mark these as sent, so the next run retries
+            record("Phone alerts", False, 0, f"{failed} notifications failed to send")
+            return
+        record("Phone alerts", True, sent)
+
+    ids = [a["id"] for a in critical] + [i for i in seen if i not in {a["id"] for a in critical}]
+    NOTIFIED_FILE.parent.mkdir(parents=True, exist_ok=True)
+    NOTIFIED_FILE.write_text(json.dumps({"ids": ids[:500]}, indent=1))
+
+
 # ---------------------------------------------------------------- main
 
 def write_json(name, obj):
@@ -519,6 +591,8 @@ def main():
 
     news = load_news()
     radar = load_radar()
+    if any(s["ok"] for s in status if s["name"] == "CISA KEV"):
+        notify_new_critical(alerts)
 
     alert_sources_ok = any(s["ok"] for s in status if s["name"] in ("CISA KEV", *[f["name"] for f in ADVISORY_FEEDS]))
     news_sources_ok = any(s["ok"] for s in status if s["name"] in [f["name"] for f in NEWS_FEEDS])
