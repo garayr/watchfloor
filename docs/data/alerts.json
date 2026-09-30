@@ -1,6 +1,40 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-76504",
+   "date": "2026-09-30",
+   "src": "CISA",
+   "vendor": "Cisco Catalyst SD-WAN Manager",
+   "vendor_name": "Cisco",
+   "product": "Catalyst SD-WAN Manager",
+   "title": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
+   "detail": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-03",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-76504"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
+   "kev": true,
+   "cvss": 9.8,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+     "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+     "source": "The Hacker News",
+     "date": "2026-09-30T15:24:54+00:00"
+    },
+    {
+     "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+     "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+     "source": "BleepingComputer",
+     "date": "2026-09-30T14:46:40+00:00"
+    }
+   ]
+  },
+  {
    "id": "CVE-2026-86950",
    "date": "2026-09-29",
    "src": "CISA",
