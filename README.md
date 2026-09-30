@@ -76,6 +76,21 @@ Two of these need free keys, saved as repository secrets like the others:
 
 Without a key, that part of the Threats tab simply says it needs one; everything else keeps working.
 
+### Gang profiles
+
+Select any gang name on the Incidents tab to open its profile: how long it has been active, total victims claimed, claims per month over the last year, the countries and sectors it hits most, the vulnerabilities it exploits (flagged when one is on your Alerts tab), its tools and techniques, and links to Ransomware.live, CISA's #StopRansomware advisories and research write-ups.
+
+Profiles need a free Ransomware.live PRO key, saved as the secret `RANSOMWARE_LIVE_API_KEY`:
+
+1. Register at https://my.ransomware.live with an email address and confirm it. The key won't work until you click the confirmation link.
+2. Sign in and copy your API key. It looks like `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`.
+
+The fetcher profiles the week's 10 most active gangs, looking up at most 3 per hourly run and refreshing each weekly, so all profiles fill in within a few hours. It stores only what's shown on the page. The API's replies also include your account email and gang leak-site addresses, and neither is ever saved.
+
+The first time a profile is fetched, the Actions log lists the field names Ransomware.live returned (names only, no values). If a profile looks thin, send those lines and the parsing can be adjusted.
+
+Without the key, the profile still opens with this week's claims and the links, and says the fuller version needs the key.
+
 These sources refresh hourly rather than every 15 minutes. SANS asks for no more than hourly downloads, and Ransomware.live is run by a volunteer, so it's polite to go easy on it. The hourly timing is tracked in `cache/schedule.json`.
 
 Please keep the credits on the Threats tab. SANS and Have I Been Pwned require attribution, and it's good manners for the others.
