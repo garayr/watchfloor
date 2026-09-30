@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1191,
-  "c2_servers": 603,
+  "total_iocs": 1215,
+  "c2_servers": 604,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 276,
-    "c2": 0,
+    "iocs": 269,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
@@ -19,65 +19,65 @@
    },
    {
     "name": "Mirai",
-    "iocs": 145,
+    "iocs": 154,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Remcos",
-    "iocs": 94,
+    "iocs": 95,
     "c2": 92,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "Remus",
-    "iocs": 64,
-    "c2": 63,
+    "iocs": 63,
+    "c2": 62,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "AsyncRAT",
-    "iocs": 42,
+    "iocs": 53,
     "c2": 33,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 27,
+    "iocs": 30,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "VShell",
-    "iocs": 27,
+    "iocs": 28,
     "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Vidar",
-    "iocs": 26,
-    "c2": 26,
+    "iocs": 27,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "php.shin_webshell",
+    "name": "AMOS",
     "iocs": 24,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 617,
+  "online": 618,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 304
+    "count": 315
    },
    {
     "name": "mirai",
-    "count": 273
+    "count": 276
    },
    {
     "name": "elf",
@@ -85,23 +85,23 @@
    },
    {
     "name": "32-bit",
-    "count": 78
-   },
-   {
-    "name": "ascii",
-    "count": 74
+    "count": 81
    },
    {
     "name": "ua-wget",
     "count": 70
    },
    {
+    "name": "ascii",
+    "count": 68
+   },
+   {
     "name": "rat",
-    "count": 56
+    "count": 54
    },
    {
     "name": "RemcosRAT",
-    "count": 47
+    "count": 45
    }
   ]
  },
@@ -517,10 +517,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-09-30T22:07:23+00:00",
-  "sans": "2026-09-30T22:07:23+00:00",
-  "otx": "2026-09-30T22:07:23+00:00",
-  "urlhaus": "2026-09-30T22:07:23+00:00"
+  "threatfox": "2026-09-30T23:05:11+00:00",
+  "sans": "2026-09-30T23:05:11+00:00",
+  "otx": "2026-09-30T23:05:11+00:00",
+  "urlhaus": "2026-09-30T23:05:11+00:00"
  },
- "generated_at": "2026-09-30T22:07:23+00:00"
+ "generated_at": "2026-09-30T23:05:11+00:00"
 }
