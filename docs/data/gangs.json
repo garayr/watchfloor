@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T12:08:39+00:00",
+ "generated_at": "2026-09-30T12:35:40+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -834,6 +834,368 @@
    ],
    "history_size": 44,
    "updated": "2026-09-30T12:08:39+00:00"
+  },
+  "emperador": {
+   "name": "emperador",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-08-10",
+   "last_seen": "2026-09-29",
+   "victims_total": 32,
+   "cves": [
+    {
+     "id": "CVE-2026-50751",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-48027",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-21529",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-1708",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2025-60710",
+     "cvss": null,
+     "label": null
+    }
+   ],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "BR",
+      "count": 5
+     },
+     {
+      "name": "US",
+      "count": 3
+     },
+     {
+      "name": "IN",
+      "count": 2
+     },
+     {
+      "name": "IT",
+      "count": 2
+     },
+     {
+      "name": "SE",
+      "count": 2
+     },
+     {
+      "name": "AL",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 7
+     },
+     {
+      "name": "Government & Defense",
+      "count": 6
+     },
+     {
+      "name": "Transportation",
+      "count": 4
+     },
+     {
+      "name": "Technology",
+      "count": 3
+     },
+     {
+      "name": "Education",
+      "count": 2
+     },
+     {
+      "name": "Energy & Utilities",
+      "count": 2
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-10",
+     "count": 0
+    },
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 10
+    },
+    {
+     "month": "2026-09",
+     "count": 22
+    }
+   ],
+   "history_size": 32,
+   "updated": "2026-09-30T12:35:40+00:00"
+  },
+  "medusalocker": {
+   "name": "medusalocker",
+   "description": "Medusa is a DDoS bot written in.NET 2.0. In its current incarnation its C&C protocol is based on HTTP, while its predecessor made use of IRC.",
+   "aliases": [],
+   "first_seen": "2021-11-03",
+   "last_seen": "2026-09-28",
+   "victims_total": 101,
+   "cves": [],
+   "tools": [
+    "Invoke-TheHash",
+    "Mimikatz",
+    "HRSword",
+    "PCHunter",
+    "ProcessHacker",
+    "Advanced IP Scanner",
+    "Advanced Port Scanner",
+    "SoftPerfect NetScan",
+    "PsExec",
+    "Impacket",
+    "Remote Desktop Plus (RDP+)"
+   ],
+   "techniques": [
+    "Parent PID Spoofing"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 11
+     },
+     {
+      "name": "DE",
+      "count": 5
+     },
+     {
+      "name": "CA",
+      "count": 4
+     },
+     {
+      "name": "FR",
+      "count": 4
+     },
+     {
+      "name": "GB",
+      "count": 4
+     },
+     {
+      "name": "AE",
+      "count": 3
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 18
+     },
+     {
+      "name": "Technology",
+      "count": 15
+     },
+     {
+      "name": "Professional Services",
+      "count": 14
+     },
+     {
+      "name": "Other",
+      "count": 6
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 6
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 5
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-10",
+     "count": 0
+    },
+    {
+     "month": "2025-11",
+     "count": 1
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 16
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 11
+    },
+    {
+     "month": "2026-08",
+     "count": 10
+    },
+    {
+     "month": "2026-09",
+     "count": 13
+    }
+   ],
+   "history_size": 101,
+   "updated": "2026-09-30T12:35:40+00:00"
+  },
+  "ULose": {
+   "name": "ULose",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-06-09",
+   "last_seen": "2026-09-30",
+   "victims_total": 6,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "KR",
+      "count": 6
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Financial Services",
+      "count": 3
+     },
+     {
+      "name": "Healthcare",
+      "count": 1
+     },
+     {
+      "name": "Manufacturing",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-10",
+     "count": 0
+    },
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 5
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 1
+    }
+   ],
+   "history_size": 6,
+   "updated": "2026-09-30T12:35:40+00:00"
   }
  }
 }

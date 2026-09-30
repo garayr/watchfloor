@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T11:39:28+00:00",
+ "generated_at": "2026-09-30T12:35:40+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -60,7 +60,7 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 8
+   "count": 7
   }
  ],
  "by_country": [
@@ -95,6 +95,12 @@
    "lon": -3.7
   },
   {
+   "code": "KR",
+   "count": 3,
+   "lat": 37.6,
+   "lon": 127.0
+  },
+  {
    "code": "ZA",
    "count": 3,
    "lat": -26.2,
@@ -117,12 +123,6 @@
    "count": 2,
    "lat": 41.9,
    "lon": 12.5
-  },
-  {
-   "code": "KR",
-   "count": 2,
-   "lat": 37.6,
-   "lon": 127.0
   },
   {
    "code": "MX",
@@ -276,6 +276,14 @@
   }
  ],
  "victims": [
+  {
+   "victim": "www.newyjh.com",
+   "group": "ULose",
+   "date": "2026-09-30T07:51:07+00:00",
+   "attack_date": "2026-09-30",
+   "country": "KR",
+   "sector": "Not Found"
+  },
   {
    "victim": "West County Health Centers",
    "group": "Storm",
@@ -963,14 +971,6 @@
    "attack_date": "2026-09-28",
    "country": null,
    "sector": "Not Found"
-  },
-  {
-   "victim": "Geebee Garments",
-   "group": "akira",
-   "date": "2026-09-28T14:55:10+00:00",
-   "attack_date": "2026-09-28",
-   "country": null,
-   "sector": "Retail & E-Commerce"
   },
   {
    "victim": "ATCO Ltd",
