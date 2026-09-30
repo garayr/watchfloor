@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T21:05:56+00:00",
+ "generated_at": "2026-09-30T22:07:23+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -13,11 +13,11 @@
    "count": 10
   },
   {
-   "name": "Storm",
-   "count": 9
+   "name": "BrainCipher",
+   "count": 7
   },
   {
-   "name": "BrainCipher",
+   "name": "Storm",
    "count": 7
   },
   {
@@ -29,11 +29,11 @@
    "count": 6
   },
   {
-   "name": "emperador",
-   "count": 3
+   "name": "play",
+   "count": 5
   },
   {
-   "name": "medusalocker",
+   "name": "emperador",
    "count": 3
   }
  ],
@@ -44,15 +44,15 @@
   },
   {
    "name": "Professional Services",
-   "count": 14
+   "count": 16
   },
   {
    "name": "Healthcare",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Technology",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Other",
@@ -72,7 +72,7 @@
   },
   {
    "code": "DE",
-   "count": 8,
+   "count": 10,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -87,12 +87,6 @@
    "count": 4,
    "lat": -23.5,
    "lon": -46.6
-  },
-  {
-   "code": "ES",
-   "count": 3,
-   "lat": 40.4,
-   "lon": -3.7
   },
   {
    "code": "IT",
@@ -129,6 +123,12 @@
    "count": 2,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "ES",
+   "count": 2,
+   "lat": 40.4,
+   "lon": -3.7
   },
   {
    "code": "FR",
@@ -264,6 +264,46 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Titus",
+   "group": "play",
+   "date": "2026-09-30T17:37:25+00:00",
+   "attack_date": "2026-09-30",
+   "country": "DE",
+   "sector": "Technology"
+  },
+  {
+   "victim": "Airtech Mechanical Services",
+   "group": "play",
+   "date": "2026-09-30T17:36:51+00:00",
+   "attack_date": "2026-09-30",
+   "country": "US",
+   "sector": "Professional Services"
+  },
+  {
+   "victim": "Orth Automobile",
+   "group": "play",
+   "date": "2026-09-30T17:36:17+00:00",
+   "attack_date": "2026-09-30",
+   "country": "DE",
+   "sector": "Manufacturing"
+  },
+  {
+   "victim": "Blaise C. Bender, PC",
+   "group": "interlock",
+   "date": "2026-09-30T17:00:59+00:00",
+   "attack_date": "2026-09-30",
+   "country": "US",
+   "sector": "Professional Services"
+  },
+  {
+   "victim": "Buford-Thompson Company, LTD",
+   "group": "aurora",
+   "date": "2026-09-30T16:55:16+00:00",
+   "attack_date": "2026-09-30",
+   "country": "US",
+   "sector": "Manufacturing"
+  },
   {
    "victim": "P***** M***** I**",
    "group": "netrunner",
@@ -657,22 +697,6 @@
    "sector": "Healthcare"
   },
   {
-   "victim": "UC Components",
-   "group": "Storm",
-   "date": "2026-09-30T03:33:38+00:00",
-   "attack_date": "2026-09-28",
-   "country": "US",
-   "sector": "Manufacturing"
-  },
-  {
-   "victim": "Stockham Construction",
-   "group": "Storm",
-   "date": "2026-09-30T03:33:07+00:00",
-   "attack_date": "2026-09-28",
-   "country": "US",
-   "sector": "Manufacturing"
-  },
-  {
    "victim": "Poca Valley Bank",
    "group": "Storm",
    "date": "2026-09-30T03:31:27+00:00",
@@ -1039,30 +1063,6 @@
    "attack_date": "2026-09-28",
    "country": "ES",
    "sector": "Government & Defense"
-  },
-  {
-   "victim": "Premiumfruits",
-   "group": "medusalocker",
-   "date": "2026-09-28T16:00:23+00:00",
-   "attack_date": "2026-09-28",
-   "country": "ES",
-   "sector": "Agriculture and Food Production"
-  },
-  {
-   "victim": "The Center for Kidney Care",
-   "group": "interlock",
-   "date": "2026-09-28T15:58:06+00:00",
-   "attack_date": "2026-09-28",
-   "country": "US",
-   "sector": "Healthcare"
-  },
-  {
-   "victim": "S...d",
-   "group": "SilentRansomGroup",
-   "date": "2026-09-28T15:52:22+00:00",
-   "attack_date": "2026-09-28",
-   "country": null,
-   "sector": "Not Found"
   }
  ]
 }
