@@ -40,7 +40,8 @@ KEV_DAYS = 30                      # how far back to show KEV additions
 
 ADVISORY_FEEDS = [
     {"name": "NCSC", "src": "NCSC", "url": "https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml"},
-    {"name": "CISA advisories", "src": "CISA", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"},
+    # CISA's advisories feed (https://www.cisa.gov/cybersecurity-advisories/all.xml) returns 403 to
+    # GitHub's servers, so it's left out. CISA's KEV list above still works.
 ]
 ADVISORY_DAYS = 30
 
@@ -303,10 +304,12 @@ def add_epss(alerts):
     scores = {}
     try:
         for i in range(0, len(cves), 50):
-            q = urllib.parse.urlencode({"cve": ",".join(cves[i:i + 50])})
+            q = "cve=" + ",".join(urllib.parse.quote(c, safe="") for c in cves[i:i + 50])
             data = json.loads(fetch(f"{EPSS_URL}?{q}"))
             for row in data.get("data", []):
                 scores[row["cve"]] = float(row.get("epss", 0))
+        if cves and not scores:
+            log(f"  EPSS warning: no scores returned for {len(cves)} CVEs (e.g. {cves[0]})")
         record("FIRST EPSS", True, len(scores))
     except Exception as e:  # noqa: BLE001
         record("FIRST EPSS", False, error=str(e)[:200])
@@ -1263,6 +1266,8 @@ def write_json(name, obj):
     if old != text:
         path.write_text(text)
         log(f"wrote {path.relative_to(ROOT)}")
+        return True
+    return False
 
 
 def keep_previous(name, key):
@@ -1311,20 +1316,19 @@ def main():
         news = keep_previous("news.json", "groups")
 
     # Only touch alerts/news when content changed, so the workflow can skip empty commits.
-    write_json("alerts.json", {"alerts": alerts})
-    write_json("news.json", {"groups": news})
-    if radar:
-        write_json("attacks.json", radar)
-    if ransomware:
-        write_json("ransomware.json", ransomware)
-    if breaches:
-        write_json("breaches.json", breaches)
-    if threats:
-        write_json("threats.json", threats)
-    if gangs:
-        write_json("gangs.json", gangs)
+    changed = write_json("alerts.json", {"alerts": alerts})
+    changed = write_json("news.json", {"groups": news}) or changed
+    for name, obj in (("attacks.json", radar), ("ransomware.json", ransomware), ("breaches.json", breaches),
+                      ("threats.json", threats), ("gangs.json", gangs)):
+        if obj:
+            changed = write_json(name, obj) or changed
     save_schedule()
-    write_json("meta.json", {"generated_at": NOW.isoformat(timespec="seconds"), "sources": status})
+    # Save the status file when data changed or a source started/stopped failing,
+    # so the page's "not responding" note is never stale.
+    prev_failing = sorted(x["name"] for x in previous("meta.json").get("sources", []) if not x.get("ok"))
+    now_failing = sorted(x["name"] for x in status if not x["ok"])
+    if changed or prev_failing != now_failing:
+        write_json("meta.json", {"generated_at": NOW.isoformat(timespec="seconds"), "sources": status})
 
     failed = [s["name"] for s in status if not s["ok"]]
     if failed:
