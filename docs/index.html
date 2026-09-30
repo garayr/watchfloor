@@ -89,6 +89,63 @@ main{padding:28px 0 60px}
 .cve{font-size:12.5px;font-variant-numeric:tabular-nums;border:1px solid var(--rule);padding:1px 7px;border-radius:3px;color:var(--muted)}
 .src-link{font-size:14px;margin-top:8px;display:inline-block}
 .warn{color:var(--high)}
+.infocon{display:inline-flex;align-items:center;gap:6px;text-decoration:none;color:var(--ink);font-weight:600}
+.infocon i{width:10px;height:10px;border-radius:50%;display:inline-block;background:var(--info)}
+.infocon.green i{background:#2E9E5B}.infocon.yellow i{background:#E0B400}.infocon.orange i{background:#E07A00}.infocon.red i{background:var(--critical)}
+.sec{font-size:24px;font-weight:700;font-variation-settings:"wdth" 75;margin:34px 0 4px;padding-bottom:8px;border-bottom:2px solid var(--ink)}
+.sec:first-of-type{margin-top:8px}
+.caveat{font-size:14px;color:var(--muted);max-width:75ch;margin:8px 0 18px}
+.stat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:20px}
+.card{background:var(--surface);border:1px solid var(--rule);padding:16px 18px}
+.card h4{margin:0 0 10px;font-size:15px;font-weight:700;font-variation-settings:"wdth" 88}
+.card .note{font-size:12.5px;color:var(--muted);margin:10px 0 0}
+.bars{display:grid;gap:7px;font-size:14px}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;align-items:center}
+.bar .track{grid-column:1/-1;height:6px;background:var(--paper);border-radius:3px;overflow:hidden}
+.bar .fill{height:100%;background:var(--ink);border-radius:3px}
+.bar .n{font-variant-numeric:tabular-nums;font-weight:600}
+.bar a{text-decoration-color:var(--rule)}
+.vtable{background:var(--surface);border:1px solid var(--rule);overflow-x:auto}
+.vrow{display:grid;grid-template-columns:92px minmax(160px,1.6fr) minmax(90px,.8fr) minmax(120px,1fr) minmax(110px,.9fr);gap:12px;padding:9px 16px;border-top:1px solid var(--rule);font-size:14.5px;min-width:640px}
+.vrow:first-child{border-top:0}
+.vrow.head{font-size:12.5px;color:var(--muted);font-weight:600;background:var(--paper)}
+.vrow .org{font-weight:600}
+.vrow time,.vrow .m{color:var(--muted)}
+.more{margin-top:12px}
+.breaches{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.breach h4{font-size:17px;margin:0 0 2px}
+.breach .dom{font-size:13px;color:var(--muted)}
+.breach .big{font-size:26px;font-weight:700;font-variation-settings:"wdth" 75;margin:8px 0 0;font-variant-numeric:tabular-nums}
+.breach .big small{font-size:14px;font-weight:500;color:var(--muted);font-variation-settings:"wdth" 100}
+.breach .meta{font-size:13px;color:var(--muted);margin:2px 0 10px}
+.dclasses{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.dclasses span{font-size:12.5px;border:1px solid var(--rule);border-radius:3px;padding:1px 7px}
+.unv{color:var(--high);font-weight:600}
+.threat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.level{display:flex;align-items:center;gap:14px;margin:4px 0 6px}
+.level i{width:34px;height:34px;border-radius:50%;background:var(--info);flex:none}
+.level.green i{background:#2E9E5B}.level.yellow i{background:#E0B400}.level.orange i{background:#E07A00}.level.red i{background:var(--critical)}
+.level b{font-size:28px;font-weight:700;font-variation-settings:"wdth" 75}
+.kpis{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:12px}
+.kpis div{font-size:13px;color:var(--muted)}
+.kpis b{display:block;font-size:24px;color:var(--ink);font-weight:700;font-variation-settings:"wdth" 75;font-variant-numeric:tabular-nums}
+.ptable{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+.ptable th{text-align:left;font-size:12.5px;color:var(--muted);font-weight:600;padding:0 0 6px}
+.ptable td{padding:5px 0;border-top:1px solid var(--rule)}
+.ptable td.r,.ptable th.r{text-align:right}
+.pulse{background:var(--surface);border:1px solid var(--rule);padding:14px 18px;margin-bottom:10px}
+.pulse h4{margin:0;font-size:17px;line-height:1.3}
+.pulse h4 a{text-decoration:none}.pulse h4 a:hover{text-decoration:underline}
+.pulse p{font-family:"Newsreader",Georgia,serif;font-size:16.5px;margin:6px 0;max-width:70ch}
+.pulse .by{font-size:13px;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.tags span{font-size:12.5px;border:1px solid var(--rule);border-radius:3px;padding:1px 7px;color:var(--muted)}
+.tags span.k{color:var(--ink)}
+.diary{list-style:none;margin:0;padding:0}
+.diary li{padding:8px 0;border-top:1px solid var(--rule);font-size:15px}
+.diary li:first-child{border-top:0}
+.diary small{color:var(--muted);margin-left:6px}
+.credit{font-size:13px;color:var(--muted);margin-top:26px;max-width:80ch}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .search{display:block;flex:1 1 260px;max-width:360px}
 .search input{width:100%;font:inherit;font-size:15px;padding:7px 12px;border:1px solid var(--rule);border-radius:6px;background:var(--surface);color:var(--ink)}
@@ -166,15 +223,19 @@ footer p{margin:0 0 6px;max-width:80ch}
 
 @media (max-width:860px){
   .map-layout{grid-template-columns:1fr}
+  .stat-grid,.breaches,.threat-grid{grid-template-columns:1fr}
   .news-grid{grid-template-columns:1fr}
 }
 @media (max-width:600px){
   .wrap{padding:0 14px}
-  .stamp{margin-left:0;text-align:left;width:100%;margin-bottom:4px}
-  .bar{gap:0}
+  .bar{display:block;padding-top:14px}
+  .brand{margin-bottom:8px}
+  .stamp{margin:0 0 6px;text-align:left;font-size:12.5px;line-height:1.45}
   .alert{grid-template-columns:1fr;padding:14px 16px}
   .ameta{grid-row:auto;flex-direction:row;flex-wrap:wrap;gap:4px 12px}
-  [role="tab"]{font-size:16px;padding:10px 10px 12px}
+  [role="tab"]{font-size:14.5px;padding:10px 6px 12px;font-variation-settings:"wdth" 78}
+  [role="tablist"]{gap:0;margin:0 -8px}
+  .count{margin-left:4px;min-width:18px;padding:0 4px;font-size:11px;line-height:18px}
 }
 @media (prefers-reduced-motion: reduce){ *{scroll-behavior:auto!important} }
 </style>
@@ -188,9 +249,11 @@ footer p{margin:0 0 6px;max-width:80ch}
       <p class="stamp" id="stamp">Loading latest data…</p>
     </div>
     <div role="tablist" aria-label="Sections">
-      <button role="tab" id="tab-alerts" aria-controls="panel-alerts" aria-selected="true">Live alerts<span class="count" id="alert-count"></span></button>
-      <button role="tab" id="tab-map" aria-controls="panel-map" aria-selected="false" tabindex="-1">Global map</button>
-      <button role="tab" id="tab-news" aria-controls="panel-news" aria-selected="false" tabindex="-1">News roundup</button>
+      <button role="tab" id="tab-alerts" aria-controls="panel-alerts" aria-selected="true">Alerts<span class="count" id="alert-count"></span></button>
+      <button role="tab" id="tab-map" aria-controls="panel-map" aria-selected="false" tabindex="-1">Map</button>
+      <button role="tab" id="tab-news" aria-controls="panel-news" aria-selected="false" tabindex="-1">News</button>
+      <button role="tab" id="tab-incidents" aria-controls="panel-incidents" aria-selected="false" tabindex="-1">Incidents</button>
+      <button role="tab" id="tab-threats" aria-controls="panel-threats" aria-selected="false" tabindex="-1">Threats</button>
     </div>
   </div>
 </header>
@@ -212,7 +275,7 @@ footer p{margin:0 0 6px;max-width:80ch}
 
   <section role="tabpanel" id="panel-map" aria-labelledby="tab-map" hidden>
     <h2 class="lede">Attack traffic across the globe</h2>
-    <p class="sub" id="map-sub">Arcs show a simulated stream of attacks between major internet hubs, to give a feel for volume and type. Square markers are real reported incidents.</p>
+    <p class="sub" id="map-sub">Arcs show a simulated stream of attacks between major internet hubs, to give a feel for volume and type. Square markers show where ransomware claims and other incidents were reported.</p>
     <div class="map-layout">
       <div class="map-card">
         <div class="map-head">
@@ -244,7 +307,7 @@ footer p{margin:0 0 6px;max-width:80ch}
           <ul class="feed" id="feed" aria-live="off"></ul>
         </div>
         <div class="panel" id="incidents-panel" hidden>
-          <h3>Reported incidents on the map</h3>
+          <h3>Incidents on the map</h3>
           <ul class="incidents" id="incidents"></ul>
         </div>
       </aside>
@@ -258,11 +321,42 @@ footer p{margin:0 0 6px;max-width:80ch}
     <div class="news-grid" id="news"></div>
   </section>
 
+  <section role="tabpanel" id="panel-incidents" aria-labelledby="tab-incidents" hidden>
+    <h2 class="lede" id="inc-lede">Who’s been hit</h2>
+    <p class="sub">Ransomware claims from the last 7 days and confirmed data breaches from the last 60 days.</p>
+    <h3 class="sec">Ransomware claims</h3>
+    <p class="caveat">Posted by ransomware gangs on their leak sites and collected by Ransomware.live. These are the gangs’ own claims and aren’t independently confirmed. Some are exaggerated or recycled from old attacks.</p>
+    <div class="stat-grid" id="rw-stats"></div>
+    <div class="news-tools"><label class="search"><span class="sr-only">Search ransomware claims</span><input type="search" id="rw-q" placeholder="Search organisations, gangs, sectors or countries" autocomplete="off"></label></div>
+    <div id="rw-list"></div>
+    <button class="btn more" id="rw-more" type="button" hidden>Show more</button>
+    <h3 class="sec">Confirmed breaches</h3>
+    <p class="caveat">Breaches added to Have I Been Pwned in the last 60 days. You can check whether your own email address is in any of them on haveibeenpwned.com.</p>
+    <div class="breaches" id="breaches"></div>
+  </section>
+
+  <section role="tabpanel" id="panel-threats" aria-labelledby="tab-threats" hidden>
+    <h2 class="lede">What attackers are using right now</h2>
+    <p class="sub">Malware, malicious links, scanning and campaign reports from abuse.ch, the SANS Internet Storm Center and AlienVault OTX. Refreshed hourly.</p>
+    <div class="threat-grid">
+      <div class="card" id="t-infocon"></div>
+      <div class="card" id="t-malware"></div>
+      <div class="card" id="t-ports"></div>
+      <div class="card" id="t-urls"></div>
+    </div>
+    <h3 class="sec">Campaign reports</h3>
+    <p class="caveat">Recent threat reports from AlienVault OTX, from the researchers your OTX account follows.</p>
+    <div id="t-pulses"></div>
+    <h3 class="sec">From the SANS Internet Storm Center diary</h3>
+    <ul class="diary" id="t-diary"></ul>
+    <p class="credit">Scanning data and threat level: SANS Technology Institute, Internet Storm Center, isc.sans.edu. Malware data: abuse.ch ThreatFox and URLhaus. Campaign reports: AlienVault OTX. Breach data: Have I Been Pwned. Ransomware claims: Ransomware.live.</p>
+  </section>
+
 </main>
 
 <footer>
   <div class="wrap">
-    <p>Sources: CISA Known Exploited Vulnerabilities catalogue, CISA and NCSC advisories, BleepingComputer, The Hacker News, SecurityWeek. Severity scores use NIST NVD (CVSS) and FIRST (EPSS). Data refreshes about every 15 minutes.</p>
+    <p>Sources: CISA Known Exploited Vulnerabilities catalogue, CISA and NCSC advisories, BleepingComputer, The Hacker News, SecurityWeek, Cloudflare Radar, Ransomware.live, Have I Been Pwned, abuse.ch, SANS Internet Storm Center and AlienVault OTX. Severity scores use NIST NVD (CVSS) and FIRST (EPSS). Alerts and news refresh about every 15 minutes; other sources hourly.</p>
     <p id="source-status"></p>
     <p>Always confirm fixes and affected versions against the vendor’s own advisory before acting.</p>
   </div>
@@ -270,7 +364,9 @@ footer p{margin:0 0 6px;max-width:80ch}
 
 <script>
 /* ---------------- Data (loaded from data/*.json) ---------------- */
-let ALERTS=[], NEWS=[], INCIDENTS=[], META=null, loadError=false;
+let ALERTS=[], NEWS=[], INCIDENTS=[], META=null, loadError=false, RW=null, BREACHES=null, THREATS=null;
+let regionNames=null; try{ regionNames=new Intl.DisplayNames(['en-GB'],{type:'region'}); }catch(e){}
+const countryName=c=>{ if(!c) return ''; try{ return (regionNames&&regionNames.of(c))||c; }catch(e){ return c; } };
 const REFRESH_MS=5*60*1000;
 async function getJSON(name){
   const r=await fetch(`data/${name}?t=${Date.now()}`,{cache:'no-store'});
@@ -278,13 +374,16 @@ async function getJSON(name){
   return r.json();
 }
 async function loadAll(){
-  const [a,n,m,i,k]=await Promise.allSettled([getJSON('alerts.json'),getJSON('news.json'),getJSON('meta.json'),getJSON('incidents.json'),getJSON('attacks.json')]);
+  const [a,n,m,i,k,rw,br,th]=await Promise.allSettled([getJSON('alerts.json'),getJSON('news.json'),getJSON('meta.json'),getJSON('incidents.json'),getJSON('attacks.json'),getJSON('ransomware.json'),getJSON('breaches.json'),getJSON('threats.json')]);
+  RW=rw.status==='fulfilled'?rw.value:null; BREACHES=br.status==='fulfilled'?br.value:null; THREATS=th.status==='fulfilled'?th.value:null;
   loadError=a.status==='rejected'&&n.status==='rejected';
   if(a.status==='fulfilled') ALERTS=a.value.alerts||[];
   if(n.status==='fulfilled') NEWS=n.value.groups||[];
   if(m.status==='fulfilled') META=m.value;
-  INCIDENTS=(i.status==='fulfilled'&&i.value.incidents)||[];
-  renderStamp(); renderAlerts(); renderNews(); MapView.setIncidents(INCIDENTS);
+  const manual=(i.status==='fulfilled'&&i.value.incidents)||[];
+  const auto=((RW&&RW.by_country)||[]).slice(0,12).map(c=>({name:`${c.count} ransomware claim${c.count>1?'s':''} this week`,place:countryName(c.code),lat:c.lat,lon:c.lon,date:null}));
+  INCIDENTS=[...auto,...manual];
+  renderStamp(); renderAlerts(); renderNews(); renderIncidents(); renderThreats(); MapView.setIncidents(INCIDENTS);
   MapView.setAttacks(k.status==='fulfilled'?k.value:null);
 }
 function ago(iso){
@@ -298,7 +397,9 @@ function renderStamp(){
   if(loadError){ el.innerHTML='<span class="warn">Couldn’t load the data files.</span><br>Check the feed update has run at least once.'; return; }
   if(!META||!META.generated_at){ el.innerHTML='Waiting for the first update.<br>It runs every 15 minutes.'; st.textContent=''; return; }
   const failed=(META.sources||[]).filter(s=>!s.ok);
-  el.innerHTML=`Updated <b>${ago(META.generated_at)}</b><br>`+(failed.length?`<span class="warn">${failed.length} source${failed.length>1?'s':''} failed last run</span>`:'All sources responding');
+  const lvl=THREATS&&THREATS.infocon;
+  const lvlHtml=lvl?`<a class="infocon ${esc(lvl)}" href="https://isc.sans.edu/infocon.html" target="_blank" rel="noopener" title="SANS Internet Storm Center threat level"><i></i>Internet threat level: ${esc(lvl[0].toUpperCase()+lvl.slice(1))}</a><br>`:'';
+  el.innerHTML=lvlHtml+`Updated <b>${ago(META.generated_at)}</b><br>`+(failed.length?`<span class="warn">${failed.length} source${failed.length>1?'s':''} failed last run</span>`:'All sources responding');
   st.textContent=failed.length?`Not responding on the last run: ${failed.map(f=>f.name).join(', ')}. Their previous items may be missing until they recover.`:'';
 }
 
@@ -440,6 +541,73 @@ function renderNews(){
 }
 document.getElementById('news').addEventListener('click',e=>{ const b=e.target.closest('[data-jump]'); if(b) jumpToAlert(b.dataset.jump); });
 
+/* ---------------- Incidents ---------------- */
+const nf=new Intl.NumberFormat('en-GB');
+const compact=n=>n>=1e9?(n/1e9).toFixed(1).replace(/\.0$/,'')+' billion':n>=1e6?(n/1e6).toFixed(1).replace(/\.0$/,'')+' million':nf.format(n);
+const titleCase=t=>String(t||'').replace(/\b([a-z])/g,m=>m.toUpperCase());
+function bars(list,label,{link}={}){
+  if(!list||!list.length) return '<p class="note">No data yet.</p>';
+  const max=Math.max(...list.map(x=>x.count));
+  return `<div class="bars">${list.map(x=>`<div class="bar"><span>${link&&link(x)?`<a href="${esc(safeUrl(link(x)))}" target="_blank" rel="noopener">${esc(label(x))}</a>`:esc(label(x))}</span><span class="n">${nf.format(x.count)}</span><div class="track"><div class="fill" style="width:${(x.count/max*100).toFixed(1)}%"></div></div></div>`).join('')}</div>`;
+}
+let rwShown=40;
+document.getElementById('rw-q').addEventListener('input',()=>{ rwShown=40; renderRansomwareList(); });
+document.getElementById('rw-more').addEventListener('click',()=>{ rwShown+=60; renderRansomwareList(); });
+function renderRansomwareList(){
+  const el=document.getElementById('rw-list'), more=document.getElementById('rw-more');
+  if(!RW||!RW.victims){ el.innerHTML='<p class="empty">No ransomware data yet. It appears after the next hourly update.</p>'; more.hidden=true; return; }
+  const q=norm(document.getElementById('rw-q').value.trim());
+  const list=RW.victims.filter(v=>matchesQ(q,v.victim,v.group,v.sector||'',countryName(v.country)));
+  if(!list.length){ el.innerHTML='<p class="empty">No claims match your search.</p>'; more.hidden=true; return; }
+  el.innerHTML=`<div class="vtable" role="table" aria-label="Ransomware claims"><div class="vrow head" role="row"><span role="columnheader">Posted</span><span role="columnheader">Organisation</span><span role="columnheader">Gang</span><span role="columnheader">Sector</span><span role="columnheader">Country</span></div>`+
+    list.slice(0,rwShown).map(v=>`<div class="vrow" role="row"><time role="cell" datetime="${esc(v.date||'')}">${fmt(v.date)}</time><span role="cell" class="org">${esc(v.victim)}</span><span role="cell">${esc(titleCase(v.group))}</span><span role="cell" class="m">${esc(v.sector&&!/^(not found|unknown|n\/a)$/i.test(v.sector)?v.sector:'Not stated')}</span><span role="cell" class="m">${esc(countryName(v.country)||'Not stated')}</span></div>`).join('')+`</div>`;
+  more.hidden=list.length<=rwShown;
+  more.textContent=`Show more (${list.length-rwShown} left)`;
+}
+function renderIncidents(){
+  const lede=document.getElementById('inc-lede');
+  const rwN=RW&&RW.total, brN=BREACHES&&BREACHES.breaches?BREACHES.breaches.length:null;
+  const pl=(n,one,many)=>`${nf.format(n)} ${n===1?one:many}`;
+  lede.textContent=rwN!=null&&brN!=null?`${pl(rwN,'ransomware claim','ransomware claims')} this week and ${pl(brN,'confirmed breach','confirmed breaches')} recently`
+    : rwN!=null?`${pl(rwN,'ransomware claim','ransomware claims')} this week`:'Who’s been hit';
+  document.getElementById('rw-stats').innerHTML=!RW?'':`
+    <div class="card"><h4>Most active gangs</h4>${bars(RW.by_group,x=>titleCase(x.name))}</div>
+    <div class="card"><h4>Sectors hit</h4>${bars(RW.by_sector,x=>x.name)}</div>
+    <div class="card"><h4>Countries</h4>${bars((RW.by_country||[]).slice(0,6).map(c=>({name:c.code,count:c.count})),x=>countryName(x.name))}<p class="note">Also shown as markers on the map.</p></div>`;
+  renderRansomwareList();
+  const bEl=document.getElementById('breaches');
+  if(!BREACHES||!BREACHES.breaches){ bEl.innerHTML='<p class="empty">No breach data yet. It appears after the next hourly update.</p>'; return; }
+  if(!BREACHES.breaches.length){ bEl.innerHTML='<p class="empty">No new breaches added in the last 60 days.</p>'; return; }
+  bEl.innerHTML=BREACHES.breaches.map(b=>`
+    <article class="card breach">
+      <h4>${esc(b.title)}</h4>${b.domain?`<div class="dom">${esc(b.domain)}</div>`:''}
+      <p class="big">${esc(compact(b.accounts))} <small>accounts</small></p>
+      <p class="meta">Added ${fmt(b.added)}${b.breach_date?`, breach happened ${fmt(b.breach_date)} ${esc(b.breach_date.slice(0,4))}`:''}${b.verified?'':'. <span class="unv">Unverified</span>'}${b.stealer_logs?'. From infostealer malware logs':''}</p>
+      ${b.data&&b.data.length?`<div class="dclasses">${b.data.map(d=>`<span>${esc(d)}</span>`).join('')}</div>`:''}
+      <a class="src-link" href="${esc(safeUrl(b.url))}" target="_blank" rel="noopener">Details on Have I Been Pwned</a>
+    </article>`).join('');
+}
+
+/* ---------------- Threats ---------------- */
+function renderThreats(){
+  const T=THREATS||{}, none=src=>`<p class="note">No data yet. ${src}</p>`;
+  const lvl=T.infocon, desc={green:'Everything normal. No significant new threat known.',yellow:'SANS is tracking a significant new threat. Impact is not yet known.',orange:'A major disruption in connectivity is imminent or in progress.',red:'General disruption of internet connectivity across a large area.'};
+  document.getElementById('t-infocon').innerHTML=`<h4>Internet threat level</h4>`+(lvl?`<div class="level ${esc(lvl)}"><i aria-hidden="true"></i><b>${esc(lvl[0].toUpperCase()+lvl.slice(1))}</b></div><p class="note" style="margin-top:0">${esc(desc[lvl]||'')}</p><p class="note">From the SANS Internet Storm Center. It is green on almost every day.</p>`:none('Appears after the next hourly update.'));
+  const m=T.malware;
+  document.getElementById('t-malware').innerHTML=`<h4>Most active malware, last 24 hours</h4>`+(m?`<div class="kpis"><div><b>${nf.format(m.total_iocs)}</b>new indicators</div><div><b>${nf.format(m.c2_servers)}</b>control servers found</div></div>${bars(m.families.map(f=>({name:f.name,count:f.iocs,url:f.url})),x=>x.name,{link:x=>x.url})}<p class="note">Indicators are malware servers, files and addresses reported to abuse.ch ThreatFox. Control servers are the machines attackers use to command infected devices.</p>`:none('Needs the ABUSECH_AUTH_KEY secret.'));
+  const pt=T.ports;
+  document.getElementById('t-ports').innerHTML=`<h4>Most scanned ports${T.ports_date?`, ${fmt(T.ports_date)}`:''}</h4>`+(pt&&pt.length?`<table class="ptable"><thead><tr><th scope="col">Port</th><th scope="col">Service</th><th scope="col" class="r">Scanning sources</th></tr></thead><tbody>${pt.map(p=>`<tr><td>${p.port}</td><td>${esc(p.service||'Other')}</td><td class="r">${nf.format(p.sources)}</td></tr>`).join('')}</tbody></table><p class="note">Ports are the “doors” services listen on. A busy port means attackers are hunting for exposed systems of that kind.</p>`:none('Appears after the next hourly update.'));
+  const u=T.urls;
+  document.getElementById('t-urls').innerHTML=`<h4>Malicious links</h4>`+(u?`<div class="kpis"><div><b>${nf.format(u.online)}</b>still online, of the ${nf.format(u.sample)} most recent</div></div><p class="note" style="margin:0 0 8px">Most common tags:</p>${bars(u.top_tags,x=>x.name)}<p class="note">Links spreading malware, reported to abuse.ch URLhaus. Tags name the malware or the kind of device targeted.</p>`:none('Needs the ABUSECH_AUTH_KEY secret.'));
+  const pulses=T.pulses;
+  document.getElementById('t-pulses').innerHTML=pulses&&pulses.length?pulses.map(p=>{
+    const keys=[...(p.malware||[]).map(x=>`<span class="k">${esc(x)}</span>`),...(p.countries||[]).map(x=>`<span>Targets ${esc(x)}</span>`),...(p.industries||[]).map(x=>`<span>${esc(x)}</span>`)];
+    return `<article class="pulse"><h4><a href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener">${esc(p.name)}</a></h4>${p.summary?`<p>${esc(p.summary)}</p>`:''}<div class="by">${esc(p.author||'OTX')}${p.adversary?`, attributed to ${esc(p.adversary)}`:''}, ${fmt(p.date)}</div>${keys.length?`<div class="tags">${keys.join('')}</div>`:''}</article>`;}).join('')
+    : `<p class="empty">${pulses?'No new campaign reports this week.':'No campaign reports yet. Needs the OTX_API_KEY secret.'}</p>`;
+  const d=T.diary;
+  document.getElementById('t-diary').innerHTML=d&&d.length?d.map(x=>`<li><a href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener">${esc(x.title)}</a><small>${fmt(x.date)}</small></li>`).join(''):'<li class="note">No diary entries yet.</li>';
+}
+
 /* ---------------- Map ---------------- */
 const TYPES=[
   {k:"exploit",name:"Exploit attempt",v:"--t-exploit",w:3},
@@ -509,7 +677,7 @@ const MapView=(function(){
   // legend, incidents list
   function renderLegend(){
     const list=mode==='radar'?Object.values(LAYERS).filter(l=>routes.some(r=>r.layer===l)):TYPES;
-    document.getElementById('legend').innerHTML=list.map(t=>`<span><i style="background:var(${t.v})"></i>${t.name}</span>`).join('')+(INCIDENTS.length?`<span class="pin"><i></i>Reported incident</span>`:'');
+    document.getElementById('legend').innerHTML=list.map(t=>`<span><i style="background:var(${t.v})"></i>${t.name}</span>`).join('')+(INCIDENTS.length?`<span class="pin"><i></i>Ransomware claims and incidents</span>`:'');
   }
   renderLegend();
     const pauseBtn=document.getElementById('pause');
@@ -677,7 +845,7 @@ const MapView=(function(){
     const hits=INCIDENTS.filter(i=>{const [px,py]=P(i.lon,i.lat);return Math.abs(px-x)<9&&Math.abs(py-y)<9});
     if(hits.length){
       const [px,py]=P(hits[0].lon,hits[0].lat);
-      tip.innerHTML=hits.map(h=>`<b>${esc(h.name)}</b><br>${esc(h.place)}, ${fmt(h.date)}`).join('<br><br>');
+      tip.innerHTML=hits.map(h=>`<b>${esc(h.name)}</b><br>${esc(h.place)}${h.date?`, ${fmt(h.date)}`:''}`).join('<br><br>');
       tip.style.left=px+'px'; tip.style.top=py+'px'; tip.style.display='block';
     } else tip.style.display='none';
   }
@@ -709,7 +877,7 @@ const MapView=(function(){
         sub.textContent='Arcs replay the busiest attack routes Cloudflare saw in the last 24 hours. Busier routes appear more often. Click a country, or pick one from the list, to see only its routes.';
         notice.innerHTML=`<b>Real proportions from Cloudflare Radar.</b> Each arc stands for a share of attack traffic, not a single attack. Data from ${ago(data.generated_at)}.`;
       } else {
-        sub.textContent='Arcs show a simulated stream of attacks between major internet hubs, to give a feel for volume and type. Square markers are real reported incidents.';
+        sub.textContent='Arcs show a simulated stream of attacks between major internet hubs, to give a feel for volume and type. Square markers show where ransomware claims and other incidents were reported.';
         notice.innerHTML='<b>Simulated traffic.</b> Arcs are illustrative, not live sensor data. Markers are real reported incidents.';
       }
       arcs=[]; rings=[]; feedEl.innerHTML=''; updateTitles(); renderLegend(); renderTally(); if(visible) build();
@@ -717,7 +885,7 @@ const MapView=(function(){
     setIncidents(list){
       document.getElementById('incidents-panel').hidden=!list.length;
       renderLegend();
-      document.getElementById('incidents').innerHTML=list.map(i=>`<li>${esc(i.name)}<small>${esc(i.place)}, ${fmt(i.date)}</small></li>`).join('');
+      document.getElementById('incidents').innerHTML=list.map(i=>`<li>${esc(i.name)}<small>${esc(i.place)}${i.date?`, ${fmt(i.date)}`:''}</small></li>`).join('');
       if(visible) build();
     },
     setVisible(v){
