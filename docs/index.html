@@ -351,9 +351,9 @@ footer p{margin:0 0 6px;max-width:80ch}
     <h2 class="lede" id="inc-lede">Who’s been hit</h2>
     <p class="sub">Ransomware claims from the last 7 days and confirmed data breaches from the last 60 days.</p>
     <h3 class="sec">Ransomware claims</h3>
-    <p class="caveat">Posted by ransomware gangs on their leak sites and collected by Ransomware.live. These are the gangs’ own claims and aren’t independently confirmed. Some are exaggerated or recycled from old attacks.</p>
+    <p class="caveat">Posted by ransomware gangs on their leak sites and collected by Ransomware.live. These are the gangs’ own claims and aren’t independently confirmed. Some are exaggerated or recycled from old attacks. Select an organisation to see its entry on Ransomware.live.</p>
     <div class="stat-grid" id="rw-stats"></div>
-    <div class="news-tools"><label class="search"><span class="sr-only">Search ransomware claims</span><input type="search" id="rw-q" placeholder="Search organisations, gangs, sectors or countries" autocomplete="off"></label></div>
+    <div class="news-tools"><label class="search"><span class="sr-only">Search ransomware claims by organisation, gang, sector or country</span><input type="search" id="rw-q" placeholder="Search by organisation, gang or country" autocomplete="off"></label></div>
     <div id="rw-list"></div>
     <button class="btn more" id="rw-more" type="button" hidden>Show more</button>
     <h3 class="sec">Confirmed breaches</h3>
@@ -644,7 +644,7 @@ function renderRansomwareList(){
   const list=RW.victims.filter(v=>matchesQ(q,v.victim,v.group,v.sector||'',countryName(v.country)));
   if(!list.length){ el.innerHTML='<p class="empty">No claims match your search.</p>'; more.hidden=true; return; }
   el.innerHTML=`<div class="vtable" role="table" aria-label="Ransomware claims"><div class="vrow head" role="row"><span role="columnheader">Posted</span><span role="columnheader">Organisation</span><span role="columnheader">Gang</span><span role="columnheader">Sector</span><span role="columnheader">Country</span></div>`+
-    list.slice(0,rwShown).map(v=>`<div class="vrow" role="row"><time role="cell" datetime="${esc(v.date||'')}">${fmt(v.date)}</time><span role="cell" class="org">${esc(v.victim)}</span><span role="cell"><button class="gang-link" type="button" data-gang="${esc(v.group)}">${esc(titleCase(v.group))}</button></span><span role="cell" class="m">${esc(v.sector&&!/^(not found|unknown|n\/a)$/i.test(v.sector)?v.sector:'Not stated')}</span><span role="cell" class="m">${esc(countryName(v.country)||'Not stated')}</span></div>`).join('')+`</div>`;
+    list.slice(0,rwShown).map(v=>`<div class="vrow" role="row"><time role="cell" datetime="${esc(v.date||'')}">${fmt(v.date)}</time><span role="cell" class="org">${/^https:\/\/(www\.)?ransomware\.live\//.test(v.url||'')?`<a href="${esc(v.url)}" target="_blank" rel="noopener" title="View this claim on Ransomware.live">${esc(v.victim)}</a>`:esc(v.victim)}</span><span role="cell"><button class="gang-link" type="button" data-gang="${esc(v.group)}">${esc(titleCase(v.group))}</button></span><span role="cell" class="m">${esc(v.sector&&!/^(not found|unknown|n\/a)$/i.test(v.sector)?v.sector:'Not stated')}</span><span role="cell" class="m">${esc(countryName(v.country)||'Not stated')}</span></div>`).join('')+`</div>`;
   more.hidden=list.length<=rwShown;
   more.textContent=`Show more (${list.length-rwShown} left)`;
 }
