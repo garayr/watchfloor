@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T16:53:25+00:00",
+ "generated_at": "2026-09-30T17:53:52+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -13,8 +13,8 @@
    "count": 11
   },
   {
-   "name": "safepay",
-   "count": 8
+   "name": "lamashtu",
+   "count": 10
   },
   {
    "name": "BrainCipher",
@@ -30,11 +30,11 @@
   },
   {
    "name": "medusalocker",
-   "count": 4
+   "count": 3
   },
   {
-   "name": "emperador",
-   "count": 3
+   "name": "Doommageddon",
+   "count": 2
   }
  ],
  "by_sector": [
@@ -52,27 +52,33 @@
   },
   {
    "name": "Technology",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Other",
-   "count": 9
+   "count": 8
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 7
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 34,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
   },
   {
+   "code": "DE",
+   "count": 8,
+   "lat": 50.1,
+   "lon": 8.7
+  },
+  {
    "code": "GB",
-   "count": 6,
+   "count": 5,
    "lat": 51.5,
    "lon": -0.1
   },
@@ -83,22 +89,16 @@
    "lon": -46.6
   },
   {
-   "code": "CH",
-   "count": 4,
-   "lat": 46.9,
-   "lon": 7.4
-  },
-  {
    "code": "ES",
-   "count": 4,
+   "count": 3,
    "lat": 40.4,
    "lon": -3.7
   },
   {
-   "code": "DE",
+   "code": "IT",
    "count": 3,
-   "lat": 50.1,
-   "lon": 8.7
+   "lat": 41.9,
+   "lon": 12.5
   },
   {
    "code": "KR",
@@ -113,6 +113,12 @@
    "lon": 28.0
   },
   {
+   "code": "AU",
+   "count": 2,
+   "lat": -33.9,
+   "lon": 151.2
+  },
+  {
    "code": "BE",
    "count": 2,
    "lat": 50.8,
@@ -125,28 +131,10 @@
    "lon": -79.4
   },
   {
-   "code": "IT",
+   "code": "FR",
    "count": 2,
-   "lat": 41.9,
-   "lon": 12.5
-  },
-  {
-   "code": "MX",
-   "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
-   "code": "PH",
-   "count": 2,
-   "lat": 14.6,
-   "lon": 121.0
-  },
-  {
-   "code": "SE",
-   "count": 2,
-   "lat": 59.3,
-   "lon": 18.1
+   "lat": 48.9,
+   "lon": 2.35
   },
   {
    "code": "TW",
@@ -173,12 +161,6 @@
    "lon": 16.4
   },
   {
-   "code": "AU",
-   "count": 1,
-   "lat": -33.9,
-   "lon": 151.2
-  },
-  {
    "code": "BD",
    "count": 1,
    "lat": 23.8,
@@ -191,16 +173,16 @@
    "lon": 23.3
   },
   {
+   "code": "CH",
+   "count": 1,
+   "lat": 46.9,
+   "lon": 7.4
+  },
+  {
    "code": "CO",
    "count": 1,
    "lat": 4.7,
    "lon": -74.1
-  },
-  {
-   "code": "FR",
-   "count": 1,
-   "lat": 48.9,
-   "lon": 2.35
   },
   {
    "code": "GR",
@@ -227,10 +209,10 @@
    "lon": 72.9
   },
   {
-   "code": "LT",
+   "code": "MX",
    "count": 1,
-   "lat": 54.7,
-   "lon": 25.3
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "MY",
@@ -243,6 +225,12 @@
    "count": 1,
    "lat": -36.8,
    "lon": 174.8
+  },
+  {
+   "code": "PH",
+   "count": 1,
+   "lat": 14.6,
+   "lon": 121.0
   },
   {
    "code": "PL",
@@ -276,6 +264,102 @@
   }
  ],
  "victims": [
+  {
+   "victim": "econ-tec.com",
+   "group": "safepay",
+   "date": "2026-09-30T13:36:55+00:00",
+   "attack_date": "2026-09-30",
+   "country": "DE",
+   "sector": "Technology"
+  },
+  {
+   "victim": "assist2enjoy.be",
+   "group": "safepay",
+   "date": "2026-09-30T13:36:19+00:00",
+   "attack_date": "2026-09-30",
+   "country": "BE",
+   "sector": "Other"
+  },
+  {
+   "victim": "Dr Damiel Pugliese",
+   "group": "lamashtu",
+   "date": "2026-09-30T13:32:57+00:00",
+   "attack_date": "2026-09-30",
+   "country": null,
+   "sector": "Healthcare"
+  },
+  {
+   "victim": "Astidental di Sabbione",
+   "group": "lamashtu",
+   "date": "2026-09-30T13:32:20+00:00",
+   "attack_date": "2026-09-30",
+   "country": "IT",
+   "sector": "Manufacturing"
+  },
+  {
+   "victim": "Vinco Energy",
+   "group": "lamashtu",
+   "date": "2026-09-30T13:06:49+00:00",
+   "attack_date": "2026-09-30",
+   "country": "US",
+   "sector": "Energy & Utilities"
+  },
+  {
+   "victim": "Becker Logistik",
+   "group": "lamashtu",
+   "date": "2026-09-30T13:06:09+00:00",
+   "attack_date": "2026-09-30",
+   "country": "DE",
+   "sector": "Transportation"
+  },
+  {
+   "victim": "Wilhelm Kühne",
+   "group": "lamashtu",
+   "date": "2026-09-30T13:05:31+00:00",
+   "attack_date": "2026-09-30",
+   "country": "DE",
+   "sector": "Manufacturing"
+  },
+  {
+   "victim": "FIDUCIAL",
+   "group": "lamashtu",
+   "date": "2026-09-30T13:04:52+00:00",
+   "attack_date": "2026-09-30",
+   "country": "FR",
+   "sector": "Financial Services"
+  },
+  {
+   "victim": "Virtual Ideas",
+   "group": "lamashtu",
+   "date": "2026-09-30T13:04:17+00:00",
+   "attack_date": "2026-09-30",
+   "country": "AU",
+   "sector": "Technology"
+  },
+  {
+   "victim": "PROJAHN",
+   "group": "lamashtu",
+   "date": "2026-09-30T13:03:39+00:00",
+   "attack_date": "2026-09-30",
+   "country": "DE",
+   "sector": "Other"
+  },
+  {
+   "victim": "Altmannshofer Sicherheits-Videotechnik",
+   "group": "lamashtu",
+   "date": "2026-09-30T13:02:58+00:00",
+   "attack_date": "2026-09-30",
+   "country": "DE",
+   "sector": "Manufacturing"
+  },
+  {
+   "victim": "MCAP — MortgageHub commercial lending platform",
+   "group": "N0n",
+   "date": "2026-09-30T12:52:16+00:00",
+   "attack_date": "2026-09-30",
+   "country": "CA",
+   "sector": "Financial Services"
+  },
   {
    "victim": "GERLON",
    "group": "lamashtu",
@@ -829,14 +913,6 @@
    "sector": "Not Found"
   },
   {
-   "victim": "bakemyday.se",
-   "group": "incransom",
-   "date": "2026-09-28T19:30:12+00:00",
-   "attack_date": "2026-09-28",
-   "country": "SE",
-   "sector": "Retail & E-Commerce"
-  },
-  {
    "victim": "safescaffolding.net",
    "group": "threeam",
    "date": "2026-09-28T18:53:08+00:00",
@@ -987,94 +1063,6 @@
    "attack_date": "2026-09-28",
    "country": null,
    "sector": "Not Found"
-  },
-  {
-   "victim": "ATCO Ltd",
-   "group": "medusalocker",
-   "date": "2026-09-28T10:59:30+00:00",
-   "attack_date": "2026-09-28",
-   "country": "CA",
-   "sector": "Energy & Utilities"
-  },
-  {
-   "victim": "manno.ch",
-   "group": "safepay",
-   "date": "2026-09-28T08:34:02+00:00",
-   "attack_date": "2026-09-28",
-   "country": "CH",
-   "sector": "Other"
-  },
-  {
-   "victim": "auromex.com",
-   "group": "safepay",
-   "date": "2026-09-28T08:33:27+00:00",
-   "attack_date": "2026-09-28",
-   "country": "MX",
-   "sector": "Manufacturing"
-  },
-  {
-   "victim": "cromados.com",
-   "group": "safepay",
-   "date": "2026-09-28T08:32:52+00:00",
-   "attack_date": "2026-09-28",
-   "country": "ES",
-   "sector": "Manufacturing"
-  },
-  {
-   "victim": "lfgholding.com",
-   "group": "safepay",
-   "date": "2026-09-28T07:33:24+00:00",
-   "attack_date": "2026-09-28",
-   "country": "CH",
-   "sector": "Other"
-  },
-  {
-   "victim": "fedelmundo.com.ph",
-   "group": "safepay",
-   "date": "2026-09-28T07:32:49+00:00",
-   "attack_date": "2026-09-28",
-   "country": "PH",
-   "sector": "Other"
-  },
-  {
-   "victim": "bio-strath.com",
-   "group": "safepay",
-   "date": "2026-09-28T07:32:13+00:00",
-   "attack_date": "2026-09-28",
-   "country": "CH",
-   "sector": "Healthcare"
-  },
-  {
-   "victim": "eagroep.com",
-   "group": "safepay",
-   "date": "2026-09-28T07:31:04+00:00",
-   "attack_date": "2026-09-28",
-   "country": "BE",
-   "sector": "Agriculture and Food Production"
-  },
-  {
-   "victim": "Holiday Inn Vilnius",
-   "group": "safepay",
-   "date": "2026-09-28T07:30:29+00:00",
-   "attack_date": "2026-09-28",
-   "country": "LT",
-   "sector": "Hospitality"
-  },
-  {
-   "victim": "Dediserve Ltd",
-   "group": "N0n",
-   "date": "2026-09-28T05:51:12+00:00",
-   "attack_date": "2026-09-28",
-   "country": "GB",
-   "sector": "Technology"
-  },
-  {
-   "victim": "Electrolux 2...",
-   "group": "emperador",
-   "date": "2026-09-28T02:51:03+00:00",
-   "attack_date": "2026-09-28",
-   "country": "SE",
-   "sector": "Manufacturing"
   }
  ]
 }

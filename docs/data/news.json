@@ -42,14 +42,6 @@
      "date": "2026-09-29T18:09:39+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
-     "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an…",
-     "source": "The Hacker News",
-     "date": "2026-09-29T08:35:10+00:00",
-     "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
@@ -125,6 +117,14 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+     "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack…",
+     "source": "The Hacker News",
+     "date": "2026-09-30T16:46:29+00:00",
+     "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
@@ -258,20 +258,20 @@
      "date": "2026-09-29T14:13:20+00:00",
      "url": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-     "summary": "A malicious MCP server could trick an application built on the official MCP Python SDK into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory…",
-     "source": "The Hacker News",
-     "date": "2026-09-29T06:08:25+00:00",
-     "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+     "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and…",
+     "source": "The Hacker News",
+     "date": "2026-09-30T16:32:59+00:00",
+     "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
      "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed…",

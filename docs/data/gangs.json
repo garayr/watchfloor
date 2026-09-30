@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T16:53:25+00:00",
+ "generated_at": "2026-09-30T17:53:52+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1606,6 +1606,249 @@
    ],
    "history_size": 44,
    "updated": "2026-09-30T16:53:25+00:00"
+  },
+  "Doommageddon": {
+   "name": "Doommageddon",
+   "description": "Direct Extortion Double Extortion",
+   "aliases": [],
+   "first_seen": "2026-03-08",
+   "last_seen": "2026-09-28",
+   "victims_total": 14,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "TR",
+      "count": 5
+     },
+     {
+      "name": "IN",
+      "count": 3
+     },
+     {
+      "name": "BR",
+      "count": 2
+     },
+     {
+      "name": "PY",
+      "count": 1
+     },
+     {
+      "name": "US",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 4
+     },
+     {
+      "name": "Healthcare",
+      "count": 2
+     },
+     {
+      "name": "Other",
+      "count": 2
+     },
+     {
+      "name": "Transportation",
+      "count": 2
+     },
+     {
+      "name": "Financial Services",
+      "count": 1
+     },
+     {
+      "name": "Government & Defense",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-10",
+     "count": 0
+    },
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 8
+    },
+    {
+     "month": "2026-08",
+     "count": 2
+    },
+    {
+     "month": "2026-09",
+     "count": 4
+    }
+   ],
+   "history_size": 14,
+   "updated": "2026-09-30T17:53:52+00:00"
+  },
+  "N0n": {
+   "name": "N0n",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-30",
+   "victims_total": 17,
+   "cves": [],
+   "tools": [],
+   "techniques": [
+    "Valid Accounts",
+    "Command and Scripting Interpreter",
+    "Boot or Logon Autostart Execution",
+    "Obfuscated Files or Information",
+    "Remote Services: Remote Desktop Protocol",
+    "Data Staged",
+    "Data Encrypted for Impact",
+    "Service Stop",
+    "Inhibit System Recovery",
+    "Disable or Modify Tools"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 4
+     },
+     {
+      "name": "GB",
+      "count": 2
+     },
+     {
+      "name": "VN",
+      "count": 2
+     },
+     {
+      "name": "AR",
+      "count": 1
+     },
+     {
+      "name": "BR",
+      "count": 1
+     },
+     {
+      "name": "CA",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Financial Services",
+      "count": 4
+     },
+     {
+      "name": "Technology",
+      "count": 4
+     },
+     {
+      "name": "Education",
+      "count": 2
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 2
+     },
+     {
+      "name": "Government & Defense",
+      "count": 1
+     },
+     {
+      "name": "Healthcare",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-10",
+     "count": 0
+    },
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 17
+    }
+   ],
+   "history_size": 17,
+   "updated": "2026-09-30T17:53:52+00:00"
   }
  }
 }
