@@ -19,15 +19,7 @@
    "kev": true,
    "epss": 0.0081,
    "cvss": 8.8,
-   "sev": "high",
-   "news": [
-    {
-     "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-     "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-     "source": "The Hacker News",
-     "date": "2026-09-28T19:18:01+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
@@ -63,6 +55,12 @@
    "sev": "critical",
    "news": [
     {
+     "title": "Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks",
+     "url": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
+     "source": "SecurityWeek",
+     "date": "2026-09-30T12:48:20+00:00"
+    },
+    {
      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
      "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
      "source": "The Hacker News",
@@ -73,12 +71,6 @@
      "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
      "source": "The Hacker News",
      "date": "2026-09-30T05:30:30+00:00"
-    },
-    {
-     "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-     "source": "BleepingComputer",
-     "date": "2026-09-29T18:37:12+00:00"
     }
    ]
   },
@@ -104,6 +96,12 @@
    "sev": "critical",
    "news": [
     {
+     "title": "Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks",
+     "url": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
+     "source": "SecurityWeek",
+     "date": "2026-09-30T12:48:20+00:00"
+    },
+    {
      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
      "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
      "source": "The Hacker News",
@@ -114,12 +112,6 @@
      "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
      "source": "The Hacker News",
      "date": "2026-09-30T05:30:30+00:00"
-    },
-    {
-     "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-     "source": "BleepingComputer",
-     "date": "2026-09-29T18:37:12+00:00"
     }
    ]
   },
@@ -460,18 +452,6 @@
    "sev": "high"
   },
   {
-   "id": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
-   "date": "2026-09-15",
-   "src": "NCSC",
-   "vendor": "NCSC",
-   "title": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
-   "detail": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
-   "todo": "Read the advisory for affected products and mitigations.",
-   "cves": [],
-   "url": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
-   "sev": "medium"
-  },
-  {
    "id": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
    "date": "2026-09-15",
    "src": "NCSC",
@@ -481,6 +461,18 @@
    "todo": "Read the advisory for affected products and mitigations.",
    "cves": [],
    "url": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
+   "sev": "medium"
+  },
+  {
+   "id": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
+   "date": "2026-09-15",
+   "src": "NCSC",
+   "vendor": "NCSC",
+   "title": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
+   "detail": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
+   "todo": "Read the advisory for affected products and mitigations.",
+   "cves": [],
+   "url": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
    "sev": "medium"
   },
   {

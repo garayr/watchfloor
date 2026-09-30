@@ -65,6 +65,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+     "summary": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire…",
+     "source": "The Hacker News",
+     "date": "2026-09-30T11:58:00+00:00",
+     "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
      "summary": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said. Its researchers found more than 13,000 internal images…",
      "source": "The Hacker News",
@@ -133,6 +141,18 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks",
+     "summary": "Several security firms have confirmed seeing exploitation of the NetScaler vulnerabilities CVE-2026-88771 and CVE-2026-88772. The post Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-09-30T12:48:20+00:00",
+     "url": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88772",
+      "CVE-2026-88771"
+     ]
+    },
     {
      "title": "TeamViewer urges users to patch severe flaws “as soon as possible”",
      "summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client and host software. [...]",
@@ -243,17 +263,6 @@
      "date": "2026-09-29T04:45:20+00:00",
      "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-     "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as CVE-2026-86950, refers…",
-     "source": "The Hacker News",
-     "date": "2026-09-28T19:18:01+00:00",
-     "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-86950"
-     ]
     }
    ]
   },
@@ -335,14 +344,6 @@
      "source": "BleepingComputer",
      "date": "2026-09-29T17:37:40+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
-     "group": "Other news"
-    },
-    {
-     "title": "RemoteThreat Launches With $7 Million for Offensive Operations Platform",
-     "summary": "The company emerged from stealth mode with pre-seed funding from Osage University Partners and DataTribe. The post RemoteThreat Launches With $7 Million for Offensive Operations Platform appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-09-29T14:38:07+00:00",
-     "url": "https://www.securityweek.com/remotethreat-launches-with-7-million-for-offensive-operations-platform/",
      "group": "Other news"
     },
     {
