@@ -28,11 +28,13 @@ jobs:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}                     # optional
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}   # for the attack map
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}                       # for phone alerts
+          ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}           # Threats tab: malware activity
+          OTX_API_KEY: ${{ secrets.OTX_API_KEY }}                     # Threats tab: campaign reports
         run: python scripts/fetch_feeds.py
 
       - name: Commit if alerts, news or map data changed
         run: |
-          if [ -z "$(git status --porcelain -- docs/data/alerts.json docs/data/news.json docs/data/attacks.json cache/notified.json cache/digest.json)" ]; then
+          if [ -z "$(git status --porcelain -- docs/data/alerts.json docs/data/news.json docs/data/attacks.json docs/data/ransomware.json docs/data/breaches.json docs/data/threats.json cache/notified.json cache/digest.json)" ]; then
             echo "No new alerts, news or map data. Nothing to commit."
             exit 0
           fi
