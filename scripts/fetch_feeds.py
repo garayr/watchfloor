@@ -167,12 +167,19 @@ def fetch(url, headers=None, timeout=30, tries=3):
                 return resp.read()
         except urllib.error.HTTPError as e:
             last = e
+            try:
+                body = e.read(300).decode("utf-8", "replace")
+            except Exception:  # noqa: BLE001
+                body = ""
+            body = re.sub(r"[\w.+-]+@[\w-]+\.[\w.-]+", "[email]", re.sub(r"\s+", " ", body)).strip()[:160]
+            host = urllib.parse.urlsplit(url).netloc
+            log(f"  HTTP {e.code} from {host}{': ' + body if body else ''}")
             if e.code < 500 and e.code != 429:
                 break
         except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
             last = e
         time.sleep(2 * (attempt + 1))
-    raise RuntimeError(f"{url}: {last}")
+    raise RuntimeError(f"{urllib.parse.urlsplit(url).netloc}: {last}")
 
 
 def record(name, ok, count=0, error=None):
@@ -1110,7 +1117,9 @@ def load_urlhaus():
     if not ABUSECH_KEY:
         return None
     try:
-        data = json.loads(http_post(URLHAUS_URL, b"", {"Auth-Key": ABUSECH_KEY}))
+        data = json.loads(fetch(URLHAUS_URL, headers={"Auth-Key": ABUSECH_KEY}, timeout=60, tries=2))
+        if data.get("query_status") not in ("ok", "no_results"):
+            raise RuntimeError(f"query_status={data.get('query_status')}")
         rows = data.get("urls") or []
     except Exception as e:  # noqa: BLE001
         record("abuse.ch URLhaus", False, error=str(e)[:200])
