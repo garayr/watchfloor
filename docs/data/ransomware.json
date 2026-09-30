@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T15:57:05+00:00",
+ "generated_at": "2026-09-30T16:53:25+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -29,12 +29,12 @@
    "count": 6
   },
   {
-   "name": "emperador",
+   "name": "medusalocker",
    "count": 4
   },
   {
-   "name": "medusalocker",
-   "count": 4
+   "name": "emperador",
+   "count": 3
   }
  ],
  "by_sector": [
@@ -43,19 +43,19 @@
    "count": 17
   },
   {
-   "name": "Healthcare",
-   "count": 14
-  },
-  {
    "name": "Professional Services",
    "count": 14
   },
   {
-   "name": "Other",
-   "count": 9
+   "name": "Healthcare",
+   "count": 13
   },
   {
    "name": "Technology",
+   "count": 10
+  },
+  {
+   "name": "Other",
    "count": 9
   },
   {
@@ -93,6 +93,12 @@
    "count": 4,
    "lat": 40.4,
    "lon": -3.7
+  },
+  {
+   "code": "DE",
+   "count": 3,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "KR",
@@ -191,12 +197,6 @@
    "lon": -74.1
   },
   {
-   "code": "DE",
-   "count": 1,
-   "lat": 50.1,
-   "lon": 8.7
-  },
-  {
    "code": "FR",
    "count": 1,
    "lat": 48.9,
@@ -276,6 +276,22 @@
   }
  ],
  "victims": [
+  {
+   "victim": "GERLON",
+   "group": "lamashtu",
+   "date": "2026-09-30T12:34:03+00:00",
+   "attack_date": "2026-09-30",
+   "country": "DE",
+   "sector": "Not Found"
+  },
+  {
+   "victim": "clicks digital GmbH Information",
+   "group": "rhysida",
+   "date": "2026-09-30T12:07:42+00:00",
+   "attack_date": "2026-09-30",
+   "country": "DE",
+   "sector": "Technology"
+  },
   {
    "victim": "Law Offices of R. David Williams, P.A.",
    "group": "rhysida",
@@ -1053,28 +1069,12 @@
    "sector": "Technology"
   },
   {
-   "victim": "SiteProRentals",
-   "group": "emperador",
-   "date": "2026-09-28T02:51:39+00:00",
-   "attack_date": "2026-09-28",
-   "country": null,
-   "sector": "Hospitality"
-  },
-  {
    "victim": "Electrolux 2...",
    "group": "emperador",
    "date": "2026-09-28T02:51:03+00:00",
    "attack_date": "2026-09-28",
    "country": "SE",
    "sector": "Manufacturing"
-  },
-  {
-   "victim": "SMCare",
-   "group": "Panzer",
-   "date": "2026-09-28T01:22:48+00:00",
-   "attack_date": "2026-09-28",
-   "country": null,
-   "sector": "Healthcare"
   }
  ]
 }
