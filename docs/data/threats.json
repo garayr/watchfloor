@@ -212,6 +212,65 @@
  ],
  "pulses": [
   {
+   "name": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
+   "summary": "A China-nexus threat cluster designated UAT-11587 has been targeting government and policy organizations across eight Asian countries since September 2025, delivering a previously undocumented Rust-compiled backdoor…",
+   "date": "2026-09-30T15:17:20+00:00",
+   "author": "AlienVault",
+   "adversary": "UAT-11587",
+   "malware": [
+    "Antino"
+   ],
+   "countries": [
+    "British Indian Ocean Territory",
+    "Cambodia",
+    "India",
+    "Myanmar",
+    "Pakistan",
+    "Philippines"
+   ],
+   "industries": [
+    "Defense",
+    "Government",
+    "Education",
+    "NGO"
+   ],
+   "tags": [
+    "china-nexus",
+    "antino",
+    "uat-11587",
+    "asia targeting",
+    "spear-phishing",
+    "cloudflare infrastructure"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abd2800997dc4232dd91d1d"
+  },
+  {
+   "name": "Phishing Abuses RMM Tools for Persistent Access",
+   "summary": "In July 2026, phishing campaigns targeted organizations across multiple industries by distributing a masqueraded MSP360 Remote Monitoring and Management installer through meeting invitations, PDF-themed lures, and…",
+   "date": "2026-09-29T23:48:26+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "MSP360 RMM",
+    "ScreenConnect",
+    "WindVerify",
+    "WindowsUpdate",
+    "WindowsSecurity_PIN",
+    "WindowsSecurity_Password"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "windowssecurity_password",
+    "windowsupdate",
+    "screenconnect",
+    "phishing",
+    "msp360 rmm",
+    "social engineering"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abc4e4a5d637b2853f15ac1"
+  },
+  {
    "name": "Fake iPhone Duo preorder scam triggers DarkSword attack",
    "summary": "Scammers have weaponized fake iPhone Duo preorder pages to deploy the DarkSword exploit chain against vulnerable iPhones. The fraudulent pages mimic Apple's design and offer a $500 voucher to lure victims, but simply…",
    "date": "2026-09-29T13:59:04+00:00",
@@ -400,25 +459,6 @@
    "url": "https://otx.alienvault.com/pulse/6aba46a30e26418fb09c6000"
   },
   {
-   "name": "The Stealer Factory: Unpacking a Python-Based MaaS Infostealer Builder",
-   "summary": "A Python-based Malware-as-a-Service builder enables operators to generate customized Windows infostealer executables. The system comprises a builder component and an embedded payload, using Nuitka or PyInstaller…",
-   "date": "2026-09-28T10:51:14+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "browser-data-extraction",
-    "anti-vm",
-    "python-based",
-    "webhook-exfiltration",
-    "nuitka",
-    "credential-theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aba46a2a513094d63bf1bd1"
-  },
-  {
    "name": "Telerik UI Exploitation Leads to Webshell Install and Scanner Execution",
    "summary": "Multiple attack campaigns exploiting CVE-2019-18935, a remote code execution vulnerability in unpatched Telerik UI for ASP.NET AJAX servers, have been identified. The first case involved exploiting the vulnerability to…",
    "date": "2026-09-28T07:13:28+00:00",
@@ -466,34 +506,13 @@
     "lunexstealer"
    ],
    "url": "https://otx.alienvault.com/pulse/6ab83188fddeab6ca23aeafc"
-  },
-  {
-   "name": "Placeholder Domains Whose Ads Serve Scams",
-   "summary": "An investigation reveals that placeholder domains commonly used in documentation are serving malicious content through advertising chains. Two domains, yoursite[.]com and your-domain[.]com, present in hundreds of…",
-   "date": "2026-09-26T20:56:39+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "ai agents",
-    "github",
-    "placeholder domains",
-    "clickfix",
-    "malvertising",
-    "investment fraud"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ab831882ea7368fb92b06f6"
   }
  ],
  "updated": {
   "threatfox": "2026-09-30T17:53:52+00:00",
   "sans": "2026-09-30T17:53:52+00:00",
-  "otx": "2026-09-30T17:27:20+00:00",
+  "otx": "2026-09-30T18:48:12+00:00",
   "urlhaus": "2026-09-30T17:53:52+00:00"
  },
- "generated_at": "2026-09-30T17:53:52+00:00"
+ "generated_at": "2026-09-30T18:48:12+00:00"
 }
