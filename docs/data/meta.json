@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T11:39:28+00:00",
+ "generated_at": "2026-09-30T11:51:34+00:00",
  "sources": [
   {
    "name": "CISA KEV",
@@ -29,7 +29,7 @@
    "name": "CISA advisories",
    "ok": false,
    "count": 0,
-   "error": "https://www.cisa.gov/cybersecurity-advisories/all.xml: HTTP Error 403: Forbidden"
+   "error": "www.cisa.gov: HTTP Error 403: Forbidden"
   },
   {
    "name": "BleepingComputer",
@@ -50,33 +50,15 @@
    "error": null
   },
   {
-   "name": "Ransomware.live",
-   "ok": true,
-   "count": 100,
-   "error": null
-  },
-  {
-   "name": "Have I Been Pwned",
-   "ok": true,
-   "count": 13,
-   "error": null
-  },
-  {
-   "name": "abuse.ch ThreatFox",
-   "ok": true,
-   "count": 1202,
-   "error": null
-  },
-  {
    "name": "abuse.ch URLhaus",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP Error 405: Method Not Allowed"
+   "ok": true,
+   "count": 846,
+   "error": null
   },
   {
-   "name": "SANS ISC",
+   "name": "AlienVault OTX",
    "ok": true,
-   "count": 4,
+   "count": 20,
    "error": null
   },
   {
