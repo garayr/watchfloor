@@ -126,6 +126,19 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-09-30T15:49:29+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-67279",
+      "CVE-2026-86060",
+      "CVE-2026-67277"
+     ]
+    },
+    {
      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
      "summary": "Attackers are exploiting a critical flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The flaw, CVE-2026-76504, could allow…",
      "source": "The Hacker News",
@@ -352,14 +365,6 @@
      "source": "BleepingComputer",
      "date": "2026-09-29T17:37:40+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
-     "group": "Other news"
-    },
-    {
-     "title": "Catch threats before they escalate with real-time Identity Telemetry",
-     "summary": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains how real-time identity telemetry can help security teams investigate…",
-     "source": "BleepingComputer",
-     "date": "2026-09-29T14:01:11+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
      "group": "Other news"
     }
    ]
