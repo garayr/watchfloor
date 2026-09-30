@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T17:53:52+00:00",
+ "generated_at": "2026-09-30T19:08:14+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1849,6 +1849,120 @@
    ],
    "history_size": 17,
    "updated": "2026-09-30T17:53:52+00:00"
+  },
+  "netrunner": {
+   "name": "netrunner",
+   "description": "NetRunner is a ransomware group active from at least 2025 targeting diverse sectors including healthcare, telecommunications, manufacturing, and agriculture across Japan, Italy, the US, and Jordan, notably demanding a $100M ransom from Nippon Medical School Musashi Kosugi Hospital.",
+   "aliases": [],
+   "first_seen": "2026-04-03",
+   "last_seen": "2026-09-30",
+   "victims_total": 8,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "JP",
+      "count": 2
+     },
+     {
+      "name": "IN",
+      "count": 1
+     },
+     {
+      "name": "IT",
+      "count": 1
+     },
+     {
+      "name": "JO",
+      "count": 1
+     },
+     {
+      "name": "MY",
+      "count": 1
+     },
+     {
+      "name": "US",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 2
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 1
+     },
+     {
+      "name": "Manufacturing",
+      "count": 1
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 1
+     },
+     {
+      "name": "Technology",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-10",
+     "count": 0
+    },
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 6
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 2
+    }
+   ],
+   "history_size": 8,
+   "updated": "2026-09-30T19:08:14+00:00"
   }
  }
 }

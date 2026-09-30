@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T17:53:52+00:00",
+ "generated_at": "2026-09-30T19:08:14+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -9,12 +9,12 @@
    "count": 25
   },
   {
-   "name": "Storm",
-   "count": 11
-  },
-  {
    "name": "lamashtu",
    "count": 10
+  },
+  {
+   "name": "Storm",
+   "count": 9
   },
   {
    "name": "BrainCipher",
@@ -29,12 +29,12 @@
    "count": 6
   },
   {
-   "name": "medusalocker",
+   "name": "emperador",
    "count": 3
   },
   {
-   "name": "Doommageddon",
-   "count": 2
+   "name": "medusalocker",
+   "count": 3
   }
  ],
  "by_sector": [
@@ -56,17 +56,17 @@
   },
   {
    "name": "Other",
-   "count": 8
+   "count": 9
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 6
+   "name": "Financial Services",
+   "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 33,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -264,6 +264,22 @@
   }
  ],
  "victims": [
+  {
+   "victim": "P***** M***** I**",
+   "group": "netrunner",
+   "date": "2026-09-30T14:01:58+00:00",
+   "attack_date": "2026-09-30",
+   "country": null,
+   "sector": "Not Found"
+  },
+  {
+   "victim": "SitePro Rentals",
+   "group": "emperador",
+   "date": "2026-09-30T13:53:31+00:00",
+   "attack_date": "2026-09-30",
+   "country": null,
+   "sector": "Other"
+  },
   {
    "victim": "econ-tec.com",
    "group": "safepay",
@@ -655,22 +671,6 @@
    "attack_date": "2026-09-28",
    "country": "US",
    "sector": "Manufacturing"
-  },
-  {
-   "victim": "Vintners Distributors",
-   "group": "Storm",
-   "date": "2026-09-30T03:32:36+00:00",
-   "attack_date": "2026-09-28",
-   "country": "US",
-   "sector": "Retail & E-Commerce"
-  },
-  {
-   "victim": "Agra Industries",
-   "group": "Storm",
-   "date": "2026-09-30T03:32:01+00:00",
-   "attack_date": "2026-09-28",
-   "country": "US",
-   "sector": "Agriculture and Food Production"
   },
   {
    "victim": "Poca Valley Bank",

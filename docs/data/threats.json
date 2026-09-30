@@ -2,38 +2,38 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1064,
-  "c2_servers": 497,
+  "total_iocs": 1161,
+  "c2_servers": 583,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 287,
+    "iocs": 285,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "AdaptixC2",
-    "iocs": 201,
-    "c2": 201,
+    "iocs": 206,
+    "c2": 206,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    },
    {
     "name": "Mirai",
-    "iocs": 112,
+    "iocs": 111,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "Remus",
-    "iocs": 65,
-    "c2": 64,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
+    "name": "Remcos",
+    "iocs": 93,
+    "c2": 91,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
-    "name": "AsyncRAT",
-    "iocs": 34,
-    "c2": 34,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+    "name": "Remus",
+    "iocs": 73,
+    "c2": 72,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "Vidar",
@@ -42,54 +42,54 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "AsyncRAT",
+    "iocs": 33,
+    "c2": 33,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
     "name": "VShell",
     "iocs": 33,
     "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 26,
-    "c2": 26,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 22,
+    "iocs": 23,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "AMOS",
-    "iocs": 21,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+    "name": "php.shin_webshell",
+    "iocs": 22,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 555,
+  "online": 562,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 295
+    "count": 288
    },
    {
     "name": "Mozi",
-    "count": 293
+    "count": 285
    },
    {
     "name": "elf",
-    "count": 165
+    "count": 163
    },
    {
     "name": "ua-wget",
-    "count": 95
+    "count": 93
    },
    {
     "name": "32-bit",
-    "count": 79
+    "count": 75
    },
    {
     "name": "ascii",
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-09-30T17:53:52+00:00",
-  "sans": "2026-09-30T17:53:52+00:00",
+  "threatfox": "2026-09-30T19:08:14+00:00",
+  "sans": "2026-09-30T19:08:14+00:00",
   "otx": "2026-09-30T18:48:12+00:00",
-  "urlhaus": "2026-09-30T17:53:52+00:00"
+  "urlhaus": "2026-09-30T19:08:14+00:00"
  },
- "generated_at": "2026-09-30T18:48:12+00:00"
+ "generated_at": "2026-09-30T19:08:14+00:00"
 }
