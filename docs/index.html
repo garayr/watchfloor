@@ -146,6 +146,32 @@ main{padding:28px 0 60px}
 .diary li:first-child{border-top:0}
 .diary small{color:var(--muted);margin-left:6px}
 .credit{font-size:13px;color:var(--muted);margin-top:26px;max-width:80ch}
+.gang-link{appearance:none;border:0;background:none;padding:0;font:inherit;color:inherit;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px;cursor:pointer;text-align:left}
+.gang-link:hover{text-decoration-color:var(--ink)}
+dialog.gang{width:min(760px,calc(100vw - 24px));max-height:calc(100dvh - 32px);padding:0;border:1px solid var(--rule);border-radius:8px;background:var(--surface);color:var(--ink)}
+dialog.gang::backdrop{background:rgba(10,16,24,.55)}
+.gang-head{position:sticky;top:0;background:var(--surface);display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding:18px 22px 12px;border-bottom:1px solid var(--rule)}
+.gang-head h3{margin:0;font-size:30px;line-height:1.05;font-weight:700;font-variation-settings:"wdth" 75}
+.gang-head .aka{font-size:13.5px;color:var(--muted);margin-top:4px}
+.gang-body{padding:16px 22px 22px}
+.gang-body h4{font-size:15px;font-weight:700;font-variation-settings:"wdth" 88;margin:22px 0 8px}
+.gfacts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.gfacts div{font-size:13px;color:var(--muted)}
+.gfacts b{display:block;font-size:21px;color:var(--ink);font-weight:700;font-variation-settings:"wdth" 75;font-variant-numeric:tabular-nums}
+.gdesc{font-family:"Newsreader",Georgia,serif;font-size:17px;line-height:1.55;margin:14px 0 0}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.spark{display:block;width:100%;height:70px}
+.spark-l{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}
+.cvelist{list-style:none;margin:0;padding:0;font-size:14.5px}
+.cvelist li{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;padding:6px 0;border-top:1px solid var(--rule)}
+.cvelist li:first-child{border-top:0}
+.cvelist .cid{font-variant-numeric:tabular-nums;font-weight:600}
+.cvelist .sc{color:var(--muted);font-size:13px}
+.onlist{appearance:none;border:1px solid var(--critical);color:var(--critical);background:none;font:inherit;font-size:12.5px;font-weight:600;padding:1px 8px;border-radius:3px;cursor:pointer}
+.gnote{font-size:13px;color:var(--muted);margin:18px 0 0;padding-top:12px;border-top:1px dashed var(--rule)}
+.glinks{list-style:none;margin:0;padding:0;font-size:14.5px}
+.glinks li{padding:3px 0}
+@media (max-width:600px){.gfacts{grid-template-columns:repeat(2,minmax(0,1fr))}.g2{grid-template-columns:1fr}.gang-head h3{font-size:24px}}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .search{display:block;flex:1 1 260px;max-width:360px}
 .search input{width:100%;font:inherit;font-size:15px;padding:7px 12px;border:1px solid var(--rule);border-radius:6px;background:var(--surface);color:var(--ink)}
@@ -228,7 +254,7 @@ footer p{margin:0 0 6px;max-width:80ch}
 }
 @media (max-width:600px){
   .wrap{padding:0 14px}
-  .bar{display:block;padding-top:14px}
+  .top .bar{display:block;padding-top:14px}
   .brand{margin-bottom:8px}
   .stamp{margin:0 0 6px;text-align:left;font-size:12.5px;line-height:1.45}
   .alert{grid-template-columns:1fr;padding:14px 16px}
@@ -354,6 +380,11 @@ footer p{margin:0 0 6px;max-width:80ch}
 
 </main>
 
+<dialog class="gang" id="gang-dlg" aria-labelledby="gang-title">
+  <div class="gang-head"><div><h3 id="gang-title"></h3><div class="aka" id="gang-aka"></div></div><button class="btn" type="button" id="gang-close">Close</button></div>
+  <div class="gang-body" id="gang-body"></div>
+</dialog>
+
 <footer>
   <div class="wrap">
     <p>Sources: CISA Known Exploited Vulnerabilities catalogue, CISA and NCSC advisories, BleepingComputer, The Hacker News, SecurityWeek, Cloudflare Radar, Ransomware.live, Have I Been Pwned, abuse.ch, SANS Internet Storm Center and AlienVault OTX. Severity scores use NIST NVD (CVSS) and FIRST (EPSS). Alerts and news refresh about every 15 minutes; other sources hourly.</p>
@@ -364,7 +395,7 @@ footer p{margin:0 0 6px;max-width:80ch}
 
 <script>
 /* ---------------- Data (loaded from data/*.json) ---------------- */
-let ALERTS=[], NEWS=[], INCIDENTS=[], META=null, loadError=false, RW=null, BREACHES=null, THREATS=null;
+let ALERTS=[], NEWS=[], INCIDENTS=[], META=null, loadError=false, RW=null, BREACHES=null, THREATS=null, GANGS={};
 let regionNames=null; try{ regionNames=new Intl.DisplayNames(['en-GB'],{type:'region'}); }catch(e){}
 const countryName=c=>{ if(!c) return ''; try{ return (regionNames&&regionNames.of(c))||c; }catch(e){ return c; } };
 const REFRESH_MS=5*60*1000;
@@ -374,8 +405,8 @@ async function getJSON(name){
   return r.json();
 }
 async function loadAll(){
-  const [a,n,m,i,k,rw,br,th]=await Promise.allSettled([getJSON('alerts.json'),getJSON('news.json'),getJSON('meta.json'),getJSON('incidents.json'),getJSON('attacks.json'),getJSON('ransomware.json'),getJSON('breaches.json'),getJSON('threats.json')]);
-  RW=rw.status==='fulfilled'?rw.value:null; BREACHES=br.status==='fulfilled'?br.value:null; THREATS=th.status==='fulfilled'?th.value:null;
+  const [a,n,m,i,k,rw,br,th,gg]=await Promise.allSettled([getJSON('alerts.json'),getJSON('news.json'),getJSON('meta.json'),getJSON('incidents.json'),getJSON('attacks.json'),getJSON('ransomware.json'),getJSON('breaches.json'),getJSON('threats.json'),getJSON('gangs.json')]);
+  RW=rw.status==='fulfilled'?rw.value:null; BREACHES=br.status==='fulfilled'?br.value:null; THREATS=th.status==='fulfilled'?th.value:null; GANGS=(gg.status==='fulfilled'&&gg.value.gangs)||{};
   loadError=a.status==='rejected'&&n.status==='rejected';
   if(a.status==='fulfilled') ALERTS=a.value.alerts||[];
   if(n.status==='fulfilled') NEWS=n.value.groups||[];
@@ -550,6 +581,59 @@ function bars(list,label,{link}={}){
   const max=Math.max(...list.map(x=>x.count));
   return `<div class="bars">${list.map(x=>`<div class="bar"><span>${link&&link(x)?`<a href="${esc(safeUrl(link(x)))}" target="_blank" rel="noopener">${esc(label(x))}</a>`:esc(label(x))}</span><span class="n">${nf.format(x.count)}</span><div class="track"><div class="fill" style="width:${(x.count/max*100).toFixed(1)}%"></div></div></div>`).join('')}</div>`;
 }
+function gangBars(list){
+  if(!list||!list.length) return '<p class="note">No data yet.</p>';
+  const max=Math.max(...list.map(x=>x.count));
+  return `<div class="bars">${list.map(x=>`<div class="bar"><span><button class="gang-link" type="button" data-gang="${esc(x.name)}">${esc(titleCase(x.name))}</button></span><span class="n">${nf.format(x.count)}</span><div class="track"><div class="fill" style="width:${(x.count/max*100).toFixed(1)}%"></div></div></div>`).join('')}</div>`;
+}
+const gangDlg=document.getElementById('gang-dlg');
+let gangOpener=null;
+document.getElementById('panel-incidents').addEventListener('click',e=>{ const b=e.target.closest('[data-gang]'); if(b){ gangOpener=b; openGang(b.dataset.gang); } });
+document.getElementById('gang-close').addEventListener('click',()=>gangDlg.close());
+gangDlg.addEventListener('click',e=>{ if(e.target===gangDlg) gangDlg.close(); });
+gangDlg.addEventListener('close',()=>{ if(gangOpener&&document.contains(gangOpener)) gangOpener.focus(); });
+document.getElementById('gang-body').addEventListener('click',e=>{ const b=e.target.closest('[data-jump]'); if(b){ gangDlg.close(); jumpToAlert(b.dataset.jump); } });
+function yearsSince(d){ const t=new Date(d); if(isNaN(t)) return ''; const y=(Date.now()-t)/31557600000; return y<1?'under a year':`${Math.floor(y)} year${Math.floor(y)>1?'s':''}`; }
+function monthName(ym){ const [y,m]=ym.split('-').map(Number); return new Date(y,m-1,1).toLocaleDateString('en-GB',{month:'short'}); }
+function openGang(name){
+  const g=GANGS[name]||GANGS[name.toLowerCase()]||null;
+  const week=((RW&&RW.victims)||[]).filter(v=>v.group===name);
+  document.getElementById('gang-title').textContent=titleCase(name);
+  document.getElementById('gang-aka').textContent=g&&g.aliases&&g.aliases.length?`Also tracked as ${g.aliases.join(', ')}`:'';
+  const slug=encodeURIComponent(name.toLowerCase());
+  const rlUrl=`https://www.ransomware.live/group/${slug}`;
+  const cisaUrl=`https://www.cisa.gov/news-events/cybersecurity-advisories?search_api_fulltext=${encodeURIComponent('StopRansomware '+name)}`;
+  const facts=[
+    g&&g.first_seen?`<div><b>${esc(yearsSince(g.first_seen))}</b>active, since ${esc(new Date(g.first_seen).toLocaleDateString('en-GB',{month:'short',year:'numeric'}))}</div>`:'',
+    g&&g.victims_total!=null?`<div><b>${nf.format(g.victims_total)}</b>victims claimed in total</div>`:'',
+    `<div><b>${nf.format(week.length)}</b>claimed this week</div>`,
+    g&&g.last_seen?`<div><b>${fmt(g.last_seen)}</b>most recent claim</div>`:''
+  ].filter(Boolean).join('');
+  let spark='';
+  if(g&&g.monthly&&g.monthly.length){
+    const mx=Math.max(1,...g.monthly.map(x=>x.count)), W2=360, H2=70, bw=W2/g.monthly.length;
+    spark=`<h4>Claims per month, last 12 months</h4><svg class="spark" viewBox="0 0 ${W2} ${H2}" preserveAspectRatio="none" role="img" aria-label="Monthly claims: ${g.monthly.map(x=>`${monthName(x.month)} ${x.count}`).join(', ')}">${g.monthly.map((x,i)=>{const h=Math.max(x.count?2:0,(x.count/mx)*(H2-4));return `<rect x="${(i*bw+2).toFixed(1)}" y="${(H2-h).toFixed(1)}" width="${(bw-4).toFixed(1)}" height="${h.toFixed(1)}" fill="var(--ink)" opacity="${i===g.monthly.length-1?1:.7}"/>`;}).join('')}</svg><div class="spark-l"><span>${monthName(g.monthly[0].month)}</span><span>${monthName(g.monthly[g.monthly.length-1].month)}</span></div>`;
+  }
+  const tc=g&&g.targets&&g.targets.countries&&g.targets.countries.length?g.targets.countries:countTop(week.map(v=>v.country).filter(Boolean));
+  const ts=g&&g.targets&&g.targets.sectors&&g.targets.sectors.length?g.targets.sectors:countTop(week.map(v=>v.sector).filter(x=>x&&!/^(not found|unknown|n\/a)$/i.test(x)));
+  const scope=g&&g.targets&&g.history_size?`from ${nf.format(g.history_size)} past claims`:'from this week’s claims';
+  const known=new Set(ALERTS.map(a=>a.id));
+  const cves=g&&g.cves&&g.cves.length?`<h4>How they break in: vulnerabilities they exploit</h4><ul class="cvelist">${g.cves.map(c=>`<li><span class="cid">${esc(c.id)}</span>${c.label?`<span>${esc(c.label)}</span>`:''}${c.cvss!=null?`<span class="sc">CVSS ${Number(c.cvss).toFixed(1)}</span>`:''}${known.has(c.id)?`<button class="onlist" type="button" data-jump="${esc(c.id)}">On your Alerts list</button>`:''}</li>`).join('')}</ul>`:'';
+  const chips=(title,list)=>list&&list.length?`<h4>${title}</h4><div class="dclasses">${list.map(t=>`<span>${esc(t)}</span>`).join('')}</div>`:'';
+  const links=[`<li><a href="${rlUrl}" target="_blank" rel="noopener">Full profile on Ransomware.live</a></li>`,`<li><a href="${cisaUrl}" target="_blank" rel="noopener">Search CISA #StopRansomware advisories</a></li>`,...((g&&g.links)||[]).map(u=>{let host=u;try{host=new URL(u).hostname.replace(/^www\./,'');}catch(e){}return `<li><a href="${esc(safeUrl(u))}" target="_blank" rel="noopener">Research: ${esc(host)}</a></li>`;})];
+  document.getElementById('gang-body').innerHTML=`
+    <div class="gfacts">${facts}</div>
+    ${g&&g.description?`<p class="gdesc">${esc(g.description)}</p>`:''}
+    ${spark}
+    <div class="g2"><div><h4>Countries hit most</h4>${bars(tc.slice(0,6).map(x=>({name:x.name,count:x.count})),x=>countryName(x.name)||x.name)}</div><div><h4>Sectors hit most</h4>${bars(ts.slice(0,6),x=>x.name)}</div></div>
+    <p class="note" style="font-size:12.5px;color:var(--muted);margin:6px 0 0">Targets worked out ${scope}.</p>
+    ${cves}${chips('Tools they use',g&&g.tools)}${chips('Techniques',g&&g.techniques)}
+    <h4>Find out more</h4><ul class="glinks">${links.join('')}</ul>
+    <p class="gnote">${g?'':'A fuller profile appears here once the Ransomware.live key is set up and the gang has been looked up, usually within a few hours. '}Where a gang is based is rarely confirmed. Government advisories, such as CISA’s, are the most reliable source for origin and attribution.</p>`;
+  if(!gangDlg.open) gangDlg.showModal();
+  gangDlg.scrollTop=0;
+}
+function countTop(arr){ const m={}; arr.forEach(x=>m[x]=(m[x]||0)+1); return Object.entries(m).map(([name,count])=>({name,count})).sort((a,b)=>b.count-a.count); }
 let rwShown=40;
 document.getElementById('rw-q').addEventListener('input',()=>{ rwShown=40; renderRansomwareList(); });
 document.getElementById('rw-more').addEventListener('click',()=>{ rwShown+=60; renderRansomwareList(); });
@@ -560,7 +644,7 @@ function renderRansomwareList(){
   const list=RW.victims.filter(v=>matchesQ(q,v.victim,v.group,v.sector||'',countryName(v.country)));
   if(!list.length){ el.innerHTML='<p class="empty">No claims match your search.</p>'; more.hidden=true; return; }
   el.innerHTML=`<div class="vtable" role="table" aria-label="Ransomware claims"><div class="vrow head" role="row"><span role="columnheader">Posted</span><span role="columnheader">Organisation</span><span role="columnheader">Gang</span><span role="columnheader">Sector</span><span role="columnheader">Country</span></div>`+
-    list.slice(0,rwShown).map(v=>`<div class="vrow" role="row"><time role="cell" datetime="${esc(v.date||'')}">${fmt(v.date)}</time><span role="cell" class="org">${esc(v.victim)}</span><span role="cell">${esc(titleCase(v.group))}</span><span role="cell" class="m">${esc(v.sector&&!/^(not found|unknown|n\/a)$/i.test(v.sector)?v.sector:'Not stated')}</span><span role="cell" class="m">${esc(countryName(v.country)||'Not stated')}</span></div>`).join('')+`</div>`;
+    list.slice(0,rwShown).map(v=>`<div class="vrow" role="row"><time role="cell" datetime="${esc(v.date||'')}">${fmt(v.date)}</time><span role="cell" class="org">${esc(v.victim)}</span><span role="cell"><button class="gang-link" type="button" data-gang="${esc(v.group)}">${esc(titleCase(v.group))}</button></span><span role="cell" class="m">${esc(v.sector&&!/^(not found|unknown|n\/a)$/i.test(v.sector)?v.sector:'Not stated')}</span><span role="cell" class="m">${esc(countryName(v.country)||'Not stated')}</span></div>`).join('')+`</div>`;
   more.hidden=list.length<=rwShown;
   more.textContent=`Show more (${list.length-rwShown} left)`;
 }
@@ -571,7 +655,7 @@ function renderIncidents(){
   lede.textContent=rwN!=null&&brN!=null?`${pl(rwN,'ransomware claim','ransomware claims')} this week and ${pl(brN,'confirmed breach','confirmed breaches')} recently`
     : rwN!=null?`${pl(rwN,'ransomware claim','ransomware claims')} this week`:'Who’s been hit';
   document.getElementById('rw-stats').innerHTML=!RW?'':`
-    <div class="card"><h4>Most active gangs</h4>${bars(RW.by_group,x=>titleCase(x.name))}</div>
+    <div class="card"><h4>Most active gangs</h4>${gangBars(RW.by_group)}<p class="note">Select a gang to see its profile.</p></div>
     <div class="card"><h4>Sectors hit</h4>${bars(RW.by_sector,x=>x.name)}</div>
     <div class="card"><h4>Countries</h4>${bars((RW.by_country||[]).slice(0,6).map(c=>({name:c.code,count:c.count})),x=>countryName(x.name))}<p class="note">Also shown as markers on the map.</p></div>`;
   renderRansomwareList();
