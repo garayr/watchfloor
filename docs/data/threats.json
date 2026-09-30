@@ -1,0 +1,182 @@
+{
+ "infocon": "green",
+ "malware": {
+  "window": "24h",
+  "total_iocs": 1196,
+  "c2_servers": 437,
+  "families": [
+   {
+    "name": "ClearFake",
+    "iocs": 290,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 224,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "AdaptixC2",
+    "iocs": 182,
+    "c2": 182,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 94,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "Remus",
+    "iocs": 42,
+    "c2": 42,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 39,
+    "c2": 30,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "VShell",
+    "iocs": 36,
+    "c2": 9,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 27,
+    "c2": 27,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "AMOS",
+    "iocs": 19,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Unknown Webinject",
+    "iocs": 17,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_webinject"
+   }
+  ]
+ },
+ "urls": null,
+ "ports": [
+  {
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 359042,
+   "targets": 232,
+   "sources": 6480
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 351066,
+   "targets": 224,
+   "sources": 3554
+  },
+  {
+   "port": 22,
+   "service": "SSH",
+   "records": 233229,
+   "targets": 258,
+   "sources": 5440
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 223871,
+   "targets": 251,
+   "sources": 2488
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 187751,
+   "targets": 255,
+   "sources": 1873
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 121412,
+   "targets": 258,
+   "sources": 5639
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 58562,
+   "targets": 263,
+   "sources": 4039
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 53725,
+   "targets": 19,
+   "sources": 2850
+  },
+  {
+   "port": 853,
+   "service": null,
+   "records": 25186,
+   "targets": 63,
+   "sources": 2410
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 23866,
+   "targets": 2,
+   "sources": 1925
+  }
+ ],
+ "ports_date": "2026-09-30",
+ "diary": [
+  {
+   "title": "ISC Stormcast For Wednesday, September 30th, 2026 https://isc.sans.edu/podcastdetail/10116, (Wed, Sep 30th)",
+   "url": "https://isc.sans.edu/diary/rss/33384",
+   "date": "2026-09-30T02:00:03+00:00"
+  },
+  {
+   "title": "Scans for Wordfence Protected Websites, (Tue, Sep 29th)",
+   "url": "https://isc.sans.edu/diary/rss/33382",
+   "date": "2026-09-29T13:29:33+00:00"
+  },
+  {
+   "title": "ISC Stormcast For Tuesday, September 29th, 2026 https://isc.sans.edu/podcastdetail/10114, (Tue, Sep 29th)",
+   "url": "https://isc.sans.edu/diary/rss/33378",
+   "date": "2026-09-29T02:00:02+00:00"
+  },
+  {
+   "title": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
+   "url": "https://isc.sans.edu/diary/rss/33376",
+   "date": "2026-09-28T22:35:35+00:00"
+  },
+  {
+   "title": "ISC Stormcast For Monday, September 28th, 2026 https://isc.sans.edu/podcastdetail/10112, (Mon, Sep 28th)",
+   "url": "https://isc.sans.edu/diary/rss/33374",
+   "date": "2026-09-28T02:00:02+00:00"
+  },
+  {
+   "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+   "url": "https://isc.sans.edu/diary/rss/33372",
+   "date": "2026-09-27T15:04:49+00:00"
+  }
+ ],
+ "pulses": null,
+ "updated": {
+  "threatfox": "2026-09-30T10:38:17+00:00",
+  "sans": "2026-09-30T10:38:17+00:00"
+ },
+ "generated_at": "2026-09-30T10:38:17+00:00"
+}
