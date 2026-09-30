@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1196,
-  "c2_servers": 437,
+  "total_iocs": 1202,
+  "c2_servers": 444,
   "families": [
    {
     "name": "ClearFake",
@@ -13,19 +13,19 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 224,
+    "iocs": 214,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "AdaptixC2",
-    "iocs": 182,
-    "c2": 182,
+    "iocs": 185,
+    "c2": 185,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    },
    {
     "name": "Mirai",
-    "iocs": 94,
+    "iocs": 97,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -37,13 +37,13 @@
    },
    {
     "name": "Vidar",
-    "iocs": 39,
-    "c2": 30,
+    "iocs": 41,
+    "c2": 32,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "VShell",
-    "iocs": 36,
+    "iocs": 39,
     "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
@@ -55,7 +55,7 @@
    },
    {
     "name": "AMOS",
-    "iocs": 19,
+    "iocs": 20,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -70,74 +70,74 @@
  "urls": null,
  "ports": [
   {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 359042,
-   "targets": 232,
-   "sources": 6480
-  },
-  {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 351066,
-   "targets": 224,
-   "sources": 3554
+   "records": 743888,
+   "targets": 246,
+   "sources": 6889
+  },
+  {
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 727900,
+   "targets": 278,
+   "sources": 8891
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 233229,
-   "targets": 258,
-   "sources": 5440
+   "records": 492167,
+   "targets": 281,
+   "sources": 9292
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 223871,
-   "targets": 251,
-   "sources": 2488
+   "records": 384008,
+   "targets": 267,
+   "sources": 4447
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 187751,
-   "targets": 255,
-   "sources": 1873
+   "records": 320182,
+   "targets": 274,
+   "sources": 2917
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 121412,
-   "targets": 258,
-   "sources": 5639
+   "records": 276260,
+   "targets": 273,
+   "sources": 10126
   },
   {
    "port": 2222,
    "service": null,
-   "records": 58562,
-   "targets": 263,
-   "sources": 4039
+   "records": 138060,
+   "targets": 279,
+   "sources": 7041
+  },
+  {
+   "port": 16881,
+   "service": null,
+   "records": 131094,
+   "targets": 11,
+   "sources": 1984
   },
   {
    "port": 51413,
    "service": null,
-   "records": 53725,
-   "targets": 19,
-   "sources": 2850
-  },
-  {
-   "port": 853,
-   "service": null,
-   "records": 25186,
-   "targets": 63,
-   "sources": 2410
+   "records": 103811,
+   "targets": 89,
+   "sources": 4793
   },
   {
    "port": 16767,
    "service": null,
-   "records": 23866,
-   "targets": 2,
-   "sources": 1925
+   "records": 60617,
+   "targets": 93,
+   "sources": 3208
   }
  ],
  "ports_date": "2026-09-30",
@@ -453,9 +453,9 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-09-30T10:38:17+00:00",
-  "sans": "2026-09-30T10:38:17+00:00",
+  "threatfox": "2026-09-30T11:39:28+00:00",
+  "sans": "2026-09-30T11:39:28+00:00",
   "otx": "2026-09-30T10:54:34+00:00"
  },
- "generated_at": "2026-09-30T10:54:34+00:00"
+ "generated_at": "2026-09-30T11:39:28+00:00"
 }
