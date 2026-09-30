@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T12:02:57+00:00",
+ "generated_at": "2026-09-30T12:08:39+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -462,6 +462,378 @@
    ],
    "history_size": 578,
    "updated": "2026-09-30T12:02:57+00:00"
+  },
+  "BrainCipher": {
+   "name": "BrainCipher",
+   "description": "Brain Cipher emerged in July 2024. Both Windows and Linux variants are available. Brain Cipher using the leaked build of LockBit Black for their operations. The group suspected to have exploited CVE-2023-28252 (Microsoft Windows CLFS Driver Privilege Escalation Vulnerability). The Ransom demand ranges from $150,000 to $1,00,0000. Demand to be paid with Monero (XMR) cryptocurrency. In 2025, they have shifted their new Negotiation portal to new server with vanity TOR Domain starting with 'brain'.",
+   "aliases": [],
+   "first_seen": "2024-07-01",
+   "last_seen": "2026-09-29",
+   "victims_total": 89,
+   "cves": [],
+   "tools": [],
+   "techniques": [
+    "User Execution",
+    "Indicator Removal: File Deletion",
+    "Impair Defenses: Disable or Modify Tools",
+    "File and Directory Discovery",
+    "Data Encrypted for Impact"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 28
+     },
+     {
+      "name": "GB",
+      "count": 9
+     },
+     {
+      "name": "CA",
+      "count": 8
+     },
+     {
+      "name": "ES",
+      "count": 5
+     },
+     {
+      "name": "FR",
+      "count": 5
+     },
+     {
+      "name": "MX",
+      "count": 4
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Professional Services",
+      "count": 25
+     },
+     {
+      "name": "Technology",
+      "count": 15
+     },
+     {
+      "name": "Manufacturing",
+      "count": 11
+     },
+     {
+      "name": "Healthcare",
+      "count": 7
+     },
+     {
+      "name": "Financial Services",
+      "count": 6
+     },
+     {
+      "name": "Other",
+      "count": 6
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-10",
+     "count": 5
+    },
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 12
+    },
+    {
+     "month": "2026-06",
+     "count": 7
+    },
+    {
+     "month": "2026-07",
+     "count": 6
+    },
+    {
+     "month": "2026-08",
+     "count": 8
+    },
+    {
+     "month": "2026-09",
+     "count": 12
+    }
+   ],
+   "history_size": 89,
+   "updated": "2026-09-30T12:08:39+00:00"
+  },
+  "threeam": {
+   "name": "threeam",
+   "description": "A new Ransomware family identified by the name '3AM' or 'ThreeAM' in September 2023. The ransomware operation was observed by the Symantec team, in which a ransomware affiliate attempted to deploy another ransomware, LockBit, on the target network and then switched to 3AM when LockBit was reportedly blocked. > > The ransomware operation, according to the publication on its Tor-based website, has been operating since mid-August 2023, according to the publication from its first victim. Source: https://github.com/crocodyli/ThreatActors-TTPs",
+   "aliases": [],
+   "first_seen": "2023-08-04",
+   "last_seen": "2026-09-28",
+   "victims_total": 99,
+   "cves": [],
+   "tools": [],
+   "techniques": [
+    "Create Account",
+    "Service Execution",
+    "Bypass User Account Control",
+    "Clear Windows Event Logs",
+    "Disable or Modify System Firewall Settings",
+    "Remote System Discovery",
+    "Network Share Discovery",
+    "Group Policy Discovery",
+    "Exfiltration Over Alternative Protocol",
+    "Data Encrypted for Impact",
+    "Inhibit System Recovery"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 41
+     },
+     {
+      "name": "GB",
+      "count": 7
+     },
+     {
+      "name": "AU",
+      "count": 6
+     },
+     {
+      "name": "DE",
+      "count": 6
+     },
+     {
+      "name": "MX",
+      "count": 4
+     },
+     {
+      "name": "AR",
+      "count": 3
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 20
+     },
+     {
+      "name": "Professional Services",
+      "count": 20
+     },
+     {
+      "name": "Healthcare",
+      "count": 18
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 9
+     },
+     {
+      "name": "Technology",
+      "count": 9
+     },
+     {
+      "name": "Government & Defense",
+      "count": 4
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-10",
+     "count": 0
+    },
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 9
+    },
+    {
+     "month": "2026-06",
+     "count": 14
+    },
+    {
+     "month": "2026-07",
+     "count": 1
+    },
+    {
+     "month": "2026-08",
+     "count": 3
+    },
+    {
+     "month": "2026-09",
+     "count": 8
+    }
+   ],
+   "history_size": 99,
+   "updated": "2026-09-30T12:08:39+00:00"
+  },
+  "m3rx": {
+   "name": "m3rx",
+   "description": "M3rx is a small ransomware group first observed in 2025, using AES-CTR/AES-GCM encryption and targeting organizations in England, the US, Australia, Germany, Italy, and Switzerland, with around eight claimed victims including a Sydney-based property firm.",
+   "aliases": [],
+   "first_seen": "2026-04-29",
+   "last_seen": "2026-09-29",
+   "victims_total": 44,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 10
+     },
+     {
+      "name": "CA",
+      "count": 4
+     },
+     {
+      "name": "DE",
+      "count": 4
+     },
+     {
+      "name": "GB",
+      "count": 4
+     },
+     {
+      "name": "AU",
+      "count": 3
+     },
+     {
+      "name": "BR",
+      "count": 2
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Professional Services",
+      "count": 17
+     },
+     {
+      "name": "Technology",
+      "count": 8
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 7
+     },
+     {
+      "name": "Manufacturing",
+      "count": 2
+     },
+     {
+      "name": "Other",
+      "count": 2
+     },
+     {
+      "name": "Transportation",
+      "count": 2
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-10",
+     "count": 0
+    },
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 8
+    },
+    {
+     "month": "2026-05",
+     "count": 12
+    },
+    {
+     "month": "2026-06",
+     "count": 6
+    },
+    {
+     "month": "2026-07",
+     "count": 10
+    },
+    {
+     "month": "2026-08",
+     "count": 1
+    },
+    {
+     "month": "2026-09",
+     "count": 7
+    }
+   ],
+   "history_size": 44,
+   "updated": "2026-09-30T12:08:39+00:00"
   }
  }
 }
