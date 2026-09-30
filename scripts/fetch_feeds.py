@@ -883,14 +883,30 @@ def pick(d, *keys):
     return None
 
 
+ENVELOPE_KEYS = {"client", "count", "filters", "status", "message", "success", "total"}
+
+
 def unwrap(data, *keys):
     """The PRO API wraps results in an envelope that also echoes the key owner's
-    account. Take only the payload; the envelope is never stored."""
+    account. Take only the payload (a dict or list under one of `keys`); if there
+    isn't one, the fields sit in the envelope itself, minus the envelope's own keys.
+    The envelope is never stored."""
     if isinstance(data, dict):
         for k in keys:
-            if k in data and data[k] not in (None, ""):
-                return data[k]
+            v = data.get(k)
+            if isinstance(v, (dict, list)) and v:
+                return v
+        return {k: v for k, v in data.items() if k not in ENVELOPE_KEYS}
     return data
+
+
+def shape(data):
+    """Field names and types only, for diagnosing unexpected replies without logging any values."""
+    if isinstance(data, dict):
+        return "{" + ", ".join(f"{k}: {type(v).__name__}" for k, v in list(data.items())[:25] if k != "client") + "}"
+    if isinstance(data, list):
+        return f"list of {len(data)} × {type(data[0]).__name__ if data else 'nothing'}"
+    return type(data).__name__
 
 
 def as_list(v):
@@ -929,10 +945,12 @@ def gang_profile(name):
     hdrs = {"X-API-KEY": RL_PRO_KEY, "Accept": "application/json"}
     slug = urllib.parse.quote(name.lower(), safe="")
     raw = json.loads(fetch(f"{RL_PRO_BASE}/groups/{slug}", headers=hdrs, tries=2))
-    g = unwrap(raw, "group", "data", "result")
+    g = unwrap(raw, "group", "data", "result", "groups", "profile")
     if isinstance(g, list):
-        g = g[0] if g else {}
-    if not isinstance(g, dict):
+        match = [x for x in g if isinstance(x, dict) and str(pick(x, "name", "group", "group_name") or "").lower() == name.lower()]
+        g = match[0] if match else (g[0] if g and isinstance(g[0], dict) else {})
+    if not isinstance(g, dict) or not g:
+        log(f"  gang {name}: unexpected reply shape {shape(raw)}")
         raise RuntimeError("unexpected group response")
     log(f"  gang {name}: fields {sorted(k for k in g.keys() if k not in ('client', 'locations'))[:40]}")
 
