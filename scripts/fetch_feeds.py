@@ -90,6 +90,24 @@ def dashboard_url():
         return f"https://{owner.lower()}.github.io/{name}/"
     return None           # more than this in one run becomes a single summary message
 
+# Incidents tab: ransomware claims and confirmed breaches
+RANSOMWARE_URL = "https://api.ransomware.live/v2/recentvictims"   # free, no key, personal use
+RANSOMWARE_DAYS = 7
+HIBP_URL = "https://haveibeenpwned.com/api/v3/breaches"            # free, no key for the breach list
+BREACH_DAYS = 60
+
+# Threats tab
+ABUSECH_KEY = os.environ.get("ABUSECH_AUTH_KEY", "").strip()
+THREATFOX_URL = "https://threatfox-api.abuse.ch/api/v1/"
+URLHAUS_URL = "https://urlhaus-api.abuse.ch/v1/urls/recent/limit/1000/"
+OTX_KEY = os.environ.get("OTX_API_KEY", "").strip()
+OTX_URL = "https://otx.alienvault.com/api/v1/pulses/subscribed"
+SANS_INFOCON_URL = "https://isc.sans.edu/api/infocon?json"
+SANS_PORTS_URL = "https://isc.sans.edu/api/topports/records/10?json"
+SANS_DIARY_URL = "https://isc.sans.edu/rssfeed.xml"
+SCHEDULE_FILE = ROOT / "cache" / "schedule.json"
+HOURLY = 60   # minutes; SANS asks for no more than hourly, and the others change slowly
+
 # Approximate country locations (capital or population centre) for drawing arcs.
 COUNTRY_LOC = {
     "AE": (24.5, 54.4), "AF": (34.5, 69.2), "AL": (41.3, 19.8), "AM": (40.2, 44.5), "AO": (-8.8, 13.2),
@@ -650,7 +668,7 @@ def link_news(alerts, groups):
 
 # ---------------------------------------------------------------- weekly digest
 
-def send_digest(alerts, groups):
+def send_digest(alerts, groups, ransomware=None):
     """A Monday-morning phone summary of the past week."""
     if not NTFY_TOPIC or NOW.weekday() != DIGEST_WEEKDAY or NOW.hour < DIGEST_HOUR_UTC:
         return
@@ -677,6 +695,10 @@ def send_digest(alerts, groups):
         lines.append("")
         lines.append("Most talked about:")
         lines += [f"- {a['title']}" for a in in_news[:3]]
+    if ransomware and ransomware.get("total"):
+        gangs = ", ".join(g["name"] for g in ransomware.get("by_group", [])[:3])
+        lines.append("")
+        lines.append(f"Ransomware: {ransomware['total']} claims in the last 7 days" + (f". Most active: {gangs}." if gangs else "."))
     top = sorted((s for g in groups for s in g["items"]), key=lambda s: s["date"] or "", reverse=True)[:3]
     if top:
         lines.append("")
@@ -694,6 +716,321 @@ def send_digest(alerts, groups):
         record("Weekly digest", True, 1)
     except Exception as e:  # noqa: BLE001
         record("Weekly digest", False, 0, str(e)[:200])
+
+
+# ---------------------------------------------------------------- scheduling for slower sources
+
+_schedule = None
+
+
+def schedule():
+    global _schedule
+    if _schedule is None:
+        try:
+            _schedule = json.loads(SCHEDULE_FILE.read_text()) if SCHEDULE_FILE.exists() else {}
+        except json.JSONDecodeError:
+            _schedule = {}
+    return _schedule
+
+
+def due(key, minutes):
+    last = schedule().get(key)
+    if not last:
+        return True
+    try:
+        return NOW - datetime.fromisoformat(last) >= timedelta(minutes=minutes - 5)
+    except ValueError:
+        return True
+
+
+def mark_done(key):
+    schedule()[key] = NOW.isoformat(timespec="seconds")
+
+
+def save_schedule():
+    if _schedule is not None:
+        SCHEDULE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        SCHEDULE_FILE.write_text(json.dumps(_schedule, indent=1, sort_keys=True))
+
+
+def previous(name):
+    path = OUT_DIR / name
+    if path.exists():
+        try:
+            return json.loads(path.read_text())
+        except json.JSONDecodeError:
+            pass
+    return {}
+
+
+def top_counts(values, n):
+    counts = {}
+    for v in values:
+        if v:
+            counts[v] = counts.get(v, 0) + 1
+    return [{"name": k, "count": c} for k, c in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))[:n]]
+
+
+# ---------------------------------------------------------------- Incidents: ransomware claims
+
+def load_ransomware():
+    """Victims posted on ransomware leak sites in the last week, via Ransomware.live.
+    These are the gangs' own claims. We keep names, dates, sector and country only,
+    never links to leak sites or leaked data."""
+    try:
+        rows = json.loads(fetch(RANSOMWARE_URL, headers={"Accept": "application/json"}, tries=2))
+        if isinstance(rows, dict):
+            rows = rows.get("victims") or rows.get("data") or []
+    except Exception as e:  # noqa: BLE001
+        record("Ransomware.live", False, error=str(e)[:200])
+        return None
+    cutoff = NOW - timedelta(days=RANSOMWARE_DAYS)
+    victims = []
+    for r in rows:
+        name = clean_text(str(r.get("victim") or r.get("post_title") or ""), 120)
+        group = clean_text(str(r.get("group") or r.get("group_name") or ""), 60)
+        when = parse_date(str(r.get("discovered") or r.get("published") or r.get("attackdate") or ""))
+        if not name or not group or (when and when < cutoff):
+            continue
+        country = str(r.get("country") or "").strip().upper()[:2]
+        victims.append({
+            "victim": name,
+            "group": group,
+            "date": when.isoformat(timespec="seconds") if when else None,
+            "attack_date": str(r.get("attackdate") or "")[:10] or None,
+            "country": country if re.fullmatch(r"[A-Z]{2}", country) else None,
+            "sector": clean_text(str(r.get("activity") or r.get("sector") or ""), 60) or None,
+        })
+    victims.sort(key=lambda v: v["date"] or "", reverse=True)
+    by_country = []
+    for c in top_counts([v["country"] for v in victims], 60):
+        loc = COUNTRY_LOC.get(c["name"])
+        if loc:
+            by_country.append({"code": c["name"], "count": c["count"], "lat": loc[0], "lon": loc[1]})
+    sectors = [v["sector"] for v in victims if v["sector"] and v["sector"].lower() not in ("not found", "unknown", "n/a")]
+    record("Ransomware.live", True, len(victims))
+    return {
+        "generated_at": NOW.isoformat(timespec="seconds"),
+        "source": "Ransomware.live",
+        "window_days": RANSOMWARE_DAYS,
+        "total": len(victims),
+        "by_group": top_counts([v["group"] for v in victims], 8),
+        "by_sector": top_counts(sectors, 6),
+        "by_country": by_country,
+        "victims": victims[:300],
+    }
+
+
+# ---------------------------------------------------------------- Incidents: confirmed breaches
+
+def load_breaches():
+    try:
+        rows = json.loads(fetch(HIBP_URL, headers={"Accept": "application/json"}, tries=2))
+    except Exception as e:  # noqa: BLE001
+        record("Have I Been Pwned", False, error=str(e)[:200])
+        return None
+    cutoff = NOW - timedelta(days=BREACH_DAYS)
+    out = []
+    for b in rows:
+        if b.get("IsSpamList") or b.get("IsFabricated") or b.get("IsRetired") or b.get("IsSensitive"):
+            continue
+        added = parse_date(b.get("AddedDate", ""))
+        if not added or added < cutoff:
+            continue
+        name = b.get("Name", "")
+        out.append({
+            "title": b.get("Title") or name,
+            "domain": b.get("Domain") or None,
+            "added": added.isoformat(timespec="seconds"),
+            "breach_date": b.get("BreachDate") or None,
+            "accounts": int(b.get("PwnCount") or 0),
+            "data": (b.get("DataClasses") or [])[:12],
+            "verified": bool(b.get("IsVerified", True)),
+            "stealer_logs": bool(b.get("IsMalware") or b.get("IsStealerLog")),
+            "url": f"https://haveibeenpwned.com/Breach/{urllib.parse.quote(name)}",
+        })
+    out.sort(key=lambda b: b["added"], reverse=True)
+    record("Have I Been Pwned", True, len(out))
+    return {"generated_at": NOW.isoformat(timespec="seconds"), "source": "Have I Been Pwned",
+            "window_days": BREACH_DAYS, "breaches": out[:25]}
+
+
+# ---------------------------------------------------------------- Threats
+
+def http_post(url, body, headers, timeout=60):
+    hdrs = {"User-Agent": USER_AGENT}
+    hdrs.update(headers)
+    req = urllib.request.Request(url, data=body, method="POST", headers=hdrs)
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.read()
+
+
+def load_threatfox():
+    if not ABUSECH_KEY:
+        return None
+    try:
+        data = json.loads(http_post(THREATFOX_URL, json.dumps({"query": "get_iocs", "days": 1}).encode(),
+                                    {"Auth-Key": ABUSECH_KEY, "Content-Type": "application/json"}))
+        if data.get("query_status") not in ("ok", "no_result"):
+            raise RuntimeError(str(data.get("query_status")))
+        rows = data.get("data") or []
+        if not isinstance(rows, list):
+            rows = []
+    except Exception as e:  # noqa: BLE001
+        record("abuse.ch ThreatFox", False, error=str(e)[:200])
+        return None
+    fams = {}
+    for r in rows:
+        name = r.get("malware_printable") or r.get("malware") or "Unknown"
+        if name.lower() in ("unknown malware", "unknown"):
+            continue
+        f = fams.setdefault(name, {"name": name, "iocs": 0, "c2": 0, "url": r.get("malware_malpedia")})
+        f["iocs"] += 1
+        if (r.get("threat_type") or "") == "botnet_cc":
+            f["c2"] += 1
+    families = sorted(fams.values(), key=lambda f: (-f["iocs"], f["name"]))[:10]
+    record("abuse.ch ThreatFox", True, len(rows))
+    return {"window": "24h", "total_iocs": len(rows),
+            "c2_servers": sum(1 for r in rows if (r.get("threat_type") or "") == "botnet_cc"),
+            "families": families}
+
+
+def load_urlhaus():
+    if not ABUSECH_KEY:
+        return None
+    try:
+        data = json.loads(http_post(URLHAUS_URL, b"", {"Auth-Key": ABUSECH_KEY}))
+        rows = data.get("urls") or []
+    except Exception as e:  # noqa: BLE001
+        record("abuse.ch URLhaus", False, error=str(e)[:200])
+        return None
+    tags = []
+    for r in rows:
+        tags += [t for t in (r.get("tags") or []) if t and len(t) < 30]
+    record("abuse.ch URLhaus", True, len(rows))
+    return {"sample": len(rows), "online": sum(1 for r in rows if r.get("url_status") == "online"),
+            "top_tags": top_counts(tags, 8)}
+
+
+def load_otx():
+    if not OTX_KEY:
+        return None
+    since = (NOW - timedelta(days=7)).strftime("%Y-%m-%dT%H:%M:%S")
+    q = urllib.parse.urlencode({"limit": 20, "page": 1, "modified_since": since})
+    try:
+        data = json.loads(fetch(f"{OTX_URL}?{q}", headers={"X-OTX-API-KEY": OTX_KEY}, timeout=60, tries=2))
+        rows = data.get("results") or []
+    except Exception as e:  # noqa: BLE001
+        record("AlienVault OTX", False, error=str(e)[:200])
+        return None
+
+    def names(items):
+        out = []
+        for x in items or []:
+            n = x.get("display_name") or x.get("name") if isinstance(x, dict) else x
+            if n and str(n) not in out:
+                out.append(str(n))
+        return out[:6]
+
+    pulses = []
+    for r in rows:
+        pid = r.get("id")
+        if not pid or not r.get("name"):
+            continue
+        created = parse_date(str(r.get("created") or ""))
+        pulses.append({
+            "name": clean_text(r["name"], 160),
+            "summary": clean_text(r.get("description") or "", 220),
+            "date": created.isoformat(timespec="seconds") if created else None,
+            "author": (r.get("author_name") or (r.get("author") or {}).get("username") or ""),
+            "adversary": clean_text(r.get("adversary") or "", 60) or None,
+            "malware": names(r.get("malware_families")),
+            "countries": names(r.get("targeted_countries")),
+            "industries": names(r.get("industries")),
+            "tags": [t for t in (r.get("tags") or []) if isinstance(t, str)][:6],
+            "url": f"https://otx.alienvault.com/pulse/{pid}",
+        })
+    pulses.sort(key=lambda p: p["date"] or "", reverse=True)
+    record("AlienVault OTX", True, len(pulses))
+    return pulses[:12]
+
+
+PORT_NAMES = {21: "FTP", 22: "SSH", 23: "Telnet", 25: "SMTP", 53: "DNS", 80: "Web (HTTP)", 81: "Web (alt)",
+              123: "NTP", 161: "SNMP", 443: "Web (HTTPS)", 445: "Windows file sharing (SMB)", 1433: "Microsoft SQL",
+              1900: "UPnP", 2323: "Telnet (alt)", 3306: "MySQL", 3389: "Remote Desktop (RDP)", 5060: "VoIP (SIP)",
+              5555: "Android debug (ADB)", 5900: "VNC", 6379: "Redis", 7547: "Router management (TR-069)",
+              8000: "Web (alt)", 8080: "Web proxy", 8081: "Web (alt)", 8443: "Web (HTTPS alt)",
+              9200: "Elasticsearch", 11211: "Memcached", 27017: "MongoDB", 37215: "Huawei routers",
+              52869: "Realtek routers (UPnP)"}
+
+
+def load_sans():
+    out = {}
+    try:
+        info = json.loads(fetch(SANS_INFOCON_URL, tries=2))
+        status_ = str(info.get("status", "")).lower()
+        if status_ in ("green", "yellow", "orange", "red"):
+            out["infocon"] = status_
+    except Exception as e:  # noqa: BLE001
+        log(f"  SANS infocon failed: {e}")
+    try:
+        data = json.loads(fetch(SANS_PORTS_URL, tries=2))
+        rows = data.values() if isinstance(data, dict) else data
+        ports = []
+        for r in rows:
+            if isinstance(r, dict) and r.get("targetport") not in (None, ""):
+                try:
+                    port = int(r["targetport"])
+                except (TypeError, ValueError):
+                    continue
+                ports.append({"port": port, "service": PORT_NAMES.get(port), "records": int(r.get("records") or 0),
+                              "targets": int(r.get("targets") or 0), "sources": int(r.get("sources") or 0)})
+        ports.sort(key=lambda p: -p["records"])
+        if ports:
+            out["ports"] = ports[:10]
+            if isinstance(data, dict) and data.get("date"):
+                out["ports_date"] = str(data["date"])
+    except Exception as e:  # noqa: BLE001
+        log(f"  SANS top ports failed: {e}")
+    try:
+        items = parse_feed(fetch(SANS_DIARY_URL, tries=2))
+        out["diary"] = [{"title": it["title"], "url": it["link"],
+                         "date": it["date"].isoformat(timespec="seconds") if it["date"] else None} for it in items[:6]]
+    except Exception as e:  # noqa: BLE001
+        log(f"  SANS diary failed: {e}")
+    record("SANS ISC", bool(out), len(out), None if out else "all SANS requests failed")
+    return out or None
+
+
+def build_threats():
+    """Merge hourly sources into threats.json, keeping the last good copy of any part that failed or isn't due."""
+    prev = previous("threats.json")
+    out = {k: prev.get(k) for k in ("infocon", "malware", "urls", "ports", "ports_date", "diary", "pulses", "updated")}
+    out["updated"] = dict(prev.get("updated") or {})
+    changed = False
+    for key, loader in (("threatfox", load_threatfox), ("urlhaus", load_urlhaus), ("otx", load_otx), ("sans", load_sans)):
+        if not due(key, HOURLY):
+            continue
+        result = loader()
+        if result is None:
+            continue
+        if key == "threatfox":
+            out["malware"] = result
+        elif key == "urlhaus":
+            out["urls"] = result
+        elif key == "otx":
+            out["pulses"] = result
+        else:
+            for k in ("infocon", "ports", "ports_date", "diary"):
+                if k in result:
+                    out[k] = result[k]
+        out["updated"][key] = NOW.isoformat(timespec="seconds")
+        mark_done(key)
+        changed = True
+    if not changed:
+        return None
+    out["generated_at"] = NOW.isoformat(timespec="seconds")
+    return out
 
 
 # ---------------------------------------------------------------- main
@@ -734,9 +1071,16 @@ def main():
     news = load_news()
     link_news(alerts, news)
     radar = load_radar()
+    ransomware = load_ransomware() if due("ransomware", HOURLY) else None
+    if ransomware:
+        mark_done("ransomware")
+    breaches = load_breaches() if due("hibp", HOURLY) else None
+    if breaches:
+        mark_done("hibp")
+    threats = build_threats()
     if any(s["ok"] for s in status if s["name"] == "CISA KEV"):
         notify_new_critical(alerts)
-    send_digest(alerts, news)
+    send_digest(alerts, news, ransomware or previous("ransomware.json"))
 
     alert_sources_ok = any(s["ok"] for s in status if s["name"] in ("CISA KEV", *[f["name"] for f in ADVISORY_FEEDS]))
     news_sources_ok = any(s["ok"] for s in status if s["name"] in [f["name"] for f in NEWS_FEEDS])
@@ -750,6 +1094,13 @@ def main():
     write_json("news.json", {"groups": news})
     if radar:
         write_json("attacks.json", radar)
+    if ransomware:
+        write_json("ransomware.json", ransomware)
+    if breaches:
+        write_json("breaches.json", breaches)
+    if threats:
+        write_json("threats.json", threats)
+    save_schedule()
     write_json("meta.json", {"generated_at": NOW.isoformat(timespec="seconds"), "sources": status})
 
     failed = [s["name"] for s in status if not s["ok"]]
