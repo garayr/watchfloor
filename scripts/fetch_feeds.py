@@ -96,6 +96,13 @@ RANSOMWARE_DAYS = 7
 HIBP_URL = "https://haveibeenpwned.com/api/v3/breaches"            # free, no key for the breach list
 BREACH_DAYS = 60
 
+# Gang profiles (Ransomware.live PRO API, free key)
+RL_PRO_KEY = os.environ.get("RANSOMWARE_LIVE_API_KEY", "").strip()
+RL_PRO_BASE = "https://api-pro.ransomware.live"
+GANG_PROFILE_DAYS = 7          # refresh each gang's profile weekly
+GANGS_PER_RUN = 3              # spread lookups out to go easy on the service
+GANGS_TRACKED = 10             # profile the week's 10 most active gangs
+
 # Threats tab
 ABUSECH_KEY = os.environ.get("ABUSECH_AUTH_KEY", "").strip()
 THREATFOX_URL = "https://threatfox-api.abuse.ch/api/v1/"
@@ -181,6 +188,7 @@ def clean_text(s, limit=None):
     s = html.unescape(s)
     s = re.sub(r"<[^>]+>", " ", s)   # some feeds double-encode their HTML
     s = re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"\s+([.,;:!?)])", r"\1", s)
     if limit and len(s) > limit:
         s = s[:limit].rsplit(" ", 1)[0].rstrip(",.;:") + "…"
     return s
@@ -855,6 +863,209 @@ def load_breaches():
             "window_days": BREACH_DAYS, "breaches": out[:25]}
 
 
+# ---------------------------------------------------------------- Incidents: gang profiles
+
+def pick(d, *keys):
+    """First non-empty value among several possible field names."""
+    for k in keys:
+        if isinstance(d, dict) and d.get(k) not in (None, "", [], {}):
+            return d[k]
+    return None
+
+
+def unwrap(data, *keys):
+    """The PRO API wraps results in an envelope that also echoes the key owner's
+    account. Take only the payload; the envelope is never stored."""
+    if isinstance(data, dict):
+        for k in keys:
+            if k in data and data[k] not in (None, ""):
+                return data[k]
+    return data
+
+
+def as_list(v):
+    if v is None:
+        return []
+    if isinstance(v, list):
+        return v
+    if isinstance(v, dict):
+        out = []
+        for key, val in v.items():
+            if isinstance(val, list):
+                out += val
+            elif isinstance(val, (str, int, float)):
+                out.append(val)
+            else:
+                out.append(key)
+        return out
+    return [v]
+
+
+def flatten_ttps(v):
+    """TTPs may be a flat list, or tactics that each hold a list of techniques."""
+    out = []
+    for x in as_list(v):
+        inner = pick(x, "techniques", "technique_list", "items") if isinstance(x, dict) else None
+        if isinstance(inner, list):
+            out += inner
+        else:
+            out.append(x)
+    return out
+
+
+def gang_profile(name):
+    """Build one gang's profile from the PRO API. Only fields useful for a defender's
+    overview are kept: no leak-site addresses, no account details."""
+    hdrs = {"X-API-KEY": RL_PRO_KEY, "Accept": "application/json"}
+    slug = urllib.parse.quote(name.lower(), safe="")
+    raw = json.loads(fetch(f"{RL_PRO_BASE}/groups/{slug}", headers=hdrs, tries=2))
+    g = unwrap(raw, "group", "data", "result")
+    if isinstance(g, list):
+        g = g[0] if g else {}
+    if not isinstance(g, dict):
+        raise RuntimeError("unexpected group response")
+    log(f"  gang {name}: fields {sorted(k for k in g.keys() if k not in ('client', 'locations'))[:40]}")
+
+    cves = []
+    for c in as_list(pick(g, "cves", "vulnerabilities", "exploited_cves", "cve")):
+        if isinstance(c, str):
+            cid, score, label = c, None, None
+        elif isinstance(c, dict):
+            cid = pick(c, "cve", "id", "CVE", "cve_id", "name")
+            score = pick(c, "cvss", "score", "cvss_score", "baseScore")
+            label = pick(c, "description", "product", "vendor", "title")
+        else:
+            continue
+        m = re.search(r"CVE-\d{4}-\d{4,7}", str(cid or ""), re.I)
+        if not m:
+            continue
+        try:
+            score = round(float(score), 1) if score not in (None, "") else None
+        except (TypeError, ValueError):
+            score = None
+        cves.append({"id": m.group(0).upper(), "cvss": score, "label": clean_text(str(label), 90) if label else None})
+    seen, uniq = set(), []
+    for c in sorted(cves, key=lambda c: -(c["cvss"] or 0)):
+        if c["id"] not in seen:
+            seen.add(c["id"])
+            uniq.append(c)
+
+    def names(v, limit):
+        out = []
+        for x in as_list(v):
+            n = pick(x, "name", "technique", "technique_name", "tool", "title") if isinstance(x, dict) else x
+            n = clean_text(str(n), 60) if n else ""
+            if n and n not in out and not n.startswith("http"):
+                out.append(n)
+        return out[:limit]
+
+    links = []
+    for u in as_list(pick(g, "profile", "profiles", "references", "links")):
+        u = pick(u, "url", "link") if isinstance(u, dict) else u
+        u = str(u or "").strip()
+        if u.startswith("https://") and ".onion" not in u and u not in links:
+            links.append(u)
+
+    victims_total = pick(g, "victims", "victim_count", "victims_count", "count", "total_victims")
+    if isinstance(victims_total, list):
+        victims_total = len(victims_total)
+    try:
+        victims_total = int(victims_total) if victims_total is not None else None
+    except (TypeError, ValueError):
+        victims_total = None
+
+    profile = {
+        "name": name,
+        "description": clean_text(str(pick(g, "description", "desc", "about") or ""), 1200) or None,
+        "aliases": names(pick(g, "altname", "aliases", "alt_names", "alias"), 8),
+        "first_seen": str(pick(g, "firstseen", "first_seen", "first_discovered", "firstSeen", "first_victim") or "")[:10] or None,
+        "last_seen": str(pick(g, "lastseen", "last_seen", "last_discovered", "lastSeen", "last_victim") or "")[:10] or None,
+        "victims_total": victims_total,
+        "cves": uniq[:15],
+        "tools": names(pick(g, "tools", "tooling", "software"), 20),
+        "techniques": names(flatten_ttps(pick(g, "ttps", "mitre", "techniques", "ttp")), 20),
+        "links": links[:6],
+    }
+
+    # Who they target, from the gang's claim history
+    try:
+        vraw = json.loads(fetch(f"{RL_PRO_BASE}/victims/?{urllib.parse.urlencode({'group': name})}", headers=hdrs, timeout=60, tries=2))
+        vlist = unwrap(vraw, "victims", "data", "results")
+        vlist = vlist if isinstance(vlist, list) else []
+    except Exception as e:  # noqa: BLE001
+        log(f"  gang {name}: victim history failed: {e}")
+        vlist = []
+    if vlist:
+        countries = [str(pick(v, "country") or "").upper()[:2] for v in vlist]
+        sectors = [str(pick(v, "activity", "sector") or "") for v in vlist]
+        sectors = [x for x in sectors if x and x.lower() not in ("not found", "unknown", "n/a")]
+        months = {}
+        dates = []
+        for v in vlist:
+            d = parse_date(str(pick(v, "discovered", "published", "attackdate") or ""))
+            if d:
+                dates.append(d)
+                key = d.strftime("%Y-%m")
+                months[key] = months.get(key, 0) + 1
+        this_month = NOW.replace(day=1)
+        series = []
+        for i in range(11, -1, -1):
+            y, m = this_month.year, this_month.month - i
+            while m <= 0:
+                y, m = y - 1, m + 12
+            key = f"{y:04d}-{m:02d}"
+            series.append({"month": key, "count": months.get(key, 0)})
+        profile["targets"] = {
+            "countries": [c for c in top_counts([c for c in countries if re.fullmatch(r"[A-Z]{2}", c)], 6)],
+            "sectors": top_counts(sectors, 6),
+        }
+        profile["monthly"] = series
+        profile["history_size"] = len(vlist)
+        if dates:
+            profile["first_seen"] = profile["first_seen"] or min(dates).strftime("%Y-%m-%d")
+            profile["last_seen"] = max(dates).strftime("%Y-%m-%d")
+        if profile["victims_total"] is None:
+            profile["victims_total"] = len(vlist)
+    profile["updated"] = NOW.isoformat(timespec="seconds")
+    return profile
+
+
+def update_gangs(ransomware):
+    """Keep profiles for the week's most active gangs, refreshing a few per run."""
+    if not RL_PRO_KEY:
+        return None
+    prev = previous("gangs.json").get("gangs") or {}
+    active = [g["name"] for g in (ransomware or previous("ransomware.json")).get("by_group", [])]
+    # by_group only holds the top 8, so top up from the victim list
+    for v in (ransomware or previous("ransomware.json")).get("victims", []):
+        if len(active) >= GANGS_TRACKED:
+            break
+        if v["group"] not in active:
+            active.append(v["group"])
+    active = active[:GANGS_TRACKED]
+    stale = [n for n in active if n not in prev or
+             NOW - datetime.fromisoformat(prev[n].get("updated", "2000-01-01T00:00:00+00:00")) > timedelta(days=GANG_PROFILE_DAYS)]
+    if not stale:
+        return None
+    done, failed = 0, []
+    for n in stale[:GANGS_PER_RUN]:
+        try:
+            prev[n] = gang_profile(n)
+            done += 1
+        except Exception as e:  # noqa: BLE001
+            failed.append(n)
+            log(f"  gang profile failed for {n}: {e}")
+        time.sleep(1)
+    record("Ransomware.live gang profiles", done > 0 or not failed, done,
+           f"failed: {', '.join(failed)}" if failed else None)
+    if not done:
+        return None
+    # keep a profile for 30 days after a gang drops out of the top list, so links keep working
+    keep = {n: p for n, p in prev.items() if n in active or
+            NOW - datetime.fromisoformat(p.get("updated", "2000-01-01T00:00:00+00:00")) < timedelta(days=30)}
+    return {"generated_at": NOW.isoformat(timespec="seconds"), "source": "Ransomware.live", "gangs": keep}
+
+
 # ---------------------------------------------------------------- Threats
 
 def http_post(url, body, headers, timeout=60):
@@ -1078,6 +1289,7 @@ def main():
     if breaches:
         mark_done("hibp")
     threats = build_threats()
+    gangs = update_gangs(ransomware)
     if any(s["ok"] for s in status if s["name"] == "CISA KEV"):
         notify_new_critical(alerts)
     send_digest(alerts, news, ransomware or previous("ransomware.json"))
@@ -1100,6 +1312,8 @@ def main():
         write_json("breaches.json", breaches)
     if threats:
         write_json("threats.json", threats)
+    if gangs:
+        write_json("gangs.json", gangs)
     save_schedule()
     write_json("meta.json", {"generated_at": NOW.isoformat(timespec="seconds"), "sources": status})
 
