@@ -173,10 +173,289 @@
    "date": "2026-09-27T15:04:49+00:00"
   }
  ],
- "pulses": null,
+ "pulses": [
+  {
+   "name": "Fake iPhone Duo preorder scam triggers DarkSword attack",
+   "summary": "Scammers have weaponized fake iPhone Duo preorder pages to deploy the DarkSword exploit chain against vulnerable iPhones. The fraudulent pages mimic Apple's design and offer a $500 voucher to lure victims, but simply…",
+   "date": "2026-09-29T13:59:04+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "DarkSword"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "darksword exploit",
+    "iphone duo",
+    "safari targeting",
+    "credential stealing",
+    "fake preorder",
+    "cryptocurrency theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abbc428d397735970a34334"
+  },
+  {
+   "name": "Beware of Phishing Emails That Disguise Themselves as Project Material Purchase Requests",
+   "summary": "ASEC identified a phishing campaign targeting organizations in Korea through emails impersonating company employees. The emails contain malicious XLS files disguised as project material purchase request forms. When…",
+   "date": "2026-09-29T13:29:12+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Remcos"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "remcos rat",
+    "cve-2017-0199",
+    "hta execution",
+    "ole exploitation",
+    "phishing",
+    "remcos"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abbbd28cb7e4cac7c679e36"
+  },
+  {
+   "name": "The \"VPN for X\" Proxy Farm — Risky Plugins",
+   "summary": "A cluster of 31 Russian-language Chrome extensions masquerading as VPN services for blocked platforms like RuTracker, YouTube, Telegram, Instagram, ChatGPT, and Netflix shares a single malicious codebase. Published from…",
+   "date": "2026-09-29T06:34:53+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "traffic interception",
+    "vpn impersonation",
+    "proxy farm",
+    "chrome extensions",
+    "dynamic configuration",
+    "russian-language"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abb5c0df118a53bf415b0bd"
+  },
+  {
+   "name": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix",
+   "summary": "Threat actors are exploiting ChatGPT Custom GPTs and Google Sites to deliver remote access trojans through a sophisticated multi-stage attack chain. The campaign uses sponsored Google search results to direct victims to…",
+   "date": "2026-09-29T00:54:45+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Lumma Stealer",
+    "MacSync",
+    "SectopRAT",
+    "AMOS"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "amos",
+    "sectoprat",
+    "social engineering",
+    "macsync",
+    "lumma stealer",
+    "canon sideloading"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abb0c55e0fed2d6a1f7e51a"
+  },
+  {
+   "name": "From BlackCat to Panda Workshop: Inside the Evolving C2 Panel Behind RATHat",
+   "summary": "RATHat is an Android banking trojan characterized by its unique architecture where the malicious application serves merely as an entry point. After obtaining Accessibility Service permissions, it enables wireless…",
+   "date": "2026-09-28T20:24:24+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "RATHat"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "wireless debugging",
+    "android banking trojan",
+    "adb exploitation",
+    "rathat",
+    "blackcat panel",
+    "ai-powered automation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abaccf85f7a199ca2ad50c6"
+  },
+  {
+   "name": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
+   "summary": "NeedyMantis is a modular post-compromise malware family deployed in limited targeted operations affecting telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and…",
+   "date": "2026-09-28T19:54:37+00:00",
+   "author": "AlienVault",
+   "adversary": "Storm-3069",
+   "malware": [
+    "NeedyMantis"
+   ],
+   "countries": [],
+   "industries": [
+    "Telecommunications",
+    "Education",
+    "Healthcare",
+    "Government"
+   ],
+   "tags": [
+    "china-based threat actor",
+    "telecommunications",
+    "dll sideloading",
+    "custom file format",
+    "post-compromise",
+    "needymantis"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abac5fd70758a52b56cb48e"
+  },
+  {
+   "name": "Rise of the Jev-Clones",
+   "summary": "Following the launch of TypeSafe AI's Jev API, numerous fraudulent storefronts emerged selling access to the legitimate API at inflated prices ranging from 3 to 11.5 times the official cost. Within three days of launch…",
+   "date": "2026-09-28T14:58:08+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "brand impersonation",
+    "price inflation",
+    "domain squatting",
+    "fraudulent storefronts",
+    "jev api",
+    "ai services"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aba80800986c7309a31cc76"
+  },
+  {
+   "name": "Operation Master: Deconstructing a Multi-Tiered Intrusion and Monetization Pipeline",
+   "summary": "A sophisticated cybercrime operation compromised enterprise networks across multiple countries by exploiting a GlobalProtect authentication bypass vulnerability (CVE-2026-0257), executed advanced web application…",
+   "date": "2026-09-28T10:51:15+00:00",
+   "author": "AlienVault",
+   "adversary": "masterblack",
+   "malware": [
+    "AdaptixC2"
+   ],
+   "countries": [
+    "United States of America",
+    "Argentina",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "Costa Rica"
+   ],
+   "industries": [
+    "Energy",
+    "Technology",
+    "Finance",
+    "Education",
+    "Healthcare",
+    "Retail"
+   ],
+   "tags": [
+    "globalprotect exploitation",
+    "cve-2026-0257",
+    "cve-2024-1086",
+    "multi-tenant phishing",
+    "cve-2022-40684",
+    "adaptixc2"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aba46a30e26418fb09c6000"
+  },
+  {
+   "name": "The Stealer Factory: Unpacking a Python-Based MaaS Infostealer Builder",
+   "summary": "A Python-based Malware-as-a-Service builder enables operators to generate customized Windows infostealer executables. The system comprises a builder component and an embedded payload, using Nuitka or PyInstaller…",
+   "date": "2026-09-28T10:51:14+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "browser-data-extraction",
+    "anti-vm",
+    "python-based",
+    "webhook-exfiltration",
+    "nuitka",
+    "credential-theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aba46a2a513094d63bf1bd1"
+  },
+  {
+   "name": "Telerik UI Exploitation Leads to Webshell Install and Scanner Execution",
+   "summary": "Multiple attack campaigns exploiting CVE-2019-18935, a remote code execution vulnerability in unpatched Telerik UI for ASP.NET AJAX servers, have been identified. The first case involved exploiting the vulnerability to…",
+   "date": "2026-09-28T07:13:28+00:00",
+   "author": "AlienVault",
+   "adversary": "Blue Mockingbird",
+   "malware": [
+    "Godzilla",
+    "SweetPotato"
+   ],
+   "countries": [
+    "United States of America"
+   ],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "cve-2019-18935",
+    "telerik ui",
+    "godzilla",
+    "iis server",
+    "reverse shell",
+    "privilege escalation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aba1398c736673eae22c865"
+  },
+  {
+   "name": "Lunex Unmasked: A New Information Stealer Deployed Through BYOVD",
+   "summary": "A sophisticated four-stage attack chain delivers the Lunex information stealer to Ukrainian-speaking users through fake CAPTCHA pages. The malware employs Bring Your Own Vulnerable Driver (BYOVD) techniques using AMD's…",
+   "date": "2026-09-26T20:56:40+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "LunexStealer",
+    "LunexLoader",
+    "PDFWKRNL"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "browser-hijacking",
+    "cve-2023-20598",
+    "ukrainian-targeting",
+    "pdfwkrnl",
+    "byovd",
+    "lunexstealer"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ab83188fddeab6ca23aeafc"
+  },
+  {
+   "name": "Placeholder Domains Whose Ads Serve Scams",
+   "summary": "An investigation reveals that placeholder domains commonly used in documentation are serving malicious content through advertising chains. Two domains, yoursite[.]com and your-domain[.]com, present in hundreds of…",
+   "date": "2026-09-26T20:56:39+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "ai agents",
+    "github",
+    "placeholder domains",
+    "clickfix",
+    "malvertising",
+    "investment fraud"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ab831882ea7368fb92b06f6"
+  }
+ ],
  "updated": {
   "threatfox": "2026-09-30T10:38:17+00:00",
-  "sans": "2026-09-30T10:38:17+00:00"
+  "sans": "2026-09-30T10:38:17+00:00",
+  "otx": "2026-09-30T10:54:34+00:00"
  },
- "generated_at": "2026-09-30T10:38:17+00:00"
+ "generated_at": "2026-09-30T10:54:34+00:00"
 }
