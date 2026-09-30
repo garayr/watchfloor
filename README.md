@@ -1,6 +1,6 @@
 # Watchfloor
 
-A cyber security dashboard with three tabs: live alerts, a global attack map and a news roundup.
+A cyber security dashboard with five tabs: alerts, a global attack map, news, incidents (ransomware claims and confirmed breaches) and threats (malware, scanning and campaign reports).
 A scheduled GitHub Action fetches the feeds every 15 minutes and saves them as JSON files.
 GitHub Pages serves the page, and the page reads those files.
 
@@ -60,6 +60,25 @@ The first run after that quietly records the Critical alerts already on the list
 
 If phone alerts are set up, you also get a summary every Monday at 7am UTC (8am UK summer time, 7am in winter). It covers the week's Critical and High counts, the Critical alerts, the alerts most mentioned in the news, and the latest headlines. Tapping it opens your dashboard.
 To change the day or time, add `DIGEST_WEEKDAY` (0 = Monday … 6 = Sunday) or `DIGEST_HOUR_UTC` to the `env:` section of the "Fetch feeds" step in the workflow.
+
+## Incidents and Threats tabs
+
+**Incidents** shows ransomware claims from the last 7 days (Ransomware.live) and breaches added to Have I Been Pwned in the last 60 days. Neither needs a key. Ransomware claims are the gangs' own posts and aren't independently confirmed; the page says so. Only organisation names, dates, sectors and countries are kept, never links to leak sites. The countries with the most claims also appear as markers on the map.
+
+**Threats** shows the SANS Internet Storm Center threat level (also in the page header), the most scanned ports, the SANS diary, the most active malware from abuse.ch ThreatFox, malicious links from abuse.ch URLhaus, and campaign reports from AlienVault OTX.
+
+Two of these need free keys, saved as repository secrets like the others:
+
+| Secret | Where to get it |
+|---|---|
+| `ABUSECH_AUTH_KEY` | Sign in at https://auth.abuse.ch (you can use your GitHub account), then copy your Auth-Key from your profile. One key covers ThreatFox and URLhaus. |
+| `OTX_API_KEY` | Sign up at https://otx.alienvault.com, then open Settings and copy your OTX Key. New accounts follow AlienVault's own research team, which is where the campaign reports come from. |
+
+Without a key, that part of the Threats tab simply says it needs one; everything else keeps working.
+
+These sources refresh hourly rather than every 15 minutes. SANS asks for no more than hourly downloads, and Ransomware.live is run by a volunteer, so it's polite to go easy on it. The hourly timing is tracked in `cache/schedule.json`.
+
+Please keep the credits on the Threats tab. SANS and Have I Been Pwned require attribution, and it's good manners for the others.
 
 ## How severity is decided
 
