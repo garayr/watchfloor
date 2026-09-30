@@ -49,6 +49,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
+     "summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program, OpenSSL said on September 29 as it released fixes. DTLS, the TLS variant used for UDP traffic, resends a…",
+     "source": "The Hacker News",
+     "date": "2026-09-30T08:09:28+00:00",
+     "url": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
      "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national…",
      "source": "The Hacker News",
@@ -119,20 +127,25 @@
      "date": "2026-09-28T18:35:42+00:00",
      "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-     "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited…",
-     "source": "The Hacker News",
-     "date": "2026-09-28T17:42:18+00:00",
-     "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+     "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe. The activity, observed by…",
+     "source": "The Hacker News",
+     "date": "2026-09-30T08:24:35+00:00",
+     "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88772",
+      "CVE-2026-88771",
+      "CVE-2026-19490"
+     ]
+    },
     {
      "title": "High-Severity Vulnerabilities Patched in OpenSSL, WolfSSL",
      "summary": "Roughly a dozen vulnerabilities have been patched in each of the open source cryptographic libraries. The post High-Severity Vulnerabilities Patched in OpenSSL, WolfSSL appeared first on SecurityWeek .",
@@ -253,14 +266,6 @@
      "source": "The Hacker News",
      "date": "2026-09-29T13:45:10+00:00",
      "url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-     "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April…",
-     "source": "The Hacker News",
-     "date": "2026-09-28T17:38:33+00:00",
-     "url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
      "group": "Malware and campaigns"
     }
    ]
