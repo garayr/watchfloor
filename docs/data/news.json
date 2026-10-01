@@ -118,6 +118,19 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+     "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data…",
+     "source": "The Hacker News",
+     "date": "2026-10-01T04:35:34+00:00",
+     "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88772",
+      "CVE-2026-88771",
+      "CVE-2026-19490"
+     ]
+    },
+    {
      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
      "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack…",
      "source": "The Hacker News",
@@ -318,14 +331,6 @@
      "source": "The Hacker News",
      "date": "2026-09-29T17:20:08+00:00",
      "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
-     "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. \"The malicious packages abuse the 'Baileys' WhatsApp…",
-     "source": "The Hacker News",
-     "date": "2026-09-29T13:45:10+00:00",
-     "url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
      "group": "Malware and campaigns"
     }
    ]
