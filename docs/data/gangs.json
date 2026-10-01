@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T02:25:55+00:00",
+ "generated_at": "2026-10-01T13:31:07+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -2609,6 +2609,242 @@
    ],
    "history_size": 11,
    "updated": "2026-10-01T02:25:55+00:00"
+  },
+  "qilin": {
+   "name": "qilin",
+   "description": "Qilin ransomware was first observed in July of 2022. Qilin Ransomware is written in Golang and supports multiple encryption modes; all of which are controlled by the operator. Qilin actors practice double extortion – demanding payment for a decryptor, as well as for the non-release of stolen data.",
+   "aliases": [],
+   "first_seen": "2022-10-08",
+   "last_seen": "2026-10-01",
+   "victims_total": 2324,
+   "cves": [
+    {
+     "id": "CVE-2025-31324",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2025-60021",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2025-59718",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-21762",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-55591",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-24423",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2025-40554",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-24061",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2025-9242",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2025-14733",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-50751",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-0257",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-27532",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-1853",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-20316",
+     "cvss": null,
+     "label": null
+    }
+   ],
+   "tools": [
+    "Mimikatz",
+    "EDRSandBlast",
+    "PCHunter",
+    "PowerTool",
+    "Toshiba power management driver (BYOVD)",
+    "Updater for Carbon Black’s Cloud Sensor AV (upd.exe)",
+    "YDArk",
+    "Zemana Anti-Rootkit driver",
+    "Nmap",
+    "Nping",
+    "EasyUpload.io",
+    "MEGA",
+    "PowerShell",
+    "PsExec",
+    "WinRM",
+    "fsutil",
+    "Proxychains",
+    "Cobalt Strike",
+    "Evilginx",
+    "Kali Linux"
+   ],
+   "techniques": [
+    "Valid Accounts",
+    "Exploit Public-Facing Application",
+    "Phishing",
+    "Phishing: Spearphishing via Service",
+    "Command and Scripting Interpreter: PowerShell",
+    "Command and Scripting Interpreter: Unix Shell",
+    "System Services",
+    "System Services: Service Execution",
+    "Boot or Logon Initialization Scripts",
+    "Scheduled Task/Job",
+    "Scheduled Task/Job: Scheduled Task",
+    "Account Manipulation: SSH Authorized Keys",
+    "Create Account",
+    "Boot or Logon Autostart Execution",
+    "Exploitation for Privilege Escalation",
+    "Obfuscated Files or Information",
+    "Masquerading: Invalid Code Signature",
+    "Access Token Manipulation: Parent PID Spoofing",
+    "Exploitation for Defense Evasion",
+    "Execution Guardrails"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 982
+     },
+     {
+      "name": "GB",
+      "count": 112
+     },
+     {
+      "name": "CA",
+      "count": 111
+     },
+     {
+      "name": "FR",
+      "count": 109
+     },
+     {
+      "name": "DE",
+      "count": 91
+     },
+     {
+      "name": "ES",
+      "count": 77
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 491
+     },
+     {
+      "name": "Professional Services",
+      "count": 392
+     },
+     {
+      "name": "Technology",
+      "count": 265
+     },
+     {
+      "name": "Healthcare",
+      "count": 197
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 167
+     },
+     {
+      "name": "Financial Services",
+      "count": 150
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 107
+    },
+    {
+     "month": "2025-12",
+     "count": 178
+    },
+    {
+     "month": "2026-01",
+     "count": 109
+    },
+    {
+     "month": "2026-02",
+     "count": 115
+    },
+    {
+     "month": "2026-03",
+     "count": 140
+    },
+    {
+     "month": "2026-04",
+     "count": 108
+    },
+    {
+     "month": "2026-05",
+     "count": 113
+    },
+    {
+     "month": "2026-06",
+     "count": 78
+    },
+    {
+     "month": "2026-07",
+     "count": 127
+    },
+    {
+     "month": "2026-08",
+     "count": 164
+    },
+    {
+     "month": "2026-09",
+     "count": 74
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 2324,
+   "updated": "2026-10-01T13:31:07+00:00"
   }
  }
 }

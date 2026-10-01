@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T12:15:36+00:00",
+ "generated_at": "2026-10-01T13:31:07+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -30,7 +30,7 @@
   },
   {
    "name": "play",
-   "count": 5
+   "count": 4
   },
   {
    "name": "N0n",
@@ -39,16 +39,16 @@
  ],
  "by_sector": [
   {
+   "name": "Professional Services",
+   "count": 17
+  },
+  {
    "name": "Manufacturing",
    "count": 16
   },
   {
-   "name": "Professional Services",
-   "count": 16
-  },
-  {
    "name": "Healthcare",
-   "count": 14
+   "count": 13
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 34,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -78,7 +78,7 @@
   },
   {
    "code": "GB",
-   "count": 5,
+   "count": 6,
    "lat": 51.5,
    "lon": -0.1
   },
@@ -252,6 +252,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Dynamic Office Solutions",
+   "group": "qilin",
+   "date": "2026-10-01T09:04:21+00:00",
+   "attack_date": "2026-10-01",
+   "country": "GB",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/RHluYW1pYyBPZmZpY2UgU29sdXRpb25zQHFpbGlu"
+  },
   {
    "victim": "Laboratorios Roemmers SAICF",
    "group": "aurora",
@@ -1142,15 +1151,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/U3RhcnIgV2hpdGVob3VzZSBMYW5kc2NhcGUgQXJjaGl0ZWN0c0BwbGF5"
-  },
-  {
-   "victim": "Ever Ready First Aid",
-   "group": "play",
-   "date": "2026-09-28T18:32:52+00:00",
-   "attack_date": "2026-09-28",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/RXZlciBSZWFkeSBGaXJzdCBBaWRAcGxheQ=="
   }
  ]
 }
