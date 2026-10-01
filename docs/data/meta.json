@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T10:08:15+00:00",
+ "generated_at": "2026-10-01T10:28:16+00:00",
  "sources": [
   {
    "name": "CISA KEV",
@@ -44,40 +44,10 @@
    "error": null
   },
   {
-   "name": "Cloudflare Radar",
-   "ok": true,
-   "count": 45,
-   "error": null
-  },
-  {
-   "name": "Ransomware.live",
-   "ok": true,
-   "count": 100,
-   "error": null
-  },
-  {
-   "name": "Have I Been Pwned",
-   "ok": true,
-   "count": 13,
-   "error": null
-  },
-  {
-   "name": "abuse.ch ThreatFox",
-   "ok": true,
-   "count": 936,
-   "error": null
-  },
-  {
-   "name": "abuse.ch URLhaus",
-   "ok": true,
-   "count": 950,
-   "error": null
-  },
-  {
-   "name": "SANS ISC",
-   "ok": true,
-   "count": 4,
-   "error": null
+   "name": "AlienVault OTX",
+   "ok": false,
+   "count": 0,
+   "error": "otx.alienvault.com: The read operation timed out"
   },
   {
    "name": "Phone alerts",
