@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T23:05:11+00:00",
+ "generated_at": "2026-10-01T00:08:30+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -48,7 +48,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Technology",
@@ -89,6 +89,12 @@
    "lon": -46.6
   },
   {
+   "code": "FR",
+   "count": 3,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "IT",
    "count": 3,
    "lat": 41.9,
@@ -123,18 +129,6 @@
    "count": 2,
    "lat": 43.7,
    "lon": -79.4
-  },
-  {
-   "code": "ES",
-   "count": 2,
-   "lat": 40.4,
-   "lon": -3.7
-  },
-  {
-   "code": "FR",
-   "count": 2,
-   "lat": 48.9,
-   "lon": 2.35
   },
   {
    "code": "TW",
@@ -183,6 +177,12 @@
    "count": 1,
    "lat": 4.7,
    "lon": -74.1
+  },
+  {
+   "code": "ES",
+   "count": 1,
+   "lat": 40.4,
+   "lon": -3.7
   },
   {
    "code": "GR",
@@ -264,6 +264,14 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Le Centre National de l'Expertise Hospitalière (CNEH)",
+   "group": "kairos",
+   "date": "2026-09-30T19:28:35+00:00",
+   "attack_date": "2026-09-30",
+   "country": "FR",
+   "sector": "Healthcare"
+  },
   {
    "victim": "Titus",
    "group": "play",
@@ -1055,14 +1063,6 @@
    "attack_date": "2026-09-28",
    "country": "CH",
    "sector": "Manufacturing"
-  },
-  {
-   "victim": "Juntadeandalucia",
-   "group": "medusalocker",
-   "date": "2026-09-28T16:00:59+00:00",
-   "attack_date": "2026-09-28",
-   "country": "ES",
-   "sector": "Government & Defense"
   }
  ]
 }
