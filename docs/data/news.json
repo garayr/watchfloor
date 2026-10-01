@@ -1,19 +1,6 @@
 {
  "groups": [
   {
-   "group": "Arrests, courts and policy",
-   "items": [
-    {
-     "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
-     "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-09-29T20:09:55+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
-     "group": "Arrests, courts and policy"
-    }
-   ]
-  },
-  {
    "group": "Breaches and ransomware",
    "items": [
     {
@@ -100,6 +87,17 @@
      "date": "2026-10-01T10:42:49+00:00",
      "url": "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/",
      "group": "Exploited right now"
+    },
+    {
+     "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following…",
+     "source": "The Hacker News",
+     "date": "2026-10-01T10:33:16+00:00",
+     "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76504"
+     ]
     },
     {
      "title": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability",
@@ -279,6 +277,14 @@
      "group": "Malware and campaigns"
     },
     {
+     "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
+     "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A \"core cluster of the…",
+     "source": "The Hacker News",
+     "date": "2026-10-01T10:42:36+00:00",
+     "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+     "group": "Malware and campaigns"
+    },
+    {
      "title": "Russian state hackers use new RedFlick technique to push malware",
      "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
      "source": "BleepingComputer",
@@ -308,14 +314,6 @@
      "source": "The Hacker News",
      "date": "2026-09-30T10:45:00+00:00",
      "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
-     "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-09-29T20:59:39+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
      "group": "Malware and campaigns"
     }
    ]

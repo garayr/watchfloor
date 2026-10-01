@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T10:08:15+00:00",
+ "generated_at": "2026-10-01T11:11:44+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -48,7 +48,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Technology",
@@ -59,7 +59,7 @@
    "count": 10
   },
   {
-   "name": "Financial Services",
+   "name": "Retail & E-Commerce",
    "count": 5
   }
  ],
@@ -113,6 +113,12 @@
    "lon": 28.0
   },
   {
+   "code": "AR",
+   "count": 2,
+   "lat": -34.6,
+   "lon": -58.4
+  },
+  {
    "code": "BE",
    "count": 2,
    "lat": 50.8,
@@ -137,12 +143,6 @@
    "lon": 54.4
   },
   {
-   "code": "AR",
-   "count": 1,
-   "lat": -34.6,
-   "lon": -58.4
-  },
-  {
    "code": "AT",
    "count": 1,
    "lat": 48.2,
@@ -153,12 +153,6 @@
    "count": 1,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "BD",
-   "count": 1,
-   "lat": 23.8,
-   "lon": 90.4
   },
   {
    "code": "BG",
@@ -258,6 +252,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Laboratorios Roemmers SAICF",
+   "group": "aurora",
+   "date": "2026-10-01T06:55:01+00:00",
+   "attack_date": "2026-10-01",
+   "country": "AR",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/TGFib3JhdG9yaW9zIFJvZW1tZXJzIFNBSUNGQGF1cm9yYQ=="
+  },
   {
    "victim": "Houston Thyroid & Endocrine Specialists",
    "group": "N0n",
@@ -1148,15 +1151,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/RXZlciBSZWFkeSBGaXJzdCBBaWRAcGxheQ=="
-  },
-  {
-   "victim": "PKSF — Palli Karma-Sahayak Foundation",
-   "group": "medusalocker",
-   "date": "2026-09-28T18:03:04+00:00",
-   "attack_date": "2026-09-28",
-   "country": "BD",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/UEtTRiDigJQgUGFsbGkgS2FybWEtU2FoYXlhayBGb3VuZGF0aW9uQG1lZHVzYWxvY2tlcg=="
   }
  ]
 }

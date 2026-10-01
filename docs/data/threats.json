@@ -2,90 +2,90 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 936,
-  "c2_servers": 433,
+  "total_iocs": 846,
+  "c2_servers": 312,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 239,
+    "iocs": 248,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "Remcos",
-    "iocs": 93,
-    "c2": 90,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
-   },
-   {
-    "name": "AsyncRAT",
-    "iocs": 57,
-    "c2": 37,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
-   },
-   {
     "name": "Remus",
-    "iocs": 57,
-    "c2": 56,
+    "iocs": 51,
+    "c2": 50,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "Vidar",
-    "iocs": 45,
-    "c2": 45,
+    "iocs": 43,
+    "c2": 43,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AdaptixC2",
-    "iocs": 43,
-    "c2": 43,
+    "iocs": 40,
+    "c2": 40,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    },
    {
     "name": "ClearFake",
-    "iocs": 38,
+    "iocs": 40,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "VShell",
-    "iocs": 23,
-    "c2": 8,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+    "name": "AsyncRAT",
+    "iocs": 34,
+    "c2": 14,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 23,
-    "c2": 23,
+    "iocs": 24,
+    "c2": 24,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "AMOS",
-    "iocs": 21,
+    "iocs": 22,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 21,
+    "c2": 3,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "VShell",
+    "iocs": 21,
+    "c2": 8,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    }
   ]
  },
  "urls": {
-  "sample": 950,
-  "online": 568,
+  "sample": 975,
+  "online": 554,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 336
+    "count": 346
    },
    {
     "name": "mirai",
-    "count": 247
+    "count": 254
    },
    {
     "name": "elf",
-    "count": 156
+    "count": 158
    },
    {
     "name": "32-bit",
-    "count": 80
+    "count": 81
    },
    {
     "name": "ascii",
@@ -97,7 +97,7 @@
    },
    {
     "name": "mips",
-    "count": 48
+    "count": 49
    },
    {
     "name": "rat",
@@ -517,10 +517,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-01T10:08:15+00:00",
-  "sans": "2026-10-01T10:08:15+00:00",
+  "threatfox": "2026-10-01T11:11:44+00:00",
+  "sans": "2026-10-01T11:11:44+00:00",
   "otx": "2026-10-01T10:44:04+00:00",
-  "urlhaus": "2026-10-01T10:08:15+00:00"
+  "urlhaus": "2026-10-01T11:11:44+00:00"
  },
- "generated_at": "2026-10-01T10:44:04+00:00"
+ "generated_at": "2026-10-01T11:11:44+00:00"
 }
