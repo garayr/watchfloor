@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1425,
-  "c2_servers": 279,
+  "total_iocs": 1472,
+  "c2_servers": 282,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 519,
+    "iocs": 567,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Mirai",
-    "iocs": 241,
+    "iocs": 233,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -31,15 +31,21 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 43,
+    "iocs": 40,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "VShell",
-    "iocs": 37,
+    "iocs": 36,
     "c2": 13,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "Remus",
+    "iocs": 33,
+    "c2": 33,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "AsyncRAT",
@@ -48,14 +54,8 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
-    "name": "Remus",
-    "iocs": 30,
-    "c2": 30,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
-   },
-   {
     "name": "AMOS",
-    "iocs": 28,
+    "iocs": 31,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -69,19 +69,19 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 650,
+  "online": 616,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 327
+    "count": 336
    },
    {
     "name": "Mozi",
-    "count": 322
+    "count": 329
    },
    {
     "name": "elf",
-    "count": 266
+    "count": 267
    },
    {
     "name": "ua-wget",
@@ -89,19 +89,19 @@
    },
    {
     "name": "32-bit",
-    "count": 79
-   },
-   {
-    "name": "ascii",
-    "count": 49
+    "count": 80
    },
    {
     "name": "mips",
     "count": 49
    },
    {
-    "name": "opendir",
-    "count": 37
+    "name": "ascii",
+    "count": 36
+   },
+   {
+    "name": "exe",
+    "count": 35
    }
   ]
  },
@@ -500,10 +500,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-01T22:39:00+00:00",
-  "sans": "2026-10-01T22:39:00+00:00",
+  "threatfox": "2026-10-01T23:37:47+00:00",
+  "sans": "2026-10-01T23:37:47+00:00",
   "otx": "2026-10-01T23:23:07+00:00",
-  "urlhaus": "2026-10-01T22:39:00+00:00"
+  "urlhaus": "2026-10-01T23:37:47+00:00"
  },
- "generated_at": "2026-10-01T23:23:07+00:00"
+ "generated_at": "2026-10-01T23:37:47+00:00"
 }
