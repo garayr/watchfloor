@@ -2,24 +2,24 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 902,
-  "c2_servers": 288,
+  "total_iocs": 927,
+  "c2_servers": 283,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 260,
+    "iocs": 268,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Vidar",
-    "iocs": 46,
-    "c2": 43,
+    "iocs": 51,
+    "c2": 48,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "ClearFake",
-    "iocs": 41,
+    "iocs": 43,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -30,14 +30,8 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Remus",
-    "iocs": 34,
-    "c2": 34,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 33,
+    "iocs": 34,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -48,8 +42,14 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
+    "name": "Remus",
+    "iocs": 28,
+    "c2": 28,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
+   },
+   {
     "name": "AMOS",
-    "iocs": 23,
+    "iocs": 24,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -61,19 +61,19 @@
    },
    {
     "name": "AdaptixC2",
-    "iocs": 22,
-    "c2": 22,
+    "iocs": 19,
+    "c2": 19,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 610,
+  "online": 611,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 318
+    "count": 322
    },
    {
     "name": "Mozi",
@@ -81,7 +81,7 @@
    },
    {
     "name": "elf",
-    "count": 254
+    "count": 256
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,7 @@
    },
    {
     "name": "32-bit",
-    "count": 72
+    "count": 74
    },
    {
     "name": "ascii",
@@ -500,10 +500,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-01T17:27:16+00:00",
-  "sans": "2026-10-01T17:27:16+00:00",
+  "threatfox": "2026-10-01T18:34:13+00:00",
+  "sans": "2026-10-01T18:34:13+00:00",
   "otx": "2026-10-01T18:12:15+00:00",
-  "urlhaus": "2026-10-01T17:27:16+00:00"
+  "urlhaus": "2026-10-01T18:34:13+00:00"
  },
- "generated_at": "2026-10-01T18:12:15+00:00"
+ "generated_at": "2026-10-01T18:34:13+00:00"
 }

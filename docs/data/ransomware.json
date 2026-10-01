@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T17:27:16+00:00",
+ "generated_at": "2026-10-01T18:34:13+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -18,7 +18,7 @@
   },
   {
    "name": "Storm",
-   "count": 7
+   "count": 6
   },
   {
    "name": "incransom",
@@ -33,17 +33,17 @@
    "count": 3
   },
   {
-   "name": "emperador",
+   "name": "akira",
    "count": 3
   }
  ],
  "by_sector": [
   {
-   "name": "Healthcare",
-   "count": 16
+   "name": "Manufacturing",
+   "count": 17
   },
   {
-   "name": "Manufacturing",
+   "name": "Healthcare",
    "count": 16
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 39,
+   "count": 38,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -197,12 +197,6 @@
    "lon": 139.7
   },
   {
-   "code": "MY",
-   "count": 1,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
    "code": "NZ",
    "count": 1,
    "lat": -36.8,
@@ -240,6 +234,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "C*ro *nty *es",
+   "group": "nightspire",
+   "date": "2026-10-01T13:35:58+00:00",
+   "attack_date": "2026-10-01",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QypybyAqbnR5ICplc0BuaWdodHNwaXJl"
+  },
+  {
+   "victim": "Wesmar",
+   "group": "akira",
+   "date": "2026-10-01T13:27:59+00:00",
+   "attack_date": "2026-10-01",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/V2VzbWFyQGFraXJh"
+  },
+  {
+   "victim": "DPL Group",
+   "group": "akira",
+   "date": "2026-10-01T13:27:57+00:00",
+   "attack_date": "2026-10-01",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/RFBMIEdyb3VwQGFraXJh"
+  },
   {
    "victim": "Krycler, Ervin, Taubman & Kaminsky",
    "group": "akira",
@@ -889,15 +910,6 @@
    "url": "https://www.ransomware.live/id/UHVsbW9uYXJ5IFNlcnZpY2VzIEdyb3VwQHRoZWdlbnRsZW1lbg=="
   },
   {
-   "victim": "Poca Valley Bank",
-   "group": "Storm",
-   "date": "2026-09-30T03:31:27+00:00",
-   "attack_date": "2026-09-28",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/UG9jYSBWYWxsZXkgQmFua0BTdG9ybQ=="
-  },
-  {
    "victim": "intense.pl",
    "group": "m3rx",
    "date": "2026-09-29T20:30:19+00:00",
@@ -905,15 +917,6 @@
    "country": "PL",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/aW50ZW5zZS5wbEBtM3J4"
-  },
-  {
-   "victim": "Unique Repair Services",
-   "group": "kairos",
-   "date": "2026-09-29T18:57:21+00:00",
-   "attack_date": "2026-09-29",
-   "country": "US",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/VW5pcXVlIFJlcGFpciBTZXJ2aWNlc0BrYWlyb3M="
   },
   {
    "victim": "advantech.com",
@@ -1130,15 +1133,6 @@
    "country": "GB",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/UHJlY2lzaW9uIEZhY2FkZXMgTHRkQE4wbg=="
-  },
-  {
-   "victim": "M*** P**** M***",
-   "group": "netrunner",
-   "date": "2026-09-28T23:34:34+00:00",
-   "attack_date": "2026-09-28",
-   "country": "MY",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/TSoqKiBQKioqKiBNKioqQG5ldHJ1bm5lcg=="
   }
  ]
 }

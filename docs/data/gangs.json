@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T17:27:16+00:00",
+ "generated_at": "2026-10-01T18:34:13+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -3431,6 +3431,149 @@
    ],
    "history_size": 3,
    "updated": "2026-10-01T17:27:16+00:00"
+  },
+  "nightspire": {
+   "name": "nightspire",
+   "description": "NightSpire is a ransomware group that first emerged in March 2025 and rapidly claimed over 250 victims across retail, manufacturing, healthcare, finance, and education sectors in the US, France, India, Taiwan, and Japan, using aggressive double-extortion with ransom deadlines as short as two days.",
+   "aliases": [],
+   "first_seen": "2025-02-17",
+   "last_seen": "2026-10-01",
+   "victims_total": 330,
+   "cves": [],
+   "tools": [
+    "Everything.exe",
+    "MEGA",
+    "WinSCP"
+   ],
+   "techniques": [
+    "Valid Accounts",
+    "Brute Force",
+    "Exploit Public-Facing Application",
+    "Phishing",
+    "Command and Scripting Interpreter",
+    "Software Deployment Tools",
+    "Scheduled Task/Job",
+    "Create Account",
+    "Boot or Logon Autostart Execution",
+    "Boot or Logon Autostart Execution: Registry Run Keys /…",
+    "Exploitation for Privilege Escalation",
+    "Obfuscated Files or Information",
+    "Masquerading",
+    "Indicator Removal",
+    "System Binary Proxy Execution",
+    "OS Credential Dumping",
+    "OS Credential Dumping: LSASS Memory",
+    "Unsecured Credentials",
+    "Network Service Discovery",
+    "Process Discovery"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 86
+     },
+     {
+      "name": "IN",
+      "count": 13
+     },
+     {
+      "name": "FR",
+      "count": 12
+     },
+     {
+      "name": "TR",
+      "count": 12
+     },
+     {
+      "name": "ES",
+      "count": 10
+     },
+     {
+      "name": "TW",
+      "count": 10
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 59
+     },
+     {
+      "name": "Professional Services",
+      "count": 36
+     },
+     {
+      "name": "Technology",
+      "count": 36
+     },
+     {
+      "name": "Healthcare",
+      "count": 25
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 23
+     },
+     {
+      "name": "Financial Services",
+      "count": 17
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 15
+    },
+    {
+     "month": "2025-12",
+     "count": 8
+    },
+    {
+     "month": "2026-01",
+     "count": 20
+    },
+    {
+     "month": "2026-02",
+     "count": 40
+    },
+    {
+     "month": "2026-03",
+     "count": 63
+    },
+    {
+     "month": "2026-04",
+     "count": 32
+    },
+    {
+     "month": "2026-05",
+     "count": 18
+    },
+    {
+     "month": "2026-06",
+     "count": 22
+    },
+    {
+     "month": "2026-07",
+     "count": 16
+    },
+    {
+     "month": "2026-08",
+     "count": 8
+    },
+    {
+     "month": "2026-09",
+     "count": 8
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 330,
+   "updated": "2026-10-01T18:34:13+00:00"
   }
  }
 }
