@@ -13,6 +13,7 @@ Standard library only, so it runs on a plain GitHub Actions runner.
 Every source is optional: if one fails, the others still update.
 """
 
+import base64
 import html
 import json
 import os
@@ -791,6 +792,19 @@ def top_counts(values, n):
 
 # ---------------------------------------------------------------- Incidents: ransomware claims
 
+def ransomware_live_url(raw_victim, raw_group, record=None):
+    """Link to the victim's page on Ransomware.live (never to the gang's leak site).
+    Their pages live at /id/<base64 of "victim@group">, built from the original, untidied name."""
+    for k in ("permalink", "ransomware_live_url"):
+        u = str((record or {}).get(k) or "")
+        if re.match(r"https://(www\.)?ransomware\.live/", u):
+            return u
+    if not raw_victim or not raw_group:
+        return None
+    token = base64.b64encode(f"{raw_victim}@{raw_group}".encode("utf-8")).decode("ascii")
+    return "https://www.ransomware.live/id/" + urllib.parse.quote(token, safe="=")
+
+
 def load_ransomware():
     """Victims posted on ransomware leak sites in the last week, via Ransomware.live.
     These are the gangs' own claims. We keep names, dates, sector and country only,
@@ -805,8 +819,10 @@ def load_ransomware():
     cutoff = NOW - timedelta(days=RANSOMWARE_DAYS)
     victims = []
     for r in rows:
-        name = clean_text(str(r.get("victim") or r.get("post_title") or ""), 120)
-        group = clean_text(str(r.get("group") or r.get("group_name") or ""), 60)
+        raw_victim = str(r.get("victim") or r.get("post_title") or "")
+        raw_group = str(r.get("group") or r.get("group_name") or "")
+        name = clean_text(raw_victim, 120)
+        group = clean_text(raw_group, 60)
         when = parse_date(str(r.get("discovered") or r.get("published") or r.get("attackdate") or ""))
         if not name or not group or (when and when < cutoff):
             continue
@@ -818,6 +834,7 @@ def load_ransomware():
             "attack_date": str(r.get("attackdate") or "")[:10] or None,
             "country": country if re.fullmatch(r"[A-Z]{2}", country) else None,
             "sector": clean_text(str(r.get("activity") or r.get("sector") or ""), 60) or None,
+            "url": ransomware_live_url(raw_victim, raw_group, r),
         })
     victims.sort(key=lambda v: v["date"] or "", reverse=True)
     by_country = []
