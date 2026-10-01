@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T13:31:07+00:00",
+ "generated_at": "2026-10-01T16:27:04+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -2845,6 +2845,290 @@
    ],
    "history_size": 2324,
    "updated": "2026-10-01T13:31:07+00:00"
+  },
+  "incransom": {
+   "name": "incransom",
+   "description": "INC Ransom is a prolific ransomware-as-a-service operation active since July 2023 that systematically targets healthcare, government, education, and manufacturing sectors in North America and Europe, having posted over 200 victims in 2025 alone with no sector off-limits.",
+   "aliases": [],
+   "first_seen": "2023-08-06",
+   "last_seen": "2026-10-01",
+   "victims_total": 958,
+   "cves": [
+    {
+     "id": "CVE-2026-15409",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-15410",
+     "cvss": null,
+     "label": null
+    }
+   ],
+   "tools": [
+    "Mimikatz",
+    "AdFind",
+    "Advanced IP Scanner",
+    "SoftPerfect NetScan",
+    "7-Zip",
+    "BackBlaze",
+    "MEGA",
+    "RClone",
+    "Restic",
+    "WinRAR",
+    "s5cmd",
+    "Finger",
+    "PsExec",
+    "Bitvise SSH Client",
+    "AnyDesk"
+   ],
+   "techniques": [
+    "Valid Accounts",
+    "Exploit Public-Facing Application",
+    "Phishing",
+    "Windows Management Instrumentation",
+    "Command and Scripting Interpreter: Windows Command Shell",
+    "System Services: Service Execution",
+    "Masquerading: Match Legitimate Resource Name or Location",
+    "Indicator Removal: File Deletion",
+    "Network Service Discovery",
+    "System Network Connections Discovery",
+    "Permission Groups Discovery: Domain Groups",
+    "Account Discovery: Domain Account",
+    "Network Share Discovery",
+    "Remote Services: Remote Desktop Protocol",
+    "Lateral Tool Transfer",
+    "Data Staged",
+    "Archive Collected Data: Archive via Utility",
+    "Transfer Data to Cloud Account",
+    "Application Layer Protocol",
+    "Ingress Tool Transfer"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 531
+     },
+     {
+      "name": "CA",
+      "count": 50
+     },
+     {
+      "name": "DE",
+      "count": 41
+     },
+     {
+      "name": "GB",
+      "count": 39
+     },
+     {
+      "name": "AU",
+      "count": 26
+     },
+     {
+      "name": "BR",
+      "count": 14
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Professional Services",
+      "count": 197
+     },
+     {
+      "name": "Healthcare",
+      "count": 142
+     },
+     {
+      "name": "Manufacturing",
+      "count": 139
+     },
+     {
+      "name": "Technology",
+      "count": 112
+     },
+     {
+      "name": "Education",
+      "count": 75
+     },
+     {
+      "name": "Government & Defense",
+      "count": 55
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 53
+    },
+    {
+     "month": "2025-12",
+     "count": 34
+    },
+    {
+     "month": "2026-01",
+     "count": 45
+    },
+    {
+     "month": "2026-02",
+     "count": 42
+    },
+    {
+     "month": "2026-03",
+     "count": 56
+    },
+    {
+     "month": "2026-04",
+     "count": 39
+    },
+    {
+     "month": "2026-05",
+     "count": 31
+    },
+    {
+     "month": "2026-06",
+     "count": 30
+    },
+    {
+     "month": "2026-07",
+     "count": 38
+    },
+    {
+     "month": "2026-08",
+     "count": 44
+    },
+    {
+     "month": "2026-09",
+     "count": 29
+    },
+    {
+     "month": "2026-10",
+     "count": 5
+    }
+   ],
+   "history_size": 958,
+   "updated": "2026-10-01T16:27:04+00:00"
+  },
+  "genesis": {
+   "name": "genesis",
+   "description": "Genesis is an emerging ransomware group first observed in late 2025, targeting small to mid-sized US organizations across healthcare, retail, financial services, legal, and manufacturing using double-extortion tactics, focusing heavily on data exfiltration and public leaking.",
+   "aliases": [],
+   "first_seen": "2024-05-07",
+   "last_seen": "2026-10-01",
+   "victims_total": 121,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 107
+     },
+     {
+      "name": "GB",
+      "count": 4
+     },
+     {
+      "name": "CA",
+      "count": 2
+     },
+     {
+      "name": "DK",
+      "count": 1
+     },
+     {
+      "name": "ES",
+      "count": 1
+     },
+     {
+      "name": "JM",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Professional Services",
+      "count": 30
+     },
+     {
+      "name": "Healthcare",
+      "count": 26
+     },
+     {
+      "name": "Manufacturing",
+      "count": 16
+     },
+     {
+      "name": "Technology",
+      "count": 12
+     },
+     {
+      "name": "Financial Services",
+      "count": 9
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 7
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 4
+    },
+    {
+     "month": "2025-12",
+     "count": 8
+    },
+    {
+     "month": "2026-01",
+     "count": 11
+    },
+    {
+     "month": "2026-02",
+     "count": 10
+    },
+    {
+     "month": "2026-03",
+     "count": 17
+    },
+    {
+     "month": "2026-04",
+     "count": 2
+    },
+    {
+     "month": "2026-05",
+     "count": 21
+    },
+    {
+     "month": "2026-06",
+     "count": 6
+    },
+    {
+     "month": "2026-07",
+     "count": 18
+    },
+    {
+     "month": "2026-08",
+     "count": 6
+    },
+    {
+     "month": "2026-09",
+     "count": 2
+    },
+    {
+     "month": "2026-10",
+     "count": 4
+    }
+   ],
+   "history_size": 121,
+   "updated": "2026-10-01T16:27:04+00:00"
   }
  }
 }

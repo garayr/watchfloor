@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T15:28:49+00:00",
+ "generated_at": "2026-10-01T16:27:04+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -25,8 +25,8 @@
    "count": 6
   },
   {
-   "name": "threeam",
-   "count": 6
+   "name": "incransom",
+   "count": 5
   },
   {
    "name": "N0n",
@@ -39,40 +39,40 @@
  ],
  "by_sector": [
   {
+   "name": "Healthcare",
+   "count": 16
+  },
+  {
    "name": "Manufacturing",
    "count": 16
   },
   {
    "name": "Professional Services",
-   "count": 16
-  },
-  {
-   "name": "Healthcare",
-   "count": 13
-  },
-  {
-   "name": "Technology",
-   "count": 11
+   "count": 15
   },
   {
    "name": "Other",
    "count": 10
   },
   {
+   "name": "Technology",
+   "count": 9
+  },
+  {
    "name": "Retail & E-Commerce",
-   "count": 5
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 33,
+   "count": 38,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 11,
+   "count": 10,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -113,12 +113,6 @@
    "lon": 28.0
   },
   {
-   "code": "AR",
-   "count": 2,
-   "lat": -34.6,
-   "lon": -58.4
-  },
-  {
    "code": "BE",
    "count": 2,
    "lat": 50.8,
@@ -149,6 +143,12 @@
    "lon": 54.4
   },
   {
+   "code": "AR",
+   "count": 1,
+   "lat": -34.6,
+   "lon": -58.4
+  },
+  {
    "code": "AT",
    "count": 1,
    "lat": 48.2,
@@ -165,12 +165,6 @@
    "count": 1,
    "lat": 42.7,
    "lon": 23.3
-  },
-  {
-   "code": "CO",
-   "count": 1,
-   "lat": 4.7,
-   "lon": -74.1
   },
   {
    "code": "ES",
@@ -195,12 +189,6 @@
    "count": 1,
    "lat": 32.1,
    "lon": 34.8
-  },
-  {
-   "code": "IN",
-   "count": 1,
-   "lat": 19.1,
-   "lon": 72.9
   },
   {
    "code": "JP",
@@ -252,6 +240,69 @@
   }
  ],
  "victims": [
+  {
+   "victim": "TLC Perinatal",
+   "group": "genesis",
+   "date": "2026-10-01T11:59:01+00:00",
+   "attack_date": "2026-09-30",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/VExDIFBlcmluYXRhbEBnZW5lc2lz"
+  },
+  {
+   "victim": "Vera Science",
+   "group": "genesis",
+   "date": "2026-10-01T11:58:41+00:00",
+   "attack_date": "2026-09-30",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/VmVyYSBTY2llbmNlQGdlbmVzaXM="
+  },
+  {
+   "victim": "Owens Distributors",
+   "group": "genesis",
+   "date": "2026-10-01T11:58:21+00:00",
+   "attack_date": "2026-09-30",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/T3dlbnMgRGlzdHJpYnV0b3JzQGdlbmVzaXM="
+  },
+  {
+   "victim": "Guardian Pharmacy LLC",
+   "group": "incransom",
+   "date": "2026-10-01T11:30:04+00:00",
+   "attack_date": "2026-10-01",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/R3VhcmRpYW4gUGhhcm1hY3kgTExDQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "Den Hartog Industries",
+   "group": "incransom",
+   "date": "2026-10-01T11:29:48+00:00",
+   "attack_date": "2026-10-01",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RGVuIEhhcnRvZyBJbmR1c3RyaWVzQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "Northern Counties Health Care",
+   "group": "incransom",
+   "date": "2026-10-01T11:29:32+00:00",
+   "attack_date": "2026-10-01",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Tm9ydGhlcm4gQ291bnRpZXMgSGVhbHRoIENhcmVAaW5jcmFuc29t"
+  },
+  {
+   "victim": "Post Metal Recycling",
+   "group": "incransom",
+   "date": "2026-10-01T11:29:12+00:00",
+   "attack_date": "2026-10-01",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UG9zdCBNZXRhbCBSZWN5Y2xpbmdAaW5jcmFuc29t"
+  },
   {
    "victim": "LA PONDEROSA",
    "group": "emperador",
@@ -1088,69 +1139,6 @@
    "country": "GB",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/c2FmZXNjYWZmb2xkaW5nLm5ldEB0aHJlZWFt"
-  },
-  {
-   "victim": "coosalud.com",
-   "group": "threeam",
-   "date": "2026-09-28T18:52:35+00:00",
-   "attack_date": "2026-09-28",
-   "country": "CO",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Y29vc2FsdWQuY29tQHRocmVlYW0="
-  },
-  {
-   "victim": "pistonespersan.com.ar",
-   "group": "threeam",
-   "date": "2026-09-28T18:52:00+00:00",
-   "attack_date": "2026-09-28",
-   "country": "AR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/cGlzdG9uZXNwZXJzYW4uY29tLmFyQHRocmVlYW0="
-  },
-  {
-   "victim": "midwestbit.com",
-   "group": "threeam",
-   "date": "2026-09-28T18:51:26+00:00",
-   "attack_date": "2026-09-28",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/bWlkd2VzdGJpdC5jb21AdGhyZWVhbQ=="
-  },
-  {
-   "victim": "apexus.com",
-   "group": "threeam",
-   "date": "2026-09-28T18:50:52+00:00",
-   "attack_date": "2026-09-28",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/YXBleHVzLmNvbUB0aHJlZWFt"
-  },
-  {
-   "victim": "bhn-expertise.com",
-   "group": "threeam",
-   "date": "2026-09-28T18:50:17+00:00",
-   "attack_date": "2026-09-28",
-   "country": "DE",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/YmhuLWV4cGVydGlzZS5jb21AdGhyZWVhbQ=="
-  },
-  {
-   "victim": "Goodrich Logistics",
-   "group": "Doommageddon",
-   "date": "2026-09-28T18:46:47+00:00",
-   "attack_date": "2026-09-28",
-   "country": null,
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/R29vZHJpY2ggTG9naXN0aWNzQERvb21tYWdlZGRvbg=="
-  },
-  {
-   "victim": "Chem Process Systems Pvt. Ltd.",
-   "group": "Doommageddon",
-   "date": "2026-09-28T18:46:12+00:00",
-   "attack_date": "2026-09-28",
-   "country": "IN",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Q2hlbSBQcm9jZXNzIFN5c3RlbXMgUHZ0LiBMdGQuQERvb21tYWdlZGRvbg=="
   }
  ]
 }
