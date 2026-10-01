@@ -1,6 +1,25 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-104286",
+   "date": "2026-10-01",
+   "src": "CISA",
+   "vendor": "Fortinet FortiMail",
+   "vendor_name": "Fortinet",
+   "product": "FortiMail",
+   "title": "Fortinet FortiMail Path Traversal Vulnerability",
+   "detail": "Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-04",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-104286"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
+   "kev": true,
+   "sev": "high"
+  },
+  {
    "id": "CVE-2026-76504",
    "date": "2026-09-30",
    "src": "CISA",
