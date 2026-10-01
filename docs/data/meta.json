@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T01:14:29+00:00",
+ "generated_at": "2026-10-01T02:25:55+00:00",
  "sources": [
   {
    "name": "CISA KEV",
@@ -64,20 +64,20 @@
   {
    "name": "abuse.ch ThreatFox",
    "ok": true,
-   "count": 1196,
+   "count": 1198,
    "error": null
   },
   {
    "name": "abuse.ch URLhaus",
    "ok": true,
-   "count": 719,
+   "count": 742,
    "error": null
   },
   {
    "name": "AlienVault OTX",
-   "ok": true,
-   "count": 20,
-   "error": null
+   "ok": false,
+   "count": 0,
+   "error": "otx.alienvault.com: The read operation timed out"
   },
   {
    "name": "SANS ISC",

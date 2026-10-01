@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T01:14:29+00:00",
+ "generated_at": "2026-10-01T02:25:55+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -48,7 +48,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Technology",
@@ -56,7 +56,7 @@
   },
   {
    "name": "Other",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Financial Services",
@@ -203,6 +203,12 @@
    "lon": 72.9
   },
   {
+   "code": "JP",
+   "count": 1,
+   "lat": 35.7,
+   "lon": 139.7
+  },
+  {
    "code": "MX",
    "count": 1,
    "lat": 19.4,
@@ -219,12 +225,6 @@
    "count": 1,
    "lat": -36.8,
    "lon": 174.8
-  },
-  {
-   "code": "PH",
-   "count": 1,
-   "lat": 14.6,
-   "lon": 121.0
   },
   {
    "code": "PL",
@@ -258,6 +258,14 @@
   }
  ],
  "victims": [
+  {
+   "victim": "The Japan Times",
+   "group": "Eclipse",
+   "date": "2026-09-30T21:53:18+00:00",
+   "attack_date": "2026-09-30",
+   "country": "JP",
+   "sector": "Other"
+  },
   {
    "victim": "Summit Electric Supply",
    "group": "Vexy Ransomware",
@@ -1049,14 +1057,6 @@
    "attack_date": "2026-09-28",
    "country": "BD",
    "sector": "Financial Services"
-  },
-  {
-   "victim": "New World Diagnostics",
-   "group": "qilin",
-   "date": "2026-09-28T17:00:04+00:00",
-   "attack_date": "2026-09-28",
-   "country": "PH",
-   "sector": "Healthcare"
   }
  ]
 }
