@@ -111,20 +111,23 @@
      "date": "2026-09-29T17:47:01+00:00",
      "url": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
-     "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and…",
-     "source": "The Hacker News",
-     "date": "2026-09-29T17:20:17+00:00",
-     "url": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
+     "summary": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals. The trigger is a…",
+     "source": "The Hacker News",
+     "date": "2026-10-01T05:54:41+00:00",
+     "url": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-86950"
+     ]
+    },
     {
      "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
      "summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure. \"We are actively addressing and remediating the issue internally, in coordination…",
