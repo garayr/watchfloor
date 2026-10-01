@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-01T18:34:13+00:00",
+ "generated_at": "2026-10-01T19:40:52+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 25
+   "count": 24
   },
   {
    "name": "lamashtu",
@@ -26,33 +26,33 @@
   },
   {
    "name": "m3rx",
-   "count": 6
-  },
-  {
-   "name": "N0n",
-   "count": 3
+   "count": 5
   },
   {
    "name": "akira",
+   "count": 3
+  },
+  {
+   "name": "emperador",
    "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 17
+   "count": 18
   },
   {
    "name": "Healthcare",
-   "count": 16
+   "count": 17
   },
   {
    "name": "Professional Services",
-   "count": 16
+   "count": 15
   },
   {
    "name": "Other",
-   "count": 11
+   "count": 10
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 38,
+   "count": 40,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -78,9 +78,15 @@
   },
   {
    "code": "GB",
-   "count": 5,
+   "count": 4,
    "lat": 51.5,
    "lon": -0.1
+  },
+  {
+   "code": "BR",
+   "count": 3,
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "FR",
@@ -95,12 +101,6 @@
    "lon": 12.5
   },
   {
-   "code": "KR",
-   "count": 3,
-   "lat": 37.6,
-   "lon": 127.0
-  },
-  {
    "code": "ZA",
    "count": 3,
    "lat": -26.2,
@@ -113,16 +113,10 @@
    "lon": 4.4
   },
   {
-   "code": "BR",
+   "code": "KR",
    "count": 2,
-   "lat": -23.5,
-   "lon": -46.6
-  },
-  {
-   "code": "CA",
-   "count": 2,
-   "lat": 43.7,
-   "lon": -79.4
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "MX",
@@ -167,6 +161,12 @@
    "lon": 23.3
   },
   {
+   "code": "CA",
+   "count": 1,
+   "lat": 43.7,
+   "lon": -79.4
+  },
+  {
    "code": "ES",
    "count": 1,
    "lat": 40.4,
@@ -177,12 +177,6 @@
    "count": 1,
    "lat": 38.0,
    "lon": 23.7
-  },
-  {
-   "code": "ID",
-   "count": 1,
-   "lat": -6.2,
-   "lon": 106.8
   },
   {
    "code": "IL",
@@ -234,6 +228,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "DISK PRECISION GROUP - diskprecision.com",
+   "group": "krybit",
+   "date": "2026-10-01T14:59:58+00:00",
+   "attack_date": "2026-10-01",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RElTSyBQUkVDSVNJT04gR1JPVVAgLSBkaXNrcHJlY2lzaW9uLmNvbUBrcnliaXQ="
+  },
+  {
+   "victim": "FUNAP - Fundação \"Prof. Dr. Manoel Pedro Pimentel\"",
+   "group": "Booba Project",
+   "date": "2026-10-01T14:50:50+00:00",
+   "attack_date": "2026-10-01",
+   "country": "BR",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/RlVOQVAgLSBGdW5kYcOnw6NvICJQcm9mLiBEci4gTWFub2VsIFBlZHJvIFBpbWVudGVsIkBCb29iYSBQcm9qZWN0"
+  },
+  {
+   "victim": "ASSOCIATED GASTROENTEROLOGISTS OF CENTRAL NEW YORK, P.C",
+   "group": "Booba Project",
+   "date": "2026-10-01T14:50:46+00:00",
+   "attack_date": "2026-10-01",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/QVNTT0NJQVRFRCBHQVNUUk9FTlRFUk9MT0dJU1RTIE9GIENFTlRSQUwgTkVXIFlPUkssIFAuQ0BCb29iYSBQcm9qZWN0"
+  },
+  {
+   "victim": "Superior Plating Technology CO",
+   "group": "morpheus",
+   "date": "2026-10-01T14:30:01+00:00",
+   "attack_date": "2026-10-01",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/U3VwZXJpb3IgUGxhdGluZyBUZWNobm9sb2d5IENPQG1vcnBoZXVz"
+  },
   {
    "victim": "C*ro *nty *es",
    "group": "nightspire",
@@ -703,15 +733,6 @@
    "url": "https://www.ransomware.live/id/V2ViYiBFbGVjdHJpYyBDb21wYW55IG9mIEZsb3JpZGFAdGhlZ2VudGxlbWVu"
   },
   {
-   "victim": "Solaria",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:39:40+00:00",
-   "attack_date": "2026-09-29",
-   "country": "ID",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/U29sYXJpYUB0aGVnZW50bGVtZW4="
-  },
-  {
    "victim": "Auren",
    "group": "thegentlemen",
    "date": "2026-09-30T03:39:25+00:00",
@@ -982,15 +1003,6 @@
    "url": "https://www.ransomware.live/id/bGF0aXR1ZGVzdWJyby5jb21AQnJhaW5DaXBoZXI="
   },
   {
-   "victim": "spg.co.kr",
-   "group": "lockbit5",
-   "date": "2026-09-29T15:38:48+00:00",
-   "attack_date": "2026-09-29",
-   "country": "KR",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/c3BnLmNvLmtyQGxvY2tiaXQ1"
-  },
-  {
    "victim": "trailerbridge.com",
    "group": "BrainCipher",
    "date": "2026-09-29T15:24:54+00:00",
@@ -1115,24 +1127,6 @@
    "country": null,
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/aWNjc2kuY29tQG0zcng="
-  },
-  {
-   "victim": "cpacb.com",
-   "group": "m3rx",
-   "date": "2026-09-29T09:42:07+00:00",
-   "attack_date": "2026-09-29",
-   "country": "CA",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Y3BhY2IuY29tQG0zcng="
-  },
-  {
-   "victim": "Precision Facades Ltd",
-   "group": "N0n",
-   "date": "2026-09-29T05:51:30+00:00",
-   "attack_date": "2026-09-29",
-   "country": "GB",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UHJlY2lzaW9uIEZhY2FkZXMgTHRkQE4wbg=="
   }
  ]
 }

@@ -3,11 +3,11 @@
  "malware": {
   "window": "24h",
   "total_iocs": 927,
-  "c2_servers": 283,
+  "c2_servers": 273,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 268,
+    "iocs": 252,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -19,26 +19,32 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 43,
+    "iocs": 48,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "VShell",
-    "iocs": 36,
-    "c2": 11,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 34,
-    "c2": 2,
+    "iocs": 42,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
+    "name": "IClickFix",
+    "iocs": 38,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
+    "name": "VShell",
+    "iocs": 36,
+    "c2": 13,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
     "name": "AsyncRAT",
-    "iocs": 31,
-    "c2": 11,
+    "iocs": 32,
+    "c2": 12,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
@@ -48,40 +54,34 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
-    "name": "AMOS",
-    "iocs": 24,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
     "name": "php.shin_webshell",
     "iocs": 23,
     "c2": 23,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "AdaptixC2",
-    "iocs": 19,
-    "c2": 19,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
+    "name": "AMOS",
+    "iocs": 21,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 611,
+  "online": 616,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 322
+    "count": 325
    },
    {
     "name": "Mozi",
-    "count": 312
+    "count": 316
    },
    {
     "name": "elf",
-    "count": 256
+    "count": 259
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,7 @@
    },
    {
     "name": "32-bit",
-    "count": 74
+    "count": 77
    },
    {
     "name": "ascii",
@@ -500,10 +500,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-01T18:34:13+00:00",
-  "sans": "2026-10-01T18:34:13+00:00",
+  "threatfox": "2026-10-01T19:40:52+00:00",
+  "sans": "2026-10-01T19:40:52+00:00",
   "otx": "2026-10-01T19:27:06+00:00",
-  "urlhaus": "2026-10-01T18:34:13+00:00"
+  "urlhaus": "2026-10-01T19:40:52+00:00"
  },
- "generated_at": "2026-10-01T19:27:06+00:00"
+ "generated_at": "2026-10-01T19:40:52+00:00"
 }
