@@ -212,6 +212,70 @@
  ],
  "pulses": [
   {
+   "name": "Citrix NetScaler CVE-2026-88771: Observed Exploitation Artifacts and Hunt Indicators",
+   "summary": "CVE-2026-88771 is a critical pre-authentication command-injection vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway. LevelBlue's Threat Hunt Operations & Research (THOR) team identified active…",
+   "date": "2026-10-01T04:55:57+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "main.py",
+    "update_c08937.pl"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "update_c08937.pl",
+    "configuration-exfiltration",
+    "cve-2026-88771",
+    "pre-authentication",
+    "web-shell",
+    "citrix netscaler"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abde7dd3f829cf6b721cfaa"
+  },
+  {
+   "name": "PaperCut MF Zero-Day Intrusion: Java Loader, Web Shell, and AdaptixC2 via CVE-2026-82078 and CVE-2026-81578",
+   "summary": "On August 31, 2026, threat actors exploited two zero-day vulnerabilities in PaperCut MF affecting a customer in the Education sector. The attackers targeted an internet-facing print server running vulnerable PaperCut MF…",
+   "date": "2026-10-01T04:37:48+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "AdaptixC2"
+   ],
+   "countries": [],
+   "industries": [
+    "Education"
+   ],
+   "tags": [
+    "java loader",
+    "adaptixc2",
+    "cve-2026-82078",
+    "papercut mf",
+    "domain compromise",
+    "web shell"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abde39c863acdfda74e5d84"
+  },
+  {
+   "name": "Swarming Against Citrix 0-Day Exploitation",
+   "summary": "A malicious cyber actor exploited a Citrix NetScaler Gateway zero-day vulnerability on September 24, 2026, three days before public disclosure. The attacker, using IP address 149.104.78.141, attempted exploitation that…",
+   "date": "2026-10-01T04:37:07+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "command injection",
+    "cve-2026-88771",
+    "citrixbleed",
+    "citrix netscaler",
+    "webshell",
+    "pre-disclosure attack"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abde373c68b5d048accac49"
+  },
+  {
    "name": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
    "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a…",
    "date": "2026-09-30T18:56:02+00:00",
@@ -241,6 +305,54 @@
     "star blizzard"
    ],
    "url": "https://otx.alienvault.com/pulse/6abd5b434cf09d69f0ee2e48"
+  },
+  {
+   "name": "2CLoader: A New Malware Loader Delivering Vidar and Remus",
+   "summary": "In August 2026, a new loader designated 2CLoader was identified being used to distribute information stealers including Vidar and Remus, along with XWorm RAT. The loader implements extensive anti-analysis capabilities…",
+   "date": "2026-09-30T18:08:12+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "2CLoader",
+    "Vidar",
+    "Remus",
+    "XWorm"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "indirect syscalls",
+    "information stealer",
+    "evasion techniques",
+    "vidar",
+    "remus",
+    "xworm"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abd500c65b4bbb867b80e99"
+  },
+  {
+   "name": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
+   "summary": "Microsoft Threat Intelligence identified active exploitation of CVE-2026-73570, an unauthenticated OS command injection vulnerability in Zimbra Collaboration Suite's SNMP notification path. Exploitation occurred between…",
+   "date": "2026-09-30T18:06:59+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "China Chopper - S0020",
+    "GodzillaWebShell",
+    "Looptik",
+    "NeedyMantis"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "privilege-escalation",
+    "looptik",
+    "jsp-webshell",
+    "zimbra",
+    "chopper",
+    "command-injection"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abd4fc35eecbf1cfcd9681c"
   },
   {
    "name": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
@@ -385,142 +497,13 @@
     "canon sideloading"
    ],
    "url": "https://otx.alienvault.com/pulse/6abb0c55e0fed2d6a1f7e51a"
-  },
-  {
-   "name": "From BlackCat to Panda Workshop: Inside the Evolving C2 Panel Behind RATHat",
-   "summary": "RATHat is an Android banking trojan characterized by its unique architecture where the malicious application serves merely as an entry point. After obtaining Accessibility Service permissions, it enables wireless…",
-   "date": "2026-09-28T20:24:24+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "RATHat"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "wireless debugging",
-    "android banking trojan",
-    "adb exploitation",
-    "rathat",
-    "blackcat panel",
-    "ai-powered automation"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abaccf85f7a199ca2ad50c6"
-  },
-  {
-   "name": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
-   "summary": "NeedyMantis is a modular post-compromise malware family deployed in limited targeted operations affecting telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and…",
-   "date": "2026-09-28T19:54:37+00:00",
-   "author": "AlienVault",
-   "adversary": "Storm-3069",
-   "malware": [
-    "NeedyMantis"
-   ],
-   "countries": [],
-   "industries": [
-    "Telecommunications",
-    "Education",
-    "Healthcare",
-    "Government"
-   ],
-   "tags": [
-    "china-based threat actor",
-    "telecommunications",
-    "dll sideloading",
-    "custom file format",
-    "post-compromise",
-    "needymantis"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abac5fd70758a52b56cb48e"
-  },
-  {
-   "name": "Rise of the Jev-Clones",
-   "summary": "Following the launch of TypeSafe AI's Jev API, numerous fraudulent storefronts emerged selling access to the legitimate API at inflated prices ranging from 3 to 11.5 times the official cost. Within three days of launch…",
-   "date": "2026-09-28T14:58:08+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "brand impersonation",
-    "price inflation",
-    "domain squatting",
-    "fraudulent storefronts",
-    "jev api",
-    "ai services"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aba80800986c7309a31cc76"
-  },
-  {
-   "name": "Operation Master: Deconstructing a Multi-Tiered Intrusion and Monetization Pipeline",
-   "summary": "A sophisticated cybercrime operation compromised enterprise networks across multiple countries by exploiting a GlobalProtect authentication bypass vulnerability (CVE-2026-0257), executed advanced web application…",
-   "date": "2026-09-28T10:51:15+00:00",
-   "author": "AlienVault",
-   "adversary": "masterblack",
-   "malware": [
-    "AdaptixC2"
-   ],
-   "countries": [
-    "United States of America",
-    "Argentina",
-    "Belgium",
-    "Brazil",
-    "Canada",
-    "Costa Rica"
-   ],
-   "industries": [
-    "Energy",
-    "Technology",
-    "Finance",
-    "Education",
-    "Healthcare",
-    "Retail"
-   ],
-   "tags": [
-    "globalprotect exploitation",
-    "cve-2026-0257",
-    "cve-2024-1086",
-    "multi-tenant phishing",
-    "cve-2022-40684",
-    "adaptixc2"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aba46a30e26418fb09c6000"
-  },
-  {
-   "name": "Telerik UI Exploitation Leads to Webshell Install and Scanner Execution",
-   "summary": "Multiple attack campaigns exploiting CVE-2019-18935, a remote code execution vulnerability in unpatched Telerik UI for ASP.NET AJAX servers, have been identified. The first case involved exploiting the vulnerability to…",
-   "date": "2026-09-28T07:13:28+00:00",
-   "author": "AlienVault",
-   "adversary": "Blue Mockingbird",
-   "malware": [
-    "Godzilla",
-    "SweetPotato"
-   ],
-   "countries": [
-    "United States of America"
-   ],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "cve-2019-18935",
-    "telerik ui",
-    "godzilla",
-    "iis server",
-    "reverse shell",
-    "privilege escalation"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aba1398c736673eae22c865"
   }
  ],
  "updated": {
   "threatfox": "2026-10-01T13:31:07+00:00",
   "sans": "2026-10-01T13:31:07+00:00",
-  "otx": "2026-10-01T12:46:11+00:00",
+  "otx": "2026-10-01T13:55:28+00:00",
   "urlhaus": "2026-10-01T13:31:07+00:00"
  },
- "generated_at": "2026-10-01T13:31:07+00:00"
+ "generated_at": "2026-10-01T13:55:28+00:00"
 }
