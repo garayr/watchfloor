@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T00:08:30+00:00",
+ "generated_at": "2026-10-01T01:14:29+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -33,14 +33,14 @@
    "count": 5
   },
   {
-   "name": "emperador",
+   "name": "safepay",
    "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 17
+   "count": 16
   },
   {
    "name": "Professional Services",
@@ -52,7 +52,7 @@
   },
   {
    "name": "Technology",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Other",
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 33,
+   "count": 34,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 10,
+   "count": 11,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -84,7 +84,7 @@
   },
   {
    "code": "BR",
-   "count": 4,
+   "count": 3,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -165,12 +165,6 @@
    "count": 1,
    "lat": 42.7,
    "lon": 23.3
-  },
-  {
-   "code": "CH",
-   "count": 1,
-   "lat": 46.9,
-   "lon": 7.4
   },
   {
    "code": "CO",
@@ -264,6 +258,22 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Summit Electric Supply",
+   "group": "Vexy Ransomware",
+   "date": "2026-09-30T20:55:47+00:00",
+   "attack_date": "2026-09-30",
+   "country": "US",
+   "sector": "Energy & Utilities"
+  },
+  {
+   "victim": "wolfusofsky.de",
+   "group": "safepay",
+   "date": "2026-09-30T20:11:02+00:00",
+   "attack_date": "2026-09-30",
+   "country": "DE",
+   "sector": "Not Found"
+  },
   {
    "victim": "Le Centre National de l'Expertise Hospitalière (CNEH)",
    "group": "kairos",
@@ -1041,28 +1051,12 @@
    "sector": "Financial Services"
   },
   {
-   "victim": "Amazon Informatica",
-   "group": "emperador",
-   "date": "2026-09-28T17:51:32+00:00",
-   "attack_date": "2026-09-28",
-   "country": "BR",
-   "sector": "Technology"
-  },
-  {
    "victim": "New World Diagnostics",
    "group": "qilin",
    "date": "2026-09-28T17:00:04+00:00",
    "attack_date": "2026-09-28",
    "country": "PH",
    "sector": "Healthcare"
-  },
-  {
-   "victim": "Netech (Neeser Technik AG)",
-   "group": "payload",
-   "date": "2026-09-28T16:59:11+00:00",
-   "attack_date": "2026-09-28",
-   "country": "CH",
-   "sector": "Manufacturing"
   }
  ]
 }
