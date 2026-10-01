@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T13:31:07+00:00",
+ "generated_at": "2026-10-01T14:30:41+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -29,21 +29,21 @@
    "count": 6
   },
   {
-   "name": "play",
-   "count": 4
+   "name": "N0n",
+   "count": 3
   },
   {
-   "name": "N0n",
+   "name": "emperador",
    "count": 3
   }
  ],
  "by_sector": [
   {
-   "name": "Professional Services",
-   "count": 17
+   "name": "Manufacturing",
+   "count": 16
   },
   {
-   "name": "Manufacturing",
+   "name": "Professional Services",
    "count": 16
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 34,
+   "count": 33,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -129,6 +129,12 @@
    "count": 2,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "MX",
+   "count": 2,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "TW",
@@ -203,12 +209,6 @@
    "lon": 139.7
   },
   {
-   "code": "MX",
-   "count": 1,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
    "code": "MY",
    "count": 1,
    "lat": 3.1,
@@ -252,6 +252,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "LA PONDEROSA",
+   "group": "emperador",
+   "date": "2026-10-01T09:51:43+00:00",
+   "attack_date": "2026-10-01",
+   "country": "MX",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/TEEgUE9OREVST1NBQGVtcGVyYWRvcg=="
+  },
   {
    "victim": "Dynamic Office Solutions",
    "group": "qilin",
@@ -1142,15 +1151,6 @@
    "country": "IN",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/Q2hlbSBQcm9jZXNzIFN5c3RlbXMgUHZ0LiBMdGQuQERvb21tYWdlZGRvbg=="
-  },
-  {
-   "victim": "Starr Whitehouse Landscape Architects",
-   "group": "play",
-   "date": "2026-09-28T18:33:25+00:00",
-   "attack_date": "2026-09-28",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/U3RhcnIgV2hpdGVob3VzZSBMYW5kc2NhcGUgQXJjaGl0ZWN0c0BwbGF5"
   }
  ]
 }
