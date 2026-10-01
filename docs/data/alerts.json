@@ -17,6 +17,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
    "kev": true,
+   "epss": 0.011,
    "cvss": 9.8,
    "sev": "critical",
    "news": [
@@ -57,7 +58,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950",
    "kev": true,
-   "epss": 0.0081,
+   "epss": 0.0124,
    "cvss": 8.8,
    "sev": "high",
    "news": [
@@ -484,18 +485,6 @@
    "sev": "high"
   },
   {
-   "id": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
-   "date": "2026-09-15",
-   "src": "NCSC",
-   "vendor": "NCSC",
-   "title": "Iranian cyber targeting of dissidents, activists and journalists",
-   "detail": "Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.",
-   "todo": "Read the advisory for affected products and mitigations.",
-   "cves": [],
-   "url": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
-   "sev": "medium"
-  },
-  {
    "id": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
    "date": "2026-09-15",
    "src": "NCSC",
@@ -505,6 +494,18 @@
    "todo": "Read the advisory for affected products and mitigations.",
    "cves": [],
    "url": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
+   "sev": "medium"
+  },
+  {
+   "id": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
+   "date": "2026-09-15",
+   "src": "NCSC",
+   "vendor": "NCSC",
+   "title": "Iranian cyber targeting of dissidents, activists and journalists",
+   "detail": "Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.",
+   "todo": "Read the advisory for affected products and mitigations.",
+   "cves": [],
+   "url": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
    "sev": "medium"
   },
   {
@@ -566,7 +567,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
    "kev": true,
-   "epss": 0.9143,
+   "epss": 0.9296,
    "cvss": 10.0,
    "sev": "critical"
   },
@@ -687,7 +688,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
    "kev": true,
-   "epss": 0.0701,
+   "epss": 0.0797,
    "cvss": 9.3,
    "sev": "critical",
    "news": [
