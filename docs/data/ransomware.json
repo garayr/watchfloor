@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T16:27:04+00:00",
+ "generated_at": "2026-10-01T17:27:16+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -21,12 +21,12 @@
    "count": 7
   },
   {
-   "name": "m3rx",
+   "name": "incransom",
    "count": 6
   },
   {
-   "name": "incransom",
-   "count": 5
+   "name": "m3rx",
+   "count": 6
   },
   {
    "name": "N0n",
@@ -48,11 +48,11 @@
   },
   {
    "name": "Professional Services",
-   "count": 15
+   "count": 16
   },
   {
    "name": "Other",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Technology",
@@ -60,13 +60,13 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 6
+   "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 38,
+   "count": 39,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -78,15 +78,9 @@
   },
   {
    "code": "GB",
-   "count": 6,
+   "count": 5,
    "lat": 51.5,
    "lon": -0.1
-  },
-  {
-   "code": "BR",
-   "count": 3,
-   "lat": -23.5,
-   "lon": -46.6
   },
   {
    "code": "FR",
@@ -117,6 +111,12 @@
    "count": 2,
    "lat": 50.8,
    "lon": 4.4
+  },
+  {
+   "code": "BR",
+   "count": 2,
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "CA",
@@ -240,6 +240,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Krycler, Ervin, Taubman & Kaminsky",
+   "group": "akira",
+   "date": "2026-10-01T12:56:13+00:00",
+   "attack_date": "2026-10-01",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/S3J5Y2xlciwgRXJ2aW4sIFRhdWJtYW4gJiBLYW1pbnNreUBha2lyYQ=="
+  },
+  {
+   "victim": "Graybar Electric Company, Inc.",
+   "group": "Redact",
+   "date": "2026-10-01T12:55:52+00:00",
+   "attack_date": "2026-10-01",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/R3JheWJhciBFbGVjdHJpYyBDb21wYW55LCBJbmMuQFJlZGFjdA=="
+  },
+  {
+   "victim": "Rimrock Foundation",
+   "group": "incransom",
+   "date": "2026-10-01T12:31:18+00:00",
+   "attack_date": "2026-10-01",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/Umltcm9jayBGb3VuZGF0aW9uQGluY3JhbnNvbQ=="
+  },
   {
    "victim": "TLC Perinatal",
    "group": "genesis",
@@ -660,7 +687,7 @@
    "date": "2026-09-30T03:39:40+00:00",
    "attack_date": "2026-09-29",
    "country": "ID",
-   "sector": "Energy & Utilities",
+   "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/U29sYXJpYUB0aGVnZW50bGVtZW4="
   },
   {
@@ -1096,15 +1123,6 @@
    "url": "https://www.ransomware.live/id/Y3BhY2IuY29tQG0zcng="
   },
   {
-   "victim": "camorim.com.br",
-   "group": "lockbit5",
-   "date": "2026-09-29T06:00:24+00:00",
-   "attack_date": "2026-09-28",
-   "country": "BR",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/Y2Ftb3JpbS5jb20uYnJAbG9ja2JpdDU="
-  },
-  {
    "victim": "Precision Facades Ltd",
    "group": "N0n",
    "date": "2026-09-29T05:51:30+00:00",
@@ -1121,24 +1139,6 @@
    "country": "MY",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/TSoqKiBQKioqKiBNKioqQG5ldHJ1bm5lcg=="
-  },
-  {
-   "victim": "Arnold Center",
-   "group": "qilin",
-   "date": "2026-09-28T20:01:05+00:00",
-   "attack_date": "2026-09-28",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/QXJub2xkIENlbnRlckBxaWxpbg=="
-  },
-  {
-   "victim": "safescaffolding.net",
-   "group": "threeam",
-   "date": "2026-09-28T18:53:08+00:00",
-   "attack_date": "2026-09-28",
-   "country": "GB",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/c2FmZXNjYWZmb2xkaW5nLm5ldEB0aHJlZWFt"
   }
  ]
 }

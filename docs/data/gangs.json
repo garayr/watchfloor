@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T16:27:04+00:00",
+ "generated_at": "2026-10-01T17:27:16+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -3129,6 +3129,308 @@
    ],
    "history_size": 121,
    "updated": "2026-10-01T16:27:04+00:00"
+  },
+  "akira": {
+   "name": "akira",
+   "description": "The Akira ransomware group is said to have emerged in March 2023, and there's much speculation about its ties to the former CONTI ransomware group. It's worth noting that with the end of CONTI's operation, several affiliates migrated to independent campaigns such as Royal, BlackBasta, and others. According to some reports, Akira affiliates also work with other ransomware operations, such as Snatch and BlackByte, as an open directory of tools used by an Akira operator was identified, which also had connections to the Snatch ransomware. The first version of the Akira ransomware was written in C++ and appended files with the '.akira' extension, creating a ransom note named 'akira_readme.txt,' partially based on the Conti V2 source code. However, on June 29, 2023, a decryptor for this version was reportedly released by Avast. Subsequently, a version was released that fixed the decryption flaw on July 2, 2023. Since then, the new version is said to be written in Rust, this time called 'megazord.exe,' and it changes the extension to '.powerranges' for encrypted files. Most of Akira's initial access vectors use brute-force attempts on Cisco VPN devices (which use single-factor…",
+   "aliases": [],
+   "first_seen": "2023-04-12",
+   "last_seen": "2026-10-01",
+   "victims_total": 1626,
+   "cves": [
+    {
+     "id": "CVE-2022-40684",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-48788",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-40766",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-40711",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2021-21972",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2020-3259",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-27532",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-37085",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2019-6693",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-20269",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-20263",
+     "cvss": null,
+     "label": null
+    }
+   ],
+   "tools": [
+    "DonPAPI",
+    "LaZagne",
+    "Mimikatz",
+    "PowerTool",
+    "ThrottleStop driver",
+    "Zemana Anti-Rootkit driver",
+    "churchill_driver.sys / fidget.sys",
+    "consent.exe (msimg32.dll / wmsgapi.dll)",
+    "icardagt.exe (version.dll DLL sideload)",
+    "mfpmp.exe (rtworkq.dll DLL sideload)",
+    "Advanced IP Scanner",
+    "Advanced Port Scanner",
+    "Bloodhound",
+    "Masscan",
+    "ReconFTW",
+    "ShareFinder",
+    "SharpHound",
+    "SharpShares",
+    "SoftPerfect NetScan",
+    "ldapdomaindump"
+   ],
+   "techniques": [
+    "Valid Accounts",
+    "Valid Accounts: Domain Accounts",
+    "External Remote Services",
+    "Exploit Public-Facing Application",
+    "Windows Management Instrumentation",
+    "Command and Scripting Interpreter",
+    "Command and Scripting Interpreter: PowerShell",
+    "System Services: Service Execution",
+    "Command and Scripting Interpreter: Windows Command Shell",
+    "Create Account: Local Account",
+    "Create Account: Domain Account",
+    "Privilege Escalation",
+    "Obfuscated Files or Information: Binary Padding",
+    "Masquerading: Match Legitimate Resource Name or Location",
+    "Modify Registry",
+    "Impair Defenses: Disable or Modify Tools",
+    "OS Credential Dumping: LSASS Memory",
+    "Steal or Forge Kerberos Tickets",
+    "Remote System Discovery",
+    "System Information Discovery"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 877
+     },
+     {
+      "name": "CA",
+      "count": 82
+     },
+     {
+      "name": "DE",
+      "count": 73
+     },
+     {
+      "name": "GB",
+      "count": 44
+     },
+     {
+      "name": "IT",
+      "count": 35
+     },
+     {
+      "name": "CH",
+      "count": 27
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 451
+     },
+     {
+      "name": "Professional Services",
+      "count": 375
+     },
+     {
+      "name": "Technology",
+      "count": 158
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 118
+     },
+     {
+      "name": "Financial Services",
+      "count": 103
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 91
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 87
+    },
+    {
+     "month": "2025-12",
+     "count": 71
+    },
+    {
+     "month": "2026-01",
+     "count": 58
+    },
+    {
+     "month": "2026-02",
+     "count": 47
+    },
+    {
+     "month": "2026-03",
+     "count": 75
+    },
+    {
+     "month": "2026-04",
+     "count": 49
+    },
+    {
+     "month": "2026-05",
+     "count": 43
+    },
+    {
+     "month": "2026-06",
+     "count": 32
+    },
+    {
+     "month": "2026-07",
+     "count": 22
+    },
+    {
+     "month": "2026-08",
+     "count": 31
+    },
+    {
+     "month": "2026-09",
+     "count": 36
+    },
+    {
+     "month": "2026-10",
+     "count": 3
+    }
+   ],
+   "history_size": 1626,
+   "updated": "2026-10-01T17:27:16+00:00"
+  },
+  "Redact": {
+   "name": "Redact",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-06-28",
+   "last_seen": "2026-10-01",
+   "victims_total": 3,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 3
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Financial Services",
+      "count": 1
+     },
+     {
+      "name": "Healthcare",
+      "count": 1
+     },
+     {
+      "name": "Manufacturing",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 2
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 3,
+   "updated": "2026-10-01T17:27:16+00:00"
   }
  }
 }
