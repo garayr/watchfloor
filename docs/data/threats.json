@@ -3,7 +3,7 @@
  "malware": {
   "window": "24h",
   "total_iocs": 1198,
-  "c2_servers": 619,
+  "c2_servers": 622,
   "families": [
    {
     "name": "AdaptixC2",
@@ -13,13 +13,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 193,
+    "iocs": 206,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 183,
+    "iocs": 161,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -31,8 +31,8 @@
    },
    {
     "name": "Remus",
-    "iocs": 59,
-    "c2": 58,
+    "iocs": 61,
+    "c2": 60,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
@@ -42,50 +42,50 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
+    "name": "Unknown Loader",
+    "iocs": 32,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "Vidar",
     "iocs": 32,
     "c2": 32,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 31,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "AMOS",
-    "iocs": 27,
+    "iocs": 28,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Aisuru",
-    "iocs": 24,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
+    "name": "VShell",
+    "iocs": 27,
+    "c2": 3,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    }
   ]
  },
  "urls": {
-  "sample": 742,
-  "online": 464,
+  "sample": 763,
+  "online": 483,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 262
+    "count": 270
    },
    {
     "name": "mirai",
-    "count": 188
+    "count": 193
    },
    {
     "name": "elf",
-    "count": 129
+    "count": 134
    },
    {
     "name": "32-bit",
-    "count": 60
+    "count": 61
    },
    {
     "name": "ascii",
@@ -93,7 +93,7 @@
    },
    {
     "name": "ua-wget",
-    "count": 45
+    "count": 47
    },
    {
     "name": "rat",
@@ -517,10 +517,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-01T02:25:55+00:00",
-  "sans": "2026-10-01T02:25:55+00:00",
+  "threatfox": "2026-10-01T03:27:33+00:00",
+  "sans": "2026-10-01T03:27:33+00:00",
   "otx": "2026-10-01T02:55:09+00:00",
-  "urlhaus": "2026-10-01T02:25:55+00:00"
+  "urlhaus": "2026-10-01T03:27:33+00:00"
  },
- "generated_at": "2026-10-01T02:55:09+00:00"
+ "generated_at": "2026-10-01T03:27:33+00:00"
 }

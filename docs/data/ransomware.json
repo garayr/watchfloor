@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T02:25:55+00:00",
+ "generated_at": "2026-10-01T03:27:33+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -33,7 +33,7 @@
    "count": 5
   },
   {
-   "name": "safepay",
+   "name": "N0n",
    "count": 3
   }
  ],
@@ -48,7 +48,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Technology",
@@ -59,14 +59,14 @@
    "count": 10
   },
   {
-   "name": "Financial Services",
+   "name": "Retail & E-Commerce",
    "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 34,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -153,12 +153,6 @@
    "count": 1,
    "lat": 48.2,
    "lon": 16.4
-  },
-  {
-   "code": "BD",
-   "count": 1,
-   "lat": 23.8,
-   "lon": 90.4
   },
   {
    "code": "BG",
@@ -258,6 +252,14 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Houston Thyroid & Endocrine Specialists",
+   "group": "N0n",
+   "date": "2026-09-30T22:53:00+00:00",
+   "attack_date": "2026-09-30",
+   "country": "US",
+   "sector": "Healthcare"
+  },
   {
    "victim": "The Japan Times",
    "group": "Eclipse",
@@ -1049,14 +1051,6 @@
    "attack_date": "2026-09-28",
    "country": "US",
    "sector": "Healthcare"
-  },
-  {
-   "victim": "PKSF — Palli Karma-Sahayak Foundation",
-   "group": "medusalocker",
-   "date": "2026-09-28T18:03:04+00:00",
-   "attack_date": "2026-09-28",
-   "country": "BD",
-   "sector": "Financial Services"
   }
  ]
 }
