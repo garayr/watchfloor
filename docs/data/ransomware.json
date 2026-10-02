@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-02T16:06:11+00:00",
+ "generated_at": "2026-10-02T17:12:20+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 22
+   "count": 18
   },
   {
    "name": "lamashtu",
@@ -15,6 +15,10 @@
   {
    "name": "BrainCipher",
    "count": 7
+  },
+  {
+   "name": "Booba Project",
+   "count": 6
   },
   {
    "name": "Storm",
@@ -31,20 +35,16 @@
   {
    "name": "akira",
    "count": 3
-  },
-  {
-   "name": "emperador",
-   "count": 3
   }
  ],
  "by_sector": [
   {
-   "name": "Manufacturing",
-   "count": 19
+   "name": "Healthcare",
+   "count": 18
   },
   {
-   "name": "Healthcare",
-   "count": 15
+   "name": "Manufacturing",
+   "count": 18
   },
   {
    "name": "Other",
@@ -56,7 +56,7 @@
   },
   {
    "name": "Technology",
-   "count": 8
+   "count": 7
   },
   {
    "name": "Retail & E-Commerce",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 40,
+   "count": 41,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -84,7 +84,7 @@
   },
   {
    "code": "GB",
-   "count": 4,
+   "count": 3,
    "lat": 51.5,
    "lon": -0.1
   },
@@ -99,6 +99,12 @@
    "count": 2,
    "lat": -23.5,
    "lon": -46.6
+  },
+  {
+   "code": "CA",
+   "count": 2,
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "GR",
@@ -153,12 +159,6 @@
    "count": 1,
    "lat": 42.7,
    "lon": 23.3
-  },
-  {
-   "code": "CA",
-   "count": 1,
-   "lat": 43.7,
-   "lon": -79.4
   },
   {
    "code": "CZ",
@@ -243,15 +243,45 @@
    "count": 1,
    "lat": 21.0,
    "lon": 105.8
-  },
-  {
-   "code": "ZA",
-   "count": 1,
-   "lat": -26.2,
-   "lon": 28.0
   }
  ],
  "victims": [
+  {
+   "victim": "Raleigh Family Medicine",
+   "group": "Booba Project",
+   "date": "2026-10-02T12:51:06+00:00",
+   "attack_date": "2026-10-02",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/UmFsZWlnaCBGYW1pbHkgTWVkaWNpbmVAQm9vYmEgUHJvamVjdA=="
+  },
+  {
+   "victim": "EdgeEndo® USA",
+   "group": "Booba Project",
+   "date": "2026-10-02T12:50:51+00:00",
+   "attack_date": "2026-10-02",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/RWRnZUVuZG%2FCriBVU0FAQm9vYmEgUHJvamVjdA=="
+  },
+  {
+   "victim": "Soni Medical Centre",
+   "group": "Booba Project",
+   "date": "2026-10-02T12:50:38+00:00",
+   "attack_date": "2026-10-02",
+   "country": "CA",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/U29uaSBNZWRpY2FsIENlbnRyZUBCb29iYSBQcm9qZWN0"
+  },
+  {
+   "victim": "University of Illinois Chicago",
+   "group": "Booba Project",
+   "date": "2026-10-02T12:50:25+00:00",
+   "attack_date": "2026-10-02",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/VW5pdmVyc2l0eSBvZiBJbGxpbm9pcyBDaGljYWdvQEJvb2JhIFByb2plY3Q="
+  },
   {
    "victim": "Tronex A/S",
    "group": "Wallstreet",
@@ -791,42 +821,6 @@
    "country": "US",
    "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/R2FyZGVuZXJzJyBHdWlsZEBTdG9ybQ=="
-  },
-  {
-   "victim": "Edcon",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:40:25+00:00",
-   "attack_date": "2026-09-29",
-   "country": "ZA",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RWRjb25AdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Defencebit",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:40:07+00:00",
-   "attack_date": "2026-09-29",
-   "country": "GB",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/RGVmZW5jZWJpdEB0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "Datacomm Services",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:40:01+00:00",
-   "attack_date": "2026-09-29",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/RGF0YWNvbW0gU2VydmljZXNAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Webb Electric Company of Florida",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:39:46+00:00",
-   "attack_date": "2026-09-29",
-   "country": "US",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/V2ViYiBFbGVjdHJpYyBDb21wYW55IG9mIEZsb3JpZGFAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "Auren",
