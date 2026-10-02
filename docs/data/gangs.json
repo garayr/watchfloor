@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T21:06:11+00:00",
+ "generated_at": "2026-10-02T23:04:31+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -4282,6 +4282,145 @@
    ],
    "history_size": 52,
    "updated": "2026-10-02T21:06:11+00:00"
+  },
+  "Panzer": {
+   "name": "Panzer",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-08-05",
+   "last_seen": "2026-10-02",
+   "victims_total": 36,
+   "cves": [
+    {
+     "id": "CVE-2026-20131",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-50751",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-21529",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-1708",
+     "cvss": null,
+     "label": null
+    }
+   ],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "DE",
+      "count": 4
+     },
+     {
+      "name": "FR",
+      "count": 3
+     },
+     {
+      "name": "ID",
+      "count": 3
+     },
+     {
+      "name": "BR",
+      "count": 2
+     },
+     {
+      "name": "ES",
+      "count": 2
+     },
+     {
+      "name": "IT",
+      "count": 2
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 6
+     },
+     {
+      "name": "Technology",
+      "count": 6
+     },
+     {
+      "name": "Government & Defense",
+      "count": 5
+     },
+     {
+      "name": "Other",
+      "count": 4
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 3
+     },
+     {
+      "name": "Education",
+      "count": 3
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 17
+    },
+    {
+     "month": "2026-09",
+     "count": 18
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 36,
+   "updated": "2026-10-02T23:04:31+00:00"
   }
  }
 }

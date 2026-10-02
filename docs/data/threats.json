@@ -2,55 +2,55 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1291,
-  "c2_servers": 465,
+  "total_iocs": 1294,
+  "c2_servers": 466,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 414,
+    "iocs": 369,
     "c2": 164,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Mirai",
-    "iocs": 217,
+    "iocs": 258,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 73,
+    "iocs": 78,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "VShell",
-    "iocs": 61,
+    "iocs": 60,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 57,
+    "iocs": 54,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "AMOS",
-    "iocs": 49,
+    "iocs": 51,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remus",
-    "iocs": 43,
-    "c2": 43,
+    "iocs": 38,
+    "c2": 38,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "AdaptixC2",
-    "iocs": 34,
-    "c2": 34,
+    "iocs": 36,
+    "c2": 36,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    },
    {
@@ -60,36 +60,36 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "php.shin_webshell",
+    "name": "Cobalt Strike",
     "iocs": 22,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "c2": 21,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 657,
+  "online": 648,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 385
+    "count": 377
    },
    {
     "name": "elf",
-    "count": 301
-   },
-   {
-    "name": "ua-wget",
-    "count": 281
+    "count": 290
    },
    {
     "name": "Mozi",
-    "count": 257
+    "count": 266
+   },
+   {
+    "name": "ua-wget",
+    "count": 264
    },
    {
     "name": "32-bit",
-    "count": 60
+    "count": 63
    },
    {
     "name": "176-65-139-160",
@@ -97,11 +97,11 @@
    },
    {
     "name": "mips",
-    "count": 37
+    "count": 39
    },
    {
     "name": "exe",
-    "count": 33
+    "count": 32
    }
   ]
  },
@@ -478,10 +478,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-02T22:05:13+00:00",
-  "sans": "2026-10-02T22:05:13+00:00",
-  "otx": "2026-10-02T22:05:13+00:00",
-  "urlhaus": "2026-10-02T22:05:13+00:00"
+  "threatfox": "2026-10-02T23:04:31+00:00",
+  "sans": "2026-10-02T23:04:31+00:00",
+  "otx": "2026-10-02T23:04:31+00:00",
+  "urlhaus": "2026-10-02T23:04:31+00:00"
  },
- "generated_at": "2026-10-02T22:05:13+00:00"
+ "generated_at": "2026-10-02T23:04:31+00:00"
 }
