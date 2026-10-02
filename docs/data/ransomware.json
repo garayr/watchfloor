@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-02T17:12:20+00:00",
+ "generated_at": "2026-10-02T18:11:19+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 18
+   "count": 17
   },
   {
    "name": "lamashtu",
@@ -39,11 +39,11 @@
  ],
  "by_sector": [
   {
-   "name": "Healthcare",
-   "count": 18
+   "name": "Manufacturing",
+   "count": 19
   },
   {
-   "name": "Manufacturing",
+   "name": "Healthcare",
    "count": 18
   },
   {
@@ -52,7 +52,7 @@
   },
   {
    "name": "Professional Services",
-   "count": 11
+   "count": 10
   },
   {
    "name": "Technology",
@@ -72,7 +72,7 @@
   },
   {
    "code": "DE",
-   "count": 9,
+   "count": 10,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -179,12 +179,6 @@
    "lon": -78.5
   },
   {
-   "code": "ES",
-   "count": 1,
-   "lat": 40.4,
-   "lon": -3.7
-  },
-  {
    "code": "IL",
    "count": 1,
    "lat": 32.1,
@@ -246,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Inova Semiconductors GmbH",
+   "group": "qilin",
+   "date": "2026-10-02T14:04:15+00:00",
+   "attack_date": "2026-10-02",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/SW5vdmEgU2VtaWNvbmR1Y3RvcnMgR21iSEBxaWxpbg=="
+  },
   {
    "victim": "Raleigh Family Medicine",
    "group": "Booba Project",
@@ -821,15 +824,6 @@
    "country": "US",
    "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/R2FyZGVuZXJzJyBHdWlsZEBTdG9ybQ=="
-  },
-  {
-   "victim": "Auren",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:39:25+00:00",
-   "attack_date": "2026-09-29",
-   "country": "ES",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/QXVyZW5AdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "QUALITY SPORT Topsport Italia",
