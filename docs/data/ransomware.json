@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T00:33:59+00:00",
+ "generated_at": "2026-10-02T01:41:59+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -39,11 +39,11 @@
  ],
  "by_sector": [
   {
-   "name": "Manufacturing",
-   "count": 18
+   "name": "Healthcare",
+   "count": 17
   },
   {
-   "name": "Healthcare",
+   "name": "Manufacturing",
    "count": 17
   },
   {
@@ -56,7 +56,7 @@
   },
   {
    "name": "Technology",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Retail & E-Commerce",
@@ -72,7 +72,7 @@
   },
   {
    "code": "DE",
-   "count": 10,
+   "count": 9,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -228,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "EURODITEL/RESOTELECOM",
+   "group": "krybit",
+   "date": "2026-10-01T21:33:33+00:00",
+   "attack_date": "2026-10-01",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/RVVST0RJVEVML1JFU09URUxFQ09NQGtyeWJpdA=="
+  },
   {
    "victim": "Slate Valley Unified School District",
    "group": "kairos",
@@ -479,15 +488,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/QWlydGVjaCBNZWNoYW5pY2FsIFNlcnZpY2VzQHBsYXk="
-  },
-  {
-   "victim": "Orth Automobile",
-   "group": "play",
-   "date": "2026-09-30T17:36:17+00:00",
-   "attack_date": "2026-09-30",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/T3J0aCBBdXRvbW9iaWxlQHBsYXk="
   },
   {
    "victim": "Blaise C. Bender, PC",
