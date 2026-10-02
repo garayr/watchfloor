@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T20:06:34+00:00",
+ "generated_at": "2026-10-02T21:06:11+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -17,10 +17,6 @@
    "count": 6
   },
   {
-   "name": "BrainCipher",
-   "count": 6
-  },
-  {
    "name": "Storm",
    "count": 6
   },
@@ -35,6 +31,10 @@
   {
    "name": "krybit",
    "count": 6
+  },
+  {
+   "name": "BrainCipher",
+   "count": 5
   }
  ],
  "by_sector": [
@@ -47,16 +47,16 @@
    "count": 17
   },
   {
-   "name": "Other",
-   "count": 11
-  },
-  {
    "name": "Professional Services",
    "count": 11
   },
   {
+   "name": "Other",
+   "count": 10
+  },
+  {
    "name": "Technology",
-   "count": 7
+   "count": 8
   },
   {
    "name": "Retail & E-Commerce",
@@ -131,6 +131,12 @@
    "lon": 121.5
   },
   {
+   "code": "AE",
+   "count": 1,
+   "lat": 24.5,
+   "lon": 54.4
+  },
+  {
    "code": "AR",
    "count": 1,
    "lat": -34.6,
@@ -147,12 +153,6 @@
    "count": 1,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "BG",
-   "count": 1,
-   "lat": 42.7,
-   "lon": 23.3
   },
   {
    "code": "CZ",
@@ -240,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Ad***ng",
+   "group": "AuditTeam",
+   "date": "2026-10-02T16:50:28+00:00",
+   "attack_date": "2026-10-02",
+   "country": "AE",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QWQqKipuZ0BBdWRpdFRlYW0="
+  },
   {
    "victim": "The Official College of Architects of León (COAL)",
    "group": "akira",
@@ -1130,15 +1139,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/bXVsaG9sbGFuZC5jb21AQnJhaW5DaXBoZXI="
-  },
-  {
-   "victim": "wildmanbg.com",
-   "group": "BrainCipher",
-   "date": "2026-09-29T15:21:23+00:00",
-   "attack_date": "2026-09-29",
-   "country": "BG",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/d2lsZG1hbmJnLmNvbUBCcmFpbkNpcGhlcg=="
   }
  ]
 }
