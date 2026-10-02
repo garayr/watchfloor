@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1508,
-  "c2_servers": 283,
+  "total_iocs": 1488,
+  "c2_servers": 285,
   "families": [
    {
     "name": "IClickFix",
@@ -13,7 +13,7 @@
    },
    {
     "name": "Mirai",
-    "iocs": 207,
+    "iocs": 185,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -31,26 +31,26 @@
    },
    {
     "name": "AMOS",
-    "iocs": 43,
+    "iocs": 45,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 43,
+    "iocs": 40,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "VShell",
-    "iocs": 38,
+    "iocs": 37,
     "c2": 17,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Remus",
-    "iocs": 32,
-    "c2": 32,
+    "iocs": 33,
+    "c2": 33,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
@@ -61,27 +61,27 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 25,
-    "c2": 25,
+    "iocs": 23,
+    "c2": 23,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
-  "sample": 784,
-  "online": 498,
+  "sample": 796,
+  "online": 510,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 290
+    "count": 295
    },
    {
     "name": "Mozi",
-    "count": 237
+    "count": 243
    },
    {
     "name": "elf",
-    "count": 219
+    "count": 220
    },
    {
     "name": "ua-wget",
@@ -89,14 +89,14 @@
    },
    {
     "name": "32-bit",
-    "count": 58
-   },
-   {
-    "name": "exe",
-    "count": 35
+    "count": 59
    },
    {
     "name": "mips",
+    "count": 36
+   },
+   {
+    "name": "exe",
     "count": 35
    },
    {
@@ -109,75 +109,75 @@
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 2251818,
-   "targets": 266,
-   "sources": 9189
+   "records": 42310,
+   "targets": 170,
+   "sources": 9871
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 2004104,
-   "targets": 289,
-   "sources": 10002
+   "records": 35804,
+   "targets": 143,
+   "sources": 10588
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 560542,
-   "targets": 284,
-   "sources": 9757
+   "records": 9349,
+   "targets": 200,
+   "sources": 998
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 333194,
-   "targets": 281,
-   "sources": 11231
+   "records": 7596,
+   "targets": 194,
+   "sources": 774
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 2743,
+   "targets": 2,
+   "sources": 331
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 322659,
-   "targets": 267,
-   "sources": 5676
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 236743,
-   "targets": 275,
-   "sources": 3205
+   "records": 2337,
+   "targets": 155,
+   "sources": 321
   },
   {
    "port": 2222,
    "service": null,
-   "records": 171113,
-   "targets": 279,
-   "sources": 7247
+   "records": 2304,
+   "targets": 150,
+   "sources": 702
   },
   {
-   "port": 7680,
-   "service": null,
-   "records": 125587,
-   "targets": 205,
-   "sources": 4459
+   "port": 123,
+   "service": "NTP",
+   "records": 2103,
+   "targets": 102,
+   "sources": 320
   },
   {
-   "port": 853,
+   "port": 137,
    "service": null,
-   "records": 86747,
-   "targets": 179,
-   "sources": 3498
+   "records": 1580,
+   "targets": 25,
+   "sources": 54
   },
   {
-   "port": 16767,
-   "service": null,
-   "records": 74022,
-   "targets": 6,
-   "sources": 3610
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 1536,
+   "targets": 115,
+   "sources": 230
   }
  ],
- "ports_date": "2026-10-01",
+ "ports_date": "2026-10-02",
  "diary": [
   {
    "title": "ISC Stormcast For Friday, October 2nd, 2026 https://isc.sans.edu/podcastdetail/10120, (Fri, Oct 2nd)",
@@ -500,10 +500,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-02T02:39:05+00:00",
-  "sans": "2026-10-02T02:39:05+00:00",
-  "otx": "2026-10-02T02:39:05+00:00",
-  "urlhaus": "2026-10-02T02:39:05+00:00"
+  "threatfox": "2026-10-02T03:43:19+00:00",
+  "sans": "2026-10-02T03:43:19+00:00",
+  "otx": "2026-10-02T03:43:19+00:00",
+  "urlhaus": "2026-10-02T03:43:19+00:00"
  },
- "generated_at": "2026-10-02T02:39:05+00:00"
+ "generated_at": "2026-10-02T03:43:19+00:00"
 }
