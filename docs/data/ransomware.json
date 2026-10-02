@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T11:06:03+00:00",
+ "generated_at": "2026-10-02T12:07:48+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -39,20 +39,20 @@
  ],
  "by_sector": [
   {
-   "name": "Healthcare",
-   "count": 17
+   "name": "Manufacturing",
+   "count": 18
   },
   {
-   "name": "Manufacturing",
-   "count": 17
+   "name": "Healthcare",
+   "count": 16
   },
   {
    "name": "Professional Services",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Other",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 41,
+   "count": 40,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -111,6 +111,12 @@
    "count": 2,
    "lat": -23.5,
    "lon": -46.6
+  },
+  {
+   "code": "GR",
+   "count": 2,
+   "lat": 38.0,
+   "lon": 23.7
   },
   {
    "code": "KR",
@@ -173,12 +179,6 @@
    "lon": -3.7
   },
   {
-   "code": "GR",
-   "count": 1,
-   "lat": 38.0,
-   "lon": 23.7
-  },
-  {
    "code": "IL",
    "count": 1,
    "lat": 32.1,
@@ -234,6 +234,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "UNION FA",
+   "group": "Deadlock",
+   "date": "2026-10-02T07:50:40+00:00",
+   "attack_date": "2026-10-02",
+   "country": "GR",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/VU5JT04gRkFARGVhZGxvY2s="
+  },
+  {
+   "victim": "Far West Contractors",
+   "group": "Deadlock",
+   "date": "2026-10-02T07:50:37+00:00",
+   "attack_date": "2026-10-02",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RmFyIFdlc3QgQ29udHJhY3RvcnNARGVhZGxvY2s="
+  },
   {
    "victim": "Automovil Club del Ecuador ANETA",
    "group": "Barracuda",
@@ -1115,24 +1133,6 @@
    "country": "TL",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/R3JvdXBlIFByb3hpdGVsQFZleHkgUmFuc29td2FyZQ=="
-  },
-  {
-   "victim": "carolinaasthma.com",
-   "group": "chaos",
-   "date": "2026-09-29T10:55:04+00:00",
-   "attack_date": "2026-09-29",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Y2Fyb2xpbmFhc3RobWEuY29tQGNoYW9z"
-  },
-  {
-   "victim": "oterolaw.com",
-   "group": "m3rx",
-   "date": "2026-09-29T10:37:35+00:00",
-   "attack_date": "2026-09-29",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/b3Rlcm9sYXcuY29tQG0zcng="
   }
  ]
 }
