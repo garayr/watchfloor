@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1562,
-  "c2_servers": 446,
+  "total_iocs": 1554,
+  "c2_servers": 444,
   "families": [
    {
     "name": "IClickFix",
@@ -13,7 +13,7 @@
    },
    {
     "name": "Mirai",
-    "iocs": 143,
+    "iocs": 129,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -25,21 +25,21 @@
    },
    {
     "name": "Vidar",
-    "iocs": 52,
-    "c2": 49,
+    "iocs": 53,
+    "c2": 50,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "AMOS",
-    "iocs": 38,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 38,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "AMOS",
+    "iocs": 40,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remus",
@@ -49,14 +49,14 @@
    },
    {
     "name": "VShell",
-    "iocs": 34,
-    "c2": 15,
+    "iocs": 33,
+    "c2": 11,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 25,
-    "c2": 25,
+    "iocs": 23,
+    "c2": 23,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
@@ -68,20 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 905,
-  "online": 554,
+  "sample": 922,
+  "online": 570,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 326
+    "count": 334
    },
    {
     "name": "Mozi",
-    "count": 269
+    "count": 276
    },
    {
     "name": "elf",
-    "count": 238
+    "count": 240
    },
    {
     "name": "ua-wget",
@@ -89,11 +89,11 @@
    },
    {
     "name": "32-bit",
-    "count": 63
+    "count": 65
    },
    {
     "name": "mips",
-    "count": 39
+    "count": 40
    },
    {
     "name": "exe",
@@ -212,6 +212,207 @@
  ],
  "pulses": [
   {
+   "name": "Determined Attacker Uploads Malicious Webshells to Parks and Rec Management Platform Servers",
+   "summary": "A threat actor compromised three web servers hosting recreation management software for municipalities and parks organizations by exploiting a file upload vulnerability. After multiple failed exploitation attempts, the…",
+   "date": "2026-10-02T07:17:52+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "webshell",
+    "recreation-management-platform",
+    "timestomping",
+    "china-based",
+    "file-upload-vulnerability",
+    "credential-harvesting"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abf5aa04b47ef1458d7472a"
+  },
+  {
+   "name": "August 2026 Threat Trend Report on APT Attacks (South Korea)",
+   "summary": "During August 2026, multiple APT campaigns targeted South Korean entities primarily through spear phishing attacks utilizing LNK files. Six distinct attack types were identified, employing various techniques including…",
+   "date": "2026-10-02T07:16:45+00:00",
+   "author": "AlienVault",
+   "adversary": "Kimsuky",
+   "malware": [
+    "XenoRAT"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "apt campaign",
+    "infostealer",
+    "powershell",
+    "lnk files",
+    "dll side-loading",
+    "south korea"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abf5a5d160f0149844cd8c1"
+  },
+  {
+   "name": "$100k in Crypto Drained by the Underground Operation",
+   "summary": "A cryptocurrency-stealing operation utilizing an Aotera/Tedy loader injects a Vidar-class stealer into Windows processes, launching Chrome or Edge to inject malicious scripts into victim sessions. The malware builder…",
+   "date": "2026-10-02T07:13:34+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Aotera",
+    "Tedy",
+    "Vidar"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "exchange drain",
+    "tedy",
+    "vidar",
+    "aotera loader",
+    "vidar stealer",
+    "underground"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abf599ea3419c5518645c45"
+  },
+  {
+   "name": "RemusStealer: EtherHiding In Hidden Windows",
+   "summary": "RemusStealer is a malware-as-a-service program exhibiting multiple similarities to LummaStealer, including anti-virtual machine checks, credential theft tactics, and Application-Bound Encryption bypass methods. A key…",
+   "date": "2026-10-02T01:47:27+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "RemusStealer",
+    "LummaStealer"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "remusstealer",
+    "information stealer",
+    "credential theft",
+    "ethereum smart contracts",
+    "hidden desktops",
+    "lummastealer"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abf0d2f3741a634cbd57475"
+  },
+  {
+   "name": "PSIRT",
+   "summary": "A critical path traversal vulnerability combined with improper NULL byte neutralization in FortiMail versions 7.2 through 8.0 allows unauthenticated attackers to write arbitrary files on the underlying system through…",
+   "date": "2026-10-02T01:40:22+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "system compromise",
+    "cve-2026-104286",
+    "path traversal",
+    "arbitrary file write",
+    "fortimail",
+    "unauthenticated access"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abf0b86fb14812f2dc84fb2"
+  },
+  {
+   "name": "TIKTOUK: Tracing a WordPress Credential Collection Toolkit",
+   "summary": "TIKTOUK is a multi-component toolkit designed to collect credentials from WordPress sites. It consists of three components: a Python probing module that identifies WordPress installations and scans for exposed secrets…",
+   "date": "2026-10-01T21:20:51+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "TIKTOUK"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "credential theft",
+    "wordpress",
+    "tiktouk",
+    "smtp plugin decryption",
+    "configuration exposure",
+    "aws credentials"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abeceb3ed88945bc5661c7d"
+  },
+  {
+   "name": "Fake xStocks, Pendle, and other sites bait crypto users with rewards votes",
+   "summary": "A large-scale phishing operation has deployed 70 fraudulent websites impersonating legitimate cryptocurrency projects including xStocks from Kraken, Pendle, Zama, Kinetiq, Yield Basis, and Firelight. The fake sites…",
+   "date": "2026-10-01T20:52:12+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "crypto impersonation",
+    "walletconnect abuse",
+    "fake voting scam",
+    "cryptocurrency phishing",
+    "blockchain fraud",
+    "wallet drainer"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abec7fc11f84dc2a20573a9"
+  },
+  {
+   "name": "Warlock Ransomware Attackers Hit Water and Telecom Operators",
+   "summary": "The China-nexus threat group Longlegs continues to deploy Warlock ransomware by exploiting Microsoft SharePoint vulnerabilities, particularly the ToolShell exploit chain. Over the past two months, the group targeted at…",
+   "date": "2026-10-01T15:37:42+00:00",
+   "author": "AlienVault",
+   "adversary": "Longlegs",
+   "malware": [
+    "Warlock"
+   ],
+   "countries": [],
+   "industries": [
+    "Energy",
+    "Telecommunications",
+    "Government",
+    "Education"
+   ],
+   "tags": [
+    "sharepoint exploitation",
+    "telecommunications",
+    "cve-2025-1055",
+    "longlegs",
+    "water utility",
+    "cve-2025-49704"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abe7e463c092196777a7816"
+  },
+  {
+   "name": "Hallucinating Credibility: China-Aligned TA419 Impersonates its Way into US AI Policy Circles",
+   "summary": "In July 2026, China-aligned threat actor TA419 conducted credential phishing campaigns impersonating prominent economists and AI policymakers, targeting AI experts at US think tanks, universities, and legal…",
+   "date": "2026-10-01T10:43:47+00:00",
+   "author": "AlienVault",
+   "adversary": "TA419",
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "Japan"
+   ],
+   "industries": [
+    "Education",
+    "Government",
+    "Technology",
+    "Defense"
+   ],
+   "tags": [
+    "frameless bitb",
+    "espionage",
+    "china-aligned",
+    "credential phishing",
+    "ta419",
+    "aitm"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abe39636551c6c071894d2b"
+  },
+  {
    "name": "Citrix NetScaler CVE-2026-88771: Observed Exploitation Artifacts and Hunt Indicators",
    "summary": "CVE-2026-88771 is a critical pre-authentication command-injection vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway. LevelBlue's Threat Hunt Operations & Research (THOR) team identified active…",
    "date": "2026-10-01T04:55:57+00:00",
@@ -274,236 +475,13 @@
     "pre-disclosure attack"
    ],
    "url": "https://otx.alienvault.com/pulse/6abde373c68b5d048accac49"
-  },
-  {
-   "name": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-   "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a…",
-   "date": "2026-09-30T18:56:02+00:00",
-   "author": "AlienVault",
-   "adversary": "Star Blizzard",
-   "malware": [
-    "RedFlick",
-    "CosmicPulse"
-   ],
-   "countries": [
-    "Ukraine"
-   ],
-   "industries": [
-    "Government",
-    "Media",
-    "Financial",
-    "Technology",
-    "Foreign",
-    "Diplomatic"
-   ],
-   "tags": [
-    "redflick",
-    "espionage",
-    "ukraine",
-    "cosmicpulse",
-    "phishing",
-    "star blizzard"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abd5b434cf09d69f0ee2e48"
-  },
-  {
-   "name": "2CLoader: A New Malware Loader Delivering Vidar and Remus",
-   "summary": "In August 2026, a new loader designated 2CLoader was identified being used to distribute information stealers including Vidar and Remus, along with XWorm RAT. The loader implements extensive anti-analysis capabilities…",
-   "date": "2026-09-30T18:08:12+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "2CLoader",
-    "Vidar",
-    "Remus",
-    "XWorm"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "indirect syscalls",
-    "information stealer",
-    "evasion techniques",
-    "vidar",
-    "remus",
-    "xworm"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abd500c65b4bbb867b80e99"
-  },
-  {
-   "name": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
-   "summary": "Microsoft Threat Intelligence identified active exploitation of CVE-2026-73570, an unauthenticated OS command injection vulnerability in Zimbra Collaboration Suite's SNMP notification path. Exploitation occurred between…",
-   "date": "2026-09-30T18:06:59+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "China Chopper - S0020",
-    "GodzillaWebShell",
-    "Looptik",
-    "NeedyMantis"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "privilege-escalation",
-    "looptik",
-    "jsp-webshell",
-    "zimbra",
-    "chopper",
-    "command-injection"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abd4fc35eecbf1cfcd9681c"
-  },
-  {
-   "name": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
-   "summary": "A China-nexus threat cluster designated UAT-11587 has been targeting government and policy organizations across eight Asian countries since September 2025, delivering a previously undocumented Rust-compiled backdoor…",
-   "date": "2026-09-30T15:17:20+00:00",
-   "author": "AlienVault",
-   "adversary": "UAT-11587",
-   "malware": [
-    "Antino"
-   ],
-   "countries": [
-    "British Indian Ocean Territory",
-    "Cambodia",
-    "India",
-    "Myanmar",
-    "Pakistan",
-    "Philippines"
-   ],
-   "industries": [
-    "Defense",
-    "Government",
-    "Education",
-    "NGO"
-   ],
-   "tags": [
-    "china-nexus",
-    "antino",
-    "uat-11587",
-    "asia targeting",
-    "spear-phishing",
-    "cloudflare infrastructure"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abd2800997dc4232dd91d1d"
-  },
-  {
-   "name": "Phishing Abuses RMM Tools for Persistent Access",
-   "summary": "In July 2026, phishing campaigns targeted organizations across multiple industries by distributing a masqueraded MSP360 Remote Monitoring and Management installer through meeting invitations, PDF-themed lures, and…",
-   "date": "2026-09-29T23:48:26+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "MSP360 RMM",
-    "ScreenConnect",
-    "WindVerify",
-    "WindowsUpdate",
-    "WindowsSecurity_PIN",
-    "WindowsSecurity_Password"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "windowssecurity_password",
-    "windowsupdate",
-    "screenconnect",
-    "phishing",
-    "msp360 rmm",
-    "social engineering"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abc4e4a5d637b2853f15ac1"
-  },
-  {
-   "name": "Fake iPhone Duo preorder scam triggers DarkSword attack",
-   "summary": "Scammers have weaponized fake iPhone Duo preorder pages to deploy the DarkSword exploit chain against vulnerable iPhones. The fraudulent pages mimic Apple's design and offer a $500 voucher to lure victims, but simply…",
-   "date": "2026-09-29T13:59:04+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "DarkSword"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "darksword exploit",
-    "iphone duo",
-    "safari targeting",
-    "credential stealing",
-    "fake preorder",
-    "cryptocurrency theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abbc428d397735970a34334"
-  },
-  {
-   "name": "Beware of Phishing Emails That Disguise Themselves as Project Material Purchase Requests",
-   "summary": "ASEC identified a phishing campaign targeting organizations in Korea through emails impersonating company employees. The emails contain malicious XLS files disguised as project material purchase request forms. When…",
-   "date": "2026-09-29T13:29:12+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Remcos"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "remcos rat",
-    "cve-2017-0199",
-    "hta execution",
-    "ole exploitation",
-    "phishing",
-    "remcos"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abbbd28cb7e4cac7c679e36"
-  },
-  {
-   "name": "The \"VPN for X\" Proxy Farm — Risky Plugins",
-   "summary": "A cluster of 31 Russian-language Chrome extensions masquerading as VPN services for blocked platforms like RuTracker, YouTube, Telegram, Instagram, ChatGPT, and Netflix shares a single malicious codebase. Published from…",
-   "date": "2026-09-29T06:34:53+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "traffic interception",
-    "vpn impersonation",
-    "proxy farm",
-    "chrome extensions",
-    "dynamic configuration",
-    "russian-language"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abb5c0df118a53bf415b0bd"
-  },
-  {
-   "name": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix",
-   "summary": "Threat actors are exploiting ChatGPT Custom GPTs and Google Sites to deliver remote access trojans through a sophisticated multi-stage attack chain. The campaign uses sponsored Google search results to direct victims to…",
-   "date": "2026-09-29T00:54:45+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Lumma Stealer",
-    "MacSync",
-    "SectopRAT",
-    "AMOS"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "amos",
-    "sectoprat",
-    "social engineering",
-    "macsync",
-    "lumma stealer",
-    "canon sideloading"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abb0c55e0fed2d6a1f7e51a"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-02T06:57:16+00:00",
-  "sans": "2026-10-02T06:57:16+00:00",
-  "otx": "2026-10-02T06:57:16+00:00",
-  "urlhaus": "2026-10-02T06:57:16+00:00"
+  "threatfox": "2026-10-02T07:54:00+00:00",
+  "sans": "2026-10-02T07:54:00+00:00",
+  "otx": "2026-10-02T07:54:00+00:00",
+  "urlhaus": "2026-10-02T07:54:00+00:00"
  },
- "generated_at": "2026-10-02T06:57:16+00:00"
+ "generated_at": "2026-10-02T07:54:00+00:00"
 }
