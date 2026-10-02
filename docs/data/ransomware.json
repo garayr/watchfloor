@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T07:54:00+00:00",
+ "generated_at": "2026-10-02T08:56:43+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 42,
+   "count": 41,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -77,16 +77,16 @@
    "lon": 8.7
   },
   {
+   "code": "FR",
+   "count": 4,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "GB",
    "count": 4,
    "lat": 51.5,
    "lon": -0.1
-  },
-  {
-   "code": "FR",
-   "count": 3,
-   "lat": 48.9,
-   "lon": 2.35
   },
   {
    "code": "IT",
@@ -161,6 +161,12 @@
    "lon": -79.4
   },
   {
+   "code": "EC",
+   "count": 1,
+   "lat": -0.2,
+   "lon": -78.5
+  },
+  {
    "code": "ES",
    "count": 1,
    "lat": 40.4,
@@ -229,6 +235,15 @@
  ],
  "victims": [
   {
+   "victim": "Automovil Club del Ecuador ANETA",
+   "group": "Barracuda",
+   "date": "2026-10-02T04:50:21+00:00",
+   "attack_date": "2026-10-02",
+   "country": "EC",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/QXV0b21vdmlsIENsdWIgZGVsIEVjdWFkb3IgQU5FVEFAQmFycmFjdWRh"
+  },
+  {
    "victim": "Sangre de Cristo Electric Association",
    "group": "incransom",
    "date": "2026-10-02T01:33:07+00:00",
@@ -251,18 +266,9 @@
    "group": "krybit",
    "date": "2026-10-01T21:33:33+00:00",
    "attack_date": "2026-10-01",
-   "country": null,
+   "country": "FR",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/RVVST0RJVEVML1JFU09URUxFQ09NQGtyeWJpdA=="
-  },
-  {
-   "victim": "Slate Valley Unified School District",
-   "group": "kairos",
-   "date": "2026-10-01T19:00:23+00:00",
-   "attack_date": "2026-10-01",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/U2xhdGUgVmFsbGV5IFVuaWZpZWQgU2Nob29sIERpc3RyaWN0QGthaXJvcw=="
   },
   {
    "victim": "DISK PRECISION GROUP - diskprecision.com",
