@@ -1,6 +1,48 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-102490",
+   "date": "2026-10-02",
+   "src": "CISA",
+   "vendor": "Zammad GmbH Zammad",
+   "vendor_name": "Zammad GmbH",
+   "product": "Zammad",
+   "title": "Zammad GmbH Zammad Improper Privilege Management Vulnerability",
+   "detail": "Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-05",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-102490"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490",
+   "kev": true,
+   "epss": 0.0026,
+   "cvss": 9.4,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-102489",
+   "date": "2026-10-02",
+   "src": "CISA",
+   "vendor": "Zammad GmbH Zammad",
+   "vendor_name": "Zammad GmbH",
+   "product": "Zammad",
+   "title": "Zammad GmbH Zammad Session Fixation Vulnerability",
+   "detail": "Zammad GmbH Zammad contains a session fixation vulnerability that can lead to remote code execution as the zammad user. This vulnerability can be chained with CVE-2026-102490.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-05",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-102489"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489",
+   "kev": true,
+   "epss": 0.0058,
+   "cvss": 9.4,
+   "sev": "critical"
+  },
+  {
    "id": "CVE-2026-104286",
    "date": "2026-10-01",
    "src": "CISA",

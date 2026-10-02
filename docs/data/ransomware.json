@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-02T15:08:02+00:00",
+ "generated_at": "2026-10-02T16:06:11+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 23
+   "count": 22
   },
   {
    "name": "lamashtu",
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 18
+   "count": 19
   },
   {
    "name": "Healthcare",
-   "count": 16
+   "count": 15
   },
   {
    "name": "Other",
@@ -119,12 +119,6 @@
    "lon": 12.5
   },
   {
-   "code": "KR",
-   "count": 2,
-   "lat": 37.6,
-   "lon": 127.0
-  },
-  {
    "code": "MX",
    "count": 2,
    "lat": 19.4,
@@ -173,6 +167,12 @@
    "lon": 14.4
   },
   {
+   "code": "DK",
+   "count": 1,
+   "lat": 55.7,
+   "lon": 12.6
+  },
+  {
    "code": "EC",
    "count": 1,
    "lat": -0.2,
@@ -195,6 +195,12 @@
    "count": 1,
    "lat": 35.7,
    "lon": 139.7
+  },
+  {
+   "code": "KR",
+   "count": 1,
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "MY",
@@ -246,6 +252,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Tronex A/S",
+   "group": "Wallstreet",
+   "date": "2026-10-02T11:55:03+00:00",
+   "attack_date": "2026-10-02",
+   "country": "DK",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/VHJvbmV4IEEvU0BXYWxsc3RyZWV0"
+  },
   {
    "victim": "www.kres.cz",
    "group": "krybit",
@@ -776,15 +791,6 @@
    "country": "US",
    "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/R2FyZGVuZXJzJyBHdWlsZEBTdG9ybQ=="
-  },
-  {
-   "victim": "Samwumed",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:40:29+00:00",
-   "attack_date": "2026-09-29",
-   "country": "KR",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/U2Ftd3VtZWRAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "Edcon",
