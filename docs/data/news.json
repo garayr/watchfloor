@@ -78,6 +78,22 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+     "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects…",
+     "source": "The Hacker News",
+     "date": "2026-10-02T17:33:31+00:00",
+     "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+     "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are…",
+     "source": "The Hacker News",
+     "date": "2026-10-02T17:02:12+00:00",
+     "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
      "summary": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]",
      "source": "BleepingComputer",
@@ -203,33 +219,20 @@
      "alerts": [
       "CVE-2026-86950"
      ]
-    },
-    {
-     "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-     "summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure. \"We are actively addressing and remediating the issue internally, in coordination…",
-     "source": "The Hacker News",
-     "date": "2026-10-01T05:10:09+00:00",
-     "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
-     "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data…",
-     "source": "The Hacker News",
-     "date": "2026-10-01T04:35:34+00:00",
-     "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-88772",
-      "CVE-2026-88771",
-      "CVE-2026-19490"
-     ]
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+     "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India…",
+     "source": "The Hacker News",
+     "date": "2026-10-02T17:33:16+00:00",
+     "url": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor",
      "summary": "The dropper “carries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime. The post macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor…",
@@ -252,14 +255,6 @@
      "source": "The Hacker News",
      "date": "2026-10-01T10:42:36+00:00",
      "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Russian state hackers use new RedFlick technique to push malware",
-     "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-09-30T20:34:01+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
      "group": "Malware and campaigns"
     }
    ]
