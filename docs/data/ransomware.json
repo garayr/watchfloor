@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-02T13:11:55+00:00",
+ "generated_at": "2026-10-02T14:08:01+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 24
+   "count": 23
   },
   {
    "name": "lamashtu",
@@ -17,11 +17,15 @@
    "count": 7
   },
   {
-   "name": "incransom",
-   "count": 7
+   "name": "Storm",
+   "count": 6
   },
   {
-   "name": "Storm",
+   "name": "incransom",
+   "count": 6
+  },
+  {
+   "name": "krybit",
    "count": 6
   },
   {
@@ -30,10 +34,6 @@
   },
   {
    "name": "emperador",
-   "count": 3
-  },
-  {
-   "name": "genesis",
    "count": 3
   }
  ],
@@ -47,20 +47,20 @@
    "count": 16
   },
   {
-   "name": "Professional Services",
+   "name": "Other",
    "count": 12
   },
   {
-   "name": "Other",
+   "name": "Professional Services",
    "count": 11
   },
   {
    "name": "Technology",
-   "count": 10
+   "count": 8
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 5
+   "count": 6
   }
  ],
  "by_country": [
@@ -78,7 +78,7 @@
   },
   {
    "code": "FR",
-   "count": 4,
+   "count": 5,
    "lat": 48.9,
    "lon": 2.35
   },
@@ -87,18 +87,6 @@
    "count": 4,
    "lat": 51.5,
    "lon": -0.1
-  },
-  {
-   "code": "IT",
-   "count": 3,
-   "lat": 41.9,
-   "lon": 12.5
-  },
-  {
-   "code": "ZA",
-   "count": 3,
-   "lat": -26.2,
-   "lon": 28.0
   },
   {
    "code": "BE",
@@ -117,6 +105,18 @@
    "count": 2,
    "lat": 38.0,
    "lon": 23.7
+  },
+  {
+   "code": "IN",
+   "count": 2,
+   "lat": 19.1,
+   "lon": 72.9
+  },
+  {
+   "code": "IT",
+   "count": 2,
+   "lat": 41.9,
+   "lon": 12.5
   },
   {
    "code": "KR",
@@ -165,6 +165,12 @@
    "count": 1,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "CZ",
+   "count": 1,
+   "lat": 50.1,
+   "lon": 14.4
   },
   {
    "code": "EC",
@@ -231,9 +237,51 @@
    "count": 1,
    "lat": 21.0,
    "lon": 105.8
+  },
+  {
+   "code": "ZA",
+   "count": 1,
+   "lat": -26.2,
+   "lon": 28.0
   }
  ],
  "victims": [
+  {
+   "victim": "www.kres.cz",
+   "group": "krybit",
+   "date": "2026-10-02T09:31:56+00:00",
+   "attack_date": "2026-10-02",
+   "country": "CZ",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/d3d3LmtyZXMuY3pAa3J5Yml0"
+  },
+  {
+   "victim": "www.raajratna.com",
+   "group": "krybit",
+   "date": "2026-10-02T09:31:28+00:00",
+   "attack_date": "2026-10-02",
+   "country": "IN",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/d3d3LnJhYWpyYXRuYS5jb21Aa3J5Yml0"
+  },
+  {
+   "victim": "www.pierrefeu.fr",
+   "group": "krybit",
+   "date": "2026-10-02T09:30:59+00:00",
+   "attack_date": "2026-10-02",
+   "country": "FR",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/d3d3LnBpZXJyZWZldS5mckBrcnliaXQ="
+  },
+  {
+   "victim": "sai.org.in",
+   "group": "krybit",
+   "date": "2026-10-02T09:30:27+00:00",
+   "attack_date": "2026-10-02",
+   "country": "IN",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/c2FpLm9yZy5pbkBrcnliaXQ="
+  },
   {
    "victim": "UNION FA",
    "group": "Deadlock",
@@ -730,15 +778,6 @@
    "url": "https://www.ransomware.live/id/R2FyZGVuZXJzJyBHdWlsZEBTdG9ybQ=="
   },
   {
-   "victim": "LegalWise",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:40:46+00:00",
-   "attack_date": "2026-09-29",
-   "country": "ZA",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/TGVnYWxXaXNlQHRoZWdlbnRsZW1lbg=="
-  },
-  {
    "victim": "Samwumed",
    "group": "thegentlemen",
    "date": "2026-09-30T03:40:29+00:00",
@@ -1106,33 +1145,6 @@
    "country": "GB",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/bWF4d2VsbC1ncm91cC5jb21AQnJhaW5DaXBoZXI="
-  },
-  {
-   "victim": "Paid Victim 32373FFB7AF7E725",
-   "group": "AuditTeam",
-   "date": "2026-09-29T12:50:25+00:00",
-   "attack_date": "2026-09-29",
-   "country": "IT",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/UGFpZCBWaWN0aW0gMzIzNzNGRkI3QUY3RTcyNUBBdWRpdFRlYW0="
-  },
-  {
-   "victim": "bcx.co.za",
-   "group": "incransom",
-   "date": "2026-09-29T12:32:11+00:00",
-   "attack_date": "2026-09-29",
-   "country": "ZA",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/YmN4LmNvLnphQGluY3JhbnNvbQ=="
-  },
-  {
-   "victim": "Groupe Proxitel",
-   "group": "Vexy Ransomware",
-   "date": "2026-09-29T12:23:17+00:00",
-   "attack_date": "2026-09-29",
-   "country": "TL",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/R3JvdXBlIFByb3hpdGVsQFZleHkgUmFuc29td2FyZQ=="
   }
  ]
 }
