@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-02T18:11:19+00:00",
+ "generated_at": "2026-10-02T19:07:36+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 17
+   "count": 16
   },
   {
    "name": "lamashtu",
@@ -34,7 +34,7 @@
   },
   {
    "name": "akira",
-   "count": 3
+   "count": 4
   }
  ],
  "by_sector": [
@@ -60,13 +60,13 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 6
+   "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 41,
+   "count": 42,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -117,12 +117,6 @@
    "count": 2,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "IT",
-   "count": 2,
-   "lat": 41.9,
-   "lon": 12.5
   },
   {
    "code": "MX",
@@ -185,6 +179,12 @@
    "lon": 34.8
   },
   {
+   "code": "IT",
+   "count": 1,
+   "lat": 41.9,
+   "lon": 12.5
+  },
+  {
    "code": "JP",
    "count": 1,
    "lat": 35.7,
@@ -240,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Pacific Tank Lines",
+   "group": "akira",
+   "date": "2026-10-02T14:24:13+00:00",
+   "attack_date": "2026-10-02",
+   "country": "US",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/UGFjaWZpYyBUYW5rIExpbmVzQGFraXJh"
+  },
   {
    "victim": "Inova Semiconductors GmbH",
    "group": "qilin",
@@ -824,15 +833,6 @@
    "country": "US",
    "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/R2FyZGVuZXJzJyBHdWlsZEBTdG9ybQ=="
-  },
-  {
-   "victim": "QUALITY SPORT Topsport Italia",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:39:19+00:00",
-   "attack_date": "2026-09-29",
-   "country": "IT",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/UVVBTElUWSBTUE9SVCBUb3BzcG9ydCBJdGFsaWFAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "Europrim",
