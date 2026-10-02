@@ -1,27 +1,31 @@
 {
- "generated_at": "2026-10-02T19:07:36+00:00",
+ "generated_at": "2026-10-02T20:06:34+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 16
+   "count": 15
   },
   {
    "name": "lamashtu",
    "count": 10
   },
   {
-   "name": "BrainCipher",
-   "count": 7
-  },
-  {
    "name": "Booba Project",
    "count": 6
   },
   {
+   "name": "BrainCipher",
+   "count": 6
+  },
+  {
    "name": "Storm",
+   "count": 6
+  },
+  {
+   "name": "akira",
    "count": 6
   },
   {
@@ -31,10 +35,6 @@
   {
    "name": "krybit",
    "count": 6
-  },
-  {
-   "name": "akira",
-   "count": 4
   }
  ],
  "by_sector": [
@@ -44,15 +44,15 @@
   },
   {
    "name": "Healthcare",
-   "count": 18
+   "count": 17
   },
   {
    "name": "Other",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Professional Services",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Technology",
@@ -78,15 +78,21 @@
   },
   {
    "code": "FR",
-   "count": 5,
+   "count": 4,
    "lat": 48.9,
    "lon": 2.35
   },
   {
-   "code": "GB",
+   "code": "BR",
    "count": 3,
-   "lat": 51.5,
-   "lon": -0.1
+   "lat": -23.5,
+   "lon": -46.6
+  },
+  {
+   "code": "MX",
+   "count": 3,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "BE",
@@ -95,16 +101,16 @@
    "lon": 4.4
   },
   {
-   "code": "BR",
-   "count": 2,
-   "lat": -23.5,
-   "lon": -46.6
-  },
-  {
    "code": "CA",
    "count": 2,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "GB",
+   "count": 2,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "GR",
@@ -117,12 +123,6 @@
    "count": 2,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "MX",
-   "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "TW",
@@ -240,6 +240,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "The Official College of Architects of León (COAL)",
+   "group": "akira",
+   "date": "2026-10-02T14:59:23+00:00",
+   "attack_date": "2026-10-02",
+   "country": "MX",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/VGhlIE9mZmljaWFsIENvbGxlZ2Ugb2YgQXJjaGl0ZWN0cyBvZiBMZcOzbiAoQ09BTClAYWtpcmE="
+  },
+  {
+   "victim": "Jampac Alimentos",
+   "group": "akira",
+   "date": "2026-10-02T14:59:03+00:00",
+   "attack_date": "2026-10-02",
+   "country": "BR",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/SmFtcGFjIEFsaW1lbnRvc0Bha2lyYQ=="
+  },
   {
    "victim": "Pacific Tank Lines",
    "group": "akira",
@@ -835,15 +853,6 @@
    "url": "https://www.ransomware.live/id/R2FyZGVuZXJzJyBHdWlsZEBTdG9ybQ=="
   },
   {
-   "victim": "Europrim",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:39:04+00:00",
-   "attack_date": "2026-09-29",
-   "country": "FR",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/RXVyb3ByaW1AdGhlZ2VudGxlbWVu"
-  },
-  {
    "victim": "Telrad Networks",
    "group": "thegentlemen",
    "date": "2026-09-30T03:38:58+00:00",
@@ -1130,15 +1139,6 @@
    "country": "BG",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/d2lsZG1hbmJnLmNvbUBCcmFpbkNpcGhlcg=="
-  },
-  {
-   "victim": "maxwell-group.com",
-   "group": "BrainCipher",
-   "date": "2026-09-29T15:20:48+00:00",
-   "attack_date": "2026-09-29",
-   "country": "GB",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/bWF4d2VsbC1ncm91cC5jb21AQnJhaW5DaXBoZXI="
   }
  ]
 }
