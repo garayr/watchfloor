@@ -2,42 +2,48 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1472,
-  "c2_servers": 454,
+  "total_iocs": 1587,
+  "c2_servers": 453,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 797,
+    "iocs": 837,
     "c2": 164,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "ClearFake",
-    "iocs": 67,
+    "iocs": 74,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "VShell",
+    "iocs": 67,
+    "c2": 8,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
     "name": "Mirai",
-    "iocs": 64,
+    "iocs": 60,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 59,
+    "iocs": 54,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Remus",
-    "iocs": 39,
-    "c2": 39,
+    "iocs": 41,
+    "c2": 41,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "AMOS",
-    "iocs": 37,
+    "iocs": 35,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -49,15 +55,9 @@
    },
    {
     "name": "AdaptixC2",
-    "iocs": 29,
-    "c2": 29,
+    "iocs": 32,
+    "c2": 32,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
-   },
-   {
-    "name": "VShell",
-    "iocs": 27,
-    "c2": 8,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "php.shin_webshell",
@@ -69,19 +69,19 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 597,
+  "online": 601,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 356
+    "count": 352
    },
    {
     "name": "Mozi",
-    "count": 302
+    "count": 301
    },
    {
     "name": "elf",
-    "count": 243
+    "count": 242
    },
    {
     "name": "ua-wget",
@@ -89,11 +89,11 @@
    },
    {
     "name": "32-bit",
-    "count": 67
+    "count": 66
    },
    {
     "name": "mips",
-    "count": 42
+    "count": 41
    },
    {
     "name": "exe",
@@ -478,10 +478,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-02T14:08:01+00:00",
-  "sans": "2026-10-02T14:08:01+00:00",
-  "otx": "2026-10-02T14:08:01+00:00",
-  "urlhaus": "2026-10-02T14:08:01+00:00"
+  "threatfox": "2026-10-02T15:08:02+00:00",
+  "sans": "2026-10-02T15:08:02+00:00",
+  "otx": "2026-10-02T15:08:02+00:00",
+  "urlhaus": "2026-10-02T15:08:02+00:00"
  },
- "generated_at": "2026-10-02T14:08:01+00:00"
+ "generated_at": "2026-10-02T15:08:02+00:00"
 }
