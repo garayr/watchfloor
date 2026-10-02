@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T03:43:19+00:00",
+ "generated_at": "2026-10-02T04:43:11+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -25,15 +25,15 @@
    "count": 6
   },
   {
-   "name": "m3rx",
-   "count": 4
-  },
-  {
    "name": "akira",
    "count": 3
   },
   {
    "name": "emperador",
+   "count": 3
+  },
+  {
+   "name": "genesis",
    "count": 3
   }
  ],
@@ -131,12 +131,6 @@
    "lon": 121.5
   },
   {
-   "code": "AE",
-   "count": 1,
-   "lat": 24.5,
-   "lon": 54.4
-  },
-  {
    "code": "AR",
    "count": 1,
    "lat": -34.6,
@@ -191,6 +185,12 @@
    "lon": 139.7
   },
   {
+   "code": "MY",
+   "count": 1,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
    "code": "NZ",
    "count": 1,
    "lat": -36.8,
@@ -228,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Main Place Mall",
+   "group": "netrunner",
+   "date": "2026-10-02T00:05:15+00:00",
+   "attack_date": "2026-10-02",
+   "country": "MY",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/TWFpbiBQbGFjZSBNYWxsQG5ldHJ1bm5lcg=="
+  },
   {
    "victim": "EURODITEL/RESOTELECOM",
    "group": "krybit",
@@ -1118,15 +1127,6 @@
    "country": "BR",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/c29tYXNvbHVjb2VzLmNvbUBtM3J4"
-  },
-  {
-   "victim": "noonsugar.com",
-   "group": "m3rx",
-   "date": "2026-09-29T10:35:52+00:00",
-   "attack_date": "2026-09-29",
-   "country": "AE",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/bm9vbnN1Z2FyLmNvbUBtM3J4"
   }
  ]
 }
