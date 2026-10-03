@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2431,
-  "c2_servers": 453,
+  "total_iocs": 2277,
+  "c2_servers": 287,
   "families": [
    {
     "name": "AsyncRAT",
@@ -13,32 +13,32 @@
    },
    {
     "name": "Mirai",
-    "iocs": 493,
+    "iocs": 534,
     "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "IClickFix",
-    "iocs": 325,
-    "c2": 164,
+    "iocs": 133,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "ClearFake",
-    "iocs": 87,
+    "iocs": 88,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "AMOS",
-    "iocs": 61,
+    "iocs": 63,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "VShell",
-    "iocs": 57,
-    "c2": 7,
+    "iocs": 59,
+    "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -49,8 +49,8 @@
    },
    {
     "name": "Remus",
-    "iocs": 36,
-    "c2": 36,
+    "iocs": 34,
+    "c2": 34,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
@@ -68,20 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 724,
-  "online": 505,
+  "sample": 735,
+  "online": 474,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 273
+    "count": 279
    },
    {
     "name": "Mozi",
-    "count": 224
+    "count": 233
    },
    {
     "name": "elf",
-    "count": 189
+    "count": 192
    },
    {
     "name": "ua-wget",
@@ -89,19 +89,19 @@
    },
    {
     "name": "32-bit",
-    "count": 63
+    "count": 66
    },
    {
     "name": "mips",
-    "count": 44
+    "count": 45
+   },
+   {
+    "name": "arm",
+    "count": 21
    },
    {
     "name": "sh",
     "count": 21
-   },
-   {
-    "name": "arm",
-    "count": 19
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 65607,
-   "targets": 224,
-   "sources": 3291
+   "records": 160441,
+   "targets": 249,
+   "sources": 5465
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 48509,
-   "targets": 207,
-   "sources": 3022
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 46520,
-   "targets": 212,
-   "sources": 2639
+   "records": 141492,
+   "targets": 218,
+   "sources": 4837
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 43218,
-   "targets": 228,
-   "sources": 2054
+   "records": 119227,
+   "targets": 246,
+   "sources": 4272
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 111911,
+   "targets": 239,
+   "sources": 3772
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 40952,
-   "targets": 204,
-   "sources": 2266
+   "records": 97069,
+   "targets": 236,
+   "sources": 3080
   },
   {
    "port": 2222,
    "service": null,
-   "records": 16626,
-   "targets": 208,
-   "sources": 1208
-  },
-  {
-   "port": 9000,
-   "service": null,
-   "records": 12611,
-   "targets": 177,
-   "sources": 735
+   "records": 38087,
+   "targets": 245,
+   "sources": 2588
   },
   {
    "port": 51413,
    "service": null,
-   "records": 10741,
-   "targets": 8,
-   "sources": 271
+   "records": 29537,
+   "targets": 12,
+   "sources": 536
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 29347,
+   "targets": 3,
+   "sources": 1952
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 9451,
-   "targets": 193,
-   "sources": 1411
+   "records": 25311,
+   "targets": 212,
+   "sources": 3186
   },
   {
    "port": 7680,
    "service": null,
-   "records": 8543,
-   "targets": 37,
-   "sources": 1223
+   "records": 23035,
+   "targets": 184,
+   "sources": 2170
   }
  ],
  "ports_date": "2026-10-03",
@@ -478,10 +478,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-03T05:05:36+00:00",
-  "sans": "2026-10-03T05:05:36+00:00",
-  "otx": "2026-10-03T05:05:36+00:00",
-  "urlhaus": "2026-10-03T05:05:36+00:00"
+  "threatfox": "2026-10-03T06:12:53+00:00",
+  "sans": "2026-10-03T06:12:53+00:00",
+  "otx": "2026-10-03T06:12:53+00:00",
+  "urlhaus": "2026-10-03T06:12:53+00:00"
  },
- "generated_at": "2026-10-03T05:05:36+00:00"
+ "generated_at": "2026-10-03T06:12:53+00:00"
 }
