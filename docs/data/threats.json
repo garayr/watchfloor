@@ -2,55 +2,55 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2277,
-  "c2_servers": 287,
+  "total_iocs": 2716,
+  "c2_servers": 251,
   "families": [
    {
     "name": "AsyncRAT",
-    "iocs": 957,
-    "c2": 13,
+    "iocs": 958,
+    "c2": 14,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
     "name": "Mirai",
-    "iocs": 534,
-    "c2": 8,
+    "iocs": 574,
+    "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
+    "name": "Unknown Loader",
+    "iocs": 504,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "IClickFix",
-    "iocs": 133,
+    "iocs": 132,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "ClearFake",
-    "iocs": 88,
-    "c2": 1,
+    "iocs": 89,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "AMOS",
-    "iocs": 63,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
     "name": "VShell",
-    "iocs": 59,
-    "c2": 9,
+    "iocs": 63,
+    "c2": 13,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 52,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+    "name": "AMOS",
+    "iocs": 36,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remus",
-    "iocs": 34,
-    "c2": 34,
+    "iocs": 33,
+    "c2": 33,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
@@ -60,28 +60,28 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    },
    {
-    "name": "Vidar",
-    "iocs": 29,
-    "c2": 29,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+    "name": "Potassium",
+    "iocs": 22,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
    }
   ]
  },
  "urls": {
-  "sample": 735,
-  "online": 474,
+  "sample": 794,
+  "online": 500,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 279
+    "count": 305
    },
    {
     "name": "Mozi",
-    "count": 233
+    "count": 248
    },
    {
     "name": "elf",
-    "count": 192
+    "count": 212
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,7 @@
    },
    {
     "name": "32-bit",
-    "count": 66
+    "count": 69
    },
    {
     "name": "mips",
@@ -97,7 +97,7 @@
    },
    {
     "name": "arm",
-    "count": 21
+    "count": 24
    },
    {
     "name": "sh",
@@ -478,10 +478,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-03T06:12:53+00:00",
-  "sans": "2026-10-03T06:12:53+00:00",
-  "otx": "2026-10-03T06:12:53+00:00",
-  "urlhaus": "2026-10-03T06:12:53+00:00"
+  "threatfox": "2026-10-03T07:28:39+00:00",
+  "sans": "2026-10-03T07:28:39+00:00",
+  "otx": "2026-10-03T07:28:39+00:00",
+  "urlhaus": "2026-10-03T07:28:39+00:00"
  },
- "generated_at": "2026-10-03T06:12:53+00:00"
+ "generated_at": "2026-10-03T07:28:39+00:00"
 }
