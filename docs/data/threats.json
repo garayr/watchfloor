@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 3163,
-  "c2_servers": 241,
+  "total_iocs": 3307,
+  "c2_servers": 242,
   "families": [
    {
     "name": "AsyncRAT",
@@ -13,25 +13,25 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 834,
+    "iocs": 828,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
-    "iocs": 691,
+    "iocs": 770,
     "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "IClickFix",
-    "iocs": 132,
+    "iocs": 195,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "ClearFake",
-    "iocs": 89,
+    "iocs": 88,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -43,53 +43,57 @@
    },
    {
     "name": "AMOS",
-    "iocs": 36,
+    "iocs": 37,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remus",
-    "iocs": 34,
-    "c2": 34,
+    "iocs": 31,
+    "c2": 31,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
-   },
-   {
-    "name": "AdaptixC2",
-    "iocs": 24,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    },
    {
     "name": "Potassium",
     "iocs": 23,
     "c2": 23,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 23,
+    "c2": 23,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
-  "sample": 911,
-  "online": 560,
+  "sample": 1000,
+  "online": 595,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 352
-   },
-   {
-    "name": "Mozi",
-    "count": 276
+    "count": 430
    },
    {
     "name": "elf",
-    "count": 253
+    "count": 340
+   },
+   {
+    "name": "Mozi",
+    "count": 273
    },
    {
     "name": "ua-wget",
     "count": 150
    },
    {
+    "name": "botnetdomain",
+    "count": 101
+   },
+   {
     "name": "32-bit",
-    "count": 78
+    "count": 77
    },
    {
     "name": "mips",
@@ -97,11 +101,7 @@
    },
    {
     "name": "arm",
-    "count": 28
-   },
-   {
-    "name": "sh",
-    "count": 21
+    "count": 27
    }
   ]
  },
@@ -480,10 +480,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-03T10:24:36+00:00",
-  "sans": "2026-10-03T10:24:36+00:00",
-  "otx": "2026-10-03T10:24:36+00:00",
-  "urlhaus": "2026-10-03T10:24:36+00:00"
+  "threatfox": "2026-10-03T12:00:14+00:00",
+  "sans": "2026-10-03T12:00:14+00:00",
+  "otx": "2026-10-03T12:00:14+00:00",
+  "urlhaus": "2026-10-03T12:00:14+00:00"
  },
- "generated_at": "2026-10-03T10:24:36+00:00"
+ "generated_at": "2026-10-03T12:00:14+00:00"
 }
