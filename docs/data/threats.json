@@ -2,24 +2,24 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 3077,
-  "c2_servers": 242,
+  "total_iocs": 3128,
+  "c2_servers": 240,
   "families": [
    {
     "name": "AsyncRAT",
-    "iocs": 959,
-    "c2": 14,
+    "iocs": 960,
+    "c2": 15,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 829,
+    "iocs": 841,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
-    "iocs": 608,
+    "iocs": 649,
     "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -49,55 +49,55 @@
    },
    {
     "name": "Remus",
-    "iocs": 33,
-    "c2": 33,
+    "iocs": 31,
+    "c2": 31,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "AdaptixC2",
-    "iocs": 29,
-    "c2": 29,
+    "iocs": 27,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    },
    {
     "name": "Potassium",
-    "iocs": 21,
-    "c2": 21,
+    "iocs": 22,
+    "c2": 22,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
    }
   ]
  },
  "urls": {
-  "sample": 816,
-  "online": 522,
+  "sample": 854,
+  "online": 535,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 311
+    "count": 318
    },
    {
     "name": "Mozi",
-    "count": 259
+    "count": 267
    },
    {
     "name": "elf",
-    "count": 215
+    "count": 224
    },
    {
     "name": "ua-wget",
-    "count": 144
+    "count": 150
    },
    {
     "name": "32-bit",
-    "count": 72
+    "count": 75
    },
    {
     "name": "mips",
-    "count": 46
+    "count": 48
    },
    {
     "name": "arm",
-    "count": 26
+    "count": 27
    },
    {
     "name": "sh",
@@ -480,10 +480,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-03T08:27:56+00:00",
-  "sans": "2026-10-03T08:27:56+00:00",
-  "otx": "2026-10-03T08:27:56+00:00",
-  "urlhaus": "2026-10-03T08:27:56+00:00"
+  "threatfox": "2026-10-03T09:26:35+00:00",
+  "sans": "2026-10-03T09:26:35+00:00",
+  "otx": "2026-10-03T09:26:35+00:00",
+  "urlhaus": "2026-10-03T09:26:35+00:00"
  },
- "generated_at": "2026-10-03T08:27:56+00:00"
+ "generated_at": "2026-10-03T09:26:35+00:00"
 }
