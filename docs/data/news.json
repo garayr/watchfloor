@@ -41,6 +41,17 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+     "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and…",
+     "source": "The Hacker News",
+     "date": "2026-10-03T14:36:33+00:00",
+     "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "CVE-2026-65660"
+     ]
+    },
+    {
      "title": "Danish university DTU breach exposes data of up to 200,000 people",
      "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data…",
      "source": "BleepingComputer",
@@ -213,17 +224,6 @@
      "date": "2026-10-01T11:45:00+00:00",
      "url": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following…",
-     "source": "The Hacker News",
-     "date": "2026-10-01T10:33:16+00:00",
-     "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-76504"
-     ]
     }
    ]
   },
@@ -267,6 +267,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+     "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a \"Security…",
+     "source": "The Hacker News",
+     "date": "2026-10-03T14:38:46+00:00",
+     "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+     "group": "Other news"
+    },
     {
      "title": "doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures",
      "summary": "doxx.net’s new ADN platform prevents agentic misadventure while the agent is operating under the user’s authority. The post doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures appeared first on…",
@@ -345,14 +353,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-01T11:14:28+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
-     "group": "Other news"
-    },
-    {
-     "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-     "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. \"It delivers…",
-     "source": "The Hacker News",
-     "date": "2026-10-01T07:49:36+00:00",
-     "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
      "group": "Other news"
     }
    ]

@@ -1,13 +1,9 @@
 {
- "generated_at": "2026-10-03T15:03:26+00:00",
+ "generated_at": "2026-10-03T19:02:52+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
-  {
-   "name": "thegentlemen",
-   "count": 12
-  },
   {
    "name": "lamashtu",
    "count": 10
@@ -15,6 +11,10 @@
   {
    "name": "Storm",
    "count": 9
+  },
+  {
+   "name": "thegentlemen",
+   "count": 8
   },
   {
    "name": "akira",
@@ -34,13 +34,13 @@
   },
   {
    "name": "qilin",
-   "count": 4
+   "count": 5
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 21
+   "count": 19
   },
   {
    "name": "Healthcare",
@@ -48,11 +48,11 @@
   },
   {
    "name": "Other",
-   "count": 10
+   "count": 12
   },
   {
    "name": "Professional Services",
-   "count": 10
+   "count": 9
   },
   {
    "name": "Technology",
@@ -60,13 +60,13 @@
   },
   {
    "name": "Transportation",
-   "count": 5
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 38,
+   "count": 40,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -81,12 +81,6 @@
    "count": 4,
    "lat": 48.9,
    "lon": 2.35
-  },
-  {
-   "code": "MX",
-   "count": 4,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "BR",
@@ -107,6 +101,12 @@
    "lon": -0.1
   },
   {
+   "code": "MX",
+   "count": 3,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "AE",
    "count": 2,
    "lat": 24.5,
@@ -117,12 +117,6 @@
    "count": 2,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "BE",
-   "count": 2,
-   "lat": 50.8,
-   "lon": 4.4
   },
   {
    "code": "IN",
@@ -141,6 +135,12 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
+  },
+  {
+   "code": "BE",
+   "count": 1,
+   "lat": 50.8,
+   "lon": 4.4
   },
   {
    "code": "CZ",
@@ -197,10 +197,10 @@
    "lon": 21.0
   },
   {
-   "code": "PR",
+   "code": "SA",
    "count": 1,
-   "lat": 18.5,
-   "lon": -66.1
+   "lat": 24.7,
+   "lon": 46.7
   },
   {
    "code": "SE",
@@ -213,12 +213,6 @@
    "count": 1,
    "lat": 13.75,
    "lon": 100.5
-  },
-  {
-   "code": "TR",
-   "count": 1,
-   "lat": 41.0,
-   "lon": 29.0
   },
   {
    "code": "TW",
@@ -234,6 +228,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Genesis Credit Management",
+   "group": "qilin",
+   "date": "2026-10-03T14:05:35+00:00",
+   "attack_date": "2026-10-03",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/R2VuZXNpcyBDcmVkaXQgTWFuYWdlbWVudEBxaWxpbg=="
+  },
+  {
+   "victim": "Precon Marine Inc",
+   "group": "netrunner",
+   "date": "2026-10-03T14:04:39+00:00",
+   "attack_date": "2026-10-03",
+   "country": null,
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/UHJlY29uIE1hcmluZSBJbmNAbmV0cnVubmVy"
+  },
+  {
+   "victim": "Skaff Group",
+   "group": "rhysida",
+   "date": "2026-10-03T13:02:56+00:00",
+   "attack_date": "2026-10-03",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/U2thZmYgR3JvdXBAcmh5c2lkYQ=="
+  },
+  {
+   "victim": "St. Francis Healthcare Systems of Hawaii",
+   "group": "Wallstreet",
+   "date": "2026-10-03T12:24:31+00:00",
+   "attack_date": "2026-10-03",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/U3QuIEZyYW5jaXMgSGVhbHRoY2FyZSBTeXN0ZW1zIG9mIEhhd2FpaUBXYWxsc3RyZWV0"
+  },
+  {
+   "victim": "World Cup 2034",
+   "group": "Wallstreet",
+   "date": "2026-10-03T11:54:05+00:00",
+   "attack_date": "2026-10-03",
+   "country": "SA",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/V29ybGQgQ3VwIDIwMzRAV2FsbHN0cmVldA=="
+  },
   {
    "victim": "States Industries",
    "group": "Storm",
@@ -1036,24 +1075,6 @@
    "url": "https://www.ransomware.live/id/T2xuaWNrIFJlbnRhbHNAU3Rvcm0="
   },
   {
-   "victim": "Josee Bendaaa-Guerrero Asociados",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:35:10+00:00",
-   "attack_date": "2026-09-29",
-   "country": "BZ",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Sm9zZWUgQmVuZGFhYS1HdWVycmVybyBBc29jaWFkb3NAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Don Hierro",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:34:49+00:00",
-   "attack_date": "2026-09-29",
-   "country": "MX",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RG9uIEhpZXJyb0B0aGVnZW50bGVtZW4="
-  },
-  {
    "victim": "Century Management Services",
    "group": "Storm",
    "date": "2026-09-30T03:34:40+00:00",
@@ -1063,15 +1084,6 @@
    "url": "https://www.ransomware.live/id/Q2VudHVyeSBNYW5hZ2VtZW50IFNlcnZpY2VzQFN0b3Jt"
   },
   {
-   "victim": "Corswarem Group",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:34:28+00:00",
-   "attack_date": "2026-09-29",
-   "country": "BE",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29yc3dhcmVtIEdyb3VwQHRoZWdlbnRsZW1lbg=="
-  },
-  {
    "victim": "Silvercup Studios",
    "group": "Storm",
    "date": "2026-09-30T03:34:09+00:00",
@@ -1079,15 +1091,6 @@
    "country": "US",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/U2lsdmVyY3VwIFN0dWRpb3NAU3Rvcm0="
-  },
-  {
-   "victim": "Pulmonary Services Group",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:34:08+00:00",
-   "attack_date": "2026-09-29",
-   "country": "PR",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/UHVsbW9uYXJ5IFNlcnZpY2VzIEdyb3VwQHRoZWdlbnRsZW1lbg=="
   },
   {
    "victim": "intense.pl",
@@ -1124,15 +1127,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/R2lic29uIEFyZWEgSG9zcGl0YWwgJiBIZWFsdGggU2VydmljZXNAV2FsbHN0cmVldA=="
-  },
-  {
-   "victim": "Polikem",
-   "group": "emperador",
-   "date": "2026-09-29T16:51:27+00:00",
-   "attack_date": "2026-09-29",
-   "country": "TR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UG9saWtlbUBlbXBlcmFkb3I="
   }
  ]
 }
