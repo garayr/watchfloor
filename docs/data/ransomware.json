@@ -1,16 +1,20 @@
 {
- "generated_at": "2026-10-03T09:26:35+00:00",
+ "generated_at": "2026-10-03T10:24:36+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 13
+   "count": 12
   },
   {
    "name": "lamashtu",
    "count": 10
+  },
+  {
+   "name": "akira",
+   "count": 7
   },
   {
    "name": "Booba Project",
@@ -18,10 +22,6 @@
   },
   {
    "name": "Storm",
-   "count": 6
-  },
-  {
-   "name": "akira",
    "count": 6
   },
   {
@@ -48,7 +48,7 @@
   },
   {
    "name": "Professional Services",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Other",
@@ -59,7 +59,7 @@
    "count": 8
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Transportation",
    "count": 5
   }
  ],
@@ -89,16 +89,16 @@
    "lon": 2.35
   },
   {
+   "code": "MX",
+   "count": 4,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "GB",
    "count": 3,
    "lat": 51.5,
    "lon": -0.1
-  },
-  {
-   "code": "MX",
-   "count": 3,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "AE",
@@ -129,12 +129,6 @@
    "count": 2,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "TW",
-   "count": 2,
-   "lat": 25.0,
-   "lon": 121.5
   },
   {
    "code": "VN",
@@ -237,9 +231,24 @@
    "count": 1,
    "lat": 41.0,
    "lon": 29.0
+  },
+  {
+   "code": "TW",
+   "count": 1,
+   "lat": 25.0,
+   "lon": 121.5
   }
  ],
  "victims": [
+  {
+   "victim": "The Official Collegeof Architects of León (COAL)",
+   "group": "akira",
+   "date": "2026-10-03T05:54:28+00:00",
+   "attack_date": "2026-10-03",
+   "country": "MX",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/VGhlIE9mZmljaWFsIENvbGxlZ2VvZiBBcmNoaXRlY3RzIG9mIExlw7NuIChDT0FMKUBha2lyYQ=="
+  },
   {
    "victim": "seven seas group",
    "group": "Spirals",
@@ -914,15 +923,6 @@
    "country": "US",
    "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/R2FyZGVuZXJzJyBHdWlsZEBTdG9ybQ=="
-  },
-  {
-   "victim": "Drinks Wines Spirits",
-   "group": "thegentlemen",
-   "date": "2026-09-30T03:38:18+00:00",
-   "attack_date": "2026-09-29",
-   "country": "TW",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/RHJpbmtzIFdpbmVzIFNwaXJpdHNAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "Custom Rx Shoppe",
