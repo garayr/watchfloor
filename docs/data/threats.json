@@ -2,26 +2,26 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2716,
-  "c2_servers": 251,
+  "total_iocs": 3077,
+  "c2_servers": 242,
   "families": [
    {
     "name": "AsyncRAT",
-    "iocs": 958,
+    "iocs": 959,
     "c2": 14,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
-    "name": "Mirai",
-    "iocs": 574,
-    "c2": 7,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 504,
+    "iocs": 829,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 608,
+    "c2": 7,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "IClickFix",
@@ -31,13 +31,13 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 89,
+    "iocs": 90,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "VShell",
-    "iocs": 63,
+    "iocs": 60,
     "c2": 13,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
@@ -55,33 +55,33 @@
    },
    {
     "name": "AdaptixC2",
-    "iocs": 30,
-    "c2": 30,
+    "iocs": 29,
+    "c2": 29,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    },
    {
     "name": "Potassium",
-    "iocs": 22,
-    "c2": 22,
+    "iocs": 21,
+    "c2": 21,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
    }
   ]
  },
  "urls": {
-  "sample": 794,
-  "online": 500,
+  "sample": 816,
+  "online": 522,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 305
+    "count": 311
    },
    {
     "name": "Mozi",
-    "count": 248
+    "count": 259
    },
    {
     "name": "elf",
-    "count": 212
+    "count": 215
    },
    {
     "name": "ua-wget",
@@ -89,15 +89,15 @@
    },
    {
     "name": "32-bit",
-    "count": 69
+    "count": 72
    },
    {
     "name": "mips",
-    "count": 45
+    "count": 46
    },
    {
     "name": "arm",
-    "count": 24
+    "count": 26
    },
    {
     "name": "sh",
@@ -413,28 +413,6 @@
    "url": "https://otx.alienvault.com/pulse/6abe39636551c6c071894d2b"
   },
   {
-   "name": "Citrix NetScaler CVE-2026-88771: Observed Exploitation Artifacts and Hunt Indicators",
-   "summary": "CVE-2026-88771 is a critical pre-authentication command-injection vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway. LevelBlue's Threat Hunt Operations & Research (THOR) team identified active…",
-   "date": "2026-10-01T04:55:57+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "main.py",
-    "update_c08937.pl"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "update_c08937.pl",
-    "configuration-exfiltration",
-    "cve-2026-88771",
-    "pre-authentication",
-    "web-shell",
-    "citrix netscaler"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abde7dd3f829cf6b721cfaa"
-  },
-  {
    "name": "PaperCut MF Zero-Day Intrusion: Java Loader, Web Shell, and AdaptixC2 via CVE-2026-82078 and CVE-2026-81578",
    "summary": "On August 31, 2026, threat actors exploited two zero-day vulnerabilities in PaperCut MF affecting a customer in the Education sector. The attackers targeted an internet-facing print server running vulnerable PaperCut MF…",
    "date": "2026-10-01T04:37:48+00:00",
@@ -475,13 +453,37 @@
     "pre-disclosure attack"
    ],
    "url": "https://otx.alienvault.com/pulse/6abde373c68b5d048accac49"
+  },
+  {
+   "name": "2CLoader: A New Malware Loader Delivering Vidar and Remus",
+   "summary": "In August 2026, a new loader designated 2CLoader was identified being used to distribute information stealers including Vidar and Remus, along with XWorm RAT. The loader implements extensive anti-analysis capabilities…",
+   "date": "2026-09-30T18:08:12+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "2CLoader",
+    "Vidar",
+    "Remus",
+    "XWorm"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "indirect syscalls",
+    "information stealer",
+    "evasion techniques",
+    "vidar",
+    "remus",
+    "xworm"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abd500c65b4bbb867b80e99"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-03T07:28:39+00:00",
-  "sans": "2026-10-03T07:28:39+00:00",
-  "otx": "2026-10-03T07:28:39+00:00",
-  "urlhaus": "2026-10-03T07:28:39+00:00"
+  "threatfox": "2026-10-03T08:27:56+00:00",
+  "sans": "2026-10-03T08:27:56+00:00",
+  "otx": "2026-10-03T08:27:56+00:00",
+  "urlhaus": "2026-10-03T08:27:56+00:00"
  },
- "generated_at": "2026-10-03T07:28:39+00:00"
+ "generated_at": "2026-10-03T08:27:56+00:00"
 }
