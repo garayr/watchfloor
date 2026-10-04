@@ -26,14 +26,6 @@
      "date": "2026-10-01T16:55:57+00:00",
      "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
-     "summary": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the group's alleged…",
-     "source": "BleepingComputer",
-     "date": "2026-10-01T14:25:14+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
@@ -112,6 +104,20 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+     "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be…",
+     "source": "BleepingComputer",
+     "date": "2026-10-04T21:58:01+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88779",
+      "CVE-2026-88772",
+      "CVE-2026-88771",
+      "CVE-2026-19490"
+     ]
+    },
     {
      "title": "Fortra Patches Critical Vulnerabilities in BoKS",
      "summary": "The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek.",

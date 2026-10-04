@@ -2,43 +2,43 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2641,
-  "c2_servers": 222,
+  "total_iocs": 2546,
+  "c2_servers": 224,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 974,
+    "iocs": 973,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AsyncRAT",
-    "iocs": 965,
+    "iocs": 964,
     "c2": 13,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 193,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 123,
+    "iocs": 140,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Unknown Loader",
+    "iocs": 72,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "AMOS",
-    "iocs": 49,
+    "iocs": 57,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Vidar",
-    "iocs": 38,
-    "c2": 38,
+    "iocs": 39,
+    "c2": 39,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -55,8 +55,8 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 25,
-    "c2": 25,
+    "iocs": 26,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
@@ -69,23 +69,23 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 615,
+  "online": 630,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 420
+    "count": 410
    },
    {
     "name": "elf",
-    "count": 309
+    "count": 302
    },
    {
     "name": "Mozi",
-    "count": 261
+    "count": 262
    },
    {
     "name": "ua-wget",
-    "count": 211
+    "count": 201
    },
    {
     "name": "censys",
@@ -93,11 +93,11 @@
    },
    {
     "name": "32-bit",
-    "count": 77
+    "count": 80
    },
    {
     "name": "mips",
-    "count": 39
+    "count": 42
    },
    {
     "name": "SilentNet",
@@ -472,10 +472,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-04T21:03:40+00:00",
-  "sans": "2026-10-04T21:03:40+00:00",
-  "otx": "2026-10-04T21:03:40+00:00",
-  "urlhaus": "2026-10-04T21:03:40+00:00"
+  "threatfox": "2026-10-04T22:06:56+00:00",
+  "sans": "2026-10-04T22:06:56+00:00",
+  "otx": "2026-10-04T22:06:56+00:00",
+  "urlhaus": "2026-10-04T22:06:56+00:00"
  },
- "generated_at": "2026-10-04T21:03:40+00:00"
+ "generated_at": "2026-10-04T22:06:56+00:00"
 }

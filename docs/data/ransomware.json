@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T21:03:40+00:00",
+ "generated_at": "2026-10-04T22:06:56+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -25,12 +25,12 @@
    "count": 7
   },
   {
-   "name": "Storm",
+   "name": "akira",
    "count": 7
   },
   {
-   "name": "akira",
-   "count": 7
+   "name": "Storm",
+   "count": 6
   },
   {
    "name": "incransom",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 22
+   "count": 23
   },
   {
    "name": "Healthcare",
@@ -56,7 +56,7 @@
   },
   {
    "name": "Professional Services",
-   "count": 8
+   "count": 7
   },
   {
    "name": "Transportation",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 34,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -227,6 +227,12 @@
    "lon": 100.5
   },
   {
+   "code": "TR",
+   "count": 1,
+   "lat": 41.0,
+   "lon": 29.0
+  },
+  {
    "code": "VN",
    "count": 1,
    "lat": 21.0,
@@ -234,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "OMUR HIRDAVAT LTD",
+   "group": "emperador",
+   "date": "2026-10-04T17:22:49+00:00",
+   "attack_date": "2026-10-04",
+   "country": "TR",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/T01VUiBISVJEQVZBVCBMVERAZW1wZXJhZG9y"
+  },
   {
    "victim": "MorseLife Health System, Inc.",
    "group": "Booba Project",
@@ -1124,15 +1139,6 @@
    "country": "US",
    "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/R2FyZGVuZXJzJyBHdWlsZEBTdG9ybQ=="
-  },
-  {
-   "victim": "North Hills Facility Services",
-   "group": "Storm",
-   "date": "2026-09-30T03:35:42+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Tm9ydGggSGlsbHMgRmFjaWxpdHkgU2VydmljZXNAU3Rvcm0="
   }
  ]
 }
