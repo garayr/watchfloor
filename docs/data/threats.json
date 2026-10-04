@@ -2,24 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 3302,
-  "c2_servers": 190,
+  "total_iocs": 2389,
+  "c2_servers": 210,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 971,
+    "iocs": 972,
     "c2": 12,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "AsyncRAT",
-    "iocs": 963,
-    "c2": 15,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 937,
+    "iocs": 936,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -31,33 +25,39 @@
    },
    {
     "name": "AMOS",
-    "iocs": 55,
+    "iocs": 59,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
+    "name": "Potassium",
+    "iocs": 41,
+    "c2": 41,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 32,
+    "iocs": 33,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Bashlite",
-    "iocs": 24,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
-   },
-   {
-    "name": "Potassium",
-    "iocs": 22,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
    },
    {
     "name": "php.shin_webshell",
     "iocs": 22,
     "c2": 22,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "AsyncRAT",
+    "iocs": 19,
+    "c2": 15,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
+    "name": "Bashlite",
+    "iocs": 19,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
    },
    {
     "name": "Remus",
@@ -68,24 +68,24 @@
   ]
  },
  "urls": {
-  "sample": 930,
-  "online": 619,
+  "sample": 969,
+  "online": 657,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 424
+    "count": 436
    },
    {
     "name": "elf",
-    "count": 372
+    "count": 380
    },
    {
     "name": "Mozi",
-    "count": 244
+    "count": 256
    },
    {
     "name": "ua-wget",
-    "count": 187
+    "count": 193
    },
    {
     "name": "censys",
@@ -97,11 +97,11 @@
    },
    {
     "name": "32-bit",
-    "count": 71
+    "count": 73
    },
    {
     "name": "mips",
-    "count": 36
+    "count": 37
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 23,
    "service": "Telnet",
-   "records": 126,
-   "targets": 2,
-   "sources": 55
+   "records": 185814,
+   "targets": 229,
+   "sources": 2548
   },
   {
-   "port": 22,
-   "service": "SSH",
-   "records": 84,
-   "targets": 2,
-   "sources": 35
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 115219,
+   "targets": 220,
+   "sources": 4826
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 66,
-   "targets": 3,
-   "sources": 41
+   "records": 83734,
+   "targets": 199,
+   "sources": 1789
+  },
+  {
+   "port": 22,
+   "service": "SSH",
+   "records": 56820,
+   "targets": 230,
+   "sources": 4387
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 34357,
+   "targets": 199,
+   "sources": 3938
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 26853,
+   "targets": 185,
+   "sources": 3537
   },
   {
    "port": 2222,
    "service": null,
-   "records": 20,
-   "targets": 2,
-   "sources": 13
+   "records": 18394,
+   "targets": 204,
+   "sources": 1490
   },
   {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 15,
-   "targets": 2,
-   "sources": 13
-  },
-  {
-   "port": 5060,
-   "service": "VoIP (SIP)",
-   "records": 14,
-   "targets": 2,
-   "sources": 13
-  },
-  {
-   "port": 3000,
+   "port": 16767,
    "service": null,
-   "records": 14,
+   "records": 13809,
    "targets": 2,
-   "sources": 12
+   "sources": 1290
   },
   {
-   "port": 8081,
-   "service": "Web (alt)",
-   "records": 11,
-   "targets": 2,
-   "sources": 11
-  },
-  {
-   "port": 8888,
+   "port": 51413,
    "service": null,
-   "records": 9,
-   "targets": 2,
-   "sources": 9
+   "records": 12913,
+   "targets": 14,
+   "sources": 639
   },
   {
-   "port": 143,
-   "service": null,
-   "records": 7,
-   "targets": 2,
-   "sources": 7
+   "port": 2323,
+   "service": "Telnet (alt)",
+   "records": 9209,
+   "targets": 107,
+   "sources": 162
   }
  ],
  "ports_date": "2026-10-04",
@@ -480,10 +480,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-04T02:33:55+00:00",
-  "sans": "2026-10-04T02:33:55+00:00",
-  "otx": "2026-10-04T02:33:55+00:00",
-  "urlhaus": "2026-10-04T02:33:55+00:00"
+  "threatfox": "2026-10-04T04:29:23+00:00",
+  "sans": "2026-10-04T04:29:23+00:00",
+  "otx": "2026-10-04T04:29:23+00:00",
+  "urlhaus": "2026-10-04T04:29:23+00:00"
  },
- "generated_at": "2026-10-04T02:33:55+00:00"
+ "generated_at": "2026-10-04T04:29:23+00:00"
 }
