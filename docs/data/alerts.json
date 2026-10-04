@@ -1,6 +1,27 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-88779",
+   "date": "2026-10-04",
+   "src": "CISA",
+   "vendor": "Citrix NetScaler",
+   "vendor_name": "Citrix",
+   "product": "NetScaler",
+   "title": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+   "detail": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-07",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-88779"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779",
+   "kev": true,
+   "epss": 0.0028,
+   "cvss": 8.7,
+   "sev": "high"
+  },
+  {
    "id": "CVE-2026-102490",
    "date": "2026-10-02",
    "src": "CISA",

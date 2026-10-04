@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T17:22:30+00:00",
+ "generated_at": "2026-10-04T21:03:40+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -9,8 +9,8 @@
    "count": 10
   },
   {
-   "name": "Storm",
-   "count": 9
+   "name": "qilin",
+   "count": 10
   },
   {
    "name": "krybit",
@@ -21,42 +21,42 @@
    "count": 9
   },
   {
+   "name": "Booba Project",
+   "count": 7
+  },
+  {
+   "name": "Storm",
+   "count": 7
+  },
+  {
    "name": "akira",
    "count": 7
   },
   {
-   "name": "Booba Project",
-   "count": 6
-  },
-  {
    "name": "incransom",
    "count": 6
-  },
-  {
-   "name": "qilin",
-   "count": 5
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 18
+   "count": 22
   },
   {
    "name": "Healthcare",
-   "count": 16
+   "count": 15
   },
   {
    "name": "Other",
-   "count": 12
-  },
-  {
-   "name": "Professional Services",
-   "count": 9
+   "count": 11
   },
   {
    "name": "Technology",
-   "count": 9
+   "count": 10
+  },
+  {
+   "name": "Professional Services",
+   "count": 8
   },
   {
    "name": "Transportation",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 39,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -77,22 +77,28 @@
    "lon": 8.7
   },
   {
-   "code": "FR",
-   "count": 5,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
    "code": "BR",
-   "count": 3,
+   "count": 4,
    "lat": -23.5,
    "lon": -46.6
   },
   {
    "code": "CA",
-   "count": 3,
+   "count": 4,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "FR",
+   "count": 4,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
+   "code": "AU",
+   "count": 3,
+   "lat": -33.9,
+   "lon": 151.2
   },
   {
    "code": "GB",
@@ -113,10 +119,10 @@
    "lon": 54.4
   },
   {
-   "code": "AU",
+   "code": "ES",
    "count": 2,
-   "lat": -33.9,
-   "lon": 151.2
+   "lat": 40.4,
+   "lon": -3.7
   },
   {
    "code": "IN",
@@ -143,6 +149,12 @@
    "lon": 4.4
   },
   {
+   "code": "CL",
+   "count": 1,
+   "lat": -33.4,
+   "lon": -70.6
+  },
+  {
    "code": "CO",
    "count": 1,
    "lat": 4.7,
@@ -165,12 +177,6 @@
    "count": 1,
    "lat": -0.2,
    "lon": -78.5
-  },
-  {
-   "code": "ES",
-   "count": 1,
-   "lat": 40.4,
-   "lon": -3.7
   },
   {
    "code": "GR",
@@ -228,6 +234,78 @@
   }
  ],
  "victims": [
+  {
+   "victim": "MorseLife Health System, Inc.",
+   "group": "Booba Project",
+   "date": "2026-10-04T15:20:31+00:00",
+   "attack_date": "2026-10-02",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/TW9yc2VMaWZlIEhlYWx0aCBTeXN0ZW0sIEluYy5AQm9vYmEgUHJvamVjdA=="
+  },
+  {
+   "victim": "Nipigon District Memorial Hospital",
+   "group": "Storm",
+   "date": "2026-10-04T15:06:06+00:00",
+   "attack_date": "2026-10-04",
+   "country": "CA",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/TmlwaWdvbiBEaXN0cmljdCBNZW1vcmlhbCBIb3NwaXRhbEBTdG9ybQ=="
+  },
+  {
+   "victim": "Unident Group",
+   "group": "qilin",
+   "date": "2026-10-04T15:04:22+00:00",
+   "attack_date": "2026-10-04",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/VW5pZGVudCBHcm91cEBxaWxpbg=="
+  },
+  {
+   "victim": "Chadwick Switchboards",
+   "group": "qilin",
+   "date": "2026-10-04T15:03:44+00:00",
+   "attack_date": "2026-10-04",
+   "country": "AU",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Q2hhZHdpY2sgU3dpdGNoYm9hcmRzQHFpbGlu"
+  },
+  {
+   "victim": "Emser",
+   "group": "qilin",
+   "date": "2026-10-04T15:03:05+00:00",
+   "attack_date": "2026-10-04",
+   "country": "ES",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RW1zZXJAcWlsaW4="
+  },
+  {
+   "victim": "Cotesma",
+   "group": "qilin",
+   "date": "2026-10-04T15:02:27+00:00",
+   "attack_date": "2026-10-04",
+   "country": "CL",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Q290ZXNtYUBxaWxpbg=="
+  },
+  {
+   "victim": "Softruck",
+   "group": "direwolf",
+   "date": "2026-10-04T14:30:49+00:00",
+   "attack_date": "2026-10-04",
+   "country": "BR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U29mdHJ1Y2tAZGlyZXdvbGY="
+  },
+  {
+   "victim": "Mutsumi Group",
+   "group": "qilin",
+   "date": "2026-10-04T14:10:25+00:00",
+   "attack_date": "2026-10-04",
+   "country": "JP",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TXV0c3VtaSBHcm91cEBxaWxpbg=="
+  },
   {
    "victim": "M****C",
    "group": "payoutsking",
@@ -751,33 +829,6 @@
    "url": "https://www.ransomware.live/id/Umltcm9jayBGb3VuZGF0aW9uQGluY3JhbnNvbQ=="
   },
   {
-   "victim": "TLC Perinatal",
-   "group": "genesis",
-   "date": "2026-10-01T11:59:01+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/VExDIFBlcmluYXRhbEBnZW5lc2lz"
-  },
-  {
-   "victim": "Vera Science",
-   "group": "genesis",
-   "date": "2026-10-01T11:58:41+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/VmVyYSBTY2llbmNlQGdlbmVzaXM="
-  },
-  {
-   "victim": "Owens Distributors",
-   "group": "genesis",
-   "date": "2026-10-01T11:58:21+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/T3dlbnMgRGlzdHJpYnV0b3JzQGdlbmVzaXM="
-  },
-  {
    "victim": "Guardian Pharmacy LLC",
    "group": "incransom",
    "date": "2026-10-01T11:30:04+00:00",
@@ -850,15 +901,6 @@
    "url": "https://www.ransomware.live/id/SG91c3RvbiBUaHlyb2lkICYgRW5kb2NyaW5lIFNwZWNpYWxpc3RzQE4wbg=="
   },
   {
-   "victim": "The Japan Times",
-   "group": "Eclipse",
-   "date": "2026-09-30T21:53:18+00:00",
-   "attack_date": "2026-09-30",
-   "country": "JP",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/VGhlIEphcGFuIFRpbWVzQEVjbGlwc2U="
-  },
-  {
    "victim": "Summit Electric Supply",
    "group": "Vexy Ransomware",
    "date": "2026-09-30T20:55:47+00:00",
@@ -875,15 +917,6 @@
    "country": "DE",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/d29sZnVzb2Zza3kuZGVAc2FmZXBheQ=="
-  },
-  {
-   "victim": "Le Centre National de l'Expertise Hospitalière (CNEH)",
-   "group": "kairos",
-   "date": "2026-09-30T19:28:35+00:00",
-   "attack_date": "2026-09-30",
-   "country": "FR",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TGUgQ2VudHJlIE5hdGlvbmFsIGRlIGwnRXhwZXJ0aXNlIEhvc3BpdGFsacOocmUgKENORUgpQGthaXJvcw=="
   },
   {
    "victim": "Titus",
@@ -1100,33 +1133,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/Tm9ydGggSGlsbHMgRmFjaWxpdHkgU2VydmljZXNAU3Rvcm0="
-  },
-  {
-   "victim": "Olnick Rentals",
-   "group": "Storm",
-   "date": "2026-09-30T03:35:11+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/T2xuaWNrIFJlbnRhbHNAU3Rvcm0="
-  },
-  {
-   "victim": "Century Management Services",
-   "group": "Storm",
-   "date": "2026-09-30T03:34:40+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Q2VudHVyeSBNYW5hZ2VtZW50IFNlcnZpY2VzQFN0b3Jt"
-  },
-  {
-   "victim": "Silvercup Studios",
-   "group": "Storm",
-   "date": "2026-09-30T03:34:09+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/U2lsdmVyY3VwIFN0dWRpb3NAU3Rvcm0="
   }
  ]
 }

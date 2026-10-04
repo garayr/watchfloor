@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T17:22:30+00:00",
+ "generated_at": "2026-10-04T21:03:40+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -4645,6 +4645,150 @@
    ],
    "history_size": 112,
    "updated": "2026-10-04T17:22:30+00:00"
+  },
+  "direwolf": {
+   "name": "direwolf",
+   "description": "Dire Wolf is a sophisticated human-operated ransomware group first documented in May 2025, written in Golang using Curve25519/ChaCha20 encryption, targeting manufacturing and technology sectors across 13+ countries with ransoms up to $500,000, operated by a tight core team rather than a broad affiliate program.",
+   "aliases": [],
+   "first_seen": "2025-04-17",
+   "last_seen": "2026-10-04",
+   "victims_total": 136,
+   "cves": [
+    {
+     "id": "CVE-2026-48027",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-50751",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-21529",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-1708",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2025-60710",
+     "cvss": null,
+     "label": null
+    }
+   ],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 32
+     },
+     {
+      "name": "MY",
+      "count": 11
+     },
+     {
+      "name": "BR",
+      "count": 9
+     },
+     {
+      "name": "TH",
+      "count": 9
+     },
+     {
+      "name": "GB",
+      "count": 7
+     },
+     {
+      "name": "SG",
+      "count": 5
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 21
+     },
+     {
+      "name": "Technology",
+      "count": 21
+     },
+     {
+      "name": "Professional Services",
+      "count": 20
+     },
+     {
+      "name": "Manufacturing",
+      "count": 19
+     },
+     {
+      "name": "Financial Services",
+      "count": 11
+     },
+     {
+      "name": "Transportation",
+      "count": 9
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 10
+    },
+    {
+     "month": "2025-12",
+     "count": 6
+    },
+    {
+     "month": "2026-01",
+     "count": 12
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 4
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 43
+    },
+    {
+     "month": "2026-09",
+     "count": 17
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 136,
+   "updated": "2026-10-04T21:03:40+00:00"
   }
  }
 }
