@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T10:49:56+00:00",
+ "generated_at": "2026-10-04T17:22:30+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -13,8 +13,12 @@
    "count": 9
   },
   {
+   "name": "krybit",
+   "count": 9
+  },
+  {
    "name": "thegentlemen",
-   "count": 8
+   "count": 9
   },
   {
    "name": "akira",
@@ -29,10 +33,6 @@
    "count": 6
   },
   {
-   "name": "krybit",
-   "count": 6
-  },
-  {
    "name": "qilin",
    "count": 5
   }
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 19
+   "count": 18
   },
   {
    "name": "Healthcare",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 40,
+   "count": 39,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -78,7 +78,7 @@
   },
   {
    "code": "FR",
-   "count": 4,
+   "count": 5,
    "lat": 48.9,
    "lon": 2.35
   },
@@ -143,6 +143,12 @@
    "lon": 4.4
   },
   {
+   "code": "CO",
+   "count": 1,
+   "lat": 4.7,
+   "lon": -74.1
+  },
+  {
    "code": "CZ",
    "count": 1,
    "lat": 50.1,
@@ -173,6 +179,12 @@
    "lon": 23.7
   },
   {
+   "code": "IR",
+   "count": 1,
+   "lat": 35.7,
+   "lon": 51.4
+  },
+  {
    "code": "IT",
    "count": 1,
    "lat": 41.9,
@@ -189,12 +201,6 @@
    "count": 1,
    "lat": 3.1,
    "lon": 101.7
-  },
-  {
-   "code": "PL",
-   "count": 1,
-   "lat": 52.2,
-   "lon": 21.0
   },
   {
    "code": "SA",
@@ -215,12 +221,6 @@
    "lon": 100.5
   },
   {
-   "code": "TW",
-   "count": 1,
-   "lat": 25.0,
-   "lon": 121.5
-  },
-  {
    "code": "VN",
    "count": 1,
    "lat": 21.0,
@@ -228,6 +228,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "M****C",
+   "group": "payoutsking",
+   "date": "2026-10-04T13:19:10+00:00",
+   "attack_date": "2026-10-01",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TSoqKipDQHBheW91dHNraW5n"
+  },
+  {
+   "victim": "Center State Engineering",
+   "group": "thegentlemen",
+   "date": "2026-10-04T13:17:23+00:00",
+   "attack_date": "2026-10-03",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Q2VudGVyIFN0YXRlIEVuZ2luZWVyaW5nQHRoZWdlbnRsZW1lbg=="
+  },
+  {
+   "victim": "euroditel.com",
+   "group": "krybit",
+   "date": "2026-10-04T13:02:10+00:00",
+   "attack_date": "2026-10-04",
+   "country": "FR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/ZXVyb2RpdGVsLmNvbUBrcnliaXQ="
+  },
+  {
+   "victim": "superpack.com.co",
+   "group": "krybit",
+   "date": "2026-10-04T13:01:32+00:00",
+   "attack_date": "2026-10-04",
+   "country": "CO",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/c3VwZXJwYWNrLmNvbS5jb0BrcnliaXQ="
+  },
+  {
+   "victim": "daralteb.com",
+   "group": "krybit",
+   "date": "2026-10-04T13:00:54+00:00",
+   "attack_date": "2026-10-04",
+   "country": "IR",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/ZGFyYWx0ZWIuY29tQGtyeWJpdA=="
+  },
   {
    "victim": "Genesis Credit Management",
    "group": "qilin",
@@ -868,15 +913,6 @@
    "url": "https://www.ransomware.live/id/QmxhaXNlIEMuIEJlbmRlciwgUENAaW50ZXJsb2Nr"
   },
   {
-   "victim": "Buford-Thompson Company, LTD",
-   "group": "aurora",
-   "date": "2026-09-30T16:55:16+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/QnVmb3JkLVRob21wc29uIENvbXBhbnksIExUREBhdXJvcmE="
-  },
-  {
    "victim": "P***** M***** I**",
    "group": "netrunner",
    "date": "2026-09-30T14:01:58+00:00",
@@ -1091,42 +1127,6 @@
    "country": "US",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/U2lsdmVyY3VwIFN0dWRpb3NAU3Rvcm0="
-  },
-  {
-   "victim": "intense.pl",
-   "group": "m3rx",
-   "date": "2026-09-29T20:30:19+00:00",
-   "attack_date": "2026-09-29",
-   "country": "PL",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/aW50ZW5zZS5wbEBtM3J4"
-  },
-  {
-   "victim": "advantech.com",
-   "group": "chaos",
-   "date": "2026-09-29T17:55:38+00:00",
-   "attack_date": "2026-09-29",
-   "country": "TW",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/YWR2YW50ZWNoLmNvbUBjaGFvcw=="
-  },
-  {
-   "victim": "Tekko Enterprises, Inc",
-   "group": "interlock",
-   "date": "2026-09-29T17:02:08+00:00",
-   "attack_date": "2026-09-29",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/VGVra28gRW50ZXJwcmlzZXMsIEluY0BpbnRlcmxvY2s="
-  },
-  {
-   "victim": "Gibson Area Hospital & Health Services",
-   "group": "Wallstreet",
-   "date": "2026-09-29T16:52:55+00:00",
-   "attack_date": "2026-09-29",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/R2lic29uIEFyZWEgSG9zcGl0YWwgJiBIZWFsdGggU2VydmljZXNAV2FsbHN0cmVldA=="
   }
  ]
 }
