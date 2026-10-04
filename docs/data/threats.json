@@ -2,48 +2,48 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 3242,
-  "c2_servers": 209,
+  "total_iocs": 3302,
+  "c2_servers": 190,
   "families": [
    {
-    "name": "AsyncRAT",
-    "iocs": 966,
-    "c2": 21,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
-   },
-   {
     "name": "Mirai",
-    "iocs": 965,
-    "c2": 9,
+    "iocs": 971,
+    "c2": 12,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
+    "name": "AsyncRAT",
+    "iocs": 963,
+    "c2": 15,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
     "name": "Unknown Loader",
-    "iocs": 825,
+    "iocs": 937,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "IClickFix",
-    "iocs": 67,
+    "iocs": 70,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
+    "name": "AMOS",
+    "iocs": 55,
+    "c2": 10,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 64,
+    "iocs": 32,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "AMOS",
-    "iocs": 38,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
     "name": "Bashlite",
-    "iocs": 28,
+    "iocs": 24,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
    },
@@ -54,54 +54,54 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
    },
    {
-    "name": "Remus",
-    "iocs": 22,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
-   },
-   {
     "name": "php.shin_webshell",
     "iocs": 22,
     "c2": 22,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "Remus",
+    "iocs": 19,
+    "c2": 19,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    }
   ]
  },
  "urls": {
-  "sample": 1000,
-  "online": 673,
+  "sample": 930,
+  "online": 619,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 469
+    "count": 424
    },
    {
     "name": "elf",
-    "count": 420
-   },
-   {
-    "name": "ua-wget",
-    "count": 256
+    "count": 372
    },
    {
     "name": "Mozi",
-    "count": 229
+    "count": 244
+   },
+   {
+    "name": "ua-wget",
+    "count": 187
+   },
+   {
+    "name": "censys",
+    "count": 145
    },
    {
     "name": "botnetdomain",
     "count": 114
    },
    {
-    "name": "censys",
-    "count": 95
-   },
-   {
     "name": "32-bit",
-    "count": 69
+    "count": 71
    },
    {
     "name": "mips",
-    "count": 41
+    "count": 36
    }
   ]
  },
@@ -109,75 +109,75 @@
   {
    "port": 23,
    "service": "Telnet",
-   "records": 1122027,
-   "targets": 271,
-   "sources": 17430
+   "records": 126,
+   "targets": 2,
+   "sources": 55
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 827770,
-   "targets": 278,
-   "sources": 15992
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 782774,
-   "targets": 277,
-   "sources": 13028
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 632133,
-   "targets": 269,
-   "sources": 9572
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 536312,
-   "targets": 276,
-   "sources": 7812
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 231750,
-   "targets": 282,
-   "sources": 9008
-  },
-  {
-   "port": 7680,
-   "service": null,
-   "records": 140221,
-   "targets": 209,
-   "sources": 3258
+   "records": 84,
+   "targets": 2,
+   "sources": 35
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 135895,
-   "targets": 287,
-   "sources": 9937
+   "records": 66,
+   "targets": 3,
+   "sources": 41
   },
   {
-   "port": 16767,
+   "port": 2222,
    "service": null,
-   "records": 124486,
-   "targets": 10,
-   "sources": 4444
+   "records": 20,
+   "targets": 2,
+   "sources": 13
   },
   {
-   "port": 51413,
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 15,
+   "targets": 2,
+   "sources": 13
+  },
+  {
+   "port": 5060,
+   "service": "VoIP (SIP)",
+   "records": 14,
+   "targets": 2,
+   "sources": 13
+  },
+  {
+   "port": 3000,
    "service": null,
-   "records": 114521,
-   "targets": 39,
-   "sources": 2227
+   "records": 14,
+   "targets": 2,
+   "sources": 12
+  },
+  {
+   "port": 8081,
+   "service": "Web (alt)",
+   "records": 11,
+   "targets": 2,
+   "sources": 11
+  },
+  {
+   "port": 8888,
+   "service": null,
+   "records": 9,
+   "targets": 2,
+   "sources": 9
+  },
+  {
+   "port": 143,
+   "service": null,
+   "records": 7,
+   "targets": 2,
+   "sources": 7
   }
  ],
- "ports_date": "2026-10-03",
+ "ports_date": "2026-10-04",
  "diary": [
   {
    "title": "YARA-X 1.21.0 Release, (Sat, Oct 3rd)",
@@ -413,30 +413,6 @@
    "url": "https://otx.alienvault.com/pulse/6abe39636551c6c071894d2b"
   },
   {
-   "name": "2CLoader: A New Malware Loader Delivering Vidar and Remus",
-   "summary": "In August 2026, a new loader designated 2CLoader was identified being used to distribute information stealers including Vidar and Remus, along with XWorm RAT. The loader implements extensive anti-analysis capabilities…",
-   "date": "2026-09-30T18:08:12+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "2CLoader",
-    "Vidar",
-    "Remus",
-    "XWorm"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "indirect syscalls",
-    "information stealer",
-    "evasion techniques",
-    "vidar",
-    "remus",
-    "xworm"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abd500c65b4bbb867b80e99"
-  },
-  {
    "name": "New PamStealer variant targets macOS via fake crypto wallet",
    "summary": "A third variant of PamStealer has been identified, distributed through a fake Wavel cryptocurrency wallet application. The malware employs a sophisticated server-side decryption chain using a purpose-built utility…",
    "date": "2026-09-22T20:35:41+00:00",
@@ -456,6 +432,25 @@
     "cryptocurrency"
    ],
    "url": "https://otx.alienvault.com/pulse/6ab2e69de1b172350066344d"
+  },
+  {
+   "name": "Contagious Interview steps outside the developer workflow",
+   "summary": "Jamf Threat Labs discovered a cluster of 14 trojanized macOS applications distributed as DMG and PKG files impersonating legitimate software like The Unarchiver, Sketch, and Bartender. These samples are linked to the…",
+   "date": "2026-09-03T22:07:29+00:00",
+   "author": "AlienVault",
+   "adversary": "DPRK",
+   "malware": [
+    "OtterCookie"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "trojanized installers",
+    "macos",
+    "ottercookie",
+    "fake job interview"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6a99efa1445d8ef021e25d53"
   },
   {
    "name": "Chinese-Speaking Operator Uses AI Agents to Target Government and Education Systems Across Asia",
@@ -485,10 +480,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-03T19:02:52+00:00",
-  "sans": "2026-10-03T19:02:52+00:00",
-  "otx": "2026-10-03T19:02:52+00:00",
-  "urlhaus": "2026-10-03T19:02:52+00:00"
+  "threatfox": "2026-10-04T02:33:55+00:00",
+  "sans": "2026-10-04T02:33:55+00:00",
+  "otx": "2026-10-04T02:33:55+00:00",
+  "urlhaus": "2026-10-04T02:33:55+00:00"
  },
- "generated_at": "2026-10-03T19:02:52+00:00"
+ "generated_at": "2026-10-04T02:33:55+00:00"
 }
