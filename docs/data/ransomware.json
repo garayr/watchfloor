@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-05T18:13:40+00:00",
+ "generated_at": "2026-10-05T21:31:39+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 11
+   "count": 12
   },
   {
    "name": "krybit",
@@ -40,33 +40,33 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 24
+   "count": 25
   },
   {
    "name": "Healthcare",
-   "count": 14
+   "count": 15
   },
   {
    "name": "Other",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Technology",
-   "count": 10
-  },
-  {
-   "name": "Professional Services",
-   "count": 7
+   "count": 11
   },
   {
    "name": "Transportation",
    "count": 7
+  },
+  {
+   "name": "Education",
+   "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 34,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -113,6 +113,18 @@
    "lon": -0.1
   },
   {
+   "code": "IN",
+   "count": 3,
+   "lat": 19.1,
+   "lon": 72.9
+  },
+  {
+   "code": "MY",
+   "count": 3,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
    "code": "AE",
    "count": 2,
    "lat": 24.5,
@@ -131,18 +143,6 @@
    "lon": 12.6
   },
   {
-   "code": "IN",
-   "count": 2,
-   "lat": 19.1,
-   "lon": 72.9
-  },
-  {
-   "code": "MY",
-   "count": 2,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
    "code": "TR",
    "count": 2,
    "lat": 41.0,
@@ -153,12 +153,6 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
-  },
-  {
-   "code": "BE",
-   "count": 1,
-   "lat": 50.8,
-   "lon": 4.4
   },
   {
    "code": "CH",
@@ -240,6 +234,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "H&L Manufacturing",
+   "group": "interlock",
+   "date": "2026-10-05T15:59:04+00:00",
+   "attack_date": "2026-10-05",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/SCZMIE1hbnVmYWN0dXJpbmdAaW50ZXJsb2Nr"
+  },
+  {
+   "victim": "part02.simplexengg.in",
+   "group": "Eclipse",
+   "date": "2026-10-05T15:22:43+00:00",
+   "attack_date": "2026-10-05",
+   "country": "IN",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/cGFydDAyLnNpbXBsZXhlbmdnLmluQEVjbGlwc2U="
+  },
+  {
+   "victim": "Asia Era One",
+   "group": "qilin",
+   "date": "2026-10-05T15:09:14+00:00",
+   "attack_date": "2026-10-05",
+   "country": "MY",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QXNpYSBFcmEgT25lQHFpbGlu"
+  },
+  {
+   "victim": "O2 Dental Group",
+   "group": "interlock",
+   "date": "2026-10-05T15:01:57+00:00",
+   "attack_date": "2026-10-05",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/TzIgRGVudGFsIEdyb3VwQGludGVybG9jaw=="
+  },
   {
    "victim": "Onsemi",
    "group": "qilin",
@@ -1103,42 +1133,6 @@
    "country": "DE",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/VGl0dXNAcGxheQ=="
-  },
-  {
-   "victim": "Airtech Mechanical Services",
-   "group": "play",
-   "date": "2026-09-30T17:36:51+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/QWlydGVjaCBNZWNoYW5pY2FsIFNlcnZpY2VzQHBsYXk="
-  },
-  {
-   "victim": "Blaise C. Bender, PC",
-   "group": "interlock",
-   "date": "2026-09-30T17:00:59+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/QmxhaXNlIEMuIEJlbmRlciwgUENAaW50ZXJsb2Nr"
-  },
-  {
-   "victim": "P***** M***** I**",
-   "group": "netrunner",
-   "date": "2026-09-30T14:01:58+00:00",
-   "attack_date": "2026-09-30",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/UCoqKioqIE0qKioqKiBJKipAbmV0cnVubmVy"
-  },
-  {
-   "victim": "assist2enjoy.be",
-   "group": "safepay",
-   "date": "2026-09-30T13:36:19+00:00",
-   "attack_date": "2026-09-30",
-   "country": "BE",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/YXNzaXN0MmVuam95LmJlQHNhZmVwYXk="
   }
  ]
 }

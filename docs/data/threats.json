@@ -2,30 +2,30 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1697,
-  "c2_servers": 160,
+  "total_iocs": 1842,
+  "c2_servers": 193,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 951,
+    "iocs": 945,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 163,
+    "iocs": 283,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 49,
-    "c2": 19,
+    "iocs": 51,
+    "c2": 21,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 36,
+    "iocs": 37,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -36,68 +36,68 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.pxa_stealer"
    },
    {
+    "name": "Bashlite",
+    "iocs": 30,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
+   },
+   {
     "name": "php.shin_webshell",
-    "iocs": 25,
-    "c2": 25,
+    "iocs": 27,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "AsyncRAT",
     "iocs": 24,
-    "c2": 8,
+    "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
-    "name": "Bashlite",
-    "iocs": 24,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
-   },
-   {
     "name": "VShell",
-    "iocs": 22,
-    "c2": 9,
+    "iocs": 21,
+    "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 20,
+    "name": "Coinminer",
+    "iocs": 18,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 632,
+  "online": 648,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 387
+    "count": 400
    },
    {
     "name": "elf",
-    "count": 289
+    "count": 291
    },
    {
     "name": "Mozi",
-    "count": 266
+    "count": 258
    },
    {
     "name": "ua-wget",
-    "count": 154
+    "count": 153
    },
    {
     "name": "32-bit",
-    "count": 90
+    "count": 82
    },
    {
     "name": "mips",
-    "count": 51
+    "count": 48
    },
    {
     "name": "arm",
-    "count": 43
+    "count": 39
    },
    {
     "name": "ascii",
@@ -441,27 +441,6 @@
    "url": "https://otx.alienvault.com/pulse/6abf5aa04b47ef1458d7472a"
   },
   {
-   "name": "August 2026 Threat Trend Report on APT Attacks (South Korea)",
-   "summary": "During August 2026, multiple APT campaigns targeted South Korean entities primarily through spear phishing attacks utilizing LNK files. Six distinct attack types were identified, employing various techniques including…",
-   "date": "2026-10-02T07:16:45+00:00",
-   "author": "AlienVault",
-   "adversary": "Kimsuky",
-   "malware": [
-    "XenoRAT"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "apt campaign",
-    "infostealer",
-    "powershell",
-    "lnk files",
-    "dll side-loading",
-    "south korea"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abf5a5d160f0149844cd8c1"
-  },
-  {
    "name": "New PamStealer variant targets macOS via fake crypto wallet",
    "summary": "A third variant of PamStealer has been identified, distributed through a fake Wavel cryptocurrency wallet application. The malware employs a sophisticated server-side decryption chain using a purpose-built utility…",
    "date": "2026-09-22T20:35:41+00:00",
@@ -483,6 +462,27 @@
    "url": "https://otx.alienvault.com/pulse/6ab2e69de1b172350066344d"
   },
   {
+   "name": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
+   "summary": "StyleSmuggler is an unpatched zero-day vulnerability affecting all current versions of Magento and Adobe Commerce, including version 2.4.9, enabling unauthenticated remote code execution. Active exploitation began on…",
+   "date": "2026-09-05T20:33:07+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Retail"
+   ],
+   "tags": [
+    "backdoor",
+    "stylesmuggler",
+    "magento",
+    "payment email",
+    "remote code execution",
+    "graphql"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6a9c7c833376c19e92778b46"
+  },
+  {
    "name": "Attack Cases in Korea Involving the Installation of Radmin and UltraVNC",
    "summary": "Attack campaigns targeting Korean users have been observed deploying remote control tools including Radmin and UltraVNC to compromise systems. The initial intrusion vector remains unidentified, but attackers download…",
    "date": "2026-09-04T07:52:40+00:00",
@@ -502,10 +502,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-05T18:13:40+00:00",
-  "sans": "2026-10-05T18:13:40+00:00",
-  "otx": "2026-10-05T18:13:40+00:00",
-  "urlhaus": "2026-10-05T18:13:40+00:00"
+  "threatfox": "2026-10-05T21:31:39+00:00",
+  "sans": "2026-10-05T21:31:39+00:00",
+  "otx": "2026-10-05T21:31:39+00:00",
+  "urlhaus": "2026-10-05T21:31:39+00:00"
  },
- "generated_at": "2026-10-05T18:13:40+00:00"
+ "generated_at": "2026-10-05T21:31:39+00:00"
 }
