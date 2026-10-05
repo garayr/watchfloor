@@ -105,6 +105,20 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
+     "summary": "Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched. The post Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days…",
+     "source": "SecurityWeek",
+     "date": "2026-10-05T05:14:48+00:00",
+     "url": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88779",
+      "CVE-2026-88772",
+      "CVE-2026-88771",
+      "CVE-2026-19490"
+     ]
+    },
+    {
      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
      "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be…",
      "source": "BleepingComputer",
@@ -181,17 +195,6 @@
      "date": "2026-10-02T09:34:41+00:00",
      "url": "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action",
-     "summary": "CVE-2026-104286 is a critical-severity path traversal vulnerability that could allow attackers to write arbitrary files to the system. The post Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-10-02T08:07:33+00:00",
-     "url": "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-104286"
-     ]
     },
     {
      "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
