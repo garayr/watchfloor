@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-05T17:06:18+00:00",
+ "generated_at": "2026-10-05T18:13:40+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 10
+   "count": 11
   },
   {
    "name": "krybit",
@@ -29,11 +29,11 @@
    "count": 6
   },
   {
-   "name": "lamashtu",
-   "count": 5
+   "name": "N0n",
+   "count": 4
   },
   {
-   "name": "N0n",
+   "name": "Storm",
    "count": 4
   }
  ],
@@ -44,7 +44,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Other",
@@ -52,7 +52,7 @@
   },
   {
    "name": "Technology",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Professional Services",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 34,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -240,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Onsemi",
+   "group": "qilin",
+   "date": "2026-10-05T13:15:16+00:00",
+   "attack_date": "2026-10-05",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/T25zZW1pQHFpbGlu"
+  },
   {
    "victim": "ENKA Schools",
    "group": "Doommageddon",
@@ -1130,15 +1139,6 @@
    "country": "BE",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/YXNzaXN0MmVuam95LmJlQHNhZmVwYXk="
-  },
-  {
-   "victim": "Dr Damiel Pugliese",
-   "group": "lamashtu",
-   "date": "2026-09-30T13:32:57+00:00",
-   "attack_date": "2026-09-30",
-   "country": null,
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/RHIgRGFtaWVsIFB1Z2xpZXNlQGxhbWFzaHR1"
   }
  ]
 }
