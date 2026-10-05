@@ -4,6 +4,14 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
+     "summary": "Italy's Data Protection Authority (GPDP) has fined IQVIA €7 million ($7.8M) over poor data-processing practices that the agency says could have put roughly one million patients at risk of data exposure and…",
+     "source": "BleepingComputer",
+     "date": "2026-10-05T17:19:53+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
      "summary": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook…",
      "source": "The Hacker News",
@@ -106,28 +114,20 @@
      "date": "2026-10-02T19:01:40+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
-     "summary": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-02T18:33:01+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
-     "summary": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported. \"We have parted ways with three individuals for…",
-     "source": "The Hacker News",
-     "date": "2026-10-02T12:23:15+00:00",
-     "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+     "summary": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked…",
+     "source": "The Hacker News",
+     "date": "2026-10-05T16:21:52+00:00",
+     "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "New Dell System Update flaw lets hackers gain root privileges",
      "summary": "Dell warned customers to patch a critical vulnerability in the System Update (DSU) command-line interface (CLI) deployment tool as soon as possible. [...]",
@@ -186,7 +186,7 @@
     },
     {
      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-     "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as…",
+     "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779…",
      "source": "The Hacker News",
      "date": "2026-10-05T06:40:19+00:00",
      "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
