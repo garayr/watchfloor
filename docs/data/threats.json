@@ -2,7 +2,7 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2694,
+  "total_iocs": 2708,
   "c2_servers": 243,
   "families": [
    {
@@ -19,7 +19,7 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 162,
+    "iocs": 163,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -31,7 +31,7 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 60,
+    "iocs": 58,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -54,38 +54,38 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
    },
    {
-    "name": "Remus",
+    "name": "php.shin_webshell",
     "iocs": 28,
     "c2": 28,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 26,
-    "c2": 26,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "Remus",
+    "iocs": 24,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    }
   ]
  },
  "urls": {
-  "sample": 760,
-  "online": 521,
+  "sample": 778,
+  "online": 500,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 314
+    "count": 324
    },
    {
     "name": "Mozi",
-    "count": 219
+    "count": 221
    },
    {
     "name": "elf",
-    "count": 166
+    "count": 167
    },
    {
     "name": "32-bit",
-    "count": 71
+    "count": 72
    },
    {
     "name": "ua-wget",
@@ -97,7 +97,7 @@
    },
    {
     "name": "arm",
-    "count": 30
+    "count": 31
    },
    {
     "name": "honeypot",
@@ -472,10 +472,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-05T04:59:11+00:00",
-  "sans": "2026-10-05T04:59:11+00:00",
-  "otx": "2026-10-05T04:59:11+00:00",
-  "urlhaus": "2026-10-05T04:59:11+00:00"
+  "threatfox": "2026-10-05T05:58:56+00:00",
+  "sans": "2026-10-05T05:58:56+00:00",
+  "otx": "2026-10-05T05:58:56+00:00",
+  "urlhaus": "2026-10-05T05:58:56+00:00"
  },
- "generated_at": "2026-10-05T04:59:11+00:00"
+ "generated_at": "2026-10-05T05:58:56+00:00"
 }
