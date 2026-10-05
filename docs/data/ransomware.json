@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T12:08:38+00:00",
+ "generated_at": "2026-10-05T13:33:15+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -33,14 +33,14 @@
    "count": 6
   },
   {
-   "name": "rhysida",
-   "count": 5
+   "name": "Storm",
+   "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 25
+   "count": 26
   },
   {
    "name": "Healthcare",
@@ -51,11 +51,11 @@
    "count": 12
   },
   {
-   "name": "Technology",
-   "count": 8
+   "name": "Professional Services",
+   "count": 7
   },
   {
-   "name": "Professional Services",
+   "name": "Technology",
    "count": 7
   },
   {
@@ -72,7 +72,7 @@
   },
   {
    "code": "DE",
-   "count": 10,
+   "count": 9,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -129,6 +129,12 @@
    "count": 2,
    "lat": 19.1,
    "lon": 72.9
+  },
+  {
+   "code": "MY",
+   "count": 2,
+   "lat": 3.1,
+   "lon": 101.7
   },
   {
    "code": "AR",
@@ -197,12 +203,6 @@
    "lon": 139.7
   },
   {
-   "code": "MY",
-   "count": 1,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
    "code": "SA",
    "count": 1,
    "lat": 24.7,
@@ -234,6 +234,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Thomas Y. Pickett & Co., Inc.",
+   "group": "aurora",
+   "date": "2026-10-05T08:57:09+00:00",
+   "attack_date": "2026-10-05",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/VGhvbWFzIFkuIFBpY2tldHQgJiBDby4sIEluYy5AYXVyb3Jh"
+  },
+  {
+   "victim": "Royal Selangor",
+   "group": "BYOD",
+   "date": "2026-10-05T08:04:09+00:00",
+   "attack_date": "2026-10-04",
+   "country": "MY",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Um95YWwgU2VsYW5nb3JAQllPRA=="
+  },
   {
    "victim": "Fluge Audiovisuales",
    "group": "lamashtu",
@@ -1115,24 +1133,6 @@
    "country": "DE",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/R0VSTE9OQGxhbWFzaHR1"
-  },
-  {
-   "victim": "clicks digital GmbH Information",
-   "group": "rhysida",
-   "date": "2026-09-30T12:07:42+00:00",
-   "attack_date": "2026-09-30",
-   "country": "DE",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Y2xpY2tzIGRpZ2l0YWwgR21iSCBJbmZvcm1hdGlvbkByaHlzaWRh"
-  },
-  {
-   "victim": "Law Offices of R. David Williams, P.A.",
-   "group": "rhysida",
-   "date": "2026-09-30T10:10:55+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/TGF3IE9mZmljZXMgb2YgUi4gRGF2aWQgV2lsbGlhbXMsIFAuQS5Acmh5c2lkYQ=="
   }
  ]
 }
