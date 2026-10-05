@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2708,
-  "c2_servers": 243,
+  "total_iocs": 2613,
+  "c2_servers": 192,
   "families": [
    {
     "name": "AsyncRAT",
@@ -13,8 +13,8 @@
    },
    {
     "name": "Mirai",
-    "iocs": 964,
-    "c2": 5,
+    "iocs": 943,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -22,12 +22,6 @@
     "iocs": 163,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "AMOS",
-    "iocs": 66,
-    "c2": 10,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Unknown Loader",
@@ -42,66 +36,72 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "AMOS",
+    "iocs": 40,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
     "name": "PXA Stealer",
     "iocs": 36,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.pxa_stealer"
    },
    {
-    "name": "Potassium",
-    "iocs": 32,
-    "c2": 32,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 28,
-    "c2": 28,
+    "iocs": 26,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
+    "name": "Coinminer",
+    "iocs": 19,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
+   },
+   {
     "name": "Remus",
-    "iocs": 24,
-    "c2": 24,
+    "iocs": 18,
+    "c2": 18,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    }
   ]
  },
  "urls": {
-  "sample": 778,
-  "online": 500,
+  "sample": 916,
+  "online": 567,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 324
+    "count": 392
    },
    {
     "name": "Mozi",
-    "count": 221
+    "count": 228
    },
    {
     "name": "elf",
-    "count": 167
+    "count": 193
    },
    {
     "name": "32-bit",
-    "count": 72
+    "count": 75
    },
    {
     "name": "ua-wget",
-    "count": 43
+    "count": 61
    },
    {
     "name": "mips",
-    "count": 41
+    "count": 44
    },
    {
     "name": "arm",
-    "count": 31
+    "count": 32
    },
    {
     "name": "honeypot",
-    "count": 21
+    "count": 27
    }
   ]
  },
@@ -472,10 +472,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-05T05:58:56+00:00",
-  "sans": "2026-10-05T05:58:56+00:00",
-  "otx": "2026-10-05T05:58:56+00:00",
-  "urlhaus": "2026-10-05T05:58:56+00:00"
+  "threatfox": "2026-10-05T07:12:07+00:00",
+  "sans": "2026-10-05T07:12:07+00:00",
+  "otx": "2026-10-05T07:12:07+00:00",
+  "urlhaus": "2026-10-05T07:12:07+00:00"
  },
- "generated_at": "2026-10-05T05:58:56+00:00"
+ "generated_at": "2026-10-05T07:12:07+00:00"
 }

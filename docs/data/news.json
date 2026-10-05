@@ -54,7 +54,10 @@
      "source": "The Hacker News",
      "date": "2026-10-03T14:36:33+00:00",
      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-     "group": "Breaches and ransomware"
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "CVE-2026-65660"
+     ]
     },
     {
      "title": "Danish university DTU breach exposes data of up to 200,000 people",
@@ -107,7 +110,13 @@
      "source": "SecurityWeek",
      "date": "2026-10-05T05:14:48+00:00",
      "url": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88779",
+      "CVE-2026-88772",
+      "CVE-2026-88771",
+      "CVE-2026-19490"
+     ]
     },
     {
      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
@@ -115,7 +124,13 @@
      "source": "BleepingComputer",
      "date": "2026-10-04T21:58:01+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88779",
+      "CVE-2026-88772",
+      "CVE-2026-88771",
+      "CVE-2026-19490"
+     ]
     },
     {
      "title": "Fortra Patches Critical Vulnerabilities in BoKS",
@@ -187,7 +202,10 @@
      "source": "The Hacker News",
      "date": "2026-10-02T05:49:50+00:00",
      "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-104286"
+     ]
     },
     {
      "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
@@ -195,7 +213,10 @@
      "source": "BleepingComputer",
      "date": "2026-10-01T22:42:49+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-104286"
+     ]
     },
     {
      "title": "Microsoft says threat actors are ahead in the early AI race",
