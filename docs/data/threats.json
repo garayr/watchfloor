@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2691,
-  "c2_servers": 245,
+  "total_iocs": 2694,
+  "c2_servers": 243,
   "families": [
    {
     "name": "AsyncRAT",
@@ -13,19 +13,19 @@
    },
    {
     "name": "Mirai",
-    "iocs": 959,
+    "iocs": 964,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 161,
+    "iocs": 162,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "AMOS",
-    "iocs": 63,
+    "iocs": 66,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -55,8 +55,8 @@
    },
    {
     "name": "Remus",
-    "iocs": 31,
-    "c2": 31,
+    "iocs": 28,
+    "c2": 28,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
@@ -68,24 +68,24 @@
   ]
  },
  "urls": {
-  "sample": 738,
-  "online": 507,
+  "sample": 760,
+  "online": 521,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 309
+    "count": 314
    },
    {
     "name": "Mozi",
-    "count": 206
+    "count": 219
    },
    {
     "name": "elf",
-    "count": 163
+    "count": 166
    },
    {
     "name": "32-bit",
-    "count": 68
+    "count": 71
    },
    {
     "name": "ua-wget",
@@ -93,7 +93,7 @@
    },
    {
     "name": "mips",
-    "count": 38
+    "count": 41
    },
    {
     "name": "arm",
@@ -107,74 +107,74 @@
  },
  "ports": [
   {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 224730,
+   "targets": 229,
+   "sources": 6572
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 191912,
+   "targets": 229,
+   "sources": 5847
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 176903,
+   "targets": 219,
+   "sources": 6961
+  },
+  {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 111,
-   "targets": 4,
-   "sources": 50
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 56,
-   "targets": 3,
-   "sources": 45
-  },
-  {
-   "port": 8443,
-   "service": "Web (HTTPS alt)",
-   "records": 52,
-   "targets": 3,
-   "sources": 11
+   "records": 138928,
+   "targets": 221,
+   "sources": 4075
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 42,
-   "targets": 2,
-   "sources": 26
+   "records": 130460,
+   "targets": 254,
+   "sources": 8202
   },
   {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 31,
-   "targets": 2,
-   "sources": 12
+   "port": 23,
+   "service": "Telnet",
+   "records": 64335,
+   "targets": 252,
+   "sources": 3711
   },
   {
-   "port": 3306,
-   "service": "MySQL",
-   "records": 23,
-   "targets": 3,
-   "sources": 12
-  },
-  {
-   "port": 123,
-   "service": "NTP",
-   "records": 17,
-   "targets": 2,
-   "sources": 14
-  },
-  {
-   "port": 8081,
-   "service": "Web (alt)",
-   "records": 14,
-   "targets": 3,
-   "sources": 14
-  },
-  {
-   "port": 81,
-   "service": "Web (alt)",
-   "records": 12,
-   "targets": 2,
-   "sources": 8
-  },
-  {
-   "port": 102,
+   "port": 2222,
    "service": null,
-   "records": 9,
-   "targets": 2,
-   "sources": 9
+   "records": 36611,
+   "targets": 238,
+   "sources": 2806
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 15876,
+   "targets": 15,
+   "sources": 1631
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 12161,
+   "targets": 13,
+   "sources": 845
+  },
+  {
+   "port": 137,
+   "service": null,
+   "records": 10961,
+   "targets": 128,
+   "sources": 167
   }
  ],
  "ports_date": "2026-10-05",
@@ -472,10 +472,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-05T03:33:04+00:00",
-  "sans": "2026-10-05T03:33:04+00:00",
-  "otx": "2026-10-05T03:33:04+00:00",
-  "urlhaus": "2026-10-05T03:33:04+00:00"
+  "threatfox": "2026-10-05T04:59:11+00:00",
+  "sans": "2026-10-05T04:59:11+00:00",
+  "otx": "2026-10-05T04:59:11+00:00",
+  "urlhaus": "2026-10-05T04:59:11+00:00"
  },
- "generated_at": "2026-10-05T03:33:04+00:00"
+ "generated_at": "2026-10-05T04:59:11+00:00"
 }
