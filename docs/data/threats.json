@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2613,
-  "c2_servers": 192,
+  "total_iocs": 2599,
+  "c2_servers": 181,
   "families": [
    {
     "name": "AsyncRAT",
-    "iocs": 968,
-    "c2": 13,
+    "iocs": 969,
+    "c2": 14,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
@@ -19,25 +19,25 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 163,
+    "iocs": 161,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 58,
-    "c2": 1,
+    "iocs": 57,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Vidar",
-    "iocs": 50,
-    "c2": 44,
+    "iocs": 48,
+    "c2": 42,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 40,
+    "iocs": 39,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -49,8 +49,8 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 26,
-    "c2": 26,
+    "iocs": 28,
+    "c2": 28,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
@@ -60,44 +60,44 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
    },
    {
-    "name": "Remus",
-    "iocs": 18,
-    "c2": 18,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
+    "name": "SNOWLIGHT",
+    "iocs": 17,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
    }
   ]
  },
  "urls": {
-  "sample": 916,
-  "online": 567,
+  "sample": 965,
+  "online": 604,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 392
+    "count": 404
    },
    {
     "name": "Mozi",
-    "count": 228
+    "count": 239
    },
    {
     "name": "elf",
-    "count": 193
-   },
-   {
-    "name": "32-bit",
-    "count": 75
+    "count": 225
    },
    {
     "name": "ua-wget",
-    "count": 61
+    "count": 89
+   },
+   {
+    "name": "32-bit",
+    "count": 79
    },
    {
     "name": "mips",
-    "count": 44
+    "count": 47
    },
    {
     "name": "arm",
-    "count": 32
+    "count": 33
    },
    {
     "name": "honeypot",
@@ -109,72 +109,72 @@
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 224730,
-   "targets": 229,
-   "sources": 6572
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 191912,
-   "targets": 229,
-   "sources": 5847
+   "records": 503088,
+   "targets": 265,
+   "sources": 7965
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 176903,
-   "targets": 219,
-   "sources": 6961
+   "records": 437266,
+   "targets": 240,
+   "sources": 10245
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 418298,
+   "targets": 262,
+   "sources": 6921
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 138928,
-   "targets": 221,
-   "sources": 4075
+   "records": 342892,
+   "targets": 249,
+   "sources": 7202
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 130460,
-   "targets": 254,
-   "sources": 8202
+   "records": 312165,
+   "targets": 271,
+   "sources": 11260
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 64335,
-   "targets": 252,
-   "sources": 3711
+   "records": 163128,
+   "targets": 269,
+   "sources": 7246
   },
   {
    "port": 2222,
    "service": null,
-   "records": 36611,
-   "targets": 238,
-   "sources": 2806
+   "records": 83421,
+   "targets": 267,
+   "sources": 4266
+  },
+  {
+   "port": 853,
+   "service": null,
+   "records": 33816,
+   "targets": 67,
+   "sources": 2766
   },
   {
    "port": 16767,
    "service": null,
-   "records": 15876,
-   "targets": 15,
-   "sources": 1631
+   "records": 33436,
+   "targets": 21,
+   "sources": 2185
   },
   {
    "port": 51413,
    "service": null,
-   "records": 12161,
-   "targets": 13,
-   "sources": 845
-  },
-  {
-   "port": 137,
-   "service": null,
-   "records": 10961,
-   "targets": 128,
-   "sources": 167
+   "records": 26546,
+   "targets": 63,
+   "sources": 1345
   }
  ],
  "ports_date": "2026-10-05",
@@ -472,10 +472,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-05T07:12:07+00:00",
-  "sans": "2026-10-05T07:12:07+00:00",
-  "otx": "2026-10-05T07:12:07+00:00",
-  "urlhaus": "2026-10-05T07:12:07+00:00"
+  "threatfox": "2026-10-05T08:10:20+00:00",
+  "sans": "2026-10-05T08:10:20+00:00",
+  "otx": "2026-10-05T08:10:20+00:00",
+  "urlhaus": "2026-10-05T08:10:20+00:00"
  },
- "generated_at": "2026-10-05T07:12:07+00:00"
+ "generated_at": "2026-10-05T08:10:20+00:00"
 }

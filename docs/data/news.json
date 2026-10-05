@@ -113,6 +113,20 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+     "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as…",
+     "source": "The Hacker News",
+     "date": "2026-10-05T06:40:19+00:00",
+     "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88779",
+      "CVE-2026-88772",
+      "CVE-2026-88771",
+      "CVE-2026-19490"
+     ]
+    },
+    {
      "title": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
      "summary": "Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched. The post Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days…",
      "source": "SecurityWeek",
@@ -269,14 +283,6 @@
      "source": "SecurityWeek",
      "date": "2026-10-02T13:15:00+00:00",
      "url": "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-     "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site…",
-     "source": "The Hacker News",
-     "date": "2026-10-01T14:37:35+00:00",
-     "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
      "group": "Malware and campaigns"
     }
    ]
