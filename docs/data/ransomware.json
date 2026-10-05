@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T00:08:16+00:00",
+ "generated_at": "2026-10-05T01:17:18+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -33,7 +33,7 @@
    "count": 6
   },
   {
-   "name": "rhysida",
+   "name": "Storm",
    "count": 5
   }
  ],
@@ -44,7 +44,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 14
+   "count": 15
   },
   {
    "name": "Other",
@@ -52,7 +52,7 @@
   },
   {
    "name": "Technology",
-   "count": 10
+   "count": 9
   },
   {
    "name": "Professional Services",
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 34,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 10,
+   "count": 9,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -997,15 +997,6 @@
    "url": "https://www.ransomware.live/id/U2l0ZVBybyBSZW50YWxzQGVtcGVyYWRvcg=="
   },
   {
-   "victim": "econ-tec.com",
-   "group": "safepay",
-   "date": "2026-09-30T13:36:55+00:00",
-   "attack_date": "2026-09-30",
-   "country": "DE",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/ZWNvbi10ZWMuY29tQHNhZmVwYXk="
-  },
-  {
    "victim": "assist2enjoy.be",
    "group": "safepay",
    "date": "2026-09-30T13:36:19+00:00",
@@ -1139,6 +1130,15 @@
    "country": "KR",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/d3d3Lm5ld3lqaC5jb21AVUxvc2U="
+  },
+  {
+   "victim": "West County Health Centers",
+   "group": "Storm",
+   "date": "2026-09-30T06:19:03+00:00",
+   "attack_date": "2026-09-30",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/V2VzdCBDb3VudHkgSGVhbHRoIENlbnRlcnNAU3Rvcm0="
   }
  ]
 }
