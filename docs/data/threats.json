@@ -2,30 +2,30 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1842,
-  "c2_servers": 193,
+  "total_iocs": 1891,
+  "c2_servers": 197,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 945,
-    "c2": 6,
+    "iocs": 948,
+    "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 283,
+    "iocs": 329,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 51,
-    "c2": 21,
+    "iocs": 56,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 37,
+    "iocs": 38,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -43,8 +43,8 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 27,
-    "c2": 27,
+    "iocs": 25,
+    "c2": 25,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
@@ -60,28 +60,28 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Coinminer",
+    "name": "Aisuru",
     "iocs": 18,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
+    "c2": 18,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 648,
+  "online": 664,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 400
+    "count": 399
    },
    {
     "name": "elf",
-    "count": 291
+    "count": 287
    },
    {
     "name": "Mozi",
-    "count": 258
+    "count": 256
    },
    {
     "name": "ua-wget",
@@ -89,11 +89,11 @@
    },
    {
     "name": "32-bit",
-    "count": 82
+    "count": 78
    },
    {
     "name": "mips",
-    "count": 48
+    "count": 44
    },
    {
     "name": "arm",
@@ -502,10 +502,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-05T21:31:39+00:00",
-  "sans": "2026-10-05T21:31:39+00:00",
-  "otx": "2026-10-05T21:31:39+00:00",
-  "urlhaus": "2026-10-05T21:31:39+00:00"
+  "threatfox": "2026-10-05T22:38:32+00:00",
+  "sans": "2026-10-05T22:38:32+00:00",
+  "otx": "2026-10-05T22:38:32+00:00",
+  "urlhaus": "2026-10-05T22:38:32+00:00"
  },
- "generated_at": "2026-10-05T21:31:39+00:00"
+ "generated_at": "2026-10-05T22:38:32+00:00"
 }

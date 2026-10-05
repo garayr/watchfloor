@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T21:31:39+00:00",
+ "generated_at": "2026-10-05T22:38:32+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -21,11 +21,11 @@
    "count": 7
   },
   {
-   "name": "thegentlemen",
-   "count": 7
+   "name": "incransom",
+   "count": 6
   },
   {
-   "name": "incransom",
+   "name": "thegentlemen",
    "count": 6
   },
   {
@@ -48,7 +48,7 @@
   },
   {
    "name": "Other",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 34,
+   "count": 33,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -81,12 +81,6 @@
    "count": 4,
    "lat": 43.7,
    "lon": -79.4
-  },
-  {
-   "code": "DE",
-   "count": 4,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "ES",
@@ -137,6 +131,18 @@
    "lon": 151.2
   },
   {
+   "code": "CL",
+   "count": 2,
+   "lat": -33.4,
+   "lon": -70.6
+  },
+  {
+   "code": "DE",
+   "count": 2,
+   "lat": 50.1,
+   "lon": 8.7
+  },
+  {
    "code": "DK",
    "count": 2,
    "lat": 55.7,
@@ -159,12 +165,6 @@
    "count": 1,
    "lat": 46.9,
    "lon": 7.4
-  },
-  {
-   "code": "CL",
-   "count": 1,
-   "lat": -33.4,
-   "lon": -70.6
   },
   {
    "code": "CO",
@@ -203,6 +203,18 @@
    "lon": 139.7
   },
   {
+   "code": "KE",
+   "count": 1,
+   "lat": -1.3,
+   "lon": 36.8
+  },
+  {
+   "code": "NL",
+   "count": 1,
+   "lat": 52.4,
+   "lon": 4.9
+  },
+  {
    "code": "SA",
    "count": 1,
    "lat": 24.7,
@@ -213,6 +225,12 @@
    "count": 1,
    "lat": 59.3,
    "lon": 18.1
+  },
+  {
+   "code": "SK",
+   "count": 1,
+   "lat": 48.1,
+   "lon": 17.1
   },
   {
    "code": "TH",
@@ -234,6 +252,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "anwo.cl",
+   "group": "safepay",
+   "date": "2026-10-05T18:28:07+00:00",
+   "attack_date": "2026-10-05",
+   "country": "CL",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/YW53by5jbEBzYWZlcGF5"
+  },
+  {
+   "victim": "duhaas.sk",
+   "group": "safepay",
+   "date": "2026-10-05T18:27:31+00:00",
+   "attack_date": "2026-10-05",
+   "country": "SK",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/ZHVoYWFzLnNrQHNhZmVwYXk="
+  },
+  {
+   "victim": "ikhasas.com",
+   "group": "safepay",
+   "date": "2026-10-05T18:26:55+00:00",
+   "attack_date": "2026-10-05",
+   "country": "KE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/aWtoYXNhcy5jb21Ac2FmZXBheQ=="
+  },
+  {
+   "victim": "sterrer.net",
+   "group": "safepay",
+   "date": "2026-10-05T18:26:20+00:00",
+   "attack_date": "2026-10-05",
+   "country": "NL",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/c3RlcnJlci5uZXRAc2FmZXBheQ=="
+  },
   {
    "victim": "H&L Manufacturing",
    "group": "interlock",
@@ -647,15 +701,6 @@
    "country": "US",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/U3RlcCBCeSBTdGVwQFN0b3Jt"
-  },
-  {
-   "victim": "Zelham",
-   "group": "thegentlemen",
-   "date": "2026-10-03T06:26:53+00:00",
-   "attack_date": "2026-09-30",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/WmVsaGFtQHRoZWdlbnRsZW1lbg=="
   },
   {
    "victim": "Hospital de la Santa Creu i Sant Pau",
@@ -1106,33 +1151,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/SG91c3RvbiBUaHlyb2lkICYgRW5kb2NyaW5lIFNwZWNpYWxpc3RzQE4wbg=="
-  },
-  {
-   "victim": "Summit Electric Supply",
-   "group": "Vexy Ransomware",
-   "date": "2026-09-30T20:55:47+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/U3VtbWl0IEVsZWN0cmljIFN1cHBseUBWZXh5IFJhbnNvbXdhcmU="
-  },
-  {
-   "victim": "wolfusofsky.de",
-   "group": "safepay",
-   "date": "2026-09-30T20:11:02+00:00",
-   "attack_date": "2026-09-30",
-   "country": "DE",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/d29sZnVzb2Zza3kuZGVAc2FmZXBheQ=="
-  },
-  {
-   "victim": "Titus",
-   "group": "play",
-   "date": "2026-09-30T17:37:25+00:00",
-   "attack_date": "2026-09-30",
-   "country": "DE",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VGl0dXNAcGxheQ=="
   }
  ]
 }
