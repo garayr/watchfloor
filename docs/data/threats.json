@@ -2,7 +2,7 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2677,
+  "total_iocs": 2686,
   "c2_servers": 156,
   "families": [
    {
@@ -13,13 +13,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 949,
+    "iocs": 951,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 202,
+    "iocs": 207,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -49,27 +49,27 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 24,
-    "c2": 24,
+    "iocs": 26,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "Bashlite",
+    "iocs": 24,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
    },
    {
     "name": "VShell",
     "iocs": 22,
     "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
-    "name": "Bashlite",
-    "iocs": 21,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 620,
+  "online": 623,
   "top_tags": [
    {
     "name": "mirai",
@@ -77,15 +77,15 @@
    },
    {
     "name": "Mozi",
-    "count": 247
+    "count": 253
    },
    {
     "name": "elf",
-    "count": 226
+    "count": 230
    },
    {
     "name": "32-bit",
-    "count": 82
+    "count": 86
    },
    {
     "name": "ua-wget",
@@ -93,15 +93,15 @@
    },
    {
     "name": "mips",
-    "count": 46
+    "count": 48
    },
    {
     "name": "arm",
-    "count": 40
+    "count": 42
    },
    {
-    "name": "honeypot",
-    "count": 32
+    "name": "ascii",
+    "count": 26
    }
   ]
  },
@@ -211,6 +211,54 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Caught in 4K: The Gentlemen Files",
+   "summary": "A Russian-speaking affiliate of the Gentlemen ransomware group, identifying as Azazel, compromised over two dozen organizations across six countries while simultaneously betraying the RaaS operator. The threat actor…",
+   "date": "2026-10-05T13:32:08+00:00",
+   "author": "AlienVault",
+   "adversary": "Azazel",
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Logistics",
+    "Finance",
+    "Healthcare",
+    "Technology",
+    "Government"
+   ],
+   "tags": [
+    "double-extortion",
+    "ai-platform",
+    "mcp",
+    "ci/cd",
+    "leakned",
+    "exfiltration"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac3a6d89aeb3e3d383d6d06"
+  },
+  {
+   "name": "A STUNning Disguise: Cling Malware Masquerades as Google",
+   "summary": "A sophisticated IoT botnet dubbed Cling has been discovered exploiting vulnerable internet-exposed devices through CVE-2021-35394 and other command-injection flaws. The malware distinguishes itself by abusing STUN…",
+   "date": "2026-10-05T09:06:12+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Cling"
+   ],
+   "countries": [],
+   "industries": [
+    "Education"
+   ],
+   "tags": [
+    "stun protocol abuse",
+    "cve-2014-8361",
+    "cve-2023-26801",
+    "cve-2023-41011",
+    "iot botnet",
+    "realtek exploitation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac368846173b592a85473db"
+  },
   {
    "name": "XWorm Malware: Worming Its Way From Entry to Exploitation",
    "summary": "XWorm is a versatile modular malware that poses a multifaceted threat through remote access, data theft, ransomware delivery, and botnet creation. Associated with the DDGroup cybercrime group, it rapidly gained…",
@@ -414,56 +462,6 @@
    "url": "https://otx.alienvault.com/pulse/6abf5a5d160f0149844cd8c1"
   },
   {
-   "name": "$100k in Crypto Drained by the Underground Operation",
-   "summary": "A cryptocurrency-stealing operation utilizing an Aotera/Tedy loader injects a Vidar-class stealer into Windows processes, launching Chrome or Edge to inject malicious scripts into victim sessions. The malware builder…",
-   "date": "2026-10-02T07:13:34+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Aotera",
-    "Tedy",
-    "Vidar"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "exchange drain",
-    "tedy",
-    "vidar",
-    "aotera loader",
-    "vidar stealer",
-    "underground"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abf599ea3419c5518645c45"
-  },
-  {
-   "name": "Hallucinating Credibility: China-Aligned TA419 Impersonates its Way into US AI Policy Circles",
-   "summary": "In July 2026, China-aligned threat actor TA419 conducted credential phishing campaigns impersonating prominent economists and AI policymakers, targeting AI experts at US think tanks, universities, and legal…",
-   "date": "2026-10-01T10:43:47+00:00",
-   "author": "AlienVault",
-   "adversary": "TA419",
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "Japan"
-   ],
-   "industries": [
-    "Education",
-    "Government",
-    "Technology",
-    "Defense"
-   ],
-   "tags": [
-    "frameless bitb",
-    "espionage",
-    "china-aligned",
-    "credential phishing",
-    "ta419",
-    "aitm"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abe39636551c6c071894d2b"
-  },
-  {
    "name": "New PamStealer variant targets macOS via fake crypto wallet",
    "summary": "A third variant of PamStealer has been identified, distributed through a fake Wavel cryptocurrency wallet application. The malware employs a sophisticated server-side decryption chain using a purpose-built utility…",
    "date": "2026-09-22T20:35:41+00:00",
@@ -504,10 +502,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-05T14:43:45+00:00",
-  "sans": "2026-10-05T14:43:45+00:00",
-  "otx": "2026-10-05T14:43:45+00:00",
-  "urlhaus": "2026-10-05T14:43:45+00:00"
+  "threatfox": "2026-10-05T15:55:54+00:00",
+  "sans": "2026-10-05T15:55:54+00:00",
+  "otx": "2026-10-05T15:55:54+00:00",
+  "urlhaus": "2026-10-05T15:55:54+00:00"
  },
- "generated_at": "2026-10-05T14:43:45+00:00"
+ "generated_at": "2026-10-05T15:55:54+00:00"
 }
