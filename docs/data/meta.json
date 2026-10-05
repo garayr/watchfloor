@@ -1,17 +1,11 @@
 {
- "generated_at": "2026-10-05T05:58:56+00:00",
+ "generated_at": "2026-10-05T06:51:23+00:00",
  "sources": [
   {
    "name": "CISA KEV",
-   "ok": true,
-   "count": 39,
-   "error": null
-  },
-  {
-   "name": "FIRST EPSS",
-   "ok": true,
-   "count": 39,
-   "error": null
+   "ok": false,
+   "count": 0,
+   "error": "www.cisa.gov: HTTP Error 403: Forbidden"
   },
   {
    "name": "NVD CVSS",
@@ -41,54 +35,6 @@
    "name": "SecurityWeek",
    "ok": true,
    "count": 10,
-   "error": null
-  },
-  {
-   "name": "Cloudflare Radar",
-   "ok": true,
-   "count": 47,
-   "error": null
-  },
-  {
-   "name": "Ransomware.live",
-   "ok": true,
-   "count": 100,
-   "error": null
-  },
-  {
-   "name": "Have I Been Pwned",
-   "ok": true,
-   "count": 12,
-   "error": null
-  },
-  {
-   "name": "abuse.ch ThreatFox",
-   "ok": true,
-   "count": 2708,
-   "error": null
-  },
-  {
-   "name": "abuse.ch URLhaus",
-   "ok": true,
-   "count": 778,
-   "error": null
-  },
-  {
-   "name": "AlienVault OTX",
-   "ok": true,
-   "count": 20,
-   "error": null
-  },
-  {
-   "name": "SANS ISC",
-   "ok": true,
-   "count": 4,
-   "error": null
-  },
-  {
-   "name": "Phone alerts",
-   "ok": true,
-   "count": 0,
    "error": null
   }
  ]
