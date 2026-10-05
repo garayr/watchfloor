@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2599,
-  "c2_servers": 181,
+  "total_iocs": 2606,
+  "c2_servers": 156,
   "families": [
    {
     "name": "AsyncRAT",
@@ -13,13 +13,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 943,
-    "c2": 3,
+    "iocs": 941,
+    "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 161,
+    "iocs": 190,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -30,14 +30,8 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "Vidar",
-    "iocs": 48,
-    "c2": 42,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "AMOS",
-    "iocs": 39,
+    "iocs": 41,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -49,13 +43,19 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 28,
-    "c2": 28,
+    "iocs": 26,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
+    "name": "Vidar",
+    "iocs": 21,
+    "c2": 15,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "Coinminer",
-    "iocs": 19,
+    "iocs": 20,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
    },
@@ -68,20 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 965,
-  "online": 604,
+  "sample": 988,
+  "online": 623,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 404
+    "count": 410
    },
    {
     "name": "Mozi",
-    "count": 239
+    "count": 248
    },
    {
     "name": "elf",
-    "count": 225
+    "count": 228
    },
    {
     "name": "ua-wget",
@@ -89,15 +89,15 @@
    },
    {
     "name": "32-bit",
-    "count": 79
+    "count": 82
    },
    {
     "name": "mips",
-    "count": 47
+    "count": 48
    },
    {
     "name": "arm",
-    "count": 33
+    "count": 35
    },
    {
     "name": "honeypot",
@@ -212,6 +212,166 @@
  ],
  "pulses": [
   {
+   "name": "XWorm Malware: Worming Its Way From Entry to Exploitation",
+   "summary": "XWorm is a versatile modular malware that poses a multifaceted threat through remote access, data theft, ransomware delivery, and botnet creation. Associated with the DDGroup cybercrime group, it rapidly gained…",
+   "date": "2026-10-05T07:16:30+00:00",
+   "author": "AlienVault",
+   "adversary": "DDGroup",
+   "malware": [
+    "XWorm"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "botnet",
+    "modular threat",
+    "data theft",
+    "phishing",
+    "xworm",
+    "ransomware delivery"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac34ecea12957741eb7ac1b"
+  },
+  {
+   "name": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix",
+   "summary": "Threat actors exploited ChatGPT's Custom GPT feature to impersonate legitimate ChatGPT models, directing victims through sponsored Google ads to malicious Custom GPTs titled 'Plus 5.6'. These instances served fake…",
+   "date": "2026-10-03T16:26:01+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Matanbuchus",
+    "AstarionRAT",
+    "AMOS",
+    "MacSync",
+    "SectopRAT",
+    "Lumma Stealer"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "stardock",
+    "powershell",
+    "matanbuchus",
+    "remote access trojan",
+    "sectoprat",
+    "clickfix"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac12c993806593609d1c30c"
+  },
+  {
+   "name": "Pretty Themes, Hidden Loaders: GlassWorm-Linked Extensions Span VS Code Marketplace and Open VSX",
+   "summary": "Socket identified a malicious cluster of Visual Studio Code extensions spanning both VS Code Marketplace and Open VSX registries. Two confirmed malicious themes were discovered: Aurora Nocturne Night Theme, which…",
+   "date": "2026-10-03T03:14:16+00:00",
+   "author": "AlienVault",
+   "adversary": "GlassWorm",
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "vs code",
+    "extensions",
+    "open vsx",
+    "glassworm",
+    "dead-drop",
+    "credential theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac07308bd5cef8481adcf61"
+  },
+  {
+   "name": "The Psychedelic Stealer: When the CAPTCHA Is the Installer",
+   "summary": "Between September 9 and September 14, 2026, an unattributed Russian-speaking operator compromised at least six legitimate Ukrainian small-business websites to deliver a fake Cloudflare verification page. The ClickFix…",
+   "date": "2026-10-02T13:48:42+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Psychedelic",
+    "psychedeliclove.exe"
+   ],
+   "countries": [
+    "Ukraine"
+   ],
+   "industries": [
+    "Healthcare",
+    "Manufacturing",
+    "Media",
+    "Retail"
+   ],
+   "tags": [
+    "cryptocurrency theft",
+    "fake captcha",
+    "native-messaging bridge",
+    "clickfix",
+    "ukraine targeting",
+    "msi execution"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abfb63a870eec5021127b09"
+  },
+  {
+   "name": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+   "summary": "A sophisticated multi-component campaign targeting telecommunications and network-edge appliances has been discovered, featuring BPFDoor variants and a newly identified implant designated AVERAT. The operation leverages…",
+   "date": "2026-10-02T13:48:11+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "BPFDoor",
+    "AVERAT",
+    "Rekoobe"
+   ],
+   "countries": [],
+   "industries": [
+    "Telecommunications"
+   ],
+   "tags": [
+    "linux",
+    "implant",
+    "bpfdoor",
+    "network-edge",
+    "rekoobe",
+    "smtp"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abfb61b65922c3229d35cf8"
+  },
+  {
+   "name": "Anatomy of BraZetsu: How Cybercriminals Supply the Underground Ecosystem",
+   "summary": "BraZetsu is a sophisticated Python-based Windows malware framework attributed to the Brazilian threat actor Exilware. Unlike standard infostealers, it functions as a comprehensive toolkit for Initial Access Brokers…",
+   "date": "2026-10-02T13:14:24+00:00",
+   "author": "AlienVault",
+   "adversary": "Exilware",
+   "malware": [
+    "BraZetsu",
+    "CNABHunter",
+    "Ousaban",
+    "AgenteV2"
+   ],
+   "countries": [
+    "United States of America",
+    "Argentina",
+    "Brazil",
+    "Paraguay",
+    "Portugal",
+    "Spain"
+   ],
+   "industries": [
+    "Finance",
+    "Government",
+    "Healthcare",
+    "Manufacturing",
+    "Technology",
+    "Retail"
+   ],
+   "tags": [
+    "ousaban",
+    "latin america",
+    "cnab targeting",
+    "infected marketplace",
+    "websocket c2",
+    "ai-enhanced reconnaissance"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abfae3085404615c3cf7a32"
+  },
+  {
    "name": "Determined Attacker Uploads Malicious Webshells to Parks and Rec Management Platform Servers",
    "summary": "A threat actor compromised three web servers hosting recreation management software for municipalities and parks organizations by exploiting a file upload vulnerability. After multiple failed exploitation attempts, the…",
    "date": "2026-10-02T07:17:52+00:00",
@@ -275,115 +435,6 @@
     "underground"
    ],
    "url": "https://otx.alienvault.com/pulse/6abf599ea3419c5518645c45"
-  },
-  {
-   "name": "RemusStealer: EtherHiding In Hidden Windows",
-   "summary": "RemusStealer is a malware-as-a-service program exhibiting multiple similarities to LummaStealer, including anti-virtual machine checks, credential theft tactics, and Application-Bound Encryption bypass methods. A key…",
-   "date": "2026-10-02T01:47:27+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "RemusStealer",
-    "LummaStealer"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "remusstealer",
-    "information stealer",
-    "credential theft",
-    "ethereum smart contracts",
-    "hidden desktops",
-    "lummastealer"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abf0d2f3741a634cbd57475"
-  },
-  {
-   "name": "PSIRT",
-   "summary": "A critical path traversal vulnerability combined with improper NULL byte neutralization in FortiMail versions 7.2 through 8.0 allows unauthenticated attackers to write arbitrary files on the underlying system through…",
-   "date": "2026-10-02T01:40:22+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "system compromise",
-    "cve-2026-104286",
-    "path traversal",
-    "arbitrary file write",
-    "fortimail",
-    "unauthenticated access"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abf0b86fb14812f2dc84fb2"
-  },
-  {
-   "name": "TIKTOUK: Tracing a WordPress Credential Collection Toolkit",
-   "summary": "TIKTOUK is a multi-component toolkit designed to collect credentials from WordPress sites. It consists of three components: a Python probing module that identifies WordPress installations and scans for exposed secrets…",
-   "date": "2026-10-01T21:20:51+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "TIKTOUK"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "credential theft",
-    "wordpress",
-    "tiktouk",
-    "smtp plugin decryption",
-    "configuration exposure",
-    "aws credentials"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abeceb3ed88945bc5661c7d"
-  },
-  {
-   "name": "Fake xStocks, Pendle, and other sites bait crypto users with rewards votes",
-   "summary": "A large-scale phishing operation has deployed 70 fraudulent websites impersonating legitimate cryptocurrency projects including xStocks from Kraken, Pendle, Zama, Kinetiq, Yield Basis, and Firelight. The fake sites…",
-   "date": "2026-10-01T20:52:12+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "crypto impersonation",
-    "walletconnect abuse",
-    "fake voting scam",
-    "cryptocurrency phishing",
-    "blockchain fraud",
-    "wallet drainer"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abec7fc11f84dc2a20573a9"
-  },
-  {
-   "name": "Warlock Ransomware Attackers Hit Water and Telecom Operators",
-   "summary": "The China-nexus threat group Longlegs continues to deploy Warlock ransomware by exploiting Microsoft SharePoint vulnerabilities, particularly the ToolShell exploit chain. Over the past two months, the group targeted at…",
-   "date": "2026-10-01T15:37:42+00:00",
-   "author": "AlienVault",
-   "adversary": "Longlegs",
-   "malware": [
-    "Warlock"
-   ],
-   "countries": [],
-   "industries": [
-    "Energy",
-    "Telecommunications",
-    "Government",
-    "Education"
-   ],
-   "tags": [
-    "sharepoint exploitation",
-    "telecommunications",
-    "cve-2025-1055",
-    "longlegs",
-    "water utility",
-    "cve-2025-49704"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abe7e463c092196777a7816"
   },
   {
    "name": "Hallucinating Credibility: China-Aligned TA419 Impersonates its Way into US AI Policy Circles",
@@ -450,32 +501,13 @@
     "proxy abuse"
    ],
    "url": "https://otx.alienvault.com/pulse/6a9a78c9a7a8e20715261f8c"
-  },
-  {
-   "name": "Contagious Interview steps outside the developer workflow",
-   "summary": "Jamf Threat Labs discovered a cluster of 14 trojanized macOS applications distributed as DMG and PKG files impersonating legitimate software like The Unarchiver, Sketch, and Bartender. These samples are linked to the…",
-   "date": "2026-09-03T22:07:29+00:00",
-   "author": "AlienVault",
-   "adversary": "DPRK",
-   "malware": [
-    "OtterCookie"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "trojanized installers",
-    "macos",
-    "ottercookie",
-    "fake job interview"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6a99efa1445d8ef021e25d53"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-05T08:10:20+00:00",
-  "sans": "2026-10-05T08:10:20+00:00",
-  "otx": "2026-10-05T08:10:20+00:00",
-  "urlhaus": "2026-10-05T08:10:20+00:00"
+  "threatfox": "2026-10-05T09:10:33+00:00",
+  "sans": "2026-10-05T09:10:33+00:00",
+  "otx": "2026-10-05T09:10:33+00:00",
+  "urlhaus": "2026-10-05T09:10:33+00:00"
  },
- "generated_at": "2026-10-05T08:10:20+00:00"
+ "generated_at": "2026-10-05T09:10:33+00:00"
 }
