@@ -2,25 +2,25 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1891,
-  "c2_servers": 197,
+  "total_iocs": 1898,
+  "c2_servers": 196,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 948,
+    "iocs": 953,
     "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 329,
+    "iocs": 335,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 56,
-    "c2": 26,
+    "iocs": 52,
+    "c2": 22,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -37,14 +37,14 @@
    },
    {
     "name": "Bashlite",
-    "iocs": 30,
+    "iocs": 32,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 25,
-    "c2": 25,
+    "iocs": 27,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
@@ -69,19 +69,19 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 664,
+  "online": 641,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 399
+    "count": 393
    },
    {
     "name": "elf",
-    "count": 287
+    "count": 277
    },
    {
     "name": "Mozi",
-    "count": 256
+    "count": 258
    },
    {
     "name": "ua-wget",
@@ -89,11 +89,11 @@
    },
    {
     "name": "32-bit",
-    "count": 78
+    "count": 80
    },
    {
     "name": "mips",
-    "count": 44
+    "count": 46
    },
    {
     "name": "arm",
@@ -502,10 +502,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-05T22:38:32+00:00",
-  "sans": "2026-10-05T22:38:32+00:00",
-  "otx": "2026-10-05T22:38:32+00:00",
-  "urlhaus": "2026-10-05T22:38:32+00:00"
+  "threatfox": "2026-10-05T23:36:59+00:00",
+  "sans": "2026-10-05T23:36:59+00:00",
+  "otx": "2026-10-05T23:36:59+00:00",
+  "urlhaus": "2026-10-05T23:36:59+00:00"
  },
- "generated_at": "2026-10-05T22:38:32+00:00"
+ "generated_at": "2026-10-05T23:36:59+00:00"
 }

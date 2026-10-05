@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T22:38:32+00:00",
+ "generated_at": "2026-10-05T23:36:59+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -18,7 +18,7 @@
   },
   {
    "name": "akira",
-   "count": 7
+   "count": 6
   },
   {
    "name": "incransom",
@@ -29,11 +29,11 @@
    "count": 6
   },
   {
-   "name": "N0n",
+   "name": "Storm",
    "count": 4
   },
   {
-   "name": "Storm",
+   "name": "emperador",
    "count": 4
   }
  ],
@@ -44,11 +44,11 @@
   },
   {
    "name": "Healthcare",
-   "count": 15
+   "count": 13
   },
   {
    "name": "Other",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Technology",
@@ -59,14 +59,14 @@
    "count": 7
   },
   {
-   "name": "Education",
-   "count": 5
+   "name": "Professional Services",
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 33,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -153,12 +153,6 @@
    "count": 2,
    "lat": 41.0,
    "lon": 29.0
-  },
-  {
-   "code": "AR",
-   "count": 1,
-   "lat": -34.6,
-   "lon": -58.4
   },
   {
    "code": "CH",
@@ -252,6 +246,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Nelson Mullins Riley & Scarborough",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-05T19:25:27+00:00",
+   "attack_date": "2026-10-05",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TmVsc29uIE11bGxpbnMgUmlsZXkgJiBTY2FyYm9yb3VnaEBTaWxlbnRSYW5zb21Hcm91cA=="
+  },
+  {
+   "victim": "Sheppard, Mullin, Richter & Hampton",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-05T19:25:07+00:00",
+   "attack_date": "2026-10-05",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/U2hlcHBhcmQsIE11bGxpbiwgUmljaHRlciAmIEhhbXB0b25AU2lsZW50UmFuc29tR3JvdXA="
+  },
+  {
+   "victim": "Turn5",
+   "group": "Global Secret Group",
+   "date": "2026-10-05T18:53:32+00:00",
+   "attack_date": "2026-10-05",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/VHVybjVAR2xvYmFsIFNlY3JldCBHcm91cA=="
+  },
   {
    "victim": "anwo.cl",
    "group": "safepay",
@@ -1054,15 +1075,6 @@
    "url": "https://www.ransomware.live/id/RFBMIEdyb3VwQGFraXJh"
   },
   {
-   "victim": "Krycler, Ervin, Taubman & Kaminsky",
-   "group": "akira",
-   "date": "2026-10-01T12:56:13+00:00",
-   "attack_date": "2026-10-01",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/S3J5Y2xlciwgRXJ2aW4sIFRhdWJtYW4gJiBLYW1pbnNreUBha2lyYQ=="
-  },
-  {
    "victim": "Graybar Electric Company, Inc.",
    "group": "Redact",
    "date": "2026-10-01T12:55:52+00:00",
@@ -1133,24 +1145,6 @@
    "country": "GB",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/RHluYW1pYyBPZmZpY2UgU29sdXRpb25zQHFpbGlu"
-  },
-  {
-   "victim": "Laboratorios Roemmers SAICF",
-   "group": "aurora",
-   "date": "2026-10-01T06:55:01+00:00",
-   "attack_date": "2026-10-01",
-   "country": "AR",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TGFib3JhdG9yaW9zIFJvZW1tZXJzIFNBSUNGQGF1cm9yYQ=="
-  },
-  {
-   "victim": "Houston Thyroid & Endocrine Specialists",
-   "group": "N0n",
-   "date": "2026-09-30T22:53:00+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/SG91c3RvbiBUaHlyb2lkICYgRW5kb2NyaW5lIFNwZWNpYWxpc3RzQE4wbg=="
   }
  ]
 }
