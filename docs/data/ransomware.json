@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-05T11:07:48+00:00",
+ "generated_at": "2026-10-05T12:08:38+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "lamashtu",
-   "count": 10
+   "count": 14
   },
   {
    "name": "qilin",
@@ -14,10 +14,6 @@
   },
   {
    "name": "krybit",
-   "count": 9
-  },
-  {
-   "name": "thegentlemen",
    "count": 9
   },
   {
@@ -29,30 +25,34 @@
    "count": 7
   },
   {
+   "name": "thegentlemen",
+   "count": 7
+  },
+  {
    "name": "incransom",
    "count": 6
   },
   {
-   "name": "Storm",
+   "name": "rhysida",
    "count": 5
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 24
+   "count": 25
   },
   {
    "name": "Healthcare",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Other",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Technology",
-   "count": 9
+   "count": 8
   },
   {
    "name": "Professional Services",
@@ -60,19 +60,19 @@
   },
   {
    "name": "Transportation",
-   "count": 6
+   "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 33,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 9,
+   "count": 10,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -89,10 +89,22 @@
    "lon": -79.4
   },
   {
+   "code": "ES",
+   "count": 4,
+   "lat": 40.4,
+   "lon": -3.7
+  },
+  {
    "code": "FR",
    "count": 4,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "MX",
+   "count": 4,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "AU",
@@ -107,34 +119,16 @@
    "lon": -0.1
   },
   {
-   "code": "MX",
-   "count": 3,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
    "code": "AE",
    "count": 2,
    "lat": 24.5,
    "lon": 54.4
   },
   {
-   "code": "ES",
-   "count": 2,
-   "lat": 40.4,
-   "lon": -3.7
-  },
-  {
    "code": "IN",
    "count": 2,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "KR",
-   "count": 2,
-   "lat": 37.6,
-   "lon": 127.0
   },
   {
    "code": "AR",
@@ -240,6 +234,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Fluge Audiovisuales",
+   "group": "lamashtu",
+   "date": "2026-10-05T07:32:31+00:00",
+   "attack_date": "2026-10-05",
+   "country": "ES",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/Rmx1Z2UgQXVkaW92aXN1YWxlc0BsYW1hc2h0dQ=="
+  },
+  {
+   "victim": "Bender Tribunenbau",
+   "group": "lamashtu",
+   "date": "2026-10-05T07:31:53+00:00",
+   "attack_date": "2026-10-05",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/QmVuZGVyIFRyaWJ1bmVuYmF1QGxhbWFzaHR1"
+  },
+  {
+   "victim": "TRANS LOGROÑO SOCIEDAD ANONIMA",
+   "group": "lamashtu",
+   "date": "2026-10-05T07:31:14+00:00",
+   "attack_date": "2026-10-05",
+   "country": "ES",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/VFJBTlMgTE9HUk%2FDkU8gU09DSUVEQUQgQU5PTklNQUBsYW1hc2h0dQ=="
+  },
+  {
+   "victim": "Grupo Industrial Tauro",
+   "group": "lamashtu",
+   "date": "2026-10-05T07:30:34+00:00",
+   "attack_date": "2026-10-05",
+   "country": "MX",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/R3J1cG8gSW5kdXN0cmlhbCBUYXVyb0BsYW1hc2h0dQ=="
+  },
   {
    "victim": "Bold Spring Nursery",
    "group": "play",
@@ -439,15 +469,6 @@
    "url": "https://www.ransomware.live/id/U3RhdGVzIEluZHVzdHJpZXNAU3Rvcm0="
   },
   {
-   "victim": "Aware",
-   "group": "thegentlemen",
-   "date": "2026-10-03T06:27:35+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/QXdhcmVAdGhlZ2VudGxlbWVu"
-  },
-  {
    "victim": "Allied Machine & Engineering",
    "group": "Storm",
    "date": "2026-10-03T06:27:26+00:00",
@@ -455,15 +476,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/QWxsaWVkIE1hY2hpbmUgJiBFbmdpbmVlcmluZ0BTdG9ybQ=="
-  },
-  {
-   "victim": "WOOSHIN SAFETY SYSTEMS CO LTD",
-   "group": "thegentlemen",
-   "date": "2026-10-03T06:27:14+00:00",
-   "attack_date": "2026-09-30",
-   "country": "KR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/V09PU0hJTiBTQUZFVFkgU1lTVEVNUyBDTyBMVERAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "Step By Step",
@@ -1121,24 +1133,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/TGF3IE9mZmljZXMgb2YgUi4gRGF2aWQgV2lsbGlhbXMsIFAuQS5Acmh5c2lkYQ=="
-  },
-  {
-   "victim": "www.newyjh.com",
-   "group": "ULose",
-   "date": "2026-09-30T07:51:07+00:00",
-   "attack_date": "2026-09-30",
-   "country": "KR",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/d3d3Lm5ld3lqaC5jb21AVUxvc2U="
-  },
-  {
-   "victim": "West County Health Centers",
-   "group": "Storm",
-   "date": "2026-09-30T06:19:03+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/V2VzdCBDb3VudHkgSGVhbHRoIENlbnRlcnNAU3Rvcm0="
   }
  ]
 }
