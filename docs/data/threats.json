@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2550,
-  "c2_servers": 234,
+  "total_iocs": 2562,
+  "c2_servers": 244,
   "families": [
    {
     "name": "AsyncRAT",
-    "iocs": 963,
+    "iocs": 962,
     "c2": 13,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
     "name": "Mirai",
-    "iocs": 959,
-    "c2": 3,
+    "iocs": 961,
+    "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -24,16 +24,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 59,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "AMOS",
-    "iocs": 58,
+    "iocs": 62,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 60,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Vidar",
@@ -42,50 +42,50 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "Potassium",
+    "iocs": 32,
+    "c2": 32,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
+   },
+   {
     "name": "Remus",
     "iocs": 31,
     "c2": 31,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
+    "name": "php.shin_webshell",
+    "iocs": 27,
+    "c2": 27,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
     "name": "SNOWLIGHT",
-    "iocs": 29,
+    "iocs": 24,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
-   },
-   {
-    "name": "Potassium",
-    "iocs": 24,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 24,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
-  "sample": 681,
-  "online": 452,
+  "sample": 722,
+  "online": 491,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 274
+    "count": 301
    },
    {
     "name": "Mozi",
-    "count": 192
+    "count": 203
    },
    {
     "name": "elf",
-    "count": 145
+    "count": 162
    },
    {
     "name": "32-bit",
-    "count": 61
+    "count": 67
    },
    {
     "name": "ua-wget",
@@ -93,92 +93,97 @@
    },
    {
     "name": "mips",
-    "count": 37
+    "count": 38
    },
    {
     "name": "arm",
-    "count": 23
+    "count": 29
    },
    {
     "name": "honeypot",
-    "count": 20
+    "count": 21
    }
   ]
  },
  "ports": [
   {
-   "port": 23,
-   "service": "Telnet",
-   "records": 2167328,
-   "targets": 277,
-   "sources": 14644
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 1502102,
-   "targets": 282,
-   "sources": 14390
-  },
-  {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 1197975,
-   "targets": 301,
-   "sources": 11388
+   "records": 111,
+   "targets": 4,
+   "sources": 50
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 56,
+   "targets": 3,
+   "sources": 45
+  },
+  {
+   "port": 8443,
+   "service": "Web (HTTPS alt)",
+   "records": 52,
+   "targets": 3,
+   "sources": 11
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 795218,
-   "targets": 280,
-   "sources": 16682
+   "records": 42,
+   "targets": 2,
+   "sources": 26
   },
   {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 728250,
-   "targets": 273,
-   "sources": 10209
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 31,
+   "targets": 2,
+   "sources": 12
   },
   {
-   "port": 8000,
+   "port": 3306,
+   "service": "MySQL",
+   "records": 23,
+   "targets": 3,
+   "sources": 12
+  },
+  {
+   "port": 123,
+   "service": "NTP",
+   "records": 17,
+   "targets": 2,
+   "sources": 14
+  },
+  {
+   "port": 8081,
    "service": "Web (alt)",
-   "records": 586424,
-   "targets": 283,
-   "sources": 8681
+   "records": 14,
+   "targets": 3,
+   "sources": 14
   },
   {
-   "port": 2222,
+   "port": 81,
+   "service": "Web (alt)",
+   "records": 12,
+   "targets": 2,
+   "sources": 8
+  },
+  {
+   "port": 102,
    "service": null,
-   "records": 228405,
-   "targets": 286,
-   "sources": 9084
-  },
-  {
-   "port": 2323,
-   "service": "Telnet (alt)",
-   "records": 177420,
-   "targets": 247,
-   "sources": 1598
-  },
-  {
-   "port": 16767,
-   "service": null,
-   "records": 135453,
-   "targets": 8,
-   "sources": 4907
-  },
-  {
-   "port": 7680,
-   "service": null,
-   "records": 107105,
-   "targets": 215,
-   "sources": 2481
+   "records": 9,
+   "targets": 2,
+   "sources": 9
   }
  ],
- "ports_date": "2026-10-04",
+ "ports_date": "2026-10-05",
  "diary": [
+  {
+   "title": "ISC Stormcast For Monday, October 5th, 2026 https://isc.sans.edu/podcastdetail/10122, (Mon, Oct 5th)",
+   "url": "https://isc.sans.edu/diary/rss/33398",
+   "date": "2026-10-05T02:00:02+00:00"
+  },
   {
    "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
    "url": "https://isc.sans.edu/diary/rss/33396",
@@ -203,11 +208,6 @@
    "title": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
    "url": "https://isc.sans.edu/diary/rss/33388",
    "date": "2026-10-01T05:32:13+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Thursday, October 1st, 2026 https://isc.sans.edu/podcastdetail/10118, (Thu, Oct 1st)",
-   "url": "https://isc.sans.edu/diary/rss/33386",
-   "date": "2026-10-01T02:00:02+00:00"
   }
  ],
  "pulses": [
@@ -472,10 +472,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-05T01:17:18+00:00",
-  "sans": "2026-10-05T01:17:18+00:00",
-  "otx": "2026-10-05T01:17:18+00:00",
-  "urlhaus": "2026-10-05T01:17:18+00:00"
+  "threatfox": "2026-10-05T02:27:01+00:00",
+  "sans": "2026-10-05T02:27:01+00:00",
+  "otx": "2026-10-05T02:27:01+00:00",
+  "urlhaus": "2026-10-05T02:27:01+00:00"
  },
- "generated_at": "2026-10-05T01:17:18+00:00"
+ "generated_at": "2026-10-05T02:27:01+00:00"
 }
