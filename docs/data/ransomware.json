@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T15:55:54+00:00",
+ "generated_at": "2026-10-05T17:06:18+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -21,10 +21,6 @@
    "count": 7
   },
   {
-   "name": "lamashtu",
-   "count": 7
-  },
-  {
    "name": "thegentlemen",
    "count": 7
   },
@@ -33,14 +29,18 @@
    "count": 6
   },
   {
-   "name": "emperador",
+   "name": "lamashtu",
    "count": 5
+  },
+  {
+   "name": "N0n",
+   "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 25
+   "count": 24
   },
   {
    "name": "Healthcare",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Other",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 34,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -143,6 +143,12 @@
    "lon": 101.7
   },
   {
+   "code": "TR",
+   "count": 2,
+   "lat": 41.0,
+   "lon": 29.0
+  },
+  {
    "code": "AR",
    "count": 1,
    "lat": -34.6,
@@ -197,12 +203,6 @@
    "lon": 51.4
   },
   {
-   "code": "IT",
-   "count": 1,
-   "lat": 41.9,
-   "lon": 12.5
-  },
-  {
    "code": "JP",
    "count": 1,
    "lat": 35.7,
@@ -227,12 +227,6 @@
    "lon": 100.5
   },
   {
-   "code": "TR",
-   "count": 1,
-   "lat": 41.0,
-   "lon": 29.0
-  },
-  {
    "code": "TT",
    "count": 1,
    "lat": 10.7,
@@ -246,6 +240,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "ENKA Schools",
+   "group": "Doommageddon",
+   "date": "2026-10-05T11:53:59+00:00",
+   "attack_date": "2026-10-05",
+   "country": "TR",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/RU5LQSBTY2hvb2xzQERvb21tYWdlZGRvbg=="
+  },
+  {
+   "victim": "Cam Group LLC",
+   "group": "Doommageddon",
+   "date": "2026-10-05T11:53:24+00:00",
+   "attack_date": "2026-10-05",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/Q2FtIEdyb3VwIExMQ0BEb29tbWFnZWRkb24="
+  },
+  {
+   "victim": "Franklin Empire",
+   "group": "BYOD",
+   "date": "2026-10-05T11:50:23+00:00",
+   "attack_date": "2026-10-04",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/RnJhbmtsaW4gRW1waXJlQEJZT0Q="
+  },
   {
    "victim": "Infomedia A/S",
    "group": "aurora",
@@ -1102,15 +1123,6 @@
    "url": "https://www.ransomware.live/id/UCoqKioqIE0qKioqKiBJKipAbmV0cnVubmVy"
   },
   {
-   "victim": "SitePro Rentals",
-   "group": "emperador",
-   "date": "2026-09-30T13:53:31+00:00",
-   "attack_date": "2026-09-30",
-   "country": null,
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/U2l0ZVBybyBSZW50YWxzQGVtcGVyYWRvcg=="
-  },
-  {
    "victim": "assist2enjoy.be",
    "group": "safepay",
    "date": "2026-09-30T13:36:19+00:00",
@@ -1127,24 +1139,6 @@
    "country": null,
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/RHIgRGFtaWVsIFB1Z2xpZXNlQGxhbWFzaHR1"
-  },
-  {
-   "victim": "Astidental di Sabbione",
-   "group": "lamashtu",
-   "date": "2026-09-30T13:32:20+00:00",
-   "attack_date": "2026-09-30",
-   "country": "IT",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/QXN0aWRlbnRhbCBkaSBTYWJiaW9uZUBsYW1hc2h0dQ=="
-  },
-  {
-   "victim": "Vinco Energy",
-   "group": "lamashtu",
-   "date": "2026-09-30T13:06:49+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/VmluY28gRW5lcmd5QGxhbWFzaHR1"
   }
  ]
 }
