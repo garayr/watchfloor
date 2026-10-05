@@ -914,27 +914,6 @@
    "epss": 0.0362,
    "cvss": 7.8,
    "sev": "high"
-  },
-  {
-   "id": "CVE-2026-85046",
-   "date": "2026-09-04",
-   "src": "CISA",
-   "vendor": "Google Chromium V8",
-   "vendor_name": "Google",
-   "product": "Chromium V8",
-   "title": "Google Chromium V8 Type Confusion Vulnerability",
-   "detail": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-18",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-85046"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
-   "kev": true,
-   "epss": 0.4888,
-   "cvss": 8.8,
-   "sev": "high"
   }
  ]
 }

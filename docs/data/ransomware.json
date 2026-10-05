@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T23:04:30+00:00",
+ "generated_at": "2026-10-05T00:08:16+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -29,22 +29,22 @@
    "count": 7
   },
   {
-   "name": "Storm",
+   "name": "incransom",
    "count": 6
   },
   {
-   "name": "incransom",
-   "count": 6
+   "name": "rhysida",
+   "count": 5
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 23
+   "count": 24
   },
   {
    "name": "Healthcare",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Other",
@@ -240,6 +240,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Bold Spring Nursery",
+   "group": "play",
+   "date": "2026-10-04T19:37:06+00:00",
+   "attack_date": "2026-10-04",
+   "country": "US",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/Qm9sZCBTcHJpbmcgTnVyc2VyeUBwbGF5"
+  },
+  {
+   "victim": "Silicon Valley Glass",
+   "group": "play",
+   "date": "2026-10-04T19:36:32+00:00",
+   "attack_date": "2026-10-04",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/U2lsaWNvbiBWYWxsZXkgR2xhc3NAcGxheQ=="
+  },
   {
    "victim": "OMUR HIRDAVAT LTD",
    "group": "emperador",
@@ -1121,24 +1139,6 @@
    "country": "KR",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/d3d3Lm5ld3lqaC5jb21AVUxvc2U="
-  },
-  {
-   "victim": "West County Health Centers",
-   "group": "Storm",
-   "date": "2026-09-30T06:19:03+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/V2VzdCBDb3VudHkgSGVhbHRoIENlbnRlcnNAU3Rvcm0="
-  },
-  {
-   "victim": "Gardeners' Guild",
-   "group": "Storm",
-   "date": "2026-09-30T06:18:31+00:00",
-   "attack_date": "2026-09-30",
-   "country": "US",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/R2FyZGVuZXJzJyBHdWlsZEBTdG9ybQ=="
   }
  ]
 }
