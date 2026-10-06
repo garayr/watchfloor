@@ -2,44 +2,50 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1921,
-  "c2_servers": 218,
+  "total_iocs": 1964,
+  "c2_servers": 219,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 970,
+    "iocs": 937,
     "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 447,
+    "iocs": 483,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 49,
-    "c2": 24,
+    "iocs": 51,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 42,
+    "iocs": 45,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 27,
-    "c2": 27,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "Unknown Loader",
+    "iocs": 33,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Bashlite",
     "iocs": 25,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 25,
+    "c2": 25,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Unknown RAT",
@@ -49,8 +55,8 @@
    },
    {
     "name": "Aisuru",
-    "iocs": 20,
-    "c2": 20,
+    "iocs": 21,
+    "c2": 21,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    },
    {
@@ -58,30 +64,24 @@
     "iocs": 18,
     "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
-   },
-   {
-    "name": "Formbook",
-    "iocs": 16,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    }
   ]
  },
  "urls": {
-  "sample": 879,
-  "online": 596,
+  "sample": 901,
+  "online": 616,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 362
+    "count": 374
    },
    {
     "name": "elf",
-    "count": 253
+    "count": 254
    },
    {
     "name": "Mozi",
-    "count": 226
+    "count": 231
    },
    {
     "name": "ua-wget",
@@ -89,11 +89,11 @@
    },
    {
     "name": "32-bit",
-    "count": 64
+    "count": 65
    },
    {
     "name": "arm",
-    "count": 35
+    "count": 36
    },
    {
     "name": "mips",
@@ -502,10 +502,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-06T02:56:01+00:00",
-  "sans": "2026-10-06T02:56:01+00:00",
-  "otx": "2026-10-06T02:56:01+00:00",
-  "urlhaus": "2026-10-06T02:56:01+00:00"
+  "threatfox": "2026-10-06T03:57:47+00:00",
+  "sans": "2026-10-06T03:57:47+00:00",
+  "otx": "2026-10-06T03:57:47+00:00",
+  "urlhaus": "2026-10-06T03:57:47+00:00"
  },
- "generated_at": "2026-10-06T02:56:01+00:00"
+ "generated_at": "2026-10-06T03:57:47+00:00"
 }
