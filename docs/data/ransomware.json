@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T01:51:57+00:00",
+ "generated_at": "2026-10-06T02:56:01+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -33,7 +33,7 @@
    "count": 4
   },
   {
-   "name": "incransom",
+   "name": "lamashtu",
    "count": 4
   }
  ],
@@ -43,16 +43,16 @@
    "count": 23
   },
   {
-   "name": "Healthcare",
-   "count": 13
-  },
-  {
    "name": "Technology",
    "count": 13
   },
   {
-   "name": "Other",
+   "name": "Healthcare",
    "count": 12
+  },
+  {
+   "name": "Other",
+   "count": 11
   },
   {
    "name": "Professional Services",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 32,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -252,6 +252,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "A...n",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-05T22:27:00+00:00",
+   "attack_date": "2026-10-05",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QS4uLm5AU2lsZW50UmFuc29tR3JvdXA="
+  },
+  {
+   "victim": "M** A******* G********** O******* a** P***** S****** A*********",
+   "group": "netrunner",
+   "date": "2026-10-05T22:03:55+00:00",
+   "attack_date": "2026-10-05",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TSoqIEEqKioqKioqIEcqKioqKioqKioqIE8qKioqKioqIGEqKiBQKioqKiogUyoqKioqKiBBKioqKioqKioqQG5ldHJ1bm5lcg=="
+  },
   {
    "victim": "Global Security Concepts",
    "group": "qilin",
@@ -1099,15 +1117,6 @@
    "url": "https://www.ransomware.live/id/R3JheWJhciBFbGVjdHJpYyBDb21wYW55LCBJbmMuQFJlZGFjdA=="
   },
   {
-   "victim": "Rimrock Foundation",
-   "group": "incransom",
-   "date": "2026-10-01T12:31:18+00:00",
-   "attack_date": "2026-10-01",
-   "country": "US",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/Umltcm9jayBGb3VuZGF0aW9uQGluY3JhbnNvbQ=="
-  },
-  {
    "victim": "Guardian Pharmacy LLC",
    "group": "incransom",
    "date": "2026-10-01T11:30:04+00:00",
@@ -1124,15 +1133,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/RGVuIEhhcnRvZyBJbmR1c3RyaWVzQGluY3JhbnNvbQ=="
-  },
-  {
-   "victim": "Northern Counties Health Care",
-   "group": "incransom",
-   "date": "2026-10-01T11:29:32+00:00",
-   "attack_date": "2026-10-01",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Tm9ydGhlcm4gQ291bnRpZXMgSGVhbHRoIENhcmVAaW5jcmFuc29t"
   },
   {
    "victim": "LA PONDEROSA",

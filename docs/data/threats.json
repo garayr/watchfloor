@@ -2,56 +2,44 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2019,
-  "c2_servers": 215,
+  "total_iocs": 1921,
+  "c2_servers": 218,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 967,
+    "iocs": 970,
     "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 418,
+    "iocs": 447,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 54,
+    "iocs": 49,
     "c2": 24,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 40,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "PXA Stealer",
-    "iocs": 36,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.pxa_stealer"
-   },
-   {
-    "name": "Bashlite",
-    "iocs": 28,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 25,
-    "c2": 25,
+    "iocs": 27,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "AsyncRAT",
-    "iocs": 24,
-    "c2": 9,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+    "name": "Bashlite",
+    "iocs": 25,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
    },
    {
     "name": "Unknown RAT",
@@ -60,28 +48,40 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat"
    },
    {
-    "name": "Coinminer",
+    "name": "Aisuru",
     "iocs": 20,
+    "c2": 20,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
+   },
+   {
+    "name": "AsyncRAT",
+    "iocs": 18,
+    "c2": 9,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
+    "name": "Formbook",
+    "iocs": 16,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    }
   ]
  },
  "urls": {
-  "sample": 860,
-  "online": 577,
+  "sample": 879,
+  "online": 596,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 354
+    "count": 362
    },
    {
     "name": "elf",
-    "count": 252
+    "count": 253
    },
    {
     "name": "Mozi",
-    "count": 214
+    "count": 226
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,7 @@
    },
    {
     "name": "32-bit",
-    "count": 63
+    "count": 64
    },
    {
     "name": "arm",
@@ -97,7 +97,7 @@
    },
    {
     "name": "mips",
-    "count": 34
+    "count": 35
    },
    {
     "name": "ascii",
@@ -502,10 +502,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-06T01:51:57+00:00",
-  "sans": "2026-10-06T01:51:57+00:00",
-  "otx": "2026-10-06T01:51:57+00:00",
-  "urlhaus": "2026-10-06T01:51:57+00:00"
+  "threatfox": "2026-10-06T02:56:01+00:00",
+  "sans": "2026-10-06T02:56:01+00:00",
+  "otx": "2026-10-06T02:56:01+00:00",
+  "urlhaus": "2026-10-06T02:56:01+00:00"
  },
- "generated_at": "2026-10-06T01:51:57+00:00"
+ "generated_at": "2026-10-06T02:56:01+00:00"
 }
