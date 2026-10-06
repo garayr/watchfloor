@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T18:29:28+00:00",
+ "generated_at": "2026-10-06T19:26:28+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -14,15 +14,15 @@
   },
   {
    "name": "krybit",
-   "count": 9
-  },
-  {
-   "name": "Booba Project",
-   "count": 7
+   "count": 8
   },
   {
    "name": "thegentlemen",
    "count": 6
+  },
+  {
+   "name": "Booba Project",
+   "count": 5
   },
   {
    "name": "BYOD",
@@ -33,30 +33,30 @@
    "count": 4
   },
   {
-   "name": "lamashtu",
+   "name": "akira",
    "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 21
+   "count": 20
   },
   {
    "name": "Technology",
    "count": 14
   },
   {
-   "name": "Healthcare",
-   "count": 11
+   "name": "Other",
+   "count": 12
   },
   {
-   "name": "Other",
-   "count": 11
+   "name": "Healthcare",
+   "count": 10
   },
   {
    "name": "Professional Services",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Transportation",
@@ -66,15 +66,9 @@
  "by_country": [
   {
    "code": "US",
-   "count": 29,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
-  },
-  {
-   "code": "BR",
-   "count": 4,
-   "lat": -23.5,
-   "lon": -46.6
   },
   {
    "code": "CA",
@@ -93,6 +87,12 @@
    "count": 4,
    "lat": 40.4,
    "lon": -3.7
+  },
+  {
+   "code": "BR",
+   "count": 3,
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "FR",
@@ -239,12 +239,6 @@
    "lon": 18.1
   },
   {
-   "code": "SG",
-   "count": 1,
-   "lat": 1.35,
-   "lon": 103.8
-  },
-  {
    "code": "SK",
    "count": 1,
    "lat": 48.1,
@@ -264,6 +258,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Four Hands LLC",
+   "group": "UmBra",
+   "date": "2026-10-06T14:54:04+00:00",
+   "attack_date": "2026-10-06",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/Rm91ciBIYW5kcyBMTENAVW1CcmE="
+  },
+  {
+   "victim": "Michael K Shelby, CPA",
+   "group": "akira",
+   "date": "2026-10-06T14:52:35+00:00",
+   "attack_date": "2026-10-06",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TWljaGFlbCBLIFNoZWxieSwgQ1BBQGFraXJh"
+  },
+  {
+   "victim": "Hygrade",
+   "group": "akira",
+   "date": "2026-10-06T14:52:15+00:00",
+   "attack_date": "2026-10-06",
+   "country": "US",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/SHlncmFkZUBha2lyYQ=="
+  },
   {
    "victim": "CORBY ROCK MILL",
    "group": "qilin",
@@ -1127,33 +1148,6 @@
    "country": "FR",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/RVVST0RJVEVML1JFU09URUxFQ09NQGtyeWJpdA=="
-  },
-  {
-   "victim": "DISK PRECISION GROUP - diskprecision.com",
-   "group": "krybit",
-   "date": "2026-10-01T14:59:58+00:00",
-   "attack_date": "2026-10-01",
-   "country": "SG",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RElTSyBQUkVDSVNJT04gR1JPVVAgLSBkaXNrcHJlY2lzaW9uLmNvbUBrcnliaXQ="
-  },
-  {
-   "victim": "FUNAP - Fundação \"Prof. Dr. Manoel Pedro Pimentel\"",
-   "group": "Booba Project",
-   "date": "2026-10-01T14:50:50+00:00",
-   "attack_date": "2026-10-01",
-   "country": "BR",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/RlVOQVAgLSBGdW5kYcOnw6NvICJQcm9mLiBEci4gTWFub2VsIFBlZHJvIFBpbWVudGVsIkBCb29iYSBQcm9qZWN0"
-  },
-  {
-   "victim": "ASSOCIATED GASTROENTEROLOGISTS OF CENTRAL NEW YORK, P.C",
-   "group": "Booba Project",
-   "date": "2026-10-01T14:50:46+00:00",
-   "attack_date": "2026-10-01",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/QVNTT0NJQVRFRCBHQVNUUk9FTlRFUk9MT0dJU1RTIE9GIENFTlRSQUwgTkVXIFlPUkssIFAuQ0BCb29iYSBQcm9qZWN0"
   }
  ]
 }
