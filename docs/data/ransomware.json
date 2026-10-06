@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-06T00:37:10+00:00",
+ "generated_at": "2026-10-06T01:51:57+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 12
+   "count": 13
   },
   {
    "name": "safepay",
@@ -29,11 +29,11 @@
    "count": 4
   },
   {
-   "name": "akira",
+   "name": "emperador",
    "count": 4
   },
   {
-   "name": "emperador",
+   "name": "incransom",
    "count": 4
   }
  ],
@@ -43,12 +43,12 @@
    "count": 23
   },
   {
-   "name": "Technology",
+   "name": "Healthcare",
    "count": 13
   },
   {
-   "name": "Healthcare",
-   "count": 12
+   "name": "Technology",
+   "count": 13
   },
   {
    "name": "Other",
@@ -56,23 +56,23 @@
   },
   {
    "name": "Professional Services",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Transportation",
-   "count": 7
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 31,
+   "count": 32,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "BR",
-   "count": 5,
+   "count": 4,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -252,6 +252,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Global Security Concepts",
+   "group": "qilin",
+   "date": "2026-10-05T21:04:49+00:00",
+   "attack_date": "2026-10-05",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/R2xvYmFsIFNlY3VyaXR5IENvbmNlcHRzQHFpbGlu"
+  },
   {
    "victim": "Standpointe / Trinite Solutions",
    "group": "BYOD",
@@ -910,24 +919,6 @@
    "url": "https://www.ransomware.live/id/VGhlIE9mZmljaWFsIENvbGxlZ2Ugb2YgQXJjaGl0ZWN0cyBvZiBMZcOzbiAoQ09BTClAYWtpcmE="
   },
   {
-   "victim": "Jampac Alimentos",
-   "group": "akira",
-   "date": "2026-10-02T14:59:03+00:00",
-   "attack_date": "2026-10-02",
-   "country": "BR",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/SmFtcGFjIEFsaW1lbnRvc0Bha2lyYQ=="
-  },
-  {
-   "victim": "Pacific Tank Lines",
-   "group": "akira",
-   "date": "2026-10-02T14:24:13+00:00",
-   "attack_date": "2026-10-02",
-   "country": "US",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/UGFjaWZpYyBUYW5rIExpbmVzQGFraXJh"
-  },
-  {
    "victim": "Inova Semiconductors GmbH",
    "group": "qilin",
    "date": "2026-10-02T14:04:15+00:00",
@@ -1133,6 +1124,15 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/RGVuIEhhcnRvZyBJbmR1c3RyaWVzQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "Northern Counties Health Care",
+   "group": "incransom",
+   "date": "2026-10-01T11:29:32+00:00",
+   "attack_date": "2026-10-01",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Tm9ydGhlcm4gQ291bnRpZXMgSGVhbHRoIENhcmVAaW5jcmFuc29t"
   },
   {
    "victim": "LA PONDEROSA",
