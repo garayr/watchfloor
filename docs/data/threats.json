@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2411,
-  "c2_servers": 260,
+  "total_iocs": 2361,
+  "c2_servers": 261,
   "families": [
    {
     "name": "Unknown Loader",
@@ -13,13 +13,13 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 335,
+    "iocs": 325,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Mirai",
-    "iocs": 221,
+    "iocs": 183,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -36,6 +36,12 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.netwire"
    },
    {
+    "name": "AMOS",
+    "iocs": 30,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
     "name": "ContagiousDrop",
     "iocs": 30,
     "c2": 0,
@@ -46,12 +52,6 @@
     "iocs": 30,
     "c2": 30,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "AMOS",
-    "iocs": 29,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Unknown RAT",
@@ -69,35 +69,35 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 968,
+  "online": 966,
   "top_tags": [
    {
     "name": "LuaJIT-loader",
-    "count": 718
+    "count": 704
    },
    {
     "name": "SmartLoader",
-    "count": 718
+    "count": 704
    },
    {
     "name": "github",
-    "count": 718
+    "count": 704
    },
    {
     "name": "zip",
-    "count": 718
+    "count": 704
    },
    {
     "name": "mirai",
-    "count": 117
+    "count": 120
    },
    {
     "name": "elf",
-    "count": 95
+    "count": 97
    },
    {
     "name": "Mozi",
-    "count": 85
+    "count": 90
    },
    {
     "name": "ua-wget",
@@ -506,10 +506,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-06T22:26:15+00:00",
-  "sans": "2026-10-06T22:26:15+00:00",
-  "otx": "2026-10-06T22:26:15+00:00",
-  "urlhaus": "2026-10-06T22:26:15+00:00"
+  "threatfox": "2026-10-06T23:25:21+00:00",
+  "sans": "2026-10-06T23:25:21+00:00",
+  "otx": "2026-10-06T23:25:21+00:00",
+  "urlhaus": "2026-10-06T23:25:21+00:00"
  },
- "generated_at": "2026-10-06T22:26:15+00:00"
+ "generated_at": "2026-10-06T23:25:21+00:00"
 }
