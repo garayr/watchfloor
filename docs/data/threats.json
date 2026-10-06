@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2794,
-  "c2_servers": 261,
+  "total_iocs": 2634,
+  "c2_servers": 260,
   "families": [
    {
     "name": "Unknown Loader",
@@ -12,28 +12,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "Mirai",
-    "iocs": 542,
-    "c2": 5,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 512,
+    "iocs": 511,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Vidar",
-    "iocs": 46,
-    "c2": 21,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "AMOS",
-    "iocs": 30,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+    "name": "Mirai",
+    "iocs": 503,
+    "c2": 5,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ContagiousDrop",
@@ -42,10 +30,10 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.contagious_drop"
    },
    {
-    "name": "IClickFix",
+    "name": "AMOS",
     "iocs": 29,
-    "c2": 7,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Unknown RAT",
@@ -54,9 +42,15 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat"
    },
    {
-    "name": "php.shin_webshell",
+    "name": "IClickFix",
     "iocs": 27,
-    "c2": 27,
+    "c2": 7,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 26,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
@@ -64,44 +58,50 @@
     "iocs": 25,
     "c2": 25,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 23,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 993,
+  "online": 990,
   "top_tags": [
    {
     "name": "LuaJIT-loader",
-    "count": 910
+    "count": 890
    },
    {
     "name": "SmartLoader",
-    "count": 910
+    "count": 890
    },
    {
     "name": "github",
-    "count": 910
+    "count": 890
    },
    {
     "name": "zip",
-    "count": 910
+    "count": 890
    },
    {
     "name": "Mozi",
-    "count": 37
+    "count": 43
    },
    {
     "name": "mirai",
-    "count": 32
+    "count": 40
    },
    {
     "name": "elf",
-    "count": 17
+    "count": 22
    },
    {
     "name": "32-bit",
-    "count": 15
+    "count": 19
    }
   ]
  },
@@ -506,10 +506,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-06T14:10:38+00:00",
-  "sans": "2026-10-06T14:10:38+00:00",
-  "otx": "2026-10-06T14:10:38+00:00",
-  "urlhaus": "2026-10-06T14:10:38+00:00"
+  "threatfox": "2026-10-06T15:09:33+00:00",
+  "sans": "2026-10-06T15:09:33+00:00",
+  "otx": "2026-10-06T15:09:33+00:00",
+  "urlhaus": "2026-10-06T15:09:33+00:00"
  },
- "generated_at": "2026-10-06T14:10:38+00:00"
+ "generated_at": "2026-10-06T15:09:33+00:00"
 }
