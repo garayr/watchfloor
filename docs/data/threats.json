@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2554,
-  "c2_servers": 272,
+  "total_iocs": 2462,
+  "c2_servers": 267,
   "families": [
    {
     "name": "Unknown Loader",
@@ -13,13 +13,13 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 503,
+    "iocs": 474,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Mirai",
-    "iocs": 428,
+    "iocs": 377,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -31,21 +31,9 @@
    },
    {
     "name": "Unknown RAT",
-    "iocs": 30,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat"
-   },
-   {
-    "name": "AMOS",
-    "iocs": 29,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
-    "name": "Remcos",
     "iocs": 28,
-    "c2": 28,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+    "c2": 20,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat"
    },
    {
     "name": "IClickFix",
@@ -60,36 +48,48 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
+    "name": "AMOS",
+    "iocs": 26,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Remcos",
+    "iocs": 26,
+    "c2": 26,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+   },
+   {
     "name": "Vidar",
-    "iocs": 23,
-    "c2": 21,
+    "iocs": 25,
+    "c2": 23,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 974,
+  "online": 973,
   "top_tags": [
    {
     "name": "LuaJIT-loader",
-    "count": 790
+    "count": 776
    },
    {
     "name": "SmartLoader",
-    "count": 790
+    "count": 776
    },
    {
     "name": "github",
-    "count": 790
+    "count": 776
    },
    {
     "name": "zip",
-    "count": 790
+    "count": 776
    },
    {
     "name": "mirai",
-    "count": 97
+    "count": 102
    },
    {
     "name": "elf",
@@ -101,7 +101,7 @@
    },
    {
     "name": "Mozi",
-    "count": 54
+    "count": 59
    }
   ]
  },
@@ -506,10 +506,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-06T17:25:38+00:00",
-  "sans": "2026-10-06T17:25:38+00:00",
-  "otx": "2026-10-06T17:25:38+00:00",
-  "urlhaus": "2026-10-06T17:25:38+00:00"
+  "threatfox": "2026-10-06T18:29:28+00:00",
+  "sans": "2026-10-06T18:29:28+00:00",
+  "otx": "2026-10-06T18:29:28+00:00",
+  "urlhaus": "2026-10-06T18:29:28+00:00"
  },
- "generated_at": "2026-10-06T17:25:38+00:00"
+ "generated_at": "2026-10-06T18:29:28+00:00"
 }
