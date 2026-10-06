@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-06T13:13:38+00:00",
+ "generated_at": "2026-10-06T14:10:38+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
- "total": 100,
+ "total": 99,
  "by_group": [
   {
    "name": "qilin",
@@ -25,26 +25,26 @@
    "count": 6
   },
   {
+   "name": "BYOD",
+   "count": 4
+  },
+  {
    "name": "Storm",
    "count": 4
   },
   {
    "name": "lamashtu",
    "count": 4
-  },
-  {
-   "name": "BYOD",
-   "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 23
+   "count": 21
   },
   {
    "name": "Technology",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Healthcare",
@@ -607,6 +607,15 @@
    "url": "https://www.ransomware.live/id/VGhvbWFzIFkuIFBpY2tldHQgJiBDby4sIEluYy5AYXVyb3Jh"
   },
   {
+   "victim": "Trump Mobile Wireless (Telecom)",
+   "group": "BYOD",
+   "date": "2026-10-05T08:04:48+00:00",
+   "attack_date": "2026-10-04",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/VHJ1bXAgTW9iaWxlIFdpcmVsZXNzIChUZWxlY29tKUBCWU9E"
+  },
+  {
    "victim": "Royal Selangor",
    "group": "BYOD",
    "date": "2026-10-05T08:04:09+00:00",
@@ -1145,24 +1154,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/QVNTT0NJQVRFRCBHQVNUUk9FTlRFUk9MT0dJU1RTIE9GIENFTlRSQUwgTkVXIFlPUkssIFAuQ0BCb29iYSBQcm9qZWN0"
-  },
-  {
-   "victim": "Superior Plating Technology CO",
-   "group": "morpheus",
-   "date": "2026-10-01T14:30:01+00:00",
-   "attack_date": "2026-10-01",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/U3VwZXJpb3IgUGxhdGluZyBUZWNobm9sb2d5IENPQG1vcnBoZXVz"
-  },
-  {
-   "victim": "Graybar Electric Company, Inc.",
-   "group": "Redact",
-   "date": "2026-10-01T12:55:52+00:00",
-   "attack_date": "2026-10-01",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/R3JheWJhciBFbGVjdHJpYyBDb21wYW55LCBJbmMuQFJlZGFjdA=="
   }
  ]
 }
