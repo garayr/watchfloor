@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1999,
-  "c2_servers": 249,
+  "total_iocs": 1948,
+  "c2_servers": 241,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 733,
-    "c2": 7,
+    "iocs": 700,
+    "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -19,21 +19,15 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 219,
+    "iocs": 218,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Vidar",
-    "iocs": 48,
-    "c2": 23,
+    "iocs": 43,
+    "c2": 18,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "Bashlite",
-    "iocs": 27,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
    },
    {
     "name": "php.shin_webshell",
@@ -49,9 +43,15 @@
    },
    {
     "name": "AMOS",
-    "iocs": 22,
+    "iocs": 23,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Aisuru",
+    "iocs": 22,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    },
    {
     "name": "Remcos",
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 1000,
+  "online": 999,
   "top_tags": [
    {
-    "name": "zip",
-    "count": 991
-   },
-   {
-    "name": "github",
-    "count": 989
-   },
-   {
     "name": "LuaJIT-loader",
-    "count": 986
+    "count": 983
    },
    {
     "name": "SmartLoader",
-    "count": 986
+    "count": 983
    },
    {
-    "name": "Loader",
+    "name": "github",
+    "count": 983
+   },
+   {
+    "name": "zip",
+    "count": 983
+   },
+   {
+    "name": "Mozi",
+    "count": 8
+   },
+   {
+    "name": "elf",
+    "count": 7
+   },
+   {
+    "name": "32-bit",
     "count": 6
    },
    {
-    "name": "nexe",
+    "name": "mirai",
     "count": 6
-   },
-   {
-    "name": "nodeJS",
-    "count": 6
-   },
-   {
-    "name": "issue-attachment",
-    "count": 2
    }
   ]
  },
@@ -180,6 +180,11 @@
  "ports_date": "2026-10-06",
  "diary": [
   {
+   "title": "More RMM Tools In the Wild, (Tue, Oct 6th)",
+   "url": "https://isc.sans.edu/diary/rss/33400",
+   "date": "2026-10-06T09:34:56+00:00"
+  },
+  {
    "title": "ISC Stormcast For Monday, October 5th, 2026 https://isc.sans.edu/podcastdetail/10122, (Mon, Oct 5th)",
    "url": "https://isc.sans.edu/diary/rss/33398",
    "date": "2026-10-05T02:00:02+00:00"
@@ -203,11 +208,6 @@
    "title": "ISC Stormcast For Friday, October 2nd, 2026 https://isc.sans.edu/podcastdetail/10120, (Fri, Oct 2nd)",
    "url": "https://isc.sans.edu/diary/rss/33390",
    "date": "2026-10-02T02:00:02+00:00"
-  },
-  {
-   "title": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
-   "url": "https://isc.sans.edu/diary/rss/33388",
-   "date": "2026-10-01T05:32:13+00:00"
   }
  ],
  "pulses": [
@@ -506,10 +506,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-06T09:07:52+00:00",
-  "sans": "2026-10-06T09:07:52+00:00",
-  "otx": "2026-10-06T09:07:52+00:00",
-  "urlhaus": "2026-10-06T09:07:52+00:00"
+  "threatfox": "2026-10-06T10:07:07+00:00",
+  "sans": "2026-10-06T10:07:07+00:00",
+  "otx": "2026-10-06T10:07:07+00:00",
+  "urlhaus": "2026-10-06T10:07:07+00:00"
  },
- "generated_at": "2026-10-06T09:07:52+00:00"
+ "generated_at": "2026-10-06T10:07:07+00:00"
 }
