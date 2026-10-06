@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T21:25:47+00:00",
+ "generated_at": "2026-10-06T22:26:15+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -40,33 +40,33 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 21
+   "count": 20
   },
   {
    "name": "Other",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Technology",
    "count": 12
   },
   {
+   "name": "Professional Services",
+   "count": 11
+  },
+  {
    "name": "Healthcare",
    "count": 10
   },
   {
-   "name": "Professional Services",
-   "count": 10
-  },
-  {
    "name": "Transportation",
-   "count": 8
+   "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -185,12 +185,6 @@
    "lon": -74.1
   },
   {
-   "code": "EC",
-   "count": 1,
-   "lat": -0.2,
-   "lon": -78.5
-  },
-  {
    "code": "FI",
    "count": 1,
    "lat": 60.2,
@@ -258,6 +252,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "SweetRush",
+   "group": "Panzer",
+   "date": "2026-10-06T17:51:53+00:00",
+   "attack_date": "2026-10-06",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/U3dlZXRSdXNoQFBhbnplcg=="
+  },
+  {
+   "victim": "magnals.com",
+   "group": "incransom",
+   "date": "2026-10-06T17:27:48+00:00",
+   "attack_date": "2026-10-06",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/bWFnbmFscy5jb21AaW5jcmFuc29t"
+  },
   {
    "victim": "Greggio Argento",
    "group": "Deadlock",
@@ -925,15 +937,6 @@
    "url": "https://www.ransomware.live/id/U3RhdGVzIEluZHVzdHJpZXNAU3Rvcm0="
   },
   {
-   "victim": "Allied Machine & Engineering",
-   "group": "Storm",
-   "date": "2026-10-03T06:27:26+00:00",
-   "attack_date": "2026-10-02",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/QWxsaWVkIE1hY2hpbmUgJiBFbmdpbmVlcmluZ0BTdG9ybQ=="
-  },
-  {
    "victim": "Hospital de la Santa Creu i Sant Pau",
    "group": "thegentlemen",
    "date": "2026-10-03T06:26:33+00:00",
@@ -1139,15 +1142,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/RmFyIFdlc3QgQ29udHJhY3RvcnNARGVhZGxvY2s="
-  },
-  {
-   "victim": "Automovil Club del Ecuador ANETA",
-   "group": "Barracuda",
-   "date": "2026-10-02T04:50:21+00:00",
-   "attack_date": "2026-10-02",
-   "country": "EC",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/QXV0b21vdmlsIENsdWIgZGVsIEVjdWFkb3IgQU5FVEFAQmFycmFjdWRh"
   }
  ]
 }
