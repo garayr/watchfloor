@@ -2,31 +2,31 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1982,
-  "c2_servers": 227,
+  "total_iocs": 1989,
+  "c2_servers": 237,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 810,
+    "iocs": 770,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 535,
+    "iocs": 536,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 138,
+    "iocs": 178,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Vidar",
-    "iocs": 46,
-    "c2": 21,
+    "iocs": 47,
+    "c2": 22,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -43,13 +43,13 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 26,
+    "iocs": 25,
     "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "AMOS",
-    "iocs": 25,
+    "iocs": 24,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -61,43 +61,47 @@
    },
    {
     "name": "Aisuru",
-    "iocs": 21,
-    "c2": 21,
+    "iocs": 20,
+    "c2": 20,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 999,
+  "online": 997,
   "top_tags": [
    {
-    "name": "LuaJIT-loader",
-    "count": 990
+    "name": "SmartLoader",
+    "count": 966
    },
    {
-    "name": "SmartLoader",
-    "count": 990
+    "name": "LuaJIT-loader",
+    "count": 964
    },
    {
     "name": "zip",
-    "count": 989
+    "count": 962
    },
    {
     "name": "github",
-    "count": 988
+    "count": 960
    },
    {
-    "name": "SilentNet",
-    "count": 5
+    "name": "mirai",
+    "count": 9
+   },
+   {
+    "name": "Mozi",
+    "count": 6
    },
    {
     "name": "elf",
-    "count": 1
+    "count": 6
    },
    {
-    "name": "iot",
-    "count": 1
+    "name": "SilentNet",
+    "count": 4
    }
   ]
  },
@@ -498,10 +502,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-06T06:58:44+00:00",
-  "sans": "2026-10-06T06:58:44+00:00",
-  "otx": "2026-10-06T06:58:44+00:00",
-  "urlhaus": "2026-10-06T06:58:44+00:00"
+  "threatfox": "2026-10-06T07:55:17+00:00",
+  "sans": "2026-10-06T07:55:17+00:00",
+  "otx": "2026-10-06T07:55:17+00:00",
+  "urlhaus": "2026-10-06T07:55:17+00:00"
  },
- "generated_at": "2026-10-06T06:58:44+00:00"
+ "generated_at": "2026-10-06T07:55:17+00:00"
 }
