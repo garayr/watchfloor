@@ -2,56 +2,56 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2014,
-  "c2_servers": 238,
+  "total_iocs": 1982,
+  "c2_servers": 227,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 856,
-    "c2": 9,
+    "iocs": 810,
+    "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 521,
-    "c2": 0,
+    "iocs": 535,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 116,
-    "c2": 0,
+    "iocs": 138,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Vidar",
-    "iocs": 51,
-    "c2": 26,
+    "iocs": 46,
+    "c2": 21,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "AMOS",
-    "iocs": 49,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
     "name": "Bashlite",
-    "iocs": 25,
+    "iocs": 27,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
    },
    {
+    "name": "php.shin_webshell",
+    "iocs": 27,
+    "c2": 27,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
     "name": "IClickFix",
-    "iocs": 25,
+    "iocs": 26,
     "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "php.shin_webshell",
+    "name": "AMOS",
     "iocs": 25,
-    "c2": 25,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Unknown RAT",
@@ -69,39 +69,35 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 883,
+  "online": 999,
   "top_tags": [
    {
-    "name": "SmartLoader",
-    "count": 458
+    "name": "LuaJIT-loader",
+    "count": 990
    },
    {
-    "name": "LuaJIT-loader",
-    "count": 457
+    "name": "SmartLoader",
+    "count": 990
    },
    {
     "name": "zip",
-    "count": 455
+    "count": 989
    },
    {
     "name": "github",
-    "count": 454
+    "count": 988
    },
    {
-    "name": "mirai",
-    "count": 226
+    "name": "SilentNet",
+    "count": 5
    },
    {
     "name": "elf",
-    "count": 185
+    "count": 1
    },
    {
-    "name": "ua-wget",
-    "count": 157
-   },
-   {
-    "name": "Mozi",
-    "count": 154
+    "name": "iot",
+    "count": 1
    }
   ]
  },
@@ -109,72 +105,72 @@
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 91614,
-   "targets": 213,
-   "sources": 4051
+   "records": 309742,
+   "targets": 231,
+   "sources": 6630
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 70674,
-   "targets": 200,
-   "sources": 2419
+   "records": 257698,
+   "targets": 223,
+   "sources": 4224
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 69702,
-   "targets": 231,
-   "sources": 3403
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 54329,
-   "targets": 210,
-   "sources": 2768
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 45475,
-   "targets": 217,
-   "sources": 2153
+   "records": 230339,
+   "targets": 266,
+   "sources": 6539
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 34182,
-   "targets": 234,
-   "sources": 2147
+   "records": 138707,
+   "targets": 261,
+   "sources": 5476
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 126034,
+   "targets": 254,
+   "sources": 4316
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 99979,
+   "targets": 259,
+   "sources": 3544
   },
   {
    "port": 2222,
    "service": null,
-   "records": 17042,
-   "targets": 215,
-   "sources": 1339
-  },
-  {
-   "port": 853,
-   "service": null,
-   "records": 10377,
-   "targets": 32,
-   "sources": 1430
+   "records": 56884,
+   "targets": 254,
+   "sources": 3096
   },
   {
    "port": 7680,
    "service": null,
-   "records": 9225,
-   "targets": 22,
-   "sources": 1149
+   "records": 26970,
+   "targets": 199,
+   "sources": 1776
   },
   {
-   "port": 137,
+   "port": 51413,
    "service": null,
-   "records": 8359,
-   "targets": 90,
-   "sources": 109
+   "records": 24527,
+   "targets": 21,
+   "sources": 893
+  },
+  {
+   "port": 853,
+   "service": null,
+   "records": 24020,
+   "targets": 71,
+   "sources": 2419
   }
  ],
  "ports_date": "2026-10-06",
@@ -502,10 +498,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-06T05:55:40+00:00",
-  "sans": "2026-10-06T05:55:40+00:00",
-  "otx": "2026-10-06T05:55:40+00:00",
-  "urlhaus": "2026-10-06T05:55:40+00:00"
+  "threatfox": "2026-10-06T06:58:44+00:00",
+  "sans": "2026-10-06T06:58:44+00:00",
+  "otx": "2026-10-06T06:58:44+00:00",
+  "urlhaus": "2026-10-06T06:58:44+00:00"
  },
- "generated_at": "2026-10-06T05:55:40+00:00"
+ "generated_at": "2026-10-06T06:58:44+00:00"
 }
