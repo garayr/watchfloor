@@ -2,31 +2,31 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1989,
-  "c2_servers": 237,
+  "total_iocs": 1999,
+  "c2_servers": 249,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 770,
-    "c2": 6,
+    "iocs": 733,
+    "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 536,
+    "iocs": 537,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 178,
+    "iocs": 219,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Vidar",
-    "iocs": 47,
-    "c2": 22,
+    "iocs": 48,
+    "c2": 23,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -43,65 +43,65 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 25,
+    "iocs": 24,
     "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "AMOS",
-    "iocs": 24,
+    "iocs": 22,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Remcos",
+    "iocs": 22,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "Unknown RAT",
     "iocs": 22,
     "c2": 22,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat"
-   },
-   {
-    "name": "Aisuru",
-    "iocs": 20,
-    "c2": 20,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 997,
+  "online": 1000,
   "top_tags": [
    {
-    "name": "SmartLoader",
-    "count": 966
-   },
-   {
-    "name": "LuaJIT-loader",
-    "count": 964
-   },
-   {
     "name": "zip",
-    "count": 962
+    "count": 991
    },
    {
     "name": "github",
-    "count": 960
+    "count": 989
    },
    {
-    "name": "mirai",
-    "count": 9
+    "name": "LuaJIT-loader",
+    "count": 986
    },
    {
-    "name": "Mozi",
+    "name": "SmartLoader",
+    "count": 986
+   },
+   {
+    "name": "Loader",
     "count": 6
    },
    {
-    "name": "elf",
+    "name": "nexe",
     "count": 6
    },
    {
-    "name": "SilentNet",
-    "count": 4
+    "name": "nodeJS",
+    "count": 6
+   },
+   {
+    "name": "issue-attachment",
+    "count": 2
    }
   ]
  },
@@ -211,6 +211,52 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Lunex Uses BYOVD to Disable Security Monitoring and Deploy Persistent Stealer",
+   "summary": "The Lunex Malware-as-a-Service platform targets Ukrainian users through fake CAPTCHA lures, deploying a sophisticated loader that exploits AMD's vulnerable PDFWKRNL.sys driver (CVE-2023-20598) to disable endpoint…",
+   "date": "2026-10-06T08:31:04+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "LunexLoader",
+    "LunexStealer",
+    "PDFWKRNL.sys"
+   ],
+   "countries": [
+    "Ukraine"
+   ],
+   "industries": [],
+   "tags": [
+    "byovd",
+    "lunexstealer",
+    "cve-2023-20598",
+    "pdfwkrnl.sys",
+    "kernel callback manipulation",
+    "cryptocurrency wallet theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac4b1c8431cd87d87aa1784"
+  },
+  {
+   "name": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+   "summary": "A Linux malware strain named ClingSTUN exploits unpatched vulnerabilities in Internet-facing devices to establish persistent footholds and functions as a back-connect proxy backdoor. The campaign targets IoT devices…",
+   "date": "2026-10-05T22:44:42+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ClingSTUN"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "cve-2024-32314",
+    "proxy botnet",
+    "cve-2026-87827",
+    "cve-2023-41011",
+    "cve-2021-35394",
+    "cve-2024-21887"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac4285a7c6e1cd492e8b2cf"
+  },
   {
    "name": "Caught in 4K: The Gentlemen Files",
    "summary": "A Russian-speaking affiliate of the Gentlemen ransomware group, identifying as Azazel, compromised over two dozen organizations across six countries while simultaneously betraying the RaaS operator. The threat actor…",
@@ -420,48 +466,6 @@
    "url": "https://otx.alienvault.com/pulse/6abfae3085404615c3cf7a32"
   },
   {
-   "name": "Determined Attacker Uploads Malicious Webshells to Parks and Rec Management Platform Servers",
-   "summary": "A threat actor compromised three web servers hosting recreation management software for municipalities and parks organizations by exploiting a file upload vulnerability. After multiple failed exploitation attempts, the…",
-   "date": "2026-10-02T07:17:52+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "webshell",
-    "recreation-management-platform",
-    "timestomping",
-    "china-based",
-    "file-upload-vulnerability",
-    "credential-harvesting"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abf5aa04b47ef1458d7472a"
-  },
-  {
-   "name": "New PamStealer variant targets macOS via fake crypto wallet",
-   "summary": "A third variant of PamStealer has been identified, distributed through a fake Wavel cryptocurrency wallet application. The malware employs a sophisticated server-side decryption chain using a purpose-built utility…",
-   "date": "2026-09-22T20:35:41+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "PamStealer"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "persistence",
-    "ecies",
-    "infostealer",
-    "pamstealer",
-    "keychain",
-    "cryptocurrency"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ab2e69de1b172350066344d"
-  },
-  {
    "name": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
    "summary": "StyleSmuggler is an unpatched zero-day vulnerability affecting all current versions of Magento and Adobe Commerce, including version 2.4.9, enabling unauthenticated remote code execution. Active exploitation began on…",
    "date": "2026-09-05T20:33:07+00:00",
@@ -502,10 +506,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-06T07:55:17+00:00",
-  "sans": "2026-10-06T07:55:17+00:00",
-  "otx": "2026-10-06T07:55:17+00:00",
-  "urlhaus": "2026-10-06T07:55:17+00:00"
+  "threatfox": "2026-10-06T09:07:52+00:00",
+  "sans": "2026-10-06T09:07:52+00:00",
+  "otx": "2026-10-06T09:07:52+00:00",
+  "urlhaus": "2026-10-06T09:07:52+00:00"
  },
- "generated_at": "2026-10-06T07:55:17+00:00"
+ "generated_at": "2026-10-06T09:07:52+00:00"
 }
