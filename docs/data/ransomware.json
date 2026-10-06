@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T20:28:02+00:00",
+ "generated_at": "2026-10-06T21:25:47+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -33,7 +33,7 @@
    "count": 4
   },
   {
-   "name": "Storm",
+   "name": "lamashtu",
    "count": 4
   }
  ],
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 31,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -143,6 +143,12 @@
    "lon": 2.35
   },
   {
+   "code": "IT",
+   "count": 2,
+   "lat": 41.9,
+   "lon": 12.5
+  },
+  {
    "code": "MX",
    "count": 2,
    "lat": 19.4,
@@ -215,12 +221,6 @@
    "lon": 51.4
   },
   {
-   "code": "IT",
-   "count": 1,
-   "lat": 41.9,
-   "lon": 12.5
-  },
-  {
    "code": "JP",
    "count": 1,
    "lat": 35.7,
@@ -258,6 +258,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Greggio Argento",
+   "group": "Deadlock",
+   "date": "2026-10-06T16:21:21+00:00",
+   "attack_date": "2026-10-06",
+   "country": "IT",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/R3JlZ2dpbyBBcmdlbnRvQERlYWRsb2Nr"
+  },
   {
    "victim": "Agri Industrial",
    "group": "everest",
@@ -923,15 +932,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/QWxsaWVkIE1hY2hpbmUgJiBFbmdpbmVlcmluZ0BTdG9ybQ=="
-  },
-  {
-   "victim": "Step By Step",
-   "group": "Storm",
-   "date": "2026-10-03T06:26:55+00:00",
-   "attack_date": "2026-10-02",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/U3RlcCBCeSBTdGVwQFN0b3Jt"
   },
   {
    "victim": "Hospital de la Santa Creu i Sant Pau",
