@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T23:36:59+00:00",
+ "generated_at": "2026-10-06T00:37:10+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -7,6 +7,10 @@
   {
    "name": "qilin",
    "count": 12
+  },
+  {
+   "name": "safepay",
+   "count": 10
   },
   {
    "name": "krybit",
@@ -17,19 +21,15 @@
    "count": 7
   },
   {
-   "name": "akira",
-   "count": 6
-  },
-  {
-   "name": "incransom",
-   "count": 6
-  },
-  {
    "name": "thegentlemen",
    "count": 6
   },
   {
    "name": "Storm",
+   "count": 4
+  },
+  {
+   "name": "akira",
    "count": 4
   },
   {
@@ -40,33 +40,33 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 25
-  },
-  {
-   "name": "Healthcare",
-   "count": 13
-  },
-  {
-   "name": "Other",
-   "count": 13
+   "count": 23
   },
   {
    "name": "Technology",
-   "count": 11
+   "count": 13
+  },
+  {
+   "name": "Healthcare",
+   "count": 12
+  },
+  {
+   "name": "Other",
+   "count": 12
+  },
+  {
+   "name": "Professional Services",
+   "count": 9
   },
   {
    "name": "Transportation",
    "count": 7
-  },
-  {
-   "name": "Professional Services",
-   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -81,6 +81,12 @@
    "count": 4,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "DE",
+   "count": 4,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "ES",
@@ -131,16 +137,22 @@
    "lon": 151.2
   },
   {
+   "code": "CH",
+   "count": 2,
+   "lat": 46.9,
+   "lon": 7.4
+  },
+  {
    "code": "CL",
    "count": 2,
    "lat": -33.4,
    "lon": -70.6
   },
   {
-   "code": "DE",
+   "code": "CZ",
    "count": 2,
    "lat": 50.1,
-   "lon": 8.7
+   "lon": 14.4
   },
   {
    "code": "DK",
@@ -155,22 +167,10 @@
    "lon": 29.0
   },
   {
-   "code": "CH",
-   "count": 1,
-   "lat": 46.9,
-   "lon": 7.4
-  },
-  {
    "code": "CO",
    "count": 1,
    "lat": 4.7,
    "lon": -74.1
-  },
-  {
-   "code": "CZ",
-   "count": 1,
-   "lat": 50.1,
-   "lon": 14.4
   },
   {
    "code": "EC",
@@ -189,6 +189,12 @@
    "count": 1,
    "lat": 35.7,
    "lon": 51.4
+  },
+  {
+   "code": "IT",
+   "count": 1,
+   "lat": 41.9,
+   "lon": 12.5
   },
   {
    "code": "JP",
@@ -246,6 +252,69 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Standpointe / Trinite Solutions",
+   "group": "BYOD",
+   "date": "2026-10-05T20:20:25+00:00",
+   "attack_date": "2026-10-04",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/U3RhbmRwb2ludGUgLyBUcmluaXRlIFNvbHV0aW9uc0BCWU9E"
+  },
+  {
+   "victim": "dd-automation.ch",
+   "group": "safepay",
+   "date": "2026-10-05T19:39:24+00:00",
+   "attack_date": "2026-10-05",
+   "country": "CZ",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/ZGQtYXV0b21hdGlvbi5jaEBzYWZlcGF5"
+  },
+  {
+   "victim": "stuecheli.ch",
+   "group": "safepay",
+   "date": "2026-10-05T19:37:16+00:00",
+   "attack_date": "2026-10-05",
+   "country": "CH",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/c3R1ZWNoZWxpLmNoQHNhZmVwYXk="
+  },
+  {
+   "victim": "bwi-bau.de",
+   "group": "safepay",
+   "date": "2026-10-05T19:36:42+00:00",
+   "attack_date": "2026-10-05",
+   "country": "DE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/YndpLWJhdS5kZUBzYWZlcGF5"
+  },
+  {
+   "victim": "halservice.it",
+   "group": "safepay",
+   "date": "2026-10-05T19:36:08+00:00",
+   "attack_date": "2026-10-05",
+   "country": "IT",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/aGFsc2VydmljZS5pdEBzYWZlcGF5"
+  },
+  {
+   "victim": "grundens.com",
+   "group": "safepay",
+   "date": "2026-10-05T19:35:30+00:00",
+   "attack_date": "2026-10-05",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/Z3J1bmRlbnMuY29tQHNhZmVwYXk="
+  },
+  {
+   "victim": "t-systems.com",
+   "group": "safepay",
+   "date": "2026-10-05T19:34:51+00:00",
+   "attack_date": "2026-10-05",
+   "country": "DE",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/dC1zeXN0ZW1zLmNvbUBzYWZlcGF5"
+  },
   {
    "victim": "Nelson Mullins Riley & Scarborough",
    "group": "SilentRansomGroup",
@@ -605,15 +674,6 @@
    "country": "JP",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/TXV0c3VtaSBHcm91cEBxaWxpbg=="
-  },
-  {
-   "victim": "M****C",
-   "group": "payoutsking",
-   "date": "2026-10-04T13:19:10+00:00",
-   "attack_date": "2026-10-01",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/TSoqKipDQHBheW91dHNraW5n"
   },
   {
    "victim": "Center State Engineering",
@@ -985,15 +1045,6 @@
    "url": "https://www.ransomware.live/id/QXV0b21vdmlsIENsdWIgZGVsIEVjdWFkb3IgQU5FVEFAQmFycmFjdWRh"
   },
   {
-   "victim": "Sangre de Cristo Electric Association",
-   "group": "incransom",
-   "date": "2026-10-02T01:33:07+00:00",
-   "attack_date": "2026-10-01",
-   "country": "US",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/U2FuZ3JlIGRlIENyaXN0byBFbGVjdHJpYyBBc3NvY2lhdGlvbkBpbmNyYW5zb20="
-  },
-  {
    "victim": "Main Place Mall",
    "group": "netrunner",
    "date": "2026-10-02T00:05:15+00:00",
@@ -1048,33 +1099,6 @@
    "url": "https://www.ransomware.live/id/U3VwZXJpb3IgUGxhdGluZyBUZWNobm9sb2d5IENPQG1vcnBoZXVz"
   },
   {
-   "victim": "C*ro *nty *es",
-   "group": "nightspire",
-   "date": "2026-10-01T13:35:58+00:00",
-   "attack_date": "2026-10-01",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/QypybyAqbnR5ICplc0BuaWdodHNwaXJl"
-  },
-  {
-   "victim": "Wesmar",
-   "group": "akira",
-   "date": "2026-10-01T13:27:59+00:00",
-   "attack_date": "2026-10-01",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/V2VzbWFyQGFraXJh"
-  },
-  {
-   "victim": "DPL Group",
-   "group": "akira",
-   "date": "2026-10-01T13:27:57+00:00",
-   "attack_date": "2026-10-01",
-   "country": null,
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/RFBMIEdyb3VwQGFraXJh"
-  },
-  {
    "victim": "Graybar Electric Company, Inc.",
    "group": "Redact",
    "date": "2026-10-01T12:55:52+00:00",
@@ -1109,24 +1133,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/RGVuIEhhcnRvZyBJbmR1c3RyaWVzQGluY3JhbnNvbQ=="
-  },
-  {
-   "victim": "Northern Counties Health Care",
-   "group": "incransom",
-   "date": "2026-10-01T11:29:32+00:00",
-   "attack_date": "2026-10-01",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Tm9ydGhlcm4gQ291bnRpZXMgSGVhbHRoIENhcmVAaW5jcmFuc29t"
-  },
-  {
-   "victim": "Post Metal Recycling",
-   "group": "incransom",
-   "date": "2026-10-01T11:29:12+00:00",
-   "attack_date": "2026-10-01",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UG9zdCBNZXRhbCBSZWN5Y2xpbmdAaW5jcmFuc29t"
   },
   {
    "victim": "LA PONDEROSA",

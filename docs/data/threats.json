@@ -2,25 +2,25 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1898,
-  "c2_servers": 196,
+  "total_iocs": 1956,
+  "c2_servers": 198,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 953,
-    "c2": 8,
+    "iocs": 963,
+    "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 335,
+    "iocs": 377,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 52,
-    "c2": 22,
+    "iocs": 53,
+    "c2": 23,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -37,14 +37,14 @@
    },
    {
     "name": "Bashlite",
-    "iocs": 32,
+    "iocs": 33,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 27,
-    "c2": 27,
+    "iocs": 26,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
@@ -68,20 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 1000,
-  "online": 641,
+  "sample": 813,
+  "online": 538,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 393
+    "count": 332
    },
    {
     "name": "elf",
-    "count": 277
+    "count": 234
    },
    {
     "name": "Mozi",
-    "count": 258
+    "count": 200
    },
    {
     "name": "ua-wget",
@@ -89,15 +89,15 @@
    },
    {
     "name": "32-bit",
-    "count": 80
-   },
-   {
-    "name": "mips",
-    "count": 46
+    "count": 60
    },
    {
     "name": "arm",
-    "count": 39
+    "count": 35
+   },
+   {
+    "name": "mips",
+    "count": 31
    },
    {
     "name": "ascii",
@@ -502,10 +502,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-05T23:36:59+00:00",
-  "sans": "2026-10-05T23:36:59+00:00",
-  "otx": "2026-10-05T23:36:59+00:00",
-  "urlhaus": "2026-10-05T23:36:59+00:00"
+  "threatfox": "2026-10-06T00:37:10+00:00",
+  "sans": "2026-10-06T00:37:10+00:00",
+  "otx": "2026-10-06T00:37:10+00:00",
+  "urlhaus": "2026-10-06T00:37:10+00:00"
  },
- "generated_at": "2026-10-05T23:36:59+00:00"
+ "generated_at": "2026-10-06T00:37:10+00:00"
 }
