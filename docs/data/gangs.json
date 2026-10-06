@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T19:26:28+00:00",
+ "generated_at": "2026-10-06T20:28:02+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -5295,6 +5295,151 @@
    ],
    "history_size": 1,
    "updated": "2026-10-06T19:26:28+00:00"
+  },
+  "everest": {
+   "name": "everest",
+   "description": "Everest ransom group collects and analyzes information about their victims. They specialize in customer privacy data, financial information, databases, credit card information, and more. The Everest ransom group leaks the victim's data to the darknet and they announced that any victim that will not contact them will suffer from a data leak and they will not delete hist files for future usage.",
+   "aliases": [],
+   "first_seen": "2021-09-09",
+   "last_seen": "2026-10-06",
+   "victims_total": 409,
+   "cves": [],
+   "tools": [
+    "ProcDump",
+    "SoftPerfect NetScan",
+    "Cobalt Strike",
+    "Metasploit",
+    "Meterpreter",
+    "AnyDesk",
+    "Atera",
+    "Splashtop"
+   ],
+   "techniques": [
+    "Obfuscated Files or Information",
+    "Obfuscated Files or Information: Dynamic API Resolution",
+    "Valid Accounts: Local Accounts",
+    "Modify Registry",
+    "Deobfuscate/Decode Files or Information",
+    "Execution Guardrails",
+    "Hide Artifacts",
+    "Debugger Evasion",
+    "Remote System Discovery",
+    "Network Share Discovery",
+    "Software Discovery: Security Software Discovery",
+    "System Location Discovery: System Language Discovery",
+    "Remote Services: SMB/Windows Admin Shares",
+    "Application Layer Protocol: Web Protocols",
+    "Data Encrypted for Impact",
+    "Service Stop",
+    "Inhibit System Recovery"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 116
+     },
+     {
+      "name": "IT",
+      "count": 14
+     },
+     {
+      "name": "AE",
+      "count": 12
+     },
+     {
+      "name": "DE",
+      "count": 12
+     },
+     {
+      "name": "GB",
+      "count": 12
+     },
+     {
+      "name": "ES",
+      "count": 10
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 66
+     },
+     {
+      "name": "Professional Services",
+      "count": 66
+     },
+     {
+      "name": "Technology",
+      "count": 64
+     },
+     {
+      "name": "Manufacturing",
+      "count": 56
+     },
+     {
+      "name": "Financial Services",
+      "count": 39
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 24
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 13
+    },
+    {
+     "month": "2025-12",
+     "count": 10
+    },
+    {
+     "month": "2026-01",
+     "count": 21
+    },
+    {
+     "month": "2026-02",
+     "count": 13
+    },
+    {
+     "month": "2026-03",
+     "count": 6
+    },
+    {
+     "month": "2026-04",
+     "count": 12
+    },
+    {
+     "month": "2026-05",
+     "count": 15
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 27
+    },
+    {
+     "month": "2026-09",
+     "count": 12
+    },
+    {
+     "month": "2026-10",
+     "count": 5
+    }
+   ],
+   "history_size": 409,
+   "updated": "2026-10-06T20:28:02+00:00"
   }
  }
 }

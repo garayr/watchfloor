@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-06T19:26:28+00:00",
+ "generated_at": "2026-10-06T20:28:02+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "qilin",
-   "count": 15
+   "count": 14
   },
   {
    "name": "safepay",
@@ -14,7 +14,7 @@
   },
   {
    "name": "krybit",
-   "count": 8
+   "count": 7
   },
   {
    "name": "thegentlemen",
@@ -25,29 +25,29 @@
    "count": 5
   },
   {
+   "name": "everest",
+   "count": 5
+  },
+  {
    "name": "BYOD",
    "count": 4
   },
   {
    "name": "Storm",
    "count": 4
-  },
-  {
-   "name": "akira",
-   "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 20
-  },
-  {
-   "name": "Technology",
-   "count": 14
+   "count": 21
   },
   {
    "name": "Other",
+   "count": 13
+  },
+  {
+   "name": "Technology",
    "count": 12
   },
   {
@@ -60,13 +60,13 @@
   },
   {
    "name": "Transportation",
-   "count": 7
+   "count": 8
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -95,28 +95,10 @@
    "lon": -46.6
   },
   {
-   "code": "FR",
-   "count": 3,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
    "code": "IN",
    "count": 3,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "MX",
-   "count": 3,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
-   "code": "MY",
-   "count": 3,
-   "lat": 3.1,
-   "lon": 101.7
   },
   {
    "code": "AE",
@@ -155,10 +137,28 @@
    "lon": 12.6
   },
   {
-   "code": "GB",
+   "code": "FR",
    "count": 2,
-   "lat": 51.5,
-   "lon": -0.1
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
+   "code": "MX",
+   "count": 2,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
+   "code": "MY",
+   "count": 2,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
+   "code": "NL",
+   "count": 2,
+   "lat": 52.4,
+   "lon": 4.9
   },
   {
    "code": "TH",
@@ -191,6 +191,12 @@
    "lon": 24.9
   },
   {
+   "code": "GB",
+   "count": 1,
+   "lat": 51.5,
+   "lon": -0.1
+  },
+  {
    "code": "GR",
    "count": 1,
    "lat": 38.0,
@@ -219,12 +225,6 @@
    "count": 1,
    "lat": 35.7,
    "lon": 139.7
-  },
-  {
-   "code": "NL",
-   "count": 1,
-   "lat": 52.4,
-   "lon": 4.9
   },
   {
    "code": "SA",
@@ -258,6 +258,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Agri Industrial",
+   "group": "everest",
+   "date": "2026-10-06T16:17:41+00:00",
+   "attack_date": "2026-10-05",
+   "country": null,
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/QWdyaSBJbmR1c3RyaWFsQGV2ZXJlc3Q="
+  },
+  {
+   "victim": "B-accountants",
+   "group": "everest",
+   "date": "2026-10-06T16:17:04+00:00",
+   "attack_date": "2026-10-06",
+   "country": "NL",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Qi1hY2NvdW50YW50c0BldmVyZXN0"
+  },
+  {
+   "victim": "Morcon Developments",
+   "group": "everest",
+   "date": "2026-10-06T16:16:28+00:00",
+   "attack_date": "2026-10-06",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/TW9yY29uIERldmVsb3BtZW50c0BldmVyZXN0"
+  },
+  {
+   "victim": "Kennametal",
+   "group": "everest",
+   "date": "2026-10-06T16:15:50+00:00",
+   "attack_date": "2026-10-06",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/S2VubmFtZXRhbEBldmVyZXN0"
+  },
+  {
+   "victim": "Flydubai",
+   "group": "everest",
+   "date": "2026-10-06T16:15:13+00:00",
+   "attack_date": "2026-10-06",
+   "country": "AE",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/Rmx5ZHViYWlAZXZlcmVzdA=="
+  },
   {
    "victim": "Four Hands LLC",
    "group": "UmBra",
@@ -988,33 +1033,6 @@
    "url": "https://www.ransomware.live/id/RWxlY3RybyBIZWF0IFN3ZWRlbiBBQkByaHlzaWRh"
   },
   {
-   "victim": "Sports Events365",
-   "group": "qilin",
-   "date": "2026-10-02T18:03:08+00:00",
-   "attack_date": "2026-10-02",
-   "country": "GB",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/U3BvcnRzIEV2ZW50czM2NUBxaWxpbg=="
-  },
-  {
-   "victim": "Ad***ng",
-   "group": "AuditTeam",
-   "date": "2026-10-02T16:50:28+00:00",
-   "attack_date": "2026-10-02",
-   "country": "AE",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/QWQqKipuZ0BBdWRpdFRlYW0="
-  },
-  {
-   "victim": "The Official College of Architects of León (COAL)",
-   "group": "akira",
-   "date": "2026-10-02T14:59:23+00:00",
-   "attack_date": "2026-10-02",
-   "country": "MX",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/VGhlIE9mZmljaWFsIENvbGxlZ2Ugb2YgQXJjaGl0ZWN0cyBvZiBMZcOzbiAoQ09BTClAYWtpcmE="
-  },
-  {
    "victim": "Inova Semiconductors GmbH",
    "group": "qilin",
    "date": "2026-10-02T14:04:15+00:00",
@@ -1130,24 +1148,6 @@
    "country": "EC",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/QXV0b21vdmlsIENsdWIgZGVsIEVjdWFkb3IgQU5FVEFAQmFycmFjdWRh"
-  },
-  {
-   "victim": "Main Place Mall",
-   "group": "netrunner",
-   "date": "2026-10-02T00:05:15+00:00",
-   "attack_date": "2026-10-02",
-   "country": "MY",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/TWFpbiBQbGFjZSBNYWxsQG5ldHJ1bm5lcg=="
-  },
-  {
-   "victim": "EURODITEL/RESOTELECOM",
-   "group": "krybit",
-   "date": "2026-10-01T21:33:33+00:00",
-   "attack_date": "2026-10-01",
-   "country": "FR",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/RVVST0RJVEVML1JFU09URUxFQ09NQGtyeWJpdA=="
   }
  ]
 }
