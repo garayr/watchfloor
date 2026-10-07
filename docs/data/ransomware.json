@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T20:27:58+00:00",
+ "generated_at": "2026-10-07T21:28:23+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 20
+   "count": 21
   },
   {
    "name": "Professional Services",
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 31,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 5,
+   "count": 6,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -246,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Leadec",
+   "group": "anubis",
+   "date": "2026-10-07T16:54:20+00:00",
+   "attack_date": "2026-10-07",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TGVhZGVjQGFudWJpcw=="
+  },
   {
    "victim": "SANAtech Global Solutions",
    "group": "UmBra",
@@ -1127,15 +1136,6 @@
    "country": "DE",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/SW5vdmEgU2VtaWNvbmR1Y3RvcnMgR21iSEBxaWxpbg=="
-  },
-  {
-   "victim": "University of Illinois Chicago",
-   "group": "Booba Project",
-   "date": "2026-10-02T12:50:25+00:00",
-   "attack_date": "2026-10-02",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/VW5pdmVyc2l0eSBvZiBJbGxpbm9pcyBDaGljYWdvQEJvb2JhIFByb2plY3Q="
   }
  ]
 }

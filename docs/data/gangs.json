@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T18:08:14+00:00",
+ "generated_at": "2026-10-07T21:28:23+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -5558,6 +5558,124 @@
    ],
    "history_size": 54,
    "updated": "2026-10-07T05:44:33+00:00"
+  },
+  "anubis": {
+   "name": "anubis",
+   "description": "Anubis is a ransomware-as-a-service group active since December 2024 that targets healthcare, engineering, construction, and professional services sectors, offering affiliates a flexible revenue split model and an optional destructive \"wipe mode\" alongside standard encryption.",
+   "aliases": [],
+   "first_seen": "2025-02-25",
+   "last_seen": "2026-10-07",
+   "victims_total": 113,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 60
+     },
+     {
+      "name": "GB",
+      "count": 8
+     },
+     {
+      "name": "AU",
+      "count": 6
+     },
+     {
+      "name": "DE",
+      "count": 5
+     },
+     {
+      "name": "FR",
+      "count": 5
+     },
+     {
+      "name": "CA",
+      "count": 4
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 28
+     },
+     {
+      "name": "Manufacturing",
+      "count": 22
+     },
+     {
+      "name": "Professional Services",
+      "count": 21
+     },
+     {
+      "name": "Financial Services",
+      "count": 9
+     },
+     {
+      "name": "Technology",
+      "count": 9
+     },
+     {
+      "name": "Transportation",
+      "count": 6
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 9
+    },
+    {
+     "month": "2025-12",
+     "count": 10
+    },
+    {
+     "month": "2026-01",
+     "count": 5
+    },
+    {
+     "month": "2026-02",
+     "count": 11
+    },
+    {
+     "month": "2026-03",
+     "count": 8
+    },
+    {
+     "month": "2026-04",
+     "count": 9
+    },
+    {
+     "month": "2026-05",
+     "count": 3
+    },
+    {
+     "month": "2026-06",
+     "count": 11
+    },
+    {
+     "month": "2026-07",
+     "count": 10
+    },
+    {
+     "month": "2026-08",
+     "count": 8
+    },
+    {
+     "month": "2026-09",
+     "count": 6
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 113,
+   "updated": "2026-10-07T21:28:23+00:00"
   }
  }
 }
