@@ -2,31 +2,25 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2137,
-  "c2_servers": 272,
+  "total_iocs": 2038,
+  "c2_servers": 288,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 1159,
+    "iocs": 1128,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 210,
-    "c2": 2,
+    "iocs": 185,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Mirai",
-    "iocs": 71,
-    "c2": 6,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "Vidar",
-    "iocs": 53,
-    "c2": 27,
+    "iocs": 51,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -42,22 +36,28 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.netwire"
    },
    {
+    "name": "Remcos",
+    "iocs": 31,
+    "c2": 31,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 31,
+    "c2": 31,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
     "name": "ContagiousDrop",
     "iocs": 30,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.contagious_drop"
    },
    {
-    "name": "Remcos",
-    "iocs": 29,
-    "c2": 29,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 29,
-    "c2": 29,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "Potassium",
+    "iocs": 30,
+    "c2": 30,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
    },
    {
     "name": "Unknown RAT",
@@ -69,35 +69,35 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 961,
+  "online": 958,
   "top_tags": [
    {
     "name": "LuaJIT-loader",
-    "count": 634
+    "count": 612
    },
    {
     "name": "SmartLoader",
-    "count": 634
+    "count": 612
    },
    {
     "name": "github",
-    "count": 634
+    "count": 612
    },
    {
     "name": "zip",
-    "count": 634
+    "count": 612
    },
    {
     "name": "mirai",
-    "count": 148
+    "count": 151
    },
    {
     "name": "Mozi",
-    "count": 125
+    "count": 135
    },
    {
     "name": "elf",
-    "count": 110
+    "count": 114
    },
    {
     "name": "ua-wget",
@@ -109,75 +109,75 @@
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 1230276,
-   "targets": 285,
-   "sources": 14725
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 1004644,
-   "targets": 300,
-   "sources": 11749
-  },
-  {
-   "port": 22,
-   "service": "SSH",
-   "records": 944212,
-   "targets": 293,
-   "sources": 17632
+   "records": 135730,
+   "targets": 208,
+   "sources": 2345
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 592853,
-   "targets": 280,
-   "sources": 11755
+   "records": 81274,
+   "targets": 202,
+   "sources": 1744
   },
   {
-   "port": 23,
-   "service": "Telnet",
-   "records": 541918,
-   "targets": 283,
-   "sources": 15349
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 62310,
+   "targets": 208,
+   "sources": 2061
+  },
+  {
+   "port": 22,
+   "service": "SSH",
+   "records": 55877,
+   "targets": 225,
+   "sources": 2806
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 486077,
-   "targets": 290,
-   "sources": 10196
+   "records": 55053,
+   "targets": 190,
+   "sources": 1199
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 42016,
+   "targets": 231,
+   "sources": 1892
   },
   {
    "port": 2222,
    "service": null,
-   "records": 249625,
-   "targets": 289,
-   "sources": 9641
+   "records": 20481,
+   "targets": 211,
+   "sources": 1475
   },
   {
-   "port": 7680,
+   "port": 9000,
    "service": null,
-   "records": 122381,
-   "targets": 217,
-   "sources": 2998
+   "records": 9729,
+   "targets": 177,
+   "sources": 897
   },
   {
    "port": 16767,
    "service": null,
-   "records": 118532,
-   "targets": 15,
-   "sources": 4752
+   "records": 9658,
+   "targets": 8,
+   "sources": 1135
   },
   {
-   "port": 137,
-   "service": null,
-   "records": 91265,
-   "targets": 206,
-   "sources": 1041
+   "port": 2323,
+   "service": "Telnet (alt)",
+   "records": 8359,
+   "targets": 142,
+   "sources": 154
   }
  ],
- "ports_date": "2026-10-06",
+ "ports_date": "2026-10-07",
  "diary": [
   {
    "title": "ISC Stormcast For Wednesday, October 7th, 2026 https://isc.sans.edu/podcastdetail/10126, (Wed, Oct 7th)",
@@ -506,10 +506,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-07T02:44:11+00:00",
-  "sans": "2026-10-07T02:44:11+00:00",
-  "otx": "2026-10-07T02:44:11+00:00",
-  "urlhaus": "2026-10-07T02:44:11+00:00"
+  "threatfox": "2026-10-07T03:48:23+00:00",
+  "sans": "2026-10-07T03:48:23+00:00",
+  "otx": "2026-10-07T03:48:23+00:00",
+  "urlhaus": "2026-10-07T03:48:23+00:00"
  },
- "generated_at": "2026-10-07T02:44:11+00:00"
+ "generated_at": "2026-10-07T03:48:23+00:00"
 }

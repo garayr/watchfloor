@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T02:44:11+00:00",
+ "generated_at": "2026-10-07T03:48:23+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 18
+   "count": 19
   },
   {
    "name": "Other",
-   "count": 14
+   "count": 13
   },
   {
    "name": "Technology",
@@ -203,12 +203,6 @@
    "lon": -0.1
   },
   {
-   "code": "GR",
-   "count": 1,
-   "lat": 38.0,
-   "lon": 23.7
-  },
-  {
    "code": "IE",
    "count": 1,
    "lat": 53.3,
@@ -258,6 +252,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "EDFelectronics",
+   "group": "Panzer",
+   "date": "2026-10-06T22:55:53+00:00",
+   "attack_date": "2026-10-06",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RURGZWxlY3Ryb25pY3NAUGFuemVy"
+  },
   {
    "victim": "Beni Suef Technological University – BTU",
    "group": "UmBra",
@@ -1139,15 +1142,6 @@
    "country": "IN",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/c2FpLm9yZy5pbkBrcnliaXQ="
-  },
-  {
-   "victim": "UNION FA",
-   "group": "Deadlock",
-   "date": "2026-10-02T07:50:40+00:00",
-   "attack_date": "2026-10-02",
-   "country": "GR",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/VU5JT04gRkFARGVhZGxvY2s="
   }
  ]
 }
