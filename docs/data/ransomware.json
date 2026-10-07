@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T14:29:35+00:00",
+ "generated_at": "2026-10-07T15:47:18+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -13,15 +13,15 @@
    "count": 10
   },
   {
+   "name": "UmBra",
+   "count": 5
+  },
+  {
    "name": "everest",
    "count": 5
   },
   {
    "name": "BYOD",
-   "count": 4
-  },
-  {
-   "name": "Booba Project",
    "count": 4
   },
   {
@@ -48,25 +48,25 @@
   },
   {
    "name": "Technology",
-   "count": 13
+   "count": 15
   },
   {
    "name": "Other",
    "count": 12
   },
   {
-   "name": "Healthcare",
+   "name": "Transportation",
    "count": 8
   },
   {
-   "name": "Transportation",
-   "count": 8
+   "name": "Healthcare",
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 32,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -89,12 +89,6 @@
    "lon": -46.6
   },
   {
-   "code": "CA",
-   "count": 3,
-   "lat": 43.7,
-   "lon": -79.4
-  },
-  {
    "code": "TR",
    "count": 3,
    "lat": 41.0,
@@ -111,6 +105,12 @@
    "count": 2,
    "lat": -33.9,
    "lon": 151.2
+  },
+  {
+   "code": "CA",
+   "count": 2,
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "CH",
@@ -252,6 +252,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "SANAtech Global Solutions",
+   "group": "UmBra",
+   "date": "2026-10-07T11:27:15+00:00",
+   "attack_date": "2026-10-07",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U0FOQXRlY2ggR2xvYmFsIFNvbHV0aW9uc0BVbUJyYQ=="
+  },
+  {
+   "victim": "Raqib",
+   "group": "UmBra",
+   "date": "2026-10-07T11:26:39+00:00",
+   "attack_date": "2026-10-07",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/UmFxaWJAVW1CcmE="
+  },
   {
    "victim": "Tharisa",
    "group": "UmBra",
@@ -1115,24 +1133,6 @@
    "country": "DE",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/SW5vdmEgU2VtaWNvbmR1Y3RvcnMgR21iSEBxaWxpbg=="
-  },
-  {
-   "victim": "EdgeEndo® USA",
-   "group": "Booba Project",
-   "date": "2026-10-02T12:50:51+00:00",
-   "attack_date": "2026-10-02",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/RWRnZUVuZG%2FCriBVU0FAQm9vYmEgUHJvamVjdA=="
-  },
-  {
-   "victim": "Soni Medical Centre",
-   "group": "Booba Project",
-   "date": "2026-10-02T12:50:38+00:00",
-   "attack_date": "2026-10-02",
-   "country": "CA",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/U29uaSBNZWRpY2FsIENlbnRyZUBCb29iYSBQcm9qZWN0"
   },
   {
    "victim": "University of Illinois Chicago",
