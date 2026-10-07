@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T08:55:52+00:00",
+ "generated_at": "2026-10-07T10:08:13+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -11,10 +11,6 @@
   {
    "name": "safepay",
    "count": 10
-  },
-  {
-   "name": "krybit",
-   "count": 6
   },
   {
    "name": "Booba Project",
@@ -29,11 +25,15 @@
    "count": 4
   },
   {
+   "name": "N0n",
+   "count": 4
+  },
+  {
    "name": "SilentRansomGroup",
    "count": 4
   },
   {
-   "name": "lamashtu",
+   "name": "incransom",
    "count": 4
   }
  ],
@@ -44,14 +44,14 @@
   },
   {
    "name": "Professional Services",
-   "count": 14
-  },
-  {
-   "name": "Other",
-   "count": 13
+   "count": 15
   },
   {
    "name": "Technology",
+   "count": 13
+  },
+  {
+   "name": "Other",
    "count": 12
   },
   {
@@ -60,19 +60,19 @@
   },
   {
    "name": "Transportation",
-   "count": 7
+   "count": 8
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 33,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 4,
+   "count": 5,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -125,30 +125,6 @@
    "lon": -70.6
   },
   {
-   "code": "CZ",
-   "count": 2,
-   "lat": 50.1,
-   "lon": 14.4
-  },
-  {
-   "code": "DK",
-   "count": 2,
-   "lat": 55.7,
-   "lon": 12.6
-  },
-  {
-   "code": "FR",
-   "count": 2,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
-   "code": "IN",
-   "count": 2,
-   "lat": 19.1,
-   "lon": 72.9
-  },
-  {
    "code": "IT",
    "count": 2,
    "lat": 41.9,
@@ -185,6 +161,18 @@
    "lon": -74.1
   },
   {
+   "code": "CZ",
+   "count": 1,
+   "lat": 50.1,
+   "lon": 14.4
+  },
+  {
+   "code": "DK",
+   "count": 1,
+   "lat": 55.7,
+   "lon": 12.6
+  },
+  {
    "code": "EG",
    "count": 1,
    "lat": 30.0,
@@ -197,10 +185,22 @@
    "lon": 24.9
   },
   {
+   "code": "FR",
+   "count": 1,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "IE",
    "count": 1,
    "lat": 53.3,
    "lon": -6.3
+  },
+  {
+   "code": "IN",
+   "count": 1,
+   "lat": 19.1,
+   "lon": 72.9
   },
   {
    "code": "IR",
@@ -246,6 +246,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Chibitek",
+   "group": "N0n",
+   "date": "2026-10-07T05:51:42+00:00",
+   "attack_date": "2026-10-07",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/Q2hpYml0ZWtATjBu"
+  },
+  {
+   "victim": "acmestamping.com",
+   "group": "incransom",
+   "date": "2026-10-07T05:08:14+00:00",
+   "attack_date": "2026-10-06",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/YWNtZXN0YW1waW5nLmNvbUBpbmNyYW5zb20="
+  },
+  {
+   "victim": "harborpacific.com",
+   "group": "incransom",
+   "date": "2026-10-07T05:07:34+00:00",
+   "attack_date": "2026-10-06",
+   "country": "US",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/aGFyYm9ycGFjaWZpYy5jb21AaW5jcmFuc29t"
+  },
+  {
+   "victim": "architekt-vondanwitz.de",
+   "group": "incransom",
+   "date": "2026-10-07T05:06:37+00:00",
+   "attack_date": "2026-10-06",
+   "country": "DE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/YXJjaGl0ZWt0LXZvbmRhbndpdHouZGVAaW5jcmFuc29t"
+  },
   {
    "victim": "Aon",
    "group": "termite",
@@ -1100,42 +1136,6 @@
    "country": "US",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/VW5pdmVyc2l0eSBvZiBJbGxpbm9pcyBDaGljYWdvQEJvb2JhIFByb2plY3Q="
-  },
-  {
-   "victim": "Tronex A/S",
-   "group": "Wallstreet",
-   "date": "2026-10-02T11:55:03+00:00",
-   "attack_date": "2026-10-02",
-   "country": "DK",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/VHJvbmV4IEEvU0BXYWxsc3RyZWV0"
-  },
-  {
-   "victim": "www.kres.cz",
-   "group": "krybit",
-   "date": "2026-10-02T09:31:56+00:00",
-   "attack_date": "2026-10-02",
-   "country": "CZ",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/d3d3LmtyZXMuY3pAa3J5Yml0"
-  },
-  {
-   "victim": "www.raajratna.com",
-   "group": "krybit",
-   "date": "2026-10-02T09:31:28+00:00",
-   "attack_date": "2026-10-02",
-   "country": "IN",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/d3d3LnJhYWpyYXRuYS5jb21Aa3J5Yml0"
-  },
-  {
-   "victim": "www.pierrefeu.fr",
-   "group": "krybit",
-   "date": "2026-10-02T09:30:59+00:00",
-   "attack_date": "2026-10-02",
-   "country": "FR",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/d3d3LnBpZXJyZWZldS5mckBrcnliaXQ="
   }
  ]
 }

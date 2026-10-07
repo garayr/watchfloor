@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1615,
-  "c2_servers": 206,
+  "total_iocs": 1635,
+  "c2_servers": 225,
   "families": [
    {
     "name": "Unknown Loader",
@@ -13,14 +13,14 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 91,
+    "iocs": 90,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 47,
-    "c2": 22,
+    "iocs": 50,
+    "c2": 25,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -37,8 +37,8 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 33,
-    "c2": 33,
+    "iocs": 32,
+    "c2": 32,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
@@ -60,10 +60,10 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Remcos",
-    "iocs": 20,
-    "c2": 20,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+    "name": "PureRAT",
+    "iocs": 19,
+    "c2": 19,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 298288,
-   "targets": 225,
-   "sources": 4008
+   "records": 680504,
+   "targets": 250,
+   "sources": 6469
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 209288,
-   "targets": 232,
-   "sources": 3132
+   "records": 494727,
+   "targets": 263,
+   "sources": 5167
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 188627,
-   "targets": 226,
-   "sources": 3362
+   "records": 474454,
+   "targets": 287,
+   "sources": 5425
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 154650,
-   "targets": 249,
-   "sources": 5136
+   "records": 424598,
+   "targets": 270,
+   "sources": 8565
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 144688,
-   "targets": 227,
-   "sources": 2255
+   "records": 370643,
+   "targets": 267,
+   "sources": 3599
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 105176,
-   "targets": 249,
-   "sources": 4204
+   "records": 250248,
+   "targets": 268,
+   "sources": 7805
   },
   {
    "port": 2222,
    "service": null,
-   "records": 45278,
-   "targets": 241,
-   "sources": 2807
+   "records": 124542,
+   "targets": 275,
+   "sources": 5329
   },
   {
    "port": 9000,
    "service": null,
-   "records": 28794,
-   "targets": 211,
-   "sources": 1738
+   "records": 74271,
+   "targets": 252,
+   "sources": 2866
   },
   {
    "port": 2323,
    "service": "Telnet (alt)",
-   "records": 26187,
-   "targets": 201,
-   "sources": 406
+   "records": 56388,
+   "targets": 231,
+   "sources": 945
   },
   {
    "port": 16767,
    "service": null,
-   "records": 22700,
-   "targets": 10,
-   "sources": 1816
+   "records": 50696,
+   "targets": 11,
+   "sources": 2974
   }
  ],
  "ports_date": "2026-10-07",
@@ -211,6 +211,98 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting…",
+   "summary": "An Iranian state-aligned threat actor designated as CL-STA-1178 has been impersonating the Dubai Airports IT department to deliver trojanized coding challenges to high-value targets. The Blinder Tunnel campaign, active…",
+   "date": "2026-10-07T09:47:16+00:00",
+   "author": "AlienVault",
+   "adversary": "CL-STA-1178",
+   "malware": [
+    "ShelbyLoader V2",
+    "RuntimeBroker.dll",
+    "PsProxy.dll",
+    "Blackwood.dll",
+    "Chisel"
+   ],
+   "countries": [
+    "Iraq",
+    "Israel"
+   ],
+   "industries": [
+    "Energy",
+    "Government"
+   ],
+   "tags": [
+    "appdomainmanager hijacking",
+    "blackwood.dll",
+    "blinder tunnel",
+    "chisel",
+    "dll sideloading",
+    "shelbyloader v2"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac6152430b84019d1fded71"
+  },
+  {
+   "name": "Akira Ransomware Attack Investigation",
+   "summary": "In September, an organization experienced an Akira ransomware attack, with investigation revealing the threat actor's tactics and tools. The attacker gained access through Remote Desktop Protocol, subsequently disabling…",
+   "date": "2026-10-07T09:45:46+00:00",
+   "author": "AlienVault",
+   "adversary": "Akira",
+   "malware": [
+    "Akira - S1129",
+    "Rclone",
+    "GOST"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "data exfiltration",
+    "antivirus evasion",
+    "rclone",
+    "ransomware",
+    "rdp",
+    "persistence"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac614ca291abbad48bc40de"
+  },
+  {
+   "name": "Attackers Target AI Development Platform Langflow",
+   "summary": "In September 2026, F5 Labs detected 405 exploitation attempts targeting CVE-2026-0768, an unauthenticated remote code execution vulnerability in Langflow AI application-building platform, originating from 55 distinct IP…",
+   "date": "2026-10-07T07:14:43+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "cve-2017-9841",
+    "cve-2021-26855",
+    "cve-2018-20062",
+    "cve-2025-55184",
+    "unauthenticated access",
+    "cve-2021-34523"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac5f1632c72bc95740deede"
+  },
+  {
+   "name": "Beyond valid credentials: How exposed AWS keys are tested for Amazon Bedrock access",
+   "summary": "Attackers who gain access to AWS credentials perform validation to determine their usefulness, particularly for Amazon Bedrock access. Multiple credential harvesting platforms, including KMON_NOC, have been identified…",
+   "date": "2026-10-06T17:14:48+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "amazon bedrock",
+    "credential validation",
+    "anthropic claude",
+    "token-jacking",
+    "credential harvesting",
+    "cloud security"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac52c8896a61ee777d4aee5"
+  },
   {
    "name": "Lunex Uses BYOVD to Disable Security Monitoring and Deploy Persistent Stealer",
    "summary": "The Lunex Malware-as-a-Service platform targets Ukrainian users through fake CAPTCHA lures, deploying a sophisticated loader that exploits AMD's vulnerable PDFWKRNL.sys driver (CVE-2023-20598) to disable endpoint…",
@@ -401,115 +493,13 @@
     "msi execution"
    ],
    "url": "https://otx.alienvault.com/pulse/6abfb63a870eec5021127b09"
-  },
-  {
-   "name": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
-   "summary": "A sophisticated multi-component campaign targeting telecommunications and network-edge appliances has been discovered, featuring BPFDoor variants and a newly identified implant designated AVERAT. The operation leverages…",
-   "date": "2026-10-02T13:48:11+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "BPFDoor",
-    "AVERAT",
-    "Rekoobe"
-   ],
-   "countries": [],
-   "industries": [
-    "Telecommunications"
-   ],
-   "tags": [
-    "linux",
-    "implant",
-    "bpfdoor",
-    "network-edge",
-    "rekoobe",
-    "smtp"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abfb61b65922c3229d35cf8"
-  },
-  {
-   "name": "Anatomy of BraZetsu: How Cybercriminals Supply the Underground Ecosystem",
-   "summary": "BraZetsu is a sophisticated Python-based Windows malware framework attributed to the Brazilian threat actor Exilware. Unlike standard infostealers, it functions as a comprehensive toolkit for Initial Access Brokers…",
-   "date": "2026-10-02T13:14:24+00:00",
-   "author": "AlienVault",
-   "adversary": "Exilware",
-   "malware": [
-    "BraZetsu",
-    "CNABHunter",
-    "Ousaban",
-    "AgenteV2"
-   ],
-   "countries": [
-    "United States of America",
-    "Argentina",
-    "Brazil",
-    "Paraguay",
-    "Portugal",
-    "Spain"
-   ],
-   "industries": [
-    "Finance",
-    "Government",
-    "Healthcare",
-    "Manufacturing",
-    "Technology",
-    "Retail"
-   ],
-   "tags": [
-    "ousaban",
-    "latin america",
-    "cnab targeting",
-    "infected marketplace",
-    "websocket c2",
-    "ai-enhanced reconnaissance"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abfae3085404615c3cf7a32"
-  },
-  {
-   "name": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
-   "summary": "StyleSmuggler is an unpatched zero-day vulnerability affecting all current versions of Magento and Adobe Commerce, including version 2.4.9, enabling unauthenticated remote code execution. Active exploitation began on…",
-   "date": "2026-09-05T20:33:07+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Retail"
-   ],
-   "tags": [
-    "backdoor",
-    "stylesmuggler",
-    "magento",
-    "payment email",
-    "remote code execution",
-    "graphql"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6a9c7c833376c19e92778b46"
-  },
-  {
-   "name": "Attack Cases in Korea Involving the Installation of Radmin and UltraVNC",
-   "summary": "Attack campaigns targeting Korean users have been observed deploying remote control tools including Radmin and UltraVNC to compromise systems. The initial intrusion vector remains unidentified, but attackers download…",
-   "date": "2026-09-04T07:52:40+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "ultravnc",
-    "radmin",
-    "netch-gateway",
-    "softether vpn",
-    "proxy abuse"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6a9a78c9a7a8e20715261f8c"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-07T08:55:52+00:00",
-  "sans": "2026-10-07T08:55:52+00:00",
-  "otx": "2026-10-07T08:55:52+00:00",
+  "threatfox": "2026-10-07T10:08:13+00:00",
+  "sans": "2026-10-07T10:08:13+00:00",
+  "otx": "2026-10-07T10:08:13+00:00",
   "urlhaus": "2026-10-07T09:47:30+00:00"
  },
- "generated_at": "2026-10-07T09:47:30+00:00"
+ "generated_at": "2026-10-07T10:08:13+00:00"
 }
