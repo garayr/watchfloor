@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-06T23:25:21+00:00",
+ "generated_at": "2026-10-07T00:37:47+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "qilin",
-   "count": 14
+   "count": 16
   },
   {
    "name": "safepay",
@@ -17,15 +17,15 @@
    "count": 7
   },
   {
-   "name": "thegentlemen",
-   "count": 6
-  },
-  {
    "name": "Booba Project",
    "count": 5
   },
   {
    "name": "everest",
+   "count": 5
+  },
+  {
+   "name": "thegentlemen",
    "count": 5
   },
   {
@@ -56,7 +56,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 10
+   "count": 9
   },
   {
    "name": "Transportation",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 31,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -83,22 +83,28 @@
    "lon": 8.7
   },
   {
-   "code": "ES",
-   "count": 4,
-   "lat": 40.4,
-   "lon": -3.7
-  },
-  {
    "code": "BR",
    "count": 3,
    "lat": -23.5,
    "lon": -46.6
   },
   {
+   "code": "ES",
+   "count": 3,
+   "lat": 40.4,
+   "lon": -3.7
+  },
+  {
    "code": "IN",
    "count": 3,
    "lat": 19.1,
    "lon": 72.9
+  },
+  {
+   "code": "TR",
+   "count": 3,
+   "lat": 41.0,
+   "lon": 29.0
   },
   {
    "code": "AE",
@@ -171,12 +177,6 @@
    "count": 2,
    "lat": 13.75,
    "lon": 100.5
-  },
-  {
-   "code": "TR",
-   "count": 2,
-   "lat": 41.0,
-   "lon": 29.0
   },
   {
    "code": "CO",
@@ -252,6 +252,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "BNYH",
+   "group": "qilin",
+   "date": "2026-10-06T20:19:20+00:00",
+   "attack_date": "2026-10-06",
+   "country": null,
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/Qk5ZSEBxaWxpbg=="
+  },
+  {
+   "victim": "Ciftay Insaat Taahhut Ve Ticaret Anonim Sirketi",
+   "group": "qilin",
+   "date": "2026-10-06T20:18:44+00:00",
+   "attack_date": "2026-10-06",
+   "country": "TR",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Q2lmdGF5IEluc2FhdCBUYWFoaHV0IFZlIFRpY2FyZXQgQW5vbmltIFNpcmtldGlAcWlsaW4="
+  },
   {
    "victim": "SweetRush",
    "group": "Panzer",
@@ -926,24 +944,6 @@
    "country": "SA",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/V29ybGQgQ3VwIDIwMzRAV2FsbHN0cmVldA=="
-  },
-  {
-   "victim": "States Industries",
-   "group": "Storm",
-   "date": "2026-10-03T06:27:57+00:00",
-   "attack_date": "2026-10-02",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/U3RhdGVzIEluZHVzdHJpZXNAU3Rvcm0="
-  },
-  {
-   "victim": "Hospital de la Santa Creu i Sant Pau",
-   "group": "thegentlemen",
-   "date": "2026-10-03T06:26:33+00:00",
-   "attack_date": "2026-10-02",
-   "country": "ES",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/SG9zcGl0YWwgZGUgbGEgU2FudGEgQ3JldSBpIFNhbnQgUGF1QHRoZWdlbnRsZW1lbg=="
   },
   {
    "victim": "Rotamac",
