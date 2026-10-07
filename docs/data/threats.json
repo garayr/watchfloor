@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 821,
-  "c2_servers": 306,
+  "total_iocs": 818,
+  "c2_servers": 305,
   "families": [
    {
     "name": "Unknown Stealer",
@@ -13,7 +13,7 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 68,
+    "iocs": 60,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -37,15 +37,9 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 34,
-    "c2": 34,
+    "iocs": 32,
+    "c2": 32,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "Potassium",
-    "iocs": 30,
-    "c2": 30,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
    },
    {
     "name": "PureRAT",
@@ -54,50 +48,56 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
+    "name": "Potassium",
+    "iocs": 29,
+    "c2": 29,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 29,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "stealler",
     "iocs": 27,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
-   },
-   {
-    "name": "Unknown Loader",
-    "iocs": 26,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 660,
+  "online": 658,
   "top_tags": [
    {
     "name": "mirai",
-    "count": 270
+    "count": 276
    },
    {
     "name": "Mozi",
-    "count": 254
+    "count": 266
    },
    {
     "name": "elf",
-    "count": 194
+    "count": 196
    },
    {
     "name": "LuaJIT-loader",
-    "count": 149
+    "count": 128
    },
    {
     "name": "SmartLoader",
-    "count": 149
+    "count": 128
    },
    {
     "name": "github",
-    "count": 149
+    "count": 128
    },
    {
     "name": "zip",
-    "count": 149
+    "count": 128
    },
    {
     "name": "ua-wget",
@@ -489,10 +489,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-07T22:25:38+00:00",
-  "sans": "2026-10-07T22:25:38+00:00",
-  "otx": "2026-10-07T22:25:38+00:00",
-  "urlhaus": "2026-10-07T22:25:38+00:00"
+  "threatfox": "2026-10-07T23:23:32+00:00",
+  "sans": "2026-10-07T23:23:32+00:00",
+  "otx": "2026-10-07T23:23:32+00:00",
+  "urlhaus": "2026-10-07T23:23:32+00:00"
  },
- "generated_at": "2026-10-07T22:25:38+00:00"
+ "generated_at": "2026-10-07T23:23:32+00:00"
 }

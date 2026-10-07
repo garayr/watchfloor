@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-07T22:25:38+00:00",
+ "generated_at": "2026-10-07T23:23:32+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "qilin",
-   "count": 17
+   "count": 18
   },
   {
    "name": "safepay",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 21
+   "count": 19
   },
   {
    "name": "Professional Services",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 29,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -78,15 +78,9 @@
   },
   {
    "code": "ES",
-   "count": 4,
+   "count": 5,
    "lat": 40.4,
    "lon": -3.7
-  },
-  {
-   "code": "BR",
-   "count": 3,
-   "lat": -23.5,
-   "lon": -46.6
   },
   {
    "code": "CH",
@@ -111,6 +105,12 @@
    "count": 2,
    "lat": -33.9,
    "lon": 151.2
+  },
+  {
+   "code": "BR",
+   "count": 2,
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "CA",
@@ -209,6 +209,12 @@
    "lon": 139.7
   },
   {
+   "code": "QA",
+   "count": 1,
+   "lat": 25.3,
+   "lon": 51.5
+  },
+  {
    "code": "SA",
    "count": 1,
    "lat": 24.7,
@@ -246,6 +252,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Qatar National Import & Export",
+   "group": "qilin",
+   "date": "2026-10-07T19:03:44+00:00",
+   "attack_date": "2026-10-07",
+   "country": "QA",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/UWF0YXIgTmF0aW9uYWwgSW1wb3J0ICYgRXhwb3J0QHFpbGlu"
+  },
+  {
+   "victim": "Matadero Frigorífico Avinyó",
+   "group": "qilin",
+   "date": "2026-10-07T19:03:06+00:00",
+   "attack_date": "2026-10-07",
+   "country": "ES",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/TWF0YWRlcm8gRnJpZ29yw61maWNvIEF2aW55w7NAcWlsaW4="
+  },
+  {
+   "victim": "University of Rostock",
+   "group": "Panzer",
+   "date": "2026-10-07T18:53:05+00:00",
+   "attack_date": "2026-10-07",
+   "country": "DE",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/VW5pdmVyc2l0eSBvZiBSb3N0b2NrQFBhbnplcg=="
+  },
   {
    "victim": "Riviera Healthcare Center",
    "group": "interlock",
@@ -1066,15 +1099,6 @@
    "url": "https://www.ransomware.live/id/V29ybGQgQ3VwIDIwMzRAV2FsbHN0cmVldA=="
   },
   {
-   "victim": "Gerrity Stone",
-   "group": "thegentlemen",
-   "date": "2026-10-03T06:25:10+00:00",
-   "attack_date": "2026-10-02",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/R2Vycml0eSBTdG9uZUB0aGVnZW50bGVtZW4="
-  },
-  {
    "victim": "The Official Collegeof Architects of León (COAL)",
    "group": "akira",
    "date": "2026-10-03T05:54:28+00:00",
@@ -1111,15 +1135,6 @@
    "url": "https://www.ransomware.live/id/TWF0IEJhbyBDb3Jwb3JhdGlvbkByaHlzaWRh"
   },
   {
-   "victim": "Paessolucoes",
-   "group": "Panzer",
-   "date": "2026-10-02T18:25:00+00:00",
-   "attack_date": "2026-10-02",
-   "country": "BR",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/UGFlc3NvbHVjb2VzQFBhbnplcg=="
-  },
-  {
    "victim": "Electro Heat Sweden AB",
    "group": "rhysida",
    "date": "2026-10-02T18:04:03+00:00",
@@ -1127,15 +1142,6 @@
    "country": "SE",
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/RWxlY3RybyBIZWF0IFN3ZWRlbiBBQkByaHlzaWRh"
-  },
-  {
-   "victim": "Inova Semiconductors GmbH",
-   "group": "qilin",
-   "date": "2026-10-02T14:04:15+00:00",
-   "attack_date": "2026-10-02",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/SW5vdmEgU2VtaWNvbmR1Y3RvcnMgR21iSEBxaWxpbg=="
   }
  ]
 }
