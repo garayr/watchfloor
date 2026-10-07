@@ -34,22 +34,6 @@
      "date": "2026-10-06T08:19:24+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
-     "summary": "Italy's Data Protection Authority (GPDP) has fined IQVIA €7 million ($7.8M) over poor data-processing practices that the agency says could have put roughly one million patients at risk of data exposure and…",
-     "source": "BleepingComputer",
-     "date": "2026-10-05T17:19:53+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
-     "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-     "summary": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook…",
-     "source": "The Hacker News",
-     "date": "2026-10-05T14:20:43+00:00",
-     "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
@@ -133,6 +117,22 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+     "summary": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions. The arbitrary file access flaw…",
+     "source": "The Hacker News",
+     "date": "2026-10-07T11:49:26+00:00",
+     "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
+     "summary": "If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a…",
+     "source": "The Hacker News",
+     "date": "2026-10-07T11:42:24+00:00",
+     "url": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
      "summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
@@ -220,20 +220,20 @@
      "date": "2026-10-05T20:20:05+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
-     "summary": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked…",
-     "source": "The Hacker News",
-     "date": "2026-10-05T16:21:52+00:00",
-     "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+     "summary": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate…",
+     "source": "The Hacker News",
+     "date": "2026-10-07T11:56:56+00:00",
+     "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
      "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI…",
@@ -263,6 +263,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+     "summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually…",
+     "source": "The Hacker News",
+     "date": "2026-10-07T11:57:05+00:00",
+     "url": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
+     "group": "Other news"
+    },
     {
      "title": "Anthropic Introduces 3-Tier Cyber Verification Program for AI Access",
      "summary": "Anthropic is integrating the CVP and Project Glasswing into a single offering, with three levels of access to its most capable AI models. The post Anthropic Introduces 3-Tier Cyber Verification Program for AI Access…",
@@ -333,14 +341,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-05T22:46:33+00:00",
      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
-     "group": "Other news"
-    },
-    {
-     "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
-     "summary": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected…",
-     "source": "The Hacker News",
-     "date": "2026-10-05T11:55:00+00:00",
-     "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
      "group": "Other news"
     }
    ]

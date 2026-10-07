@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T05:44:33+00:00",
+ "generated_at": "2026-10-07T12:14:54+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -322,8 +322,8 @@
    "description": "SafePay emerged in September 2024 as a rapidly growing ransomware operation that explicitly disavows the RaaS model and manages all operations internally, claiming over 300 victims worldwide by mid-2025 with a high-profile early attack against UK telematics firm Microlise stealing 1.2 TB of data.",
    "aliases": [],
    "first_seen": "2023-11-10",
-   "last_seen": "2026-09-28",
-   "victims_total": 578,
+   "last_seen": "2026-10-05",
+   "victims_total": 591,
    "cves": [],
    "tools": [
     "Invoke-ShareFinder",
@@ -360,11 +360,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 215
+      "count": 216
      },
      {
       "name": "DE",
-      "count": 128
+      "count": 132
      },
      {
       "name": "GB",
@@ -375,11 +375,11 @@
       "count": 32
      },
      {
-      "name": "AU",
-      "count": 17
+      "name": "IT",
+      "count": 18
      },
      {
-      "name": "IT",
+      "name": "AU",
       "count": 17
      }
     ],
@@ -390,15 +390,15 @@
      },
      {
       "name": "Professional Services",
-      "count": 100
+      "count": 102
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 64
+      "count": 66
      },
      {
       "name": "Technology",
-      "count": 59
+      "count": 63
      },
      {
       "name": "Healthcare",
@@ -411,10 +411,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-10",
-     "count": 15
-    },
     {
      "month": "2025-11",
      "count": 14
@@ -457,11 +453,15 @@
     },
     {
      "month": "2026-09",
-     "count": 29
+     "count": 32
+    },
+    {
+     "month": "2026-10",
+     "count": 10
     }
    ],
-   "history_size": 578,
-   "updated": "2026-09-30T12:02:57+00:00"
+   "history_size": 591,
+   "updated": "2026-10-07T12:14:54+00:00"
   },
   "BrainCipher": {
    "name": "BrainCipher",
