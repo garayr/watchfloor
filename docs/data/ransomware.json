@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-07T03:48:23+00:00",
+ "generated_at": "2026-10-07T04:47:47+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "qilin",
-   "count": 16
+   "count": 17
   },
   {
    "name": "safepay",
@@ -29,11 +29,11 @@
    "count": 4
   },
   {
-   "name": "lamashtu",
+   "name": "SilentRansomGroup",
    "count": 4
   },
   {
-   "name": "thegentlemen",
+   "name": "lamashtu",
    "count": 4
   }
  ],
@@ -47,12 +47,12 @@
    "count": 13
   },
   {
-   "name": "Technology",
-   "count": 12
+   "name": "Professional Services",
+   "count": 13
   },
   {
-   "name": "Professional Services",
-   "count": 11
+   "name": "Technology",
+   "count": 12
   },
   {
    "name": "Healthcare",
@@ -77,10 +77,10 @@
    "lon": 8.7
   },
   {
-   "code": "AU",
-   "count": 3,
-   "lat": -33.9,
-   "lon": 151.2
+   "code": "ES",
+   "count": 4,
+   "lat": 40.4,
+   "lon": -3.7
   },
   {
    "code": "BR",
@@ -93,12 +93,6 @@
    "count": 3,
    "lat": 43.7,
    "lon": -79.4
-  },
-  {
-   "code": "ES",
-   "count": 3,
-   "lat": 40.4,
-   "lon": -3.7
   },
   {
    "code": "IN",
@@ -117,6 +111,12 @@
    "count": 2,
    "lat": 24.5,
    "lon": 54.4
+  },
+  {
+   "code": "AU",
+   "count": 2,
+   "lat": -33.9,
+   "lon": 151.2
   },
   {
    "code": "CH",
@@ -197,12 +197,6 @@
    "lon": 24.9
   },
   {
-   "code": "GB",
-   "count": 1,
-   "lat": 51.5,
-   "lon": -0.1
-  },
-  {
    "code": "IE",
    "count": 1,
    "lat": 53.3,
@@ -252,6 +246,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "EPTISA",
+   "group": "qilin",
+   "date": "2026-10-07T00:10:58+00:00",
+   "attack_date": "2026-10-07",
+   "country": "ES",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/RVBUSVNBQHFpbGlu"
+  },
+  {
+   "victim": "Andersen Group",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-06T23:52:26+00:00",
+   "attack_date": "2026-10-06",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QW5kZXJzZW4gR3JvdXBAU2lsZW50UmFuc29tR3JvdXA="
+  },
   {
    "victim": "EDFelectronics",
    "group": "Panzer",
@@ -971,24 +983,6 @@
    "country": "SA",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/V29ybGQgQ3VwIDIwMzRAV2FsbHN0cmVldA=="
-  },
-  {
-   "victim": "Mandurah State Emergency Service",
-   "group": "thegentlemen",
-   "date": "2026-10-03T06:25:51+00:00",
-   "attack_date": "2026-10-02",
-   "country": "AU",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/TWFuZHVyYWggU3RhdGUgRW1lcmdlbmN5IFNlcnZpY2VAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Westrop Primary & Nursery School",
-   "group": "thegentlemen",
-   "date": "2026-10-03T06:25:30+00:00",
-   "attack_date": "2026-10-02",
-   "country": "GB",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/V2VzdHJvcCBQcmltYXJ5ICYgTnVyc2VyeSBTY2hvb2xAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "Gerrity Stone",

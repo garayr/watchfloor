@@ -2,25 +2,25 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2038,
-  "c2_servers": 288,
+  "total_iocs": 1979,
+  "c2_servers": 292,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 1128,
+    "iocs": 1087,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 185,
+    "iocs": 166,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 51,
-    "c2": 26,
+    "iocs": 52,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -69,35 +69,35 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 958,
+  "online": 954,
   "top_tags": [
    {
     "name": "LuaJIT-loader",
-    "count": 612
+    "count": 552
    },
    {
     "name": "SmartLoader",
-    "count": 612
+    "count": 552
    },
    {
     "name": "github",
-    "count": 612
+    "count": 552
    },
    {
     "name": "zip",
-    "count": 612
+    "count": 552
    },
    {
     "name": "mirai",
-    "count": 151
+    "count": 154
    },
    {
     "name": "Mozi",
-    "count": 135
+    "count": 143
    },
    {
     "name": "elf",
-    "count": 114
+    "count": 118
    },
    {
     "name": "ua-wget",
@@ -506,10 +506,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-07T03:48:23+00:00",
-  "sans": "2026-10-07T03:48:23+00:00",
-  "otx": "2026-10-07T03:48:23+00:00",
-  "urlhaus": "2026-10-07T03:48:23+00:00"
+  "threatfox": "2026-10-07T04:47:47+00:00",
+  "sans": "2026-10-07T04:47:47+00:00",
+  "otx": "2026-10-07T04:47:47+00:00",
+  "urlhaus": "2026-10-07T04:47:47+00:00"
  },
- "generated_at": "2026-10-07T03:48:23+00:00"
+ "generated_at": "2026-10-07T04:47:47+00:00"
 }
