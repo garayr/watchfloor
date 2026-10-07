@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1635,
-  "c2_servers": 225,
+  "total_iocs": 1674,
+  "c2_servers": 229,
   "families": [
    {
     "name": "Unknown Loader",
@@ -14,13 +14,19 @@
    {
     "name": "ClearFake",
     "iocs": 90,
-    "c2": 2,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "ContagiousDrop",
+    "iocs": 65,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.contagious_drop"
+   },
+   {
     "name": "Vidar",
-    "iocs": 50,
-    "c2": 25,
+    "iocs": 51,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -30,22 +36,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
    },
    {
+    "name": "php.shin_webshell",
+    "iocs": 34,
+    "c2": 34,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
     "name": "NetWire RC",
     "iocs": 33,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.netwire"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 32,
-    "c2": 32,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "ContagiousDrop",
-    "iocs": 30,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.contagious_drop"
    },
    {
     "name": "Formbook",
@@ -55,7 +55,7 @@
    },
    {
     "name": "AMOS",
-    "iocs": 22,
+    "iocs": 23,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -496,10 +496,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-07T10:08:13+00:00",
-  "sans": "2026-10-07T10:08:13+00:00",
-  "otx": "2026-10-07T10:08:13+00:00",
+  "threatfox": "2026-10-07T11:07:36+00:00",
+  "sans": "2026-10-07T11:07:36+00:00",
+  "otx": "2026-10-07T11:07:36+00:00",
   "urlhaus": "2026-10-07T10:45:36+00:00"
  },
- "generated_at": "2026-10-07T10:45:36+00:00"
+ "generated_at": "2026-10-07T11:07:36+00:00"
 }
