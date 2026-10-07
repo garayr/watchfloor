@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T01:43:40+00:00",
+ "generated_at": "2026-10-07T02:44:11+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 19
+   "count": 18
   },
   {
    "name": "Other",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 29,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -185,6 +185,12 @@
    "lon": -74.1
   },
   {
+   "code": "EG",
+   "count": 1,
+   "lat": 30.0,
+   "lon": 31.2
+  },
+  {
    "code": "FI",
    "count": 1,
    "lat": 60.2,
@@ -252,6 +258,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Beni Suef Technological University – BTU",
+   "group": "UmBra",
+   "date": "2026-10-06T22:24:17+00:00",
+   "attack_date": "2026-10-06",
+   "country": "EG",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/QmVuaSBTdWVmIFRlY2hub2xvZ2ljYWwgVW5pdmVyc2l0eSDigJMgQlRVQFVtQnJh"
+  },
   {
    "victim": "KOOKABARRA JUICE",
    "group": "Vexy Ransomware",
@@ -1133,15 +1148,6 @@
    "country": "GR",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/VU5JT04gRkFARGVhZGxvY2s="
-  },
-  {
-   "victim": "Far West Contractors",
-   "group": "Deadlock",
-   "date": "2026-10-02T07:50:37+00:00",
-   "attack_date": "2026-10-02",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RmFyIFdlc3QgQ29udHJhY3RvcnNARGVhZGxvY2s="
   }
  ]
 }
