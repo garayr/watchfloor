@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T12:14:54+00:00",
+ "generated_at": "2026-10-07T13:30:56+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -13,15 +13,15 @@
    "count": 10
   },
   {
-   "name": "Booba Project",
-   "count": 5
-  },
-  {
    "name": "everest",
    "count": 5
   },
   {
    "name": "BYOD",
+   "count": 4
+  },
+  {
+   "name": "Booba Project",
    "count": 4
   },
   {
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 19
+   "count": 20
   },
   {
    "name": "Professional Services",
@@ -56,7 +56,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 9
+   "count": 8
   },
   {
    "name": "Transportation",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 33,
+   "count": 32,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -243,9 +243,24 @@
    "count": 1,
    "lat": 21.0,
    "lon": 105.8
+  },
+  {
+   "code": "ZA",
+   "count": 1,
+   "lat": -26.2,
+   "lon": 28.0
   }
  ],
  "victims": [
+  {
+   "victim": "Tharisa",
+   "group": "UmBra",
+   "date": "2026-10-07T08:23:30+00:00",
+   "attack_date": "2026-10-07",
+   "country": "ZA",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/VGhhcmlzYUBVbUJyYQ=="
+  },
   {
    "victim": "Chibitek",
    "group": "N0n",
@@ -1100,15 +1115,6 @@
    "country": "DE",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/SW5vdmEgU2VtaWNvbmR1Y3RvcnMgR21iSEBxaWxpbg=="
-  },
-  {
-   "victim": "Raleigh Family Medicine",
-   "group": "Booba Project",
-   "date": "2026-10-02T12:51:06+00:00",
-   "attack_date": "2026-10-02",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/UmFsZWlnaCBGYW1pbHkgTWVkaWNpbmVAQm9vYmEgUHJvamVjdA=="
   },
   {
    "victim": "EdgeEndo® USA",

@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1644,
-  "c2_servers": 219,
+  "total_iocs": 1591,
+  "c2_servers": 207,
   "families": [
    {
     "name": "Unknown Loader",
@@ -13,21 +13,21 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 90,
-    "c2": 3,
+    "iocs": 87,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "ContagiousDrop",
-    "iocs": 65,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.contagious_drop"
+    "name": "Vidar",
+    "iocs": 50,
+    "c2": 25,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Vidar",
-    "iocs": 54,
-    "c2": 29,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+    "name": "ContagiousDrop",
+    "iocs": 35,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.contagious_drop"
    },
    {
     "name": "Potassium",
@@ -36,16 +36,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 34,
-    "c2": 34,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
     "name": "NetWire RC",
     "iocs": 33,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.netwire"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 33,
+    "c2": 33,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Formbook",
@@ -55,7 +55,7 @@
    },
    {
     "name": "AMOS",
-    "iocs": 21,
+    "iocs": 19,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -211,6 +211,28 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Behind the Connect Button: The Fake AI Ads Campaign",
+   "summary": "Security researchers uncovered a sophisticated human-operated phishing platform disguising itself as AI advertising products for major platforms including Muse, Gemini, Claude, ChatGPT, and Perplexity. The campaign uses…",
+   "date": "2026-10-07T12:09:53+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Technology",
+    "Media"
+   ],
+   "tags": [
+    "socket.io",
+    "social engineering",
+    "phishing campaign",
+    "mfa bypass",
+    "browser-in-the-browser",
+    "credential theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac6369136830294944bbdc8"
+  },
   {
    "name": "Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting…",
    "summary": "An Iranian state-aligned threat actor designated as CL-STA-1178 has been impersonating the Dubai Airports IT department to deliver trojanized coding challenges to high-value targets. The Blinder Tunnel campaign, active…",
@@ -464,42 +486,13 @@
     "credential theft"
    ],
    "url": "https://otx.alienvault.com/pulse/6ac07308bd5cef8481adcf61"
-  },
-  {
-   "name": "The Psychedelic Stealer: When the CAPTCHA Is the Installer",
-   "summary": "Between September 9 and September 14, 2026, an unattributed Russian-speaking operator compromised at least six legitimate Ukrainian small-business websites to deliver a fake Cloudflare verification page. The ClickFix…",
-   "date": "2026-10-02T13:48:42+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Psychedelic",
-    "psychedeliclove.exe"
-   ],
-   "countries": [
-    "Ukraine"
-   ],
-   "industries": [
-    "Healthcare",
-    "Manufacturing",
-    "Media",
-    "Retail"
-   ],
-   "tags": [
-    "cryptocurrency theft",
-    "fake captcha",
-    "native-messaging bridge",
-    "clickfix",
-    "ukraine targeting",
-    "msi execution"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abfb63a870eec5021127b09"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-07T12:14:54+00:00",
-  "sans": "2026-10-07T12:14:54+00:00",
-  "otx": "2026-10-07T12:14:54+00:00",
+  "threatfox": "2026-10-07T13:30:56+00:00",
+  "sans": "2026-10-07T13:30:56+00:00",
+  "otx": "2026-10-07T13:30:56+00:00",
   "urlhaus": "2026-10-07T12:14:54+00:00"
  },
- "generated_at": "2026-10-07T12:14:54+00:00"
+ "generated_at": "2026-10-07T13:30:56+00:00"
 }
