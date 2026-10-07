@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T12:14:54+00:00",
+ "generated_at": "2026-10-07T18:08:14+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1726,8 +1726,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-30",
-   "victims_total": 17,
+   "last_seen": "2026-10-07",
+   "victims_total": 22,
    "cves": [],
    "tools": [],
    "techniques": [
@@ -1747,7 +1747,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 4
+      "count": 8
+     },
+     {
+      "name": "CA",
+      "count": 2
      },
      {
       "name": "GB",
@@ -1764,20 +1768,20 @@
      {
       "name": "BR",
       "count": 1
-     },
-     {
-      "name": "CA",
-      "count": 1
      }
     ],
     "sectors": [
      {
-      "name": "Financial Services",
-      "count": 4
+      "name": "Technology",
+      "count": 6
      },
      {
-      "name": "Technology",
-      "count": 4
+      "name": "Financial Services",
+      "count": 5
+     },
+     {
+      "name": "Healthcare",
+      "count": 3
      },
      {
       "name": "Education",
@@ -1790,18 +1794,10 @@
      {
       "name": "Government & Defense",
       "count": 1
-     },
-     {
-      "name": "Healthcare",
-      "count": 1
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-10",
-     "count": 0
-    },
     {
      "month": "2025-11",
      "count": 0
@@ -1844,11 +1840,15 @@
     },
     {
      "month": "2026-09",
-     "count": 17
+     "count": 18
+    },
+    {
+     "month": "2026-10",
+     "count": 4
     }
    ],
-   "history_size": 17,
-   "updated": "2026-09-30T17:53:52+00:00"
+   "history_size": 22,
+   "updated": "2026-10-07T18:08:14+00:00"
   },
   "netrunner": {
    "name": "netrunner",

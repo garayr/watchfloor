@@ -25,6 +25,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+     "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The campaign has been codenamed…",
+     "source": "The Hacker News",
+     "date": "2026-10-07T17:43:20+00:00",
+     "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
      "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy…",
      "source": "The Hacker News",
@@ -117,6 +125,14 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+     "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to…",
+     "source": "The Hacker News",
+     "date": "2026-10-07T16:17:44+00:00",
+     "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
      "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is…",
@@ -211,22 +227,6 @@
      "source": "The Hacker News",
      "date": "2026-10-06T11:57:00+00:00",
      "url": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
-     "summary": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit security flaws in the…",
-     "source": "The Hacker News",
-     "date": "2026-10-06T09:21:47+00:00",
-     "url": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-     "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory. The attacker must…",
-     "source": "The Hacker News",
-     "date": "2026-10-06T06:58:56+00:00",
-     "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
      "group": "Exploited right now"
     }
    ]
