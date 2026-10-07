@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T00:37:47+00:00",
+ "generated_at": "2026-10-07T01:43:40+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -25,22 +25,22 @@
    "count": 5
   },
   {
-   "name": "thegentlemen",
-   "count": 5
-  },
-  {
    "name": "BYOD",
    "count": 4
   },
   {
    "name": "lamashtu",
    "count": 4
+  },
+  {
+   "name": "thegentlemen",
+   "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 20
+   "count": 19
   },
   {
    "name": "Other",
@@ -71,22 +71,28 @@
    "lon": -77.5
   },
   {
-   "code": "CA",
-   "count": 4,
-   "lat": 43.7,
-   "lon": -79.4
-  },
-  {
    "code": "DE",
    "count": 4,
    "lat": 50.1,
    "lon": 8.7
   },
   {
+   "code": "AU",
+   "count": 3,
+   "lat": -33.9,
+   "lon": 151.2
+  },
+  {
    "code": "BR",
    "count": 3,
    "lat": -23.5,
    "lon": -46.6
+  },
+  {
+   "code": "CA",
+   "count": 3,
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "ES",
@@ -111,12 +117,6 @@
    "count": 2,
    "lat": 24.5,
    "lon": 54.4
-  },
-  {
-   "code": "AU",
-   "count": 2,
-   "lat": -33.9,
-   "lon": 151.2
   },
   {
    "code": "CH",
@@ -252,6 +252,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "KOOKABARRA JUICE",
+   "group": "Vexy Ransomware",
+   "date": "2026-10-06T20:55:40+00:00",
+   "attack_date": "2026-10-06",
+   "country": "AU",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/S09PS0FCQVJSQSBKVUlDRUBWZXh5IFJhbnNvbXdhcmU="
+  },
   {
    "victim": "BNYH",
    "group": "qilin",
@@ -944,15 +953,6 @@
    "country": "SA",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/V29ybGQgQ3VwIDIwMzRAV2FsbHN0cmVldA=="
-  },
-  {
-   "victim": "Rotamac",
-   "group": "thegentlemen",
-   "date": "2026-10-03T06:26:12+00:00",
-   "attack_date": "2026-10-02",
-   "country": "CA",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Um90YW1hY0B0aGVnZW50bGVtZW4="
   },
   {
    "victim": "Mandurah State Emergency Service",
