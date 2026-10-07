@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T04:47:47+00:00",
+ "generated_at": "2026-10-07T05:44:33+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -14,7 +14,7 @@
   },
   {
    "name": "krybit",
-   "count": 7
+   "count": 6
   },
   {
    "name": "Booba Project",
@@ -43,11 +43,11 @@
    "count": 19
   },
   {
-   "name": "Other",
-   "count": 13
+   "name": "Professional Services",
+   "count": 14
   },
   {
-   "name": "Professional Services",
+   "name": "Other",
    "count": 13
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 29,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -93,12 +93,6 @@
    "count": 3,
    "lat": 43.7,
    "lon": -79.4
-  },
-  {
-   "code": "IN",
-   "count": 3,
-   "lat": 19.1,
-   "lon": 72.9
   },
   {
    "code": "TR",
@@ -147,6 +141,12 @@
    "count": 2,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "IN",
+   "count": 2,
+   "lat": 19.1,
+   "lon": 72.9
   },
   {
    "code": "IT",
@@ -246,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Aon",
+   "group": "termite",
+   "date": "2026-10-07T00:45:51+00:00",
+   "attack_date": "2026-10-06",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QW9uQHRlcm1pdGU="
+  },
   {
    "victim": "EPTISA",
    "group": "qilin",
@@ -1127,15 +1136,6 @@
    "country": "FR",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/d3d3LnBpZXJyZWZldS5mckBrcnliaXQ="
-  },
-  {
-   "victim": "sai.org.in",
-   "group": "krybit",
-   "date": "2026-10-02T09:30:27+00:00",
-   "attack_date": "2026-10-02",
-   "country": "IN",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/c2FpLm9yZy5pbkBrcnliaXQ="
   }
  ]
 }

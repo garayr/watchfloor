@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T20:28:02+00:00",
+ "generated_at": "2026-10-07T05:44:33+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -5440,6 +5440,124 @@
    ],
    "history_size": 409,
    "updated": "2026-10-06T20:28:02+00:00"
+  },
+  "termite": {
+   "name": "termite",
+   "description": "Termite is a ransomware group first identified in late 2024 using a modified version of Babuk ransomware code; its most notable attack was the November 2024 breach of supply-chain software firm Blue Yonder, claiming 680 GB of exfiltrated data and disrupting major customers including Starbucks.",
+   "aliases": [],
+   "first_seen": "2023-05-11",
+   "last_seen": "2026-10-07",
+   "victims_total": 54,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 31
+     },
+     {
+      "name": "FR",
+      "count": 4
+     },
+     {
+      "name": "GB",
+      "count": 4
+     },
+     {
+      "name": "CA",
+      "count": 3
+     },
+     {
+      "name": "AU",
+      "count": 2
+     },
+     {
+      "name": "DE",
+      "count": 2
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 10
+     },
+     {
+      "name": "Manufacturing",
+      "count": 9
+     },
+     {
+      "name": "Professional Services",
+      "count": 7
+     },
+     {
+      "name": "Technology",
+      "count": 7
+     },
+     {
+      "name": "Education",
+      "count": 4
+     },
+     {
+      "name": "Financial Services",
+      "count": 3
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 2
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 6
+    },
+    {
+     "month": "2026-03",
+     "count": 3
+    },
+    {
+     "month": "2026-04",
+     "count": 1
+    },
+    {
+     "month": "2026-05",
+     "count": 3
+    },
+    {
+     "month": "2026-06",
+     "count": 3
+    },
+    {
+     "month": "2026-07",
+     "count": 2
+    },
+    {
+     "month": "2026-08",
+     "count": 1
+    },
+    {
+     "month": "2026-09",
+     "count": 4
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 54,
+   "updated": "2026-10-07T05:44:33+00:00"
   }
  }
 }
