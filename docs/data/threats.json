@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 827,
-  "c2_servers": 251,
+  "total_iocs": 995,
+  "c2_servers": 253,
   "families": [
    {
     "name": "Unknown Stealer",
@@ -12,8 +12,14 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
+    "name": "Unknown Loader",
+    "iocs": 154,
+    "c2": 3,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 96,
+    "iocs": 131,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -31,15 +37,9 @@
    },
    {
     "name": "Vidar",
-    "iocs": 44,
-    "c2": 26,
+    "iocs": 45,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "Unknown Loader",
-    "iocs": 30,
-    "c2": 3,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "stealler",
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 962,
+  "online": 952,
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 793
+    "count": 737
    },
    {
     "name": "exe",
-    "count": 539
+    "count": 504
    },
    {
     "name": "gitlab",
-    "count": 403
+    "count": 377
    },
    {
     "name": "github",
-    "count": 390
+    "count": 360
    },
    {
     "name": "rustystealer",
-    "count": 273
+    "count": 251
    },
    {
     "name": "zip",
-    "count": 259
+    "count": 238
    },
    {
     "name": "mirai",
-    "count": 73
+    "count": 109
    },
    {
     "name": "Mozi",
-    "count": 67
+    "count": 81
    }
   ]
  },
@@ -484,10 +484,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-08T12:09:15+00:00",
-  "sans": "2026-10-08T12:09:15+00:00",
-  "otx": "2026-10-08T12:09:15+00:00",
-  "urlhaus": "2026-10-08T12:09:15+00:00"
+  "threatfox": "2026-10-08T13:32:07+00:00",
+  "sans": "2026-10-08T13:32:07+00:00",
+  "otx": "2026-10-08T13:32:07+00:00",
+  "urlhaus": "2026-10-08T13:32:07+00:00"
  },
- "generated_at": "2026-10-08T12:09:15+00:00"
+ "generated_at": "2026-10-08T13:32:07+00:00"
 }
