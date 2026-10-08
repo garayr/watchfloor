@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T13:32:07+00:00",
+ "generated_at": "2026-10-08T16:34:45+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -2851,8 +2851,8 @@
    "description": "INC Ransom is a prolific ransomware-as-a-service operation active since July 2023 that systematically targets healthcare, government, education, and manufacturing sectors in North America and Europe, having posted over 200 victims in 2025 alone with no sector off-limits.",
    "aliases": [],
    "first_seen": "2023-08-06",
-   "last_seen": "2026-10-01",
-   "victims_total": 958,
+   "last_seen": "2026-10-07",
+   "victims_total": 968,
    "cves": [
     {
      "id": "CVE-2026-15409",
@@ -2909,7 +2909,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 531
+      "count": 538
      },
      {
       "name": "CA",
@@ -2917,7 +2917,7 @@
      },
      {
       "name": "DE",
-      "count": 41
+      "count": 42
      },
      {
       "name": "GB",
@@ -2929,13 +2929,13 @@
      },
      {
       "name": "BR",
-      "count": 14
+      "count": 15
      }
     ],
     "sectors": [
      {
       "name": "Professional Services",
-      "count": 197
+      "count": 198
      },
      {
       "name": "Healthcare",
@@ -2943,7 +2943,7 @@
      },
      {
       "name": "Manufacturing",
-      "count": 139
+      "count": 140
      },
      {
       "name": "Technology",
@@ -2951,11 +2951,11 @@
      },
      {
       "name": "Education",
-      "count": 75
+      "count": 76
      },
      {
       "name": "Government & Defense",
-      "count": 55
+      "count": 56
      }
     ]
    },
@@ -3006,11 +3006,11 @@
     },
     {
      "month": "2026-10",
-     "count": 5
+     "count": 15
     }
    ],
-   "history_size": 958,
-   "updated": "2026-10-01T16:27:04+00:00"
+   "history_size": 968,
+   "updated": "2026-10-08T16:34:45+00:00"
   },
   "genesis": {
    "name": "genesis",
@@ -6062,6 +6062,104 @@
    ],
    "history_size": 1,
    "updated": "2026-10-08T09:56:28+00:00"
+  },
+  "RunSomeWares": {
+   "name": "RunSomeWares",
+   "description": "RunSomeWares is an emerging ransomware group that surfaced in February 2025 with initial victims across supply-chain services, financial services, accounting, and manufacturing, with unclear deployment of an encryptor vs. pure data-theft extortion.",
+   "aliases": [],
+   "first_seen": "2024-06-22",
+   "last_seen": "2026-10-08",
+   "victims_total": 7,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 5
+     },
+     {
+      "name": "FR",
+      "count": 1
+     },
+     {
+      "name": "TH",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Financial Services",
+      "count": 3
+     },
+     {
+      "name": "Healthcare",
+      "count": 2
+     },
+     {
+      "name": "Manufacturing",
+      "count": 1
+     },
+     {
+      "name": "Transportation",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 7,
+   "updated": "2026-10-08T16:34:45+00:00"
   }
  }
 }
