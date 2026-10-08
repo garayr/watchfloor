@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1190,
-  "c2_servers": 209,
+  "total_iocs": 1202,
+  "c2_servers": 214,
   "families": [
    {
     "name": "Unknown Loader",
@@ -19,7 +19,7 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 110,
+    "iocs": 109,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -31,14 +31,14 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 60,
+    "iocs": 68,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Vidar",
-    "iocs": 47,
-    "c2": 26,
+    "iocs": 50,
+    "c2": 29,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -49,7 +49,7 @@
    },
    {
     "name": "AMOS",
-    "iocs": 18,
+    "iocs": 19,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 717,
+  "online": 698,
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 321
+    "count": 316
    },
    {
     "name": "exe",
-    "count": 220
+    "count": 218
    },
    {
     "name": "mirai",
     "count": 166
    },
    {
-    "name": "gitlab",
-    "count": 162
+    "name": "github",
+    "count": 158
    },
    {
-    "name": "github",
-    "count": 159
+    "name": "gitlab",
+    "count": 158
    },
    {
     "name": "Mozi",
-    "count": 149
+    "count": 152
    },
    {
     "name": "elf",
-    "count": 140
+    "count": 143
    },
    {
     "name": "rustystealer",
-    "count": 110
+    "count": 109
    }
   ]
  },
@@ -499,10 +499,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-08T22:32:00+00:00",
-  "sans": "2026-10-08T22:32:00+00:00",
-  "otx": "2026-10-08T22:32:00+00:00",
-  "urlhaus": "2026-10-08T22:32:00+00:00"
+  "threatfox": "2026-10-08T23:41:14+00:00",
+  "sans": "2026-10-08T23:41:14+00:00",
+  "otx": "2026-10-08T23:41:14+00:00",
+  "urlhaus": "2026-10-08T23:41:14+00:00"
  },
- "generated_at": "2026-10-08T22:32:00+00:00"
+ "generated_at": "2026-10-08T23:41:14+00:00"
 }

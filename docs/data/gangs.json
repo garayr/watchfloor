@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T20:30:16+00:00",
+ "generated_at": "2026-10-08T23:41:14+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -6160,6 +6160,136 @@
    ],
    "history_size": 7,
    "updated": "2026-10-08T16:34:45+00:00"
+  },
+  "payload": {
+   "name": "payload",
+   "description": "Payload is a ransomware group that emerged in early 2026, using Babuk-derived source code targeting both Windows and ESXi systems with cross-platform double-extortion attacks against healthcare, energy, real estate, and agriculture sectors, claiming 12 victims across seven countries within hours of launching its leak site.",
+   "aliases": [],
+   "first_seen": "2026-02-17",
+   "last_seen": "2026-10-08",
+   "victims_total": 76,
+   "cves": [],
+   "tools": [],
+   "techniques": [
+    "Native API",
+    "Obfuscated Files or Information",
+    "File Deletion",
+    "Execution Guardrails",
+    "Process Discovery",
+    "System Information Discovery",
+    "File and Directory Discovery",
+    "Data Encrypted for Impact",
+    "Service Stop",
+    "Inhibit System Recovery",
+    "Disable or Modify Tools"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "CH",
+      "count": 6
+     },
+     {
+      "name": "DE",
+      "count": 6
+     },
+     {
+      "name": "US",
+      "count": 5
+     },
+     {
+      "name": "PH",
+      "count": 4
+     },
+     {
+      "name": "SG",
+      "count": 4
+     },
+     {
+      "name": "EG",
+      "count": 3
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 18
+     },
+     {
+      "name": "Professional Services",
+      "count": 9
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 8
+     },
+     {
+      "name": "Financial Services",
+      "count": 6
+     },
+     {
+      "name": "Energy & Utilities",
+      "count": 5
+     },
+     {
+      "name": "Healthcare",
+      "count": 5
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 2
+    },
+    {
+     "month": "2026-03",
+     "count": 21
+    },
+    {
+     "month": "2026-04",
+     "count": 18
+    },
+    {
+     "month": "2026-05",
+     "count": 9
+    },
+    {
+     "month": "2026-06",
+     "count": 12
+    },
+    {
+     "month": "2026-07",
+     "count": 6
+    },
+    {
+     "month": "2026-08",
+     "count": 6
+    },
+    {
+     "month": "2026-09",
+     "count": 1
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 76,
+   "updated": "2026-10-08T23:41:14+00:00"
   }
  }
 }
