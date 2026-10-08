@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T01:44:15+00:00",
+ "generated_at": "2026-10-08T02:43:44+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -21,6 +21,10 @@
    "count": 5
   },
   {
+   "name": "incransom",
+   "count": 5
+  },
+  {
    "name": "BYOD",
    "count": 4
   },
@@ -30,10 +34,6 @@
   },
   {
    "name": "SilentRansomGroup",
-   "count": 4
-  },
-  {
-   "name": "incransom",
    "count": 4
   }
  ],
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 29,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -221,12 +221,6 @@
    "lon": 46.7
   },
   {
-   "code": "SE",
-   "count": 1,
-   "lat": 59.3,
-   "lon": 18.1
-  },
-  {
    "code": "SK",
    "count": 1,
    "lat": 48.1,
@@ -252,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "The New Community School",
+   "group": "incransom",
+   "date": "2026-10-07T22:09:57+00:00",
+   "attack_date": "2026-10-07",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/VGhlIE5ldyBDb21tdW5pdHkgU2Nob29sQGluY3JhbnNvbQ=="
+  },
   {
    "victim": "Qatar National Import & Export",
    "group": "qilin",
@@ -1133,15 +1136,6 @@
    "country": "VN",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/TWF0IEJhbyBDb3Jwb3JhdGlvbkByaHlzaWRh"
-  },
-  {
-   "victim": "Electro Heat Sweden AB",
-   "group": "rhysida",
-   "date": "2026-10-02T18:04:03+00:00",
-   "attack_date": "2026-10-02",
-   "country": "SE",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/RWxlY3RybyBIZWF0IFN3ZWRlbiBBQkByaHlzaWRh"
   }
  ]
 }
