@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-08T13:32:07+00:00",
+ "generated_at": "2026-10-08T14:34:26+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 16
+   "count": 15
   },
   {
    "name": "safepay",
@@ -14,7 +14,7 @@
   },
   {
    "name": "BYOD",
-   "count": 5
+   "count": 6
   },
   {
    "name": "SilentRansomGroup",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 18
+   "count": 17
   },
   {
    "name": "Technology",
@@ -197,12 +197,6 @@
    "lon": 51.4
   },
   {
-   "code": "JP",
-   "count": 1,
-   "lat": 35.7,
-   "lon": 139.7
-  },
-  {
    "code": "MX",
    "count": 1,
    "lat": 19.4,
@@ -252,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Some semi-samples Of Liberty X TMO cause we got yappatrons on twitter",
+   "group": "BYOD",
+   "date": "2026-10-08T10:20:28+00:00",
+   "attack_date": "2026-10-08",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/U29tZSBzZW1pLXNhbXBsZXMgT2YgTGliZXJ0eSBYIFRNTyBjYXVzZSB3ZSBnb3QgeWFwcGF0cm9ucyBvbiB0d2l0dGVyQEJZT0Q="
+  },
   {
    "victim": "Cooperative Des Techniciens Ambulanciers De La Monte",
    "group": "Storm",
@@ -1115,15 +1118,6 @@
    "country": "BR",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/U29mdHJ1Y2tAZGlyZXdvbGY="
-  },
-  {
-   "victim": "Mutsumi Group",
-   "group": "qilin",
-   "date": "2026-10-04T14:10:25+00:00",
-   "attack_date": "2026-10-04",
-   "country": "JP",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TXV0c3VtaSBHcm91cEBxaWxpbg=="
   },
   {
    "victim": "euroditel.com",

@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 995,
-  "c2_servers": 253,
+  "total_iocs": 1148,
+  "c2_servers": 252,
   "families": [
    {
     "name": "Unknown Stealer",
@@ -19,13 +19,19 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 131,
+    "iocs": 129,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Vidar",
+    "iocs": 65,
+    "c2": 26,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "IClickFix",
-    "iocs": 58,
+    "iocs": 60,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
@@ -36,72 +42,66 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.regphantom"
    },
    {
-    "name": "Vidar",
-    "iocs": 45,
-    "c2": 27,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+    "name": "Mirai",
+    "iocs": 46,
+    "c2": 6,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "stealler",
-    "iocs": 27,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
    },
    {
     "name": "AsyncRAT",
-    "iocs": 23,
-    "c2": 20,
+    "iocs": 24,
+    "c2": 21,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
-    "name": "Aisuru",
-    "iocs": 22,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
-   },
-   {
-    "name": "AMOS",
-    "iocs": 17,
+    "name": "Formbook",
+    "iocs": 24,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 952,
+  "online": 944,
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 737
+    "count": 710
    },
    {
     "name": "exe",
-    "count": 504
+    "count": 485
    },
    {
     "name": "gitlab",
-    "count": 377
+    "count": 361
    },
    {
     "name": "github",
-    "count": 360
+    "count": 349
    },
    {
     "name": "rustystealer",
-    "count": 251
+    "count": 241
    },
    {
     "name": "zip",
-    "count": 238
+    "count": 230
    },
    {
     "name": "mirai",
-    "count": 109
+    "count": 115
    },
    {
     "name": "Mozi",
-    "count": 81
+    "count": 91
    }
   ]
  },
@@ -211,6 +211,59 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Canto incognito: tracking the PoeLLM malware",
+   "summary": "Since April 2026, PoeLLM malware has been actively targeting exposed AI/LLM and open-source services including LiteLLM, Ollama, Gotenberg, and Gitea, with possible Ivanti Sentry targeting. The campaign employs an…",
+   "date": "2026-10-08T11:06:50+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "PoeLLM",
+    "XMRig",
+    "Iron"
+   ],
+   "countries": [
+    "United States of America"
+   ],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "cryptocurrency mining",
+    "ai infrastructure targeting",
+    "poellm",
+    "botnet",
+    "gotenberg",
+    "ollama"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac7794a227de27b373a9281"
+  },
+  {
+   "name": "The state of AI-analysis evasion in malware",
+   "summary": "Malware authors are developing techniques to obstruct automated AI analysis by embedding natural-language instructions within their code. This 'AI-analysis evasion' targets the pipeline that extracts text from samples…",
+   "date": "2026-10-08T11:02:27+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "FRUITSHELL",
+    "PLOTSAFE",
+    "HOLLOWCLAD",
+    "MANTLEMAZE",
+    "ROZESHELL",
+    "CLOSEDQUORUM"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "llm-manipulation",
+    "ai-evasion",
+    "prompt-injection",
+    "hollowclad",
+    "rozeshell",
+    "mantlemaze"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac778436ef05de8abf44e67"
+  },
   {
    "name": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
    "summary": "A coordinated campaign of 16 malicious Firefox extensions has been identified targeting cryptocurrency wallet users. The extensions masquerade as wallet portals, desktop utilities, and browser tools while intercepting…",
@@ -443,51 +496,13 @@
     "persistence"
    ],
    "url": "https://otx.alienvault.com/pulse/6ac614ca291abbad48bc40de"
-  },
-  {
-   "name": "Attackers Target AI Development Platform Langflow",
-   "summary": "In September 2026, F5 Labs detected 405 exploitation attempts targeting CVE-2026-0768, an unauthenticated remote code execution vulnerability in Langflow AI application-building platform, originating from 55 distinct IP…",
-   "date": "2026-10-07T07:14:43+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "cve-2017-9841",
-    "cve-2021-26855",
-    "cve-2018-20062",
-    "cve-2025-55184",
-    "unauthenticated access",
-    "cve-2021-34523"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac5f1632c72bc95740deede"
-  },
-  {
-   "name": "Beyond valid credentials: How exposed AWS keys are tested for Amazon Bedrock access",
-   "summary": "Attackers who gain access to AWS credentials perform validation to determine their usefulness, particularly for Amazon Bedrock access. Multiple credential harvesting platforms, including KMON_NOC, have been identified…",
-   "date": "2026-10-06T17:14:48+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "amazon bedrock",
-    "credential validation",
-    "anthropic claude",
-    "token-jacking",
-    "credential harvesting",
-    "cloud security"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac52c8896a61ee777d4aee5"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-08T13:32:07+00:00",
-  "sans": "2026-10-08T13:32:07+00:00",
-  "otx": "2026-10-08T13:32:07+00:00",
-  "urlhaus": "2026-10-08T13:32:07+00:00"
+  "threatfox": "2026-10-08T14:34:26+00:00",
+  "sans": "2026-10-08T14:34:26+00:00",
+  "otx": "2026-10-08T14:34:26+00:00",
+  "urlhaus": "2026-10-08T14:34:26+00:00"
  },
- "generated_at": "2026-10-08T13:32:07+00:00"
+ "generated_at": "2026-10-08T14:34:26+00:00"
 }
