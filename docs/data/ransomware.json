@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T16:34:45+00:00",
+ "generated_at": "2026-10-08T17:30:27+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -14,7 +14,7 @@
   },
   {
    "name": "BYOD",
-   "count": 6
+   "count": 5
   },
   {
    "name": "SilentRansomGroup",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 17
+   "count": 16
   },
   {
    "name": "Technology",
@@ -131,16 +131,16 @@
    "lon": 12.5
   },
   {
-   "code": "MY",
-   "count": 2,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
    "code": "NL",
    "count": 2,
    "lat": 52.4,
    "lon": 4.9
+  },
+  {
+   "code": "SG",
+   "count": 2,
+   "lat": 1.35,
+   "lon": 103.8
   },
   {
    "code": "AE",
@@ -203,16 +203,16 @@
    "lon": -99.1
   },
   {
+   "code": "MY",
+   "count": 1,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
    "code": "QA",
    "count": 1,
    "lat": 25.3,
    "lon": 51.5
-  },
-  {
-   "code": "SG",
-   "count": 1,
-   "lat": 1.35,
-   "lon": 103.8
   },
   {
    "code": "SK",
@@ -246,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Global AirFreight International",
+   "group": "Eclipse",
+   "date": "2026-10-08T13:22:17+00:00",
+   "attack_date": "2026-10-08",
+   "country": "SG",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/R2xvYmFsIEFpckZyZWlnaHQgSW50ZXJuYXRpb25hbEBFY2xpcHNl"
+  },
   {
    "victim": "Morton LTC Pharmacy",
    "group": "RunSomeWares",
@@ -1001,15 +1010,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/VGhvbWFzIFkuIFBpY2tldHQgJiBDby4sIEluYy5AYXVyb3Jh"
-  },
-  {
-   "victim": "Royal Selangor",
-   "group": "BYOD",
-   "date": "2026-10-05T08:04:09+00:00",
-   "attack_date": "2026-10-04",
-   "country": "MY",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Um95YWwgU2VsYW5nb3JAQllPRA=="
   },
   {
    "victim": "Fluge Audiovisuales",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T16:34:45+00:00",
+ "generated_at": "2026-10-08T17:30:27+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -2497,8 +2497,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-08-14",
-   "last_seen": "2026-09-30",
-   "victims_total": 11,
+   "last_seen": "2026-10-08",
+   "victims_total": 14,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -2507,6 +2507,10 @@
     "countries": [
      {
       "name": "SG",
+      "count": 4
+     },
+     {
+      "name": "IN",
       "count": 3
      },
      {
@@ -2514,8 +2518,8 @@
       "count": 3
      },
      {
-      "name": "IN",
-      "count": 2
+      "name": "BR",
+      "count": 1
      },
      {
       "name": "FR",
@@ -2524,19 +2528,19 @@
      {
       "name": "IT",
       "count": 1
-     },
-     {
-      "name": "JP",
-      "count": 1
      }
     ],
     "sectors": [
+     {
+      "name": "Technology",
+      "count": 3
+     },
      {
       "name": "Hospitality",
       "count": 2
      },
      {
-      "name": "Technology",
+      "name": "Other",
       "count": 2
      },
      {
@@ -2549,10 +2553,6 @@
      },
      {
       "name": "Healthcare",
-      "count": 1
-     },
-     {
-      "name": "Manufacturing",
       "count": 1
      }
     ]
@@ -2604,11 +2604,11 @@
     },
     {
      "month": "2026-10",
-     "count": 0
+     "count": 3
     }
    ],
-   "history_size": 11,
-   "updated": "2026-10-01T02:25:55+00:00"
+   "history_size": 14,
+   "updated": "2026-10-08T17:30:27+00:00"
   },
   "qilin": {
    "name": "qilin",

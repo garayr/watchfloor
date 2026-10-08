@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 966,
-  "c2_servers": 211,
+  "total_iocs": 1198,
+  "c2_servers": 219,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 158,
-    "c2": 2,
+    "iocs": 370,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
@@ -19,13 +19,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 116,
+    "iocs": 119,
     "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Stealer",
-    "iocs": 93,
+    "iocs": 102,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
@@ -37,8 +37,8 @@
    },
    {
     "name": "Vidar",
-    "iocs": 48,
-    "c2": 27,
+    "iocs": 49,
+    "c2": 28,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -49,13 +49,13 @@
    },
    {
     "name": "Aisuru",
-    "iocs": 17,
-    "c2": 17,
+    "iocs": 18,
+    "c2": 18,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    },
    {
     "name": "AMOS",
-    "iocs": 16,
+    "iocs": 15,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 940,
+  "online": 931,
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 659
+    "count": 628
    },
    {
     "name": "exe",
-    "count": 446
+    "count": 424
    },
    {
     "name": "gitlab",
-    "count": 335
+    "count": 321
    },
    {
     "name": "github",
-    "count": 324
+    "count": 307
    },
    {
     "name": "rustystealer",
-    "count": 226
+    "count": 212
    },
    {
     "name": "zip",
-    "count": 220
+    "count": 211
    },
    {
     "name": "mirai",
-    "count": 122
+    "count": 130
    },
    {
     "name": "Mozi",
-    "count": 113
+    "count": 123
    }
   ]
  },
@@ -109,76 +109,81 @@
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 531704,
-   "targets": 246,
-   "sources": 6319
+   "records": 893415,
+   "targets": 291,
+   "sources": 10319
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 415220,
-   "targets": 296,
-   "sources": 4690
+   "records": 860678,
+   "targets": 314,
+   "sources": 10211
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 374001,
-   "targets": 267,
-   "sources": 4425
+   "records": 798317,
+   "targets": 275,
+   "sources": 8850
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 371158,
-   "targets": 277,
-   "sources": 7671
+   "records": 740765,
+   "targets": 286,
+   "sources": 12654
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 324012,
-   "targets": 267,
-   "sources": 3489
+   "records": 661906,
+   "targets": 283,
+   "sources": 6246
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 245046,
-   "targets": 272,
-   "sources": 7531
+   "records": 555240,
+   "targets": 284,
+   "sources": 13187
   },
   {
    "port": 2222,
    "service": null,
-   "records": 123010,
-   "targets": 272,
-   "sources": 5183
+   "records": 240551,
+   "targets": 288,
+   "sources": 9137
   },
   {
    "port": 16767,
    "service": null,
-   "records": 46119,
-   "targets": 2,
-   "sources": 2606
+   "records": 105059,
+   "targets": 5,
+   "sources": 4554
   },
   {
    "port": 137,
    "service": null,
-   "records": 36975,
-   "targets": 184,
-   "sources": 482
+   "records": 78948,
+   "targets": 203,
+   "sources": 809
   },
   {
    "port": 51413,
    "service": null,
-   "records": 36461,
-   "targets": 70,
-   "sources": 1283
+   "records": 76476,
+   "targets": 80,
+   "sources": 2055
   }
  ],
  "ports_date": "2026-10-08",
  "diary": [
+  {
+   "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
+   "url": "https://isc.sans.edu/diary/rss/33410",
+   "date": "2026-10-08T16:52:53+00:00"
+  },
   {
    "title": "ISC Stormcast For Thursday, October 8th, 2026 https://isc.sans.edu/podcastdetail/10128, (Thu, Oct 8th)",
    "url": "https://isc.sans.edu/diary/rss/33408",
@@ -203,11 +208,6 @@
    "title": "ISC Stormcast For Tuesday, October 6th, 2026 https://isc.sans.edu/podcastdetail/10124, (Tue, Oct 6th)",
    "url": "https://isc.sans.edu/diary/rss/33402",
    "date": "2026-10-06T11:45:11+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Monday, October 5th, 2026 https://isc.sans.edu/podcastdetail/10122, (Mon, Oct 5th)",
-   "url": "https://isc.sans.edu/diary/rss/33398",
-   "date": "2026-10-05T02:00:02+00:00"
   }
  ],
  "pulses": [
@@ -499,10 +499,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-08T16:34:45+00:00",
-  "sans": "2026-10-08T16:34:45+00:00",
-  "otx": "2026-10-08T16:34:45+00:00",
-  "urlhaus": "2026-10-08T16:34:45+00:00"
+  "threatfox": "2026-10-08T17:30:27+00:00",
+  "sans": "2026-10-08T17:30:27+00:00",
+  "otx": "2026-10-08T17:30:27+00:00",
+  "urlhaus": "2026-10-08T17:30:27+00:00"
  },
- "generated_at": "2026-10-08T16:34:45+00:00"
+ "generated_at": "2026-10-08T17:30:27+00:00"
 }
