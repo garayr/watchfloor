@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T17:30:27+00:00",
+ "generated_at": "2026-10-08T18:31:06+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -11,10 +11,6 @@
   {
    "name": "safepay",
    "count": 10
-  },
-  {
-   "name": "BYOD",
-   "count": 5
   },
   {
    "name": "SilentRansomGroup",
@@ -31,6 +27,10 @@
   {
    "name": "incransom",
    "count": 5
+  },
+  {
+   "name": "BYOD",
+   "count": 4
   },
   {
    "name": "N0n",
@@ -84,7 +84,7 @@
   },
   {
    "code": "BR",
-   "count": 3,
+   "count": 4,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -246,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "DIPECARR",
+   "group": "Eclipse",
+   "date": "2026-10-08T14:22:39+00:00",
+   "attack_date": "2026-10-08",
+   "country": "BR",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/RElQRUNBUlJARWNsaXBzZQ=="
+  },
   {
    "victim": "Global AirFreight International",
    "group": "Eclipse",
@@ -920,15 +929,6 @@
    "country": null,
    "sector": "Other",
    "url": "https://www.ransomware.live/id/Q2FtIEdyb3VwIExMQ0BEb29tbWFnZWRkb24="
-  },
-  {
-   "victim": "Franklin Empire",
-   "group": "BYOD",
-   "date": "2026-10-05T11:50:23+00:00",
-   "attack_date": "2026-10-04",
-   "country": null,
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/RnJhbmtsaW4gRW1waXJlQEJZT0Q="
   },
   {
    "victim": "Infomedia A/S",

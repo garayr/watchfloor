@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1198,
-  "c2_servers": 219,
+  "total_iocs": 1182,
+  "c2_servers": 206,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 370,
-    "c2": 1,
+    "iocs": 371,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 133,
+    "iocs": 134,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -31,14 +31,14 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 67,
+    "iocs": 66,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Vidar",
-    "iocs": 49,
-    "c2": 28,
+    "iocs": 48,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -46,12 +46,6 @@
     "iocs": 21,
     "c2": 21,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
-   },
-   {
-    "name": "Aisuru",
-    "iocs": 18,
-    "c2": 18,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    },
    {
     "name": "AMOS",
@@ -64,44 +58,50 @@
     "iocs": 15,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
+   },
+   {
+    "name": "PureRAT",
+    "iocs": 15,
+    "c2": 15,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 931,
+  "online": 746,
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 628
+    "count": 375
    },
    {
     "name": "exe",
-    "count": 424
+    "count": 252
    },
    {
     "name": "gitlab",
-    "count": 321
+    "count": 195
    },
    {
     "name": "github",
-    "count": 307
-   },
-   {
-    "name": "rustystealer",
-    "count": 212
-   },
-   {
-    "name": "zip",
-    "count": 211
+    "count": 180
    },
    {
     "name": "mirai",
-    "count": 130
+    "count": 162
    },
    {
     "name": "Mozi",
-    "count": 123
+    "count": 137
+   },
+   {
+    "name": "zip",
+    "count": 130
+   },
+   {
+    "name": "rustystealer",
+    "count": 124
    }
   ]
  },
@@ -499,10 +499,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-08T17:30:27+00:00",
-  "sans": "2026-10-08T17:30:27+00:00",
-  "otx": "2026-10-08T17:30:27+00:00",
-  "urlhaus": "2026-10-08T17:30:27+00:00"
+  "threatfox": "2026-10-08T18:31:06+00:00",
+  "sans": "2026-10-08T18:31:06+00:00",
+  "otx": "2026-10-08T18:31:06+00:00",
+  "urlhaus": "2026-10-08T18:31:06+00:00"
  },
- "generated_at": "2026-10-08T17:30:27+00:00"
+ "generated_at": "2026-10-08T18:31:06+00:00"
 }
