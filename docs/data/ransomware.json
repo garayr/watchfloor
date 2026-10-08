@@ -1,16 +1,20 @@
 {
- "generated_at": "2026-10-08T02:43:44+00:00",
+ "generated_at": "2026-10-08T03:46:16+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "qilin",
-   "count": 18
+   "count": 17
   },
   {
    "name": "safepay",
    "count": 10
+  },
+  {
+   "name": "BYOD",
+   "count": 6
   },
   {
    "name": "UmBra",
@@ -23,10 +27,6 @@
   {
    "name": "incransom",
    "count": 5
-  },
-  {
-   "name": "BYOD",
-   "count": 4
   },
   {
    "name": "N0n",
@@ -43,30 +43,30 @@
    "count": 19
   },
   {
-   "name": "Professional Services",
-   "count": 15
+   "name": "Technology",
+   "count": 16
   },
   {
-   "name": "Technology",
-   "count": 15
+   "name": "Professional Services",
+   "count": 14
   },
   {
    "name": "Other",
    "count": 12
   },
   {
-   "name": "Transportation",
-   "count": 8
+   "name": "Healthcare",
+   "count": 6
   },
   {
-   "name": "Healthcare",
+   "name": "Transportation",
    "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -83,6 +83,12 @@
    "lon": -3.7
   },
   {
+   "code": "BR",
+   "count": 3,
+   "lat": -23.5,
+   "lon": -46.6
+  },
+  {
    "code": "CH",
    "count": 3,
    "lat": 46.9,
@@ -95,22 +101,10 @@
    "lon": 29.0
   },
   {
-   "code": "AE",
-   "count": 2,
-   "lat": 24.5,
-   "lon": 54.4
-  },
-  {
    "code": "AU",
    "count": 2,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "BR",
-   "count": 2,
-   "lat": -23.5,
-   "lon": -46.6
   },
   {
    "code": "CA",
@@ -125,16 +119,16 @@
    "lon": -70.6
   },
   {
+   "code": "FR",
+   "count": 2,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "IT",
    "count": 2,
    "lat": 41.9,
    "lon": 12.5
-  },
-  {
-   "code": "MX",
-   "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "MY",
@@ -149,10 +143,10 @@
    "lon": 4.9
   },
   {
-   "code": "TH",
-   "count": 2,
-   "lat": 13.75,
-   "lon": 100.5
+   "code": "AE",
+   "count": 1,
+   "lat": 24.5,
+   "lon": 54.4
   },
   {
    "code": "CO",
@@ -179,12 +173,6 @@
    "lon": 24.9
   },
   {
-   "code": "FR",
-   "count": 1,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
    "code": "IE",
    "count": 1,
    "lat": 53.3,
@@ -209,6 +197,12 @@
    "lon": 139.7
   },
   {
+   "code": "MX",
+   "count": 1,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "QA",
    "count": 1,
    "lat": 25.3,
@@ -221,22 +215,28 @@
    "lon": 46.7
   },
   {
+   "code": "SG",
+   "count": 1,
+   "lat": 1.35,
+   "lon": 103.8
+  },
+  {
    "code": "SK",
    "count": 1,
    "lat": 48.1,
    "lon": 17.1
   },
   {
+   "code": "TH",
+   "count": 1,
+   "lat": 13.75,
+   "lon": 100.5
+  },
+  {
    "code": "TT",
    "count": 1,
    "lat": 10.7,
    "lon": -61.5
-  },
-  {
-   "code": "VN",
-   "count": 1,
-   "lat": 21.0,
-   "lon": 105.8
   },
   {
    "code": "ZA",
@@ -246,6 +246,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Petrosul Distribuidora, Transportadora e Comércio de Combustíveis Ltda.",
+   "group": "dragonforce",
+   "date": "2026-10-07T23:29:33+00:00",
+   "attack_date": "2026-10-07",
+   "country": "BR",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/UGV0cm9zdWwgRGlzdHJpYnVpZG9yYSwgVHJhbnNwb3J0YWRvcmEgZSBDb23DqXJjaW8gZGUgQ29tYnVzdMOtdmVpcyBMdGRhLkBkcmFnb25mb3JjZQ=="
+  },
+  {
+   "victim": "TMobile",
+   "group": "BYOD",
+   "date": "2026-10-07T23:20:43+00:00",
+   "attack_date": "2026-10-07",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/VE1vYmlsZUBCWU9E"
+  },
+  {
+   "victim": "Gate | Crypto Exchange",
+   "group": "BYOD",
+   "date": "2026-10-07T23:20:23+00:00",
+   "attack_date": "2026-10-07",
+   "country": "SG",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/R2F0ZSB8IENyeXB0byBFeGNoYW5nZUBCWU9E"
+  },
+  {
+   "victim": "RÉSO",
+   "group": "dragonforce",
+   "date": "2026-10-07T22:59:59+00:00",
+   "attack_date": "2026-10-07",
+   "country": "FR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/UsOJU09AZHJhZ29uZm9yY2U="
+  },
   {
    "victim": "The New Community School",
    "group": "incransom",
@@ -1100,42 +1136,6 @@
    "country": "SA",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/V29ybGQgQ3VwIDIwMzRAV2FsbHN0cmVldA=="
-  },
-  {
-   "victim": "The Official Collegeof Architects of León (COAL)",
-   "group": "akira",
-   "date": "2026-10-03T05:54:28+00:00",
-   "attack_date": "2026-10-03",
-   "country": "MX",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/VGhlIE9mZmljaWFsIENvbGxlZ2VvZiBBcmNoaXRlY3RzIG9mIExlw7NuIChDT0FMKUBha2lyYQ=="
-  },
-  {
-   "victim": "seven seas group",
-   "group": "Spirals",
-   "date": "2026-10-03T00:53:20+00:00",
-   "attack_date": "2026-10-03",
-   "country": "AE",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/c2V2ZW4gc2VhcyBncm91cEBTcGlyYWxz"
-  },
-  {
-   "victim": "Thai Lion Air",
-   "group": "qilin",
-   "date": "2026-10-02T21:04:55+00:00",
-   "attack_date": "2026-10-02",
-   "country": "TH",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/VGhhaSBMaW9uIEFpckBxaWxpbg=="
-  },
-  {
-   "victim": "Mat Bao Corporation",
-   "group": "rhysida",
-   "date": "2026-10-02T20:04:32+00:00",
-   "attack_date": "2026-10-02",
-   "country": "VN",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/TWF0IEJhbyBDb3Jwb3JhdGlvbkByaHlzaWRh"
   }
  ]
 }

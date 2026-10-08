@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T22:25:38+00:00",
+ "generated_at": "2026-10-08T03:46:16+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -5676,6 +5676,196 @@
    ],
    "history_size": 113,
    "updated": "2026-10-07T21:28:23+00:00"
+  },
+  "dragonforce": {
+   "name": "dragonforce",
+   "description": "DragonForce is a major ransomware-as-a-service operation first observed in August 2023 that launched a formal affiliate program offering 80% revenue share, then rebranded as a \"ransomware cartel\" in 2025, gaining notoriety for high-profile attacks on UK retailers Marks & Spencer, Co-op, and Harrods.",
+   "aliases": [],
+   "first_seen": "2022-10-20",
+   "last_seen": "2026-10-07",
+   "victims_total": 659,
+   "cves": [
+    {
+     "id": "CVE-2021-44228",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-57726",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-21762",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-55591",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-40766",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2025-5777",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-21887",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-21893",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-46805",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-21412",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-57727",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-57728",
+     "cvss": null,
+     "label": null
+    }
+   ],
+   "tools": [
+    "Mimikatz",
+    "Advanced IP Scanner",
+    "PingCastle",
+    "SoftPerfect NetScan"
+   ],
+   "techniques": [
+    "User Execution",
+    "Indicator Removal: File Deletion",
+    "Impair Defenses: Disable or Modify Tools",
+    "File and Directory Discovery",
+    "Data Encrypted for Impact"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 308
+     },
+     {
+      "name": "GB",
+      "count": 47
+     },
+     {
+      "name": "DE",
+      "count": 32
+     },
+     {
+      "name": "CA",
+      "count": 21
+     },
+     {
+      "name": "IT",
+      "count": 19
+     },
+     {
+      "name": "AU",
+      "count": 18
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Professional Services",
+      "count": 147
+     },
+     {
+      "name": "Manufacturing",
+      "count": 144
+     },
+     {
+      "name": "Technology",
+      "count": 76
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 46
+     },
+     {
+      "name": "Healthcare",
+      "count": 45
+     },
+     {
+      "name": "Transportation",
+      "count": 36
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 27
+    },
+    {
+     "month": "2025-12",
+     "count": 34
+    },
+    {
+     "month": "2026-01",
+     "count": 9
+    },
+    {
+     "month": "2026-02",
+     "count": 37
+    },
+    {
+     "month": "2026-03",
+     "count": 59
+    },
+    {
+     "month": "2026-04",
+     "count": 65
+    },
+    {
+     "month": "2026-05",
+     "count": 55
+    },
+    {
+     "month": "2026-06",
+     "count": 28
+    },
+    {
+     "month": "2026-07",
+     "count": 42
+    },
+    {
+     "month": "2026-08",
+     "count": 15
+    },
+    {
+     "month": "2026-09",
+     "count": 12
+    },
+    {
+     "month": "2026-10",
+     "count": 2
+    }
+   ],
+   "history_size": 659,
+   "updated": "2026-10-08T03:46:16+00:00"
   }
  }
 }
