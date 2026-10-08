@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T03:46:16+00:00",
+ "generated_at": "2026-10-08T04:46:20+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -17,6 +17,10 @@
    "count": 6
   },
   {
+   "name": "SilentRansomGroup",
+   "count": 5
+  },
+  {
    "name": "UmBra",
    "count": 5
   },
@@ -30,10 +34,6 @@
   },
   {
    "name": "N0n",
-   "count": 4
-  },
-  {
-   "name": "SilentRansomGroup",
    "count": 4
   }
  ],
@@ -52,7 +52,7 @@
   },
   {
    "name": "Other",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Healthcare",
@@ -209,12 +209,6 @@
    "lon": 51.5
   },
   {
-   "code": "SA",
-   "count": 1,
-   "lat": 24.7,
-   "lon": 46.7
-  },
-  {
    "code": "SG",
    "count": 1,
    "lat": 1.35,
@@ -246,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "K...",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-07T23:54:15+00:00",
+   "attack_date": "2026-10-07",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Sy4uLkBTaWxlbnRSYW5zb21Hcm91cA=="
+  },
   {
    "victim": "Petrosul Distribuidora, Transportadora e Comércio de Combustíveis Ltda.",
    "group": "dragonforce",
@@ -1127,15 +1130,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/U3QuIEZyYW5jaXMgSGVhbHRoY2FyZSBTeXN0ZW1zIG9mIEhhd2FpaUBXYWxsc3RyZWV0"
-  },
-  {
-   "victim": "World Cup 2034",
-   "group": "Wallstreet",
-   "date": "2026-10-03T11:54:05+00:00",
-   "attack_date": "2026-10-03",
-   "country": "SA",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/V29ybGQgQ3VwIDIwMzRAV2FsbHN0cmVldA=="
   }
  ]
 }

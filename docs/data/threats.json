@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 838,
-  "c2_servers": 300,
+  "total_iocs": 800,
+  "c2_servers": 281,
   "families": [
    {
     "name": "Unknown Stealer",
@@ -13,8 +13,8 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 75,
-    "c2": 2,
+    "iocs": 74,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
@@ -25,8 +25,8 @@
    },
    {
     "name": "Vidar",
-    "iocs": 48,
-    "c2": 30,
+    "iocs": 46,
+    "c2": 28,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -54,30 +54,30 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
    },
    {
-    "name": "AMOS",
-    "iocs": 26,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+    "name": "php.shin_webshell",
+    "iocs": 24,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 26,
-    "c2": 26,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "Aisuru",
+    "iocs": 21,
+    "c2": 21,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    }
   ]
  },
  "urls": {
-  "sample": 656,
-  "online": 460,
+  "sample": 673,
+  "online": 477,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 199
+    "count": 207
    },
    {
     "name": "mirai",
-    "count": 176
+    "count": 182
    },
    {
     "name": "elf",
@@ -489,10 +489,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-08T03:46:16+00:00",
-  "sans": "2026-10-08T03:46:16+00:00",
-  "otx": "2026-10-08T03:46:16+00:00",
-  "urlhaus": "2026-10-08T03:46:16+00:00"
+  "threatfox": "2026-10-08T04:46:20+00:00",
+  "sans": "2026-10-08T04:46:20+00:00",
+  "otx": "2026-10-08T04:46:20+00:00",
+  "urlhaus": "2026-10-08T04:46:20+00:00"
  },
- "generated_at": "2026-10-08T03:46:16+00:00"
+ "generated_at": "2026-10-08T04:46:20+00:00"
 }
