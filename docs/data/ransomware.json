@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T21:28:06+00:00",
+ "generated_at": "2026-10-08T22:32:00+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -17,6 +17,10 @@
    "count": 6
   },
   {
+   "name": "Eclipse",
+   "count": 5
+  },
+  {
    "name": "UmBra",
    "count": 5
   },
@@ -31,42 +35,38 @@
   {
    "name": "N0n",
    "count": 4
-  },
-  {
-   "name": "lamashtu",
-   "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 16
+   "count": 17
+  },
+  {
+   "name": "Professional Services",
+   "count": 15
   },
   {
    "name": "Technology",
    "count": 15
   },
   {
-   "name": "Professional Services",
-   "count": 14
-  },
-  {
    "name": "Other",
    "count": 11
   },
   {
-   "name": "Healthcare",
-   "count": 8
+   "name": "Education",
+   "count": 7
   },
   {
-   "name": "Education",
+   "name": "Healthcare",
    "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 29,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -125,6 +125,12 @@
    "lon": 2.35
   },
   {
+   "code": "IN",
+   "count": 2,
+   "lat": 19.1,
+   "lon": 72.9
+  },
+  {
    "code": "IT",
    "count": 2,
    "lat": 41.9,
@@ -155,12 +161,6 @@
    "lon": -58.4
   },
   {
-   "code": "CO",
-   "count": 1,
-   "lat": 4.7,
-   "lon": -74.1
-  },
-  {
    "code": "DK",
    "count": 1,
    "lat": 55.7,
@@ -183,18 +183,6 @@
    "count": 1,
    "lat": 53.3,
    "lon": -6.3
-  },
-  {
-   "code": "IN",
-   "count": 1,
-   "lat": 19.1,
-   "lon": 72.9
-  },
-  {
-   "code": "IR",
-   "count": 1,
-   "lat": 35.7,
-   "lon": 51.4
   },
   {
    "code": "MX",
@@ -246,6 +234,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "simplexengg.in",
+   "group": "Eclipse",
+   "date": "2026-10-08T17:53:39+00:00",
+   "attack_date": "2026-10-08",
+   "country": "IN",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/c2ltcGxleGVuZ2cuaW5ARWNsaXBzZQ=="
+  },
+  {
+   "victim": "sanjoseattorneys.com",
+   "group": "Eclipse",
+   "date": "2026-10-08T17:52:47+00:00",
+   "attack_date": "2026-10-08",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/c2Fuam9zZWF0dG9ybmV5cy5jb21ARWNsaXBzZQ=="
+  },
   {
    "victim": "Andersen Group Inc.",
    "group": "SilentRansomGroup",
@@ -1127,24 +1133,6 @@
    "country": "FR",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/ZXVyb2RpdGVsLmNvbUBrcnliaXQ="
-  },
-  {
-   "victim": "superpack.com.co",
-   "group": "krybit",
-   "date": "2026-10-04T13:01:32+00:00",
-   "attack_date": "2026-10-04",
-   "country": "CO",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/c3VwZXJwYWNrLmNvbS5jb0BrcnliaXQ="
-  },
-  {
-   "victim": "daralteb.com",
-   "group": "krybit",
-   "date": "2026-10-04T13:00:54+00:00",
-   "attack_date": "2026-10-04",
-   "country": "IR",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/ZGFyYWx0ZWIuY29tQGtyeWJpdA=="
   }
  ]
 }

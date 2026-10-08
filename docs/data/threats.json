@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1188,
-  "c2_servers": 213,
+  "total_iocs": 1190,
+  "c2_servers": 209,
   "families": [
    {
     "name": "Unknown Loader",
@@ -19,26 +19,26 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 114,
+    "iocs": 110,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "IClickFix",
-    "iocs": 79,
+    "iocs": 84,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "php.shin_webshell",
     "iocs": 60,
-    "c2": 3,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Vidar",
-    "iocs": 53,
-    "c2": 32,
+    "iocs": 47,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -48,21 +48,21 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
+    "name": "AMOS",
+    "iocs": 18,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
     "name": "AsyncRAT",
     "iocs": 18,
     "c2": 18,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
-    "name": "AMOS",
-    "iocs": 17,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
     "name": "Aisuru",
-    "iocs": 15,
-    "c2": 15,
+    "iocs": 16,
+    "c2": 16,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    }
   ]
@@ -73,11 +73,11 @@
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 325
+    "count": 321
    },
    {
     "name": "exe",
-    "count": 223
+    "count": 220
    },
    {
     "name": "mirai",
@@ -85,23 +85,23 @@
    },
    {
     "name": "gitlab",
-    "count": 164
+    "count": 162
    },
    {
     "name": "github",
-    "count": 161
+    "count": 159
    },
    {
     "name": "Mozi",
-    "count": 146
+    "count": 149
    },
    {
     "name": "elf",
-    "count": 136
+    "count": 140
    },
    {
     "name": "rustystealer",
-    "count": 111
+    "count": 110
    }
   ]
  },
@@ -499,10 +499,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-08T21:28:06+00:00",
-  "sans": "2026-10-08T21:28:06+00:00",
-  "otx": "2026-10-08T21:28:06+00:00",
-  "urlhaus": "2026-10-08T21:28:06+00:00"
+  "threatfox": "2026-10-08T22:32:00+00:00",
+  "sans": "2026-10-08T22:32:00+00:00",
+  "otx": "2026-10-08T22:32:00+00:00",
+  "urlhaus": "2026-10-08T22:32:00+00:00"
  },
- "generated_at": "2026-10-08T21:28:06+00:00"
+ "generated_at": "2026-10-08T22:32:00+00:00"
 }
