@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 853,
-  "c2_servers": 276,
+  "total_iocs": 851,
+  "c2_servers": 269,
   "families": [
    {
     "name": "Unknown Stealer",
@@ -13,21 +13,21 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 75,
-    "c2": 1,
+    "iocs": 78,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "IClickFix",
+    "iocs": 57,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "RegPhantom",
     "iocs": 57,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.regphantom"
-   },
-   {
-    "name": "IClickFix",
-    "iocs": 56,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Vidar",
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 994,
+  "online": 991,
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 955
+    "count": 899
    },
    {
     "name": "exe",
-    "count": 648
+    "count": 607
    },
    {
     "name": "gitlab",
-    "count": 484
+    "count": 459
    },
    {
     "name": "github",
-    "count": 471
+    "count": 440
    },
    {
     "name": "rustystealer",
-    "count": 323
+    "count": 303
    },
    {
     "name": "zip",
-    "count": 312
+    "count": 297
    },
    {
     "name": "LummaStealer",
-    "count": 70
+    "count": 67
    },
    {
-    "name": "stealer",
-    "count": 19
+    "name": "mirai",
+    "count": 53
    }
   ]
  },
@@ -489,10 +489,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-08T06:48:18+00:00",
-  "sans": "2026-10-08T06:48:18+00:00",
-  "otx": "2026-10-08T06:48:18+00:00",
-  "urlhaus": "2026-10-08T06:48:18+00:00"
+  "threatfox": "2026-10-08T07:56:03+00:00",
+  "sans": "2026-10-08T07:56:03+00:00",
+  "otx": "2026-10-08T07:56:03+00:00",
+  "urlhaus": "2026-10-08T07:56:03+00:00"
  },
- "generated_at": "2026-10-08T06:48:18+00:00"
+ "generated_at": "2026-10-08T07:56:03+00:00"
 }

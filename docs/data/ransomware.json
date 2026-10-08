@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-08T06:48:18+00:00",
+ "generated_at": "2026-10-08T07:56:03+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "qilin",
-   "count": 17
+   "count": 16
   },
   {
    "name": "safepay",
@@ -52,27 +52,27 @@
   },
   {
    "name": "Other",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Education",
    "count": 6
   },
   {
-   "name": "Transportation",
-   "count": 6
+   "name": "Agriculture and Food Production",
+   "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 29,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 6,
+   "count": 7,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -147,6 +147,12 @@
    "count": 1,
    "lat": 24.5,
    "lon": 54.4
+  },
+  {
+   "code": "AR",
+   "count": 1,
+   "lat": -34.6,
+   "lon": -58.4
   },
   {
    "code": "CO",
@@ -246,6 +252,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "capitalbankhaiti.biz",
+   "group": "lockbit5",
+   "date": "2026-10-08T03:33:18+00:00",
+   "attack_date": "2026-10-04",
+   "country": "HT",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/Y2FwaXRhbGJhbmtoYWl0aS5iaXpAbG9ja2JpdDU="
+  },
+  {
+   "victim": "grunenwald.com",
+   "group": "lockbit5",
+   "date": "2026-10-08T03:32:37+00:00",
+   "attack_date": "2026-10-06",
+   "country": "DE",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/Z3J1bmVud2FsZC5jb21AbG9ja2JpdDU="
+  },
+  {
+   "victim": "avsa.com.ar",
+   "group": "lockbit5",
+   "date": "2026-10-08T03:31:57+00:00",
+   "attack_date": "2026-10-06",
+   "country": "AR",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/YXZzYS5jb20uYXJAbG9ja2JpdDU="
+  },
   {
    "victim": "Nantou Shiuhkuang Senior High School.",
    "group": "nightspire",
@@ -1109,33 +1142,6 @@
    "country": "IR",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/ZGFyYWx0ZWIuY29tQGtyeWJpdA=="
-  },
-  {
-   "victim": "Genesis Credit Management",
-   "group": "qilin",
-   "date": "2026-10-03T14:05:35+00:00",
-   "attack_date": "2026-10-03",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/R2VuZXNpcyBDcmVkaXQgTWFuYWdlbWVudEBxaWxpbg=="
-  },
-  {
-   "victim": "Precon Marine Inc",
-   "group": "netrunner",
-   "date": "2026-10-03T14:04:39+00:00",
-   "attack_date": "2026-10-03",
-   "country": null,
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/UHJlY29uIE1hcmluZSBJbmNAbmV0cnVubmVy"
-  },
-  {
-   "victim": "Skaff Group",
-   "group": "rhysida",
-   "date": "2026-10-03T13:02:56+00:00",
-   "attack_date": "2026-10-03",
-   "country": null,
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/U2thZmYgR3JvdXBAcmh5c2lkYQ=="
   }
  ]
 }

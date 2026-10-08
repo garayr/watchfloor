@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T03:46:16+00:00",
+ "generated_at": "2026-10-08T07:56:03+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -5866,6 +5866,124 @@
    ],
    "history_size": 659,
    "updated": "2026-10-08T03:46:16+00:00"
+  },
+  "lockbit5": {
+   "name": "lockbit5",
+   "description": "LockBit 5.0 (\"ChuongDong\") emerged in September 2025 as the group's resurgence following the February 2024 law enforcement takedown, introducing cross-platform payloads targeting Windows, Linux, and VMware ESXi with enhanced evasion capabilities and continuing the RaaS affiliate model of its predecessors.",
+   "aliases": [],
+   "first_seen": "2023-04-17",
+   "last_seen": "2026-10-08",
+   "victims_total": 374,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 67
+     },
+     {
+      "name": "BR",
+      "count": 30
+     },
+     {
+      "name": "IT",
+      "count": 29
+     },
+     {
+      "name": "DE",
+      "count": 27
+     },
+     {
+      "name": "MX",
+      "count": 16
+     },
+     {
+      "name": "NL",
+      "count": 14
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Professional Services",
+      "count": 64
+     },
+     {
+      "name": "Manufacturing",
+      "count": 62
+     },
+     {
+      "name": "Technology",
+      "count": 48
+     },
+     {
+      "name": "Healthcare",
+      "count": 34
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 26
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 24
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 111
+    },
+    {
+     "month": "2026-01",
+     "count": 8
+    },
+    {
+     "month": "2026-02",
+     "count": 34
+    },
+    {
+     "month": "2026-03",
+     "count": 50
+    },
+    {
+     "month": "2026-04",
+     "count": 39
+    },
+    {
+     "month": "2026-05",
+     "count": 10
+    },
+    {
+     "month": "2026-06",
+     "count": 59
+    },
+    {
+     "month": "2026-07",
+     "count": 9
+    },
+    {
+     "month": "2026-08",
+     "count": 31
+    },
+    {
+     "month": "2026-09",
+     "count": 19
+    },
+    {
+     "month": "2026-10",
+     "count": 4
+    }
+   ],
+   "history_size": 374,
+   "updated": "2026-10-08T07:56:03+00:00"
   }
  }
 }
