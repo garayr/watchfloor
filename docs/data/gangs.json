@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T17:30:27+00:00",
+ "generated_at": "2026-10-08T20:30:16+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1494,8 +1494,8 @@
    "description": "Lamashtu is an extortion group that first appeared in April 2026, claiming attacks against organizations in France, Romania, and Thailand across energy, pharmaceutical, and film sectors; it has not yet been confirmed as operating actual file-encrypting ransomware rather than pure data-theft extortion.",
    "aliases": [],
    "first_seen": "2026-04-11",
-   "last_seen": "2026-09-30",
-   "victims_total": 44,
+   "last_seen": "2026-10-05",
+   "victims_total": 48,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -1504,7 +1504,7 @@
     "countries": [
      {
       "name": "DE",
-      "count": 8
+      "count": 9
      },
      {
       "name": "FR",
@@ -1515,22 +1515,22 @@
       "count": 5
      },
      {
-      "name": "IT",
-      "count": 3
-     },
-     {
       "name": "MX",
+      "count": 4
+     },
+     {
+      "name": "ES",
       "count": 3
      },
      {
-      "name": "TH",
+      "name": "IT",
       "count": 3
      }
     ],
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 11
+      "count": 13
      },
      {
       "name": "Professional Services",
@@ -1541,24 +1541,20 @@
       "count": 4
      },
      {
+      "name": "Other",
+      "count": 4
+     },
+     {
       "name": "Retail & E-Commerce",
       "count": 4
      },
      {
-      "name": "Energy & Utilities",
-      "count": 3
-     },
-     {
-      "name": "Healthcare",
-      "count": 3
+      "name": "Transportation",
+      "count": 4
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-10",
-     "count": 0
-    },
     {
      "month": "2025-11",
      "count": 0
@@ -1602,10 +1598,14 @@
     {
      "month": "2026-09",
      "count": 10
+    },
+    {
+     "month": "2026-10",
+     "count": 4
     }
    ],
-   "history_size": 44,
-   "updated": "2026-09-30T16:53:25+00:00"
+   "history_size": 48,
+   "updated": "2026-10-08T20:30:16+00:00"
   },
   "Doommageddon": {
    "name": "Doommageddon",
