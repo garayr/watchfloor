@@ -1,6 +1,111 @@
 {
  "alerts": [
   {
+   "id": "CVE-2015-5477",
+   "date": "2026-10-08",
+   "src": "CISA",
+   "vendor": "ISC BIND",
+   "vendor_name": "ISC",
+   "product": "BIND",
+   "title": " ISC BIND Data Processing Errors Vulnerability",
+   "detail": "ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-11",
+   "ransomware": false,
+   "cves": [
+    "CVE-2015-5477"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
+   "kev": true,
+   "epss": 0.9128,
+   "cvss": 7.8,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2016-3081",
+   "date": "2026-10-08",
+   "src": "CISA",
+   "vendor": "Apache Struts",
+   "vendor_name": "Apache",
+   "product": "Struts",
+   "title": "Apache Struts Command Injection Vulnerability",
+   "detail": "Apache Struts contains a command injection vulnerability that could allow remote attackers to execute arbitrary code via method:prefix when Dynamic Method Invocation is enabled.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-11",
+   "ransomware": false,
+   "cves": [
+    "CVE-2016-3081"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3081",
+   "kev": true,
+   "epss": 0.9335,
+   "cvss": 8.1,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2021-3199",
+   "date": "2026-10-08",
+   "src": "CISA",
+   "vendor": "ONLYOFFICE Docs",
+   "vendor_name": "ONLYOFFICE",
+   "product": "Docs",
+   "title": "ONLYOFFICE Docs Server Path Traversal Vulnerability",
+   "detail": "ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-11",
+   "ransomware": false,
+   "cves": [
+    "CVE-2021-3199"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
+   "kev": true,
+   "epss": 0.0822,
+   "cvss": 9.8,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2015-3306",
+   "date": "2026-10-08",
+   "src": "CISA",
+   "vendor": "ProFTPD ProFTPD",
+   "vendor_name": "ProFTPD",
+   "product": "ProFTPD",
+   "title": "ProFTPD Improper Access Control Vulnerability",
+   "detail": "ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-11",
+   "ransomware": false,
+   "cves": [
+    "CVE-2015-3306"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3306",
+   "kev": true,
+   "epss": 0.9675,
+   "cvss": 10.0,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2023-22894",
+   "date": "2026-10-08",
+   "src": "CISA",
+   "vendor": "Strapi Strapi",
+   "vendor_name": "Strapi",
+   "product": "Strapi",
+   "title": "Strapi Cleartext Storage of Sensitive Information Vulnerability",
+   "detail": "Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. This vulnerability can be chained with…",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-11",
+   "ransomware": false,
+   "cves": [
+    "CVE-2023-22894"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
+   "kev": true,
+   "epss": 0.0166,
+   "cvss": 4.9,
+   "sev": "high"
+  },
+  {
    "id": "https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data",
    "date": "2026-10-08",
    "src": "NCSC",
