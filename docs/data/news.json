@@ -50,20 +50,20 @@
      "date": "2026-10-07T23:04:37+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Musician sent to prison for $10 million streaming fraud using AI bots",
-     "summary": "A North Carolina musician was sentenced to 18 months in prison for collecting more than $10 million in royalties from Spotify, Apple Music, Amazon Music, and YouTube Music in a massive streaming royalty fraud scheme…",
-     "source": "BleepingComputer",
-     "date": "2026-10-07T10:35:15+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Cisco Patches a Dozen Critical Vulnerabilities",
+     "summary": "The security defects could lead to unauthorized access, information leaks, privilege escalation, DoS attacks, and remote code execution. The post Cisco Patches a Dozen Critical Vulnerabilities appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-10-08T15:28:06+00:00",
+     "url": "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
      "summary": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and…",
@@ -169,14 +169,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts",
-     "summary": "Southern Company is notifying customers that their utility account information was accessed by hackers. The post Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-07T14:15:20+00:00",
-     "url": "https://www.securityweek.com/georgia-power-alabama-power-data-breach-hits-400000-accounts/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "Ransomware has a new target. Is your backup ready?",
      "summary": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, and regularly tested…",
      "source": "BleepingComputer",
@@ -189,6 +181,14 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
+     "summary": "Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switches. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-08T15:26:33+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+     "group": "Exploited right now"
+    },
     {
      "title": "Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication",
      "summary": "Threat actors have started targeting CVE-2026-21589, a critical vulnerability in Atlassian’s self-hosted Data Center products. The post Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication…",
@@ -244,28 +244,28 @@
      "date": "2026-10-07T11:42:24+00:00",
      "url": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
-     "summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-07T11:37:07+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-     "summary": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company…",
-     "source": "The Hacker News",
-     "date": "2026-10-07T08:07:38+00:00",
-     "url": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
+     "summary": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented.NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use…",
+     "source": "The Hacker News",
+     "date": "2026-10-08T15:26:56+00:00",
+     "url": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+     "group": "Malware and campaigns"
+    },
+    {
+     "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+     "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The…",
+     "source": "The Hacker News",
+     "date": "2026-10-08T14:12:34+00:00",
+     "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
      "summary": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the…",
