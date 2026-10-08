@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1189,
-  "c2_servers": 202,
+  "total_iocs": 1188,
+  "c2_servers": 213,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 372,
+    "iocs": 367,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -19,43 +19,43 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 112,
+    "iocs": 114,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "IClickFix",
-    "iocs": 67,
+    "iocs": 79,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 53,
+    "iocs": 60,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
+    "name": "Vidar",
+    "iocs": 53,
+    "c2": 32,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "Unknown Stealer",
-    "iocs": 49,
+    "iocs": 20,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
-    "name": "Vidar",
-    "iocs": 49,
-    "c2": 28,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "AsyncRAT",
-    "iocs": 19,
-    "c2": 19,
+    "iocs": 18,
+    "c2": 18,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
     "name": "AMOS",
-    "iocs": 16,
+    "iocs": 17,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -69,23 +69,23 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 718,
+  "online": 717,
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 328
+    "count": 325
    },
    {
     "name": "exe",
     "count": 223
    },
    {
-    "name": "gitlab",
-    "count": 167
-   },
-   {
     "name": "mirai",
     "count": 166
+   },
+   {
+    "name": "gitlab",
+    "count": 164
    },
    {
     "name": "github",
@@ -93,15 +93,15 @@
    },
    {
     "name": "Mozi",
-    "count": 143
+    "count": 146
    },
    {
     "name": "elf",
-    "count": 133
+    "count": 136
    },
    {
-    "name": "zip",
-    "count": 113
+    "name": "rustystealer",
+    "count": 111
    }
   ]
  },
@@ -499,10 +499,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-08T20:30:16+00:00",
-  "sans": "2026-10-08T20:30:16+00:00",
-  "otx": "2026-10-08T20:30:16+00:00",
-  "urlhaus": "2026-10-08T20:30:16+00:00"
+  "threatfox": "2026-10-08T21:28:06+00:00",
+  "sans": "2026-10-08T21:28:06+00:00",
+  "otx": "2026-10-08T21:28:06+00:00",
+  "urlhaus": "2026-10-08T21:28:06+00:00"
  },
- "generated_at": "2026-10-08T20:30:16+00:00"
+ "generated_at": "2026-10-08T21:28:06+00:00"
 }
