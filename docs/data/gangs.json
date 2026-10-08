@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T07:56:03+00:00",
+ "generated_at": "2026-10-08T09:56:28+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -208,8 +208,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-08-03",
-   "last_seen": "2026-09-30",
-   "victims_total": 78,
+   "last_seen": "2026-10-08",
+   "victims_total": 84,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -218,11 +218,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 60
+      "count": 64
      },
      {
       "name": "CA",
-      "count": 8
+      "count": 10
      },
      {
       "name": "AU",
@@ -239,16 +239,16 @@
     ],
     "sectors": [
      {
+      "name": "Manufacturing",
+      "count": 18
+     },
+     {
       "name": "Financial Services",
       "count": 16
      },
      {
-      "name": "Manufacturing",
-      "count": 16
-     },
-     {
       "name": "Healthcare",
-      "count": 12
+      "count": 15
      },
      {
       "name": "Other",
@@ -265,10 +265,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-10",
-     "count": 0
-    },
     {
      "month": "2025-11",
      "count": 0
@@ -312,10 +308,14 @@
     {
      "month": "2026-09",
      "count": 37
+    },
+    {
+     "month": "2026-10",
+     "count": 6
     }
    ],
-   "history_size": 78,
-   "updated": "2026-09-30T12:02:57+00:00"
+   "history_size": 84,
+   "updated": "2026-10-08T09:56:28+00:00"
   },
   "safepay": {
    "name": "safepay",
@@ -5984,6 +5984,84 @@
    ],
    "history_size": 374,
    "updated": "2026-10-08T07:56:03+00:00"
+  },
+  "Scarlettgroup": {
+   "name": "Scarlettgroup",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-08",
+   "victims_total": 1,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Education",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 1,
+   "updated": "2026-10-08T09:56:28+00:00"
   }
  }
 }

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-08T08:56:21+00:00",
+ "generated_at": "2026-10-08T09:56:28+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
- "total": 99,
+ "total": 100,
  "by_group": [
   {
    "name": "qilin",
@@ -14,7 +14,7 @@
   },
   {
    "name": "BYOD",
-   "count": 6
+   "count": 5
   },
   {
    "name": "SilentRansomGroup",
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 19
+   "count": 18
   },
   {
    "name": "Technology",
-   "count": 16
+   "count": 15
   },
   {
    "name": "Professional Services",
@@ -56,11 +56,11 @@
   },
   {
    "name": "Education",
-   "count": 6
+   "count": 7
   },
   {
-   "name": "Agriculture and Food Production",
-   "count": 5
+   "name": "Healthcare",
+   "count": 7
   }
  ],
  "by_country": [
@@ -89,6 +89,12 @@
    "lon": -46.6
   },
   {
+   "code": "CA",
+   "count": 3,
+   "lat": 43.7,
+   "lon": -79.4
+  },
+  {
    "code": "CH",
    "count": 3,
    "lat": 46.9,
@@ -105,12 +111,6 @@
    "count": 2,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "CA",
-   "count": 2,
-   "lat": 43.7,
-   "lon": -79.4
   },
   {
    "code": "CL",
@@ -252,6 +252,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Cooperative Des Techniciens Ambulanciers De La Monte",
+   "group": "Storm",
+   "date": "2026-10-08T05:25:57+00:00",
+   "attack_date": "2026-10-07",
+   "country": "CA",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Q29vcGVyYXRpdmUgRGVzIFRlY2huaWNpZW5zIEFtYnVsYW5jaWVycyBEZSBMYSBNb250ZUBTdG9ybQ=="
+  },
+  {
+   "victim": "TheraCare",
+   "group": "Storm",
+   "date": "2026-10-08T05:25:26+00:00",
+   "attack_date": "2026-10-06",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/VGhlcmFDYXJlQFN0b3Jt"
+  },
+  {
+   "victim": "yalebooks.yale.edu",
+   "group": "Scarlettgroup",
+   "date": "2026-10-08T05:21:32+00:00",
+   "attack_date": "2026-10-05",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/eWFsZWJvb2tzLnlhbGUuZWR1QFNjYXJsZXR0Z3JvdXA="
+  },
   {
    "victim": "capitalbankhaiti.biz",
    "group": "lockbit5",
@@ -964,15 +991,6 @@
    "url": "https://www.ransomware.live/id/VGhvbWFzIFkuIFBpY2tldHQgJiBDby4sIEluYy5AYXVyb3Jh"
   },
   {
-   "victim": "Trump Mobile Wireless (Telecom)",
-   "group": "BYOD",
-   "date": "2026-10-05T08:04:48+00:00",
-   "attack_date": "2026-10-04",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VHJ1bXAgTW9iaWxlIFdpcmVsZXNzIChUZWxlY29tKUBCWU9E"
-  },
-  {
    "victim": "Royal Selangor",
    "group": "BYOD",
    "date": "2026-10-05T08:04:09+00:00",
@@ -1106,15 +1124,6 @@
    "country": "JP",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/TXV0c3VtaSBHcm91cEBxaWxpbg=="
-  },
-  {
-   "victim": "Center State Engineering",
-   "group": "thegentlemen",
-   "date": "2026-10-04T13:17:23+00:00",
-   "attack_date": "2026-10-03",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Q2VudGVyIFN0YXRlIEVuZ2luZWVyaW5nQHRoZWdlbnRsZW1lbg=="
   },
   {
    "victim": "euroditel.com",
