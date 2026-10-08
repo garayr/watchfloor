@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 860,
-  "c2_servers": 286,
+  "total_iocs": 853,
+  "c2_servers": 276,
   "families": [
    {
     "name": "Unknown Stealer",
-    "iocs": 159,
-    "c2": 31,
+    "iocs": 160,
+    "c2": 32,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
@@ -31,8 +31,8 @@
    },
    {
     "name": "Vidar",
-    "iocs": 47,
-    "c2": 29,
+    "iocs": 46,
+    "c2": 28,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -60,48 +60,48 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 24,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "Aisuru",
+    "iocs": 22,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 929,
+  "online": 994,
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 663
+    "count": 955
    },
    {
     "name": "exe",
-    "count": 470
-   },
-   {
-    "name": "github",
-    "count": 348
+    "count": 648
    },
    {
     "name": "gitlab",
-    "count": 315
+    "count": 484
    },
    {
-    "name": "zip",
-    "count": 194
+    "name": "github",
+    "count": 471
    },
    {
     "name": "rustystealer",
-    "count": 141
+    "count": 323
    },
    {
-    "name": "Mozi",
-    "count": 100
+    "name": "zip",
+    "count": 312
    },
    {
-    "name": "mirai",
-    "count": 96
+    "name": "LummaStealer",
+    "count": 70
+   },
+   {
+    "name": "stealer",
+    "count": 19
    }
   ]
  },
@@ -489,10 +489,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-08T05:44:24+00:00",
-  "sans": "2026-10-08T05:44:24+00:00",
-  "otx": "2026-10-08T05:44:24+00:00",
-  "urlhaus": "2026-10-08T05:44:24+00:00"
+  "threatfox": "2026-10-08T06:48:18+00:00",
+  "sans": "2026-10-08T06:48:18+00:00",
+  "otx": "2026-10-08T06:48:18+00:00",
+  "urlhaus": "2026-10-08T06:48:18+00:00"
  },
- "generated_at": "2026-10-08T05:44:24+00:00"
+ "generated_at": "2026-10-08T06:48:18+00:00"
 }

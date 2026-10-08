@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T05:44:24+00:00",
+ "generated_at": "2026-10-08T06:48:18+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -55,7 +55,7 @@
    "count": 11
   },
   {
-   "name": "Healthcare",
+   "name": "Education",
    "count": 6
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 31,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -233,6 +233,12 @@
    "lon": -61.5
   },
   {
+   "code": "TW",
+   "count": 1,
+   "lat": 25.0,
+   "lon": 121.5
+  },
+  {
    "code": "ZA",
    "count": 1,
    "lat": -26.2,
@@ -240,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Nantou Shiuhkuang Senior High School.",
+   "group": "nightspire",
+   "date": "2026-10-08T02:01:04+00:00",
+   "attack_date": "2026-10-07",
+   "country": "TW",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/TmFudG91IFNoaXVoa3VhbmcgU2VuaW9yIEhpZ2ggU2Nob29sLkBuaWdodHNwaXJl"
+  },
   {
    "victim": "K...",
    "group": "SilentRansomGroup",
@@ -1121,15 +1136,6 @@
    "country": null,
    "sector": "Other",
    "url": "https://www.ransomware.live/id/U2thZmYgR3JvdXBAcmh5c2lkYQ=="
-  },
-  {
-   "victim": "St. Francis Healthcare Systems of Hawaii",
-   "group": "Wallstreet",
-   "date": "2026-10-03T12:24:31+00:00",
-   "attack_date": "2026-10-03",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/U3QuIEZyYW5jaXMgSGVhbHRoY2FyZSBTeXN0ZW1zIG9mIEhhd2FpaUBXYWxsc3RyZWV0"
   }
  ]
 }
