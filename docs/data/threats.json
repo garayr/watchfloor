@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1262,
-  "c2_servers": 283,
+  "total_iocs": 1271,
+  "c2_servers": 279,
   "families": [
    {
     "name": "Unknown Loader",
@@ -13,13 +13,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 154,
+    "iocs": 168,
     "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 96,
+    "iocs": 92,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -37,19 +37,19 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 74,
+    "iocs": 75,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Vidar",
-    "iocs": 51,
-    "c2": 30,
+    "iocs": 48,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 21,
+    "iocs": 22,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -69,19 +69,19 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 654,
+  "online": 653,
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 276
+    "count": 252
    },
    {
     "name": "exe",
-    "count": 189
+    "count": 174
    },
    {
     "name": "elf",
-    "count": 168
+    "count": 172
    },
    {
     "name": "mirai",
@@ -89,15 +89,15 @@
    },
    {
     "name": "Mozi",
-    "count": 161
+    "count": 165
    },
    {
     "name": "gitlab",
-    "count": 140
+    "count": 131
    },
    {
     "name": "github",
-    "count": 136
+    "count": 121
    },
    {
     "name": "ua-wget",
@@ -499,10 +499,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-09T01:47:14+00:00",
-  "sans": "2026-10-09T01:47:14+00:00",
-  "otx": "2026-10-09T01:47:14+00:00",
-  "urlhaus": "2026-10-09T01:47:14+00:00"
+  "threatfox": "2026-10-09T02:56:01+00:00",
+  "sans": "2026-10-09T02:56:01+00:00",
+  "otx": "2026-10-09T02:56:01+00:00",
+  "urlhaus": "2026-10-09T02:56:01+00:00"
  },
- "generated_at": "2026-10-09T01:47:14+00:00"
+ "generated_at": "2026-10-09T02:56:01+00:00"
 }
