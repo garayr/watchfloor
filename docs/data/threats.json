@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1185,
-  "c2_servers": 280,
+  "total_iocs": 1203,
+  "c2_servers": 291,
   "families": [
    {
     "name": "Unknown Loader",
@@ -19,19 +19,19 @@
    },
    {
     "name": "Unknown Stealer",
-    "iocs": 90,
-    "c2": 78,
+    "iocs": 95,
+    "c2": 83,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
     "name": "ClearFake",
-    "iocs": 88,
+    "iocs": 84,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 83,
+    "iocs": 84,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -43,21 +43,21 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 31,
+    "iocs": 41,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "AsyncRAT",
-    "iocs": 18,
-    "c2": 18,
+    "iocs": 20,
+    "c2": 20,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
-    "name": "AMOS",
-    "iocs": 16,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+    "name": "Cobalt Strike",
+    "iocs": 17,
+    "c2": 17,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "Drifter",
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 573,
+  "online": 568,
   "top_tags": [
    {
     "name": "elf",
-    "count": 202
+    "count": 218
    },
    {
     "name": "Mozi",
-    "count": 182
+    "count": 186
    },
    {
     "name": "mirai",
-    "count": 166
+    "count": 165
    },
    {
     "name": "CheatSheet",
-    "count": 152
+    "count": 131
    },
    {
     "name": "ua-wget",
-    "count": 111
+    "count": 123
    },
    {
     "name": "exe",
-    "count": 103
+    "count": 85
+   },
+   {
+    "name": "32-bit",
+    "count": 74
    },
    {
     "name": "gitlab",
-    "count": 78
-   },
-   {
-    "name": "github",
-    "count": 74
+    "count": 73
    }
   ]
  },
@@ -180,6 +180,11 @@
  "ports_date": "2026-10-09",
  "diary": [
   {
+   "title": "ISC Stormcast For Friday, October 9th, 2026 https://isc.sans.edu/podcastdetail/10130, (Fri, Oct 9th)",
+   "url": "https://isc.sans.edu/diary/rss/33412",
+   "date": "2026-10-09T07:52:03+00:00"
+  },
+  {
    "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
    "url": "https://isc.sans.edu/diary/rss/33410",
    "date": "2026-10-08T16:52:53+00:00"
@@ -203,14 +208,74 @@
    "title": "More RMM Tools In the Wild, (Tue, Oct 6th)",
    "url": "https://isc.sans.edu/diary/rss/33400",
    "date": "2026-10-06T13:16:02+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Tuesday, October 6th, 2026 https://isc.sans.edu/podcastdetail/10124, (Tue, Oct 6th)",
-   "url": "https://isc.sans.edu/diary/rss/33402",
-   "date": "2026-10-06T11:45:11+00:00"
   }
  ],
  "pulses": [
+  {
+   "name": "NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL",
+   "summary": "In late September 2026, an actor deployed seven malicious npm packages masquerading as a NebulaAI software development kit to deliver a Windows remote-access trojan. The operation, tracked as NEBULA, spans four…",
+   "date": "2026-10-09T08:22:58+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "KNTRAT"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "npm",
+    "supply chain attack",
+    "hvnc",
+    "NEBULA"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac8a46214e2077a0bfe7409"
+  },
+  {
+   "name": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
+   "summary": "An unidentified threat actor, likely Chinese-speaking and financially motivated, conducted targeted attacks against South Korean financial institutions between late September and early October 2026, successfully…",
+   "date": "2026-10-09T08:13:35+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ARTEX"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "llm-powered attacks",
+    "agentic ai",
+    "artex"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac8a22f8d0ad1ea5f056ddc"
+  },
+  {
+   "name": "From Guest Complaints to Malware: Blockchain Abuse Targets Hotels",
+   "summary": "Threat actors are conducting email campaigns targeting the accommodation industry using fake guest complaints, reviews, and inquiries. These emails deliver malicious LNK shortcut files disguised as images, which…",
+   "date": "2026-10-08T15:21:41+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "EtherRAT",
+    "TONResolver",
+    "PureRAT",
+    "NetSupport Manager RAT"
+   ],
+   "countries": [],
+   "industries": [
+    "Hospitality"
+   ],
+   "tags": [
+    "netsupport manager rat",
+    "ton blockchain",
+    "purerat",
+    "etherrat",
+    "tonresolver",
+    "blockchain c2"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac7b505bae48a926c79fefb"
+  },
   {
    "name": "Canto incognito: tracking the PoeLLM malware",
    "summary": "Since April 2026, PoeLLM malware has been actively targeting exposed AI/LLM and open-source services including LiteLLM, Ollama, Gotenberg, and Gitea, with possible Ivanti Sentry targeting. The campaign employs an…",
@@ -420,89 +485,13 @@
     "hideul_x64.exe"
    ],
    "url": "https://otx.alienvault.com/pulse/6ac6796b14fb153d2a5f5a04"
-  },
-  {
-   "name": "Behind the Connect Button: The Fake AI Ads Campaign",
-   "summary": "Security researchers uncovered a sophisticated human-operated phishing platform disguising itself as AI advertising products for major platforms including Muse, Gemini, Claude, ChatGPT, and Perplexity. The campaign uses…",
-   "date": "2026-10-07T12:09:53+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Technology",
-    "Media"
-   ],
-   "tags": [
-    "socket.io",
-    "social engineering",
-    "phishing campaign",
-    "mfa bypass",
-    "browser-in-the-browser",
-    "credential theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac6369136830294944bbdc8"
-  },
-  {
-   "name": "Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting…",
-   "summary": "An Iranian state-aligned threat actor designated as CL-STA-1178 has been impersonating the Dubai Airports IT department to deliver trojanized coding challenges to high-value targets. The Blinder Tunnel campaign, active…",
-   "date": "2026-10-07T09:47:16+00:00",
-   "author": "AlienVault",
-   "adversary": "CL-STA-1178",
-   "malware": [
-    "ShelbyLoader V2",
-    "RuntimeBroker.dll",
-    "PsProxy.dll",
-    "Blackwood.dll",
-    "Chisel"
-   ],
-   "countries": [
-    "Iraq",
-    "Israel"
-   ],
-   "industries": [
-    "Energy",
-    "Government"
-   ],
-   "tags": [
-    "appdomainmanager hijacking",
-    "blackwood.dll",
-    "blinder tunnel",
-    "chisel",
-    "dll sideloading",
-    "shelbyloader v2"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac6152430b84019d1fded71"
-  },
-  {
-   "name": "Akira Ransomware Attack Investigation",
-   "summary": "In September, an organization experienced an Akira ransomware attack, with investigation revealing the threat actor's tactics and tools. The attacker gained access through Remote Desktop Protocol, subsequently disabling…",
-   "date": "2026-10-07T09:45:46+00:00",
-   "author": "AlienVault",
-   "adversary": "Akira",
-   "malware": [
-    "Akira - S1129",
-    "Rclone",
-    "GOST"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "data exfiltration",
-    "antivirus evasion",
-    "rclone",
-    "ransomware",
-    "rdp",
-    "persistence"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac614ca291abbad48bc40de"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-09T07:30:12+00:00",
-  "sans": "2026-10-09T07:30:12+00:00",
-  "otx": "2026-10-09T07:30:12+00:00",
-  "urlhaus": "2026-10-09T07:30:12+00:00"
+  "threatfox": "2026-10-09T08:30:40+00:00",
+  "sans": "2026-10-09T08:30:40+00:00",
+  "otx": "2026-10-09T08:30:40+00:00",
+  "urlhaus": "2026-10-09T08:30:40+00:00"
  },
- "generated_at": "2026-10-09T07:30:12+00:00"
+ "generated_at": "2026-10-09T08:30:40+00:00"
 }

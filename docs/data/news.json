@@ -36,14 +36,6 @@
      "group": "Arrests, courts and policy"
     },
     {
-     "title": "TP-Link Faces State Lawsuits and New Scrutiny Over ISP Router Flaws",
-     "summary": "SEC Consult has published technical details on vulnerabilities mentioned in a complaint filed by several US states. The post TP-Link Faces State Lawsuits and New Scrutiny Over ISP Router Flaws appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-10-08T10:24:04+00:00",
-     "url": "https://www.securityweek.com/tp-link-faces-state-lawsuits-and-new-scrutiny-over-isp-router-flaws/",
-     "group": "Arrests, courts and policy"
-    },
-    {
      "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
      "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft…",
      "source": "The Hacker News",
@@ -161,14 +153,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Hackers hijack Google domains after breaching ccTLD registries",
-     "summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party…",
-     "source": "BleepingComputer",
-     "date": "2026-10-07T20:50:13+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "Attackers Hijack.gh,.sl, and.as Registries to Obtain Certificates for Google Domains",
      "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google said on October 6. Google's own systems were not breached, but any…",
      "source": "The Hacker News",
@@ -189,6 +173,28 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
+     "summary": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-09T08:27:42+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88779",
+      "CVE-2026-88772",
+      "CVE-2026-88771",
+      "CVE-2026-19490"
+     ]
+    },
+    {
+     "title": "Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security",
+     "summary": "OSS Scanner sends unreviewed, model-generated vulnerability reports to open source maintainers that opt in. The post Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security appeared first…",
+     "source": "SecurityWeek",
+     "date": "2026-10-09T08:19:33+00:00",
+     "url": "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/",
+     "group": "Exploited right now"
+    },
     {
      "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
      "summary": "The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service. The post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek.",
