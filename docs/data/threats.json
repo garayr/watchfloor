@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1203,
-  "c2_servers": 291,
+  "total_iocs": 1221,
+  "c2_servers": 296,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 346,
-    "c2": 2,
+    "iocs": 345,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
-    "iocs": 168,
+    "iocs": 180,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -25,13 +25,13 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 84,
+    "iocs": 86,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 84,
+    "iocs": 86,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -43,7 +43,7 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 41,
+    "iocs": 38,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
@@ -55,8 +55,8 @@
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 17,
-    "c2": 17,
+    "iocs": 16,
+    "c2": 16,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 568,
+  "online": 562,
   "top_tags": [
    {
     "name": "elf",
-    "count": 218
+    "count": 226
    },
    {
     "name": "Mozi",
-    "count": 186
+    "count": 193
    },
    {
     "name": "mirai",
     "count": 165
    },
    {
-    "name": "CheatSheet",
-    "count": 131
-   },
-   {
     "name": "ua-wget",
     "count": 123
    },
    {
-    "name": "exe",
-    "count": 85
+    "name": "CheatSheet",
+    "count": 121
    },
    {
     "name": "32-bit",
-    "count": 74
+    "count": 80
+   },
+   {
+    "name": "exe",
+    "count": 79
    },
    {
     "name": "gitlab",
-    "count": 73
+    "count": 67
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 255660,
-   "targets": 229,
-   "sources": 4944
+   "records": 672441,
+   "targets": 268,
+   "sources": 7082
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 244076,
-   "targets": 239,
-   "sources": 3534
+   "records": 606656,
+   "targets": 274,
+   "sources": 5150
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 198143,
-   "targets": 227,
-   "sources": 2777
+   "records": 525667,
+   "targets": 275,
+   "sources": 4067
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 180827,
-   "targets": 255,
-   "sources": 5005
+   "records": 458651,
+   "targets": 280,
+   "sources": 8401
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 175977,
-   "targets": 223,
-   "sources": 3148
+   "records": 453048,
+   "targets": 286,
+   "sources": 5529
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 131326,
-   "targets": 251,
-   "sources": 4133
+   "records": 272084,
+   "targets": 272,
+   "sources": 7606
   },
   {
    "port": 2222,
    "service": null,
-   "records": 43457,
-   "targets": 236,
-   "sources": 3022
+   "records": 116715,
+   "targets": 271,
+   "sources": 4924
   },
   {
    "port": 51413,
    "service": null,
-   "records": 28554,
-   "targets": 75,
-   "sources": 1977
+   "records": 57992,
+   "targets": 129,
+   "sources": 3410
   },
   {
    "port": 16767,
    "service": null,
-   "records": 26411,
-   "targets": 4,
-   "sources": 1957
+   "records": 56776,
+   "targets": 5,
+   "sources": 2925
   },
   {
-   "port": 137,
+   "port": 9000,
    "service": null,
-   "records": 15769,
-   "targets": 117,
-   "sources": 193
+   "records": 43789,
+   "targets": 241,
+   "sources": 2483
   }
  ],
  "ports_date": "2026-10-09",
@@ -249,6 +249,140 @@
     "artex"
    ],
    "url": "https://otx.alienvault.com/pulse/6ac8a22f8d0ad1ea5f056ddc"
+  },
+  {
+   "name": "Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data",
+   "summary": "Warden Stealer is an emerging Rust-based infostealer-as-a-service that has rapidly become one of the most prevalent threats, distributed via malware-as-a-service model since August 2026. Unlike most competitors, it…",
+   "date": "2026-10-09T07:40:30+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Warden Stealer",
+    "CallbackBeaver",
+    "Vidar",
+    "Amatera",
+    "Remus",
+    "GoFlateLoader"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "callbackbeaver",
+    "warden stealer",
+    "obfuscation",
+    "vidar",
+    "goflateloader",
+    "amatera"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac89a6e10be1d80cdf57417"
+  },
+  {
+   "name": "Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer",
+   "summary": "Beginning October 7, 2026, threat actors exploited two critical vulnerabilities in AhsayCBS backup utility (CVE-2026-105133 and CVE-2026-105134) to achieve unauthenticated remote code execution on exposed systems. The…",
+   "date": "2026-10-09T01:57:42+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "XMRig"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "kernel driver exploitation",
+    "ahsaycbs",
+    "cryptomining",
+    "webshell",
+    "xmrig",
+    "msp targeting"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac84a1665712fe245b07ce7"
+  },
+  {
+   "name": "MATCHBOIL: New tricks, same old evil intentions",
+   "summary": "ESET researchers documented the evolution of MATCHBOIL, a custom C# downloader used by Russia-aligned APT group UAC-0099. The malware downloads payloads from command-and-control servers, installs them, and establishes…",
+   "date": "2026-10-09T01:57:42+00:00",
+   "author": "AlienVault",
+   "adversary": "UAC-0099",
+   "malware": [
+    "MATCHBOIL",
+    "MATCHWOK",
+    "LONEPAGE"
+   ],
+   "countries": [
+    "Ukraine"
+   ],
+   "industries": [
+    "Transportation",
+    "Manufacturing",
+    "Energy",
+    "Government",
+    "Finance",
+    "Media"
+   ],
+   "tags": [
+    "matchboil",
+    "spearphishing",
+    "uac-0099",
+    "lonepage"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac84a166254b974f23968a2"
+  },
+  {
+   "name": "US disrupts Chinese hacking tools as 7 govts warn of PRC spies stealing sensitive data worldwide",
+   "summary": "The FBI seized seven web domains linked to Integrity Technology Group, a Chinese security firm allegedly providing hacking tools to Beijing-backed operatives. These tools enabled attacks on critical infrastructure…",
+   "date": "2026-10-09T01:57:41+00:00",
+   "author": "AlienVault",
+   "adversary": "Flax Typhoon",
+   "malware": [
+    "Mirai",
+    "FishHub"
+   ],
+   "countries": [
+    "United States of America",
+    "Japan",
+    "Poland",
+    "Taiwan"
+   ],
+   "industries": [
+    "Energy",
+    "Education",
+    "Government",
+    "NGO",
+    "Transportation"
+   ],
+   "tags": [
+    "microscan",
+    "integrity technology group",
+    "vulnerability scanning",
+    "flax typhoon",
+    "fishhub"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac84a155bb626a3710179b9"
+  },
+  {
+   "name": "Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware",
+   "summary": "In July 2026, Zscaler ThreatLabz uncovered a sophisticated campaign utilizing a trojanized Terraform provider to deliver cross-platform malware targeting cryptocurrency and Web3 developers. The attack begins with a…",
+   "date": "2026-10-08T20:12:51+00:00",
+   "author": "AlienVault",
+   "adversary": "TraderTraitor",
+   "malware": [
+    "FLATROOF",
+    "ROOFDECK"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology",
+    "Finance"
+   ],
+   "tags": [
+    "flatroof",
+    "roofdeck",
+    "tradertraitor",
+    "nostr"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac7f9431e9712b6c5e2a6cd"
   },
   {
    "name": "From Guest Complaints to Malware: Blockchain Abuse Targets Hotels",
@@ -349,32 +483,6 @@
    "url": "https://otx.alienvault.com/pulse/6ac74668a88744f8ef47c332"
   },
   {
-   "name": "RMM Tools Being Distributed Through Phishing Attacks (ScreenConnect, FleetDeck, Datto, SimpleHelp, JumpCloud, N-able)",
-   "summary": "Multiple Remote Monitoring and Management (RMM) tools are being distributed through phishing campaigns involving video files and email attachments. Threat actors exploit legitimate RMM solutions like ScreenConnect…",
-   "date": "2026-10-08T07:10:37+00:00",
-   "author": "AlienVault",
-   "adversary": "Scattered Spider",
-   "malware": [
-    "ScreenConnect",
-    "FleetDeck",
-    "Datto",
-    "SimpleHelp",
-    "JumpCloud",
-    "N-able"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "n-able",
-    "phishing campaign",
-    "screenconnect",
-    "datto",
-    "pdf lures",
-    "it management abuse"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac741ed2968234538d416fa"
-  },
-  {
    "name": "TensorLake npm SDK Compromised in ChainDrop Shai-Hulud Credential-Stealing Attack",
    "summary": "The Tensorlake npm SDK version 0.5.144 was compromised in a ChainDrop/Shai-Hulud supply chain attack, affecting a package with approximately 12,000 weekly downloads. The malicious release contains obfuscated code that…",
    "date": "2026-10-08T07:08:15+00:00",
@@ -394,104 +502,13 @@
     "npm compromise"
    ],
    "url": "https://otx.alienvault.com/pulse/6ac7415f2754c1b2193c9737"
-  },
-  {
-   "name": "DarkSword/Coruna Open Directory Finding",
-   "summary": "Five hosts exposed the complete DarkSword/Coruna iOS exploitation platform through open directories, revealing an active commercial exploitation-as-a-service operation. The platform targets cryptocurrency wallets across…",
-   "date": "2026-10-07T21:37:32+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "DarkSword",
-    "Coruna",
-    "GHOSTBLADE",
-    "GHOSTKNIFE",
-    "GHOSTSABER"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "ghostsaber",
-    "china-based operator",
-    "cve-2026-31001",
-    "darksword",
-    "ios exploitation",
-    "exploitation-as-a-service"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac6bb9cd16a3898ced29ead"
-  },
-  {
-   "name": "Inside PhantomPolia: Remus Stealer Delivery via Donut Shellcode in ClickFix Campaign",
-   "summary": "LevelBlue observed a ClickFix campaign delivering Remus Stealer through compromised websites using PhantomPolia, a JavaScript loader that retrieves encrypted configurations from Ethereum Sepolia smart contracts via…",
-   "date": "2026-10-07T21:37:31+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Remus Stealer",
-    "PhantomPolia"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "phantompolia",
-    "remus stealer",
-    "clickfix",
-    "ethereum sepolia",
-    "powershell",
-    "information stealer"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac6bb9b4a8df7d9c471fc83"
-  },
-  {
-   "name": "FortiBleed Operations Continue Targeting Exposed Systems Leading to Reports of Lockouts",
-   "summary": "FortiBleed is an active global credential-compromise campaign targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways, with over 86,644 compromised devices verified across 194 countries. The campaign…",
-   "date": "2026-10-07T16:57:11+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "INC/Lynx",
-    "Payload"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "fortigate",
-    "credential harvesting",
-    "hashtopolis",
-    "fortibleed",
-    "gpu cracking",
-    "inc/lynx"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac679e7bbe47190f9ffce7a"
-  },
-  {
-   "name": "Phishing Campaign Abuses Microsoft Power BI to Deploy Rogue RMMs",
-   "summary": "In September, a phishing campaign exploited legitimate Microsoft Power BI domains to distribute rogue ScreenConnect remote monitoring tools. Attackers sent phishing emails with embedded links redirecting victims to fake…",
-   "date": "2026-10-07T16:55:07+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ScreenConnect",
-    "HideUL_x64.exe"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "scheduled tasks",
-    "screenconnect",
-    "rmm",
-    "persistence",
-    "phishing",
-    "hideul_x64.exe"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac6796b14fb153d2a5f5a04"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-09T08:30:40+00:00",
-  "sans": "2026-10-09T08:30:40+00:00",
-  "otx": "2026-10-09T08:30:40+00:00",
-  "urlhaus": "2026-10-09T08:30:40+00:00"
+  "threatfox": "2026-10-09T09:30:39+00:00",
+  "sans": "2026-10-09T09:30:39+00:00",
+  "otx": "2026-10-09T09:30:39+00:00",
+  "urlhaus": "2026-10-09T09:30:39+00:00"
  },
- "generated_at": "2026-10-09T08:30:40+00:00"
+ "generated_at": "2026-10-09T09:30:39+00:00"
 }
