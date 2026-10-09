@@ -26,14 +26,6 @@
      "date": "2026-10-08T13:18:36+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
-     "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft…",
-     "source": "The Hacker News",
-     "date": "2026-10-08T07:42:04+00:00",
-     "url": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
@@ -111,28 +103,36 @@
      "date": "2026-10-08T11:42:46+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
-     "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while…",
-     "source": "The Hacker News",
-     "date": "2026-10-08T07:41:44+00:00",
-     "url": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
-     "summary": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack. The…",
-     "source": "The Hacker News",
-     "date": "2026-10-08T05:46:20+00:00",
-     "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+     "summary": "Security researchers have published a full working exploit for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection. AnyDesk patched the…",
+     "source": "The Hacker News",
+     "date": "2026-10-09T12:59:22+00:00",
+     "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+     "summary": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service informed by our experience using Claude…",
+     "source": "The Hacker News",
+     "date": "2026-10-09T12:47:28+00:00",
+     "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+     "summary": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners. Details of the flaws…",
+     "source": "The Hacker News",
+     "date": "2026-10-09T12:47:26+00:00",
+     "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
      "summary": "Attackers are exploiting a maximum-severity vulnerability in SonicWall SMA1000 appliances (CVE-2026-102255) that was patched on Tuesday, three days ago. [...]",
@@ -323,6 +323,14 @@
      "group": "Other news"
     },
     {
+     "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+     "summary": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers…",
+     "source": "The Hacker News",
+     "date": "2026-10-09T13:22:53+00:00",
+     "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+     "group": "Other news"
+    },
+    {
      "title": "Google Domains Impacted by Recent ccTLD Hijacks",
      "summary": "Hackers hijacked the.gh,.sl, and.as ccTLDs and obtained HTTPS certificates for several Google domains. The post Google Domains Impacted by Recent ccTLD Hijacks appeared first on SecurityWeek.",
      "source": "SecurityWeek",
@@ -360,14 +368,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-08T12:08:16+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
-     "group": "Other news"
-    },
-    {
-     "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
-     "summary": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys. \"The extensions masquerade as wallet…",
-     "source": "The Hacker News",
-     "date": "2026-10-08T09:46:32+00:00",
-     "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
      "group": "Other news"
     }
    ]
