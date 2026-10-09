@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1215,
-  "c2_servers": 288,
+  "total_iocs": 1222,
+  "c2_servers": 291,
   "families": [
    {
     "name": "Unknown Loader",
@@ -25,7 +25,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 88,
+    "iocs": 89,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -48,16 +48,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
+    "name": "AMOS",
+    "iocs": 17,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
     "name": "Cobalt Strike",
     "iocs": 17,
     "c2": 16,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "AMOS",
-    "iocs": 16,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Drifter",
@@ -69,19 +69,19 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 562,
+  "online": 557,
   "top_tags": [
    {
     "name": "elf",
-    "count": 230
+    "count": 231
    },
    {
     "name": "Mozi",
-    "count": 197
+    "count": 199
    },
    {
     "name": "mirai",
-    "count": 165
+    "count": 163
    },
    {
     "name": "ua-wget",
@@ -89,19 +89,19 @@
    },
    {
     "name": "CheatSheet",
-    "count": 111
+    "count": 92
    },
    {
     "name": "32-bit",
-    "count": 83
+    "count": 85
    },
    {
     "name": "exe",
-    "count": 73
+    "count": 62
    },
    {
-    "name": "gitlab",
-    "count": 59
+    "name": "mips",
+    "count": 55
    }
   ]
  },
@@ -505,10 +505,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-09T10:29:57+00:00",
-  "sans": "2026-10-09T10:29:57+00:00",
-  "otx": "2026-10-09T10:29:57+00:00",
-  "urlhaus": "2026-10-09T10:29:57+00:00"
+  "threatfox": "2026-10-09T11:26:55+00:00",
+  "sans": "2026-10-09T11:26:55+00:00",
+  "otx": "2026-10-09T11:26:55+00:00",
+  "urlhaus": "2026-10-09T11:26:55+00:00"
  },
- "generated_at": "2026-10-09T10:29:57+00:00"
+ "generated_at": "2026-10-09T11:26:55+00:00"
 }
