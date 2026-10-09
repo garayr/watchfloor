@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T09:30:39+00:00",
+ "generated_at": "2026-10-09T10:29:57+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -33,14 +33,14 @@
    "count": 5
   },
   {
-   "name": "N0n",
+   "name": "lamashtu",
    "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 16
+   "count": 17
   },
   {
    "name": "Technology",
@@ -60,13 +60,13 @@
   },
   {
    "name": "Healthcare",
-   "count": 7
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 29,
+   "count": 28,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -105,6 +105,12 @@
    "count": 3,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "AE",
+   "count": 2,
+   "lat": 24.5,
+   "lon": 54.4
   },
   {
    "code": "CA",
@@ -147,12 +153,6 @@
    "count": 2,
    "lat": 41.0,
    "lon": 29.0
-  },
-  {
-   "code": "AE",
-   "count": 1,
-   "lat": 24.5,
-   "lon": 54.4
   },
   {
    "code": "AR",
@@ -240,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "PMG Project Management Group",
+   "group": "nightspire",
+   "date": "2026-10-09T06:03:43+00:00",
+   "attack_date": "2026-10-09",
+   "country": "AE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/UE1HIFByb2plY3QgTWFuYWdlbWVudCBHcm91cEBuaWdodHNwaXJl"
+  },
   {
    "victim": "Ministarstvo poljoprivrede, šumarstva i ribarstva",
    "group": "Barracuda",
@@ -1085,15 +1094,6 @@
    "country": "CA",
    "sector": "Financial Services",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMkBOMG4="
-  },
-  {
-   "victim": "Company #1",
-   "group": "N0n",
-   "date": "2026-10-05T09:53:51+00:00",
-   "attack_date": "2026-10-05",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMUBOMG4="
   },
   {
    "victim": "METROCOLOR S.A.",
