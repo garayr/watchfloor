@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 880,
-  "c2_servers": 269,
+  "total_iocs": 873,
+  "c2_servers": 258,
   "families": [
    {
     "name": "Unknown Loader",
@@ -13,9 +13,15 @@
    },
    {
     "name": "Mirai",
-    "iocs": 139,
+    "iocs": 109,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 99,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Unknown Stealer",
@@ -24,20 +30,14 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 96,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 44,
+    "iocs": 84,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "IClickFix",
-    "iocs": 36,
+    "iocs": 32,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
@@ -49,14 +49,14 @@
    },
    {
     "name": "AMOS",
-    "iocs": 18,
+    "iocs": 19,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Drifter",
-    "iocs": 16,
-    "c2": 16,
+    "iocs": 15,
+    "c2": 15,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.drifter"
    },
    {
@@ -69,19 +69,19 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 498,
+  "online": 525,
   "top_tags": [
    {
     "name": "elf",
-    "count": 258
+    "count": 256
    },
    {
     "name": "Mozi",
-    "count": 204
+    "count": 192
    },
    {
     "name": "mirai",
-    "count": 160
+    "count": 140
    },
    {
     "name": "ua-wget",
@@ -89,19 +89,19 @@
    },
    {
     "name": "32-bit",
-    "count": 92
+    "count": 90
    },
    {
     "name": "mips",
-    "count": 58
-   },
-   {
-    "name": "arm",
-    "count": 39
+    "count": 57
    },
    {
     "name": "CheatSheet",
-    "count": 27
+    "count": 54
+   },
+   {
+    "name": "exe",
+    "count": 50
    }
   ]
  },
@@ -483,32 +483,36 @@
    "url": "https://otx.alienvault.com/pulse/6ac74668a88744f8ef47c332"
   },
   {
-   "name": "TensorLake npm SDK Compromised in ChainDrop Shai-Hulud Credential-Stealing Attack",
-   "summary": "The Tensorlake npm SDK version 0.5.144 was compromised in a ChainDrop/Shai-Hulud supply chain attack, affecting a package with approximately 12,000 weekly downloads. The malicious release contains obfuscated code that…",
-   "date": "2026-10-08T07:08:15+00:00",
+   "name": "DarkSword/Coruna Open Directory Finding",
+   "summary": "Five hosts exposed the complete DarkSword/Coruna iOS exploitation platform through open directories, revealing an active commercial exploitation-as-a-service operation. The platform targets cryptocurrency wallets across…",
+   "date": "2026-10-07T21:37:32+00:00",
    "author": "AlienVault",
    "adversary": null,
-   "malware": [],
+   "malware": [
+    "DarkSword",
+    "Coruna",
+    "GHOSTBLADE",
+    "GHOSTKNIFE",
+    "GHOSTSABER"
+   ],
    "countries": [],
-   "industries": [
-    "Technology"
-   ],
+   "industries": [],
    "tags": [
-    "credential theft",
-    "supply chain attack",
-    "ai infrastructure",
-    "chaindrop",
-    "worm",
-    "npm compromise"
+    "ghostsaber",
+    "china-based operator",
+    "cve-2026-31001",
+    "darksword",
+    "ios exploitation",
+    "exploitation-as-a-service"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ac7415f2754c1b2193c9737"
+   "url": "https://otx.alienvault.com/pulse/6ac6bb9cd16a3898ced29ead"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-09T14:34:25+00:00",
-  "sans": "2026-10-09T14:34:25+00:00",
-  "otx": "2026-10-09T14:34:25+00:00",
-  "urlhaus": "2026-10-09T14:34:25+00:00"
+  "threatfox": "2026-10-09T15:31:53+00:00",
+  "sans": "2026-10-09T15:31:53+00:00",
+  "otx": "2026-10-09T15:31:53+00:00",
+  "urlhaus": "2026-10-09T15:31:53+00:00"
  },
- "generated_at": "2026-10-09T14:34:25+00:00"
+ "generated_at": "2026-10-09T15:31:53+00:00"
 }

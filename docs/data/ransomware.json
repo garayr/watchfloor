@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-09T14:34:25+00:00",
+ "generated_at": "2026-10-09T15:31:53+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 11
+   "count": 12
   },
   {
    "name": "safepay",
@@ -78,9 +78,15 @@
   },
   {
    "code": "BR",
-   "count": 4,
+   "count": 5,
    "lat": -23.5,
    "lon": -46.6
+  },
+  {
+   "code": "CH",
+   "count": 4,
+   "lat": 46.9,
+   "lon": 7.4
   },
   {
    "code": "ES",
@@ -93,18 +99,6 @@
    "count": 4,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "CH",
-   "count": 3,
-   "lat": 46.9,
-   "lon": 7.4
-  },
-  {
-   "code": "FR",
-   "count": 3,
-   "lat": 48.9,
-   "lon": 2.35
   },
   {
    "code": "AE",
@@ -185,10 +179,22 @@
    "lon": 24.9
   },
   {
+   "code": "FR",
+   "count": 1,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "HR",
    "count": 1,
    "lat": 45.8,
    "lon": 16.0
+  },
+  {
+   "code": "IL",
+   "count": 1,
+   "lat": 32.1,
+   "lon": 34.8
   },
   {
    "code": "MY",
@@ -235,6 +241,15 @@
  ],
  "victims": [
   {
+   "victim": "Hagiva Yh",
+   "group": "qilin",
+   "date": "2026-10-09T11:11:18+00:00",
+   "attack_date": "2026-10-09",
+   "country": "IL",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/SGFnaXZhIFloQHFpbGlu"
+  },
+  {
    "victim": "PMG Project Management Group",
    "group": "nightspire",
    "date": "2026-10-09T06:03:43+00:00",
@@ -275,7 +290,7 @@
    "group": "UmBra",
    "date": "2026-10-08T21:36:50+00:00",
    "attack_date": "2026-10-08",
-   "country": "FR",
+   "country": "BR",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/U09DT0NPQFVtQnJh"
   },
@@ -338,7 +353,7 @@
    "group": "payload",
    "date": "2026-10-08T19:33:32+00:00",
    "attack_date": "2026-10-08",
-   "country": "FR",
+   "country": "CH",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/Qm91bGxhcmQgTXVzaXF1ZUBwYXlsb2Fk"
   },
@@ -395,15 +410,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/TW9ydG9uIExUQyBQaGFybWFjeUBSdW5Tb21lV2FyZXM="
-  },
-  {
-   "victim": "Some semi-samples Of Liberty X TMO cause we got yappatrons on twitter",
-   "group": "BYOD",
-   "date": "2026-10-08T10:20:28+00:00",
-   "attack_date": "2026-10-08",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/U29tZSBzZW1pLXNhbXBsZXMgT2YgTGliZXJ0eSBYIFRNTyBjYXVzZSB3ZSBnb3QgeWFwcGF0cm9ucyBvbiB0d2l0dGVyQEJZT0Q="
   },
   {
    "victim": "Cooperative Des Techniciens Ambulanciers De La Monte",
