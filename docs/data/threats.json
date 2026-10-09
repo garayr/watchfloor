@@ -2,26 +2,32 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1097,
-  "c2_servers": 261,
+  "total_iocs": 1170,
+  "c2_servers": 286,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 303,
+    "iocs": 358,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 108,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
     "name": "Unknown Stealer",
-    "iocs": 92,
+    "iocs": 93,
     "c2": 84,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 74,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 66,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Unknown Loader",
@@ -30,22 +36,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "Mirai",
-    "iocs": 51,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+    "name": "Vidar",
+    "iocs": 44,
+    "c2": 28,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "IClickFix",
     "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 43,
-    "c2": 28,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "stealler",
@@ -69,31 +69,31 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 490,
+  "online": 477,
   "top_tags": [
    {
     "name": "elf",
-    "count": 232
+    "count": 238
    },
    {
     "name": "Mozi",
-    "count": 187
+    "count": 184
    },
    {
     "name": "ua-wget",
     "count": 107
    },
    {
-    "name": "mirai",
-    "count": 105
+    "name": "32-bit",
+    "count": 102
    },
    {
-    "name": "32-bit",
-    "count": 97
+    "name": "mirai",
+    "count": 99
    },
    {
     "name": "mips",
-    "count": 57
+    "count": 61
    },
    {
     "name": "CheatSheet",
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-09T19:27:01+00:00",
-  "sans": "2026-10-09T19:27:01+00:00",
-  "otx": "2026-10-09T19:27:01+00:00",
-  "urlhaus": "2026-10-09T19:27:01+00:00"
+  "threatfox": "2026-10-09T20:25:59+00:00",
+  "sans": "2026-10-09T20:25:59+00:00",
+  "otx": "2026-10-09T20:25:59+00:00",
+  "urlhaus": "2026-10-09T20:25:59+00:00"
  },
- "generated_at": "2026-10-09T19:27:01+00:00"
+ "generated_at": "2026-10-09T20:25:59+00:00"
 }
