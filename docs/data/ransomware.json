@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-09T21:28:25+00:00",
+ "generated_at": "2026-10-09T22:29:32+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 12
+   "count": 13
   },
   {
    "name": "safepay",
@@ -44,29 +44,29 @@
   },
   {
    "name": "Other",
-   "count": 14
-  },
-  {
-   "name": "Manufacturing",
    "count": 13
   },
   {
    "name": "Technology",
+   "count": 13
+  },
+  {
+   "name": "Manufacturing",
    "count": 12
   },
   {
    "name": "Education",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Healthcare",
-   "count": 7
+   "count": 8
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 28,
+   "count": 29,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -84,15 +84,9 @@
   },
   {
    "code": "CH",
-   "count": 4,
+   "count": 3,
    "lat": 46.9,
    "lon": 7.4
-  },
-  {
-   "code": "ES",
-   "count": 3,
-   "lat": 40.4,
-   "lon": -3.7
   },
   {
    "code": "IN",
@@ -123,6 +117,18 @@
    "count": 2,
    "lat": 30.0,
    "lon": 31.2
+  },
+  {
+   "code": "ES",
+   "count": 2,
+   "lat": 40.4,
+   "lon": -3.7
+  },
+  {
+   "code": "FI",
+   "count": 2,
+   "lat": 60.2,
+   "lon": 24.9
   },
   {
    "code": "MX",
@@ -167,12 +173,6 @@
    "lon": -70.6
   },
   {
-   "code": "FI",
-   "count": 1,
-   "lat": 60.2,
-   "lon": 24.9
-  },
-  {
    "code": "FR",
    "count": 1,
    "lat": 48.9,
@@ -209,12 +209,6 @@
    "lon": 17.1
   },
   {
-   "code": "TT",
-   "count": 1,
-   "lat": 10.7,
-   "lon": -61.5
-  },
-  {
    "code": "TW",
    "count": 1,
    "lat": 25.0,
@@ -228,6 +222,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Tepcomp",
+   "group": "qilin",
+   "date": "2026-10-09T18:05:46+00:00",
+   "attack_date": "2026-10-09",
+   "country": "FI",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/VGVwY29tcEBxaWxpbg=="
+  },
+  {
+   "victim": "Shalom Christian Academy",
+   "group": "interlock",
+   "date": "2026-10-09T18:02:14+00:00",
+   "attack_date": "2026-10-09",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/U2hhbG9tIENocmlzdGlhbiBBY2FkZW15QGludGVybG9jaw=="
+  },
+  {
+   "victim": "Mynd",
+   "group": "anubis",
+   "date": "2026-10-09T17:28:37+00:00",
+   "attack_date": "2026-10-09",
+   "country": null,
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/TXluZEBhbnViaXM="
+  },
+  {
+   "victim": "Imperial Diamond Jewellery",
+   "group": "emperador",
+   "date": "2026-10-09T17:21:57+00:00",
+   "attack_date": "2026-10-09",
+   "country": null,
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/SW1wZXJpYWwgRGlhbW9uZCBKZXdlbGxlcnlAZW1wZXJhZG9y"
+  },
   {
    "victim": "Melchioni Spa",
    "group": "qilin",
@@ -1091,42 +1121,6 @@
    "country": "BR",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/TWlsbGVuc3lzQG1lZHVzYWxvY2tlcg=="
-  },
-  {
-   "victim": "Rueegseggerag",
-   "group": "medusalocker",
-   "date": "2026-10-05T11:07:51+00:00",
-   "attack_date": "2026-10-05",
-   "country": "CH",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/UnVlZWdzZWdnZXJhZ0BtZWR1c2Fsb2NrZXI="
-  },
-  {
-   "victim": "PANCARIBBEAN LOGISTICS GROUP",
-   "group": "emperador",
-   "date": "2026-10-05T10:52:41+00:00",
-   "attack_date": "2026-10-05",
-   "country": "TT",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/UEFOQ0FSSUJCRUFOIExPR0lTVElDUyBHUk9VUEBlbXBlcmFkb3I="
-  },
-  {
-   "victim": "METROCOLOR S.A.",
-   "group": "emperador",
-   "date": "2026-10-05T09:49:04+00:00",
-   "attack_date": "2026-10-05",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TUVUUk9DT0xPUiBTLkEuQGVtcGVyYWRvcg=="
-  },
-  {
-   "victim": "Fluge Audiovisuales",
-   "group": "lamashtu",
-   "date": "2026-10-05T07:32:31+00:00",
-   "attack_date": "2026-10-05",
-   "country": "ES",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/Rmx1Z2UgQXVkaW92aXN1YWxlc0BsYW1hc2h0dQ=="
   }
  ]
 }
