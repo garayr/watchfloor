@@ -1,16 +1,20 @@
 {
- "generated_at": "2026-10-08T23:41:14+00:00",
+ "generated_at": "2026-10-09T00:39:55+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 14
+   "count": 13
   },
   {
    "name": "safepay",
    "count": 10
+  },
+  {
+   "name": "UmBra",
+   "count": 8
   },
   {
    "name": "SilentRansomGroup",
@@ -18,10 +22,6 @@
   },
   {
    "name": "Eclipse",
-   "count": 5
-  },
-  {
-   "name": "UmBra",
    "count": 5
   },
   {
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 17
+   "count": 16
   },
   {
    "name": "Professional Services",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Technology",
-   "count": 14
+   "count": 13
   },
   {
    "name": "Other",
@@ -56,11 +56,11 @@
   },
   {
    "name": "Education",
-   "count": 7
+   "count": 10
   },
   {
    "name": "Healthcare",
-   "count": 7
+   "count": 6
   }
  ],
  "by_country": [
@@ -83,16 +83,16 @@
    "lon": -3.7
   },
   {
-   "code": "BR",
+   "code": "IN",
    "count": 4,
-   "lat": -23.5,
-   "lon": -46.6
+   "lat": 19.1,
+   "lon": 72.9
   },
   {
-   "code": "CA",
+   "code": "BR",
    "count": 3,
-   "lat": 43.7,
-   "lon": -79.4
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "CH",
@@ -113,22 +113,22 @@
    "lon": 151.2
   },
   {
-   "code": "CL",
+   "code": "CA",
    "count": 2,
-   "lat": -33.4,
-   "lon": -70.6
+   "lat": 43.7,
+   "lon": -79.4
+  },
+  {
+   "code": "EG",
+   "count": 2,
+   "lat": 30.0,
+   "lon": 31.2
   },
   {
    "code": "FR",
    "count": 2,
    "lat": 48.9,
    "lon": 2.35
-  },
-  {
-   "code": "IN",
-   "count": 2,
-   "lat": 19.1,
-   "lon": 72.9
   },
   {
    "code": "IT",
@@ -161,16 +161,16 @@
    "lon": -58.4
   },
   {
+   "code": "CL",
+   "count": 1,
+   "lat": -33.4,
+   "lon": -70.6
+  },
+  {
    "code": "DK",
    "count": 1,
    "lat": 55.7,
    "lon": 12.6
-  },
-  {
-   "code": "EG",
-   "count": 1,
-   "lat": 30.0,
-   "lon": 31.2
   },
   {
    "code": "FI",
@@ -234,6 +234,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Manipal Academy of Higher Edu",
+   "group": "UmBra",
+   "date": "2026-10-08T20:29:01+00:00",
+   "attack_date": "2026-10-08",
+   "country": "IN",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/TWFuaXBhbCBBY2FkZW15IG9mIEhpZ2hlciBFZHVAVW1CcmE="
+  },
+  {
+   "victim": "IIT Roorkee",
+   "group": "UmBra",
+   "date": "2026-10-08T20:28:18+00:00",
+   "attack_date": "2026-10-08",
+   "country": "IN",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/SUlUIFJvb3JrZWVAVW1CcmE="
+  },
+  {
+   "victim": "FSE, Cairo University",
+   "group": "UmBra",
+   "date": "2026-10-08T20:27:35+00:00",
+   "attack_date": "2026-10-08",
+   "country": "EG",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/RlNFLCBDYWlybyBVbml2ZXJzaXR5QFVtQnJh"
+  },
   {
    "victim": "Boullard Musique",
    "group": "payload",
@@ -1090,15 +1117,6 @@
    "url": "https://www.ransomware.live/id/T01VUiBISVJEQVZBVCBMVERAZW1wZXJhZG9y"
   },
   {
-   "victim": "Nipigon District Memorial Hospital",
-   "group": "Storm",
-   "date": "2026-10-04T15:06:06+00:00",
-   "attack_date": "2026-10-04",
-   "country": "CA",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TmlwaWdvbiBEaXN0cmljdCBNZW1vcmlhbCBIb3NwaXRhbEBTdG9ybQ=="
-  },
-  {
    "victim": "Chadwick Switchboards",
    "group": "qilin",
    "date": "2026-10-04T15:03:44+00:00",
@@ -1115,24 +1133,6 @@
    "country": "ES",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/RW1zZXJAcWlsaW4="
-  },
-  {
-   "victim": "Cotesma",
-   "group": "qilin",
-   "date": "2026-10-04T15:02:27+00:00",
-   "attack_date": "2026-10-04",
-   "country": "CL",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Q290ZXNtYUBxaWxpbg=="
-  },
-  {
-   "victim": "Softruck",
-   "group": "direwolf",
-   "date": "2026-10-04T14:30:49+00:00",
-   "attack_date": "2026-10-04",
-   "country": "BR",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/U29mdHJ1Y2tAZGlyZXdvbGY="
   }
  ]
 }

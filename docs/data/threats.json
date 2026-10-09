@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1202,
-  "c2_servers": 214,
+  "total_iocs": 1259,
+  "c2_servers": 283,
   "families": [
    {
     "name": "Unknown Loader",
@@ -19,9 +19,15 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 109,
+    "iocs": 98,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "Unknown Stealer",
+    "iocs": 89,
+    "c2": 73,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
     "name": "IClickFix",
@@ -31,7 +37,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 68,
+    "iocs": 71,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -42,14 +48,8 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Unknown Stealer",
-    "iocs": 20,
-    "c2": 5,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
-   },
-   {
     "name": "AMOS",
-    "iocs": 19,
+    "iocs": 20,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 698,
+  "online": 683,
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 316
+    "count": 306
    },
    {
     "name": "exe",
-    "count": 218
+    "count": 213
    },
    {
     "name": "mirai",
     "count": 166
    },
    {
+    "name": "Mozi",
+    "count": 156
+   },
+   {
     "name": "github",
-    "count": 158
+    "count": 156
    },
    {
     "name": "gitlab",
-    "count": 158
-   },
-   {
-    "name": "Mozi",
-    "count": 152
+    "count": 150
    },
    {
     "name": "elf",
-    "count": 143
+    "count": 147
    },
    {
     "name": "rustystealer",
-    "count": 109
+    "count": 108
    }
   ]
  },
@@ -499,10 +499,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-08T23:41:14+00:00",
-  "sans": "2026-10-08T23:41:14+00:00",
-  "otx": "2026-10-08T23:41:14+00:00",
-  "urlhaus": "2026-10-08T23:41:14+00:00"
+  "threatfox": "2026-10-09T00:39:55+00:00",
+  "sans": "2026-10-09T00:39:55+00:00",
+  "otx": "2026-10-09T00:39:55+00:00",
+  "urlhaus": "2026-10-09T00:39:55+00:00"
  },
- "generated_at": "2026-10-08T23:41:14+00:00"
+ "generated_at": "2026-10-09T00:39:55+00:00"
 }
