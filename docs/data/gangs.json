@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T16:29:57+00:00",
+ "generated_at": "2026-10-09T17:25:53+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -3139,8 +3139,8 @@
    "description": "The Akira ransomware group is said to have emerged in March 2023, and there's much speculation about its ties to the former CONTI ransomware group. It's worth noting that with the end of CONTI's operation, several affiliates migrated to independent campaigns such as Royal, BlackBasta, and others. According to some reports, Akira affiliates also work with other ransomware operations, such as Snatch and BlackByte, as an open directory of tools used by an Akira operator was identified, which also had connections to the Snatch ransomware. The first version of the Akira ransomware was written in C++ and appended files with the '.akira' extension, creating a ransom note named 'akira_readme.txt,' partially based on the Conti V2 source code. However, on June 29, 2023, a decryptor for this version was reportedly released by Avast. Subsequently, a version was released that fixed the decryption flaw on July 2, 2023. Since then, the new version is said to be written in Rust, this time called 'megazord.exe,' and it changes the extension to '.powerranges' for encrypted files. Most of Akira's initial access vectors use brute-force attempts on Cisco VPN devices (which use single-factor…",
    "aliases": [],
    "first_seen": "2023-04-12",
-   "last_seen": "2026-10-01",
-   "victims_total": 1626,
+   "last_seen": "2026-10-09",
+   "victims_total": 1635,
    "cves": [
     {
      "id": "CVE-2022-40684",
@@ -3247,7 +3247,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 877
+      "count": 879
      },
      {
       "name": "CA",
@@ -3273,11 +3273,11 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 451
+      "count": 452
      },
      {
       "name": "Professional Services",
-      "count": 375
+      "count": 378
      },
      {
       "name": "Technology",
@@ -3293,7 +3293,7 @@
      },
      {
       "name": "Agriculture and Food Production",
-      "count": 91
+      "count": 93
      }
     ]
    },
@@ -3344,11 +3344,11 @@
     },
     {
      "month": "2026-10",
-     "count": 3
+     "count": 12
     }
    ],
-   "history_size": 1626,
-   "updated": "2026-10-01T17:27:16+00:00"
+   "history_size": 1635,
+   "updated": "2026-10-09T17:25:53+00:00"
   },
   "Redact": {
    "name": "Redact",
@@ -6294,6 +6294,124 @@
    ],
    "history_size": 76,
    "updated": "2026-10-08T23:41:14+00:00"
+  },
+  "bravox": {
+   "name": "bravox",
+   "description": "BravoX is a selective ransomware-as-a-service operation that surfaced publicly in January 2026 after advertising on the RAMP underground forum, targeting primarily US-based organizations in healthcare and retail while applying strict affiliate vetting requirements including proof of access or a financial deposit.",
+   "aliases": [],
+   "first_seen": "2025-05-15",
+   "last_seen": "2026-10-09",
+   "victims_total": 30,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 10
+     },
+     {
+      "name": "CH",
+      "count": 4
+     },
+     {
+      "name": "FR",
+      "count": 4
+     },
+     {
+      "name": "CA",
+      "count": 3
+     },
+     {
+      "name": "BR",
+      "count": 2
+     },
+     {
+      "name": "GB",
+      "count": 2
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 5
+     },
+     {
+      "name": "Other",
+      "count": 4
+     },
+     {
+      "name": "Professional Services",
+      "count": 4
+     },
+     {
+      "name": "Technology",
+      "count": 4
+     },
+     {
+      "name": "Financial Services",
+      "count": 3
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 2
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 7
+    },
+    {
+     "month": "2026-03",
+     "count": 2
+    },
+    {
+     "month": "2026-04",
+     "count": 2
+    },
+    {
+     "month": "2026-05",
+     "count": 6
+    },
+    {
+     "month": "2026-06",
+     "count": 3
+    },
+    {
+     "month": "2026-07",
+     "count": 2
+    },
+    {
+     "month": "2026-08",
+     "count": 5
+    },
+    {
+     "month": "2026-09",
+     "count": 2
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 30,
+   "updated": "2026-10-09T17:25:53+00:00"
   }
  }
 }

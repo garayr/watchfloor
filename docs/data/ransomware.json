@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-09T16:29:57+00:00",
+ "generated_at": "2026-10-09T17:25:53+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 12
+   "count": 11
   },
   {
    "name": "safepay",
@@ -33,7 +33,7 @@
    "count": 5
   },
   {
-   "name": "lamashtu",
+   "name": "akira",
    "count": 4
   }
  ],
@@ -43,16 +43,16 @@
    "count": 18
   },
   {
-   "name": "Technology",
-   "count": 15
-  },
-  {
    "name": "Manufacturing",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Other",
-   "count": 11
+   "count": 13
+  },
+  {
+   "name": "Technology",
+   "count": 13
   },
   {
    "name": "Education",
@@ -60,7 +60,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 6
+   "count": 7
   }
  ],
  "by_country": [
@@ -78,7 +78,7 @@
   },
   {
    "code": "BR",
-   "count": 5,
+   "count": 6,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -105,12 +105,6 @@
    "count": 2,
    "lat": 24.5,
    "lon": 54.4
-  },
-  {
-   "code": "CA",
-   "count": 2,
-   "lat": 43.7,
-   "lon": -79.4
   },
   {
    "code": "EG",
@@ -161,16 +155,16 @@
    "lon": 151.2
   },
   {
+   "code": "CA",
+   "count": 1,
+   "lat": 43.7,
+   "lon": -79.4
+  },
+  {
    "code": "CL",
    "count": 1,
    "lat": -33.4,
    "lon": -70.6
-  },
-  {
-   "code": "DK",
-   "count": 1,
-   "lat": 55.7,
-   "lon": 12.6
   },
   {
    "code": "FI",
@@ -215,12 +209,6 @@
    "lon": 17.1
   },
   {
-   "code": "TH",
-   "count": 1,
-   "lat": 13.75,
-   "lon": 100.5
-  },
-  {
    "code": "TT",
    "count": 1,
    "lat": 10.7,
@@ -240,6 +228,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "iDentalSoft",
+   "group": "termite",
+   "date": "2026-10-09T12:59:37+00:00",
+   "attack_date": "2026-10-09",
+   "country": "BR",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/aURlbnRhbFNvZnRAdGVybWl0ZQ=="
+  },
+  {
+   "victim": "Dudley Land Company",
+   "group": "bravox",
+   "date": "2026-10-09T12:37:17+00:00",
+   "attack_date": "2026-10-09",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/RHVkbGV5IExhbmQgQ29tcGFueUBicmF2b3g="
+  },
+  {
+   "victim": "Design Electric",
+   "group": "akira",
+   "date": "2026-10-09T12:35:35+00:00",
+   "attack_date": "2026-10-09",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RGVzaWduIEVsZWN0cmljQGFraXJh"
+  },
+  {
+   "victim": "TigerPress (DCC)",
+   "group": "akira",
+   "date": "2026-10-09T12:35:16+00:00",
+   "attack_date": "2026-10-09",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/VGlnZXJQcmVzcyAoRENDKUBha2lyYQ=="
+  },
   {
    "victim": "RealManage",
    "group": "rhysida",
@@ -997,15 +1021,6 @@
    "url": "https://www.ransomware.live/id/cGFydDAyLnNpbXBsZXhlbmdnLmluQEVjbGlwc2U="
   },
   {
-   "victim": "Asia Era One",
-   "group": "qilin",
-   "date": "2026-10-05T15:09:14+00:00",
-   "attack_date": "2026-10-05",
-   "country": "TH",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/QXNpYSBFcmEgT25lQHFpbGlu"
-  },
-  {
    "victim": "O2 Dental Group",
    "group": "interlock",
    "date": "2026-10-05T15:01:57+00:00",
@@ -1042,15 +1057,6 @@
    "url": "https://www.ransomware.live/id/Q2FtIEdyb3VwIExMQ0BEb29tbWFnZWRkb24="
   },
   {
-   "victim": "Infomedia A/S",
-   "group": "aurora",
-   "date": "2026-10-05T11:26:41+00:00",
-   "attack_date": "2026-10-05",
-   "country": "DK",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/SW5mb21lZGlhIEEvU0BhdXJvcmE="
-  },
-  {
    "victim": "Millensys",
    "group": "medusalocker",
    "date": "2026-10-05T11:08:22+00:00",
@@ -1076,24 +1082,6 @@
    "country": "TT",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/UEFOQ0FSSUJCRUFOIExPR0lTVElDUyBHUk9VUEBlbXBlcmFkb3I="
-  },
-  {
-   "victim": "Company #3",
-   "group": "N0n",
-   "date": "2026-10-05T09:54:53+00:00",
-   "attack_date": "2026-10-05",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjM0BOMG4="
-  },
-  {
-   "victim": "Company #2",
-   "group": "N0n",
-   "date": "2026-10-05T09:54:22+00:00",
-   "attack_date": "2026-10-05",
-   "country": "CA",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMkBOMG4="
   },
   {
    "victim": "METROCOLOR S.A.",
