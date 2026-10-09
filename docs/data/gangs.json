@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T10:29:57+00:00",
+ "generated_at": "2026-10-09T16:29:57+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1320,8 +1320,8 @@
    "description": "Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The group utilizes a namesake ransomware through phishing attacks and Cobalt Strike to breach the targets' networks and deploy their payloads. The group threatens to publicly distribute exfiltrated data if the ransom is not paid, and it's worth mentioning that Rhysida is still in the early stages of development. The ransomware leaves PDF notes in the affected folders, instructing victims to contact the group through its portal, and payment is made via Bitcoin. After encryption, the ransomware appends the extension '.ryshida' to encrypted files. Source: https://github.com/crocodyli/ThreatActors-TTPs",
    "aliases": [],
    "first_seen": "2023-06-05",
-   "last_seen": "2026-09-30",
-   "victims_total": 292,
+   "last_seen": "2026-10-09",
+   "victims_total": 296,
    "cves": [
     {
      "id": "CVE-2026-50751",
@@ -1386,7 +1386,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 127
+      "count": 128
      },
      {
       "name": "CA",
@@ -1420,7 +1420,7 @@
      },
      {
       "name": "Professional Services",
-      "count": 41
+      "count": 42
      },
      {
       "name": "Government & Defense",
@@ -1432,15 +1432,11 @@
      },
      {
       "name": "Technology",
-      "count": 19
+      "count": 20
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-10",
-     "count": 13
-    },
     {
      "month": "2025-11",
      "count": 11
@@ -1484,10 +1480,14 @@
     {
      "month": "2026-09",
      "count": 12
+    },
+    {
+     "month": "2026-10",
+     "count": 4
     }
    ],
-   "history_size": 292,
-   "updated": "2026-09-30T14:57:39+00:00"
+   "history_size": 296,
+   "updated": "2026-10-09T16:29:57+00:00"
   },
   "lamashtu": {
    "name": "lamashtu",

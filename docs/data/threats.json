@@ -2,20 +2,20 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 873,
-  "c2_servers": 258,
+  "total_iocs": 1069,
+  "c2_servers": 256,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 221,
+    "iocs": 216,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "Mirai",
-    "iocs": 109,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+    "name": "ClearFake",
+    "iocs": 121,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "php.shin_webshell",
@@ -30,70 +30,70 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
-    "name": "ClearFake",
-    "iocs": 84,
+    "name": "Mirai",
+    "iocs": 69,
     "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "IClickFix",
-    "iocs": 32,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Vidar",
-    "iocs": 21,
+    "iocs": 36,
     "c2": 21,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "AMOS",
-    "iocs": 19,
+    "name": "stealler",
+    "iocs": 30,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
    },
    {
-    "name": "Drifter",
-    "iocs": 15,
-    "c2": 15,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.drifter"
-   },
-   {
-    "name": "Aisuru",
-    "iocs": 14,
+    "name": "VShell",
+    "iocs": 26,
     "c2": 14,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "ValleyRAT",
+    "iocs": 22,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 525,
+  "online": 530,
   "top_tags": [
    {
     "name": "elf",
-    "count": 256
+    "count": 257
    },
    {
     "name": "Mozi",
-    "count": 192
-   },
-   {
-    "name": "mirai",
-    "count": 140
+    "count": 189
    },
    {
     "name": "ua-wget",
     "count": 140
    },
    {
+    "name": "mirai",
+    "count": 137
+   },
+   {
     "name": "32-bit",
-    "count": 90
+    "count": 91
    },
    {
     "name": "mips",
-    "count": 57
+    "count": 58
    },
    {
     "name": "CheatSheet",
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-09T15:31:53+00:00",
-  "sans": "2026-10-09T15:31:53+00:00",
-  "otx": "2026-10-09T15:31:53+00:00",
-  "urlhaus": "2026-10-09T15:31:53+00:00"
+  "threatfox": "2026-10-09T16:29:57+00:00",
+  "sans": "2026-10-09T16:29:57+00:00",
+  "otx": "2026-10-09T16:29:57+00:00",
+  "urlhaus": "2026-10-09T16:29:57+00:00"
  },
- "generated_at": "2026-10-09T15:31:53+00:00"
+ "generated_at": "2026-10-09T16:29:57+00:00"
 }
