@@ -4,6 +4,14 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
+     "summary": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon. To that end…",
+     "source": "The Hacker News",
+     "date": "2026-10-09T06:39:29+00:00",
+     "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
      "summary": "A Maryland man was found guilty of stealing more than $53 million after hacking the decentralized crypto exchange Uranium Finance twice in April 2021. [...]",
      "source": "BleepingComputer",
@@ -121,22 +129,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme",
-     "summary": "Zohar Pinhasi was paying ransoms to obtain decryption keys and then charging victims substantially more for remediation. The post Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-10-08T09:27:55+00:00",
-     "url": "https://www.securityweek.com/fake-decryption-tools-masked-11m-markup-in-ransomware-recovery-scheme/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Oracle Health Data Breach Tally Climbs to Nearly 20 Million",
-     "summary": "The figure is far higher than the counts that surfaced in earlier filings and patient notifications. The post Oracle Health Data Breach Tally Climbs to Nearly 20 Million appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-08T08:23:31+00:00",
-     "url": "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while…",
      "source": "The Hacker News",
@@ -191,20 +183,37 @@
      "date": "2026-10-07T17:43:20+00:00",
      "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-     "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy…",
-     "source": "The Hacker News",
-     "date": "2026-10-07T15:33:51+00:00",
-     "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
+     "summary": "The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service. The post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-09T06:53:53+00:00",
+     "url": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88779",
+      "CVE-2026-88772",
+      "CVE-2026-88771",
+      "CVE-2026-19490"
+     ]
+    },
+    {
+     "title": "Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own",
+     "summary": "$1.2 million was paid out at Pwn2Own Ireland 2026 for exploits targeting phones, printers, smart speakers, smart home hubs, and AI infrastructure and coding tools. The post Google Pixel 10 Exploits Earned Hackers…",
+     "source": "SecurityWeek",
+     "date": "2026-10-09T06:39:55+00:00",
+     "url": "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-58704"
+     ]
+    },
     {
      "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
      "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
