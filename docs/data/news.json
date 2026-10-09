@@ -167,20 +167,20 @@
      "date": "2026-10-07T17:43:20+00:00",
      "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-     "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy…",
-     "source": "The Hacker News",
-     "date": "2026-10-07T15:33:51+00:00",
-     "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "GoBalance Flaw Lets Attackers Hijack.onion Addresses by Recovering Tor-Format Keys",
+     "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's.onion address using only public information, and then take that address…",
+     "source": "The Hacker News",
+     "date": "2026-10-09T09:03:24+00:00",
+     "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
      "summary": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]",
@@ -196,12 +196,37 @@
      ]
     },
     {
+     "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
+     "summary": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits…",
+     "source": "The Hacker News",
+     "date": "2026-10-09T08:26:17+00:00",
+     "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-58704"
+     ]
+    },
+    {
      "title": "Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security",
      "summary": "OSS Scanner sends unreviewed, model-generated vulnerability reports to open source maintainers that opt in. The post Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security appeared first…",
      "source": "SecurityWeek",
      "date": "2026-10-09T08:19:33+00:00",
      "url": "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/",
      "group": "Exploited right now"
+    },
+    {
+     "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+     "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions…",
+     "source": "The Hacker News",
+     "date": "2026-10-09T08:11:33+00:00",
+     "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88779",
+      "CVE-2026-88772",
+      "CVE-2026-88771",
+      "CVE-2026-19490"
+     ]
     },
     {
      "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
@@ -258,22 +283,6 @@
      "source": "SecurityWeek",
      "date": "2026-10-08T12:37:32+00:00",
      "url": "https://www.securityweek.com/sonicwall-and-splunk-patch-critical-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-     "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to…",
-     "source": "The Hacker News",
-     "date": "2026-10-07T16:17:44+00:00",
-     "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-     "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is…",
-     "source": "The Hacker News",
-     "date": "2026-10-07T15:34:53+00:00",
-     "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
      "group": "Exploited right now"
     }
    ]
