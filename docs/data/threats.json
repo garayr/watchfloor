@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1271,
-  "c2_servers": 279,
+  "total_iocs": 1290,
+  "c2_servers": 296,
   "families": [
    {
     "name": "Unknown Loader",
@@ -18,16 +18,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "ClearFake",
-    "iocs": 92,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+    "name": "Unknown Stealer",
+    "iocs": 96,
+    "c2": 79,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
-    "name": "Unknown Stealer",
-    "iocs": 89,
-    "c2": 73,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+    "name": "ClearFake",
+    "iocs": 90,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "IClickFix",
@@ -37,14 +37,14 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 75,
+    "iocs": 78,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Vidar",
-    "iocs": 48,
-    "c2": 27,
+    "iocs": 49,
+    "c2": 28,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -69,18 +69,18 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 653,
+  "online": 652,
   "top_tags": [
    {
     "name": "CheatSheet",
-    "count": 252
-   },
-   {
-    "name": "exe",
-    "count": 174
+    "count": 223
    },
    {
     "name": "elf",
+    "count": 179
+   },
+   {
+    "name": "Mozi",
     "count": 172
    },
    {
@@ -88,20 +88,20 @@
     "count": 166
    },
    {
-    "name": "Mozi",
-    "count": 165
+    "name": "exe",
+    "count": 151
    },
    {
     "name": "gitlab",
-    "count": 131
-   },
-   {
-    "name": "github",
-    "count": 121
+    "count": 117
    },
    {
     "name": "ua-wget",
     "count": 111
+   },
+   {
+    "name": "github",
+    "count": 106
    }
   ]
  },
@@ -109,75 +109,75 @@
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 893415,
-   "targets": 291,
-   "sources": 10319
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 860678,
-   "targets": 314,
-   "sources": 10211
+   "records": 94339,
+   "targets": 217,
+   "sources": 2545
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 798317,
-   "targets": 275,
-   "sources": 8850
+   "records": 91013,
+   "targets": 217,
+   "sources": 2327
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 740765,
-   "targets": 286,
-   "sources": 12654
+   "records": 72845,
+   "targets": 246,
+   "sources": 3081
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 661906,
-   "targets": 283,
-   "sources": 6246
+   "records": 71278,
+   "targets": 192,
+   "sources": 1779
+  },
+  {
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 64272,
+   "targets": 205,
+   "sources": 1485
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 555240,
-   "targets": 284,
-   "sources": 13187
+   "records": 55936,
+   "targets": 239,
+   "sources": 2114
   },
   {
    "port": 2222,
    "service": null,
-   "records": 240551,
-   "targets": 288,
-   "sources": 9137
+   "records": 13098,
+   "targets": 211,
+   "sources": 1129
   },
   {
    "port": 16767,
    "service": null,
-   "records": 105059,
-   "targets": 5,
-   "sources": 4554
-  },
-  {
-   "port": 137,
-   "service": null,
-   "records": 78948,
-   "targets": 203,
-   "sources": 809
+   "records": 11802,
+   "targets": 3,
+   "sources": 1386
   },
   {
    "port": 51413,
    "service": null,
-   "records": 76476,
-   "targets": 80,
-   "sources": 2055
+   "records": 10506,
+   "targets": 31,
+   "sources": 935
+  },
+  {
+   "port": 137,
+   "service": null,
+   "records": 6604,
+   "targets": 61,
+   "sources": 109
   }
  ],
- "ports_date": "2026-10-08",
+ "ports_date": "2026-10-09",
  "diary": [
   {
    "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
@@ -499,10 +499,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-09T02:56:01+00:00",
-  "sans": "2026-10-09T02:56:01+00:00",
-  "otx": "2026-10-09T02:56:01+00:00",
-  "urlhaus": "2026-10-09T02:56:01+00:00"
+  "threatfox": "2026-10-09T04:07:09+00:00",
+  "sans": "2026-10-09T04:07:09+00:00",
+  "otx": "2026-10-09T04:07:09+00:00",
+  "urlhaus": "2026-10-09T04:07:09+00:00"
  },
- "generated_at": "2026-10-09T02:56:01+00:00"
+ "generated_at": "2026-10-09T04:07:09+00:00"
 }
