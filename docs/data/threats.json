@@ -2,36 +2,36 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1180,
-  "c2_servers": 278,
+  "total_iocs": 1185,
+  "c2_servers": 280,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 345,
+    "iocs": 346,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
-    "iocs": 166,
-    "c2": 6,
+    "iocs": 168,
+    "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "ClearFake",
-    "iocs": 90,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
     "name": "Unknown Stealer",
-    "iocs": 89,
-    "c2": 77,
+    "iocs": 90,
+    "c2": 78,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
+    "name": "ClearFake",
+    "iocs": 88,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
     "name": "php.shin_webshell",
-    "iocs": 82,
+    "iocs": 83,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -43,7 +43,7 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 33,
+    "iocs": 31,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 606,
+  "online": 573,
   "top_tags": [
    {
     "name": "elf",
-    "count": 201
+    "count": 202
    },
    {
     "name": "Mozi",
-    "count": 181
-   },
-   {
-    "name": "CheatSheet",
-    "count": 166
+    "count": 182
    },
    {
     "name": "mirai",
     "count": 166
    },
    {
-    "name": "exe",
-    "count": 114
+    "name": "CheatSheet",
+    "count": 152
    },
    {
     "name": "ua-wget",
     "count": 111
    },
    {
+    "name": "exe",
+    "count": 103
+   },
+   {
     "name": "gitlab",
-    "count": 87
+    "count": 78
    },
    {
     "name": "github",
-    "count": 79
+    "count": 74
    }
   ]
  },
@@ -499,10 +499,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-09T06:09:32+00:00",
-  "sans": "2026-10-09T06:09:32+00:00",
-  "otx": "2026-10-09T06:09:32+00:00",
-  "urlhaus": "2026-10-09T06:09:32+00:00"
+  "threatfox": "2026-10-09T07:30:12+00:00",
+  "sans": "2026-10-09T07:30:12+00:00",
+  "otx": "2026-10-09T07:30:12+00:00",
+  "urlhaus": "2026-10-09T07:30:12+00:00"
  },
- "generated_at": "2026-10-09T06:09:32+00:00"
+ "generated_at": "2026-10-09T07:30:12+00:00"
 }
