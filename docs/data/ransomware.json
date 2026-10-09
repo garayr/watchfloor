@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-09T00:39:55+00:00",
+ "generated_at": "2026-10-09T01:47:14+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 13
+   "count": 12
   },
   {
    "name": "safepay",
@@ -14,15 +14,15 @@
   },
   {
    "name": "UmBra",
-   "count": 8
+   "count": 9
   },
   {
    "name": "SilentRansomGroup",
-   "count": 6
+   "count": 7
   },
   {
    "name": "Eclipse",
-   "count": 5
+   "count": 6
   },
   {
    "name": "everest",
@@ -39,15 +39,15 @@
  ],
  "by_sector": [
   {
-   "name": "Manufacturing",
+   "name": "Professional Services",
    "count": 16
   },
   {
-   "name": "Professional Services",
+   "name": "Technology",
    "count": 15
   },
   {
-   "name": "Technology",
+   "name": "Manufacturing",
    "count": 13
   },
   {
@@ -77,8 +77,14 @@
    "lon": 8.7
   },
   {
+   "code": "BR",
+   "count": 4,
+   "lat": -23.5,
+   "lon": -46.6
+  },
+  {
    "code": "ES",
-   "count": 5,
+   "count": 4,
    "lat": 40.4,
    "lon": -3.7
   },
@@ -89,28 +95,16 @@
    "lon": 72.9
   },
   {
-   "code": "BR",
-   "count": 3,
-   "lat": -23.5,
-   "lon": -46.6
-  },
-  {
    "code": "CH",
    "count": 3,
    "lat": 46.9,
    "lon": 7.4
   },
   {
-   "code": "TR",
+   "code": "FR",
    "count": 3,
-   "lat": 41.0,
-   "lon": 29.0
-  },
-  {
-   "code": "AU",
-   "count": 2,
-   "lat": -33.9,
-   "lon": 151.2
+   "lat": 48.9,
+   "lon": 2.35
   },
   {
    "code": "CA",
@@ -125,16 +119,16 @@
    "lon": 31.2
   },
   {
-   "code": "FR",
-   "count": 2,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
    "code": "IT",
    "count": 2,
    "lat": 41.9,
    "lon": 12.5
+  },
+  {
+   "code": "MX",
+   "count": 2,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "NL",
@@ -149,6 +143,12 @@
    "lon": 103.8
   },
   {
+   "code": "TR",
+   "count": 2,
+   "lat": 41.0,
+   "lon": 29.0
+  },
+  {
    "code": "AE",
    "count": 1,
    "lat": 24.5,
@@ -159,6 +159,12 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
+  },
+  {
+   "code": "AU",
+   "count": 1,
+   "lat": -33.9,
+   "lon": 151.2
   },
   {
    "code": "CL",
@@ -183,12 +189,6 @@
    "count": 1,
    "lat": 53.3,
    "lon": -6.3
-  },
-  {
-   "code": "MX",
-   "count": 1,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "MY",
@@ -234,6 +234,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "SOCOCO",
+   "group": "UmBra",
+   "date": "2026-10-08T21:36:50+00:00",
+   "attack_date": "2026-10-08",
+   "country": "FR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U09DT0NPQFVtQnJh"
+  },
+  {
+   "victim": "dipecarr.com.br",
+   "group": "Eclipse",
+   "date": "2026-10-08T21:21:19+00:00",
+   "attack_date": "2026-10-08",
+   "country": "BR",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/ZGlwZWNhcnIuY29tLmJyQEVjbGlwc2U="
+  },
+  {
+   "victim": "MCM Telecom",
+   "group": "qilin",
+   "date": "2026-10-08T21:07:24+00:00",
+   "attack_date": "2026-10-08",
+   "country": "MX",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/TUNNIFRlbGVjb21AcWlsaW4="
+  },
+  {
+   "victim": "Baker McKenzie",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-08T20:52:34+00:00",
+   "attack_date": "2026-10-08",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QmFrZXIgTWNLZW56aWVAU2lsZW50UmFuc29tR3JvdXA="
+  },
   {
    "victim": "Manipal Academy of Higher Edu",
    "group": "UmBra",
@@ -1097,42 +1133,6 @@
    "country": "US",
    "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/Qm9sZCBTcHJpbmcgTnVyc2VyeUBwbGF5"
-  },
-  {
-   "victim": "Silicon Valley Glass",
-   "group": "play",
-   "date": "2026-10-04T19:36:32+00:00",
-   "attack_date": "2026-10-04",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/U2lsaWNvbiBWYWxsZXkgR2xhc3NAcGxheQ=="
-  },
-  {
-   "victim": "OMUR HIRDAVAT LTD",
-   "group": "emperador",
-   "date": "2026-10-04T17:22:49+00:00",
-   "attack_date": "2026-10-04",
-   "country": "TR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/T01VUiBISVJEQVZBVCBMVERAZW1wZXJhZG9y"
-  },
-  {
-   "victim": "Chadwick Switchboards",
-   "group": "qilin",
-   "date": "2026-10-04T15:03:44+00:00",
-   "attack_date": "2026-10-04",
-   "country": "AU",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Q2hhZHdpY2sgU3dpdGNoYm9hcmRzQHFpbGlu"
-  },
-  {
-   "victim": "Emser",
-   "group": "qilin",
-   "date": "2026-10-04T15:03:05+00:00",
-   "attack_date": "2026-10-04",
-   "country": "ES",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RW1zZXJAcWlsaW4="
   }
  ]
 }
