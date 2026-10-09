@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T17:25:53+00:00",
+ "generated_at": "2026-10-09T18:29:42+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -6412,6 +6412,124 @@
    ],
    "history_size": 30,
    "updated": "2026-10-09T17:25:53+00:00"
+  },
+  "arcusmedia": {
+   "name": "arcusmedia",
+   "description": "Arcus Media is a ransomware-as-a-service group that emerged in May 2024, employing double extortion with ChaCha20 + RSA-2048 encryption and recruiting affiliates via a referral-based vetting process, claiming 50+ victims across manufacturing, healthcare, retail, and business services globally.",
+   "aliases": [],
+   "first_seen": "2024-05-08",
+   "last_seen": "2026-10-09",
+   "victims_total": 118,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "BR",
+      "count": 23
+     },
+     {
+      "name": "US",
+      "count": 16
+     },
+     {
+      "name": "ES",
+      "count": 6
+     },
+     {
+      "name": "CO",
+      "count": 5
+     },
+     {
+      "name": "AE",
+      "count": 4
+     },
+     {
+      "name": "CA",
+      "count": 4
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Professional Services",
+      "count": 28
+     },
+     {
+      "name": "Technology",
+      "count": 25
+     },
+     {
+      "name": "Manufacturing",
+      "count": 14
+     },
+     {
+      "name": "Transportation",
+      "count": 9
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 8
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 8
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 9
+    },
+    {
+     "month": "2026-08",
+     "count": 2
+    },
+    {
+     "month": "2026-09",
+     "count": 6
+    },
+    {
+     "month": "2026-10",
+     "count": 3
+    }
+   ],
+   "history_size": 118,
+   "updated": "2026-10-09T18:29:42+00:00"
   }
  }
 }

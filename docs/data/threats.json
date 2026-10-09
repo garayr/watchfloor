@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 972,
-  "c2_servers": 248,
+  "total_iocs": 1056,
+  "c2_servers": 249,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 196,
-    "c2": 1,
+    "iocs": 271,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 102,
+    "iocs": 106,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -31,20 +31,20 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 55,
-    "c2": 1,
+    "iocs": 54,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "IClickFix",
-    "iocs": 43,
+    "iocs": 44,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Vidar",
-    "iocs": 38,
-    "c2": 23,
+    "iocs": 40,
+    "c2": 25,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -69,31 +69,31 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 528,
+  "online": 506,
   "top_tags": [
    {
     "name": "elf",
-    "count": 253
+    "count": 243
    },
    {
     "name": "Mozi",
-    "count": 189
+    "count": 191
    },
    {
     "name": "ua-wget",
-    "count": 135
+    "count": 122
    },
    {
     "name": "mirai",
-    "count": 131
+    "count": 118
    },
    {
     "name": "32-bit",
-    "count": 91
+    "count": 93
    },
    {
     "name": "mips",
-    "count": 58
+    "count": 59
    },
    {
     "name": "CheatSheet",
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-09T17:25:53+00:00",
-  "sans": "2026-10-09T17:25:53+00:00",
-  "otx": "2026-10-09T17:25:53+00:00",
-  "urlhaus": "2026-10-09T17:25:53+00:00"
+  "threatfox": "2026-10-09T18:29:42+00:00",
+  "sans": "2026-10-09T18:29:42+00:00",
+  "otx": "2026-10-09T18:29:42+00:00",
+  "urlhaus": "2026-10-09T18:29:42+00:00"
  },
- "generated_at": "2026-10-09T17:25:53+00:00"
+ "generated_at": "2026-10-09T18:29:42+00:00"
 }

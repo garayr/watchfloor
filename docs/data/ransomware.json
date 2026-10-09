@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-09T17:25:53+00:00",
+ "generated_at": "2026-10-09T18:29:42+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 11
+   "count": 12
   },
   {
    "name": "safepay",
@@ -22,7 +22,11 @@
   },
   {
    "name": "Eclipse",
-   "count": 6
+   "count": 5
+  },
+  {
+   "name": "akira",
+   "count": 5
   },
   {
    "name": "everest",
@@ -31,10 +35,6 @@
   {
    "name": "incransom",
    "count": 5
-  },
-  {
-   "name": "akira",
-   "count": 4
   }
  ],
  "by_sector": [
@@ -43,20 +43,20 @@
    "count": 18
   },
   {
+   "name": "Other",
+   "count": 14
+  },
+  {
    "name": "Manufacturing",
    "count": 13
   },
   {
-   "name": "Other",
-   "count": 13
-  },
-  {
    "name": "Technology",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Education",
-   "count": 10
+   "count": 9
   },
   {
    "name": "Healthcare",
@@ -66,21 +66,21 @@
  "by_country": [
   {
    "code": "US",
-   "count": 29,
+   "count": 28,
    "lat": 39.0,
    "lon": -77.5
   },
   {
-   "code": "DE",
-   "count": 7,
-   "lat": 50.1,
-   "lon": 8.7
-  },
-  {
    "code": "BR",
-   "count": 6,
+   "count": 7,
    "lat": -23.5,
    "lon": -46.6
+  },
+  {
+   "code": "DE",
+   "count": 6,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "CH",
@@ -90,15 +90,21 @@
   },
   {
    "code": "ES",
-   "count": 4,
+   "count": 3,
    "lat": 40.4,
    "lon": -3.7
   },
   {
    "code": "IN",
-   "count": 4,
+   "count": 3,
    "lat": 19.1,
    "lon": 72.9
+  },
+  {
+   "code": "IT",
+   "count": 3,
+   "lat": 41.9,
+   "lon": 12.5
   },
   {
    "code": "AE",
@@ -107,16 +113,16 @@
    "lon": 54.4
   },
   {
+   "code": "CA",
+   "count": 2,
+   "lat": 43.7,
+   "lon": -79.4
+  },
+  {
    "code": "EG",
    "count": 2,
    "lat": 30.0,
    "lon": 31.2
-  },
-  {
-   "code": "IT",
-   "count": 2,
-   "lat": 41.9,
-   "lon": 12.5
   },
   {
    "code": "MX",
@@ -153,12 +159,6 @@
    "count": 1,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "CA",
-   "count": 1,
-   "lat": 43.7,
-   "lon": -79.4
   },
   {
    "code": "CL",
@@ -228,6 +228,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Melchioni Spa",
+   "group": "qilin",
+   "date": "2026-10-09T14:15:33+00:00",
+   "attack_date": "2026-10-09",
+   "country": "IT",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TWVsY2hpb25pIFNwYUBxaWxpbg=="
+  },
+  {
+   "victim": "AETHOS",
+   "group": "arcusmedia",
+   "date": "2026-10-09T13:31:23+00:00",
+   "attack_date": "2026-10-09",
+   "country": "BR",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QUVUSE9TQGFyY3VzbWVkaWE="
+  },
+  {
+   "victim": "mblllp",
+   "group": "arcusmedia",
+   "date": "2026-10-09T13:30:47+00:00",
+   "attack_date": "2026-10-09",
+   "country": "CA",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/bWJsbGxwQGFyY3VzbWVkaWE="
+  },
+  {
+   "victim": "Ladrillera Mecanizada",
+   "group": "arcusmedia",
+   "date": "2026-10-09T13:30:13+00:00",
+   "attack_date": "2026-10-09",
+   "country": "MX",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TGFkcmlsbGVyYSBNZWNhbml6YWRhQGFyY3VzbWVkaWE="
+  },
+  {
+   "victim": "Yarema",
+   "group": "akira",
+   "date": "2026-10-09T13:29:16+00:00",
+   "attack_date": "2026-10-09",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/WWFyZW1hQGFraXJh"
+  },
   {
    "victim": "iDentalSoft",
    "group": "termite",
@@ -461,15 +506,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/VGhlcmFDYXJlQFN0b3Jt"
-  },
-  {
-   "victim": "yalebooks.yale.edu",
-   "group": "Scarlettgroup",
-   "date": "2026-10-08T05:21:32+00:00",
-   "attack_date": "2026-10-05",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/eWFsZWJvb2tzLnlhbGUuZWR1QFNjYXJsZXR0Z3JvdXA="
   },
   {
    "victim": "grunenwald.com",
@@ -1012,15 +1048,6 @@
    "url": "https://www.ransomware.live/id/SCZMIE1hbnVmYWN0dXJpbmdAaW50ZXJsb2Nr"
   },
   {
-   "victim": "part02.simplexengg.in",
-   "group": "Eclipse",
-   "date": "2026-10-05T15:22:43+00:00",
-   "attack_date": "2026-10-05",
-   "country": "IN",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/cGFydDAyLnNpbXBsZXhlbmdnLmluQEVjbGlwc2U="
-  },
-  {
    "victim": "O2 Dental Group",
    "group": "interlock",
    "date": "2026-10-05T15:01:57+00:00",
@@ -1100,33 +1127,6 @@
    "country": "ES",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/Rmx1Z2UgQXVkaW92aXN1YWxlc0BsYW1hc2h0dQ=="
-  },
-  {
-   "victim": "Bender Tribunenbau",
-   "group": "lamashtu",
-   "date": "2026-10-05T07:31:53+00:00",
-   "attack_date": "2026-10-05",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/QmVuZGVyIFRyaWJ1bmVuYmF1QGxhbWFzaHR1"
-  },
-  {
-   "victim": "TRANS LOGROÑO SOCIEDAD ANONIMA",
-   "group": "lamashtu",
-   "date": "2026-10-05T07:31:14+00:00",
-   "attack_date": "2026-10-05",
-   "country": "ES",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/VFJBTlMgTE9HUk%2FDkU8gU09DSUVEQUQgQU5PTklNQUBsYW1hc2h0dQ=="
-  },
-  {
-   "victim": "Grupo Industrial Tauro",
-   "group": "lamashtu",
-   "date": "2026-10-05T07:30:34+00:00",
-   "attack_date": "2026-10-05",
-   "country": "MX",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/R3J1cG8gSW5kdXN0cmlhbCBUYXVyb0BsYW1hc2h0dQ=="
   }
  ]
 }
