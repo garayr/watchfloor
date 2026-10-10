@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1614,
-  "c2_servers": 216,
+  "total_iocs": 1606,
+  "c2_servers": 199,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 387,
+    "iocs": 388,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -19,7 +19,7 @@
    },
    {
     "name": "Mirai",
-    "iocs": 177,
+    "iocs": 183,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -37,25 +37,19 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 50,
+    "iocs": 49,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Vidar",
-    "iocs": 44,
-    "c2": 28,
+    "iocs": 40,
+    "c2": 24,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Unknown Stealer",
-    "iocs": 35,
-    "c2": 19,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
-   },
-   {
     "name": "AMOS",
-    "iocs": 31,
+    "iocs": 32,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -64,28 +58,34 @@
     "iocs": 30,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
+   },
+   {
+    "name": "Unknown Stealer",
+    "iocs": 29,
+    "c2": 13,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    }
   ]
  },
  "urls": {
-  "sample": 618,
-  "online": 409,
+  "sample": 643,
+  "online": 433,
   "top_tags": [
    {
     "name": "elf",
-    "count": 179
+    "count": 184
    },
    {
     "name": "Mozi",
-    "count": 102
+    "count": 107
    },
    {
     "name": "32-bit",
-    "count": 99
+    "count": 104
    },
    {
     "name": "mips",
-    "count": 62
+    "count": 66
    },
    {
     "name": "ua-wget",
@@ -107,77 +107,77 @@
  },
  "ports": [
   {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 110087,
+   "targets": 190,
+   "sources": 3827
+  },
+  {
    "port": 8080,
    "service": "Web proxy",
-   "records": 1476964,
-   "targets": 282,
-   "sources": 12481
+   "records": 101726,
+   "targets": 223,
+   "sources": 4602
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 1340873,
-   "targets": 288,
-   "sources": 14246
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 1314206,
-   "targets": 282,
-   "sources": 10607
+   "records": 91731,
+   "targets": 212,
+   "sources": 4158
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 925740,
-   "targets": 316,
-   "sources": 12137
+   "records": 73695,
+   "targets": 195,
+   "sources": 2348
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 917130,
-   "targets": 289,
-   "sources": 16542
+   "records": 64536,
+   "targets": 239,
+   "sources": 4357
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 566331,
-   "targets": 283,
-   "sources": 13445
+   "records": 33046,
+   "targets": 239,
+   "sources": 2065
   },
   {
-   "port": 2222,
-   "service": null,
-   "records": 251771,
-   "targets": 283,
-   "sources": 8549
+   "port": 7547,
+   "service": "Router management (TR-069)",
+   "records": 27459,
+   "targets": 126,
+   "sources": 522
   },
   {
    "port": 9000,
    "service": null,
-   "records": 123921,
-   "targets": 261,
-   "sources": 4388
+   "records": 22211,
+   "targets": 186,
+   "sources": 737
   },
   {
    "port": 5555,
    "service": "Android debug (ADB)",
-   "records": 111770,
-   "targets": 263,
-   "sources": 3665
+   "records": 14639,
+   "targets": 161,
+   "sources": 321
   },
   {
-   "port": 16767,
+   "port": 2222,
    "service": null,
-   "records": 109329,
-   "targets": 17,
-   "sources": 4109
+   "records": 12266,
+   "targets": 208,
+   "sources": 1054
   }
  ],
- "ports_date": "2026-10-09",
+ "ports_date": "2026-10-10",
  "diary": [
   {
    "title": "ISC Stormcast For Friday, October 9th, 2026 https://isc.sans.edu/podcastdetail/10130, (Fri, Oct 9th)",
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T03:44:25+00:00",
-  "sans": "2026-10-10T03:44:25+00:00",
-  "otx": "2026-10-10T03:44:25+00:00",
-  "urlhaus": "2026-10-10T03:44:25+00:00"
+  "threatfox": "2026-10-10T04:48:27+00:00",
+  "sans": "2026-10-10T04:48:27+00:00",
+  "otx": "2026-10-10T04:48:27+00:00",
+  "urlhaus": "2026-10-10T04:48:27+00:00"
  },
- "generated_at": "2026-10-10T03:44:25+00:00"
+ "generated_at": "2026-10-10T04:48:27+00:00"
 }
