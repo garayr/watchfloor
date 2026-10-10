@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 840,
-  "c2_servers": 198,
+  "total_iocs": 809,
+  "c2_servers": 199,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 192,
-    "c2": 5,
+    "iocs": 164,
+    "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -24,6 +24,12 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "IClickFix",
+    "iocs": 45,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
     "name": "php.shin_webshell",
     "iocs": 43,
     "c2": 0,
@@ -31,7 +37,7 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 39,
+    "iocs": 40,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -42,12 +48,6 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "IClickFix",
-    "iocs": 25,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "AMOS",
     "iocs": 19,
     "c2": 0,
@@ -55,7 +55,7 @@
    },
    {
     "name": "Coinminer",
-    "iocs": 15,
+    "iocs": 16,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
    },
@@ -69,19 +69,19 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 613,
+  "online": 610,
   "top_tags": [
    {
     "name": "elf",
-    "count": 366
+    "count": 369
    },
    {
     "name": "Mozi",
-    "count": 178
+    "count": 181
    },
    {
     "name": "32-bit",
-    "count": 173
+    "count": 176
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,11 @@
    },
    {
     "name": "mips",
-    "count": 121
+    "count": 123
+   },
+   {
+    "name": "arm",
+    "count": 55
    },
    {
     "name": "exe",
@@ -97,10 +101,6 @@
    },
    {
     "name": "CheatSheet",
-    "count": 54
-   },
-   {
-    "name": "arm",
     "count": 54
    }
   ]
@@ -521,10 +521,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T22:53:23+00:00",
-  "sans": "2026-10-10T22:53:23+00:00",
-  "otx": "2026-10-10T22:53:23+00:00",
-  "urlhaus": "2026-10-10T22:53:23+00:00"
+  "threatfox": "2026-10-10T23:52:20+00:00",
+  "sans": "2026-10-10T23:52:20+00:00",
+  "otx": "2026-10-10T23:52:20+00:00",
+  "urlhaus": "2026-10-10T23:52:20+00:00"
  },
- "generated_at": "2026-10-10T22:53:23+00:00"
+ "generated_at": "2026-10-10T23:52:20+00:00"
 }
