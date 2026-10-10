@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-10T19:51:55+00:00",
+ "generated_at": "2026-10-10T20:53:25+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 24
+   "count": 23
   },
   {
    "name": "qilin",
-   "count": 12
+   "count": 13
   },
   {
    "name": "UmBra",
@@ -47,11 +47,11 @@
    "count": 13
   },
   {
-   "name": "Healthcare",
+   "name": "Other",
    "count": 13
   },
   {
-   "name": "Other",
+   "name": "Healthcare",
    "count": 12
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 31,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -167,6 +167,12 @@
    "lon": -70.6
   },
   {
+   "code": "CO",
+   "count": 1,
+   "lat": 4.7,
+   "lon": -74.1
+  },
+  {
    "code": "CZ",
    "count": 1,
    "lat": 50.1,
@@ -234,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "ACI Proyectos SAS",
+   "group": "qilin",
+   "date": "2026-10-10T16:06:32+00:00",
+   "attack_date": "2026-10-10",
+   "country": "CO",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/QUNJIFByb3llY3RvcyBTQVNAcWlsaW4="
+  },
   {
    "victim": "KOIKE Sanso Kogoyo Co. Ltd.",
    "group": "exitium",
@@ -530,15 +545,6 @@
    "country": "US",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/UGFsbWFAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "MercyMed of Columbus",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:22:11+00:00",
-   "attack_date": "2026-10-06",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TWVyY3lNZWQgb2YgQ29sdW1idXNAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "North Philadelphia Health System",

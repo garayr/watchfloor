@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1128,
-  "c2_servers": 198,
+  "total_iocs": 1017,
+  "c2_servers": 195,
   "families": [
    {
     "name": "IClickFix",
@@ -13,33 +13,27 @@
    },
    {
     "name": "Mirai",
-    "iocs": 251,
+    "iocs": 229,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 126,
+    "iocs": 50,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 47,
+    "iocs": 46,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Vidar",
-    "iocs": 45,
+    "iocs": 44,
     "c2": 44,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 43,
-    "c2": 43,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "VShell",
@@ -48,48 +42,54 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 39,
+    "c2": 39,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "AMOS",
-    "iocs": 17,
+    "iocs": 18,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "AsyncRAT",
+    "name": "Unknown Stealer",
     "iocs": 14,
-    "c2": 13,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+    "c2": 5,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
-    "name": "Unknown Stealer",
+    "name": "AsyncRAT",
     "iocs": 13,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+    "c2": 13,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 590,
+  "online": 594,
   "top_tags": [
    {
     "name": "elf",
-    "count": 373
+    "count": 365
    },
    {
     "name": "ua-wget",
-    "count": 183
+    "count": 174
    },
    {
     "name": "Mozi",
-    "count": 169
+    "count": 170
    },
    {
     "name": "32-bit",
-    "count": 164
+    "count": 165
    },
    {
     "name": "mips",
-    "count": 113
+    "count": 115
    },
    {
     "name": "exe",
@@ -101,7 +101,7 @@
    },
    {
     "name": "arm",
-    "count": 53
+    "count": 52
    }
   ]
  },
@@ -517,10 +517,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T19:51:55+00:00",
-  "sans": "2026-10-10T19:51:55+00:00",
-  "otx": "2026-10-10T19:51:55+00:00",
-  "urlhaus": "2026-10-10T19:51:55+00:00"
+  "threatfox": "2026-10-10T20:53:25+00:00",
+  "sans": "2026-10-10T20:53:25+00:00",
+  "otx": "2026-10-10T20:53:25+00:00",
+  "urlhaus": "2026-10-10T20:53:25+00:00"
  },
- "generated_at": "2026-10-10T19:51:55+00:00"
+ "generated_at": "2026-10-10T20:53:25+00:00"
 }
