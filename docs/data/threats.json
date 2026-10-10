@@ -2,24 +2,24 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1608,
-  "c2_servers": 195,
+  "total_iocs": 1623,
+  "c2_servers": 207,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 390,
+    "iocs": 391,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "IClickFix",
-    "iocs": 300,
+    "iocs": 290,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Mirai",
-    "iocs": 196,
+    "iocs": 212,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -30,16 +30,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "VShell",
-    "iocs": 51,
-    "c2": 10,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 49,
+    "iocs": 50,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "VShell",
+    "iocs": 49,
+    "c2": 8,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Vidar",
@@ -55,33 +55,33 @@
    },
    {
     "name": "AMOS",
-    "iocs": 24,
+    "iocs": 26,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "DanaBot",
-    "iocs": 22,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.danabot"
+    "name": "Cobalt Strike",
+    "iocs": 24,
+    "c2": 23,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
-  "sample": 724,
+  "sample": 736,
   "online": 454,
   "top_tags": [
    {
     "name": "elf",
-    "count": 241
+    "count": 245
    },
    {
     "name": "Mozi",
-    "count": 121
+    "count": 124
    },
    {
     "name": "32-bit",
-    "count": 117
+    "count": 119
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,7 @@
    },
    {
     "name": "mips",
-    "count": 77
+    "count": 79
    },
    {
     "name": "CheatSheet",
@@ -109,72 +109,72 @@
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 110087,
-   "targets": 190,
-   "sources": 3827
+   "records": 472451,
+   "targets": 255,
+   "sources": 5602
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 101726,
-   "targets": 223,
-   "sources": 4602
+   "records": 427967,
+   "targets": 257,
+   "sources": 6469
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 91731,
-   "targets": 212,
-   "sources": 4158
+   "records": 397629,
+   "targets": 252,
+   "sources": 7577
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 73695,
-   "targets": 195,
-   "sources": 2348
+   "records": 326375,
+   "targets": 236,
+   "sources": 5777
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 64536,
-   "targets": 239,
-   "sources": 4357
+   "records": 273866,
+   "targets": 264,
+   "sources": 8914
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 33046,
-   "targets": 239,
-   "sources": 2065
+   "records": 167599,
+   "targets": 265,
+   "sources": 6091
   },
   {
    "port": 7547,
    "service": "Router management (TR-069)",
-   "records": 27459,
-   "targets": 126,
-   "sources": 522
+   "records": 134379,
+   "targets": 202,
+   "sources": 1708
   },
   {
    "port": 9000,
    "service": null,
-   "records": 22211,
-   "targets": 186,
-   "sources": 737
-  },
-  {
-   "port": 5555,
-   "service": "Android debug (ADB)",
-   "records": 14639,
-   "targets": 161,
-   "sources": 321
+   "records": 80136,
+   "targets": 243,
+   "sources": 2359
   },
   {
    "port": 2222,
    "service": null,
-   "records": 12266,
-   "targets": 208,
-   "sources": 1054
+   "records": 63278,
+   "targets": 266,
+   "sources": 3787
+  },
+  {
+   "port": 5555,
+   "service": "Android debug (ADB)",
+   "records": 57424,
+   "targets": 236,
+   "sources": 1327
   }
  ],
  "ports_date": "2026-10-10",
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T06:57:22+00:00",
-  "sans": "2026-10-10T06:57:22+00:00",
-  "otx": "2026-10-10T06:57:22+00:00",
-  "urlhaus": "2026-10-10T06:57:22+00:00"
+  "threatfox": "2026-10-10T07:55:20+00:00",
+  "sans": "2026-10-10T07:55:20+00:00",
+  "otx": "2026-10-10T07:55:20+00:00",
+  "urlhaus": "2026-10-10T07:55:20+00:00"
  },
- "generated_at": "2026-10-10T06:57:22+00:00"
+ "generated_at": "2026-10-10T07:55:20+00:00"
 }
