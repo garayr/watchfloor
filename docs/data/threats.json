@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 842,
-  "c2_servers": 199,
+  "total_iocs": 840,
+  "c2_servers": 198,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 191,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.mirai"
+    "iocs": 192,
+    "c2": 5,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "VShell",
-    "iocs": 83,
+    "iocs": 81,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
@@ -25,13 +25,13 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 45,
+    "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "ClearFake",
-    "iocs": 41,
+    "iocs": 39,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -43,13 +43,13 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 20,
+    "iocs": 25,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "AMOS",
-    "iocs": 18,
+    "iocs": 19,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -69,27 +69,27 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 599,
+  "online": 613,
   "top_tags": [
    {
     "name": "elf",
-    "count": 363
+    "count": 366
    },
    {
     "name": "Mozi",
+    "count": 178
+   },
+   {
+    "name": "32-bit",
     "count": 173
    },
    {
     "name": "ua-wget",
-    "count": 169
-   },
-   {
-    "name": "32-bit",
-    "count": 168
+    "count": 167
    },
    {
     "name": "mips",
-    "count": 118
+    "count": 121
    },
    {
     "name": "exe",
@@ -101,7 +101,7 @@
    },
    {
     "name": "arm",
-    "count": 52
+    "count": 54
    }
   ]
  },
@@ -464,6 +464,32 @@
    "url": "https://otx.alienvault.com/pulse/6ac778436ef05de8abf44e67"
   },
   {
+   "name": "Melofee: a look back at a Linux implant and its new variants",
+   "summary": "Three years after its initial discovery, the Melofee Linux implant has evolved with sophisticated new capabilities. The malware now features modularized architecture with hot-loadable components for shell functionality…",
+   "date": "2026-09-10T22:17:12+00:00",
+   "author": "AlienVault",
+   "adversary": "APT41",
+   "malware": [
+    "Melofee",
+    "ShadowPad - S0596",
+    "POISONPLUG.SHADOW",
+    "HelloBot",
+    "PlugX - S0013",
+    "Thoper"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "ratels",
+    "linux implant",
+    "shadowpad",
+    "spark",
+    "hemigate",
+    "hellobot"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aa32c68adf3f06777eb0318"
+  },
+  {
    "name": "Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers",
    "summary": "In August 2026, a Casbaneiro campaign targeted Latin American users through phishing emails and PDFs themed as fake invoices and legal notices. The multi-stage infection chain includes HTA downloaders and AutoIt…",
    "date": "2026-09-10T17:27:46+00:00",
@@ -492,35 +518,13 @@
     "credential theft"
    ],
    "url": "https://otx.alienvault.com/pulse/6aa2e892c25022290bdb9420"
-  },
-  {
-   "name": "Threat Snapshot: Djinn Stealer",
-   "summary": "Djinn Stealer is a cross-platform information stealer delivered as a second-stage payload by the TaskWeaver Node.js loader. It employs a rules-based collection engine to harvest credentials and configuration data from…",
-   "date": "2026-09-10T12:49:58+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Djinn Stealer",
-    "TaskWeaver"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "djinn stealer",
-    "taskweaver",
-    "simplehelp exploitation",
-    "cve-2026-48558",
-    "information stealer",
-    "credential theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aa2a776820639d68513f654"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T21:53:20+00:00",
-  "sans": "2026-10-10T21:53:20+00:00",
-  "otx": "2026-10-10T21:53:20+00:00",
-  "urlhaus": "2026-10-10T21:53:20+00:00"
+  "threatfox": "2026-10-10T22:53:23+00:00",
+  "sans": "2026-10-10T22:53:23+00:00",
+  "otx": "2026-10-10T22:53:23+00:00",
+  "urlhaus": "2026-10-10T22:53:23+00:00"
  },
- "generated_at": "2026-10-10T21:53:20+00:00"
+ "generated_at": "2026-10-10T22:53:23+00:00"
 }
