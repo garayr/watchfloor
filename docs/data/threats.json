@@ -2,44 +2,38 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1017,
-  "c2_servers": 195,
+  "total_iocs": 842,
+  "c2_servers": 199,
   "families": [
    {
-    "name": "IClickFix",
-    "iocs": 289,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "Mirai",
-    "iocs": 229,
+    "iocs": 191,
     "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.mirai"
    },
    {
-    "name": "ClearFake",
-    "iocs": 50,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 46,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "VShell",
+    "iocs": 83,
+    "c2": 6,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Vidar",
-    "iocs": 44,
+    "iocs": 61,
     "c2": 44,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "VShell",
-    "iocs": 40,
-    "c2": 6,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+    "name": "php.shin_webshell",
+    "iocs": 45,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 41,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Cobalt Strike",
@@ -48,16 +42,22 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
+    "name": "IClickFix",
+    "iocs": 20,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
     "name": "AMOS",
     "iocs": 18,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Unknown Stealer",
-    "iocs": 14,
-    "c2": 5,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+    "name": "Coinminer",
+    "iocs": 15,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
    },
    {
     "name": "AsyncRAT",
@@ -69,27 +69,27 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 594,
+  "online": 599,
   "top_tags": [
    {
     "name": "elf",
-    "count": 365
-   },
-   {
-    "name": "ua-wget",
-    "count": 174
+    "count": 363
    },
    {
     "name": "Mozi",
-    "count": 170
+    "count": 173
+   },
+   {
+    "name": "ua-wget",
+    "count": 169
    },
    {
     "name": "32-bit",
-    "count": 165
+    "count": 168
    },
    {
     "name": "mips",
-    "count": 115
+    "count": 118
    },
    {
     "name": "exe",
@@ -517,10 +517,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T20:53:25+00:00",
-  "sans": "2026-10-10T20:53:25+00:00",
-  "otx": "2026-10-10T20:53:25+00:00",
-  "urlhaus": "2026-10-10T20:53:25+00:00"
+  "threatfox": "2026-10-10T21:53:20+00:00",
+  "sans": "2026-10-10T21:53:20+00:00",
+  "otx": "2026-10-10T21:53:20+00:00",
+  "urlhaus": "2026-10-10T21:53:20+00:00"
  },
- "generated_at": "2026-10-10T20:53:25+00:00"
+ "generated_at": "2026-10-10T21:53:20+00:00"
 }

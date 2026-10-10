@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-10T20:53:25+00:00",
+ "generated_at": "2026-10-10T21:53:20+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 23
+   "count": 22
   },
   {
    "name": "qilin",
@@ -14,7 +14,7 @@
   },
   {
    "name": "UmBra",
-   "count": 8
+   "count": 9
   },
   {
    "name": "Eclipse",
@@ -39,24 +39,24 @@
  ],
  "by_sector": [
   {
+   "name": "Education",
+   "count": 14
+  },
+  {
    "name": "Manufacturing",
    "count": 14
   },
   {
-   "name": "Education",
-   "count": 13
-  },
-  {
-   "name": "Other",
-   "count": 13
-  },
-  {
    "name": "Healthcare",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Professional Services",
    "count": 12
+  },
+  {
+   "name": "Other",
+   "count": 11
   },
   {
    "name": "Technology",
@@ -78,7 +78,7 @@
   },
   {
    "code": "DE",
-   "count": 6,
+   "count": 5,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -101,6 +101,12 @@
    "lon": 103.8
   },
   {
+   "code": "EG",
+   "count": 3,
+   "lat": 30.0,
+   "lon": 31.2
+  },
+  {
    "code": "ES",
    "count": 3,
    "lat": 40.4,
@@ -117,12 +123,6 @@
    "count": 2,
    "lat": 46.9,
    "lon": 7.4
-  },
-  {
-   "code": "EG",
-   "count": 2,
-   "lat": 30.0,
-   "lon": 31.2
   },
   {
    "code": "FR",
@@ -240,6 +240,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Helwan University (HITU)",
+   "group": "UmBra",
+   "date": "2026-10-10T16:54:23+00:00",
+   "attack_date": "2026-10-10",
+   "country": "EG",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/SGVsd2FuIFVuaXZlcnNpdHkgKEhJVFUpQFVtQnJh"
+  },
+  {
+   "victim": "DexCom",
+   "group": "Redact",
+   "date": "2026-10-10T16:53:38+00:00",
+   "attack_date": "2026-10-10",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/RGV4Q29tQFJlZGFjdA=="
+  },
   {
    "victim": "ACI Proyectos SAS",
    "group": "qilin",
@@ -536,15 +554,6 @@
    "country": "SG",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/SGFiYmFzIEFzc29jaWF0ZXNAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Palma",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:22:15+00:00",
-   "attack_date": "2026-10-06",
-   "country": "US",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/UGFsbWFAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "North Philadelphia Health System",
@@ -896,15 +905,6 @@
    "country": "CA",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/Q29vcGVyYXRpdmUgRGVzIFRlY2huaWNpZW5zIEFtYnVsYW5jaWVycyBEZSBMYSBNb250ZUBTdG9ybQ=="
-  },
-  {
-   "victim": "grunenwald.com",
-   "group": "lockbit5",
-   "date": "2026-10-08T03:32:37+00:00",
-   "attack_date": "2026-10-06",
-   "country": "DE",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/Z3J1bmVud2FsZC5jb21AbG9ja2JpdDU="
   },
   {
    "victim": "avsa.com.ar",
