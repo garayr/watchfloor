@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1620,
-  "c2_servers": 199,
+  "total_iocs": 1608,
+  "c2_servers": 195,
   "families": [
    {
     "name": "ClearFake",
     "iocs": 390,
-    "c2": 2,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
@@ -19,13 +19,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 187,
-    "c2": 3,
+    "iocs": 196,
+    "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 57,
+    "iocs": 55,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -37,21 +37,15 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 47,
+    "iocs": 49,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Vidar",
-    "iocs": 40,
-    "c2": 24,
+    "iocs": 34,
+    "c2": 18,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "AMOS",
-    "iocs": 33,
-    "c2": 6,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "stealler",
@@ -60,36 +54,42 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
    },
    {
-    "name": "Unknown Stealer",
-    "iocs": 27,
-    "c2": 11,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+    "name": "AMOS",
+    "iocs": 24,
+    "c2": 6,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "DanaBot",
+    "iocs": 22,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.danabot"
    }
   ]
  },
  "urls": {
-  "sample": 690,
-  "online": 439,
+  "sample": 724,
+  "online": 454,
   "top_tags": [
    {
     "name": "elf",
-    "count": 214
+    "count": 241
    },
    {
     "name": "Mozi",
-    "count": 113
+    "count": 121
    },
    {
     "name": "32-bit",
-    "count": 109
+    "count": 117
    },
    {
     "name": "ua-wget",
-    "count": 73
+    "count": 92
    },
    {
     "name": "mips",
-    "count": 71
+    "count": 77
    },
    {
     "name": "CheatSheet",
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T05:54:17+00:00",
-  "sans": "2026-10-10T05:54:17+00:00",
-  "otx": "2026-10-10T05:54:17+00:00",
-  "urlhaus": "2026-10-10T05:54:17+00:00"
+  "threatfox": "2026-10-10T06:57:22+00:00",
+  "sans": "2026-10-10T06:57:22+00:00",
+  "otx": "2026-10-10T06:57:22+00:00",
+  "urlhaus": "2026-10-10T06:57:22+00:00"
  },
- "generated_at": "2026-10-10T05:54:17+00:00"
+ "generated_at": "2026-10-10T06:57:22+00:00"
 }
