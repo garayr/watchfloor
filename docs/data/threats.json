@@ -2,7 +2,7 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1616,
+  "total_iocs": 1610,
   "c2_servers": 220,
   "families": [
    {
@@ -19,8 +19,8 @@
    },
    {
     "name": "Mirai",
-    "iocs": 177,
-    "c2": 1,
+    "iocs": 172,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -31,14 +31,14 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 50,
+    "iocs": 52,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "VShell",
-    "iocs": 48,
-    "c2": 11,
+    "iocs": 47,
+    "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -68,24 +68,24 @@
   ]
  },
  "urls": {
-  "sample": 580,
-  "online": 372,
+  "sample": 598,
+  "online": 389,
   "top_tags": [
    {
     "name": "elf",
-    "count": 162
+    "count": 168
    },
    {
     "name": "Mozi",
-    "count": 92
+    "count": 98
    },
    {
     "name": "32-bit",
-    "count": 89
+    "count": 95
    },
    {
     "name": "mips",
-    "count": 55
+    "count": 58
    },
    {
     "name": "CheatSheet",
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T01:44:03+00:00",
-  "sans": "2026-10-10T01:44:03+00:00",
-  "otx": "2026-10-10T01:44:03+00:00",
-  "urlhaus": "2026-10-10T01:44:03+00:00"
+  "threatfox": "2026-10-10T02:45:29+00:00",
+  "sans": "2026-10-10T02:45:29+00:00",
+  "otx": "2026-10-10T02:45:29+00:00",
+  "urlhaus": "2026-10-10T02:45:29+00:00"
  },
- "generated_at": "2026-10-10T01:44:03+00:00"
+ "generated_at": "2026-10-10T02:45:29+00:00"
 }

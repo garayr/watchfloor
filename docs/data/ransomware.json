@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-10T01:44:03+00:00",
+ "generated_at": "2026-10-10T02:45:29+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 30
+   "count": 28
   },
   {
    "name": "qilin",
@@ -39,7 +39,7 @@
  ],
  "by_sector": [
   {
-   "name": "Manufacturing",
+   "name": "Other",
    "count": 14
   },
   {
@@ -47,7 +47,7 @@
    "count": 13
   },
   {
-   "name": "Other",
+   "name": "Manufacturing",
    "count": 13
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 29,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -77,16 +77,16 @@
    "lon": -46.6
   },
   {
+   "code": "DE",
+   "count": 6,
+   "lat": 50.1,
+   "lon": 8.7
+  },
+  {
    "code": "CA",
    "count": 5,
    "lat": 43.7,
    "lon": -79.4
-  },
-  {
-   "code": "DE",
-   "count": 5,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "IN",
@@ -119,6 +119,12 @@
    "lon": 151.2
   },
   {
+   "code": "CH",
+   "count": 2,
+   "lat": 46.9,
+   "lon": 7.4
+  },
+  {
    "code": "EG",
    "count": 2,
    "lat": 30.0,
@@ -147,12 +153,6 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
-  },
-  {
-   "code": "CH",
-   "count": 1,
-   "lat": 46.9,
-   "lon": 7.4
   },
   {
    "code": "CZ",
@@ -235,6 +235,24 @@
  ],
  "victims": [
   {
+   "victim": "hoteldelfinolugano.ch",
+   "group": "safepay",
+   "date": "2026-10-09T22:10:29+00:00",
+   "attack_date": "2026-10-09",
+   "country": "CH",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/aG90ZWxkZWxmaW5vbHVnYW5vLmNoQHNhZmVwYXk="
+  },
+  {
+   "victim": "dwi-bau.de",
+   "group": "safepay",
+   "date": "2026-10-09T22:09:44+00:00",
+   "attack_date": "2026-10-09",
+   "country": "DE",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/ZHdpLWJhdS5kZUBzYWZlcGF5"
+  },
+  {
    "victim": "Supreme Energy",
    "group": "Panzer",
    "date": "2026-10-09T21:25:22+00:00",
@@ -278,24 +296,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/ZmxlZXR3b3Jrc2luYy5jb21AdGhyZWVhbQ=="
-  },
-  {
-   "victim": "Smart Value",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:26:47+00:00",
-   "attack_date": "2026-10-06",
-   "country": "BZ",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/U21hcnQgVmFsdWVAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Kooltronic",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:26:34+00:00",
-   "attack_date": "2026-10-06",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/S29vbHRyb25pY0B0aGVnZW50bGVtZW4="
   },
   {
    "victim": "Skyplan Services",
