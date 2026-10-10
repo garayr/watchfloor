@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1651,
-  "c2_servers": 216,
+  "total_iocs": 1656,
+  "c2_servers": 218,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 398,
+    "iocs": 402,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -37,14 +37,14 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 52,
+    "iocs": 51,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "VShell",
-    "iocs": 46,
-    "c2": 5,
+    "iocs": 47,
+    "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -61,35 +61,35 @@
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 26,
-    "c2": 26,
+    "iocs": 29,
+    "c2": 29,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
-  "sample": 786,
-  "online": 495,
+  "sample": 813,
+  "online": 500,
   "top_tags": [
    {
     "name": "elf",
-    "count": 255
+    "count": 272
    },
    {
     "name": "Mozi",
-    "count": 134
+    "count": 136
    },
    {
     "name": "32-bit",
-    "count": 129
+    "count": 131
    },
    {
     "name": "ua-wget",
-    "count": 92
+    "count": 107
    },
    {
     "name": "mips",
-    "count": 87
+    "count": 89
    },
    {
     "name": "CheatSheet",
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T10:53:10+00:00",
-  "sans": "2026-10-10T10:53:10+00:00",
-  "otx": "2026-10-10T10:53:10+00:00",
-  "urlhaus": "2026-10-10T10:53:10+00:00"
+  "threatfox": "2026-10-10T11:53:45+00:00",
+  "sans": "2026-10-10T11:53:45+00:00",
+  "otx": "2026-10-10T11:53:45+00:00",
+  "urlhaus": "2026-10-10T11:53:45+00:00"
  },
- "generated_at": "2026-10-10T10:53:10+00:00"
+ "generated_at": "2026-10-10T11:53:45+00:00"
 }
