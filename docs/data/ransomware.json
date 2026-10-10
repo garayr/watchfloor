@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-10T02:45:29+00:00",
+ "generated_at": "2026-10-10T03:44:25+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 28
+   "count": 26
   },
   {
    "name": "qilin",
@@ -47,16 +47,16 @@
    "count": 13
   },
   {
-   "name": "Manufacturing",
+   "name": "Healthcare",
    "count": 13
   },
   {
-   "name": "Healthcare",
+   "name": "Manufacturing",
    "count": 12
   },
   {
    "name": "Professional Services",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 29,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -101,6 +101,12 @@
    "lon": 103.8
   },
   {
+   "code": "ES",
+   "count": 3,
+   "lat": 40.4,
+   "lon": -3.7
+  },
+  {
    "code": "FR",
    "count": 3,
    "lat": 48.9,
@@ -131,12 +137,6 @@
    "lon": 31.2
   },
   {
-   "code": "ES",
-   "count": 2,
-   "lat": 40.4,
-   "lon": -3.7
-  },
-  {
    "code": "MX",
    "count": 2,
    "lat": 19.4,
@@ -159,12 +159,6 @@
    "count": 1,
    "lat": 50.1,
    "lon": 14.4
-  },
-  {
-   "code": "DK",
-   "count": 1,
-   "lat": 55.7,
-   "lon": 12.6
   },
   {
    "code": "FI",
@@ -235,6 +229,24 @@
  ],
  "victims": [
   {
+   "victim": "Saber1",
+   "group": "Deadlock",
+   "date": "2026-10-09T22:51:48+00:00",
+   "attack_date": "2026-10-09",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/U2FiZXIxQERlYWRsb2Nr"
+  },
+  {
+   "victim": "idi pharma",
+   "group": "Deadlock",
+   "date": "2026-10-09T22:51:27+00:00",
+   "attack_date": "2026-10-09",
+   "country": "ES",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/aWRpIHBoYXJtYUBEZWFkbG9jaw=="
+  },
+  {
    "victim": "hoteldelfinolugano.ch",
    "group": "safepay",
    "date": "2026-10-09T22:10:29+00:00",
@@ -296,24 +308,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/ZmxlZXR3b3Jrc2luYy5jb21AdGhyZWVhbQ=="
-  },
-  {
-   "victim": "Skyplan Services",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:26:28+00:00",
-   "attack_date": "2026-10-06",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/U2t5cGxhbiBTZXJ2aWNlc0B0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "Refako Autodele",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:26:19+00:00",
-   "attack_date": "2026-10-06",
-   "country": "DK",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UmVmYWtvIEF1dG9kZWxlQHRoZWdlbnRsZW1lbg=="
   },
   {
    "victim": "SAS H2O MICHEL",
