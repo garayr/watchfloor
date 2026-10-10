@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T03:44:25+00:00",
+ "generated_at": "2026-10-10T18:47:14+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -6648,6 +6648,112 @@
    ],
    "history_size": 14,
    "updated": "2026-10-09T23:25:38+00:00"
+  },
+  "exitium": {
+   "name": "exitium",
+   "description": "Exitium is a data extortion group first observed in early 2026, operating a Tor-based double extortion site and targeting victims via bulk data exfiltration followed by public naming-and-shaming, with known victims including a Brazilian agro-industrial firm and a US county appraisal district.",
+   "aliases": [],
+   "first_seen": "2026-03-17",
+   "last_seen": "2026-10-10",
+   "victims_total": 5,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 2
+     },
+     {
+      "name": "BR",
+      "count": 1
+     },
+     {
+      "name": "JP",
+      "count": 1
+     },
+     {
+      "name": "TW",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Agriculture and Food Production",
+      "count": 1
+     },
+     {
+      "name": "Energy & Utilities",
+      "count": 1
+     },
+     {
+      "name": "Government & Defense",
+      "count": 1
+     },
+     {
+      "name": "Healthcare",
+      "count": 1
+     },
+     {
+      "name": "Manufacturing",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 3
+    },
+    {
+     "month": "2026-04",
+     "count": 1
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 5,
+   "updated": "2026-10-10T18:47:14+00:00"
   }
  }
 }

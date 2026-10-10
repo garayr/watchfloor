@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T17:51:53+00:00",
+ "generated_at": "2026-10-10T18:47:14+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -39,15 +39,15 @@
  ],
  "by_sector": [
   {
+   "name": "Manufacturing",
+   "count": 14
+  },
+  {
    "name": "Education",
    "count": 13
   },
   {
    "name": "Healthcare",
-   "count": 13
-  },
-  {
-   "name": "Manufacturing",
    "count": 13
   },
   {
@@ -113,12 +113,6 @@
    "lon": 121.5
   },
   {
-   "code": "AU",
-   "count": 2,
-   "lat": -33.9,
-   "lon": 151.2
-  },
-  {
    "code": "CH",
    "count": 2,
    "lat": 46.9,
@@ -137,6 +131,12 @@
    "lon": 2.35
   },
   {
+   "code": "JP",
+   "count": 2,
+   "lat": 35.7,
+   "lon": 139.7
+  },
+  {
    "code": "MX",
    "count": 2,
    "lat": 19.4,
@@ -153,6 +153,12 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
+  },
+  {
+   "code": "AU",
+   "count": 1,
+   "lat": -33.9,
+   "lon": 151.2
   },
   {
    "code": "CL",
@@ -197,12 +203,6 @@
    "lon": 12.5
   },
   {
-   "code": "JP",
-   "count": 1,
-   "lat": 35.7,
-   "lon": 139.7
-  },
-  {
    "code": "OM",
    "count": 1,
    "lat": 23.6,
@@ -234,6 +234,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "KOIKE Sanso Kogoyo Co. Ltd.",
+   "group": "exitium",
+   "date": "2026-10-10T14:31:50+00:00",
+   "attack_date": "2026-10-10",
+   "country": "JP",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/S09JS0UgU2Fuc28gS29nb3lvIENvLiBMdGQuQGV4aXRpdW0="
+  },
   {
    "victim": "Gress Clark Young & Schoepper",
    "group": "rhysida",
@@ -1106,15 +1115,6 @@
    "country": "EG",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/QmVuaSBTdWVmIFRlY2hub2xvZ2ljYWwgVW5pdmVyc2l0eSDigJMgQlRVQFVtQnJh"
-  },
-  {
-   "victim": "KOOKABARRA JUICE",
-   "group": "Vexy Ransomware",
-   "date": "2026-10-06T20:55:40+00:00",
-   "attack_date": "2026-10-06",
-   "country": "AU",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/S09PS0FCQVJSQSBKVUlDRUBWZXh5IFJhbnNvbXdhcmU="
   },
   {
    "victim": "BNYH",
