@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1547,
-  "c2_servers": 280,
+  "total_iocs": 1552,
+  "c2_servers": 211,
   "families": [
    {
     "name": "ClearFake",
@@ -13,21 +13,15 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 295,
+    "iocs": 296,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Mirai",
-    "iocs": 154,
+    "iocs": 164,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "Unknown Stealer",
-    "iocs": 103,
-    "c2": 87,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
     "name": "Unknown Loader",
@@ -37,7 +31,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 53,
+    "iocs": 51,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -46,6 +40,12 @@
     "iocs": 39,
     "c2": 23,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "Unknown Stealer",
+    "iocs": 35,
+    "c2": 19,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
     "name": "stealler",
@@ -68,32 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 1000,
-  "online": 510,
+  "sample": 557,
+  "online": 372,
   "top_tags": [
    {
     "name": "elf",
-    "count": 234
+    "count": 154
    },
    {
     "name": "Mozi",
-    "count": 161
+    "count": 84
    },
    {
     "name": "32-bit",
-    "count": 106
-   },
-   {
-    "name": "ua-wget",
-    "count": 100
-   },
-   {
-    "name": "mirai",
-    "count": 78
-   },
-   {
-    "name": "mips",
-    "count": 65
+    "count": 81
    },
    {
     "name": "CheatSheet",
@@ -102,6 +90,18 @@
    {
     "name": "exe",
     "count": 53
+   },
+   {
+    "name": "mips",
+    "count": 51
+   },
+   {
+    "name": "ua-wget",
+    "count": 51
+   },
+   {
+    "name": "github",
+    "count": 49
    }
   ]
  },
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-09T23:25:38+00:00",
-  "sans": "2026-10-09T23:25:38+00:00",
-  "otx": "2026-10-09T23:25:38+00:00",
-  "urlhaus": "2026-10-09T23:25:38+00:00"
+  "threatfox": "2026-10-10T00:37:57+00:00",
+  "sans": "2026-10-10T00:37:57+00:00",
+  "otx": "2026-10-10T00:37:57+00:00",
+  "urlhaus": "2026-10-10T00:37:57+00:00"
  },
- "generated_at": "2026-10-09T23:25:38+00:00"
+ "generated_at": "2026-10-10T00:37:57+00:00"
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T23:25:38+00:00",
+ "generated_at": "2026-10-10T00:37:57+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -592,8 +592,8 @@
    "description": "A new Ransomware family identified by the name '3AM' or 'ThreeAM' in September 2023. The ransomware operation was observed by the Symantec team, in which a ransomware affiliate attempted to deploy another ransomware, LockBit, on the target network and then switched to 3AM when LockBit was reportedly blocked. > > The ransomware operation, according to the publication on its Tor-based website, has been operating since mid-August 2023, according to the publication from its first victim. Source: https://github.com/crocodyli/ThreatActors-TTPs",
    "aliases": [],
    "first_seen": "2023-08-04",
-   "last_seen": "2026-09-28",
-   "victims_total": 99,
+   "last_seen": "2026-10-09",
+   "victims_total": 100,
    "cves": [],
    "tools": [],
    "techniques": [
@@ -614,7 +614,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 41
+      "count": 42
      },
      {
       "name": "GB",
@@ -666,10 +666,6 @@
    },
    "monthly": [
     {
-     "month": "2025-10",
-     "count": 0
-    },
-    {
      "month": "2025-11",
      "count": 0
     },
@@ -712,10 +708,14 @@
     {
      "month": "2026-09",
      "count": 8
+    },
+    {
+     "month": "2026-10",
+     "count": 1
     }
    ],
-   "history_size": 99,
-   "updated": "2026-09-30T12:08:39+00:00"
+   "history_size": 100,
+   "updated": "2026-10-10T00:37:57+00:00"
   },
   "m3rx": {
    "name": "m3rx",
