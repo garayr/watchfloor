@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1679,
-  "c2_servers": 221,
+  "total_iocs": 1699,
+  "c2_servers": 232,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 400,
+    "iocs": 398,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -19,21 +19,21 @@
    },
    {
     "name": "Mirai",
-    "iocs": 222,
+    "iocs": 237,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 61,
+    "c2": 45,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Unknown Loader",
     "iocs": 55,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 52,
-    "c2": 36,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "php.shin_webshell",
@@ -43,14 +43,14 @@
    },
    {
     "name": "VShell",
-    "iocs": 47,
-    "c2": 6,
+    "iocs": 46,
+    "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 33,
-    "c2": 33,
+    "iocs": 39,
+    "c2": 39,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
@@ -68,113 +68,113 @@
   ]
  },
  "urls": {
-  "sample": 847,
-  "online": 522,
+  "sample": 927,
+  "online": 577,
   "top_tags": [
    {
     "name": "elf",
-    "count": 299
-   },
-   {
-    "name": "Mozi",
-    "count": 138
+    "count": 345
    },
    {
     "name": "ua-wget",
-    "count": 134
+    "count": 183
+   },
+   {
+    "name": "Mozi",
+    "count": 143
    },
    {
     "name": "32-bit",
-    "count": 133
+    "count": 138
    },
    {
     "name": "mips",
-    "count": 89
+    "count": 92
+   },
+   {
+    "name": "exe",
+    "count": 55
    },
    {
     "name": "CheatSheet",
     "count": 54
    },
    {
-    "name": "exe",
-    "count": 53
-   },
-   {
-    "name": "github",
+    "name": "arm",
     "count": 49
    }
   ]
  },
  "ports": [
   {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 887708,
+   "targets": 269,
+   "sources": 11571
+  },
+  {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 472451,
-   "targets": 255,
-   "sources": 5602
+   "records": 849995,
+   "targets": 273,
+   "sources": 7310
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 427967,
-   "targets": 257,
-   "sources": 6469
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 397629,
-   "targets": 252,
-   "sources": 7577
+   "records": 825928,
+   "targets": 269,
+   "sources": 8507
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 326375,
-   "targets": 236,
-   "sources": 5777
+   "records": 710178,
+   "targets": 279,
+   "sources": 8821
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 273866,
-   "targets": 264,
-   "sources": 8914
+   "records": 581862,
+   "targets": 272,
+   "sources": 13005
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 167599,
-   "targets": 265,
-   "sources": 6091
+   "records": 345313,
+   "targets": 273,
+   "sources": 10807
   },
   {
    "port": 7547,
    "service": "Router management (TR-069)",
-   "records": 134379,
-   "targets": 202,
-   "sources": 1708
+   "records": 235422,
+   "targets": 219,
+   "sources": 2983
   },
   {
    "port": 9000,
    "service": null,
-   "records": 80136,
-   "targets": 243,
-   "sources": 2359
+   "records": 162100,
+   "targets": 257,
+   "sources": 3996
   },
   {
    "port": 2222,
    "service": null,
-   "records": 63278,
-   "targets": 266,
-   "sources": 3787
+   "records": 150001,
+   "targets": 277,
+   "sources": 5552
   },
   {
-   "port": 5555,
-   "service": "Android debug (ADB)",
-   "records": 57424,
-   "targets": 236,
-   "sources": 1327
+   "port": 51413,
+   "service": null,
+   "records": 104641,
+   "targets": 82,
+   "sources": 6069
   }
  ],
  "ports_date": "2026-10-10",
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T12:56:46+00:00",
-  "sans": "2026-10-10T12:56:46+00:00",
-  "otx": "2026-10-10T12:56:46+00:00",
-  "urlhaus": "2026-10-10T12:56:46+00:00"
+  "threatfox": "2026-10-10T13:54:18+00:00",
+  "sans": "2026-10-10T13:54:18+00:00",
+  "otx": "2026-10-10T13:54:18+00:00",
+  "urlhaus": "2026-10-10T13:54:18+00:00"
  },
- "generated_at": "2026-10-10T12:56:46+00:00"
+ "generated_at": "2026-10-10T13:54:18+00:00"
 }
