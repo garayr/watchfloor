@@ -2,20 +2,20 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1470,
-  "c2_servers": 237,
+  "total_iocs": 1391,
+  "c2_servers": 241,
   "families": [
    {
-    "name": "ClearFake",
-    "iocs": 331,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
     "name": "IClickFix",
-    "iocs": 302,
+    "iocs": 290,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 264,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Mirai",
@@ -36,21 +36,21 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 47,
+    "c2": 47,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "Vidar",
     "iocs": 46,
     "c2": 45,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 45,
-    "c2": 45,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "VShell",
-    "iocs": 34,
-    "c2": 5,
+    "iocs": 35,
+    "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -61,19 +61,19 @@
    },
    {
     "name": "AMOS",
-    "iocs": 22,
+    "iocs": 24,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    }
   ]
  },
  "urls": {
-  "sample": 965,
-  "online": 617,
+  "sample": 982,
+  "online": 633,
   "top_tags": [
    {
     "name": "elf",
-    "count": 355
+    "count": 360
    },
    {
     "name": "ua-wget",
@@ -81,15 +81,15 @@
    },
    {
     "name": "Mozi",
-    "count": 152
+    "count": 157
    },
    {
     "name": "32-bit",
-    "count": 147
+    "count": 152
    },
    {
     "name": "mips",
-    "count": 98
+    "count": 101
    },
    {
     "name": "exe",
@@ -101,7 +101,7 @@
    },
    {
     "name": "arm",
-    "count": 52
+    "count": 54
    }
   ]
  },
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T15:53:45+00:00",
-  "sans": "2026-10-10T15:53:45+00:00",
-  "otx": "2026-10-10T15:53:45+00:00",
-  "urlhaus": "2026-10-10T15:53:45+00:00"
+  "threatfox": "2026-10-10T16:54:56+00:00",
+  "sans": "2026-10-10T16:54:56+00:00",
+  "otx": "2026-10-10T16:54:56+00:00",
+  "urlhaus": "2026-10-10T16:54:56+00:00"
  },
- "generated_at": "2026-10-10T15:53:45+00:00"
+ "generated_at": "2026-10-10T16:54:56+00:00"
 }

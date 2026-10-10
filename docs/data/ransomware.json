@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-10T15:53:45+00:00",
+ "generated_at": "2026-10-10T16:54:56+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 26
+   "count": 24
   },
   {
    "name": "qilin",
-   "count": 10
+   "count": 12
   },
   {
    "name": "UmBra",
@@ -39,10 +39,6 @@
  ],
  "by_sector": [
   {
-   "name": "Other",
-   "count": 14
-  },
-  {
    "name": "Education",
    "count": 13
   },
@@ -52,11 +48,15 @@
   },
   {
    "name": "Manufacturing",
+   "count": 13
+  },
+  {
+   "name": "Other",
    "count": 12
   },
   {
    "name": "Professional Services",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -84,7 +84,7 @@
   },
   {
    "code": "CA",
-   "count": 5,
+   "count": 4,
    "lat": 43.7,
    "lon": -79.4
   },
@@ -107,22 +107,10 @@
    "lon": -3.7
   },
   {
-   "code": "FR",
-   "count": 3,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
    "code": "TW",
    "count": 3,
    "lat": 25.0,
    "lon": 121.5
-  },
-  {
-   "code": "AU",
-   "count": 2,
-   "lat": -33.9,
-   "lon": 151.2
   },
   {
    "code": "CH",
@@ -135,6 +123,12 @@
    "count": 2,
    "lat": 30.0,
    "lon": 31.2
+  },
+  {
+   "code": "FR",
+   "count": 2,
+   "lat": 48.9,
+   "lon": 2.35
   },
   {
    "code": "MX",
@@ -153,6 +147,18 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
+  },
+  {
+   "code": "AU",
+   "count": 1,
+   "lat": -33.9,
+   "lon": 151.2
+  },
+  {
+   "code": "CL",
+   "count": 1,
+   "lat": -33.4,
+   "lon": -70.6
   },
   {
    "code": "CZ",
@@ -228,6 +234,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Gress Clark Young & Schoepper",
+   "group": "rhysida",
+   "date": "2026-10-10T12:46:50+00:00",
+   "attack_date": "2026-10-10",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/R3Jlc3MgQ2xhcmsgWW91bmcgJiBTY2hvZXBwZXJAcmh5c2lkYQ=="
+  },
+  {
+   "victim": "Glenhardie Country Club",
+   "group": "qilin",
+   "date": "2026-10-10T12:45:59+00:00",
+   "attack_date": "2026-10-10",
+   "country": "US",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/R2xlbmhhcmRpZSBDb3VudHJ5IENsdWJAcWlsaW4="
+  },
+  {
+   "victim": "LD Constructora",
+   "group": "qilin",
+   "date": "2026-10-10T12:45:10+00:00",
+   "attack_date": "2026-10-10",
+   "country": "CL",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TEQgQ29uc3RydWN0b3JhQHFpbGlu"
+  },
   {
    "victim": "Saber1",
    "group": "Deadlock",
@@ -308,24 +341,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/ZmxlZXR3b3Jrc2luYy5jb21AdGhyZWVhbQ=="
-  },
-  {
-   "victim": "SAS H2O MICHEL",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:26:07+00:00",
-   "attack_date": "2026-10-06",
-   "country": "FR",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/U0FTIEgyTyBNSUNIRUxAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Husky Ltee",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:25:58+00:00",
-   "attack_date": "2026-10-06",
-   "country": "CA",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/SHVza3kgTHRlZUB0aGVnZW50bGVtZW4="
   },
   {
    "victim": "Asessippi Ski Resort",
@@ -1100,15 +1115,6 @@
    "country": "EG",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/QmVuaSBTdWVmIFRlY2hub2xvZ2ljYWwgVW5pdmVyc2l0eSDigJMgQlRVQFVtQnJh"
-  },
-  {
-   "victim": "KOOKABARRA JUICE",
-   "group": "Vexy Ransomware",
-   "date": "2026-10-06T20:55:40+00:00",
-   "attack_date": "2026-10-06",
-   "country": "AU",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/S09PS0FCQVJSQSBKVUlDRUBWZXh5IFJhbnNvbXdhcmU="
   },
   {
    "victim": "BNYH",
