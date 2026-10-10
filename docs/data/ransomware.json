@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-10T00:37:57+00:00",
+ "generated_at": "2026-10-10T01:44:03+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 32
+   "count": 30
   },
   {
    "name": "qilin",
@@ -25,22 +25,22 @@
    "count": 5
   },
   {
+   "name": "Panzer",
+   "count": 4
+  },
+  {
    "name": "incransom",
    "count": 4
   },
   {
    "name": "Black X",
    "count": 3
-  },
-  {
-   "name": "akira",
-   "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Education",
@@ -60,7 +60,7 @@
   },
   {
    "name": "Technology",
-   "count": 9
+   "count": 10
   }
  ],
  "by_country": [
@@ -95,28 +95,22 @@
    "lon": 72.9
   },
   {
+   "code": "SG",
+   "count": 4,
+   "lat": 1.35,
+   "lon": 103.8
+  },
+  {
    "code": "FR",
    "count": 3,
    "lat": 48.9,
    "lon": 2.35
   },
   {
-   "code": "SG",
-   "count": 3,
-   "lat": 1.35,
-   "lon": 103.8
-  },
-  {
    "code": "TW",
    "count": 3,
    "lat": 25.0,
    "lon": 121.5
-  },
-  {
-   "code": "AR",
-   "count": 2,
-   "lat": -34.6,
-   "lon": -58.4
   },
   {
    "code": "AU",
@@ -137,12 +131,6 @@
    "lon": -3.7
   },
   {
-   "code": "IL",
-   "count": 2,
-   "lat": 32.1,
-   "lon": 34.8
-  },
-  {
    "code": "MX",
    "count": 2,
    "lat": 19.4,
@@ -153,6 +141,12 @@
    "count": 1,
    "lat": 24.5,
    "lon": 54.4
+  },
+  {
+   "code": "AR",
+   "count": 1,
+   "lat": -34.6,
+   "lon": -58.4
   },
   {
    "code": "CH",
@@ -189,6 +183,12 @@
    "count": 1,
    "lat": 45.8,
    "lon": 16.0
+  },
+  {
+   "code": "IL",
+   "count": 1,
+   "lat": 32.1,
+   "lon": 34.8
   },
   {
    "code": "IT",
@@ -235,6 +235,24 @@
  ],
  "victims": [
   {
+   "victim": "Supreme Energy",
+   "group": "Panzer",
+   "date": "2026-10-09T21:25:22+00:00",
+   "attack_date": "2026-10-09",
+   "country": "SG",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/U3VwcmVtZSBFbmVyZ3lAUGFuemVy"
+  },
+  {
+   "victim": "solutend",
+   "group": "Panzer",
+   "date": "2026-10-09T21:24:50+00:00",
+   "attack_date": "2026-10-09",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/c29sdXRlbmRAUGFuemVy"
+  },
+  {
    "victim": "Vadeto Group",
    "group": "qilin",
    "date": "2026-10-09T20:08:10+00:00",
@@ -260,24 +278,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/ZmxlZXR3b3Jrc2luYy5jb21AdGhyZWVhbQ=="
-  },
-  {
-   "victim": "TGN",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:27:08+00:00",
-   "attack_date": "2026-10-06",
-   "country": "AR",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/VEdOQHRoZWdlbnRsZW1lbg=="
-  },
-  {
-   "victim": "Galil Engineering",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:26:55+00:00",
-   "attack_date": "2026-10-06",
-   "country": "IL",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/R2FsaWwgRW5naW5lZXJpbmdAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "Smart Value",
