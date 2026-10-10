@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1656,
-  "c2_servers": 218,
+  "total_iocs": 1679,
+  "c2_servers": 221,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 402,
+    "iocs": 400,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -19,7 +19,7 @@
    },
    {
     "name": "Mirai",
-    "iocs": 205,
+    "iocs": 222,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -37,7 +37,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 51,
+    "iocs": 52,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -46,6 +46,12 @@
     "iocs": 47,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 33,
+    "c2": 33,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "DanaBot",
@@ -58,34 +64,28 @@
     "iocs": 30,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 29,
-    "c2": 29,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
-  "sample": 813,
-  "online": 500,
+  "sample": 847,
+  "online": 522,
   "top_tags": [
    {
     "name": "elf",
-    "count": 272
+    "count": 299
    },
    {
     "name": "Mozi",
-    "count": 136
-   },
-   {
-    "name": "32-bit",
-    "count": 131
+    "count": 138
    },
    {
     "name": "ua-wget",
-    "count": 107
+    "count": 134
+   },
+   {
+    "name": "32-bit",
+    "count": 133
    },
    {
     "name": "mips",
@@ -464,28 +464,6 @@
    "url": "https://otx.alienvault.com/pulse/6ac778436ef05de8abf44e67"
   },
   {
-   "name": "FortiBleed Operations Continue Targeting Exposed Systems Leading to Reports of Lockouts",
-   "summary": "FortiBleed is an active global credential-compromise campaign targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways, with over 86,644 compromised devices verified across 194 countries. The campaign…",
-   "date": "2026-10-07T16:57:11+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "INC/Lynx",
-    "Payload"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "fortigate",
-    "credential harvesting",
-    "hashtopolis",
-    "fortibleed",
-    "gpu cracking",
-    "inc/lynx"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac679e7bbe47190f9ffce7a"
-  },
-  {
    "name": "Phishing Campaign Abuses Microsoft Power BI to Deploy Rogue RMMs",
    "summary": "In September, a phishing campaign exploited legitimate Microsoft Power BI domains to distribute rogue ScreenConnect remote monitoring tools. Attackers sent phishing emails with embedded links redirecting victims to fake…",
    "date": "2026-10-07T16:55:07+00:00",
@@ -506,13 +484,35 @@
     "hideul_x64.exe"
    ],
    "url": "https://otx.alienvault.com/pulse/6ac6796b14fb153d2a5f5a04"
+  },
+  {
+   "name": "Threat Snapshot: Djinn Stealer",
+   "summary": "Djinn Stealer is a cross-platform information stealer delivered as a second-stage payload by the TaskWeaver Node.js loader. It employs a rules-based collection engine to harvest credentials and configuration data from…",
+   "date": "2026-09-10T12:49:58+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Djinn Stealer",
+    "TaskWeaver"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "djinn stealer",
+    "taskweaver",
+    "simplehelp exploitation",
+    "cve-2026-48558",
+    "information stealer",
+    "credential theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aa2a776820639d68513f654"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-10T11:53:45+00:00",
-  "sans": "2026-10-10T11:53:45+00:00",
-  "otx": "2026-10-10T11:53:45+00:00",
-  "urlhaus": "2026-10-10T11:53:45+00:00"
+  "threatfox": "2026-10-10T12:56:46+00:00",
+  "sans": "2026-10-10T12:56:46+00:00",
+  "otx": "2026-10-10T12:56:46+00:00",
+  "urlhaus": "2026-10-10T12:56:46+00:00"
  },
- "generated_at": "2026-10-10T11:53:45+00:00"
+ "generated_at": "2026-10-10T12:56:46+00:00"
 }
