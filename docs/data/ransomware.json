@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-11T11:25:24+00:00",
+ "generated_at": "2026-10-11T12:31:43+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 20
+   "count": 19
   },
   {
    "name": "qilin",
@@ -39,11 +39,11 @@
  ],
  "by_sector": [
   {
-   "name": "Manufacturing",
-   "count": 15
+   "name": "Education",
+   "count": 14
   },
   {
-   "name": "Education",
+   "name": "Manufacturing",
    "count": 14
   },
   {
@@ -56,7 +56,7 @@
   },
   {
    "name": "Other",
-   "count": 11
+   "count": 10
   },
   {
    "name": "Technology",
@@ -89,12 +89,6 @@
    "lon": 72.9
   },
   {
-   "code": "TW",
-   "count": 4,
-   "lat": 25.0,
-   "lon": 121.5
-  },
-  {
    "code": "CA",
    "count": 3,
    "lat": 43.7,
@@ -117,6 +111,12 @@
    "count": 3,
    "lat": 1.35,
    "lon": 103.8
+  },
+  {
+   "code": "TW",
+   "count": 3,
+   "lat": 25.0,
+   "lon": 121.5
   },
   {
    "code": "CH",
@@ -153,12 +153,6 @@
    "count": 1,
    "lat": 24.5,
    "lon": 54.4
-  },
-  {
-   "code": "AR",
-   "count": 1,
-   "lat": -34.6,
-   "lon": -58.4
   },
   {
    "code": "AU",
@@ -246,6 +240,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #5",
+   "group": "N0n",
+   "date": "2026-10-11T08:23:57+00:00",
+   "attack_date": "2026-10-11",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNUBOMG4="
+  },
+  {
+   "victim": "Company #4",
+   "group": "N0n",
+   "date": "2026-10-11T07:23:31+00:00",
+   "attack_date": "2026-10-11",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNEBOMG4="
+  },
   {
    "victim": "Charles E. Tabor AAL LLC",
    "group": "rhysida",
@@ -425,15 +437,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/ZmxlZXR3b3Jrc2luYy5jb21AdGhyZWVhbQ=="
-  },
-  {
-   "victim": "Jentech Precision Industrial",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:25:26+00:00",
-   "attack_date": "2026-10-06",
-   "country": "TW",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/SmVudGVjaCBQcmVjaXNpb24gSW5kdXN0cmlhbEB0aGVnZW50bGVtZW4="
   },
   {
    "victim": "Santee School District Foundation",
@@ -929,15 +932,6 @@
    "country": "CA",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/Q29vcGVyYXRpdmUgRGVzIFRlY2huaWNpZW5zIEFtYnVsYW5jaWVycyBEZSBMYSBNb250ZUBTdG9ybQ=="
-  },
-  {
-   "victim": "avsa.com.ar",
-   "group": "lockbit5",
-   "date": "2026-10-08T03:31:57+00:00",
-   "attack_date": "2026-10-06",
-   "country": "AR",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/YXZzYS5jb20uYXJAbG9ja2JpdDU="
   },
   {
    "victim": "Nantou Shiuhkuang Senior High School.",
