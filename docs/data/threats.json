@@ -2,13 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 641,
-  "c2_servers": 218,
+  "total_iocs": 729,
+  "c2_servers": 240,
   "families": [
    {
+    "name": "Vidar",
+    "iocs": 81,
+    "c2": 55,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "VShell",
-    "iocs": 67,
-    "c2": 4,
+    "iocs": 70,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -16,12 +22,6 @@
     "iocs": 61,
     "c2": 15,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 51,
-    "c2": 34,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "php.shin_webshell",
@@ -37,27 +37,27 @@
    },
    {
     "name": "AMOS",
-    "iocs": 28,
+    "iocs": 29,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "ClearFake",
-    "iocs": 25,
+    "iocs": 27,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 19,
-    "c2": 19,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "AsyncRAT",
-    "iocs": 18,
+    "iocs": 24,
     "c2": 18,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
+    "name": "Quasar RAT",
+    "iocs": 24,
+    "c2": 6,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.quasar_rat"
    },
    {
     "name": "PureRAT",
@@ -68,12 +68,12 @@
   ]
  },
  "urls": {
-  "sample": 854,
-  "online": 555,
+  "sample": 871,
+  "online": 571,
   "top_tags": [
    {
     "name": "elf",
-    "count": 365
+    "count": 368
    },
    {
     "name": "ua-wget",
@@ -81,27 +81,27 @@
    },
    {
     "name": "Mozi",
-    "count": 167
+    "count": 170
    },
    {
     "name": "32-bit",
-    "count": 160
+    "count": 162
    },
    {
     "name": "mips",
-    "count": 117
+    "count": 120
    },
    {
     "name": "arm",
     "count": 47
    },
    {
-    "name": "176-65-139-169",
-    "count": 27
+    "name": "cowrie",
+    "count": 28
    },
    {
-    "name": "cowrie",
-    "count": 27
+    "name": "honeypot",
+    "count": 28
    }
   ]
  },
@@ -514,10 +514,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-11T15:25:52+00:00",
-  "sans": "2026-10-11T15:25:52+00:00",
-  "otx": "2026-10-11T15:25:52+00:00",
-  "urlhaus": "2026-10-11T15:25:52+00:00"
+  "threatfox": "2026-10-11T16:26:39+00:00",
+  "sans": "2026-10-11T16:26:39+00:00",
+  "otx": "2026-10-11T16:26:39+00:00",
+  "urlhaus": "2026-10-11T16:26:39+00:00"
  },
- "generated_at": "2026-10-11T15:25:52+00:00"
+ "generated_at": "2026-10-11T16:26:39+00:00"
 }
