@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-11T06:08:09+00:00",
+ "generated_at": "2026-10-11T07:14:14+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 23
+   "count": 22
   },
   {
    "name": "qilin",
-   "count": 11
+   "count": 12
   },
   {
    "name": "UmBra",
@@ -95,12 +95,6 @@
    "lon": 72.9
   },
   {
-   "code": "SG",
-   "count": 4,
-   "lat": 1.35,
-   "lon": 103.8
-  },
-  {
    "code": "TW",
    "count": 4,
    "lat": 25.0,
@@ -119,10 +113,22 @@
    "lon": -3.7
   },
   {
+   "code": "SG",
+   "count": 3,
+   "lat": 1.35,
+   "lon": 103.8
+  },
+  {
    "code": "CH",
    "count": 2,
    "lat": 46.9,
    "lon": 7.4
+  },
+  {
+   "code": "CO",
+   "count": 2,
+   "lat": 4.7,
+   "lon": -74.1
   },
   {
    "code": "FR",
@@ -165,12 +171,6 @@
    "count": 1,
    "lat": -33.4,
    "lon": -70.6
-  },
-  {
-   "code": "CO",
-   "count": 1,
-   "lat": 4.7,
-   "lon": -74.1
   },
   {
    "code": "CZ",
@@ -240,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Confipetrol",
+   "group": "qilin",
+   "date": "2026-10-11T02:58:30+00:00",
+   "attack_date": "2026-10-11",
+   "country": "CO",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/Q29uZmlwZXRyb2xAcWlsaW4="
+  },
   {
    "victim": "TEXMA International Co., Ltd",
    "group": "dragonforce",
@@ -563,15 +572,6 @@
    "country": "IN",
    "sector": "Hospitality",
    "url": "https://www.ransomware.live/id/TWFqZXN0aWMgSG9saWRheXMgSW5kaWEgUHJpdmF0ZSBMaW1pdGVkQHRoZWdlbnRsZW1lbg=="
-  },
-  {
-   "victim": "Habbas Associates",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:22:32+00:00",
-   "attack_date": "2026-10-06",
-   "country": "SG",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/SGFiYmFzIEFzc29jaWF0ZXNAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "North Philadelphia Health System",

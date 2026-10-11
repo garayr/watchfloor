@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 697,
-  "c2_servers": 204,
+  "total_iocs": 664,
+  "c2_servers": 195,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 112,
+    "iocs": 85,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -25,7 +25,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 47,
+    "iocs": 46,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -37,14 +37,14 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 36,
+    "iocs": 37,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 36,
-    "c2": 36,
+    "iocs": 31,
+    "c2": 31,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
@@ -54,46 +54,46 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Jackskid",
-    "iocs": 14,
-    "c2": 14,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.jackskid"
-   },
-   {
     "name": "AsyncRAT",
     "iocs": 13,
     "c2": 13,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
+    "name": "Coinminer",
+    "iocs": 11,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
    }
   ]
  },
  "urls": {
-  "sample": 578,
-  "online": 408,
+  "sample": 700,
+  "online": 469,
   "top_tags": [
    {
     "name": "elf",
-    "count": 262
+    "count": 289
    },
    {
     "name": "ua-wget",
-    "count": 132
+    "count": 143
    },
    {
     "name": "Mozi",
-    "count": 128
+    "count": 134
    },
    {
     "name": "32-bit",
-    "count": 126
+    "count": 131
    },
    {
     "name": "mips",
-    "count": 90
+    "count": 93
    },
    {
     "name": "arm",
-    "count": 36
+    "count": 38
    },
    {
     "name": "176-65-139-169",
@@ -438,30 +438,23 @@
    "url": "https://otx.alienvault.com/pulse/6ac7794a227de27b373a9281"
   },
   {
-   "name": "The state of AI-analysis evasion in malware",
-   "summary": "Malware authors are developing techniques to obstruct automated AI analysis by embedding natural-language instructions within their code. This 'AI-analysis evasion' targets the pipeline that extracts text from samples…",
-   "date": "2026-10-08T11:02:27+00:00",
+   "name": "Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329",
+   "summary": "Active exploitation of three critical vulnerabilities in JFrog Artifactory has been identified, with attackers chaining CVE-2026-42016, CVE-2026-42018, and CVE-2026-82329 to bypass authentication and gain administrative…",
+   "date": "2026-09-11T07:05:53+00:00",
    "author": "AlienVault",
    "adversary": null,
-   "malware": [
-    "FRUITSHELL",
-    "PLOTSAFE",
-    "HOLLOWCLAD",
-    "MANTLEMAZE",
-    "ROZESHELL",
-    "CLOSEDQUORUM"
-   ],
+   "malware": [],
    "countries": [],
    "industries": [],
    "tags": [
-    "llm-manipulation",
-    "ai-evasion",
-    "prompt-injection",
-    "hollowclad",
-    "rozeshell",
-    "mantlemaze"
+    "privilege escalation",
+    "rust backdoor",
+    "cve-2026-82329",
+    "jfrog artifactory",
+    "in-the-wild exploitation",
+    "vulnerability chaining"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ac778436ef05de8abf44e67"
+   "url": "https://otx.alienvault.com/pulse/6aa3a8516fc630e89143079a"
   },
   {
    "name": "Melofee: a look back at a Linux implant and its new variants",
@@ -521,10 +514,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-11T06:08:09+00:00",
-  "sans": "2026-10-11T06:08:09+00:00",
-  "otx": "2026-10-11T06:08:09+00:00",
-  "urlhaus": "2026-10-11T06:08:09+00:00"
+  "threatfox": "2026-10-11T07:14:14+00:00",
+  "sans": "2026-10-11T07:14:14+00:00",
+  "otx": "2026-10-11T07:14:14+00:00",
+  "urlhaus": "2026-10-11T07:14:14+00:00"
  },
- "generated_at": "2026-10-11T06:08:09+00:00"
+ "generated_at": "2026-10-11T07:14:14+00:00"
 }
