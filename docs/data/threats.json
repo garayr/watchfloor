@@ -2,7 +2,7 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 688,
+  "total_iocs": 694,
   "c2_servers": 212,
   "families": [
    {
@@ -13,45 +13,45 @@
    },
    {
     "name": "VShell",
-    "iocs": 68,
-    "c2": 5,
+    "iocs": 67,
+    "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 51,
+    "iocs": 52,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Vidar",
-    "iocs": 48,
-    "c2": 31,
+    "iocs": 49,
+    "c2": 32,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "ClearFake",
-    "iocs": 31,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
     "name": "IClickFix",
-    "iocs": 28,
+    "iocs": 34,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 27,
-    "c2": 27,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "ClearFake",
+    "iocs": 28,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "AMOS",
-    "iocs": 25,
+    "iocs": 26,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 25,
+    "c2": 25,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "PureRAT",
@@ -61,19 +61,19 @@
    },
    {
     "name": "AsyncRAT",
-    "iocs": 17,
-    "c2": 17,
+    "iocs": 16,
+    "c2": 16,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    }
   ]
  },
  "urls": {
-  "sample": 761,
-  "online": 511,
+  "sample": 769,
+  "online": 515,
   "top_tags": [
    {
     "name": "elf",
-    "count": 320
+    "count": 322
    },
    {
     "name": "ua-wget",
@@ -81,11 +81,11 @@
    },
    {
     "name": "Mozi",
-    "count": 147
+    "count": 149
    },
    {
     "name": "32-bit",
-    "count": 144
+    "count": 145
    },
    {
     "name": "mips",
@@ -93,7 +93,7 @@
    },
    {
     "name": "arm",
-    "count": 41
+    "count": 42
    },
    {
     "name": "176-65-139-169",
@@ -514,10 +514,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-11T10:27:19+00:00",
-  "sans": "2026-10-11T10:27:19+00:00",
-  "otx": "2026-10-11T10:27:19+00:00",
-  "urlhaus": "2026-10-11T10:27:19+00:00"
+  "threatfox": "2026-10-11T11:25:24+00:00",
+  "sans": "2026-10-11T11:25:24+00:00",
+  "otx": "2026-10-11T11:25:24+00:00",
+  "urlhaus": "2026-10-11T11:25:24+00:00"
  },
- "generated_at": "2026-10-11T10:27:19+00:00"
+ "generated_at": "2026-10-11T11:25:24+00:00"
 }
