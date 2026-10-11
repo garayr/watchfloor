@@ -2,56 +2,56 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 729,
-  "c2_servers": 240,
+  "total_iocs": 759,
+  "c2_servers": 287,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 81,
-    "c2": 55,
+    "iocs": 95,
+    "c2": 69,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "Mirai",
+    "iocs": 66,
+    "c2": 20,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "VShell",
-    "iocs": 70,
+    "iocs": 65,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Mirai",
-    "iocs": 61,
-    "c2": 15,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 48,
+    "iocs": 49,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "IClickFix",
-    "iocs": 34,
+    "iocs": 33,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
+    "name": "AsyncRAT",
+    "iocs": 27,
+    "c2": 21,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
     "name": "AMOS",
-    "iocs": 29,
+    "iocs": 25,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "ClearFake",
-    "iocs": 27,
+    "iocs": 25,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "AsyncRAT",
-    "iocs": 24,
-    "c2": 18,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
     "name": "Quasar RAT",
@@ -68,32 +68,32 @@
   ]
  },
  "urls": {
-  "sample": 871,
-  "online": 571,
+  "sample": 884,
+  "online": 581,
   "top_tags": [
    {
     "name": "elf",
-    "count": 368
+    "count": 372
+   },
+   {
+    "name": "Mozi",
+    "count": 172
    },
    {
     "name": "ua-wget",
     "count": 172
    },
    {
-    "name": "Mozi",
-    "count": 170
-   },
-   {
     "name": "32-bit",
-    "count": 162
+    "count": 164
    },
    {
     "name": "mips",
-    "count": 120
+    "count": 121
    },
    {
     "name": "arm",
-    "count": 47
+    "count": 48
    },
    {
     "name": "cowrie",
@@ -411,31 +411,26 @@
    "url": "https://otx.alienvault.com/pulse/6ac7b505bae48a926c79fefb"
   },
   {
-   "name": "Canto incognito: tracking the PoeLLM malware",
-   "summary": "Since April 2026, PoeLLM malware has been actively targeting exposed AI/LLM and open-source services including LiteLLM, Ollama, Gotenberg, and Gitea, with possible Ivanti Sentry targeting. The campaign employs an…",
-   "date": "2026-10-08T11:06:50+00:00",
+   "name": "KATARU: IoT Malware Adopts Public LPE Exploits",
+   "summary": "KATARU is an IoT malware variant discovered in August 2026 through Telnet credential brute-forcing against a honeypot from Vietnam. While maintaining traditional Mirai-style botnet capabilities, it distinguishes itself…",
+   "date": "2026-09-11T17:55:38+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [
-    "PoeLLM",
-    "XMRig",
-    "Iron"
+    "KATARU",
+    "Mirai"
    ],
-   "countries": [
-    "United States of America"
-   ],
-   "industries": [
-    "Technology"
-   ],
+   "countries": [],
+   "industries": [],
    "tags": [
-    "cryptocurrency mining",
-    "ai infrastructure targeting",
-    "poellm",
-    "botnet",
-    "gotenberg",
-    "ollama"
+    "telnet brute-force",
+    "cve-2026-46300",
+    "kataru",
+    "cve-2026-31431",
+    "cve-2026-43284",
+    "ddos"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ac7794a227de27b373a9281"
+   "url": "https://otx.alienvault.com/pulse/6aa4409a4290cc035d81500c"
   },
   {
    "name": "Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329",
@@ -514,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-11T16:26:39+00:00",
-  "sans": "2026-10-11T16:26:39+00:00",
-  "otx": "2026-10-11T16:26:39+00:00",
-  "urlhaus": "2026-10-11T16:26:39+00:00"
+  "threatfox": "2026-10-11T17:25:38+00:00",
+  "sans": "2026-10-11T17:25:38+00:00",
+  "otx": "2026-10-11T17:25:38+00:00",
+  "urlhaus": "2026-10-11T17:25:38+00:00"
  },
- "generated_at": "2026-10-11T16:26:39+00:00"
+ "generated_at": "2026-10-11T17:25:38+00:00"
 }
