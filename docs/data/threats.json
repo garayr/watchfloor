@@ -2,38 +2,44 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 712,
-  "c2_servers": 229,
+  "total_iocs": 688,
+  "c2_servers": 212,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 113,
-    "c2": 13,
+    "iocs": 115,
+    "c2": 15,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "VShell",
-    "iocs": 70,
-    "c2": 7,
+    "iocs": 68,
+    "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Vidar",
-    "iocs": 62,
-    "c2": 45,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 50,
+    "iocs": 51,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
+    "name": "Vidar",
+    "iocs": 48,
+    "c2": 31,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 39,
+    "iocs": 31,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "IClickFix",
+    "iocs": 28,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Cobalt Strike",
@@ -42,38 +48,32 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "IClickFix",
-    "iocs": 26,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "AMOS",
     "iocs": 25,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "AsyncRAT",
+    "name": "PureRAT",
     "iocs": 18,
     "c2": 18,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
-    "name": "Remcos",
-    "iocs": 12,
-    "c2": 12,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+    "name": "AsyncRAT",
+    "iocs": 17,
+    "c2": 17,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    }
   ]
  },
  "urls": {
-  "sample": 751,
-  "online": 502,
+  "sample": 761,
+  "online": 511,
   "top_tags": [
    {
     "name": "elf",
-    "count": 318
+    "count": 320
    },
    {
     "name": "ua-wget",
@@ -81,19 +81,19 @@
    },
    {
     "name": "Mozi",
-    "count": 145
+    "count": 147
    },
    {
     "name": "32-bit",
-    "count": 142
+    "count": 144
    },
    {
     "name": "mips",
-    "count": 103
+    "count": 104
    },
    {
     "name": "arm",
-    "count": 40
+    "count": 41
    },
    {
     "name": "176-65-139-169",
@@ -514,10 +514,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-11T09:28:35+00:00",
-  "sans": "2026-10-11T09:28:35+00:00",
-  "otx": "2026-10-11T09:28:35+00:00",
-  "urlhaus": "2026-10-11T09:28:35+00:00"
+  "threatfox": "2026-10-11T10:27:19+00:00",
+  "sans": "2026-10-11T10:27:19+00:00",
+  "otx": "2026-10-11T10:27:19+00:00",
+  "urlhaus": "2026-10-11T10:27:19+00:00"
  },
- "generated_at": "2026-10-11T09:28:35+00:00"
+ "generated_at": "2026-10-11T10:27:19+00:00"
 }
