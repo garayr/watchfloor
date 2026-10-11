@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-10T23:52:20+00:00",
+ "generated_at": "2026-10-11T01:01:00+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 22
+   "count": 23
   },
   {
    "name": "qilin",
-   "count": 13
+   "count": 11
   },
   {
    "name": "UmBra",
@@ -101,6 +101,12 @@
    "lon": 103.8
   },
   {
+   "code": "TW",
+   "count": 4,
+   "lat": 25.0,
+   "lon": 121.5
+  },
+  {
    "code": "EG",
    "count": 3,
    "lat": 30.0,
@@ -111,12 +117,6 @@
    "count": 3,
    "lat": 40.4,
    "lon": -3.7
-  },
-  {
-   "code": "TW",
-   "count": 3,
-   "lat": 25.0,
-   "lon": 121.5
   },
   {
    "code": "CH",
@@ -227,10 +227,10 @@
    "lon": 18.1
   },
   {
-   "code": "TR",
+   "code": "TH",
    "count": 1,
-   "lat": 41.0,
-   "lon": 29.0
+   "lat": 13.75,
+   "lon": 100.5
   },
   {
    "code": "ZA",
@@ -240,6 +240,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "TEXMA International Co., Ltd",
+   "group": "dragonforce",
+   "date": "2026-10-10T20:31:45+00:00",
+   "attack_date": "2026-10-10",
+   "country": "TW",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/VEVYTUEgSW50ZXJuYXRpb25hbCBDby4sIEx0ZEBkcmFnb25mb3JjZQ=="
+  },
+  {
+   "victim": "Royal Thai Air Force",
+   "group": "thegentlemen",
+   "date": "2026-10-10T20:30:08+00:00",
+   "attack_date": "2026-10-10",
+   "country": "TH",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/Um95YWwgVGhhaSBBaXIgRm9yY2VAdGhlZ2VudGxlbWVu"
+  },
   {
    "victim": "Helwan University (HITU)",
    "group": "UmBra",
@@ -1121,24 +1139,6 @@
    "country": "EG",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/QmVuaSBTdWVmIFRlY2hub2xvZ2ljYWwgVW5pdmVyc2l0eSDigJMgQlRVQFVtQnJh"
-  },
-  {
-   "victim": "BNYH",
-   "group": "qilin",
-   "date": "2026-10-06T20:19:20+00:00",
-   "attack_date": "2026-10-06",
-   "country": null,
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/Qk5ZSEBxaWxpbg=="
-  },
-  {
-   "victim": "Ciftay Insaat Taahhut Ve Ticaret Anonim Sirketi",
-   "group": "qilin",
-   "date": "2026-10-06T20:18:44+00:00",
-   "attack_date": "2026-10-06",
-   "country": "TR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Q2lmdGF5IEluc2FhdCBUYWFoaHV0IFZlIFRpY2FyZXQgQW5vbmltIFNpcmtldGlAcWlsaW4="
   }
  ]
 }
