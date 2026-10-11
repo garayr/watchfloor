@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-11T17:25:38+00:00",
+ "generated_at": "2026-10-11T18:29:07+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 19
+   "count": 15
   },
   {
    "name": "qilin",
@@ -15,6 +15,10 @@
   {
    "name": "UmBra",
    "count": 9
+  },
+  {
+   "name": "N0n",
+   "count": 6
   },
   {
    "name": "Eclipse",
@@ -31,42 +35,38 @@
   {
    "name": "dragonforce",
    "count": 4
-  },
-  {
-   "name": "incransom",
-   "count": 4
   }
  ],
  "by_sector": [
   {
-   "name": "Education",
-   "count": 15
+   "name": "Healthcare",
+   "count": 16
   },
   {
    "name": "Manufacturing",
-   "count": 14
-  },
-  {
-   "name": "Healthcare",
    "count": 13
   },
   {
    "name": "Professional Services",
-   "count": 12
+   "count": 13
   },
   {
-   "name": "Other",
-   "count": 10
+   "name": "Education",
+   "count": 11
   },
   {
    "name": "Technology",
+   "count": 11
+  },
+  {
+   "name": "Other",
    "count": 10
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 31,
+   "count": 32,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -209,12 +209,6 @@
    "lon": -7.6
   },
   {
-   "code": "OM",
-   "count": 1,
-   "lat": 23.6,
-   "lon": 58.4
-  },
-  {
    "code": "PE",
    "count": 1,
    "lat": -12.0,
@@ -246,6 +240,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #29",
+   "group": "N0n",
+   "date": "2026-10-11T14:24:49+00:00",
+   "attack_date": "2026-10-11",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjlATjBu"
+  },
+  {
+   "victim": "Company #28",
+   "group": "N0n",
+   "date": "2026-10-11T14:24:16+00:00",
+   "attack_date": "2026-10-11",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjhATjBu"
+  },
+  {
+   "victim": "Company #27",
+   "group": "N0n",
+   "date": "2026-10-11T14:23:38+00:00",
+   "attack_date": "2026-10-11",
+   "country": "AU",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjdATjBu"
+  },
+  {
+   "victim": "Company #26",
+   "group": "N0n",
+   "date": "2026-10-11T14:23:05+00:00",
+   "attack_date": "2026-10-11",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjZATjBu"
+  },
+  {
+   "victim": "Company #25",
+   "group": "N0n",
+   "date": "2026-10-11T14:22:32+00:00",
+   "attack_date": "2026-10-11",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjVATjBu"
+  },
   {
    "victim": "CNESTEN",
    "group": "qilin",
@@ -443,42 +482,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/ZmxlZXR3b3Jrc2luYy5jb21AdGhyZWVhbQ=="
-  },
-  {
-   "victim": "Santee School District Foundation",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:25:17+00:00",
-   "attack_date": "2026-10-06",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/U2FudGVlIFNjaG9vbCBEaXN0cmljdCBGb3VuZGF0aW9uQHRoZWdlbnRsZW1lbg=="
-  },
-  {
-   "victim": "University of Buraimi",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:25:01+00:00",
-   "attack_date": "2026-10-06",
-   "country": "OM",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/VW5pdmVyc2l0eSBvZiBCdXJhaW1pQHRoZWdlbnRsZW1lbg=="
-  },
-  {
-   "victim": "Ansonia Public Schools",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:24:56+00:00",
-   "attack_date": "2026-10-06",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/QW5zb25pYSBQdWJsaWMgU2Nob29sc0B0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "All Souls St Gabriels School",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:24:40+00:00",
-   "attack_date": "2026-10-06",
-   "country": "AU",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/QWxsIFNvdWxzIFN0IEdhYnJpZWxzIFNjaG9vbEB0aGVnZW50bGVtZW4="
   },
   {
    "victim": "Rag Electric",
@@ -1082,15 +1085,6 @@
    "country": "US",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/Q2hpYml0ZWtATjBu"
-  },
-  {
-   "victim": "acmestamping.com",
-   "group": "incransom",
-   "date": "2026-10-07T05:08:14+00:00",
-   "attack_date": "2026-10-06",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/YWNtZXN0YW1waW5nLmNvbUBpbmNyYW5zb20="
   },
   {
    "victim": "harborpacific.com",
