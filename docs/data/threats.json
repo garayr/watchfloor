@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 670,
-  "c2_servers": 181,
+  "total_iocs": 712,
+  "c2_servers": 229,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 105,
-    "c2": 3,
+    "iocs": 113,
+    "c2": 13,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -25,55 +25,55 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 51,
+    "iocs": 50,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "ClearFake",
-    "iocs": 38,
+    "iocs": 39,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 27,
+    "c2": 27,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "IClickFix",
-    "iocs": 32,
+    "iocs": 26,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 28,
-    "c2": 28,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "AMOS",
-    "iocs": 23,
+    "iocs": 25,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "AsyncRAT",
-    "iocs": 13,
-    "c2": 13,
+    "iocs": 18,
+    "c2": 18,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
-    "name": "Coinminer",
-    "iocs": 11,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
+    "name": "Remcos",
+    "iocs": 12,
+    "c2": 12,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    }
   ]
  },
  "urls": {
-  "sample": 735,
-  "online": 485,
+  "sample": 751,
+  "online": 502,
   "top_tags": [
    {
     "name": "elf",
-    "count": 314
+    "count": 318
    },
    {
     "name": "ua-wget",
@@ -81,15 +81,15 @@
    },
    {
     "name": "Mozi",
-    "count": 141
+    "count": 145
    },
    {
     "name": "32-bit",
-    "count": 138
+    "count": 142
    },
    {
     "name": "mips",
-    "count": 99
+    "count": 103
    },
    {
     "name": "arm",
@@ -514,10 +514,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-11T08:27:45+00:00",
-  "sans": "2026-10-11T08:27:45+00:00",
-  "otx": "2026-10-11T08:27:45+00:00",
-  "urlhaus": "2026-10-11T08:27:45+00:00"
+  "threatfox": "2026-10-11T09:28:35+00:00",
+  "sans": "2026-10-11T09:28:35+00:00",
+  "otx": "2026-10-11T09:28:35+00:00",
+  "urlhaus": "2026-10-11T09:28:35+00:00"
  },
- "generated_at": "2026-10-11T08:27:45+00:00"
+ "generated_at": "2026-10-11T09:28:35+00:00"
 }

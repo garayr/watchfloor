@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-11T08:27:45+00:00",
+ "generated_at": "2026-10-11T09:28:35+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 22
+   "count": 21
   },
   {
    "name": "qilin",
@@ -29,21 +29,21 @@
    "count": 4
   },
   {
-   "name": "incransom",
+   "name": "dragonforce",
    "count": 4
   },
   {
-   "name": "Black X",
-   "count": 3
+   "name": "incransom",
+   "count": 4
   }
  ],
  "by_sector": [
   {
-   "name": "Education",
-   "count": 14
+   "name": "Manufacturing",
+   "count": 15
   },
   {
-   "name": "Manufacturing",
+   "name": "Education",
    "count": 14
   },
   {
@@ -83,12 +83,6 @@
    "lon": 8.7
   },
   {
-   "code": "CA",
-   "count": 4,
-   "lat": 43.7,
-   "lon": -79.4
-  },
-  {
    "code": "IN",
    "count": 4,
    "lat": 19.1,
@@ -99,6 +93,12 @@
    "count": 4,
    "lat": 25.0,
    "lon": 121.5
+  },
+  {
+   "code": "CA",
+   "count": 3,
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "EG",
@@ -215,6 +215,12 @@
    "lon": 58.4
   },
   {
+   "code": "PE",
+   "count": 1,
+   "lat": -12.0,
+   "lon": -77.0
+  },
+  {
    "code": "QA",
    "count": 1,
    "lat": 25.3,
@@ -240,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "TQC S.A.",
+   "group": "dragonforce",
+   "date": "2026-10-11T05:00:46+00:00",
+   "attack_date": "2026-10-11",
+   "country": "PE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/VFFDIFMuQS5AZHJhZ29uZm9yY2U="
+  },
   {
    "victim": "Confipetrol",
    "group": "qilin",
@@ -401,15 +416,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/ZmxlZXR3b3Jrc2luYy5jb21AdGhyZWVhbQ=="
-  },
-  {
-   "victim": "Asessippi Ski Resort",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:25:47+00:00",
-   "attack_date": "2026-10-06",
-   "country": "CA",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/QXNlc3NpcHBpIFNraSBSZXNvcnRAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "PIR Sales",
