@@ -2,26 +2,26 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 753,
-  "c2_servers": 204,
+  "total_iocs": 737,
+  "c2_servers": 209,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 154,
-    "c2": 6,
+    "iocs": 142,
+    "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "VShell",
-    "iocs": 81,
-    "c2": 6,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Vidar",
     "iocs": 65,
     "c2": 48,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "VShell",
+    "iocs": 59,
+    "c2": 5,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "IClickFix",
@@ -36,16 +36,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 41,
+    "c2": 41,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "ClearFake",
     "iocs": 40,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 39,
-    "c2": 39,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "AMOS",
@@ -55,7 +55,7 @@
    },
    {
     "name": "Coinminer",
-    "iocs": 16,
+    "iocs": 14,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
    },
@@ -68,12 +68,12 @@
   ]
  },
  "urls": {
-  "sample": 540,
-  "online": 396,
+  "sample": 554,
+  "online": 393,
   "top_tags": [
    {
     "name": "elf",
-    "count": 252
+    "count": 258
    },
    {
     "name": "ua-wget",
@@ -81,19 +81,19 @@
    },
    {
     "name": "Mozi",
-    "count": 118
+    "count": 124
    },
    {
     "name": "32-bit",
-    "count": 116
+    "count": 122
    },
    {
     "name": "mips",
-    "count": 83
+    "count": 87
    },
    {
     "name": "arm",
-    "count": 33
+    "count": 35
    },
    {
     "name": "176-65-139-169",
@@ -107,77 +107,77 @@
  },
  "ports": [
   {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 887708,
-   "targets": 269,
-   "sources": 11571
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 849995,
-   "targets": 273,
-   "sources": 7310
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 825928,
-   "targets": 269,
-   "sources": 8507
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 710178,
-   "targets": 279,
-   "sources": 8821
-  },
-  {
    "port": 22,
    "service": "SSH",
-   "records": 581862,
-   "targets": 272,
-   "sources": 13005
+   "records": 96,
+   "targets": 2,
+   "sources": 26
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 345313,
-   "targets": 273,
-   "sources": 10807
+   "records": 69,
+   "targets": 2,
+   "sources": 44
   },
   {
-   "port": 7547,
-   "service": "Router management (TR-069)",
-   "records": 235422,
-   "targets": 219,
-   "sources": 2983
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 53,
+   "targets": 2,
+   "sources": 34
   },
   {
-   "port": 9000,
-   "service": null,
-   "records": 162100,
-   "targets": 257,
-   "sources": 3996
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 37,
+   "targets": 2,
+   "sources": 26
   },
   {
    "port": 2222,
    "service": null,
-   "records": 150001,
-   "targets": 277,
-   "sources": 5552
+   "records": 23,
+   "targets": 2,
+   "sources": 13
   },
   {
-   "port": 51413,
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 19,
+   "targets": 2,
+   "sources": 14
+  },
+  {
+   "port": 143,
    "service": null,
-   "records": 104641,
-   "targets": 82,
-   "sources": 6069
+   "records": 17,
+   "targets": 2,
+   "sources": 17
+  },
+  {
+   "port": 5060,
+   "service": "VoIP (SIP)",
+   "records": 13,
+   "targets": 2,
+   "sources": 13
+  },
+  {
+   "port": 3128,
+   "service": null,
+   "records": 11,
+   "targets": 2,
+   "sources": 8
+  },
+  {
+   "port": 88,
+   "service": null,
+   "records": 8,
+   "targets": 2,
+   "sources": 7
   }
  ],
- "ports_date": "2026-10-10",
+ "ports_date": "2026-10-11",
  "diary": [
   {
    "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
@@ -521,10 +521,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-11T01:01:00+00:00",
-  "sans": "2026-10-11T01:01:00+00:00",
-  "otx": "2026-10-11T01:01:00+00:00",
-  "urlhaus": "2026-10-11T01:01:00+00:00"
+  "threatfox": "2026-10-11T02:06:35+00:00",
+  "sans": "2026-10-11T02:06:35+00:00",
+  "otx": "2026-10-11T02:06:35+00:00",
+  "urlhaus": "2026-10-11T02:06:35+00:00"
  },
- "generated_at": "2026-10-11T01:01:00+00:00"
+ "generated_at": "2026-10-11T02:06:35+00:00"
 }
