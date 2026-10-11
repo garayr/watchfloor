@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 678,
-  "c2_servers": 214,
+  "total_iocs": 664,
+  "c2_servers": 211,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 96,
+    "iocs": 81,
     "c2": 15,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -37,20 +37,20 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 28,
+    "iocs": 29,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "AMOS",
-    "iocs": 27,
+    "iocs": 26,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 25,
-    "c2": 25,
+    "iocs": 21,
+    "c2": 21,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
@@ -61,19 +61,19 @@
    },
    {
     "name": "AsyncRAT",
-    "iocs": 16,
-    "c2": 16,
+    "iocs": 17,
+    "c2": 17,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    }
   ]
  },
  "urls": {
-  "sample": 781,
+  "sample": 790,
   "online": 508,
   "top_tags": [
    {
     "name": "elf",
-    "count": 328
+    "count": 332
    },
    {
     "name": "ua-wget",
@@ -81,19 +81,19 @@
    },
    {
     "name": "Mozi",
-    "count": 155
+    "count": 159
    },
    {
     "name": "32-bit",
-    "count": 150
+    "count": 154
    },
    {
     "name": "mips",
-    "count": 109
+    "count": 111
    },
    {
     "name": "arm",
-    "count": 43
+    "count": 45
    },
    {
     "name": "176-65-139-169",
@@ -514,10 +514,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-11T12:31:43+00:00",
-  "sans": "2026-10-11T12:31:43+00:00",
-  "otx": "2026-10-11T12:31:43+00:00",
-  "urlhaus": "2026-10-11T12:31:43+00:00"
+  "threatfox": "2026-10-11T13:30:39+00:00",
+  "sans": "2026-10-11T13:30:39+00:00",
+  "otx": "2026-10-11T13:30:39+00:00",
+  "urlhaus": "2026-10-11T13:30:39+00:00"
  },
- "generated_at": "2026-10-11T12:31:43+00:00"
+ "generated_at": "2026-10-11T13:30:39+00:00"
 }
