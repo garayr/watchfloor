@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:03:44+00:00",
+ "generated_at": "2026-10-12T16:08:58+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -14,7 +14,7 @@
   },
   {
    "name": "UmBra",
-   "count": 9
+   "count": 8
   },
   {
    "name": "thegentlemen",
@@ -30,7 +30,7 @@
   },
   {
    "name": "dragonforce",
-   "count": 4
+   "count": 5
   },
   {
    "name": "rhysida",
@@ -77,22 +77,16 @@
    "lon": -46.6
   },
   {
-   "code": "DE",
-   "count": 4,
-   "lat": 50.1,
-   "lon": 8.7
-  },
-  {
    "code": "CA",
-   "count": 3,
+   "count": 4,
    "lat": 43.7,
    "lon": -79.4
   },
   {
-   "code": "EG",
-   "count": 3,
-   "lat": 30.0,
-   "lon": 31.2
+   "code": "DE",
+   "count": 4,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "ES",
@@ -117,6 +111,12 @@
    "count": 2,
    "lat": 4.7,
    "lon": -74.1
+  },
+  {
+   "code": "EG",
+   "count": 2,
+   "lat": 30.0,
+   "lon": 31.2
   },
   {
    "code": "JP",
@@ -240,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Canadian Mennonite University (CMU)",
+   "group": "dragonforce",
+   "date": "2026-10-12T11:03:12+00:00",
+   "attack_date": "2026-10-12",
+   "country": "CA",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/Q2FuYWRpYW4gTWVubm9uaXRlIFVuaXZlcnNpdHkgKENNVSlAZHJhZ29uZm9yY2U="
+  },
   {
    "victim": "Placer AI",
    "group": "thegentlemen",
@@ -1130,15 +1139,6 @@
    "country": null,
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/QW5kZXJzZW4gR3JvdXBAU2lsZW50UmFuc29tR3JvdXA="
-  },
-  {
-   "victim": "Beni Suef Technological University – BTU",
-   "group": "UmBra",
-   "date": "2026-10-06T22:24:17+00:00",
-   "attack_date": "2026-10-06",
-   "country": "EG",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/QmVuaSBTdWVmIFRlY2hub2xvZ2ljYWwgVW5pdmVyc2l0eSDigJMgQlRVQFVtQnJh"
   }
  ]
 }
