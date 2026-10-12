@@ -57,6 +57,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+     "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in…",
+     "source": "The Hacker News",
+     "date": "2026-10-12T07:26:12+00:00",
+     "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
      "source": "BleepingComputer",
@@ -103,14 +111,6 @@
      "date": "2026-10-08T21:42:51+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
-     "summary": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other…",
-     "source": "The Hacker News",
-     "date": "2026-10-08T18:32:21+00:00",
-     "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
@@ -127,7 +127,7 @@
     },
     {
      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-     "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and…",
+     "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited…",
      "source": "The Hacker News",
      "date": "2026-10-10T09:18:45+00:00",
      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
@@ -259,17 +259,6 @@
      ]
     },
     {
-     "title": "Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own",
-     "summary": "$1.2 million was paid out at Pwn2Own Ireland 2026 for exploits targeting phones, printers, smart speakers, smart home hubs, and AI infrastructure and coding tools. The post Google Pixel 10 Exploits Earned Hackers…",
-     "source": "SecurityWeek",
-     "date": "2026-10-09T06:39:55+00:00",
-     "url": "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-58704"
-     ]
-    },
-    {
      "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
      "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
      "source": "BleepingComputer",
@@ -295,6 +284,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
+     "summary": "Beginning February 2027, all newly issued certificates will have a 64-day validity period by default. The post Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-10-12T07:53:28+00:00",
+     "url": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
+     "group": "Other news"
+    },
     {
      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
      "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
