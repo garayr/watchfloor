@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 815,
-  "c2_servers": 462,
+  "total_iocs": 830,
+  "c2_servers": 483,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 196,
-    "c2": 187,
+    "iocs": 211,
+    "c2": 202,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 73,
+    "iocs": 75,
     "c2": 21,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -30,16 +30,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.danabot"
    },
    {
-    "name": "AMOS",
-    "iocs": 34,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
     "name": "VShell",
-    "iocs": 34,
+    "iocs": 37,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "AMOS",
+    "iocs": 35,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "ClearFake",
@@ -68,24 +68,24 @@
   ]
  },
  "urls": {
-  "sample": 438,
-  "online": 303,
+  "sample": 452,
+  "online": 299,
   "top_tags": [
    {
     "name": "elf",
-    "count": 159
+    "count": 160
    },
    {
     "name": "Mozi",
-    "count": 80
+    "count": 81
    },
    {
     "name": "32-bit",
-    "count": 72
+    "count": 73
    },
    {
     "name": "mips",
-    "count": 55
+    "count": 56
    },
    {
     "name": "ua-wget",
@@ -496,10 +496,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-12T00:39:36+00:00",
-  "sans": "2026-10-12T00:39:36+00:00",
-  "otx": "2026-10-12T00:39:36+00:00",
-  "urlhaus": "2026-10-12T00:39:36+00:00"
+  "threatfox": "2026-10-12T01:56:14+00:00",
+  "sans": "2026-10-12T01:56:14+00:00",
+  "otx": "2026-10-12T01:56:14+00:00",
+  "urlhaus": "2026-10-12T01:56:14+00:00"
  },
- "generated_at": "2026-10-12T00:39:36+00:00"
+ "generated_at": "2026-10-12T01:56:14+00:00"
 }
