@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-12T17:07:55+00:00",
+ "generated_at": "2026-10-12T18:07:15+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
-   "name": "qilin",
-   "count": 14
+   "name": "N0n",
+   "count": 16
   },
   {
-   "name": "N0n",
+   "name": "qilin",
    "count": 13
   },
   {
@@ -52,21 +52,21 @@
   },
   {
    "name": "Professional Services",
-   "count": 11
-  },
-  {
-   "name": "Education",
    "count": 10
   },
   {
    "name": "Other",
    "count": 9
+  },
+  {
+   "name": "Education",
+   "count": 8
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 32,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -87,12 +87,6 @@
    "count": 4,
    "lat": 50.1,
    "lon": 8.7
-  },
-  {
-   "code": "ES",
-   "count": 3,
-   "lat": 40.4,
-   "lon": -3.7
   },
   {
    "code": "IN",
@@ -119,6 +113,24 @@
    "lon": 31.2
   },
   {
+   "code": "ES",
+   "count": 2,
+   "lat": 40.4,
+   "lon": -3.7
+  },
+  {
+   "code": "GB",
+   "count": 2,
+   "lat": 51.5,
+   "lon": -0.1
+  },
+  {
+   "code": "ID",
+   "count": 2,
+   "lat": -6.2,
+   "lon": 106.8
+  },
+  {
    "code": "JP",
    "count": 2,
    "lat": 35.7,
@@ -129,12 +141,6 @@
    "count": 2,
    "lat": 19.4,
    "lon": -99.1
-  },
-  {
-   "code": "TW",
-   "count": 2,
-   "lat": 25.0,
-   "lon": 121.5
   },
   {
    "code": "AE",
@@ -167,22 +173,10 @@
    "lon": 2.35
   },
   {
-   "code": "GB",
-   "count": 1,
-   "lat": 51.5,
-   "lon": -0.1
-  },
-  {
    "code": "HR",
    "count": 1,
    "lat": 45.8,
    "lon": 16.0
-  },
-  {
-   "code": "ID",
-   "count": 1,
-   "lat": -6.2,
-   "lon": 106.8
   },
   {
    "code": "IL",
@@ -195,6 +189,12 @@
    "count": 1,
    "lat": 41.9,
    "lon": 12.5
+  },
+  {
+   "code": "KR",
+   "count": 1,
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "MA",
@@ -233,6 +233,18 @@
    "lon": 100.5
   },
   {
+   "code": "TW",
+   "count": 1,
+   "lat": 25.0,
+   "lon": 121.5
+  },
+  {
+   "code": "VN",
+   "count": 1,
+   "lat": 21.0,
+   "lon": 105.8
+  },
+  {
    "code": "ZA",
    "count": 1,
    "lat": -26.2,
@@ -240,6 +252,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "ILCS Pelindo (port logistics operations)",
+   "group": "N0n",
+   "date": "2026-10-12T13:55:08+00:00",
+   "attack_date": "2026-10-12",
+   "country": "ID",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/SUxDUyBQZWxpbmRvIChwb3J0IGxvZ2lzdGljcyBvcGVyYXRpb25zKUBOMG4="
+  },
+  {
+   "victim": "Pusan Newport Company (container terminal operations)",
+   "group": "N0n",
+   "date": "2026-10-12T13:54:25+00:00",
+   "attack_date": "2026-10-12",
+   "country": "KR",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/UHVzYW4gTmV3cG9ydCBDb21wYW55IChjb250YWluZXIgdGVybWluYWwgb3BlcmF0aW9ucylATjBu"
+  },
+  {
+   "victim": "Nam Dinh Vu Port (container terminal operations)",
+   "group": "N0n",
+   "date": "2026-10-12T13:53:46+00:00",
+   "attack_date": "2026-10-12",
+   "country": "VN",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/TmFtIERpbmggVnUgUG9ydCAoY29udGFpbmVyIHRlcm1pbmFsIG9wZXJhdGlvbnMpQE4wbg=="
+  },
+  {
+   "victim": "Cognosis Limited",
+   "group": "nightspire",
+   "date": "2026-10-12T13:29:00+00:00",
+   "attack_date": "2026-10-11",
+   "country": "GB",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/Q29nbm9zaXMgTGltaXRlZEBuaWdodHNwaXJl"
+  },
   {
    "victim": "Louis Fusco",
    "group": "akira",
@@ -997,15 +1045,6 @@
    "url": "https://www.ransomware.live/id/Q29vcGVyYXRpdmUgRGVzIFRlY2huaWNpZW5zIEFtYnVsYW5jaWVycyBEZSBMYSBNb250ZUBTdG9ybQ=="
   },
   {
-   "victim": "Nantou Shiuhkuang Senior High School.",
-   "group": "nightspire",
-   "date": "2026-10-08T02:01:04+00:00",
-   "attack_date": "2026-10-07",
-   "country": "TW",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/TmFudG91IFNoaXVoa3VhbmcgU2VuaW9yIEhpZ2ggU2Nob29sLkBuaWdodHNwaXJl"
-  },
-  {
    "victim": "K...",
    "group": "SilentRansomGroup",
    "date": "2026-10-07T23:54:15+00:00",
@@ -1024,15 +1063,6 @@
    "url": "https://www.ransomware.live/id/UGV0cm9zdWwgRGlzdHJpYnVpZG9yYSwgVHJhbnNwb3J0YWRvcmEgZSBDb23DqXJjaW8gZGUgQ29tYnVzdMOtdmVpcyBMdGRhLkBkcmFnb25mb3JjZQ=="
   },
   {
-   "victim": "TMobile",
-   "group": "BYOD",
-   "date": "2026-10-07T23:20:43+00:00",
-   "attack_date": "2026-10-07",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VE1vYmlsZUBCWU9E"
-  },
-  {
    "victim": "RÉSO",
    "group": "dragonforce",
    "date": "2026-10-07T22:59:59+00:00",
@@ -1040,15 +1070,6 @@
    "country": "FR",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/UsOJU09AZHJhZ29uZm9yY2U="
-  },
-  {
-   "victim": "The New Community School",
-   "group": "incransom",
-   "date": "2026-10-07T22:09:57+00:00",
-   "attack_date": "2026-10-07",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/VGhlIE5ldyBDb21tdW5pdHkgU2Nob29sQGluY3JhbnNvbQ=="
   },
   {
    "victim": "Qatar National Import & Export",
@@ -1130,15 +1151,6 @@
    "country": "US",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/Q2hpYml0ZWtATjBu"
-  },
-  {
-   "victim": "EPTISA",
-   "group": "qilin",
-   "date": "2026-10-07T00:10:58+00:00",
-   "attack_date": "2026-10-07",
-   "country": "ES",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/RVBUSVNBQHFpbGlu"
   }
  ]
 }

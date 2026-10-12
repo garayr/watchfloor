@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 999,
-  "c2_servers": 612,
+  "total_iocs": 966,
+  "c2_servers": 570,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 272,
-    "c2": 272,
+    "iocs": 262,
+    "c2": 262,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 161,
-    "c2": 14,
+    "iocs": 158,
+    "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -25,33 +25,33 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 45,
+    "iocs": 46,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "Sliver",
-    "iocs": 38,
-    "c2": 38,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
-   },
-   {
-    "name": "Remcos",
-    "iocs": 30,
-    "c2": 30,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
-   },
-   {
     "name": "ClearFake",
     "iocs": 28,
-    "c2": 2,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "AMOS",
+    "iocs": 27,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
     "name": "Cobalt Strike",
-    "iocs": 25,
-    "c2": 25,
+    "iocs": 27,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
+    "name": "Remcos",
+    "iocs": 24,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "VShell",
@@ -60,16 +60,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "AMOS",
-    "iocs": 22,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+    "name": "Sliver",
+    "iocs": 21,
+    "c2": 21,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 887,
+  "online": 876,
   "top_tags": [
    {
     "name": "zip",
@@ -496,10 +496,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-12T17:07:55+00:00",
-  "sans": "2026-10-12T17:07:55+00:00",
-  "otx": "2026-10-12T17:07:55+00:00",
-  "urlhaus": "2026-10-12T17:07:55+00:00"
+  "threatfox": "2026-10-12T18:07:15+00:00",
+  "sans": "2026-10-12T18:07:15+00:00",
+  "otx": "2026-10-12T18:07:15+00:00",
+  "urlhaus": "2026-10-12T18:07:15+00:00"
  },
- "generated_at": "2026-10-12T17:07:55+00:00"
+ "generated_at": "2026-10-12T18:07:15+00:00"
 }
