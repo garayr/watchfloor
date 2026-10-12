@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T03:08:42+00:00",
+ "generated_at": "2026-10-12T19:27:43+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -6754,6 +6754,124 @@
    ],
    "history_size": 5,
    "updated": "2026-10-10T18:47:14+00:00"
+  },
+  "metaencryptor": {
+   "name": "metaencryptor",
+   "description": "MetaEncryptor is a ransomware group first observed in mid-2023, targeting medium-to-large enterprises in legal, technology, logistics, manufacturing, and finance sectors primarily in the UK, Europe, and Southeast Asia, using AES-256/RSA-2048 encryption and double extortion.",
+   "aliases": [],
+   "first_seen": "2023-08-16",
+   "last_seen": "2026-10-12",
+   "victims_total": 57,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 22
+     },
+     {
+      "name": "DE",
+      "count": 10
+     },
+     {
+      "name": "CA",
+      "count": 5
+     },
+     {
+      "name": "JP",
+      "count": 3
+     },
+     {
+      "name": "KR",
+      "count": 2
+     },
+     {
+      "name": "AT",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 13
+     },
+     {
+      "name": "Professional Services",
+      "count": 11
+     },
+     {
+      "name": "Technology",
+      "count": 7
+     },
+     {
+      "name": "Healthcare",
+      "count": 6
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 5
+     },
+     {
+      "name": "Other",
+      "count": 3
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 7
+    },
+    {
+     "month": "2026-09",
+     "count": 17
+    },
+    {
+     "month": "2026-10",
+     "count": 2
+    }
+   ],
+   "history_size": 57,
+   "updated": "2026-10-12T19:27:43+00:00"
   }
  }
 }
