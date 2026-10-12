@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1005,
-  "c2_servers": 585,
+  "total_iocs": 1232,
+  "c2_servers": 609,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 282,
-    "c2": 282,
+    "iocs": 335,
+    "c2": 308,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 170,
+    "iocs": 174,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -25,13 +25,19 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 44,
+    "iocs": 45,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "ClearFake",
+    "name": "Phorpiex",
     "iocs": 33,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.phorpiex"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 31,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -49,7 +55,7 @@
    },
    {
     "name": "AMOS",
-    "iocs": 27,
+    "iocs": 28,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -58,50 +64,44 @@
     "iocs": 24,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
-    "name": "VShell",
-    "iocs": 23,
-    "c2": 7,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 874,
+  "online": 868,
   "top_tags": [
    {
     "name": "zip",
-    "count": 607
+    "count": 594
    },
    {
     "name": "FakeGit",
-    "count": 606
+    "count": 593
    },
    {
     "name": "SmartLoader",
-    "count": 606
+    "count": 593
    },
    {
     "name": "Stealc",
-    "count": 606
+    "count": 593
    },
    {
     "name": "luajit",
-    "count": 606
+    "count": 593
    },
    {
     "name": "elf",
-    "count": 111
+    "count": 116
    },
    {
     "name": "Mozi",
-    "count": 63
+    "count": 67
    },
    {
     "name": "32-bit",
-    "count": 54
+    "count": 58
    }
   ]
  },
@@ -212,43 +212,110 @@
  ],
  "pulses": [
   {
-   "name": "NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL",
-   "summary": "In late September 2026, an actor deployed seven malicious npm packages masquerading as a NebulaAI software development kit to deliver a Windows remote-access trojan. The operation, tracked as NEBULA, spans four…",
-   "date": "2026-10-09T08:22:58+00:00",
+   "name": "From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases",
+   "summary": "A North Korean threat actor distributed Funhouse ransomware through malicious Korean-language documents disguised as resumes. Funhouse is a variant of the previously observed Endpoint ransomware. The attack chain…",
+   "date": "2026-10-12T13:15:52+00:00",
    "author": "AlienVault",
-   "adversary": null,
+   "adversary": "Kimsuky",
    "malware": [
-    "KNTRAT"
+    "Funhouse",
+    "Endpoint",
+    "Quasar RAT"
    ],
    "countries": [],
    "industries": [],
    "tags": [
-    "npm",
-    "supply chain attack",
-    "hvnc",
-    "NEBULA"
+    "funhouse ransomware",
+    "resume lure",
+    "endpoint",
+    "korean targets",
+    "kimsuky",
+    "quasar rat"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ac8a46214e2077a0bfe7409"
+   "url": "https://otx.alienvault.com/pulse/6accdd88406e67c287aa23a5"
   },
   {
-   "name": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
-   "summary": "An unidentified threat actor, likely Chinese-speaking and financially motivated, conducted targeted attacks against South Korean financial institutions between late September and early October 2026, successfully…",
-   "date": "2026-10-09T08:13:35+00:00",
+   "name": "Inside a brand deal scam targeting YouTube creators",
+   "summary": "A sophisticated phishing campaign targets YouTube content creators through personalized sponsorship emails impersonating legitimate brands like Hollyland, Nike, and Spotify. Attackers send customized collaboration…",
+   "date": "2026-10-12T01:30:11+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "Japan",
+    "Peru"
+   ],
+   "industries": [
+    "Media"
+   ],
+   "tags": [
+    "google account compromise",
+    "sso abuse",
+    "social engineering",
+    "youtube creators",
+    "sponsorship scam",
+    "credential theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acc3823ee551dd1565f0a27"
+  },
+  {
+   "name": "Threat Overview: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Being Exploited in Production Environments (Updated September 30)",
+   "summary": "Two critical zero-day vulnerabilities in NetScaler ADC and Gateway systems are being actively exploited in the wild. CVE-2026-88771 is a remote code execution vulnerability allowing unauthenticated command injection…",
+   "date": "2026-10-10T07:53:24+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "netscaler",
+    "command injection",
+    "cve-2026-88771",
+    "zero-day exploitation",
+    "remote code execution",
+    "dtls vulnerability"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac9eef4bcc05a59cd402770"
+  },
+  {
+   "name": "DNS as C2 in Noir, An AI-Developed Crypto Wallet Drainer",
+   "summary": "A cryptocurrency wallet-drainer kit called Noir uses DNS TXT records and DNS-over-HTTPS (DoH) as a dynamic command-and-control mechanism. The loader queries public DoH services to discover active infrastructure hosted…",
+   "date": "2026-10-09T22:03:27+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [
-    "ARTEX"
+    "Noir"
    ],
    "countries": [],
-   "industries": [
-    "Finance"
-   ],
+   "industries": [],
    "tags": [
-    "llm-powered attacks",
-    "agentic ai",
-    "artex"
+    "wallet permissions",
+    "cryptocurrency drainer",
+    "noir",
+    "doh abuse",
+    "ai-developed",
+    "dns over https"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ac8a22f8d0ad1ea5f056ddc"
+   "url": "https://otx.alienvault.com/pulse/6ac964afdcc4acb43c3ef335"
+  },
+  {
+   "name": "The Scalpel vs. The Sledgehammer: Lessons in Precision Triage from the.conf26 SOC",
+   "summary": "During a live Security Operations Center shift at.conf26 in Denver, analysts investigated Incident ES_00244 involving an exploit link detected by Cisco Secure Firewall. The challenge arose when 15 devices were found…",
+   "date": "2026-10-09T16:02:29+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "conference network security",
+    "cdn infrastructure",
+    "precision blocking",
+    "dns filtering",
+    "soc operations",
+    "byod threats"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac9101554900e3ae83df111"
   },
   {
    "name": "Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data",
@@ -385,32 +452,6 @@
    "url": "https://otx.alienvault.com/pulse/6ac7f9431e9712b6c5e2a6cd"
   },
   {
-   "name": "From Guest Complaints to Malware: Blockchain Abuse Targets Hotels",
-   "summary": "Threat actors are conducting email campaigns targeting the accommodation industry using fake guest complaints, reviews, and inquiries. These emails deliver malicious LNK shortcut files disguised as images, which…",
-   "date": "2026-10-08T15:21:41+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "EtherRAT",
-    "TONResolver",
-    "PureRAT",
-    "NetSupport Manager RAT"
-   ],
-   "countries": [],
-   "industries": [
-    "Hospitality"
-   ],
-   "tags": [
-    "netsupport manager rat",
-    "ton blockchain",
-    "purerat",
-    "etherrat",
-    "tonresolver",
-    "blockchain c2"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac7b505bae48a926c79fefb"
-  },
-  {
    "name": "Malicious Twitch Browser Extension Exposes 30,000 Users' OAuth Tokens to Russian Bot Service",
    "summary": "A malicious browser extension called 'Twitch Enhanced Viewer | JeetBot' distributed on Chrome Web Store and Firefox Add-ons captures and forwards users' live Twitch OAuth session tokens to Russian-controlled proxy…",
    "date": "2026-09-11T18:06:36+00:00",
@@ -448,58 +489,13 @@
     "ddos"
    ],
    "url": "https://otx.alienvault.com/pulse/6aa4409a4290cc035d81500c"
-  },
-  {
-   "name": "Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329",
-   "summary": "Active exploitation of three critical vulnerabilities in JFrog Artifactory has been identified, with attackers chaining CVE-2026-42016, CVE-2026-42018, and CVE-2026-82329 to bypass authentication and gain administrative…",
-   "date": "2026-09-11T07:05:53+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "privilege escalation",
-    "rust backdoor",
-    "cve-2026-82329",
-    "jfrog artifactory",
-    "in-the-wild exploitation",
-    "vulnerability chaining"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aa3a8516fc630e89143079a"
-  },
-  {
-   "name": "Melofee: a look back at a Linux implant and its new variants",
-   "summary": "Three years after its initial discovery, the Melofee Linux implant has evolved with sophisticated new capabilities. The malware now features modularized architecture with hot-loadable components for shell functionality…",
-   "date": "2026-09-10T22:17:12+00:00",
-   "author": "AlienVault",
-   "adversary": "APT41",
-   "malware": [
-    "Melofee",
-    "ShadowPad - S0596",
-    "POISONPLUG.SHADOW",
-    "HelloBot",
-    "PlugX - S0013",
-    "Thoper"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "ratels",
-    "linux implant",
-    "shadowpad",
-    "spark",
-    "hemigate",
-    "hellobot"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aa32c68adf3f06777eb0318"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-12T22:45:59+00:00",
-  "sans": "2026-10-12T22:45:59+00:00",
-  "otx": "2026-10-12T22:45:59+00:00",
-  "urlhaus": "2026-10-12T22:45:59+00:00"
+  "threatfox": "2026-10-12T23:43:34+00:00",
+  "sans": "2026-10-12T23:43:34+00:00",
+  "otx": "2026-10-12T23:43:34+00:00",
+  "urlhaus": "2026-10-12T23:43:34+00:00"
  },
- "generated_at": "2026-10-12T22:45:59+00:00"
+ "generated_at": "2026-10-12T23:43:34+00:00"
 }
