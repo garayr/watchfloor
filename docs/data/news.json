@@ -134,6 +134,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "GitLab warns of max severity code execution vulnerability",
+     "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-12T13:09:09+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as…",
      "source": "The Hacker News",
@@ -223,14 +231,6 @@
      "alerts": [
       "CVE-2015-3306"
      ]
-    },
-    {
-     "title": "GoBalance Flaw Lets Attackers Hijack.onion Addresses by Recovering Tor-Format Keys",
-     "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's.onion address using only public information, and then take that address…",
-     "source": "The Hacker News",
-     "date": "2026-10-09T09:03:24+00:00",
-     "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
-     "group": "Exploited right now"
     }
    ]
   },
@@ -239,7 +239,7 @@
    "items": [
     {
      "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
-     "summary": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal The post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek.",
+     "summary": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal. The post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek.",
      "source": "SecurityWeek",
      "date": "2026-10-12T11:58:39+00:00",
      "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
