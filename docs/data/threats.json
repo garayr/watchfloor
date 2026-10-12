@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1035,
-  "c2_servers": 615,
+  "total_iocs": 1066,
+  "c2_servers": 633,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 297,
-    "c2": 288,
+    "iocs": 304,
+    "c2": 295,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 135,
+    "iocs": 157,
     "c2": 14,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -48,16 +48,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "AMOS",
+    "name": "Sliver",
     "iocs": 25,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+    "c2": 25,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    },
    {
-    "name": "Sliver",
-    "iocs": 24,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
+    "name": "AMOS",
+    "iocs": 22,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "AsyncRAT",
@@ -69,7 +69,7 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 872,
+  "online": 875,
   "top_tags": [
    {
     "name": "zip",
@@ -93,15 +93,15 @@
    },
    {
     "name": "elf",
-    "count": 115
+    "count": 114
    },
    {
     "name": "Mozi",
-    "count": 69
+    "count": 70
    },
    {
     "name": "32-bit",
-    "count": 59
+    "count": 61
    }
   ]
  },
@@ -496,10 +496,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-12T13:40:38+00:00",
-  "sans": "2026-10-12T13:40:38+00:00",
-  "otx": "2026-10-12T13:40:38+00:00",
-  "urlhaus": "2026-10-12T13:40:38+00:00"
+  "threatfox": "2026-10-12T15:03:44+00:00",
+  "sans": "2026-10-12T15:03:44+00:00",
+  "otx": "2026-10-12T15:03:44+00:00",
+  "urlhaus": "2026-10-12T15:03:44+00:00"
  },
- "generated_at": "2026-10-12T13:40:38+00:00"
+ "generated_at": "2026-10-12T15:03:44+00:00"
 }
