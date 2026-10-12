@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T08:00:14+00:00",
+ "generated_at": "2026-10-12T08:59:02+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -18,7 +18,7 @@
   },
   {
    "name": "thegentlemen",
-   "count": 6
+   "count": 7
   },
   {
    "name": "Eclipse",
@@ -29,29 +29,29 @@
    "count": 5
   },
   {
-   "name": "Panzer",
+   "name": "dragonforce",
    "count": 4
   },
   {
-   "name": "dragonforce",
+   "name": "rhysida",
    "count": 4
   }
  ],
  "by_sector": [
   {
-   "name": "Healthcare",
+   "name": "Technology",
    "count": 14
   },
   {
-   "name": "Professional Services",
+   "name": "Healthcare",
    "count": 13
   },
   {
-   "name": "Manufacturing",
+   "name": "Professional Services",
    "count": 12
   },
   {
-   "name": "Technology",
+   "name": "Manufacturing",
    "count": 11
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 29,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -81,12 +81,6 @@
    "count": 4,
    "lat": 50.1,
    "lon": 8.7
-  },
-  {
-   "code": "IN",
-   "count": 4,
-   "lat": 19.1,
-   "lon": 72.9
   },
   {
    "code": "CA",
@@ -105,6 +99,12 @@
    "count": 3,
    "lat": 40.4,
    "lon": -3.7
+  },
+  {
+   "code": "IN",
+   "count": 3,
+   "lat": 19.1,
+   "lon": 72.9
   },
   {
    "code": "SG",
@@ -234,6 +234,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Placer AI",
+   "group": "thegentlemen",
+   "date": "2026-10-12T04:40:15+00:00",
+   "attack_date": "2026-10-10",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/UGxhY2VyIEFJQHRoZWdlbnRsZW1lbg=="
+  },
+  {
+   "victim": "BigID",
+   "group": "thegentlemen",
+   "date": "2026-10-12T04:39:54+00:00",
+   "attack_date": "2026-10-10",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QmlnSURAdGhlZ2VudGxlbWVu"
+  },
+  {
+   "victim": "Confluent",
+   "group": "thegentlemen",
+   "date": "2026-10-12T04:39:33+00:00",
+   "attack_date": "2026-10-10",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/Q29uZmx1ZW50QHRoZWdlbnRsZW1lbg=="
+  },
+  {
+   "victim": "KFC",
+   "group": "thegentlemen",
+   "date": "2026-10-12T04:38:52+00:00",
+   "attack_date": "2026-10-10",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/S0ZDQHRoZWdlbnRsZW1lbg=="
+  },
   {
    "victim": "Eversource Energy",
    "group": "Redact",
@@ -575,33 +611,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/ZmxlZXR3b3Jrc2luYy5jb21AdGhyZWVhbQ=="
-  },
-  {
-   "victim": "The Law Office of James R Walsh",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:22:56+00:00",
-   "attack_date": "2026-10-06",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/VGhlIExhdyBPZmZpY2Ugb2YgSmFtZXMgUiBXYWxzaEB0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "All Smiles Dental of Falls Church",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:22:53+00:00",
-   "attack_date": "2026-10-06",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/QWxsIFNtaWxlcyBEZW50YWwgb2YgRmFsbHMgQ2h1cmNoQHRoZWdlbnRsZW1lbg=="
-  },
-  {
-   "victim": "Majestic Holidays India Private Limited",
-   "group": "thegentlemen",
-   "date": "2026-10-09T19:22:36+00:00",
-   "attack_date": "2026-10-06",
-   "country": "IN",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/TWFqZXN0aWMgSG9saWRheXMgSW5kaWEgUHJpdmF0ZSBMaW1pdGVkQHRoZWdlbnRsZW1lbg=="
   },
   {
    "victim": "North Philadelphia Health System",
@@ -1115,15 +1124,6 @@
    "country": null,
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/QW5kZXJzZW4gR3JvdXBAU2lsZW50UmFuc29tR3JvdXA="
-  },
-  {
-   "victim": "EDFelectronics",
-   "group": "Panzer",
-   "date": "2026-10-06T22:55:53+00:00",
-   "attack_date": "2026-10-06",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RURGZWxlY3Ryb25pY3NAUGFuemVy"
   },
   {
    "victim": "Beni Suef Technological University – BTU",
