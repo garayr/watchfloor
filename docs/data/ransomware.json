@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T16:08:58+00:00",
+ "generated_at": "2026-10-12T17:07:55+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -25,7 +25,7 @@
    "count": 5
   },
   {
-   "name": "SilentRansomGroup",
+   "name": "akira",
    "count": 5
   },
   {
@@ -33,7 +33,7 @@
    "count": 5
   },
   {
-   "name": "rhysida",
+   "name": "SilentRansomGroup",
    "count": 4
   }
  ],
@@ -47,11 +47,11 @@
    "count": 13
   },
   {
-   "name": "Professional Services",
-   "count": 12
+   "name": "Manufacturing",
+   "count": 11
   },
   {
-   "name": "Manufacturing",
+   "name": "Professional Services",
    "count": 11
   },
   {
@@ -60,13 +60,13 @@
   },
   {
    "name": "Other",
-   "count": 8
+   "count": 9
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 31,
+   "count": 32,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -129,12 +129,6 @@
    "count": 2,
    "lat": 19.4,
    "lon": -99.1
-  },
-  {
-   "code": "SG",
-   "count": 2,
-   "lat": 1.35,
-   "lon": 103.8
   },
   {
    "code": "TW",
@@ -227,6 +221,12 @@
    "lon": 18.1
   },
   {
+   "code": "SG",
+   "count": 1,
+   "lat": 1.35,
+   "lon": 103.8
+  },
+  {
    "code": "TH",
    "count": 1,
    "lat": 13.75,
@@ -240,6 +240,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Louis Fusco",
+   "group": "akira",
+   "date": "2026-10-12T12:57:39+00:00",
+   "attack_date": "2026-10-12",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TG91aXMgRnVzY29AYWtpcmE="
+  },
+  {
+   "victim": "PIC GROUP, INC",
+   "group": "akira",
+   "date": "2026-10-12T12:57:20+00:00",
+   "attack_date": "2026-10-12",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/UElDIEdST1VQLCBJTkNAYWtpcmE="
+  },
   {
    "victim": "Canadian Mennonite University (CMU)",
    "group": "dragonforce",
@@ -1015,15 +1033,6 @@
    "url": "https://www.ransomware.live/id/VE1vYmlsZUBCWU9E"
   },
   {
-   "victim": "Gate | Crypto Exchange",
-   "group": "BYOD",
-   "date": "2026-10-07T23:20:23+00:00",
-   "attack_date": "2026-10-07",
-   "country": "SG",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/R2F0ZSB8IENyeXB0byBFeGNoYW5nZUBCWU9E"
-  },
-  {
    "victim": "RÉSO",
    "group": "dragonforce",
    "date": "2026-10-07T22:59:59+00:00",
@@ -1130,15 +1139,6 @@
    "country": "ES",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/RVBUSVNBQHFpbGlu"
-  },
-  {
-   "victim": "Andersen Group",
-   "group": "SilentRansomGroup",
-   "date": "2026-10-06T23:52:26+00:00",
-   "attack_date": "2026-10-06",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/QW5kZXJzZW4gR3JvdXBAU2lsZW50UmFuc29tR3JvdXA="
   }
  ]
 }
