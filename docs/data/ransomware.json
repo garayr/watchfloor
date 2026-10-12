@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T20:43:37+00:00",
+ "generated_at": "2026-10-12T21:44:31+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -14,11 +14,15 @@
   },
   {
    "name": "interlock",
-   "count": 7
+   "count": 6
   },
   {
    "name": "thegentlemen",
    "count": 5
+  },
+  {
+   "name": "Dark Project",
+   "count": 3
   },
   {
    "name": "dragonforce",
@@ -31,10 +35,6 @@
   {
    "name": "Deadlock",
    "count": 2
-  },
-  {
-   "name": "Panzer",
-   "count": 2
   }
  ],
  "by_sector": [
@@ -44,29 +44,29 @@
   },
   {
    "name": "Manufacturing",
-   "count": 9
-  },
-  {
-   "name": "Healthcare",
-   "count": 8
-  },
-  {
-   "name": "Technology",
-   "count": 8
-  },
-  {
-   "name": "Energy & Utilities",
-   "count": 5
+   "count": 10
   },
   {
    "name": "Professional Services",
+   "count": 8
+  },
+  {
+   "name": "Healthcare",
+   "count": 7
+  },
+  {
+   "name": "Technology",
+   "count": 7
+  },
+  {
+   "name": "Energy & Utilities",
    "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 27,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -89,16 +89,16 @@
    "lon": -46.6
   },
   {
+   "code": "DE",
+   "count": 3,
+   "lat": 50.1,
+   "lon": 8.7
+  },
+  {
    "code": "ES",
    "count": 3,
    "lat": 40.4,
    "lon": -3.7
-  },
-  {
-   "code": "GB",
-   "count": 3,
-   "lat": 51.5,
-   "lon": -0.1
   },
   {
    "code": "JP",
@@ -131,10 +131,10 @@
    "lon": -74.1
   },
   {
-   "code": "DE",
+   "code": "GB",
    "count": 2,
-   "lat": 50.1,
-   "lon": 8.7
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "MA",
@@ -177,12 +177,6 @@
    "count": 1,
    "lat": 30.0,
    "lon": 31.2
-  },
-  {
-   "code": "FI",
-   "count": 1,
-   "lat": 60.2,
-   "lon": 24.9
   },
   {
    "code": "HK",
@@ -246,6 +240,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "RingSide Creative",
+   "group": "qilin",
+   "date": "2026-10-12T17:23:47+00:00",
+   "attack_date": "2026-10-12",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/UmluZ1NpZGUgQ3JlYXRpdmVAcWlsaW4="
+  },
+  {
+   "victim": "Rechtsanwaltskanzlei Dr. Bien",
+   "group": "aurora",
+   "date": "2026-10-12T16:59:10+00:00",
+   "attack_date": "2026-10-12",
+   "country": "DE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/UmVjaHRzYW53YWx0c2thbnpsZWkgRHIuIEJpZW5AYXVyb3Jh"
+  },
+  {
+   "victim": "Franklin Miller Inc.",
+   "group": "Dark Project",
+   "date": "2026-10-12T16:52:44+00:00",
+   "attack_date": "2026-10-12",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RnJhbmtsaW4gTWlsbGVyIEluYy5ARGFyayBQcm9qZWN0"
+  },
+  {
+   "victim": "PennEastern Architects LCC",
+   "group": "Dark Project",
+   "date": "2026-10-12T16:51:51+00:00",
+   "attack_date": "2026-10-12",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/UGVubkVhc3Rlcm4gQXJjaGl0ZWN0cyBMQ0NARGFyayBQcm9qZWN0"
+  },
+  {
+   "victim": "Claire's Inc.",
+   "group": "Dark Project",
+   "date": "2026-10-12T16:51:07+00:00",
+   "attack_date": "2026-10-12",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/Q2xhaXJlJ3MgSW5jLkBEYXJrIFByb2plY3Q="
+  },
   {
    "victim": "Pedigo Products, Inc.",
    "group": "interlock",
@@ -1100,51 +1139,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/ZmxlZXR3b3Jrc2luYy5jb21AdGhyZWVhbQ=="
-  },
-  {
-   "victim": "lopay",
-   "group": "Black X",
-   "date": "2026-10-09T19:12:37+00:00",
-   "attack_date": "2026-10-09",
-   "country": "GB",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/bG9wYXlAQmxhY2sgWA=="
-  },
-  {
-   "victim": "Tepcomp",
-   "group": "qilin",
-   "date": "2026-10-09T18:05:46+00:00",
-   "attack_date": "2026-10-09",
-   "country": "FI",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VGVwY29tcEBxaWxpbg=="
-  },
-  {
-   "victim": "Shalom Christian Academy",
-   "group": "interlock",
-   "date": "2026-10-09T18:02:14+00:00",
-   "attack_date": "2026-10-09",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/U2hhbG9tIENocmlzdGlhbiBBY2FkZW15QGludGVybG9jaw=="
-  },
-  {
-   "victim": "Mynd",
-   "group": "anubis",
-   "date": "2026-10-09T17:28:37+00:00",
-   "attack_date": "2026-10-09",
-   "country": null,
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TXluZEBhbnViaXM="
-  },
-  {
-   "victim": "Imperial Diamond Jewellery",
-   "group": "emperador",
-   "date": "2026-10-09T17:21:57+00:00",
-   "attack_date": "2026-10-09",
-   "country": null,
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/SW1wZXJpYWwgRGlhbW9uZCBKZXdlbGxlcnlAZW1wZXJhZG9y"
   }
  ]
 }
