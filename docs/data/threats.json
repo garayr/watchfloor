@@ -2,24 +2,24 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 849,
-  "c2_servers": 499,
+  "total_iocs": 865,
+  "c2_servers": 513,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 222,
-    "c2": 213,
+    "iocs": 230,
+    "c2": 221,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 75,
-    "c2": 21,
+    "iocs": 77,
+    "c2": 22,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 50,
+    "iocs": 49,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -42,16 +42,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
+    "name": "ClearFake",
+    "iocs": 28,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
     "name": "AsyncRAT",
     "iocs": 27,
     "c2": 19,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
-   },
-   {
-    "name": "ClearFake",
-    "iocs": 27,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Sliver",
@@ -60,32 +60,32 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    },
    {
-    "name": "Remcos",
-    "iocs": 22,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+    "name": "Cobalt Strike",
+    "iocs": 23,
+    "c2": 23,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
-  "sample": 465,
-  "online": 307,
+  "sample": 475,
+  "online": 317,
   "top_tags": [
    {
     "name": "elf",
-    "count": 165
+    "count": 171
    },
    {
     "name": "Mozi",
-    "count": 86
+    "count": 92
    },
    {
     "name": "32-bit",
-    "count": 78
+    "count": 83
    },
    {
     "name": "mips",
-    "count": 61
+    "count": 66
    },
    {
     "name": "ua-wget",
@@ -93,91 +93,91 @@
    },
    {
     "name": "arm",
-    "count": 26
+    "count": 27
    },
    {
     "name": "cowrie",
-    "count": 24
+    "count": 25
    },
    {
     "name": "honeypot",
-    "count": 24
+    "count": 25
    }
   ]
  },
  "ports": [
   {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 1012374,
-   "targets": 263,
-   "sources": 13786
-  },
-  {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 913912,
-   "targets": 272,
-   "sources": 10234
+   "records": 167587,
+   "targets": 196,
+   "sources": 4230
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 805941,
-   "targets": 266,
-   "sources": 9734
-  },
-  {
-   "port": 22,
-   "service": "SSH",
-   "records": 670074,
-   "targets": 270,
-   "sources": 14859
+   "records": 125486,
+   "targets": 211,
+   "sources": 2904
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 633177,
-   "targets": 274,
-   "sources": 8390
+   "records": 100504,
+   "targets": 200,
+   "sources": 1171
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 78540,
+   "targets": 209,
+   "sources": 1951
+  },
+  {
+   "port": 22,
+   "service": "SSH",
+   "records": 63564,
+   "targets": 222,
+   "sources": 2536
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 476363,
-   "targets": 267,
-   "sources": 12095
+   "records": 52662,
+   "targets": 227,
+   "sources": 2207
   },
   {
    "port": 2222,
    "service": null,
-   "records": 176405,
-   "targets": 278,
-   "sources": 7271
+   "records": 16665,
+   "targets": 194,
+   "sources": 1207
   },
   {
    "port": 51413,
    "service": null,
-   "records": 139127,
-   "targets": 150,
-   "sources": 5079
+   "records": 15088,
+   "targets": 5,
+   "sources": 1237
   },
   {
    "port": 16767,
    "service": null,
-   "records": 95347,
-   "targets": 9,
-   "sources": 4168
+   "records": 8326,
+   "targets": 2,
+   "sources": 1176
   },
   {
-   "port": 6881,
+   "port": 9000,
    "service": null,
-   "records": 80282,
-   "targets": 232,
-   "sources": 2728
+   "records": 6891,
+   "targets": 184,
+   "sources": 384
   }
  ],
- "ports_date": "2026-10-11",
+ "ports_date": "2026-10-12",
  "diary": [
   {
    "title": "ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)",
@@ -496,10 +496,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-12T03:08:42+00:00",
-  "sans": "2026-10-12T03:08:42+00:00",
-  "otx": "2026-10-12T03:08:42+00:00",
-  "urlhaus": "2026-10-12T03:08:42+00:00"
+  "threatfox": "2026-10-12T04:16:54+00:00",
+  "sans": "2026-10-12T04:16:54+00:00",
+  "otx": "2026-10-12T04:16:54+00:00",
+  "urlhaus": "2026-10-12T04:16:54+00:00"
  },
- "generated_at": "2026-10-12T03:08:42+00:00"
+ "generated_at": "2026-10-12T04:16:54+00:00"
 }
