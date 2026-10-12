@@ -65,6 +65,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+     "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via Cryptobilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was…",
+     "source": "The Hacker News",
+     "date": "2026-10-12T11:21:48+00:00",
+     "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "iRhythm Data Breach Impacts at Least 360,000 People",
      "summary": "Hackers stole patients’ personal information, including names, addresses, email addresses, dates of birth, and phone numbers. The post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek.",
      "source": "SecurityWeek",
@@ -217,63 +225,42 @@
      ]
     },
     {
-     "title": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
-     "summary": "The flaws, CVE-2026-105133 and CVE-2026-105134, allow attackers to bypass authentication and inject OS commands. The post Unpatched AhsayCBS Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-09T10:23:42+00:00",
-     "url": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "GoBalance Flaw Lets Attackers Hijack.onion Addresses by Recovering Tor-Format Keys",
      "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's.onion address using only public information, and then take that address…",
      "source": "The Hacker News",
      "date": "2026-10-09T09:03:24+00:00",
      "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
-     "summary": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-09T08:27:42+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-88779",
-      "CVE-2026-88772",
-      "CVE-2026-88771"
-     ]
-    },
-    {
-     "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
-     "summary": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits…",
-     "source": "The Hacker News",
-     "date": "2026-10-09T08:26:17+00:00",
-     "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-58704"
-     ]
-    },
-    {
-     "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-     "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions…",
-     "source": "The Hacker News",
-     "date": "2026-10-09T08:11:33+00:00",
-     "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-88779",
-      "CVE-2026-88772",
-      "CVE-2026-88771"
-     ]
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
+     "summary": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal The post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-12T11:58:39+00:00",
+     "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
+     "group": "Other news"
+    },
+    {
+     "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
+     "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-12T11:58:33+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+     "group": "Other news"
+    },
+    {
+     "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+     "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror…",
+     "source": "The Hacker News",
+     "date": "2026-10-12T11:55:00+00:00",
+     "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+     "group": "Other news"
+    },
     {
      "title": "Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
      "summary": "Beginning February 2027, all newly issued certificates will have a 64-day validity period by default. The post Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeared first on…",
