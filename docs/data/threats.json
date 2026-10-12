@@ -2,19 +2,25 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 905,
-  "c2_servers": 562,
+  "total_iocs": 910,
+  "c2_servers": 566,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 267,
-    "c2": 258,
+    "iocs": 265,
+    "c2": 256,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "DanaBot",
+    "iocs": 96,
+    "c2": 96,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.danabot"
+   },
+   {
     "name": "Mirai",
-    "iocs": 84,
-    "c2": 25,
+    "iocs": 73,
+    "c2": 14,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -24,52 +30,46 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "DanaBot",
-    "iocs": 41,
-    "c2": 41,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.danabot"
-   },
-   {
     "name": "Remcos",
-    "iocs": 34,
-    "c2": 34,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
-   },
-   {
-    "name": "AsyncRAT",
-    "iocs": 28,
-    "c2": 19,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
-   },
-   {
-    "name": "Sliver",
-    "iocs": 26,
-    "c2": 26,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
-   },
-   {
-    "name": "ClearFake",
-    "iocs": 25,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Cobalt Strike",
     "iocs": 25,
     "c2": 25,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "VShell",
     "iocs": 25,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 24,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "AsyncRAT",
+    "iocs": 23,
+    "c2": 14,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
+    "name": "Sliver",
+    "iocs": 23,
+    "c2": 23,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
+   },
+   {
+    "name": "AMOS",
+    "iocs": 22,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 891,
+  "online": 899,
   "top_tags": [
    {
     "name": "zip",
@@ -93,15 +93,15 @@
    },
    {
     "name": "elf",
-    "count": 126
+    "count": 125
    },
    {
     "name": "Mozi",
-    "count": 73
+    "count": 65
    },
    {
     "name": "32-bit",
-    "count": 60
+    "count": 53
    }
   ]
  },
@@ -496,10 +496,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-12T08:59:02+00:00",
-  "sans": "2026-10-12T08:59:02+00:00",
-  "otx": "2026-10-12T08:59:02+00:00",
-  "urlhaus": "2026-10-12T08:59:02+00:00"
+  "threatfox": "2026-10-12T10:09:32+00:00",
+  "sans": "2026-10-12T10:09:32+00:00",
+  "otx": "2026-10-12T10:09:32+00:00",
+  "urlhaus": "2026-10-12T10:09:32+00:00"
  },
- "generated_at": "2026-10-12T08:59:02+00:00"
+ "generated_at": "2026-10-12T10:09:32+00:00"
 }
