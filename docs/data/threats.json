@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1418,
-  "c2_servers": 928,
+  "total_iocs": 1455,
+  "c2_servers": 954,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 742,
-    "c2": 715,
+    "iocs": 767,
+    "c2": 740,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -31,15 +31,9 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 29,
+    "iocs": 32,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Remcos",
-    "iocs": 28,
-    "c2": 28,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "PureRAT",
@@ -48,16 +42,22 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 26,
+    "c2": 26,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "AMOS",
-    "iocs": 24,
+    "iocs": 25,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 23,
-    "c2": 23,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "Remcos",
+    "iocs": 24,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "Formbook",
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 723,
+  "online": 696,
   "top_tags": [
    {
     "name": "zip",
-    "count": 295
+    "count": 281
    },
    {
     "name": "FakeGit",
-    "count": 294
+    "count": 280
    },
    {
     "name": "SmartLoader",
-    "count": 294
+    "count": 280
    },
    {
     "name": "Stealc",
-    "count": 294
+    "count": 280
    },
    {
     "name": "luajit",
-    "count": 294
+    "count": 280
    },
    {
     "name": "elf",
-    "count": 221
+    "count": 227
    },
    {
     "name": "Mozi",
-    "count": 138
+    "count": 144
    },
    {
     "name": "32-bit",
-    "count": 119
+    "count": 125
    }
   ]
  },
@@ -212,6 +212,29 @@
  ],
  "pulses": [
   {
+   "name": "From WhatsApp to SYSTEM: Inside the VulcanRAT207.A Intrusion Chain",
+   "summary": "A sophisticated multi-stage intrusion chain begins with a WhatsApp-delivered financial document lure carrying Statement.exe. The malware employs NRV2E compression to conceal its true payload, which performs extensive…",
+   "date": "2026-10-12T15:28:24+00:00",
+   "author": "AlienVault",
+   "adversary": "TA4922",
+   "malware": [
+    "VulcanRAT207.A",
+    "Statement.exe",
+    "GoFly64.sys"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "whatsapp delivery",
+    "vulcanrat207.a",
+    "system privilege escalation",
+    "dll side-loading",
+    "vulkan persistence",
+    "gofly64.sys"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6accfc98a21fbfce518cceaa"
+  },
+  {
    "name": "From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases",
    "summary": "A North Korean threat actor distributed Funhouse ransomware through malicious Korean-language documents disguised as resumes. Funhouse is a variant of the previously observed Endpoint ransomware. The attack chain…",
    "date": "2026-10-12T13:15:52+00:00",
@@ -233,6 +256,38 @@
     "quasar rat"
    ],
    "url": "https://otx.alienvault.com/pulse/6accdd88406e67c287aa23a5"
+  },
+  {
+   "name": "The phone was compromised before the user turned it on: the rise of Midnight Mimosa",
+   "summary": "A sophisticated malware campaign targets low-cost Android devices built on MediaTek platforms, with malicious code preinstalled in device firmware before users receive them. The platform-signed system application…",
+   "date": "2026-10-12T11:01:40+00:00",
+   "author": "AlienVault",
+   "adversary": "Midnight Mimosa",
+   "malware": [
+    "Midnight Mimosa",
+    "EnLoaderLib",
+    "Android.Joker",
+    "Android.Phantom",
+    "Android.Click"
+   ],
+   "countries": [
+    "United States of America",
+    "Brazil",
+    "France",
+    "Germany",
+    "Italy",
+    "Mexico"
+   ],
+   "industries": [],
+   "tags": [
+    "ad fraud",
+    "enloaderlib",
+    "android.phantom",
+    "mediatek platform",
+    "residential proxy",
+    "botnet"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6accbe14102992eb5a52b063"
   },
   {
    "name": "Inside a brand deal scam targeting YouTube creators",
@@ -397,61 +452,6 @@
    "url": "https://otx.alienvault.com/pulse/6ac84a166254b974f23968a2"
   },
   {
-   "name": "US disrupts Chinese hacking tools as 7 govts warn of PRC spies stealing sensitive data worldwide",
-   "summary": "The FBI seized seven web domains linked to Integrity Technology Group, a Chinese security firm allegedly providing hacking tools to Beijing-backed operatives. These tools enabled attacks on critical infrastructure…",
-   "date": "2026-10-09T01:57:41+00:00",
-   "author": "AlienVault",
-   "adversary": "Flax Typhoon",
-   "malware": [
-    "Mirai",
-    "FishHub"
-   ],
-   "countries": [
-    "United States of America",
-    "Japan",
-    "Poland",
-    "Taiwan"
-   ],
-   "industries": [
-    "Energy",
-    "Education",
-    "Government",
-    "NGO",
-    "Transportation"
-   ],
-   "tags": [
-    "microscan",
-    "integrity technology group",
-    "vulnerability scanning",
-    "flax typhoon",
-    "fishhub"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac84a155bb626a3710179b9"
-  },
-  {
-   "name": "Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware",
-   "summary": "In July 2026, Zscaler ThreatLabz uncovered a sophisticated campaign utilizing a trojanized Terraform provider to deliver cross-platform malware targeting cryptocurrency and Web3 developers. The attack begins with a…",
-   "date": "2026-10-08T20:12:51+00:00",
-   "author": "AlienVault",
-   "adversary": "TraderTraitor",
-   "malware": [
-    "FLATROOF",
-    "ROOFDECK"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology",
-    "Finance"
-   ],
-   "tags": [
-    "flatroof",
-    "roofdeck",
-    "tradertraitor",
-    "nostr"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac7f9431e9712b6c5e2a6cd"
-  },
-  {
    "name": "Malicious Twitch Browser Extension Exposes 30,000 Users' OAuth Tokens to Russian Bot Service",
    "summary": "A malicious browser extension called 'Twitch Enhanced Viewer | JeetBot' distributed on Chrome Web Store and Firefox Add-ons captures and forwards users' live Twitch OAuth session tokens to Russian-controlled proxy…",
    "date": "2026-09-11T18:06:36+00:00",
@@ -492,10 +492,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-13T12:53:44+00:00",
-  "sans": "2026-10-13T12:53:44+00:00",
-  "otx": "2026-10-13T12:53:44+00:00",
-  "urlhaus": "2026-10-13T12:53:44+00:00"
+  "threatfox": "2026-10-13T13:49:47+00:00",
+  "sans": "2026-10-13T13:49:47+00:00",
+  "otx": "2026-10-13T13:49:47+00:00",
+  "urlhaus": "2026-10-13T13:49:47+00:00"
  },
- "generated_at": "2026-10-13T12:53:44+00:00"
+ "generated_at": "2026-10-13T13:49:47+00:00"
 }
