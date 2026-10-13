@@ -79,14 +79,6 @@
      "date": "2026-10-12T11:21:48+00:00",
      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-     "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in…",
-     "source": "The Hacker News",
-     "date": "2026-10-12T07:26:12+00:00",
-     "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
@@ -94,11 +86,49 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
+     "summary": "CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. The post Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN…",
+     "source": "SecurityWeek",
+     "date": "2026-10-13T18:43:43+00:00",
+     "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-104935"
+     ]
+    },
+    {
+     "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+     "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that…",
+     "source": "The Hacker News",
+     "date": "2026-10-13T18:03:18+00:00",
+     "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
      "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
      "source": "BleepingComputer",
      "date": "2026-10-13T17:49:38+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+     "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws…",
+     "source": "The Hacker News",
+     "date": "2026-10-13T17:33:11+00:00",
+     "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-104935"
+     ]
+    },
+    {
+     "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
+     "summary": "A flaw in SAP's Cloud SDK for Python can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13. The flaw affects multi-tenant applications on SAP…",
+     "source": "The Hacker News",
+     "date": "2026-10-13T17:28:50+00:00",
+     "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
      "group": "Exploited right now"
     },
     {
@@ -178,44 +208,20 @@
      "date": "2026-10-13T08:43:37+00:00",
      "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "GitLab warns of max severity code execution vulnerability",
-     "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-12T13:09:09+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-     "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as…",
-     "source": "The Hacker News",
-     "date": "2026-10-12T10:36:56+00:00",
-     "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-     "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS…",
-     "source": "The Hacker News",
-     "date": "2026-10-12T09:02:14+00:00",
-     "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-     "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint…",
-     "source": "The Hacker News",
-     "date": "2026-10-11T04:24:34+00:00",
-     "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+     "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The…",
+     "source": "The Hacker News",
+     "date": "2026-10-13T18:20:57+00:00",
+     "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "XWorm RAT Evolves Into Surveillance Platform",
      "summary": "Expanded plugin count allows the malware to monitor users’ location, stream live audio, and interact with authenticated browser sessions. The post XWorm RAT Evolves Into Surveillance Platform appeared first on…",
@@ -245,6 +251,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+     "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-13T19:04:38+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+     "group": "Other news"
+    },
     {
      "title": "UK Housing Ombudsman Service investigates 'security incident'",
      "summary": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]",
@@ -323,14 +337,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-12T15:23:34+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
-     "group": "Other news"
-    },
-    {
-     "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
-     "summary": "The all-stock deal brings Elisity’s least-privilege access technology into IonQ’s security portfolio. The post IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-12T14:25:00+00:00",
-     "url": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
      "group": "Other news"
     },
     {

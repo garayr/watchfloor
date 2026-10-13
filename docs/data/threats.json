@@ -2,36 +2,36 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1757,
-  "c2_servers": 1068,
+  "total_iocs": 1800,
+  "c2_servers": 1105,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 919,
-    "c2": 892,
+    "iocs": 956,
+    "c2": 929,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 150,
+    "iocs": 152,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 125,
-    "c2": 2,
+    "iocs": 122,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 83,
+    "iocs": 89,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 45,
+    "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -48,16 +48,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
-    "name": "Remcos",
-    "iocs": 27,
-    "c2": 27,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
-   },
-   {
     "name": "AMOS",
     "iocs": 25,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Remcos",
+    "iocs": 24,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "Formbook",
@@ -69,11 +69,11 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 589,
+  "online": 574,
   "top_tags": [
    {
     "name": "elf",
-    "count": 302
+    "count": 304
    },
    {
     "name": "Mozi",
@@ -81,7 +81,7 @@
    },
    {
     "name": "ua-wget",
-    "count": 141
+    "count": 143
    },
    {
     "name": "32-bit",
@@ -89,19 +89,19 @@
    },
    {
     "name": "zip",
-    "count": 121
+    "count": 116
    },
    {
     "name": "FakeGit",
-    "count": 120
+    "count": 115
    },
    {
     "name": "SmartLoader",
-    "count": 120
+    "count": 115
    },
    {
     "name": "Stealc",
-    "count": 120
+    "count": 115
    }
   ]
  },
@@ -485,10 +485,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-13T18:11:04+00:00",
-  "sans": "2026-10-13T18:11:04+00:00",
-  "otx": "2026-10-13T18:11:04+00:00",
-  "urlhaus": "2026-10-13T18:11:04+00:00"
+  "threatfox": "2026-10-13T19:10:23+00:00",
+  "sans": "2026-10-13T19:10:23+00:00",
+  "otx": "2026-10-13T19:10:23+00:00",
+  "urlhaus": "2026-10-13T19:10:23+00:00"
  },
- "generated_at": "2026-10-13T18:11:04+00:00"
+ "generated_at": "2026-10-13T19:10:23+00:00"
 }
