@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-13T15:00:41+00:00",
+ "generated_at": "2026-10-13T15:58:19+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 50
-  },
-  {
-   "name": "qilin",
-   "count": 7
+   "count": 52
   },
   {
    "name": "interlock",
+   "count": 6
+  },
+  {
+   "name": "qilin",
    "count": 6
   },
   {
@@ -44,11 +44,11 @@
   },
   {
    "name": "Manufacturing",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Professional Services",
-   "count": 9
+   "count": 11
   },
   {
    "name": "Technology",
@@ -56,17 +56,17 @@
   },
   {
    "name": "Healthcare",
-   "count": 7
+   "count": 6
   },
   {
-   "name": "Other",
-   "count": 5
+   "name": "Energy & Utilities",
+   "count": 4
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 28,
+   "count": 27,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -107,12 +107,6 @@
    "lon": 72.9
   },
   {
-   "code": "JP",
-   "count": 3,
-   "lat": 35.7,
-   "lon": 139.7
-  },
-  {
    "code": "TW",
    "count": 3,
    "lat": 25.0,
@@ -131,12 +125,6 @@
    "lon": 116.4
   },
   {
-   "code": "CO",
-   "count": 2,
-   "lat": 4.7,
-   "lon": -74.1
-  },
-  {
    "code": "ES",
    "count": 2,
    "lat": 40.4,
@@ -147,6 +135,12 @@
    "count": 2,
    "lat": 22.3,
    "lon": 114.2
+  },
+  {
+   "code": "JP",
+   "count": 2,
+   "lat": 35.7,
+   "lon": 139.7
   },
   {
    "code": "MA",
@@ -161,6 +155,12 @@
    "lon": 103.8
   },
   {
+   "code": "AR",
+   "count": 1,
+   "lat": -34.6,
+   "lon": -58.4
+  },
+  {
    "code": "AU",
    "count": 1,
    "lat": -33.9,
@@ -173,16 +173,22 @@
    "lon": -70.6
   },
   {
+   "code": "CO",
+   "count": 1,
+   "lat": 4.7,
+   "lon": -74.1
+  },
+  {
    "code": "EC",
    "count": 1,
    "lat": -0.2,
    "lon": -78.5
   },
   {
-   "code": "EG",
+   "code": "FR",
    "count": 1,
-   "lat": 30.0,
-   "lon": 31.2
+   "lat": 48.9,
+   "lon": 2.35
   },
   {
    "code": "KW",
@@ -215,12 +221,6 @@
    "lon": 46.7
   },
   {
-   "code": "TH",
-   "count": 1,
-   "lat": 13.75,
-   "lon": 100.5
-  },
-  {
    "code": "TR",
    "count": 1,
    "lat": 41.0,
@@ -240,6 +240,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Valode & Pistre",
+   "group": "Panzer",
+   "date": "2026-10-13T10:58:42+00:00",
+   "attack_date": "2026-10-13",
+   "country": "FR",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/VmFsb2RlICYgUGlzdHJlQFBhbnplcg=="
+  },
+  {
+   "victim": "Zenidoc",
+   "group": "Panzer",
+   "date": "2026-10-13T10:58:11+00:00",
+   "attack_date": "2026-10-13",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/WmVuaWRvY0BQYW56ZXI="
+  },
+  {
+   "victim": "MarieBelle New York",
+   "group": "N0n",
+   "date": "2026-10-13T10:56:26+00:00",
+   "attack_date": "2026-10-13",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/TWFyaWVCZWxsZSBOZXcgWW9ya0BOMG4="
+  },
+  {
+   "victim": "PG Group (Pure Options)",
+   "group": "N0n",
+   "date": "2026-10-13T10:55:35+00:00",
+   "attack_date": "2026-10-13",
+   "country": null,
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/UEcgR3JvdXAgKFB1cmUgT3B0aW9ucylATjBu"
+  },
+  {
+   "victim": "CMC AUDITORES SRL",
+   "group": "emperador",
+   "date": "2026-10-13T10:52:09+00:00",
+   "attack_date": "2026-10-13",
+   "country": "AR",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Q01DIEFVRElUT1JFUyBTUkxAZW1wZXJhZG9y"
+  },
+  {
+   "victim": "Decorolala",
+   "group": "BYOD",
+   "date": "2026-10-13T10:50:22+00:00",
+   "attack_date": "2026-10-13",
+   "country": null,
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/RGVjb3JvbGFsYUBCWU9E"
+  },
   {
    "victim": "The Buckner Company, Inc.",
    "group": "aurora",
@@ -1085,60 +1139,6 @@
    "country": "TW",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/VEVYTUEgSW50ZXJuYXRpb25hbCBDby4sIEx0ZEBkcmFnb25mb3JjZQ=="
-  },
-  {
-   "victim": "Royal Thai Air Force",
-   "group": "thegentlemen",
-   "date": "2026-10-10T20:30:08+00:00",
-   "attack_date": "2026-10-10",
-   "country": "TH",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/Um95YWwgVGhhaSBBaXIgRm9yY2VAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Helwan University (HITU)",
-   "group": "UmBra",
-   "date": "2026-10-10T16:54:23+00:00",
-   "attack_date": "2026-10-10",
-   "country": "EG",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/SGVsd2FuIFVuaXZlcnNpdHkgKEhJVFUpQFVtQnJh"
-  },
-  {
-   "victim": "DexCom",
-   "group": "Redact",
-   "date": "2026-10-10T16:53:38+00:00",
-   "attack_date": "2026-10-10",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/RGV4Q29tQFJlZGFjdA=="
-  },
-  {
-   "victim": "ACI Proyectos SAS",
-   "group": "qilin",
-   "date": "2026-10-10T16:06:32+00:00",
-   "attack_date": "2026-10-10",
-   "country": "CO",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/QUNJIFByb3llY3RvcyBTQVNAcWlsaW4="
-  },
-  {
-   "victim": "KOIKE Sanso Kogoyo Co. Ltd.",
-   "group": "exitium",
-   "date": "2026-10-10T14:31:50+00:00",
-   "attack_date": "2026-10-10",
-   "country": "JP",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/S09JS0UgU2Fuc28gS29nb3lvIENvLiBMdGQuQGV4aXRpdW0="
-  },
-  {
-   "victim": "Gress Clark Young & Schoepper",
-   "group": "rhysida",
-   "date": "2026-10-10T12:46:50+00:00",
-   "attack_date": "2026-10-10",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/R3Jlc3MgQ2xhcmsgWW91bmcgJiBTY2hvZXBwZXJAcmh5c2lkYQ=="
   }
  ]
 }
