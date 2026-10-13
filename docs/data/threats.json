@@ -2,62 +2,62 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2089,
-  "c2_servers": 1203,
+  "total_iocs": 2210,
+  "c2_servers": 1335,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1005,
-    "c2": 978,
+    "iocs": 1007,
+    "c2": 980,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 290,
+    "iocs": 291,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
-    "iocs": 166,
+    "iocs": 165,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
+    "name": "Coruna",
+    "iocs": 97,
+    "c2": 97,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/ios.coruna"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 96,
+    "iocs": 95,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "SalatStealer",
+    "iocs": 70,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
     "name": "Unknown Stealer",
-    "iocs": 56,
-    "c2": 56,
+    "iocs": 57,
+    "c2": 57,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 41,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "Phorpiex",
-    "iocs": 33,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.phorpiex"
-   },
-   {
     "name": "AMOS",
-    "iocs": 29,
+    "iocs": 33,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
-    "name": "PureRAT",
-    "iocs": 25,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
     "name": "Remcos",
@@ -69,19 +69,19 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 549,
+  "online": 548,
   "top_tags": [
    {
     "name": "elf",
-    "count": 323
+    "count": 332
    },
    {
     "name": "Mozi",
-    "count": 170
+    "count": 179
    },
    {
     "name": "32-bit",
-    "count": 150
+    "count": 157
    },
    {
     "name": "ua-wget",
@@ -89,19 +89,19 @@
    },
    {
     "name": "mips",
-    "count": 108
+    "count": 117
+   },
+   {
+    "name": "arm",
+    "count": 58
    },
    {
     "name": "zip",
-    "count": 65
+    "count": 48
    },
    {
     "name": "FakeGit",
-    "count": 64
-   },
-   {
-    "name": "SmartLoader",
-    "count": 64
+    "count": 47
    }
   ]
  },
@@ -485,10 +485,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-13T22:06:02+00:00",
-  "sans": "2026-10-13T22:06:02+00:00",
-  "otx": "2026-10-13T22:06:02+00:00",
-  "urlhaus": "2026-10-13T22:06:02+00:00"
+  "threatfox": "2026-10-13T23:04:17+00:00",
+  "sans": "2026-10-13T23:04:17+00:00",
+  "otx": "2026-10-13T23:04:17+00:00",
+  "urlhaus": "2026-10-13T23:04:17+00:00"
  },
- "generated_at": "2026-10-13T22:06:02+00:00"
+ "generated_at": "2026-10-13T23:04:17+00:00"
 }
