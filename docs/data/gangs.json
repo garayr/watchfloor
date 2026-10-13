@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T18:11:04+00:00",
+ "generated_at": "2026-10-13T20:06:24+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -7118,6 +7118,147 @@
    ],
    "history_size": 51,
    "updated": "2026-10-13T04:58:26+00:00"
+  },
+  "sarcoma": {
+   "name": "sarcoma",
+   "description": "Sarcoma is a ransomware group that debuted in October 2024, immediately ranking among the top three most active groups globally and surpassing 116 documented victims by mid-2025, targeting mid-market companies across manufacturing, retail, healthcare, legal, and business services with roughly 50% of victims in the United States.",
+   "aliases": [],
+   "first_seen": "2024-07-09",
+   "last_seen": "2026-10-13",
+   "victims_total": 142,
+   "cves": [],
+   "tools": [
+    "Advanced IP Scanner"
+   ],
+   "techniques": [
+    "Valid Accounts",
+    "Exploit Public-Facing Application",
+    "Trusted Relationship",
+    "Phishing",
+    "Phishing: Spearphishing Attachment",
+    "Scheduled Task/Job",
+    "Scheduled Task/Job: Cron",
+    "Obfuscated Files or Information",
+    "Modify Registry",
+    "Impair Defenses",
+    "Impair Defenses: Disable or Modify Tools",
+    "OS Credential Dumping",
+    "Remote System Discovery",
+    "File and Directory Discovery",
+    "System Location Discovery",
+    "System Location Discovery: System Language Discovery",
+    "Remote Services",
+    "Archive Collected Data",
+    "Exfiltration Over Web Service",
+    "Remote Access Tools"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 32
+     },
+     {
+      "name": "IT",
+      "count": 15
+     },
+     {
+      "name": "CA",
+      "count": 13
+     },
+     {
+      "name": "DE",
+      "count": 12
+     },
+     {
+      "name": "AU",
+      "count": 8
+     },
+     {
+      "name": "BR",
+      "count": 7
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Professional Services",
+      "count": 37
+     },
+     {
+      "name": "Manufacturing",
+      "count": 34
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 16
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 11
+     },
+     {
+      "name": "Technology",
+      "count": 11
+     },
+     {
+      "name": "Transportation",
+      "count": 9
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 3
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 2
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 1
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 142,
+   "updated": "2026-10-13T20:06:24+00:00"
   }
  }
 }

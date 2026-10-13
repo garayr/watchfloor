@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-13T19:10:23+00:00",
+ "generated_at": "2026-10-13T20:06:24+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 50
+   "count": 45
   },
   {
    "name": "Orova",
@@ -17,11 +17,11 @@
    "count": 6
   },
   {
-   "name": "play",
-   "count": 5
+   "name": "qilin",
+   "count": 6
   },
   {
-   "name": "qilin",
+   "name": "play",
    "count": 5
   },
   {
@@ -52,21 +52,21 @@
   },
   {
    "name": "Technology",
+   "count": 7
+  },
+  {
+   "name": "Healthcare",
    "count": 6
   },
   {
    "name": "Other",
    "count": 5
-  },
-  {
-   "name": "Energy & Utilities",
-   "count": 4
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 21,
+   "count": 22,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -83,6 +83,12 @@
    "lon": -46.6
   },
   {
+   "code": "IN",
+   "count": 5,
+   "lat": 19.1,
+   "lon": 72.9
+  },
+  {
    "code": "GB",
    "count": 4,
    "lat": 51.5,
@@ -95,28 +101,22 @@
    "lon": 106.8
   },
   {
-   "code": "IN",
-   "count": 4,
-   "lat": 19.1,
-   "lon": 72.9
-  },
-  {
    "code": "DE",
    "count": 3,
    "lat": 50.1,
    "lon": 8.7
   },
   {
+   "code": "JP",
+   "count": 3,
+   "lat": 35.7,
+   "lon": 139.7
+  },
+  {
    "code": "SG",
    "count": 3,
    "lat": 1.35,
    "lon": 103.8
-  },
-  {
-   "code": "CA",
-   "count": 2,
-   "lat": 43.7,
-   "lon": -79.4
   },
   {
    "code": "CN",
@@ -137,12 +137,6 @@
    "lon": 114.2
   },
   {
-   "code": "JP",
-   "count": 2,
-   "lat": 35.7,
-   "lon": 139.7
-  },
-  {
    "code": "TW",
    "count": 2,
    "lat": 25.0,
@@ -153,6 +147,12 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
+  },
+  {
+   "code": "CA",
+   "count": 1,
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "CL",
@@ -215,6 +215,12 @@
    "lon": 4.9
   },
   {
+   "code": "NO",
+   "count": 1,
+   "lat": 59.9,
+   "lon": 10.8
+  },
+  {
    "code": "PE",
    "count": 1,
    "lat": -12.0,
@@ -246,6 +252,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "KVH",
+   "group": "everest",
+   "date": "2026-10-13T16:03:50+00:00",
+   "attack_date": "2026-10-13",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/S1ZIQGV2ZXJlc3Q="
+  },
+  {
+   "victim": "Laerdal",
+   "group": "everest",
+   "date": "2026-10-13T16:03:09+00:00",
+   "attack_date": "2026-10-13",
+   "country": "NO",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/TGFlcmRhbEBldmVyZXN0"
+  },
+  {
+   "victim": "Topcon Healthcare",
+   "group": "everest",
+   "date": "2026-10-13T16:02:33+00:00",
+   "attack_date": "2026-10-13",
+   "country": "JP",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/VG9wY29uIEhlYWx0aGNhcmVAZXZlcmVzdA=="
+  },
+  {
+   "victim": "victim",
+   "group": "sarcoma",
+   "date": "2026-10-13T15:38:22+00:00",
+   "attack_date": "2026-10-13",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/dmljdGltQHNhcmNvbWE="
+  },
+  {
+   "victim": "Iliff, Meredith, Wildberger & Brennan, P.C",
+   "group": "qilin",
+   "date": "2026-10-13T15:15:49+00:00",
+   "attack_date": "2026-10-13",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/SWxpZmYsIE1lcmVkaXRoLCBXaWxkYmVyZ2VyICYgQnJlbm5hbiwgUC5DQHFpbGlu"
+  },
+  {
+   "victim": "Great Lakes",
+   "group": "incransom",
+   "date": "2026-10-13T15:11:46+00:00",
+   "attack_date": "2026-10-13",
+   "country": "IN",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/R3JlYXQgTGFrZXNAaW5jcmFuc29t"
+  },
   {
    "victim": "Durga Bearings",
    "group": "Orova",
@@ -1091,60 +1151,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjNATjBu"
-  },
-  {
-   "victim": "Company #22",
-   "group": "N0n",
-   "date": "2026-10-11T18:55:38+00:00",
-   "attack_date": "2026-10-11",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjJATjBu"
-  },
-  {
-   "victim": "Company #21",
-   "group": "N0n",
-   "date": "2026-10-11T18:55:04+00:00",
-   "attack_date": "2026-10-11",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjFATjBu"
-  },
-  {
-   "victim": "Company #20",
-   "group": "N0n",
-   "date": "2026-10-11T18:54:28+00:00",
-   "attack_date": "2026-10-11",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjBATjBu"
-  },
-  {
-   "victim": "Company #19",
-   "group": "N0n",
-   "date": "2026-10-11T18:53:54+00:00",
-   "attack_date": "2026-10-11",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTlATjBu"
-  },
-  {
-   "victim": "Company #14",
-   "group": "N0n",
-   "date": "2026-10-11T18:53:20+00:00",
-   "attack_date": "2026-10-11",
-   "country": "CA",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTRATjBu"
-  },
-  {
-   "victim": "Reed & Giordano PA",
-   "group": "rhysida",
-   "date": "2026-10-11T15:28:31+00:00",
-   "attack_date": "2026-10-11",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/UmVlZCAmIEdpb3JkYW5vIFBBQHJoeXNpZGE="
   }
  ]
 }
