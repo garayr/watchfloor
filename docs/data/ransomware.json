@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T04:58:26+00:00",
+ "generated_at": "2026-10-13T06:00:15+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,18 +10,18 @@
   },
   {
    "name": "qilin",
-   "count": 9
+   "count": 8
   },
   {
    "name": "interlock",
    "count": 6
   },
   {
-   "name": "Orova",
-   "count": 4
+   "name": "play",
+   "count": 5
   },
   {
-   "name": "play",
+   "name": "Orova",
    "count": 4
   },
   {
@@ -44,7 +44,7 @@
   },
   {
    "name": "Manufacturing",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Professional Services",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 27,
+   "count": 28,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -125,12 +125,6 @@
    "lon": -79.4
   },
   {
-   "code": "CL",
-   "count": 2,
-   "lat": -33.4,
-   "lon": -70.6
-  },
-  {
    "code": "CN",
    "count": 2,
    "lat": 39.9,
@@ -171,6 +165,12 @@
    "count": 1,
    "lat": -33.9,
    "lon": 151.2
+  },
+  {
+   "code": "CL",
+   "count": 1,
+   "lat": -33.4,
+   "lon": -70.6
   },
   {
    "code": "EC",
@@ -240,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "The Innovation Group",
+   "group": "play",
+   "date": "2026-10-13T01:34:32+00:00",
+   "attack_date": "2026-10-13",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/VGhlIElubm92YXRpb24gR3JvdXBAcGxheQ=="
+  },
   {
    "victim": "DFK Group",
    "group": "play",
@@ -1130,15 +1139,6 @@
    "country": "US",
    "sector": "Hospitality",
    "url": "https://www.ransomware.live/id/R2xlbmhhcmRpZSBDb3VudHJ5IENsdWJAcWlsaW4="
-  },
-  {
-   "victim": "LD Constructora",
-   "group": "qilin",
-   "date": "2026-10-10T12:45:10+00:00",
-   "attack_date": "2026-10-10",
-   "country": "CL",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TEQgQ29uc3RydWN0b3JhQHFpbGlu"
   }
  ]
 }
