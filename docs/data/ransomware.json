@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T23:43:34+00:00",
+ "generated_at": "2026-10-13T00:55:06+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "qilin",
-   "count": 10
+   "count": 9
   },
   {
    "name": "interlock",
@@ -47,12 +47,12 @@
    "count": 11
   },
   {
-   "name": "Professional Services",
+   "name": "Healthcare",
    "count": 8
   },
   {
-   "name": "Healthcare",
-   "count": 7
+   "name": "Professional Services",
+   "count": 8
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 29,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -215,12 +215,6 @@
    "lon": 46.7
   },
   {
-   "code": "SE",
-   "count": 1,
-   "lat": 59.3,
-   "lon": 18.1
-  },
-  {
    "code": "TH",
    "count": 1,
    "lat": 13.75,
@@ -246,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "hiqbio.com",
+   "group": "safepay",
+   "date": "2026-10-12T20:25:24+00:00",
+   "attack_date": "2026-10-12",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/aGlxYmlvLmNvbUBzYWZlcGF5"
+  },
   {
    "victim": "Aeroklas Duys / Duys Engineering Group",
    "group": "Deadlock",
@@ -1136,15 +1139,6 @@
    "country": null,
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/c29sdXRlbmRAUGFuemVy"
-  },
-  {
-   "victim": "Vadeto Group",
-   "group": "qilin",
-   "date": "2026-10-09T20:08:10+00:00",
-   "attack_date": "2026-10-09",
-   "country": "SE",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/VmFkZXRvIEdyb3VwQHFpbGlu"
   }
  ]
 }
