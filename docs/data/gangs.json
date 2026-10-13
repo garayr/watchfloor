@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T21:44:31+00:00",
+ "generated_at": "2026-10-13T04:58:26+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1973,8 +1973,8 @@
    "description": "Initially observed in June 2022, the Play ransomware (a.k.a PlayCrypt) operates through double extortion, targeting numerous organizations in Latin America. Its Initial Access method is quite similar to other ransomwares, involving attacks such as Phishing, Exposed Services to the Internet, and Valid Account compromises. On April 19, 2023, the security company Symantec published two new tools developed by the Play group. These tools allow the malicious actor to enumerate and exfiltrate data from the internal network. The post mentions the following: 'Play threat actors use the.NET infostealer to enumerate software and services via WMI, WinRM, Remote Registry, and Remote Service. The malware checks for the existence of security and backup software, as well as remote administration tools and other programs, saving the information in.CSV files that are compressed into a.ZIP file for later manual exfiltration by threat actors.'Source: https://github.com/crocodyli/ThreatActors-TTPs",
    "aliases": [],
    "first_seen": "2022-11-26",
-   "last_seen": "2026-09-30",
-   "victims_total": 1322,
+   "last_seen": "2026-10-13",
+   "victims_total": 1329,
    "cves": [],
    "tools": [
     "HandleKatz",
@@ -2021,7 +2021,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 943
+      "count": 947
      },
      {
       "name": "CA",
@@ -2029,11 +2029,11 @@
      },
      {
       "name": "GB",
-      "count": 41
+      "count": 42
      },
      {
       "name": "DE",
-      "count": 39
+      "count": 40
      },
      {
       "name": "NL",
@@ -2047,15 +2047,15 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 350
+      "count": 352
      },
      {
       "name": "Professional Services",
-      "count": 304
+      "count": 305
      },
      {
       "name": "Technology",
-      "count": 167
+      "count": 168
      },
      {
       "name": "Retail & E-Commerce",
@@ -2067,15 +2067,11 @@
      },
      {
       "name": "Agriculture and Food Production",
-      "count": 64
+      "count": 66
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-10",
-     "count": 26
-    },
     {
      "month": "2025-11",
      "count": 27
@@ -2119,10 +2115,14 @@
     {
      "month": "2026-09",
      "count": 14
+    },
+    {
+     "month": "2026-10",
+     "count": 7
     }
    ],
-   "history_size": 1322,
-   "updated": "2026-09-30T22:07:23+00:00"
+   "history_size": 1329,
+   "updated": "2026-10-13T04:58:26+00:00"
   },
   "interlock": {
    "name": "interlock",
@@ -6990,6 +6990,134 @@
    ],
    "history_size": 33,
    "updated": "2026-10-12T21:44:31+00:00"
+  },
+  "Orova": {
+   "name": "Orova",
+   "description": "First seen 2026-07-07",
+   "aliases": [],
+   "first_seen": "2026-05-03",
+   "last_seen": "2026-10-12",
+   "victims_total": 51,
+   "cves": [],
+   "tools": [],
+   "techniques": [
+    "Valid Accounts",
+    "Boot or Logon Autostart Execution",
+    "Network Sniffing",
+    "Remote Services",
+    "Use Alternate Authentication Material",
+    "Web Protocols",
+    "Data Encrypted for Impact",
+    "Inhibit System Recovery",
+    "Disable or Modify Tools"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 25
+     },
+     {
+      "name": "HK",
+      "count": 11
+     },
+     {
+      "name": "TW",
+      "count": 9
+     },
+     {
+      "name": "IN",
+      "count": 3
+     },
+     {
+      "name": "BR",
+      "count": 1
+     },
+     {
+      "name": "EG",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Other",
+      "count": 14
+     },
+     {
+      "name": "Technology",
+      "count": 8
+     },
+     {
+      "name": "Healthcare",
+      "count": 6
+     },
+     {
+      "name": "Manufacturing",
+      "count": 5
+     },
+     {
+      "name": "Professional Services",
+      "count": 5
+     },
+     {
+      "name": "Hospitality",
+      "count": 3
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 0
+    },
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 45
+    },
+    {
+     "month": "2026-09",
+     "count": 2
+    },
+    {
+     "month": "2026-10",
+     "count": 4
+    }
+   ],
+   "history_size": 51,
+   "updated": "2026-10-13T04:58:26+00:00"
   }
  }
 }

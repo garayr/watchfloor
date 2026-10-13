@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T03:57:51+00:00",
+ "generated_at": "2026-10-13T04:58:26+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -17,15 +17,15 @@
    "count": 6
   },
   {
-   "name": "thegentlemen",
-   "count": 5
+   "name": "Orova",
+   "count": 4
+  },
+  {
+   "name": "play",
+   "count": 4
   },
   {
    "name": "Dark Project",
-   "count": 3
-  },
-  {
-   "name": "Deadlock",
    "count": 3
   },
   {
@@ -44,29 +44,29 @@
   },
   {
    "name": "Manufacturing",
-   "count": 12
-  },
-  {
-   "name": "Healthcare",
-   "count": 8
+   "count": 13
   },
   {
    "name": "Professional Services",
-   "count": 8
+   "count": 9
   },
   {
    "name": "Technology",
-   "count": 6
+   "count": 8
+  },
+  {
+   "name": "Healthcare",
+   "count": 7
   },
   {
    "name": "Energy & Utilities",
-   "count": 5
+   "count": 4
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 27,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -77,16 +77,16 @@
    "lon": 127.0
   },
   {
-   "code": "ID",
-   "count": 5,
-   "lat": -6.2,
-   "lon": 106.8
-  },
-  {
    "code": "BR",
    "count": 4,
    "lat": -23.5,
    "lon": -46.6
+  },
+  {
+   "code": "ID",
+   "count": 4,
+   "lat": -6.2,
+   "lon": 106.8
   },
   {
    "code": "DE",
@@ -95,16 +95,28 @@
    "lon": 8.7
   },
   {
-   "code": "ES",
+   "code": "GB",
    "count": 3,
-   "lat": 40.4,
-   "lon": -3.7
+   "lat": 51.5,
+   "lon": -0.1
+  },
+  {
+   "code": "IN",
+   "count": 3,
+   "lat": 19.1,
+   "lon": 72.9
   },
   {
    "code": "JP",
    "count": 3,
    "lat": 35.7,
    "lon": 139.7
+  },
+  {
+   "code": "TW",
+   "count": 3,
+   "lat": 25.0,
+   "lon": 121.5
   },
   {
    "code": "CA",
@@ -131,10 +143,16 @@
    "lon": -74.1
   },
   {
-   "code": "GB",
+   "code": "ES",
    "count": 2,
-   "lat": 51.5,
-   "lon": -0.1
+   "lat": 40.4,
+   "lon": -3.7
+  },
+  {
+   "code": "HK",
+   "count": 2,
+   "lat": 22.3,
+   "lon": 114.2
   },
   {
    "code": "MA",
@@ -149,22 +167,10 @@
    "lon": 103.8
   },
   {
-   "code": "TW",
-   "count": 2,
-   "lat": 25.0,
-   "lon": 121.5
-  },
-  {
    "code": "AU",
    "count": 1,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "CH",
-   "count": 1,
-   "lat": 46.9,
-   "lon": 7.4
   },
   {
    "code": "EC",
@@ -179,22 +185,16 @@
    "lon": 31.2
   },
   {
-   "code": "HK",
-   "count": 1,
-   "lat": 22.3,
-   "lon": 114.2
-  },
-  {
-   "code": "IN",
-   "count": 1,
-   "lat": 19.1,
-   "lon": 72.9
-  },
-  {
    "code": "KW",
    "count": 1,
    "lat": 29.4,
    "lon": 48.0
+  },
+  {
+   "code": "MN",
+   "count": 1,
+   "lat": 47.9,
+   "lon": 106.9
   },
   {
    "code": "NL",
@@ -240,6 +240,78 @@
   }
  ],
  "victims": [
+  {
+   "victim": "DFK Group",
+   "group": "play",
+   "date": "2026-10-13T00:37:22+00:00",
+   "attack_date": "2026-10-13",
+   "country": "DE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/REZLIEdyb3VwQHBsYXk="
+  },
+  {
+   "victim": "Saddlers Court MFG",
+   "group": "play",
+   "date": "2026-10-13T00:36:48+00:00",
+   "attack_date": "2026-10-13",
+   "country": "GB",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/U2FkZGxlcnMgQ291cnQgTUZHQHBsYXk="
+  },
+  {
+   "victim": "Culinary Specialties",
+   "group": "play",
+   "date": "2026-10-13T00:36:14+00:00",
+   "attack_date": "2026-10-13",
+   "country": "US",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/Q3VsaW5hcnkgU3BlY2lhbHRpZXNAcGxheQ=="
+  },
+  {
+   "victim": "Advanced Imaging Solutions",
+   "group": "play",
+   "date": "2026-10-13T00:35:28+00:00",
+   "attack_date": "2026-10-13",
+   "country": "MN",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QWR2YW5jZWQgSW1hZ2luZyBTb2x1dGlvbnNAcGxheQ=="
+  },
+  {
+   "victim": "The Park Lane Hong Kong",
+   "group": "Orova",
+   "date": "2026-10-12T23:53:14+00:00",
+   "attack_date": "2026-10-12",
+   "country": "HK",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/VGhlIFBhcmsgTGFuZSBIb25nIEtvbmdAT3JvdmE="
+  },
+  {
+   "victim": "Libre Wireless Technologies",
+   "group": "Orova",
+   "date": "2026-10-12T23:52:42+00:00",
+   "attack_date": "2026-10-12",
+   "country": "IN",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/TGlicmUgV2lyZWxlc3MgVGVjaG5vbG9naWVzQE9yb3Zh"
+  },
+  {
+   "victim": "Amantya Technologies",
+   "group": "Orova",
+   "date": "2026-10-12T23:52:10+00:00",
+   "attack_date": "2026-10-12",
+   "country": "IN",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QW1hbnR5YSBUZWNobm9sb2dpZXNAT3JvdmE="
+  },
+  {
+   "victim": "Gatetech Technology",
+   "group": "Orova",
+   "date": "2026-10-12T23:51:39+00:00",
+   "attack_date": "2026-10-12",
+   "country": "TW",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/R2F0ZXRlY2ggVGVjaG5vbG9neUBPcm92YQ=="
+  },
   {
    "victim": "AAA Architectural Hardware",
    "group": "akira",
@@ -799,33 +871,6 @@
    "url": "https://www.ransomware.live/id/UGxhY2VyIEFJQHRoZWdlbnRsZW1lbg=="
   },
   {
-   "victim": "BigID",
-   "group": "thegentlemen",
-   "date": "2026-10-12T04:39:54+00:00",
-   "attack_date": "2026-10-10",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/QmlnSURAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Confluent",
-   "group": "thegentlemen",
-   "date": "2026-10-12T04:39:33+00:00",
-   "attack_date": "2026-10-10",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Q29uZmx1ZW50QHRoZWdlbnRsZW1lbg=="
-  },
-  {
-   "victim": "KFC",
-   "group": "thegentlemen",
-   "date": "2026-10-12T04:38:52+00:00",
-   "attack_date": "2026-10-10",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/S0ZDQHRoZWdlbnRsZW1lbg=="
-  },
-  {
    "victim": "Eversource Energy",
    "group": "Redact",
    "date": "2026-10-12T03:23:11+00:00",
@@ -1094,51 +1139,6 @@
    "country": "CL",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/TEQgQ29uc3RydWN0b3JhQHFpbGlu"
-  },
-  {
-   "victim": "Saber1",
-   "group": "Deadlock",
-   "date": "2026-10-09T22:51:48+00:00",
-   "attack_date": "2026-10-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/U2FiZXIxQERlYWRsb2Nr"
-  },
-  {
-   "victim": "idi pharma",
-   "group": "Deadlock",
-   "date": "2026-10-09T22:51:27+00:00",
-   "attack_date": "2026-10-09",
-   "country": "ES",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/aWRpIHBoYXJtYUBEZWFkbG9jaw=="
-  },
-  {
-   "victim": "hoteldelfinolugano.ch",
-   "group": "safepay",
-   "date": "2026-10-09T22:10:29+00:00",
-   "attack_date": "2026-10-09",
-   "country": "CH",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/aG90ZWxkZWxmaW5vbHVnYW5vLmNoQHNhZmVwYXk="
-  },
-  {
-   "victim": "dwi-bau.de",
-   "group": "safepay",
-   "date": "2026-10-09T22:09:44+00:00",
-   "attack_date": "2026-10-09",
-   "country": "DE",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/ZHdpLWJhdS5kZUBzYWZlcGF5"
-  },
-  {
-   "victim": "Supreme Energy",
-   "group": "Panzer",
-   "date": "2026-10-09T21:25:22+00:00",
-   "attack_date": "2026-10-09",
-   "country": "ID",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/U3VwcmVtZSBFbmVyZ3lAUGFuemVy"
   }
  ]
 }
