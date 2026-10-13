@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T04:58:26+00:00",
+ "generated_at": "2026-10-13T17:02:00+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -2383,8 +2383,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-30",
-   "victims_total": 18,
+   "last_seen": "2026-10-13",
+   "victims_total": 20,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -2397,7 +2397,7 @@
      },
      {
       "name": "BR",
-      "count": 2
+      "count": 3
      },
      {
       "name": "US",
@@ -2408,11 +2408,11 @@
       "count": 1
      },
      {
-      "name": "EC",
+      "name": "AU",
       "count": 1
      },
      {
-      "name": "GB",
+      "name": "EC",
       "count": 1
      }
     ],
@@ -2422,16 +2422,16 @@
       "count": 5
      },
      {
+      "name": "Retail & E-Commerce",
+      "count": 4
+     },
+     {
       "name": "Manufacturing",
       "count": 3
      },
      {
-      "name": "Retail & E-Commerce",
-      "count": 3
-     },
-     {
       "name": "Other",
-      "count": 2
+      "count": 3
      },
      {
       "name": "Education",
@@ -2490,11 +2490,11 @@
     },
     {
      "month": "2026-10",
-     "count": 0
+     "count": 2
     }
    ],
-   "history_size": 18,
-   "updated": "2026-10-01T01:14:29+00:00"
+   "history_size": 20,
+   "updated": "2026-10-13T17:02:00+00:00"
   },
   "Eclipse": {
    "name": "Eclipse",
@@ -4174,8 +4174,8 @@
    "description": "AuditTeam is a small ransomware group with approximately 5 known victims, primarily targeting organizations in East and Southeast Asia across technology and manufacturing sectors, operating a data leak site consistent with double-extortion methodology.",
    "aliases": [],
    "first_seen": "2026-02-21",
-   "last_seen": "2026-10-02",
-   "victims_total": 52,
+   "last_seen": "2026-10-13",
+   "victims_total": 56,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -4188,11 +4188,15 @@
      },
      {
       "name": "IT",
-      "count": 7
+      "count": 8
      },
      {
       "name": "KR",
       "count": 5
+     },
+     {
+      "name": "AE",
+      "count": 2
      },
      {
       "name": "AR",
@@ -4200,10 +4204,6 @@
      },
      {
       "name": "CO",
-      "count": 2
-     },
-     {
-      "name": "DE",
       "count": 2
      }
     ],
@@ -4225,11 +4225,11 @@
       "count": 2
      },
      {
-      "name": "Retail & E-Commerce",
+      "name": "Financial Services",
       "count": 2
      },
      {
-      "name": "Transportation",
+      "name": "Retail & E-Commerce",
       "count": 2
      }
     ]
@@ -4281,11 +4281,11 @@
     },
     {
      "month": "2026-10",
-     "count": 3
+     "count": 7
     }
    ],
-   "history_size": 52,
-   "updated": "2026-10-02T21:06:11+00:00"
+   "history_size": 56,
+   "updated": "2026-10-13T17:02:00+00:00"
   },
   "Panzer": {
    "name": "Panzer",

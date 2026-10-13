@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-13T15:58:19+00:00",
+ "generated_at": "2026-10-13T17:02:00+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 52
+   "count": 50
   },
   {
    "name": "interlock",
@@ -25,15 +25,15 @@
    "count": 4
   },
   {
+   "name": "AuditTeam",
+   "count": 3
+  },
+  {
    "name": "Dark Project",
    "count": 3
   },
   {
    "name": "akira",
-   "count": 3
-  },
-  {
-   "name": "dragonforce",
    "count": 3
   }
  ],
@@ -43,20 +43,20 @@
    "count": 37
   },
   {
-   "name": "Manufacturing",
-   "count": 11
-  },
-  {
    "name": "Professional Services",
    "count": 11
   },
   {
-   "name": "Technology",
-   "count": 8
+   "name": "Manufacturing",
+   "count": 10
   },
   {
-   "name": "Healthcare",
-   "count": 6
+   "name": "Technology",
+   "count": 7
+  },
+  {
+   "name": "Other",
+   "count": 5
   },
   {
    "name": "Energy & Utilities",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 27,
+   "count": 24,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -78,9 +78,15 @@
   },
   {
    "code": "BR",
-   "count": 4,
+   "count": 5,
    "lat": -23.5,
    "lon": -46.6
+  },
+  {
+   "code": "GB",
+   "count": 5,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "ID",
@@ -95,22 +101,10 @@
    "lon": 8.7
   },
   {
-   "code": "GB",
-   "count": 3,
-   "lat": 51.5,
-   "lon": -0.1
-  },
-  {
    "code": "IN",
    "count": 3,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "TW",
-   "count": 3,
-   "lat": 25.0,
-   "lon": 121.5
   },
   {
    "code": "CA",
@@ -155,6 +149,12 @@
    "lon": 103.8
   },
   {
+   "code": "TW",
+   "count": 2,
+   "lat": 25.0,
+   "lon": 121.5
+  },
+  {
    "code": "AR",
    "count": 1,
    "lat": -34.6,
@@ -189,6 +189,12 @@
    "count": 1,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "IT",
+   "count": 1,
+   "lat": 41.9,
+   "lon": 12.5
   },
   {
    "code": "KW",
@@ -240,6 +246,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Guarufilme",
+   "group": "Vexy Ransomware",
+   "date": "2026-10-13T12:31:50+00:00",
+   "attack_date": "2026-10-13",
+   "country": "BR",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/R3VhcnVmaWxtZUBWZXh5IFJhbnNvbXdhcmU="
+  },
+  {
+   "victim": "AD***ed",
+   "group": "AuditTeam",
+   "date": "2026-10-13T12:21:27+00:00",
+   "attack_date": "2026-10-13",
+   "country": "GB",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QUQqKiplZEBBdWRpdFRlYW0="
+  },
+  {
+   "victim": "Ze***ce",
+   "group": "AuditTeam",
+   "date": "2026-10-13T12:20:55+00:00",
+   "attack_date": "2026-10-13",
+   "country": "IT",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/WmUqKipjZUBBdWRpdFRlYW0="
+  },
+  {
+   "victim": "Sa***ge",
+   "group": "AuditTeam",
+   "date": "2026-10-13T12:20:23+00:00",
+   "attack_date": "2026-10-13",
+   "country": "GB",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/U2EqKipnZUBBdWRpdFRlYW0="
+  },
   {
    "victim": "Valode & Pistre",
    "group": "Panzer",
@@ -934,15 +976,6 @@
    "url": "https://www.ransomware.live/id/Q2FuYWRpYW4gTWVubm9uaXRlIFVuaXZlcnNpdHkgKENNVSlAZHJhZ29uZm9yY2U="
   },
   {
-   "victim": "Placer AI",
-   "group": "thegentlemen",
-   "date": "2026-10-12T04:40:15+00:00",
-   "attack_date": "2026-10-10",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/UGxhY2VyIEFJQHRoZWdlbnRsZW1lbg=="
-  },
-  {
    "victim": "Eversource Energy",
    "group": "Redact",
    "date": "2026-10-12T03:23:11+00:00",
@@ -1069,24 +1102,6 @@
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjdATjBu"
   },
   {
-   "victim": "Company #26",
-   "group": "N0n",
-   "date": "2026-10-11T14:23:05+00:00",
-   "attack_date": "2026-10-11",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjZATjBu"
-  },
-  {
-   "victim": "Company #25",
-   "group": "N0n",
-   "date": "2026-10-11T14:22:32+00:00",
-   "attack_date": "2026-10-11",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjVATjBu"
-  },
-  {
    "victim": "CNESTEN",
    "group": "qilin",
    "date": "2026-10-11T12:03:56+00:00",
@@ -1130,15 +1145,6 @@
    "country": "CO",
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/Q29uZmlwZXRyb2xAcWlsaW4="
-  },
-  {
-   "victim": "TEXMA International Co., Ltd",
-   "group": "dragonforce",
-   "date": "2026-10-10T20:31:45+00:00",
-   "attack_date": "2026-10-10",
-   "country": "TW",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/VEVYTUEgSW50ZXJuYXRpb25hbCBDby4sIEx0ZEBkcmFnb25mb3JjZQ=="
   }
  ]
 }
