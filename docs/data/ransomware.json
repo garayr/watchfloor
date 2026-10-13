@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-13T17:02:00+00:00",
+ "generated_at": "2026-10-13T18:11:04+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 50
+   "count": 49
   },
   {
    "name": "interlock",
@@ -143,6 +143,12 @@
    "lon": -7.6
   },
   {
+   "code": "PE",
+   "count": 2,
+   "lat": -12.0,
+   "lon": -77.0
+  },
+  {
    "code": "SG",
    "count": 2,
    "lat": 1.35,
@@ -159,12 +165,6 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
-  },
-  {
-   "code": "AU",
-   "count": 1,
-   "lat": -33.9,
-   "lon": 151.2
   },
   {
    "code": "CL",
@@ -215,12 +215,6 @@
    "lon": 4.9
   },
   {
-   "code": "PE",
-   "count": 1,
-   "lat": -12.0,
-   "lon": -77.0
-  },
-  {
    "code": "SA",
    "count": 1,
    "lat": 24.7,
@@ -246,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Interseguro",
+   "group": "direwolf",
+   "date": "2026-10-13T13:57:53+00:00",
+   "attack_date": "2026-10-13",
+   "country": "PE",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/SW50ZXJzZWd1cm9AZGlyZXdvbGY="
+  },
   {
    "victim": "Guarufilme",
    "group": "Vexy Ransomware",
@@ -1091,15 +1094,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjhATjBu"
-  },
-  {
-   "victim": "Company #27",
-   "group": "N0n",
-   "date": "2026-10-11T14:23:38+00:00",
-   "attack_date": "2026-10-11",
-   "country": "AU",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjdATjBu"
   },
   {
    "victim": "CNESTEN",

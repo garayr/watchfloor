@@ -2,20 +2,32 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1547,
-  "c2_servers": 1026,
+  "total_iocs": 1757,
+  "c2_servers": 1068,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 873,
-    "c2": 846,
+    "iocs": 919,
+    "c2": 892,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 140,
-    "c2": 2,
+    "iocs": 150,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 125,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 83,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "php.shin_webshell",
@@ -30,78 +42,66 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.phorpiex"
    },
    {
-    "name": "ClearFake",
-    "iocs": 32,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "AMOS",
-    "iocs": 29,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
-    "name": "Remcos",
-    "iocs": 28,
-    "c2": 28,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
-   },
-   {
     "name": "PureRAT",
     "iocs": 27,
     "c2": 24,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
+    "name": "Remcos",
+    "iocs": 27,
+    "c2": 27,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+   },
+   {
+    "name": "AMOS",
+    "iocs": 25,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
     "name": "Formbook",
     "iocs": 21,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
-   },
-   {
-    "name": "AsyncRAT",
-    "iocs": 20,
-    "c2": 11,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 603,
+  "online": 589,
   "top_tags": [
    {
     "name": "elf",
-    "count": 295
+    "count": 302
    },
    {
     "name": "Mozi",
-    "count": 149
-   },
-   {
-    "name": "zip",
-    "count": 136
-   },
-   {
-    "name": "FakeGit",
-    "count": 135
-   },
-   {
-    "name": "SmartLoader",
-    "count": 135
-   },
-   {
-    "name": "Stealc",
-    "count": 135
-   },
-   {
-    "name": "luajit",
-    "count": 135
+    "count": 151
    },
    {
     "name": "ua-wget",
+    "count": 141
+   },
+   {
+    "name": "32-bit",
     "count": 131
+   },
+   {
+    "name": "zip",
+    "count": 121
+   },
+   {
+    "name": "FakeGit",
+    "count": 120
+   },
+   {
+    "name": "SmartLoader",
+    "count": 120
+   },
+   {
+    "name": "Stealc",
+    "count": 120
    }
   ]
  },
@@ -485,10 +485,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-13T17:02:00+00:00",
-  "sans": "2026-10-13T17:02:00+00:00",
-  "otx": "2026-10-13T17:02:00+00:00",
-  "urlhaus": "2026-10-13T17:02:00+00:00"
+  "threatfox": "2026-10-13T18:11:04+00:00",
+  "sans": "2026-10-13T18:11:04+00:00",
+  "otx": "2026-10-13T18:11:04+00:00",
+  "urlhaus": "2026-10-13T18:11:04+00:00"
  },
- "generated_at": "2026-10-13T17:02:00+00:00"
+ "generated_at": "2026-10-13T18:11:04+00:00"
 }
