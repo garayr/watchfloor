@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1455,
-  "c2_servers": 954,
+  "total_iocs": 1453,
+  "c2_servers": 970,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 767,
-    "c2": 740,
+    "iocs": 803,
+    "c2": 776,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 107,
+    "iocs": 95,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -43,21 +43,21 @@
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 26,
-    "c2": 26,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "AMOS",
     "iocs": 25,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+    "c2": 25,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "Remcos",
     "iocs": 24,
     "c2": 24,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+   },
+   {
+    "name": "AMOS",
+    "iocs": 23,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Formbook",
@@ -69,31 +69,31 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 696,
+  "online": 653,
   "top_tags": [
    {
     "name": "zip",
-    "count": 281
+    "count": 238
    },
    {
     "name": "FakeGit",
-    "count": 280
+    "count": 237
    },
    {
     "name": "SmartLoader",
-    "count": 280
+    "count": 237
    },
    {
     "name": "Stealc",
-    "count": 280
-   },
-   {
-    "name": "luajit",
-    "count": 280
+    "count": 237
    },
    {
     "name": "elf",
-    "count": 227
+    "count": 237
+   },
+   {
+    "name": "luajit",
+    "count": 237
    },
    {
     "name": "Mozi",
@@ -211,6 +211,29 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Kimsuky attacks targeting Ukrainian experts in diplomacy, security, and international policy",
+   "summary": "The Kimsuky threat group has launched spear phishing campaigns targeting Ukrainian experts in diplomacy, security, and international policy through fraudulent international conference invitations and collaboration…",
+   "date": "2026-10-13T13:53:55+00:00",
+   "author": "AlienVault",
+   "adversary": "Kimsuky",
+   "malware": [],
+   "countries": [
+    "Ukraine"
+   ],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "operation gitpower",
+    "state-sponsored espionage",
+    "chm attacks",
+    "github abuse",
+    "spear phishing",
+    "lnk files"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ace37f3bfe7f0829254f7bf"
+  },
   {
    "name": "From WhatsApp to SYSTEM: Inside the VulcanRAT207.A Intrusion Chain",
    "summary": "A sophisticated multi-stage intrusion chain begins with a WhatsApp-delivered financial document lure carrying Statement.exe. The malware employs NRV2E compression to conceal its true payload, which performs extensive…",
@@ -422,36 +445,6 @@
    "url": "https://otx.alienvault.com/pulse/6ac84a1665712fe245b07ce7"
   },
   {
-   "name": "MATCHBOIL: New tricks, same old evil intentions",
-   "summary": "ESET researchers documented the evolution of MATCHBOIL, a custom C# downloader used by Russia-aligned APT group UAC-0099. The malware downloads payloads from command-and-control servers, installs them, and establishes…",
-   "date": "2026-10-09T01:57:42+00:00",
-   "author": "AlienVault",
-   "adversary": "UAC-0099",
-   "malware": [
-    "MATCHBOIL",
-    "MATCHWOK",
-    "LONEPAGE"
-   ],
-   "countries": [
-    "Ukraine"
-   ],
-   "industries": [
-    "Transportation",
-    "Manufacturing",
-    "Energy",
-    "Government",
-    "Finance",
-    "Media"
-   ],
-   "tags": [
-    "matchboil",
-    "spearphishing",
-    "uac-0099",
-    "lonepage"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac84a166254b974f23968a2"
-  },
-  {
    "name": "Malicious Twitch Browser Extension Exposes 30,000 Users' OAuth Tokens to Russian Bot Service",
    "summary": "A malicious browser extension called 'Twitch Enhanced Viewer | JeetBot' distributed on Chrome Web Store and Firefox Add-ons captures and forwards users' live Twitch OAuth session tokens to Russian-controlled proxy…",
    "date": "2026-09-11T18:06:36+00:00",
@@ -492,10 +485,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-13T13:49:47+00:00",
-  "sans": "2026-10-13T13:49:47+00:00",
-  "otx": "2026-10-13T13:49:47+00:00",
-  "urlhaus": "2026-10-13T13:49:47+00:00"
+  "threatfox": "2026-10-13T15:00:41+00:00",
+  "sans": "2026-10-13T15:00:41+00:00",
+  "otx": "2026-10-13T15:00:41+00:00",
+  "urlhaus": "2026-10-13T15:00:41+00:00"
  },
- "generated_at": "2026-10-13T13:49:47+00:00"
+ "generated_at": "2026-10-13T15:00:41+00:00"
 }
