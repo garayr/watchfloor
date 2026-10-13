@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1377,
-  "c2_servers": 794,
+  "total_iocs": 1390,
+  "c2_servers": 828,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 537,
-    "c2": 510,
+    "iocs": 576,
+    "c2": 549,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 163,
-    "c2": 4,
+    "iocs": 157,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -25,7 +25,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 45,
+    "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -43,65 +43,65 @@
    },
    {
     "name": "AMOS",
-    "iocs": 28,
+    "iocs": 26,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "IClickFix",
-    "iocs": 27,
+    "iocs": 26,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Remcos",
-    "iocs": 27,
-    "c2": 27,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+    "name": "Cobalt Strike",
+    "iocs": 24,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 25,
-    "c2": 25,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "PureRAT",
+    "iocs": 24,
+    "c2": 21,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 824,
+  "online": 801,
   "top_tags": [
    {
     "name": "zip",
-    "count": 452
+    "count": 428
    },
    {
     "name": "FakeGit",
-    "count": 451
+    "count": 427
    },
    {
     "name": "SmartLoader",
-    "count": 451
+    "count": 427
    },
    {
     "name": "Stealc",
-    "count": 451
+    "count": 427
    },
    {
     "name": "luajit",
-    "count": 451
+    "count": 427
    },
    {
     "name": "elf",
-    "count": 159
+    "count": 169
    },
    {
     "name": "Mozi",
-    "count": 101
+    "count": 111
    },
    {
     "name": "32-bit",
-    "count": 85
+    "count": 95
    }
   ]
  },
@@ -492,10 +492,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-13T07:07:13+00:00",
-  "sans": "2026-10-13T07:07:13+00:00",
-  "otx": "2026-10-13T07:07:13+00:00",
-  "urlhaus": "2026-10-13T07:07:13+00:00"
+  "threatfox": "2026-10-13T08:19:37+00:00",
+  "sans": "2026-10-13T08:19:37+00:00",
+  "otx": "2026-10-13T08:19:37+00:00",
+  "urlhaus": "2026-10-13T08:19:37+00:00"
  },
- "generated_at": "2026-10-13T07:07:13+00:00"
+ "generated_at": "2026-10-13T08:19:37+00:00"
 }
