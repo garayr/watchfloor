@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T21:09:38+00:00",
+ "generated_at": "2026-10-13T22:06:02+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -25,15 +25,15 @@
    "count": 5
   },
   {
-   "name": "Orova",
-   "count": 4
-  },
-  {
    "name": "AuditTeam",
    "count": 3
   },
   {
    "name": "Dark Project",
+   "count": 3
+  },
+  {
+   "name": "Orova",
    "count": 3
   }
  ],
@@ -56,17 +56,17 @@
   },
   {
    "name": "Other",
-   "count": 6
+   "count": 7
   },
   {
-   "name": "Energy & Utilities",
+   "name": "Retail & E-Commerce",
    "count": 4
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 20,
+   "count": 19,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -131,16 +131,22 @@
    "lon": 116.4
   },
   {
+   "code": "EC",
+   "count": 2,
+   "lat": -0.2,
+   "lon": -78.5
+  },
+  {
    "code": "ES",
    "count": 2,
    "lat": 40.4,
    "lon": -3.7
   },
   {
-   "code": "HK",
+   "code": "TR",
    "count": 2,
-   "lat": 22.3,
-   "lon": 114.2
+   "lat": 41.0,
+   "lon": 29.0
   },
   {
    "code": "AR",
@@ -161,16 +167,16 @@
    "lon": -70.6
   },
   {
-   "code": "EC",
-   "count": 1,
-   "lat": -0.2,
-   "lon": -78.5
-  },
-  {
    "code": "FR",
    "count": 1,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "HK",
+   "count": 1,
+   "lat": 22.3,
+   "lon": 114.2
   },
   {
    "code": "IT",
@@ -233,12 +239,6 @@
    "lon": 46.7
   },
   {
-   "code": "TR",
-   "count": 1,
-   "lat": 41.0,
-   "lon": 29.0
-  },
-  {
    "code": "TW",
    "count": 1,
    "lat": 25.0,
@@ -258,6 +258,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Ecuador police headquarters",
+   "group": "HYFLOCK",
+   "date": "2026-10-13T17:11:39+00:00",
+   "attack_date": "2026-10-12",
+   "country": "EC",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/RWN1YWRvciBwb2xpY2UgaGVhZHF1YXJ0ZXJzQEhZRkxPQ0s="
+  },
+  {
+   "victim": "merkezilac_archives",
+   "group": "HYFLOCK",
+   "date": "2026-10-13T17:10:12+00:00",
+   "attack_date": "2026-10-13",
+   "country": "TR",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/bWVya2V6aWxhY19hcmNoaXZlc0BIWUZMT0NL"
+  },
   {
    "victim": "Ahlqvist & Almqvist Arkitekter AB",
    "group": "Wallstreet",
@@ -635,15 +653,6 @@
    "country": "MN",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/QWR2YW5jZWQgSW1hZ2luZyBTb2x1dGlvbnNAcGxheQ=="
-  },
-  {
-   "victim": "The Park Lane Hong Kong",
-   "group": "Orova",
-   "date": "2026-10-12T23:53:14+00:00",
-   "attack_date": "2026-10-12",
-   "country": "HK",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/VGhlIFBhcmsgTGFuZSBIb25nIEtvbmdAT3JvdmE="
   },
   {
    "victim": "hiqbio.com",
@@ -1148,15 +1157,6 @@
    "country": "CA",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/Q2FuYWRpYW4gTWVubm9uaXRlIFVuaXZlcnNpdHkgKENNVSlAZHJhZ29uZm9yY2U="
-  },
-  {
-   "victim": "Eversource Energy",
-   "group": "Redact",
-   "date": "2026-10-12T03:23:11+00:00",
-   "attack_date": "2026-10-12",
-   "country": "US",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/RXZlcnNvdXJjZSBFbmVyZ3lAUmVkYWN0"
   }
  ]
 }
