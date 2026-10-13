@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T00:55:06+00:00",
+ "generated_at": "2026-10-13T01:56:15+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -29,11 +29,11 @@
    "count": 3
   },
   {
-   "name": "dragonforce",
+   "name": "akira",
    "count": 3
   },
   {
-   "name": "rhysida",
+   "name": "dragonforce",
    "count": 3
   }
  ],
@@ -44,7 +44,7 @@
   },
   {
    "name": "Manufacturing",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Healthcare",
@@ -56,7 +56,7 @@
   },
   {
    "name": "Technology",
-   "count": 7
+   "count": 6
   },
   {
    "name": "Energy & Utilities",
@@ -240,6 +240,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "AAA Architectural Hardware",
+   "group": "akira",
+   "date": "2026-10-12T20:55:17+00:00",
+   "attack_date": "2026-10-12",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/QUFBIEFyY2hpdGVjdHVyYWwgSGFyZHdhcmVAYWtpcmE="
+  },
   {
    "victim": "hiqbio.com",
    "group": "safepay",
@@ -1130,15 +1139,6 @@
    "country": "ID",
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/U3VwcmVtZSBFbmVyZ3lAUGFuemVy"
-  },
-  {
-   "victim": "solutend",
-   "group": "Panzer",
-   "date": "2026-10-09T21:24:50+00:00",
-   "attack_date": "2026-10-09",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/c29sdXRlbmRAUGFuemVy"
   }
  ]
 }
