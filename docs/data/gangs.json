@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T20:41:49+00:00",
+ "generated_at": "2026-10-13T21:09:38+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -4056,8 +4056,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-06-16",
-   "last_seen": "2026-10-02",
-   "victims_total": 26,
+   "last_seen": "2026-10-13",
+   "victims_total": 39,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -4066,11 +4066,19 @@
     "countries": [
      {
       "name": "US",
-      "count": 19
+      "count": 20
+     },
+     {
+      "name": "SE",
+      "count": 10
      },
      {
       "name": "GB",
       "count": 2
+     },
+     {
+      "name": "DE",
+      "count": 1
      },
      {
       "name": "DK",
@@ -4079,40 +4087,32 @@
      {
       "name": "EC",
       "count": 1
-     },
-     {
-      "name": "IN",
-      "count": 1
-     },
-     {
-      "name": "IR",
-      "count": 1
      }
     ],
     "sectors": [
      {
-      "name": "Manufacturing",
-      "count": 6
+      "name": "Healthcare",
+      "count": 8
      },
      {
-      "name": "Healthcare",
-      "count": 5
+      "name": "Manufacturing",
+      "count": 7
+     },
+     {
+      "name": "Professional Services",
+      "count": 6
      },
      {
       "name": "Education",
       "count": 4
      },
      {
+      "name": "Other",
+      "count": 4
+     },
+     {
       "name": "Energy & Utilities",
       "count": 2
-     },
-     {
-      "name": "Financial Services",
-      "count": 1
-     },
-     {
-      "name": "Government & Defense",
-      "count": 1
      }
     ]
    },
@@ -4163,11 +4163,11 @@
     },
     {
      "month": "2026-10",
-     "count": 1
+     "count": 14
     }
    ],
-   "history_size": 26,
-   "updated": "2026-10-02T16:06:11+00:00"
+   "history_size": 39,
+   "updated": "2026-10-13T21:09:38+00:00"
   },
   "AuditTeam": {
    "name": "AuditTeam",
