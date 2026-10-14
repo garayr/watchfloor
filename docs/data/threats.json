@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2229,
-  "c2_servers": 1373,
+  "total_iocs": 2228,
+  "c2_servers": 1377,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1026,
-    "c2": 999,
+    "iocs": 1027,
+    "c2": 1000,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -19,13 +19,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 133,
+    "iocs": 128,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 101,
+    "iocs": 100,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -49,39 +49,39 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 42,
+    "iocs": 44,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "AMOS",
-    "iocs": 37,
+    "iocs": 41,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 27,
-    "c2": 27,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "Remcos",
+    "iocs": 28,
+    "c2": 28,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    }
   ]
  },
  "urls": {
-  "sample": 791,
-  "online": 382,
+  "sample": 847,
+  "online": 414,
   "top_tags": [
    {
     "name": "elf",
-    "count": 303
+    "count": 311
    },
    {
     "name": "Mozi",
-    "count": 162
+    "count": 166
    },
    {
     "name": "32-bit",
-    "count": 139
+    "count": 143
    },
    {
     "name": "ua-wget",
@@ -89,11 +89,11 @@
    },
    {
     "name": "mips",
-    "count": 107
+    "count": 109
    },
    {
     "name": "arm",
-    "count": 52
+    "count": 54
    },
    {
     "name": "honeypot",
@@ -211,6 +211,124 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Case of AgentTesla Malware Distribution Disguised as a Business Proposal Email",
+   "summary": "A phishing campaign has been observed distributing AgentTesla infostealer through emails masquerading as business proposal requests. Recipients are asked to review an attached product list, but the ZIP file contains an…",
+   "date": "2026-10-14T13:26:11+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "AgentTesla"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "phishing email",
+    "ftp exfiltration",
+    "social engineering",
+    "obfuscation",
+    "multi-stage loader",
+    "infostealer"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acf82f3a84bcf5248537bf9"
+  },
+  {
+   "name": "ClingSTUN Turns Vulnerable Edge Devices Into Attacker Infrastructure",
+   "summary": "An evolving Linux malware campaign deploys ClingSTUN, a back-connect proxy backdoor exploiting known vulnerabilities in Internet-facing IoT and network devices. The malware establishes persistent access and converts…",
+   "date": "2026-10-14T12:44:18+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ClingSTUN",
+    "Mirai"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "proxy backdoor",
+    "cve-2025-34035",
+    "cve-2022-36553",
+    "iot exploitation",
+    "edge device targeting",
+    "botnet"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acf7922d9bc17d95d27ec5c"
+  },
+  {
+   "name": "2026 Q3 Linux SSH Server Targeted Malware Statistics Report",
+   "summary": "During Q3 2026, honeypot monitoring revealed attacks targeting poorly managed Linux SSH servers through brute force and dictionary attacks. Primary malware families included ShellBot (also known as PerlBot), a…",
+   "date": "2026-10-14T07:14:43+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ShellBot",
+    "Fisieredoor",
+    "XMRig",
+    "XHide",
+    "goauto",
+    "tsm"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "libssl2.3.0.so",
+    "xhide",
+    "fisieredoor",
+    "cryptocurrency-mining",
+    "rootkit",
+    "dictionary-attack"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acf2be335dd8bbd4e27ec2e"
+  },
+  {
+   "name": "Q3 2026 Statistical Report on Malware Targeting Windows Database Servers",
+   "summary": "During the third quarter of 2026, attackers targeted MS-SQL and MySQL servers on Windows systems through multiple attack vectors including brute-force attacks, dictionary attacks, and vulnerability exploitation. Threat…",
+   "date": "2026-10-14T07:14:41+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "XMRig",
+    "GotoHTTP",
+    "SoftEther",
+    "Sharp4WebCmd",
+    "Suo5",
+    "VShell"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "credential theft",
+    "ringq",
+    "ms-sql",
+    "brute-force attacks",
+    "fscan",
+    "hackbrowserdata"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acf2be17afb8c6c6b066bc9"
+  },
+  {
+   "name": "2026 Third Quarter Windows Web Server Targeted Malware Statistics Report",
+   "summary": "This analysis examines attacks against Windows web servers during Q3 2026, focusing on Internet Information Services (IIS) and Apache Tomcat environments. Attackers exploited unpatched vulnerabilities…",
+   "date": "2026-10-14T07:11:45+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "SweetPotato",
+    "PrintSpoofer",
+    "Godzilla"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "windows web server",
+    "potato tools",
+    "godzilla",
+    "privilege escalation",
+    "iis",
+    "wordpress scanner"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acf2b317368c1ddc08ce818"
+  },
   {
    "name": "Statistical Report on Malware Targeting Linux SSH Servers in the Third Quarter of 2026",
    "summary": "During the third quarter of 2026, multiple attack campaigns targeted poorly managed Linux SSH servers using brute force, dictionary attacks, and vulnerability exploits. Threat actors deployed ShellBot, a Perl-based DDoS…",
@@ -377,113 +495,13 @@
     "botnet"
    ],
    "url": "https://otx.alienvault.com/pulse/6accbe14102992eb5a52b063"
-  },
-  {
-   "name": "Inside a brand deal scam targeting YouTube creators",
-   "summary": "A sophisticated phishing campaign targets YouTube content creators through personalized sponsorship emails impersonating legitimate brands like Hollyland, Nike, and Spotify. Attackers send customized collaboration…",
-   "date": "2026-10-12T01:30:11+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "Japan",
-    "Peru"
-   ],
-   "industries": [
-    "Media"
-   ],
-   "tags": [
-    "google account compromise",
-    "sso abuse",
-    "social engineering",
-    "youtube creators",
-    "sponsorship scam",
-    "credential theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acc3823ee551dd1565f0a27"
-  },
-  {
-   "name": "Threat Overview: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Being Exploited in Production Environments (Updated September 30)",
-   "summary": "Two critical zero-day vulnerabilities in NetScaler ADC and Gateway systems are being actively exploited in the wild. CVE-2026-88771 is a remote code execution vulnerability allowing unauthenticated command injection…",
-   "date": "2026-10-10T07:53:24+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "netscaler",
-    "command injection",
-    "cve-2026-88771",
-    "zero-day exploitation",
-    "remote code execution",
-    "dtls vulnerability"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac9eef4bcc05a59cd402770"
-  },
-  {
-   "name": "DNS as C2 in Noir, An AI-Developed Crypto Wallet Drainer",
-   "summary": "A cryptocurrency wallet-drainer kit called Noir uses DNS TXT records and DNS-over-HTTPS (DoH) as a dynamic command-and-control mechanism. The loader queries public DoH services to discover active infrastructure hosted…",
-   "date": "2026-10-09T22:03:27+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Noir"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "wallet permissions",
-    "cryptocurrency drainer",
-    "noir",
-    "doh abuse",
-    "ai-developed",
-    "dns over https"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac964afdcc4acb43c3ef335"
-  },
-  {
-   "name": "The Scalpel vs. The Sledgehammer: Lessons in Precision Triage from the.conf26 SOC",
-   "summary": "During a live Security Operations Center shift at.conf26 in Denver, analysts investigated Incident ES_00244 involving an exploit link detected by Cisco Secure Firewall. The challenge arose when 15 devices were found…",
-   "date": "2026-10-09T16:02:29+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "conference network security",
-    "cdn infrastructure",
-    "precision blocking",
-    "dns filtering",
-    "soc operations",
-    "byod threats"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac9101554900e3ae83df111"
-  },
-  {
-   "name": "Malicious Twitch Browser Extension Exposes 30,000 Users' OAuth Tokens to Russian Bot Service",
-   "summary": "A malicious browser extension called 'Twitch Enhanced Viewer | JeetBot' distributed on Chrome Web Store and Firefox Add-ons captures and forwards users' live Twitch OAuth session tokens to Russian-controlled proxy…",
-   "date": "2026-09-11T18:06:36+00:00",
-   "author": "AlienVault",
-   "adversary": "JeetBot",
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "oauth token theft",
-    "browser extension",
-    "proxy infrastructure",
-    "twitch"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aa4432cfc2e960cdf6ac1e0"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-14T12:48:53+00:00",
-  "sans": "2026-10-14T12:48:53+00:00",
-  "otx": "2026-10-14T12:48:53+00:00",
-  "urlhaus": "2026-10-14T12:48:53+00:00"
+  "threatfox": "2026-10-14T14:01:40+00:00",
+  "sans": "2026-10-14T14:01:40+00:00",
+  "otx": "2026-10-14T14:01:40+00:00",
+  "urlhaus": "2026-10-14T14:01:40+00:00"
  },
- "generated_at": "2026-10-14T12:48:53+00:00"
+ "generated_at": "2026-10-14T14:01:40+00:00"
 }
