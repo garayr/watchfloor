@@ -2,20 +2,14 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2078,
-  "c2_servers": 1417,
+  "total_iocs": 1856,
+  "c2_servers": 1381,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1033,
-    "c2": 1006,
+    "iocs": 1031,
+    "c2": 1004,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "Unknown Loader",
-    "iocs": 202,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Coruna",
@@ -24,34 +18,28 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/ios.coruna"
    },
    {
-    "name": "Mirai",
-    "iocs": 70,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "SalatStealer",
     "iocs": 69,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
-    "name": "ClearFake",
-    "iocs": 57,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Unknown Stealer",
-    "iocs": 54,
-    "c2": 53,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+    "name": "Mirai",
+    "iocs": 62,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 46,
+    "iocs": 47,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 44,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "AMOS",
@@ -64,24 +52,36 @@
     "iocs": 37,
     "c2": 37,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 34,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "WARDENStealer",
+    "iocs": 24,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    }
   ]
  },
  "urls": {
-  "sample": 949,
-  "online": 472,
+  "sample": 958,
+  "online": 458,
   "top_tags": [
    {
     "name": "elf",
-    "count": 352
+    "count": 357
    },
    {
     "name": "Mozi",
-    "count": 189
+    "count": 194
    },
    {
     "name": "32-bit",
-    "count": 163
+    "count": 167
    },
    {
     "name": "ua-wget",
@@ -89,19 +89,19 @@
    },
    {
     "name": "mips",
-    "count": 125
+    "count": 129
    },
    {
     "name": "arm",
-    "count": 61
+    "count": 62
    },
    {
     "name": "honeypot",
-    "count": 44
+    "count": 45
    },
    {
     "name": "cowrie",
-    "count": 39
+    "count": 40
    }
   ]
  },
@@ -498,10 +498,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-14T18:46:54+00:00",
-  "sans": "2026-10-14T18:46:54+00:00",
-  "otx": "2026-10-14T18:46:54+00:00",
-  "urlhaus": "2026-10-14T18:46:54+00:00"
+  "threatfox": "2026-10-14T19:57:14+00:00",
+  "sans": "2026-10-14T19:57:14+00:00",
+  "otx": "2026-10-14T19:57:14+00:00",
+  "urlhaus": "2026-10-14T19:57:14+00:00"
  },
- "generated_at": "2026-10-14T18:46:54+00:00"
+ "generated_at": "2026-10-14T19:57:14+00:00"
 }

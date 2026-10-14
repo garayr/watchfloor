@@ -1,6 +1,102 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-105134",
+   "date": "2026-10-14",
+   "src": "CISA",
+   "vendor": "Ahsay AhsayCBS",
+   "vendor_name": "Ahsay",
+   "product": "AhsayCBS",
+   "title": "Ahsay AhsayCBS Command Injection Vulnerability",
+   "detail": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-17",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-105134"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
+   "kev": true,
+   "epss": 0.0184,
+   "cvss": 9.3,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-76519",
+   "date": "2026-10-14",
+   "src": "CISA",
+   "vendor": "Cisco Secure Email Gateway",
+   "vendor_name": "Cisco",
+   "product": "Secure Email Gateway",
+   "title": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+   "detail": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-17",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-76519"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
+   "kev": true,
+   "cvss": 9.8,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+     "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+     "source": "The Hacker News",
+     "date": "2026-10-14T18:38:56+00:00"
+    },
+    {
+     "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+     "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+     "source": "BleepingComputer",
+     "date": "2026-10-14T17:29:14+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-105133",
+   "date": "2026-10-14",
+   "src": "CISA",
+   "vendor": "Ahsay AhsayCBS",
+   "vendor_name": "Ahsay",
+   "product": "AhsayCBS",
+   "title": "Ahsay AhsayCBS Improper Authentication Vulnerability",
+   "detail": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-17",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-105133"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+   "kev": true,
+   "epss": 0.0038,
+   "cvss": 5.5,
+   "sev": "high"
+  },
+  {
+   "id": "CVE-2026-0322",
+   "date": "2026-10-14",
+   "src": "CISA",
+   "vendor": "Palo Alto Networks PAN-OS",
+   "vendor_name": "Palo Alto Networks",
+   "product": "PAN-OS",
+   "title": "Palo Alto Networks PAN-OS Code Injection Vulnerability",
+   "detail": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-17",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-0322"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
+   "kev": true,
+   "cvss": 8.6,
+   "sev": "high"
+  },
+  {
    "id": "CVE-2026-104935",
    "date": "2026-10-13",
    "src": "CISA",
@@ -706,18 +802,6 @@
    "sev": "high"
   },
   {
-   "id": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
-   "date": "2026-09-15",
-   "src": "NCSC",
-   "vendor": "NCSC",
-   "title": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
-   "detail": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
-   "todo": "Read the advisory for affected products and mitigations.",
-   "cves": [],
-   "url": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
-   "sev": "medium"
-  },
-  {
    "id": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
    "date": "2026-09-15",
    "src": "NCSC",
@@ -727,6 +811,18 @@
    "todo": "Read the advisory for affected products and mitigations.",
    "cves": [],
    "url": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
+   "sev": "medium"
+  },
+  {
+   "id": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
+   "date": "2026-09-15",
+   "src": "NCSC",
+   "vendor": "NCSC",
+   "title": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
+   "detail": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
+   "todo": "Read the advisory for affected products and mitigations.",
+   "cves": [],
+   "url": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
    "sev": "medium"
   },
   {
