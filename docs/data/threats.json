@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1659,
+  "total_iocs": 1844,
   "c2_servers": 1375,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 995,
+    "iocs": 998,
     "c2": 993,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
@@ -19,13 +19,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 54,
+    "iocs": 68,
     "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 47,
+    "iocs": 50,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -36,20 +36,26 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Remcos",
-    "iocs": 40,
-    "c2": 40,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
-   },
-   {
     "name": "ClearFake",
     "iocs": 39,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Formbook",
+    "iocs": 38,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
+   },
+   {
+    "name": "Remcos",
+    "iocs": 38,
+    "c2": 38,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+   },
+   {
     "name": "Unknown Loader",
-    "iocs": 34,
+    "iocs": 33,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -58,26 +64,20 @@
     "iocs": 28,
     "c2": 28,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 23,
-    "c2": 23,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 482,
+  "online": 465,
   "top_tags": [
    {
     "name": "elf",
-    "count": 382
+    "count": 387
    },
    {
     "name": "Mozi",
-    "count": 197
+    "count": 202
    },
    {
     "name": "ua-wget",
@@ -85,15 +85,15 @@
    },
    {
     "name": "32-bit",
-    "count": 169
+    "count": 174
    },
    {
     "name": "mips",
-    "count": 132
+    "count": 135
    },
    {
     "name": "arm",
-    "count": 61
+    "count": 63
    },
    {
     "name": "honeypot",
@@ -498,10 +498,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-14T22:52:34+00:00",
-  "sans": "2026-10-14T22:52:34+00:00",
-  "otx": "2026-10-14T22:52:34+00:00",
-  "urlhaus": "2026-10-14T22:52:34+00:00"
+  "threatfox": "2026-10-14T23:47:40+00:00",
+  "sans": "2026-10-14T23:47:40+00:00",
+  "otx": "2026-10-14T23:47:40+00:00",
+  "urlhaus": "2026-10-14T23:47:40+00:00"
  },
- "generated_at": "2026-10-14T22:52:34+00:00"
+ "generated_at": "2026-10-14T23:47:40+00:00"
 }
