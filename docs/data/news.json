@@ -70,6 +70,17 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+     "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-14T17:29:14+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76461"
+     ]
+    },
+    {
      "title": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
      "summary": "ABB previously published an advisory warning about possible probing of a dynovaPRO vulnerability. The post ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw appeared first on…",
      "source": "SecurityWeek",
@@ -210,14 +221,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
-     "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-13T17:49:38+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
      "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws…",
      "source": "The Hacker News",
@@ -270,6 +273,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
+     "summary": "Ledger has asked resellers and distributors of its wallets in Indonesia, Singapore, Thailand, the Philippines, Vietnam, Malaysia, and Hong Kong to suspend device sales and remove products from shelves while it…",
+     "source": "BleepingComputer",
+     "date": "2026-10-14T17:46:50+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+     "group": "Other news"
+    },
     {
      "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
      "summary": "In Booz Allen’s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes. The post AI Agents Navigate Unfamiliar…",
@@ -348,14 +359,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-13T18:19:44+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
-     "group": "Other news"
-    },
-    {
-     "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
-     "summary": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-13T16:44:18+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
      "group": "Other news"
     }
    ]
