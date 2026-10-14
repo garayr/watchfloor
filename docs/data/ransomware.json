@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-14T02:54:35+00:00",
+ "generated_at": "2026-10-14T03:58:19+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 43
+   "count": 44
   },
   {
    "name": "Wallstreet",
@@ -84,7 +84,7 @@
   },
   {
    "code": "BR",
-   "count": 5,
+   "count": 6,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -131,12 +131,6 @@
    "lon": 116.4
   },
   {
-   "code": "EC",
-   "count": 2,
-   "lat": -0.2,
-   "lon": -78.5
-  },
-  {
    "code": "ES",
    "count": 2,
    "lat": 40.4,
@@ -159,6 +153,12 @@
    "count": 1,
    "lat": -33.4,
    "lon": -70.6
+  },
+  {
+   "code": "EC",
+   "count": 1,
+   "lat": -0.2,
+   "lon": -78.5
   },
   {
    "code": "FR",
@@ -253,6 +253,15 @@
  ],
  "victims": [
   {
+   "victim": "Company #65",
+   "group": "N0n",
+   "date": "2026-10-13T23:22:05+00:00",
+   "attack_date": "2026-10-13",
+   "country": "BR",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNjVATjBu"
+  },
+  {
    "victim": "The Golden Legacy Financing",
    "group": "qilin",
    "date": "2026-10-13T21:13:07+00:00",
@@ -260,15 +269,6 @@
    "country": null,
    "sector": "Financial Services",
    "url": "https://www.ransomware.live/id/VGhlIEdvbGRlbiBMZWdhY3kgRmluYW5jaW5nQHFpbGlu"
-  },
-  {
-   "victim": "Ecuador police headquarters",
-   "group": "HYFLOCK",
-   "date": "2026-10-13T17:11:39+00:00",
-   "attack_date": "2026-10-12",
-   "country": "EC",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/RWN1YWRvciBwb2xpY2UgaGVhZHF1YXJ0ZXJzQEhZRkxPQ0s="
   },
   {
    "victim": "merkezilac_archives",
