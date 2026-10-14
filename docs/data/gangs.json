@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T20:56:23+00:00",
+ "generated_at": "2026-10-14T22:52:34+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -2129,8 +2129,8 @@
    "description": "Interlock is a ransomware group first observed in September 2024 that targets critical infrastructure sectors including healthcare, government, education, and technology across North America and Europe using double-extortion, with 57+ claimed victims including a major US dialysis provider exposing over two million patient records.",
    "aliases": [],
    "first_seen": "2023-12-01",
-   "last_seen": "2026-10-07",
-   "victims_total": 132,
+   "last_seen": "2026-10-12",
+   "victims_total": 139,
    "cves": [
     {
      "id": "CVE-2026-20131",
@@ -2157,7 +2157,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 101
+      "count": 106
      },
      {
       "name": "CA",
@@ -2176,34 +2176,34 @@
       "count": 2
      },
      {
-      "name": "IE",
+      "name": "CL",
       "count": 1
      }
     ],
     "sectors": [
      {
       "name": "Education",
-      "count": 31
+      "count": 32
      },
      {
       "name": "Manufacturing",
-      "count": 21
+      "count": 23
      },
      {
       "name": "Professional Services",
-      "count": 19
+      "count": 20
+     },
+     {
+      "name": "Healthcare",
+      "count": 18
      },
      {
       "name": "Government & Defense",
       "count": 17
      },
      {
-      "name": "Healthcare",
-      "count": 17
-     },
-     {
       "name": "Retail & E-Commerce",
-      "count": 7
+      "count": 8
      }
     ]
    },
@@ -2254,11 +2254,11 @@
     },
     {
      "month": "2026-10",
-     "count": 3
+     "count": 10
     }
    ],
-   "history_size": 132,
-   "updated": "2026-10-07T22:25:38+00:00"
+   "history_size": 139,
+   "updated": "2026-10-14T22:52:34+00:00"
   },
   "aurora": {
    "name": "aurora",

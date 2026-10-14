@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1845,
-  "c2_servers": 1374,
+  "total_iocs": 1659,
+  "c2_servers": 1375,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1026,
-    "c2": 997,
+    "iocs": 995,
+    "c2": 993,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -16,12 +16,6 @@
     "iocs": 97,
     "c2": 97,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/ios.coruna"
-   },
-   {
-    "name": "SalatStealer",
-    "iocs": 69,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "Mirai",
@@ -43,13 +37,13 @@
    },
    {
     "name": "Remcos",
-    "iocs": 39,
-    "c2": 39,
+    "iocs": 40,
+    "c2": 40,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "ClearFake",
-    "iocs": 38,
+    "iocs": 39,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -60,40 +54,46 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "AsyncRAT",
-    "iocs": 24,
-    "c2": 15,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+    "name": "WARDENStealer",
+    "iocs": 28,
+    "c2": 28,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 23,
+    "c2": 23,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
-  "sample": 976,
-  "online": 459,
+  "sample": 1000,
+  "online": 482,
   "top_tags": [
    {
     "name": "elf",
-    "count": 362
+    "count": 382
    },
    {
     "name": "Mozi",
-    "count": 199
-   },
-   {
-    "name": "32-bit",
-    "count": 171
+    "count": 197
    },
    {
     "name": "ua-wget",
-    "count": 163
+    "count": 185
+   },
+   {
+    "name": "32-bit",
+    "count": 169
    },
    {
     "name": "mips",
-    "count": 133
+    "count": 132
    },
    {
     "name": "arm",
-    "count": 62
+    "count": 61
    },
    {
     "name": "honeypot",
@@ -498,10 +498,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-14T21:55:47+00:00",
-  "sans": "2026-10-14T21:55:47+00:00",
-  "otx": "2026-10-14T21:55:47+00:00",
-  "urlhaus": "2026-10-14T21:55:47+00:00"
+  "threatfox": "2026-10-14T22:52:34+00:00",
+  "sans": "2026-10-14T22:52:34+00:00",
+  "otx": "2026-10-14T22:52:34+00:00",
+  "urlhaus": "2026-10-14T22:52:34+00:00"
  },
- "generated_at": "2026-10-14T21:55:47+00:00"
+ "generated_at": "2026-10-14T22:52:34+00:00"
 }
