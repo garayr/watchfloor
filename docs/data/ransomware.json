@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-14T19:57:14+00:00",
+ "generated_at": "2026-10-14T20:56:23+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 34
+   "count": 32
   },
   {
    "name": "Wallstreet",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Transportation",
-   "count": 26
+   "count": 24
   },
   {
    "name": "Professional Services",
@@ -59,8 +59,8 @@
    "count": 8
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 5
+   "name": "Technology",
+   "count": 6
   }
  ],
  "by_country": [
@@ -77,16 +77,16 @@
    "lon": 18.1
   },
   {
-   "code": "KR",
-   "count": 7,
-   "lat": 37.6,
-   "lon": 127.0
-  },
-  {
    "code": "BR",
-   "count": 6,
+   "count": 7,
    "lat": -23.5,
    "lon": -46.6
+  },
+  {
+   "code": "KR",
+   "count": 6,
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "SG",
@@ -113,12 +113,6 @@
    "lon": -0.1
   },
   {
-   "code": "ID",
-   "count": 3,
-   "lat": -6.2,
-   "lon": 106.8
-  },
-  {
    "code": "IN",
    "count": 3,
    "lat": 19.1,
@@ -129,6 +123,12 @@
    "count": 2,
    "lat": 39.9,
    "lon": 116.4
+  },
+  {
+   "code": "ID",
+   "count": 2,
+   "lat": -6.2,
+   "lon": 106.8
   },
   {
    "code": "JP",
@@ -252,6 +252,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Oceania Digital Communications",
+   "group": "kairos",
+   "date": "2026-10-14T16:33:27+00:00",
+   "attack_date": "2026-10-14",
+   "country": "VU",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/T2NlYW5pYSBEaWdpdGFsIENvbW11bmljYXRpb25zQGthaXJvcw=="
+  },
+  {
+   "victim": "FINANCIAMENTO LTDA",
+   "group": "incransom",
+   "date": "2026-10-14T16:33:00+00:00",
+   "attack_date": "2026-10-14",
+   "country": "BR",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/RklOQU5DSUFNRU5UTyBMVERBQGluY3JhbnNvbQ=="
+  },
   {
    "victim": "MOA Architecture",
    "group": "qilin",
@@ -1133,24 +1151,6 @@
    "country": "KR",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/U2FlaGFuIE1hcmluZSAoc2hpcCBhZ2VuY3kgb3BlcmF0aW9ucylATjBu"
-  },
-  {
-   "victim": "April Asia (port agency operations)",
-   "group": "N0n",
-   "date": "2026-10-12T14:01:59+00:00",
-   "attack_date": "2026-10-12",
-   "country": "ID",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/QXByaWwgQXNpYSAocG9ydCBhZ2VuY3kgb3BlcmF0aW9ucylATjBu"
-  },
-  {
-   "victim": "Dong-A Tanker (oil tanker operations)",
-   "group": "N0n",
-   "date": "2026-10-12T14:01:18+00:00",
-   "attack_date": "2026-10-12",
-   "country": "KR",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/RG9uZy1BIFRhbmtlciAob2lsIHRhbmtlciBvcGVyYXRpb25zKUBOMG4="
   }
  ]
 }

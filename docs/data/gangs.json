@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T18:46:54+00:00",
+ "generated_at": "2026-10-14T20:56:23+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1202,8 +1202,8 @@
    "description": "Kairos is a data extortion group active since late 2024 that focuses solely on data theft with no encryption, primarily targeting small-to-mid-sized organizations in healthcare, manufacturing, and business services in the US, purchasing initial access from brokers and demanding Bitcoin payments.",
    "aliases": [],
    "first_seen": "2024-06-26",
-   "last_seen": "2026-09-29",
-   "victims_total": 98,
+   "last_seen": "2026-10-14",
+   "victims_total": 101,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -1212,7 +1212,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 56
+      "count": 57
      },
      {
       "name": "AU",
@@ -1227,11 +1227,11 @@
       "count": 4
      },
      {
-      "name": "DE",
-      "count": 3
+      "name": "FR",
+      "count": 4
      },
      {
-      "name": "FR",
+      "name": "DE",
       "count": 3
      }
     ],
@@ -1242,11 +1242,11 @@
      },
      {
       "name": "Healthcare",
-      "count": 13
+      "count": 14
      },
      {
       "name": "Education",
-      "count": 12
+      "count": 13
      },
      {
       "name": "Government & Defense",
@@ -1263,10 +1263,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-10",
-     "count": 4
-    },
     {
      "month": "2025-11",
      "count": 0
@@ -1309,11 +1305,15 @@
     },
     {
      "month": "2026-09",
-     "count": 4
+     "count": 5
+    },
+    {
+     "month": "2026-10",
+     "count": 2
     }
    ],
-   "history_size": 98,
-   "updated": "2026-09-30T13:00:00+00:00"
+   "history_size": 101,
+   "updated": "2026-10-14T20:56:23+00:00"
   },
   "rhysida": {
    "name": "rhysida",
