@@ -70,6 +70,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
+     "summary": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting…",
+     "source": "BleepingComputer",
+     "date": "2026-10-14T14:00:10+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
+     "group": "Exploited right now"
+    },
+    {
      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
      "source": "BleepingComputer",
@@ -232,41 +240,11 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Adobe Patches 176 Vulnerabilities Across 11 Products",
-     "summary": "The flaws affect products such as Commerce, Photoshop, ColdFusion, Substance 3D, Dimension, FrameMaker and Bridge. The post Adobe Patches 176 Vulnerabilities Across 11 Products appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-13T17:14:42+00:00",
-     "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-71362"
-     ]
-    },
-    {
      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
      "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's…",
      "source": "The Hacker News",
      "date": "2026-10-13T16:18:18+00:00",
      "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
-     "summary": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-13T15:45:50+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-104935"
-     ]
-    },
-    {
-     "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
-     "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-13T15:20:20+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
      "group": "Exploited right now"
     }
    ]
@@ -304,8 +282,24 @@
    "group": "Other news",
    "items": [
     {
+     "title": "Microsoft fixes VPN issues caused by September Windows updates",
+     "summary": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-14T14:27:01+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
+     "group": "Other news"
+    },
+    {
+     "title": "Harmonic Security Raises $50 Million for Workforce AI Protection",
+     "summary": "The cybersecurity startup plans to expand engineering and go-to-market teams in the US and UK. The post Harmonic Security Raises $50 Million for Workforce AI Protection appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-14T14:09:51+00:00",
+     "url": "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/",
+     "group": "Other news"
+    },
+    {
      "title": "Virtual Event Today: Zero Trust Strategies Summit",
-     "summary": "SecurtyWeek’s 2026 Zero Trust Strategies Summit kicks off today at 11AM ET as a fully immersive virtual conference and expo. This summit is laser-focused on the next generation of Zero Trust and Identity security…",
+     "summary": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies. The post Virtual Event Today: Zero Trust Strategies Summit appeared first…",
      "source": "SecurityWeek",
      "date": "2026-10-14T13:56:36+00:00",
      "url": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
