@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-14T15:10:35+00:00",
+ "generated_at": "2026-10-14T16:22:30+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 40
+   "count": 37
   },
   {
    "name": "Wallstreet",
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Transportation",
-   "count": 32
+   "count": 29
   },
   {
    "name": "Professional Services",
-   "count": 15
+   "count": 16
   },
   {
    "name": "Manufacturing",
@@ -56,7 +56,7 @@
   },
   {
    "name": "Other",
-   "count": 7
+   "count": 8
   },
   {
    "name": "Retail & E-Commerce",
@@ -72,7 +72,7 @@
   },
   {
    "code": "KR",
-   "count": 11,
+   "count": 10,
    "lat": 37.6,
    "lon": 127.0
   },
@@ -84,7 +84,7 @@
   },
   {
    "code": "BR",
-   "count": 7,
+   "count": 6,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -119,12 +119,6 @@
    "lon": 72.9
   },
   {
-   "code": "JP",
-   "count": 3,
-   "lat": 35.7,
-   "lon": 139.7
-  },
-  {
    "code": "SG",
    "count": 3,
    "lat": 1.35,
@@ -137,6 +131,12 @@
    "lon": 116.4
   },
   {
+   "code": "JP",
+   "count": 2,
+   "lat": 35.7,
+   "lon": 139.7
+  },
+  {
    "code": "TR",
    "count": 2,
    "lat": 41.0,
@@ -147,6 +147,12 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
+  },
+  {
+   "code": "AU",
+   "count": 1,
+   "lat": -33.9,
+   "lon": 151.2
   },
   {
    "code": "CL",
@@ -165,6 +171,12 @@
    "count": 1,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "GR",
+   "count": 1,
+   "lat": 38.0,
+   "lon": 23.7
   },
   {
    "code": "HK",
@@ -227,6 +239,12 @@
    "lon": 46.7
   },
   {
+   "code": "TH",
+   "count": 1,
+   "lat": 13.75,
+   "lon": 100.5
+  },
+  {
    "code": "TW",
    "count": 1,
    "lat": 25.0,
@@ -240,6 +258,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "poolegroup.com.au",
+   "group": "lockbit5",
+   "date": "2026-10-14T11:31:29+00:00",
+   "attack_date": "2026-10-14",
+   "country": "AU",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/cG9vbGVncm91cC5jb20uYXVAbG9ja2JpdDU="
+  },
+  {
+   "victim": "skycc.co.th",
+   "group": "lockbit5",
+   "date": "2026-10-14T11:29:56+00:00",
+   "attack_date": "2026-10-13",
+   "country": "TH",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/c2t5Y2MuY28udGhAbG9ja2JpdDU="
+  },
+  {
+   "victim": "kordhotels.gr",
+   "group": "lockbit5",
+   "date": "2026-10-14T11:28:33+00:00",
+   "attack_date": "2026-10-14",
+   "country": "GR",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/a29yZGhvdGVscy5nckBsb2NrYml0NQ=="
+  },
   {
    "victim": "MyM ODONTOCLINICA S.A",
    "group": "emperador",
@@ -1112,33 +1157,6 @@
    "country": "KR",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/S29yZWEgRmVycnkgKGZlcnJ5IG9wZXJhdGlvbnMpQE4wbg=="
-  },
-  {
-   "victim": "T2S (terminal systems operations)",
-   "group": "N0n",
-   "date": "2026-10-12T13:57:59+00:00",
-   "attack_date": "2026-10-12",
-   "country": "BR",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/VDJTICh0ZXJtaW5hbCBzeXN0ZW1zIG9wZXJhdGlvbnMpQE4wbg=="
-  },
-  {
-   "victim": "Samjoo Maritime (ship management)",
-   "group": "N0n",
-   "date": "2026-10-12T13:57:18+00:00",
-   "attack_date": "2026-10-12",
-   "country": "KR",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/U2Ftam9vIE1hcml0aW1lIChzaGlwIG1hbmFnZW1lbnQpQE4wbg=="
-  },
-  {
-   "victim": "Camellia Line (ferry and RoRo operations)",
-   "group": "N0n",
-   "date": "2026-10-12T13:56:37+00:00",
-   "attack_date": "2026-10-12",
-   "country": "JP",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/Q2FtZWxsaWEgTGluZSAoZmVycnkgYW5kIFJvUm8gb3BlcmF0aW9ucylATjBu"
   }
  ]
 }
