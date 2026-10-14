@@ -70,6 +70,25 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+     "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco said in an advisory on Wednesday. The attacker sends an…",
+     "source": "The Hacker News",
+     "date": "2026-10-14T18:38:56+00:00",
+     "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76461"
+     ]
+    },
+    {
+     "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+     "summary": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack…",
+     "source": "The Hacker News",
+     "date": "2026-10-14T17:38:31+00:00",
+     "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
      "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
      "source": "BleepingComputer",
@@ -211,39 +230,20 @@
      "date": "2026-10-13T19:47:30+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-     "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that…",
-     "source": "The Hacker News",
-     "date": "2026-10-13T18:03:18+00:00",
-     "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-     "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws…",
-     "source": "The Hacker News",
-     "date": "2026-10-13T17:33:11+00:00",
-     "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-104935"
-     ]
-    },
-    {
-     "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
-     "summary": "A flaw in SAP's Cloud SDK for Python can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13. The flaw affects multi-tenant applications on SAP…",
-     "source": "The Hacker News",
-     "date": "2026-10-13T17:28:50+00:00",
-     "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+     "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of…",
+     "source": "The Hacker News",
+     "date": "2026-10-14T17:09:15+00:00",
+     "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Hirudo Android malware replaces banking apps to evade security checks",
      "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
