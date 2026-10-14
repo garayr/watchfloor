@@ -2,7 +2,7 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2252,
+  "total_iocs": 2254,
   "c2_servers": 1378,
   "families": [
    {
@@ -13,8 +13,8 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 290,
-    "c2": 0,
+    "iocs": 291,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
@@ -25,7 +25,7 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 100,
+    "iocs": 102,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -49,7 +49,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 43,
+    "iocs": 41,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -60,44 +60,44 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Remcos",
-    "iocs": 29,
-    "c2": 29,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+    "name": "Cobalt Strike",
+    "iocs": 27,
+    "c2": 27,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
-  "sample": 761,
-  "online": 372,
+  "sample": 775,
+  "online": 380,
   "top_tags": [
    {
     "name": "elf",
-    "count": 294
+    "count": 298
    },
    {
     "name": "Mozi",
-    "count": 154
+    "count": 157
+   },
+   {
+    "name": "32-bit",
+    "count": 134
    },
    {
     "name": "ua-wget",
     "count": 134
    },
    {
-    "name": "32-bit",
-    "count": 130
-   },
-   {
     "name": "mips",
-    "count": 103
+    "count": 106
    },
    {
     "name": "arm",
-    "count": 47
+    "count": 48
    },
    {
     "name": "honeypot",
-    "count": 41
+    "count": 42
    },
    {
     "name": "cowrie",
@@ -480,10 +480,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-14T10:42:12+00:00",
-  "sans": "2026-10-14T10:42:12+00:00",
-  "otx": "2026-10-14T10:42:12+00:00",
-  "urlhaus": "2026-10-14T10:42:12+00:00"
+  "threatfox": "2026-10-14T11:42:33+00:00",
+  "sans": "2026-10-14T11:42:33+00:00",
+  "otx": "2026-10-14T11:42:33+00:00",
+  "urlhaus": "2026-10-14T11:42:33+00:00"
  },
- "generated_at": "2026-10-14T10:42:12+00:00"
+ "generated_at": "2026-10-14T11:42:33+00:00"
 }

@@ -13,7 +13,7 @@
     },
     {
      "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
-     "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive…",
+     "summary": "A Saudi national and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive…",
      "source": "The Hacker News",
      "date": "2026-10-14T01:59:25+00:00",
      "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
@@ -77,6 +77,22 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+     "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the…",
+     "source": "The Hacker News",
+     "date": "2026-10-14T11:19:02+00:00",
+     "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+     "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from…",
+     "source": "The Hacker News",
+     "date": "2026-10-14T11:08:22+00:00",
+     "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
      "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write…",
@@ -254,28 +270,20 @@
      "date": "2026-10-13T11:09:10+00:00",
      "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-     "summary": "Two of 31 newly disclosed flaws in Progress Software's MarkLogic Server database could let an account given only some management privileges take administrator control of the server, the company says. Progress published…",
-     "source": "The Hacker News",
-     "date": "2026-10-13T08:44:01+00:00",
-     "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
-     "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. \"GitLab has remediated an issue…",
-     "source": "The Hacker News",
-     "date": "2026-10-13T08:43:37+00:00",
-     "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Hirudo Android malware replaces banking apps to evade security checks",
+     "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-14T11:41:20+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Anthropic warns self-replicating AI could spread to your smart devices",
      "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without…",
@@ -291,20 +299,20 @@
      "date": "2026-10-13T18:20:57+00:00",
      "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
-     "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The…",
-     "source": "The Hacker News",
-     "date": "2026-10-13T06:00:11+00:00",
-     "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+     "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication…",
+     "source": "The Hacker News",
+     "date": "2026-10-14T11:00:00+00:00",
+     "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+     "group": "Other news"
+    },
     {
      "title": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
      "summary": "Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates if the \"Administrator protection\" security feature is enabled. [...]",
@@ -351,14 +359,6 @@
      "source": "The Hacker News",
      "date": "2026-10-13T10:30:00+00:00",
      "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
-     "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said. The attackers reached…",
-     "source": "The Hacker News",
-     "date": "2026-10-13T08:48:41+00:00",
-     "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
      "group": "Other news"
     }
    ]
