@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-14T16:22:30+00:00",
+ "generated_at": "2026-10-14T17:29:14+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 37
+   "count": 36
   },
   {
    "name": "Wallstreet",
-   "count": 11
+   "count": 13
   },
   {
    "name": "qilin",
@@ -52,7 +52,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Other",
@@ -66,21 +66,21 @@
  "by_country": [
   {
    "code": "US",
-   "count": 20,
+   "count": 22,
    "lat": 39.0,
    "lon": -77.5
-  },
-  {
-   "code": "KR",
-   "count": 10,
-   "lat": 37.6,
-   "lon": 127.0
   },
   {
    "code": "SE",
    "count": 10,
    "lat": 59.3,
    "lon": 18.1
+  },
+  {
+   "code": "KR",
+   "count": 9,
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "BR",
@@ -227,12 +227,6 @@
    "lon": 10.8
   },
   {
-   "code": "PE",
-   "count": 1,
-   "lat": -12.0,
-   "lon": -77.0
-  },
-  {
    "code": "SA",
    "count": 1,
    "lat": 24.7,
@@ -258,6 +252,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "E-Z Pack Trucks",
+   "group": "Wallstreet",
+   "date": "2026-10-14T12:57:15+00:00",
+   "attack_date": "2026-10-14",
+   "country": "US",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/RS1aIFBhY2sgVHJ1Y2tzQFdhbGxzdHJlZXQ="
+  },
+  {
+   "victim": "Green Clinic",
+   "group": "Wallstreet",
+   "date": "2026-10-14T12:56:56+00:00",
+   "attack_date": "2026-10-14",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/R3JlZW4gQ2xpbmljQFdhbGxzdHJlZXQ="
+  },
   {
    "victim": "poolegroup.com.au",
    "group": "lockbit5",
@@ -572,15 +584,6 @@
    "country": "MX",
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/Q29taXNpw7NuIE11bmljaXBhbCBkZSBBZ3VhIFBvdGFibGUgeSBBbGNhbnRhcmlsbGFkbyBkZSBWaWN0b3JpYUBxaWxpbg=="
-  },
-  {
-   "victim": "Interseguro",
-   "group": "direwolf",
-   "date": "2026-10-13T13:57:53+00:00",
-   "attack_date": "2026-10-13",
-   "country": "PE",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/SW50ZXJzZWd1cm9AZGlyZXdvbGY="
   },
   {
    "victim": "Guarufilme",
@@ -1148,15 +1151,6 @@
    "country": "KR",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/QktIIElDRCAoaW5sYW5kIGNvbnRhaW5lciBkZXBvdCBvcGVyYXRpb25zKUBOMG4="
-  },
-  {
-   "victim": "Korea Ferry (ferry operations)",
-   "group": "N0n",
-   "date": "2026-10-12T13:58:35+00:00",
-   "attack_date": "2026-10-12",
-   "country": "KR",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/S29yZWEgRmVycnkgKGZlcnJ5IG9wZXJhdGlvbnMpQE4wbg=="
   }
  ]
 }
