@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-14T14:01:40+00:00",
+ "generated_at": "2026-10-14T15:10:35+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 42
+   "count": 40
   },
   {
    "name": "Wallstreet",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Transportation",
-   "count": 34
+   "count": 32
   },
   {
    "name": "Professional Services",
@@ -52,14 +52,14 @@
   },
   {
    "name": "Healthcare",
-   "count": 8
+   "count": 9
   },
   {
    "name": "Other",
    "count": 7
   },
   {
-   "name": "Technology",
+   "name": "Retail & E-Commerce",
    "count": 5
   }
  ],
@@ -84,7 +84,7 @@
   },
   {
    "code": "BR",
-   "count": 6,
+   "count": 7,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -95,16 +95,22 @@
    "lon": -0.1
   },
   {
-   "code": "ID",
-   "count": 4,
-   "lat": -6.2,
-   "lon": 106.8
-  },
-  {
    "code": "DE",
    "count": 3,
    "lat": 50.1,
    "lon": 8.7
+  },
+  {
+   "code": "ES",
+   "count": 3,
+   "lat": 40.4,
+   "lon": -3.7
+  },
+  {
+   "code": "ID",
+   "count": 3,
+   "lat": -6.2,
+   "lon": 106.8
   },
   {
    "code": "IN",
@@ -129,12 +135,6 @@
    "count": 2,
    "lat": 39.9,
    "lon": 116.4
-  },
-  {
-   "code": "ES",
-   "count": 2,
-   "lat": 40.4,
-   "lon": -3.7
   },
   {
    "code": "TR",
@@ -183,12 +183,6 @@
    "count": 1,
    "lat": 29.4,
    "lon": 48.0
-  },
-  {
-   "code": "MA",
-   "count": 1,
-   "lat": 33.6,
-   "lon": -7.6
   },
   {
    "code": "MN",
@@ -246,6 +240,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "MyM ODONTOCLINICA S.A",
+   "group": "emperador",
+   "date": "2026-10-14T10:51:31+00:00",
+   "attack_date": "2026-10-14",
+   "country": "BR",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/TXlNIE9ET05UT0NMSU5JQ0EgUy5BQGVtcGVyYWRvcg=="
+  },
+  {
+   "victim": "Estrategias BigMat S.L.U.",
+   "group": "aurora",
+   "date": "2026-10-14T09:55:50+00:00",
+   "attack_date": "2026-10-14",
+   "country": "ES",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/RXN0cmF0ZWdpYXMgQmlnTWF0IFMuTC5VLkBhdXJvcmE="
+  },
   {
    "victim": "***o* **s**e** Solutions",
    "group": "nightspire",
@@ -1127,24 +1139,6 @@
    "country": "JP",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/Q2FtZWxsaWEgTGluZSAoZmVycnkgYW5kIFJvUm8gb3BlcmF0aW9ucylATjBu"
-  },
-  {
-   "victim": "Eurogate Tanger (container terminal operations)",
-   "group": "N0n",
-   "date": "2026-10-12T13:55:54+00:00",
-   "attack_date": "2026-10-12",
-   "country": "MA",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/RXVyb2dhdGUgVGFuZ2VyIChjb250YWluZXIgdGVybWluYWwgb3BlcmF0aW9ucylATjBu"
-  },
-  {
-   "victim": "ILCS Pelindo (port logistics operations)",
-   "group": "N0n",
-   "date": "2026-10-12T13:55:08+00:00",
-   "attack_date": "2026-10-12",
-   "country": "ID",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/SUxDUyBQZWxpbmRvIChwb3J0IGxvZ2lzdGljcyBvcGVyYXRpb25zKUBOMG4="
   }
  ]
 }
