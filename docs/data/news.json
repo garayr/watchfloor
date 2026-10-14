@@ -49,6 +49,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products",
+     "summary": "Critical-severity flaws could lead to authentication bypass, code execution, and sensitive authentication information leaks. The post Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-10-14T07:26:35+00:00",
+     "url": "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach",
      "summary": "Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services. The post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach appeared…",
      "source": "SecurityWeek",
@@ -63,20 +71,31 @@
      "date": "2026-10-13T14:01:11+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant",
-     "summary": "A small circuit board hidden under the signers’ screens read user data and transmitted it to the attackers. The post $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-13T10:36:05+00:00",
-     "url": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise",
+     "summary": "Mozilla has introduced Firefox Enterprise for organizations with strict compliance, governance, and security requirements. The post Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-10-14T07:38:51+00:00",
+     "url": "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
+     "summary": "The most important is CVE-2026-96951, a security feature bypass flaw in Windows that has been exploited in the wild. The post Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-10-14T07:16:12+00:00",
+     "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-96951"
+     ]
+    },
     {
      "title": "SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities",
      "summary": "The bugs could allow attackers to invoke internal operations and execute code, completely compromising the system. The post SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities appeared first on SecurityWeek.",
@@ -266,14 +285,6 @@
      "group": "Malware and campaigns"
     },
     {
-     "title": "XWorm RAT Evolves Into Surveillance Platform",
-     "summary": "Expanded plugin count allows the malware to monitor users’ location, stream live audio, and interact with authenticated browser sessions. The post XWorm RAT Evolves Into Surveillance Platform appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-10-13T11:13:10+00:00",
-     "url": "https://www.securityweek.com/xworm-rat-evolves-into-surveillance-platform/",
-     "group": "Malware and campaigns"
-    },
-    {
      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
      "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The…",
      "source": "The Hacker News",
@@ -324,14 +335,6 @@
      "source": "SecurityWeek",
      "date": "2026-10-13T11:58:29+00:00",
      "url": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
-     "group": "Other news"
-    },
-    {
-     "title": "AI Turns Familiar Cyberattacks Into a Race Against Time",
-     "summary": "IBM’s Steve Wallin talks to SecurityWeek on the effect of AI-driven attacks on enterprise defenses. The post AI Turns Familiar Cyberattacks Into a Race Against Time appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-13T11:00:00+00:00",
-     "url": "https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/",
      "group": "Other news"
     },
     {
