@@ -4,6 +4,22 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "Global takedown hits network behind 1 billion phishing messages",
+     "summary": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-14T13:12:52+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+     "group": "Arrests, courts and policy"
+    },
+    {
+     "title": "Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages",
+     "summary": "Backed by a federal court order, Microsoft and Health-ISAC seized domains powering YAM Store, CoGUI, and Iron Man. The post Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-10-14T13:00:00+00:00",
+     "url": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms",
      "summary": "Investigators stormed 40 locations in Texas and seized 187 laptops used by North Korean IT workers to hide their location. The post US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms appeared first on…",
      "source": "SecurityWeek",
@@ -47,28 +63,23 @@
      "date": "2026-10-14T07:26:35+00:00",
      "url": "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach",
-     "summary": "Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services. The post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-10-13T16:01:00+00:00",
-     "url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "The MFA Gaps Attackers are Still Exploiting",
-     "summary": "Attackers continue exploiting gaps in MFA coverage, using stolen credentials to access VPNs, RDP, and Windows systems that still rely on passwords alone. Specops explains why protecting cloud applications isn't enough…",
-     "source": "BleepingComputer",
-     "date": "2026-10-13T14:01:11+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-14T12:58:07+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-104935"
+     ]
+    },
     {
      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version…",
@@ -264,14 +275,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-13T15:20:20+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
-     "summary": "SAP has addressed 20 security flaws across multiple products in its October 2026 security updates, including a maximum-severity vulnerability in the Cloud SDK for Python. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-13T13:51:02+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
      "group": "Exploited right now"
     }
    ]
