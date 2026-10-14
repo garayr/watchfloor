@@ -86,6 +86,17 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+     "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows…",
+     "source": "The Hacker News",
+     "date": "2026-10-14T04:34:43+00:00",
+     "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-65660"
+     ]
+    },
+    {
      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
      "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
      "source": "BleepingComputer",
@@ -345,14 +356,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-12T19:23:01+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
-     "group": "Other news"
-    },
-    {
-     "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-     "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror…",
-     "source": "The Hacker News",
-     "date": "2026-10-12T11:55:00+00:00",
-     "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
      "group": "Other news"
     }
    ]
