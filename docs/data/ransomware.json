@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T17:29:14+00:00",
+ "generated_at": "2026-10-14T18:46:54+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Transportation",
-   "count": 29
+   "count": 28
   },
   {
    "name": "Professional Services",
-   "count": 16
+   "count": 17
   },
   {
    "name": "Manufacturing",
@@ -78,7 +78,7 @@
   },
   {
    "code": "KR",
-   "count": 9,
+   "count": 8,
    "lat": 37.6,
    "lon": 127.0
   },
@@ -252,6 +252,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Trieschmann Dumala Architectural Group",
+   "group": "N0n",
+   "date": "2026-10-14T13:54:33+00:00",
+   "attack_date": "2026-10-14",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/VHJpZXNjaG1hbm4gRHVtYWxhIEFyY2hpdGVjdHVyYWwgR3JvdXBATjBu"
+  },
   {
    "victim": "E-Z Pack Trucks",
    "group": "Wallstreet",
@@ -1142,15 +1151,6 @@
    "country": "GB",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/Qk1UIElRIChtYXJpbmUgc3VydmV5aW5nIGFuZCBpbnNwZWN0aW9uKUBOMG4="
-  },
-  {
-   "victim": "BKH ICD (inland container depot operations)",
-   "group": "N0n",
-   "date": "2026-10-12T13:59:17+00:00",
-   "attack_date": "2026-10-12",
-   "country": "KR",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/QktIIElDRCAoaW5sYW5kIGNvbnRhaW5lciBkZXBvdCBvcGVyYXRpb25zKUBOMG4="
   }
  ]
 }
