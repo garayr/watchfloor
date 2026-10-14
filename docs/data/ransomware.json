@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T00:01:06+00:00",
+ "generated_at": "2026-10-14T01:25:10+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -13,11 +13,11 @@
    "count": 11
   },
   {
-   "name": "interlock",
-   "count": 6
+   "name": "qilin",
+   "count": 7
   },
   {
-   "name": "qilin",
+   "name": "interlock",
    "count": 6
   },
   {
@@ -155,12 +155,6 @@
    "lon": -58.4
   },
   {
-   "code": "CA",
-   "count": 1,
-   "lat": 43.7,
-   "lon": -79.4
-  },
-  {
    "code": "CL",
    "count": 1,
    "lat": -33.4,
@@ -258,6 +252,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "The Golden Legacy Financing",
+   "group": "qilin",
+   "date": "2026-10-13T21:13:07+00:00",
+   "attack_date": "2026-10-13",
+   "country": null,
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/VGhlIEdvbGRlbiBMZWdhY3kgRmluYW5jaW5nQHFpbGlu"
+  },
   {
    "victim": "Ecuador police headquarters",
    "group": "HYFLOCK",
@@ -1148,15 +1151,6 @@
    "country": "VN",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/TmFtIERpbmggVnUgUG9ydCAoY29udGFpbmVyIHRlcm1pbmFsIG9wZXJhdGlvbnMpQE4wbg=="
-  },
-  {
-   "victim": "Canadian Mennonite University (CMU)",
-   "group": "dragonforce",
-   "date": "2026-10-12T11:03:12+00:00",
-   "attack_date": "2026-10-12",
-   "country": "CA",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/Q2FuYWRpYW4gTWVubm9uaXRlIFVuaXZlcnNpdHkgKENNVSlAZHJhZ29uZm9yY2U="
   }
  ]
 }
