@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-14T03:58:19+00:00",
+ "generated_at": "2026-10-14T04:58:07+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 44
+   "count": 43
   },
   {
    "name": "Wallstreet",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Transportation",
-   "count": 36
+   "count": 35
   },
   {
    "name": "Professional Services",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Manufacturing",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Healthcare",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 19,
+   "count": 20,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -239,12 +239,6 @@
    "lon": 121.5
   },
   {
-   "code": "VN",
-   "count": 1,
-   "lat": 21.0,
-   "lon": 105.8
-  },
-  {
    "code": "ZA",
    "count": 1,
    "lat": -26.2,
@@ -252,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Lane Equipment",
+   "group": "dragonforce",
+   "date": "2026-10-14T00:30:19+00:00",
+   "attack_date": "2026-10-14",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TGFuZSBFcXVpcG1lbnRAZHJhZ29uZm9yY2U="
+  },
   {
    "victim": "Company #65",
    "group": "N0n",
@@ -1142,15 +1145,6 @@
    "country": "KR",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/UHVzYW4gTmV3cG9ydCBDb21wYW55IChjb250YWluZXIgdGVybWluYWwgb3BlcmF0aW9ucylATjBu"
-  },
-  {
-   "victim": "Nam Dinh Vu Port (container terminal operations)",
-   "group": "N0n",
-   "date": "2026-10-12T13:53:46+00:00",
-   "attack_date": "2026-10-12",
-   "country": "VN",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/TmFtIERpbmggVnUgUG9ydCAoY29udGFpbmVyIHRlcm1pbmFsIG9wZXJhdGlvbnMpQE4wbg=="
   }
  ]
 }

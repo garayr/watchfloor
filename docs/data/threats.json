@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2305,
-  "c2_servers": 1397,
+  "total_iocs": 2294,
+  "c2_servers": 1383,
   "families": [
    {
     "name": "Vidar",
@@ -25,7 +25,7 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 99,
+    "iocs": 98,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -49,31 +49,31 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 40,
+    "iocs": 41,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "AMOS",
-    "iocs": 38,
+    "iocs": 40,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remcos",
-    "iocs": 30,
-    "c2": 30,
+    "iocs": 25,
+    "c2": 25,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    }
   ]
  },
  "urls": {
-  "sample": 622,
-  "online": 356,
+  "sample": 639,
+  "online": 372,
   "top_tags": [
    {
     "name": "elf",
-    "count": 250
+    "count": 256
    },
    {
     "name": "ua-wget",
@@ -81,19 +81,19 @@
    },
    {
     "name": "Mozi",
-    "count": 125
+    "count": 131
    },
    {
     "name": "32-bit",
-    "count": 110
+    "count": 116
    },
    {
     "name": "mips",
-    "count": 82
+    "count": 87
    },
    {
     "name": "arm",
-    "count": 39
+    "count": 40
    },
    {
     "name": "honeypot",
@@ -109,75 +109,75 @@
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 1354086,
-   "targets": 289,
-   "sources": 15191
+   "records": 157209,
+   "targets": 188,
+   "sources": 1976
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 1201287,
-   "targets": 271,
-   "sources": 17458
+   "records": 78205,
+   "targets": 200,
+   "sources": 2164
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 1003817,
-   "targets": 274,
-   "sources": 16902
+   "records": 75091,
+   "targets": 210,
+   "sources": 2273
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 926690,
-   "targets": 285,
-   "sources": 19156
+   "records": 61373,
+   "targets": 228,
+   "sources": 2619
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 766045,
-   "targets": 278,
-   "sources": 12472
+   "records": 53282,
+   "targets": 199,
+   "sources": 1656
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 562362,
-   "targets": 277,
-   "sources": 16819
+   "records": 47824,
+   "targets": 232,
+   "sources": 2266
   },
   {
    "port": 2222,
    "service": null,
-   "records": 235287,
-   "targets": 277,
-   "sources": 7883
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 156165,
-   "targets": 199,
-   "sources": 5382
+   "records": 14141,
+   "targets": 189,
+   "sources": 1048
   },
   {
    "port": 7680,
    "service": null,
-   "records": 117961,
-   "targets": 216,
-   "sources": 3998
+   "records": 11715,
+   "targets": 15,
+   "sources": 1326
   },
   {
-   "port": 16767,
+   "port": 51413,
    "service": null,
-   "records": 109475,
-   "targets": 37,
-   "sources": 4817
+   "records": 11158,
+   "targets": 6,
+   "sources": 895
+  },
+  {
+   "port": 9000,
+   "service": null,
+   "records": 7325,
+   "targets": 191,
+   "sources": 627
   }
  ],
- "ports_date": "2026-10-13",
+ "ports_date": "2026-10-14",
  "diary": [
   {
    "title": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
@@ -485,10 +485,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-14T03:58:19+00:00",
-  "sans": "2026-10-14T03:58:19+00:00",
-  "otx": "2026-10-14T03:58:19+00:00",
-  "urlhaus": "2026-10-14T03:58:19+00:00"
+  "threatfox": "2026-10-14T04:58:07+00:00",
+  "sans": "2026-10-14T04:58:07+00:00",
+  "otx": "2026-10-14T04:58:07+00:00",
+  "urlhaus": "2026-10-14T04:58:07+00:00"
  },
- "generated_at": "2026-10-14T03:58:19+00:00"
+ "generated_at": "2026-10-14T04:58:07+00:00"
 }
