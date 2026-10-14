@@ -2,25 +2,25 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2294,
-  "c2_servers": 1383,
+  "total_iocs": 2248,
+  "c2_servers": 1369,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1034,
-    "c2": 1007,
+    "iocs": 1032,
+    "c2": 1005,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 291,
-    "c2": 1,
+    "iocs": 290,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
-    "iocs": 180,
-    "c2": 5,
+    "iocs": 161,
+    "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -43,65 +43,65 @@
    },
    {
     "name": "Unknown Stealer",
-    "iocs": 57,
-    "c2": 57,
+    "iocs": 54,
+    "c2": 54,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 41,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "AMOS",
-    "iocs": 40,
+    "iocs": 30,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remcos",
-    "iocs": 25,
-    "c2": 25,
+    "iocs": 26,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    }
   ]
  },
  "urls": {
-  "sample": 639,
-  "online": 372,
+  "sample": 689,
+  "online": 389,
   "top_tags": [
    {
     "name": "elf",
-    "count": 256
+    "count": 268
+   },
+   {
+    "name": "Mozi",
+    "count": 142
    },
    {
     "name": "ua-wget",
     "count": 132
    },
    {
-    "name": "Mozi",
-    "count": 131
-   },
-   {
     "name": "32-bit",
-    "count": 116
+    "count": 118
    },
    {
     "name": "mips",
-    "count": 87
+    "count": 95
    },
    {
     "name": "arm",
-    "count": 40
+    "count": 43
    },
    {
     "name": "honeypot",
-    "count": 27
+    "count": 38
    },
    {
-    "name": "sh",
-    "count": 27
+    "name": "cowrie",
+    "count": 34
    }
   ]
  },
@@ -485,10 +485,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-14T04:58:07+00:00",
-  "sans": "2026-10-14T04:58:07+00:00",
-  "otx": "2026-10-14T04:58:07+00:00",
-  "urlhaus": "2026-10-14T04:58:07+00:00"
+  "threatfox": "2026-10-14T05:55:43+00:00",
+  "sans": "2026-10-14T05:55:43+00:00",
+  "otx": "2026-10-14T05:55:43+00:00",
+  "urlhaus": "2026-10-14T05:55:43+00:00"
  },
- "generated_at": "2026-10-14T04:58:07+00:00"
+ "generated_at": "2026-10-14T05:55:43+00:00"
 }
