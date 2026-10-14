@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2248,
-  "c2_servers": 1369,
+  "total_iocs": 2244,
+  "c2_servers": 1377,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1032,
-    "c2": 1005,
+    "iocs": 1034,
+    "c2": 1007,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -19,13 +19,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 161,
+    "iocs": 146,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 98,
+    "iocs": 99,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -55,7 +55,7 @@
    },
    {
     "name": "AMOS",
-    "iocs": 30,
+    "iocs": 31,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -68,16 +68,16 @@
   ]
  },
  "urls": {
-  "sample": 689,
-  "online": 389,
+  "sample": 702,
+  "online": 375,
   "top_tags": [
    {
     "name": "elf",
-    "count": 268
+    "count": 269
    },
    {
     "name": "Mozi",
-    "count": 142
+    "count": 143
    },
    {
     "name": "ua-wget",
@@ -85,7 +85,7 @@
    },
    {
     "name": "32-bit",
-    "count": 118
+    "count": 119
    },
    {
     "name": "mips",
@@ -93,11 +93,11 @@
    },
    {
     "name": "arm",
-    "count": 43
+    "count": 44
    },
    {
     "name": "honeypot",
-    "count": 38
+    "count": 39
    },
    {
     "name": "cowrie",
@@ -109,76 +109,81 @@
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 157209,
-   "targets": 188,
-   "sources": 1976
+   "records": 562364,
+   "targets": 222,
+   "sources": 4206
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 78205,
-   "targets": 200,
-   "sources": 2164
+   "records": 360452,
+   "targets": 222,
+   "sources": 5935
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 75091,
-   "targets": 210,
-   "sources": 2273
+   "records": 268075,
+   "targets": 243,
+   "sources": 4039
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 61373,
-   "targets": 228,
-   "sources": 2619
+   "records": 207414,
+   "targets": 248,
+   "sources": 5774
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 53282,
-   "targets": 199,
-   "sources": 1656
+   "records": 191500,
+   "targets": 238,
+   "sources": 3557
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 47824,
-   "targets": 232,
-   "sources": 2266
+   "records": 169451,
+   "targets": 249,
+   "sources": 5583
   },
   {
    "port": 2222,
    "service": null,
-   "records": 14141,
-   "targets": 189,
-   "sources": 1048
-  },
-  {
-   "port": 7680,
-   "service": null,
-   "records": 11715,
-   "targets": 15,
-   "sources": 1326
+   "records": 57067,
+   "targets": 233,
+   "sources": 2977
   },
   {
    "port": 51413,
    "service": null,
-   "records": 11158,
-   "targets": 6,
-   "sources": 895
+   "records": 35422,
+   "targets": 32,
+   "sources": 1980
+  },
+  {
+   "port": 7680,
+   "service": null,
+   "records": 33248,
+   "targets": 189,
+   "sources": 2493
   },
   {
    "port": 9000,
    "service": null,
-   "records": 7325,
-   "targets": 191,
-   "sources": 627
+   "records": 26405,
+   "targets": 225,
+   "sources": 1855
   }
  ],
  "ports_date": "2026-10-14",
  "diary": [
+  {
+   "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
+   "url": "https://isc.sans.edu/diary/rss/33420",
+   "date": "2026-10-14T06:49:46+00:00"
+  },
   {
    "title": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
    "url": "https://isc.sans.edu/diary/rss/33424",
@@ -203,14 +208,75 @@
    "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
    "url": "https://isc.sans.edu/diary/rss/33414",
    "date": "2026-10-10T09:11:34+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Friday, October 9th, 2026 https://isc.sans.edu/podcastdetail/10130, (Fri, Oct 9th)",
-   "url": "https://isc.sans.edu/diary/rss/33412",
-   "date": "2026-10-09T07:52:03+00:00"
   }
  ],
  "pulses": [
+  {
+   "name": "Statistical Report on Malware Targeting Linux SSH Servers in the Third Quarter of 2026",
+   "summary": "During the third quarter of 2026, multiple attack campaigns targeted poorly managed Linux SSH servers using brute force, dictionary attacks, and vulnerability exploits. Threat actors deployed ShellBot, a Perl-based DDoS…",
+   "date": "2026-10-14T04:08:14+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ShellBot",
+    "PerlBot",
+    "Fisieredoor",
+    "XHide",
+    "XMRig",
+    "Gafgyt"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "brute force",
+    "linux",
+    "prometei",
+    "mirai",
+    "ssh servers",
+    "cryptomining"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acf002e7c7fddeb927af2d8"
+  },
+  {
+   "name": "Clean Install, Stolen Creds: Fake WatchGuard VPN Site Serves Genuine Signed Client",
+   "summary": "In early October, a sophisticated credential phishing campaign targeted WatchGuard Mobile VPN users through a fake download site at watchguard-vpn[.]net. The attack used SEO poisoning to appear in search results and…",
+   "date": "2026-10-13T23:44:50+00:00",
+   "author": "AlienVault",
+   "adversary": "Storm-2561",
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "watchguard impersonation",
+    "signed installer abuse",
+    "fake download site",
+    "seo poisoning",
+    "credential phishing",
+    "browser pop-up"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acec272f01b1f0cac6ecb2a"
+  },
+  {
+   "name": "RSVP to Disaster: How One Click Installs a RAT",
+   "summary": "Cybercriminals are exploiting digital event invitations to distribute remote access trojans. Victims receive legitimate-looking emails with generic subject lines about special gatherings and celebrations. The messages…",
+   "date": "2026-10-13T18:51:43+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ScreenConnect"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "captcha manipulation",
+    "social engineering",
+    "connectwise exploitation",
+    "fake invitation",
+    "remote access trojan",
+    "screenconnect"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ace7dbf73fb0a8d1beeba9b"
+  },
   {
    "name": "Kimsuky attacks targeting Ukrainian experts in diplomacy, security, and international policy",
    "summary": "The Kimsuky threat group has launched spear phishing campaigns targeting Ukrainian experts in diplomacy, security, and international policy through fraudulent international conference invitations and collaboration…",
@@ -396,55 +462,6 @@
    "url": "https://otx.alienvault.com/pulse/6ac9101554900e3ae83df111"
   },
   {
-   "name": "Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data",
-   "summary": "Warden Stealer is an emerging Rust-based infostealer-as-a-service that has rapidly become one of the most prevalent threats, distributed via malware-as-a-service model since August 2026. Unlike most competitors, it…",
-   "date": "2026-10-09T07:40:30+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Warden Stealer",
-    "CallbackBeaver",
-    "Vidar",
-    "Amatera",
-    "Remus",
-    "GoFlateLoader"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "callbackbeaver",
-    "warden stealer",
-    "obfuscation",
-    "vidar",
-    "goflateloader",
-    "amatera"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac89a6e10be1d80cdf57417"
-  },
-  {
-   "name": "Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer",
-   "summary": "Beginning October 7, 2026, threat actors exploited two critical vulnerabilities in AhsayCBS backup utility (CVE-2026-105133 and CVE-2026-105134) to achieve unauthenticated remote code execution on exposed systems. The…",
-   "date": "2026-10-09T01:57:42+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "XMRig"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "kernel driver exploitation",
-    "ahsaycbs",
-    "cryptomining",
-    "webshell",
-    "xmrig",
-    "msp targeting"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac84a1665712fe245b07ce7"
-  },
-  {
    "name": "Malicious Twitch Browser Extension Exposes 30,000 Users' OAuth Tokens to Russian Bot Service",
    "summary": "A malicious browser extension called 'Twitch Enhanced Viewer | JeetBot' distributed on Chrome Web Store and Firefox Add-ons captures and forwards users' live Twitch OAuth session tokens to Russian-controlled proxy…",
    "date": "2026-09-11T18:06:36+00:00",
@@ -460,35 +477,13 @@
     "twitch"
    ],
    "url": "https://otx.alienvault.com/pulse/6aa4432cfc2e960cdf6ac1e0"
-  },
-  {
-   "name": "KATARU: IoT Malware Adopts Public LPE Exploits",
-   "summary": "KATARU is an IoT malware variant discovered in August 2026 through Telnet credential brute-forcing against a honeypot from Vietnam. While maintaining traditional Mirai-style botnet capabilities, it distinguishes itself…",
-   "date": "2026-09-11T17:55:38+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "KATARU",
-    "Mirai"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "telnet brute-force",
-    "cve-2026-46300",
-    "kataru",
-    "cve-2026-31431",
-    "cve-2026-43284",
-    "ddos"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aa4409a4290cc035d81500c"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-14T05:55:43+00:00",
-  "sans": "2026-10-14T05:55:43+00:00",
-  "otx": "2026-10-14T05:55:43+00:00",
-  "urlhaus": "2026-10-14T05:55:43+00:00"
+  "threatfox": "2026-10-14T07:11:45+00:00",
+  "sans": "2026-10-14T07:11:45+00:00",
+  "otx": "2026-10-14T07:11:45+00:00",
+  "urlhaus": "2026-10-14T07:11:45+00:00"
  },
- "generated_at": "2026-10-14T05:55:43+00:00"
+ "generated_at": "2026-10-14T07:11:45+00:00"
 }

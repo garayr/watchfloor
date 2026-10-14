@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-14T05:55:43+00:00",
+ "generated_at": "2026-10-14T07:11:45+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 43
+   "count": 42
   },
   {
    "name": "Wallstreet",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Transportation",
-   "count": 35
+   "count": 34
   },
   {
    "name": "Professional Services",
@@ -59,8 +59,8 @@
    "count": 7
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 4
+   "name": "Technology",
+   "count": 5
   }
  ],
  "by_country": [
@@ -72,7 +72,7 @@
   },
   {
    "code": "KR",
-   "count": 12,
+   "count": 11,
    "lat": 37.6,
    "lon": 127.0
   },
@@ -246,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "***o* **s**e** Solutions",
+   "group": "nightspire",
+   "date": "2026-10-14T02:10:44+00:00",
+   "attack_date": "2026-10-13",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/KioqbyogKipzKiplKiogU29sdXRpb25zQG5pZ2h0c3BpcmU="
+  },
   {
    "victim": "Lane Equipment",
    "group": "dragonforce",
@@ -1136,15 +1145,6 @@
    "country": "ID",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/SUxDUyBQZWxpbmRvIChwb3J0IGxvZ2lzdGljcyBvcGVyYXRpb25zKUBOMG4="
-  },
-  {
-   "victim": "Pusan Newport Company (container terminal operations)",
-   "group": "N0n",
-   "date": "2026-10-12T13:54:25+00:00",
-   "attack_date": "2026-10-12",
-   "country": "KR",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/UHVzYW4gTmV3cG9ydCBDb21wYW55IChjb250YWluZXIgdGVybWluYWwgb3BlcmF0aW9ucylATjBu"
   }
  ]
 }
