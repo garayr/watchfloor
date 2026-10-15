@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2083,
-  "c2_servers": 1389,
+  "total_iocs": 2076,
+  "c2_servers": 1377,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 989,
-    "c2": 978,
+    "iocs": 983,
+    "c2": 972,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "VShell",
-    "iocs": 301,
-    "c2": 51,
+    "iocs": 300,
+    "c2": 50,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -24,26 +24,26 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
+    "name": "AMOS",
+    "iocs": 59,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
     "name": "Mirai",
     "iocs": 55,
     "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "AMOS",
-    "iocs": 54,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 43,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 43,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -55,8 +55,8 @@
    },
    {
     "name": "Remcos",
-    "iocs": 36,
-    "c2": 36,
+    "iocs": 33,
+    "c2": 33,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
@@ -68,24 +68,24 @@
   ]
  },
  "urls": {
-  "sample": 685,
-  "online": 329,
+  "sample": 700,
+  "online": 345,
   "top_tags": [
    {
     "name": "elf",
-    "count": 235
+    "count": 239
    },
    {
     "name": "Mozi",
-    "count": 146
+    "count": 150
    },
    {
     "name": "32-bit",
-    "count": 118
+    "count": 122
    },
    {
     "name": "mips",
-    "count": 100
+    "count": 103
    },
    {
     "name": "ua-wget",
@@ -93,7 +93,7 @@
    },
    {
     "name": "arm",
-    "count": 40
+    "count": 41
    },
    {
     "name": "honeypot",
@@ -249,6 +249,63 @@
     "cve-2024-57728"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad0dc1e98341fe609c19f3e"
+  },
+  {
+   "name": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware",
+   "summary": "This investigation reveals the first public confirmation of zero-click mercenary spyware delivered via targeted advertisements, termed AdFection. Devices at Al Jazeera were infected with Candiru spyware through…",
+   "date": "2026-10-15T12:22:56+00:00",
+   "author": "AlienVault",
+   "adversary": "Caramel Tsunami",
+   "malware": [
+    "Candiru"
+   ],
+   "countries": [
+    "United States of America",
+    "Armenia",
+    "Australia",
+    "Azerbaijan",
+    "Belarus",
+    "Bhutan"
+   ],
+   "industries": [
+    "Media",
+    "Government",
+    "Defense",
+    "Telecommunications",
+    "Energy",
+    "Finance"
+   ],
+   "tags": [
+    "mercenary surveillance",
+    "adfection",
+    "controlium",
+    "cve-2021-31979",
+    "discover-tech",
+    "cve-2021-33771"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad0c5a0a6d66a2d742e590c"
+  },
+  {
+   "name": "Aoki: Infostealer Targets AI Coding Assistant Credentials",
+   "summary": "The Aoki infostealer has evolved to target credentials from AI coding assistants including Claude, OpenAI's Codex, Cursor, Codeium and Gemini. This capability represents a recent addition, as earlier versions did not…",
+   "date": "2026-10-15T12:11:47+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Aoki",
+    "Aokigahara"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "api keys",
+    "aoki",
+    "aokigahara",
+    "cryptocurrency wallets",
+    "infostealer",
+    "ai coding assistant"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad0c30399495ae02dc7664a"
   },
   {
    "name": "Iron Man & YamStore: Powering a Global Phishing-as-a-Service Ecosystem",
@@ -462,65 +519,13 @@
     "botnet"
    ],
    "url": "https://otx.alienvault.com/pulse/6acf7922d9bc17d95d27ec5c"
-  },
-  {
-   "name": "2026 Q3 Linux SSH Server Targeted Malware Statistics Report",
-   "summary": "During Q3 2026, honeypot monitoring revealed attacks targeting poorly managed Linux SSH servers through brute force and dictionary attacks. Primary malware families included ShellBot (also known as PerlBot), a…",
-   "date": "2026-10-14T07:14:43+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ShellBot",
-    "Fisieredoor",
-    "XMRig",
-    "XHide",
-    "goauto",
-    "tsm"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "libssl2.3.0.so",
-    "xhide",
-    "fisieredoor",
-    "cryptocurrency-mining",
-    "rootkit",
-    "dictionary-attack"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acf2be335dd8bbd4e27ec2e"
-  },
-  {
-   "name": "Q3 2026 Statistical Report on Malware Targeting Windows Database Servers",
-   "summary": "During the third quarter of 2026, attackers targeted MS-SQL and MySQL servers on Windows systems through multiple attack vectors including brute-force attacks, dictionary attacks, and vulnerability exploitation. Threat…",
-   "date": "2026-10-14T07:14:41+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "XMRig",
-    "GotoHTTP",
-    "SoftEther",
-    "Sharp4WebCmd",
-    "Suo5",
-    "VShell"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "credential theft",
-    "ringq",
-    "ms-sql",
-    "brute-force attacks",
-    "fscan",
-    "hackbrowserdata"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acf2be17afb8c6c6b066bc9"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-15T14:23:32+00:00",
-  "sans": "2026-10-15T14:23:32+00:00",
-  "otx": "2026-10-15T14:23:32+00:00",
-  "urlhaus": "2026-10-15T14:23:32+00:00"
+  "threatfox": "2026-10-15T15:31:54+00:00",
+  "sans": "2026-10-15T15:31:54+00:00",
+  "otx": "2026-10-15T15:31:54+00:00",
+  "urlhaus": "2026-10-15T15:31:54+00:00"
  },
- "generated_at": "2026-10-15T14:23:32+00:00"
+ "generated_at": "2026-10-15T15:31:54+00:00"
 }
