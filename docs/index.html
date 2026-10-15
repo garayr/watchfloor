@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('wf-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
 <style>
 :root{
   --paper:#EDF0F4; --surface:#FFFFFF; --ink:#16202E; --muted:#556275; --rule:#C9D1DC;
@@ -49,7 +50,13 @@ header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;backgroun
 .bar{display:flex;align-items:flex-end;gap:24px;flex-wrap:wrap;padding-top:18px}
 .brand{font-weight:800;font-variation-settings:"wdth" 62;font-size:34px;line-height:1;letter-spacing:-.01em;margin:0 0 12px}
 .brand span{display:block;font-size:13px;font-weight:500;font-variation-settings:"wdth" 100;color:var(--muted);letter-spacing:0;margin-top:6px}
-.stamp{margin-left:auto;margin-bottom:14px;font-size:13px;color:var(--muted);text-align:right}
+.head-right{margin-left:auto;margin-bottom:14px;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.stamp{margin:0;font-size:13px;color:var(--muted);text-align:right}
+.theme{display:inline-flex;border:1px solid var(--rule);border-radius:6px;overflow:hidden;background:var(--surface)}
+.theme button{appearance:none;border:0;background:none;color:var(--muted);font:inherit;font-size:12.5px;font-weight:600;padding:4px 10px;cursor:pointer}
+.theme button+button{border-left:1px solid var(--rule)}
+.theme button:hover{color:var(--ink)}
+.theme button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
 .stamp b{color:var(--ink);font-weight:600}
 [role="tablist"]{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
 [role="tab"]{appearance:none;border:0;background:none;color:var(--muted);font:inherit;font-weight:600;
@@ -256,7 +263,8 @@ footer p{margin:0 0 6px;max-width:80ch}
   .wrap{padding:0 14px}
   .top .bar{display:block;padding-top:14px}
   .brand{margin-bottom:8px}
-  .stamp{margin:0 0 6px;text-align:left;font-size:12.5px;line-height:1.45}
+  .head-right{margin:0 0 6px;align-items:flex-start;flex-direction:column-reverse;gap:6px}
+  .stamp{text-align:left;font-size:12.5px;line-height:1.45}
   .alert{grid-template-columns:1fr;padding:14px 16px}
   .ameta{grid-row:auto;flex-direction:row;flex-wrap:wrap;gap:4px 12px}
   [role="tab"]{font-size:14.5px;padding:10px 6px 12px;font-variation-settings:"wdth" 78}
@@ -272,7 +280,14 @@ footer p{margin:0 0 6px;max-width:80ch}
   <div class="wrap">
     <div class="bar">
       <h1 class="brand">Watchfloor<span>Cyber security alerts, attack map and news</span></h1>
-      <p class="stamp" id="stamp">Loading latest data…</p>
+      <div class="head-right">
+        <div class="theme" role="group" aria-label="Colour theme">
+          <button type="button" data-theme-set="auto" title="Match your device’s setting">Auto</button>
+          <button type="button" data-theme-set="light">Light</button>
+          <button type="button" data-theme-set="dark">Dark</button>
+        </div>
+        <p class="stamp" id="stamp">Loading latest data…</p>
+      </div>
     </div>
     <div role="tablist" aria-label="Sections">
       <button role="tab" id="tab-alerts" aria-controls="panel-alerts" aria-selected="true">Alerts<span class="count" id="alert-count"></span></button>
@@ -939,6 +954,7 @@ const MapView=(function(){
   document.addEventListener('visibilitychange',()=>{ if(!document.hidden&&running&&visible) loop(); });
   const mq=window.matchMedia('(prefers-color-scheme: dark)');
   mq.addEventListener&&mq.addEventListener('change',()=>{ if(visible) build(); });
+  document.addEventListener('wf-theme',()=>{ arcs=[]; rings=[]; if(visible) build(); });
 
   let loaded=false;
   return {
@@ -980,6 +996,22 @@ const MapView=(function(){
       if(running) loop();
     }
   };
+})();
+
+/* ---------------- Light / dark switch ---------------- */
+(function(){
+  const btns=[...document.querySelectorAll('[data-theme-set]')];
+  let cur='auto'; try{ const t=localStorage.getItem('wf-theme'); if(t==='light'||t==='dark') cur=t; }catch(e){}
+  function apply(mode){
+    cur=mode;
+    if(mode==='auto') document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.setAttribute('data-theme',mode);
+    try{ mode==='auto'?localStorage.removeItem('wf-theme'):localStorage.setItem('wf-theme',mode); }catch(e){}
+    btns.forEach(b=>b.setAttribute('aria-pressed',b.dataset.themeSet===mode));
+    document.dispatchEvent(new Event('wf-theme'));
+  }
+  btns.forEach(b=>b.addEventListener('click',()=>apply(b.dataset.themeSet)));
+  btns.forEach(b=>b.setAttribute('aria-pressed',b.dataset.themeSet===cur));
 })();
 
 /* restore last tab */
