@@ -13,7 +13,7 @@
     },
     {
      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
-     "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indictment charges a…",
+     "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers and KVM devices as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The…",
      "source": "The Hacker News",
      "date": "2026-10-14T16:34:31+00:00",
      "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
@@ -77,6 +77,28 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Cisco Warns of Exploited Secure Email Gateway Vulnerability",
+     "summary": "Unauthenticated, remote attackers could write arbitrary files to the operating system and execute commands with root privileges. The post Cisco Warns of Exploited Secure Email Gateway Vulnerability appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-10-15T06:34:15+00:00",
+     "url": "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76519"
+     ]
+    },
+    {
+     "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+     "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T06:17:58+00:00",
+     "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-0322"
+     ]
+    },
     {
      "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
      "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
@@ -208,14 +230,6 @@
      ]
     },
     {
-     "title": "SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities",
-     "summary": "The bugs could allow attackers to invoke internal operations and execute code, completely compromising the system. The post SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-14T06:12:10+00:00",
-     "url": "https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
      "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows…",
      "source": "The Hacker News",
@@ -277,14 +291,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-13T21:16:34+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
-     "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The…",
-     "source": "The Hacker News",
-     "date": "2026-10-13T18:20:57+00:00",
-     "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
      "group": "Malware and campaigns"
     }
    ]
