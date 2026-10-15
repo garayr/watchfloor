@@ -1,20 +1,24 @@
 {
- "generated_at": "2026-10-15T19:54:25+00:00",
+ "generated_at": "2026-10-15T20:56:24+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
+  {
+   "name": "N0n",
+   "count": 14
+  },
   {
    "name": "Wallstreet",
    "count": 13
   },
   {
    "name": "qilin",
-   "count": 13
+   "count": 12
   },
   {
-   "name": "N0n",
-   "count": 12
+   "name": "lockbit5",
+   "count": 8
   },
   {
    "name": "akira",
@@ -22,10 +26,6 @@
   },
   {
    "name": "iah6477",
-   "count": 6
-  },
-  {
-   "name": "interlock",
    "count": 6
   },
   {
@@ -55,18 +55,18 @@
    "count": 9
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Technology",
    "count": 9
   },
   {
-   "name": "Technology",
-   "count": 9
+   "name": "Retail & E-Commerce",
+   "count": 8
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 26,
+   "count": 24,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -95,28 +95,34 @@
    "lon": 72.9
   },
   {
+   "code": "IT",
+   "count": 3,
+   "lat": 41.9,
+   "lon": 12.5
+  },
+  {
+   "code": "MX",
+   "count": 3,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "DE",
    "count": 2,
    "lat": 50.1,
    "lon": 8.7
   },
   {
-   "code": "IT",
+   "code": "EG",
    "count": 2,
-   "lat": 41.9,
-   "lon": 12.5
+   "lat": 30.0,
+   "lon": 31.2
   },
   {
    "code": "JP",
    "count": 2,
    "lat": 35.7,
    "lon": 139.7
-  },
-  {
-   "code": "MX",
-   "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "SG",
@@ -141,18 +147,6 @@
    "count": 1,
    "lat": 43.7,
    "lon": -79.4
-  },
-  {
-   "code": "CL",
-   "count": 1,
-   "lat": -33.4,
-   "lon": -70.6
-  },
-  {
-   "code": "EC",
-   "count": 1,
-   "lat": -0.2,
-   "lon": -78.5
   },
   {
    "code": "ES",
@@ -234,6 +228,69 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #70",
+   "group": "N0n",
+   "date": "2026-10-15T16:23:34+00:00",
+   "attack_date": "2026-10-15",
+   "country": "EG",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzBATjBu"
+  },
+  {
+   "victim": "Company #73",
+   "group": "N0n",
+   "date": "2026-10-15T16:23:00+00:00",
+   "attack_date": "2026-10-15",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzNATjBu"
+  },
+  {
+   "victim": "torcivialaw.com",
+   "group": "lockbit5",
+   "date": "2026-10-15T16:11:30+00:00",
+   "attack_date": "2026-10-15",
+   "country": "IT",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/dG9yY2l2aWFsYXcuY29tQGxvY2tiaXQ1"
+  },
+  {
+   "victim": "kidzrkooldental.com",
+   "group": "lockbit5",
+   "date": "2026-10-15T16:09:28+00:00",
+   "attack_date": "2026-10-15",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/a2lkenJrb29sZGVudGFsLmNvbUBsb2NrYml0NQ=="
+  },
+  {
+   "victim": "lcww.com.eg",
+   "group": "lockbit5",
+   "date": "2026-10-15T16:07:25+00:00",
+   "attack_date": "2026-10-15",
+   "country": "EG",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/bGN3dy5jb20uZWdAbG9ja2JpdDU="
+  },
+  {
+   "victim": "neweramachines.com",
+   "group": "lockbit5",
+   "date": "2026-10-15T16:06:43+00:00",
+   "attack_date": "2026-10-15",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/bmV3ZXJhbWFjaGluZXMuY29tQGxvY2tiaXQ1"
+  },
+  {
+   "victim": "grupoabg.com",
+   "group": "lockbit5",
+   "date": "2026-10-15T16:04:44+00:00",
+   "attack_date": "2026-10-15",
+   "country": "MX",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Z3J1cG9hYmcuY29tQGxvY2tiaXQ1"
+  },
   {
    "victim": "KD Corp",
    "group": "qilin",
@@ -1070,69 +1127,6 @@
    "country": "US",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/Q2xhaXJlJ3MgSW5jLkBEYXJrIFByb2plY3Q="
-  },
-  {
-   "victim": "Pedigo Products, Inc.",
-   "group": "interlock",
-   "date": "2026-10-12T15:50:37+00:00",
-   "attack_date": "2026-10-12",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UGVkaWdvIFByb2R1Y3RzLCBJbmMuQGludGVybG9jaw=="
-  },
-  {
-   "victim": "Valenti Management",
-   "group": "interlock",
-   "date": "2026-10-12T15:50:00+00:00",
-   "attack_date": "2026-10-12",
-   "country": "CL",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/VmFsZW50aSBNYW5hZ2VtZW50QGludGVybG9jaw=="
-  },
-  {
-   "victim": "Concord Eye Center",
-   "group": "interlock",
-   "date": "2026-10-12T15:49:17+00:00",
-   "attack_date": "2026-10-12",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Q29uY29yZCBFeWUgQ2VudGVyQGludGVybG9jaw=="
-  },
-  {
-   "victim": "Greentech Environmental",
-   "group": "interlock",
-   "date": "2026-10-12T15:48:25+00:00",
-   "attack_date": "2026-10-12",
-   "country": null,
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/R3JlZW50ZWNoIEVudmlyb25tZW50YWxAaW50ZXJsb2Nr"
-  },
-  {
-   "victim": "Engineers Contractors Fabricators Inc. (ECF)",
-   "group": "interlock",
-   "date": "2026-10-12T15:47:49+00:00",
-   "attack_date": "2026-10-12",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RW5naW5lZXJzIENvbnRyYWN0b3JzIEZhYnJpY2F0b3JzIEluYy4gKEVDRilAaW50ZXJsb2Nr"
-  },
-  {
-   "victim": "Nu-Quest Distribution Inc",
-   "group": "interlock",
-   "date": "2026-10-12T15:47:25+00:00",
-   "attack_date": "2026-10-12",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/TnUtUXVlc3QgRGlzdHJpYnV0aW9uIEluY0BpbnRlcmxvY2s="
-  },
-  {
-   "victim": "ConAuto",
-   "group": "qilin",
-   "date": "2026-10-12T14:50:15+00:00",
-   "attack_date": "2026-10-12",
-   "country": "EC",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/Q29uQXV0b0BxaWxpbg=="
   }
  ]
 }

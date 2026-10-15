@@ -18,20 +18,20 @@
      "date": "2026-10-14T19:41:43+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
-     "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers and KVM devices as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The…",
-     "source": "The Hacker News",
-     "date": "2026-10-14T16:34:31+00:00",
-     "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+     "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T20:24:36+00:00",
+     "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
      "summary": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
@@ -61,6 +61,14 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+     "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-15T20:25:04+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+     "group": "Exploited right now"
+    },
     {
      "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
      "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through…",
@@ -254,14 +262,6 @@
      "source": "The Hacker News",
      "date": "2026-10-15T08:45:10+00:00",
      "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
-     "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of…",
-     "source": "The Hacker News",
-     "date": "2026-10-14T17:09:15+00:00",
-     "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
      "group": "Malware and campaigns"
     }
    ]
