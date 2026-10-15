@@ -50,14 +50,6 @@
      "date": "2026-10-14T01:59:25+00:00",
      "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "OpenAI engineer arrested for allegedly planting spy device in office",
-     "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-13T22:33:02+00:00",
-     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
@@ -78,6 +70,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+     "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T07:07:05+00:00",
+     "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution",
      "summary": "The company says it’s aware of limited exploitation against customers’ firewalls, and it has made IoCs available. The post Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution appeared first on…",
      "source": "SecurityWeek",
@@ -86,6 +86,18 @@
      "group": "Exploited right now",
      "alerts": [
       "CVE-2026-0322"
+     ]
+    },
+    {
+     "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+     "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners. The vulnerabilities in…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T06:43:08+00:00",
+     "url": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-105134",
+      "CVE-2026-105133"
      ]
     },
     {
@@ -239,28 +251,20 @@
      "alerts": [
       "CVE-2026-65660"
      ]
-    },
-    {
-     "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
-     "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-13T21:33:26+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
-     "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-13T19:56:09+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+     "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T08:45:10+00:00",
+     "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
      "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of…",
@@ -276,20 +280,20 @@
      "date": "2026-10-14T11:41:20+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Anthropic warns self-replicating AI could spread to your smart devices",
-     "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without…",
-     "source": "BleepingComputer",
-     "date": "2026-10-13T21:16:34+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
+     "summary": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-15T09:10:20+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+     "group": "Other news"
+    },
     {
      "title": "CISO Conversations: James Robinson – Many Jobs, One Journey to Netskope CISO",
      "summary": "James Robinson never planned a cybersecurity career — seven companies and one deputy CISO role later, he leads security at Netskope. The post CISO Conversations: James Robinson – Many Jobs, One Journey to Netskope CISO…",
