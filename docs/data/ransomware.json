@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T07:31:03+00:00",
+ "generated_at": "2026-10-15T08:46:14+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -44,7 +44,7 @@
   },
   {
    "name": "Transportation",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Healthcare",
@@ -83,12 +83,6 @@
    "lon": -46.6
   },
   {
-   "code": "DE",
-   "count": 3,
-   "lat": 50.1,
-   "lon": 8.7
-  },
-  {
    "code": "GB",
    "count": 3,
    "lat": 51.5,
@@ -117,6 +111,12 @@
    "count": 2,
    "lat": 39.9,
    "lon": 116.4
+  },
+  {
+   "code": "DE",
+   "count": 2,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "ES",
@@ -246,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #69",
+   "group": "N0n",
+   "date": "2026-10-15T04:21:44+00:00",
+   "attack_date": "2026-10-15",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNjlATjBu"
+  },
   {
    "victim": "alera",
    "group": "iah6477",
@@ -1136,15 +1145,6 @@
    "country": "TW",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/VC5TLiBMaW5lcyAoaW50cmEtQXNpYSBjb250YWluZXIgc2hpcHBpbmcpQE4wbg=="
-  },
-  {
-   "victim": "HPC Hamburg Port Consulting (port operations)",
-   "group": "N0n",
-   "date": "2026-10-12T14:08:38+00:00",
-   "attack_date": "2026-10-12",
-   "country": "DE",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/SFBDIEhhbWJ1cmcgUG9ydCBDb25zdWx0aW5nIChwb3J0IG9wZXJhdGlvbnMpQE4wbg=="
   }
  ]
 }
