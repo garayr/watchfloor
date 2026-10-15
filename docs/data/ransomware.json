@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-15T06:07:58+00:00",
+ "generated_at": "2026-10-15T07:31:03+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 27
+   "count": 26
   },
   {
    "name": "Wallstreet",
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 18
+   "count": 19
   },
   {
    "name": "Transportation",
-   "count": 17
+   "count": 15
   },
   {
    "name": "Healthcare",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 23,
+   "count": 24,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -78,15 +78,9 @@
   },
   {
    "code": "BR",
-   "count": 7,
+   "count": 6,
    "lat": -23.5,
    "lon": -46.6
-  },
-  {
-   "code": "SG",
-   "count": 4,
-   "lat": 1.35,
-   "lon": 103.8
   },
   {
    "code": "DE",
@@ -111,6 +105,12 @@
    "count": 3,
    "lat": 37.6,
    "lon": 127.0
+  },
+  {
+   "code": "SG",
+   "count": 3,
+   "lat": 1.35,
+   "lon": 103.8
   },
   {
    "code": "CN",
@@ -246,6 +246,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "alera",
+   "group": "iah6477",
+   "date": "2026-10-15T03:02:43+00:00",
+   "attack_date": "2026-10-15",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/YWxlcmFAaWFoNjQ3Nw=="
+  },
+  {
+   "victim": "Company #68",
+   "group": "N0n",
+   "date": "2026-10-15T02:52:05+00:00",
+   "attack_date": "2026-10-15",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNjhATjBu"
+  },
   {
    "victim": "Company #67",
    "group": "N0n",
@@ -1127,24 +1145,6 @@
    "country": "DE",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/SFBDIEhhbWJ1cmcgUG9ydCBDb25zdWx0aW5nIChwb3J0IG9wZXJhdGlvbnMpQE4wbg=="
-  },
-  {
-   "victim": "Apical Group (commodity processing and logistics)",
-   "group": "N0n",
-   "date": "2026-10-12T14:08:02+00:00",
-   "attack_date": "2026-10-12",
-   "country": "SG",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/QXBpY2FsIEdyb3VwIChjb21tb2RpdHkgcHJvY2Vzc2luZyBhbmQgbG9naXN0aWNzKUBOMG4="
-  },
-  {
-   "victim": "Superterminais (port terminal operations)",
-   "group": "N0n",
-   "date": "2026-10-12T14:07:25+00:00",
-   "attack_date": "2026-10-12",
-   "country": "BR",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/U3VwZXJ0ZXJtaW5haXMgKHBvcnQgdGVybWluYWwgb3BlcmF0aW9ucylATjBu"
   }
  ]
 }

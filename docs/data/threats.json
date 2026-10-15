@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1815,
-  "c2_servers": 1355,
+  "total_iocs": 1828,
+  "c2_servers": 1370,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1002,
-    "c2": 991,
+    "iocs": 1003,
+    "c2": 992,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -37,21 +37,21 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 42,
+    "iocs": 44,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "Remcos",
+    "iocs": 41,
+    "c2": 41,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "Formbook",
     "iocs": 39,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
-   },
-   {
-    "name": "Remcos",
-    "iocs": 34,
-    "c2": 34,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "Unknown Loader",
@@ -68,24 +68,24 @@
   ]
  },
  "urls": {
-  "sample": 581,
-  "online": 311,
+  "sample": 597,
+  "online": 305,
   "top_tags": [
    {
     "name": "elf",
-    "count": 210
+    "count": 217
    },
    {
     "name": "Mozi",
-    "count": 127
+    "count": 134
    },
    {
     "name": "32-bit",
-    "count": 104
+    "count": 106
    },
    {
     "name": "mips",
-    "count": 90
+    "count": 93
    },
    {
     "name": "ua-wget",
@@ -93,15 +93,15 @@
    },
    {
     "name": "arm",
-    "count": 33
+    "count": 35
    },
    {
     "name": "honeypot",
-    "count": 30
+    "count": 33
    },
    {
     "name": "botnet",
-    "count": 27
+    "count": 28
    }
   ]
  },
@@ -498,10 +498,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-15T06:07:58+00:00",
-  "sans": "2026-10-15T06:07:58+00:00",
-  "otx": "2026-10-15T06:07:58+00:00",
-  "urlhaus": "2026-10-15T06:07:58+00:00"
+  "threatfox": "2026-10-15T07:31:03+00:00",
+  "sans": "2026-10-15T07:31:03+00:00",
+  "otx": "2026-10-15T07:31:03+00:00",
+  "urlhaus": "2026-10-15T07:31:03+00:00"
  },
- "generated_at": "2026-10-15T06:07:58+00:00"
+ "generated_at": "2026-10-15T07:31:03+00:00"
 }

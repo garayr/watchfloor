@@ -103,6 +103,12 @@
    "sev": "high",
    "news": [
     {
+     "title": "Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution",
+     "url": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
+     "source": "SecurityWeek",
+     "date": "2026-10-15T06:59:54+00:00"
+    },
+    {
      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
      "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
      "source": "The Hacker News",
@@ -170,15 +176,7 @@
    "kev": true,
    "epss": 0.0151,
    "cvss": 8.8,
-   "sev": "high",
-   "news": [
-    {
-     "title": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
-     "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
-     "source": "SecurityWeek",
-     "date": "2026-10-14T07:16:12+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "CVE-2015-5477",
@@ -822,18 +820,6 @@
    "sev": "high"
   },
   {
-   "id": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
-   "date": "2026-09-15",
-   "src": "NCSC",
-   "vendor": "NCSC",
-   "title": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
-   "detail": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
-   "todo": "Read the advisory for affected products and mitigations.",
-   "cves": [],
-   "url": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
-   "sev": "medium"
-  },
-  {
    "id": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
    "date": "2026-09-15",
    "src": "NCSC",
@@ -843,6 +829,18 @@
    "todo": "Read the advisory for affected products and mitigations.",
    "cves": [],
    "url": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
+   "sev": "medium"
+  },
+  {
+   "id": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
+   "date": "2026-09-15",
+   "src": "NCSC",
+   "vendor": "NCSC",
+   "title": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
+   "detail": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
+   "todo": "Read the advisory for affected products and mitigations.",
+   "cves": [],
+   "url": "https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists",
    "sev": "medium"
   }
  ]

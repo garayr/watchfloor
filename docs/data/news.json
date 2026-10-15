@@ -78,6 +78,17 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution",
+     "summary": "The company says it’s aware of limited exploitation against customers’ firewalls, and it has made IoCs available. The post Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-10-15T06:59:54+00:00",
+     "url": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-0322"
+     ]
+    },
+    {
      "title": "Cisco Warns of Exploited Secure Email Gateway Vulnerability",
      "summary": "Unauthenticated, remote attackers could write arbitrary files to the operating system and execute commands with root privileges. The post Cisco Warns of Exploited Secure Email Gateway Vulnerability appeared first on…",
      "source": "SecurityWeek",
@@ -217,17 +228,6 @@
      "date": "2026-10-14T07:38:51+00:00",
      "url": "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
-     "summary": "The most important is CVE-2026-96951, a security feature bypass flaw in Windows that has been exploited in the wild. The post Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-10-14T07:16:12+00:00",
-     "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-96951"
-     ]
     },
     {
      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
