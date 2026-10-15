@@ -832,41 +832,6 @@
    "cves": [],
    "url": "https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists",
    "sev": "medium"
-  },
-  {
-   "id": "CVE-2026-76461",
-   "date": "2026-09-14",
-   "src": "CISA",
-   "vendor": "Cisco Secure Email Gateway",
-   "vendor_name": "Cisco",
-   "product": "Secure Email Gateway",
-   "title": "Cisco Secure Email Gateway SQL Injection Vulnerability",
-   "detail": "Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-17",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-76461"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461",
-   "kev": true,
-   "epss": 0.2954,
-   "cvss": 9.8,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
-     "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
-     "source": "The Hacker News",
-     "date": "2026-10-14T18:38:56+00:00"
-    },
-    {
-     "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
-     "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
-     "source": "BleepingComputer",
-     "date": "2026-10-14T17:29:14+00:00"
-    }
-   ]
   }
  ]
 }
