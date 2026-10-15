@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T02:08:16+00:00",
+ "generated_at": "2026-10-15T03:07:48+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Transportation",
-   "count": 20
+   "count": 19
   },
   {
    "name": "Professional Services",
@@ -59,8 +59,8 @@
    "count": 9
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 6
+   "name": "Technology",
+   "count": 7
   }
  ],
  "by_country": [
@@ -81,12 +81,6 @@
    "count": 7,
    "lat": -23.5,
    "lon": -46.6
-  },
-  {
-   "code": "KR",
-   "count": 4,
-   "lat": 37.6,
-   "lon": 127.0
   },
   {
    "code": "SG",
@@ -111,6 +105,12 @@
    "count": 3,
    "lat": 35.7,
    "lon": 139.7
+  },
+  {
+   "code": "KR",
+   "count": 3,
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "CN",
@@ -258,6 +258,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Interior Technologies",
+   "group": "N0n",
+   "date": "2026-10-14T22:59:09+00:00",
+   "attack_date": "2026-10-14",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/SW50ZXJpb3IgVGVjaG5vbG9naWVzQE4wbg=="
+  },
   {
    "victim": "Taiwan Otsuka Pharmaceutical",
    "group": "Eclipse",
@@ -1148,15 +1157,6 @@
    "country": "KW",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/R0NTIEt1d2FpdCAocG9ydCBjb21tdW5pdHkgc3lzdGVtIG9wZXJhdGlvbnMpQE4wbg=="
-  },
-  {
-   "victim": "GNCNet / DGT Busan (port community IT)",
-   "group": "N0n",
-   "date": "2026-10-12T14:05:42+00:00",
-   "attack_date": "2026-10-12",
-   "country": "KR",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/R05DTmV0IC8gREdUIEJ1c2FuIChwb3J0IGNvbW11bml0eSBJVClATjBu"
   }
  ]
 }
