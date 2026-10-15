@@ -62,6 +62,25 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
+     "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T12:07:20+00:00",
+     "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+     "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T11:46:49+00:00",
+     "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-0322"
+     ]
+    },
+    {
      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
      "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and…",
      "source": "The Hacker News",
@@ -101,17 +120,6 @@
      "group": "Exploited right now",
      "alerts": [
       "CVE-2026-76519"
-     ]
-    },
-    {
-     "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
-     "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of…",
-     "source": "The Hacker News",
-     "date": "2026-10-15T06:17:58+00:00",
-     "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-0322"
      ]
     },
     {
@@ -216,20 +224,20 @@
      "date": "2026-10-14T11:08:22+00:00",
      "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
-     "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write…",
-     "source": "The Hacker News",
-     "date": "2026-10-14T07:46:57+00:00",
-     "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+     "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T11:46:59+00:00",
+     "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "CikaBika Bot RAT Uses Discord for C&C",
      "summary": "Delivered via phishing, the malware provides reconnaissance, remote execution, and data exfiltration capabilities. The post CikaBika Bot RAT Uses Discord for C&C appeared first on SecurityWeek.",
@@ -275,6 +283,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Why AI Confidence Is Not Validation",
+     "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T11:04:35+00:00",
+     "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
+     "group": "Other news"
+    },
     {
      "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
      "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to…",
@@ -353,22 +369,6 @@
      "source": "The Hacker News",
      "date": "2026-10-14T11:00:00+00:00",
      "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
-     "summary": "Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates if the \"Administrator protection\" security feature is enabled. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-14T10:48:09+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
-     "group": "Other news"
-    },
-    {
-     "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
-     "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over. The protected area is a VBS enclave, an isolated slice of…",
-     "source": "The Hacker News",
-     "date": "2026-10-14T05:52:28+00:00",
-     "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
      "group": "Other news"
     }
    ]
