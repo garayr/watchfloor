@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T05:07:45+00:00",
+ "generated_at": "2026-10-15T06:07:58+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -39,12 +39,12 @@
  ],
  "by_sector": [
   {
-   "name": "Transportation",
-   "count": 19
-  },
-  {
    "name": "Professional Services",
    "count": 18
+  },
+  {
+   "name": "Transportation",
+   "count": 17
   },
   {
    "name": "Healthcare",
@@ -131,6 +131,12 @@
    "lon": 72.9
   },
   {
+   "code": "NL",
+   "count": 2,
+   "lat": 52.4,
+   "lon": 4.9
+  },
+  {
    "code": "TR",
    "count": 2,
    "lat": 41.0,
@@ -203,12 +209,6 @@
    "lon": 12.5
   },
   {
-   "code": "KW",
-   "count": 1,
-   "lat": 29.4,
-   "lon": 48.0
-  },
-  {
    "code": "MN",
    "count": 1,
    "lat": 47.9,
@@ -227,22 +227,10 @@
    "lon": 101.7
   },
   {
-   "code": "NL",
-   "count": 1,
-   "lat": 52.4,
-   "lon": 4.9
-  },
-  {
    "code": "NO",
    "count": 1,
    "lat": 59.9,
    "lon": 10.8
-  },
-  {
-   "code": "SA",
-   "count": 1,
-   "lat": 24.7,
-   "lon": 46.7
   },
   {
    "code": "TH",
@@ -258,6 +246,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #67",
+   "group": "N0n",
+   "date": "2026-10-15T01:51:47+00:00",
+   "attack_date": "2026-10-15",
+   "country": "NL",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNjdATjBu"
+  },
+  {
+   "victim": "Company #66",
+   "group": "N0n",
+   "date": "2026-10-15T01:22:36+00:00",
+   "attack_date": "2026-10-15",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNjZATjBu"
+  },
   {
    "victim": "Interior Technologies",
    "group": "N0n",
@@ -1139,24 +1145,6 @@
    "country": "BR",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/U3VwZXJ0ZXJtaW5haXMgKHBvcnQgdGVybWluYWwgb3BlcmF0aW9ucylATjBu"
-  },
-  {
-   "victim": "NEOM Ports (industrial port operations)",
-   "group": "N0n",
-   "date": "2026-10-12T14:06:51+00:00",
-   "attack_date": "2026-10-12",
-   "country": "SA",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/TkVPTSBQb3J0cyAoaW5kdXN0cmlhbCBwb3J0IG9wZXJhdGlvbnMpQE4wbg=="
-  },
-  {
-   "victim": "GCS Kuwait (port community system operations)",
-   "group": "N0n",
-   "date": "2026-10-12T14:06:17+00:00",
-   "attack_date": "2026-10-12",
-   "country": "KW",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/R0NTIEt1d2FpdCAocG9ydCBjb21tdW5pdHkgc3lzdGVtIG9wZXJhdGlvbnMpQE4wbg=="
   }
  ]
 }

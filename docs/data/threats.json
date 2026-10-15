@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2028,
-  "c2_servers": 1519,
+  "total_iocs": 1815,
+  "c2_servers": 1355,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1001,
-    "c2": 990,
+    "iocs": 1002,
+    "c2": 991,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -18,32 +18,26 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Coruna",
-    "iocs": 97,
-    "c2": 97,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/ios.coruna"
+    "name": "Mirai",
+    "iocs": 52,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 63,
+    "iocs": 50,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Mirai",
-    "iocs": 58,
-    "c2": 8,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 51,
+    "iocs": 50,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "ClearFake",
-    "iocs": 43,
+    "iocs": 42,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -55,41 +49,47 @@
    },
    {
     "name": "Remcos",
-    "iocs": 35,
-    "c2": 35,
+    "iocs": 34,
+    "c2": 34,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 32,
+    "iocs": 29,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "DCRat",
+    "iocs": 28,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.dcrat"
    }
   ]
  },
  "urls": {
-  "sample": 577,
-  "online": 316,
+  "sample": 581,
+  "online": 311,
   "top_tags": [
    {
     "name": "elf",
-    "count": 207
+    "count": 210
    },
    {
     "name": "Mozi",
-    "count": 126
+    "count": 127
    },
    {
     "name": "32-bit",
-    "count": 103
+    "count": 104
    },
    {
     "name": "mips",
-    "count": 89
+    "count": 90
    },
    {
     "name": "ua-wget",
-    "count": 74
+    "count": 75
    },
    {
     "name": "arm",
@@ -498,10 +498,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-15T05:07:45+00:00",
-  "sans": "2026-10-15T05:07:45+00:00",
-  "otx": "2026-10-15T05:07:45+00:00",
-  "urlhaus": "2026-10-15T05:07:45+00:00"
+  "threatfox": "2026-10-15T06:07:58+00:00",
+  "sans": "2026-10-15T06:07:58+00:00",
+  "otx": "2026-10-15T06:07:58+00:00",
+  "urlhaus": "2026-10-15T06:07:58+00:00"
  },
- "generated_at": "2026-10-15T05:07:45+00:00"
+ "generated_at": "2026-10-15T06:07:58+00:00"
 }
