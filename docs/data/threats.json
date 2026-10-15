@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2122,
-  "c2_servers": 1420,
+  "total_iocs": 2114,
+  "c2_servers": 1418,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1003,
-    "c2": 992,
+    "iocs": 1004,
+    "c2": 993,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -19,7 +19,7 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 161,
+    "iocs": 159,
     "c2": 151,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
@@ -37,13 +37,13 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 49,
+    "iocs": 48,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "ClearFake",
-    "iocs": 43,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -61,19 +61,19 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 29,
-    "c2": 1,
+    "iocs": 28,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    }
   ]
  },
  "urls": {
-  "sample": 648,
-  "online": 322,
+  "sample": 666,
+  "online": 337,
   "top_tags": [
    {
     "name": "elf",
-    "count": 230
+    "count": 231
    },
    {
     "name": "Mozi",
@@ -97,11 +97,11 @@
    },
    {
     "name": "honeypot",
-    "count": 33
+    "count": 34
    },
    {
-    "name": "botnet",
-    "count": 28
+    "name": "cowrie",
+    "count": 29
    }
   ]
  },
@@ -501,10 +501,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-15T10:58:33+00:00",
-  "sans": "2026-10-15T10:58:33+00:00",
-  "otx": "2026-10-15T10:58:33+00:00",
-  "urlhaus": "2026-10-15T10:58:33+00:00"
+  "threatfox": "2026-10-15T11:56:38+00:00",
+  "sans": "2026-10-15T11:56:38+00:00",
+  "otx": "2026-10-15T11:56:38+00:00",
+  "urlhaus": "2026-10-15T11:56:38+00:00"
  },
- "generated_at": "2026-10-15T10:58:33+00:00"
+ "generated_at": "2026-10-15T11:56:38+00:00"
 }
