@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-15T11:56:38+00:00",
+ "generated_at": "2026-10-15T13:12:28+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 24
+   "count": 23
   },
   {
    "name": "Wallstreet",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Transportation",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Manufacturing",
@@ -56,7 +56,7 @@
   },
   {
    "name": "Other",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Technology",
@@ -78,7 +78,7 @@
   },
   {
    "code": "BR",
-   "count": 6,
+   "count": 7,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -99,12 +99,6 @@
    "count": 3,
    "lat": 1.35,
    "lon": 103.8
-  },
-  {
-   "code": "CN",
-   "count": 2,
-   "lat": 39.9,
-   "lon": 116.4
   },
   {
    "code": "DE",
@@ -171,6 +165,12 @@
    "count": 1,
    "lat": -33.4,
    "lon": -70.6
+  },
+  {
+   "code": "CN",
+   "count": 1,
+   "lat": 39.9,
+   "lon": 116.4
   },
   {
    "code": "EC",
@@ -246,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "MPI LTDA",
+   "group": "emperador",
+   "date": "2026-10-15T08:51:31+00:00",
+   "attack_date": "2026-10-15",
+   "country": "BR",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/TVBJIExUREFAZW1wZXJhZG9y"
+  },
   {
    "victim": "Alma Center Servizi Medicali S.r.l.",
    "group": "spacebears",
@@ -1136,15 +1145,6 @@
    "country": "NL",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/UHJlbWllciBBbGxpYW5jZSAoc2hpcHBpbmcgbmV0d29yayBvcGVyYXRpb25zKUBOMG4="
-  },
-  {
-   "victim": "CULines (container shipping)",
-   "group": "N0n",
-   "date": "2026-10-12T14:10:20+00:00",
-   "attack_date": "2026-10-12",
-   "country": "CN",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/Q1VMaW5lcyAoY29udGFpbmVyIHNoaXBwaW5nKUBOMG4="
   }
  ]
 }
