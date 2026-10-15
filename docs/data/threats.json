@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1857,
-  "c2_servers": 1372,
+  "total_iocs": 1864,
+  "c2_servers": 1371,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1003,
-    "c2": 992,
+    "iocs": 1002,
+    "c2": 991,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -19,13 +19,13 @@
    },
    {
     "name": "AMOS",
-    "iocs": 55,
+    "iocs": 60,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 51,
+    "iocs": 52,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -37,7 +37,7 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 41,
+    "iocs": 43,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -60,16 +60,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "WARDENStealer",
+    "name": "DCRat",
     "iocs": 28,
-    "c2": 28,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.dcrat"
    }
   ]
  },
  "urls": {
-  "sample": 563,
-  "online": 311,
+  "sample": 566,
+  "online": 304,
   "top_tags": [
    {
     "name": "elf",
@@ -498,10 +498,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-15T03:07:48+00:00",
-  "sans": "2026-10-15T03:07:48+00:00",
-  "otx": "2026-10-15T03:07:48+00:00",
-  "urlhaus": "2026-10-15T03:07:48+00:00"
+  "threatfox": "2026-10-15T04:10:29+00:00",
+  "sans": "2026-10-15T04:10:29+00:00",
+  "otx": "2026-10-15T04:10:29+00:00",
+  "urlhaus": "2026-10-15T04:10:29+00:00"
  },
- "generated_at": "2026-10-15T03:07:48+00:00"
+ "generated_at": "2026-10-15T04:10:29+00:00"
 }
