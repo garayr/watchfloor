@@ -2,14 +2,20 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1864,
-  "c2_servers": 1371,
+  "total_iocs": 2028,
+  "c2_servers": 1519,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1002,
-    "c2": 991,
+    "iocs": 1001,
+    "c2": 990,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "IClickFix",
+    "iocs": 162,
+    "c2": 151,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Coruna",
@@ -19,21 +25,21 @@
    },
    {
     "name": "AMOS",
-    "iocs": 60,
+    "iocs": 63,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 52,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
     "name": "Mirai",
-    "iocs": 50,
+    "iocs": 58,
     "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 51,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "ClearFake",
@@ -58,34 +64,28 @@
     "iocs": 32,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
-    "name": "DCRat",
-    "iocs": 28,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.dcrat"
    }
   ]
  },
  "urls": {
-  "sample": 566,
-  "online": 304,
+  "sample": 577,
+  "online": 316,
   "top_tags": [
    {
     "name": "elf",
-    "count": 203
+    "count": 207
    },
    {
     "name": "Mozi",
-    "count": 122
+    "count": 126
    },
    {
     "name": "32-bit",
-    "count": 99
+    "count": 103
    },
    {
     "name": "mips",
-    "count": 87
+    "count": 89
    },
    {
     "name": "ua-wget",
@@ -93,7 +93,7 @@
    },
    {
     "name": "arm",
-    "count": 31
+    "count": 33
    },
    {
     "name": "honeypot",
@@ -107,74 +107,74 @@
  },
  "ports": [
   {
-   "port": 23,
-   "service": "Telnet",
-   "records": 153,
-   "targets": 3,
-   "sources": 62
-  },
-  {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 127,
-   "targets": 2,
-   "sources": 55
+   "records": 135948,
+   "targets": 205,
+   "sources": 7096
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 104,
-   "targets": 2,
-   "sources": 24
+   "records": 113711,
+   "targets": 242,
+   "sources": 3042
   },
   {
-   "port": 8443,
-   "service": "Web (HTTPS alt)",
-   "records": 52,
-   "targets": 2,
-   "sources": 13
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 70477,
+   "targets": 219,
+   "sources": 7756
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 34,
-   "targets": 2,
-   "sources": 16
+   "records": 65890,
+   "targets": 223,
+   "sources": 2114
   },
   {
-   "port": 143,
+   "port": 23,
+   "service": "Telnet",
+   "records": 62867,
+   "targets": 249,
+   "sources": 3214
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 44243,
+   "targets": 221,
+   "sources": 1838
+  },
+  {
+   "port": 2222,
    "service": null,
-   "records": 17,
-   "targets": 3,
-   "sources": 10
+   "records": 41628,
+   "targets": 215,
+   "sources": 1532
   },
   {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 14,
-   "targets": 2,
-   "sources": 13
-  },
-  {
-   "port": 83,
+   "port": 51413,
    "service": null,
-   "records": 11,
-   "targets": 2,
-   "sources": 6
+   "records": 16264,
+   "targets": 21,
+   "sources": 675
   },
   {
-   "port": 5060,
-   "service": "VoIP (SIP)",
-   "records": 9,
-   "targets": 2,
-   "sources": 9
-  },
-  {
-   "port": 5985,
+   "port": 9000,
    "service": null,
-   "records": 7,
-   "targets": 2,
-   "sources": 7
+   "records": 13069,
+   "targets": 204,
+   "sources": 1108
+  },
+  {
+   "port": 137,
+   "service": null,
+   "records": 11155,
+   "targets": 170,
+   "sources": 263
   }
  ],
  "ports_date": "2026-10-15",
@@ -498,10 +498,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-15T04:10:29+00:00",
-  "sans": "2026-10-15T04:10:29+00:00",
-  "otx": "2026-10-15T04:10:29+00:00",
-  "urlhaus": "2026-10-15T04:10:29+00:00"
+  "threatfox": "2026-10-15T05:07:45+00:00",
+  "sans": "2026-10-15T05:07:45+00:00",
+  "otx": "2026-10-15T05:07:45+00:00",
+  "urlhaus": "2026-10-15T05:07:45+00:00"
  },
- "generated_at": "2026-10-15T04:10:29+00:00"
+ "generated_at": "2026-10-15T05:07:45+00:00"
 }
