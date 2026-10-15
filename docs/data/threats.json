@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2373,
-  "c2_servers": 1374,
+  "total_iocs": 2448,
+  "c2_servers": 1441,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1000,
-    "c2": 977,
+    "iocs": 1004,
+    "c2": 981,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "VShell",
-    "iocs": 300,
-    "c2": 50,
+    "iocs": 299,
+    "c2": 49,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -43,7 +43,7 @@
    },
    {
     "name": "Mirai",
-    "iocs": 52,
+    "iocs": 60,
     "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -54,42 +54,46 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 42,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "Remus",
+    "iocs": 49,
+    "c2": 49,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
-    "name": "AsyncRAT",
-    "iocs": 37,
-    "c2": 16,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+    "name": "php.shin_webshell",
+    "iocs": 41,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
-  "sample": 782,
-  "online": 358,
+  "sample": 850,
+  "online": 388,
   "top_tags": [
    {
     "name": "elf",
-    "count": 256
+    "count": 314
    },
    {
     "name": "Mozi",
-    "count": 164
+    "count": 170
    },
    {
     "name": "32-bit",
-    "count": 134
-   },
-   {
-    "name": "mips",
-    "count": 113
+    "count": 140
    },
    {
     "name": "ua-wget",
-    "count": 75
+    "count": 131
+   },
+   {
+    "name": "mips",
+    "count": 119
+   },
+   {
+    "name": "botnetdomain",
+    "count": 56
    },
    {
     "name": "cowrie",
@@ -98,10 +102,6 @@
    {
     "name": "arm",
     "count": 45
-   },
-   {
-    "name": "botnet",
-    "count": 44
    }
   ]
  },
@@ -522,10 +522,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-15T18:45:58+00:00",
-  "sans": "2026-10-15T18:45:58+00:00",
-  "otx": "2026-10-15T18:45:58+00:00",
-  "urlhaus": "2026-10-15T18:45:58+00:00"
+  "threatfox": "2026-10-15T19:54:25+00:00",
+  "sans": "2026-10-15T19:54:25+00:00",
+  "otx": "2026-10-15T19:54:25+00:00",
+  "urlhaus": "2026-10-15T19:54:25+00:00"
  },
- "generated_at": "2026-10-15T18:45:58+00:00"
+ "generated_at": "2026-10-15T19:54:25+00:00"
 }
