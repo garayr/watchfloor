@@ -62,7 +62,31 @@
    "group": "Exploited right now",
    "items": [
     {
-     "title": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
+     "title": "Is AI pentesting as good as a human pentester?",
+     "summary": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both…",
+     "source": "BleepingComputer",
+     "date": "2026-10-15T14:01:11+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
+     "summary": "NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T12:58:05+00:00",
+     "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
+     "summary": "Next.js released an out-of-band security update on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw. One code-execution flaw is…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T12:28:13+00:00",
+     "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
      "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the…",
      "source": "The Hacker News",
      "date": "2026-10-15T12:07:20+00:00",
@@ -208,22 +232,6 @@
      "date": "2026-10-14T12:13:36+00:00",
      "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-     "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the…",
-     "source": "The Hacker News",
-     "date": "2026-10-14T11:19:02+00:00",
-     "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
-     "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from…",
-     "source": "The Hacker News",
-     "date": "2026-10-14T11:08:22+00:00",
-     "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
-     "group": "Exploited right now"
     }
    ]
   },
@@ -269,20 +277,20 @@
      "date": "2026-10-14T17:09:15+00:00",
      "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Hirudo Android malware replaces banking apps to evade security checks",
-     "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-14T11:41:20+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "UK Legal Aid Agency Hack Scope Widens After Forensic Review",
+     "summary": "Most of the data is related to applications, claims, and payments submitted between 2007 and 2025. The post UK Legal Aid Agency Hack Scope Widens After Forensic Review appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-15T14:22:34+00:00",
+     "url": "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/",
+     "group": "Other news"
+    },
     {
      "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
      "summary": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031. [...]",
@@ -353,14 +361,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-14T14:27:01+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
-     "group": "Other news"
-    },
-    {
-     "title": "Harmonic Security Raises $50 Million for Workforce AI Protection",
-     "summary": "The cybersecurity startup plans to expand engineering and go-to-market teams in the US and UK. The post Harmonic Security Raises $50 Million for Workforce AI Protection appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-14T14:09:51+00:00",
-     "url": "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/",
      "group": "Other news"
     },
     {

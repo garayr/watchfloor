@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2107,
-  "c2_servers": 1413,
+  "total_iocs": 2083,
+  "c2_servers": 1389,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1003,
-    "c2": 992,
+    "iocs": 989,
+    "c2": 978,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "VShell",
-    "iocs": 302,
-    "c2": 52,
+    "iocs": 301,
+    "c2": 51,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -25,25 +25,25 @@
    },
    {
     "name": "Mirai",
-    "iocs": 58,
+    "iocs": 55,
     "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 51,
+    "iocs": 54,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "ClearFake",
-    "iocs": 44,
+    "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 42,
+    "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -68,24 +68,24 @@
   ]
  },
  "urls": {
-  "sample": 675,
-  "online": 332,
+  "sample": 685,
+  "online": 329,
   "top_tags": [
    {
     "name": "elf",
-    "count": 232
+    "count": 235
    },
    {
     "name": "Mozi",
-    "count": 143
+    "count": 146
    },
    {
     "name": "32-bit",
-    "count": 115
+    "count": 118
    },
    {
     "name": "mips",
-    "count": 99
+    "count": 100
    },
    {
     "name": "ua-wget",
@@ -93,7 +93,7 @@
    },
    {
     "name": "arm",
-    "count": 38
+    "count": 40
    },
    {
     "name": "honeypot",
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 270799,
-   "targets": 264,
-   "sources": 5692
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 265568,
-   "targets": 226,
-   "sources": 8781
+   "records": 582802,
+   "targets": 278,
+   "sources": 9410
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 162275,
-   "targets": 267,
-   "sources": 6336
+   "records": 405494,
+   "targets": 282,
+   "sources": 11225
   },
   {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 138179,
-   "targets": 234,
-   "sources": 9719
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 373946,
+   "targets": 325,
+   "sources": 12045
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 137431,
-   "targets": 255,
-   "sources": 3681
+   "records": 257174,
+   "targets": 275,
+   "sources": 6258
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 236643,
+   "targets": 266,
+   "sources": 13765
   },
   {
    "port": 2222,
    "service": null,
-   "records": 98202,
-   "targets": 252,
-   "sources": 3061
+   "records": 194134,
+   "targets": 278,
+   "sources": 5319
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 87559,
-   "targets": 248,
-   "sources": 3375
-  },
-  {
-   "port": 9000,
-   "service": null,
-   "records": 34307,
-   "targets": 237,
-   "sources": 2438
+   "records": 173550,
+   "targets": 270,
+   "sources": 5266
   },
   {
    "port": 16767,
    "service": null,
-   "records": 32943,
-   "targets": 5,
-   "sources": 2095
+   "records": 76488,
+   "targets": 11,
+   "sources": 3477
+  },
+  {
+   "port": 9000,
+   "service": null,
+   "records": 74652,
+   "targets": 257,
+   "sources": 4348
   },
   {
    "port": 51413,
    "service": null,
-   "records": 32244,
-   "targets": 46,
-   "sources": 1196
+   "records": 63391,
+   "targets": 105,
+   "sources": 1499
   }
  ],
  "ports_date": "2026-10-15",
@@ -211,6 +211,45 @@
   }
  ],
  "pulses": [
+  {
+   "name": "DragonForce Ransomware Profile: From Affiliate Program to Cybercrime Cartel",
+   "summary": "DragonForce is a financially motivated ransomware operation that emerged in August 2023, initially using leaked LockBit 3.0 code and later transitioning to Conti v3-based variants. Operating as a Ransomware-as-a-Service…",
+   "date": "2026-10-15T13:58:54+00:00",
+   "author": "AlienVault",
+   "adversary": "DragonForce",
+   "malware": [
+    "DragonForce",
+    "LockBit 3.0 - S1202",
+    "LockBit Black",
+    "Conti - S0575",
+    "Cobalt Strike - S0154",
+    "SystemBC"
+   ],
+   "countries": [
+    "United States of America",
+    "United Kingdom of Great Britain and Northern Ireland",
+    "Australia",
+    "Canada",
+    "Italy"
+   ],
+   "industries": [
+    "Manufacturing",
+    "Professional Services",
+    "Real Estate",
+    "Transportation",
+    "Retail",
+    "Healthcare"
+   ],
+   "tags": [
+    "cve-2021-44228",
+    "conti",
+    "lockbit 3.0",
+    "dragonforce",
+    "affiliate program",
+    "cve-2024-57728"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad0dc1e98341fe609c19f3e"
+  },
   {
    "name": "Iron Man & YamStore: Powering a Global Phishing-as-a-Service Ecosystem",
    "summary": "Resecurity identified and mapped infrastructure supporting a commercial Phishing-as-a-Service operation marketed as 'Iron Man System.' The kit is sold to criminal buyers as a self-hosted package deploying pre-built lure…",
@@ -475,36 +514,13 @@
     "hackbrowserdata"
    ],
    "url": "https://otx.alienvault.com/pulse/6acf2be17afb8c6c6b066bc9"
-  },
-  {
-   "name": "2026 Third Quarter Windows Web Server Targeted Malware Statistics Report",
-   "summary": "This analysis examines attacks against Windows web servers during Q3 2026, focusing on Internet Information Services (IIS) and Apache Tomcat environments. Attackers exploited unpatched vulnerabilities…",
-   "date": "2026-10-14T07:11:45+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "SweetPotato",
-    "PrintSpoofer",
-    "Godzilla"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "windows web server",
-    "potato tools",
-    "godzilla",
-    "privilege escalation",
-    "iis",
-    "wordpress scanner"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acf2b317368c1ddc08ce818"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-15T13:12:28+00:00",
-  "sans": "2026-10-15T13:12:28+00:00",
-  "otx": "2026-10-15T13:12:28+00:00",
-  "urlhaus": "2026-10-15T13:12:28+00:00"
+  "threatfox": "2026-10-15T14:23:32+00:00",
+  "sans": "2026-10-15T14:23:32+00:00",
+  "otx": "2026-10-15T14:23:32+00:00",
+  "urlhaus": "2026-10-15T14:23:32+00:00"
  },
- "generated_at": "2026-10-15T13:12:28+00:00"
+ "generated_at": "2026-10-15T14:23:32+00:00"
 }
