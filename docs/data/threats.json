@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1832,
-  "c2_servers": 1379,
+  "total_iocs": 1826,
+  "c2_servers": 1376,
   "families": [
    {
     "name": "Vidar",
@@ -19,32 +19,32 @@
    },
    {
     "name": "Mirai",
-    "iocs": 56,
+    "iocs": 55,
     "c2": 8,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 50,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
     "name": "AMOS",
-    "iocs": 49,
+    "iocs": 52,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
+    "name": "php.shin_webshell",
+    "iocs": 48,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 44,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Remcos",
-    "iocs": 44,
-    "c2": 44,
+    "iocs": 41,
+    "c2": 41,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
@@ -54,38 +54,38 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    },
    {
-    "name": "DCRat",
-    "iocs": 29,
-    "c2": 5,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.dcrat"
-   },
-   {
     "name": "Unknown Loader",
     "iocs": 29,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "DCRat",
+    "iocs": 26,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.dcrat"
    }
   ]
  },
  "urls": {
-  "sample": 613,
-  "online": 302,
+  "sample": 638,
+  "online": 314,
   "top_tags": [
    {
     "name": "elf",
-    "count": 219
+    "count": 229
    },
    {
     "name": "Mozi",
-    "count": 136
+    "count": 141
    },
    {
     "name": "32-bit",
-    "count": 108
+    "count": 113
    },
    {
     "name": "mips",
-    "count": 95
+    "count": 98
    },
    {
     "name": "ua-wget",
@@ -93,7 +93,7 @@
    },
    {
     "name": "arm",
-    "count": 35
+    "count": 37
    },
    {
     "name": "honeypot",
@@ -211,6 +211,106 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Iron Man & YamStore: Powering a Global Phishing-as-a-Service Ecosystem",
+   "summary": "Resecurity identified and mapped infrastructure supporting a commercial Phishing-as-a-Service operation marketed as 'Iron Man System.' The kit is sold to criminal buyers as a self-hosted package deploying pre-built lure…",
+   "date": "2026-10-15T07:16:15+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Iron Man System"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance",
+    "Government",
+    "Healthcare",
+    "Transportation",
+    "Telecommunications",
+    "Retail"
+   ],
+   "tags": [
+    "banking fraud",
+    "global infrastructure",
+    "chinese threat actors",
+    "phishing templates",
+    "postal impersonation",
+    "licensing backend"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad07dbf74c4db571f556776"
+  },
+  {
+   "name": "How AI Agents Turned One Exposed Endpoint into a Server Takeover",
+   "summary": "An investigation revealed the first confirmed incident where large language model-driven AI agents executed substantial portions of an attack. Within 24 hours, attackers exploited an exposed job-submission feature on an…",
+   "date": "2026-10-15T07:06:58+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "privilege escalation",
+    "ai agents",
+    "llm-driven attacks",
+    "automated attack execution",
+    "cairn orchestration",
+    "agentic ai threats"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad07b924dde0538386bd7d5"
+  },
+  {
+   "name": "PEERSTITCH, a Stealthy FortiGate Implant",
+   "summary": "A sophisticated multi-stage network intrusion against a telecommunications organization in September 2024 exploited CVE-2024-47575 on a FortiManager appliance, exfiltrating configurations and cryptographic material for…",
+   "date": "2026-10-14T22:59:45+00:00",
+   "author": "AlienVault",
+   "adversary": "CL-STA-0954",
+   "malware": [
+    "PEERSTITCH"
+   ],
+   "countries": [],
+   "industries": [
+    "Telecommunications"
+   ],
+   "tags": [
+    "fortigate",
+    "privilege escalation",
+    "network intrusion",
+    "cve-2024-47575",
+    "telecommunications",
+    "memory-resident implant"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad0096119a185c9dcb055b0"
+  },
+  {
+   "name": "Disruption Targets Major Chinese-Language Phishing Kits with Japanese Focus",
+   "summary": "A coordinated disruption action targeted Chinese-speaking cybercriminals operating three major phishing kits: CoGUI, CoAceV, and CoFish_Ws, which collectively distributed hundreds of millions of credential phishing…",
+   "date": "2026-10-14T13:44:22+00:00",
+   "author": "AlienVault",
+   "adversary": "YAM Store",
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "Australia",
+    "Italy",
+    "Japan"
+   ],
+   "industries": [
+    "Finance",
+    "Healthcare",
+    "Government",
+    "Education",
+    "Manufacturing"
+   ],
+   "tags": [
+    "financial fraud",
+    "cofish_ws",
+    "iron man",
+    "coacev",
+    "domain seizure",
+    "credential phishing"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acf8736e6d91800bcdb734a"
+  },
   {
    "name": "Case of AgentTesla Malware Distribution Disguised as a Business Proposal Email",
    "summary": "A phishing campaign has been observed distributing AgentTesla infostealer through emails masquerading as business proposal requests. Recipients are asked to review an attached product list, but the ZIP file contains an…",
@@ -394,114 +494,13 @@
     "screenconnect"
    ],
    "url": "https://otx.alienvault.com/pulse/6ace7dbf73fb0a8d1beeba9b"
-  },
-  {
-   "name": "Kimsuky attacks targeting Ukrainian experts in diplomacy, security, and international policy",
-   "summary": "The Kimsuky threat group has launched spear phishing campaigns targeting Ukrainian experts in diplomacy, security, and international policy through fraudulent international conference invitations and collaboration…",
-   "date": "2026-10-13T13:53:55+00:00",
-   "author": "AlienVault",
-   "adversary": "Kimsuky",
-   "malware": [],
-   "countries": [
-    "Ukraine"
-   ],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "operation gitpower",
-    "state-sponsored espionage",
-    "chm attacks",
-    "github abuse",
-    "spear phishing",
-    "lnk files"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ace37f3bfe7f0829254f7bf"
-  },
-  {
-   "name": "From WhatsApp to SYSTEM: Inside the VulcanRAT207.A Intrusion Chain",
-   "summary": "A sophisticated multi-stage intrusion chain begins with a WhatsApp-delivered financial document lure carrying Statement.exe. The malware employs NRV2E compression to conceal its true payload, which performs extensive…",
-   "date": "2026-10-12T15:28:24+00:00",
-   "author": "AlienVault",
-   "adversary": "TA4922",
-   "malware": [
-    "VulcanRAT207.A",
-    "Statement.exe",
-    "GoFly64.sys"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "whatsapp delivery",
-    "vulcanrat207.a",
-    "system privilege escalation",
-    "dll side-loading",
-    "vulkan persistence",
-    "gofly64.sys"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6accfc98a21fbfce518cceaa"
-  },
-  {
-   "name": "From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases",
-   "summary": "A North Korean threat actor distributed Funhouse ransomware through malicious Korean-language documents disguised as resumes. Funhouse is a variant of the previously observed Endpoint ransomware. The attack chain…",
-   "date": "2026-10-12T13:15:52+00:00",
-   "author": "AlienVault",
-   "adversary": "Kimsuky",
-   "malware": [
-    "Funhouse",
-    "Endpoint",
-    "Quasar RAT"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "funhouse ransomware",
-    "resume lure",
-    "endpoint",
-    "korean targets",
-    "kimsuky",
-    "quasar rat"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6accdd88406e67c287aa23a5"
-  },
-  {
-   "name": "The phone was compromised before the user turned it on: the rise of Midnight Mimosa",
-   "summary": "A sophisticated malware campaign targets low-cost Android devices built on MediaTek platforms, with malicious code preinstalled in device firmware before users receive them. The platform-signed system application…",
-   "date": "2026-10-12T11:01:40+00:00",
-   "author": "AlienVault",
-   "adversary": "Midnight Mimosa",
-   "malware": [
-    "Midnight Mimosa",
-    "EnLoaderLib",
-    "Android.Joker",
-    "Android.Phantom",
-    "Android.Click"
-   ],
-   "countries": [
-    "United States of America",
-    "Brazil",
-    "France",
-    "Germany",
-    "Italy",
-    "Mexico"
-   ],
-   "industries": [],
-   "tags": [
-    "ad fraud",
-    "enloaderlib",
-    "android.phantom",
-    "mediatek platform",
-    "residential proxy",
-    "botnet"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6accbe14102992eb5a52b063"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-15T08:46:14+00:00",
-  "sans": "2026-10-15T08:46:14+00:00",
-  "otx": "2026-10-15T08:46:14+00:00",
-  "urlhaus": "2026-10-15T08:46:14+00:00"
+  "threatfox": "2026-10-15T09:58:20+00:00",
+  "sans": "2026-10-15T09:58:20+00:00",
+  "otx": "2026-10-15T09:58:20+00:00",
+  "urlhaus": "2026-10-15T09:58:20+00:00"
  },
- "generated_at": "2026-10-15T08:46:14+00:00"
+ "generated_at": "2026-10-15T09:58:20+00:00"
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T07:31:03+00:00",
+ "generated_at": "2026-10-15T09:58:20+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -7471,6 +7471,158 @@
    ],
    "history_size": 9,
    "updated": "2026-10-15T07:31:03+00:00"
+  },
+  "spacebears": {
+   "name": "spacebears",
+   "description": "Space Bears is a double-extortion ransomware group that emerged in April 2024, distinguished by a professional \"corporate\" aesthetic on its leak site, leveraging Phobos RaaS infrastructure and targeting small-to-medium organizations in manufacturing, technology, and healthcare across the US and Europe.",
+   "aliases": [],
+   "first_seen": "2024-04-25",
+   "last_seen": "2026-10-15",
+   "victims_total": 159,
+   "cves": [
+    {
+     "id": "CVE-2026-48027",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-50751",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-21529",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-1708",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2025-60710",
+     "cvss": null,
+     "label": null
+    }
+   ],
+   "tools": [
+    "Defender Control",
+    "BCDEdit",
+    "VmConnect",
+    "WMIC",
+    "fsutil",
+    "netsh",
+    "vssadmin"
+   ],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 45
+     },
+     {
+      "name": "IT",
+      "count": 13
+     },
+     {
+      "name": "DE",
+      "count": 9
+     },
+     {
+      "name": "ES",
+      "count": 8
+     },
+     {
+      "name": "BR",
+      "count": 7
+     },
+     {
+      "name": "CA",
+      "count": 5
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Professional Services",
+      "count": 34
+     },
+     {
+      "name": "Technology",
+      "count": 28
+     },
+     {
+      "name": "Manufacturing",
+      "count": 27
+     },
+     {
+      "name": "Healthcare",
+      "count": 23
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 14
+     },
+     {
+      "name": "Transportation",
+      "count": 8
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 3
+    },
+    {
+     "month": "2025-12",
+     "count": 9
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 10
+    },
+    {
+     "month": "2026-03",
+     "count": 2
+    },
+    {
+     "month": "2026-04",
+     "count": 3
+    },
+    {
+     "month": "2026-05",
+     "count": 8
+    },
+    {
+     "month": "2026-06",
+     "count": 8
+    },
+    {
+     "month": "2026-07",
+     "count": 10
+    },
+    {
+     "month": "2026-08",
+     "count": 7
+    },
+    {
+     "month": "2026-09",
+     "count": 5
+    },
+    {
+     "month": "2026-10",
+     "count": 2
+    }
+   ],
+   "history_size": 159,
+   "updated": "2026-10-15T09:58:20+00:00"
   }
  }
 }

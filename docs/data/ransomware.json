@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-15T08:46:14+00:00",
+ "generated_at": "2026-10-15T09:58:20+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 26
+   "count": 25
   },
   {
    "name": "Wallstreet",
@@ -44,11 +44,11 @@
   },
   {
    "name": "Transportation",
-   "count": 14
+   "count": 13
   },
   {
    "name": "Healthcare",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Manufacturing",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 24,
+   "count": 25,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -141,12 +141,6 @@
    "count": 2,
    "lat": 41.0,
    "lon": 29.0
-  },
-  {
-   "code": "TW",
-   "count": 2,
-   "lat": 25.0,
-   "lon": 121.5
   },
   {
    "code": "AR",
@@ -239,6 +233,12 @@
    "lon": 100.5
   },
   {
+   "code": "TW",
+   "count": 1,
+   "lat": 25.0,
+   "lon": 121.5
+  },
+  {
    "code": "ZA",
    "count": 1,
    "lat": -26.2,
@@ -246,6 +246,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Holistic Health Group, Inc. (d/b/a Suncrafted)",
+   "group": "spacebears",
+   "date": "2026-10-15T05:12:44+00:00",
+   "attack_date": "2026-10-15",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/SG9saXN0aWMgSGVhbHRoIEdyb3VwLCBJbmMuIChkL2IvYSBTdW5jcmFmdGVkKUBzcGFjZWJlYXJz"
+  },
   {
    "victim": "Company #69",
    "group": "N0n",
@@ -1136,15 +1145,6 @@
    "country": "KR",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/Qk5DVCBCdXNhbiBOZXcgQ29udGFpbmVyIFRlcm1pbmFsQE4wbg=="
-  },
-  {
-   "victim": "T.S. Lines (intra-Asia container shipping)",
-   "group": "N0n",
-   "date": "2026-10-12T14:09:12+00:00",
-   "attack_date": "2026-10-12",
-   "country": "TW",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/VC5TLiBMaW5lcyAoaW50cmEtQXNpYSBjb250YWluZXIgc2hpcHBpbmcpQE4wbg=="
   }
  ]
 }
