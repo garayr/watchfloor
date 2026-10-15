@@ -1,13 +1,9 @@
 {
- "generated_at": "2026-10-15T16:41:22+00:00",
+ "generated_at": "2026-10-15T17:43:28+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
-  {
-   "name": "N0n",
-   "count": 15
-  },
   {
    "name": "Wallstreet",
    "count": 13
@@ -15,6 +11,18 @@
   {
    "name": "qilin",
    "count": 13
+  },
+  {
+   "name": "N0n",
+   "count": 12
+  },
+  {
+   "name": "akira",
+   "count": 6
+  },
+  {
+   "name": "iah6477",
+   "count": 6
   },
   {
    "name": "interlock",
@@ -25,30 +33,26 @@
    "count": 5
   },
   {
-   "name": "iah6477",
-   "count": 4
-  },
-  {
    "name": "AuditTeam",
-   "count": 3
-  },
-  {
-   "name": "Dark Project",
    "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 19
+   "count": 20
   },
   {
    "name": "Healthcare",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Other",
    "count": 11
+  },
+  {
+   "name": "Manufacturing",
+   "count": 9
   },
   {
    "name": "Retail & E-Commerce",
@@ -57,16 +61,12 @@
   {
    "name": "Technology",
    "count": 9
-  },
-  {
-   "name": "Manufacturing",
-   "count": 8
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 27,
+   "count": 26,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -78,13 +78,13 @@
   },
   {
    "code": "BR",
-   "count": 7,
+   "count": 6,
    "lat": -23.5,
    "lon": -46.6
   },
   {
    "code": "GB",
-   "count": 4,
+   "count": 5,
    "lat": 51.5,
    "lon": -0.1
   },
@@ -119,16 +119,16 @@
    "lon": 139.7
   },
   {
+   "code": "MX",
+   "count": 2,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "SG",
    "count": 2,
    "lat": 1.35,
    "lon": 103.8
-  },
-  {
-   "code": "TR",
-   "count": 2,
-   "lat": 41.0,
-   "lon": 29.0
   },
   {
    "code": "AR",
@@ -173,22 +173,10 @@
    "lon": 23.7
   },
   {
-   "code": "ID",
-   "count": 1,
-   "lat": -6.2,
-   "lon": 106.8
-  },
-  {
    "code": "MN",
    "count": 1,
    "lat": 47.9,
    "lon": 106.9
-  },
-  {
-   "code": "MX",
-   "count": 1,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "MY",
@@ -221,6 +209,12 @@
    "lon": 100.5
   },
   {
+   "code": "TR",
+   "count": 1,
+   "lat": 41.0,
+   "lon": 29.0
+  },
+  {
    "code": "TW",
    "count": 1,
    "lat": 25.0,
@@ -234,6 +228,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Videk",
+   "group": "akira",
+   "date": "2026-10-15T13:24:36+00:00",
+   "attack_date": "2026-10-15",
+   "country": "GB",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/VmlkZWtAYWtpcmE="
+  },
+  {
+   "victim": "Boyle, Pecharich, Cline, Whittington and Stallings",
+   "group": "akira",
+   "date": "2026-10-15T13:24:16+00:00",
+   "attack_date": "2026-10-15",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Qm95bGUsIFBlY2hhcmljaCwgQ2xpbmUsIFdoaXR0aW5ndG9uIGFuZCBTdGFsbGluZ3NAYWtpcmE="
+  },
+  {
+   "victim": "bienestarempresarial",
+   "group": "0x00",
+   "date": "2026-10-15T13:20:22+00:00",
+   "attack_date": "2026-10-15",
+   "country": "MX",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/YmllbmVzdGFyZW1wcmVzYXJpYWxAMHgwMA=="
+  },
+  {
+   "victim": "middleby",
+   "group": "iah6477",
+   "date": "2026-10-15T13:02:42+00:00",
+   "attack_date": "2026-10-15",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/bWlkZGxlYnlAaWFoNjQ3Nw=="
+  },
+  {
+   "victim": "sunshine-mills",
+   "group": "iah6477",
+   "date": "2026-10-15T13:02:07+00:00",
+   "attack_date": "2026-10-15",
+   "country": null,
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/c3Vuc2hpbmUtbWlsbHNAaWFoNjQ3Nw=="
+  },
+  {
+   "victim": "Svd (Sun Valley Dairy)",
+   "group": "akira",
+   "date": "2026-10-15T12:54:02+00:00",
+   "attack_date": "2026-10-15",
+   "country": "US",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/U3ZkIChTdW4gVmFsbGV5IERhaXJ5KUBha2lyYQ=="
+  },
   {
    "victim": "Hocon Gas",
    "group": "qilin",
@@ -1063,15 +1111,6 @@
    "url": "https://www.ransomware.live/id/TnUtUXVlc3QgRGlzdHJpYnV0aW9uIEluY0BpbnRlcmxvY2s="
   },
   {
-   "victim": "brookslawfirm.com",
-   "group": "incransom",
-   "date": "2026-10-12T15:46:46+00:00",
-   "attack_date": "2026-10-12",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/YnJvb2tzbGF3ZmlybS5jb21AaW5jcmFuc29t"
-  },
-  {
    "victim": "ConAuto",
    "group": "qilin",
    "date": "2026-10-12T14:50:15+00:00",
@@ -1088,51 +1127,6 @@
    "country": "ES",
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/UHJvZGllbEBxaWxpbg=="
-  },
-  {
-   "victim": "MyMichigan Health",
-   "group": "metaencryptor",
-   "date": "2026-10-12T14:47:55+00:00",
-   "attack_date": "2026-10-12",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TXlNaWNoaWdhbiBIZWFsdGhAbWV0YWVuY3J5cHRvcg=="
-  },
-  {
-   "victim": "VIATechnik",
-   "group": "metaencryptor",
-   "date": "2026-10-12T14:47:14+00:00",
-   "attack_date": "2026-10-12",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VklBVGVjaG5pa0BtZXRhZW5jcnlwdG9y"
-  },
-  {
-   "victim": "GlobalNet LCL (port agency operations)",
-   "group": "N0n",
-   "date": "2026-10-12T14:16:22+00:00",
-   "attack_date": "2026-10-12",
-   "country": "ID",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/R2xvYmFsTmV0IExDTCAocG9ydCBhZ2VuY3kgb3BlcmF0aW9ucylATjBu"
-  },
-  {
-   "victim": "Santos Brasil (port operations)",
-   "group": "N0n",
-   "date": "2026-10-12T14:15:48+00:00",
-   "attack_date": "2026-10-12",
-   "country": "BR",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/U2FudG9zIEJyYXNpbCAocG9ydCBvcGVyYXRpb25zKUBOMG4="
-  },
-  {
-   "victim": "Asyaport (container terminal operations)",
-   "group": "N0n",
-   "date": "2026-10-12T14:15:26+00:00",
-   "attack_date": "2026-10-12",
-   "country": "TR",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/QXN5YXBvcnQgKGNvbnRhaW5lciB0ZXJtaW5hbCBvcGVyYXRpb25zKUBOMG4="
   }
  ]
 }
