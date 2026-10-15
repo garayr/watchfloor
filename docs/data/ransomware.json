@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T22:51:24+00:00",
+ "generated_at": "2026-10-15T23:58:15+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -9,12 +9,12 @@
    "count": 14
   },
   {
-   "name": "qilin",
+   "name": "Wallstreet",
    "count": 14
   },
   {
-   "name": "Wallstreet",
-   "count": 13
+   "name": "qilin",
+   "count": 14
   },
   {
    "name": "lockbit5",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 23,
+   "count": 24,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -219,15 +219,18 @@
    "count": 1,
    "lat": 25.0,
    "lon": 121.5
-  },
-  {
-   "code": "ZA",
-   "count": 1,
-   "lat": -26.2,
-   "lon": 28.0
   }
  ],
  "victims": [
+  {
+   "victim": "TGM Manufacturing, Inc",
+   "group": "Wallstreet",
+   "date": "2026-10-15T19:23:13+00:00",
+   "attack_date": "2026-10-15",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/VEdNIE1hbnVmYWN0dXJpbmcsIEluY0BXYWxsc3RyZWV0"
+  },
   {
    "victim": "Segres Systec",
    "group": "qilin",
@@ -1118,15 +1121,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/aGlxYmlvLmNvbUBzYWZlcGF5"
-  },
-  {
-   "victim": "Aeroklas Duys / Duys Engineering Group",
-   "group": "Deadlock",
-   "date": "2026-10-12T17:50:45+00:00",
-   "attack_date": "2026-10-12",
-   "country": "ZA",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/QWVyb2tsYXMgRHV5cyAvIER1eXMgRW5naW5lZXJpbmcgR3JvdXBARGVhZGxvY2s="
   }
  ]
 }
