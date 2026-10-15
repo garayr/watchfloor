@@ -62,6 +62,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+     "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T16:00:26+00:00",
+     "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Is AI pentesting as good as a human pentester?",
      "summary": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understanding business context. Intruder compares the strengths and weaknesses of both…",
      "source": "BleepingComputer",
@@ -213,31 +221,20 @@
      "alerts": [
       "CVE-2026-104935"
      ]
-    },
-    {
-     "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version…",
-     "source": "The Hacker News",
-     "date": "2026-10-14T12:30:42+00:00",
-     "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-104935"
-     ]
-    },
-    {
-     "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
-     "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine. The curl…",
-     "source": "The Hacker News",
-     "date": "2026-10-14T12:13:36+00:00",
-     "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+     "summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at the…",
+     "source": "The Hacker News",
+     "date": "2026-10-15T16:01:57+00:00",
+     "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
      "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and…",
