@@ -2,14 +2,20 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1826,
-  "c2_servers": 1376,
+  "total_iocs": 2122,
+  "c2_servers": 1420,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1005,
-    "c2": 994,
+    "iocs": 1003,
+    "c2": 992,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "VShell",
+    "iocs": 302,
+    "c2": 52,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "IClickFix",
@@ -31,13 +37,13 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 48,
+    "iocs": 49,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "ClearFake",
-    "iocs": 42,
+    "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -58,30 +64,24 @@
     "iocs": 29,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
-    "name": "DCRat",
-    "iocs": 26,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.dcrat"
    }
   ]
  },
  "urls": {
-  "sample": 638,
-  "online": 314,
+  "sample": 648,
+  "online": 322,
   "top_tags": [
    {
     "name": "elf",
-    "count": 229
+    "count": 230
    },
    {
     "name": "Mozi",
-    "count": 141
+    "count": 142
    },
    {
     "name": "32-bit",
-    "count": 113
+    "count": 114
    },
    {
     "name": "mips",
@@ -93,7 +93,7 @@
    },
    {
     "name": "arm",
-    "count": 37
+    "count": 38
    },
    {
     "name": "honeypot",
@@ -312,6 +312,76 @@
    "url": "https://otx.alienvault.com/pulse/6acf8736e6d91800bcdb734a"
   },
   {
+   "name": "Fake Calendly \"Meta Careers\" pages steal Facebook and Google logins",
+   "summary": "A wave of fraudulent websites mimicking Calendly booking pages for Meta job interviews has been identified, targeting job seekers to steal credentials. Victims select interview time slots, provide personal information…",
+   "date": "2026-10-14T13:39:19+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "calendly spoofing",
+    "job scam",
+    "2fa bypass",
+    "social engineering",
+    "phishing",
+    "account takeover"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acf8607ba5b3757d207eb86"
+  },
+  {
+   "name": "Hirudo: From Fake Updates to Patched Banking Apps",
+   "summary": "A new Android banking remote access trojan named Hirudo has been identified, combining credential theft with live remote control. It is delivered through shopping and entertainment apps that act as droppers, installing…",
+   "date": "2026-10-14T13:35:47+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Hirudo"
+   ],
+   "countries": [
+    "British Indian Ocean Territory",
+    "China",
+    "India",
+    "Indonesia",
+    "Malaysia",
+    "Mexico"
+   ],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "device takeover",
+    "indonesia targeting",
+    "android banking trojan",
+    "app patching",
+    "hirudo",
+    "rat"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acf85338bff164de62a2759"
+  },
+  {
+   "name": "Ivanti CVE-2026-104935: Zero-Day Chain Exploited in Operation Innovate",
+   "summary": "Ivanti has released emergency security updates after attackers exploited a chain of three zero-day vulnerabilities in Connect Secure VPN appliances to gain root-level access without authentication. The attack began on…",
+   "date": "2026-10-14T13:35:47+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "vpn appliances",
+    "ivanti connect secure",
+    "root access",
+    "race condition",
+    "cgi exploitation",
+    "privilege escalation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acf8533a44062761084826c"
+  },
+  {
    "name": "Case of AgentTesla Malware Distribution Disguised as a Business Proposal Email",
    "summary": "A phishing campaign has been observed distributing AgentTesla infostealer through emails masquerading as business proposal requests. Recipients are asked to review an attached product list, but the ZIP file contains an…",
    "date": "2026-10-14T13:26:11+00:00",
@@ -428,79 +498,13 @@
     "wordpress scanner"
    ],
    "url": "https://otx.alienvault.com/pulse/6acf2b317368c1ddc08ce818"
-  },
-  {
-   "name": "Statistical Report on Malware Targeting Linux SSH Servers in the Third Quarter of 2026",
-   "summary": "During the third quarter of 2026, multiple attack campaigns targeted poorly managed Linux SSH servers using brute force, dictionary attacks, and vulnerability exploits. Threat actors deployed ShellBot, a Perl-based DDoS…",
-   "date": "2026-10-14T04:08:14+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ShellBot",
-    "PerlBot",
-    "Fisieredoor",
-    "XHide",
-    "XMRig",
-    "Gafgyt"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "brute force",
-    "linux",
-    "prometei",
-    "mirai",
-    "ssh servers",
-    "cryptomining"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acf002e7c7fddeb927af2d8"
-  },
-  {
-   "name": "Clean Install, Stolen Creds: Fake WatchGuard VPN Site Serves Genuine Signed Client",
-   "summary": "In early October, a sophisticated credential phishing campaign targeted WatchGuard Mobile VPN users through a fake download site at watchguard-vpn[.]net. The attack used SEO poisoning to appear in search results and…",
-   "date": "2026-10-13T23:44:50+00:00",
-   "author": "AlienVault",
-   "adversary": "Storm-2561",
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "watchguard impersonation",
-    "signed installer abuse",
-    "fake download site",
-    "seo poisoning",
-    "credential phishing",
-    "browser pop-up"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acec272f01b1f0cac6ecb2a"
-  },
-  {
-   "name": "RSVP to Disaster: How One Click Installs a RAT",
-   "summary": "Cybercriminals are exploiting digital event invitations to distribute remote access trojans. Victims receive legitimate-looking emails with generic subject lines about special gatherings and celebrations. The messages…",
-   "date": "2026-10-13T18:51:43+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ScreenConnect"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "captcha manipulation",
-    "social engineering",
-    "connectwise exploitation",
-    "fake invitation",
-    "remote access trojan",
-    "screenconnect"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ace7dbf73fb0a8d1beeba9b"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-15T09:58:20+00:00",
-  "sans": "2026-10-15T09:58:20+00:00",
-  "otx": "2026-10-15T09:58:20+00:00",
-  "urlhaus": "2026-10-15T09:58:20+00:00"
+  "threatfox": "2026-10-15T10:58:33+00:00",
+  "sans": "2026-10-15T10:58:33+00:00",
+  "otx": "2026-10-15T10:58:33+00:00",
+  "urlhaus": "2026-10-15T10:58:33+00:00"
  },
- "generated_at": "2026-10-15T09:58:20+00:00"
+ "generated_at": "2026-10-15T10:58:33+00:00"
 }
