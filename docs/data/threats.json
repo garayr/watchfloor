@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2343,
-  "c2_servers": 1275,
+  "total_iocs": 2256,
+  "c2_servers": 1230,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 949,
-    "c2": 927,
+    "iocs": 911,
+    "c2": 889,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -19,27 +19,15 @@
    },
    {
     "name": "Mirai",
-    "iocs": 151,
+    "iocs": 190,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 121,
-    "c2": 3,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "AMOS",
-    "iocs": 95,
+    "iocs": 100,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
-    "name": "Remcos",
-    "iocs": 54,
-    "c2": 54,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "Remus",
@@ -48,10 +36,22 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
+    "name": "Remcos",
+    "iocs": 47,
+    "c2": 47,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+   },
+   {
     "name": "php.shin_webshell",
-    "iocs": 45,
+    "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 34,
+    "c2": 3,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "AsyncRAT",
@@ -68,20 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 693,
-  "online": 406,
+  "sample": 698,
+  "online": 398,
   "top_tags": [
    {
     "name": "elf",
-    "count": 222
+    "count": 225
    },
    {
     "name": "Mozi",
-    "count": 132
+    "count": 135
    },
    {
     "name": "32-bit",
-    "count": 109
+    "count": 111
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,7 @@
    },
    {
     "name": "mips",
-    "count": 92
+    "count": 93
    },
    {
     "name": "botnetdomain",
@@ -97,11 +97,11 @@
    },
    {
     "name": "cowrie",
-    "count": 45
+    "count": 46
    },
    {
     "name": "arm",
-    "count": 33
+    "count": 35
    }
   ]
  },
@@ -523,10 +523,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T17:20:59+00:00",
-  "sans": "2026-10-16T17:20:59+00:00",
-  "otx": "2026-10-16T17:20:59+00:00",
-  "urlhaus": "2026-10-16T17:20:59+00:00"
+  "threatfox": "2026-10-16T18:17:14+00:00",
+  "sans": "2026-10-16T18:17:14+00:00",
+  "otx": "2026-10-16T18:17:14+00:00",
+  "urlhaus": "2026-10-16T18:17:14+00:00"
  },
- "generated_at": "2026-10-16T17:20:59+00:00"
+ "generated_at": "2026-10-16T18:17:14+00:00"
 }
