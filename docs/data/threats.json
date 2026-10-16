@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2302,
-  "c2_servers": 1322,
+  "total_iocs": 2343,
+  "c2_servers": 1275,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 994,
-    "c2": 972,
+    "iocs": 949,
+    "c2": 927,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -19,37 +19,37 @@
    },
    {
     "name": "Mirai",
-    "iocs": 112,
+    "iocs": 151,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 93,
+    "iocs": 121,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "AMOS",
-    "iocs": 85,
-    "c2": 0,
+    "iocs": 95,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remcos",
-    "iocs": 55,
-    "c2": 55,
+    "iocs": 54,
+    "c2": 54,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "Remus",
-    "iocs": 52,
+    "iocs": 53,
     "c2": 51,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 44,
+    "iocs": 45,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -68,20 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 681,
-  "online": 397,
+  "sample": 693,
+  "online": 406,
   "top_tags": [
    {
     "name": "elf",
-    "count": 220
+    "count": 222
    },
    {
     "name": "Mozi",
-    "count": 130
+    "count": 132
    },
    {
     "name": "32-bit",
-    "count": 107
+    "count": 109
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,7 @@
    },
    {
     "name": "mips",
-    "count": 91
+    "count": 92
    },
    {
     "name": "botnetdomain",
@@ -101,7 +101,7 @@
    },
    {
     "name": "arm",
-    "count": 32
+    "count": 33
    }
   ]
  },
@@ -441,81 +441,92 @@
    "url": "https://otx.alienvault.com/pulse/6ad0c30399495ae02dc7664a"
   },
   {
-   "name": "Iron Man & YamStore: Powering a Global Phishing-as-a-Service Ecosystem",
-   "summary": "Resecurity identified and mapped infrastructure supporting a commercial Phishing-as-a-Service operation marketed as 'Iron Man System.' The kit is sold to criminal buyers as a self-hosted package deploying pre-built lure…",
-   "date": "2026-10-15T07:16:15+00:00",
+   "name": "Disruption Targets Major Chinese-Language Phishing Kits with Japanese Focus",
+   "summary": "A coordinated disruption action targeted Chinese-speaking cybercriminals operating three major phishing kits: CoGUI, CoAceV, and CoFish_Ws, which collectively distributed hundreds of millions of credential phishing…",
+   "date": "2026-10-14T13:44:22+00:00",
    "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Iron Man System"
+   "adversary": "YAM Store",
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "Australia",
+    "Italy",
+    "Japan"
    ],
-   "countries": [],
    "industries": [
     "Finance",
-    "Government",
     "Healthcare",
-    "Transportation",
-    "Telecommunications",
-    "Retail"
+    "Government",
+    "Education",
+    "Manufacturing"
    ],
    "tags": [
-    "banking fraud",
-    "global infrastructure",
-    "chinese threat actors",
-    "phishing templates",
-    "postal impersonation",
-    "licensing backend"
+    "financial fraud",
+    "cofish_ws",
+    "iron man",
+    "coacev",
+    "domain seizure",
+    "credential phishing"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ad07dbf74c4db571f556776"
+   "url": "https://otx.alienvault.com/pulse/6acf8736e6d91800bcdb734a"
   },
   {
-   "name": "How AI Agents Turned One Exposed Endpoint into a Server Takeover",
-   "summary": "An investigation revealed the first confirmed incident where large language model-driven AI agents executed substantial portions of an attack. Within 24 hours, attackers exploited an exposed job-submission feature on an…",
-   "date": "2026-10-15T07:06:58+00:00",
+   "name": "Fake Calendly \"Meta Careers\" pages steal Facebook and Google logins",
+   "summary": "A wave of fraudulent websites mimicking Calendly booking pages for Meta job interviews has been identified, targeting job seekers to steal credentials. Victims select interview time slots, provide personal information…",
+   "date": "2026-10-14T13:39:19+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [],
    "countries": [],
-   "industries": [],
-   "tags": [
-    "privilege escalation",
-    "ai agents",
-    "llm-driven attacks",
-    "automated attack execution",
-    "cairn orchestration",
-    "agentic ai threats"
+   "industries": [
+    "Technology"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ad07b924dde0538386bd7d5"
+   "tags": [
+    "calendly spoofing",
+    "job scam",
+    "2fa bypass",
+    "social engineering",
+    "phishing",
+    "account takeover"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6acf8607ba5b3757d207eb86"
   },
   {
-   "name": "PEERSTITCH, a Stealthy FortiGate Implant",
-   "summary": "A sophisticated multi-stage network intrusion against a telecommunications organization in September 2024 exploited CVE-2024-47575 on a FortiManager appliance, exfiltrating configurations and cryptographic material for…",
-   "date": "2026-10-14T22:59:45+00:00",
+   "name": "Hirudo: From Fake Updates to Patched Banking Apps",
+   "summary": "A new Android banking remote access trojan named Hirudo has been identified, combining credential theft with live remote control. It is delivered through shopping and entertainment apps that act as droppers, installing…",
+   "date": "2026-10-14T13:35:47+00:00",
    "author": "AlienVault",
-   "adversary": "CL-STA-0954",
+   "adversary": null,
    "malware": [
-    "PEERSTITCH"
+    "Hirudo"
    ],
-   "countries": [],
+   "countries": [
+    "British Indian Ocean Territory",
+    "China",
+    "India",
+    "Indonesia",
+    "Malaysia",
+    "Mexico"
+   ],
    "industries": [
-    "Telecommunications"
+    "Finance"
    ],
    "tags": [
-    "fortigate",
-    "privilege escalation",
-    "network intrusion",
-    "cve-2024-47575",
-    "telecommunications",
-    "memory-resident implant"
+    "device takeover",
+    "indonesia targeting",
+    "android banking trojan",
+    "app patching",
+    "hirudo",
+    "rat"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ad0096119a185c9dcb055b0"
+   "url": "https://otx.alienvault.com/pulse/6acf85338bff164de62a2759"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T16:22:47+00:00",
-  "sans": "2026-10-16T16:22:47+00:00",
-  "otx": "2026-10-16T16:22:47+00:00",
-  "urlhaus": "2026-10-16T16:22:47+00:00"
+  "threatfox": "2026-10-16T17:20:59+00:00",
+  "sans": "2026-10-16T17:20:59+00:00",
+  "otx": "2026-10-16T17:20:59+00:00",
+  "urlhaus": "2026-10-16T17:20:59+00:00"
  },
- "generated_at": "2026-10-16T16:22:47+00:00"
+ "generated_at": "2026-10-16T17:20:59+00:00"
 }
