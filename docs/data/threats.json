@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2233,
-  "c2_servers": 1310,
+  "total_iocs": 2251,
+  "c2_servers": 1288,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1013,
-    "c2": 995,
+    "iocs": 1012,
+    "c2": 994,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -25,7 +25,7 @@
    },
    {
     "name": "AMOS",
-    "iocs": 69,
+    "iocs": 73,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -37,8 +37,8 @@
    },
    {
     "name": "Mirai",
-    "iocs": 54,
-    "c2": 4,
+    "iocs": 51,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -49,14 +49,14 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 44,
+    "iocs": 46,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "AsyncRAT",
-    "iocs": 36,
-    "c2": 15,
+    "iocs": 35,
+    "c2": 14,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
@@ -68,8 +68,8 @@
   ]
  },
  "urls": {
-  "sample": 599,
-  "online": 347,
+  "sample": 607,
+  "online": 355,
   "top_tags": [
    {
     "name": "elf",
@@ -512,10 +512,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T08:41:32+00:00",
-  "sans": "2026-10-16T08:41:32+00:00",
-  "otx": "2026-10-16T08:41:32+00:00",
-  "urlhaus": "2026-10-16T08:41:32+00:00"
+  "threatfox": "2026-10-16T09:43:16+00:00",
+  "sans": "2026-10-16T09:43:16+00:00",
+  "otx": "2026-10-16T09:43:16+00:00",
+  "urlhaus": "2026-10-16T09:43:16+00:00"
  },
- "generated_at": "2026-10-16T08:41:32+00:00"
+ "generated_at": "2026-10-16T09:43:16+00:00"
 }
