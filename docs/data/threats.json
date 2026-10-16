@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2230,
-  "c2_servers": 1314,
+  "total_iocs": 2233,
+  "c2_servers": 1310,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1012,
-    "c2": 994,
+    "iocs": 1013,
+    "c2": 995,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -25,7 +25,7 @@
    },
    {
     "name": "AMOS",
-    "iocs": 66,
+    "iocs": 69,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -37,8 +37,8 @@
    },
    {
     "name": "Mirai",
-    "iocs": 55,
-    "c2": 5,
+    "iocs": 54,
+    "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -49,7 +49,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 45,
+    "iocs": 44,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -68,28 +68,28 @@
   ]
  },
  "urls": {
-  "sample": 582,
-  "online": 335,
+  "sample": 599,
+  "online": 347,
   "top_tags": [
    {
     "name": "elf",
-    "count": 197
+    "count": 205
    },
    {
     "name": "Mozi",
-    "count": 117
-   },
-   {
-    "name": "32-bit",
-    "count": 96
+    "count": 119
    },
    {
     "name": "ua-wget",
-    "count": 95
+    "count": 100
+   },
+   {
+    "name": "32-bit",
+    "count": 98
    },
    {
     "name": "mips",
-    "count": 81
+    "count": 84
    },
    {
     "name": "botnetdomain",
@@ -97,7 +97,7 @@
    },
    {
     "name": "cowrie",
-    "count": 41
+    "count": 42
    },
    {
     "name": "arm",
@@ -279,6 +279,72 @@
    "url": "https://otx.alienvault.com/pulse/6ad187349cefc9d2193e5cc3"
   },
   {
+   "name": "KGB RAT: A Fully Undetectable Windows Trojan Built to Spy, Steal, and Terrorize",
+   "summary": "KGB RAT is a Windows Remote Access Trojan actively promoted on underground forums since late 2025, marketed deceptively as a legitimate administration tool. Sold through a Malware-as-a-Service model with pricing from…",
+   "date": "2026-10-15T16:41:31+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "KGB RAT",
+    "njRAT - S0385",
+    "Njw0rm",
+    "LV",
+    "Bladabindi",
+    "Lime-Worm"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "credential theft",
+    "hvnc",
+    "telegram c2",
+    "psychological harassment",
+    "bladabindi",
+    "remote access trojan"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad1023b92a010044f3dcbc8"
+  },
+  {
+   "name": "Inside a PaperCut Attacker's AI Toolkit: Agent Instructions, Exploit Code, a Second RCE, and Victims Across 45+ Countries",
+   "summary": "Three exposed directories on infrastructure at 45.142.193[.]132 revealed an AI-orchestrated campaign targeting PaperCut NG/MF print management software. The exposed workbench contained AI-agent instructions, exploit…",
+   "date": "2026-10-15T14:21:06+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Education"
+   ],
+   "tags": [
+    "pentagi framework",
+    "ai-orchestrated exploitation",
+    "cve-2026-81578",
+    "xml-rpc abuse",
+    "reverse socks5",
+    "credential harvesting"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad0e1520be4762ce91fe695"
+  },
+  {
+   "name": "skynox7: Proxyjacking Edge Devices Into Residential Proxies",
+   "summary": "A malicious cyber actor conducted a proxyjacking campaign, compromising at least 143 network edge devices across 34 countries to force them into residential proxy networks. The attacker exploited vulnerabilities in…",
+   "date": "2026-10-15T14:20:25+00:00",
+   "author": "AlienVault",
+   "adversary": "skynox7",
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "bandwidth monetization",
+    "proxyjacking",
+    "dvr exploitation",
+    "cve-2024-3272",
+    "cve-2021-44228",
+    "cve-2024-3273"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad0e1295c816b236074f6a2"
+  },
+  {
    "name": "DragonForce Ransomware Profile: From Affiliate Program to Cybercrime Cartel",
    "summary": "DragonForce is a financially motivated ransomware operation that emerged in August 2023, initially using leaked LockBit 3.0 code and later transitioning to Conti v3-based variants. Operating as a Ransomware-as-a-Service…",
    "date": "2026-10-15T13:58:54+00:00",
@@ -443,94 +509,13 @@
     "memory-resident implant"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad0096119a185c9dcb055b0"
-  },
-  {
-   "name": "Disruption Targets Major Chinese-Language Phishing Kits with Japanese Focus",
-   "summary": "A coordinated disruption action targeted Chinese-speaking cybercriminals operating three major phishing kits: CoGUI, CoAceV, and CoFish_Ws, which collectively distributed hundreds of millions of credential phishing…",
-   "date": "2026-10-14T13:44:22+00:00",
-   "author": "AlienVault",
-   "adversary": "YAM Store",
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "Australia",
-    "Italy",
-    "Japan"
-   ],
-   "industries": [
-    "Finance",
-    "Healthcare",
-    "Government",
-    "Education",
-    "Manufacturing"
-   ],
-   "tags": [
-    "financial fraud",
-    "cofish_ws",
-    "iron man",
-    "coacev",
-    "domain seizure",
-    "credential phishing"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acf8736e6d91800bcdb734a"
-  },
-  {
-   "name": "Fake Calendly \"Meta Careers\" pages steal Facebook and Google logins",
-   "summary": "A wave of fraudulent websites mimicking Calendly booking pages for Meta job interviews has been identified, targeting job seekers to steal credentials. Victims select interview time slots, provide personal information…",
-   "date": "2026-10-14T13:39:19+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "calendly spoofing",
-    "job scam",
-    "2fa bypass",
-    "social engineering",
-    "phishing",
-    "account takeover"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acf8607ba5b3757d207eb86"
-  },
-  {
-   "name": "Hirudo: From Fake Updates to Patched Banking Apps",
-   "summary": "A new Android banking remote access trojan named Hirudo has been identified, combining credential theft with live remote control. It is delivered through shopping and entertainment apps that act as droppers, installing…",
-   "date": "2026-10-14T13:35:47+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Hirudo"
-   ],
-   "countries": [
-    "British Indian Ocean Territory",
-    "China",
-    "India",
-    "Indonesia",
-    "Malaysia",
-    "Mexico"
-   ],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "device takeover",
-    "indonesia targeting",
-    "android banking trojan",
-    "app patching",
-    "hirudo",
-    "rat"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acf85338bff164de62a2759"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T07:27:43+00:00",
-  "sans": "2026-10-16T07:27:43+00:00",
-  "otx": "2026-10-16T07:27:43+00:00",
-  "urlhaus": "2026-10-16T07:27:43+00:00"
+  "threatfox": "2026-10-16T08:41:32+00:00",
+  "sans": "2026-10-16T08:41:32+00:00",
+  "otx": "2026-10-16T08:41:32+00:00",
+  "urlhaus": "2026-10-16T08:41:32+00:00"
  },
- "generated_at": "2026-10-16T07:27:43+00:00"
+ "generated_at": "2026-10-16T08:41:32+00:00"
 }
