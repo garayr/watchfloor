@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2260,
-  "c2_servers": 1438,
+  "total_iocs": 2272,
+  "c2_servers": 1448,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1003,
-    "c2": 991,
+    "iocs": 1001,
+    "c2": 989,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -31,7 +31,7 @@
    },
    {
     "name": "AMOS",
-    "iocs": 85,
+    "iocs": 88,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -49,8 +49,8 @@
    },
    {
     "name": "Remus",
-    "iocs": 50,
-    "c2": 50,
+    "iocs": 51,
+    "c2": 51,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
@@ -68,12 +68,12 @@
   ]
  },
  "urls": {
-  "sample": 478,
-  "online": 278,
+  "sample": 483,
+  "online": 283,
   "top_tags": [
    {
     "name": "elf",
-    "count": 183
+    "count": 184
    },
    {
     "name": "Mozi",
@@ -522,10 +522,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T04:10:20+00:00",
-  "sans": "2026-10-16T04:10:20+00:00",
-  "otx": "2026-10-16T04:10:20+00:00",
-  "urlhaus": "2026-10-16T04:10:20+00:00"
+  "threatfox": "2026-10-16T05:09:26+00:00",
+  "sans": "2026-10-16T05:09:26+00:00",
+  "otx": "2026-10-16T05:09:26+00:00",
+  "urlhaus": "2026-10-16T05:09:26+00:00"
  },
- "generated_at": "2026-10-16T04:10:20+00:00"
+ "generated_at": "2026-10-16T05:09:26+00:00"
 }
