@@ -62,6 +62,22 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "BeyondTrust patches zero-day exploited in attacks since August",
+     "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-16T06:18:08+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+     "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack involves the…",
+     "source": "The Hacker News",
+     "date": "2026-10-16T04:59:36+00:00",
+     "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
      "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
      "source": "BleepingComputer",
@@ -179,25 +195,6 @@
      "source": "The Hacker News",
      "date": "2026-10-14T18:38:56+00:00",
      "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-76519"
-     ]
-    },
-    {
-     "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
-     "summary": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack…",
-     "source": "The Hacker News",
-     "date": "2026-10-14T17:38:31+00:00",
-     "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
-     "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-14T17:29:14+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
      "group": "Exploited right now",
      "alerts": [
       "CVE-2026-76519"
