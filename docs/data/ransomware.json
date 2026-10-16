@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T18:17:14+00:00",
+ "generated_at": "2026-10-16T19:37:25+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -9,12 +9,12 @@
    "count": 31
   },
   {
-   "name": "qilin",
-   "count": 14
+   "name": "N0n",
+   "count": 17
   },
   {
-   "name": "N0n",
-   "count": 12
+   "name": "qilin",
+   "count": 14
   },
   {
    "name": "THE SEVEN DEADLY SINS",
@@ -26,11 +26,11 @@
   },
   {
    "name": "lockbit5",
-   "count": 7
+   "count": 6
   },
   {
    "name": "incransom",
-   "count": 5
+   "count": 4
   },
   {
    "name": "Wallstreet",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 16
+   "count": 15
   },
   {
    "name": "Professional Services",
@@ -48,18 +48,18 @@
   },
   {
    "name": "Technology",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Manufacturing",
-   "count": 8
-  },
-  {
-   "name": "Financial Services",
-   "count": 7
+   "count": 10
   },
   {
    "name": "Agriculture and Food Production",
+   "count": 5
+  },
+  {
+   "name": "Education",
    "count": 5
   }
  ],
@@ -72,7 +72,7 @@
   },
   {
    "code": "BR",
-   "count": 9,
+   "count": 7,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -167,12 +167,6 @@
    "lon": -78.5
   },
   {
-   "code": "GR",
-   "count": 1,
-   "lat": 38.0,
-   "lon": 23.7
-  },
-  {
    "code": "IE",
    "count": 1,
    "lat": 53.3,
@@ -223,6 +217,60 @@
  ],
  "victims": [
   {
+   "victim": "Parker-Hannifin Corporation",
+   "group": "Redact",
+   "date": "2026-10-16T15:01:15+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UGFya2VyLUhhbm5pZmluIENvcnBvcmF0aW9uQFJlZGFjdA=="
+  },
+  {
+   "victim": "Company #82",
+   "group": "N0n",
+   "date": "2026-10-16T14:57:35+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODJATjBu"
+  },
+  {
+   "victim": "Company #81",
+   "group": "N0n",
+   "date": "2026-10-16T14:56:59+00:00",
+   "attack_date": "2026-10-16",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODFATjBu"
+  },
+  {
+   "victim": "Company #83",
+   "group": "N0n",
+   "date": "2026-10-16T14:56:23+00:00",
+   "attack_date": "2026-10-16",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODNATjBu"
+  },
+  {
+   "victim": "Xinos Construction Corp and its accounting group",
+   "group": "N0n",
+   "date": "2026-10-16T14:55:46+00:00",
+   "attack_date": "2026-10-16",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/WGlub3MgQ29uc3RydWN0aW9uIENvcnAgYW5kIGl0cyBhY2NvdW50aW5nIGdyb3VwQE4wbg=="
+  },
+  {
+   "victim": "BladeTech Inc",
+   "group": "N0n",
+   "date": "2026-10-16T14:55:05+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/QmxhZGVUZWNoIEluY0BOMG4="
+  },
+  {
    "victim": "EnVision Eye Care",
    "group": "N0n",
    "date": "2026-10-16T13:54:37+00:00",
@@ -230,24 +278,6 @@
    "country": null,
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/RW5WaXNpb24gRXllIENhcmVATjBu"
-  },
-  {
-   "victim": "Macfarlan Capital Partners",
-   "group": "pear",
-   "date": "2026-10-16T11:53:39+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/TWFjZmFybGFuIENhcGl0YWwgUGFydG5lcnNAcGVhcg=="
-  },
-  {
-   "victim": "Solar Communications International",
-   "group": "pear",
-   "date": "2026-10-16T11:53:03+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/U29sYXIgQ29tbXVuaWNhdGlvbnMgSW50ZXJuYXRpb25hbEBwZWFy"
   },
   {
    "victim": "Minkon",
@@ -1033,15 +1063,6 @@
    "url": "https://www.ransomware.live/id/SW50ZXJpb3IgVGVjaG5vbG9naWVzQE4wbg=="
   },
   {
-   "victim": "FINANCIAMENTO LTDA",
-   "group": "incransom",
-   "date": "2026-10-14T16:33:00+00:00",
-   "attack_date": "2026-10-14",
-   "country": "BR",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/RklOQU5DSUFNRU5UTyBMVERBQGluY3JhbnNvbQ=="
-  },
-  {
    "victim": "MOA Architecture",
    "group": "qilin",
    "date": "2026-10-14T15:31:05+00:00",
@@ -1094,33 +1115,6 @@
    "country": "AU",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/cG9vbGVncm91cC5jb20uYXVAbG9ja2JpdDU="
-  },
-  {
-   "victim": "kordhotels.gr",
-   "group": "lockbit5",
-   "date": "2026-10-14T11:28:33+00:00",
-   "attack_date": "2026-10-14",
-   "country": "GR",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/a29yZGhvdGVscy5nckBsb2NrYml0NQ=="
-  },
-  {
-   "victim": "MyM ODONTOCLINICA S.A",
-   "group": "emperador",
-   "date": "2026-10-14T10:51:31+00:00",
-   "attack_date": "2026-10-14",
-   "country": "BR",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TXlNIE9ET05UT0NMSU5JQ0EgUy5BQGVtcGVyYWRvcg=="
-  },
-  {
-   "victim": "Lane Equipment",
-   "group": "dragonforce",
-   "date": "2026-10-14T00:30:19+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TGFuZSBFcXVpcG1lbnRAZHJhZ29uZm9yY2U="
   }
  ]
 }
