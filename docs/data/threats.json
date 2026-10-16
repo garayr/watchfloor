@@ -2,26 +2,20 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2273,
-  "c2_servers": 1448,
+  "total_iocs": 2230,
+  "c2_servers": 1314,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1002,
-    "c2": 990,
+    "iocs": 1012,
+    "c2": 994,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "VShell",
-    "iocs": 301,
-    "c2": 51,
+    "iocs": 306,
+    "c2": 56,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
-    "name": "IClickFix",
-    "iocs": 159,
-    "c2": 150,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Unknown Loader",
@@ -31,7 +25,7 @@
    },
    {
     "name": "AMOS",
-    "iocs": 88,
+    "iocs": 66,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -55,41 +49,47 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 46,
+    "iocs": 45,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "Remcos",
-    "iocs": 35,
-    "c2": 35,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+    "name": "AsyncRAT",
+    "iocs": 36,
+    "c2": 15,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
+    "name": "Raven Stealer",
+    "iocs": 30,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    }
   ]
  },
  "urls": {
-  "sample": 490,
-  "online": 283,
+  "sample": 582,
+  "online": 335,
   "top_tags": [
    {
     "name": "elf",
-    "count": 188
+    "count": 197
    },
    {
     "name": "Mozi",
-    "count": 112
+    "count": 117
    },
    {
     "name": "32-bit",
-    "count": 94
-   },
-   {
-    "name": "mips",
-    "count": 79
+    "count": 96
    },
    {
     "name": "ua-wget",
-    "count": 67
+    "count": 95
+   },
+   {
+    "name": "mips",
+    "count": 81
    },
    {
     "name": "botnetdomain",
@@ -97,11 +97,11 @@
    },
    {
     "name": "cowrie",
-    "count": 31
+    "count": 41
    },
    {
     "name": "arm",
-    "count": 27
+    "count": 29
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 387701,
-   "targets": 205,
-   "sources": 6533
+   "records": 1376815,
+   "targets": 227,
+   "sources": 8956
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 360464,
-   "targets": 194,
-   "sources": 6630
+   "records": 1258079,
+   "targets": 231,
+   "sources": 9102
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 193662,
-   "targets": 232,
-   "sources": 2234
+   "records": 477804,
+   "targets": 268,
+   "sources": 6251
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 59830,
-   "targets": 227,
-   "sources": 2094
+   "records": 205432,
+   "targets": 275,
+   "sources": 5071
   },
   {
    "port": 2222,
    "service": null,
-   "records": 22562,
-   "targets": 212,
-   "sources": 1020
+   "records": 75010,
+   "targets": 254,
+   "sources": 3926
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 15530,
-   "targets": 209,
-   "sources": 1419
+   "records": 63315,
+   "targets": 258,
+   "sources": 2835
   },
   {
-   "port": 51413,
+   "port": 16767,
    "service": null,
-   "records": 7865,
-   "targets": 7,
-   "sources": 343
-  },
-  {
-   "port": 137,
-   "service": null,
-   "records": 6176,
-   "targets": 68,
-   "sources": 114
+   "records": 41375,
+   "targets": 4,
+   "sources": 2672
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 5880,
-   "targets": 193,
-   "sources": 654
+   "records": 32373,
+   "targets": 246,
+   "sources": 1734
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 30048,
+   "targets": 23,
+   "sources": 970
   },
   {
    "port": 7547,
    "service": "Router management (TR-069)",
-   "records": 5751,
-   "targets": 132,
-   "sources": 490
+   "records": 28099,
+   "targets": 184,
+   "sources": 1491
   }
  ],
  "ports_date": "2026-10-16",
@@ -211,6 +211,73 @@
   }
  ],
  "pulses": [
+  {
+   "name": "ARMORY CASTLE Exploits BeyondTrust",
+   "summary": "On October 15, BeyondTrust disclosed CVE-2026-102764, a vulnerability affecting BeyondTrust Remote Support appliances that enables arbitrary file upload. Mandiant identified ARMORY CASTLE, a suspected PRC-nexus…",
+   "date": "2026-10-16T06:59:11+00:00",
+   "author": "AlienVault",
+   "adversary": "ARMORY CASTLE",
+   "malware": [
+    "SAWFLY",
+    "BARECLAW"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "beyondtrust",
+    "sawfly",
+    "credential harvesting",
+    "tunneler",
+    "bareclaw",
+    "privilege escalation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad1cb3feb7d313786acfcf5"
+  },
+  {
+   "name": "Variola: From ClickFix to a Modular Implant",
+   "summary": "Blackpoint's Adversary Pursuit Group traced a ClickFix intrusion to a previously unclassified modular Windows implant designated Variola. The malware establishes persistent host identity through encrypted storage…",
+   "date": "2026-10-16T02:15:43+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Variola",
+    "Aura Stealer"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "banking trojan",
+    "credential theft",
+    "variola",
+    "chromium",
+    "modular implant",
+    "github payload"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad188cfaac94d891e960fa6"
+  },
+  {
+   "name": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+   "summary": "An espionage campaign tracked as CL-UNK-1211 targeted government entities and state-affiliated infrastructure between October 2025 and April 2026, utilizing AI-generated payloads containing conversational annotations…",
+   "date": "2026-10-16T02:08:52+00:00",
+   "author": "AlienVault",
+   "adversary": "CL-UNK-1211",
+   "malware": [
+    "SysGoRAT"
+   ],
+   "countries": [],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "database exfiltration",
+    "sysgorat",
+    "web shells",
+    "linux",
+    "cve-2025-55182",
+    "ai-generated payloads"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad187349cefc9d2193e5cc3"
+  },
   {
    "name": "DragonForce Ransomware Profile: From Affiliate Program to Cybercrime Cartel",
    "summary": "DragonForce is a financially motivated ransomware operation that emerged in August 2023, initially using leaked LockBit 3.0 code and later transitioning to Conti v3-based variants. Operating as a Ransomware-as-a-Service…",
@@ -457,75 +524,13 @@
     "rat"
    ],
    "url": "https://otx.alienvault.com/pulse/6acf85338bff164de62a2759"
-  },
-  {
-   "name": "Ivanti CVE-2026-104935: Zero-Day Chain Exploited in Operation Innovate",
-   "summary": "Ivanti has released emergency security updates after attackers exploited a chain of three zero-day vulnerabilities in Connect Secure VPN appliances to gain root-level access without authentication. The attack began on…",
-   "date": "2026-10-14T13:35:47+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "vpn appliances",
-    "ivanti connect secure",
-    "root access",
-    "race condition",
-    "cgi exploitation",
-    "privilege escalation"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acf8533a44062761084826c"
-  },
-  {
-   "name": "Case of AgentTesla Malware Distribution Disguised as a Business Proposal Email",
-   "summary": "A phishing campaign has been observed distributing AgentTesla infostealer through emails masquerading as business proposal requests. Recipients are asked to review an attached product list, but the ZIP file contains an…",
-   "date": "2026-10-14T13:26:11+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "AgentTesla"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "phishing email",
-    "ftp exfiltration",
-    "social engineering",
-    "obfuscation",
-    "multi-stage loader",
-    "infostealer"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acf82f3a84bcf5248537bf9"
-  },
-  {
-   "name": "ClingSTUN Turns Vulnerable Edge Devices Into Attacker Infrastructure",
-   "summary": "An evolving Linux malware campaign deploys ClingSTUN, a back-connect proxy backdoor exploiting known vulnerabilities in Internet-facing IoT and network devices. The malware establishes persistent access and converts…",
-   "date": "2026-10-14T12:44:18+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ClingSTUN",
-    "Mirai"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "proxy backdoor",
-    "cve-2025-34035",
-    "cve-2022-36553",
-    "iot exploitation",
-    "edge device targeting",
-    "botnet"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6acf7922d9bc17d95d27ec5c"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T06:07:40+00:00",
-  "sans": "2026-10-16T06:07:40+00:00",
-  "otx": "2026-10-16T06:07:40+00:00",
-  "urlhaus": "2026-10-16T06:07:40+00:00"
+  "threatfox": "2026-10-16T07:27:43+00:00",
+  "sans": "2026-10-16T07:27:43+00:00",
+  "otx": "2026-10-16T07:27:43+00:00",
+  "urlhaus": "2026-10-16T07:27:43+00:00"
  },
- "generated_at": "2026-10-16T06:07:40+00:00"
+ "generated_at": "2026-10-16T07:27:43+00:00"
 }
