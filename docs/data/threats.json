@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2393,
-  "c2_servers": 1391,
+  "total_iocs": 2302,
+  "c2_servers": 1322,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1035,
-    "c2": 1013,
+    "iocs": 994,
+    "c2": 972,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -18,34 +18,28 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
+    "name": "Mirai",
+    "iocs": 112,
+    "c2": 10,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "Unknown Loader",
     "iocs": 93,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "Remcos",
-    "iocs": 85,
-    "c2": 85,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
-   },
-   {
     "name": "AMOS",
-    "iocs": 81,
+    "iocs": 85,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Mirai",
-    "iocs": 71,
-    "c2": 10,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "vSkimmer",
-    "iocs": 63,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vskimmer"
+    "name": "Remcos",
+    "iocs": 55,
+    "c2": 55,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "Remus",
@@ -55,7 +49,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 47,
+    "iocs": 44,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -64,16 +58,22 @@
     "iocs": 32,
     "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
+    "name": "Raven Stealer",
+    "iocs": 30,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    }
   ]
  },
  "urls": {
-  "sample": 666,
-  "online": 383,
+  "sample": 681,
+  "online": 397,
   "top_tags": [
    {
     "name": "elf",
-    "count": 219
+    "count": 220
    },
    {
     "name": "Mozi",
@@ -512,10 +512,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T15:18:37+00:00",
-  "sans": "2026-10-16T15:18:37+00:00",
-  "otx": "2026-10-16T15:18:37+00:00",
-  "urlhaus": "2026-10-16T15:18:37+00:00"
+  "threatfox": "2026-10-16T16:22:47+00:00",
+  "sans": "2026-10-16T16:22:47+00:00",
+  "otx": "2026-10-16T16:22:47+00:00",
+  "urlhaus": "2026-10-16T16:22:47+00:00"
  },
- "generated_at": "2026-10-16T15:18:37+00:00"
+ "generated_at": "2026-10-16T16:22:47+00:00"
 }

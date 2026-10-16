@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:18:37+00:00",
+ "generated_at": "2026-10-16T16:22:47+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -33,14 +33,14 @@
    "count": 5
   },
   {
-   "name": "akira",
-   "count": 4
+   "name": "Wallstreet",
+   "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 16
+   "count": 15
   },
   {
    "name": "Professional Services",
@@ -48,25 +48,25 @@
   },
   {
    "name": "Technology",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Manufacturing",
    "count": 8
   },
   {
-   "name": "Agriculture and Food Production",
-   "count": 6
+   "name": "Financial Services",
+   "count": 7
   },
   {
-   "name": "Financial Services",
+   "name": "Agriculture and Food Production",
    "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 36,
+   "count": 40,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -87,12 +87,6 @@
    "count": 4,
    "lat": 51.5,
    "lon": -0.1
-  },
-  {
-   "code": "JP",
-   "count": 3,
-   "lat": 35.7,
-   "lon": 139.7
   },
   {
    "code": "CA",
@@ -131,6 +125,12 @@
    "lon": 12.5
   },
   {
+   "code": "JP",
+   "count": 2,
+   "lat": 35.7,
+   "lon": 139.7
+  },
+  {
    "code": "KR",
    "count": 2,
    "lat": 37.6,
@@ -147,12 +147,6 @@
    "count": 2,
    "lat": 13.75,
    "lon": 100.5
-  },
-  {
-   "code": "TW",
-   "count": 2,
-   "lat": 25.0,
-   "lon": 121.5
   },
   {
    "code": "CR",
@@ -215,10 +209,10 @@
    "lon": 21.0
   },
   {
-   "code": "SG",
+   "code": "TW",
    "count": 1,
-   "lat": 1.35,
-   "lon": 103.8
+   "lat": 25.0,
+   "lon": 121.5
   },
   {
    "code": "ZA",
@@ -228,6 +222,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Macfarlan Capital Partners",
+   "group": "pear",
+   "date": "2026-10-16T11:53:39+00:00",
+   "attack_date": "2026-10-14",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/TWFjZmFybGFuIENhcGl0YWwgUGFydG5lcnNAcGVhcg=="
+  },
+  {
+   "victim": "Solar Communications International",
+   "group": "pear",
+   "date": "2026-10-16T11:53:03+00:00",
+   "attack_date": "2026-10-14",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U29sYXIgQ29tbXVuaWNhdGlvbnMgSW50ZXJuYXRpb25hbEBwZWFy"
+  },
+  {
+   "victim": "Caretaker Landscape and Tree Management",
+   "group": "pear",
+   "date": "2026-10-16T11:52:28+00:00",
+   "attack_date": "2026-10-14",
+   "country": "US",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/Q2FyZXRha2VyIExhbmRzY2FwZSBhbmQgVHJlZSBNYW5hZ2VtZW50QHBlYXI="
+  },
   {
    "victim": "Minkon",
    "group": "bravox",
@@ -1012,33 +1033,6 @@
    "url": "https://www.ransomware.live/id/SW50ZXJpb3IgVGVjaG5vbG9naWVzQE4wbg=="
   },
   {
-   "victim": "Taiwan Otsuka Pharmaceutical",
-   "group": "Eclipse",
-   "date": "2026-10-14T17:51:57+00:00",
-   "attack_date": "2026-10-14",
-   "country": "TW",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/VGFpd2FuIE90c3VrYSBQaGFybWFjZXV0aWNhbEBFY2xpcHNl"
-  },
-  {
-   "victim": "japantimes.co.jp",
-   "group": "Eclipse",
-   "date": "2026-10-14T17:51:21+00:00",
-   "attack_date": "2026-10-14",
-   "country": "JP",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/amFwYW50aW1lcy5jby5qcEBFY2xpcHNl"
-  },
-  {
-   "victim": "FOODMatch",
-   "group": "akira",
-   "date": "2026-10-14T16:58:33+00:00",
-   "attack_date": "2026-10-14",
-   "country": null,
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/Rk9PRE1hdGNoQGFraXJh"
-  },
-  {
    "victim": "FINANCIAMENTO LTDA",
    "group": "incransom",
    "date": "2026-10-14T16:33:00+00:00",
@@ -1052,7 +1046,7 @@
    "group": "qilin",
    "date": "2026-10-14T15:31:05+00:00",
    "attack_date": "2026-10-14",
-   "country": "SG",
+   "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/TU9BIEFyY2hpdGVjdHVyZUBxaWxpbg=="
   },

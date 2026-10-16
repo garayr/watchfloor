@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T14:12:53+00:00",
+ "generated_at": "2026-10-16T16:22:47+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -7795,6 +7795,145 @@
    ],
    "history_size": 7,
    "updated": "2026-10-16T14:12:53+00:00"
+  },
+  "pear": {
+   "name": "pear",
+   "description": "Pure Extraction And Ransom (PEAR) Team is the community of highly responsible and strictly disciplined members. We are a private team and have nothing common with any other threat actors. We've been monitoring this field for a long-long time. So, we understand all the processes and know well how it all works.",
+   "aliases": [],
+   "first_seen": "2023-08-18",
+   "last_seen": "2026-10-16",
+   "victims_total": 127,
+   "cves": [],
+   "tools": [],
+   "techniques": [
+    "Valid Accounts",
+    "Phishing",
+    "Command and Scripting Interpreter: PowerShell",
+    "User Execution: Malicious File",
+    "User Execution: Malicious Copy and Paste",
+    "Boot or Logon Autostart Execution: Registry Run Keys /…",
+    "Obfuscated Files or Information: Encrypted/Encoded File",
+    "Process Injection: DLL Injection",
+    "Input Capture: Keylogging",
+    "Credentials from Password Stores: Credentials from Web…",
+    "Data from Local System",
+    "Data Staged",
+    "Email Collection",
+    "Data from Information Repositories",
+    "Archive Collected Data: Archive via Utility",
+    "Exfiltration Over C2 Channel",
+    "Exfiltration Over Web Service",
+    "Exfiltration Over Webhook",
+    "Application Layer Protocol: Web Protocols",
+    "Proxy: Multi-hop Proxy"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 113
+     },
+     {
+      "name": "CA",
+      "count": 3
+     },
+     {
+      "name": "JM",
+      "count": 3
+     },
+     {
+      "name": "AU",
+      "count": 1
+     },
+     {
+      "name": "CH",
+      "count": 1
+     },
+     {
+      "name": "DE",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Professional Services",
+      "count": 37
+     },
+     {
+      "name": "Healthcare",
+      "count": 27
+     },
+     {
+      "name": "Manufacturing",
+      "count": 12
+     },
+     {
+      "name": "Financial Services",
+      "count": 10
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 9
+     },
+     {
+      "name": "Technology",
+      "count": 9
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 5
+    },
+    {
+     "month": "2025-12",
+     "count": 3
+    },
+    {
+     "month": "2026-01",
+     "count": 4
+    },
+    {
+     "month": "2026-02",
+     "count": 6
+    },
+    {
+     "month": "2026-03",
+     "count": 6
+    },
+    {
+     "month": "2026-04",
+     "count": 8
+    },
+    {
+     "month": "2026-05",
+     "count": 13
+    },
+    {
+     "month": "2026-06",
+     "count": 11
+    },
+    {
+     "month": "2026-07",
+     "count": 8
+    },
+    {
+     "month": "2026-08",
+     "count": 9
+    },
+    {
+     "month": "2026-09",
+     "count": 8
+    },
+    {
+     "month": "2026-10",
+     "count": 3
+    }
+   ],
+   "history_size": 127,
+   "updated": "2026-10-16T16:22:47+00:00"
   }
  }
 }
