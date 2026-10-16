@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T14:12:53+00:00",
+ "generated_at": "2026-10-16T15:18:37+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -29,12 +29,12 @@
    "count": 7
   },
   {
-   "name": "akira",
+   "name": "incransom",
    "count": 5
   },
   {
-   "name": "incransom",
-   "count": 5
+   "name": "akira",
+   "count": 4
   }
  ],
  "by_sector": [
@@ -89,16 +89,22 @@
    "lon": -0.1
   },
   {
-   "code": "CA",
-   "count": 3,
-   "lat": 43.7,
-   "lon": -79.4
-  },
-  {
    "code": "JP",
    "count": 3,
    "lat": 35.7,
    "lon": 139.7
+  },
+  {
+   "code": "CA",
+   "count": 2,
+   "lat": 43.7,
+   "lon": -79.4
+  },
+  {
+   "code": "DE",
+   "count": 2,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "EG",
@@ -159,12 +165,6 @@
    "count": 1,
    "lat": 50.1,
    "lon": 14.4
-  },
-  {
-   "code": "DE",
-   "count": 1,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "EC",
@@ -228,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Minkon",
+   "group": "bravox",
+   "date": "2026-10-16T11:03:33+00:00",
+   "attack_date": "2026-10-16",
+   "country": "DE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TWlua29uQGJyYXZveA=="
+  },
   {
    "victim": "Adams Warehouse & Delivery, Inc.",
    "group": "aurora",
@@ -1028,15 +1037,6 @@
    "country": null,
    "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/Rk9PRE1hdGNoQGFraXJh"
-  },
-  {
-   "victim": "Shediac Lobster Shop",
-   "group": "akira",
-   "date": "2026-10-14T16:58:14+00:00",
-   "attack_date": "2026-10-14",
-   "country": "CA",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/U2hlZGlhYyBMb2JzdGVyIFNob3BAYWtpcmE="
   },
   {
    "victim": "FINANCIAMENTO LTDA",

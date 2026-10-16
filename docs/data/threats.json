@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2319,
-  "c2_servers": 1369,
+  "total_iocs": 2393,
+  "c2_servers": 1391,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1020,
-    "c2": 1002,
+    "iocs": 1035,
+    "c2": 1013,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "VShell",
-    "iocs": 221,
-    "c2": 43,
+    "iocs": 222,
+    "c2": 44,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -25,15 +25,21 @@
    },
    {
     "name": "Remcos",
-    "iocs": 86,
-    "c2": 86,
+    "iocs": 85,
+    "c2": 85,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "AMOS",
-    "iocs": 77,
+    "iocs": 81,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 71,
+    "c2": 10,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "vSkimmer",
@@ -42,46 +48,40 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vskimmer"
    },
    {
-    "name": "Mirai",
-    "iocs": 58,
-    "c2": 10,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "Remus",
-    "iocs": 50,
-    "c2": 50,
+    "iocs": 52,
+    "c2": 51,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 43,
+    "iocs": 47,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "AsyncRAT",
-    "iocs": 30,
+    "iocs": 32,
     "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    }
   ]
  },
  "urls": {
-  "sample": 657,
-  "online": 379,
+  "sample": 666,
+  "online": 383,
   "top_tags": [
    {
     "name": "elf",
-    "count": 217
+    "count": 219
    },
    {
     "name": "Mozi",
-    "count": 129
+    "count": 130
    },
    {
     "name": "32-bit",
-    "count": 106
+    "count": 107
    },
    {
     "name": "ua-wget",
@@ -101,7 +101,7 @@
    },
    {
     "name": "arm",
-    "count": 31
+    "count": 32
    }
   ]
  },
@@ -512,10 +512,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T14:12:53+00:00",
-  "sans": "2026-10-16T14:12:53+00:00",
-  "otx": "2026-10-16T14:12:53+00:00",
-  "urlhaus": "2026-10-16T14:12:53+00:00"
+  "threatfox": "2026-10-16T15:18:37+00:00",
+  "sans": "2026-10-16T15:18:37+00:00",
+  "otx": "2026-10-16T15:18:37+00:00",
+  "urlhaus": "2026-10-16T15:18:37+00:00"
  },
- "generated_at": "2026-10-16T14:12:53+00:00"
+ "generated_at": "2026-10-16T15:18:37+00:00"
 }
