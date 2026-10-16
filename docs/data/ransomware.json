@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-16T05:09:26+00:00",
+ "generated_at": "2026-10-16T06:07:40+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 15
+   "count": 17
   },
   {
    "name": "qilin",
@@ -48,11 +48,11 @@
   },
   {
    "name": "Other",
-   "count": 11
+   "count": 10
   },
   {
    "name": "Technology",
-   "count": 11
+   "count": 10
   },
   {
    "name": "Manufacturing",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 24,
+   "count": 26,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -131,12 +131,6 @@
    "lon": -99.1
   },
   {
-   "code": "SG",
-   "count": 2,
-   "lat": 1.35,
-   "lon": 103.8
-  },
-  {
    "code": "AR",
    "count": 1,
    "lat": -34.6,
@@ -185,12 +179,6 @@
    "lon": 106.9
   },
   {
-   "code": "MY",
-   "count": 1,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
    "code": "NG",
    "count": 1,
    "lat": 6.5,
@@ -215,6 +203,12 @@
    "lon": 21.0
   },
   {
+   "code": "SG",
+   "count": 1,
+   "lat": 1.35,
+   "lon": 103.8
+  },
+  {
    "code": "TH",
    "count": 1,
    "lat": 13.75,
@@ -234,6 +228,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #75",
+   "group": "N0n",
+   "date": "2026-10-16T01:23:41+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzVATjBu"
+  },
+  {
+   "victim": "Company #74",
+   "group": "N0n",
+   "date": "2026-10-16T01:23:06+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzRATjBu"
+  },
   {
    "victim": "Evolution Spine / All Labs",
    "group": "N0n",
@@ -989,24 +1001,6 @@
    "country": "IN",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/RHVyZ2EgQmVhcmluZ3NAT3JvdmE="
-  },
-  {
-   "victim": "Codar (Pte) Ltd",
-   "group": "Orova",
-   "date": "2026-10-13T14:56:57+00:00",
-   "attack_date": "2026-10-13",
-   "country": "SG",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Q29kYXIgKFB0ZSkgTHRkQE9yb3Zh"
-  },
-  {
-   "victim": "Alfameli Group",
-   "group": "Orova",
-   "date": "2026-10-13T14:56:23+00:00",
-   "attack_date": "2026-10-13",
-   "country": "MY",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/QWxmYW1lbGkgR3JvdXBAT3JvdmE="
   },
   {
    "victim": "Company #63",

@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2272,
+  "total_iocs": 2273,
   "c2_servers": 1448,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1001,
-    "c2": 989,
+    "iocs": 1002,
+    "c2": 990,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -49,43 +49,43 @@
    },
    {
     "name": "Remus",
-    "iocs": 51,
-    "c2": 51,
+    "iocs": 50,
+    "c2": 50,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 45,
+    "iocs": 46,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Remcos",
-    "iocs": 34,
-    "c2": 34,
+    "iocs": 35,
+    "c2": 35,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    }
   ]
  },
  "urls": {
-  "sample": 483,
+  "sample": 490,
   "online": 283,
   "top_tags": [
    {
     "name": "elf",
-    "count": 184
+    "count": 188
    },
    {
     "name": "Mozi",
-    "count": 108
+    "count": 112
    },
    {
     "name": "32-bit",
-    "count": 90
+    "count": 94
    },
    {
     "name": "mips",
-    "count": 77
+    "count": 79
    },
    {
     "name": "ua-wget",
@@ -101,7 +101,7 @@
    },
    {
     "name": "arm",
-    "count": 25
+    "count": 27
    }
   ]
  },
@@ -522,10 +522,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T05:09:26+00:00",
-  "sans": "2026-10-16T05:09:26+00:00",
-  "otx": "2026-10-16T05:09:26+00:00",
-  "urlhaus": "2026-10-16T05:09:26+00:00"
+  "threatfox": "2026-10-16T06:07:40+00:00",
+  "sans": "2026-10-16T06:07:40+00:00",
+  "otx": "2026-10-16T06:07:40+00:00",
+  "urlhaus": "2026-10-16T06:07:40+00:00"
  },
- "generated_at": "2026-10-16T05:09:26+00:00"
+ "generated_at": "2026-10-16T06:07:40+00:00"
 }
