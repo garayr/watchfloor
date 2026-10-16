@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1946,
-  "c2_servers": 956,
+  "total_iocs": 1950,
+  "c2_servers": 917,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 719,
-    "c2": 709,
+    "iocs": 682,
+    "c2": 672,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 335,
+    "iocs": 374,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -31,7 +31,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 44,
+    "iocs": 45,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -54,34 +54,34 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
+    "name": "ClearFake",
+    "iocs": 24,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
     "name": "Cobalt Strike",
     "iocs": 24,
     "c2": 24,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "Remcos",
-    "iocs": 24,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    }
   ]
  },
  "urls": {
-  "sample": 789,
-  "online": 363,
+  "sample": 802,
+  "online": 376,
   "top_tags": [
    {
     "name": "elf",
-    "count": 241
+    "count": 245
    },
    {
     "name": "Mozi",
-    "count": 150
+    "count": 153
    },
    {
     "name": "32-bit",
-    "count": 125
+    "count": 128
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,7 @@
    },
    {
     "name": "mips",
-    "count": 102
+    "count": 103
    },
    {
     "name": "cowrie",
@@ -523,10 +523,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T22:37:44+00:00",
-  "sans": "2026-10-16T22:37:44+00:00",
-  "otx": "2026-10-16T22:37:44+00:00",
-  "urlhaus": "2026-10-16T22:37:44+00:00"
+  "threatfox": "2026-10-16T23:33:05+00:00",
+  "sans": "2026-10-16T23:33:05+00:00",
+  "otx": "2026-10-16T23:33:05+00:00",
+  "urlhaus": "2026-10-16T23:33:05+00:00"
  },
- "generated_at": "2026-10-16T22:37:44+00:00"
+ "generated_at": "2026-10-16T23:33:05+00:00"
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T20:38:28+00:00",
+ "generated_at": "2026-10-16T23:33:05+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -7,8 +7,8 @@
    "description": "The Gentlemen is a RaaS group that emerged in July–August 2025, rapidly claiming over 320 victims across 17+ countries by offering affiliates a 90% revenue share, deploying a Go-based locker against Windows, Linux, NAS, and BSD systems; a compromised C2 server in 2026 revealed more than 1,570 linked victims.",
    "aliases": [],
    "first_seen": "2023-02-28",
-   "last_seen": "2026-10-09",
-   "victims_total": 959,
+   "last_seen": "2026-10-16",
+   "victims_total": 998,
    "cves": [
     {
      "id": "CVE-2025-32433",
@@ -100,53 +100,53 @@
     "countries": [
      {
       "name": "US",
-      "count": 185
+      "count": 199
      },
      {
       "name": "GB",
+      "count": 45
+     },
+     {
+      "name": "TH",
       "count": 43
+     },
+     {
+      "name": "DE",
+      "count": 41
      },
      {
       "name": "FR",
       "count": 41
      },
      {
-      "name": "DE",
-      "count": 40
-     },
-     {
-      "name": "TH",
-      "count": 40
-     },
-     {
-      "name": "IN",
-      "count": 35
+      "name": "BR",
+      "count": 38
      }
     ],
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 192
+      "count": 194
      },
      {
       "name": "Technology",
-      "count": 122
+      "count": 127
      },
      {
       "name": "Professional Services",
-      "count": 115
+      "count": 120
      },
      {
       "name": "Healthcare",
-      "count": 89
+      "count": 96
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 73
+      "count": 74
      },
      {
       "name": "Agriculture and Food Production",
-      "count": 50
+      "count": 52
      }
     ]
    },
@@ -197,11 +197,11 @@
     },
     {
      "month": "2026-10",
-     "count": 46
+     "count": 85
     }
    ],
-   "history_size": 959,
-   "updated": "2026-10-09T23:25:38+00:00"
+   "history_size": 998,
+   "updated": "2026-10-16T23:33:05+00:00"
   },
   "Storm": {
    "name": "Storm",
