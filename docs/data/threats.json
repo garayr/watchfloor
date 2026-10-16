@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1933,
-  "c2_servers": 1037,
+  "total_iocs": 1934,
+  "c2_servers": 994,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 800,
-    "c2": 790,
+    "iocs": 758,
+    "c2": 748,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 254,
+    "iocs": 295,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -31,7 +31,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 45,
+    "iocs": 46,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -68,20 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 771,
-  "online": 347,
+  "sample": 780,
+  "online": 356,
   "top_tags": [
    {
     "name": "elf",
-    "count": 236
+    "count": 239
    },
    {
     "name": "Mozi",
-    "count": 145
+    "count": 148
    },
    {
     "name": "32-bit",
-    "count": 120
+    "count": 123
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,7 @@
    },
    {
     "name": "mips",
-    "count": 99
+    "count": 101
    },
    {
     "name": "cowrie",
@@ -523,10 +523,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T20:38:28+00:00",
-  "sans": "2026-10-16T20:38:28+00:00",
-  "otx": "2026-10-16T20:38:28+00:00",
-  "urlhaus": "2026-10-16T20:38:28+00:00"
+  "threatfox": "2026-10-16T21:37:11+00:00",
+  "sans": "2026-10-16T21:37:11+00:00",
+  "otx": "2026-10-16T21:37:11+00:00",
+  "urlhaus": "2026-10-16T21:37:11+00:00"
  },
- "generated_at": "2026-10-16T20:38:28+00:00"
+ "generated_at": "2026-10-16T21:37:11+00:00"
 }
