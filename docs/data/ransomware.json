@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-16T19:37:25+00:00",
+ "generated_at": "2026-10-16T20:38:28+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "thegentlemen",
-   "count": 31
+   "count": 28
   },
   {
    "name": "N0n",
-   "count": 17
+   "count": 23
   },
   {
    "name": "qilin",
-   "count": 14
+   "count": 13
   },
   {
    "name": "THE SEVEN DEADLY SINS",
@@ -26,25 +26,21 @@
   },
   {
    "name": "lockbit5",
-   "count": 6
+   "count": 5
   },
   {
    "name": "incransom",
    "count": 4
   },
   {
-   "name": "Wallstreet",
+   "name": "akira",
    "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 15
-  },
-  {
-   "name": "Professional Services",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Technology",
@@ -55,38 +51,42 @@
    "count": 10
   },
   {
+   "name": "Professional Services",
+   "count": 9
+  },
+  {
    "name": "Agriculture and Food Production",
    "count": 5
   },
   {
-   "name": "Education",
+   "name": "Financial Services",
    "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 39,
+   "count": 41,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "BR",
-   "count": 7,
+   "count": 6,
    "lat": -23.5,
    "lon": -46.6
-  },
-  {
-   "code": "AU",
-   "count": 4,
-   "lat": -33.9,
-   "lon": 151.2
   },
   {
    "code": "GB",
    "count": 4,
    "lat": 51.5,
    "lon": -0.1
+  },
+  {
+   "code": "AU",
+   "count": 3,
+   "lat": -33.9,
+   "lon": 151.2
   },
   {
    "code": "CA",
@@ -107,12 +107,6 @@
    "lon": 31.2
   },
   {
-   "code": "ES",
-   "count": 2,
-   "lat": 40.4,
-   "lon": -3.7
-  },
-  {
    "code": "IN",
    "count": 2,
    "lat": 19.1,
@@ -123,12 +117,6 @@
    "count": 2,
    "lat": 41.9,
    "lon": 12.5
-  },
-  {
-   "code": "JP",
-   "count": 2,
-   "lat": 35.7,
-   "lon": 139.7
   },
   {
    "code": "KR",
@@ -167,10 +155,22 @@
    "lon": -78.5
   },
   {
+   "code": "ES",
+   "count": 1,
+   "lat": 40.4,
+   "lon": -3.7
+  },
+  {
    "code": "IE",
    "count": 1,
    "lat": 53.3,
    "lon": -6.3
+  },
+  {
+   "code": "JP",
+   "count": 1,
+   "lat": 35.7,
+   "lon": 139.7
   },
   {
    "code": "KZ",
@@ -216,6 +216,78 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Girl Scouts of Eastern Massachusetts",
+   "group": "Wallstreet",
+   "date": "2026-10-16T16:00:49+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/R2lybCBTY291dHMgb2YgRWFzdGVybiBNYXNzYWNodXNldHRzQFdhbGxzdHJlZXQ="
+  },
+  {
+   "victim": "Company #80",
+   "group": "N0n",
+   "date": "2026-10-16T15:57:47+00:00",
+   "attack_date": "2026-10-16",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODBATjBu"
+  },
+  {
+   "victim": "Company #79",
+   "group": "N0n",
+   "date": "2026-10-16T15:57:11+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzlATjBu"
+  },
+  {
+   "victim": "Company #78",
+   "group": "N0n",
+   "date": "2026-10-16T15:56:36+00:00",
+   "attack_date": "2026-10-16",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzhATjBu"
+  },
+  {
+   "victim": "Company #77",
+   "group": "N0n",
+   "date": "2026-10-16T15:56:01+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzdATjBu"
+  },
+  {
+   "victim": "Company #76",
+   "group": "N0n",
+   "date": "2026-10-16T15:55:26+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzZATjBu"
+  },
+  {
+   "victim": "Company #72",
+   "group": "N0n",
+   "date": "2026-10-16T15:54:50+00:00",
+   "attack_date": "2026-10-16",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzJATjBu"
+  },
+  {
+   "victim": "Company #71",
+   "group": "N0n",
+   "date": "2026-10-16T15:54:15+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzFATjBu"
+  },
   {
    "victim": "Parker-Hannifin Corporation",
    "group": "Redact",
@@ -296,33 +368,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/QWRhbXMgV2FyZWhvdXNlICYgRGVsaXZlcnksIEluYy5AYXVyb3Jh"
-  },
-  {
-   "victim": "Suhai Segurana Pessoal",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:38:49+00:00",
-   "attack_date": "2026-10-14",
-   "country": "BR",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/U3VoYWkgU2VndXJhbmEgUGVzc29hbEB0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "SBI Audiovisual Medinbox",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:38:28+00:00",
-   "attack_date": "2026-10-14",
-   "country": "ES",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/U0JJIEF1ZGlvdmlzdWFsIE1lZGluYm94QHRoZWdlbnRsZW1lbg=="
-  },
-  {
-   "victim": "Saga University",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:38:08+00:00",
-   "attack_date": "2026-10-14",
-   "country": "JP",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/U2FnYSBVbml2ZXJzaXR5QHRoZWdlbnRsZW1lbg=="
   },
   {
    "victim": "Netcore Unbxd",
@@ -1070,51 +1115,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/TU9BIEFyY2hpdGVjdHVyZUBxaWxpbg=="
-  },
-  {
-   "victim": "Joliet Public Schools District 86",
-   "group": "qilin",
-   "date": "2026-10-14T15:30:28+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/Sm9saWV0IFB1YmxpYyBTY2hvb2xzIERpc3RyaWN0IDg2QHFpbGlu"
-  },
-  {
-   "victim": "Trieschmann Dumala Architectural Group",
-   "group": "N0n",
-   "date": "2026-10-14T13:54:33+00:00",
-   "attack_date": "2026-10-14",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/VHJpZXNjaG1hbm4gRHVtYWxhIEFyY2hpdGVjdHVyYWwgR3JvdXBATjBu"
-  },
-  {
-   "victim": "E-Z Pack Trucks",
-   "group": "Wallstreet",
-   "date": "2026-10-14T12:57:15+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/RS1aIFBhY2sgVHJ1Y2tzQFdhbGxzdHJlZXQ="
-  },
-  {
-   "victim": "Green Clinic",
-   "group": "Wallstreet",
-   "date": "2026-10-14T12:56:56+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/R3JlZW4gQ2xpbmljQFdhbGxzdHJlZXQ="
-  },
-  {
-   "victim": "poolegroup.com.au",
-   "group": "lockbit5",
-   "date": "2026-10-14T11:31:29+00:00",
-   "attack_date": "2026-10-14",
-   "country": "AU",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/cG9vbGVncm91cC5jb20uYXVAbG9ja2JpdDU="
   }
  ]
 }

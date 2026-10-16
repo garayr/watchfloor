@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1955,
-  "c2_servers": 1086,
+  "total_iocs": 1933,
+  "c2_servers": 1037,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 841,
-    "c2": 831,
+    "iocs": 800,
+    "c2": 790,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 232,
+    "iocs": 254,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -25,13 +25,13 @@
    },
    {
     "name": "AMOS",
-    "iocs": 83,
+    "iocs": 85,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 46,
+    "iocs": 45,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -49,8 +49,8 @@
    },
    {
     "name": "PureRAT",
-    "iocs": 28,
-    "c2": 27,
+    "iocs": 25,
+    "c2": 24,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
@@ -68,20 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 759,
-  "online": 364,
+  "sample": 771,
+  "online": 347,
   "top_tags": [
    {
     "name": "elf",
-    "count": 230
+    "count": 236
    },
    {
     "name": "Mozi",
-    "count": 139
+    "count": 145
    },
    {
     "name": "32-bit",
-    "count": 114
+    "count": 120
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,7 @@
    },
    {
     "name": "mips",
-    "count": 96
+    "count": 99
    },
    {
     "name": "cowrie",
@@ -523,10 +523,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T19:37:25+00:00",
-  "sans": "2026-10-16T19:37:25+00:00",
-  "otx": "2026-10-16T19:37:25+00:00",
-  "urlhaus": "2026-10-16T19:37:25+00:00"
+  "threatfox": "2026-10-16T20:38:28+00:00",
+  "sans": "2026-10-16T20:38:28+00:00",
+  "otx": "2026-10-16T20:38:28+00:00",
+  "urlhaus": "2026-10-16T20:38:28+00:00"
  },
- "generated_at": "2026-10-16T19:37:25+00:00"
+ "generated_at": "2026-10-16T20:38:28+00:00"
 }
