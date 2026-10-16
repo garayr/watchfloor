@@ -70,6 +70,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+     "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and…",
+     "source": "The Hacker News",
+     "date": "2026-10-16T17:48:45+00:00",
+     "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
      "summary": "Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack. The post In Other News: ICS-Sniper Attack…",
      "source": "SecurityWeek",
@@ -184,17 +192,6 @@
      "date": "2026-10-15T12:07:20+00:00",
      "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
-     "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of…",
-     "source": "The Hacker News",
-     "date": "2026-10-15T11:46:49+00:00",
-     "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-0322"
-     ]
     }
    ]
   },
