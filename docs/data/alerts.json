@@ -1,6 +1,76 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-102764",
+   "date": "2026-10-16",
+   "src": "CISA",
+   "vendor": "BeyondTrust Remote Support",
+   "vendor_name": "BeyondTrust",
+   "product": "Remote Support",
+   "title": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+   "detail": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-19",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-102764"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+   "kev": true,
+   "epss": 0.006,
+   "cvss": 9.3,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
+     "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
+     "source": "SecurityWeek",
+     "date": "2026-10-16T10:53:22+00:00"
+    },
+    {
+     "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+     "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+     "source": "The Hacker News",
+     "date": "2026-10-16T06:55:55+00:00"
+    },
+    {
+     "title": "BeyondTrust patches zero-day exploited in attacks since August",
+     "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+     "source": "BleepingComputer",
+     "date": "2026-10-16T06:18:08+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2025-61624",
+   "date": "2026-10-16",
+   "src": "CISA",
+   "vendor": "Fortinet Multiple Products",
+   "vendor_name": "Fortinet",
+   "product": "Multiple Products",
+   "title": "Fortinet Multiple Products Path Traversal Vulnerability",
+   "detail": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-19",
+   "ransomware": false,
+   "cves": [
+    "CVE-2025-61624"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+   "kev": true,
+   "epss": 0.0058,
+   "cvss": 6.0,
+   "sev": "high",
+   "news": [
+    {
+     "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+     "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+     "source": "The Hacker News",
+     "date": "2026-10-16T04:59:36+00:00"
+    }
+   ]
+  },
+  {
    "id": "CVE-2026-21589",
    "date": "2026-10-15",
    "src": "CISA",

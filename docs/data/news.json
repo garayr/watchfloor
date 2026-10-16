@@ -83,7 +83,10 @@
      "source": "SecurityWeek",
      "date": "2026-10-16T10:53:22+00:00",
      "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-102764"
+     ]
     },
     {
      "title": "F5, Juniper Networks Patch Critical Vulnerabilities",
@@ -107,7 +110,10 @@
      "source": "The Hacker News",
      "date": "2026-10-16T06:55:55+00:00",
      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-102764"
+     ]
     },
     {
      "title": "BeyondTrust patches zero-day exploited in attacks since August",
@@ -115,7 +121,10 @@
      "source": "BleepingComputer",
      "date": "2026-10-16T06:18:08+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-102764"
+     ]
     },
     {
      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
@@ -123,7 +132,10 @@
      "source": "The Hacker News",
      "date": "2026-10-16T04:59:36+00:00",
      "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2025-61624"
+     ]
     },
     {
      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
@@ -195,6 +207,14 @@
      "source": "BleepingComputer",
      "date": "2026-10-16T17:20:03+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+     "group": "Malware and campaigns"
+    },
+    {
+     "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+     "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup…",
+     "source": "The Hacker News",
+     "date": "2026-10-16T16:43:39+00:00",
+     "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
      "group": "Malware and campaigns"
     },
     {
@@ -336,14 +356,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-15T13:18:36+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
-     "group": "Other news"
-    },
-    {
-     "title": "Why AI Confidence Is Not Validation",
-     "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners…",
-     "source": "The Hacker News",
-     "date": "2026-10-15T11:04:35+00:00",
-     "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
      "group": "Other news"
     }
    ]
