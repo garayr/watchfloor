@@ -70,6 +70,17 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+     "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-16T20:00:59+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-71362"
+     ]
+    },
+    {
      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and…",
      "source": "The Hacker News",
@@ -244,14 +255,6 @@
      "source": "The Hacker News",
      "date": "2026-10-15T16:01:57+00:00",
      "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
-     "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and…",
-     "source": "The Hacker News",
-     "date": "2026-10-15T11:46:59+00:00",
-     "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
      "group": "Malware and campaigns"
     }
    ]
