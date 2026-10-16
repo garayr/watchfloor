@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T10:44:25+00:00",
+ "generated_at": "2026-10-16T11:42:18+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "qilin",
-   "count": 15
+   "count": 16
   },
   {
    "name": "Wallstreet",
@@ -56,17 +56,17 @@
   },
   {
    "name": "Manufacturing",
-   "count": 9
+   "count": 8
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Financial Services",
    "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 26,
+   "count": 27,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -87,12 +87,6 @@
    "count": 4,
    "lat": 51.5,
    "lon": -0.1
-  },
-  {
-   "code": "IN",
-   "count": 3,
-   "lat": 19.1,
-   "lon": 72.9
   },
   {
    "code": "JP",
@@ -117,6 +111,12 @@
    "count": 2,
    "lat": 40.4,
    "lon": -3.7
+  },
+  {
+   "code": "IN",
+   "count": 2,
+   "lat": 19.1,
+   "lon": 72.9
   },
   {
    "code": "IT",
@@ -228,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Via Credit Union",
+   "group": "qilin",
+   "date": "2026-10-16T07:15:02+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/VmlhIENyZWRpdCBVbmlvbkBxaWxpbg=="
+  },
   {
    "victim": "Company #75",
    "group": "N0n",
@@ -992,15 +1001,6 @@
    "country": "IN",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/R3JlYXQgTGFrZXNAaW5jcmFuc29t"
-  },
-  {
-   "victim": "Durga Bearings",
-   "group": "Orova",
-   "date": "2026-10-13T14:57:30+00:00",
-   "attack_date": "2026-10-13",
-   "country": "IN",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RHVyZ2EgQmVhcmluZ3NAT3JvdmE="
   },
   {
    "victim": "Company #63",
