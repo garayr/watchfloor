@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-16T01:04:30+00:00",
+ "generated_at": "2026-10-16T02:08:19+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 15
+   "count": 17
   },
   {
    "name": "N0n",
@@ -43,11 +43,11 @@
    "count": 18
   },
   {
-   "name": "Other",
-   "count": 12
+   "name": "Healthcare",
+   "count": 11
   },
   {
-   "name": "Healthcare",
+   "name": "Other",
    "count": 11
   },
   {
@@ -56,17 +56,17 @@
   },
   {
    "name": "Manufacturing",
-   "count": 8
+   "count": 9
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 7
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 24,
+   "count": 23,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -84,7 +84,7 @@
   },
   {
    "code": "GB",
-   "count": 5,
+   "count": 6,
    "lat": 51.5,
    "lon": -0.1
   },
@@ -99,6 +99,12 @@
    "count": 3,
    "lat": 41.9,
    "lon": 12.5
+  },
+  {
+   "code": "JP",
+   "count": 3,
+   "lat": 35.7,
+   "lon": 139.7
   },
   {
    "code": "MX",
@@ -123,12 +129,6 @@
    "count": 2,
    "lat": 40.4,
    "lon": -3.7
-  },
-  {
-   "code": "JP",
-   "count": 2,
-   "lat": 35.7,
-   "lon": 139.7
   },
   {
    "code": "SG",
@@ -222,6 +222,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Keio Corporation",
+   "group": "qilin",
+   "date": "2026-10-15T21:04:57+00:00",
+   "attack_date": "2026-10-15",
+   "country": "JP",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/S2VpbyBDb3Jwb3JhdGlvbkBxaWxpbg=="
+  },
+  {
+   "victim": "Kemlows Diecasting Products Limited",
+   "group": "qilin",
+   "date": "2026-10-15T21:04:17+00:00",
+   "attack_date": "2026-10-15",
+   "country": "GB",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/S2VtbG93cyBEaWVjYXN0aW5nIFByb2R1Y3RzIExpbWl0ZWRAcWlsaW4="
+  },
   {
    "victim": "Telcoe Federal Credit Union",
    "group": "qilin",
@@ -1058,24 +1076,6 @@
    "country": "AR",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/Q01DIEFVRElUT1JFUyBTUkxAZW1wZXJhZG9y"
-  },
-  {
-   "victim": "Decorolala",
-   "group": "BYOD",
-   "date": "2026-10-13T10:50:22+00:00",
-   "attack_date": "2026-10-13",
-   "country": null,
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/RGVjb3JvbGFsYUBCWU9E"
-  },
-  {
-   "victim": "The Buckner Company, Inc.",
-   "group": "aurora",
-   "date": "2026-10-13T07:27:11+00:00",
-   "attack_date": "2026-10-13",
-   "country": "US",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/VGhlIEJ1Y2tuZXIgQ29tcGFueSwgSW5jLkBhdXJvcmE="
   },
   {
    "victim": "The Innovation Group",
