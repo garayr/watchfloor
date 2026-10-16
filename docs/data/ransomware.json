@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-15T23:58:15+00:00",
+ "generated_at": "2026-10-16T01:04:30+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
+  {
+   "name": "qilin",
+   "count": 15
+  },
   {
    "name": "N0n",
    "count": 14
   },
   {
    "name": "Wallstreet",
-   "count": 14
-  },
-  {
-   "name": "qilin",
    "count": 14
   },
   {
@@ -43,12 +43,12 @@
    "count": 18
   },
   {
-   "name": "Healthcare",
+   "name": "Other",
    "count": 12
   },
   {
-   "name": "Other",
-   "count": 12
+   "name": "Healthcare",
+   "count": 11
   },
   {
    "name": "Technology",
@@ -222,6 +222,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Telcoe Federal Credit Union",
+   "group": "qilin",
+   "date": "2026-10-15T20:03:53+00:00",
+   "attack_date": "2026-10-15",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/VGVsY29lIEZlZGVyYWwgQ3JlZGl0IFVuaW9uQHFpbGlu"
+  },
   {
    "victim": "TGM Manufacturing, Inc",
    "group": "Wallstreet",
@@ -1112,15 +1121,6 @@
    "country": "MN",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/QWR2YW5jZWQgSW1hZ2luZyBTb2x1dGlvbnNAcGxheQ=="
-  },
-  {
-   "victim": "hiqbio.com",
-   "group": "safepay",
-   "date": "2026-10-12T20:25:24+00:00",
-   "attack_date": "2026-10-12",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/aGlxYmlvLmNvbUBzYWZlcGF5"
   }
  ]
 }

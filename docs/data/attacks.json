@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T23:58:15+00:00",
+ "generated_at": "2026-10-16T01:04:30+00:00",
  "range": "1d",
  "source": "Cloudflare Radar",
  "layers": [
@@ -7,21 +7,6 @@
    "key": "l7",
    "name": "Web application attacks",
    "pairs": [
-    {
-     "from": {
-      "code": "US",
-      "name": "United States",
-      "lat": 39.0,
-      "lon": -77.5
-     },
-     "to": {
-      "code": "CA",
-      "name": "Canada",
-      "lat": 43.7,
-      "lon": -79.4
-     },
-     "share": 4.784
-    },
     {
      "from": {
       "code": "SG",
@@ -35,7 +20,22 @@
       "lat": 32.1,
       "lon": 34.8
      },
-     "share": 4.772
+     "share": 4.853
+    },
+    {
+     "from": {
+      "code": "US",
+      "name": "United States",
+      "lat": 39.0,
+      "lon": -77.5
+     },
+     "to": {
+      "code": "CA",
+      "name": "Canada",
+      "lat": 43.7,
+      "lon": -79.4
+     },
+     "share": 4.574
     },
     {
      "from": {
@@ -50,7 +50,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 3.361
+     "share": 3.413
     },
     {
      "from": {
@@ -65,7 +65,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 2.466
+     "share": 2.46
     },
     {
      "from": {
@@ -80,7 +80,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 2.438
+     "share": 2.449
     },
     {
      "from": {
@@ -95,7 +95,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 2.254
+     "share": 2.252
     },
     {
      "from": {
@@ -110,7 +110,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 2.136
+     "share": 2.152
     },
     {
      "from": {
@@ -125,7 +125,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.77
+     "share": 1.802
     },
     {
      "from": {
@@ -140,22 +140,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.735
-    },
-    {
-     "from": {
-      "code": "US",
-      "name": "United States",
-      "lat": 39.0,
-      "lon": -77.5
-     },
-     "to": {
-      "code": "MX",
-      "name": "Mexico",
-      "lat": 19.4,
-      "lon": -99.1
-     },
-     "share": 1.577
+     "share": 1.766
     },
     {
      "from": {
@@ -170,37 +155,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.478
-    },
-    {
-     "from": {
-      "code": "US",
-      "name": "United States",
-      "lat": 39.0,
-      "lon": -77.5
-     },
-     "to": {
-      "code": "IL",
-      "name": "Israel",
-      "lat": 32.1,
-      "lon": 34.8
-     },
-     "share": 1.381
-    },
-    {
-     "from": {
-      "code": "SG",
-      "name": "Singapore",
-      "lat": 1.35,
-      "lon": 103.8
-     },
-     "to": {
-      "code": "US",
-      "name": "United States",
-      "lat": 39.0,
-      "lon": -77.5
-     },
-     "share": 1.359
+     "share": 1.491
     },
     {
      "from": {
@@ -215,7 +170,22 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.346
+     "share": 1.364
+    },
+    {
+     "from": {
+      "code": "SG",
+      "name": "Singapore",
+      "lat": 1.35,
+      "lon": 103.8
+     },
+     "to": {
+      "code": "US",
+      "name": "United States",
+      "lat": 39.0,
+      "lon": -77.5
+     },
+     "share": 1.36
     },
     {
      "from": {
@@ -230,7 +200,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.268
+     "share": 1.276
     },
     {
      "from": {
@@ -240,12 +210,12 @@
       "lon": -77.5
      },
      "to": {
-      "code": "HK",
-      "name": "Hong Kong",
-      "lat": 22.3,
-      "lon": 114.2
+      "code": "IL",
+      "name": "Israel",
+      "lat": 32.1,
+      "lon": 34.8
      },
-     "share": 1.241
+     "share": 1.259
     },
     {
      "from": {
@@ -255,12 +225,12 @@
       "lon": -77.5
      },
      "to": {
-      "code": "CN",
-      "name": "China",
-      "lat": 39.9,
-      "lon": 116.4
+      "code": "MX",
+      "name": "Mexico",
+      "lat": 19.4,
+      "lon": -99.1
      },
-     "share": 1.136
+     "share": 1.259
     },
     {
      "from": {
@@ -275,7 +245,37 @@
       "lat": 35.2,
       "lon": 33.4
      },
-     "share": 1.016
+     "share": 1.249
+    },
+    {
+     "from": {
+      "code": "US",
+      "name": "United States",
+      "lat": 39.0,
+      "lon": -77.5
+     },
+     "to": {
+      "code": "HK",
+      "name": "Hong Kong",
+      "lat": 22.3,
+      "lon": 114.2
+     },
+     "share": 1.245
+    },
+    {
+     "from": {
+      "code": "US",
+      "name": "United States",
+      "lat": 39.0,
+      "lon": -77.5
+     },
+     "to": {
+      "code": "CN",
+      "name": "China",
+      "lat": 39.9,
+      "lon": 116.4
+     },
+     "share": 1.125
     },
     {
      "from": {
@@ -290,22 +290,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 0.961
-    },
-    {
-     "from": {
-      "code": "DE",
-      "name": "Germany",
-      "lat": 50.1,
-      "lon": 8.7
-     },
-     "to": {
-      "code": "CA",
-      "name": "Canada",
-      "lat": 43.7,
-      "lon": -79.4
-     },
-     "share": 0.879
+     "share": 0.951
     },
     {
      "from": {
@@ -320,7 +305,22 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 0.879
+     "share": 0.862
+    },
+    {
+     "from": {
+      "code": "DE",
+      "name": "Germany",
+      "lat": 50.1,
+      "lon": 8.7
+     },
+     "to": {
+      "code": "CA",
+      "name": "Canada",
+      "lat": 43.7,
+      "lon": -79.4
+     },
+     "share": 0.83
     },
     {
      "from": {
@@ -335,7 +335,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 0.791
+     "share": 0.806
     },
     {
      "from": {
@@ -350,7 +350,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 0.778
+     "share": 0.793
     },
     {
      "from": {
@@ -365,13 +365,11 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 0.745
+     "share": 0.757
     }
    ],
    "trend": {
     "t": [
-     "2026-10-08T23:00:00Z",
-     "2026-10-09T00:00:00Z",
      "2026-10-09T01:00:00Z",
      "2026-10-09T02:00:00Z",
      "2026-10-09T03:00:00Z",
@@ -536,11 +534,10 @@
      "2026-10-15T18:00:00Z",
      "2026-10-15T19:00:00Z",
      "2026-10-15T20:00:00Z",
-     "2026-10-15T21:00:00Z"
+     "2026-10-15T21:00:00Z",
+     "2026-10-15T22:00:00Z"
     ],
     "v": [
-     0.7008,
-     0.7683,
      0.746,
      0.7742,
      0.7361,
@@ -705,9 +702,10 @@
      0.7817,
      0.7551,
      0.7859,
-     0.8185
+     0.8185,
+     0.6992
     ],
-    "change": -8.5
+    "change": -8.7
    }
   },
   {
@@ -727,7 +725,22 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 9.412
+     "share": 8.908
+    },
+    {
+     "from": {
+      "code": "CL",
+      "name": "Chile",
+      "lat": -33.4,
+      "lon": -70.6
+     },
+     "to": {
+      "code": "US",
+      "name": "United States",
+      "lat": 39.0,
+      "lon": -77.5
+     },
+     "share": 3.036
     },
     {
      "from": {
@@ -742,22 +755,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 3.386
-    },
-    {
-     "from": {
-      "code": "CL",
-      "name": "Chile",
-      "lat": -33.4,
-      "lon": -70.6
-     },
-     "to": {
-      "code": "US",
-      "name": "United States",
-      "lat": 39.0,
-      "lon": -77.5
-     },
-     "share": 3.237
+     "share": 2.948
     },
     {
      "from": {
@@ -772,7 +770,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 2.59
+     "share": 2.491
     },
     {
      "from": {
@@ -787,7 +785,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 2.323
+     "share": 2.258
     },
     {
      "from": {
@@ -802,37 +800,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 2.174
-    },
-    {
-     "from": {
-      "code": "MX",
-      "name": "Mexico",
-      "lat": 19.4,
-      "lon": -99.1
-     },
-     "to": {
-      "code": "US",
-      "name": "United States",
-      "lat": 39.0,
-      "lon": -77.5
-     },
-     "share": 2.087
-    },
-    {
-     "from": {
-      "code": "BD",
-      "name": "Bangladesh",
-      "lat": 23.8,
-      "lon": 90.4
-     },
-     "to": {
-      "code": "US",
-      "name": "United States",
-      "lat": 39.0,
-      "lon": -77.5
-     },
-     "share": 1.966
+     "share": 2.066
     },
     {
      "from": {
@@ -847,7 +815,37 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.88
+     "share": 2.014
+    },
+    {
+     "from": {
+      "code": "BD",
+      "name": "Bangladesh",
+      "lat": 23.8,
+      "lon": 90.4
+     },
+     "to": {
+      "code": "US",
+      "name": "United States",
+      "lat": 39.0,
+      "lon": -77.5
+     },
+     "share": 1.965
+    },
+    {
+     "from": {
+      "code": "MX",
+      "name": "Mexico",
+      "lat": 19.4,
+      "lon": -99.1
+     },
+     "to": {
+      "code": "US",
+      "name": "United States",
+      "lat": 39.0,
+      "lon": -77.5
+     },
+     "share": 1.957
     },
     {
      "from": {
@@ -862,37 +860,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.703
-    },
-    {
-     "from": {
-      "code": "UA",
-      "name": "Ukraine",
-      "lat": 50.45,
-      "lon": 30.5
-     },
-     "to": {
-      "code": "US",
-      "name": "United States",
-      "lat": 39.0,
-      "lon": -77.5
-     },
-     "share": 1.621
-    },
-    {
-     "from": {
-      "code": "CO",
-      "name": "Colombia",
-      "lat": 4.7,
-      "lon": -74.1
-     },
-     "to": {
-      "code": "US",
-      "name": "United States",
-      "lat": 39.0,
-      "lon": -77.5
-     },
-     "share": 1.591
+     "share": 1.711
     },
     {
      "from": {
@@ -907,7 +875,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.526
+     "share": 1.687
     },
     {
      "from": {
@@ -922,7 +890,37 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.524
+     "share": 1.675
+    },
+    {
+     "from": {
+      "code": "UA",
+      "name": "Ukraine",
+      "lat": 50.45,
+      "lon": 30.5
+     },
+     "to": {
+      "code": "US",
+      "name": "United States",
+      "lat": 39.0,
+      "lon": -77.5
+     },
+     "share": 1.597
+    },
+    {
+     "from": {
+      "code": "CO",
+      "name": "Colombia",
+      "lat": 4.7,
+      "lon": -74.1
+     },
+     "to": {
+      "code": "US",
+      "name": "United States",
+      "lat": 39.0,
+      "lon": -77.5
+     },
+     "share": 1.512
     },
     {
      "from": {
@@ -937,22 +935,7 @@
       "lat": 50.1,
       "lon": 8.7
      },
-     "share": 1.383
-    },
-    {
-     "from": {
-      "code": "DE",
-      "name": "Germany",
-      "lat": 50.1,
-      "lon": 8.7
-     },
-     "to": {
-      "code": "US",
-      "name": "United States",
-      "lat": 39.0,
-      "lon": -77.5
-     },
-     "share": 1.265
+     "share": 1.387
     },
     {
      "from": {
@@ -967,14 +950,14 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.23
+     "share": 1.332
     },
     {
      "from": {
-      "code": "NL",
-      "name": "Netherlands",
-      "lat": 52.4,
-      "lon": 4.9
+      "code": "DE",
+      "name": "Germany",
+      "lat": 50.1,
+      "lon": 8.7
      },
      "to": {
       "code": "US",
@@ -982,7 +965,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.2
+     "share": 1.318
     },
     {
      "from": {
@@ -997,7 +980,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.199
+     "share": 1.24
     },
     {
      "from": {
@@ -1012,7 +995,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 1.101
+     "share": 1.195
     },
     {
      "from": {
@@ -1027,7 +1010,7 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 0.881
+     "share": 0.916
     },
     {
      "from": {
@@ -1042,14 +1025,14 @@
       "lat": 50.1,
       "lon": 8.7
      },
-     "share": 0.766
+     "share": 0.788
     },
     {
      "from": {
-      "code": "IT",
-      "name": "Italy",
-      "lat": 41.9,
-      "lon": 12.5
+      "code": "NL",
+      "name": "Netherlands",
+      "lat": 52.4,
+      "lon": 4.9
      },
      "to": {
       "code": "US",
@@ -1057,28 +1040,41 @@
       "lat": 39.0,
       "lon": -77.5
      },
-     "share": 0.749
+     "share": 0.744
     },
     {
      "from": {
-      "code": "CL",
-      "name": "Chile",
-      "lat": -33.4,
-      "lon": -70.6
+      "code": "PH",
+      "name": "Philippines",
+      "lat": 14.6,
+      "lon": 121.0
      },
      "to": {
-      "code": "DE",
-      "name": "Germany",
-      "lat": 50.1,
-      "lon": 8.7
+      "code": "US",
+      "name": "United States",
+      "lat": 39.0,
+      "lon": -77.5
      },
-     "share": 0.703
+     "share": 0.734
+    },
+    {
+     "from": {
+      "code": "CA",
+      "name": "Canada",
+      "lat": 43.7,
+      "lon": -79.4
+     },
+     "to": {
+      "code": "US",
+      "name": "United States",
+      "lat": 39.0,
+      "lon": -77.5
+     },
+     "share": 0.718
     }
    ],
    "trend": {
     "t": [
-     "2026-10-08T23:00:00Z",
-     "2026-10-09T00:00:00Z",
      "2026-10-09T01:00:00Z",
      "2026-10-09T02:00:00Z",
      "2026-10-09T03:00:00Z",
@@ -1243,11 +1239,10 @@
      "2026-10-15T18:00:00Z",
      "2026-10-15T19:00:00Z",
      "2026-10-15T20:00:00Z",
-     "2026-10-15T21:00:00Z"
+     "2026-10-15T21:00:00Z",
+     "2026-10-15T22:00:00Z"
     ],
     "v": [
-     0.0808,
-     0.0595,
      0.0528,
      0.1202,
      0.0742,
@@ -1412,9 +1407,10 @@
      0.0327,
      0.0843,
      0.0835,
-     0.0407
+     0.0407,
+     0.0242
     ],
-    "change": -44.8
+    "change": -44.5
    }
   }
  ]
