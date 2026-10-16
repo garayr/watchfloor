@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-16T02:08:19+00:00",
+ "generated_at": "2026-10-16T03:07:40+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 17
+   "count": 16
   },
   {
    "name": "N0n",
@@ -29,18 +29,18 @@
    "count": 6
   },
   {
-   "name": "play",
-   "count": 5
+   "name": "incransom",
+   "count": 6
   },
   {
-   "name": "AuditTeam",
-   "count": 3
+   "name": "play",
+   "count": 5
   }
  ],
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 18
+   "count": 19
   },
   {
    "name": "Healthcare",
@@ -52,7 +52,7 @@
   },
   {
    "name": "Technology",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Manufacturing",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 23,
+   "count": 25,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -84,7 +84,7 @@
   },
   {
    "code": "GB",
-   "count": 6,
+   "count": 4,
    "lat": 51.5,
    "lon": -0.1
   },
@@ -95,22 +95,10 @@
    "lon": 72.9
   },
   {
-   "code": "IT",
-   "count": 3,
-   "lat": 41.9,
-   "lon": 12.5
-  },
-  {
    "code": "JP",
    "count": 3,
    "lat": 35.7,
    "lon": 139.7
-  },
-  {
-   "code": "MX",
-   "count": 3,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "DE",
@@ -129,6 +117,18 @@
    "count": 2,
    "lat": 40.4,
    "lon": -3.7
+  },
+  {
+   "code": "IT",
+   "count": 2,
+   "lat": 41.9,
+   "lon": 12.5
+  },
+  {
+   "code": "MX",
+   "count": 2,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "SG",
@@ -153,6 +153,12 @@
    "count": 1,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "CR",
+   "count": 1,
+   "lat": 9.9,
+   "lon": -84.1
   },
   {
    "code": "FR",
@@ -203,6 +209,12 @@
    "lon": 10.8
   },
   {
+   "code": "PL",
+   "count": 1,
+   "lat": 52.2,
+   "lon": 21.0
+  },
+  {
    "code": "TH",
    "count": 1,
    "lat": 13.75,
@@ -222,6 +234,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "fairfeelegalservices.com",
+   "group": "incransom",
+   "date": "2026-10-15T22:59:23+00:00",
+   "attack_date": "2026-10-15",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/ZmFpcmZlZWxlZ2Fsc2VydmljZXMuY29tQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "verveba.com \\ www.att.com",
+   "group": "incransom",
+   "date": "2026-10-15T22:58:44+00:00",
+   "attack_date": "2026-10-15",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/dmVydmViYS5jb20gXCB3d3cuYXR0LmNvbUBpbmNyYW5zb20="
+  },
+  {
+   "victim": "www.coopecaja.fi.cr",
+   "group": "incransom",
+   "date": "2026-10-15T22:03:58+00:00",
+   "attack_date": "2026-10-15",
+   "country": "CR",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/d3d3LmNvb3BlY2FqYS5maS5jckBpbmNyYW5zb20="
+  },
+  {
+   "victim": "nowaszkola.com",
+   "group": "incransom",
+   "date": "2026-10-15T22:03:22+00:00",
+   "attack_date": "2026-10-15",
+   "country": "PL",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/bm93YXN6a29sYS5jb21AaW5jcmFuc29t"
+  },
   {
    "victim": "Keio Corporation",
    "group": "qilin",
@@ -988,15 +1036,6 @@
    "url": "https://www.ransomware.live/id/TWlsc3RlaW4gU2llZ2VsLCBMTENAcWlsaW4="
   },
   {
-   "victim": "Comisión Municipal de Agua Potable y Alcantarillado de Victoria",
-   "group": "qilin",
-   "date": "2026-10-13T14:21:42+00:00",
-   "attack_date": "2026-10-13",
-   "country": "MX",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/Q29taXNpw7NuIE11bmljaXBhbCBkZSBBZ3VhIFBvdGFibGUgeSBBbGNhbnRhcmlsbGFkbyBkZSBWaWN0b3JpYUBxaWxpbg=="
-  },
-  {
    "victim": "Guarufilme",
    "group": "Vexy Ransomware",
    "date": "2026-10-13T12:31:50+00:00",
@@ -1004,33 +1043,6 @@
    "country": "BR",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/R3VhcnVmaWxtZUBWZXh5IFJhbnNvbXdhcmU="
-  },
-  {
-   "victim": "AD***ed",
-   "group": "AuditTeam",
-   "date": "2026-10-13T12:21:27+00:00",
-   "attack_date": "2026-10-13",
-   "country": "GB",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/QUQqKiplZEBBdWRpdFRlYW0="
-  },
-  {
-   "victim": "Ze***ce",
-   "group": "AuditTeam",
-   "date": "2026-10-13T12:20:55+00:00",
-   "attack_date": "2026-10-13",
-   "country": "IT",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/WmUqKipjZUBBdWRpdFRlYW0="
-  },
-  {
-   "victim": "Sa***ge",
-   "group": "AuditTeam",
-   "date": "2026-10-13T12:20:23+00:00",
-   "attack_date": "2026-10-13",
-   "country": "GB",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/U2EqKipnZUBBdWRpdFRlYW0="
   },
   {
    "victim": "Valode & Pistre",

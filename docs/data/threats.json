@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2248,
-  "c2_servers": 1439,
+  "total_iocs": 2258,
+  "c2_servers": 1436,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 1006,
-    "c2": 994,
+    "iocs": 1005,
+    "c2": 993,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "VShell",
-    "iocs": 302,
-    "c2": 52,
+    "iocs": 301,
+    "c2": 51,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -42,20 +42,20 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vskimmer"
    },
    {
+    "name": "Mirai",
+    "iocs": 55,
+    "c2": 5,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "Remus",
     "iocs": 50,
     "c2": 50,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
-    "name": "Mirai",
-    "iocs": 45,
-    "c2": 5,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 43,
+    "iocs": 45,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -68,24 +68,24 @@
   ]
  },
  "urls": {
-  "sample": 461,
-  "online": 265,
+  "sample": 468,
+  "online": 269,
   "top_tags": [
    {
     "name": "elf",
-    "count": 176
+    "count": 179
    },
    {
     "name": "Mozi",
-    "count": 101
+    "count": 104
    },
    {
     "name": "32-bit",
-    "count": 83
+    "count": 86
    },
    {
     "name": "mips",
-    "count": 72
+    "count": 74
    },
    {
     "name": "ua-wget",
@@ -101,7 +101,7 @@
    },
    {
     "name": "arm",
-    "count": 23
+    "count": 24
    }
   ]
  },
@@ -522,10 +522,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-16T02:08:19+00:00",
-  "sans": "2026-10-16T02:08:19+00:00",
-  "otx": "2026-10-16T02:08:19+00:00",
-  "urlhaus": "2026-10-16T02:08:19+00:00"
+  "threatfox": "2026-10-16T03:07:40+00:00",
+  "sans": "2026-10-16T03:07:40+00:00",
+  "otx": "2026-10-16T03:07:40+00:00",
+  "urlhaus": "2026-10-16T03:07:40+00:00"
  },
- "generated_at": "2026-10-16T02:08:19+00:00"
+ "generated_at": "2026-10-16T03:07:40+00:00"
 }
