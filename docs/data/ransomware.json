@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T14:34:31+00:00",
+ "generated_at": "2026-10-17T15:34:38+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "thegentlemen",
-   "count": 15
+   "count": 14
   },
   {
    "name": "qilin",
@@ -26,7 +26,7 @@
   },
   {
    "name": "lockbit5",
-   "count": 5
+   "count": 6
   },
   {
    "name": "everest",
@@ -59,7 +59,7 @@
    "count": 6
   },
   {
-   "name": "Agriculture and Food Production",
+   "name": "Other",
    "count": 4
   }
  ],
@@ -72,7 +72,7 @@
   },
   {
    "code": "BR",
-   "count": 7,
+   "count": 6,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -185,6 +185,12 @@
    "lon": 76.9
   },
   {
+   "code": "MY",
+   "count": 1,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
    "code": "NG",
    "count": 1,
    "lat": 6.5,
@@ -216,6 +222,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "ock.com.my",
+   "group": "lockbit5",
+   "date": "2026-10-17T11:32:47+00:00",
+   "attack_date": "2026-10-16",
+   "country": "MY",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/b2NrLmNvbS5teUBsb2NrYml0NQ=="
+  },
   {
    "victim": "Company #86",
    "group": "N0n",
@@ -512,15 +527,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/R2xvYmVpYSBJbmMuQFRIRSBTRVZFTiBERUFETFkgU0lOUw=="
-  },
-  {
-   "victim": "Pantanal Agricola",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:33:15+00:00",
-   "attack_date": "2026-10-14",
-   "country": "BR",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/UGFudGFuYWwgQWdyaWNvbGFAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "Canva",
