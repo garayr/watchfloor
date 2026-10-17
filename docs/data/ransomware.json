@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T21:13:16+00:00",
+ "generated_at": "2026-10-17T22:58:25+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -9,12 +9,12 @@
    "count": 27
   },
   {
-   "name": "thegentlemen",
-   "count": 13
-  },
-  {
    "name": "qilin",
    "count": 12
+  },
+  {
+   "name": "thegentlemen",
+   "count": 11
   },
   {
    "name": "THE SEVEN DEADLY SINS",
@@ -39,15 +39,15 @@
  ],
  "by_sector": [
   {
-   "name": "Healthcare",
-   "count": 14
-  },
-  {
    "name": "Technology",
-   "count": 14
+   "count": 15
   },
   {
    "name": "Manufacturing",
+   "count": 13
+  },
+  {
+   "name": "Healthcare",
    "count": 12
   },
   {
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 41,
+   "count": 43,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "BR",
-   "count": 6,
+   "count": 5,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -201,15 +201,27 @@
    "count": 1,
    "lat": 13.75,
    "lon": 100.5
-  },
-  {
-   "code": "TW",
-   "count": 1,
-   "lat": 25.0,
-   "lon": 121.5
   }
  ],
  "victims": [
+  {
+   "victim": "polisee Inc",
+   "group": "Vexy Ransomware",
+   "date": "2026-10-17T18:33:23+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/cG9saXNlZSBJbmNAVmV4eSBSYW5zb213YXJl"
+  },
+  {
+   "victim": "Rheem Global",
+   "group": "Helix",
+   "date": "2026-10-17T18:22:04+00:00",
+   "attack_date": "2026-10-17",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UmhlZW0gR2xvYmFsQEhlbGl4"
+  },
   {
    "victim": "Wellington College International School Bangkok",
    "group": "thegentlemen",
@@ -596,24 +608,6 @@
    "country": "US",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/SGFybmVzcyBJbmMuQFRIRSBTRVZFTiBERUFETFkgU0lOUw=="
-  },
-  {
-   "victim": "Taiwan Otsuka Pharmaceutical",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:31:09+00:00",
-   "attack_date": "2026-10-14",
-   "country": "TW",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/VGFpd2FuIE90c3VrYSBQaGFybWFjZXV0aWNhbEB0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "CLIMEDI",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:30:49+00:00",
-   "attack_date": "2026-10-14",
-   "country": "BR",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Q0xJTUVESUB0aGVnZW50bGVtZW4="
   },
   {
    "victim": "iHeartJane",
