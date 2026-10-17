@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T06:03:30+00:00",
+ "generated_at": "2026-10-17T07:18:19+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "thegentlemen",
-   "count": 22
+   "count": 18
   },
   {
    "name": "qilin",
@@ -29,34 +29,34 @@
    "count": 5
   },
   {
-   "name": "incransom",
+   "name": "everest",
    "count": 4
   },
   {
-   "name": "play",
+   "name": "incransom",
    "count": 4
   }
  ],
  "by_sector": [
   {
+   "name": "Manufacturing",
+   "count": 13
+  },
+  {
+   "name": "Technology",
+   "count": 13
+  },
+  {
    "name": "Healthcare",
    "count": 12
   },
   {
-   "name": "Technology",
-   "count": 12
-  },
-  {
-   "name": "Manufacturing",
-   "count": 11
-  },
-  {
    "name": "Professional Services",
-   "count": 8
+   "count": 7
   },
   {
    "name": "Financial Services",
-   "count": 7
+   "count": 6
   },
   {
    "name": "Agriculture and Food Production",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 40,
+   "count": 39,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -107,6 +107,12 @@
    "lon": 12.5
   },
   {
+   "code": "JP",
+   "count": 2,
+   "lat": 35.7,
+   "lon": 139.7
+  },
+  {
    "code": "KR",
    "count": 2,
    "lat": 37.6,
@@ -117,6 +123,12 @@
    "count": 2,
    "lat": 19.4,
    "lon": -99.1
+  },
+  {
+   "code": "AT",
+   "count": 1,
+   "lat": 48.2,
+   "lon": 16.4
   },
   {
    "code": "BE",
@@ -161,22 +173,10 @@
    "lon": 114.2
   },
   {
-   "code": "IE",
-   "count": 1,
-   "lat": 53.3,
-   "lon": -6.3
-  },
-  {
    "code": "IN",
    "count": 1,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "JP",
-   "count": 1,
-   "lat": 35.7,
-   "lon": 139.7
   },
   {
    "code": "KZ",
@@ -195,12 +195,6 @@
    "count": 1,
    "lat": 52.4,
    "lon": 4.9
-  },
-  {
-   "code": "PK",
-   "count": 1,
-   "lat": 24.9,
-   "lon": 67.0
   },
   {
    "code": "PL",
@@ -222,6 +216,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Kissei Shoji",
+   "group": "everest",
+   "date": "2026-10-17T03:07:45+00:00",
+   "attack_date": "2026-10-16",
+   "country": "JP",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/S2lzc2VpIFNob2ppQGV2ZXJlc3Q="
+  },
+  {
+   "victim": "Chugoku Bend",
+   "group": "everest",
+   "date": "2026-10-17T03:07:09+00:00",
+   "attack_date": "2026-10-17",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Q2h1Z29rdSBCZW5kQGV2ZXJlc3Q="
+  },
+  {
+   "victim": "Taekwang Network",
+   "group": "everest",
+   "date": "2026-10-17T03:06:33+00:00",
+   "attack_date": "2026-10-17",
+   "country": "KR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/VGFla3dhbmcgTmV0d29ya0BldmVyZXN0"
+  },
+  {
+   "victim": "Brenner Base Tunnel",
+   "group": "everest",
+   "date": "2026-10-17T03:05:58+00:00",
+   "attack_date": "2026-10-17",
+   "country": "AT",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/QnJlbm5lciBCYXNlIFR1bm5lbEBldmVyZXN0"
+  },
   {
    "victim": "Prafesta Ind. e Com. de Embalagens Ltda",
    "group": "N0n",
@@ -437,42 +467,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/QWRhbXMgV2FyZWhvdXNlICYgRGVsaXZlcnksIEluYy5AYXVyb3Jh"
-  },
-  {
-   "victim": "Engineers Ireland",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:35:41+00:00",
-   "attack_date": "2026-10-14",
-   "country": "IE",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/RW5naW5lZXJzIElyZWxhbmRAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "North Bridge Venture Partners",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:35:20+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/Tm9ydGggQnJpZGdlIFZlbnR1cmUgUGFydG5lcnNAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "SONGWOOI",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:34:59+00:00",
-   "attack_date": "2026-10-14",
-   "country": "KR",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/U09OR1dPT0lAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Petroleum Telcom Communications",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:34:38+00:00",
-   "attack_date": "2026-10-14",
-   "country": "PK",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/UGV0cm9sZXVtIFRlbGNvbSBDb21tdW5pY2F0aW9uc0B0aGVnZW50bGVtZW4="
   },
   {
    "victim": "Axle Logistics",
