@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T21:13:16+00:00",
+ "generated_at": "2026-10-17T22:33:15+00:00",
  "sources": [
   {
    "name": "CISA KEV",
@@ -51,9 +51,9 @@
   },
   {
    "name": "Ransomware.live",
-   "ok": true,
-   "count": 100,
-   "error": null
+   "ok": false,
+   "count": 0,
+   "error": "api.ransomware.live: <urlopen error [Errno 101] Network is unreachable>"
   },
   {
    "name": "Have I Been Pwned",
@@ -64,13 +64,13 @@
   {
    "name": "abuse.ch ThreatFox",
    "ok": true,
-   "count": 1576,
+   "count": 1607,
    "error": null
   },
   {
    "name": "abuse.ch URLhaus",
    "ok": true,
-   "count": 796,
+   "count": 815,
    "error": null
   },
   {
@@ -83,12 +83,6 @@
    "name": "SANS ISC",
    "ok": true,
    "count": 4,
-   "error": null
-  },
-  {
-   "name": "Ransomware.live gang profiles",
-   "ok": true,
-   "count": 1,
    "error": null
   },
   {
