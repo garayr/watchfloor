@@ -2,36 +2,36 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1972,
-  "c2_servers": 849,
+  "total_iocs": 1989,
+  "c2_servers": 812,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 615,
-    "c2": 605,
+    "iocs": 575,
+    "c2": 564,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 451,
+    "iocs": 493,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "VShell",
-    "iocs": 221,
-    "c2": 43,
+    "iocs": 220,
+    "c2": 42,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "AMOS",
-    "iocs": 101,
+    "iocs": 107,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 43,
+    "iocs": 40,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -68,8 +68,8 @@
   ]
  },
  "urls": {
-  "sample": 395,
-  "online": 252,
+  "sample": 404,
+  "online": 257,
   "top_tags": [
    {
     "name": "elf",
@@ -523,10 +523,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-17T01:06:14+00:00",
-  "sans": "2026-10-17T01:06:14+00:00",
-  "otx": "2026-10-17T01:06:14+00:00",
-  "urlhaus": "2026-10-17T01:06:14+00:00"
+  "threatfox": "2026-10-17T02:06:17+00:00",
+  "sans": "2026-10-17T02:06:17+00:00",
+  "otx": "2026-10-17T02:06:17+00:00",
+  "urlhaus": "2026-10-17T02:06:17+00:00"
  },
- "generated_at": "2026-10-17T01:06:14+00:00"
+ "generated_at": "2026-10-17T02:06:17+00:00"
 }
