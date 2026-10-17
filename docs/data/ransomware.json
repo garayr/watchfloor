@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-16T23:33:05+00:00",
+ "generated_at": "2026-10-17T01:06:14+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
-   "name": "thegentlemen",
-   "count": 27
+   "name": "N0n",
+   "count": 23
   },
   {
-   "name": "N0n",
+   "name": "thegentlemen",
    "count": 23
   },
   {
@@ -33,40 +33,40 @@
    "count": 4
   },
   {
-   "name": "akira",
-   "count": 3
+   "name": "play",
+   "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Technology",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Manufacturing",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Professional Services",
    "count": 8
   },
   {
-   "name": "Agriculture and Food Production",
-   "count": 5
+   "name": "Financial Services",
+   "count": 7
   },
   {
-   "name": "Financial Services",
-   "count": 5
+   "name": "Agriculture and Food Production",
+   "count": 4
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 41,
+   "count": 40,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -95,12 +95,6 @@
    "lon": -79.4
   },
   {
-   "code": "DE",
-   "count": 2,
-   "lat": 50.1,
-   "lon": 8.7
-  },
-  {
    "code": "EG",
    "count": 2,
    "lat": 30.0,
@@ -125,10 +119,10 @@
    "lon": -99.1
   },
   {
-   "code": "TH",
-   "count": 2,
-   "lat": 13.75,
-   "lon": 100.5
+   "code": "BE",
+   "count": 1,
+   "lat": 50.8,
+   "lon": 4.4
   },
   {
    "code": "CR",
@@ -143,6 +137,12 @@
    "lon": 14.4
   },
   {
+   "code": "DE",
+   "count": 1,
+   "lat": 50.1,
+   "lon": 8.7
+  },
+  {
    "code": "EC",
    "count": 1,
    "lat": -0.2,
@@ -153,6 +153,12 @@
    "count": 1,
    "lat": 40.4,
    "lon": -3.7
+  },
+  {
+   "code": "HK",
+   "count": 1,
+   "lat": 22.3,
+   "lon": 114.2
   },
   {
    "code": "IE",
@@ -216,6 +222,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "WSBI-ESBG",
+   "group": "play",
+   "date": "2026-10-16T20:40:40+00:00",
+   "attack_date": "2026-10-16",
+   "country": "BE",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/V1NCSS1FU0JHQHBsYXk="
+  },
+  {
+   "victim": "New Tec Tool Limited",
+   "group": "play",
+   "date": "2026-10-16T20:40:05+00:00",
+   "attack_date": "2026-10-16",
+   "country": "HK",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TmV3IFRlYyBUb29sIExpbWl0ZWRAcGxheQ=="
+  },
+  {
+   "victim": "MicroSearch Corporation",
+   "group": "play",
+   "date": "2026-10-16T20:39:30+00:00",
+   "attack_date": "2026-10-16",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/TWljcm9TZWFyY2ggQ29ycG9yYXRpb25AcGxheQ=="
+  },
+  {
+   "victim": "Pure Options",
+   "group": "play",
+   "date": "2026-10-16T20:38:54+00:00",
+   "attack_date": "2026-10-16",
+   "country": null,
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/UHVyZSBPcHRpb25zQHBsYXk="
+  },
   {
    "victim": "ONEOK, Inc.",
    "group": "Redact",
@@ -386,42 +428,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/QWRhbXMgV2FyZWhvdXNlICYgRGVsaXZlcnksIEluYy5AYXVyb3Jh"
-  },
-  {
-   "victim": "REGiO Nord",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:37:26+00:00",
-   "attack_date": "2026-10-14",
-   "country": "DE",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/UkVHaU8gTm9yZEB0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "Museum Siam",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:37:05+00:00",
-   "attack_date": "2026-10-14",
-   "country": "TH",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/TXVzZXVtIFNpYW1AdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Skin Center",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:36:44+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/U2tpbiBDZW50ZXJAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Thai Ha PCL KASET",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:36:24+00:00",
-   "attack_date": "2026-10-14",
-   "country": "TH",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/VGhhaSBIYSBQQ0wgS0FTRVRAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "Inovar Packaging Group",
