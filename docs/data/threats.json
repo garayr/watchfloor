@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2022,
-  "c2_servers": 743,
+  "total_iocs": 2001,
+  "c2_servers": 697,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 562,
+    "iocs": 565,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Vidar",
-    "iocs": 494,
-    "c2": 483,
+    "iocs": 456,
+    "c2": 445,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -25,21 +25,21 @@
    },
    {
     "name": "AMOS",
-    "iocs": 115,
+    "iocs": 120,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 48,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "php.shin_webshell",
     "iocs": 39,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "Unknown Loader",
-    "iocs": 32,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "SigLoader",
@@ -54,34 +54,34 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 25,
-    "c2": 25,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "PureRAT",
     "iocs": 25,
     "c2": 24,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
+   },
+   {
+    "name": "Remcos",
+    "iocs": 24,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    }
   ]
  },
  "urls": {
-  "sample": 430,
-  "online": 283,
+  "sample": 443,
+  "online": 296,
   "top_tags": [
    {
     "name": "elf",
-    "count": 94
+    "count": 95
    },
    {
     "name": "Mozi",
-    "count": 63
+    "count": 64
    },
    {
     "name": "32-bit",
-    "count": 55
+    "count": 56
    },
    {
     "name": "ua-wget",
@@ -101,7 +101,7 @@
    },
    {
     "name": "arm",
-    "count": 22
+    "count": 23
    }
   ]
  },
@@ -523,10 +523,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-17T04:07:30+00:00",
-  "sans": "2026-10-17T04:07:30+00:00",
-  "otx": "2026-10-17T04:07:30+00:00",
-  "urlhaus": "2026-10-17T04:07:30+00:00"
+  "threatfox": "2026-10-17T05:05:16+00:00",
+  "sans": "2026-10-17T05:05:16+00:00",
+  "otx": "2026-10-17T05:05:16+00:00",
+  "urlhaus": "2026-10-17T05:05:16+00:00"
  },
- "generated_at": "2026-10-17T04:07:30+00:00"
+ "generated_at": "2026-10-17T05:05:16+00:00"
 }
