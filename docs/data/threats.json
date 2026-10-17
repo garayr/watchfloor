@@ -2,26 +2,26 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1808,
-  "c2_servers": 512,
+  "total_iocs": 1788,
+  "c2_servers": 479,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 590,
-    "c2": 2,
+    "iocs": 600,
+    "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 252,
-    "c2": 247,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "VShell",
     "iocs": 220,
     "c2": 42,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 218,
+    "c2": 213,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "IClickFix",
@@ -31,13 +31,13 @@
    },
    {
     "name": "AMOS",
-    "iocs": 115,
+    "iocs": 121,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 48,
+    "iocs": 49,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -49,7 +49,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 42,
+    "iocs": 44,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -68,24 +68,24 @@
   ]
  },
  "urls": {
-  "sample": 659,
-  "online": 373,
+  "sample": 673,
+  "online": 370,
   "top_tags": [
    {
     "name": "ua-wget",
-    "count": 181
+    "count": 186
    },
    {
     "name": "elf",
-    "count": 151
+    "count": 162
+   },
+   {
+    "name": "Mozi",
+    "count": 82
    },
    {
     "name": "31-56-209-86",
     "count": 81
-   },
-   {
-    "name": "Mozi",
-    "count": 77
    },
    {
     "name": "sh",
@@ -93,15 +93,15 @@
    },
    {
     "name": "32-bit",
-    "count": 63
+    "count": 67
    },
    {
     "name": "honeypot",
-    "count": 61
+    "count": 62
    },
    {
     "name": "cowrie",
-    "count": 60
+    "count": 61
    }
   ]
  },
@@ -523,10 +523,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-17T11:34:53+00:00",
-  "sans": "2026-10-17T11:34:53+00:00",
-  "otx": "2026-10-17T11:34:53+00:00",
-  "urlhaus": "2026-10-17T11:34:53+00:00"
+  "threatfox": "2026-10-17T12:41:15+00:00",
+  "sans": "2026-10-17T12:41:15+00:00",
+  "otx": "2026-10-17T12:41:15+00:00",
+  "urlhaus": "2026-10-17T12:41:15+00:00"
  },
- "generated_at": "2026-10-17T11:34:53+00:00"
+ "generated_at": "2026-10-17T12:41:15+00:00"
 }
