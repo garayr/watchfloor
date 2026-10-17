@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T19:58:25+00:00",
+ "generated_at": "2026-10-17T21:13:16+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "thegentlemen",
-   "count": 14
+   "count": 13
   },
   {
    "name": "qilin",
@@ -39,28 +39,28 @@
  ],
  "by_sector": [
   {
-   "name": "Technology",
-   "count": 13
+   "name": "Healthcare",
+   "count": 14
   },
   {
-   "name": "Healthcare",
-   "count": 12
+   "name": "Technology",
+   "count": 14
   },
   {
    "name": "Manufacturing",
    "count": 12
   },
   {
-   "name": "Professional Services",
-   "count": 7
-  },
-  {
    "name": "Financial Services",
-   "count": 6
+   "count": 5
   },
   {
-   "name": "Other",
-   "count": 4
+   "name": "Professional Services",
+   "count": 5
+  },
+  {
+   "name": "Retail & E-Commerce",
+   "count": 5
   }
  ],
  "by_country": [
@@ -78,21 +78,21 @@
   },
   {
    "code": "GB",
-   "count": 4,
+   "count": 3,
    "lat": 51.5,
    "lon": -0.1
+  },
+  {
+   "code": "IT",
+   "count": 3,
+   "lat": 41.9,
+   "lon": 12.5
   },
   {
    "code": "EG",
    "count": 2,
    "lat": 30.0,
    "lon": 31.2
-  },
-  {
-   "code": "IT",
-   "count": 2,
-   "lat": 41.9,
-   "lon": 12.5
   },
   {
    "code": "JP",
@@ -131,22 +131,10 @@
    "lon": 4.4
   },
   {
-   "code": "CA",
-   "count": 1,
-   "lat": 43.7,
-   "lon": -79.4
-  },
-  {
    "code": "CR",
    "count": 1,
    "lat": 9.9,
    "lon": -84.1
-  },
-  {
-   "code": "CZ",
-   "count": 1,
-   "lat": 50.1,
-   "lon": 14.4
   },
   {
    "code": "DE",
@@ -209,19 +197,64 @@
    "lon": 21.0
   },
   {
+   "code": "TH",
+   "count": 1,
+   "lat": 13.75,
+   "lon": 100.5
+  },
+  {
    "code": "TW",
    "count": 1,
    "lat": 25.0,
    "lon": 121.5
-  },
-  {
-   "code": "ZA",
-   "count": 1,
-   "lat": -26.2,
-   "lon": 28.0
   }
  ],
  "victims": [
+  {
+   "victim": "Wellington College International School Bangkok",
+   "group": "thegentlemen",
+   "date": "2026-10-17T16:52:59+00:00",
+   "attack_date": "2026-10-16",
+   "country": "TH",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/V2VsbGluZ3RvbiBDb2xsZWdlIEludGVybmF0aW9uYWwgU2Nob29sIEJhbmdrb2tAdGhlZ2VudGxlbWVu"
+  },
+  {
+   "victim": "Gio Dental Med Spa",
+   "group": "thegentlemen",
+   "date": "2026-10-17T16:52:38+00:00",
+   "attack_date": "2026-10-16",
+   "country": "IT",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/R2lvIERlbnRhbCBNZWQgU3BhQHRoZWdlbnRsZW1lbg=="
+  },
+  {
+   "victim": "First Dental Health",
+   "group": "thegentlemen",
+   "date": "2026-10-17T16:52:17+00:00",
+   "attack_date": "2026-10-16",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Rmlyc3QgRGVudGFsIEhlYWx0aEB0aGVnZW50bGVtZW4="
+  },
+  {
+   "victim": "Decorolala - 500 Line Sample",
+   "group": "BYOD",
+   "date": "2026-10-17T16:52:04+00:00",
+   "attack_date": "2026-10-17",
+   "country": null,
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/RGVjb3JvbGFsYSAtIDUwMCBMaW5lIFNhbXBsZUBCWU9E"
+  },
+  {
+   "victim": "AirQ",
+   "group": "thegentlemen",
+   "date": "2026-10-17T16:51:56+00:00",
+   "attack_date": "2026-10-16",
+   "country": "AD",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QWlyUUB0aGVnZW50bGVtZW4="
+  },
   {
    "victim": "ock.com.my",
    "group": "lockbit5",
@@ -538,24 +571,6 @@
    "url": "https://www.ransomware.live/id/Q2FudmFAVEhFIFNFVkVOIERFQURMWSBTSU5T"
   },
   {
-   "victim": "Sladek Partners",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:32:54+00:00",
-   "attack_date": "2026-10-14",
-   "country": "CZ",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/U2xhZGVrIFBhcnRuZXJzQHRoZWdlbnRsZW1lbg=="
-  },
-  {
-   "victim": "JJS Justice",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:32:33+00:00",
-   "attack_date": "2026-10-14",
-   "country": "GB",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/SkpTIEp1c3RpY2VAdGhlZ2VudGxlbWVu"
-  },
-  {
    "victim": "Hospital Sírio-Libanês",
    "group": "THE SEVEN DEADLY SINS",
    "date": "2026-10-16T09:32:26+00:00",
@@ -565,15 +580,6 @@
    "url": "https://www.ransomware.live/id/SG9zcGl0YWwgU8OtcmlvLUxpYmFuw6pzQFRIRSBTRVZFTiBERUFETFkgU0lOUw=="
   },
   {
-   "victim": "ServiceMaster of Ottawa",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:32:12+00:00",
-   "attack_date": "2026-10-14",
-   "country": "CA",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/U2VydmljZU1hc3RlciBvZiBPdHRhd2FAdGhlZ2VudGxlbWVu"
-  },
-  {
    "victim": "Verano Holdings",
    "group": "THE SEVEN DEADLY SINS",
    "date": "2026-10-16T09:31:52+00:00",
@@ -581,24 +587,6 @@
    "country": "US",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/VmVyYW5vIEhvbGRpbmdzQFRIRSBTRVZFTiBERUFETFkgU0lOUw=="
-  },
-  {
-   "victim": "Entry Systems Garage Doors Gates",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:31:51+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/RW50cnkgU3lzdGVtcyBHYXJhZ2UgRG9vcnMgR2F0ZXNAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Europ Assistance South Africa",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:31:30+00:00",
-   "attack_date": "2026-10-14",
-   "country": "ZA",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/RXVyb3AgQXNzaXN0YW5jZSBTb3V0aCBBZnJpY2FAdGhlZ2VudGxlbWVu"
   },
   {
    "victim": "Harness Inc.",

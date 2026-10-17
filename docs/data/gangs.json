@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T23:33:05+00:00",
+ "generated_at": "2026-10-17T21:13:16+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -4799,8 +4799,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-05",
-   "victims_total": 4,
+   "last_seen": "2026-10-17",
+   "victims_total": 9,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -4808,18 +4808,30 @@
    "targets": {
     "countries": [
      {
+      "name": "US",
+      "count": 2
+     },
+     {
       "name": "MY",
       "count": 1
      },
      {
-      "name": "US",
+      "name": "SG",
       "count": 1
      }
     ],
     "sectors": [
      {
       "name": "Technology",
+      "count": 3
+     },
+     {
+      "name": "Retail & E-Commerce",
       "count": 2
+     },
+     {
+      "name": "Financial Services",
+      "count": 1
      },
      {
       "name": "Manufacturing",
@@ -4827,6 +4839,10 @@
      },
      {
       "name": "Other",
+      "count": 1
+     },
+     {
+      "name": "Professional Services",
       "count": 1
      }
     ]
@@ -4878,11 +4894,11 @@
     },
     {
      "month": "2026-10",
-     "count": 4
+     "count": 9
     }
    ],
-   "history_size": 4,
-   "updated": "2026-10-05T13:33:15+00:00"
+   "history_size": 9,
+   "updated": "2026-10-17T21:13:16+00:00"
   },
   "SilentRansomGroup": {
    "name": "SilentRansomGroup",
