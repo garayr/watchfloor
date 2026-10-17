@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1559,
-  "c2_servers": 417,
+  "total_iocs": 1574,
+  "c2_servers": 395,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 604,
+    "iocs": 603,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Vidar",
-    "iocs": 191,
-    "c2": 186,
+    "iocs": 166,
+    "c2": 161,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -31,7 +31,7 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 49,
+    "iocs": 46,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -68,8 +68,8 @@
   ]
  },
  "urls": {
-  "sample": 683,
-  "online": 364,
+  "sample": 689,
+  "online": 357,
   "top_tags": [
    {
     "name": "ua-wget",
@@ -77,11 +77,11 @@
    },
    {
     "name": "elf",
-    "count": 168
+    "count": 171
    },
    {
     "name": "Mozi",
-    "count": 86
+    "count": 89
    },
    {
     "name": "31-56-209-86",
@@ -93,7 +93,7 @@
    },
    {
     "name": "32-bit",
-    "count": 71
+    "count": 74
    },
    {
     "name": "honeypot",
@@ -523,10 +523,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-17T13:39:05+00:00",
-  "sans": "2026-10-17T13:39:05+00:00",
-  "otx": "2026-10-17T13:39:05+00:00",
-  "urlhaus": "2026-10-17T13:39:05+00:00"
+  "threatfox": "2026-10-17T14:34:31+00:00",
+  "sans": "2026-10-17T14:34:31+00:00",
+  "otx": "2026-10-17T14:34:31+00:00",
+  "urlhaus": "2026-10-17T14:34:31+00:00"
  },
- "generated_at": "2026-10-17T13:39:05+00:00"
+ "generated_at": "2026-10-17T14:34:31+00:00"
 }
