@@ -794,69 +794,6 @@
    "epss": 0.0083,
    "cvss": 8.8,
    "sev": "high"
-  },
-  {
-   "id": "CVE-2026-76460",
-   "date": "2026-09-16",
-   "src": "CISA",
-   "vendor": "Cisco Identity Services Engine",
-   "vendor_name": "Cisco",
-   "product": "Identity Services Engine",
-   "title": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
-   "detail": "Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-19",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-76460"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
-   "kev": true,
-   "epss": 0.1403,
-   "cvss": 10.0,
-   "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-58704",
-   "date": "2026-09-16",
-   "src": "CISA",
-   "vendor": "Google Pixel",
-   "vendor_name": "Google",
-   "product": "Pixel",
-   "title": "Google Pixel Improper Authorization Vulnerability",
-   "detail": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-19",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-58704"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58704",
-   "kev": true,
-   "epss": 0.0059,
-   "cvss": 8.8,
-   "sev": "high"
-  },
-  {
-   "id": "CVE-2026-87886",
-   "date": "2026-09-16",
-   "src": "CISA",
-   "vendor": "Acronis Backup",
-   "vendor_name": "Acronis",
-   "product": "Backup",
-   "title": "Acronis Backup Incorrect Default Permissions Vulnerability",
-   "detail": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-19",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-87886"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87886",
-   "kev": true,
-   "epss": 0.0023,
-   "cvss": 7.8,
-   "sev": "high"
   }
  ]
 }
