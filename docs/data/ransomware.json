@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T22:33:58+00:00",
+ "generated_at": "2026-10-18T23:44:30+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "qilin",
-   "count": 16
+   "count": 14
   },
   {
    "name": "THE SEVEN DEADLY SINS",
@@ -44,7 +44,7 @@
   },
   {
    "name": "Technology",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Healthcare",
@@ -66,15 +66,15 @@
  "by_country": [
   {
    "code": "US",
-   "count": 48,
+   "count": 47,
    "lat": 39.0,
    "lon": -77.5
   },
   {
-   "code": "BR",
+   "code": "DE",
    "count": 3,
-   "lat": -23.5,
-   "lon": -46.6
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "EG",
@@ -89,10 +89,10 @@
    "lon": 12.5
   },
   {
-   "code": "DE",
+   "code": "BR",
    "count": 2,
-   "lat": 50.1,
-   "lon": 8.7
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "JP",
@@ -149,6 +149,12 @@
    "lon": 4.4
   },
   {
+   "code": "CH",
+   "count": 1,
+   "lat": 46.9,
+   "lon": 7.4
+  },
+  {
    "code": "CR",
    "count": 1,
    "lat": 9.9,
@@ -186,6 +192,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "********rta.ch",
+   "group": "cloak",
+   "date": "2026-10-18T19:06:57+00:00",
+   "attack_date": "2026-10-18",
+   "country": "CH",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/KioqKioqKipydGEuY2hAY2xvYWs="
+  },
+  {
+   "victim": "dac********er.de",
+   "group": "cloak",
+   "date": "2026-10-18T19:06:17+00:00",
+   "attack_date": "2026-10-18",
+   "country": "DE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/ZGFjKioqKioqKiplci5kZUBjbG9haw=="
+  },
   {
    "victim": "Telecom Egypt",
    "group": "N0n",
@@ -1067,24 +1091,6 @@
    "country": "US",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/SHlwZXJHZW5AcWlsaW4="
-  },
-  {
-   "victim": "Chattanooga Shooting Supplies",
-   "group": "qilin",
-   "date": "2026-10-15T12:08:13+00:00",
-   "attack_date": "2026-10-15",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/Q2hhdHRhbm9vZ2EgU2hvb3RpbmcgU3VwcGxpZXNAcWlsaW4="
-  },
-  {
-   "victim": "Brame Telecom",
-   "group": "qilin",
-   "date": "2026-10-15T12:07:07+00:00",
-   "attack_date": "2026-10-15",
-   "country": "BR",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/QnJhbWUgVGVsZWNvbUBxaWxpbg=="
   }
  ]
 }

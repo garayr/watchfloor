@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1599,
-  "c2_servers": 709,
+  "total_iocs": 1604,
+  "c2_servers": 706,
   "families": [
    {
     "name": "Vidar",
@@ -25,13 +25,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 164,
+    "iocs": 174,
     "c2": 82,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 105,
+    "iocs": 109,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -68,20 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 944,
-  "online": 562,
+  "sample": 969,
+  "online": 571,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 326
+    "count": 340
    },
    {
     "name": "mirai",
-    "count": 290
+    "count": 298
    },
    {
     "name": "elf",
-    "count": 261
+    "count": 269
    },
    {
     "name": "ua-wget",
@@ -89,11 +89,11 @@
    },
    {
     "name": "32-bit",
-    "count": 128
+    "count": 134
    },
    {
     "name": "mips",
-    "count": 94
+    "count": 97
    },
    {
     "name": "31-56-209-86",
@@ -490,10 +490,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-18T22:33:58+00:00",
-  "sans": "2026-10-18T22:33:58+00:00",
-  "otx": "2026-10-18T22:33:58+00:00",
-  "urlhaus": "2026-10-18T22:33:58+00:00"
+  "threatfox": "2026-10-18T23:44:30+00:00",
+  "sans": "2026-10-18T23:44:30+00:00",
+  "otx": "2026-10-18T23:44:30+00:00",
+  "urlhaus": "2026-10-18T23:44:30+00:00"
  },
- "generated_at": "2026-10-18T22:33:58+00:00"
+ "generated_at": "2026-10-18T23:44:30+00:00"
 }
