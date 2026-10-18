@@ -2,32 +2,32 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1524,
-  "c2_servers": 487,
+  "total_iocs": 1486,
+  "c2_servers": 491,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 282,
-    "c2": 265,
+    "iocs": 293,
+    "c2": 276,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "IClickFix",
-    "iocs": 278,
+    "iocs": 274,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
-    "name": "Mirai",
-    "iocs": 173,
-    "c2": 7,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
     "iocs": 136,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 133,
+    "c2": 7,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "WARDENStealer",
@@ -68,12 +68,12 @@
   ]
  },
  "urls": {
-  "sample": 473,
-  "online": 290,
+  "sample": 483,
+  "online": 287,
   "top_tags": [
    {
     "name": "elf",
-    "count": 140
+    "count": 142
    },
    {
     "name": "ua-wget",
@@ -85,7 +85,7 @@
    },
    {
     "name": "Mozi",
-    "count": 78
+    "count": 79
    },
    {
     "name": "sh",
@@ -93,7 +93,7 @@
    },
    {
     "name": "32-bit",
-    "count": 67
+    "count": 68
    },
    {
     "name": "mips",
@@ -101,7 +101,7 @@
    },
    {
     "name": "arm",
-    "count": 25
+    "count": 26
    }
   ]
  },
@@ -527,10 +527,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-18T02:07:04+00:00",
-  "sans": "2026-10-18T02:07:04+00:00",
-  "otx": "2026-10-18T02:07:04+00:00",
-  "urlhaus": "2026-10-18T02:07:04+00:00"
+  "threatfox": "2026-10-18T03:05:51+00:00",
+  "sans": "2026-10-18T03:05:51+00:00",
+  "otx": "2026-10-18T03:05:51+00:00",
+  "urlhaus": "2026-10-18T03:05:51+00:00"
  },
- "generated_at": "2026-10-18T02:07:04+00:00"
+ "generated_at": "2026-10-18T03:05:51+00:00"
 }

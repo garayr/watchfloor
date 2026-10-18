@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T02:07:04+00:00",
+ "generated_at": "2026-10-18T03:05:51+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -11,10 +11,6 @@
   {
    "name": "qilin",
    "count": 13
-  },
-  {
-   "name": "thegentlemen",
-   "count": 9
   },
   {
    "name": "THE SEVEN DEADLY SINS",
@@ -29,33 +25,37 @@
    "count": 6
   },
   {
-   "name": "everest",
+   "name": "thegentlemen",
+   "count": 5
+  },
+  {
+   "name": "Helix",
    "count": 4
   },
   {
-   "name": "incransom",
+   "name": "everest",
    "count": 4
   }
  ],
  "by_sector": [
   {
-   "name": "Technology",
-   "count": 15
+   "name": "Manufacturing",
+   "count": 14
   },
   {
-   "name": "Manufacturing",
-   "count": 13
+   "name": "Technology",
+   "count": 14
   },
   {
    "name": "Healthcare",
-   "count": 12
-  },
-  {
-   "name": "Financial Services",
-   "count": 5
+   "count": 10
   },
   {
    "name": "Professional Services",
+   "count": 6
+  },
+  {
+   "name": "Financial Services",
    "count": 5
   },
   {
@@ -173,12 +173,6 @@
    "lon": 72.9
   },
   {
-   "code": "KZ",
-   "count": 1,
-   "lat": 43.2,
-   "lon": 76.9
-  },
-  {
    "code": "MY",
    "count": 1,
    "lat": 3.1,
@@ -201,9 +195,51 @@
    "count": 1,
    "lat": 52.2,
    "lon": 21.0
+  },
+  {
+   "code": "SG",
+   "count": 1,
+   "lat": 1.35,
+   "lon": 103.8
   }
  ],
  "victims": [
+  {
+   "victim": "Personify Health",
+   "group": "Helix",
+   "date": "2026-10-17T22:23:45+00:00",
+   "attack_date": "2026-10-17",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/UGVyc29uaWZ5IEhlYWx0aEBIZWxpeA=="
+  },
+  {
+   "victim": "Bay Alarm",
+   "group": "Helix",
+   "date": "2026-10-17T22:23:24+00:00",
+   "attack_date": "2026-10-17",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QmF5IEFsYXJtQEhlbGl4"
+  },
+  {
+   "victim": "Smith Douglas Homes",
+   "group": "Helix",
+   "date": "2026-10-17T22:23:03+00:00",
+   "attack_date": "2026-10-17",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/U21pdGggRG91Z2xhcyBIb21lc0BIZWxpeA=="
+  },
+  {
+   "victim": "PART2 Global AirFreight International",
+   "group": "Eclipse",
+   "date": "2026-10-17T22:21:40+00:00",
+   "attack_date": "2026-10-17",
+   "country": "SG",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/UEFSVDIgR2xvYmFsIEFpckZyZWlnaHQgSW50ZXJuYXRpb25hbEBFY2xpcHNl"
+  },
   {
    "victim": "First Brothers Co., Ltd",
    "group": "qilin",
@@ -635,42 +671,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/aUhlYXJ0SmFuZUBUSEUgU0VWRU4gREVBRExZIFNJTlM="
-  },
-  {
-   "victim": "Newport Beach Dentistry",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:29:47+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TmV3cG9ydCBCZWFjaCBEZW50aXN0cnlAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Tulsat",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:29:27+00:00",
-   "attack_date": "2026-10-14",
-   "country": "KZ",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VHVsc2F0QHRoZWdlbnRsZW1lbg=="
-  },
-  {
-   "victim": "Shared Medical Technology",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:29:06+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/U2hhcmVkIE1lZGljYWwgVGVjaG5vbG9neUB0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "Santa Barbara Endodontics",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:28:45+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/U2FudGEgQmFyYmFyYSBFbmRvZG9udGljc0B0aGVnZW50bGVtZW4="
   },
   {
    "victim": "Ecuadors National Police",
