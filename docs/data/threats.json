@@ -2,36 +2,42 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1235,
-  "c2_servers": 495,
+  "total_iocs": 1482,
+  "c2_servers": 546,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 329,
-    "c2": 312,
+    "iocs": 311,
+    "c2": 311,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "IClickFix",
-    "iocs": 124,
+    "iocs": 296,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "AMOS",
-    "iocs": 99,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+    "name": "Unknown Loader",
+    "iocs": 198,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
-    "iocs": 90,
-    "c2": 8,
+    "iocs": 111,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
+    "name": "AMOS",
+    "iocs": 99,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
     "name": "php.shin_webshell",
-    "iocs": 30,
+    "iocs": 31,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -42,14 +48,8 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "Raven Stealer",
-    "iocs": 28,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 26,
+    "iocs": 25,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -60,36 +60,36 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 23,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+    "name": "Tofsee",
+    "iocs": 20,
+    "c2": 20,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.tofsee"
    }
   ]
  },
  "urls": {
-  "sample": 822,
-  "online": 515,
+  "sample": 845,
+  "online": 529,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 262
+    "count": 271
    },
    {
     "name": "mirai",
-    "count": 232
+    "count": 245
    },
    {
     "name": "elf",
-    "count": 199
+    "count": 211
    },
    {
     "name": "ua-wget",
-    "count": 143
+    "count": 152
    },
    {
     "name": "32-bit",
-    "count": 98
+    "count": 100
    },
    {
     "name": "31-56-209-86",
@@ -97,7 +97,7 @@
    },
    {
     "name": "mips",
-    "count": 75
+    "count": 76
    },
    {
     "name": "sh",
@@ -485,10 +485,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-18T15:01:46+00:00",
-  "sans": "2026-10-18T15:01:46+00:00",
-  "otx": "2026-10-18T15:01:46+00:00",
-  "urlhaus": "2026-10-18T15:01:46+00:00"
+  "threatfox": "2026-10-18T16:01:56+00:00",
+  "sans": "2026-10-18T16:01:56+00:00",
+  "otx": "2026-10-18T16:01:56+00:00",
+  "urlhaus": "2026-10-18T16:01:56+00:00"
  },
- "generated_at": "2026-10-18T15:01:46+00:00"
+ "generated_at": "2026-10-18T16:01:56+00:00"
 }
