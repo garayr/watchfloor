@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-18T19:58:19+00:00",
+ "generated_at": "2026-10-18T21:12:21+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 29
+   "count": 30
   },
   {
    "name": "qilin",
@@ -17,11 +17,11 @@
    "count": 7
   },
   {
-   "name": "iah6477",
-   "count": 7
+   "name": "Helix",
+   "count": 6
   },
   {
-   "name": "Helix",
+   "name": "iah6477",
    "count": 6
   },
   {
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 16
+   "count": 17
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 47,
+   "count": 48,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -161,12 +161,6 @@
    "lon": -3.7
   },
   {
-   "code": "GB",
-   "count": 1,
-   "lat": 51.5,
-   "lon": -0.1
-  },
-  {
    "code": "HK",
    "count": 1,
    "lat": 22.3,
@@ -192,6 +186,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "SMIC US Company (Sunnyvale, CA — US arm of Semiconductor Manufacturing International Corpo...",
+   "group": "N0n",
+   "date": "2026-10-18T16:27:05+00:00",
+   "attack_date": "2026-10-18",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/U01JQyBVUyBDb21wYW55IChTdW5ueXZhbGUsIENBIOKAlCBVUyBhcm0gb2YgU2VtaWNvbmR1Y3RvciBNYW51ZmFjdHVyaW5nIEludGVybmF0aW9uYWwgQ29ycG8uLi5ATjBu"
+  },
   {
    "victim": "Llano Independent School District",
    "group": "qilin",
@@ -1082,15 +1085,6 @@
    "country": null,
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/YnVja2xlQGlhaDY0Nzc="
-  },
-  {
-   "victim": "camden-living",
-   "group": "iah6477",
-   "date": "2026-10-15T11:04:08+00:00",
-   "attack_date": "2026-10-15",
-   "country": "GB",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/Y2FtZGVuLWxpdmluZ0BpYWg2NDc3"
   }
  ]
 }

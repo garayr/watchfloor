@@ -2,36 +2,36 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1734,
-  "c2_servers": 700,
+  "total_iocs": 1620,
+  "c2_servers": 709,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 316,
-    "c2": 316,
+    "iocs": 319,
+    "c2": 319,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "IClickFix",
-    "iocs": 289,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 249,
+    "iocs": 250,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
+    "name": "IClickFix",
+    "iocs": 174,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
     "name": "Mirai",
-    "iocs": 170,
+    "iocs": 165,
     "c2": 82,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 105,
+    "iocs": 99,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -49,13 +49,13 @@
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 32,
-    "c2": 32,
+    "iocs": 33,
+    "c2": 33,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 32,
+    "iocs": 33,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -68,20 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 886,
-  "online": 526,
+  "sample": 902,
+  "online": 536,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 299
+    "count": 309
    },
    {
     "name": "mirai",
-    "count": 260
+    "count": 265
    },
    {
     "name": "elf",
-    "count": 230
+    "count": 237
    },
    {
     "name": "ua-wget",
@@ -89,11 +89,11 @@
    },
    {
     "name": "32-bit",
-    "count": 116
+    "count": 122
    },
    {
     "name": "mips",
-    "count": 85
+    "count": 89
    },
    {
     "name": "31-56-209-86",
@@ -212,28 +212,6 @@
  ],
  "pulses": [
   {
-   "name": "ARMORY CASTLE Exploits BeyondTrust",
-   "summary": "On October 15, BeyondTrust disclosed CVE-2026-102764, a vulnerability affecting BeyondTrust Remote Support appliances that enables arbitrary file upload. Mandiant identified ARMORY CASTLE, a suspected PRC-nexus…",
-   "date": "2026-10-16T06:59:11+00:00",
-   "author": "AlienVault",
-   "adversary": "ARMORY CASTLE",
-   "malware": [
-    "SAWFLY",
-    "BARECLAW"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "beyondtrust",
-    "sawfly",
-    "credential harvesting",
-    "tunneler",
-    "bareclaw",
-    "privilege escalation"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad1cb3feb7d313786acfcf5"
-  },
-  {
    "name": "Variola: From ClickFix to a Modular Implant",
    "summary": "Blackpoint's Adversary Pursuit Group traced a ClickFix intrusion to a previously unclassified modular Windows implant designated Variola. The malware establishes persistent host identity through encrypted storage…",
    "date": "2026-10-16T02:15:43+00:00",
@@ -345,26 +323,53 @@
    "url": "https://otx.alienvault.com/pulse/6ad0e1295c816b236074f6a2"
   },
   {
-   "name": "Aoki: Infostealer Targets AI Coding Assistant Credentials",
-   "summary": "The Aoki infostealer has evolved to target credentials from AI coding assistants including Claude, OpenAI's Codex, Cursor, Codeium and Gemini. This capability represents a recent addition, as earlier versions did not…",
-   "date": "2026-10-15T12:11:47+00:00",
+   "name": "ChainScript: Tracing a Node.js RAT Through the Blockchain",
+   "summary": "Blackpoint's Adversary Pursuit Group identified ChainScript, a previously unnamed Node.js remote access trojan discovered during ClickFix investigation. The malware disguises itself as legitimate software including…",
+   "date": "2026-09-18T21:49:13+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [
-    "Aoki",
-    "Aokigahara"
+    "ChainScript",
+    "Tsundere",
+    "EtherRAT"
    ],
    "countries": [],
    "industries": [],
    "tags": [
-    "api keys",
-    "aoki",
-    "aokigahara",
-    "cryptocurrency wallets",
-    "infostealer",
-    "ai coding assistant"
+    "clickfix",
+    "etherhiding",
+    "chainscript",
+    "msi installer",
+    "tsundere",
+    "polygon blockchain"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ad0c30399495ae02dc7664a"
+   "url": "https://otx.alienvault.com/pulse/6aadb1d95b011345c9fea41b"
+  },
+  {
+   "name": "Lazarus luring employees with trojanized coding challenges: The case of a Spanish aerospace company",
+   "summary": "ESET researchers uncovered a Lazarus attack against a Spanish aerospace company where attackers masqueraded as Meta recruiters on LinkedIn, sending trojanized coding challenges to employees. The campaign deployed…",
+   "date": "2026-09-18T21:29:42+00:00",
+   "author": "AlienVault",
+   "adversary": "Lazarus",
+   "malware": [
+    "LightlessCan",
+    "NickelLoader",
+    "miniBlindingCan",
+    "BLINDINGCAN - S0520"
+   ],
+   "countries": [],
+   "industries": [
+    "Aerospace"
+   ],
+   "tags": [
+    "lightlesscan",
+    "dll side-loading",
+    "linkedin",
+    "cyberespionage",
+    "miniblindingcan",
+    "lazarus"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aadad46b23f435094676848"
   },
   {
    "name": "WeaselBiscuit Strips BeaverTail and OtterCookie Down to Essentials",
@@ -485,10 +490,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-18T19:58:19+00:00",
-  "sans": "2026-10-18T19:58:19+00:00",
-  "otx": "2026-10-18T19:58:19+00:00",
-  "urlhaus": "2026-10-18T19:58:19+00:00"
+  "threatfox": "2026-10-18T21:12:21+00:00",
+  "sans": "2026-10-18T21:12:21+00:00",
+  "otx": "2026-10-18T21:12:21+00:00",
+  "urlhaus": "2026-10-18T21:12:21+00:00"
  },
- "generated_at": "2026-10-18T19:58:19+00:00"
+ "generated_at": "2026-10-18T21:12:21+00:00"
 }
