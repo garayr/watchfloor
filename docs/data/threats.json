@@ -2,30 +2,30 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1543,
-  "c2_servers": 475,
+  "total_iocs": 1524,
+  "c2_servers": 487,
   "families": [
    {
+    "name": "Vidar",
+    "iocs": 282,
+    "c2": 265,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "IClickFix",
-    "iocs": 280,
+    "iocs": 278,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Vidar",
-    "iocs": 271,
-    "c2": 253,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "Mirai",
-    "iocs": 209,
+    "iocs": 173,
     "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 132,
+    "iocs": 136,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -42,16 +42,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.deerstealer"
    },
    {
+    "name": "php.shin_webshell",
+    "iocs": 41,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
     "name": "CLOUDHAZE",
     "iocs": 40,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cloudhaze"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 40,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Hermes",
@@ -68,16 +68,16 @@
   ]
  },
  "urls": {
-  "sample": 463,
-  "online": 288,
+  "sample": 473,
+  "online": 290,
   "top_tags": [
    {
     "name": "elf",
-    "count": 138
+    "count": 140
    },
    {
     "name": "ua-wget",
-    "count": 132
+    "count": 133
    },
    {
     "name": "31-56-209-86",
@@ -85,7 +85,7 @@
    },
    {
     "name": "Mozi",
-    "count": 77
+    "count": 78
    },
    {
     "name": "sh",
@@ -93,7 +93,7 @@
    },
    {
     "name": "32-bit",
-    "count": 66
+    "count": 67
    },
    {
     "name": "mips",
@@ -101,7 +101,7 @@
    },
    {
     "name": "arm",
-    "count": 24
+    "count": 25
    }
   ]
  },
@@ -109,75 +109,75 @@
   {
    "port": 23,
    "service": "Telnet",
-   "records": 862926,
-   "targets": 275,
-   "sources": 11618
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 691924,
-   "targets": 274,
-   "sources": 8154
+   "records": 73,
+   "targets": 2,
+   "sources": 46
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 620826,
-   "targets": 280,
-   "sources": 6897
+   "records": 57,
+   "targets": 2,
+   "sources": 32
+  },
+  {
+   "port": 8443,
+   "service": "Web (HTTPS alt)",
+   "records": 44,
+   "targets": 2,
+   "sources": 6
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 556728,
-   "targets": 281,
-   "sources": 8812
+   "records": 35,
+   "targets": 2,
+   "sources": 33
   },
   {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 168147,
-   "targets": 272,
-   "sources": 5743
+   "port": 21,
+   "service": "FTP",
+   "records": 19,
+   "targets": 2,
+   "sources": 4
   },
   {
-   "port": 2222,
-   "service": null,
-   "records": 156688,
-   "targets": 277,
-   "sources": 5181
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 15,
+   "targets": 2,
+   "sources": 14
   },
   {
-   "port": 6881,
-   "service": null,
-   "records": 97348,
-   "targets": 230,
-   "sources": 2016
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 91732,
-   "targets": 50,
-   "sources": 1783
-  },
-  {
-   "port": 8000,
+   "port": 81,
    "service": "Web (alt)",
-   "records": 91003,
-   "targets": 277,
-   "sources": 4193
+   "records": 14,
+   "targets": 2,
+   "sources": 11
   },
   {
-   "port": 7547,
-   "service": "Router management (TR-069)",
-   "records": 51306,
-   "targets": 224,
-   "sources": 3598
+   "port": 8081,
+   "service": "Web (alt)",
+   "records": 11,
+   "targets": 2,
+   "sources": 11
+  },
+  {
+   "port": 83,
+   "service": null,
+   "records": 10,
+   "targets": 2,
+   "sources": 7
+  },
+  {
+   "port": 6379,
+   "service": "Redis",
+   "records": 8,
+   "targets": 2,
+   "sources": 8
   }
  ],
- "ports_date": "2026-10-17",
+ "ports_date": "2026-10-18",
  "diary": [
   {
    "title": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
@@ -527,10 +527,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-18T01:06:23+00:00",
-  "sans": "2026-10-18T01:06:23+00:00",
-  "otx": "2026-10-18T01:06:23+00:00",
-  "urlhaus": "2026-10-18T01:06:23+00:00"
+  "threatfox": "2026-10-18T02:07:04+00:00",
+  "sans": "2026-10-18T02:07:04+00:00",
+  "otx": "2026-10-18T02:07:04+00:00",
+  "urlhaus": "2026-10-18T02:07:04+00:00"
  },
- "generated_at": "2026-10-18T01:06:23+00:00"
+ "generated_at": "2026-10-18T02:07:04+00:00"
 }
