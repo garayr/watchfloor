@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1215,
-  "c2_servers": 461,
+  "total_iocs": 1228,
+  "c2_servers": 468,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 328,
-    "c2": 311,
+    "iocs": 326,
+    "c2": 309,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -19,19 +19,19 @@
    },
    {
     "name": "AMOS",
-    "iocs": 95,
+    "iocs": 96,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 81,
-    "c2": 6,
+    "iocs": 84,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 34,
+    "iocs": 32,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -49,31 +49,31 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 21,
+    "iocs": 23,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 23,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Tofsee",
     "iocs": 20,
     "c2": 20,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.tofsee"
-   },
-   {
-    "name": "Unknown Loader",
-    "iocs": 20,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    }
   ]
  },
  "urls": {
-  "sample": 768,
-  "online": 498,
+  "sample": 784,
+  "online": 504,
   "top_tags": [
    {
     "name": "elf",
-    "count": 184
+    "count": 187
    },
    {
     "name": "ua-wget",
@@ -81,11 +81,11 @@
    },
    {
     "name": "Mozi",
-    "count": 102
+    "count": 103
    },
    {
     "name": "32-bit",
-    "count": 86
+    "count": 87
    },
    {
     "name": "31-56-209-86",
@@ -101,7 +101,7 @@
    },
    {
     "name": "mips",
-    "count": 67
+    "count": 68
    }
   ]
  },
@@ -345,45 +345,6 @@
    "url": "https://otx.alienvault.com/pulse/6ad0e1295c816b236074f6a2"
   },
   {
-   "name": "DragonForce Ransomware Profile: From Affiliate Program to Cybercrime Cartel",
-   "summary": "DragonForce is a financially motivated ransomware operation that emerged in August 2023, initially using leaked LockBit 3.0 code and later transitioning to Conti v3-based variants. Operating as a Ransomware-as-a-Service…",
-   "date": "2026-10-15T13:58:54+00:00",
-   "author": "AlienVault",
-   "adversary": "DragonForce",
-   "malware": [
-    "DragonForce",
-    "LockBit 3.0 - S1202",
-    "LockBit Black",
-    "Conti - S0575",
-    "Cobalt Strike - S0154",
-    "SystemBC"
-   ],
-   "countries": [
-    "United States of America",
-    "United Kingdom of Great Britain and Northern Ireland",
-    "Australia",
-    "Canada",
-    "Italy"
-   ],
-   "industries": [
-    "Manufacturing",
-    "Professional Services",
-    "Real Estate",
-    "Transportation",
-    "Retail",
-    "Healthcare"
-   ],
-   "tags": [
-    "cve-2021-44228",
-    "conti",
-    "lockbit 3.0",
-    "dragonforce",
-    "affiliate program",
-    "cve-2024-57728"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad0dc1e98341fe609c19f3e"
-  },
-  {
    "name": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware",
    "summary": "This investigation reveals the first public confirmation of zero-click mercenary spyware delivered via targeted advertisements, termed AdFection. Devices at Al Jazeera were infected with Candiru spyware through…",
    "date": "2026-10-15T12:22:56+00:00",
@@ -441,34 +402,42 @@
    "url": "https://otx.alienvault.com/pulse/6ad0c30399495ae02dc7664a"
   },
   {
-   "name": "Hirudo: From Fake Updates to Patched Banking Apps",
-   "summary": "A new Android banking remote access trojan named Hirudo has been identified, combining credential theft with live remote control. It is delivered through shopping and entertainment apps that act as droppers, installing…",
-   "date": "2026-10-14T13:35:47+00:00",
+   "name": "PolinRider Spreads Through Compromised GitHub Accounts and Packagist",
+   "summary": "PolinRider operators compromised a GitHub account to insert malicious code into development versions of visanduma/nova-two-factor, a Packagist package with over 700,000 downloads. The campaign spreads through…",
+   "date": "2026-09-18T12:51:25+00:00",
+   "author": "AlienVault",
+   "adversary": "PolinRider",
+   "malware": [
+    "PolinRider"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "infostealer",
+    "polinrider",
+    "supply chain"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aad33cda70ed83efd0e0a73"
+  },
+  {
+   "name": "LabubaRAT Threat Snapshot",
+   "summary": "LabubaRAT is a custom, unsigned 64-bit Rust-based remote access trojan identified by Blackpoint, designed to masquerade as legitimate NVIDIA software. It provides comprehensive remote access capabilities including…",
+   "date": "2026-09-18T12:51:24+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [
-    "Hirudo"
+    "LabubaRAT"
    ],
-   "countries": [
-    "British Indian Ocean Territory",
-    "China",
-    "India",
-    "Indonesia",
-    "Malaysia",
-    "Mexico"
-   ],
-   "industries": [
-    "Finance"
-   ],
+   "countries": [],
+   "industries": [],
    "tags": [
-    "device takeover",
-    "indonesia targeting",
-    "android banking trojan",
-    "app patching",
-    "hirudo",
-    "rat"
+    "labubarat",
+    "maas framework",
+    "rust-based rat"
    ],
-   "url": "https://otx.alienvault.com/pulse/6acf85338bff164de62a2759"
+   "url": "https://otx.alienvault.com/pulse/6aad33cc7365f0e243368bbc"
   },
   {
    "name": "The Odyssey and trojans again: MovieReaper attacks users in multiple countries via compromised torrents",
@@ -527,10 +496,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-18T11:34:30+00:00",
-  "sans": "2026-10-18T11:34:30+00:00",
-  "otx": "2026-10-18T11:34:30+00:00",
-  "urlhaus": "2026-10-18T11:34:30+00:00"
+  "threatfox": "2026-10-18T12:41:24+00:00",
+  "sans": "2026-10-18T12:41:24+00:00",
+  "otx": "2026-10-18T12:41:24+00:00",
+  "urlhaus": "2026-10-18T12:41:24+00:00"
  },
- "generated_at": "2026-10-18T11:34:30+00:00"
+ "generated_at": "2026-10-18T12:41:24+00:00"
 }
