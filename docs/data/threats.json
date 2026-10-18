@@ -2,24 +2,24 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1640,
-  "c2_servers": 671,
+  "total_iocs": 1686,
+  "c2_servers": 675,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 311,
-    "c2": 311,
+    "iocs": 310,
+    "c2": 310,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "IClickFix",
-    "iocs": 296,
+    "iocs": 295,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 219,
+    "iocs": 240,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -31,7 +31,7 @@
    },
    {
     "name": "AMOS",
-    "iocs": 106,
+    "iocs": 108,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -49,7 +49,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 32,
+    "iocs": 33,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -68,20 +68,20 @@
   ]
  },
  "urls": {
-  "sample": 858,
-  "online": 525,
+  "sample": 864,
+  "online": 522,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 278
+    "count": 281
    },
    {
     "name": "mirai",
-    "count": 251
+    "count": 254
    },
    {
     "name": "elf",
-    "count": 217
+    "count": 218
    },
    {
     "name": "ua-wget",
@@ -89,7 +89,7 @@
    },
    {
     "name": "32-bit",
-    "count": 106
+    "count": 107
    },
    {
     "name": "31-56-209-86",
@@ -485,10 +485,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-18T17:03:55+00:00",
-  "sans": "2026-10-18T17:03:55+00:00",
-  "otx": "2026-10-18T17:03:55+00:00",
-  "urlhaus": "2026-10-18T17:03:55+00:00"
+  "threatfox": "2026-10-18T17:58:59+00:00",
+  "sans": "2026-10-18T17:58:59+00:00",
+  "otx": "2026-10-18T17:58:59+00:00",
+  "urlhaus": "2026-10-18T17:58:59+00:00"
  },
- "generated_at": "2026-10-18T17:03:55+00:00"
+ "generated_at": "2026-10-18T17:58:59+00:00"
 }
