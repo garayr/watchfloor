@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-18T21:12:21+00:00",
+ "generated_at": "2026-10-18T22:33:58+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 30
+   "count": 32
   },
   {
    "name": "qilin",
@@ -21,15 +21,15 @@
    "count": 6
   },
   {
-   "name": "iah6477",
-   "count": 6
-  },
-  {
    "name": "lockbit5",
    "count": 6
   },
   {
    "name": "everest",
+   "count": 4
+  },
+  {
+   "name": "iah6477",
    "count": 4
   },
   {
@@ -44,7 +44,7 @@
   },
   {
    "name": "Technology",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Healthcare",
@@ -52,7 +52,7 @@
   },
   {
    "name": "Professional Services",
-   "count": 6
+   "count": 7
   },
   {
    "name": "Energy & Utilities",
@@ -77,6 +77,12 @@
    "lon": -46.6
   },
   {
+   "code": "EG",
+   "count": 3,
+   "lat": 30.0,
+   "lon": 31.2
+  },
+  {
    "code": "IT",
    "count": 3,
    "lat": 41.9,
@@ -87,12 +93,6 @@
    "count": 2,
    "lat": 50.1,
    "lon": 8.7
-  },
-  {
-   "code": "EG",
-   "count": 2,
-   "lat": 30.0,
-   "lon": 31.2
   },
   {
    "code": "JP",
@@ -186,6 +186,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Telecom Egypt",
+   "group": "N0n",
+   "date": "2026-10-18T17:29:31+00:00",
+   "attack_date": "2026-10-18",
+   "country": "EG",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/VGVsZWNvbSBFZ3lwdEBOMG4="
+  },
+  {
+   "victim": "All Business Technologies (Fox Hill bookkeeping and tax practice)",
+   "group": "N0n",
+   "date": "2026-10-18T17:28:49+00:00",
+   "attack_date": "2026-10-18",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QWxsIEJ1c2luZXNzIFRlY2hub2xvZ2llcyAoRm94IEhpbGwgYm9va2tlZXBpbmcgYW5kIHRheCBwcmFjdGljZSlATjBu"
+  },
   {
    "victim": "SMIC US Company (Sunnyvale, CA — US arm of Semiconductor Manufacturing International Corpo...",
    "group": "N0n",
@@ -1067,24 +1085,6 @@
    "country": "BR",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/QnJhbWUgVGVsZWNvbUBxaWxpbg=="
-  },
-  {
-   "victim": "hensley",
-   "group": "iah6477",
-   "date": "2026-10-15T12:01:01+00:00",
-   "attack_date": "2026-10-15",
-   "country": null,
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/aGVuc2xleUBpYWg2NDc3"
-  },
-  {
-   "victim": "buckle",
-   "group": "iah6477",
-   "date": "2026-10-15T11:04:44+00:00",
-   "attack_date": "2026-10-15",
-   "country": null,
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/YnVja2xlQGlhaDY0Nzc="
   }
  ]
 }
