@@ -1,8 +1,25 @@
 {
- "generated_at": "2026-10-18T04:08:28+00:00",
+ "generated_at": "2026-10-18T05:06:27+00:00",
  "source": "Have I Been Pwned",
  "window_days": 60,
  "breaches": [
+  {
+   "title": "Gîtes de France",
+   "domain": "gites-de-france.com",
+   "added": "2026-10-18T04:50:13+00:00",
+   "breach_date": "2026-05-16",
+   "accounts": 117574,
+   "data": [
+    "Booking details",
+    "Email addresses",
+    "Names",
+    "Phone numbers",
+    "Physical addresses"
+   ],
+   "verified": true,
+   "stealer_logs": false,
+   "url": "https://haveibeenpwned.com/Breach/GitesDeFrance"
+  },
   {
    "title": "Crunchbase",
    "domain": "crunchbase.com",
