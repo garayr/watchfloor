@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T23:56:16+00:00",
+ "generated_at": "2026-10-18T01:06:23+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,11 +10,11 @@
   },
   {
    "name": "qilin",
-   "count": 12
+   "count": 13
   },
   {
    "name": "thegentlemen",
-   "count": 10
+   "count": 9
   },
   {
    "name": "THE SEVEN DEADLY SINS",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 44,
+   "count": 43,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -111,6 +111,12 @@
    "count": 2,
    "lat": 19.4,
    "lon": -99.1
+  },
+  {
+   "code": "TH",
+   "count": 2,
+   "lat": 13.75,
+   "lon": 100.5
   },
   {
    "code": "AT",
@@ -195,15 +201,18 @@
    "count": 1,
    "lat": 52.2,
    "lon": 21.0
-  },
-  {
-   "code": "TH",
-   "count": 1,
-   "lat": 13.75,
-   "lon": 100.5
   }
  ],
  "victims": [
+  {
+   "victim": "First Brothers Co., Ltd",
+   "group": "qilin",
+   "date": "2026-10-17T20:16:07+00:00",
+   "attack_date": "2026-10-17",
+   "country": "TH",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/Rmlyc3QgQnJvdGhlcnMgQ28uLCBMdGRAcWlsaW4="
+  },
   {
    "victim": "Company #88",
    "group": "N0n",
@@ -626,15 +635,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/aUhlYXJ0SmFuZUBUSEUgU0VWRU4gREVBRExZIFNJTlM="
-  },
-  {
-   "victim": "Campbell Rhea",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:30:08+00:00",
-   "attack_date": "2026-10-14",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q2FtcGJlbGwgUmhlYUB0aGVnZW50bGVtZW4="
   },
   {
    "victim": "Newport Beach Dentistry",
