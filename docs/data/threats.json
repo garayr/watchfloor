@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1486,
-  "c2_servers": 491,
+  "total_iocs": 1457,
+  "c2_servers": 501,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 293,
-    "c2": 276,
+    "iocs": 305,
+    "c2": 288,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -25,7 +25,7 @@
    },
    {
     "name": "Mirai",
-    "iocs": 133,
+    "iocs": 96,
     "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -42,16 +42,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.deerstealer"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 41,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
     "name": "CLOUDHAZE",
     "iocs": 40,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cloudhaze"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 40,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Hermes",
@@ -68,8 +68,8 @@
   ]
  },
  "urls": {
-  "sample": 483,
-  "online": 287,
+  "sample": 497,
+  "online": 300,
   "top_tags": [
    {
     "name": "elf",
@@ -527,10 +527,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-18T03:05:51+00:00",
-  "sans": "2026-10-18T03:05:51+00:00",
-  "otx": "2026-10-18T03:05:51+00:00",
-  "urlhaus": "2026-10-18T03:05:51+00:00"
+  "threatfox": "2026-10-18T04:08:28+00:00",
+  "sans": "2026-10-18T04:08:28+00:00",
+  "otx": "2026-10-18T04:08:28+00:00",
+  "urlhaus": "2026-10-18T04:08:28+00:00"
  },
- "generated_at": "2026-10-18T03:05:51+00:00"
+ "generated_at": "2026-10-18T04:08:28+00:00"
 }
