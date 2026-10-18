@@ -1,27 +1,27 @@
 {
- "generated_at": "2026-10-18T13:40:14+00:00",
+ "generated_at": "2026-10-18T15:01:46+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 30
+   "count": 29
   },
   {
    "name": "qilin",
-   "count": 11
+   "count": 15
   },
   {
    "name": "THE SEVEN DEADLY SINS",
    "count": 7
   },
   {
-   "name": "iah6477",
-   "count": 7
+   "name": "Helix",
+   "count": 6
   },
   {
-   "name": "Helix",
+   "name": "iah6477",
    "count": 6
   },
   {
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 15
+   "count": 16
   },
   {
    "name": "Technology",
@@ -48,11 +48,11 @@
   },
   {
    "name": "Healthcare",
-   "count": 10
+   "count": 8
   },
   {
-   "name": "Professional Services",
-   "count": 6
+   "name": "Energy & Utilities",
+   "count": 5
   },
   {
    "name": "Financial Services",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 46,
+   "count": 45,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -81,6 +81,12 @@
    "count": 3,
    "lat": 41.9,
    "lon": 12.5
+  },
+  {
+   "code": "DE",
+   "count": 2,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "EG",
@@ -105,6 +111,18 @@
    "count": 2,
    "lat": 19.4,
    "lon": -99.1
+  },
+  {
+   "code": "MY",
+   "count": 2,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
+   "code": "NL",
+   "count": 2,
+   "lat": 52.4,
+   "lon": 4.9
   },
   {
    "code": "TH",
@@ -137,12 +155,6 @@
    "lon": -84.1
   },
   {
-   "code": "DE",
-   "count": 1,
-   "lat": 50.1,
-   "lon": 8.7
-  },
-  {
    "code": "ES",
    "count": 1,
    "lat": 40.4,
@@ -167,22 +179,10 @@
    "lon": 72.9
   },
   {
-   "code": "MY",
-   "count": 1,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
    "code": "NG",
    "count": 1,
    "lat": 6.5,
    "lon": 3.4
-  },
-  {
-   "code": "NL",
-   "count": 1,
-   "lat": 52.4,
-   "lon": 4.9
   },
   {
    "code": "PL",
@@ -198,6 +198,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "BRUTRA Logistek",
+   "group": "qilin",
+   "date": "2026-10-18T09:48:21+00:00",
+   "attack_date": "2026-10-18",
+   "country": "NL",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/QlJVVFJBIExvZ2lzdGVrQHFpbGlu"
+  },
+  {
+   "victim": "Pengurusan Aset Air Berhad",
+   "group": "qilin",
+   "date": "2026-10-18T09:47:41+00:00",
+   "attack_date": "2026-10-18",
+   "country": "MY",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/UGVuZ3VydXNhbiBBc2V0IEFpciBCZXJoYWRAcWlsaW4="
+  },
+  {
+   "victim": "Pergande",
+   "group": "qilin",
+   "date": "2026-10-18T09:47:02+00:00",
+   "attack_date": "2026-10-18",
+   "country": "DE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/UGVyZ2FuZGVAcWlsaW4="
+  },
+  {
+   "victim": "Mastelli S.r.l.",
+   "group": "qilin",
+   "date": "2026-10-18T09:46:23+00:00",
+   "attack_date": "2026-10-18",
+   "country": "IT",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TWFzdGVsbGkgUy5yLmwuQHFpbGlu"
+  },
   {
    "victim": "Company #91",
    "group": "N0n",
@@ -1061,42 +1097,6 @@
    "country": "BR",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/TVBJIExUREFAZW1wZXJhZG9y"
-  },
-  {
-   "victim": "Alma Center Servizi Medicali S.r.l.",
-   "group": "spacebears",
-   "date": "2026-10-15T06:05:43+00:00",
-   "attack_date": "2026-10-15",
-   "country": "IT",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/QWxtYSBDZW50ZXIgU2Vydml6aSBNZWRpY2FsaSBTLnIubC5Ac3BhY2ViZWFycw=="
-  },
-  {
-   "victim": "Holistic Health Group, Inc. (d/b/a Suncrafted)",
-   "group": "spacebears",
-   "date": "2026-10-15T05:12:44+00:00",
-   "attack_date": "2026-10-15",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/SG9saXN0aWMgSGVhbHRoIEdyb3VwLCBJbmMuIChkL2IvYSBTdW5jcmFmdGVkKUBzcGFjZWJlYXJz"
-  },
-  {
-   "victim": "Company #69",
-   "group": "N0n",
-   "date": "2026-10-15T04:21:44+00:00",
-   "attack_date": "2026-10-15",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNjlATjBu"
-  },
-  {
-   "victim": "alera",
-   "group": "iah6477",
-   "date": "2026-10-15T03:02:43+00:00",
-   "attack_date": "2026-10-15",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/YWxlcmFAaWFoNjQ3Nw=="
   }
  ]
 }
