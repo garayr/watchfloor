@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T08:14:11+00:00",
+ "generated_at": "2026-10-18T09:36:32+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -44,7 +44,7 @@
   },
   {
    "name": "Technology",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Healthcare",
@@ -77,12 +77,6 @@
    "lon": -46.6
   },
   {
-   "code": "GB",
-   "count": 3,
-   "lat": 51.5,
-   "lon": -0.1
-  },
-  {
    "code": "IT",
    "count": 3,
    "lat": 41.9,
@@ -93,6 +87,12 @@
    "count": 2,
    "lat": 30.0,
    "lon": 31.2
+  },
+  {
+   "code": "GB",
+   "count": 2,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "JP",
@@ -198,6 +198,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "U**IN* Group",
+   "group": "nightspire",
+   "date": "2026-10-18T05:20:20+00:00",
+   "attack_date": "2026-10-16",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/VSoqSU4qIEdyb3VwQG5pZ2h0c3BpcmU="
+  },
   {
    "victim": "Quikrete",
    "group": "Helix",
@@ -917,15 +926,6 @@
    "country": "KR",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/S0QgQ29ycEBxaWxpbg=="
-  },
-  {
-   "victim": "Videk",
-   "group": "akira",
-   "date": "2026-10-15T13:24:36+00:00",
-   "attack_date": "2026-10-15",
-   "country": "GB",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VmlkZWtAYWtpcmE="
   },
   {
    "victim": "bienestarempresarial",
