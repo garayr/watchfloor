@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T06:02:57+00:00",
+ "generated_at": "2026-10-18T07:18:12+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -26,7 +26,7 @@
   },
   {
    "name": "Helix",
-   "count": 4
+   "count": 5
   },
   {
    "name": "everest",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 14
+   "count": 15
   },
   {
    "name": "Technology",
@@ -52,7 +52,7 @@
   },
   {
    "name": "Professional Services",
-   "count": 7
+   "count": 6
   },
   {
    "name": "Financial Services",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 43,
+   "count": 44,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -198,6 +198,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Quikrete",
+   "group": "Helix",
+   "date": "2026-10-18T02:51:45+00:00",
+   "attack_date": "2026-10-18",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UXVpa3JldGVASGVsaXg="
+  },
   {
    "victim": "Solid Trading B.V.",
    "group": "N0n",
@@ -917,15 +926,6 @@
    "country": "GB",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/VmlkZWtAYWtpcmE="
-  },
-  {
-   "victim": "Boyle, Pecharich, Cline, Whittington and Stallings",
-   "group": "akira",
-   "date": "2026-10-15T13:24:16+00:00",
-   "attack_date": "2026-10-15",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Qm95bGUsIFBlY2hhcmljaCwgQ2xpbmUsIFdoaXR0aW5ndG9uIGFuZCBTdGFsbGluZ3NAYWtpcmE="
   },
   {
    "victim": "bienestarempresarial",
