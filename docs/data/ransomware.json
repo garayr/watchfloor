@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-18T05:06:27+00:00",
+ "generated_at": "2026-10-18T06:02:57+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 28
+   "count": 30
   },
   {
    "name": "qilin",
@@ -25,15 +25,15 @@
    "count": 6
   },
   {
-   "name": "thegentlemen",
-   "count": 5
-  },
-  {
    "name": "Helix",
    "count": 4
   },
   {
    "name": "everest",
+   "count": 4
+  },
+  {
+   "name": "incransom",
    "count": 4
   }
  ],
@@ -44,7 +44,7 @@
   },
   {
    "name": "Technology",
-   "count": 14
+   "count": 13
   },
   {
    "name": "Healthcare",
@@ -52,14 +52,14 @@
   },
   {
    "name": "Professional Services",
-   "count": 6
+   "count": 7
   },
   {
    "name": "Financial Services",
    "count": 5
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Other",
    "count": 5
   }
  ],
@@ -113,6 +113,12 @@
    "lon": -99.1
   },
   {
+   "code": "NL",
+   "count": 2,
+   "lat": 52.4,
+   "lon": 4.9
+  },
+  {
    "code": "TH",
    "count": 2,
    "lat": 13.75,
@@ -149,12 +155,6 @@
    "lon": 8.7
   },
   {
-   "code": "EC",
-   "count": 1,
-   "lat": -0.2,
-   "lon": -78.5
-  },
-  {
    "code": "ES",
    "count": 1,
    "lat": 40.4,
@@ -185,12 +185,6 @@
    "lon": 3.4
   },
   {
-   "code": "NL",
-   "count": 1,
-   "lat": 52.4,
-   "lon": 4.9
-  },
-  {
    "code": "PL",
    "count": 1,
    "lat": 52.2,
@@ -204,6 +198,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Solid Trading B.V.",
+   "group": "N0n",
+   "date": "2026-10-18T01:26:57+00:00",
+   "attack_date": "2026-10-18",
+   "country": "NL",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/U29saWQgVHJhZGluZyBCLlYuQE4wbg=="
+  },
+  {
+   "victim": "ECO USA",
+   "group": "N0n",
+   "date": "2026-10-18T01:26:16+00:00",
+   "attack_date": "2026-10-18",
+   "country": "US",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/RUNPIFVTQUBOMG4="
+  },
+  {
+   "victim": "SQA Services Inc",
+   "group": "N0n",
+   "date": "2026-10-18T01:25:36+00:00",
+   "attack_date": "2026-10-18",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/U1FBIFNlcnZpY2VzIEluY0BOMG4="
+  },
   {
    "victim": "Personify Health",
    "group": "Helix",
@@ -673,15 +694,6 @@
    "url": "https://www.ransomware.live/id/aUhlYXJ0SmFuZUBUSEUgU0VWRU4gREVBRExZIFNJTlM="
   },
   {
-   "victim": "Ecuadors National Police",
-   "group": "thegentlemen",
-   "date": "2026-10-16T09:28:24+00:00",
-   "attack_date": "2026-10-14",
-   "country": "EC",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/RWN1YWRvcnMgTmF0aW9uYWwgUG9saWNlQHRoZWdlbnRsZW1lbg=="
-  },
-  {
    "victim": "Via Credit Union",
    "group": "qilin",
    "date": "2026-10-16T07:15:02+00:00",
@@ -943,15 +955,6 @@
    "url": "https://www.ransomware.live/id/c3Vuc2hpbmUtbWlsbHNAaWFoNjQ3Nw=="
   },
   {
-   "victim": "Svd (Sun Valley Dairy)",
-   "group": "akira",
-   "date": "2026-10-15T12:54:02+00:00",
-   "attack_date": "2026-10-15",
-   "country": "US",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/U3ZkIChTdW4gVmFsbGV5IERhaXJ5KUBha2lyYQ=="
-  },
-  {
    "victim": "Hocon Gas",
    "group": "qilin",
    "date": "2026-10-15T12:09:29+00:00",
@@ -1094,15 +1097,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjNjZATjBu"
-  },
-  {
-   "victim": "Interior Technologies",
-   "group": "N0n",
-   "date": "2026-10-14T22:59:09+00:00",
-   "attack_date": "2026-10-14",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/SW50ZXJpb3IgVGVjaG5vbG9naWVzQE4wbg=="
   }
  ]
 }
