@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1630,
-  "c2_servers": 726,
+  "total_iocs": 1633,
+  "c2_servers": 729,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 333,
-    "c2": 333,
+    "iocs": 335,
+    "c2": 335,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 254,
+    "iocs": 253,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -25,13 +25,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 166,
+    "iocs": 165,
     "c2": 82,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 114,
+    "iocs": 116,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -43,19 +43,19 @@
    },
    {
     "name": "Remcos",
-    "iocs": 35,
-    "c2": 32,
+    "iocs": 37,
+    "c2": 34,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 33,
-    "c2": 33,
+    "iocs": 34,
+    "c2": 34,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 32,
+    "iocs": 31,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -68,36 +68,36 @@
   ]
  },
  "urls": {
-  "sample": 575,
-  "online": 435,
+  "sample": 591,
+  "online": 443,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 223
+    "count": 230
    },
    {
     "name": "mirai",
-    "count": 218
+    "count": 227
    },
    {
     "name": "elf",
-    "count": 163
+    "count": 171
    },
    {
     "name": "32-bit",
-    "count": 94
+    "count": 97
    },
    {
     "name": "mips",
-    "count": 62
+    "count": 64
    },
    {
     "name": "arm",
-    "count": 41
+    "count": 42
    },
    {
     "name": "ua-wget",
-    "count": 35
+    "count": 39
    },
    {
     "name": "cowrie",
@@ -109,51 +109,72 @@
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 83,
-   "targets": 2,
-   "sources": 34
+   "records": 451259,
+   "targets": 208,
+   "sources": 2382
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 43,
-   "targets": 2,
-   "sources": 36
+   "records": 341172,
+   "targets": 228,
+   "sources": 3830
   },
   {
-   "port": 123,
-   "service": "NTP",
-   "records": 9,
-   "targets": 2,
-   "sources": 8
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 132092,
+   "targets": 209,
+   "sources": 2948
   },
   {
-   "port": 143,
+   "port": 22,
+   "service": "SSH",
+   "records": 95063,
+   "targets": 227,
+   "sources": 3097
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 92810,
+   "targets": 213,
+   "sources": 2364
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 56079,
+   "targets": 207,
+   "sources": 1861
+  },
+  {
+   "port": 2222,
    "service": null,
-   "records": 7,
-   "targets": 2,
-   "sources": 7
+   "records": 31279,
+   "targets": 209,
+   "sources": 1284
   },
   {
-   "port": 84,
+   "port": 6881,
    "service": null,
-   "records": 6,
-   "targets": 2,
-   "sources": 4
+   "records": 23850,
+   "targets": 143,
+   "sources": 528
   },
   {
-   "port": 1900,
-   "service": "UPnP",
-   "records": 6,
-   "targets": 2,
-   "sources": 6
+   "port": 2323,
+   "service": "Telnet (alt)",
+   "records": 21114,
+   "targets": 139,
+   "sources": 311
   },
   {
-   "port": 4000,
+   "port": 51413,
    "service": null,
-   "records": 4,
-   "targets": 2,
-   "sources": 4
+   "records": 17478,
+   "targets": 9,
+   "sources": 629
   }
  ],
  "ports_date": "2026-10-19",
@@ -469,10 +490,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-19T04:14:54+00:00",
-  "sans": "2026-10-19T04:14:54+00:00",
-  "otx": "2026-10-19T04:14:54+00:00",
-  "urlhaus": "2026-10-19T04:14:54+00:00"
+  "threatfox": "2026-10-19T05:22:57+00:00",
+  "sans": "2026-10-19T05:22:57+00:00",
+  "otx": "2026-10-19T05:22:57+00:00",
+  "urlhaus": "2026-10-19T05:22:57+00:00"
  },
- "generated_at": "2026-10-19T04:14:54+00:00"
+ "generated_at": "2026-10-19T05:22:57+00:00"
 }

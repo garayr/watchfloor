@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-19T04:14:54+00:00",
+ "generated_at": "2026-10-19T05:22:57+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 34
+   "count": 35
   },
   {
    "name": "qilin",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 17
+   "count": 16
   },
   {
    "name": "Technology",
@@ -192,6 +192,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #93",
+   "group": "N0n",
+   "date": "2026-10-19T00:22:49+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTNATjBu"
+  },
   {
    "victim": "Amagi Media Labs",
    "group": "N0n",
@@ -1082,15 +1091,6 @@
    "country": "MX",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/YmllbmVzdGFyZW1wcmVzYXJpYWxAMHgwMA=="
-  },
-  {
-   "victim": "middleby",
-   "group": "iah6477",
-   "date": "2026-10-15T13:02:42+00:00",
-   "attack_date": "2026-10-15",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/bWlkZGxlYnlAaWFoNjQ3Nw=="
   }
  ]
 }
