@@ -25,6 +25,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "One Compromised Login Exposed Millions of California Students’ Records",
+     "summary": "Intruders used compromised credentials to access an ETS SFTP server, copying records of California students back to 2006. The post One Compromised Login Exposed Millions of California Students’ Records appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-10-19T11:55:50+00:00",
+     "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional…",
      "source": "The Hacker News",
@@ -156,14 +164,6 @@
      ]
     },
     {
-     "title": "F5, Juniper Networks Patch Critical Vulnerabilities",
-     "summary": "Successful exploitation of some of these issues could lead to remote code execution and full device takeover. The post F5, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-16T09:54:34+00:00",
-     "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
      "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August…",
      "source": "The Hacker News",
@@ -210,6 +210,14 @@
    "group": "Malware and campaigns",
    "items": [
     {
+     "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+     "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for…",
+     "source": "The Hacker News",
+     "date": "2026-10-19T10:06:40+00:00",
+     "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+     "group": "Malware and campaigns"
+    },
+    {
      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package…",
      "source": "The Hacker News",
@@ -255,14 +263,6 @@
      "source": "The Hacker News",
      "date": "2026-10-15T18:49:33+00:00",
      "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Fake Arch Linux packages push malware with root privileges",
-     "summary": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-15T17:12:31+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
      "group": "Malware and campaigns"
     }
    ]
