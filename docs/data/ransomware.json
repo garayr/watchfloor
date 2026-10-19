@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T00:50:44+00:00",
+ "generated_at": "2026-10-19T02:00:47+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -55,11 +55,11 @@
    "count": 7
   },
   {
-   "name": "Energy & Utilities",
+   "name": "Financial Services",
    "count": 5
   },
   {
-   "name": "Financial Services",
+   "name": "Transportation",
    "count": 5
   }
  ],
@@ -173,10 +173,10 @@
    "lon": 114.2
   },
   {
-   "code": "NG",
+   "code": "PE",
    "count": 1,
-   "lat": 6.5,
-   "lon": 3.4
+   "lat": -12.0,
+   "lon": -77.0
   },
   {
    "code": "PL",
@@ -192,6 +192,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Belcorp",
+   "group": "qilin",
+   "date": "2026-10-18T21:05:22+00:00",
+   "attack_date": "2026-10-18",
+   "country": "PE",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/QmVsY29ycEBxaWxpbg=="
+  },
   {
    "victim": "Company #92",
    "group": "N0n",
@@ -1082,15 +1091,6 @@
    "country": null,
    "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/c3Vuc2hpbmUtbWlsbHNAaWFoNjQ3Nw=="
-  },
-  {
-   "victim": "Hocon Gas",
-   "group": "qilin",
-   "date": "2026-10-15T12:09:29+00:00",
-   "attack_date": "2026-10-15",
-   "country": "NG",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/SG9jb24gR2FzQHFpbGlu"
   }
  ]
 }
