@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-19T02:00:47+00:00",
+ "generated_at": "2026-10-19T03:09:59+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 33
+   "count": 34
   },
   {
    "name": "qilin",
@@ -29,11 +29,11 @@
    "count": 4
   },
   {
-   "name": "iah6477",
+   "name": "incransom",
    "count": 4
   },
   {
-   "name": "incransom",
+   "name": "play",
    "count": 4
   }
  ],
@@ -44,7 +44,7 @@
   },
   {
    "name": "Technology",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Healthcare",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 46,
+   "count": 47,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -192,6 +192,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Amagi Media Labs",
+   "group": "N0n",
+   "date": "2026-10-18T22:24:38+00:00",
+   "attack_date": "2026-10-18",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QW1hZ2kgTWVkaWEgTGFic0BOMG4="
+  },
   {
    "victim": "Belcorp",
    "group": "qilin",
@@ -1082,15 +1091,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/bWlkZGxlYnlAaWFoNjQ3Nw=="
-  },
-  {
-   "victim": "sunshine-mills",
-   "group": "iah6477",
-   "date": "2026-10-15T13:02:07+00:00",
-   "attack_date": "2026-10-15",
-   "country": null,
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/c3Vuc2hpbmUtbWlsbHNAaWFoNjQ3Nw=="
   }
  ]
 }
