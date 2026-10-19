@@ -730,69 +730,6 @@
    "epss": 0.025,
    "cvss": 8.8,
    "sev": "high"
-  },
-  {
-   "id": "CVE-2025-39682",
-   "date": "2026-09-18",
-   "src": "CISA",
-   "vendor": "Linux Kernel",
-   "vendor_name": "Linux",
-   "product": "Kernel",
-   "title": "Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
-   "detail": "Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended recvmsg() record-type handling, potentially causing subsequent TLS records to be processed using incorrect zero-copy and queuing assumptions. The impacted product(s) could be end-of-life (EoL) and/or…",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-21",
-   "ransomware": false,
-   "cves": [
-    "CVE-2025-39682"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
-   "kev": true,
-   "epss": 0.0288,
-   "cvss": 9.8,
-   "sev": "critical"
-  },
-  {
-   "id": "CVE-2025-39964",
-   "date": "2026-09-18",
-   "src": "CISA",
-   "vendor": "Linux Kernel",
-   "vendor_name": "Linux",
-   "product": "Kernel",
-   "title": "Linux Kernel Race Condition Vulnerability",
-   "detail": "Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket's internal state.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-21",
-   "ransomware": false,
-   "cves": [
-    "CVE-2025-39964"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39964",
-   "kev": true,
-   "epss": 0.0136,
-   "cvss": 7.8,
-   "sev": "high"
-  },
-  {
-   "id": "CVE-2026-53266",
-   "date": "2026-09-18",
-   "src": "CISA",
-   "vendor": "Linux Kernel",
-   "vendor_name": "Linux",
-   "product": "Kernel",
-   "title": "Linux Kernel Out-of-Bounds Write Vulnerability",
-   "detail": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-21",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-53266"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
-   "kev": true,
-   "epss": 0.0083,
-   "cvss": 8.8,
-   "sev": "high"
   }
  ]
 }
