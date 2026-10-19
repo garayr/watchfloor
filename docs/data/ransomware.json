@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T19:07:36+00:00",
+ "generated_at": "2026-10-19T20:11:14+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "qilin",
-   "count": 11
+   "count": 15
   },
   {
    "name": "Helix",
@@ -25,16 +25,16 @@
    "count": 4
   },
   {
-   "name": "incransom",
-   "count": 4
-  },
-  {
    "name": "play",
    "count": 4
   },
   {
    "name": "thegentlemen",
    "count": 4
+  },
+  {
+   "name": "Storm",
+   "count": 3
   }
  ],
  "by_sector": [
@@ -48,25 +48,25 @@
   },
   {
    "name": "Healthcare",
-   "count": 8
-  },
-  {
-   "name": "Financial Services",
-   "count": 7
-  },
-  {
-   "name": "Professional Services",
-   "count": 6
+   "count": 9
   },
   {
    "name": "Transportation",
+   "count": 7
+  },
+  {
+   "name": "Financial Services",
    "count": 6
+  },
+  {
+   "name": "Professional Services",
+   "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 52,
+   "count": 51,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -113,6 +113,12 @@
    "lon": 100.5
   },
   {
+   "code": "AE",
+   "count": 1,
+   "lat": 24.5,
+   "lon": 54.4
+  },
+  {
    "code": "AR",
    "count": 1,
    "lat": -34.6,
@@ -149,22 +155,28 @@
    "lon": 116.4
   },
   {
-   "code": "CR",
-   "count": 1,
-   "lat": 9.9,
-   "lon": -84.1
-  },
-  {
    "code": "EG",
    "count": 1,
    "lat": 30.0,
    "lon": 31.2
   },
   {
+   "code": "GB",
+   "count": 1,
+   "lat": 51.5,
+   "lon": -0.1
+  },
+  {
    "code": "HK",
    "count": 1,
    "lat": 22.3,
    "lon": 114.2
+  },
+  {
+   "code": "IN",
+   "count": 1,
+   "lat": 19.1,
+   "lon": 72.9
   },
   {
    "code": "JP",
@@ -185,12 +197,6 @@
    "lon": -77.0
   },
   {
-   "code": "PL",
-   "count": 1,
-   "lat": 52.2,
-   "lon": 21.0
-  },
-  {
    "code": "PT",
    "count": 1,
    "lat": 38.7,
@@ -204,6 +210,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "WalkingTree Technologies",
+   "group": "qilin",
+   "date": "2026-10-19T15:59:19+00:00",
+   "attack_date": "2026-10-19",
+   "country": "IN",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/V2Fsa2luZ1RyZWUgVGVjaG5vbG9naWVzQHFpbGlu"
+  },
+  {
+   "victim": "SkyWorld Air Cargo",
+   "group": "qilin",
+   "date": "2026-10-19T15:58:41+00:00",
+   "attack_date": "2026-10-19",
+   "country": "AE",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/U2t5V29ybGQgQWlyIENhcmdvQHFpbGlu"
+  },
+  {
+   "victim": "Johnson & Pace",
+   "group": "qilin",
+   "date": "2026-10-19T15:58:00+00:00",
+   "attack_date": "2026-10-19",
+   "country": "GB",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Sm9obnNvbiAmIFBhY2VAcWlsaW4="
+  },
+  {
+   "victim": "Dental Team FL",
+   "group": "qilin",
+   "date": "2026-10-19T15:57:18+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/RGVudGFsIFRlYW0gRkxAcWlsaW4="
+  },
   {
    "victim": "Grupo Cronica",
    "group": "qilin",
@@ -1067,42 +1109,6 @@
    "country": null,
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/RXZvbHV0aW9uIFNwaW5lIC8gQWxsIExhYnNATjBu"
-  },
-  {
-   "victim": "fairfeelegalservices.com",
-   "group": "incransom",
-   "date": "2026-10-15T22:59:23+00:00",
-   "attack_date": "2026-10-15",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/ZmFpcmZlZWxlZ2Fsc2VydmljZXMuY29tQGluY3JhbnNvbQ=="
-  },
-  {
-   "victim": "verveba.com \\ www.att.com",
-   "group": "incransom",
-   "date": "2026-10-15T22:58:44+00:00",
-   "attack_date": "2026-10-15",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/dmVydmViYS5jb20gXCB3d3cuYXR0LmNvbUBpbmNyYW5zb20="
-  },
-  {
-   "victim": "www.coopecaja.fi.cr",
-   "group": "incransom",
-   "date": "2026-10-15T22:03:58+00:00",
-   "attack_date": "2026-10-15",
-   "country": "CR",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/d3d3LmNvb3BlY2FqYS5maS5jckBpbmNyYW5zb20="
-  },
-  {
-   "victim": "nowaszkola.com",
-   "group": "incransom",
-   "date": "2026-10-15T22:03:22+00:00",
-   "attack_date": "2026-10-15",
-   "country": "PL",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/bm93YXN6a29sYS5jb21AaW5jcmFuc29t"
   }
  ]
 }
