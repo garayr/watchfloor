@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-19T12:14:11+00:00",
+ "generated_at": "2026-10-19T14:21:11+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 36
+   "count": 37
   },
   {
    "name": "qilin",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 16
+   "count": 15
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 51,
+   "count": 52,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -167,12 +167,6 @@
    "lon": 114.2
   },
   {
-   "code": "MX",
-   "count": 1,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
    "code": "PE",
    "count": 1,
    "lat": -12.0,
@@ -192,6 +186,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #94",
+   "group": "N0n",
+   "date": "2026-10-19T08:25:54+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTRATjBu"
+  },
   {
    "victim": "POWERsonic Industries Inc.",
    "group": "aurora",
@@ -1073,15 +1076,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzNATjBu"
-  },
-  {
-   "victim": "grupoabg.com",
-   "group": "lockbit5",
-   "date": "2026-10-15T16:04:44+00:00",
-   "attack_date": "2026-10-15",
-   "country": "MX",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Z3J1cG9hYmcuY29tQGxvY2tiaXQ1"
   },
   {
    "victim": "KD Corp",
