@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1644,
+  "total_iocs": 1634,
   "c2_servers": 723,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 317,
-    "c2": 317,
+    "iocs": 302,
+    "c2": 302,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 243,
+    "iocs": 240,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -25,20 +25,20 @@
    },
    {
     "name": "Mirai",
-    "iocs": 153,
-    "c2": 82,
+    "iocs": 151,
+    "c2": 83,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 115,
+    "iocs": 113,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Sliver",
-    "iocs": 48,
-    "c2": 48,
+    "iocs": 50,
+    "c2": 50,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    },
    {
@@ -48,32 +48,32 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 32,
-    "c2": 32,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 31,
+    "iocs": 32,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "ClearFake",
-    "iocs": 28,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+    "name": "Cobalt Strike",
+    "iocs": 30,
+    "c2": 30,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
+    "name": "SMSspy",
+    "iocs": 27,
+    "c2": 15,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.smsspy"
    }
   ]
  },
  "urls": {
-  "sample": 731,
-  "online": 534,
+  "sample": 746,
+  "online": 545,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 264
+    "count": 274
    },
    {
     "name": "mirai",
@@ -81,15 +81,15 @@
    },
    {
     "name": "elf",
-    "count": 199
+    "count": 204
    },
    {
     "name": "32-bit",
-    "count": 104
+    "count": 108
    },
    {
     "name": "mips",
-    "count": 73
+    "count": 77
    },
    {
     "name": "arm",
@@ -212,93 +212,147 @@
  ],
  "pulses": [
   {
-   "name": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
-   "summary": "An espionage campaign tracked as CL-UNK-1211 targeted government entities and state-affiliated infrastructure between October 2025 and April 2026, utilizing AI-generated payloads containing conversational annotations…",
-   "date": "2026-10-16T02:08:52+00:00",
+   "name": "ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks",
+   "summary": "A Microsoft 365 API credential belonging to ConnectWise Cloud Backup (formerly SkyKick) was compromised and used to gain unauthorized access to customer M365 environments. The threat actor authenticated from IP address…",
+   "date": "2026-10-19T09:50:47+00:00",
    "author": "AlienVault",
-   "adversary": "CL-UNK-1211",
-   "malware": [
-    "SysGoRAT"
-   ],
+   "adversary": null,
+   "malware": [],
    "countries": [],
    "industries": [
+    "Technology",
     "Government"
    ],
    "tags": [
-    "database exfiltration",
-    "sysgorat",
-    "web shells",
-    "linux",
-    "cve-2025-55182",
-    "ai-generated payloads"
+    "m365",
+    "service principal",
+    "cloud backup",
+    "skykick",
+    "msp",
+    "connectwise"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ad187349cefc9d2193e5cc3"
+   "url": "https://otx.alienvault.com/pulse/6ad5e7f75d4f869db2238e26"
   },
   {
-   "name": "KGB RAT: A Fully Undetectable Windows Trojan Built to Spy, Steal, and Terrorize",
-   "summary": "KGB RAT is a Windows Remote Access Trojan actively promoted on underground forums since late 2025, marketed deceptively as a legitimate administration tool. Sold through a Malware-as-a-Service model with pricing from…",
-   "date": "2026-10-15T16:41:31+00:00",
+   "name": "CVE-2026-88771: Inside the Exploitation of a Critical NetScaler RCE Vulnerability",
+   "summary": "On September 27, 2026, Citrix disclosed CVE-2026-88771, a critical remote code execution vulnerability affecting NetScaler Application Delivery Controller and NetScaler Gateway with a CVSS score of 9.8. The…",
+   "date": "2026-10-17T01:06:08+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "rce vulnerability",
+    "netscaler",
+    "freebsd implant",
+    "zero-day exploitation",
+    "web shells",
+    "cve-2026-88771"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad2ca008bd3199ee7bb0b83"
+  },
+  {
+   "name": "YuanKong RAT: the Android remote-control service that stamps its operators' names into every build",
+   "summary": "YuanKong is a multi-tenant Android remote access trojan whose dropper stores decryption keys in cleartext configuration files. The malware uses a two-key XOR scheme to unpack payloads signed with a shared certificate…",
+   "date": "2026-10-16T15:25:13+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [
-    "KGB RAT",
-    "njRAT - S0385",
-    "Njw0rm",
-    "LV",
-    "Bladabindi",
-    "Lime-Worm"
+    "YuanKong"
    ],
    "countries": [],
    "industries": [],
    "tags": [
-    "credential theft",
-    "hvnc",
-    "telegram c2",
-    "psychological harassment",
-    "bladabindi",
-    "remote access trojan"
+    "overlay-attack",
+    "android",
+    "adb-escalation",
+    "yuankong"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ad1023b92a010044f3dcbc8"
+   "url": "https://otx.alienvault.com/pulse/6ad241d9f4cd3e84da0dbd3c"
   },
   {
-   "name": "Inside a PaperCut Attacker's AI Toolkit: Agent Instructions, Exploit Code, a Second RCE, and Victims Across 45+ Countries",
-   "summary": "Three exposed directories on infrastructure at 45.142.193[.]132 revealed an AI-orchestrated campaign targeting PaperCut NG/MF print management software. The exposed workbench contained AI-agent instructions, exploit…",
-   "date": "2026-10-15T14:21:06+00:00",
+   "name": "An Analysis of Suo5-Based Tunneling and Pivoting Attack Techniques Through Case Studies",
+   "summary": "This analysis examines exploitation of Suo5, an HTTP/HTTPS-based tunneling tool, for pivoting attacks through compromised web servers to access internal networks. Suo5 relays TCP traffic and enables SOCKS5 proxy access…",
+   "date": "2026-10-16T07:33:13+00:00",
    "author": "AlienVault",
    "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Education"
+   "malware": [
+    "Suo5"
    ],
-   "tags": [
-    "pentagi framework",
-    "ai-orchestrated exploitation",
-    "cve-2026-81578",
-    "xml-rpc abuse",
-    "reverse socks5",
-    "credential harvesting"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad0e1520be4762ce91fe695"
-  },
-  {
-   "name": "skynox7: Proxyjacking Edge Devices Into Residential Proxies",
-   "summary": "A malicious cyber actor conducted a proxyjacking campaign, compromising at least 143 network edge devices across 34 countries to force them into residential proxy networks. The attacker exploited vulnerabilities in…",
-   "date": "2026-10-15T14:20:25+00:00",
-   "author": "AlienVault",
-   "adversary": "skynox7",
-   "malware": [],
    "countries": [],
    "industries": [],
    "tags": [
-    "bandwidth monetization",
-    "proxyjacking",
-    "dvr exploitation",
-    "cve-2024-3272",
-    "cve-2021-44228",
-    "cve-2024-3273"
+    "iis exploitation",
+    "suo5",
+    "https tunneling"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ad0e1295c816b236074f6a2"
+   "url": "https://otx.alienvault.com/pulse/6ad1d33960a4dd738f97701a"
+  },
+  {
+   "name": "Inside Help TDS: Hotejka, Cloudflare Pages and Predictive Detection",
+   "summary": "Since April 2017, a Russian-language affiliate program called Hotejka, believed to be a rebrand of ROI777, has operated the Help Traffic Distribution System (TDS), delivering tech support scams to victims. The operation…",
+   "date": "2026-10-16T07:29:06+00:00",
+   "author": "AlienVault",
+   "adversary": "Hotejka",
+   "malware": [
+    "UltraViewer"
+   ],
+   "countries": [
+    "United States of America",
+    "Australia",
+    "Belgium",
+    "Canada",
+    "France",
+    "Japan"
+   ],
+   "industries": [],
+   "tags": [
+    "tds infrastructure",
+    "ultraviewer",
+    "cloudflare pages abuse",
+    "tech support scams",
+    "roi777",
+    "hotejka"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad1d2421e774bf7224baf2b"
+  },
+  {
+   "name": "BREAK THE SILENCE: Tracking Silent Lynx Through Exposed Infrastructure",
+   "summary": "Silent Lynx, a persistent cyber espionage threat actor, has conducted targeted intrusion campaigns against government ministries, diplomatic missions, and civil society organizations across Central Asia since 2024. The…",
+   "date": "2026-10-16T07:21:52+00:00",
+   "author": "AlienVault",
+   "adversary": "silent lynx",
+   "malware": [
+    "Laplas",
+    "Chvost",
+    "PickleShell",
+    "SSDPShell",
+    "Ligolo-ng",
+    "Cobalt Strike - S0154"
+   ],
+   "countries": [
+    "Armenia",
+    "Azerbaijan",
+    "Belarus",
+    "Kazakhstan",
+    "Kyrgyzstan",
+    "Russian Federation"
+   ],
+   "industries": [
+    "Government",
+    "Energy",
+    "NGO"
+   ],
+   "tags": [
+    "silent lynx",
+    "chvost",
+    "laplas",
+    "cobalt strike",
+    "github staging",
+    "pickleshell"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad1d090651f974e1ec049ed"
   },
   {
    "name": "Don't Call Us, We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties",
@@ -439,68 +493,13 @@
     "rust-based rat"
    ],
    "url": "https://otx.alienvault.com/pulse/6aad33cc7365f0e243368bbc"
-  },
-  {
-   "name": "The Odyssey and trojans again: MovieReaper attacks users in multiple countries via compromised torrents",
-   "summary": "A previously unknown modular multi-stage framework named MovieReaper has been discovered targeting users through compromised torrent files. Attackers compromised the public torrent repository itorrents[.]org, enabling…",
-   "date": "2026-09-17T16:23:20+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "MovieReaper"
-   ],
-   "countries": [
-    "Belgium",
-    "Colombia",
-    "Finland",
-    "Germany",
-    "Ghana",
-    "Japan"
-   ],
-   "industries": [
-    "Government",
-    "Technology",
-    "Retail",
-    "Transportation",
-    "Agriculture"
-   ],
-   "tags": [
-    "solana",
-    "uac bypass",
-    "moviereaper",
-    "itorrents compromise",
-    "blockchain c2"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aac13f8b67f38a3496d4d1d"
-  },
-  {
-   "name": "Beware the SparroWock: The backdoor that bites, the commands that catch",
-   "summary": "ESET researchers have documented SparroWocky, a sophisticated C++ backdoor deployed by the FamousSparrow APT group since August 2025. This China-aligned threat actor has shifted focus to extensively targeting…",
-   "date": "2026-09-17T16:19:02+00:00",
-   "author": "AlienVault",
-   "adversary": "GhostEmperor",
-   "malware": [
-    "SparroWocky",
-    "SparrowDoor"
-   ],
-   "countries": [],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "sparrowdoor",
-    "earth estries",
-    "sparrowocky",
-    "cyberespionage"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aac12f6c8ffca0418768251"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-19T08:51:38+00:00",
-  "sans": "2026-10-19T08:51:38+00:00",
-  "otx": "2026-10-19T08:51:38+00:00",
-  "urlhaus": "2026-10-19T08:51:38+00:00"
+  "threatfox": "2026-10-19T10:02:55+00:00",
+  "sans": "2026-10-19T10:02:55+00:00",
+  "otx": "2026-10-19T10:02:55+00:00",
+  "urlhaus": "2026-10-19T10:02:55+00:00"
  },
- "generated_at": "2026-10-19T08:51:38+00:00"
+ "generated_at": "2026-10-19T10:02:55+00:00"
 }
