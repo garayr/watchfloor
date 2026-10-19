@@ -2,30 +2,30 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1075,
-  "c2_servers": 537,
+  "total_iocs": 1078,
+  "c2_servers": 547,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 318,
-    "c2": 318,
+    "iocs": 320,
+    "c2": 320,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 108,
+    "iocs": 110,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 55,
+    "iocs": 52,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 41,
+    "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -37,7 +37,7 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 29,
+    "iocs": 30,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -46,6 +46,12 @@
     "iocs": 27,
     "c2": 15,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.smsspy"
+   },
+   {
+    "name": "Aisuru",
+    "iocs": 22,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    },
    {
     "name": "Hermes",
@@ -58,42 +64,36 @@
     "iocs": 21,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.rn_stealer"
-   },
-   {
-    "name": "VShell",
-    "iocs": 21,
-    "c2": 15,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    }
   ]
  },
  "urls": {
-  "sample": 839,
-  "online": 531,
+  "sample": 856,
+  "online": 492,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 316
+    "count": 322
    },
    {
     "name": "mirai",
-    "count": 284
+    "count": 290
    },
    {
     "name": "elf",
-    "count": 241
+    "count": 248
    },
    {
     "name": "32-bit",
-    "count": 123
+    "count": 128
    },
    {
     "name": "mips",
-    "count": 90
+    "count": 92
    },
    {
     "name": "arm",
-    "count": 59
+    "count": 62
    },
    {
     "name": "ua-wget",
@@ -501,10 +501,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-19T16:46:48+00:00",
-  "sans": "2026-10-19T16:46:48+00:00",
-  "otx": "2026-10-19T16:46:48+00:00",
-  "urlhaus": "2026-10-19T16:46:48+00:00"
+  "threatfox": "2026-10-19T17:54:04+00:00",
+  "sans": "2026-10-19T17:54:04+00:00",
+  "otx": "2026-10-19T17:54:04+00:00",
+  "urlhaus": "2026-10-19T17:54:04+00:00"
  },
- "generated_at": "2026-10-19T16:46:48+00:00"
+ "generated_at": "2026-10-19T17:54:04+00:00"
 }

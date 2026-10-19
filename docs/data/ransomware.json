@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-19T16:46:48+00:00",
+ "generated_at": "2026-10-19T17:54:04+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 37
+   "count": 38
   },
   {
    "name": "qilin",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Helix",
@@ -47,11 +47,11 @@
    "count": 12
   },
   {
-   "name": "Financial Services",
-   "count": 7
+   "name": "Healthcare",
+   "count": 8
   },
   {
-   "name": "Healthcare",
+   "name": "Financial Services",
    "count": 7
   },
   {
@@ -59,14 +59,14 @@
    "count": 7
   },
   {
-   "name": "Education",
-   "count": 5
+   "name": "Professional Services",
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 53,
+   "count": 54,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -81,12 +81,6 @@
    "count": 3,
    "lat": 50.1,
    "lon": 8.7
-  },
-  {
-   "code": "EG",
-   "count": 2,
-   "lat": 30.0,
-   "lon": 31.2
   },
   {
    "code": "IT",
@@ -155,6 +149,12 @@
    "lon": -84.1
   },
   {
+   "code": "EG",
+   "count": 1,
+   "lat": 30.0,
+   "lon": 31.2
+  },
+  {
    "code": "ES",
    "count": 1,
    "lat": 40.4,
@@ -186,6 +186,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Latham & Watkins",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-19T13:25:56+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TGF0aGFtICYgV2F0a2luc0BTaWxlbnRSYW5zb21Hcm91cA=="
+  },
+  {
+   "victim": "Hotel DuPont",
+   "group": "N0n",
+   "date": "2026-10-19T13:24:13+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/SG90ZWwgRHVQb250QE4wbg=="
+  },
+  {
+   "victim": "Kingwood Endoscopy",
+   "group": "N0n",
+   "date": "2026-10-19T13:23:34+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/S2luZ3dvb2QgRW5kb3Njb3B5QE4wbg=="
+  },
   {
    "victim": "The Akeeli Group",
    "group": "N0n",
@@ -1058,33 +1085,6 @@
    "country": "ES",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/U2VncmVzIFN5c3RlY0BxaWxpbg=="
-  },
-  {
-   "victim": "The Excalibur Group",
-   "group": "qilin",
-   "date": "2026-10-15T17:04:04+00:00",
-   "attack_date": "2026-10-15",
-   "country": "US",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/VGhlIEV4Y2FsaWJ1ciBHcm91cEBxaWxpbg=="
-  },
-  {
-   "victim": "hilmar-cheese",
-   "group": "iah6477",
-   "date": "2026-10-15T17:01:07+00:00",
-   "attack_date": "2026-10-15",
-   "country": "US",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/aGlsbWFyLWNoZWVzZUBpYWg2NDc3"
-  },
-  {
-   "victim": "Company #70",
-   "group": "N0n",
-   "date": "2026-10-15T16:23:34+00:00",
-   "attack_date": "2026-10-15",
-   "country": "EG",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzBATjBu"
   }
  ]
 }
