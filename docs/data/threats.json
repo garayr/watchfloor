@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1633,
-  "c2_servers": 729,
+  "total_iocs": 1525,
+  "c2_servers": 742,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 335,
-    "c2": 335,
+    "iocs": 340,
+    "c2": 340,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 253,
-    "c2": 4,
+    "iocs": 245,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
@@ -25,13 +25,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 165,
+    "iocs": 171,
     "c2": 82,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 116,
+    "iocs": 115,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -43,8 +43,8 @@
    },
    {
     "name": "Remcos",
-    "iocs": 37,
-    "c2": 34,
+    "iocs": 42,
+    "c2": 39,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
@@ -60,36 +60,36 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "ClearFake",
-    "iocs": 28,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+    "name": "SMSspy",
+    "iocs": 27,
+    "c2": 15,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.smsspy"
    }
   ]
  },
  "urls": {
-  "sample": 591,
-  "online": 443,
+  "sample": 640,
+  "online": 479,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 230
+    "count": 236
    },
    {
     "name": "mirai",
-    "count": 227
+    "count": 229
    },
    {
     "name": "elf",
-    "count": 171
+    "count": 176
    },
    {
     "name": "32-bit",
-    "count": 97
+    "count": 100
    },
    {
     "name": "mips",
-    "count": 64
+    "count": 67
    },
    {
     "name": "arm",
@@ -100,8 +100,8 @@
     "count": 39
    },
    {
-    "name": "cowrie",
-    "count": 21
+    "name": "zip",
+    "count": 28
    }
   ]
  },
@@ -490,10 +490,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-19T05:22:57+00:00",
-  "sans": "2026-10-19T05:22:57+00:00",
-  "otx": "2026-10-19T05:22:57+00:00",
-  "urlhaus": "2026-10-19T05:22:57+00:00"
+  "threatfox": "2026-10-19T06:32:26+00:00",
+  "sans": "2026-10-19T06:32:26+00:00",
+  "otx": "2026-10-19T06:32:26+00:00",
+  "urlhaus": "2026-10-19T06:32:26+00:00"
  },
- "generated_at": "2026-10-19T05:22:57+00:00"
+ "generated_at": "2026-10-19T06:32:26+00:00"
 }
