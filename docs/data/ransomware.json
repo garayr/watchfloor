@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T21:08:08+00:00",
+ "generated_at": "2026-10-19T22:08:03+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -51,11 +51,11 @@
    "count": 9
   },
   {
-   "name": "Transportation",
-   "count": 7
+   "name": "Financial Services",
+   "count": 6
   },
   {
-   "name": "Financial Services",
+   "name": "Transportation",
    "count": 6
   },
   {
@@ -66,21 +66,21 @@
  "by_country": [
   {
    "code": "US",
-   "count": 51,
+   "count": 50,
    "lat": 39.0,
    "lon": -77.5
+  },
+  {
+   "code": "DE",
+   "count": 4,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "BR",
    "count": 3,
    "lat": -23.5,
    "lon": -46.6
-  },
-  {
-   "code": "DE",
-   "count": 3,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "IT",
@@ -210,6 +210,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Seetelhotels.de",
+   "group": "incransom",
+   "date": "2026-10-19T17:12:41+00:00",
+   "attack_date": "2026-10-19",
+   "country": "DE",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/U2VldGVsaG90ZWxzLmRlQGluY3JhbnNvbQ=="
+  },
   {
    "victim": "WalkingTree Technologies",
    "group": "qilin",
@@ -1001,15 +1010,6 @@
    "country": "DE",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/TWlua29uQGJyYXZveA=="
-  },
-  {
-   "victim": "Adams Warehouse & Delivery, Inc.",
-   "group": "aurora",
-   "date": "2026-10-16T09:55:53+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/QWRhbXMgV2FyZWhvdXNlICYgRGVsaXZlcnksIEluYy5AYXVyb3Jh"
   },
   {
    "victim": "Cradlewise Inc.",
