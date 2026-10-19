@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T10:02:55+00:00",
+ "generated_at": "2026-10-19T11:10:44+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -21,10 +21,6 @@
    "count": 7
   },
   {
-   "name": "lockbit5",
-   "count": 6
-  },
-  {
    "name": "everest",
    "count": 4
   },
@@ -34,6 +30,10 @@
   },
   {
    "name": "play",
+   "count": 4
+  },
+  {
+   "name": "thegentlemen",
    "count": 4
   }
  ],
@@ -47,16 +47,16 @@
    "count": 12
   },
   {
-   "name": "Healthcare",
-   "count": 8
-  },
-  {
    "name": "Financial Services",
-   "count": 6
+   "count": 7
   },
   {
-   "name": "Professional Services",
-   "count": 6
+   "name": "Healthcare",
+   "count": 7
+  },
+  {
+   "name": "Transportation",
+   "count": 7
   },
   {
    "name": "Education",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 49,
+   "count": 51,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -75,18 +75,6 @@
    "count": 3,
    "lat": 50.1,
    "lon": 8.7
-  },
-  {
-   "code": "EG",
-   "count": 3,
-   "lat": 30.0,
-   "lon": 31.2
-  },
-  {
-   "code": "IT",
-   "count": 3,
-   "lat": 41.9,
-   "lon": 12.5
   },
   {
    "code": "KR",
@@ -99,6 +87,18 @@
    "count": 2,
    "lat": -23.5,
    "lon": -46.6
+  },
+  {
+   "code": "EG",
+   "count": 2,
+   "lat": 30.0,
+   "lon": 31.2
+  },
+  {
+   "code": "IT",
+   "count": 2,
+   "lat": 41.9,
+   "lon": 12.5
   },
   {
    "code": "JP",
@@ -192,6 +192,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Baltimore Tank Lines",
+   "group": "Storm",
+   "date": "2026-10-19T06:55:52+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/QmFsdGltb3JlIFRhbmsgTGluZXNAU3Rvcm0="
+  },
+  {
+   "victim": "Merit Financial Group",
+   "group": "Storm",
+   "date": "2026-10-19T06:55:20+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/TWVyaXQgRmluYW5jaWFsIEdyb3VwQFN0b3Jt"
+  },
+  {
+   "victim": "Patriot Maritime",
+   "group": "Storm",
+   "date": "2026-10-19T06:54:48+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/UGF0cmlvdCBNYXJpdGltZUBTdG9ybQ=="
+  },
   {
    "victim": "American Campus",
    "group": "Helix",
@@ -1037,33 +1064,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzNATjBu"
-  },
-  {
-   "victim": "torcivialaw.com",
-   "group": "lockbit5",
-   "date": "2026-10-15T16:11:30+00:00",
-   "attack_date": "2026-10-15",
-   "country": "IT",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/dG9yY2l2aWFsYXcuY29tQGxvY2tiaXQ1"
-  },
-  {
-   "victim": "kidzrkooldental.com",
-   "group": "lockbit5",
-   "date": "2026-10-15T16:09:28+00:00",
-   "attack_date": "2026-10-15",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/a2lkenJrb29sZGVudGFsLmNvbUBsb2NrYml0NQ=="
-  },
-  {
-   "victim": "lcww.com.eg",
-   "group": "lockbit5",
-   "date": "2026-10-15T16:07:25+00:00",
-   "attack_date": "2026-10-15",
-   "country": "EG",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/bGN3dy5jb20uZWdAbG9ja2JpdDU="
   },
   {
    "victim": "neweramachines.com",
