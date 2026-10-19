@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T14:21:11+00:00",
+ "generated_at": "2026-10-19T15:44:45+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "qilin",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Helix",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 15
+   "count": 16
   },
   {
    "name": "Technology",
@@ -66,27 +66,21 @@
  "by_country": [
   {
    "code": "US",
-   "count": 52,
+   "count": 53,
    "lat": 39.0,
    "lon": -77.5
+  },
+  {
+   "code": "BR",
+   "count": 3,
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "DE",
    "count": 3,
    "lat": 50.1,
    "lon": 8.7
-  },
-  {
-   "code": "KR",
-   "count": 3,
-   "lat": 37.6,
-   "lon": 127.0
-  },
-  {
-   "code": "BR",
-   "count": 2,
-   "lat": -23.5,
-   "lon": -46.6
   },
   {
    "code": "EG",
@@ -105,6 +99,12 @@
    "count": 2,
    "lat": 35.7,
    "lon": 139.7
+  },
+  {
+   "code": "KR",
+   "count": 2,
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "MY",
@@ -186,6 +186,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "The Akeeli Group",
+   "group": "N0n",
+   "date": "2026-10-19T10:26:21+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/VGhlIEFrZWVsaSBHcm91cEBOMG4="
+  },
+  {
+   "victim": "GTL Concreto e Logística LTDA",
+   "group": "emperador",
+   "date": "2026-10-19T10:22:09+00:00",
+   "attack_date": "2026-10-19",
+   "country": "BR",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/R1RMIENvbmNyZXRvIGUgTG9nw61zdGljYSBMVERBQGVtcGVyYWRvcg=="
+  },
   {
    "victim": "Company #94",
    "group": "N0n",
@@ -1067,24 +1085,6 @@
    "country": "EG",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzBATjBu"
-  },
-  {
-   "victim": "Company #73",
-   "group": "N0n",
-   "date": "2026-10-15T16:23:00+00:00",
-   "attack_date": "2026-10-15",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzNATjBu"
-  },
-  {
-   "victim": "KD Corp",
-   "group": "qilin",
-   "date": "2026-10-15T15:02:16+00:00",
-   "attack_date": "2026-10-15",
-   "country": "KR",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/S0QgQ29ycEBxaWxpbg=="
   }
  ]
 }

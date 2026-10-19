@@ -2,38 +2,32 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1591,
-  "c2_servers": 687,
+  "total_iocs": 1253,
+  "c2_servers": 699,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 312,
-    "c2": 312,
+    "iocs": 315,
+    "c2": 315,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 237,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
-    "name": "IClickFix",
-    "iocs": 176,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "Mirai",
-    "iocs": 131,
+    "iocs": 129,
     "c2": 78,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 111,
-    "c2": 1,
+    "iocs": 105,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 62,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Sliver",
@@ -49,9 +43,15 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 36,
+    "iocs": 37,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 29,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "SMSspy",
@@ -60,17 +60,50 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.smsspy"
    },
    {
-    "name": "ClearFake",
-    "iocs": 26,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+    "name": "Hermes",
+    "iocs": 22,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.hermes"
    }
   ]
  },
  "urls": {
-  "sample": 0,
-  "online": 0,
-  "top_tags": []
+  "sample": 829,
+  "online": 578,
+  "top_tags": [
+   {
+    "name": "Mozi",
+    "count": 312
+   },
+   {
+    "name": "mirai",
+    "count": 282
+   },
+   {
+    "name": "elf",
+    "count": 239
+   },
+   {
+    "name": "32-bit",
+    "count": 122
+   },
+   {
+    "name": "mips",
+    "count": 89
+   },
+   {
+    "name": "arm",
+    "count": 58
+   },
+   {
+    "name": "ua-wget",
+    "count": 58
+   },
+   {
+    "name": "cowrie",
+    "count": 51
+   }
+  ]
  },
  "ports": [
   {
@@ -179,6 +212,27 @@
  ],
  "pulses": [
   {
+   "name": "AOMEI Backupper update servers hijacked to push malware: Check your PC",
+   "summary": "Between April and July 2026, attackers compromised AOMEI Technology's update and notification infrastructure to distribute malware to users of AOMEI Backupper, backup software used by over 100 million people worldwide…",
+   "date": "2026-10-19T15:07:20+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "upgrade-now.exe"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "aomei backupper",
+    "remote access backdoor",
+    "supply chain attack",
+    "upgrade-now.exe",
+    "update infrastructure compromise",
+    "software distribution hijacking"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad632287e9fae87583d6526"
+  },
+  {
    "name": "ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks",
    "summary": "A Microsoft 365 API credential belonging to ConnectWise Cloud Backup (formerly SkyKick) was compromised and used to gain unauthorized access to customer M365 environments. The threat actor authenticated from IP address…",
    "date": "2026-10-19T09:50:47+00:00",
@@ -199,6 +253,28 @@
     "connectwise"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad5e7f75d4f869db2238e26"
+  },
+  {
+   "name": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
+   "summary": "Multiple Plex Media Server vulnerabilities announced in September 2026 are being actively exploited to deploy cryptominers and proxy software. The exploitation chains together four CVEs to achieve remote code execution…",
+   "date": "2026-10-19T06:03:53+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "XMRig",
+    "myawesomeproxy"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "cve-2026-96656",
+    "cve-2026-96654",
+    "proxy",
+    "exploitation",
+    "myawesomeproxy",
+    "xmrig"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad5b2c95417d4d1ac959070"
   },
   {
    "name": "CVE-2026-88771: Inside the Exploitation of a Critical NetScaler RCE Vulnerability",
@@ -422,57 +498,13 @@
     "lazarus"
    ],
    "url": "https://otx.alienvault.com/pulse/6aadad46b23f435094676848"
-  },
-  {
-   "name": "WeaselBiscuit Strips BeaverTail and OtterCookie Down to Essentials",
-   "summary": "A new JavaScript infostealer dubbed WeaselBiscuit has been discovered hidden in 11 malicious npm packages. This lean malware shares operational similarities with DPRK-linked BeaverTail and OtterCookie families but…",
-   "date": "2026-09-18T13:37:03+00:00",
-   "author": "AlienVault",
-   "adversary": "DPRK",
-   "malware": [
-    "WeaselBiscuit",
-    "BeaverTail",
-    "OtterCookie",
-    "InvisibleFerret"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "weaselbiscuit",
-    "beavertail",
-    "chrome extension theft",
-    "ottercookie",
-    "invisibleferret",
-    "npm supply chain"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aad3e7f8cc155ff864b444b"
-  },
-  {
-   "name": "PolinRider Spreads Through Compromised GitHub Accounts and Packagist",
-   "summary": "PolinRider operators compromised a GitHub account to insert malicious code into development versions of visanduma/nova-two-factor, a Packagist package with over 700,000 downloads. The campaign spreads through…",
-   "date": "2026-09-18T12:51:25+00:00",
-   "author": "AlienVault",
-   "adversary": "PolinRider",
-   "malware": [
-    "PolinRider"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "infostealer",
-    "polinrider",
-    "supply chain"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aad33cda70ed83efd0e0a73"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-19T14:21:11+00:00",
-  "sans": "2026-10-19T14:21:11+00:00",
-  "otx": "2026-10-19T14:21:11+00:00",
-  "urlhaus": "2026-10-19T14:21:11+00:00"
+  "threatfox": "2026-10-19T15:44:45+00:00",
+  "sans": "2026-10-19T15:44:45+00:00",
+  "otx": "2026-10-19T15:44:45+00:00",
+  "urlhaus": "2026-10-19T15:44:45+00:00"
  },
- "generated_at": "2026-10-19T14:21:11+00:00"
+ "generated_at": "2026-10-19T15:44:45+00:00"
 }
