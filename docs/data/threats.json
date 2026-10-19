@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1493,
-  "c2_servers": 735,
+  "total_iocs": 1644,
+  "c2_servers": 723,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 334,
-    "c2": 334,
+    "iocs": 317,
+    "c2": 317,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 244,
+    "iocs": 243,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -25,13 +25,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 152,
+    "iocs": 153,
     "c2": 82,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 114,
+    "iocs": 115,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -43,8 +43,8 @@
    },
    {
     "name": "Remcos",
-    "iocs": 42,
-    "c2": 39,
+    "iocs": 43,
+    "c2": 40,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    },
    {
@@ -55,53 +55,53 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 30,
+    "iocs": 31,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "ClearFake",
-    "iocs": 27,
+    "iocs": 28,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    }
   ]
  },
  "urls": {
-  "sample": 710,
-  "online": 522,
+  "sample": 731,
+  "online": 534,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 251
+    "count": 264
    },
    {
     "name": "mirai",
-    "count": 245
+    "count": 250
    },
    {
     "name": "elf",
-    "count": 194
+    "count": 199
    },
    {
     "name": "32-bit",
-    "count": 102
+    "count": 104
    },
    {
     "name": "mips",
     "count": 73
    },
    {
+    "name": "arm",
+    "count": 49
+   },
+   {
     "name": "ua-wget",
     "count": 48
    },
    {
-    "name": "arm",
-    "count": 46
-   },
-   {
     "name": "cowrie",
-    "count": 32
+    "count": 37
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 451259,
-   "targets": 208,
-   "sources": 2382
+   "records": 1077596,
+   "targets": 241,
+   "sources": 4378
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 341172,
-   "targets": 228,
-   "sources": 3830
+   "records": 747142,
+   "targets": 261,
+   "sources": 6829
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 132092,
-   "targets": 209,
-   "sources": 2948
+   "records": 327812,
+   "targets": 232,
+   "sources": 4913
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 95063,
-   "targets": 227,
-   "sources": 3097
+   "records": 257134,
+   "targets": 264,
+   "sources": 5622
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 92810,
-   "targets": 213,
-   "sources": 2364
+   "records": 216848,
+   "targets": 263,
+   "sources": 4088
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 56079,
-   "targets": 207,
-   "sources": 1861
+   "records": 147846,
+   "targets": 256,
+   "sources": 3186
   },
   {
    "port": 2222,
    "service": null,
-   "records": 31279,
-   "targets": 209,
-   "sources": 1284
+   "records": 72316,
+   "targets": 246,
+   "sources": 2388
   },
   {
    "port": 6881,
    "service": null,
-   "records": 23850,
-   "targets": 143,
-   "sources": 528
+   "records": 50711,
+   "targets": 207,
+   "sources": 1128
   },
   {
    "port": 2323,
    "service": "Telnet (alt)",
-   "records": 21114,
-   "targets": 139,
-   "sources": 311
+   "records": 46799,
+   "targets": 202,
+   "sources": 683
   },
   {
    "port": 51413,
    "service": null,
-   "records": 17478,
-   "targets": 9,
-   "sources": 629
+   "records": 36962,
+   "targets": 25,
+   "sources": 1137
   }
  ],
  "ports_date": "2026-10-19",
@@ -211,28 +211,6 @@
   }
  ],
  "pulses": [
-  {
-   "name": "Variola: From ClickFix to a Modular Implant",
-   "summary": "Blackpoint's Adversary Pursuit Group traced a ClickFix intrusion to a previously unclassified modular Windows implant designated Variola. The malware establishes persistent host identity through encrypted storage…",
-   "date": "2026-10-16T02:15:43+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Variola",
-    "Aura Stealer"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "banking trojan",
-    "credential theft",
-    "variola",
-    "chromium",
-    "modular implant",
-    "github payload"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad188cfaac94d891e960fa6"
-  },
   {
    "name": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
    "summary": "An espionage campaign tracked as CL-UNK-1211 targeted government entities and state-affiliated infrastructure between October 2025 and April 2026, utilizing AI-generated payloads containing conversational annotations…",
@@ -321,6 +299,35 @@
     "cve-2024-3273"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad0e1295c816b236074f6a2"
+  },
+  {
+   "name": "Don't Call Us, We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties",
+   "summary": "In 2026, the DPRK-sponsored Lazarus subgroup TraderTraitor continued campaigns targeting cryptocurrency entities, including a high-profile attack on LayerZero resulting in $292 million theft from KelpDAO. Following this…",
+   "date": "2026-09-19T08:44:15+00:00",
+   "author": "AlienVault",
+   "adversary": "TraderTraitor",
+   "malware": [
+    "FLATROOF",
+    "ROOFDECK",
+    "macOS.Gaslight"
+   ],
+   "countries": [
+    "British Indian Ocean Territory",
+    "India"
+   ],
+   "industries": [
+    "Technology",
+    "Finance"
+   ],
+   "tags": [
+    "dprk",
+    "cryptocurrency theft",
+    "social engineering",
+    "roofdeck",
+    "lazarus",
+    "macos.gaslight"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aae4b5f7a0d5f15edf2a5f1"
   },
   {
    "name": "ChainScript: Tracing a Node.js RAT Through the Blockchain",
@@ -490,10 +497,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-19T07:29:32+00:00",
-  "sans": "2026-10-19T07:29:32+00:00",
-  "otx": "2026-10-19T07:29:32+00:00",
-  "urlhaus": "2026-10-19T07:29:32+00:00"
+  "threatfox": "2026-10-19T08:51:38+00:00",
+  "sans": "2026-10-19T08:51:38+00:00",
+  "otx": "2026-10-19T08:51:38+00:00",
+  "urlhaus": "2026-10-19T08:51:38+00:00"
  },
- "generated_at": "2026-10-19T07:29:32+00:00"
+ "generated_at": "2026-10-19T08:51:38+00:00"
 }
