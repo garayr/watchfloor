@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-18T23:44:30+00:00",
+ "generated_at": "2026-10-19T00:50:44+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 32
+   "count": 33
   },
   {
    "name": "qilin",
-   "count": 14
+   "count": 13
   },
   {
    "name": "THE SEVEN DEADLY SINS",
@@ -44,7 +44,7 @@
   },
   {
    "name": "Technology",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Healthcare",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 47,
+   "count": 46,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -89,6 +89,12 @@
    "lon": 12.5
   },
   {
+   "code": "KR",
+   "count": 3,
+   "lat": 37.6,
+   "lon": 127.0
+  },
+  {
    "code": "BR",
    "count": 2,
    "lat": -23.5,
@@ -99,12 +105,6 @@
    "count": 2,
    "lat": 35.7,
    "lon": 139.7
-  },
-  {
-   "code": "KR",
-   "count": 2,
-   "lat": 37.6,
-   "lon": 127.0
   },
   {
    "code": "MX",
@@ -192,6 +192,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #92",
+   "group": "N0n",
+   "date": "2026-10-18T20:25:29+00:00",
+   "attack_date": "2026-10-18",
+   "country": "KR",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTJATjBu"
+  },
   {
    "victim": "********rta.ch",
    "group": "cloak",
@@ -1082,15 +1091,6 @@
    "country": "NG",
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/SG9jb24gR2FzQHFpbGlu"
-  },
-  {
-   "victim": "HyperGen",
-   "group": "qilin",
-   "date": "2026-10-15T12:08:51+00:00",
-   "attack_date": "2026-10-15",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/SHlwZXJHZW5AcWlsaW4="
   }
  ]
 }
