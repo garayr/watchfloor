@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T16:47:27+00:00",
+ "generated_at": "2026-10-20T17:24:09+00:00",
  "sources": [
   {
    "name": "CISA KEV",
@@ -44,9 +44,33 @@
    "error": null
   },
   {
-   "name": "abuse.ch ThreatFox",
+   "name": "Cloudflare Radar",
    "ok": true,
-   "count": 1615,
+   "count": 48,
+   "error": null
+  },
+  {
+   "name": "Ransomware.live",
+   "ok": true,
+   "count": 100,
+   "error": null
+  },
+  {
+   "name": "Have I Been Pwned",
+   "ok": true,
+   "count": 15,
+   "error": null
+  },
+  {
+   "name": "abuse.ch URLhaus",
+   "ok": true,
+   "count": 989,
+   "error": null
+  },
+  {
+   "name": "AlienVault OTX",
+   "ok": true,
+   "count": 20,
    "error": null
   },
   {
@@ -54,6 +78,12 @@
    "ok": false,
    "count": 0,
    "error": "all SANS requests failed"
+  },
+  {
+   "name": "Ransomware.live gang profiles",
+   "ok": true,
+   "count": 1,
+   "error": null
   },
   {
    "name": "Phone alerts",
