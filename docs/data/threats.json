@@ -2,36 +2,36 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1474,
-  "c2_servers": 676,
+  "total_iocs": 1558,
+  "c2_servers": 724,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 367,
-    "c2": 358,
+    "iocs": 363,
+    "c2": 354,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 153,
+    "iocs": 190,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 141,
+    "iocs": 148,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remus",
-    "iocs": 77,
-    "c2": 77,
+    "iocs": 98,
+    "c2": 98,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "ClearFake",
-    "iocs": 46,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -48,6 +48,12 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/ios.coruna"
    },
    {
+    "name": "CLOUDHAZE",
+    "iocs": 32,
+    "c2": 32,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cloudhaze"
+   },
+   {
     "name": "php.shin_webshell",
     "iocs": 32,
     "c2": 0,
@@ -58,18 +64,12 @@
     "iocs": 29,
     "c2": 29,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
-   },
-   {
-    "name": "VShell",
-    "iocs": 22,
-    "c2": 16,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    }
   ]
  },
  "urls": {
-  "sample": 899,
-  "online": 668,
+  "sample": 926,
+  "online": 685,
   "top_tags": [
    {
     "name": "github",
@@ -80,15 +80,19 @@
     "count": 317
    },
    {
-    "name": "Mozi",
-    "count": 241
+    "name": "elf",
+    "count": 260
    },
    {
-    "name": "elf",
-    "count": 238
+    "name": "Mozi",
+    "count": 251
    },
    {
     "name": "SalatStealer",
+    "count": 204
+   },
+   {
+    "name": "mirai",
     "count": 204
    },
    {
@@ -96,11 +100,7 @@
     "count": 204
    },
    {
-    "name": "mirai",
-    "count": 201
-   },
-   {
-    "name": "rar",
+    "name": "32-bit",
     "count": 142
    }
   ]
@@ -211,6 +211,89 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Active Exploitation of CVE-2026-110936 in Siemens Software Center",
+   "summary": "A DLL side-loading vulnerability in Software Center version 3.5.8.7 is being actively exploited by attackers. The threat actors distribute a genuine, digitally signed copy of the application alongside malicious DLL…",
+   "date": "2026-10-20T14:43:58+00:00",
+   "author": "AlienVault",
+   "adversary": "Romulus",
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "software supply chain",
+    "cve-2026-110936",
+    "clickfix",
+    "industrial software"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad77e2e717e0153aa2fda49"
+  },
+  {
+   "name": "Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries",
+   "summary": "Russian espionage group Swallowtail targeted organizations across two NATO member states, including a law enforcement agency, naval shipbuilder, and military aircraft engine manufacturer. During a two-month intrusion at…",
+   "date": "2026-10-20T11:23:32+00:00",
+   "author": "AlienVault",
+   "adversary": "APT28",
+   "malware": [
+    "Hookedge"
+   ],
+   "countries": [],
+   "industries": [
+    "Defense",
+    "Government",
+    "Aerospace"
+   ],
+   "tags": [
+    "nato",
+    "forest blizzard",
+    "apt28",
+    "naval shipbuilder",
+    "fancy bear"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad74f34161c4cb0598be46f"
+  },
+  {
+   "name": "CVE-2026-102764: Critical BeyondTrust Remote Support Authentication Bypass Exploited in the Wild",
+   "summary": "A critical authentication bypass vulnerability in BeyondTrust Remote Support platform allows unauthenticated remote attackers to perform file operations without user interaction. Versions 26.2.3 and earlier are…",
+   "date": "2026-10-20T07:45:22+00:00",
+   "author": "AlienVault",
+   "adversary": "ARMORY CASTLE",
+   "malware": [
+    "SAWFLY",
+    "BARECLAW"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "bareclaw",
+    "sawfly",
+    "beyondtrust",
+    "prc-nexus",
+    "cve-2026-102764"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad71c12c5136d952c0cda96"
+  },
+  {
+   "name": "NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779",
+   "summary": "In early October 2026, analysts investigated a compromise of a Citrix NetScaler ADC appliance running an affected 14.1 build. Attackers chained two vulnerabilities: CVE-2026-88771 (pre-authentication log-poisoning/RCE)…",
+   "date": "2026-10-20T07:42:46+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "WHIPSHOT",
+    "SLAPSHOT"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "cve-2026-88779",
+    "php webshell",
+    "netscaler",
+    "cve-2026-88771",
+    "whipshot"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad71b768e708ffb59419b43"
+  },
   {
    "name": "AOMEI Backupper update servers hijacked to push malware: Check your PC",
    "summary": "Between April and July 2026, attackers compromised AOMEI Technology's update and notification infrastructure to distribute malware to users of AOMEI Backupper, backup software used by over 100 million people worldwide…",
@@ -383,128 +466,13 @@
     "hotejka"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad1d2421e774bf7224baf2b"
-  },
-  {
-   "name": "BREAK THE SILENCE: Tracking Silent Lynx Through Exposed Infrastructure",
-   "summary": "Silent Lynx, a persistent cyber espionage threat actor, has conducted targeted intrusion campaigns against government ministries, diplomatic missions, and civil society organizations across Central Asia since 2024. The…",
-   "date": "2026-10-16T07:21:52+00:00",
-   "author": "AlienVault",
-   "adversary": "silent lynx",
-   "malware": [
-    "Laplas",
-    "Chvost",
-    "PickleShell",
-    "SSDPShell",
-    "Ligolo-ng",
-    "Cobalt Strike - S0154"
-   ],
-   "countries": [
-    "Armenia",
-    "Azerbaijan",
-    "Belarus",
-    "Kazakhstan",
-    "Kyrgyzstan",
-    "Russian Federation"
-   ],
-   "industries": [
-    "Government",
-    "Energy",
-    "NGO"
-   ],
-   "tags": [
-    "silent lynx",
-    "chvost",
-    "laplas",
-    "cobalt strike",
-    "github staging",
-    "pickleshell"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad1d090651f974e1ec049ed"
-  },
-  {
-   "name": "Don't Call Us, We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties",
-   "summary": "In 2026, the DPRK-sponsored Lazarus subgroup TraderTraitor continued campaigns targeting cryptocurrency entities, including a high-profile attack on LayerZero resulting in $292 million theft from KelpDAO. Following this…",
-   "date": "2026-09-19T08:44:15+00:00",
-   "author": "AlienVault",
-   "adversary": "TraderTraitor",
-   "malware": [
-    "FLATROOF",
-    "ROOFDECK",
-    "macOS.Gaslight"
-   ],
-   "countries": [
-    "British Indian Ocean Territory",
-    "India"
-   ],
-   "industries": [
-    "Technology",
-    "Finance"
-   ],
-   "tags": [
-    "dprk",
-    "cryptocurrency theft",
-    "social engineering",
-    "roofdeck",
-    "lazarus",
-    "macos.gaslight"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aae4b5f7a0d5f15edf2a5f1"
-  },
-  {
-   "name": "ChainScript: Tracing a Node.js RAT Through the Blockchain",
-   "summary": "Blackpoint's Adversary Pursuit Group identified ChainScript, a previously unnamed Node.js remote access trojan discovered during ClickFix investigation. The malware disguises itself as legitimate software including…",
-   "date": "2026-09-18T21:49:13+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ChainScript",
-    "Tsundere",
-    "EtherRAT"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "clickfix",
-    "etherhiding",
-    "chainscript",
-    "msi installer",
-    "tsundere",
-    "polygon blockchain"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aadb1d95b011345c9fea41b"
-  },
-  {
-   "name": "Lazarus luring employees with trojanized coding challenges: The case of a Spanish aerospace company",
-   "summary": "ESET researchers uncovered a Lazarus attack against a Spanish aerospace company where attackers masqueraded as Meta recruiters on LinkedIn, sending trojanized coding challenges to employees. The campaign deployed…",
-   "date": "2026-09-18T21:29:42+00:00",
-   "author": "AlienVault",
-   "adversary": "Lazarus",
-   "malware": [
-    "LightlessCan",
-    "NickelLoader",
-    "miniBlindingCan",
-    "BLINDINGCAN - S0520"
-   ],
-   "countries": [],
-   "industries": [
-    "Aerospace"
-   ],
-   "tags": [
-    "lightlesscan",
-    "dll side-loading",
-    "linkedin",
-    "cyberespionage",
-    "miniblindingcan",
-    "lazarus"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aadad46b23f435094676848"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-20T13:51:52+00:00",
-  "sans": "2026-10-20T13:51:52+00:00",
-  "otx": "2026-10-20T13:51:52+00:00",
-  "urlhaus": "2026-10-20T13:51:52+00:00"
+  "threatfox": "2026-10-20T15:01:39+00:00",
+  "sans": "2026-10-20T15:01:39+00:00",
+  "otx": "2026-10-20T15:01:39+00:00",
+  "urlhaus": "2026-10-20T15:01:39+00:00"
  },
- "generated_at": "2026-10-20T13:51:52+00:00"
+ "generated_at": "2026-10-20T15:01:39+00:00"
 }
