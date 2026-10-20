@@ -1,6 +1,172 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-106931",
+   "date": "2026-10-20",
+   "src": "CISA",
+   "vendor": "EG Secure Solutions SiteGuard Server Edition",
+   "vendor_name": "EG Secure Solutions",
+   "product": "SiteGuard Server Edition",
+   "title": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+   "detail": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-106931"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+   "kev": true,
+   "epss": 0.0066,
+   "cvss": 8.5,
+   "sev": "high"
+  },
+  {
+   "id": "CVE-2026-96656",
+   "date": "2026-10-20",
+   "src": "CISA",
+   "vendor": "Plex Media Server",
+   "vendor_name": "Plex",
+   "product": "Media Server",
+   "title": "Plex Media Server External Control of File Name or Path Vulnerability",
+   "detail": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-96656"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
+   "kev": true,
+   "epss": 0.004,
+   "cvss": 8.6,
+   "sev": "high",
+   "news": [
+    {
+     "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+     "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+     "source": "The Hacker News",
+     "date": "2026-10-19T17:32:13+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-96655",
+   "date": "2026-10-20",
+   "src": "CISA",
+   "vendor": "Plex Media Server",
+   "vendor_name": "Plex",
+   "product": "Media Server",
+   "title": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "detail": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-96655"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+   "kev": true,
+   "epss": 0.0022,
+   "cvss": 5.3,
+   "sev": "high",
+   "news": [
+    {
+     "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+     "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+     "source": "The Hacker News",
+     "date": "2026-10-19T17:32:13+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-96654",
+   "date": "2026-10-20",
+   "src": "CISA",
+   "vendor": "Plex Media Server",
+   "vendor_name": "Plex",
+   "product": "Media Server",
+   "title": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+   "detail": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-96654"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
+   "kev": true,
+   "epss": 0.0023,
+   "cvss": 6.9,
+   "sev": "high",
+   "news": [
+    {
+     "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+     "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+     "source": "The Hacker News",
+     "date": "2026-10-19T17:32:13+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-96652",
+   "date": "2026-10-20",
+   "src": "CISA",
+   "vendor": "Plex Media Server",
+   "vendor_name": "Plex",
+   "product": "Media Server",
+   "title": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "detail": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-96652"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+   "kev": true,
+   "epss": 0.0022,
+   "cvss": 5.3,
+   "sev": "high",
+   "news": [
+    {
+     "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+     "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+     "source": "The Hacker News",
+     "date": "2026-10-19T17:32:13+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-110936",
+   "date": "2026-10-20",
+   "src": "CISA",
+   "vendor": "Siemens Software Center",
+   "vendor_name": "Siemens",
+   "product": "Software Center",
+   "title": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+   "detail": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-110936"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
+   "kev": true,
+   "epss": 0.0014,
+   "cvss": 8.4,
+   "sev": "high",
+   "news": [
+    {
+     "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+     "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+     "source": "The Hacker News",
+     "date": "2026-10-20T07:11:45+00:00"
+    }
+   ]
+  },
+  {
    "id": "CVE-2026-102764",
    "date": "2026-10-16",
    "src": "CISA",

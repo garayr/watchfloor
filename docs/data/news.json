@@ -166,7 +166,10 @@
      "source": "The Hacker News",
      "date": "2026-10-20T07:11:45+00:00",
      "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-110936"
+     ]
     },
     {
      "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
@@ -182,7 +185,13 @@
      "source": "The Hacker News",
      "date": "2026-10-19T17:32:13+00:00",
      "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-96656",
+      "CVE-2026-96655",
+      "CVE-2026-96654",
+      "CVE-2026-96652"
+     ]
     }
    ]
   },
