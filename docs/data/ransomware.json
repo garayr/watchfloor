@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T06:31:51+00:00",
+ "generated_at": "2026-10-20T08:01:35+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -44,7 +44,7 @@
   },
   {
    "name": "Technology",
-   "count": 11
+   "count": 10
   },
   {
    "name": "Professional Services",
@@ -131,12 +131,6 @@
    "lon": 16.4
   },
   {
-   "code": "AU",
-   "count": 1,
-   "lat": -33.9,
-   "lon": 151.2
-  },
-  {
    "code": "BE",
    "count": 1,
    "lat": 50.8,
@@ -216,6 +210,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Fisher59",
+   "group": "anubis",
+   "date": "2026-10-20T03:57:32+00:00",
+   "attack_date": "2026-10-20",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/RmlzaGVyNTlAYW51Ymlz"
+  },
   {
    "victim": "BW Office World",
    "group": "payload",
@@ -1106,15 +1109,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/R2xvYmVpYSBJbmMuQFRIRSBTRVZFTiBERUFETFkgU0lOUw=="
-  },
-  {
-   "victim": "Canva",
-   "group": "THE SEVEN DEADLY SINS",
-   "date": "2026-10-16T09:33:01+00:00",
-   "attack_date": "2026-10-16",
-   "country": "AU",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Q2FudmFAVEhFIFNFVkVOIERFQURMWSBTSU5T"
   }
  ]
 }
