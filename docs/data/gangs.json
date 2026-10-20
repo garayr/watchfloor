@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T04:27:31+00:00",
+ "generated_at": "2026-10-20T05:00:01+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1973,8 +1973,8 @@
    "description": "Initially observed in June 2022, the Play ransomware (a.k.a PlayCrypt) operates through double extortion, targeting numerous organizations in Latin America. Its Initial Access method is quite similar to other ransomwares, involving attacks such as Phishing, Exposed Services to the Internet, and Valid Account compromises. On April 19, 2023, the security company Symantec published two new tools developed by the Play group. These tools allow the malicious actor to enumerate and exfiltrate data from the internal network. The post mentions the following: 'Play threat actors use the.NET infostealer to enumerate software and services via WMI, WinRM, Remote Registry, and Remote Service. The malware checks for the existence of security and backup software, as well as remote administration tools and other programs, saving the information in.CSV files that are compressed into a.ZIP file for later manual exfiltration by threat actors.'Source: https://github.com/crocodyli/ThreatActors-TTPs",
    "aliases": [],
    "first_seen": "2022-11-26",
-   "last_seen": "2026-10-13",
-   "victims_total": 1329,
+   "last_seen": "2026-10-16",
+   "victims_total": 1333,
    "cves": [],
    "tools": [
     "HandleKatz",
@@ -2047,7 +2047,7 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 352
+      "count": 353
      },
      {
       "name": "Professional Services",
@@ -2055,7 +2055,7 @@
      },
      {
       "name": "Technology",
-      "count": 168
+      "count": 169
      },
      {
       "name": "Retail & E-Commerce",
@@ -2118,11 +2118,11 @@
     },
     {
      "month": "2026-10",
-     "count": 7
+     "count": 11
     }
    ],
-   "history_size": 1329,
-   "updated": "2026-10-13T04:58:26+00:00"
+   "history_size": 1333,
+   "updated": "2026-10-20T05:00:01+00:00"
   },
   "interlock": {
    "name": "interlock",
