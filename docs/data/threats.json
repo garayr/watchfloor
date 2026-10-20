@@ -2,44 +2,50 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1845,
-  "c2_servers": 783,
+  "total_iocs": 1946,
+  "c2_servers": 792,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 375,
-    "c2": 366,
+    "iocs": 380,
+    "c2": 371,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 328,
+    "iocs": 329,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 181,
+    "iocs": 183,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remus",
-    "iocs": 169,
-    "c2": 169,
+    "iocs": 172,
+    "c2": 172,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
-    "name": "ClearFake",
-    "iocs": 46,
+    "name": "IClickFix",
+    "iocs": 78,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 38,
+    "iocs": 54,
     "c2": 16,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 40,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "VShell",
@@ -58,12 +64,6 @@
     "iocs": 33,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "MacSync",
-    "iocs": 32,
-    "c2": 26,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.macsync"
    }
   ]
  },
@@ -469,10 +469,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-20T22:09:10+00:00",
-  "sans": "2026-10-20T22:09:10+00:00",
+  "threatfox": "2026-10-20T23:05:58+00:00",
+  "sans": "2026-10-20T23:05:58+00:00",
   "otx": "2026-10-20T22:37:43+00:00",
   "urlhaus": "2026-10-20T22:37:43+00:00"
  },
- "generated_at": "2026-10-20T22:37:43+00:00"
+ "generated_at": "2026-10-20T23:05:58+00:00"
 }
