@@ -2,36 +2,30 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1267,
-  "c2_servers": 621,
+  "total_iocs": 1165,
+  "c2_servers": 558,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 325,
-    "c2": 325,
+    "iocs": 323,
+    "c2": 323,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 127,
+    "iocs": 134,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 89,
-    "c2": 3,
+    "iocs": 100,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 48,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 42,
+    "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -48,60 +42,66 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "SMSspy",
-    "iocs": 27,
-    "c2": 15,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.smsspy"
-   },
-   {
     "name": "Aisuru",
     "iocs": 26,
     "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    },
    {
-    "name": "Remcos",
+    "name": "VShell",
     "iocs": 24,
-    "c2": 23,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+    "c2": 18,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "RN Stealer",
+    "iocs": 21,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.rn_stealer"
+   },
+   {
+    "name": "Formbook",
+    "iocs": 20,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    }
   ]
  },
  "urls": {
-  "sample": 539,
-  "online": 377,
+  "sample": 863,
+  "online": 694,
   "top_tags": [
    {
+    "name": "github",
+    "count": 349
+   },
+   {
+    "name": "zapret",
+    "count": 317
+   },
+   {
     "name": "Mozi",
-    "count": 203
+    "count": 211
    },
    {
     "name": "elf",
-    "count": 199
+    "count": 207
+   },
+   {
+    "name": "SalatStealer",
+    "count": 204
+   },
+   {
+    "name": "zip",
+    "count": 204
    },
    {
     "name": "mirai",
-    "count": 151
+    "count": 185
    },
    {
-    "name": "32-bit",
-    "count": 102
-   },
-   {
-    "name": "ua-wget",
-    "count": 73
-   },
-   {
-    "name": "mips",
-    "count": 67
-   },
-   {
-    "name": "arm",
-    "count": 53
-   },
-   {
-    "name": "cowrie",
-    "count": 43
+    "name": "rar",
+    "count": 142
    }
   ]
  },
@@ -501,10 +501,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-20T05:28:17+00:00",
-  "sans": "2026-10-20T05:28:17+00:00",
-  "otx": "2026-10-20T05:28:17+00:00",
-  "urlhaus": "2026-10-20T05:28:17+00:00"
+  "threatfox": "2026-10-20T06:31:51+00:00",
+  "sans": "2026-10-20T06:31:51+00:00",
+  "otx": "2026-10-20T06:31:51+00:00",
+  "urlhaus": "2026-10-20T06:31:51+00:00"
  },
- "generated_at": "2026-10-20T05:28:17+00:00"
+ "generated_at": "2026-10-20T06:31:51+00:00"
 }
