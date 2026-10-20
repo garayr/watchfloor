@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-20T21:40:07+00:00",
+ "generated_at": "2026-10-20T22:37:43+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 34
+   "count": 32
   },
   {
    "name": "qilin",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 8
+   "count": 9
   },
   {
    "name": "Professional Services",
@@ -234,6 +234,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Asensus Surgical",
+   "group": "Dark Project",
+   "date": "2026-10-20T17:53:03+00:00",
+   "attack_date": "2026-10-20",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/QXNlbnN1cyBTdXJnaWNhbEBEYXJrIFByb2plY3Q="
+  },
+  {
+   "victim": "The Excalibur Group",
+   "group": "Dark Project",
+   "date": "2026-10-20T17:52:21+00:00",
+   "attack_date": "2026-10-20",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/VGhlIEV4Y2FsaWJ1ciBHcm91cEBEYXJrIFByb2plY3Q="
+  },
   {
    "victim": "P...S...R...",
    "group": "SilentRansomGroup",
@@ -1115,24 +1133,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzhATjBu"
-  },
-  {
-   "victim": "Company #77",
-   "group": "N0n",
-   "date": "2026-10-16T15:56:01+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzdATjBu"
-  },
-  {
-   "victim": "Company #76",
-   "group": "N0n",
-   "date": "2026-10-16T15:55:26+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzZATjBu"
   }
  ]
 }
