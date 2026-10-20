@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-20T17:24:09+00:00",
+ "generated_at": "2026-10-20T18:22:15+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 40
+   "count": 35
   },
   {
    "name": "qilin",
@@ -15,6 +15,10 @@
   {
    "name": "Helix",
    "count": 7
+  },
+  {
+   "name": "Booba Project",
+   "count": 6
   },
   {
    "name": "everest",
@@ -29,10 +33,6 @@
    "count": 4
   },
   {
-   "name": "Redact",
-   "count": 3
-  },
-  {
    "name": "Storm",
    "count": 3
   }
@@ -40,11 +40,15 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 16
+   "count": 14
   },
   {
    "name": "Technology",
-   "count": 9
+   "count": 10
+  },
+  {
+   "name": "Healthcare",
+   "count": 8
   },
   {
    "name": "Professional Services",
@@ -55,10 +59,6 @@
    "count": 7
   },
   {
-   "name": "Healthcare",
-   "count": 6
-  },
-  {
    "name": "Education",
    "count": 5
   }
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 49,
+   "count": 51,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -87,6 +87,12 @@
    "count": 2,
    "lat": 46.9,
    "lon": 7.4
+  },
+  {
+   "code": "GB",
+   "count": 2,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "IT",
@@ -137,6 +143,12 @@
    "lon": 4.4
   },
   {
+   "code": "CA",
+   "count": 1,
+   "lat": 43.7,
+   "lon": -79.4
+  },
+  {
    "code": "CN",
    "count": 1,
    "lat": 39.9,
@@ -159,12 +171,6 @@
    "count": 1,
    "lat": 9.0,
    "lon": 38.7
-  },
-  {
-   "code": "GB",
-   "count": 1,
-   "lat": 51.5,
-   "lon": -0.1
   },
   {
    "code": "HK",
@@ -228,6 +234,87 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Duarte Nursery, Inc.",
+   "group": "aurora",
+   "date": "2026-10-20T14:04:48+00:00",
+   "attack_date": "2026-10-20",
+   "country": "US",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/RHVhcnRlIE51cnNlcnksIEluYy5AYXVyb3Jh"
+  },
+  {
+   "victim": "51Ridge (Newark NJ hosting/IT)",
+   "group": "N0n",
+   "date": "2026-10-20T13:59:48+00:00",
+   "attack_date": "2026-10-20",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/NTFSaWRnZSAoTmV3YXJrIE5KIGhvc3RpbmcvSVQpQE4wbg=="
+  },
+  {
+   "victim": "Research Foundation of The City University of New York",
+   "group": "Booba Project",
+   "date": "2026-10-20T13:56:28+00:00",
+   "attack_date": "2026-10-20",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/UmVzZWFyY2ggRm91bmRhdGlvbiBvZiBUaGUgQ2l0eSBVbml2ZXJzaXR5IG9mIE5ldyBZb3JrQEJvb2JhIFByb2plY3Q="
+  },
+  {
+   "victim": "Chicago Vein Institute",
+   "group": "Booba Project",
+   "date": "2026-10-20T13:56:07+00:00",
+   "attack_date": "2026-10-20",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Q2hpY2FnbyBWZWluIEluc3RpdHV0ZUBCb29iYSBQcm9qZWN0"
+  },
+  {
+   "victim": "Pearland Pediatrics",
+   "group": "Booba Project",
+   "date": "2026-10-20T13:55:45+00:00",
+   "attack_date": "2026-10-20",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/UGVhcmxhbmQgUGVkaWF0cmljc0BCb29iYSBQcm9qZWN0"
+  },
+  {
+   "victim": "City of Mt. Angel, Oregon",
+   "group": "Booba Project",
+   "date": "2026-10-20T13:55:24+00:00",
+   "attack_date": "2026-10-20",
+   "country": "US",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/Q2l0eSBvZiBNdC4gQW5nZWwsIE9yZWdvbkBCb29iYSBQcm9qZWN0"
+  },
+  {
+   "victim": "City Hall - Everett, MA",
+   "group": "Booba Project",
+   "date": "2026-10-20T13:55:01+00:00",
+   "attack_date": "2026-10-20",
+   "country": "US",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/Q2l0eSBIYWxsIC0gRXZlcmV0dCwgTUFAQm9vYmEgUHJvamVjdA=="
+  },
+  {
+   "victim": "OpenText",
+   "group": "Mimori",
+   "date": "2026-10-20T13:45:09+00:00",
+   "attack_date": "2026-10-20",
+   "country": "CA",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/T3BlblRleHRATWltb3Jp"
+  },
+  {
+   "victim": "Aveva",
+   "group": "Mimori",
+   "date": "2026-10-20T13:44:30+00:00",
+   "attack_date": "2026-10-20",
+   "country": "GB",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/QXZldmFATWltb3Jp"
+  },
   {
    "victim": "COASTAL CAROLINA NEUROPSYCHIATRIC CENTER, PA",
    "group": "Booba Project",
@@ -994,24 +1081,6 @@
    "url": "https://www.ransomware.live/id/T05FT0ssIEluYy5AUmVkYWN0"
   },
   {
-   "victim": "Data-Core Systems",
-   "group": "Vexy Ransomware",
-   "date": "2026-10-16T16:55:01+00:00",
-   "attack_date": "2026-10-16",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/RGF0YS1Db3JlIFN5c3RlbXNAVmV4eSBSYW5zb213YXJl"
-  },
-  {
-   "victim": "Girl Scouts of Eastern Massachusetts",
-   "group": "Wallstreet",
-   "date": "2026-10-16T16:00:49+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/R2lybCBTY291dHMgb2YgRWFzdGVybiBNYXNzYWNodXNldHRzQFdhbGxzdHJlZXQ="
-  },
-  {
    "victim": "Company #80",
    "group": "N0n",
    "date": "2026-10-16T15:57:47+00:00",
@@ -1064,69 +1133,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzJATjBu"
-  },
-  {
-   "victim": "Company #71",
-   "group": "N0n",
-   "date": "2026-10-16T15:54:15+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzFATjBu"
-  },
-  {
-   "victim": "Parker-Hannifin Corporation",
-   "group": "Redact",
-   "date": "2026-10-16T15:01:15+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UGFya2VyLUhhbm5pZmluIENvcnBvcmF0aW9uQFJlZGFjdA=="
-  },
-  {
-   "victim": "Company #82",
-   "group": "N0n",
-   "date": "2026-10-16T14:57:35+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODJATjBu"
-  },
-  {
-   "victim": "Company #81",
-   "group": "N0n",
-   "date": "2026-10-16T14:56:59+00:00",
-   "attack_date": "2026-10-16",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODFATjBu"
-  },
-  {
-   "victim": "Company #83",
-   "group": "N0n",
-   "date": "2026-10-16T14:56:23+00:00",
-   "attack_date": "2026-10-16",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODNATjBu"
-  },
-  {
-   "victim": "Xinos Construction Corp and its accounting group",
-   "group": "N0n",
-   "date": "2026-10-16T14:55:46+00:00",
-   "attack_date": "2026-10-16",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/WGlub3MgQ29uc3RydWN0aW9uIENvcnAgYW5kIGl0cyBhY2NvdW50aW5nIGdyb3VwQE4wbg=="
-  },
-  {
-   "victim": "BladeTech Inc",
-   "group": "N0n",
-   "date": "2026-10-16T14:55:05+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/QmxhZGVUZWNoIEluY0BOMG4="
   }
  ]
 }
