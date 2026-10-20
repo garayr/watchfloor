@@ -2,36 +2,36 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1138,
-  "c2_servers": 579,
+  "total_iocs": 1163,
+  "c2_servers": 577,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 333,
-    "c2": 333,
+    "iocs": 330,
+    "c2": 330,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 119,
+    "iocs": 122,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 50,
+    "iocs": 72,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 38,
+    "iocs": 40,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 38,
+    "iocs": 37,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -43,7 +43,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 34,
+    "iocs": 33,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -55,21 +55,21 @@
    },
    {
     "name": "VShell",
-    "iocs": 24,
-    "c2": 18,
+    "iocs": 25,
+    "c2": 19,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Aisuru",
-    "iocs": 23,
-    "c2": 23,
+    "iocs": 24,
+    "c2": 24,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    }
   ]
  },
  "urls": {
-  "sample": 420,
-  "online": 304,
+  "sample": 422,
+  "online": 306,
   "top_tags": [
    {
     "name": "Mozi",
@@ -107,78 +107,83 @@
  },
  "ports": [
   {
+   "port": 22,
+   "service": "SSH",
+   "records": 165,
+   "targets": 2,
+   "sources": 28
+  },
+  {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 2395046,
-   "targets": 290,
-   "sources": 9848
+   "records": 92,
+   "targets": 3,
+   "sources": 46
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 1409964,
-   "targets": 274,
-   "sources": 12474
+   "records": 69,
+   "targets": 2,
+   "sources": 54
   },
   {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 767805,
-   "targets": 257,
-   "sources": 8757
-  },
-  {
-   "port": 22,
-   "service": "SSH",
-   "records": 593905,
-   "targets": 279,
-   "sources": 9510
+   "port": 8443,
+   "service": "Web (HTTPS alt)",
+   "records": 48,
+   "targets": 2,
+   "sources": 10
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 486971,
-   "targets": 278,
-   "sources": 7711
+   "records": 30,
+   "targets": 2,
+   "sources": 24
+  },
+  {
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 18,
+   "targets": 2,
+   "sources": 14
+  },
+  {
+   "port": 81,
+   "service": "Web (alt)",
+   "records": 16,
+   "targets": 2,
+   "sources": 11
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 340298,
-   "targets": 275,
-   "sources": 5344
+   "records": 13,
+   "targets": 2,
+   "sources": 12
   },
   {
-   "port": 2222,
+   "port": 5555,
+   "service": "Android debug (ADB)",
+   "records": 13,
+   "targets": 2,
+   "sources": 9
+  },
+  {
+   "port": 3128,
    "service": null,
-   "records": 163248,
-   "targets": 271,
-   "sources": 4193
-  },
-  {
-   "port": 6881,
-   "service": null,
-   "records": 112295,
-   "targets": 240,
-   "sources": 1984
-  },
-  {
-   "port": 2323,
-   "service": "Telnet (alt)",
-   "records": 103177,
-   "targets": 239,
-   "sources": 1407
-  },
-  {
-   "port": 16767,
-   "service": null,
-   "records": 83122,
-   "targets": 8,
-   "sources": 3910
+   "records": 13,
+   "targets": 2,
+   "sources": 11
   }
  ],
- "ports_date": "2026-10-19",
+ "ports_date": "2026-10-20",
  "diary": [
+  {
+   "title": "ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142, (Tue, Oct 20th)",
+   "url": "https://isc.sans.edu/diary/rss/33436",
+   "date": "2026-10-20T02:00:03+00:00"
+  },
   {
    "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
    "url": "https://isc.sans.edu/diary/rss/33434",
@@ -203,11 +208,6 @@
    "title": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
    "url": "https://isc.sans.edu/diary/rss/33428",
    "date": "2026-10-15T02:00:03+00:00"
-  },
-  {
-   "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
-   "url": "https://isc.sans.edu/diary/rss/33420",
-   "date": "2026-10-14T06:49:46+00:00"
   }
  ],
  "pulses": [
@@ -501,10 +501,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-20T01:26:49+00:00",
-  "sans": "2026-10-20T01:26:49+00:00",
-  "otx": "2026-10-20T01:26:49+00:00",
-  "urlhaus": "2026-10-20T01:26:49+00:00"
+  "threatfox": "2026-10-20T02:26:42+00:00",
+  "sans": "2026-10-20T02:26:42+00:00",
+  "otx": "2026-10-20T02:26:42+00:00",
+  "urlhaus": "2026-10-20T02:26:42+00:00"
  },
- "generated_at": "2026-10-20T01:26:49+00:00"
+ "generated_at": "2026-10-20T02:26:42+00:00"
 }

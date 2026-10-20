@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T01:26:49+00:00",
+ "generated_at": "2026-10-20T02:26:42+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -18,7 +18,7 @@
   },
   {
    "name": "THE SEVEN DEADLY SINS",
-   "count": 7
+   "count": 6
   },
   {
    "name": "everest",
@@ -48,25 +48,25 @@
   },
   {
    "name": "Healthcare",
-   "count": 8
+   "count": 7
   },
   {
-   "name": "Financial Services",
-   "count": 6
+   "name": "Transportation",
+   "count": 7
   },
   {
    "name": "Professional Services",
    "count": 6
   },
   {
-   "name": "Transportation",
-   "count": 6
+   "name": "Education",
+   "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 52,
+   "count": 51,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -161,6 +161,12 @@
    "lon": 31.2
   },
   {
+   "code": "ES",
+   "count": 1,
+   "lat": 40.4,
+   "lon": -3.7
+  },
+  {
    "code": "GB",
    "count": 1,
    "lat": 51.5,
@@ -210,6 +216,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Toyota Canarias",
+   "group": "qilin",
+   "date": "2026-10-19T21:39:49+00:00",
+   "attack_date": "2026-10-19",
+   "country": "ES",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/VG95b3RhIENhbmFyaWFzQHFpbGlu"
+  },
+  {
+   "victim": "chooseultimate.com",
+   "group": "lockbit5",
+   "date": "2026-10-19T21:31:17+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/Y2hvb3NldWx0aW1hdGUuY29tQGxvY2tiaXQ1"
+  },
   {
    "victim": "Baker Donelson",
    "group": "Redact",
@@ -1091,24 +1115,6 @@
    "country": "US",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/SGFybmVzcyBJbmMuQFRIRSBTRVZFTiBERUFETFkgU0lOUw=="
-  },
-  {
-   "victim": "iHeartJane",
-   "group": "THE SEVEN DEADLY SINS",
-   "date": "2026-10-16T09:30:44+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/aUhlYXJ0SmFuZUBUSEUgU0VWRU4gREVBRExZIFNJTlM="
-  },
-  {
-   "victim": "Via Credit Union",
-   "group": "qilin",
-   "date": "2026-10-16T07:15:02+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/VmlhIENyZWRpdCBVbmlvbkBxaWxpbg=="
   }
  ]
 }
