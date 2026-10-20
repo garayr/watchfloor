@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-20T22:37:43+00:00",
+ "generated_at": "2026-10-20T23:35:27+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 32
+   "count": 31
   },
   {
    "name": "qilin",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 51,
+   "count": 52,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -234,6 +234,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "centralrogers.com",
+   "group": "incransom",
+   "date": "2026-10-20T19:23:14+00:00",
+   "attack_date": "2026-10-20",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/Y2VudHJhbHJvZ2Vycy5jb21AaW5jcmFuc29t"
+  },
   {
    "victim": "Asensus Surgical",
    "group": "Dark Project",
@@ -1124,15 +1133,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzlATjBu"
-  },
-  {
-   "victim": "Company #78",
-   "group": "N0n",
-   "date": "2026-10-16T15:56:36+00:00",
-   "attack_date": "2026-10-16",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzhATjBu"
   }
  ]
 }
