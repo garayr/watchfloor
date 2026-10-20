@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T03:25:46+00:00",
+ "generated_at": "2026-10-20T04:27:31+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -17,10 +17,6 @@
    "count": 7
   },
   {
-   "name": "THE SEVEN DEADLY SINS",
-   "count": 5
-  },
-  {
    "name": "everest",
    "count": 4
   },
@@ -35,20 +31,20 @@
   {
    "name": "Redact",
    "count": 3
+  },
+  {
+   "name": "Storm",
+   "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 15
+   "count": 16
   },
   {
    "name": "Technology",
    "count": 11
-  },
-  {
-   "name": "Healthcare",
-   "count": 7
   },
   {
    "name": "Professional Services",
@@ -59,6 +55,10 @@
    "count": 7
   },
   {
+   "name": "Healthcare",
+   "count": 6
+  },
+  {
    "name": "Education",
    "count": 5
   }
@@ -66,19 +66,19 @@
  "by_country": [
   {
    "code": "US",
-   "count": 51,
+   "count": 50,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 4,
+   "count": 5,
    "lat": 50.1,
    "lon": 8.7
   },
   {
    "code": "BR",
-   "count": 3,
+   "count": 2,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -216,6 +216,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "BW Office World",
+   "group": "payload",
+   "date": "2026-10-20T00:08:36+00:00",
+   "attack_date": "2026-10-20",
+   "country": null,
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/QlcgT2ZmaWNlIFdvcmxkQHBheWxvYWQ="
+  },
+  {
+   "victim": "Brüninghoff Group",
+   "group": "payload",
+   "date": "2026-10-20T00:07:26+00:00",
+   "attack_date": "2026-10-20",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/QnLDvG5pbmdob2ZmIEdyb3VwQHBheWxvYWQ="
+  },
   {
    "victim": "Rosenberg & Pittinsky",
    "group": "Global Secret Group",
@@ -1097,24 +1115,6 @@
    "country": "AU",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/Q2FudmFAVEhFIFNFVkVOIERFQURMWSBTSU5T"
-  },
-  {
-   "victim": "Hospital Sírio-Libanês",
-   "group": "THE SEVEN DEADLY SINS",
-   "date": "2026-10-16T09:32:26+00:00",
-   "attack_date": "2026-10-16",
-   "country": "BR",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/SG9zcGl0YWwgU8OtcmlvLUxpYmFuw6pzQFRIRSBTRVZFTiBERUFETFkgU0lOUw=="
-  },
-  {
-   "victim": "Verano Holdings",
-   "group": "THE SEVEN DEADLY SINS",
-   "date": "2026-10-16T09:31:52+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/VmVyYW5vIEhvbGRpbmdzQFRIRSBTRVZFTiBERUFETFkgU0lOUw=="
   }
  ]
 }

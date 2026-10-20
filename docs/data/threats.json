@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1233,
-  "c2_servers": 614,
+  "total_iocs": 1239,
+  "c2_servers": 618,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 328,
-    "c2": 328,
+    "iocs": 327,
+    "c2": 327,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 124,
+    "iocs": 118,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -25,13 +25,13 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 41,
+    "iocs": 45,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 38,
+    "iocs": 41,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -68,36 +68,36 @@
   ]
  },
  "urls": {
-  "sample": 436,
-  "online": 319,
+  "sample": 451,
+  "online": 326,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 182
+    "count": 193
    },
    {
     "name": "elf",
-    "count": 170
+    "count": 180
    },
    {
     "name": "mirai",
-    "count": 132
+    "count": 139
    },
    {
     "name": "32-bit",
-    "count": 87
+    "count": 97
    },
    {
     "name": "mips",
-    "count": 60
+    "count": 64
+   },
+   {
+    "name": "arm",
+    "count": 50
    },
    {
     "name": "ua-wget",
     "count": 46
-   },
-   {
-    "name": "arm",
-    "count": 44
    },
    {
     "name": "cowrie",
@@ -501,10 +501,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-20T03:25:46+00:00",
-  "sans": "2026-10-20T03:25:46+00:00",
-  "otx": "2026-10-20T03:25:46+00:00",
-  "urlhaus": "2026-10-20T03:25:46+00:00"
+  "threatfox": "2026-10-20T04:27:31+00:00",
+  "sans": "2026-10-20T04:27:31+00:00",
+  "otx": "2026-10-20T04:27:31+00:00",
+  "urlhaus": "2026-10-20T04:27:31+00:00"
  },
- "generated_at": "2026-10-20T03:25:46+00:00"
+ "generated_at": "2026-10-20T04:27:31+00:00"
 }
