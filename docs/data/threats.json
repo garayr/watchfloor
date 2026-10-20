@@ -2,31 +2,31 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1820,
-  "c2_servers": 764,
+  "total_iocs": 1845,
+  "c2_servers": 783,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 376,
-    "c2": 367,
+    "iocs": 375,
+    "c2": 366,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 326,
+    "iocs": 328,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 178,
+    "iocs": 181,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remus",
-    "iocs": 153,
-    "c2": 153,
+    "iocs": 169,
+    "c2": 169,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
@@ -42,16 +42,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
+    "name": "VShell",
+    "iocs": 37,
+    "c2": 31,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
     "name": "Coruna",
     "iocs": 35,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/ios.coruna"
-   },
-   {
-    "name": "VShell",
-    "iocs": 33,
-    "c2": 27,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "php.shin_webshell",
@@ -469,10 +469,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-20T21:10:37+00:00",
-  "sans": "2026-10-20T21:10:37+00:00",
+  "threatfox": "2026-10-20T22:09:10+00:00",
+  "sans": "2026-10-20T22:09:10+00:00",
   "otx": "2026-10-20T21:40:07+00:00",
   "urlhaus": "2026-10-20T21:40:07+00:00"
  },
- "generated_at": "2026-10-20T21:40:07+00:00"
+ "generated_at": "2026-10-20T22:09:10+00:00"
 }
