@@ -2,36 +2,36 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1239,
-  "c2_servers": 618,
+  "total_iocs": 1267,
+  "c2_servers": 621,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 327,
-    "c2": 327,
+    "iocs": 325,
+    "c2": 325,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 118,
+    "iocs": 127,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 88,
+    "iocs": 89,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 45,
+    "iocs": 48,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 41,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -55,8 +55,8 @@
    },
    {
     "name": "Aisuru",
-    "iocs": 25,
-    "c2": 25,
+    "iocs": 26,
+    "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.aisuru"
    },
    {
@@ -68,113 +68,113 @@
   ]
  },
  "urls": {
-  "sample": 451,
-  "online": 326,
+  "sample": 539,
+  "online": 377,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 193
+    "count": 203
    },
    {
     "name": "elf",
-    "count": 180
+    "count": 199
    },
    {
     "name": "mirai",
-    "count": 139
+    "count": 151
    },
    {
     "name": "32-bit",
-    "count": 97
-   },
-   {
-    "name": "mips",
-    "count": 64
-   },
-   {
-    "name": "arm",
-    "count": 50
+    "count": 102
    },
    {
     "name": "ua-wget",
-    "count": 46
+    "count": 73
+   },
+   {
+    "name": "mips",
+    "count": 67
+   },
+   {
+    "name": "arm",
+    "count": 53
    },
    {
     "name": "cowrie",
-    "count": 32
+    "count": 43
    }
   ]
  },
  "ports": [
   {
-   "port": 22,
-   "service": "SSH",
-   "records": 165,
-   "targets": 2,
-   "sources": 28
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 92,
-   "targets": 3,
-   "sources": 46
-  },
-  {
    "port": 23,
    "service": "Telnet",
-   "records": 69,
-   "targets": 2,
-   "sources": 54
+   "records": 347784,
+   "targets": 247,
+   "sources": 4919
   },
   {
-   "port": 8443,
-   "service": "Web (HTTPS alt)",
-   "records": 48,
-   "targets": 2,
-   "sources": 10
+   "port": 22,
+   "service": "SSH",
+   "records": 109427,
+   "targets": 237,
+   "sources": 3480
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 30,
-   "targets": 2,
-   "sources": 24
+   "records": 82749,
+   "targets": 213,
+   "sources": 2289
   },
   {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 18,
-   "targets": 2,
-   "sources": 14
-  },
-  {
-   "port": 81,
-   "service": "Web (alt)",
-   "records": 16,
-   "targets": 2,
-   "sources": 11
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 69802,
+   "targets": 210,
+   "sources": 4214
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 13,
-   "targets": 2,
-   "sources": 12
+   "records": 68633,
+   "targets": 216,
+   "sources": 2071
   },
   {
-   "port": 5555,
-   "service": "Android debug (ADB)",
-   "records": 13,
-   "targets": 2,
-   "sources": 9
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 55321,
+   "targets": 193,
+   "sources": 3602
   },
   {
-   "port": 3128,
+   "port": 2222,
    "service": null,
-   "records": 13,
+   "records": 45460,
+   "targets": 214,
+   "sources": 1819
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 22665,
    "targets": 2,
-   "sources": 11
+   "sources": 1579
+  },
+  {
+   "port": 6881,
+   "service": null,
+   "records": 17871,
+   "targets": 114,
+   "sources": 532
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 15974,
+   "targets": 11,
+   "sources": 670
   }
  ],
  "ports_date": "2026-10-20",
@@ -501,10 +501,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-20T04:27:31+00:00",
-  "sans": "2026-10-20T04:27:31+00:00",
-  "otx": "2026-10-20T04:27:31+00:00",
-  "urlhaus": "2026-10-20T04:27:31+00:00"
+  "threatfox": "2026-10-20T05:28:17+00:00",
+  "sans": "2026-10-20T05:28:17+00:00",
+  "otx": "2026-10-20T05:28:17+00:00",
+  "urlhaus": "2026-10-20T05:28:17+00:00"
  },
- "generated_at": "2026-10-20T04:27:31+00:00"
+ "generated_at": "2026-10-20T05:28:17+00:00"
 }
