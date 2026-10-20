@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-20T00:03:33+00:00",
+ "generated_at": "2026-10-20T01:26:49+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 39
+   "count": 37
   },
   {
    "name": "qilin",
@@ -33,7 +33,7 @@
    "count": 4
   },
   {
-   "name": "Storm",
+   "name": "Redact",
    "count": 3
   }
  ],
@@ -48,25 +48,25 @@
   },
   {
    "name": "Healthcare",
-   "count": 9
+   "count": 8
   },
   {
    "name": "Financial Services",
    "count": 6
   },
   {
-   "name": "Transportation",
+   "name": "Professional Services",
    "count": 6
   },
   {
-   "name": "Professional Services",
-   "count": 5
+   "name": "Transportation",
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 51,
+   "count": 52,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -210,6 +210,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Baker Donelson",
+   "group": "Redact",
+   "date": "2026-10-19T20:55:00+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QmFrZXIgRG9uZWxzb25AUmVkYWN0"
+  },
+  {
+   "victim": "Vormittag Associates Inc",
+   "group": "N0n",
+   "date": "2026-10-19T20:53:43+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Vm9ybWl0dGFnIEFzc29jaWF0ZXMgSW5jQE4wbg=="
+  },
+  {
+   "victim": "Seminole Schools",
+   "group": "Global Secret Group",
+   "date": "2026-10-19T20:52:13+00:00",
+   "attack_date": "2026-10-19",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/U2VtaW5vbGUgU2Nob29sc0BHbG9iYWwgU2VjcmV0IEdyb3Vw"
+  },
   {
    "victim": "Froggys Fog",
    "group": "N0n",
@@ -1082,33 +1109,6 @@
    "country": "US",
    "sector": "Financial Services",
    "url": "https://www.ransomware.live/id/VmlhIENyZWRpdCBVbmlvbkBxaWxpbg=="
-  },
-  {
-   "victim": "Company #75",
-   "group": "N0n",
-   "date": "2026-10-16T01:23:41+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzVATjBu"
-  },
-  {
-   "victim": "Company #74",
-   "group": "N0n",
-   "date": "2026-10-16T01:23:06+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjNzRATjBu"
-  },
-  {
-   "victim": "Evolution Spine / All Labs",
-   "group": "N0n",
-   "date": "2026-10-16T00:22:58+00:00",
-   "attack_date": "2026-10-16",
-   "country": null,
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/RXZvbHV0aW9uIFNwaW5lIC8gQWxsIExhYnNATjBu"
   }
  ]
 }
