@@ -41,6 +41,17 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+     "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score…",
+     "source": "The Hacker News",
+     "date": "2026-10-20T15:32:27+00:00",
+     "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "CVE-2026-0322"
+     ]
+    },
+    {
      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
      "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on…",
      "source": "The Hacker News",
@@ -119,20 +130,20 @@
      "date": "2026-10-19T17:27:15+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-     "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware…",
-     "source": "The Hacker News",
-     "date": "2026-10-19T13:05:45+00:00",
-     "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+     "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability…",
+     "source": "The Hacker News",
+     "date": "2026-10-20T15:38:52+00:00",
+     "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
      "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score…",
@@ -158,27 +169,11 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
-     "summary": "Critical flaws impact the Entity List and Field UI modules, and exploit paths exist with contributed modules. The post Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-19T15:47:50+00:00",
-     "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
      "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage…",
      "source": "The Hacker News",
      "date": "2026-10-19T14:14:07+00:00",
      "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
-     "summary": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attackers execute code on vulnerable systems. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-19T13:49:24+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
      "group": "Exploited right now"
     }
    ]
@@ -223,6 +218,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
+     "summary": "NIST, CISA and NSA share ten voluntary practices for preparing for, detecting, responding to, recovering from, and reporting rogue AI agent incidents. The post US Agencies Detail Incident Response Practices for Rogue AI…",
+     "source": "SecurityWeek",
+     "date": "2026-10-20T15:45:00+00:00",
+     "url": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/",
+     "group": "Other news"
+    },
     {
      "title": "DHS bans DeepSeek products across US federal civilian agencies",
      "summary": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]",
