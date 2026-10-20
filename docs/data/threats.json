@@ -2,36 +2,36 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1246,
-  "c2_servers": 604,
+  "total_iocs": 1265,
+  "c2_servers": 616,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 359,
-    "c2": 350,
+    "iocs": 374,
+    "c2": 365,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 132,
+    "iocs": 134,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 123,
-    "c2": 2,
+    "iocs": 124,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 45,
+    "iocs": 44,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 39,
+    "iocs": 38,
     "c2": 16,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -43,7 +43,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 32,
+    "iocs": 34,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -60,16 +60,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Formbook",
-    "iocs": 19,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
+    "name": "Remcos",
+    "iocs": 21,
+    "c2": 20,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    }
   ]
  },
  "urls": {
-  "sample": 882,
-  "online": 709,
+  "sample": 885,
+  "online": 692,
   "top_tags": [
    {
     "name": "github",
@@ -81,11 +81,11 @@
    },
    {
     "name": "Mozi",
-    "count": 227
+    "count": 229
    },
    {
     "name": "elf",
-    "count": 224
+    "count": 226
    },
    {
     "name": "SalatStealer",
@@ -97,7 +97,7 @@
    },
    {
     "name": "mirai",
-    "count": 192
+    "count": 193
    },
    {
     "name": "rar",
@@ -501,10 +501,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-20T09:14:16+00:00",
-  "sans": "2026-10-20T09:14:16+00:00",
-  "otx": "2026-10-20T09:14:16+00:00",
-  "urlhaus": "2026-10-20T09:14:16+00:00"
+  "threatfox": "2026-10-20T10:18:01+00:00",
+  "sans": "2026-10-20T10:18:01+00:00",
+  "otx": "2026-10-20T10:18:01+00:00",
+  "urlhaus": "2026-10-20T10:18:01+00:00"
  },
- "generated_at": "2026-10-20T09:14:16+00:00"
+ "generated_at": "2026-10-20T10:18:01+00:00"
 }

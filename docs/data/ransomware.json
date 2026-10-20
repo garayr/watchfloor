@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-20T09:14:16+00:00",
+ "generated_at": "2026-10-20T10:18:01+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 37
+   "count": 40
   },
   {
    "name": "qilin",
@@ -44,7 +44,7 @@
   },
   {
    "name": "Technology",
-   "count": 10
+   "count": 9
   },
   {
    "name": "Professional Services",
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 50,
+   "count": 48,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 5,
+   "count": 4,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -81,6 +81,12 @@
    "count": 2,
    "lat": -23.5,
    "lon": -46.6
+  },
+  {
+   "code": "CH",
+   "count": 2,
+   "lat": 46.9,
+   "lon": 7.4
   },
   {
    "code": "IT",
@@ -135,12 +141,6 @@
    "count": 1,
    "lat": 50.8,
    "lon": 4.4
-  },
-  {
-   "code": "CH",
-   "count": 1,
-   "lat": 46.9,
-   "lon": 7.4
   },
   {
    "code": "CN",
@@ -207,9 +207,48 @@
    "count": 1,
    "lat": 1.35,
    "lon": 103.8
+  },
+  {
+   "code": "TN",
+   "count": 1,
+   "lat": 36.8,
+   "lon": 10.2
+  },
+  {
+   "code": "TT",
+   "count": 1,
+   "lat": 10.7,
+   "lon": -61.5
   }
  ],
  "victims": [
+  {
+   "victim": "Company #97",
+   "group": "N0n",
+   "date": "2026-10-20T05:54:05+00:00",
+   "attack_date": "2026-10-20",
+   "country": "TN",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTdATjBu"
+  },
+  {
+   "victim": "Company #96",
+   "group": "N0n",
+   "date": "2026-10-20T05:53:30+00:00",
+   "attack_date": "2026-10-20",
+   "country": "TT",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTZATjBu"
+  },
+  {
+   "victim": "Company #95",
+   "group": "N0n",
+   "date": "2026-10-20T05:52:54+00:00",
+   "attack_date": "2026-10-20",
+   "country": "CH",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTVATjBu"
+  },
   {
    "victim": "Fisher59",
    "group": "anubis",
@@ -1082,33 +1121,6 @@
    "country": null,
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/RW5WaXNpb24gRXllIENhcmVATjBu"
-  },
-  {
-   "victim": "Minkon",
-   "group": "bravox",
-   "date": "2026-10-16T11:03:33+00:00",
-   "attack_date": "2026-10-16",
-   "country": "DE",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/TWlua29uQGJyYXZveA=="
-  },
-  {
-   "victim": "Cradlewise Inc.",
-   "group": "THE SEVEN DEADLY SINS",
-   "date": "2026-10-16T09:34:09+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Q3JhZGxld2lzZSBJbmMuQFRIRSBTRVZFTiBERUFETFkgU0lOUw=="
-  },
-  {
-   "victim": "Globeia Inc.",
-   "group": "THE SEVEN DEADLY SINS",
-   "date": "2026-10-16T09:33:37+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/R2xvYmVpYSBJbmMuQFRIRSBTRVZFTiBERUFETFkgU0lOUw=="
   }
  ]
 }

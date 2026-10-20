@@ -207,20 +207,20 @@
      "alerts": [
       "CVE-2026-71362"
      ]
-    },
-    {
-     "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-     "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and…",
-     "source": "The Hacker News",
-     "date": "2026-10-16T17:48:45+00:00",
-     "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+     "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a…",
+     "source": "The Hacker News",
+     "date": "2026-10-20T08:21:29+00:00",
+     "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
      "summary": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is…",
@@ -252,20 +252,20 @@
      "date": "2026-10-17T11:11:56+00:00",
      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Targeted ads installed Candiru spyware in zero-click attacks",
-     "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-16T17:20:03+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Revolut outage disrupts online banking operations worldwide",
+     "summary": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-20T09:46:44+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+     "group": "Other news"
+    },
     {
      "title": "Bullhorn takes staffing platform offline to contain cyberattack",
      "summary": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]",
