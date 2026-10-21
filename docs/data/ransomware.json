@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-21T16:40:08+00:00",
+ "generated_at": "2026-10-21T17:43:19+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 35
+   "count": 34
   },
   {
    "name": "qilin",
@@ -43,11 +43,11 @@
    "count": 13
   },
   {
-   "name": "Technology",
+   "name": "Professional Services",
    "count": 9
   },
   {
-   "name": "Professional Services",
+   "name": "Technology",
    "count": 8
   },
   {
@@ -55,11 +55,11 @@
    "count": 7
   },
   {
-   "name": "Transportation",
+   "name": "Other",
    "count": 6
   },
   {
-   "name": "Other",
+   "name": "Retail & E-Commerce",
    "count": 5
   }
  ],
@@ -72,7 +72,7 @@
   },
   {
    "code": "DE",
-   "count": 4,
+   "count": 5,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -87,12 +87,6 @@
    "count": 2,
    "lat": 51.5,
    "lon": -0.1
-  },
-  {
-   "code": "KR",
-   "count": 2,
-   "lat": 37.6,
-   "lon": 127.0
   },
   {
    "code": "MY",
@@ -123,12 +117,6 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
-  },
-  {
-   "code": "AT",
-   "count": 1,
-   "lat": 48.2,
-   "lon": 16.4
   },
   {
    "code": "BR",
@@ -179,6 +167,12 @@
    "lon": 12.5
   },
   {
+   "code": "KR",
+   "count": 1,
+   "lat": 37.6,
+   "lon": 127.0
+  },
+  {
    "code": "MX",
    "count": 1,
    "lat": 19.4,
@@ -210,6 +204,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "PLD Group",
+   "group": "everest",
+   "date": "2026-10-21T13:28:57+00:00",
+   "attack_date": "2026-10-21",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/UExEIEdyb3VwQGV2ZXJlc3Q="
+  },
+  {
+   "victim": "Lindauer Dornier",
+   "group": "everest",
+   "date": "2026-10-21T13:28:16+00:00",
+   "attack_date": "2026-10-21",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TGluZGF1ZXIgRG9ybmllckBldmVyZXN0"
+  },
+  {
+   "victim": "Lanham Associates",
+   "group": "everest",
+   "date": "2026-10-21T13:27:34+00:00",
+   "attack_date": "2026-10-21",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TGFuaGFtIEFzc29jaWF0ZXNAZXZlcmVzdA=="
+  },
+  {
+   "victim": "Adobe Insurance Brokers, LLC",
+   "group": "pear",
+   "date": "2026-10-21T12:34:04+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/QWRvYmUgSW5zdXJhbmNlIEJyb2tlcnMsIExMQ0BwZWFy"
+  },
   {
    "victim": "gabonmeca.com leak incident",
    "group": "HYFLOCK",
@@ -1073,42 +1103,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjODVATjBu"
-  },
-  {
-   "victim": "Company #84",
-   "group": "N0n",
-   "date": "2026-10-17T05:25:20+00:00",
-   "attack_date": "2026-10-17",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODRATjBu"
-  },
-  {
-   "victim": "Chugoku Bend",
-   "group": "everest",
-   "date": "2026-10-17T03:07:09+00:00",
-   "attack_date": "2026-10-17",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Q2h1Z29rdSBCZW5kQGV2ZXJlc3Q="
-  },
-  {
-   "victim": "Taekwang Network",
-   "group": "everest",
-   "date": "2026-10-17T03:06:33+00:00",
-   "attack_date": "2026-10-17",
-   "country": "KR",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VGFla3dhbmcgTmV0d29ya0BldmVyZXN0"
-  },
-  {
-   "victim": "Brenner Base Tunnel",
-   "group": "everest",
-   "date": "2026-10-17T03:05:58+00:00",
-   "attack_date": "2026-10-17",
-   "country": "AT",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/QnJlbm5lciBCYXNlIFR1bm5lbEBldmVyZXN0"
   }
  ]
 }
