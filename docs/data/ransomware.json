@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-21T17:43:19+00:00",
+ "generated_at": "2026-10-21T18:47:57+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 34
+   "count": 33
   },
   {
    "name": "qilin",
@@ -14,7 +14,7 @@
   },
   {
    "name": "Helix",
-   "count": 7
+   "count": 8
   },
   {
    "name": "Booba Project",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Professional Services",
@@ -204,6 +204,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Hypertherm",
+   "group": "Helix",
+   "date": "2026-10-21T13:52:21+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/SHlwZXJ0aGVybUBIZWxpeA=="
+  },
   {
    "victim": "PLD Group",
    "group": "everest",
@@ -1094,15 +1103,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjODZATjBu"
-  },
-  {
-   "victim": "Company #85",
-   "group": "N0n",
-   "date": "2026-10-17T05:25:56+00:00",
-   "attack_date": "2026-10-17",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODVATjBu"
   }
  ]
 }
