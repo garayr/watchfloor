@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T05:20:25+00:00",
+ "generated_at": "2026-10-21T06:26:48+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -33,8 +33,8 @@
    "count": 4
   },
   {
-   "name": "thegentlemen",
-   "count": 4
+   "name": "Global Secret Group",
+   "count": 3
   }
  ],
  "by_sector": [
@@ -43,12 +43,12 @@
    "count": 15
   },
   {
-   "name": "Healthcare",
-   "count": 9
+   "name": "Technology",
+   "count": 10
   },
   {
-   "name": "Technology",
-   "count": 9
+   "name": "Healthcare",
+   "count": 8
   },
   {
    "name": "Professional Services",
@@ -59,14 +59,14 @@
    "count": 7
   },
   {
-   "name": "Education",
-   "count": 5
+   "name": "Other",
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 51,
+   "count": 52,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -95,28 +95,22 @@
    "lon": -0.1
   },
   {
-   "code": "IT",
-   "count": 2,
-   "lat": 41.9,
-   "lon": 12.5
-  },
-  {
    "code": "KR",
    "count": 2,
    "lat": 37.6,
    "lon": 127.0
   },
   {
+   "code": "MY",
+   "count": 2,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
    "code": "NL",
    "count": 2,
    "lat": 52.4,
    "lon": 4.9
-  },
-  {
-   "code": "TH",
-   "count": 2,
-   "lat": 13.75,
-   "lon": 100.5
   },
   {
    "code": "AE",
@@ -185,6 +179,12 @@
    "lon": 72.9
   },
   {
+   "code": "IT",
+   "count": 1,
+   "lat": 41.9,
+   "lon": 12.5
+  },
+  {
    "code": "JP",
    "count": 1,
    "lat": 35.7,
@@ -195,12 +195,6 @@
    "count": 1,
    "lat": 19.4,
    "lon": -99.1
-  },
-  {
-   "code": "MY",
-   "count": 1,
-   "lat": 3.1,
-   "lon": 101.7
   },
   {
    "code": "PE",
@@ -221,6 +215,12 @@
    "lon": 103.8
   },
   {
+   "code": "TH",
+   "count": 1,
+   "lat": 13.75,
+   "lon": 100.5
+  },
+  {
    "code": "TN",
    "count": 1,
    "lat": 36.8,
@@ -234,6 +234,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "GSE-M Technology Sdn. Bhd.",
+   "group": "bravox",
+   "date": "2026-10-21T02:12:33+00:00",
+   "attack_date": "2026-10-21",
+   "country": "MY",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/R1NFLU0gVGVjaG5vbG9neSBTZG4uIEJoZC5AYnJhdm94"
+  },
+  {
+   "victim": "Bruin Group LLC",
+   "group": "emperador",
+   "date": "2026-10-21T01:55:09+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/QnJ1aW4gR3JvdXAgTExDQGVtcGVyYWRvcg=="
+  },
   {
    "victim": "M... M...",
    "group": "SilentRansomGroup",
@@ -980,24 +998,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/UmhlZW0gR2xvYmFsQEhlbGl4"
-  },
-  {
-   "victim": "Wellington College International School Bangkok",
-   "group": "thegentlemen",
-   "date": "2026-10-17T16:52:59+00:00",
-   "attack_date": "2026-10-16",
-   "country": "TH",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/V2VsbGluZ3RvbiBDb2xsZWdlIEludGVybmF0aW9uYWwgU2Nob29sIEJhbmdrb2tAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Gio Dental Med Spa",
-   "group": "thegentlemen",
-   "date": "2026-10-17T16:52:38+00:00",
-   "attack_date": "2026-10-16",
-   "country": "IT",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/R2lvIERlbnRhbCBNZWQgU3BhQHRoZWdlbnRsZW1lbg=="
   },
   {
    "victim": "First Dental Health",
