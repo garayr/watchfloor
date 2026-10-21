@@ -41,6 +41,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+     "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T07:44:22+00:00",
+     "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
      "summary": "Tracked as CVE-2026-109618 and CVE-2026-109619, the bugs could potentially lead to unauthenticated remote code execution. The post PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws appeared first on…",
      "source": "SecurityWeek",
@@ -138,30 +146,6 @@
      "date": "2026-10-20T11:06:25+00:00",
      "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-     "summary": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-19T21:49:48+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-     "summary": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-19T21:24:51+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Hackers hijack AOMEI update servers to secretly spread malware",
-     "summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original…",
-     "source": "BleepingComputer",
-     "date": "2026-10-19T19:40:58+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
@@ -169,8 +153,22 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T07:26:49+00:00",
+     "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-96656",
+      "CVE-2026-96655",
+      "CVE-2026-96654",
+      "CVE-2026-96652"
+     ]
+    },
+    {
      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-     "summary": "PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described. Security researchers at…",
+     "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an…",
      "source": "The Hacker News",
      "date": "2026-10-21T04:57:50+00:00",
      "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
@@ -200,6 +198,14 @@
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+     "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T06:05:15+00:00",
+     "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
      "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the Citizen Lab said on October 19…",
