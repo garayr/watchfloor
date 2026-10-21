@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:55:22+00:00",
+ "generated_at": "2026-10-21T23:51:30+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -13,16 +13,16 @@
    "count": 14
   },
   {
-   "name": "Helix",
-   "count": 8
-  },
-  {
    "name": "Booba Project",
    "count": 6
   },
   {
+   "name": "Helix",
+   "count": 6
+  },
+  {
    "name": "SilentRansomGroup",
-   "count": 4
+   "count": 5
   },
   {
    "name": "Global Secret Group",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 14
+   "count": 13
   },
   {
    "name": "Professional Services",
@@ -210,6 +210,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Coastal Alabama Community College",
+   "group": "interlock",
+   "date": "2026-10-21T19:29:49+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/Q29hc3RhbCBBbGFiYW1hIENvbW11bml0eSBDb2xsZWdlQGludGVybG9jaw=="
+  },
+  {
+   "victim": "Porter Hedges LLP",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-21T19:03:17+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/UG9ydGVyIEhlZGdlcyBMTFBAU2lsZW50UmFuc29tR3JvdXA="
+  },
   {
    "victim": "Westrock Coffee",
    "group": "Helix",
@@ -1091,24 +1109,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/UGVyc29uaWZ5IEhlYWx0aEBIZWxpeA=="
-  },
-  {
-   "victim": "Bay Alarm",
-   "group": "Helix",
-   "date": "2026-10-17T22:23:24+00:00",
-   "attack_date": "2026-10-17",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/QmF5IEFsYXJtQEhlbGl4"
-  },
-  {
-   "victim": "Smith Douglas Homes",
-   "group": "Helix",
-   "date": "2026-10-17T22:23:03+00:00",
-   "attack_date": "2026-10-17",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/U21pdGggRG91Z2xhcyBIb21lc0BIZWxpeA=="
   }
  ]
 }
