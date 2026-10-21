@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-21T20:57:16+00:00",
+ "generated_at": "2026-10-21T21:58:13+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 32
+   "count": 31
   },
   {
    "name": "qilin",
@@ -14,7 +14,7 @@
   },
   {
    "name": "Helix",
-   "count": 7
+   "count": 8
   },
   {
    "name": "Booba Project",
@@ -55,11 +55,11 @@
    "count": 7
   },
   {
-   "name": "Other",
-   "count": 6
+   "name": "Retail & E-Commerce",
+   "count": 7
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Other",
    "count": 6
   }
  ],
@@ -210,6 +210,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Westrock Coffee",
+   "group": "Helix",
+   "date": "2026-10-21T17:52:48+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/V2VzdHJvY2sgQ29mZmVlQEhlbGl4"
+  },
   {
    "victim": "Flextron Circuit Assembly",
    "group": "akira",
@@ -1100,15 +1109,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/U21pdGggRG91Z2xhcyBIb21lc0BIZWxpeA=="
-  },
-  {
-   "victim": "Company #88",
-   "group": "N0n",
-   "date": "2026-10-17T19:24:26+00:00",
-   "attack_date": "2026-10-17",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODhATjBu"
   }
  ]
 }
