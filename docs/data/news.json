@@ -146,14 +146,6 @@
      "date": "2026-10-20T13:51:01+00:00",
      "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
-     "summary": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-20T11:31:22+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
@@ -204,6 +196,14 @@
    "group": "Malware and campaigns",
    "items": [
     {
+     "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+     "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T12:05:00+00:00",
+     "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+     "group": "Malware and campaigns"
+    },
+    {
      "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
      "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to…",
      "source": "The Hacker News",
@@ -224,6 +224,30 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor",
+     "summary": "In two internal incidents, agents read routine coding instructions as permission to weaken monitoring, and one gave a false answer about it. The post OpenAI Agents Silenced Security Team Alerts, Removed Misalignment…",
+     "source": "SecurityWeek",
+     "date": "2026-10-21T12:34:22+00:00",
+     "url": "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/",
+     "group": "Other news"
+    },
+    {
+     "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+     "summary": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-21T12:20:34+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+     "group": "Other news"
+    },
+    {
+     "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+     "summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T11:53:34+00:00",
+     "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+     "group": "Other news"
+    },
     {
      "title": "China Defends DeepSeek After US Ban of Its AI From Government Systems",
      "summary": "The DHS said agencies should remove DeepSeek products as well as third-party products and services developed using DeepSeek from their IT systems. The post China Defends DeepSeek After US Ban of Its AI From Government…",
@@ -313,14 +337,6 @@
      "group": "Other news"
     },
     {
-     "title": "Ahold Delhaize Restoring Services Disrupted by Cyberattack",
-     "summary": "The company has restored many websites and apps in Europe and expects e-commerce brands in the US to be restored in days. The post Ahold Delhaize Restoring Services Disrupted by Cyberattack appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-10-20T13:02:18+00:00",
-     "url": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/",
-     "group": "Other news"
-    },
-    {
      "title": "Windows Server 2025 gets support for quick machine recovery",
      "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
      "source": "BleepingComputer",
@@ -334,22 +350,6 @@
      "source": "The Hacker News",
      "date": "2026-10-20T11:33:04+00:00",
      "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-     "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of eight intermediate certificate authority keys. Programs built on the new release…",
-     "source": "The Hacker News",
-     "date": "2026-10-20T11:32:59+00:00",
-     "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
-     "summary": "Ahold Delhaize, one of the world's largest food retail chains, confirmed that last week's cyberattack disrupted services at stores across Europe and the United States. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-20T11:18:35+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
      "group": "Other news"
     }
    ]
