@@ -26,20 +26,20 @@
      "date": "2026-10-20T11:41:06+00:00",
      "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-     "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly…",
-     "source": "The Hacker News",
-     "date": "2026-10-20T05:53:16+00:00",
-     "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+     "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T09:01:12+00:00",
+     "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
@@ -161,6 +161,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+     "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T09:05:17+00:00",
+     "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server…",
      "source": "The Hacker News",
@@ -175,31 +183,12 @@
      ]
     },
     {
-     "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-     "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an…",
-     "source": "The Hacker News",
-     "date": "2026-10-21T04:57:50+00:00",
-     "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability…",
      "source": "The Hacker News",
      "date": "2026-10-20T15:38:52+00:00",
      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-     "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score…",
-     "source": "The Hacker News",
-     "date": "2026-10-20T07:11:45+00:00",
-     "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-110936"
-     ]
     }
    ]
   },
@@ -235,6 +224,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+     "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T08:04:17+00:00",
+     "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+     "group": "Other news"
+    },
     {
      "title": "Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities",
      "summary": "The first phase will cover up to 500 utilities, which will get free security tools, equipment, deployment help and training. The post Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities appeared…",

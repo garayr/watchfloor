@@ -2,36 +2,36 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2481,
-  "c2_servers": 822,
+  "total_iocs": 2495,
+  "c2_servers": 841,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 619,
+    "iocs": 620,
     "c2": 21,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Vidar",
-    "iocs": 397,
-    "c2": 397,
+    "iocs": 401,
+    "c2": 401,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 296,
+    "iocs": 280,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 250,
-    "c2": 0,
+    "iocs": 251,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "AMOS",
-    "iocs": 214,
+    "iocs": 221,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -43,21 +43,21 @@
    },
    {
     "name": "VShell",
-    "iocs": 61,
-    "c2": 60,
+    "iocs": 64,
+    "c2": 63,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 39,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 33,
+    "iocs": 37,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 37,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "MacSync",
@@ -507,10 +507,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-21T08:43:25+00:00",
-  "sans": "2026-10-21T08:43:25+00:00",
+  "threatfox": "2026-10-21T09:59:46+00:00",
+  "sans": "2026-10-21T09:59:46+00:00",
   "otx": "2026-10-21T09:16:36+00:00",
   "urlhaus": "2026-10-21T09:16:36+00:00"
  },
- "generated_at": "2026-10-21T09:16:36+00:00"
+ "generated_at": "2026-10-21T09:59:46+00:00"
 }
