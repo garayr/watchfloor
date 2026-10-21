@@ -4,6 +4,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+     "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T18:01:57+00:00",
+     "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
      "summary": "Rapid7’s Q3 analysis finds high-severity flaws exploited within three days on average, while AI appeared in just 8% of tracked incidents. The post High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3…",
      "source": "SecurityWeek",
@@ -101,14 +109,6 @@
      "alerts": [
       "CVE-2026-0322"
      ]
-    },
-    {
-     "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-     "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on…",
-     "source": "The Hacker News",
-     "date": "2026-10-20T14:07:17+00:00",
-     "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
@@ -117,11 +117,14 @@
    "items": [
     {
      "title": "PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors",
-     "summary": "Several cybersecurity companies saw exploitation attempts before PHP released the patches. The post PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors appeared first on SecurityWeek.",
+     "summary": "Several cybersecurity companies saw exploitation attempts of CVE-2026-109618 and CVE-2026-109619 before PHP released the patches. The post PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors appeared first…",
      "source": "SecurityWeek",
      "date": "2026-10-21T16:50:40+00:00",
      "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
+     ]
     },
     {
      "title": "PHP ships emergency patches for critical PHP2Shell flaws",
