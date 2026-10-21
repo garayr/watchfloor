@@ -25,6 +25,22 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys",
+     "summary": "The private keys associated with eight certificates were compromised, and root programs and trust stores are blocking them. The post Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys appeared first…",
+     "source": "SecurityWeek",
+     "date": "2026-10-21T11:22:05+00:00",
+     "url": "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+     "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T10:30:27+00:00",
+     "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
      "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites…",
      "source": "The Hacker News",
@@ -138,20 +154,20 @@
      "date": "2026-10-20T11:31:22+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-     "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization…",
-     "source": "The Hacker News",
-     "date": "2026-10-20T11:06:25+00:00",
-     "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+     "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T10:36:53+00:00",
+     "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an…",
@@ -214,6 +230,14 @@
      "source": "SecurityWeek",
      "date": "2026-10-21T10:54:49+00:00",
      "url": "https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/",
+     "group": "Other news"
+    },
+    {
+     "title": "The Harness Is the Hard Part of Agentic Pentesting",
+     "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T10:32:40+00:00",
+     "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
      "group": "Other news"
     },
     {
@@ -297,14 +321,6 @@
      "group": "Other news"
     },
     {
-     "title": "AI Platform Cairn Abused to Hack Over 100 Organizations",
-     "summary": "At least three threat actors have been abusing Cairn for persistent access and financial theft. The post AI Platform Cairn Abused to Hack Over 100 Organizations appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-20T12:47:22+00:00",
-     "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
-     "group": "Other news"
-    },
-    {
      "title": "Windows Server 2025 gets support for quick machine recovery",
      "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
      "source": "BleepingComputer",
@@ -334,22 +350,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-20T11:18:35+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
-     "group": "Other news"
-    },
-    {
-     "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-     "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a…",
-     "source": "The Hacker News",
-     "date": "2026-10-20T10:56:08+00:00",
-     "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Revolut outage disrupts online banking operations worldwide",
-     "summary": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-20T09:46:44+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
      "group": "Other news"
     }
    ]

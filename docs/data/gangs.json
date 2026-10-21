@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T09:16:36+00:00",
+ "generated_at": "2026-10-21T11:43:12+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -8394,6 +8394,225 @@
    ],
    "history_size": 2,
    "updated": "2026-10-20T18:22:15+00:00"
+  },
+  "clop": {
+   "name": "clop",
+   "description": "The ransomware group known as Cl0p is a variant of a previously known strain dubbed CryptoMix. It is worth noting that this variant was delivered as the final payload in a phishing campaign in 2019 and was exclusively financially motivated, with attacks carried out by the threat actors TA505. At that time, malicious actors sent phishing emails that led to a macro-enabled document that would drop a loader called 'Get2.' After gaining an initial foothold in the system or infrastructure, the actors began using reconnaissance, lateral movement, and exfiltration techniques to prepare for the deployment of the ransomware. After the execution of the ransomware, Cl0p appends the extension '.clop' to the end of files, or other types of extensions such as '.CIIp,.Cllp, and.C_L_O_P,' as well as different versions of the ransom note that were also observed after encryption. Depending on the variant, any of the ransom text files were created with names like 'ClopReadMe.txt, README_README.txt, Cl0pReadMe.txt, and READ_ME_!!!.TXT.' The Clop operation has shifted from delivering its final payload via phishing and has begun initiating attacks using vulnerabilities that resulted in the exploitation…",
+   "aliases": [],
+   "first_seen": "2020-03-13",
+   "last_seen": "2026-10-21",
+   "victims_total": 1303,
+   "cves": [
+    {
+     "id": "CVE-2021-27101",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2021-27102",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2021-27103",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2021-27104",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-55956",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2025-61882",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-34362",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-27350",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-27351",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-12569",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2024-50623",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-4681",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2021-35211",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2025-11371",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2023-0669",
+     "cvss": null,
+     "label": null
+    }
+   ],
+   "tools": [
+    "Cobalt Strike",
+    "PowerShell Empire",
+    "TinyMet"
+   ],
+   "techniques": [
+    "Valid accounts",
+    "Exploit public-facing application",
+    "Phishing: Spear-phishing attachment",
+    "Command and scripting interpreter",
+    "Native API",
+    "User execution",
+    "Create or modify system process: Windows service",
+    "Boot or logon autostart execution",
+    "Exploitation for privilege escalation",
+    "Domain Policy modification: Group Policy modification",
+    "Hijack execution flow",
+    "Masquerading: invalid code signature",
+    "Process injection: DLL injection",
+    "Indicator removal on host: clear Windows event logs",
+    "Indicator removal on host: file deletion",
+    "Deobfuscate/Decode files or information",
+    "Indirect command execution",
+    "Impair defenses: disable or modify tools",
+    "Query registry",
+    "Remote system discovery"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 456
+     },
+     {
+      "name": "CA",
+      "count": 55
+     },
+     {
+      "name": "GB",
+      "count": 32
+     },
+     {
+      "name": "AU",
+      "count": 25
+     },
+     {
+      "name": "DE",
+      "count": 23
+     },
+     {
+      "name": "IN",
+      "count": 19
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Technology",
+      "count": 242
+     },
+     {
+      "name": "Professional Services",
+      "count": 218
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 184
+     },
+     {
+      "name": "Manufacturing",
+      "count": 160
+     },
+     {
+      "name": "Transportation",
+      "count": 97
+     },
+     {
+      "name": "Financial Services",
+      "count": 87
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 98
+    },
+    {
+     "month": "2025-12",
+     "count": 1
+    },
+    {
+     "month": "2026-01",
+     "count": 46
+    },
+    {
+     "month": "2026-02",
+     "count": 79
+    },
+    {
+     "month": "2026-03",
+     "count": 2
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 2
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 1
+    },
+    {
+     "month": "2026-08",
+     "count": 45
+    },
+    {
+     "month": "2026-09",
+     "count": 2
+    },
+    {
+     "month": "2026-10",
+     "count": 1
+    }
+   ],
+   "history_size": 1303,
+   "updated": "2026-10-21T11:43:12+00:00"
   }
  }
 }

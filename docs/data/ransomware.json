@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T10:30:19+00:00",
+ "generated_at": "2026-10-21T11:43:12+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -47,11 +47,11 @@
    "count": 10
   },
   {
-   "name": "Healthcare",
-   "count": 7
+   "name": "Professional Services",
+   "count": 8
   },
   {
-   "name": "Professional Services",
+   "name": "Healthcare",
    "count": 7
   },
   {
@@ -234,6 +234,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "LEGAL-RECORDS.US",
+   "group": "clop",
+   "date": "2026-10-21T07:32:25+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TEVHQUwtUkVDT1JEUy5VU0BjbG9w"
+  },
   {
    "victim": "nbcuniversal.com",
    "group": "Scarlettgroup",
@@ -1124,15 +1133,6 @@
    "country": null,
    "sector": "Financial Services",
    "url": "https://www.ransomware.live/id/UHVyZSBPcHRpb25zQHBsYXk="
-  },
-  {
-   "victim": "ONEOK, Inc.",
-   "group": "Redact",
-   "date": "2026-10-16T18:54:41+00:00",
-   "attack_date": "2026-10-16",
-   "country": "US",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/T05FT0ssIEluYy5AUmVkYWN0"
   }
  ]
 }
