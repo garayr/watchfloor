@@ -2,19 +2,19 @@
  "infocon": "yellow",
  "malware": {
   "window": "24h",
-  "total_iocs": 2590,
-  "c2_servers": 790,
+  "total_iocs": 2396,
+  "c2_servers": 744,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 637,
-    "c2": 21,
+    "iocs": 644,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Vidar",
-    "iocs": 421,
-    "c2": 411,
+    "iocs": 414,
+    "c2": 404,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -25,21 +25,15 @@
    },
    {
     "name": "AMOS",
-    "iocs": 240,
+    "iocs": 242,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 218,
-    "c2": 0,
+    "iocs": 194,
+    "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "Remus",
-    "iocs": 94,
-    "c2": 94,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "Coinminer",
@@ -49,13 +43,19 @@
    },
    {
     "name": "VShell",
-    "iocs": 83,
-    "c2": 82,
+    "iocs": 90,
+    "c2": 89,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
+    "name": "Remus",
+    "iocs": 68,
+    "c2": 68,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 41,
+    "iocs": 39,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -182,7 +182,7 @@
   {
    "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
    "url": "https://isc.sans.edu/diary/rss/33440",
-   "date": "2026-10-21T14:53:38+00:00"
+   "date": "2026-10-21T15:12:02+00:00"
   },
   {
    "title": "ISC Stormcast For Wednesday, October 21st, 2026 https://isc.sans.edu/podcastdetail/10144, (Wed, Oct 21st)",
@@ -507,10 +507,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-21T14:59:20+00:00",
-  "sans": "2026-10-21T14:59:20+00:00",
+  "threatfox": "2026-10-21T16:06:59+00:00",
+  "sans": "2026-10-21T16:06:59+00:00",
   "otx": "2026-10-21T15:30:00+00:00",
   "urlhaus": "2026-10-21T15:30:00+00:00"
  },
- "generated_at": "2026-10-21T15:30:00+00:00"
+ "generated_at": "2026-10-21T16:06:59+00:00"
 }
