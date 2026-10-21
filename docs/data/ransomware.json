@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-21T12:55:18+00:00",
+ "generated_at": "2026-10-21T14:16:28+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 30
+   "count": 31
   },
   {
    "name": "qilin",
@@ -25,22 +25,22 @@
    "count": 4
   },
   {
-   "name": "everest",
-   "count": 4
-  },
-  {
    "name": "play",
    "count": 4
   },
   {
    "name": "Global Secret Group",
    "count": 3
+  },
+  {
+   "name": "Storm",
+   "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 53,
+   "count": 54,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -185,12 +185,6 @@
    "lon": 12.5
   },
   {
-   "code": "JP",
-   "count": 1,
-   "lat": 35.7,
-   "lon": 139.7
-  },
-  {
    "code": "MX",
    "count": 1,
    "lat": 19.4,
@@ -234,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "TheHomeMag NorCal",
+   "group": "N0n",
+   "date": "2026-10-21T09:23:05+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/VGhlSG9tZU1hZyBOb3JDYWxATjBu"
+  },
   {
    "victim": "LEGAL-RECORDS.US",
    "group": "clop",
@@ -1052,15 +1055,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjODRATjBu"
-  },
-  {
-   "victim": "Kissei Shoji",
-   "group": "everest",
-   "date": "2026-10-17T03:07:45+00:00",
-   "attack_date": "2026-10-16",
-   "country": "JP",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/S2lzc2VpIFNob2ppQGV2ZXJlc3Q="
   },
   {
    "victim": "Chugoku Bend",

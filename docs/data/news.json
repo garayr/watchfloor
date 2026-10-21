@@ -10,14 +10,6 @@
      "date": "2026-10-20T13:18:36+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-     "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's…",
-     "source": "The Hacker News",
-     "date": "2026-10-20T11:41:06+00:00",
-     "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
@@ -70,7 +62,10 @@
      "source": "SecurityWeek",
      "date": "2026-10-21T07:02:06+00:00",
      "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/",
-     "group": "Breaches and ransomware"
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
+     ]
     },
     {
      "title": "Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI",
@@ -145,6 +140,17 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+     "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-21T14:07:05+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+     "group": "Exploited right now",
+     "alerts": [
+      "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
+     ]
+    },
+    {
      "title": "Memory Bugs Account for Most of Chrome’s 353 New Security Fixes",
      "summary": "The update fixes 353 flaws, including 163 memory corruption and 125 use-after-free vulnerabilities. The post Memory Bugs Account for Most of Chrome’s 353 New Security Fixes appeared first on SecurityWeek.",
      "source": "SecurityWeek",
@@ -195,6 +201,14 @@
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+     "summary": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade…",
+     "source": "BleepingComputer",
+     "date": "2026-10-21T14:00:10+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
      "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025…",
@@ -342,14 +356,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-20T13:51:00+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
-     "group": "Other news"
-    },
-    {
-     "title": "Windows Server 2025 gets support for quick machine recovery",
-     "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-20T12:16:32+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
      "group": "Other news"
     }
    ]

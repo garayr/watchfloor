@@ -1,6 +1,35 @@
 {
  "alerts": [
   {
+   "id": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+   "date": "2026-10-21",
+   "src": "NCSC",
+   "vendor": "NCSC",
+   "title": "Critical security issue affecting PHP",
+   "detail": "Updated: The NCSC is encouraging UK organisations to take immediate action to mitigate a security issue affecting PHP (CVE-2026-109618 and CVE-2026-109619).",
+   "todo": "Read the advisory for affected products and mitigations.",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "url": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+   "sev": "medium",
+   "news": [
+    {
+     "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+     "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+     "source": "BleepingComputer",
+     "date": "2026-10-21T14:07:05+00:00"
+    },
+    {
+     "title": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+     "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/",
+     "source": "SecurityWeek",
+     "date": "2026-10-21T07:02:06+00:00"
+    }
+   ]
+  },
+  {
    "id": "CVE-2026-106931",
    "date": "2026-10-20",
    "src": "CISA",
