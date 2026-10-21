@@ -112,23 +112,20 @@
      "date": "2026-10-20T17:09:53+00:00",
      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-     "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score…",
-     "source": "The Hacker News",
-     "date": "2026-10-20T15:32:27+00:00",
-     "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-     "group": "Breaches and ransomware",
-     "alerts": [
-      "CVE-2026-0322"
-     ]
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+     "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T18:57:34+00:00",
+     "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors",
      "summary": "Several cybersecurity companies saw exploitation attempts of CVE-2026-109618 and CVE-2026-109619 before PHP released the patches. The post PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors appeared first…",

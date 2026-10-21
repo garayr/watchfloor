@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-21T18:47:57+00:00",
+ "generated_at": "2026-10-21T19:56:30+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 33
+   "count": 32
   },
   {
    "name": "qilin",
@@ -14,7 +14,7 @@
   },
   {
    "name": "Helix",
-   "count": 8
+   "count": 7
   },
   {
    "name": "Booba Project",
@@ -60,13 +60,13 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 5
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 54,
+   "count": 53,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -185,6 +185,12 @@
    "lon": -77.0
   },
   {
+   "code": "SG",
+   "count": 1,
+   "lat": 1.35,
+   "lon": 103.8
+  },
+  {
    "code": "TN",
    "count": 1,
    "lat": 36.8,
@@ -204,6 +210,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Flextron Circuit Assembly",
+   "group": "akira",
+   "date": "2026-10-21T15:04:12+00:00",
+   "attack_date": "2026-10-21",
+   "country": "SG",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RmxleHRyb24gQ2lyY3VpdCBBc3NlbWJseUBha2lyYQ=="
+  },
+  {
+   "victim": "Cascade Flooring America",
+   "group": "akira",
+   "date": "2026-10-21T15:03:52+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/Q2FzY2FkZSBGbG9vcmluZyBBbWVyaWNhQGFraXJh"
+  },
   {
    "victim": "Hypertherm",
    "group": "Helix",
@@ -1085,24 +1109,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjODhATjBu"
-  },
-  {
-   "victim": "Rheem Global",
-   "group": "Helix",
-   "date": "2026-10-17T18:22:04+00:00",
-   "attack_date": "2026-10-17",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UmhlZW0gR2xvYmFsQEhlbGl4"
-  },
-  {
-   "victim": "Company #86",
-   "group": "N0n",
-   "date": "2026-10-17T06:53:37+00:00",
-   "attack_date": "2026-10-17",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODZATjBu"
   }
  ]
 }
