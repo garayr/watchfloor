@@ -169,6 +169,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+     "summary": "PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described. Security researchers at…",
+     "source": "The Hacker News",
+     "date": "2026-10-21T04:57:50+00:00",
+     "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability…",
      "source": "The Hacker News",
@@ -185,20 +193,6 @@
      "group": "Exploited right now",
      "alerts": [
       "CVE-2026-110936"
-     ]
-    },
-    {
-     "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-     "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher…",
-     "source": "The Hacker News",
-     "date": "2026-10-19T17:32:13+00:00",
-     "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-96656",
-      "CVE-2026-96655",
-      "CVE-2026-96654",
-      "CVE-2026-96652"
      ]
     }
    ]
