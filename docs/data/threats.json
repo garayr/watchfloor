@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2634,
-  "c2_servers": 813,
+  "total_iocs": 2481,
+  "c2_servers": 822,
   "families": [
    {
     "name": "IClickFix",
@@ -13,38 +13,38 @@
    },
    {
     "name": "Vidar",
-    "iocs": 401,
-    "c2": 392,
+    "iocs": 397,
+    "c2": 397,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 294,
+    "iocs": 296,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 267,
-    "c2": 15,
+    "iocs": 250,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "AMOS",
-    "iocs": 204,
+    "iocs": 214,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remus",
-    "iocs": 180,
-    "c2": 180,
+    "iocs": 184,
+    "c2": 184,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
     "name": "VShell",
-    "iocs": 65,
-    "c2": 58,
+    "iocs": 61,
+    "c2": 60,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -55,13 +55,13 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 37,
+    "iocs": 33,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "MacSync",
-    "iocs": 32,
+    "iocs": 29,
     "c2": 26,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.macsync"
    }
@@ -507,10 +507,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-21T07:16:54+00:00",
-  "sans": "2026-10-21T07:16:54+00:00",
+  "threatfox": "2026-10-21T08:43:25+00:00",
+  "sans": "2026-10-21T08:43:25+00:00",
   "otx": "2026-10-21T08:04:39+00:00",
   "urlhaus": "2026-10-21T08:04:39+00:00"
  },
- "generated_at": "2026-10-21T08:04:39+00:00"
+ "generated_at": "2026-10-21T08:43:25+00:00"
 }
