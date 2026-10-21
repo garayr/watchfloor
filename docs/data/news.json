@@ -52,25 +52,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
-     "summary": "Tracked as CVE-2026-109618 and CVE-2026-109619, the bugs could potentially lead to unauthenticated remote code execution. The post PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-10-21T07:02:06+00:00",
-     "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/",
-     "group": "Breaches and ransomware",
-     "alerts": [
-      "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
-     ]
-    },
-    {
-     "title": "Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI",
-     "summary": "Researchers say the developer’s account was compromised in March with a GlassWorm-linked loader. The post Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-21T06:02:27+00:00",
-     "url": "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
      "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
      "source": "BleepingComputer",
@@ -134,6 +115,14 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors",
+     "summary": "The two RCE bugs can be exploited against WordPress, Drupal, Joomla, and other popular applications. The post PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-21T16:50:40+00:00",
+     "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/",
+     "group": "Exploited right now"
+    },
     {
      "title": "PHP ships emergency patches for critical PHP2Shell flaws",
      "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
@@ -233,6 +222,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
+     "summary": "Protections have been added against scams and social engineering, including new site warnings and server-side Gemini analysis. The post Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-10-21T17:00:00+00:00",
+     "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
+     "group": "Other news"
+    },
     {
      "title": "OpenAI agents disabled safety monitoring, one lied about it",
      "summary": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]",
