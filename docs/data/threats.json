@@ -2,31 +2,31 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1981,
-  "c2_servers": 815,
+  "total_iocs": 1985,
+  "c2_servers": 817,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 387,
-    "c2": 378,
+    "iocs": 389,
+    "c2": 380,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 321,
+    "iocs": 311,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 191,
+    "iocs": 199,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Remus",
-    "iocs": 177,
-    "c2": 177,
+    "iocs": 175,
+    "c2": 175,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
    },
    {
@@ -37,15 +37,21 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 60,
+    "iocs": 59,
     "c2": 16,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "VShell",
-    "iocs": 44,
-    "c2": 37,
+    "iocs": 48,
+    "c2": 41,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 38,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "ClearFake",
@@ -58,12 +64,6 @@
     "iocs": 35,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/ios.coruna"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 34,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
@@ -107,77 +107,77 @@
  },
  "ports": [
   {
-   "port": 23,
-   "service": "Telnet",
-   "records": 1356739,
-   "targets": 274,
-   "sources": 12773
-  },
-  {
-   "port": 22,
-   "service": "SSH",
-   "records": 642236,
-   "targets": 276,
-   "sources": 10652
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 530782,
-   "targets": 271,
-   "sources": 7902
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 402040,
-   "targets": 277,
-   "sources": 6395
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 112844,
+   "targets": 160,
+   "sources": 5932
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 274600,
-   "targets": 254,
-   "sources": 10508
+   "records": 58436,
+   "targets": 177,
+   "sources": 1946
+  },
+  {
+   "port": 22,
+   "service": "SSH",
+   "records": 14855,
+   "targets": 203,
+   "sources": 911
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 12669,
+   "targets": 149,
+   "sources": 1352
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 10434,
+   "targets": 151,
+   "sources": 873
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 8060,
+   "targets": 195,
+   "sources": 857
   },
   {
    "port": 2222,
    "service": null,
-   "records": 245351,
-   "targets": 274,
-   "sources": 5970
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 184223,
-   "targets": 287,
-   "sources": 8987
-  },
-  {
-   "port": 6881,
-   "service": null,
-   "records": 95315,
-   "targets": 241,
-   "sources": 1402
+   "records": 6004,
+   "targets": 174,
+   "sources": 363
   },
   {
    "port": 16767,
    "service": null,
-   "records": 92327,
-   "targets": 40,
-   "sources": 3725
+   "records": 4593,
+   "targets": 4,
+   "sources": 783
+  },
+  {
+   "port": 4601,
+   "service": null,
+   "records": 3511,
+   "targets": 4,
+   "sources": 234
   },
   {
    "port": 51413,
    "service": null,
-   "records": 74141,
-   "targets": 202,
-   "sources": 1649
+   "records": 2683,
+   "targets": 3,
+   "sources": 282
   }
  ],
- "ports_date": "2026-10-20",
+ "ports_date": "2026-10-21",
  "diary": [
   {
    "title": "ISC Stormcast For Wednesday, October 21st, 2026 https://isc.sans.edu/podcastdetail/10144, (Wed, Oct 21st)",
@@ -469,10 +469,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-21T02:38:37+00:00",
-  "sans": "2026-10-21T02:38:37+00:00",
+  "threatfox": "2026-10-21T03:40:55+00:00",
+  "sans": "2026-10-21T03:40:55+00:00",
   "otx": "2026-10-21T03:10:55+00:00",
   "urlhaus": "2026-10-21T03:10:55+00:00"
  },
- "generated_at": "2026-10-21T03:10:55+00:00"
+ "generated_at": "2026-10-21T03:40:55+00:00"
 }
