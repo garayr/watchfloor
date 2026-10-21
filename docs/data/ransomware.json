@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-21T14:16:28+00:00",
+ "generated_at": "2026-10-21T15:30:00+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 31
+   "count": 35
   },
   {
    "name": "qilin",
@@ -25,26 +25,26 @@
    "count": 4
   },
   {
-   "name": "play",
-   "count": 4
-  },
-  {
    "name": "Global Secret Group",
    "count": 3
   },
   {
    "name": "Storm",
    "count": 3
+  },
+  {
+   "name": "emperador",
+   "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 14
+   "count": 12
   },
   {
    "name": "Technology",
-   "count": 10
+   "count": 9
   },
   {
    "name": "Professional Services",
@@ -77,12 +77,6 @@
    "lon": 8.7
   },
   {
-   "code": "BR",
-   "count": 2,
-   "lat": -23.5,
-   "lon": -46.6
-  },
-  {
    "code": "CH",
    "count": 2,
    "lat": 46.9,
@@ -113,6 +107,12 @@
    "lon": 4.9
   },
   {
+   "code": "PT",
+   "count": 2,
+   "lat": 38.7,
+   "lon": -9.1
+  },
+  {
    "code": "AE",
    "count": 1,
    "lat": 24.5,
@@ -131,10 +131,10 @@
    "lon": 16.4
   },
   {
-   "code": "BE",
+   "code": "BR",
    "count": 1,
-   "lat": 50.8,
-   "lon": 4.4
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "CA",
@@ -167,12 +167,6 @@
    "lon": 38.7
   },
   {
-   "code": "HK",
-   "count": 1,
-   "lat": 22.3,
-   "lon": 114.2
-  },
-  {
    "code": "IN",
    "count": 1,
    "lat": 19.1,
@@ -195,12 +189,6 @@
    "count": 1,
    "lat": -12.0,
    "lon": -77.0
-  },
-  {
-   "code": "PT",
-   "count": 1,
-   "lat": 38.7,
-   "lon": -9.1
   },
   {
    "code": "SG",
@@ -228,6 +216,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #103",
+   "group": "N0n",
+   "date": "2026-10-21T10:25:22+00:00",
+   "attack_date": "2026-10-21",
+   "country": "PT",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTAzQE4wbg=="
+  },
+  {
+   "victim": "Company #102",
+   "group": "N0n",
+   "date": "2026-10-21T10:24:46+00:00",
+   "attack_date": "2026-10-21",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTAyQE4wbg=="
+  },
+  {
+   "victim": "Company #101",
+   "group": "N0n",
+   "date": "2026-10-21T10:24:11+00:00",
+   "attack_date": "2026-10-21",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTAxQE4wbg=="
+  },
+  {
+   "victim": "Company #100",
+   "group": "N0n",
+   "date": "2026-10-21T10:23:35+00:00",
+   "attack_date": "2026-10-21",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTAwQE4wbg=="
+  },
+  {
+   "victim": "Company #99",
+   "group": "N0n",
+   "date": "2026-10-21T10:22:59+00:00",
+   "attack_date": "2026-10-21",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTlATjBu"
+  },
   {
    "victim": "TheHomeMag NorCal",
    "group": "N0n",
@@ -1082,51 +1115,6 @@
    "country": "AT",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/QnJlbm5lciBCYXNlIFR1bm5lbEBldmVyZXN0"
-  },
-  {
-   "victim": "Prafesta Ind. e Com. de Embalagens Ltda",
-   "group": "N0n",
-   "date": "2026-10-16T21:53:44+00:00",
-   "attack_date": "2026-10-16",
-   "country": "BR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UHJhZmVzdGEgSW5kLiBlIENvbS4gZGUgRW1iYWxhZ2VucyBMdGRhQE4wbg=="
-  },
-  {
-   "victim": "WSBI-ESBG",
-   "group": "play",
-   "date": "2026-10-16T20:40:40+00:00",
-   "attack_date": "2026-10-16",
-   "country": "BE",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/V1NCSS1FU0JHQHBsYXk="
-  },
-  {
-   "victim": "New Tec Tool Limited",
-   "group": "play",
-   "date": "2026-10-16T20:40:05+00:00",
-   "attack_date": "2026-10-16",
-   "country": "HK",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TmV3IFRlYyBUb29sIExpbWl0ZWRAcGxheQ=="
-  },
-  {
-   "victim": "MicroSearch Corporation",
-   "group": "play",
-   "date": "2026-10-16T20:39:30+00:00",
-   "attack_date": "2026-10-16",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/TWljcm9TZWFyY2ggQ29ycG9yYXRpb25AcGxheQ=="
-  },
-  {
-   "victim": "Pure Options",
-   "group": "play",
-   "date": "2026-10-16T20:38:54+00:00",
-   "attack_date": "2026-10-16",
-   "country": null,
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/UHVyZSBPcHRpb25zQHBsYXk="
   }
  ]
 }
