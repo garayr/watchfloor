@@ -2,36 +2,36 @@
  "infocon": "yellow",
  "malware": {
   "window": "24h",
-  "total_iocs": 2347,
+  "total_iocs": 2531,
   "c2_servers": 721,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 654,
+    "iocs": 666,
     "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Vidar",
-    "iocs": 395,
-    "c2": 385,
+    "iocs": 392,
+    "c2": 382,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 258,
+    "iocs": 380,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "AMOS",
-    "iocs": 234,
+    "iocs": 227,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 118,
+    "iocs": 148,
     "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -49,15 +49,15 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 51,
+    "iocs": 62,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Remus",
-    "iocs": 48,
-    "c2": 48,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remus"
+    "name": "StrelaStealer",
+    "iocs": 47,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "php.shin_webshell",
@@ -109,72 +109,72 @@
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 2374736,
-   "targets": 272,
-   "sources": 11969
+   "records": 4726183,
+   "targets": 300,
+   "sources": 19179
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 563554,
-   "targets": 266,
-   "sources": 7292
-  },
-  {
-   "port": 22,
-   "service": "SSH",
-   "records": 534600,
-   "targets": 274,
-   "sources": 9740
+   "records": 1372684,
+   "targets": 275,
+   "sources": 14249
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 444668,
-   "targets": 247,
-   "sources": 8661
+   "records": 1061366,
+   "targets": 283,
+   "sources": 15583
   },
   {
-   "port": 23,
-   "service": "Telnet",
-   "records": 410120,
-   "targets": 269,
-   "sources": 9686
+   "port": 22,
+   "service": "SSH",
+   "records": 1055291,
+   "targets": 292,
+   "sources": 18520
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 410045,
-   "targets": 271,
-   "sources": 4753
+   "records": 1041529,
+   "targets": 282,
+   "sources": 10572
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 899587,
+   "targets": 284,
+   "sources": 16284
   },
   {
    "port": 2222,
    "service": null,
-   "records": 190034,
-   "targets": 260,
-   "sources": 6038
+   "records": 315807,
+   "targets": 275,
+   "sources": 8243
   },
   {
    "port": 6881,
    "service": null,
-   "records": 85474,
-   "targets": 217,
-   "sources": 1376
+   "records": 170368,
+   "targets": 240,
+   "sources": 2236
   },
   {
    "port": 9000,
    "service": null,
-   "records": 65408,
-   "targets": 244,
-   "sources": 3118
+   "records": 164756,
+   "targets": 261,
+   "sources": 5740
   },
   {
    "port": 51413,
    "service": null,
-   "records": 57166,
-   "targets": 48,
-   "sources": 1189
+   "records": 108405,
+   "targets": 68,
+   "sources": 2032
   }
  ],
  "ports_date": "2026-10-21",
@@ -182,7 +182,7 @@
   {
    "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
    "url": "https://isc.sans.edu/diary/rss/33440",
-   "date": "2026-10-21T15:12:02+00:00"
+   "date": "2026-10-21T21:02:43+00:00"
   },
   {
    "title": "ISC Stormcast For Wednesday, October 21st, 2026 https://isc.sans.edu/podcastdetail/10144, (Wed, Oct 21st)",
@@ -507,10 +507,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-21T20:19:56+00:00",
-  "sans": "2026-10-21T20:19:56+00:00",
+  "threatfox": "2026-10-21T21:22:41+00:00",
+  "sans": "2026-10-21T21:22:41+00:00",
   "otx": "2026-10-21T20:57:16+00:00",
   "urlhaus": "2026-10-21T20:57:16+00:00"
  },
- "generated_at": "2026-10-21T20:57:16+00:00"
+ "generated_at": "2026-10-21T21:22:41+00:00"
 }
