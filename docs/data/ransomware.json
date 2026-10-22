@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-22T01:07:50+00:00",
+ "generated_at": "2026-10-22T02:11:21+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 28
+   "count": 27
   },
   {
    "name": "qilin",
@@ -22,7 +22,7 @@
   },
   {
    "name": "SilentRansomGroup",
-   "count": 5
+   "count": 6
   },
   {
    "name": "Helix",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 52,
+   "count": 51,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -204,6 +204,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "K.r.....s",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-21T21:08:32+00:00",
+   "attack_date": "2026-10-21",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Sy5yLi4gLi4uc0BTaWxlbnRSYW5zb21Hcm91cA=="
+  },
   {
    "victim": "novagroupgbc.com",
    "group": "BrainCipher",
@@ -1094,15 +1103,6 @@
    "country": null,
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/THV6Y28gSWx1bWluYXRpb25AZW1wZXJhZG9y"
-  },
-  {
-   "victim": "Company #90",
-   "group": "N0n",
-   "date": "2026-10-18T05:53:23+00:00",
-   "attack_date": "2026-10-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTBATjBu"
   }
  ]
 }
