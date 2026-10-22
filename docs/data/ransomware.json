@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T03:12:01+00:00",
+ "generated_at": "2026-10-22T04:16:33+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "qilin",
-   "count": 11
+   "count": 10
   },
   {
    "name": "BrainCipher",
@@ -25,11 +25,11 @@
    "count": 6
   },
   {
-   "name": "Helix",
-   "count": 4
+   "name": "Global Secret Group",
+   "count": 3
   },
   {
-   "name": "Global Secret Group",
+   "name": "Helix",
    "count": 3
   },
   {
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Professional Services",
@@ -48,31 +48,31 @@
   },
   {
    "name": "Healthcare",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Technology",
    "count": 8
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Other",
    "count": 7
   },
   {
-   "name": "Other",
-   "count": 6
+   "name": "Retail & E-Commerce",
+   "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 51,
+   "count": 50,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 4,
+   "count": 6,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -99,12 +99,6 @@
    "count": 2,
    "lat": 37.6,
    "lon": 127.0
-  },
-  {
-   "code": "MY",
-   "count": 2,
-   "lat": 3.1,
-   "lon": 101.7
   },
   {
    "code": "PT",
@@ -155,6 +149,12 @@
    "lon": 38.7
   },
   {
+   "code": "FR",
+   "count": 1,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "IE",
    "count": 1,
    "lat": 53.3,
@@ -171,6 +171,12 @@
    "count": 1,
    "lat": 19.4,
    "lon": -99.1
+  },
+  {
+   "code": "MY",
+   "count": 1,
+   "lat": 3.1,
+   "lon": 101.7
   },
   {
    "code": "PE",
@@ -204,6 +210,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Heritage Senior Living",
+   "group": "N0n",
+   "date": "2026-10-21T23:56:37+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/SGVyaXRhZ2UgU2VuaW9yIExpdmluZ0BOMG4="
+  },
+  {
+   "victim": "FuG-Gruppe",
+   "group": "lamashtu",
+   "date": "2026-10-21T23:12:19+00:00",
+   "attack_date": "2026-10-21",
+   "country": "DE",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/RnVHLUdydXBwZUBsYW1hc2h0dQ=="
+  },
+  {
+   "victim": "MECA-PRECIS",
+   "group": "lamashtu",
+   "date": "2026-10-21T23:11:42+00:00",
+   "attack_date": "2026-10-21",
+   "country": "FR",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TUVDQS1QUkVDSVNAbGFtYXNodHU="
+  },
+  {
+   "victim": "WEPOS Chemie",
+   "group": "lamashtu",
+   "date": "2026-10-21T23:11:03+00:00",
+   "attack_date": "2026-10-21",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/V0VQT1MgQ2hlbWllQGxhbWFzaHR1"
+  },
   {
    "victim": "K.r.....s",
    "group": "SilentRansomGroup",
@@ -1067,42 +1109,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/bWNrZW5uZXlzQGlhaDY0Nzc="
-  },
-  {
-   "victim": "Pengurusan Aset Air Berhad",
-   "group": "qilin",
-   "date": "2026-10-18T09:47:41+00:00",
-   "attack_date": "2026-10-18",
-   "country": "MY",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/UGVuZ3VydXNhbiBBc2V0IEFpciBCZXJoYWRAcWlsaW4="
-  },
-  {
-   "victim": "Company #91",
-   "group": "N0n",
-   "date": "2026-10-18T08:54:33+00:00",
-   "attack_date": "2026-10-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTFATjBu"
-  },
-  {
-   "victim": "Southwire",
-   "group": "Helix",
-   "date": "2026-10-18T07:51:55+00:00",
-   "attack_date": "2026-10-18",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/U291dGh3aXJlQEhlbGl4"
-  },
-  {
-   "victim": "Luzco Ilumination",
-   "group": "emperador",
-   "date": "2026-10-18T06:52:23+00:00",
-   "attack_date": "2026-10-18",
-   "country": null,
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/THV6Y28gSWx1bWluYXRpb25AZW1wZXJhZG9y"
   }
  ]
 }

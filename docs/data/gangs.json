@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T01:07:50+00:00",
+ "generated_at": "2026-10-22T04:16:33+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1494,8 +1494,8 @@
    "description": "Lamashtu is an extortion group that first appeared in April 2026, claiming attacks against organizations in France, Romania, and Thailand across energy, pharmaceutical, and film sectors; it has not yet been confirmed as operating actual file-encrypting ransomware rather than pure data-theft extortion.",
    "aliases": [],
    "first_seen": "2026-04-11",
-   "last_seen": "2026-10-05",
-   "victims_total": 48,
+   "last_seen": "2026-10-22",
+   "victims_total": 53,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -1504,11 +1504,11 @@
     "countries": [
      {
       "name": "DE",
-      "count": 9
+      "count": 13
      },
      {
       "name": "FR",
-      "count": 5
+      "count": 6
      },
      {
       "name": "MY",
@@ -1530,26 +1530,26 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 13
+      "count": 15
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 5
+     },
+     {
+      "name": "Other",
+      "count": 5
      },
      {
       "name": "Professional Services",
       "count": 5
      },
      {
-      "name": "Agriculture and Food Production",
-      "count": 4
-     },
-     {
-      "name": "Other",
+      "name": "Energy & Utilities",
       "count": 4
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 4
-     },
-     {
-      "name": "Transportation",
       "count": 4
      }
     ]
@@ -1601,11 +1601,11 @@
     },
     {
      "month": "2026-10",
-     "count": 4
+     "count": 9
     }
    ],
-   "history_size": 48,
-   "updated": "2026-10-08T20:30:16+00:00"
+   "history_size": 53,
+   "updated": "2026-10-22T04:16:33+00:00"
   },
   "Doommageddon": {
    "name": "Doommageddon",
