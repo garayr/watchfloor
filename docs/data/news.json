@@ -92,6 +92,17 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+     "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-22T17:18:22+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-93952"
+     ]
+    },
+    {
      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
      "summary": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]",
      "source": "BleepingComputer",
@@ -204,14 +215,6 @@
      "source": "The Hacker News",
      "date": "2026-10-21T14:00:00+00:00",
      "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-     "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP…",
-     "source": "The Hacker News",
-     "date": "2026-10-21T10:36:53+00:00",
-     "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
      "group": "Exploited right now"
     }
    ]
