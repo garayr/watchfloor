@@ -2,24 +2,24 @@
  "infocon": "yellow",
  "malware": {
   "window": "24h",
-  "total_iocs": 1745,
-  "c2_servers": 659,
+  "total_iocs": 1777,
+  "c2_servers": 667,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 344,
-    "c2": 334,
+    "iocs": 343,
+    "c2": 333,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 289,
+    "iocs": 298,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 178,
+    "iocs": 187,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
@@ -32,18 +32,18 @@
    {
     "name": "Mirai",
     "iocs": 112,
-    "c2": 8,
+    "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "VShell",
-    "iocs": 105,
-    "c2": 105,
+    "iocs": 104,
+    "c2": 104,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "ClearFake",
-    "iocs": 98,
+    "iocs": 96,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -61,7 +61,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 38,
+    "iocs": 41,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 816,
+  "online": 796,
   "top_tags": [
    {
     "name": "github",
-    "count": 432
+    "count": 418
    },
    {
     "name": "zip",
-    "count": 431
+    "count": 417
    },
    {
     "name": "SmartLoader",
-    "count": 428
+    "count": 414
    },
    {
     "name": "elf",
-    "count": 274
+    "count": 275
    },
    {
     "name": "ua-wget",
     "count": 250
    },
    {
+    "name": "Mozi",
+    "count": 187
+   },
+   {
     "name": "FakeGit",
     "count": 179
    },
    {
-    "name": "Mozi",
-    "count": 178
-   },
-   {
     "name": "mirai",
-    "count": 173
+    "count": 177
    }
   ]
  },
@@ -212,6 +212,35 @@
  ],
  "pulses": [
   {
+   "name": "New BlackX UEFI bootkit exploiting Baton Drop",
+   "summary": "In early 2026, a sophisticated APT campaign targeting diplomatic agencies in Tajikistan, Uzbekistan, and Turkmenistan deployed BlackX, a UEFI bootkit similar to the notorious BlackLotus. The bootkit exploits the Baton…",
+   "date": "2026-10-22T10:01:43+00:00",
+   "author": "AlienVault",
+   "adversary": "APT41",
+   "malware": [
+    "BlackX",
+    "BlackLotus",
+    "OxiDLLRunner"
+   ],
+   "countries": [
+    "Tajikistan",
+    "Turkmenistan",
+    "Uzbekistan"
+   ],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "uefi bootkit",
+    "secure boot bypass",
+    "blackx",
+    "baton drop",
+    "kernel driver",
+    "oxidllrunner"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad9df071ab39972490f947b"
+  },
+  {
    "name": "LiteLLM supply chain compromise",
    "summary": "On October 21, 2026, attackers compromised litellm version 1.107.0, a popular Python proxy library for LLM providers with approximately 23 million weekly downloads. The malicious release was available on PyPI and…",
    "date": "2026-10-22T05:27:33+00:00",
@@ -266,6 +295,103 @@
    "url": "https://otx.alienvault.com/pulse/6ad964720fdac83866db4a7d"
   },
   {
+   "name": "LiteLLM PyPI Package and Docker Images Compromised to Steal Cloud and AI Credentials",
+   "summary": "LiteLLM version 1.107.0 was compromised through a supply chain attack affecting both PyPI packages and Docker images. The malicious release contains Python startup files that automatically execute upon Python…",
+   "date": "2026-10-21T20:02:42+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "privcollect"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "ai tooling",
+    "supply chain attack",
+    "litellm",
+    "container compromise",
+    "pypi"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad91a62b48f2e8558fd4787"
+  },
+  {
+   "name": "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619",
+   "summary": "Two critical remote code execution vulnerabilities in PHP, collectively named PHP2Shell, were disclosed on October 21, 2026. CVE-2026-109618 involves out-of-memory handling corruption that can interrupt PHP while…",
+   "date": "2026-10-21T20:02:42+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "remote code execution",
+    "internet scanning",
+    "cve-2026-109619",
+    "php2shell",
+    "exploitation attempts",
+    "cve-2026-109618"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad91a624dfadf973556516c"
+  },
+  {
+   "name": "INC and The Gentlemen Ransomware: Exposed AI Infrastructure",
+   "summary": "Threat researchers discovered an AI-driven intrusion ecosystem operated by affiliates of INC Ransomware and The Gentlemen Ransomware groups through seven exposed command-and-control servers. The operators integrated…",
+   "date": "2026-10-21T15:32:18+00:00",
+   "author": "AlienVault",
+   "adversary": "INC Ransom, The Gentlemen",
+   "malware": [
+    "INC Ransomware",
+    "Phantom",
+    "Ghost C2",
+    "RevSocks",
+    "QuickLine",
+    "WormGPT"
+   ],
+   "countries": [
+    "United States of America"
+   ],
+   "industries": [
+    "Manufacturing",
+    "Healthcare",
+    "Energy",
+    "Finance",
+    "Government",
+    "Technology"
+   ],
+   "tags": [
+    "simplehelp",
+    "phantom framework",
+    "ghost c2",
+    "wormgpt",
+    "ai-driven operations",
+    "ransomware-as-a-service"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad8db024c84442cd0085496"
+  },
+  {
+   "name": "Stray Cat, Open Doors: How k0t Wanders Through the Network Edge",
+   "summary": "Group-IB and NyxLab uncovered a large-scale campaign by threat actor k0t exploiting FortiGate, FortiWeb, and Palo Alto GlobalProtect edge devices to harvest credentials and establish persistent access. The operation…",
+   "date": "2026-10-21T15:21:41+00:00",
+   "author": "AlienVault",
+   "adversary": "k0t",
+   "malware": [
+    "AdaptixC2"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "credential harvesting",
+    "initial access broker",
+    "adaptixc2",
+    "fortigate",
+    "cve-2026-0257",
+    "meshcentral"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad8d8853d4b5de3946bd006"
+  },
+  {
    "name": "The Science of Exploitability: Decoding BlueHammer",
    "summary": "BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting Windows Defender Antimalware Platform before version 4.18.26030.3011. It requires initial code execution as a standard user and…",
    "date": "2026-10-21T15:21:41+00:00",
@@ -306,6 +432,28 @@
    "url": "https://otx.alienvault.com/pulse/6ad8d884cb22f07021380605"
   },
   {
+   "name": "Amazon-Themed ClickFix Campaign Serves Up Finger-Licking Malware",
+   "summary": "Attackers leveraged a sponsored Google search result for 'amazon business' to redirect victims to a spoofed Amazon login page hosted on Google Sites. The page presented a fake CAPTCHA (ClickFix) that tricked users into…",
+   "date": "2026-10-21T15:21:34+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Doina",
+    "Lumma Stealer",
+    "NetSupport Client"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "lumma stealer",
+    "clickfix",
+    "finger utility",
+    "doina",
+    "netsupport client"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad8d87ee8e0fe132bce49d2"
+  },
+  {
    "name": "Recent AI-Assisted Cyber Attacks in Japan: Investigating Attack Infrastructure and Techniques",
    "summary": "In October 2026, multiple organizations in Japan experienced unauthorized access incidents resulting in personal information leakage. Investigations revealed that attackers leveraged artificial intelligence to scan for…",
    "date": "2026-10-21T10:40:27+00:00",
@@ -344,173 +492,13 @@
     "cryptocurrency mining"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad8968ddeccc0f490a19622"
-  },
-  {
-   "name": "The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation",
-   "summary": "The Gentlemen is a Russian-speaking ransomware-as-a-service group that emerged in mid-2025 after operating as an affiliate of LockBit and Qilin. The group offers affiliates up to 90% of ransom revenue and has claimed…",
-   "date": "2026-10-21T06:20:56+00:00",
-   "author": "AlienVault",
-   "adversary": "The Gentlemen",
-   "malware": [
-    "The Gentlemen",
-    "ArmCorp",
-    "Phantom Mantis"
-   ],
-   "countries": [
-    "United States of America"
-   ],
-   "industries": [
-    "Manufacturing",
-    "Technology",
-    "Healthcare",
-    "Retail",
-    "Education",
-    "Finance"
-   ],
-   "tags": [
-    "edr-killer",
-    "data-exfiltration",
-    "lateral-movement",
-    "double-extortion",
-    "psexec",
-    "vulnerable-driver"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad859c8c552c00c64877692"
-  },
-  {
-   "name": "Dissection of Operation FlashHole, a complex attack by Lazarus",
-   "summary": "In January, Lazarus Group launched Operation FlashHole against South Korea, exploiting mandatory security software CrossWeb EX through watering hole strategies and targeted spear-phishing emails with fake portfolio and…",
-   "date": "2026-10-21T06:12:43+00:00",
-   "author": "AlienVault",
-   "adversary": "Lazarus Group",
-   "malware": [
-    "TechHub",
-    "Cubridge",
-    "TouchHub",
-    "TouchShift",
-    "ClientHub",
-    "LPEClient"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology",
-    "Construction",
-    "Manufacturing",
-    "Finance"
-   ],
-   "tags": [
-    "racket",
-    "nickelloader",
-    "watering hole",
-    "threatneedle",
-    "signbt",
-    "south korea"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad857db71667a30647a5232"
-  },
-  {
-   "name": "From Phishing to LLMjacking: Threat Actors Targeting Cloud Billing Accounts for LLM Usage",
-   "summary": "Threat actors are conducting sophisticated campaigns targeting Google Cloud Platform environments through phishing attacks via sponsored search ads. Attackers compromise privileged user credentials using fake login…",
-   "date": "2026-10-21T01:52:26+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "gcp compromise",
-    "gemini api abuse",
-    "llmjacking",
-    "cross-tenant exploitation",
-    "cloud billing hijacking",
-    "phishing sponsored ads"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad81ada1b040cdb328c726b"
-  },
-  {
-   "name": "Inside Wazza: A Newly Observed Device Code Phishing Kit Targeting Microsoft 365 Accounts",
-   "summary": "A newly observed multi-stage phishing kit named Wazza has been actively targeting Microsoft 365 accounts since early July 2026. The campaign delivers phishing emails from compromised accounts containing PDF lures with…",
-   "date": "2026-10-20T20:42:18+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Wazza"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "device code phishing",
-    "credential theft",
-    "phishing kit",
-    "microsoft 365",
-    "oauth abuse",
-    "wazza"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad7d22ab42c70ab00513045"
-  },
-  {
-   "name": "Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain",
-   "summary": "Midnight Mimosa is a widespread Android malware campaign involving malicious applications preinstalled in firmware of low-cost MediaTek-based devices, with infections observed across more than 150 countries. The…",
-   "date": "2026-10-20T16:09:54+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Midnight Mimosa",
-    "Android.Phantom",
-    "Android.Click",
-    "Android.Joker",
-    "com.android.system.lite",
-    "libeasy.so"
-   ],
-   "countries": [
-    "United States of America",
-    "Brazil",
-    "France",
-    "Germany",
-    "Italy",
-    "Mexico"
-   ],
-   "industries": [],
-   "tags": [
-    "mediatek devices",
-    "supply chain compromise",
-    "mobile security evasion",
-    "com.earnsdk.lib.dxfactory",
-    "advertising fraud",
-    "residential proxy"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad792526e0187a3956df84e"
-  },
-  {
-   "name": "Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell",
-   "summary": "Between May and September 2026, a Russian-speaking operator systematically targeted Ukraine's state data-exchange infrastructure by exploiting Log4Shell vulnerabilities in Graylog servers. The attacker swept 9.1 million…",
-   "date": "2026-10-20T16:04:21+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "Ukraine"
-   ],
-   "industries": [
-    "Government",
-    "Hospitality"
-   ],
-   "tags": [
-    "cve-2021-41987",
-    "ukraine targeting",
-    "x-road platform",
-    "state infrastructure",
-    "graylog",
-    "deserialization"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad791051c8d94c4c32e8ad7"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-22T09:42:11+00:00",
-  "sans": "2026-10-22T09:42:11+00:00",
-  "otx": "2026-10-22T09:42:11+00:00",
-  "urlhaus": "2026-10-22T09:42:11+00:00"
+  "threatfox": "2026-10-22T10:58:51+00:00",
+  "sans": "2026-10-22T10:58:51+00:00",
+  "otx": "2026-10-22T10:58:51+00:00",
+  "urlhaus": "2026-10-22T10:58:51+00:00"
  },
- "generated_at": "2026-10-22T09:42:11+00:00"
+ "generated_at": "2026-10-22T10:58:51+00:00"
 }
