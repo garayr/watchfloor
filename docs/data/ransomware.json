@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T17:04:04+00:00",
+ "generated_at": "2026-10-22T18:07:22+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -30,7 +30,7 @@
   },
   {
    "name": "everest",
-   "count": 4
+   "count": 5
   },
   {
    "name": "Global Secret Group",
@@ -39,11 +39,11 @@
  ],
  "by_sector": [
   {
-   "name": "Manufacturing",
-   "count": 12
+   "name": "Professional Services",
+   "count": 13
   },
   {
-   "name": "Professional Services",
+   "name": "Manufacturing",
    "count": 12
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 45,
+   "count": 44,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -78,7 +78,7 @@
   },
   {
    "code": "GB",
-   "count": 4,
+   "count": 5,
    "lat": 51.5,
    "lon": -0.1
   },
@@ -204,6 +204,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "PWC",
+   "group": "everest",
+   "date": "2026-10-22T13:10:19+00:00",
+   "attack_date": "2026-10-22",
+   "country": "GB",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/UFdDQGV2ZXJlc3Q="
+  },
   {
    "victim": "Performance Ford Inc",
    "group": "N0n",
@@ -1076,15 +1085,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/QmFsdGltb3JlIFRhbmsgTGluZXNAU3Rvcm0="
-  },
-  {
-   "victim": "Merit Financial Group",
-   "group": "Storm",
-   "date": "2026-10-19T06:55:20+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/TWVyaXQgRmluYW5jaWFsIEdyb3VwQFN0b3Jt"
   },
   {
    "victim": "American Campus",
