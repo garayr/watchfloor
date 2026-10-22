@@ -2,44 +2,44 @@
  "infocon": "yellow",
  "malware": {
   "window": "24h",
-  "total_iocs": 1967,
-  "c2_servers": 743,
+  "total_iocs": 1976,
+  "c2_servers": 742,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 359,
-    "c2": 359,
+    "iocs": 363,
+    "c2": 363,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 313,
+    "iocs": 314,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 197,
+    "iocs": 200,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "ClearFake",
-    "iocs": 146,
+    "iocs": 159,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Mirai",
-    "iocs": 128,
-    "c2": 20,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
     "iocs": 127,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 121,
+    "c2": 19,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "IClickFix",
@@ -55,13 +55,13 @@
    },
    {
     "name": "VShell",
-    "iocs": 106,
-    "c2": 106,
+    "iocs": 105,
+    "c2": 105,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 42,
+    "iocs": 41,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
@@ -69,35 +69,35 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 747,
+  "online": 726,
   "top_tags": [
    {
+    "name": "elf",
+    "count": 301
+   },
+   {
     "name": "zip",
-    "count": 312
+    "count": 286
    },
    {
     "name": "github",
-    "count": 311
+    "count": 285
    },
    {
     "name": "SmartLoader",
-    "count": 309
-   },
-   {
-    "name": "elf",
-    "count": 298
+    "count": 283
    },
    {
     "name": "ua-wget",
-    "count": 250
+    "count": 253
    },
    {
     "name": "Mozi",
-    "count": 225
+    "count": 231
    },
    {
     "name": "mirai",
-    "count": 196
+    "count": 201
    },
    {
     "name": "FakeGit",
@@ -493,10 +493,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-22T15:58:39+00:00",
-  "sans": "2026-10-22T15:58:39+00:00",
-  "otx": "2026-10-22T15:58:39+00:00",
-  "urlhaus": "2026-10-22T15:58:39+00:00"
+  "threatfox": "2026-10-22T17:04:04+00:00",
+  "sans": "2026-10-22T17:04:04+00:00",
+  "otx": "2026-10-22T17:04:04+00:00",
+  "urlhaus": "2026-10-22T17:04:04+00:00"
  },
- "generated_at": "2026-10-22T15:58:39+00:00"
+ "generated_at": "2026-10-22T17:04:04+00:00"
 }
