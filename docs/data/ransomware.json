@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T04:16:33+00:00",
+ "generated_at": "2026-10-22T05:28:51+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "qilin",
-   "count": 10
+   "count": 9
   },
   {
    "name": "BrainCipher",
@@ -25,15 +25,15 @@
    "count": 6
   },
   {
+   "name": "lamashtu",
+   "count": 5
+  },
+  {
    "name": "Global Secret Group",
    "count": 3
   },
   {
    "name": "Helix",
-   "count": 3
-  },
-  {
-   "name": "Storm",
    "count": 3
   }
  ],
@@ -43,11 +43,11 @@
    "count": 13
   },
   {
-   "name": "Professional Services",
-   "count": 11
+   "name": "Healthcare",
+   "count": 10
   },
   {
-   "name": "Healthcare",
+   "name": "Professional Services",
    "count": 10
   },
   {
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 50,
+   "count": 48,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 6,
+   "count": 8,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -210,6 +210,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Gräfliches Hofbrauhaus Freising",
+   "group": "lamashtu",
+   "date": "2026-10-22T00:45:12+00:00",
+   "attack_date": "2026-10-22",
+   "country": "DE",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/R3LDpGZsaWNoZXMgSG9mYnJhdWhhdXMgRnJlaXNpbmdAbGFtYXNodHU="
+  },
+  {
+   "victim": "VERGI Muenster",
+   "group": "lamashtu",
+   "date": "2026-10-22T00:44:36+00:00",
+   "attack_date": "2026-10-22",
+   "country": "DE",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/VkVSR0kgTXVlbnN0ZXJAbGFtYXNodHU="
+  },
   {
    "victim": "Heritage Senior Living",
    "group": "N0n",
@@ -1091,24 +1109,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/U01JQyBVUyBDb21wYW55IChTdW5ueXZhbGUsIENBIOKAlCBVUyBhcm0gb2YgU2VtaWNvbmR1Y3RvciBNYW51ZmFjdHVyaW5nIEludGVybmF0aW9uYWwgQ29ycG8uLi5ATjBu"
-  },
-  {
-   "victim": "Llano Independent School District",
-   "group": "qilin",
-   "date": "2026-10-18T13:49:38+00:00",
-   "attack_date": "2026-10-18",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/TGxhbm8gSW5kZXBlbmRlbnQgU2Nob29sIERpc3RyaWN0QHFpbGlu"
-  },
-  {
-   "victim": "mckenneys",
-   "group": "iah6477",
-   "date": "2026-10-18T12:37:04+00:00",
-   "attack_date": "2026-10-18",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/bWNrZW5uZXlzQGlhaDY0Nzc="
   }
  ]
 }
