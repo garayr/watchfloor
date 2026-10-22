@@ -2,43 +2,43 @@
  "infocon": "yellow",
  "malware": {
   "window": "24h",
-  "total_iocs": 1974,
-  "c2_servers": 734,
+  "total_iocs": 2025,
+  "c2_servers": 722,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 361,
-    "c2": 361,
+    "iocs": 363,
+    "c2": 363,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 317,
+    "iocs": 325,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 195,
+    "iocs": 194,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "ClearFake",
-    "iocs": 159,
+    "iocs": 174,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 127,
+    "iocs": 163,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
     "iocs": 121,
-    "c2": 19,
+    "c2": 17,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -55,8 +55,8 @@
    },
    {
     "name": "VShell",
-    "iocs": 99,
-    "c2": 99,
+    "iocs": 95,
+    "c2": 95,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 711,
+  "online": 725,
   "top_tags": [
    {
     "name": "elf",
-    "count": 316
+    "count": 338
    },
    {
     "name": "ua-wget",
-    "count": 278
-   },
-   {
-    "name": "zip",
-    "count": 267
-   },
-   {
-    "name": "github",
-    "count": 265
-   },
-   {
-    "name": "SmartLoader",
-    "count": 264
-   },
-   {
-    "name": "FakeGit",
-    "count": 226
+    "count": 306
    },
    {
     "name": "Mozi",
-    "count": 225
+    "count": 230
    },
    {
     "name": "mirai",
-    "count": 214
+    "count": 226
+   },
+   {
+    "name": "zip",
+    "count": 220
+   },
+   {
+    "name": "github",
+    "count": 218
+   },
+   {
+    "name": "SmartLoader",
+    "count": 217
+   },
+   {
+    "name": "FakeGit",
+    "count": 179
    }
   ]
  },
@@ -493,10 +493,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-22T18:07:22+00:00",
-  "sans": "2026-10-22T18:07:22+00:00",
-  "otx": "2026-10-22T18:07:22+00:00",
-  "urlhaus": "2026-10-22T18:07:22+00:00"
+  "threatfox": "2026-10-22T19:20:02+00:00",
+  "sans": "2026-10-22T19:20:02+00:00",
+  "otx": "2026-10-22T19:20:02+00:00",
+  "urlhaus": "2026-10-22T19:20:02+00:00"
  },
- "generated_at": "2026-10-22T18:07:22+00:00"
+ "generated_at": "2026-10-22T19:20:02+00:00"
 }
