@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-22T20:24:01+00:00",
+ "generated_at": "2026-10-22T21:25:16+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "N0n",
-   "count": 24
+   "count": 23
   },
   {
    "name": "qilin",
-   "count": 10
+   "count": 9
   },
   {
    "name": "BrainCipher",
@@ -18,7 +18,7 @@
   },
   {
    "name": "SilentRansomGroup",
-   "count": 7
+   "count": 8
   },
   {
    "name": "Booba Project",
@@ -60,7 +60,7 @@
   },
   {
    "name": "Technology",
-   "count": 7
+   "count": 6
   }
  ],
  "by_country": [
@@ -101,6 +101,12 @@
    "lon": -79.4
   },
   {
+   "code": "FR",
+   "count": 2,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "AE",
    "count": 1,
    "lat": 24.5,
@@ -119,12 +125,6 @@
    "lon": 7.4
   },
   {
-   "code": "CN",
-   "count": 1,
-   "lat": 39.9,
-   "lon": 116.4
-  },
-  {
    "code": "ES",
    "count": 1,
    "lat": 40.4,
@@ -135,12 +135,6 @@
    "count": 1,
    "lat": 9.0,
    "lon": 38.7
-  },
-  {
-   "code": "FR",
-   "count": 1,
-   "lat": 48.9,
-   "lon": 2.35
   },
   {
    "code": "IE",
@@ -159,12 +153,6 @@
    "count": 1,
    "lat": 37.6,
    "lon": 127.0
-  },
-  {
-   "code": "MX",
-   "count": 1,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "MY",
@@ -204,6 +192,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "AMSAM",
+   "group": "bravox",
+   "date": "2026-10-22T17:03:04+00:00",
+   "attack_date": "2026-10-22",
+   "country": "FR",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QU1TQU1AYnJhdm94"
+  },
+  {
+   "victim": "Barrow & Grimm",
+   "group": "bravox",
+   "date": "2026-10-22T17:02:26+00:00",
+   "attack_date": "2026-10-22",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QmFycm93ICYgR3JpbW1AYnJhdm94"
+  },
+  {
+   "victim": "M...r",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-22T16:59:24+00:00",
+   "attack_date": "2026-10-22",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TS4uLnJAU2lsZW50UmFuc29tR3JvdXA="
+  },
+  {
+   "victim": "Kirkland & Ellis LLP",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-22T16:58:16+00:00",
+   "attack_date": "2026-10-22",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/S2lya2xhbmQgJiBFbGxpcyBMTFBAU2lsZW50UmFuc29tR3JvdXA="
+  },
   {
    "victim": "Bethany Press International",
    "group": "akira",
@@ -1058,42 +1082,6 @@
    "country": "AR",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/R3J1cG8gQ3JvbmljYUBxaWxpbg=="
-  },
-  {
-   "victim": "Salauno",
-   "group": "qilin",
-   "date": "2026-10-19T14:52:46+00:00",
-   "attack_date": "2026-10-19",
-   "country": "MX",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/U2FsYXVub0BxaWxpbg=="
-  },
-  {
-   "victim": "PingCAP / TiDB Cloud",
-   "group": "fulcrumsec",
-   "date": "2026-10-19T13:50:46+00:00",
-   "attack_date": "2026-10-19",
-   "country": "CN",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/UGluZ0NBUCAvIFRpREIgQ2xvdWRAZnVsY3J1bXNlYw=="
-  },
-  {
-   "victim": "Latham & Watkins",
-   "group": "SilentRansomGroup",
-   "date": "2026-10-19T13:25:56+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/TGF0aGFtICYgV2F0a2luc0BTaWxlbnRSYW5zb21Hcm91cA=="
-  },
-  {
-   "victim": "Hotel DuPont",
-   "group": "N0n",
-   "date": "2026-10-19T13:24:13+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/SG90ZWwgRHVQb250QE4wbg=="
   }
  ]
 }
