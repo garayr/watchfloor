@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-22T05:28:51+00:00",
+ "generated_at": "2026-10-22T06:48:13+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 27
+   "count": 25
   },
   {
    "name": "qilin",
@@ -17,11 +17,11 @@
    "count": 8
   },
   {
-   "name": "Booba Project",
-   "count": 6
+   "name": "SilentRansomGroup",
+   "count": 7
   },
   {
-   "name": "SilentRansomGroup",
+   "name": "Booba Project",
    "count": 6
   },
   {
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Healthcare",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 48,
+   "count": 47,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -87,6 +87,12 @@
    "count": 2,
    "lat": -34.6,
    "lon": -58.4
+  },
+  {
+   "code": "CA",
+   "count": 2,
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "CH",
@@ -117,12 +123,6 @@
    "count": 1,
    "lat": -23.5,
    "lon": -46.6
-  },
-  {
-   "code": "CA",
-   "count": 1,
-   "lat": 43.7,
-   "lon": -79.4
   },
   {
    "code": "CN",
@@ -210,6 +210,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "bereskinparr.com smartbiggar.ca",
+   "group": "incransom",
+   "date": "2026-10-22T02:15:06+00:00",
+   "attack_date": "2026-10-21",
+   "country": "CA",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/YmVyZXNraW5wYXJyLmNvbSBzbWFydGJpZ2dhci5jYUBpbmNyYW5zb20="
+  },
+  {
+   "victim": "K.r.a....s",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-22T01:30:31+00:00",
+   "attack_date": "2026-10-22",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Sy5yLmEuIC4uLnNAU2lsZW50UmFuc29tR3JvdXA="
+  },
   {
    "victim": "Gräfliches Hofbrauhaus Freising",
    "group": "lamashtu",
@@ -1091,24 +1109,6 @@
    "country": "EG",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/VGVsZWNvbSBFZ3lwdEBOMG4="
-  },
-  {
-   "victim": "All Business Technologies (Fox Hill bookkeeping and tax practice)",
-   "group": "N0n",
-   "date": "2026-10-18T17:28:49+00:00",
-   "attack_date": "2026-10-18",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/QWxsIEJ1c2luZXNzIFRlY2hub2xvZ2llcyAoRm94IEhpbGwgYm9va2tlZXBpbmcgYW5kIHRheCBwcmFjdGljZSlATjBu"
-  },
-  {
-   "victim": "SMIC US Company (Sunnyvale, CA — US arm of Semiconductor Manufacturing International Corpo...",
-   "group": "N0n",
-   "date": "2026-10-18T16:27:05+00:00",
-   "attack_date": "2026-10-18",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/U01JQyBVUyBDb21wYW55IChTdW5ueXZhbGUsIENBIOKAlCBVUyBhcm0gb2YgU2VtaWNvbmR1Y3RvciBNYW51ZmFjdHVyaW5nIEludGVybmF0aW9uYWwgQ29ycG8uLi5ATjBu"
   }
  ]
 }
