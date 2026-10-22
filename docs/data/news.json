@@ -63,27 +63,11 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
-     "summary": "Rapid7’s Q3 analysis finds high-severity flaws exploited within three days on average, while AI appeared in just 8% of tracked incidents. The post High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3…",
-     "source": "SecurityWeek",
-     "date": "2026-10-21T14:45:00+00:00",
-     "url": "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
      "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor…",
      "source": "The Hacker News",
      "date": "2026-10-21T10:30:27+00:00",
      "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-     "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites…",
-     "source": "The Hacker News",
-     "date": "2026-10-21T09:01:12+00:00",
-     "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
      "group": "Breaches and ransomware"
     }
    ]
@@ -91,6 +75,22 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+     "summary": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-22T13:09:12+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
+     "summary": "Affecting the open source calling library RingRTC, the bug prevented calls from ending properly. The post Signal Vulnerability Lets Malicious Callers Block Hang-Ups appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-22T12:34:31+00:00",
+     "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
+     "group": "Exploited right now"
+    },
     {
      "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
      "summary": "Vendors are checking their products for PHP2Shell, security firms are shipping detections, and governments are urging immediate patching. The post Tech and Security Companies Respond to PHP2Shell Vulnerabilities…",
@@ -252,6 +252,14 @@
    "group": "Other news",
    "items": [
     {
+     "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
+     "summary": "The Amsterdam-based company plans to use the funding for research and development and commercial expansion in Europe and the Middle East. The post Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform…",
+     "source": "SecurityWeek",
+     "date": "2026-10-22T13:00:00+00:00",
+     "url": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
+     "group": "Other news"
+    },
+    {
      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
      "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized…",
      "source": "The Hacker News",
@@ -305,14 +313,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-21T16:26:53+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
-     "group": "Other news"
-    },
-    {
-     "title": "‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets",
-     "summary": "Deceptive prompts lure AI agents into decoys and dead ends, cutting attack success by up to 91% in tests and raising the cost of a successful attack 23-fold. The post ‘Context Bombs’ Cut AI Attack Success by Misleading…",
-     "source": "SecurityWeek",
-     "date": "2026-10-21T15:00:00+00:00",
-     "url": "https://www.securityweek.com/context-bombs-cut-ai-attack-success-by-misleading-agents-with-fake-targets/",
      "group": "Other news"
     },
     {
