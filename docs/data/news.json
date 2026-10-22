@@ -17,6 +17,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+     "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21…",
+     "source": "The Hacker News",
+     "date": "2026-10-22T08:28:48+00:00",
+     "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
      "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
      "source": "BleepingComputer",
@@ -93,22 +101,6 @@
      "date": "2026-10-21T07:44:22+00:00",
      "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
-     "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-21T01:01:50+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
-     "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted…",
-     "source": "BleepingComputer",
-     "date": "2026-10-21T00:46:42+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
@@ -116,11 +108,35 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+     "summary": "Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the…",
+     "source": "The Hacker News",
+     "date": "2026-10-22T07:47:22+00:00",
+     "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
      "summary": "Nearly 100 vulnerabilities have been assigned a critical severity rating and Fusion Middleware received the most patches. The post Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU appeared first on…",
      "source": "SecurityWeek",
      "date": "2026-10-22T07:38:14+00:00",
      "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+     "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP…",
+     "source": "The Hacker News",
+     "date": "2026-10-22T06:38:31+00:00",
+     "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+     "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad…",
+     "source": "The Hacker News",
+     "date": "2026-10-22T06:34:10+00:00",
+     "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
      "group": "Exploited right now"
     },
     {
@@ -184,20 +200,6 @@
      "date": "2026-10-21T09:05:17+00:00",
      "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server…",
-     "source": "The Hacker News",
-     "date": "2026-10-21T07:26:49+00:00",
-     "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-96656",
-      "CVE-2026-96655",
-      "CVE-2026-96654",
-      "CVE-2026-96652"
-     ]
     }
    ]
   },
@@ -226,14 +228,6 @@
      "source": "The Hacker News",
      "date": "2026-10-21T12:05:00+00:00",
      "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
-     "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to…",
-     "source": "The Hacker News",
-     "date": "2026-10-21T06:05:15+00:00",
-     "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
      "group": "Malware and campaigns"
     }
    ]

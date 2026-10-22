@@ -2,31 +2,31 @@
  "infocon": "yellow",
  "malware": {
   "window": "24h",
-  "total_iocs": 1748,
-  "c2_servers": 681,
+  "total_iocs": 1745,
+  "c2_servers": 659,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 362,
-    "c2": 352,
+    "iocs": 344,
+    "c2": 334,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 281,
+    "iocs": 289,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 167,
+    "iocs": 178,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 129,
-    "c2": 1,
+    "iocs": 128,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
@@ -37,8 +37,8 @@
    },
    {
     "name": "VShell",
-    "iocs": 103,
-    "c2": 103,
+    "iocs": 105,
+    "c2": 105,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -61,7 +61,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 37,
+    "iocs": 38,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
@@ -69,27 +69,27 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 822,
+  "online": 816,
   "top_tags": [
    {
     "name": "github",
-    "count": 462
+    "count": 432
    },
    {
     "name": "zip",
-    "count": 461
+    "count": 431
    },
    {
     "name": "SmartLoader",
-    "count": 458
+    "count": 428
    },
    {
     "name": "elf",
-    "count": 252
+    "count": 274
    },
    {
     "name": "ua-wget",
-    "count": 239
+    "count": 250
    },
    {
     "name": "FakeGit",
@@ -97,11 +97,11 @@
    },
    {
     "name": "Mozi",
-    "count": 164
+    "count": 178
    },
    {
     "name": "mirai",
-    "count": 158
+    "count": 173
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 858031,
-   "targets": 214,
-   "sources": 5491
+   "records": 1649536,
+   "targets": 232,
+   "sources": 7055
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 795685,
-   "targets": 204,
-   "sources": 4371
+   "records": 1524629,
+   "targets": 228,
+   "sources": 6420
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 185602,
-   "targets": 228,
-   "sources": 4092
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 160051,
-   "targets": 248,
-   "sources": 4155
+   "records": 352235,
+   "targets": 257,
+   "sources": 5270
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 158119,
-   "targets": 251,
-   "sources": 6204
+   "records": 332008,
+   "targets": 273,
+   "sources": 8954
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 319692,
+   "targets": 265,
+   "sources": 6801
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 151565,
-   "targets": 223,
-   "sources": 3674
+   "records": 294020,
+   "targets": 253,
+   "sources": 4719
   },
   {
    "port": 2222,
    "service": null,
-   "records": 36599,
-   "targets": 231,
-   "sources": 2844
+   "records": 87045,
+   "targets": 255,
+   "sources": 4348
   },
   {
    "port": 6881,
    "service": null,
-   "records": 29839,
-   "targets": 144,
-   "sources": 863
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 22198,
-   "targets": 24,
-   "sources": 1249
+   "records": 56117,
+   "targets": 202,
+   "sources": 1243
   },
   {
    "port": 9000,
    "service": null,
-   "records": 19858,
-   "targets": 208,
-   "sources": 1411
+   "records": 39724,
+   "targets": 237,
+   "sources": 2179
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 39219,
+   "targets": 34,
+   "sources": 1691
   }
  ],
  "ports_date": "2026-10-22",
@@ -264,6 +264,86 @@
     "chinese-speaking operator"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad964720fdac83866db4a7d"
+  },
+  {
+   "name": "The Science of Exploitability: Decoding BlueHammer",
+   "summary": "BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting Windows Defender Antimalware Platform before version 4.18.26030.3011. It requires initial code execution as a standard user and…",
+   "date": "2026-10-21T15:21:41+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "bluehammer",
+    "cve-2026-33825",
+    "pass-the-hash",
+    "lsass credential theft",
+    "domain compromise"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad8d885956829eafc1fa8d1"
+  },
+  {
+   "name": "\"Next Exploit Opportunities\": How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
+   "summary": "A financially motivated threat actor operating under the handle BUGSTER leveraged jailbroken AI assistants, specifically the Hermes Agent framework with DeepSeek V4, to conduct multiple cybercrime operations across…",
+   "date": "2026-10-21T15:21:40+00:00",
+   "author": "AlienVault",
+   "adversary": "BUGSTER",
+   "malware": [],
+   "countries": [
+    "British Indian Ocean Territory",
+    "India"
+   ],
+   "industries": [
+    "Education",
+    "Telecommunications"
+   ],
+   "tags": [
+    "ai-enabled attacks",
+    "deepseek",
+    "hermes agent"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad8d884cb22f07021380605"
+  },
+  {
+   "name": "Recent AI-Assisted Cyber Attacks in Japan: Investigating Attack Infrastructure and Techniques",
+   "summary": "In October 2026, multiple organizations in Japan experienced unauthorized access incidents resulting in personal information leakage. Investigations revealed that attackers leveraged artificial intelligence to scan for…",
+   "date": "2026-10-21T10:40:27+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "Japan"
+   ],
+   "industries": [],
+   "tags": [
+    "ai-assisted attacks",
+    "edr evasion",
+    "japan",
+    "flutter reverse engineering",
+    "ssrf",
+    "web shell"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad8969bac267e8087601c01"
+  },
+  {
+   "name": "Autonomous LLMjacking: 'Skynet' Agent Hijacks Exposed AI Models to Run Attacks",
+   "summary": "Attackers have developed an autonomous offensive agent that scans the internet for exposed large language model endpoints and hijacks them to execute attacks. The agent is equipped with 74 offensive tools covering…",
+   "date": "2026-10-21T10:40:13+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "XMRig"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "ai model hijacking",
+    "llmjacking",
+    "xmrig",
+    "cryptocurrency mining"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad8968ddeccc0f490a19622"
   },
   {
    "name": "The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation",
@@ -424,105 +504,13 @@
     "deserialization"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad791051c8d94c4c32e8ad7"
-  },
-  {
-   "name": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257",
-   "summary": "Active exploitation of PAN-OS vulnerability CVE-2026-0257 has been observed, targeting GlobalProtect portal and gateway components. The authentication bypass flaw allows unauthorized attackers to circumvent security…",
-   "date": "2026-10-20T16:04:20+00:00",
-   "author": "AlienVault",
-   "adversary": "Spikey Scorpius, Tarnished Scorpius",
-   "malware": [
-    "Qilin",
-    "Brave Prince - S0252",
-    "Settra"
-   ],
-   "countries": [],
-   "industries": [
-    "Education",
-    "Finance",
-    "Healthcare",
-    "Technology",
-    "Hospitality",
-    "Manufacturing"
-   ],
-   "tags": [
-    "vpn exploitation",
-    "ransomware",
-    "cve-2023-27532",
-    "authentication bypass",
-    "pan-os",
-    "virtualization layer attack"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad79104128abd6fe9532c09"
-  },
-  {
-   "name": "Active Exploitation of CVE-2026-110936 in Siemens Software Center",
-   "summary": "A DLL side-loading vulnerability in Software Center version 3.5.8.7 is being actively exploited by attackers. The threat actors distribute a genuine, digitally signed copy of the application alongside malicious DLL…",
-   "date": "2026-10-20T14:43:58+00:00",
-   "author": "AlienVault",
-   "adversary": "Romulus",
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "software supply chain",
-    "cve-2026-110936",
-    "clickfix",
-    "industrial software"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad77e2e717e0153aa2fda49"
-  },
-  {
-   "name": "Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries",
-   "summary": "Russian espionage group Swallowtail targeted organizations across two NATO member states, including a law enforcement agency, naval shipbuilder, and military aircraft engine manufacturer. During a two-month intrusion at…",
-   "date": "2026-10-20T11:23:32+00:00",
-   "author": "AlienVault",
-   "adversary": "APT28",
-   "malware": [
-    "Hookedge"
-   ],
-   "countries": [],
-   "industries": [
-    "Defense",
-    "Government",
-    "Aerospace"
-   ],
-   "tags": [
-    "nato",
-    "forest blizzard",
-    "apt28",
-    "naval shipbuilder",
-    "fancy bear"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad74f34161c4cb0598be46f"
-  },
-  {
-   "name": "CVE-2026-102764: Critical BeyondTrust Remote Support Authentication Bypass Exploited in the Wild",
-   "summary": "A critical authentication bypass vulnerability in BeyondTrust Remote Support platform allows unauthenticated remote attackers to perform file operations without user interaction. Versions 26.2.3 and earlier are…",
-   "date": "2026-10-20T07:45:22+00:00",
-   "author": "AlienVault",
-   "adversary": "ARMORY CASTLE",
-   "malware": [
-    "SAWFLY",
-    "BARECLAW"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "bareclaw",
-    "sawfly",
-    "beyondtrust",
-    "prc-nexus",
-    "cve-2026-102764"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad71c12c5136d952c0cda96"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-22T08:19:34+00:00",
-  "sans": "2026-10-22T08:19:34+00:00",
-  "otx": "2026-10-22T08:19:34+00:00",
-  "urlhaus": "2026-10-22T08:19:34+00:00"
+  "threatfox": "2026-10-22T09:42:11+00:00",
+  "sans": "2026-10-22T09:42:11+00:00",
+  "otx": "2026-10-22T09:42:11+00:00",
+  "urlhaus": "2026-10-22T09:42:11+00:00"
  },
- "generated_at": "2026-10-22T08:19:34+00:00"
+ "generated_at": "2026-10-22T09:42:11+00:00"
 }

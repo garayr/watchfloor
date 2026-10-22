@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-22T08:19:34+00:00",
+ "generated_at": "2026-10-22T09:42:11+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
- "total": 100,
+ "total": 99,
  "by_group": [
   {
    "name": "N0n",
@@ -26,7 +26,7 @@
   },
   {
    "name": "lamashtu",
-   "count": 5
+   "count": 6
   },
   {
    "name": "everest",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Professional Services",
@@ -95,12 +95,6 @@
    "lon": -79.4
   },
   {
-   "code": "CH",
-   "count": 2,
-   "lat": 46.9,
-   "lon": 7.4
-  },
-  {
    "code": "KR",
    "count": 2,
    "lat": 37.6,
@@ -123,6 +117,12 @@
    "count": 1,
    "lat": -23.5,
    "lon": -46.6
+  },
+  {
+   "code": "CH",
+   "count": 1,
+   "lat": 46.9,
+   "lon": 7.4
   },
   {
    "code": "CN",
@@ -204,6 +204,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Hecker Holzsystembau",
+   "group": "lamashtu",
+   "date": "2026-10-22T05:09:06+00:00",
+   "attack_date": "2026-10-22",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/SGVja2VyIEhvbHpzeXN0ZW1iYXVAbGFtYXNodHU="
+  },
   {
    "victim": "Linebarger Goggan Blair & Sampson",
    "group": "everest",
@@ -1085,24 +1094,6 @@
    "country": "KR",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTJATjBu"
-  },
-  {
-   "victim": "********rta.ch",
-   "group": "cloak",
-   "date": "2026-10-18T19:06:57+00:00",
-   "attack_date": "2026-10-18",
-   "country": "CH",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/KioqKioqKipydGEuY2hAY2xvYWs="
-  },
-  {
-   "victim": "dac********er.de",
-   "group": "cloak",
-   "date": "2026-10-18T19:06:17+00:00",
-   "attack_date": "2026-10-18",
-   "country": "DE",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/ZGFjKioqKioqKiplci5kZUBjbG9haw=="
   }
  ]
 }
