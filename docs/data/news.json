@@ -33,6 +33,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Capcom confirms data breach affecting 11.7 million accounts",
+     "summary": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-22T20:22:45+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
      "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
      "source": "BleepingComputer",
@@ -115,6 +123,17 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+     "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets…",
+     "source": "The Hacker News",
+     "date": "2026-10-22T19:05:17+00:00",
+     "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-93952"
+     ]
+    },
     {
      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
      "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
@@ -232,14 +251,6 @@
      "alerts": [
       "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
      ]
-    },
-    {
-     "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
-     "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP…",
-     "source": "The Hacker News",
-     "date": "2026-10-21T14:00:00+00:00",
-     "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
-     "group": "Exploited right now"
     }
    ]
   },
@@ -252,14 +263,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-21T20:31:48+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
-     "summary": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade…",
-     "source": "BleepingComputer",
-     "date": "2026-10-21T14:00:10+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
      "group": "Malware and campaigns"
     }
    ]

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-22T19:20:02+00:00",
+ "generated_at": "2026-10-22T20:24:01+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "N0n",
-   "count": 27
+   "count": 24
   },
   {
    "name": "qilin",
-   "count": 9
+   "count": 10
   },
   {
    "name": "BrainCipher",
@@ -29,12 +29,12 @@
    "count": 6
   },
   {
-   "name": "everest",
+   "name": "akira",
    "count": 5
   },
   {
-   "name": "Global Secret Group",
-   "count": 3
+   "name": "everest",
+   "count": 5
   }
  ],
  "by_sector": [
@@ -48,31 +48,31 @@
   },
   {
    "name": "Healthcare",
-   "count": 10
-  },
-  {
-   "name": "Other",
-   "count": 8
+   "count": 9
   },
   {
    "name": "Retail & E-Commerce",
+   "count": 8
+  },
+  {
+   "name": "Other",
    "count": 7
   },
   {
    "name": "Technology",
-   "count": 6
+   "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 42,
+   "count": 39,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 8,
+   "count": 9,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -111,12 +111,6 @@
    "count": 1,
    "lat": 42.7,
    "lon": 23.3
-  },
-  {
-   "code": "BR",
-   "count": 1,
-   "lat": -23.5,
-   "lon": -46.6
   },
   {
    "code": "CH",
@@ -210,6 +204,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Bethany Press International",
+   "group": "akira",
+   "date": "2026-10-22T16:00:19+00:00",
+   "attack_date": "2026-10-21",
+   "country": null,
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/QmV0aGFueSBQcmVzcyBJbnRlcm5hdGlvbmFsQGFraXJh"
+  },
+  {
+   "victim": "Medienwerkstatt",
+   "group": "akira",
+   "date": "2026-10-22T16:00:00+00:00",
+   "attack_date": "2026-10-22",
+   "country": "DE",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/TWVkaWVud2Vya3N0YXR0QGFraXJh"
+  },
+  {
+   "victim": "Annapath",
+   "group": "akira",
+   "date": "2026-10-22T15:59:40+00:00",
+   "attack_date": "2026-10-22",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QW5uYXBhdGhAYWtpcmE="
+  },
+  {
+   "victim": "DR.SCHNELL GmbH & Co. KGaA",
+   "group": "rhysida",
+   "date": "2026-10-22T15:26:05+00:00",
+   "attack_date": "2026-10-22",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RFIuU0NITkVMTCBHbWJIICYgQ28uIEtHYUFAcmh5c2lkYQ=="
+  },
+  {
+   "victim": "Airtificial",
+   "group": "qilin",
+   "date": "2026-10-22T15:24:55+00:00",
+   "attack_date": "2026-10-22",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QWlydGlmaWNpYWxAcWlsaW4="
+  },
   {
    "victim": "Bathurst RSL",
    "group": "qilin",
@@ -976,15 +1015,6 @@
    "url": "https://www.ransomware.live/id/RnJvZ2d5cyBGb2dATjBu"
   },
   {
-   "victim": "Seetelhotels.de",
-   "group": "incransom",
-   "date": "2026-10-19T17:12:41+00:00",
-   "attack_date": "2026-10-19",
-   "country": "DE",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/U2VldGVsaG90ZWxzLmRlQGluY3JhbnNvbQ=="
-  },
-  {
    "victim": "WalkingTree Technologies",
    "group": "qilin",
    "date": "2026-10-19T15:59:19+00:00",
@@ -1064,42 +1094,6 @@
    "country": "US",
    "sector": "Hospitality",
    "url": "https://www.ransomware.live/id/SG90ZWwgRHVQb250QE4wbg=="
-  },
-  {
-   "victim": "Kingwood Endoscopy",
-   "group": "N0n",
-   "date": "2026-10-19T13:23:34+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/S2luZ3dvb2QgRW5kb3Njb3B5QE4wbg=="
-  },
-  {
-   "victim": "The Akeeli Group",
-   "group": "N0n",
-   "date": "2026-10-19T10:26:21+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/VGhlIEFrZWVsaSBHcm91cEBOMG4="
-  },
-  {
-   "victim": "GTL Concreto e Logística LTDA",
-   "group": "emperador",
-   "date": "2026-10-19T10:22:09+00:00",
-   "attack_date": "2026-10-19",
-   "country": "BR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/R1RMIENvbmNyZXRvIGUgTG9nw61zdGljYSBMVERBQGVtcGVyYWRvcg=="
-  },
-  {
-   "victim": "Company #94",
-   "group": "N0n",
-   "date": "2026-10-19T08:25:54+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTRATjBu"
   }
  ]
 }
