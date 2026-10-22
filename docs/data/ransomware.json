@@ -1,28 +1,32 @@
 {
- "generated_at": "2026-10-21T23:51:30+00:00",
+ "generated_at": "2026-10-22T01:07:50+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 31
+   "count": 28
   },
   {
    "name": "qilin",
-   "count": 14
+   "count": 11
+  },
+  {
+   "name": "BrainCipher",
+   "count": 8
   },
   {
    "name": "Booba Project",
    "count": 6
   },
   {
-   "name": "Helix",
-   "count": 6
-  },
-  {
    "name": "SilentRansomGroup",
    "count": 5
+  },
+  {
+   "name": "Helix",
+   "count": 4
   },
   {
    "name": "Global Secret Group",
@@ -31,28 +35,24 @@
   {
    "name": "Storm",
    "count": 3
-  },
-  {
-   "name": "emperador",
-   "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Professional Services",
+   "count": 11
+  },
+  {
+   "name": "Healthcare",
    "count": 9
   },
   {
    "name": "Technology",
    "count": 8
-  },
-  {
-   "name": "Healthcare",
-   "count": 7
   },
   {
    "name": "Retail & E-Commerce",
@@ -66,15 +66,27 @@
  "by_country": [
   {
    "code": "US",
-   "count": 53,
+   "count": 52,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 5,
+   "count": 4,
    "lat": 50.1,
    "lon": 8.7
+  },
+  {
+   "code": "GB",
+   "count": 4,
+   "lat": 51.5,
+   "lon": -0.1
+  },
+  {
+   "code": "AR",
+   "count": 2,
+   "lat": -34.6,
+   "lon": -58.4
   },
   {
    "code": "CH",
@@ -83,22 +95,16 @@
    "lon": 7.4
   },
   {
-   "code": "GB",
+   "code": "KR",
    "count": 2,
-   "lat": 51.5,
-   "lon": -0.1
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "MY",
    "count": 2,
    "lat": 3.1,
    "lon": 101.7
-  },
-  {
-   "code": "NL",
-   "count": 2,
-   "lat": 52.4,
-   "lon": 4.9
   },
   {
    "code": "PT",
@@ -111,12 +117,6 @@
    "count": 1,
    "lat": 24.5,
    "lon": 54.4
-  },
-  {
-   "code": "AR",
-   "count": 1,
-   "lat": -34.6,
-   "lon": -58.4
   },
   {
    "code": "BR",
@@ -155,22 +155,16 @@
    "lon": 38.7
   },
   {
+   "code": "IE",
+   "count": 1,
+   "lat": 53.3,
+   "lon": -6.3
+  },
+  {
    "code": "IN",
    "count": 1,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "IT",
-   "count": 1,
-   "lat": 41.9,
-   "lon": 12.5
-  },
-  {
-   "code": "KR",
-   "count": 1,
-   "lat": 37.6,
-   "lon": 127.0
   },
   {
    "code": "MX",
@@ -210,6 +204,96 @@
   }
  ],
  "victims": [
+  {
+   "victim": "novagroupgbc.com",
+   "group": "BrainCipher",
+   "date": "2026-10-21T20:55:59+00:00",
+   "attack_date": "2026-10-21",
+   "country": "GB",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/bm92YWdyb3VwZ2JjLmNvbUBCcmFpbkNpcGhlcg=="
+  },
+  {
+   "victim": "oflaherty-law.com",
+   "group": "BrainCipher",
+   "date": "2026-10-21T20:55:23+00:00",
+   "attack_date": "2026-10-21",
+   "country": "IE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/b2ZsYWhlcnR5LWxhdy5jb21AQnJhaW5DaXBoZXI="
+  },
+  {
+   "victim": "clinicaromero.com",
+   "group": "BrainCipher",
+   "date": "2026-10-21T20:54:47+00:00",
+   "attack_date": "2026-10-21",
+   "country": "AR",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Y2xpbmljYXJvbWVyby5jb21AQnJhaW5DaXBoZXI="
+  },
+  {
+   "victim": "sodali.com",
+   "group": "BrainCipher",
+   "date": "2026-10-21T20:54:08+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/c29kYWxpLmNvbUBCcmFpbkNpcGhlcg=="
+  },
+  {
+   "victim": "srsnodgrass.com",
+   "group": "BrainCipher",
+   "date": "2026-10-21T20:53:28+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/c3Jzbm9kZ3Jhc3MuY29tQEJyYWluQ2lwaGVy"
+  },
+  {
+   "victim": "prosomnus.com",
+   "group": "BrainCipher",
+   "date": "2026-10-21T20:52:52+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/cHJvc29tbnVzLmNvbUBCcmFpbkNpcGhlcg=="
+  },
+  {
+   "victim": "olyortho.com",
+   "group": "BrainCipher",
+   "date": "2026-10-21T20:52:16+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/b2x5b3J0aG8uY29tQEJyYWluQ2lwaGVy"
+  },
+  {
+   "victim": "mvjllp.com",
+   "group": "BrainCipher",
+   "date": "2026-10-21T20:51:40+00:00",
+   "attack_date": "2026-10-21",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/bXZqbGxwLmNvbUBCcmFpbkNpcGhlcg=="
+  },
+  {
+   "victim": "Allmand-Smith Limited",
+   "group": "aurora",
+   "date": "2026-10-21T20:01:09+00:00",
+   "attack_date": "2026-10-21",
+   "country": "GB",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/QWxsbWFuZC1TbWl0aCBMaW1pdGVkQGF1cm9yYQ=="
+  },
+  {
+   "victim": "Hanjin Information Systems & Telecommunication Co., Ltd.",
+   "group": "N0n",
+   "date": "2026-10-21T19:54:47+00:00",
+   "attack_date": "2026-10-21",
+   "country": "KR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/SGFuamluIEluZm9ybWF0aW9uIFN5c3RlbXMgJiBUZWxlY29tbXVuaWNhdGlvbiBDby4sIEx0ZC5ATjBu"
+  },
   {
    "victim": "Coastal Alabama Community College",
    "group": "interlock",
@@ -380,15 +464,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/TEVHQUwtUkVDT1JEUy5VU0BjbG9w"
-  },
-  {
-   "victim": "nbcuniversal.com",
-   "group": "Scarlettgroup",
-   "date": "2026-10-21T04:45:08+00:00",
-   "attack_date": "2026-10-18",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/bmJjdW5pdmVyc2FsLmNvbUBTY2FybGV0dGdyb3Vw"
   },
   {
    "victim": "Xylanpicks",
@@ -985,15 +1060,6 @@
    "url": "https://www.ransomware.live/id/bWNrZW5uZXlzQGlhaDY0Nzc="
   },
   {
-   "victim": "BRUTRA Logistek",
-   "group": "qilin",
-   "date": "2026-10-18T09:48:21+00:00",
-   "attack_date": "2026-10-18",
-   "country": "NL",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/QlJVVFJBIExvZ2lzdGVrQHFpbGlu"
-  },
-  {
    "victim": "Pengurusan Aset Air Berhad",
    "group": "qilin",
    "date": "2026-10-18T09:47:41+00:00",
@@ -1001,24 +1067,6 @@
    "country": "MY",
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/UGVuZ3VydXNhbiBBc2V0IEFpciBCZXJoYWRAcWlsaW4="
-  },
-  {
-   "victim": "Pergande",
-   "group": "qilin",
-   "date": "2026-10-18T09:47:02+00:00",
-   "attack_date": "2026-10-18",
-   "country": "DE",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/UGVyZ2FuZGVAcWlsaW4="
-  },
-  {
-   "victim": "Mastelli S.r.l.",
-   "group": "qilin",
-   "date": "2026-10-18T09:46:23+00:00",
-   "attack_date": "2026-10-18",
-   "country": "IT",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TWFzdGVsbGkgUy5yLmwuQHFpbGlu"
   },
   {
    "victim": "Company #91",
@@ -1055,60 +1103,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTBATjBu"
-  },
-  {
-   "victim": "Company #89",
-   "group": "N0n",
-   "date": "2026-10-18T05:52:48+00:00",
-   "attack_date": "2026-10-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjODlATjBu"
-  },
-  {
-   "victim": "Quikrete",
-   "group": "Helix",
-   "date": "2026-10-18T02:51:45+00:00",
-   "attack_date": "2026-10-18",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UXVpa3JldGVASGVsaXg="
-  },
-  {
-   "victim": "Solid Trading B.V.",
-   "group": "N0n",
-   "date": "2026-10-18T01:26:57+00:00",
-   "attack_date": "2026-10-18",
-   "country": "NL",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/U29saWQgVHJhZGluZyBCLlYuQE4wbg=="
-  },
-  {
-   "victim": "ECO USA",
-   "group": "N0n",
-   "date": "2026-10-18T01:26:16+00:00",
-   "attack_date": "2026-10-18",
-   "country": "US",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/RUNPIFVTQUBOMG4="
-  },
-  {
-   "victim": "SQA Services Inc",
-   "group": "N0n",
-   "date": "2026-10-18T01:25:36+00:00",
-   "attack_date": "2026-10-18",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/U1FBIFNlcnZpY2VzIEluY0BOMG4="
-  },
-  {
-   "victim": "Personify Health",
-   "group": "Helix",
-   "date": "2026-10-17T22:23:45+00:00",
-   "attack_date": "2026-10-17",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/UGVyc29uaWZ5IEhlYWx0aEBIZWxpeA=="
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:51:30+00:00",
+ "generated_at": "2026-10-22T01:07:50+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -468,8 +468,8 @@
    "description": "Brain Cipher emerged in July 2024. Both Windows and Linux variants are available. Brain Cipher using the leaked build of LockBit Black for their operations. The group suspected to have exploited CVE-2023-28252 (Microsoft Windows CLFS Driver Privilege Escalation Vulnerability). The Ransom demand ranges from $150,000 to $1,00,0000. Demand to be paid with Monero (XMR) cryptocurrency. In 2025, they have shifted their new Negotiation portal to new server with vanity TOR Domain starting with 'brain'.",
    "aliases": [],
    "first_seen": "2024-07-01",
-   "last_seen": "2026-10-11",
-   "victims_total": 90,
+   "last_seen": "2026-10-21",
+   "victims_total": 98,
    "cves": [],
    "tools": [],
    "techniques": [
@@ -484,11 +484,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 29
+      "count": 33
      },
      {
       "name": "GB",
-      "count": 9
+      "count": 10
      },
      {
       "name": "CA",
@@ -510,7 +510,7 @@
     "sectors": [
      {
       "name": "Professional Services",
-      "count": 25
+      "count": 28
      },
      {
       "name": "Technology",
@@ -522,14 +522,14 @@
      },
      {
       "name": "Healthcare",
+      "count": 10
+     },
+     {
+      "name": "Other",
       "count": 7
      },
      {
       "name": "Financial Services",
-      "count": 6
-     },
-     {
-      "name": "Other",
       "count": 6
      }
     ]
@@ -581,11 +581,11 @@
     },
     {
      "month": "2026-10",
-     "count": 1
+     "count": 9
     }
    ],
-   "history_size": 90,
-   "updated": "2026-10-12T00:39:36+00:00"
+   "history_size": 98,
+   "updated": "2026-10-22T01:07:50+00:00"
   },
   "threeam": {
    "name": "threeam",
