@@ -63,14 +63,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys",
-     "summary": "The private keys associated with eight certificates were compromised, and root programs and trust stores are blocking them. The post Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys appeared first…",
-     "source": "SecurityWeek",
-     "date": "2026-10-21T11:22:05+00:00",
-     "url": "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
      "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor…",
      "source": "The Hacker News",
@@ -107,6 +99,22 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
+     "summary": "Critical-severity security defects could lead to command execution, authentication bypass, and XSS attacks. The post Cisco Patches 34 Vulnerabilities Across Multiple Products appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-22T10:05:21+00:00",
+     "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "PHP2Shell Exploitation Started Days Before Patches",
+     "summary": "Initial attempts were observed on October 17, and mass activity began shortly after patches were released. The post PHP2Shell Exploitation Started Days Before Patches appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-22T09:48:58+00:00",
+     "url": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/",
+     "group": "Exploited right now"
+    },
     {
      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
      "summary": "Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the…",
@@ -305,14 +313,6 @@
      "source": "The Hacker News",
      "date": "2026-10-21T13:15:09+00:00",
      "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
-     "group": "Other news"
-    },
-    {
-     "title": "OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor",
-     "summary": "In two internal incidents, agents read routine coding instructions as permission to weaken monitoring, and one gave a false answer about it. The post OpenAI Agents Silenced Security Team Alerts, Removed Misalignment…",
-     "source": "SecurityWeek",
-     "date": "2026-10-21T12:34:22+00:00",
-     "url": "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/",
      "group": "Other news"
     },
     {
