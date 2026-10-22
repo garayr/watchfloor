@@ -93,20 +93,20 @@
      "date": "2026-10-21T08:36:24+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-     "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned…",
-     "source": "The Hacker News",
-     "date": "2026-10-21T07:44:22+00:00",
-     "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+     "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol)…",
+     "source": "The Hacker News",
+     "date": "2026-10-22T10:44:05+00:00",
+     "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
      "summary": "Critical-severity security defects could lead to command execution, authentication bypass, and XSS attacks. The post Cisco Patches 34 Vulnerabilities Across Multiple Products appeared first on SecurityWeek.",
@@ -244,6 +244,14 @@
    "group": "Other news",
    "items": [
     {
+     "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+     "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized…",
+     "source": "The Hacker News",
+     "date": "2026-10-22T11:15:42+00:00",
+     "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+     "group": "Other news"
+    },
+    {
      "title": "Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook",
      "summary": "The $25 billion award far exceeds a $5 billion fine the Federal Trade Commission levied against Facebook in 2019. The post Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook…",
      "source": "SecurityWeek",
@@ -345,14 +353,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-21T10:14:53+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
-     "group": "Other news"
-    },
-    {
-     "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-     "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of…",
-     "source": "The Hacker News",
-     "date": "2026-10-21T08:04:17+00:00",
-     "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
      "group": "Other news"
     }
    ]
