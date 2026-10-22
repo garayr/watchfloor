@@ -2,36 +2,36 @@
  "infocon": "yellow",
  "malware": {
   "window": "24h",
-  "total_iocs": 1777,
-  "c2_servers": 667,
+  "total_iocs": 1772,
+  "c2_servers": 656,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 343,
-    "c2": 333,
+    "iocs": 337,
+    "c2": 328,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 298,
+    "iocs": 295,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 187,
+    "iocs": 190,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 128,
+    "iocs": 127,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
-    "iocs": 112,
+    "iocs": 118,
     "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -55,7 +55,7 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 53,
+    "iocs": 52,
     "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
@@ -69,23 +69,23 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 796,
+  "online": 773,
   "top_tags": [
    {
     "name": "github",
-    "count": 418
+    "count": 400
    },
    {
     "name": "zip",
-    "count": 417
+    "count": 399
    },
    {
     "name": "SmartLoader",
-    "count": 414
+    "count": 396
    },
    {
     "name": "elf",
-    "count": 275
+    "count": 278
    },
    {
     "name": "ua-wget",
@@ -93,15 +93,15 @@
    },
    {
     "name": "Mozi",
-    "count": 187
+    "count": 200
+   },
+   {
+    "name": "mirai",
+    "count": 180
    },
    {
     "name": "FakeGit",
     "count": 179
-   },
-   {
-    "name": "mirai",
-    "count": 177
    }
   ]
  },
@@ -211,6 +211,23 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
+   "summary": "Amazon Threat Intelligence discovered PHP2Shell exploitation attempts in MadPot honeypot telemetry on October 17, 2026, four days before the public disclosure of CVE-2026-109618 and CVE-2026-109619. The initial exploit…",
+   "date": "2026-10-22T10:53:50+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "php2shell",
+    "remote code execution",
+    "cve-2026-109619",
+    "cve-2026-109618"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038"
+  },
   {
    "name": "New BlackX UEFI bootkit exploiting Baton Drop",
    "summary": "In early 2026, a sophisticated APT campaign targeting diplomatic agencies in Tajikistan, Uzbekistan, and Turkmenistan deployed BlackX, a UEFI bootkit similar to the notorious BlackLotus. The bootkit exploits the Baton…",
@@ -473,32 +490,13 @@
     "web shell"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad8969bac267e8087601c01"
-  },
-  {
-   "name": "Autonomous LLMjacking: 'Skynet' Agent Hijacks Exposed AI Models to Run Attacks",
-   "summary": "Attackers have developed an autonomous offensive agent that scans the internet for exposed large language model endpoints and hijacks them to execute attacks. The agent is equipped with 74 offensive tools covering…",
-   "date": "2026-10-21T10:40:13+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "XMRig"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "ai model hijacking",
-    "llmjacking",
-    "xmrig",
-    "cryptocurrency mining"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad8968ddeccc0f490a19622"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-22T10:58:51+00:00",
-  "sans": "2026-10-22T10:58:51+00:00",
-  "otx": "2026-10-22T10:58:51+00:00",
-  "urlhaus": "2026-10-22T10:58:51+00:00"
+  "threatfox": "2026-10-22T11:59:35+00:00",
+  "sans": "2026-10-22T11:59:35+00:00",
+  "otx": "2026-10-22T11:59:35+00:00",
+  "urlhaus": "2026-10-22T11:59:35+00:00"
  },
- "generated_at": "2026-10-22T10:58:51+00:00"
+ "generated_at": "2026-10-22T11:59:35+00:00"
 }
