@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1854,
-  "c2_servers": 769,
+  "total_iocs": 1700,
+  "c2_servers": 753,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 332,
-    "c2": 332,
+    "iocs": 326,
+    "c2": 326,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 274,
+    "iocs": 269,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -25,21 +25,15 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 157,
+    "iocs": 151,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Mirai",
-    "iocs": 133,
+    "iocs": 131,
     "c2": 19,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "Coinminer",
-    "iocs": 106,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.mirai"
    },
    {
     "name": "StrelaStealer",
@@ -49,8 +43,8 @@
    },
    {
     "name": "VShell",
-    "iocs": 82,
-    "c2": 82,
+    "iocs": 81,
+    "c2": 81,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -61,9 +55,15 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 30,
+    "iocs": 28,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "Unknown Stealer",
+    "iocs": 20,
+    "c2": 8,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    }
   ]
  },
@@ -73,35 +73,35 @@
   "top_tags": [
    {
     "name": "SmartLoader",
-    "count": 954
+    "count": 912
    },
    {
     "name": "github",
-    "count": 954
+    "count": 912
    },
    {
     "name": "zip",
-    "count": 954
-   },
-   {
-    "name": "FakeGit",
-    "count": 37
+    "count": 912
    },
    {
     "name": "Mozi",
-    "count": 24
+    "count": 31
    },
    {
     "name": "elf",
+    "count": 23
+   },
+   {
+    "name": "mirai",
     "count": 19
    },
    {
     "name": "32-bit",
-    "count": 14
+    "count": 15
    },
    {
-    "name": "mips",
-    "count": 14
+    "name": "GuLoader",
+    "count": 15
    }
   ]
  },
@@ -180,6 +180,11 @@
  "ports_date": "2026-10-23",
  "diary": [
   {
+   "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
+   "url": "https://isc.sans.edu/diary/rss/33450",
+   "date": "2026-10-23T13:02:54+00:00"
+  },
+  {
    "title": "ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148, (Fri, Oct 23rd)",
    "url": "https://isc.sans.edu/diary/rss/33448",
    "date": "2026-10-23T10:25:11+00:00"
@@ -203,14 +208,89 @@
    "title": "ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142, (Tue, Oct 20th)",
    "url": "https://isc.sans.edu/diary/rss/33436",
    "date": "2026-10-20T02:00:03+00:00"
-  },
-  {
-   "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
-   "url": "https://isc.sans.edu/diary/rss/33434",
-   "date": "2026-10-18T12:59:30+00:00"
   }
  ],
  "pulses": [
+  {
+   "name": "VeloCloud Orchestrator SQL Injection Vulnerability",
+   "summary": "VeloCloud Orchestrator (VCO) on-premises versions contain a critical SQL injection vulnerability that allows authenticated users with minimal privileges to escalate to superuser operator access. Any user with Enterprise…",
+   "date": "2026-10-23T12:28:45+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "sql injection",
+    "active exploitation",
+    "velocloud orchestrator",
+    "cve-2026-114625"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6adb52fde8bfb072942ad917"
+  },
+  {
+   "name": "SEO Poisoning Campaign Delivers New Armorsteal Malware",
+   "summary": "In September 2026, an SEO poisoning campaign distributed Armorsteal malware through fake websites impersonating Chocolatey package manager and Microsoft Activation Scripts (MAS) tool. Victims searching for software…",
+   "date": "2026-10-22T19:13:21+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Armorsteal"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "python malware",
+    "clipboard hijacking",
+    "armorsteal",
+    "seo poisoning",
+    "typosquatting",
+    "pyarmor"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada6051fb91aa7551af4ba6"
+  },
+  {
+   "name": "Beyond the Sandbox: Leveraging Android Intrusion Logs to Expose Advanced Threats",
+   "summary": "Advanced Android threats increasingly operate beyond the standard application sandbox, requiring multi-layered detection strategies that combine on-device behavioral analysis with OS-level telemetry. Android's Delegated…",
+   "date": "2026-10-22T19:08:16+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "RatHat"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "byod",
+    "intrusion logging",
+    "rathat"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada5f20aaf6e87709a6dee5"
+  },
+  {
+   "name": "2026 Year End Phishing Lures",
+   "summary": "As organizations approach year-end and fiscal close periods, employees face increased administrative activity in finance, HR, and IT departments. This heightened legitimate communication creates ideal cover for phishing…",
+   "date": "2026-10-22T19:08:16+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Finance",
+    "Technology",
+    "Telecommunications",
+    "Manufacturing",
+    "Real Estate",
+    "Aviation"
+   ],
+   "tags": [
+    "sharepoint-impersonation",
+    "social-engineering",
+    "docusign-impersonation",
+    "phishing"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada5f2001908e1c7f2a85b3"
+  },
   {
    "name": "ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors",
    "summary": "Throughout October 2026, an actor utilizing ARTEX, an autonomous AI penetration-testing agent, targeted multiple IT and software vendors with attacks focused on identity providers including Okta, Entra, and Cognito. The…",
@@ -249,6 +329,26 @@
     "clickfix"
    ],
    "url": "https://otx.alienvault.com/pulse/6ada5f1fb2e3c0d3b77b8ceb"
+  },
+  {
+   "name": "StealC Is Back, and This Time It's a RAT",
+   "summary": "Four months after Operation Endgame dismantled StealC in June, its seller returned in October with Stadia, a full-featured remote access trojan that incorporates StealC's code verbatim. Unlike its predecessor, Stadia…",
+   "date": "2026-10-22T19:08:14+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Stadia",
+    "StealC"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "operation endgame",
+    "stadia",
+    "hvnc",
+    "stealc"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada5f1e1071ed1bf4072f30"
   },
   {
    "name": "MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration",
@@ -370,139 +470,13 @@
     "cve-2026-109618"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038"
-  },
-  {
-   "name": "New BlackX UEFI bootkit exploiting Baton Drop",
-   "summary": "In early 2026, a sophisticated APT campaign targeting diplomatic agencies in Tajikistan, Uzbekistan, and Turkmenistan deployed BlackX, a UEFI bootkit similar to the notorious BlackLotus. The bootkit exploits the Baton…",
-   "date": "2026-10-22T10:01:43+00:00",
-   "author": "AlienVault",
-   "adversary": "APT41",
-   "malware": [
-    "BlackX",
-    "BlackLotus",
-    "OxiDLLRunner"
-   ],
-   "countries": [
-    "Tajikistan",
-    "Turkmenistan",
-    "Uzbekistan"
-   ],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "uefi bootkit",
-    "secure boot bypass",
-    "blackx",
-    "baton drop",
-    "kernel driver",
-    "oxidllrunner"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad9df071ab39972490f947b"
-  },
-  {
-   "name": "LiteLLM PyPI Package and Docker Images Compromised to Steal Cloud and AI Credentials",
-   "summary": "LiteLLM version 1.107.0 was compromised through a supply chain attack affecting both PyPI packages and Docker images. The malicious release contains Python startup files that automatically execute upon Python…",
-   "date": "2026-10-21T20:02:42+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "privcollect"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "ai tooling",
-    "supply chain attack",
-    "litellm",
-    "container compromise",
-    "pypi"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad91a62b48f2e8558fd4787"
-  },
-  {
-   "name": "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619",
-   "summary": "Two critical remote code execution vulnerabilities in PHP, collectively named PHP2Shell, were disclosed on October 21, 2026. CVE-2026-109618 involves out-of-memory handling corruption that can interrupt PHP while…",
-   "date": "2026-10-21T20:02:42+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "remote code execution",
-    "internet scanning",
-    "cve-2026-109619",
-    "php2shell",
-    "exploitation attempts",
-    "cve-2026-109618"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad91a624dfadf973556516c"
-  },
-  {
-   "name": "INC and The Gentlemen Ransomware: Exposed AI Infrastructure",
-   "summary": "Threat researchers discovered an AI-driven intrusion ecosystem operated by affiliates of INC Ransomware and The Gentlemen Ransomware groups through seven exposed command-and-control servers. The operators integrated…",
-   "date": "2026-10-21T15:32:18+00:00",
-   "author": "AlienVault",
-   "adversary": "INC Ransom, The Gentlemen",
-   "malware": [
-    "INC Ransomware",
-    "Phantom",
-    "Ghost C2",
-    "RevSocks",
-    "QuickLine",
-    "WormGPT"
-   ],
-   "countries": [
-    "United States of America"
-   ],
-   "industries": [
-    "Manufacturing",
-    "Healthcare",
-    "Energy",
-    "Finance",
-    "Government",
-    "Technology"
-   ],
-   "tags": [
-    "simplehelp",
-    "phantom framework",
-    "ghost c2",
-    "wormgpt",
-    "ai-driven operations",
-    "ransomware-as-a-service"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad8db024c84442cd0085496"
-  },
-  {
-   "name": "Stray Cat, Open Doors: How k0t Wanders Through the Network Edge",
-   "summary": "Group-IB and NyxLab uncovered a large-scale campaign by threat actor k0t exploiting FortiGate, FortiWeb, and Palo Alto GlobalProtect edge devices to harvest credentials and establish persistent access. The operation…",
-   "date": "2026-10-21T15:21:41+00:00",
-   "author": "AlienVault",
-   "adversary": "k0t",
-   "malware": [
-    "AdaptixC2"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "credential harvesting",
-    "initial access broker",
-    "adaptixc2",
-    "fortigate",
-    "cve-2026-0257",
-    "meshcentral"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad8d8853d4b5de3946bd006"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-23T12:10:36+00:00",
-  "sans": "2026-10-23T12:10:36+00:00",
-  "otx": "2026-10-23T12:10:36+00:00",
-  "urlhaus": "2026-10-23T12:10:36+00:00"
+  "threatfox": "2026-10-23T13:30:25+00:00",
+  "sans": "2026-10-23T13:30:25+00:00",
+  "otx": "2026-10-23T13:30:25+00:00",
+  "urlhaus": "2026-10-23T13:30:25+00:00"
  },
- "generated_at": "2026-10-23T12:10:36+00:00"
+ "generated_at": "2026-10-23T13:30:25+00:00"
 }

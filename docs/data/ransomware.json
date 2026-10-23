@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-23T12:10:36+00:00",
+ "generated_at": "2026-10-23T13:30:25+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "N0n",
-   "count": 23
+   "count": 24
   },
   {
    "name": "SilentRansomGroup",
@@ -44,7 +44,7 @@
   },
   {
    "name": "Professional Services",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Healthcare",
@@ -56,7 +56,7 @@
   },
   {
    "name": "Other",
-   "count": 6
+   "count": 7
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 36,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -101,6 +101,12 @@
    "lon": 7.4
   },
   {
+   "code": "ET",
+   "count": 2,
+   "lat": 9.0,
+   "lon": 38.7
+  },
+  {
    "code": "FR",
    "count": 2,
    "lat": 48.9,
@@ -129,12 +135,6 @@
    "count": 1,
    "lat": 40.4,
    "lon": -3.7
-  },
-  {
-   "code": "ET",
-   "count": 1,
-   "lat": 9.0,
-   "lon": 38.7
   },
   {
    "code": "IE",
@@ -198,6 +198,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Horn of Africa Regional Environment Centre and Network",
+   "group": "N0n",
+   "date": "2026-10-23T09:23:08+00:00",
+   "attack_date": "2026-10-23",
+   "country": "ET",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/SG9ybiBvZiBBZnJpY2EgUmVnaW9uYWwgRW52aXJvbm1lbnQgQ2VudHJlIGFuZCBOZXR3b3JrQE4wbg=="
+  },
   {
    "victim": "Prism Medical Products",
    "group": "Wallstreet",
@@ -1079,15 +1088,6 @@
    "country": "ES",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/VG95b3RhIENhbmFyaWFzQHFpbGlu"
-  },
-  {
-   "victim": "Baker Donelson",
-   "group": "Redact",
-   "date": "2026-10-19T20:55:00+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/QmFrZXIgRG9uZWxzb25AUmVkYWN0"
   }
  ]
 }
