@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T11:12:31+00:00",
+ "generated_at": "2026-10-23T12:10:36+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -39,19 +39,19 @@
  ],
  "by_sector": [
   {
+   "name": "Manufacturing",
+   "count": 13
+  },
+  {
    "name": "Professional Services",
    "count": 13
   },
   {
-   "name": "Manufacturing",
-   "count": 12
-  },
-  {
-   "name": "Retail & E-Commerce",
+   "name": "Healthcare",
    "count": 9
   },
   {
-   "name": "Healthcare",
+   "name": "Retail & E-Commerce",
    "count": 8
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 39,
+   "count": 36,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -95,10 +95,22 @@
    "lon": -79.4
   },
   {
+   "code": "CH",
+   "count": 2,
+   "lat": 46.9,
+   "lon": 7.4
+  },
+  {
    "code": "FR",
    "count": 2,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "TN",
+   "count": 2,
+   "lat": 36.8,
+   "lon": 10.2
   },
   {
    "code": "AR",
@@ -111,12 +123,6 @@
    "count": 1,
    "lat": 42.7,
    "lon": 23.3
-  },
-  {
-   "code": "CH",
-   "count": 1,
-   "lat": 46.9,
-   "lon": 7.4
   },
   {
    "code": "ES",
@@ -137,10 +143,10 @@
    "lon": -6.3
   },
   {
-   "code": "IN",
+   "code": "IT",
    "count": 1,
-   "lat": 19.1,
-   "lon": 72.9
+   "lat": 41.9,
+   "lon": 12.5
   },
   {
    "code": "KR",
@@ -173,12 +179,6 @@
    "lon": 103.8
   },
   {
-   "code": "TN",
-   "count": 1,
-   "lat": 36.8,
-   "lon": 10.2
-  },
-  {
    "code": "TR",
    "count": 1,
    "lat": 41.0,
@@ -198,6 +198,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Prism Medical Products",
+   "group": "Wallstreet",
+   "date": "2026-10-23T07:58:37+00:00",
+   "attack_date": "2026-10-23",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/UHJpc20gTWVkaWNhbCBQcm9kdWN0c0BXYWxsc3RyZWV0"
+  },
+  {
+   "victim": "PROTEX Confection",
+   "group": "N0n",
+   "date": "2026-10-23T07:55:08+00:00",
+   "attack_date": "2026-10-23",
+   "country": "TN",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UFJPVEVYIENvbmZlY3Rpb25ATjBu"
+  },
+  {
+   "victim": "SunTechnics Fabrisolar AG",
+   "group": "N0n",
+   "date": "2026-10-23T07:54:36+00:00",
+   "attack_date": "2026-10-23",
+   "country": "CH",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/U3VuVGVjaG5pY3MgRmFicmlzb2xhciBBR0BOMG4="
+  },
+  {
+   "victim": "B2Chat",
+   "group": "emperador",
+   "date": "2026-10-23T07:52:10+00:00",
+   "attack_date": "2026-10-23",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QjJDaGF0QGVtcGVyYWRvcg=="
+  },
+  {
+   "victim": "Coop Italia",
+   "group": "qilin",
+   "date": "2026-10-23T07:20:02+00:00",
+   "attack_date": "2026-10-23",
+   "country": "IT",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/Q29vcCBJdGFsaWFAcWlsaW4="
+  },
   {
    "victim": "SEPIVER",
    "group": "qilin",
@@ -1036,15 +1081,6 @@
    "url": "https://www.ransomware.live/id/VG95b3RhIENhbmFyaWFzQHFpbGlu"
   },
   {
-   "victim": "chooseultimate.com",
-   "group": "lockbit5",
-   "date": "2026-10-19T21:31:17+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/Y2hvb3NldWx0aW1hdGUuY29tQGxvY2tiaXQ1"
-  },
-  {
    "victim": "Baker Donelson",
    "group": "Redact",
    "date": "2026-10-19T20:55:00+00:00",
@@ -1052,42 +1088,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/QmFrZXIgRG9uZWxzb25AUmVkYWN0"
-  },
-  {
-   "victim": "Vormittag Associates Inc",
-   "group": "N0n",
-   "date": "2026-10-19T20:53:43+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Vm9ybWl0dGFnIEFzc29jaWF0ZXMgSW5jQE4wbg=="
-  },
-  {
-   "victim": "Seminole Schools",
-   "group": "Global Secret Group",
-   "date": "2026-10-19T20:52:13+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/U2VtaW5vbGUgU2Nob29sc0BHbG9iYWwgU2VjcmV0IEdyb3Vw"
-  },
-  {
-   "victim": "Froggys Fog",
-   "group": "N0n",
-   "date": "2026-10-19T19:22:56+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/RnJvZ2d5cyBGb2dATjBu"
-  },
-  {
-   "victim": "WalkingTree Technologies",
-   "group": "qilin",
-   "date": "2026-10-19T15:59:19+00:00",
-   "attack_date": "2026-10-19",
-   "country": "IN",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/V2Fsa2luZ1RyZWUgVGVjaG5vbG9naWVzQHFpbGlu"
   }
  ]
 }

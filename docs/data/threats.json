@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1867,
-  "c2_servers": 774,
+  "total_iocs": 1854,
+  "c2_servers": 769,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 339,
-    "c2": 339,
+    "iocs": 332,
+    "c2": 332,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 271,
-    "c2": 0,
+    "iocs": 274,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
@@ -25,13 +25,13 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 160,
+    "iocs": 157,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Mirai",
-    "iocs": 136,
+    "iocs": 133,
     "c2": 19,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -49,8 +49,8 @@
    },
    {
     "name": "VShell",
-    "iocs": 83,
-    "c2": 83,
+    "iocs": 82,
+    "c2": 82,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -61,7 +61,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 29,
+    "iocs": 30,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 998,
+  "online": 995,
   "top_tags": [
    {
     "name": "SmartLoader",
-    "count": 964
+    "count": 954
    },
    {
     "name": "github",
-    "count": 964
+    "count": 954
    },
    {
     "name": "zip",
-    "count": 964
+    "count": 954
    },
    {
     "name": "FakeGit",
-    "count": 42
+    "count": 37
    },
    {
     "name": "Mozi",
-    "count": 19
+    "count": 24
    },
    {
     "name": "elf",
+    "count": 19
+   },
+   {
+    "name": "32-bit",
     "count": 14
    },
    {
     "name": "mips",
-    "count": 13
-   },
-   {
-    "name": "32-bit",
-    "count": 11
+    "count": 14
    }
   ]
  },
@@ -212,6 +212,149 @@
  ],
  "pulses": [
   {
+   "name": "ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors",
+   "summary": "Throughout October 2026, an actor utilizing ARTEX, an autonomous AI penetration-testing agent, targeted multiple IT and software vendors with attacks focused on identity providers including Okta, Entra, and Cognito. The…",
+   "date": "2026-10-22T19:08:15+00:00",
+   "author": "AlienVault",
+   "adversary": "Storm-0940",
+   "malware": [
+    "ARTEX"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "autonomous ai agent",
+    "oauth manipulation",
+    "artex",
+    "supply chain attack"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada5f1fcf9561726fe676ad"
+  },
+  {
+   "name": "TRUST#GRAFT: JavaScript-Compromised Sites Target WordPress Admin Browsers to Deploy a Persistent PHP Backdoor",
+   "summary": "TRUST#GRAFT is a sophisticated attack chain that exploits authenticated WordPress administrator browser sessions to deploy persistent PHP backdoors. The attack begins with JavaScript loaders that present fake…",
+   "date": "2026-10-22T19:08:15+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Web Media Optimizer"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "wordpress",
+    "php backdoor",
+    "clickfix"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada5f1fb2e3c0d3b77b8ceb"
+  },
+  {
+   "name": "MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration",
+   "summary": "On July 16th, 2025, UAC-0099 conducted a spearphishing attack against a Ukrainian grain logistics company, deploying the MATCHWOK backdoor. The following day, attackers introduced MythicRatatoskr, a previously…",
+   "date": "2026-10-22T19:08:14+00:00",
+   "author": "AlienVault",
+   "adversary": "UAC-0099, Sandworm",
+   "malware": [
+    "MythicRatatoskr",
+    "MATCHWOK",
+    "MATCHBOIL",
+    "SDelete"
+   ],
+   "countries": [
+    "Ukraine"
+   ],
+   "industries": [
+    "Agriculture"
+   ],
+   "tags": [
+    "mythicratatoskr",
+    "matchboil",
+    "sdelete",
+    "yggdrasil"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada5f1e04fbf3494e4114a7"
+  },
+  {
+   "name": "Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)",
+   "summary": "Two critical PHP remote code execution vulnerabilities, CVE-2026-109618 and CVE-2026-109619, both rated CVSS v4.0 9.2, leaked before their scheduled patch on October 21, 2026. The flaws involve out-of-memory corruption…",
+   "date": "2026-10-22T14:31:52+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "Germany",
+    "Singapore",
+    "United Kingdom of Great Britain and Northern Ireland"
+   ],
+   "industries": [
+    "Retail",
+    "Finance",
+    "Technology"
+   ],
+   "tags": [
+    "mirai botnet",
+    "cve-2026-109618",
+    "woocommerce",
+    "magento",
+    "cve-2026-109619",
+    "php2shell"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604"
+  },
+  {
+   "name": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
+   "summary": "Between July and September 2026, a sophisticated campaign targeted Microsoft 365 accounts through adversary-in-the-middle attacks and token replay techniques. The operation captured sign-in sessions via AiTM relays and…",
+   "date": "2026-10-22T14:31:51+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "microsoft 365",
+    "token replay",
+    "adversary-in-the-middle",
+    "business email compromise"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada1e572ffb7473cf202754"
+  },
+  {
+   "name": "Inside SiriusQT: A Seriously Skilled RAT",
+   "summary": "SiriusQT is a Windows Remote Access Trojan advertised on dark web forums since April 2026, offering capabilities beyond remote administration including HVNC, credential theft, cryptocurrency wallet collection, clipboard…",
+   "date": "2026-10-22T14:31:50+00:00",
+   "author": "AlienVault",
+   "adversary": "GhostKernel",
+   "malware": [
+    "SiriusQT",
+    "UpCrypter",
+    "Remcos",
+    "XWorm",
+    "AsyncRAT",
+    "QuasarRAT"
+   ],
+   "countries": [
+    "United States of America",
+    "China",
+    "France",
+    "Germany",
+    "Italy",
+    "Netherlands"
+   ],
+   "industries": [],
+   "tags": [
+    "hvnc",
+    "xworm",
+    "redline stealer",
+    "btmob",
+    "remcos",
+    "asyncrat"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada1e5699d69ce1b1fa9660"
+  },
+  {
    "name": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
    "summary": "Amazon Threat Intelligence discovered PHP2Shell exploitation attempts in MadPot honeypot telemetry on October 17, 2026, four days before the public disclosure of CVE-2026-109618 and CVE-2026-109619. The initial exploit…",
    "date": "2026-10-22T10:53:50+00:00",
@@ -256,60 +399,6 @@
     "oxidllrunner"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad9df071ab39972490f947b"
-  },
-  {
-   "name": "LiteLLM supply chain compromise",
-   "summary": "On October 21, 2026, attackers compromised litellm version 1.107.0, a popular Python proxy library for LLM providers with approximately 23 million weekly downloads. The malicious release was available on PyPI and…",
-   "date": "2026-10-22T05:27:33+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "github oauth tokens",
-    "credential theft",
-    "supply chain attack",
-    "infostealer",
-    "litellm",
-    "pypi compromise"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad99ec5dea46c1b74460546"
-  },
-  {
-   "name": "Inside a Global AI-Assisted Hacking Campaign",
-   "summary": "In October 2026, a Chinese-speaking threat actor conducted widespread AI-assisted cyberattacks combining the ARTEX penetration testing framework with multiple AI coding assistants including Claude Code, Codex, and Grok…",
-   "date": "2026-10-22T01:18:42+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ARTEX"
-   ],
-   "countries": [
-    "United States of America",
-    "British Indian Ocean Territory",
-    "Canada",
-    "China",
-    "Cuba",
-    "Hong Kong"
-   ],
-   "industries": [
-    "Finance",
-    "Retail",
-    "Education",
-    "Technology",
-    "Telecommunications",
-    "Hospitality"
-   ],
-   "tags": [
-    "global targeting",
-    "multi-model orchestration",
-    "ai-assisted attacks",
-    "automated reconnaissance",
-    "artex framework",
-    "chinese-speaking operator"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad964720fdac83866db4a7d"
   },
   {
    "name": "LiteLLM PyPI Package and Docker Images Compromised to Steal Cloud and AI Credentials",
@@ -407,96 +496,13 @@
     "meshcentral"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad8d8853d4b5de3946bd006"
-  },
-  {
-   "name": "The Science of Exploitability: Decoding BlueHammer",
-   "summary": "BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting Windows Defender Antimalware Platform before version 4.18.26030.3011. It requires initial code execution as a standard user and…",
-   "date": "2026-10-21T15:21:41+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "bluehammer",
-    "cve-2026-33825",
-    "pass-the-hash",
-    "lsass credential theft",
-    "domain compromise"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad8d885956829eafc1fa8d1"
-  },
-  {
-   "name": "\"Next Exploit Opportunities\": How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
-   "summary": "A financially motivated threat actor operating under the handle BUGSTER leveraged jailbroken AI assistants, specifically the Hermes Agent framework with DeepSeek V4, to conduct multiple cybercrime operations across…",
-   "date": "2026-10-21T15:21:40+00:00",
-   "author": "AlienVault",
-   "adversary": "BUGSTER",
-   "malware": [],
-   "countries": [
-    "British Indian Ocean Territory",
-    "India"
-   ],
-   "industries": [
-    "Education",
-    "Telecommunications"
-   ],
-   "tags": [
-    "ai-enabled attacks",
-    "deepseek",
-    "hermes agent"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad8d884cb22f07021380605"
-  },
-  {
-   "name": "Amazon-Themed ClickFix Campaign Serves Up Finger-Licking Malware",
-   "summary": "Attackers leveraged a sponsored Google search result for 'amazon business' to redirect victims to a spoofed Amazon login page hosted on Google Sites. The page presented a fake CAPTCHA (ClickFix) that tricked users into…",
-   "date": "2026-10-21T15:21:34+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Doina",
-    "Lumma Stealer",
-    "NetSupport Client"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "lumma stealer",
-    "clickfix",
-    "finger utility",
-    "doina",
-    "netsupport client"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad8d87ee8e0fe132bce49d2"
-  },
-  {
-   "name": "Recent AI-Assisted Cyber Attacks in Japan: Investigating Attack Infrastructure and Techniques",
-   "summary": "In October 2026, multiple organizations in Japan experienced unauthorized access incidents resulting in personal information leakage. Investigations revealed that attackers leveraged artificial intelligence to scan for…",
-   "date": "2026-10-21T10:40:27+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "Japan"
-   ],
-   "industries": [],
-   "tags": [
-    "ai-assisted attacks",
-    "edr evasion",
-    "japan",
-    "flutter reverse engineering",
-    "ssrf",
-    "web shell"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad8969bac267e8087601c01"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-23T11:12:31+00:00",
-  "sans": "2026-10-23T11:12:31+00:00",
-  "otx": "2026-10-23T11:12:31+00:00",
-  "urlhaus": "2026-10-23T11:12:31+00:00"
+  "threatfox": "2026-10-23T12:10:36+00:00",
+  "sans": "2026-10-23T12:10:36+00:00",
+  "otx": "2026-10-23T12:10:36+00:00",
+  "urlhaus": "2026-10-23T12:10:36+00:00"
  },
- "generated_at": "2026-10-23T11:12:31+00:00"
+ "generated_at": "2026-10-23T12:10:36+00:00"
 }
