@@ -1,6 +1,41 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-114625",
+   "date": "2026-10-23",
+   "src": "CISA",
+   "vendor": "Arista VeloCloud Orchestrator",
+   "vendor_name": "Arista",
+   "product": "VeloCloud Orchestrator",
+   "title": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+   "detail": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-26",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-114625"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625",
+   "kev": true,
+   "epss": 0.0056,
+   "cvss": 9.4,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+     "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+     "source": "The Hacker News",
+     "date": "2026-10-22T19:05:17+00:00"
+    },
+    {
+     "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+     "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+     "source": "BleepingComputer",
+     "date": "2026-10-22T17:18:22+00:00"
+    }
+   ]
+  },
+  {
    "id": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
    "date": "2026-10-21",
    "src": "NCSC",
