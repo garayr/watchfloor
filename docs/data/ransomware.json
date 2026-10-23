@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-23T16:17:49+00:00",
+ "generated_at": "2026-10-23T17:27:49+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "N0n",
-   "count": 24
+   "count": 23
   },
   {
    "name": "SilentRansomGroup",
@@ -51,22 +51,22 @@
    "count": 9
   },
   {
+   "name": "Technology",
+   "count": 8
+  },
+  {
    "name": "Other",
    "count": 7
   },
   {
    "name": "Retail & E-Commerce",
    "count": 7
-  },
-  {
-   "name": "Technology",
-   "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 36,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -93,12 +93,6 @@
    "count": 2,
    "lat": 43.7,
    "lon": -79.4
-  },
-  {
-   "code": "CH",
-   "count": 2,
-   "lat": 46.9,
-   "lon": 7.4
   },
   {
    "code": "ET",
@@ -129,6 +123,12 @@
    "count": 1,
    "lat": 42.7,
    "lon": 23.3
+  },
+  {
+   "code": "CH",
+   "count": 1,
+   "lat": 46.9,
+   "lon": 7.4
   },
   {
    "code": "ES",
@@ -173,12 +173,6 @@
    "lon": -9.1
   },
   {
-   "code": "SG",
-   "count": 1,
-   "lat": 1.35,
-   "lon": 103.8
-  },
-  {
    "code": "TR",
    "count": 1,
    "lat": 41.0,
@@ -191,6 +185,12 @@
    "lon": -61.5
   },
   {
+   "code": "TW",
+   "count": 1,
+   "lat": 25.0,
+   "lon": 121.5
+  },
+  {
    "code": "VN",
    "count": 1,
    "lat": 21.0,
@@ -198,6 +198,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Trevi Technology",
+   "group": "Orova",
+   "date": "2026-10-23T13:27:20+00:00",
+   "attack_date": "2026-10-23",
+   "country": "TW",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/VHJldmkgVGVjaG5vbG9neUBPcm92YQ=="
+  },
+  {
+   "victim": "R*********b R**-L**",
+   "group": "Doommageddon",
+   "date": "2026-10-23T13:24:06+00:00",
+   "attack_date": "2026-10-23",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/UioqKioqKioqKmIgUioqLUwqKkBEb29tbWFnZWRkb24="
+  },
   {
    "victim": "Don Pickett & Associates",
    "group": "sarcoma",
@@ -734,7 +752,7 @@
    "group": "akira",
    "date": "2026-10-21T15:04:12+00:00",
    "attack_date": "2026-10-21",
-   "country": "SG",
+   "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/RmxleHRyb24gQ2lyY3VpdCBBc3NlbWJseUBha2lyYQ=="
   },
@@ -1070,24 +1088,6 @@
    "country": "TT",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTZATjBu"
-  },
-  {
-   "victim": "Company #95",
-   "group": "N0n",
-   "date": "2026-10-20T05:52:54+00:00",
-   "attack_date": "2026-10-20",
-   "country": "CH",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTVATjBu"
-  },
-  {
-   "victim": "Fisher59",
-   "group": "anubis",
-   "date": "2026-10-20T03:57:32+00:00",
-   "attack_date": "2026-10-20",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/RmlzaGVyNTlAYW51Ymlz"
   }
  ]
 }

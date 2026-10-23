@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T16:17:49+00:00",
+ "generated_at": "2026-10-23T17:27:49+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1612,8 +1612,8 @@
    "description": "Direct Extortion Double Extortion",
    "aliases": [],
    "first_seen": "2026-03-08",
-   "last_seen": "2026-09-28",
-   "victims_total": 14,
+   "last_seen": "2026-10-23",
+   "victims_total": 17,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -1622,7 +1622,7 @@
     "countries": [
      {
       "name": "TR",
-      "count": 5
+      "count": 6
      },
      {
       "name": "IN",
@@ -1647,11 +1647,11 @@
       "count": 4
      },
      {
-      "name": "Healthcare",
-      "count": 2
+      "name": "Other",
+      "count": 3
      },
      {
-      "name": "Other",
+      "name": "Healthcare",
       "count": 2
      },
      {
@@ -1659,20 +1659,16 @@
       "count": 2
      },
      {
-      "name": "Financial Services",
+      "name": "Education",
       "count": 1
      },
      {
-      "name": "Government & Defense",
+      "name": "Financial Services",
       "count": 1
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-10",
-     "count": 0
-    },
     {
      "month": "2025-11",
      "count": 0
@@ -1716,10 +1712,14 @@
     {
      "month": "2026-09",
      "count": 4
+    },
+    {
+     "month": "2026-10",
+     "count": 3
     }
    ],
-   "history_size": 14,
-   "updated": "2026-09-30T17:53:52+00:00"
+   "history_size": 17,
+   "updated": "2026-10-23T17:27:49+00:00"
   },
   "N0n": {
    "name": "N0n",
@@ -7032,8 +7032,8 @@
    "description": "First seen 2026-07-07",
    "aliases": [],
    "first_seen": "2026-05-03",
-   "last_seen": "2026-10-12",
-   "victims_total": 51,
+   "last_seen": "2026-10-23",
+   "victims_total": 56,
    "cves": [],
    "tools": [],
    "techniques": [
@@ -7060,29 +7060,29 @@
      },
      {
       "name": "TW",
-      "count": 9
+      "count": 10
      },
      {
       "name": "IN",
-      "count": 3
+      "count": 4
+     },
+     {
+      "name": "MY",
+      "count": 2
      },
      {
       "name": "BR",
-      "count": 1
-     },
-     {
-      "name": "EG",
       "count": 1
      }
     ],
     "sectors": [
      {
       "name": "Other",
-      "count": 14
+      "count": 16
      },
      {
       "name": "Technology",
-      "count": 8
+      "count": 10
      },
      {
       "name": "Healthcare",
@@ -7090,7 +7090,7 @@
      },
      {
       "name": "Manufacturing",
-      "count": 5
+      "count": 6
      },
      {
       "name": "Professional Services",
@@ -7149,11 +7149,11 @@
     },
     {
      "month": "2026-10",
-     "count": 4
+     "count": 9
     }
    ],
-   "history_size": 51,
-   "updated": "2026-10-13T04:58:26+00:00"
+   "history_size": 56,
+   "updated": "2026-10-23T17:27:49+00:00"
   },
   "sarcoma": {
    "name": "sarcoma",
