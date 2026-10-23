@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T02:59:38+00:00",
+ "generated_at": "2026-10-23T04:04:08+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -101,12 +101,6 @@
    "lon": 2.35
   },
   {
-   "code": "AE",
-   "count": 1,
-   "lat": 24.5,
-   "lon": 54.4
-  },
-  {
    "code": "AR",
    "count": 1,
    "lat": -34.6,
@@ -155,6 +149,12 @@
    "lon": 127.0
   },
   {
+   "code": "MX",
+   "count": 1,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "MY",
    "count": 1,
    "lat": 3.1,
@@ -198,6 +198,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "SEPIVER",
+   "group": "qilin",
+   "date": "2026-10-22T23:40:29+00:00",
+   "attack_date": "2026-10-22",
+   "country": "MX",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/U0VQSVZFUkBxaWxpbg=="
+  },
   {
    "victim": "istanbultrading.com",
    "group": "lockbit5",
@@ -1079,15 +1088,6 @@
    "country": "IN",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/V2Fsa2luZ1RyZWUgVGVjaG5vbG9naWVzQHFpbGlu"
-  },
-  {
-   "victim": "SkyWorld Air Cargo",
-   "group": "qilin",
-   "date": "2026-10-19T15:58:41+00:00",
-   "attack_date": "2026-10-19",
-   "country": "AE",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/U2t5V29ybGQgQWlyIENhcmdvQHFpbGlu"
   }
  ]
 }
