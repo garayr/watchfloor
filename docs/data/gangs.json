@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T20:04:44+00:00",
+ "generated_at": "2026-10-23T20:39:58+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -3139,8 +3139,8 @@
    "description": "The Akira ransomware group is said to have emerged in March 2023, and there's much speculation about its ties to the former CONTI ransomware group. It's worth noting that with the end of CONTI's operation, several affiliates migrated to independent campaigns such as Royal, BlackBasta, and others. According to some reports, Akira affiliates also work with other ransomware operations, such as Snatch and BlackByte, as an open directory of tools used by an Akira operator was identified, which also had connections to the Snatch ransomware. The first version of the Akira ransomware was written in C++ and appended files with the '.akira' extension, creating a ransom note named 'akira_readme.txt,' partially based on the Conti V2 source code. However, on June 29, 2023, a decryptor for this version was reportedly released by Avast. Subsequently, a version was released that fixed the decryption flaw on July 2, 2023. Since then, the new version is said to be written in Rust, this time called 'megazord.exe,' and it changes the extension to '.powerranges' for encrypted files. Most of Akira's initial access vectors use brute-force attempts on Cisco VPN devices (which use single-factor…",
    "aliases": [],
    "first_seen": "2023-04-12",
-   "last_seen": "2026-10-15",
-   "victims_total": 1644,
+   "last_seen": "2026-10-23",
+   "victims_total": 1652,
    "cves": [
     {
      "id": "CVE-2022-40684",
@@ -3247,7 +3247,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 881
+      "count": 883
      },
      {
       "name": "CA",
@@ -3255,7 +3255,7 @@
      },
      {
       "name": "DE",
-      "count": 73
+      "count": 75
      },
      {
       "name": "GB",
@@ -3273,11 +3273,11 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 453
+      "count": 455
      },
      {
       "name": "Professional Services",
-      "count": 379
+      "count": 380
      },
      {
       "name": "Technology",
@@ -3285,11 +3285,11 @@
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 119
+      "count": 121
      },
      {
       "name": "Financial Services",
-      "count": 103
+      "count": 104
      },
      {
       "name": "Agriculture and Food Production",
@@ -3344,11 +3344,11 @@
     },
     {
      "month": "2026-10",
-     "count": 21
+     "count": 29
     }
    ],
-   "history_size": 1644,
-   "updated": "2026-10-16T20:38:28+00:00"
+   "history_size": 1652,
+   "updated": "2026-10-23T20:39:58+00:00"
   },
   "Redact": {
    "name": "Redact",
