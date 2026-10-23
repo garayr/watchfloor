@@ -2,18 +2,18 @@
  "infocon": "yellow",
  "malware": {
   "window": "24h",
-  "total_iocs": 1889,
-  "c2_servers": 773,
+  "total_iocs": 1879,
+  "c2_servers": 779,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 342,
-    "c2": 342,
+    "iocs": 345,
+    "c2": 345,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 281,
+    "iocs": 275,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -25,7 +25,7 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 158,
+    "iocs": 156,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -36,21 +36,21 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "StrelaStealer",
-    "iocs": 112,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
-   },
-   {
     "name": "Coinminer",
     "iocs": 106,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.coinminer"
    },
    {
+    "name": "StrelaStealer",
+    "iocs": 105,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+   },
+   {
     "name": "VShell",
-    "iocs": 85,
-    "c2": 85,
+    "iocs": 83,
+    "c2": 83,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -61,7 +61,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 33,
+    "iocs": 31,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
@@ -69,19 +69,19 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 990,
+  "online": 992,
   "top_tags": [
    {
     "name": "github",
-    "count": 942
+    "count": 933
    },
    {
     "name": "zip",
-    "count": 942
+    "count": 933
    },
    {
     "name": "SmartLoader",
-    "count": 924
+    "count": 916
    },
    {
     "name": "FakeGit",
@@ -89,18 +89,18 @@
    },
    {
     "name": "Mozi",
-    "count": 36
+    "count": 40
    },
    {
     "name": "elf",
-    "count": 26
+    "count": 29
    },
    {
-    "name": "SalatStealer",
+    "name": "32-bit",
     "count": 18
    },
    {
-    "name": "zapret",
+    "name": "mips",
     "count": 18
    }
   ]
@@ -109,72 +109,72 @@
   {
    "port": 23,
    "service": "Telnet",
-   "records": 418580,
-   "targets": 249,
-   "sources": 4007
+   "records": 886691,
+   "targets": 270,
+   "sources": 7602
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 168373,
-   "targets": 237,
-   "sources": 3001
+   "records": 376010,
+   "targets": 261,
+   "sources": 4532
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 146151,
-   "targets": 248,
-   "sources": 5155
+   "records": 370841,
+   "targets": 280,
+   "sources": 8805
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 134948,
-   "targets": 233,
-   "sources": 2742
+   "records": 308119,
+   "targets": 267,
+   "sources": 4157
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 75272,
-   "targets": 213,
-   "sources": 3832
+   "records": 217274,
+   "targets": 272,
+   "sources": 6616
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 54542,
-   "targets": 222,
-   "sources": 3848
+   "records": 126733,
+   "targets": 251,
+   "sources": 6236
   },
   {
    "port": 2222,
    "service": null,
-   "records": 47496,
-   "targets": 223,
-   "sources": 4112
-  },
-  {
-   "port": 16767,
-   "service": null,
-   "records": 30660,
-   "targets": 4,
-   "sources": 2320
+   "records": 119430,
+   "targets": 256,
+   "sources": 5957
   },
   {
    "port": 6881,
    "service": null,
-   "records": 26733,
-   "targets": 123,
-   "sources": 649
+   "records": 68360,
+   "targets": 200,
+   "sources": 1020
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 59846,
+   "targets": 9,
+   "sources": 3090
   },
   {
    "port": 137,
    "service": null,
-   "records": 20547,
-   "targets": 130,
-   "sources": 432
+   "records": 49921,
+   "targets": 171,
+   "sources": 892
   }
  ],
  "ports_date": "2026-10-23",
@@ -493,10 +493,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-23T09:01:20+00:00",
-  "sans": "2026-10-23T09:01:20+00:00",
-  "otx": "2026-10-23T09:01:20+00:00",
-  "urlhaus": "2026-10-23T09:01:20+00:00"
+  "threatfox": "2026-10-23T10:12:58+00:00",
+  "sans": "2026-10-23T10:12:58+00:00",
+  "otx": "2026-10-23T10:12:58+00:00",
+  "urlhaus": "2026-10-23T10:12:58+00:00"
  },
- "generated_at": "2026-10-23T09:01:20+00:00"
+ "generated_at": "2026-10-23T10:12:58+00:00"
 }
