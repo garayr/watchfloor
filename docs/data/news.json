@@ -119,20 +119,6 @@
      "date": "2026-10-21T21:43:27+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-21T18:34:42+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
-     "group": "Breaches and ransomware",
-     "alerts": [
-      "CVE-2026-96656",
-      "CVE-2026-96655",
-      "CVE-2026-96654",
-      "CVE-2026-96652"
-     ]
     }
    ]
   },
@@ -145,6 +131,14 @@
      "source": "SecurityWeek",
      "date": "2026-10-23T09:58:34+00:00",
      "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+     "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow…",
+     "source": "The Hacker News",
+     "date": "2026-10-23T09:36:00+00:00",
+     "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
      "group": "Exploited right now"
     },
     {
@@ -215,14 +209,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
-     "summary": "Vendors are checking their products for PHP2Shell, security firms are shipping detections, and governments are urging immediate patching. The post Tech and Security Companies Respond to PHP2Shell Vulnerabilities…",
-     "source": "SecurityWeek",
-     "date": "2026-10-22T12:20:23+00:00",
-     "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "GitLab warns of new max severity code execution vulnerability",
      "summary": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers. [...]",
      "source": "BleepingComputer",
@@ -275,6 +261,14 @@
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
+     "summary": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments. The post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-23T10:31:16+00:00",
+     "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016",
      "summary": "After a three-month lull, Prince of Persia hid a Tornado C&C server on US shared hosting, its first US-based server since 2016. The post Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016 appeared…",
