@@ -2,42 +2,42 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1700,
-  "c2_servers": 753,
+  "total_iocs": 1817,
+  "c2_servers": 742,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 326,
-    "c2": 326,
+    "iocs": 333,
+    "c2": 315,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 269,
+    "iocs": 270,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "IClickFix",
-    "iocs": 260,
+    "iocs": 259,
     "c2": 162,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "ClearFake",
-    "iocs": 151,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
     "name": "Mirai",
-    "iocs": 131,
+    "iocs": 132,
     "c2": 19,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.mirai"
    },
    {
+    "name": "ClearFake",
+    "iocs": 126,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
     "name": "StrelaStealer",
-    "iocs": 102,
+    "iocs": 106,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
@@ -55,53 +55,41 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 28,
+    "iocs": 27,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "Unknown Stealer",
-    "iocs": 20,
-    "c2": 8,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+    "name": "Raven Stealer",
+    "iocs": 24,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 995,
+  "online": 1000,
   "top_tags": [
    {
-    "name": "SmartLoader",
-    "count": 912
-   },
-   {
     "name": "github",
-    "count": 912
+    "count": 1000
    },
    {
     "name": "zip",
-    "count": 912
+    "count": 1000
    },
    {
-    "name": "Mozi",
-    "count": 31
+    "name": "SmartLoader",
+    "count": 954
    },
    {
-    "name": "elf",
-    "count": 23
+    "name": "SalatStealer",
+    "count": 46
    },
    {
-    "name": "mirai",
-    "count": 19
-   },
-   {
-    "name": "32-bit",
-    "count": 15
-   },
-   {
-    "name": "GuLoader",
-    "count": 15
+    "name": "zapret",
+    "count": 46
    }
   ]
  },
@@ -182,7 +170,7 @@
   {
    "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
    "url": "https://isc.sans.edu/diary/rss/33450",
-   "date": "2026-10-23T13:02:54+00:00"
+   "date": "2026-10-23T13:43:20+00:00"
   },
   {
    "title": "ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148, (Fri, Oct 23rd)",
@@ -473,10 +461,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-23T13:30:25+00:00",
-  "sans": "2026-10-23T13:30:25+00:00",
-  "otx": "2026-10-23T13:30:25+00:00",
-  "urlhaus": "2026-10-23T13:30:25+00:00"
+  "threatfox": "2026-10-23T15:02:59+00:00",
+  "sans": "2026-10-23T15:02:59+00:00",
+  "otx": "2026-10-23T15:02:59+00:00",
+  "urlhaus": "2026-10-23T15:02:59+00:00"
  },
- "generated_at": "2026-10-23T13:30:25+00:00"
+ "generated_at": "2026-10-23T15:02:59+00:00"
 }

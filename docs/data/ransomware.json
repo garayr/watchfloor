@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T13:30:25+00:00",
+ "generated_at": "2026-10-23T15:02:59+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -17,15 +17,15 @@
    "count": 8
   },
   {
-   "name": "qilin",
-   "count": 7
-  },
-  {
    "name": "Booba Project",
    "count": 6
   },
   {
    "name": "lamashtu",
+   "count": 6
+  },
+  {
+   "name": "qilin",
    "count": 6
   },
   {
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Professional Services",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Healthcare",
@@ -60,13 +60,13 @@
   },
   {
    "name": "Technology",
-   "count": 6
+   "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 34,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -198,6 +198,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Ca***ka",
+   "group": "AuditTeam",
+   "date": "2026-10-23T10:50:53+00:00",
+   "attack_date": "2026-10-23",
+   "country": "ES",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q2EqKiprYUBBdWRpdFRlYW0="
+  },
+  {
+   "victim": "Line2Line Coatings",
+   "group": "rhysida",
+   "date": "2026-10-23T10:20:13+00:00",
+   "attack_date": "2026-10-23",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TGluZTJMaW5lIENvYXRpbmdzQHJoeXNpZGE="
+  },
+  {
+   "victim": "EMARKETER",
+   "group": "fulcrumsec",
+   "date": "2026-10-23T10:10:20+00:00",
+   "attack_date": "2026-10-23",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/RU1BUktFVEVSQGZ1bGNydW1zZWM="
+  },
   {
    "victim": "Horn of Africa Regional Environment Centre and Network",
    "group": "N0n",
@@ -919,15 +946,6 @@
    "url": "https://www.ransomware.live/id/UC4uLlMuLi5SLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
   },
   {
-   "victim": "Duarte Nursery, Inc.",
-   "group": "aurora",
-   "date": "2026-10-20T14:04:48+00:00",
-   "attack_date": "2026-10-20",
-   "country": "US",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/RHVhcnRlIE51cnNlcnksIEluYy5AYXVyb3Jh"
-  },
-  {
    "victim": "51Ridge (Newark NJ hosting/IT)",
    "group": "N0n",
    "date": "2026-10-20T13:59:48+00:00",
@@ -1070,24 +1088,6 @@
    "country": "DE",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/QnLDvG5pbmdob2ZmIEdyb3VwQHBheWxvYWQ="
-  },
-  {
-   "victim": "Rosenberg & Pittinsky",
-   "group": "Global Secret Group",
-   "date": "2026-10-19T22:23:20+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Um9zZW5iZXJnICYgUGl0dGluc2t5QEdsb2JhbCBTZWNyZXQgR3JvdXA="
-  },
-  {
-   "victim": "Toyota Canarias",
-   "group": "qilin",
-   "date": "2026-10-19T21:39:49+00:00",
-   "attack_date": "2026-10-19",
-   "country": "ES",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/VG95b3RhIENhbmFyaWFzQHFpbGlu"
   }
  ]
 }

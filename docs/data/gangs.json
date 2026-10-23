@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T12:10:36+00:00",
+ "generated_at": "2026-10-23T15:02:59+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -4182,8 +4182,8 @@
    "description": "AuditTeam is a small ransomware group with approximately 5 known victims, primarily targeting organizations in East and Southeast Asia across technology and manufacturing sectors, operating a data leak site consistent with double-extortion methodology.",
    "aliases": [],
    "first_seen": "2026-02-21",
-   "last_seen": "2026-10-13",
-   "victims_total": 56,
+   "last_seen": "2026-10-23",
+   "victims_total": 59,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -4196,11 +4196,15 @@
      },
      {
       "name": "IT",
-      "count": 8
+      "count": 9
      },
      {
       "name": "KR",
       "count": 5
+     },
+     {
+      "name": "GB",
+      "count": 3
      },
      {
       "name": "AE",
@@ -4208,10 +4212,6 @@
      },
      {
       "name": "AR",
-      "count": 2
-     },
-     {
-      "name": "CO",
       "count": 2
      }
     ],
@@ -4221,12 +4221,12 @@
       "count": 11
      },
      {
-      "name": "Other",
+      "name": "Manufacturing",
       "count": 4
      },
      {
-      "name": "Manufacturing",
-      "count": 3
+      "name": "Other",
+      "count": 4
      },
      {
       "name": "Education",
@@ -4237,7 +4237,7 @@
       "count": 2
      },
      {
-      "name": "Retail & E-Commerce",
+      "name": "Professional Services",
       "count": 2
      }
     ]
@@ -4289,11 +4289,11 @@
     },
     {
      "month": "2026-10",
-     "count": 7
+     "count": 10
     }
    ],
-   "history_size": 56,
-   "updated": "2026-10-13T17:02:00+00:00"
+   "history_size": 59,
+   "updated": "2026-10-23T15:02:59+00:00"
   },
   "Panzer": {
    "name": "Panzer",
