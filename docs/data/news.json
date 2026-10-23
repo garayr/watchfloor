@@ -33,6 +33,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
+     "summary": "Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-23T08:10:46+00:00",
+     "url": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Railway warns devs to rotate secrets after potential breach",
      "summary": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
      "source": "BleepingComputer",
@@ -132,6 +140,33 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Atlassian Patches 75 Flaws in Data Center and Server Products",
+     "summary": "Atlassian’s October bulletin lists 176 vulnerability entries, including 14 critical-severity issues, all in third-party components. The post Atlassian Patches 75 Flaws in Data Center and Server Products appeared first…",
+     "source": "SecurityWeek",
+     "date": "2026-10-23T07:54:47+00:00",
+     "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+     "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official…",
+     "source": "The Hacker News",
+     "date": "2026-10-23T07:50:01+00:00",
+     "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+     "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing…",
+     "source": "The Hacker News",
+     "date": "2026-10-23T07:40:45+00:00",
+     "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
+     ]
+    },
+    {
      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
      "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets…",
      "source": "The Hacker News",
@@ -209,14 +244,6 @@
      "source": "The Hacker News",
      "date": "2026-10-22T07:47:22+00:00",
      "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
-     "summary": "Nearly 100 vulnerabilities have been assigned a critical severity rating and Fusion Middleware received the most patches. The post Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-10-22T07:38:14+00:00",
-     "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
      "group": "Exploited right now"
     },
     {
@@ -310,14 +337,6 @@
      "group": "Other news"
     },
     {
-     "title": "Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook",
-     "summary": "The $25 billion award far exceeds a $5 billion fine the Federal Trade Commission levied against Facebook in 2019. The post Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook…",
-     "source": "SecurityWeek",
-     "date": "2026-10-22T07:26:54+00:00",
-     "url": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/",
-     "group": "Other news"
-    },
-    {
      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
      "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX…",
      "source": "The Hacker News",
@@ -331,22 +350,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-21T22:16:26+00:00",
      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-     "group": "Other news"
-    },
-    {
-     "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-     "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI…",
-     "source": "The Hacker News",
-     "date": "2026-10-21T16:33:47+00:00",
-     "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
-     "group": "Other news"
-    },
-    {
-     "title": "OpenAI agents disabled safety monitoring, one lied about it",
-     "summary": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-21T16:26:53+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
      "group": "Other news"
     }
    ]
