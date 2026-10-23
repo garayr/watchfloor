@@ -1,19 +1,19 @@
 {
- "infocon": "yellow",
+ "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1879,
-  "c2_servers": 779,
+  "total_iocs": 1867,
+  "c2_servers": 774,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 345,
-    "c2": 345,
+    "iocs": 339,
+    "c2": 339,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 275,
+    "iocs": 271,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -25,13 +25,13 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 156,
+    "iocs": 160,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Mirai",
-    "iocs": 137,
+    "iocs": 136,
     "c2": 19,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -43,7 +43,7 @@
    },
    {
     "name": "StrelaStealer",
-    "iocs": 105,
+    "iocs": 102,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
@@ -61,7 +61,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 31,
+    "iocs": 29,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 992,
+  "online": 998,
   "top_tags": [
    {
+    "name": "SmartLoader",
+    "count": 964
+   },
+   {
     "name": "github",
-    "count": 933
+    "count": 964
    },
    {
     "name": "zip",
-    "count": 933
-   },
-   {
-    "name": "SmartLoader",
-    "count": 916
+    "count": 964
    },
    {
     "name": "FakeGit",
-    "count": 150
+    "count": 42
    },
    {
     "name": "Mozi",
-    "count": 40
+    "count": 19
    },
    {
     "name": "elf",
-    "count": 29
-   },
-   {
-    "name": "32-bit",
-    "count": 18
+    "count": 14
    },
    {
     "name": "mips",
-    "count": 18
+    "count": 13
+   },
+   {
+    "name": "32-bit",
+    "count": 11
    }
   ]
  },
@@ -180,6 +180,11 @@
  "ports_date": "2026-10-23",
  "diary": [
   {
+   "title": "ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148, (Fri, Oct 23rd)",
+   "url": "https://isc.sans.edu/diary/rss/33448",
+   "date": "2026-10-23T10:25:11+00:00"
+  },
+  {
    "title": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
    "url": "https://isc.sans.edu/diary/rss/33446",
    "date": "2026-10-22T02:00:02+00:00"
@@ -203,11 +208,6 @@
    "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
    "url": "https://isc.sans.edu/diary/rss/33434",
    "date": "2026-10-18T12:59:30+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
-   "url": "https://isc.sans.edu/diary/rss/33432",
-   "date": "2026-10-16T02:00:03+00:00"
   }
  ],
  "pulses": [
@@ -493,10 +493,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-23T10:12:58+00:00",
-  "sans": "2026-10-23T10:12:58+00:00",
-  "otx": "2026-10-23T10:12:58+00:00",
-  "urlhaus": "2026-10-23T10:12:58+00:00"
+  "threatfox": "2026-10-23T11:12:31+00:00",
+  "sans": "2026-10-23T11:12:31+00:00",
+  "otx": "2026-10-23T11:12:31+00:00",
+  "urlhaus": "2026-10-23T11:12:31+00:00"
  },
- "generated_at": "2026-10-23T10:12:58+00:00"
+ "generated_at": "2026-10-23T11:12:31+00:00"
 }
