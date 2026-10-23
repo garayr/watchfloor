@@ -141,14 +141,6 @@
       "CVE-2026-96654",
       "CVE-2026-96652"
      ]
-    },
-    {
-     "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-     "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind…",
-     "source": "The Hacker News",
-     "date": "2026-10-21T18:01:57+00:00",
-     "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
@@ -156,19 +148,27 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+     "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official…",
+     "source": "The Hacker News",
+     "date": "2026-10-23T08:40:43+00:00",
+     "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+     "summary": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default…",
+     "source": "The Hacker News",
+     "date": "2026-10-23T08:35:45+00:00",
+     "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Atlassian Patches 75 Flaws in Data Center and Server Products",
      "summary": "Atlassian’s October bulletin lists 176 vulnerability entries, including 14 critical-severity issues, all in third-party components. The post Atlassian Patches 75 Flaws in Data Center and Server Products appeared first…",
      "source": "SecurityWeek",
      "date": "2026-10-23T07:54:47+00:00",
      "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-     "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official…",
-     "source": "The Hacker News",
-     "date": "2026-10-23T07:50:01+00:00",
-     "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
      "group": "Exploited right now"
     },
     {
