@@ -126,6 +126,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+     "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web…",
+     "source": "The Hacker News",
+     "date": "2026-10-23T11:25:43+00:00",
+     "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
      "summary": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months…",
      "source": "SecurityWeek",
@@ -247,20 +255,20 @@
      "date": "2026-10-22T06:34:10+00:00",
      "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-     "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix…",
-     "source": "The Hacker News",
-     "date": "2026-10-21T18:57:34+00:00",
-     "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+     "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved…",
+     "source": "The Hacker News",
+     "date": "2026-10-23T11:11:23+00:00",
+     "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
      "summary": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments. The post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek.",
@@ -275,14 +283,6 @@
      "source": "SecurityWeek",
      "date": "2026-10-23T06:39:29+00:00",
      "url": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-     "summary": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-21T20:31:48+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
      "group": "Malware and campaigns"
     }
    ]
