@@ -134,6 +134,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+     "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan…",
+     "source": "The Hacker News",
+     "date": "2026-10-23T18:50:13+00:00",
+     "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
      "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past…",
      "source": "The Hacker News",
@@ -261,20 +269,20 @@
      "date": "2026-10-22T11:41:48+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
      "group": "Exploited right now"
-    },
-    {
-     "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
-     "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol)…",
-     "source": "The Hacker News",
-     "date": "2026-10-22T10:44:05+00:00",
-     "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+     "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-23T18:54:41+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
      "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved…",
@@ -342,14 +350,6 @@
      "source": "SecurityWeek",
      "date": "2026-10-22T14:31:34+00:00",
      "url": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
-     "group": "Other news"
-    },
-    {
-     "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
-     "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized…",
-     "source": "The Hacker News",
-     "date": "2026-10-22T11:15:42+00:00",
-     "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
      "group": "Other news"
     }
    ]

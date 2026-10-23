@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-23T17:27:49+00:00",
+ "generated_at": "2026-10-23T19:05:51+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "N0n",
-   "count": 23
+   "count": 20
   },
   {
    "name": "SilentRansomGroup",
@@ -14,6 +14,10 @@
   },
   {
    "name": "BrainCipher",
+   "count": 8
+  },
+  {
+   "name": "akira",
    "count": 8
   },
   {
@@ -29,10 +33,6 @@
    "count": 6
   },
   {
-   "name": "akira",
-   "count": 5
-  },
-  {
    "name": "everest",
    "count": 5
   }
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Professional Services",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Healthcare",
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 36,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 8,
+   "count": 9,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -95,22 +95,16 @@
    "lon": -79.4
   },
   {
-   "code": "ET",
-   "count": 2,
-   "lat": 9.0,
-   "lon": 38.7
-  },
-  {
    "code": "FR",
    "count": 2,
    "lat": 48.9,
    "lon": 2.35
   },
   {
-   "code": "TN",
+   "code": "MY",
    "count": 2,
-   "lat": 36.8,
-   "lon": 10.2
+   "lat": 3.1,
+   "lon": 101.7
   },
   {
    "code": "AR",
@@ -137,6 +131,12 @@
    "lon": -3.7
   },
   {
+   "code": "ET",
+   "count": 1,
+   "lat": 9.0,
+   "lon": 38.7
+  },
+  {
    "code": "IE",
    "count": 1,
    "lat": 53.3,
@@ -161,10 +161,10 @@
    "lon": -99.1
   },
   {
-   "code": "MY",
+   "code": "NL",
    "count": 1,
-   "lat": 3.1,
-   "lon": 101.7
+   "lat": 52.4,
+   "lon": 4.9
   },
   {
    "code": "PT",
@@ -173,16 +173,16 @@
    "lon": -9.1
   },
   {
+   "code": "TN",
+   "count": 1,
+   "lat": 36.8,
+   "lon": 10.2
+  },
+  {
    "code": "TR",
    "count": 1,
    "lat": 41.0,
    "lon": 29.0
-  },
-  {
-   "code": "TT",
-   "count": 1,
-   "lat": 10.7,
-   "lon": -61.5
   },
   {
    "code": "TW",
@@ -198,6 +198,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Bankruptcy Software Specialists",
+   "group": "akira",
+   "date": "2026-10-23T15:00:10+00:00",
+   "attack_date": "2026-10-23",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QmFua3J1cHRjeSBTb2Z0d2FyZSBTcGVjaWFsaXN0c0Bha2lyYQ=="
+  },
+  {
+   "victim": "Bravilor Bonamat",
+   "group": "akira",
+   "date": "2026-10-23T13:30:32+00:00",
+   "attack_date": "2026-10-23",
+   "country": "NL",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/QnJhdmlsb3IgQm9uYW1hdEBha2lyYQ=="
+  },
+  {
+   "victim": "SCHWAB-SYSTEM",
+   "group": "akira",
+   "date": "2026-10-23T13:30:30+00:00",
+   "attack_date": "2026-10-23",
+   "country": "DE",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/U0NIV0FCLVNZU1RFTUBha2lyYQ=="
+  },
+  {
+   "victim": "Wah Chan Consolidated Sdn Bhd",
+   "group": "Orova",
+   "date": "2026-10-23T13:27:35+00:00",
+   "attack_date": "2026-10-23",
+   "country": "MY",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/V2FoIENoYW4gQ29uc29saWRhdGVkIFNkbiBCaGRAT3JvdmE="
+  },
   {
    "victim": "Trevi Technology",
    "group": "Orova",
@@ -946,15 +982,6 @@
    "url": "https://www.ransomware.live/id/R3JhdmVzIEZpcmVwbGFjZXMsIEluYy5AR2xvYmFsIFNlY3JldCBHcm91cA=="
   },
   {
-   "victim": "centralrogers.com",
-   "group": "incransom",
-   "date": "2026-10-20T19:23:14+00:00",
-   "attack_date": "2026-10-20",
-   "country": "US",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/Y2VudHJhbHJvZ2Vycy5jb21AaW5jcmFuc29t"
-  },
-  {
    "victim": "Asensus Surgical",
    "group": "Dark Project",
    "date": "2026-10-20T17:53:03+00:00",
@@ -1061,33 +1088,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/Q09BU1RBTCBDQVJPTElOQSBORVVST1BTWUNISUFUUklDIENFTlRFUiwgUEFAQm9vYmEgUHJvamVjdA=="
-  },
-  {
-   "victim": "Company #98",
-   "group": "N0n",
-   "date": "2026-10-20T09:28:30+00:00",
-   "attack_date": "2026-10-20",
-   "country": "ET",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOThATjBu"
-  },
-  {
-   "victim": "Company #97",
-   "group": "N0n",
-   "date": "2026-10-20T05:54:05+00:00",
-   "attack_date": "2026-10-20",
-   "country": "TN",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTdATjBu"
-  },
-  {
-   "victim": "Company #96",
-   "group": "N0n",
-   "date": "2026-10-20T05:53:30+00:00",
-   "attack_date": "2026-10-20",
-   "country": "TT",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTZATjBu"
   }
  ]
 }
