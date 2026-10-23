@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T00:18:22+00:00",
+ "generated_at": "2026-10-23T01:47:31+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -18,7 +18,7 @@
   },
   {
    "name": "qilin",
-   "count": 8
+   "count": 7
   },
   {
    "name": "Booba Project",
@@ -47,11 +47,11 @@
    "count": 12
   },
   {
-   "name": "Healthcare",
-   "count": 8
+   "name": "Retail & E-Commerce",
+   "count": 9
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Healthcare",
    "count": 8
   },
   {
@@ -78,7 +78,7 @@
   },
   {
    "code": "GB",
-   "count": 5,
+   "count": 4,
    "lat": 51.5,
    "lon": -0.1
   },
@@ -179,6 +179,12 @@
    "lon": 10.2
   },
   {
+   "code": "TR",
+   "count": 1,
+   "lat": 41.0,
+   "lon": 29.0
+  },
+  {
    "code": "TT",
    "count": 1,
    "lat": 10.7,
@@ -192,6 +198,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "istanbultrading.com",
+   "group": "lockbit5",
+   "date": "2026-10-22T21:30:20+00:00",
+   "attack_date": "2026-10-22",
+   "country": "TR",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/aXN0YW5idWx0cmFkaW5nLmNvbUBsb2NrYml0NQ=="
+  },
   {
    "victim": "M... C...",
    "group": "SilentRansomGroup",
@@ -1073,15 +1088,6 @@
    "country": "AE",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/U2t5V29ybGQgQWlyIENhcmdvQHFpbGlu"
-  },
-  {
-   "victim": "Johnson & Pace",
-   "group": "qilin",
-   "date": "2026-10-19T15:58:00+00:00",
-   "attack_date": "2026-10-19",
-   "country": "GB",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Sm9obnNvbiAmIFBhY2VAcWlsaW4="
   }
  ]
 }
