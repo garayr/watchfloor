@@ -36,6 +36,27 @@
    ]
   },
   {
+   "id": "CVE-2026-110447",
+   "date": "2026-10-23",
+   "src": "CISA",
+   "vendor": "Collabora Collabora Online – Built-in CODE Server",
+   "vendor_name": "Collabora",
+   "product": "Collabora Online – Built-in CODE Server",
+   "title": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
+   "detail": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-26",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-110447"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447",
+   "kev": true,
+   "epss": 0.0123,
+   "cvss": 9.2,
+   "sev": "critical"
+  },
+  {
    "id": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
    "date": "2026-10-21",
    "src": "NCSC",

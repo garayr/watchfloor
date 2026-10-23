@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T19:05:51+00:00",
+ "generated_at": "2026-10-23T20:04:44+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -7,6 +7,10 @@
   {
    "name": "N0n",
    "count": 20
+  },
+  {
+   "name": "qilin",
+   "count": 10
   },
   {
    "name": "SilentRansomGroup",
@@ -21,52 +25,48 @@
    "count": 8
   },
   {
-   "name": "Booba Project",
-   "count": 6
-  },
-  {
    "name": "lamashtu",
-   "count": 6
-  },
-  {
-   "name": "qilin",
    "count": 6
   },
   {
    "name": "everest",
    "count": 5
+  },
+  {
+   "name": "bravox",
+   "count": 3
   }
  ],
  "by_sector": [
+  {
+   "name": "Professional Services",
+   "count": 15
+  },
   {
    "name": "Manufacturing",
    "count": 14
   },
   {
-   "name": "Professional Services",
-   "count": 14
-  },
-  {
-   "name": "Healthcare",
+   "name": "Technology",
    "count": 9
   },
   {
-   "name": "Technology",
-   "count": 8
-  },
-  {
    "name": "Other",
-   "count": 7
+   "count": 8
   },
   {
    "name": "Retail & E-Commerce",
    "count": 7
+  },
+  {
+   "name": "Healthcare",
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -84,9 +84,15 @@
   },
   {
    "code": "AU",
-   "count": 2,
+   "count": 3,
    "lat": -33.9,
    "lon": 151.2
+  },
+  {
+   "code": "AR",
+   "count": 2,
+   "lat": -34.6,
+   "lon": -58.4
   },
   {
    "code": "CA",
@@ -101,16 +107,16 @@
    "lon": 2.35
   },
   {
+   "code": "MX",
+   "count": 2,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "MY",
    "count": 2,
    "lat": 3.1,
    "lon": 101.7
-  },
-  {
-   "code": "AR",
-   "count": 1,
-   "lat": -34.6,
-   "lon": -58.4
   },
   {
    "code": "BG",
@@ -123,6 +129,12 @@
    "count": 1,
    "lat": 46.9,
    "lon": 7.4
+  },
+  {
+   "code": "CL",
+   "count": 1,
+   "lat": -33.4,
+   "lon": -70.6
   },
   {
    "code": "ES",
@@ -153,12 +165,6 @@
    "count": 1,
    "lat": 37.6,
    "lon": 127.0
-  },
-  {
-   "code": "MX",
-   "count": 1,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "NL",
@@ -198,6 +204,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Aryza",
+   "group": "qilin",
+   "date": "2026-10-23T15:26:27+00:00",
+   "attack_date": "2026-10-23",
+   "country": "AR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QXJ5emFAcWlsaW4="
+  },
+  {
+   "victim": "Aerotop",
+   "group": "qilin",
+   "date": "2026-10-23T15:26:07+00:00",
+   "attack_date": "2026-10-23",
+   "country": "CL",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/QWVyb3RvcEBxaWxpbg=="
+  },
+  {
+   "victim": "CDG Chartered Accounting",
+   "group": "qilin",
+   "date": "2026-10-23T15:25:48+00:00",
+   "attack_date": "2026-10-23",
+   "country": "AU",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Q0RHIENoYXJ0ZXJlZCBBY2NvdW50aW5nQHFpbGlu"
+  },
+  {
+   "victim": "Revi Group",
+   "group": "qilin",
+   "date": "2026-10-23T15:25:28+00:00",
+   "attack_date": "2026-10-23",
+   "country": "MX",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/UmV2aSBHcm91cEBxaWxpbg=="
+  },
   {
    "victim": "Bankruptcy Software Specialists",
    "group": "akira",
@@ -1018,33 +1060,6 @@
    "url": "https://www.ransomware.live/id/NTFSaWRnZSAoTmV3YXJrIE5KIGhvc3RpbmcvSVQpQE4wbg=="
   },
   {
-   "victim": "Research Foundation of The City University of New York",
-   "group": "Booba Project",
-   "date": "2026-10-20T13:56:28+00:00",
-   "attack_date": "2026-10-20",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/UmVzZWFyY2ggRm91bmRhdGlvbiBvZiBUaGUgQ2l0eSBVbml2ZXJzaXR5IG9mIE5ldyBZb3JrQEJvb2JhIFByb2plY3Q="
-  },
-  {
-   "victim": "Chicago Vein Institute",
-   "group": "Booba Project",
-   "date": "2026-10-20T13:56:07+00:00",
-   "attack_date": "2026-10-20",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Q2hpY2FnbyBWZWluIEluc3RpdHV0ZUBCb29iYSBQcm9qZWN0"
-  },
-  {
-   "victim": "Pearland Pediatrics",
-   "group": "Booba Project",
-   "date": "2026-10-20T13:55:45+00:00",
-   "attack_date": "2026-10-20",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/UGVhcmxhbmQgUGVkaWF0cmljc0BCb29iYSBQcm9qZWN0"
-  },
-  {
    "victim": "City of Mt. Angel, Oregon",
    "group": "Booba Project",
    "date": "2026-10-20T13:55:24+00:00",
@@ -1079,15 +1094,6 @@
    "country": "GB",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/QXZldmFATWltb3Jp"
-  },
-  {
-   "victim": "COASTAL CAROLINA NEUROPSYCHIATRIC CENTER, PA",
-   "group": "Booba Project",
-   "date": "2026-10-20T12:21:07+00:00",
-   "attack_date": "2026-10-20",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Q09BU1RBTCBDQVJPTElOQSBORVVST1BTWUNISUFUUklDIENFTlRFUiwgUEFAQm9vYmEgUHJvamVjdA=="
   }
  ]
 }
