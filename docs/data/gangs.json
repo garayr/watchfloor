@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T21:10:17+00:00",
+ "generated_at": "2026-10-23T22:09:39+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -8699,6 +8699,124 @@
    ],
    "history_size": 3,
    "updated": "2026-10-23T21:10:17+00:00"
+  },
+  "chaos": {
+   "name": "chaos",
+   "description": "Chaos is a ransomware-as-a-service operation that emerged in early 2025, likely formed by former BlackSuit/Royal members, offering cross-platform ransomware for Windows, Linux, ESXi, and NAS to affiliates recruited on the RAMP dark web forum, excluding CIS/BRICS countries and hospitals from targeting.",
+   "aliases": [],
+   "first_seen": "2025-02-19",
+   "last_seen": "2026-10-23",
+   "victims_total": 97,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 69
+     },
+     {
+      "name": "GB",
+      "count": 5
+     },
+     {
+      "name": "CA",
+      "count": 4
+     },
+     {
+      "name": "DE",
+      "count": 4
+     },
+     {
+      "name": "AU",
+      "count": 2
+     },
+     {
+      "name": "RU",
+      "count": 2
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 19
+     },
+     {
+      "name": "Technology",
+      "count": 19
+     },
+     {
+      "name": "Professional Services",
+      "count": 15
+     },
+     {
+      "name": "Healthcare",
+      "count": 10
+     },
+     {
+      "name": "Financial Services",
+      "count": 6
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 6
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 3
+    },
+    {
+     "month": "2025-12",
+     "count": 7
+    },
+    {
+     "month": "2026-01",
+     "count": 2
+    },
+    {
+     "month": "2026-02",
+     "count": 3
+    },
+    {
+     "month": "2026-03",
+     "count": 6
+    },
+    {
+     "month": "2026-04",
+     "count": 5
+    },
+    {
+     "month": "2026-05",
+     "count": 9
+    },
+    {
+     "month": "2026-06",
+     "count": 6
+    },
+    {
+     "month": "2026-07",
+     "count": 15
+    },
+    {
+     "month": "2026-08",
+     "count": 8
+    },
+    {
+     "month": "2026-09",
+     "count": 9
+    },
+    {
+     "month": "2026-10",
+     "count": 3
+    }
+   ],
+   "history_size": 97,
+   "updated": "2026-10-23T22:09:39+00:00"
   }
  }
 }
