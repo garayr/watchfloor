@@ -1,23 +1,23 @@
 {
- "generated_at": "2026-10-23T20:04:44+00:00",
+ "generated_at": "2026-10-23T21:10:17+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
  "by_group": [
   {
    "name": "N0n",
-   "count": 20
+   "count": 19
   },
   {
    "name": "qilin",
-   "count": 10
-  },
-  {
-   "name": "SilentRansomGroup",
-   "count": 9
+   "count": 13
   },
   {
    "name": "BrainCipher",
+   "count": 8
+  },
+  {
+   "name": "SilentRansomGroup",
    "count": 8
   },
   {
@@ -40,27 +40,27 @@
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 15
+   "count": 16
   },
   {
    "name": "Manufacturing",
-   "count": 14
-  },
-  {
-   "name": "Technology",
-   "count": 9
+   "count": 15
   },
   {
    "name": "Other",
    "count": 8
   },
   {
+   "name": "Healthcare",
+   "count": 7
+  },
+  {
    "name": "Retail & E-Commerce",
    "count": 7
   },
   {
-   "name": "Healthcare",
-   "count": 6
+   "name": "Technology",
+   "count": 7
   }
  ],
  "by_country": [
@@ -77,10 +77,10 @@
    "lon": 8.7
   },
   {
-   "code": "GB",
-   "count": 4,
-   "lat": 51.5,
-   "lon": -0.1
+   "code": "AR",
+   "count": 3,
+   "lat": -34.6,
+   "lon": -58.4
   },
   {
    "code": "AU",
@@ -89,16 +89,10 @@
    "lon": 151.2
   },
   {
-   "code": "AR",
-   "count": 2,
-   "lat": -34.6,
-   "lon": -58.4
-  },
-  {
-   "code": "CA",
-   "count": 2,
-   "lat": 43.7,
-   "lon": -79.4
+   "code": "GB",
+   "count": 3,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "FR",
@@ -119,10 +113,28 @@
    "lon": 101.7
   },
   {
+   "code": "TR",
+   "count": 2,
+   "lat": 41.0,
+   "lon": 29.0
+  },
+  {
+   "code": "BD",
+   "count": 1,
+   "lat": 23.8,
+   "lon": 90.4
+  },
+  {
    "code": "BG",
    "count": 1,
    "lat": 42.7,
    "lon": 23.3
+  },
+  {
+   "code": "CA",
+   "count": 1,
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "CH",
@@ -185,12 +197,6 @@
    "lon": 10.2
   },
   {
-   "code": "TR",
-   "count": 1,
-   "lat": 41.0,
-   "lon": 29.0
-  },
-  {
    "code": "TW",
    "count": 1,
    "lat": 25.0,
@@ -204,6 +210,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "JS Constructor, INC",
+   "group": "emperador",
+   "date": "2026-10-23T16:52:22+00:00",
+   "attack_date": "2026-10-23",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/SlMgQ29uc3RydWN0b3IsIElOQ0BlbXBlcmFkb3I="
+  },
+  {
+   "victim": "Whirlpool",
+   "group": "Whitearmor",
+   "date": "2026-10-23T16:39:37+00:00",
+   "attack_date": "2026-10-21",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/V2hpcmxwb29sQFdoaXRlYXJtb3I="
+  },
+  {
+   "victim": "JB Hunt",
+   "group": "Whitearmor",
+   "date": "2026-10-23T16:39:22+00:00",
+   "attack_date": "2026-10-23",
+   "country": "US",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/SkIgSHVudEBXaGl0ZWFybW9y"
+  },
+  {
+   "victim": "Labaid Cancer Hospital And Super Speciality Center",
+   "group": "qilin",
+   "date": "2026-10-23T16:26:27+00:00",
+   "attack_date": "2026-10-23",
+   "country": "BD",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/TGFiYWlkIENhbmNlciBIb3NwaXRhbCBBbmQgU3VwZXIgU3BlY2lhbGl0eSBDZW50ZXJAcWlsaW4="
+  },
+  {
+   "victim": "Kale Balata A",
+   "group": "qilin",
+   "date": "2026-10-23T16:26:08+00:00",
+   "attack_date": "2026-10-23",
+   "country": "TR",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/S2FsZSBCYWxhdGEgQUBxaWxpbg=="
+  },
+  {
+   "victim": "MaxiSeguridad",
+   "group": "qilin",
+   "date": "2026-10-23T16:25:48+00:00",
+   "attack_date": "2026-10-23",
+   "country": "AR",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TWF4aVNlZ3VyaWRhZEBxaWxpbg=="
+  },
   {
    "victim": "Aryza",
    "group": "qilin",
@@ -1040,60 +1100,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/VGhlIEV4Y2FsaWJ1ciBHcm91cEBEYXJrIFByb2plY3Q="
-  },
-  {
-   "victim": "P...S...R...",
-   "group": "SilentRansomGroup",
-   "date": "2026-10-20T16:56:29+00:00",
-   "attack_date": "2026-10-20",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/UC4uLlMuLi5SLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "51Ridge (Newark NJ hosting/IT)",
-   "group": "N0n",
-   "date": "2026-10-20T13:59:48+00:00",
-   "attack_date": "2026-10-20",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/NTFSaWRnZSAoTmV3YXJrIE5KIGhvc3RpbmcvSVQpQE4wbg=="
-  },
-  {
-   "victim": "City of Mt. Angel, Oregon",
-   "group": "Booba Project",
-   "date": "2026-10-20T13:55:24+00:00",
-   "attack_date": "2026-10-20",
-   "country": "US",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/Q2l0eSBvZiBNdC4gQW5nZWwsIE9yZWdvbkBCb29iYSBQcm9qZWN0"
-  },
-  {
-   "victim": "City Hall - Everett, MA",
-   "group": "Booba Project",
-   "date": "2026-10-20T13:55:01+00:00",
-   "attack_date": "2026-10-20",
-   "country": "US",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/Q2l0eSBIYWxsIC0gRXZlcmV0dCwgTUFAQm9vYmEgUHJvamVjdA=="
-  },
-  {
-   "victim": "OpenText",
-   "group": "Mimori",
-   "date": "2026-10-20T13:45:09+00:00",
-   "attack_date": "2026-10-20",
-   "country": "CA",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/T3BlblRleHRATWltb3Jp"
-  },
-  {
-   "victim": "Aveva",
-   "group": "Mimori",
-   "date": "2026-10-20T13:44:30+00:00",
-   "attack_date": "2026-10-20",
-   "country": "GB",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/QXZldmFATWltb3Jp"
   }
  ]
 }
