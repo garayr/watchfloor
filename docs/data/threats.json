@@ -2,18 +2,18 @@
  "infocon": "yellow",
  "malware": {
   "window": "24h",
-  "total_iocs": 1873,
-  "c2_servers": 775,
+  "total_iocs": 1889,
+  "c2_servers": 773,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 340,
-    "c2": 340,
+    "iocs": 342,
+    "c2": 342,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 285,
+    "iocs": 281,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -25,19 +25,19 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 155,
+    "iocs": 158,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Mirai",
-    "iocs": 135,
+    "iocs": 137,
     "c2": 19,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 110,
+    "iocs": 112,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
@@ -49,13 +49,13 @@
    },
    {
     "name": "VShell",
-    "iocs": 90,
-    "c2": 90,
+    "iocs": 85,
+    "c2": 85,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 78,
+    "iocs": 79,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -73,35 +73,35 @@
   "top_tags": [
    {
     "name": "github",
-    "count": 952
+    "count": 942
    },
    {
     "name": "zip",
-    "count": 950
+    "count": 942
    },
    {
     "name": "SmartLoader",
-    "count": 897
+    "count": 924
    },
    {
     "name": "FakeGit",
     "count": 150
    },
    {
-    "name": "SalatStealer",
-    "count": 53
-   },
-   {
-    "name": "zapret",
-    "count": 53
-   },
-   {
     "name": "Mozi",
-    "count": 29
+    "count": 36
    },
    {
     "name": "elf",
-    "count": 22
+    "count": 26
+   },
+   {
+    "name": "SalatStealer",
+    "count": 18
+   },
+   {
+    "name": "zapret",
+    "count": 18
    }
   ]
  },
@@ -493,10 +493,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-23T07:33:46+00:00",
-  "sans": "2026-10-23T07:33:46+00:00",
-  "otx": "2026-10-23T07:33:46+00:00",
-  "urlhaus": "2026-10-23T07:33:46+00:00"
+  "threatfox": "2026-10-23T09:01:20+00:00",
+  "sans": "2026-10-23T09:01:20+00:00",
+  "otx": "2026-10-23T09:01:20+00:00",
+  "urlhaus": "2026-10-23T09:01:20+00:00"
  },
- "generated_at": "2026-10-23T07:33:46+00:00"
+ "generated_at": "2026-10-23T09:01:20+00:00"
 }
