@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T23:19:23+00:00",
+ "generated_at": "2026-10-23T00:18:22+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -9,7 +9,7 @@
    "count": 23
   },
   {
-   "name": "qilin",
+   "name": "SilentRansomGroup",
    "count": 9
   },
   {
@@ -17,7 +17,7 @@
    "count": 8
   },
   {
-   "name": "SilentRansomGroup",
+   "name": "qilin",
    "count": 8
   },
   {
@@ -48,7 +48,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 9
+   "count": 8
   },
   {
    "name": "Retail & E-Commerce",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 40,
+   "count": 39,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -192,6 +192,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "M... C...",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-22T19:30:40+00:00",
+   "attack_date": "2026-10-22",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TS4uLiBDLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
+  },
   {
    "victim": "United Restaurant Supply",
    "group": "qilin",
@@ -1073,15 +1082,6 @@
    "country": "GB",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Sm9obnNvbiAmIFBhY2VAcWlsaW4="
-  },
-  {
-   "victim": "Dental Team FL",
-   "group": "qilin",
-   "date": "2026-10-19T15:57:18+00:00",
-   "attack_date": "2026-10-19",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/RGVudGFsIFRlYW0gRkxAcWlsaW4="
   }
  ]
 }
