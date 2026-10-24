@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1354,
-  "c2_servers": 561,
+  "total_iocs": 1332,
+  "c2_servers": 548,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 274,
+    "iocs": 276,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Vidar",
-    "iocs": 189,
-    "c2": 171,
+    "iocs": 178,
+    "c2": 160,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -25,21 +25,27 @@
    },
    {
     "name": "StrelaStealer",
-    "iocs": 95,
+    "iocs": 98,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Mirai",
-    "iocs": 91,
+    "iocs": 80,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "VShell",
-    "iocs": 52,
-    "c2": 52,
+    "iocs": 47,
+    "c2": 47,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 41,
+    "c2": 38,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "ClearFake",
@@ -48,14 +54,8 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 38,
-    "c2": 35,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 27,
+    "iocs": 26,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -69,19 +69,19 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 965,
+  "online": 961,
   "top_tags": [
    {
     "name": "github",
-    "count": 857
+    "count": 840
    },
    {
     "name": "zip",
-    "count": 857
+    "count": 840
    },
    {
     "name": "SmartLoader",
-    "count": 847
+    "count": 830
    },
    {
     "name": "FakeGit",
@@ -89,95 +89,95 @@
    },
    {
     "name": "Mozi",
-    "count": 69
+    "count": 82
    },
    {
     "name": "elf",
-    "count": 37
+    "count": 40
    },
    {
     "name": "32-bit",
-    "count": 27
+    "count": 30
    },
    {
     "name": "mirai",
-    "count": 26
+    "count": 30
    }
   ]
  },
  "ports": [
   {
-   "port": 23,
-   "service": "Telnet",
-   "records": 1828894,
-   "targets": 281,
-   "sources": 13321
-  },
-  {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 1143241,
-   "targets": 280,
-   "sources": 12266
+   "records": 77251,
+   "targets": 177,
+   "sources": 1834
   },
   {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 778210,
-   "targets": 276,
-   "sources": 7105
-  },
-  {
-   "port": 22,
-   "service": "SSH",
-   "records": 734213,
-   "targets": 294,
-   "sources": 13710
+   "port": 23,
+   "service": "Telnet",
+   "records": 50658,
+   "targets": 202,
+   "sources": 840
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 684771,
-   "targets": 299,
-   "sources": 11672
+   "records": 49771,
+   "targets": 154,
+   "sources": 1578
+  },
+  {
+   "port": 22,
+   "service": "SSH",
+   "records": 10130,
+   "targets": 201,
+   "sources": 906
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 7851,
+   "targets": 156,
+   "sources": 869
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 598308,
-   "targets": 282,
-   "sources": 6492
+   "records": 5916,
+   "targets": 129,
+   "sources": 803
   },
   {
    "port": 2222,
    "service": null,
-   "records": 242259,
-   "targets": 272,
-   "sources": 8895
-  },
-  {
-   "port": 6881,
-   "service": null,
-   "records": 163511,
-   "targets": 241,
-   "sources": 1800
+   "records": 2507,
+   "targets": 149,
+   "sources": 491
   },
   {
    "port": 51413,
    "service": null,
-   "records": 127494,
-   "targets": 50,
-   "sources": 3784
+   "records": 2298,
+   "targets": 5,
+   "sources": 281
   },
   {
-   "port": 16767,
+   "port": 137,
    "service": null,
-   "records": 107247,
-   "targets": 16,
-   "sources": 4316
+   "records": 1195,
+   "targets": 37,
+   "sources": 75
+  },
+  {
+   "port": 9000,
+   "service": null,
+   "records": 905,
+   "targets": 78,
+   "sources": 150
   }
  ],
- "ports_date": "2026-10-23",
+ "ports_date": "2026-10-24",
  "diary": [
   {
    "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-24T02:40:48+00:00",
-  "sans": "2026-10-24T02:40:48+00:00",
-  "otx": "2026-10-24T02:40:48+00:00",
-  "urlhaus": "2026-10-24T02:40:48+00:00"
+  "threatfox": "2026-10-24T03:38:07+00:00",
+  "sans": "2026-10-24T03:38:07+00:00",
+  "otx": "2026-10-24T03:38:07+00:00",
+  "urlhaus": "2026-10-24T03:38:07+00:00"
  },
- "generated_at": "2026-10-24T02:40:48+00:00"
+ "generated_at": "2026-10-24T03:38:07+00:00"
 }
