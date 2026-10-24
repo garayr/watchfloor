@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T06:44:19+00:00",
+ "generated_at": "2026-10-24T07:55:59+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "qilin",
-   "count": 15
+   "count": 16
   },
   {
    "name": "BrainCipher",
@@ -40,22 +40,22 @@
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 18
+   "count": 17
   },
   {
    "name": "Manufacturing",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Other",
    "count": 9
   },
   {
-   "name": "Technology",
-   "count": 8
+   "name": "Healthcare",
+   "count": 7
   },
   {
-   "name": "Healthcare",
+   "name": "Technology",
    "count": 7
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 26,
+   "count": 28,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -125,12 +125,6 @@
    "lon": -99.1
   },
   {
-   "code": "MY",
-   "count": 2,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
    "code": "TR",
    "count": 2,
    "lat": 41.0,
@@ -185,6 +179,12 @@
    "lon": 35.5
   },
   {
+   "code": "MY",
+   "count": 1,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
    "code": "NL",
    "count": 1,
    "lat": 52.4,
@@ -222,6 +222,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Commonwealth Community Bank",
+   "group": "qilin",
+   "date": "2026-10-24T03:30:27+00:00",
+   "attack_date": "2026-10-24",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/Q29tbW9ud2VhbHRoIENvbW11bml0eSBCYW5rQHFpbGlu"
+  },
+  {
+   "victim": "Trinity Custom Homes",
+   "group": "Deadlock",
+   "date": "2026-10-24T02:53:03+00:00",
+   "attack_date": "2026-10-24",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/VHJpbml0eSBDdXN0b20gSG9tZXNARGVhZGxvY2s="
+  },
   {
    "victim": "Family Planning Association of Pakistan",
    "group": "Panzer",
@@ -1006,15 +1024,6 @@
    "url": "https://www.ransomware.live/id/SHlwZXJ0aGVybUBIZWxpeA=="
   },
   {
-   "victim": "Lanham Associates",
-   "group": "everest",
-   "date": "2026-10-21T13:27:34+00:00",
-   "attack_date": "2026-10-21",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/TGFuaGFtIEFzc29jaWF0ZXNAZXZlcmVzdA=="
-  },
-  {
    "victim": "Adobe Insurance Brokers, LLC",
    "group": "pear",
    "date": "2026-10-21T12:34:04+00:00",
@@ -1112,15 +1121,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/WHlsYW5waWNrc0BOMG4="
-  },
-  {
-   "victim": "GSE-M Technology Sdn. Bhd.",
-   "group": "bravox",
-   "date": "2026-10-21T02:12:33+00:00",
-   "attack_date": "2026-10-21",
-   "country": "MY",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/R1NFLU0gVGVjaG5vbG9neSBTZG4uIEJoZC5AYnJhdm94"
   }
  ]
 }

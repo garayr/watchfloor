@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T06:44:19+00:00",
+ "generated_at": "2026-10-24T07:55:59+00:00",
  "sources": [
   {
    "name": "CISA KEV",
@@ -64,7 +64,7 @@
   {
    "name": "abuse.ch ThreatFox",
    "ok": true,
-   "count": 1100,
+   "count": 1112,
    "error": null
   },
   {
@@ -75,9 +75,9 @@
   },
   {
    "name": "AlienVault OTX",
-   "ok": true,
-   "count": 20,
-   "error": null
+   "ok": false,
+   "count": 0,
+   "error": "otx.alienvault.com: HTTP Error 504: Gateway Time-out"
   },
   {
    "name": "SANS ISC",
