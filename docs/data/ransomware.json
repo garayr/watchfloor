@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-24T18:38:25+00:00",
+ "generated_at": "2026-10-24T19:33:25+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 18
+   "count": 17
   },
   {
    "name": "qilin",
@@ -14,7 +14,7 @@
   },
   {
    "name": "BrainCipher",
-   "count": 8
+   "count": 7
   },
   {
    "name": "krybit",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 16
+   "count": 17
   },
   {
    "name": "Professional Services",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Technology",
-   "count": 11
+   "count": 10
   },
   {
    "name": "Healthcare",
@@ -72,7 +72,7 @@
   },
   {
    "code": "DE",
-   "count": 10,
+   "count": 12,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -185,12 +185,6 @@
    "lon": -6.3
   },
   {
-   "code": "KR",
-   "count": 1,
-   "lat": 37.6,
-   "lon": 127.0
-  },
-  {
    "code": "LB",
    "count": 1,
    "lat": 33.9,
@@ -228,6 +222,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Phoenix S&S GmbH",
+   "group": "emperador",
+   "date": "2026-10-24T14:53:32+00:00",
+   "attack_date": "2026-10-24",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UGhvZW5peCBTJlMgR21iSEBlbXBlcmFkb3I="
+  },
+  {
+   "victim": "Frommann Energie GmbH",
+   "group": "emperador",
+   "date": "2026-10-24T14:52:41+00:00",
+   "attack_date": "2026-10-24",
+   "country": "DE",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/RnJvbW1hbm4gRW5lcmdpZSBHbWJIQGVtcGVyYWRvcg=="
+  },
   {
    "victim": "SLTN Inter Access",
    "group": "qilin",
@@ -1109,24 +1121,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/b2x5b3J0aG8uY29tQEJyYWluQ2lwaGVy"
-  },
-  {
-   "victim": "mvjllp.com",
-   "group": "BrainCipher",
-   "date": "2026-10-21T20:51:40+00:00",
-   "attack_date": "2026-10-21",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/bXZqbGxwLmNvbUBCcmFpbkNpcGhlcg=="
-  },
-  {
-   "victim": "Hanjin Information Systems & Telecommunication Co., Ltd.",
-   "group": "N0n",
-   "date": "2026-10-21T19:54:47+00:00",
-   "attack_date": "2026-10-21",
-   "country": "KR",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/SGFuamluIEluZm9ybWF0aW9uIFN5c3RlbXMgJiBUZWxlY29tbXVuaWNhdGlvbiBDby4sIEx0ZC5ATjBu"
   }
  ]
 }
