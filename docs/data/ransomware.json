@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-24T14:04:25+00:00",
+ "generated_at": "2026-10-24T15:05:13+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 19
+   "count": 20
   },
   {
    "name": "qilin",
@@ -44,19 +44,19 @@
   },
   {
    "name": "Manufacturing",
-   "count": 13
+   "count": 15
+  },
+  {
+   "name": "Technology",
+   "count": 10
+  },
+  {
+   "name": "Healthcare",
+   "count": 9
   },
   {
    "name": "Other",
    "count": 9
-  },
-  {
-   "name": "Technology",
-   "count": 9
-  },
-  {
-   "name": "Healthcare",
-   "count": 8
   },
   {
    "name": "Retail & E-Commerce",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 28,
+   "count": 29,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -77,16 +77,16 @@
    "lon": 8.7
   },
   {
+   "code": "AR",
+   "count": 4,
+   "lat": -34.6,
+   "lon": -58.4
+  },
+  {
    "code": "ES",
    "count": 4,
    "lat": 40.4,
    "lon": -3.7
-  },
-  {
-   "code": "AR",
-   "count": 3,
-   "lat": -34.6,
-   "lon": -58.4
   },
   {
    "code": "AU",
@@ -123,6 +123,12 @@
    "count": 2,
    "lat": 19.4,
    "lon": -99.1
+  },
+  {
+   "code": "PT",
+   "count": 2,
+   "lat": 38.7,
+   "lon": -9.1
   },
   {
    "code": "TR",
@@ -203,12 +209,6 @@
    "lon": 67.0
   },
   {
-   "code": "PT",
-   "count": 1,
-   "lat": 38.7,
-   "lon": -9.1
-  },
-  {
    "code": "TN",
    "count": 1,
    "lat": 36.8,
@@ -219,15 +219,45 @@
    "count": 1,
    "lat": 25.0,
    "lon": 121.5
-  },
-  {
-   "code": "VN",
-   "count": 1,
-   "lat": 21.0,
-   "lon": 105.8
   }
  ],
  "victims": [
+  {
+   "victim": "Texcar Inc.",
+   "group": "N0n",
+   "date": "2026-10-24T09:55:07+00:00",
+   "attack_date": "2026-10-24",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/VGV4Y2FyIEluYy5ATjBu"
+  },
+  {
+   "victim": "GPIC Projectos Con Instalacoes Lda",
+   "group": "N0n",
+   "date": "2026-10-24T09:54:32+00:00",
+   "attack_date": "2026-10-24",
+   "country": "PT",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/R1BJQyBQcm9qZWN0b3MgQ29uIEluc3RhbGFjb2VzIExkYUBOMG4="
+  },
+  {
+   "victim": "Asisken Asistencia Médica S.A.",
+   "group": "N0n",
+   "date": "2026-10-24T09:53:58+00:00",
+   "attack_date": "2026-10-24",
+   "country": "AR",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/QXNpc2tlbiBBc2lzdGVuY2lhIE3DqWRpY2EgUy5BLkBOMG4="
+  },
+  {
+   "victim": "Adirondack Networks, Inc.",
+   "group": "N0n",
+   "date": "2026-10-24T09:53:23+00:00",
+   "attack_date": "2026-10-24",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QWRpcm9uZGFjayBOZXR3b3JrcywgSW5jLkBOMG4="
+  },
   {
    "victim": "Arthritis Center of Riverside",
    "group": "N0n",
@@ -1075,15 +1105,6 @@
    "url": "https://www.ransomware.live/id/QWRvYmUgSW5zdXJhbmNlIEJyb2tlcnMsIExMQ0BwZWFy"
   },
   {
-   "victim": "dangvuongcac",
-   "group": "HYFLOCK",
-   "date": "2026-10-21T11:52:27+00:00",
-   "attack_date": "2026-10-21",
-   "country": "VN",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/ZGFuZ3Z1b25nY2FjQEhZRkxPQ0s="
-  },
-  {
    "victim": "Company #103",
    "group": "N0n",
    "date": "2026-10-21T10:25:22+00:00",
@@ -1100,33 +1121,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTAyQE4wbg=="
-  },
-  {
-   "victim": "Company #101",
-   "group": "N0n",
-   "date": "2026-10-21T10:24:11+00:00",
-   "attack_date": "2026-10-21",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTAxQE4wbg=="
-  },
-  {
-   "victim": "Company #100",
-   "group": "N0n",
-   "date": "2026-10-21T10:23:35+00:00",
-   "attack_date": "2026-10-21",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTAwQE4wbg=="
-  },
-  {
-   "victim": "Company #99",
-   "group": "N0n",
-   "date": "2026-10-21T10:22:59+00:00",
-   "attack_date": "2026-10-21",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTlATjBu"
   }
  ]
 }

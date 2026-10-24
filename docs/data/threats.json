@@ -2,50 +2,56 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1006,
-  "c2_servers": 401,
+  "total_iocs": 1044,
+  "c2_servers": 391,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 276,
+    "iocs": 281,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 155,
-    "c2": 91,
+    "iocs": 176,
+    "c2": 92,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 113,
+    "iocs": 110,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 52,
-    "c2": 52,
+    "iocs": 56,
+    "c2": 56,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "ClearFake",
-    "iocs": 49,
+    "iocs": 47,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "php.shin_webshell",
+    "iocs": 33,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
     "name": "Vidar",
-    "iocs": 40,
-    "c2": 40,
+    "iocs": 30,
+    "c2": 30,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 32,
+    "name": "Bashlite",
+    "iocs": 27,
     "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
    },
    {
     "name": "Grandoreiro",
@@ -55,15 +61,9 @@
    },
    {
     "name": "VShell",
-    "iocs": 25,
-    "c2": 25,
+    "iocs": 19,
+    "c2": 19,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
-    "name": "PureRAT",
-    "iocs": 18,
-    "c2": 18,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
@@ -73,26 +73,26 @@
   "top_tags": [
    {
     "name": "SmartLoader",
-    "count": 971
+    "count": 962
    },
    {
     "name": "github",
-    "count": 971
+    "count": 962
    },
    {
     "name": "zip",
-    "count": 971
+    "count": 962
    },
    {
     "name": "Mozi",
-    "count": 13
-   },
-   {
-    "name": "elf",
-    "count": 4
+    "count": 14
    },
    {
     "name": "mirai",
+    "count": 7
+   },
+   {
+    "name": "elf",
     "count": 4
    },
    {
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-24T14:04:25+00:00",
-  "sans": "2026-10-24T14:04:25+00:00",
+  "threatfox": "2026-10-24T15:05:13+00:00",
+  "sans": "2026-10-24T15:05:13+00:00",
   "otx": "2026-10-24T14:36:40+00:00",
-  "urlhaus": "2026-10-24T14:04:25+00:00"
+  "urlhaus": "2026-10-24T15:05:13+00:00"
  },
- "generated_at": "2026-10-24T14:36:40+00:00"
+ "generated_at": "2026-10-24T15:05:13+00:00"
 }
