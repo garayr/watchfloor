@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1112,
-  "c2_servers": 361,
+  "total_iocs": 1096,
+  "c2_servers": 360,
   "families": [
    {
     "name": "AMOS",
@@ -13,15 +13,21 @@
    },
    {
     "name": "Vidar",
-    "iocs": 126,
-    "c2": 108,
+    "iocs": 115,
+    "c2": 97,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 110,
+    "iocs": 109,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 52,
+    "c2": 49,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "Mirai",
@@ -31,25 +37,19 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 48,
+    "iocs": 47,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 47,
-    "c2": 44,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "VShell",
-    "iocs": 37,
-    "c2": 37,
+    "iocs": 38,
+    "c2": 38,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 28,
+    "iocs": 29,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 980,
+  "online": 995,
   "top_tags": [
    {
     "name": "github",
-    "count": 941
+    "count": 981
    },
    {
     "name": "zip",
-    "count": 941
+    "count": 981
    },
    {
     "name": "SalatStealer",
-    "count": 791
+    "count": 972
    },
    {
     "name": "zapret",
-    "count": 791
-   },
-   {
-    "name": "FakeGit",
-    "count": 150
+    "count": 972
    },
    {
     "name": "SmartLoader",
-    "count": 150
+    "count": 9
+   },
+   {
+    "name": "ua-wget",
+    "count": 7
+   },
+   {
+    "name": "32-bit",
+    "count": 1
    },
    {
     "name": "IRAHook",
-    "count": 24
-   },
-   {
-    "name": "elf",
-    "count": 9
+    "count": 1
    }
   ]
  },
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-24T07:55:59+00:00",
-  "sans": "2026-10-24T07:55:59+00:00",
+  "threatfox": "2026-10-24T08:56:23+00:00",
+  "sans": "2026-10-24T08:56:23+00:00",
   "otx": "2026-10-24T08:18:26+00:00",
-  "urlhaus": "2026-10-24T07:55:59+00:00"
+  "urlhaus": "2026-10-24T08:56:23+00:00"
  },
- "generated_at": "2026-10-24T08:18:26+00:00"
+ "generated_at": "2026-10-24T08:56:23+00:00"
 }
