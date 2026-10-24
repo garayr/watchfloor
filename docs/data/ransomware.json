@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-23T23:06:34+00:00",
+ "generated_at": "2026-10-24T00:02:29+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 19
+   "count": 20
   },
   {
    "name": "qilin",
@@ -17,11 +17,11 @@
    "count": 8
   },
   {
-   "name": "akira",
-   "count": 7
+   "name": "SilentRansomGroup",
+   "count": 6
   },
   {
-   "name": "SilentRansomGroup",
+   "name": "akira",
    "count": 6
   },
   {
@@ -44,7 +44,7 @@
   },
   {
    "name": "Manufacturing",
-   "count": 14
+   "count": 13
   },
   {
    "name": "Other",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 28,
+   "count": 27,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -89,6 +89,12 @@
    "lon": 151.2
   },
   {
+   "code": "ES",
+   "count": 3,
+   "lat": 40.4,
+   "lon": -3.7
+  },
+  {
    "code": "GB",
    "count": 3,
    "lat": 51.5,
@@ -99,12 +105,6 @@
    "count": 2,
    "lat": 46.9,
    "lon": 7.4
-  },
-  {
-   "code": "ES",
-   "count": 2,
-   "lat": 40.4,
-   "lon": -3.7
   },
   {
    "code": "FR",
@@ -216,6 +216,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #110",
+   "group": "N0n",
+   "date": "2026-10-23T19:52:50+00:00",
+   "attack_date": "2026-10-23",
+   "country": "ES",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTEwQE4wbg=="
+  },
   {
    "victim": "mickeybody.com",
    "group": "chaos",
@@ -953,15 +962,6 @@
    "country": "US",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/V2VzdHJvY2sgQ29mZmVlQEhlbGl4"
-  },
-  {
-   "victim": "Flextron Circuit Assembly",
-   "group": "akira",
-   "date": "2026-10-21T15:04:12+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RmxleHRyb24gQ2lyY3VpdCBBc3NlbWJseUBha2lyYQ=="
   },
   {
    "victim": "Hypertherm",
