@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-24T13:04:06+00:00",
+ "generated_at": "2026-10-24T14:04:25+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 20
+   "count": 19
   },
   {
    "name": "qilin",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 17
+   "count": 16
   },
   {
    "name": "Manufacturing",
@@ -51,16 +51,16 @@
    "count": 9
   },
   {
-   "name": "Healthcare",
-   "count": 7
+   "name": "Technology",
+   "count": 9
   },
   {
-   "name": "Technology",
-   "count": 7
+   "name": "Healthcare",
+   "count": 8
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 6
+   "count": 5
   }
  ],
  "by_country": [
@@ -191,6 +191,12 @@
    "lon": 4.9
   },
   {
+   "code": "NO",
+   "count": 1,
+   "lat": 59.9,
+   "lon": 10.8
+  },
+  {
    "code": "PK",
    "count": 1,
    "lat": 24.9,
@@ -222,6 +228,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Arthritis Center of Riverside",
+   "group": "N0n",
+   "date": "2026-10-24T09:52:48+00:00",
+   "attack_date": "2026-10-24",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/QXJ0aHJpdGlzIENlbnRlciBvZiBSaXZlcnNpZGVATjBu"
+  },
+  {
+   "victim": "Red Oak Technologies",
+   "group": "thegentlemen",
+   "date": "2026-10-24T09:28:18+00:00",
+   "attack_date": "2026-10-23",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/UmVkIE9hayBUZWNobm9sb2dpZXNAdGhlZ2VudGxlbWVu"
+  },
+  {
+   "victim": "Penco Products",
+   "group": "thegentlemen",
+   "date": "2026-10-24T09:27:57+00:00",
+   "attack_date": "2026-10-23",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UGVuY28gUHJvZHVjdHNAdGhlZ2VudGxlbWVu"
+  },
+  {
+   "victim": "Conax Technologies",
+   "group": "thegentlemen",
+   "date": "2026-10-24T09:27:35+00:00",
+   "attack_date": "2026-10-23",
+   "country": "NO",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/Q29uYXggVGVjaG5vbG9naWVzQHRoZWdlbnRsZW1lbg=="
+  },
   {
    "victim": "Commonwealth Community Bank",
    "group": "qilin",
@@ -1033,15 +1075,6 @@
    "url": "https://www.ransomware.live/id/QWRvYmUgSW5zdXJhbmNlIEJyb2tlcnMsIExMQ0BwZWFy"
   },
   {
-   "victim": "gabonmeca.com leak incident",
-   "group": "HYFLOCK",
-   "date": "2026-10-21T11:53:09+00:00",
-   "attack_date": "2026-10-21",
-   "country": "GA",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Z2Fib25tZWNhLmNvbSBsZWFrIGluY2lkZW50QEhZRkxPQ0s="
-  },
-  {
    "victim": "dangvuongcac",
    "group": "HYFLOCK",
    "date": "2026-10-21T11:52:27+00:00",
@@ -1094,33 +1127,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTlATjBu"
-  },
-  {
-   "victim": "TheHomeMag NorCal",
-   "group": "N0n",
-   "date": "2026-10-21T09:23:05+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/VGhlSG9tZU1hZyBOb3JDYWxATjBu"
-  },
-  {
-   "victim": "LEGAL-RECORDS.US",
-   "group": "clop",
-   "date": "2026-10-21T07:32:25+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/TEVHQUwtUkVDT1JEUy5VU0BjbG9w"
-  },
-  {
-   "victim": "Xylanpicks",
-   "group": "N0n",
-   "date": "2026-10-21T04:25:04+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/WHlsYW5waWNrc0BOMG4="
   }
  ]
 }
