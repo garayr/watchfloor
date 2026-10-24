@@ -2,56 +2,56 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1203,
-  "c2_servers": 442,
+  "total_iocs": 1160,
+  "c2_servers": 405,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 278,
+    "iocs": 276,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 163,
+    "iocs": 164,
     "c2": 91,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 115,
+    "iocs": 112,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Vidar",
-    "iocs": 85,
-    "c2": 67,
+    "iocs": 70,
+    "c2": 52,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 51,
-    "c2": 48,
+    "iocs": 52,
+    "c2": 49,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "ClearFake",
-    "iocs": 46,
+    "iocs": 49,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "VShell",
-    "iocs": 32,
-    "c2": 32,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 29,
+    "iocs": 32,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "VShell",
+    "iocs": 29,
+    "c2": 29,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Grandoreiro",
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 994,
+  "online": 997,
   "top_tags": [
    {
     "name": "github",
-    "count": 937
+    "count": 980
    },
    {
     "name": "zip",
-    "count": 937
-   },
-   {
-    "name": "SalatStealer",
-    "count": 794
-   },
-   {
-    "name": "zapret",
-    "count": 794
+    "count": 980
    },
    {
     "name": "SmartLoader",
-    "count": 143
+    "count": 952
+   },
+   {
+    "name": "SalatStealer",
+    "count": 28
+   },
+   {
+    "name": "zapret",
+    "count": 28
    },
    {
     "name": "Mozi",
-    "count": 23
+    "count": 10
    },
    {
     "name": "elf",
-    "count": 23
+    "count": 3
    },
    {
-    "name": "mirai",
-    "count": 18
+    "name": "32-bit",
+    "count": 2
    }
   ]
  },
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-24T11:53:34+00:00",
-  "sans": "2026-10-24T11:53:34+00:00",
+  "threatfox": "2026-10-24T13:04:06+00:00",
+  "sans": "2026-10-24T13:04:06+00:00",
   "otx": "2026-10-24T12:17:03+00:00",
-  "urlhaus": "2026-10-24T11:53:34+00:00"
+  "urlhaus": "2026-10-24T13:04:06+00:00"
  },
- "generated_at": "2026-10-24T12:17:03+00:00"
+ "generated_at": "2026-10-24T13:04:06+00:00"
 }
