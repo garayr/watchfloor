@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-24T19:33:25+00:00",
+ "generated_at": "2026-10-24T20:50:09+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
+   "name": "qilin",
+   "count": 18
+  },
+  {
    "name": "N0n",
    "count": 17
   },
   {
-   "name": "qilin",
-   "count": 17
-  },
-  {
-   "name": "BrainCipher",
+   "name": "lamashtu",
    "count": 7
   },
   {
@@ -21,8 +21,8 @@
    "count": 6
   },
   {
-   "name": "lamashtu",
-   "count": 6
+   "name": "BrainCipher",
+   "count": 5
   },
   {
    "name": "SilentRansomGroup",
@@ -51,22 +51,22 @@
    "count": 10
   },
   {
-   "name": "Healthcare",
-   "count": 9
-  },
-  {
    "name": "Other",
    "count": 9
   },
   {
+   "name": "Healthcare",
+   "count": 7
+  },
+  {
    "name": "Retail & E-Commerce",
-   "count": 6
+   "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 25,
+   "count": 23,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -95,6 +95,18 @@
    "lon": 151.2
   },
   {
+   "code": "FR",
+   "count": 3,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
+   "code": "GB",
+   "count": 3,
+   "lat": 51.5,
+   "lon": -0.1
+  },
+  {
    "code": "MX",
    "count": 3,
    "lat": 19.4,
@@ -111,18 +123,6 @@
    "count": 2,
    "lat": 46.9,
    "lon": 7.4
-  },
-  {
-   "code": "FR",
-   "count": 2,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
-   "code": "GB",
-   "count": 2,
-   "lat": 51.5,
-   "lon": -0.1
   },
   {
    "code": "IT",
@@ -222,6 +222,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Castle Howard Estate",
+   "group": "qilin",
+   "date": "2026-10-24T16:34:49+00:00",
+   "attack_date": "2026-10-24",
+   "country": "GB",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/Q2FzdGxlIEhvd2FyZCBFc3RhdGVAcWlsaW4="
+  },
+  {
+   "victim": "Vins Viallet",
+   "group": "lamashtu",
+   "date": "2026-10-24T16:30:40+00:00",
+   "attack_date": "2026-10-24",
+   "country": "FR",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/VmlucyBWaWFsbGV0QGxhbWFzaHR1"
+  },
   {
    "victim": "Phoenix S&S GmbH",
    "group": "emperador",
@@ -1103,24 +1121,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/c3Jzbm9kZ3Jhc3MuY29tQEJyYWluQ2lwaGVy"
-  },
-  {
-   "victim": "prosomnus.com",
-   "group": "BrainCipher",
-   "date": "2026-10-21T20:52:52+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/cHJvc29tbnVzLmNvbUBCcmFpbkNpcGhlcg=="
-  },
-  {
-   "victim": "olyortho.com",
-   "group": "BrainCipher",
-   "date": "2026-10-21T20:52:16+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/b2x5b3J0aG8uY29tQEJyYWluQ2lwaGVy"
   }
  ]
 }
