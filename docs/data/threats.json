@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1006,
-  "c2_servers": 375,
+  "total_iocs": 1275,
+  "c2_servers": 376,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 270,
+    "iocs": 265,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -19,25 +19,43 @@
    },
    {
     "name": "StrelaStealer",
-    "iocs": 109,
+    "iocs": 122,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 62,
-    "c2": 62,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 47,
+    "iocs": 78,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "SalatStealer",
+    "iocs": 71,
+    "c2": 5,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 63,
+    "c2": 63,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
+    "name": "Raven Stealer",
+    "iocs": 38,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 36,
+    "c2": 21,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "php.shin_webshell",
-    "iocs": 31,
+    "iocs": 32,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -46,24 +64,6 @@
     "iocs": 27,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
-   },
-   {
-    "name": "Grandoreiro",
-    "iocs": 25,
-    "c2": 21,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.grandoreiro"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 22,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "VShell",
-    "iocs": 20,
-    "c2": 20,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    }
   ]
  },
@@ -73,35 +73,35 @@
   "top_tags": [
    {
     "name": "SmartLoader",
-    "count": 972
+    "count": 949
    },
    {
     "name": "github",
-    "count": 972
+    "count": 949
    },
    {
     "name": "zip",
-    "count": 972
+    "count": 949
    },
    {
     "name": "FakeGit",
-    "count": 45
+    "count": 42
    },
    {
     "name": "Mozi",
-    "count": 14
+    "count": 23
    },
    {
     "name": "elf",
-    "count": 10
+    "count": 13
    },
    {
     "name": "mirai",
-    "count": 10
+    "count": 13
    },
    {
     "name": "32-bit",
-    "count": 7
+    "count": 9
    }
   ]
  },
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-24T17:06:57+00:00",
-  "sans": "2026-10-24T17:06:57+00:00",
-  "otx": "2026-10-24T17:35:17+00:00",
-  "urlhaus": "2026-10-24T17:06:57+00:00"
+  "threatfox": "2026-10-24T18:38:25+00:00",
+  "sans": "2026-10-24T18:38:25+00:00",
+  "otx": "2026-10-24T18:38:25+00:00",
+  "urlhaus": "2026-10-24T18:38:25+00:00"
  },
- "generated_at": "2026-10-24T17:35:17+00:00"
+ "generated_at": "2026-10-24T18:38:25+00:00"
 }
