@@ -2,50 +2,44 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1044,
-  "c2_servers": 391,
+  "total_iocs": 1026,
+  "c2_servers": 383,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 281,
+    "iocs": 271,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 176,
+    "iocs": 178,
     "c2": 92,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 110,
+    "iocs": 111,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 56,
-    "c2": 56,
+    "iocs": 58,
+    "c2": 58,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "ClearFake",
-    "iocs": 47,
+    "iocs": 46,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 33,
+    "iocs": 32,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 30,
-    "c2": 30,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Bashlite",
@@ -60,47 +54,53 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.grandoreiro"
    },
    {
+    "name": "Vidar",
+    "iocs": 22,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "VShell",
-    "iocs": 19,
-    "c2": 19,
+    "iocs": 20,
+    "c2": 20,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 997,
+  "online": 999,
   "top_tags": [
    {
     "name": "SmartLoader",
-    "count": 962
+    "count": 989
    },
    {
     "name": "github",
-    "count": 962
+    "count": 989
    },
    {
     "name": "zip",
-    "count": 962
+    "count": 989
+   },
+   {
+    "name": "FakeGit",
+    "count": 46
+   },
+   {
+    "name": " minecraft",
+    "count": 2
    },
    {
     "name": "Mozi",
-    "count": 14
+    "count": 2
    },
    {
-    "name": "mirai",
-    "count": 7
+    "name": "cowrie",
+    "count": 2
    },
    {
     "name": "elf",
-    "count": 4
-   },
-   {
-    "name": "mips",
-    "count": 3
-   },
-   {
-    "name": "32-bit",
     "count": 2
    }
   ]
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-24T15:05:13+00:00",
-  "sans": "2026-10-24T15:05:13+00:00",
+  "threatfox": "2026-10-24T16:06:01+00:00",
+  "sans": "2026-10-24T16:06:01+00:00",
   "otx": "2026-10-24T15:37:40+00:00",
-  "urlhaus": "2026-10-24T15:05:13+00:00"
+  "urlhaus": "2026-10-24T16:06:01+00:00"
  },
- "generated_at": "2026-10-24T15:37:40+00:00"
+ "generated_at": "2026-10-24T16:06:01+00:00"
 }

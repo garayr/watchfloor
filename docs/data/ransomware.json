@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-24T15:05:13+00:00",
+ "generated_at": "2026-10-24T16:06:01+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 20
+   "count": 18
   },
   {
    "name": "qilin",
@@ -17,12 +17,16 @@
    "count": 8
   },
   {
-   "name": "SilentRansomGroup",
+   "name": "krybit",
    "count": 6
   },
   {
    "name": "lamashtu",
    "count": 6
+  },
+  {
+   "name": "SilentRansomGroup",
+   "count": 5
   },
   {
    "name": "akira",
@@ -31,24 +35,20 @@
   {
    "name": "lockbit5",
    "count": 5
-  },
-  {
-   "name": "Whitearmor",
-   "count": 3
   }
  ],
  "by_sector": [
+  {
+   "name": "Manufacturing",
+   "count": 16
+  },
   {
    "name": "Professional Services",
    "count": 16
   },
   {
-   "name": "Manufacturing",
-   "count": 15
-  },
-  {
    "name": "Technology",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Healthcare",
@@ -60,13 +60,13 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 5
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 29,
+   "count": 26,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -95,6 +95,18 @@
    "lon": 151.2
   },
   {
+   "code": "MX",
+   "count": 3,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
+   "code": "CA",
+   "count": 2,
+   "lat": 43.7,
+   "lon": -79.4
+  },
+  {
    "code": "CH",
    "count": 2,
    "lat": 46.9,
@@ -119,16 +131,10 @@
    "lon": 12.5
   },
   {
-   "code": "MX",
+   "code": "MY",
    "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
-   "code": "PT",
-   "count": 2,
-   "lat": 38.7,
-   "lon": -9.1
+   "lat": 3.1,
+   "lon": 101.7
   },
   {
    "code": "TR",
@@ -149,16 +155,16 @@
    "lon": 23.3
   },
   {
-   "code": "CA",
-   "count": 1,
-   "lat": 43.7,
-   "lon": -79.4
-  },
-  {
    "code": "CL",
    "count": 1,
    "lat": -33.4,
    "lon": -70.6
+  },
+  {
+   "code": "EG",
+   "count": 1,
+   "lat": 30.0,
+   "lon": 31.2
   },
   {
    "code": "ET",
@@ -185,12 +191,6 @@
    "lon": 35.5
   },
   {
-   "code": "MY",
-   "count": 1,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
    "code": "NL",
    "count": 1,
    "lat": 52.4,
@@ -209,6 +209,12 @@
    "lon": 67.0
   },
   {
+   "code": "PT",
+   "count": 1,
+   "lat": 38.7,
+   "lon": -9.1
+  },
+  {
    "code": "TN",
    "count": 1,
    "lat": 36.8,
@@ -222,6 +228,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "www.choicegoodwill.com",
+   "group": "krybit",
+   "date": "2026-10-24T11:22:23+00:00",
+   "attack_date": "2026-10-24",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/d3d3LmNob2ljZWdvb2R3aWxsLmNvbUBrcnliaXQ="
+  },
+  {
+   "victim": "mainplace.com.my",
+   "group": "krybit",
+   "date": "2026-10-24T11:21:47+00:00",
+   "attack_date": "2026-10-24",
+   "country": "MY",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/bWFpbnBsYWNlLmNvbS5teUBrcnliaXQ="
+  },
+  {
+   "victim": "MODON Developments S.A.E",
+   "group": "krybit",
+   "date": "2026-10-24T11:21:10+00:00",
+   "attack_date": "2026-10-24",
+   "country": "EG",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TU9ET04gRGV2ZWxvcG1lbnRzIFMuQS5FQGtyeWJpdA=="
+  },
+  {
+   "victim": "www.zhservices.com",
+   "group": "krybit",
+   "date": "2026-10-24T11:20:35+00:00",
+   "attack_date": "2026-10-24",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/d3d3Lnpoc2VydmljZXMuY29tQGtyeWJpdA=="
+  },
+  {
+   "victim": "grupoeuro.com.mx",
+   "group": "krybit",
+   "date": "2026-10-24T11:19:59+00:00",
+   "attack_date": "2026-10-24",
+   "country": "MX",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Z3J1cG9ldXJvLmNvbS5teEBrcnliaXQ="
+  },
+  {
+   "victim": "www.optika.ca",
+   "group": "krybit",
+   "date": "2026-10-24T11:19:23+00:00",
+   "attack_date": "2026-10-24",
+   "country": "CA",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/d3d3Lm9wdGlrYS5jYUBrcnliaXQ="
+  },
   {
    "victim": "Texcar Inc.",
    "group": "N0n",
@@ -1067,60 +1127,6 @@
    "country": "US",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/Q29hc3RhbCBBbGFiYW1hIENvbW11bml0eSBDb2xsZWdlQGludGVybG9jaw=="
-  },
-  {
-   "victim": "Porter Hedges LLP",
-   "group": "SilentRansomGroup",
-   "date": "2026-10-21T19:03:17+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/UG9ydGVyIEhlZGdlcyBMTFBAU2lsZW50UmFuc29tR3JvdXA="
-  },
-  {
-   "victim": "Westrock Coffee",
-   "group": "Helix",
-   "date": "2026-10-21T17:52:48+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/V2VzdHJvY2sgQ29mZmVlQEhlbGl4"
-  },
-  {
-   "victim": "Hypertherm",
-   "group": "Helix",
-   "date": "2026-10-21T13:52:21+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/SHlwZXJ0aGVybUBIZWxpeA=="
-  },
-  {
-   "victim": "Adobe Insurance Brokers, LLC",
-   "group": "pear",
-   "date": "2026-10-21T12:34:04+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/QWRvYmUgSW5zdXJhbmNlIEJyb2tlcnMsIExMQ0BwZWFy"
-  },
-  {
-   "victim": "Company #103",
-   "group": "N0n",
-   "date": "2026-10-21T10:25:22+00:00",
-   "attack_date": "2026-10-21",
-   "country": "PT",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTAzQE4wbg=="
-  },
-  {
-   "victim": "Company #102",
-   "group": "N0n",
-   "date": "2026-10-21T10:24:46+00:00",
-   "attack_date": "2026-10-21",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTAyQE4wbg=="
   }
  ]
 }
