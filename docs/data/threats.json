@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1026,
-  "c2_servers": 383,
+  "total_iocs": 1006,
+  "c2_servers": 375,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 271,
+    "iocs": 270,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -19,26 +19,26 @@
    },
    {
     "name": "StrelaStealer",
-    "iocs": 111,
+    "iocs": 109,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 58,
-    "c2": 58,
+    "iocs": 62,
+    "c2": 62,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "ClearFake",
-    "iocs": 46,
+    "iocs": 47,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 32,
-    "c2": 1,
+    "iocs": 31,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
@@ -73,35 +73,35 @@
   "top_tags": [
    {
     "name": "SmartLoader",
-    "count": 989
+    "count": 972
    },
    {
     "name": "github",
-    "count": 989
+    "count": 972
    },
    {
     "name": "zip",
-    "count": 989
+    "count": 972
    },
    {
     "name": "FakeGit",
-    "count": 46
-   },
-   {
-    "name": " minecraft",
-    "count": 2
+    "count": 45
    },
    {
     "name": "Mozi",
-    "count": 2
-   },
-   {
-    "name": "cowrie",
-    "count": 2
+    "count": 14
    },
    {
     "name": "elf",
-    "count": 2
+    "count": 10
+   },
+   {
+    "name": "mirai",
+    "count": 10
+   },
+   {
+    "name": "32-bit",
+    "count": 7
    }
   ]
  },
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-24T16:06:01+00:00",
-  "sans": "2026-10-24T16:06:01+00:00",
+  "threatfox": "2026-10-24T17:06:57+00:00",
+  "sans": "2026-10-24T17:06:57+00:00",
   "otx": "2026-10-24T16:37:44+00:00",
-  "urlhaus": "2026-10-24T16:06:01+00:00"
+  "urlhaus": "2026-10-24T17:06:57+00:00"
  },
- "generated_at": "2026-10-24T16:37:44+00:00"
+ "generated_at": "2026-10-24T17:06:57+00:00"
 }
