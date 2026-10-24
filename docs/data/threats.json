@@ -2,38 +2,38 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1536,
+  "total_iocs": 1593,
   "c2_servers": 390,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 268,
+    "iocs": 271,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Mirai",
-    "iocs": 215,
-    "c2": 97,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 203,
+    "iocs": 229,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "StrelaStealer",
-    "iocs": 97,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+    "name": "Mirai",
+    "iocs": 212,
+    "c2": 97,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 94,
+    "iocs": 120,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "StrelaStealer",
+    "iocs": 99,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "SalatStealer",
@@ -61,7 +61,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 31,
+    "iocs": 32,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
@@ -69,23 +69,23 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 987,
+  "online": 981,
   "top_tags": [
    {
     "name": "SmartLoader",
-    "count": 867
+    "count": 850
    },
    {
     "name": "github",
-    "count": 867
+    "count": 850
    },
    {
     "name": "zip",
-    "count": 867
+    "count": 850
    },
    {
     "name": "Mozi",
-    "count": 79
+    "count": 87
    },
    {
     "name": "FakeGit",
@@ -93,15 +93,15 @@
    },
    {
     "name": "elf",
-    "count": 26
+    "count": 28
    },
    {
     "name": "mirai",
-    "count": 22
+    "count": 24
    },
    {
     "name": "32-bit",
-    "count": 19
+    "count": 21
    }
   ]
  },
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-24T23:02:18+00:00",
-  "sans": "2026-10-24T23:02:18+00:00",
-  "otx": "2026-10-24T23:02:18+00:00",
-  "urlhaus": "2026-10-24T23:02:18+00:00"
+  "threatfox": "2026-10-24T23:57:38+00:00",
+  "sans": "2026-10-24T23:57:38+00:00",
+  "otx": "2026-10-24T23:57:38+00:00",
+  "urlhaus": "2026-10-24T23:57:38+00:00"
  },
- "generated_at": "2026-10-24T23:02:18+00:00"
+ "generated_at": "2026-10-24T23:57:38+00:00"
 }
