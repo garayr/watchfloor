@@ -2,24 +2,24 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1740,
-  "c2_servers": 356,
+  "total_iocs": 1747,
+  "c2_servers": 348,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 422,
+    "iocs": 425,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "AMOS",
-    "iocs": 265,
+    "iocs": 271,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 212,
+    "iocs": 214,
     "c2": 100,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -31,7 +31,7 @@
    },
    {
     "name": "StrelaStealer",
-    "iocs": 104,
+    "iocs": 106,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
@@ -54,53 +54,53 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    },
    {
-    "name": "Vidar",
-    "iocs": 33,
-    "c2": 18,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 33,
+    "iocs": 35,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "VShell",
+    "iocs": 32,
+    "c2": 32,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 991,
+  "online": 998,
   "top_tags": [
    {
     "name": "github",
-    "count": 987
+    "count": 992
    },
    {
     "name": "zapret",
-    "count": 723
+    "count": 874
    },
    {
     "name": "zip",
-    "count": 498
+    "count": 182
    },
    {
     "name": "SmartLoader",
-    "count": 264
+    "count": 117
+   },
+   {
+    "name": "FakeGit",
+    "count": 43
    },
    {
     "name": "SalatStealer",
-    "count": 150
-   },
-   {
-    "name": "mirai",
-    "count": 8
-   },
-   {
-    "name": "honeypot",
-    "count": 3
+    "count": 35
    },
    {
     "name": "elf",
+    "count": 4
+   },
+   {
+    "name": "cowrie",
     "count": 2
    }
   ]
@@ -109,72 +109,72 @@
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 780317,
-   "targets": 227,
-   "sources": 4487
+   "records": 1499299,
+   "targets": 254,
+   "sources": 6611
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 723172,
-   "targets": 211,
-   "sources": 4241
+   "records": 1396411,
+   "targets": 237,
+   "sources": 6406
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 399485,
-   "targets": 235,
-   "sources": 5223
+   "records": 767767,
+   "targets": 264,
+   "sources": 8507
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 132549,
-   "targets": 236,
-   "sources": 4898
+   "records": 285659,
+   "targets": 266,
+   "sources": 7642
   },
   {
    "port": 2222,
    "service": null,
-   "records": 40827,
-   "targets": 213,
-   "sources": 3070
+   "records": 90828,
+   "targets": 242,
+   "sources": 4532
   },
   {
    "port": 6881,
    "service": null,
-   "records": 36572,
-   "targets": 176,
-   "sources": 673
+   "records": 73486,
+   "targets": 212,
+   "sources": 983
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 30346,
-   "targets": 219,
-   "sources": 2579
+   "records": 66699,
+   "targets": 258,
+   "sources": 3867
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 25677,
-   "targets": 214,
-   "sources": 2098
-  },
-  {
-   "port": 16767,
-   "service": null,
-   "records": 23476,
-   "targets": 3,
-   "sources": 1847
+   "records": 59709,
+   "targets": 249,
+   "sources": 3289
   },
   {
    "port": 9000,
    "service": null,
-   "records": 20453,
-   "targets": 205,
-   "sources": 1595
+   "records": 43729,
+   "targets": 233,
+   "sources": 2489
+  },
+  {
+   "port": 7547,
+   "service": "Router management (TR-069)",
+   "records": 33768,
+   "targets": 193,
+   "sources": 2456
   }
  ],
  "ports_date": "2026-10-25",
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-25T08:19:15+00:00",
-  "sans": "2026-10-25T08:19:15+00:00",
-  "otx": "2026-10-25T08:19:15+00:00",
-  "urlhaus": "2026-10-25T08:19:15+00:00"
+  "threatfox": "2026-10-25T09:17:49+00:00",
+  "sans": "2026-10-25T09:17:49+00:00",
+  "otx": "2026-10-25T09:17:49+00:00",
+  "urlhaus": "2026-10-25T09:17:49+00:00"
  },
- "generated_at": "2026-10-25T08:19:15+00:00"
+ "generated_at": "2026-10-25T09:17:49+00:00"
 }
