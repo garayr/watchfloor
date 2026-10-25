@@ -767,48 +767,6 @@
    "epss": 0.3998,
    "cvss": 8.1,
    "sev": "high"
-  },
-  {
-   "id": "CVE-2026-5430",
-   "date": "2026-09-24",
-   "src": "CISA",
-   "vendor": "WSO2 Multiple Products",
-   "vendor_name": "WSO2",
-   "product": "Multiple Products",
-   "title": "WSO2 Multiple Products Path Traversal Vulnerability ",
-   "detail": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-27",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-5430"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430",
-   "kev": true,
-   "epss": 0.0059,
-   "cvss": 10.0,
-   "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-71362",
-   "date": "2026-09-24",
-   "src": "CISA",
-   "vendor": "Adobe Commerce and Magento",
-   "vendor_name": "Adobe",
-   "product": "Commerce and Magento ",
-   "title": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
-   "detail": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-27",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-71362"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362",
-   "kev": true,
-   "epss": 0.8751,
-   "cvss": 9.1,
-   "sev": "critical"
   }
  ]
 }
