@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 5501,
-  "c2_servers": 2022,
+  "total_iocs": 5939,
+  "c2_servers": 2016,
   "families": [
    {
     "name": "VShell",
@@ -12,38 +12,38 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "ClearFake",
-    "iocs": 374,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Mirai",
-    "iocs": 361,
-    "c2": 233,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "IClickFix",
-    "iocs": 281,
+    "iocs": 726,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
+    "name": "Mirai",
+    "iocs": 363,
+    "c2": 233,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 355,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
     "name": "AMOS",
-    "iocs": 273,
+    "iocs": 276,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 219,
-    "c2": 219,
+    "iocs": 211,
+    "c2": 211,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 182,
+    "iocs": 185,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -55,13 +55,13 @@
    },
    {
     "name": "SalatStealer",
-    "iocs": 94,
+    "iocs": 97,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 54,
+    "iocs": 59,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    }
@@ -73,35 +73,35 @@
   "top_tags": [
    {
     "name": "github",
-    "count": 883
+    "count": 863
    },
    {
     "name": "SalatStealer",
-    "count": 779
+    "count": 761
    },
    {
     "name": "exe",
-    "count": 779
+    "count": 761
    },
    {
     "name": "FakeGit",
-    "count": 104
+    "count": 102
    },
    {
     "name": "SmartLoader",
-    "count": 104
+    "count": 102
    },
    {
     "name": "zip",
-    "count": 104
+    "count": 102
    },
    {
     "name": "mirai",
-    "count": 50
+    "count": 53
    },
    {
     "name": "Mozi",
-    "count": 18
+    "count": 34
    }
   ]
  },
@@ -180,6 +180,11 @@
  "ports_date": "2026-10-25",
  "diary": [
   {
+   "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+   "url": "https://isc.sans.edu/diary/rss/33454",
+   "date": "2026-10-25T19:57:53+00:00"
+  },
+  {
    "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
    "url": "https://isc.sans.edu/diary/rss/33452",
    "date": "2026-10-23T20:04:47+00:00"
@@ -203,11 +208,6 @@
    "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
    "url": "https://isc.sans.edu/diary/rss/33440",
    "date": "2026-10-21T21:02:43+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Wednesday, October 21st, 2026 https://isc.sans.edu/podcastdetail/10144, (Wed, Oct 21st)",
-   "url": "https://isc.sans.edu/diary/rss/33438",
-   "date": "2026-10-21T02:00:03+00:00"
   }
  ],
  "pulses": [
@@ -471,10 +471,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-25T19:59:16+00:00",
-  "sans": "2026-10-25T19:59:16+00:00",
-  "otx": "2026-10-25T19:59:16+00:00",
-  "urlhaus": "2026-10-25T19:59:16+00:00"
+  "threatfox": "2026-10-25T21:14:16+00:00",
+  "sans": "2026-10-25T21:14:16+00:00",
+  "otx": "2026-10-25T21:14:16+00:00",
+  "urlhaus": "2026-10-25T21:14:16+00:00"
  },
- "generated_at": "2026-10-25T19:59:16+00:00"
+ "generated_at": "2026-10-25T21:14:16+00:00"
 }

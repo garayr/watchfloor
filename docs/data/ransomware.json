@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T19:59:16+00:00",
+ "generated_at": "2026-10-25T21:14:16+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "qilin",
-   "count": 20
+   "count": 21
   },
   {
    "name": "emperador",
@@ -25,11 +25,11 @@
    "count": 5
   },
   {
-   "name": "SilentRansomGroup",
+   "name": "Whitearmor",
    "count": 4
   },
   {
-   "name": "Whitearmor",
+   "name": "SilentRansomGroup",
    "count": 3
   },
   {
@@ -44,11 +44,11 @@
   },
   {
    "name": "Professional Services",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Technology",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Healthcare",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 26,
+   "count": 25,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -77,16 +77,16 @@
    "lon": 8.7
   },
   {
+   "code": "AR",
+   "count": 4,
+   "lat": -34.6,
+   "lon": -58.4
+  },
+  {
    "code": "ES",
    "count": 4,
    "lat": 40.4,
    "lon": -3.7
-  },
-  {
-   "code": "AR",
-   "count": 3,
-   "lat": -34.6,
-   "lon": -58.4
   },
   {
    "code": "AU",
@@ -197,6 +197,12 @@
    "lon": 35.5
   },
   {
+   "code": "MM",
+   "count": 1,
+   "lat": 16.8,
+   "lon": 96.2
+  },
+  {
    "code": "NO",
    "count": 1,
    "lat": 59.9,
@@ -228,6 +234,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Partido Liberal",
+   "group": "Whitearmor",
+   "date": "2026-10-25T16:56:33+00:00",
+   "attack_date": "2026-10-25",
+   "country": "AR",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/UGFydGlkbyBMaWJlcmFsQFdoaXRlYXJtb3I="
+  },
+  {
+   "victim": "Ooredoo Myanmar",
+   "group": "qilin",
+   "date": "2026-10-25T16:20:30+00:00",
+   "attack_date": "2026-10-25",
+   "country": "MM",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/T29yZWRvbyBNeWFubWFyQHFpbGlu"
+  },
   {
    "victim": "Weitz & Luxenberg",
    "group": "Falcon",
@@ -1109,24 +1133,6 @@
    "country": "DE",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/SGVja2VyIEhvbHpzeXN0ZW1iYXVAbGFtYXNodHU="
-  },
-  {
-   "victim": "Linebarger Goggan Blair & Sampson",
-   "group": "everest",
-   "date": "2026-10-22T03:36:22+00:00",
-   "attack_date": "2026-10-22",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/TGluZWJhcmdlciBHb2dnYW4gQmxhaXIgJiBTYW1wc29uQGV2ZXJlc3Q="
-  },
-  {
-   "victim": "K.r.a....s",
-   "group": "SilentRansomGroup",
-   "date": "2026-10-22T01:30:31+00:00",
-   "attack_date": "2026-10-22",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Sy5yLmEuIC4uLnNAU2lsZW50UmFuc29tR3JvdXA="
   }
  ]
 }
