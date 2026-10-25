@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1593,
-  "c2_servers": 390,
+  "total_iocs": 1590,
+  "c2_servers": 387,
   "families": [
    {
     "name": "AMOS",
@@ -13,38 +13,38 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 229,
+    "iocs": 231,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Mirai",
-    "iocs": 212,
+    "iocs": 208,
     "c2": 97,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 120,
+    "iocs": 119,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 99,
+    "iocs": 107,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "SalatStealer",
-    "iocs": 71,
+    "iocs": 68,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 67,
-    "c2": 67,
+    "iocs": 64,
+    "c2": 64,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
@@ -55,13 +55,13 @@
    },
    {
     "name": "Vidar",
-    "iocs": 38,
-    "c2": 23,
+    "iocs": 37,
+    "c2": 22,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 32,
+    "iocs": 31,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 981,
+  "online": 972,
   "top_tags": [
    {
     "name": "SmartLoader",
-    "count": 850
+    "count": 828
    },
    {
     "name": "github",
-    "count": 850
+    "count": 828
    },
    {
     "name": "zip",
-    "count": 850
+    "count": 828
    },
    {
     "name": "Mozi",
-    "count": 87
+    "count": 105
    },
    {
     "name": "FakeGit",
-    "count": 39
+    "count": 38
    },
    {
     "name": "elf",
-    "count": 28
+    "count": 32
+   },
+   {
+    "name": "32-bit",
+    "count": 24
    },
    {
     "name": "mirai",
     "count": 24
-   },
-   {
-    "name": "32-bit",
-    "count": 21
    }
   ]
  },
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-24T23:57:38+00:00",
-  "sans": "2026-10-24T23:57:38+00:00",
-  "otx": "2026-10-24T23:57:38+00:00",
-  "urlhaus": "2026-10-24T23:57:38+00:00"
+  "threatfox": "2026-10-25T01:05:06+00:00",
+  "sans": "2026-10-25T01:05:06+00:00",
+  "otx": "2026-10-25T01:05:06+00:00",
+  "urlhaus": "2026-10-25T01:05:06+00:00"
  },
- "generated_at": "2026-10-24T23:57:38+00:00"
+ "generated_at": "2026-10-25T01:05:06+00:00"
 }
