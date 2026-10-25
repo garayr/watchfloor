@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-25T14:36:10+00:00",
+ "generated_at": "2026-10-25T15:37:34+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 23
+   "count": 22
   },
   {
    "name": "qilin",
-   "count": 19
+   "count": 20
   },
   {
    "name": "emperador",
@@ -51,22 +51,22 @@
    "count": 13
   },
   {
-   "name": "Healthcare",
-   "count": 7
+   "name": "Retail & E-Commerce",
+   "count": 8
   },
   {
    "name": "Other",
    "count": 7
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 7
+   "name": "Healthcare",
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 24,
+   "count": 23,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -95,6 +95,12 @@
    "lon": 151.2
   },
   {
+   "code": "CH",
+   "count": 3,
+   "lat": 46.9,
+   "lon": 7.4
+  },
+  {
    "code": "MX",
    "count": 3,
    "lat": 19.4,
@@ -105,12 +111,6 @@
    "count": 2,
    "lat": 42.7,
    "lon": 23.3
-  },
-  {
-   "code": "CH",
-   "count": 2,
-   "lat": 46.9,
-   "lon": 7.4
   },
   {
    "code": "FR",
@@ -228,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "ECOM",
+   "group": "qilin",
+   "date": "2026-10-25T10:35:02+00:00",
+   "attack_date": "2026-10-25",
+   "country": "CH",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/RUNPTUBxaWxpbg=="
+  },
   {
    "victim": "AyT COMPUTERS SRL",
    "group": "emperador",
@@ -1118,15 +1127,6 @@
    "country": "DE",
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/VkVSR0kgTXVlbnN0ZXJAbGFtYXNodHU="
-  },
-  {
-   "victim": "Heritage Senior Living",
-   "group": "N0n",
-   "date": "2026-10-21T23:56:37+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/SGVyaXRhZ2UgU2VuaW9yIExpdmluZ0BOMG4="
   }
  ]
 }
