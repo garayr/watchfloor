@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T07:22:54+00:00",
+ "generated_at": "2026-10-25T08:19:15+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -29,12 +29,12 @@
    "count": 5
   },
   {
-   "name": "lockbit5",
+   "name": "emperador",
    "count": 5
   },
   {
-   "name": "Whitearmor",
-   "count": 4
+   "name": "lockbit5",
+   "count": 5
   }
  ],
  "by_sector": [
@@ -56,7 +56,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 8
+   "count": 7
   },
   {
    "name": "Retail & E-Commerce",
@@ -77,16 +77,16 @@
    "lon": 8.7
   },
   {
-   "code": "AR",
-   "count": 4,
-   "lat": -34.6,
-   "lon": -58.4
-  },
-  {
    "code": "ES",
    "count": 4,
    "lat": 40.4,
    "lon": -3.7
+  },
+  {
+   "code": "AR",
+   "count": 3,
+   "lat": -34.6,
+   "lon": -58.4
   },
   {
    "code": "AU",
@@ -153,6 +153,12 @@
    "count": 1,
    "lat": 23.8,
    "lon": 90.4
+  },
+  {
+   "code": "BE",
+   "count": 1,
+   "lat": 50.8,
+   "lon": 4.4
   },
   {
    "code": "BG",
@@ -228,6 +234,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "AB InBev",
+   "group": "emperador",
+   "date": "2026-10-25T03:22:10+00:00",
+   "attack_date": "2026-10-25",
+   "country": "BE",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/QUIgSW5CZXZAZW1wZXJhZG9y"
+  },
   {
    "victim": "Hisense",
    "group": "Whitearmor",
@@ -1118,15 +1133,6 @@
    "country": "IE",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/b2ZsYWhlcnR5LWxhdy5jb21AQnJhaW5DaXBoZXI="
-  },
-  {
-   "victim": "clinicaromero.com",
-   "group": "BrainCipher",
-   "date": "2026-10-21T20:54:47+00:00",
-   "attack_date": "2026-10-21",
-   "country": "AR",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Y2xpbmljYXJvbWVyby5jb21AQnJhaW5DaXBoZXI="
   }
  ]
 }
