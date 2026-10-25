@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T04:12:54+00:00",
+ "generated_at": "2026-10-25T05:12:09+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -21,10 +21,6 @@
    "count": 6
   },
   {
-   "name": "BrainCipher",
-   "count": 5
-  },
-  {
    "name": "SilentRansomGroup",
    "count": 5
   },
@@ -35,6 +31,10 @@
   {
    "name": "lockbit5",
    "count": 5
+  },
+  {
+   "name": "BrainCipher",
+   "count": 4
   }
  ],
  "by_sector": [
@@ -44,7 +44,7 @@
   },
   {
    "name": "Professional Services",
-   "count": 16
+   "count": 15
   },
   {
    "name": "Technology",
@@ -56,7 +56,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 7
+   "count": 8
   },
   {
    "name": "Retail & E-Commerce",
@@ -222,6 +222,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Newcomer Cremations, Funerals & Receptions",
+   "group": "anubis",
+   "date": "2026-10-25T00:31:56+00:00",
+   "attack_date": "2026-10-25",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/TmV3Y29tZXIgQ3JlbWF0aW9ucywgRnVuZXJhbHMgJiBSZWNlcHRpb25zQGFudWJpcw=="
+  },
   {
    "victim": "Castle Howard Estate",
    "group": "qilin",
@@ -1112,15 +1121,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/c29kYWxpLmNvbUBCcmFpbkNpcGhlcg=="
-  },
-  {
-   "victim": "srsnodgrass.com",
-   "group": "BrainCipher",
-   "date": "2026-10-21T20:53:28+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/c3Jzbm9kZ3Jhc3MuY29tQEJyYWluQ2lwaGVy"
   }
  ]
 }
