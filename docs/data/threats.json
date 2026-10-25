@@ -2,43 +2,43 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1651,
+  "total_iocs": 1705,
   "c2_servers": 396,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 287,
+    "iocs": 340,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "AMOS",
-    "iocs": 269,
+    "iocs": 270,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 204,
-    "c2": 97,
+    "iocs": 201,
+    "c2": 99,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 119,
-    "c2": 1,
+    "iocs": 120,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 109,
+    "iocs": 113,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 71,
-    "c2": 71,
+    "iocs": 69,
+    "c2": 69,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
@@ -69,23 +69,23 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 969,
+  "online": 966,
   "top_tags": [
    {
     "name": "SmartLoader",
-    "count": 814
+    "count": 806
    },
    {
     "name": "github",
-    "count": 814
+    "count": 806
    },
    {
     "name": "zip",
-    "count": 814
+    "count": 806
    },
    {
     "name": "Mozi",
-    "count": 114
+    "count": 116
    },
    {
     "name": "FakeGit",
@@ -93,11 +93,11 @@
    },
    {
     "name": "elf",
-    "count": 34
+    "count": 35
    },
    {
     "name": "32-bit",
-    "count": 26
+    "count": 27
    },
    {
     "name": "mirai",
@@ -109,75 +109,75 @@
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 2444128,
-   "targets": 267,
-   "sources": 10007
+   "records": 55870,
+   "targets": 175,
+   "sources": 1686
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 2098778,
-   "targets": 258,
-   "sources": 7783
+   "records": 52120,
+   "targets": 145,
+   "sources": 1535
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 1195175,
-   "targets": 276,
-   "sources": 10880
+   "records": 36857,
+   "targets": 203,
+   "sources": 950
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 425747,
-   "targets": 284,
-   "sources": 10102
+   "records": 10537,
+   "targets": 211,
+   "sources": 881
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 4957,
+   "targets": 2,
+   "sources": 893
+  },
+  {
+   "port": 123,
+   "service": "NTP",
+   "records": 2477,
+   "targets": 50,
+   "sources": 336
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 191422,
-   "targets": 268,
-   "sources": 5390
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 155798,
-   "targets": 270,
-   "sources": 5008
+   "records": 2203,
+   "targets": 143,
+   "sources": 289
   },
   {
    "port": 2222,
    "service": null,
-   "records": 122253,
-   "targets": 265,
-   "sources": 7493
-  },
-  {
-   "port": 6881,
-   "service": null,
-   "records": 92343,
-   "targets": 222,
-   "sources": 1449
-  },
-  {
-   "port": 137,
-   "service": null,
-   "records": 72506,
-   "targets": 191,
-   "sources": 1042
+   "records": 1969,
+   "targets": 140,
+   "sources": 473
   },
   {
    "port": 9000,
    "service": null,
-   "records": 69695,
-   "targets": 260,
-   "sources": 3725
+   "records": 1443,
+   "targets": 126,
+   "sources": 138
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 1441,
+   "targets": 120,
+   "sources": 244
   }
  ],
- "ports_date": "2026-10-24",
+ "ports_date": "2026-10-25",
  "diary": [
   {
    "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-25T02:08:47+00:00",
-  "sans": "2026-10-25T02:08:47+00:00",
-  "otx": "2026-10-25T02:08:47+00:00",
-  "urlhaus": "2026-10-25T02:08:47+00:00"
+  "threatfox": "2026-10-25T03:09:19+00:00",
+  "sans": "2026-10-25T03:09:19+00:00",
+  "otx": "2026-10-25T03:09:19+00:00",
+  "urlhaus": "2026-10-25T03:09:19+00:00"
  },
- "generated_at": "2026-10-25T02:08:47+00:00"
+ "generated_at": "2026-10-25T03:09:19+00:00"
 }
