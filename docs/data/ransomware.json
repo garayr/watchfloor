@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T18:39:14+00:00",
+ "generated_at": "2026-10-25T19:59:16+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -14,7 +14,7 @@
   },
   {
    "name": "emperador",
-   "count": 6
+   "count": 7
   },
   {
    "name": "krybit",
@@ -29,12 +29,12 @@
    "count": 4
   },
   {
-   "name": "akira",
-   "count": 4
+   "name": "Whitearmor",
+   "count": 3
   },
   {
-   "name": "lamashtu",
-   "count": 4
+   "name": "akira",
+   "count": 3
   }
  ],
  "by_sector": [
@@ -44,19 +44,19 @@
   },
   {
    "name": "Professional Services",
-   "count": 14
+   "count": 15
   },
   {
    "name": "Technology",
    "count": 13
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Healthcare",
    "count": 8
   },
   {
-   "name": "Healthcare",
-   "count": 7
+   "name": "Retail & E-Commerce",
+   "count": 8
   },
   {
    "name": "Other",
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 24,
+   "count": 26,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 11,
+   "count": 8,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -228,6 +228,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Weitz & Luxenberg",
+   "group": "Falcon",
+   "date": "2026-10-25T15:52:01+00:00",
+   "attack_date": "2026-10-25",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/V2VpdHogJiBMdXhlbmJlcmdARmFsY29u"
+  },
+  {
+   "victim": "Astrana Health",
+   "group": "Falcon",
+   "date": "2026-10-25T14:53:02+00:00",
+   "attack_date": "2026-10-25",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/QXN0cmFuYSBIZWFsdGhARmFsY29u"
+  },
+  {
+   "victim": "A-RMS",
+   "group": "emperador",
+   "date": "2026-10-25T14:52:33+00:00",
+   "attack_date": "2026-10-25",
+   "country": null,
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/QS1STVNAZW1wZXJhZG9y"
+  },
   {
    "victim": "Aesthetic Dental Designs, P.A",
    "group": "HYFLOCK",
@@ -958,15 +985,6 @@
    "url": "https://www.ransomware.live/id/S2lya2xhbmQgJiBFbGxpcyBMTFBAU2lsZW50UmFuc29tR3JvdXA="
   },
   {
-   "victim": "Medienwerkstatt",
-   "group": "akira",
-   "date": "2026-10-22T16:00:00+00:00",
-   "attack_date": "2026-10-22",
-   "country": "DE",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/TWVkaWVud2Vya3N0YXR0QGFraXJh"
-  },
-  {
    "victim": "DR.SCHNELL GmbH & Co. KGaA",
    "group": "rhysida",
    "date": "2026-10-22T15:26:05+00:00",
@@ -1109,24 +1127,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Sy5yLmEuIC4uLnNAU2lsZW50UmFuc29tR3JvdXA="
-  },
-  {
-   "victim": "Gräfliches Hofbrauhaus Freising",
-   "group": "lamashtu",
-   "date": "2026-10-22T00:45:12+00:00",
-   "attack_date": "2026-10-22",
-   "country": "DE",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/R3LDpGZsaWNoZXMgSG9mYnJhdWhhdXMgRnJlaXNpbmdAbGFtYXNodHU="
-  },
-  {
-   "victim": "VERGI Muenster",
-   "group": "lamashtu",
-   "date": "2026-10-22T00:44:36+00:00",
-   "attack_date": "2026-10-22",
-   "country": "DE",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/VkVSR0kgTXVlbnN0ZXJAbGFtYXNodHU="
   }
  ]
 }
