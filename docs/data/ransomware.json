@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T15:37:34+00:00",
+ "generated_at": "2026-10-25T16:38:12+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -21,15 +21,15 @@
    "count": 6
   },
   {
-   "name": "akira",
-   "count": 5
-  },
-  {
    "name": "lockbit5",
    "count": 5
   },
   {
    "name": "SilentRansomGroup",
+   "count": 4
+  },
+  {
+   "name": "akira",
    "count": 4
   },
   {
@@ -55,18 +55,18 @@
    "count": 8
   },
   {
-   "name": "Other",
+   "name": "Healthcare",
    "count": 7
   },
   {
-   "name": "Healthcare",
-   "count": 6
+   "name": "Other",
+   "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 23,
+   "count": 24,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -228,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Aesthetic Dental Designs, P.A",
+   "group": "HYFLOCK",
+   "date": "2026-10-25T11:53:17+00:00",
+   "attack_date": "2026-10-25",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/QWVzdGhldGljIERlbnRhbCBEZXNpZ25zLCBQLkFASFlGTE9DSw=="
+  },
   {
    "victim": "ECOM",
    "group": "qilin",
@@ -956,15 +965,6 @@
    "country": "DE",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/TWVkaWVud2Vya3N0YXR0QGFraXJh"
-  },
-  {
-   "victim": "Annapath",
-   "group": "akira",
-   "date": "2026-10-22T15:59:40+00:00",
-   "attack_date": "2026-10-22",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/QW5uYXBhdGhAYWtpcmE="
   },
   {
    "victim": "DR.SCHNELL GmbH & Co. KGaA",
