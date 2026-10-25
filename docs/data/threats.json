@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1705,
-  "c2_servers": 396,
+  "total_iocs": 1759,
+  "c2_servers": 394,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 340,
+    "iocs": 379,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -19,8 +19,8 @@
    },
    {
     "name": "Mirai",
-    "iocs": 201,
-    "c2": 99,
+    "iocs": 207,
+    "c2": 101,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -31,21 +31,21 @@
    },
    {
     "name": "StrelaStealer",
-    "iocs": 113,
+    "iocs": 115,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 69,
-    "c2": 69,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "SalatStealer",
     "iocs": 68,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 65,
+    "c2": 65,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "Raven Stealer",
@@ -61,7 +61,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 31,
+    "iocs": 30,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 966,
+  "online": 960,
   "top_tags": [
    {
     "name": "SmartLoader",
-    "count": 806
+    "count": 788
    },
    {
     "name": "github",
-    "count": 806
+    "count": 788
    },
    {
     "name": "zip",
-    "count": 806
+    "count": 788
    },
    {
     "name": "Mozi",
-    "count": 116
+    "count": 124
+   },
+   {
+    "name": "elf",
+    "count": 38
    },
    {
     "name": "FakeGit",
     "count": 36
    },
    {
-    "name": "elf",
-    "count": 35
-   },
-   {
     "name": "32-bit",
-    "count": 27
+    "count": 30
    },
    {
     "name": "mirai",
-    "count": 26
+    "count": 30
    }
   ]
  },
@@ -473,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-25T03:09:19+00:00",
-  "sans": "2026-10-25T03:09:19+00:00",
-  "otx": "2026-10-25T03:09:19+00:00",
-  "urlhaus": "2026-10-25T03:09:19+00:00"
+  "threatfox": "2026-10-25T04:12:54+00:00",
+  "sans": "2026-10-25T04:12:54+00:00",
+  "otx": "2026-10-25T04:12:54+00:00",
+  "urlhaus": "2026-10-25T04:12:54+00:00"
  },
- "generated_at": "2026-10-25T03:09:19+00:00"
+ "generated_at": "2026-10-25T04:12:54+00:00"
 }
