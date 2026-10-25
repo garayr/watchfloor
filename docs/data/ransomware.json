@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T11:15:17+00:00",
+ "generated_at": "2026-10-25T12:16:39+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,14 +10,10 @@
   },
   {
    "name": "qilin",
-   "count": 18
+   "count": 19
   },
   {
    "name": "krybit",
-   "count": 6
-  },
-  {
-   "name": "lamashtu",
    "count": 6
   },
   {
@@ -26,6 +22,10 @@
   },
   {
    "name": "emperador",
+   "count": 5
+  },
+  {
+   "name": "lamashtu",
    "count": 5
   },
   {
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 17
+   "count": 16
   },
   {
    "name": "Professional Services",
@@ -72,7 +72,7 @@
   },
   {
    "code": "DE",
-   "count": 11,
+   "count": 12,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -95,12 +95,6 @@
    "lon": 151.2
   },
   {
-   "code": "FR",
-   "count": 3,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
    "code": "MX",
    "count": 3,
    "lat": 19.4,
@@ -117,6 +111,12 @@
    "count": 2,
    "lat": 46.9,
    "lon": 7.4
+  },
+  {
+   "code": "FR",
+   "count": 2,
+   "lat": 48.9,
+   "lon": 2.35
   },
   {
    "code": "GB",
@@ -228,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "ETO",
+   "group": "qilin",
+   "date": "2026-10-25T07:24:50+00:00",
+   "attack_date": "2026-10-25",
+   "country": "DE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/RVRPQHFpbGlu"
+  },
   {
    "victim": "TOPLIVO AD",
    "group": "N0n",
@@ -1118,15 +1127,6 @@
    "country": "DE",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/RnVHLUdydXBwZUBsYW1hc2h0dQ=="
-  },
-  {
-   "victim": "MECA-PRECIS",
-   "group": "lamashtu",
-   "date": "2026-10-21T23:11:42+00:00",
-   "attack_date": "2026-10-21",
-   "country": "FR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TUVDQS1QUkVDSVNAbGFtYXNodHU="
   }
  ]
 }
