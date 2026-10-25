@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T05:12:09+00:00",
+ "generated_at": "2026-10-25T06:07:30+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -33,7 +33,7 @@
    "count": 5
   },
   {
-   "name": "BrainCipher",
+   "name": "Whitearmor",
    "count": 4
   }
  ],
@@ -44,11 +44,11 @@
   },
   {
    "name": "Professional Services",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Technology",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Other",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 23,
+   "count": 22,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -167,6 +167,12 @@
    "lon": -70.6
   },
   {
+   "code": "CN",
+   "count": 1,
+   "lat": 39.9,
+   "lon": 116.4
+  },
+  {
    "code": "EG",
    "count": 1,
    "lat": 30.0,
@@ -222,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Hisense",
+   "group": "Whitearmor",
+   "date": "2026-10-25T01:24:13+00:00",
+   "attack_date": "2026-10-24",
+   "country": "CN",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/SGlzZW5zZUBXaGl0ZWFybW9y"
+  },
   {
    "victim": "Newcomer Cremations, Funerals & Receptions",
    "group": "anubis",
@@ -1112,15 +1127,6 @@
    "country": "AR",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/Y2xpbmljYXJvbWVyby5jb21AQnJhaW5DaXBoZXI="
-  },
-  {
-   "victim": "sodali.com",
-   "group": "BrainCipher",
-   "date": "2026-10-21T20:54:08+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/c29kYWxpLmNvbUBCcmFpbkNpcGhlcg=="
   }
  ]
 }
