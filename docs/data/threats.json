@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2782,
-  "c2_servers": 1066,
+  "total_iocs": 3740,
+  "c2_servers": 1954,
   "families": [
    {
     "name": "ClearFake",
@@ -13,8 +13,8 @@
    },
    {
     "name": "Mirai",
-    "iocs": 281,
-    "c2": 185,
+    "iocs": 292,
+    "c2": 194,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -24,28 +24,34 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "AMOS",
-    "iocs": 266,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 199,
+    "iocs": 269,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "StrelaStealer",
-    "iocs": 91,
+    "name": "AMOS",
+    "iocs": 267,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 72,
-    "c2": 72,
+    "iocs": 194,
+    "c2": 194,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
+    "name": "Sliver",
+    "iocs": 108,
+    "c2": 108,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
+   },
+   {
+    "name": "StrelaStealer",
+    "iocs": 85,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "SalatStealer",
@@ -55,53 +61,47 @@
    },
    {
     "name": "VShell",
-    "iocs": 40,
-    "c2": 40,
+    "iocs": 42,
+    "c2": 42,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
-    "name": "Raven Stealer",
-    "iocs": 38,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 997,
+  "online": 996,
   "top_tags": [
    {
     "name": "github",
-    "count": 979
+    "count": 951
    },
    {
     "name": "zapret",
-    "count": 979
-   },
-   {
-    "name": "LummaStealer",
-    "count": 6
-   },
-   {
-    "name": "gitlab",
-    "count": 6
+    "count": 951
    },
    {
     "name": "Mozi",
-    "count": 5
+    "count": 17
    },
    {
-    "name": "honeypot",
-    "count": 4
+    "name": "LummaStealer",
+    "count": 8
    },
    {
-    "name": "crowrie",
-    "count": 3
+    "name": "gitlab",
+    "count": 8
    },
    {
     "name": "mirai",
-    "count": 3
+    "count": 6
+   },
+   {
+    "name": "malware",
+    "count": 4
+   },
+   {
+    "name": "stealer",
+    "count": 4
    }
   ]
  },
@@ -455,28 +455,35 @@
    "url": "https://otx.alienvault.com/pulse/6ada1e5699d69ce1b1fa9660"
   },
   {
-   "name": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
-   "summary": "Amazon Threat Intelligence discovered PHP2Shell exploitation attempts in MadPot honeypot telemetry on October 17, 2026, four days before the public disclosure of CVE-2026-109618 and CVE-2026-109619. The initial exploit…",
-   "date": "2026-10-22T10:53:50+00:00",
+   "name": "The Psychedelic Stealer: When a CAPTCHA Becomes an Installer",
+   "summary": "Arctic Wolf Labs is tracking an ongoing campaign that compromises legitimate Ukrainian business websites and uses injected iframes to display a Ukrainian-language fake Cloudflare verification page. When a visitor…",
+   "date": "2026-09-25T14:53:38+00:00",
    "author": "AlienVault",
    "adversary": null,
-   "malware": [],
-   "countries": [],
+   "malware": [
+    "Psychedelic"
+   ],
+   "countries": [
+    "Ukraine",
+    "United States of America"
+   ],
    "industries": [],
    "tags": [
-    "php2shell",
-    "remote code execution",
-    "cve-2026-109619",
-    "cve-2026-109618"
+    "psychedelic",
+    "infostealer",
+    "windows run",
+    "msi package",
+    "fake captcha",
+    "clipboard"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038"
+   "url": "https://otx.alienvault.com/pulse/6ab68af3aecfcfc39b2824d8"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-25T13:37:12+00:00",
-  "sans": "2026-10-25T13:37:12+00:00",
-  "otx": "2026-10-25T13:37:12+00:00",
-  "urlhaus": "2026-10-25T13:37:12+00:00"
+  "threatfox": "2026-10-25T14:36:10+00:00",
+  "sans": "2026-10-25T14:36:10+00:00",
+  "otx": "2026-10-25T14:36:10+00:00",
+  "urlhaus": "2026-10-25T14:36:10+00:00"
  },
- "generated_at": "2026-10-25T13:37:12+00:00"
+ "generated_at": "2026-10-25T14:36:10+00:00"
 }

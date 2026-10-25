@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T13:37:12+00:00",
+ "generated_at": "2026-10-25T14:36:10+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -13,6 +13,10 @@
    "count": 19
   },
   {
+   "name": "emperador",
+   "count": 6
+  },
+  {
    "name": "krybit",
    "count": 6
   },
@@ -21,19 +25,15 @@
    "count": 5
   },
   {
-   "name": "emperador",
-   "count": 5
-  },
-  {
-   "name": "lamashtu",
-   "count": 5
-  },
-  {
    "name": "lockbit5",
    "count": 5
   },
   {
    "name": "SilentRansomGroup",
+   "count": 4
+  },
+  {
+   "name": "lamashtu",
    "count": 4
   }
  ],
@@ -48,14 +48,14 @@
   },
   {
    "name": "Technology",
-   "count": 12
-  },
-  {
-   "name": "Other",
-   "count": 8
+   "count": 13
   },
   {
    "name": "Healthcare",
+   "count": 7
+  },
+  {
+   "name": "Other",
    "count": 7
   },
   {
@@ -72,7 +72,7 @@
   },
   {
    "code": "DE",
-   "count": 12,
+   "count": 11,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -228,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "AyT COMPUTERS SRL",
+   "group": "emperador",
+   "date": "2026-10-25T09:52:04+00:00",
+   "attack_date": "2026-10-25",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QXlUIENPTVBVVEVSUyBTUkxAZW1wZXJhZG9y"
+  },
   {
    "victim": "ETO",
    "group": "qilin",
@@ -1118,15 +1127,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/SGVyaXRhZ2UgU2VuaW9yIExpdmluZ0BOMG4="
-  },
-  {
-   "victim": "FuG-Gruppe",
-   "group": "lamashtu",
-   "date": "2026-10-21T23:12:19+00:00",
-   "attack_date": "2026-10-21",
-   "country": "DE",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/RnVHLUdydXBwZUBsYW1hc2h0dQ=="
   }
  ]
 }
