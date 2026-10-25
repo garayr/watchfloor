@@ -1,28 +1,24 @@
 {
- "generated_at": "2026-10-25T10:15:48+00:00",
+ "generated_at": "2026-10-25T11:15:17+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
+   "name": "N0n",
+   "count": 23
+  },
+  {
    "name": "qilin",
    "count": 18
-  },
-  {
-   "name": "N0n",
-   "count": 17
-  },
-  {
-   "name": "lamashtu",
-   "count": 7
   },
   {
    "name": "krybit",
    "count": 6
   },
   {
-   "name": "SilentRansomGroup",
-   "count": 5
+   "name": "lamashtu",
+   "count": 6
   },
   {
    "name": "akira",
@@ -35,6 +31,10 @@
   {
    "name": "lockbit5",
    "count": 5
+  },
+  {
+   "name": "SilentRansomGroup",
+   "count": 4
   }
  ],
  "by_sector": [
@@ -48,11 +48,11 @@
   },
   {
    "name": "Technology",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Other",
-   "count": 9
+   "count": 8
   },
   {
    "name": "Healthcare",
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 22,
+   "count": 24,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 12,
+   "count": 11,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -101,28 +101,28 @@
    "lon": 2.35
   },
   {
-   "code": "GB",
-   "count": 3,
-   "lat": 51.5,
-   "lon": -0.1
-  },
-  {
    "code": "MX",
    "count": 3,
    "lat": 19.4,
    "lon": -99.1
   },
   {
-   "code": "CA",
+   "code": "BG",
    "count": 2,
-   "lat": 43.7,
-   "lon": -79.4
+   "lat": 42.7,
+   "lon": 23.3
   },
   {
    "code": "CH",
    "count": 2,
    "lat": 46.9,
    "lon": 7.4
+  },
+  {
+   "code": "GB",
+   "count": 2,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "IT",
@@ -161,10 +161,10 @@
    "lon": 4.4
   },
   {
-   "code": "BG",
+   "code": "CA",
    "count": 1,
-   "lat": 42.7,
-   "lon": 23.3
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "CL",
@@ -189,12 +189,6 @@
    "count": 1,
    "lat": 9.0,
    "lon": 38.7
-  },
-  {
-   "code": "IE",
-   "count": 1,
-   "lat": 53.3,
-   "lon": -6.3
   },
   {
    "code": "LB",
@@ -234,6 +228,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "TOPLIVO AD",
+   "group": "N0n",
+   "date": "2026-10-25T06:56:34+00:00",
+   "attack_date": "2026-10-25",
+   "country": "BG",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/VE9QTElWTyBBREBOMG4="
+  },
+  {
+   "victim": "Technoleads Services Inc.",
+   "group": "N0n",
+   "date": "2026-10-25T06:56:05+00:00",
+   "attack_date": "2026-10-25",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/VGVjaG5vbGVhZHMgU2VydmljZXMgSW5jLkBOMG4="
+  },
+  {
+   "victim": "Pure Grow Diamonds Inc.",
+   "group": "N0n",
+   "date": "2026-10-25T06:55:37+00:00",
+   "attack_date": "2026-10-25",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UHVyZSBHcm93IERpYW1vbmRzIEluYy5ATjBu"
+  },
+  {
+   "victim": "Mach Law APC (San Diego family law and divorce practice)",
+   "group": "N0n",
+   "date": "2026-10-25T06:55:09+00:00",
+   "attack_date": "2026-10-25",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TWFjaCBMYXcgQVBDIChTYW4gRGllZ28gZmFtaWx5IGxhdyBhbmQgZGl2b3JjZSBwcmFjdGljZSlATjBu"
+  },
+  {
+   "victim": "Keidel Supply Company Incorporated",
+   "group": "N0n",
+   "date": "2026-10-25T06:54:40+00:00",
+   "attack_date": "2026-10-25",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/S2VpZGVsIFN1cHBseSBDb21wYW55IEluY29ycG9yYXRlZEBOMG4="
+  },
+  {
+   "victim": "Andrews Advisory Group LLC",
+   "group": "N0n",
+   "date": "2026-10-25T06:54:11+00:00",
+   "attack_date": "2026-10-25",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QW5kcmV3cyBBZHZpc29yeSBHcm91cCBMTENATjBu"
+  },
   {
    "victim": "AB InBev",
    "group": "emperador",
@@ -575,15 +623,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/SlMgQ29uc3RydWN0b3IsIElOQ0BlbXBlcmFkb3I="
-  },
-  {
-   "victim": "Whirlpool",
-   "group": "Whitearmor",
-   "date": "2026-10-23T16:39:37+00:00",
-   "attack_date": "2026-10-21",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/V2hpcmxwb29sQFdoaXRlYXJtb3I="
   },
   {
    "victim": "JB Hunt",
@@ -1036,15 +1075,6 @@
    "url": "https://www.ransomware.live/id/TGluZWJhcmdlciBHb2dnYW4gQmxhaXIgJiBTYW1wc29uQGV2ZXJlc3Q="
   },
   {
-   "victim": "bereskinparr.com smartbiggar.ca",
-   "group": "incransom",
-   "date": "2026-10-22T02:15:06+00:00",
-   "attack_date": "2026-10-21",
-   "country": "CA",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/YmVyZXNraW5wYXJyLmNvbSBzbWFydGJpZ2dhci5jYUBpbmNyYW5zb20="
-  },
-  {
    "victim": "K.r.a....s",
    "group": "SilentRansomGroup",
    "date": "2026-10-22T01:30:31+00:00",
@@ -1097,42 +1127,6 @@
    "country": "FR",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/TUVDQS1QUkVDSVNAbGFtYXNodHU="
-  },
-  {
-   "victim": "WEPOS Chemie",
-   "group": "lamashtu",
-   "date": "2026-10-21T23:11:03+00:00",
-   "attack_date": "2026-10-21",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/V0VQT1MgQ2hlbWllQGxhbWFzaHR1"
-  },
-  {
-   "victim": "K.r.....s",
-   "group": "SilentRansomGroup",
-   "date": "2026-10-21T21:08:32+00:00",
-   "attack_date": "2026-10-21",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Sy5yLi4gLi4uc0BTaWxlbnRSYW5zb21Hcm91cA=="
-  },
-  {
-   "victim": "novagroupgbc.com",
-   "group": "BrainCipher",
-   "date": "2026-10-21T20:55:59+00:00",
-   "attack_date": "2026-10-21",
-   "country": "GB",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/bm92YWdyb3VwZ2JjLmNvbUBCcmFpbkNpcGhlcg=="
-  },
-  {
-   "victim": "oflaherty-law.com",
-   "group": "BrainCipher",
-   "date": "2026-10-21T20:55:23+00:00",
-   "attack_date": "2026-10-21",
-   "country": "IE",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/b2ZsYWhlcnR5LWxhdy5jb21AQnJhaW5DaXBoZXI="
   }
  ]
 }
