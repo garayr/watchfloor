@@ -17,6 +17,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+     "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things…",
+     "source": "The Hacker News",
+     "date": "2026-10-25T17:44:09+00:00",
+     "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python…",
      "source": "The Hacker News",
@@ -109,6 +117,17 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+     "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619…",
+     "source": "The Hacker News",
+     "date": "2026-10-25T17:19:46+00:00",
+     "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
+     ]
+    },
     {
      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
      "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security…",
@@ -235,17 +254,6 @@
      "alerts": [
       "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
      ]
-    },
-    {
-     "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-     "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets…",
-     "source": "The Hacker News",
-     "date": "2026-10-22T19:05:17+00:00",
-     "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-114625"
-     ]
     }
    ]
   },
@@ -343,14 +351,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-23T14:00:10+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
-     "group": "Other news"
-    },
-    {
-     "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-     "summary": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business, its board decided on Thursday. The decision came five days after a researcher reported recovering the private…",
-     "source": "The Hacker News",
-     "date": "2026-10-22T18:12:43+00:00",
-     "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
      "group": "Other news"
     }
    ]
