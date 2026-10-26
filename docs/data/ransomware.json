@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-26T14:50:54+00:00",
+ "generated_at": "2026-10-26T15:55:06+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 21
+   "count": 22
   },
   {
    "name": "N0n",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Technology",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Healthcare",
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 27,
+   "count": 29,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 11,
+   "count": 10,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -234,6 +234,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Miller Stratvert",
+   "group": "qilin",
+   "date": "2026-10-26T11:35:08+00:00",
+   "attack_date": "2026-10-26",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TWlsbGVyIFN0cmF0dmVydEBxaWxpbg=="
+  },
+  {
+   "victim": "Seufert Construction",
+   "group": "qilin",
+   "date": "2026-10-26T11:33:31+00:00",
+   "attack_date": "2026-10-26",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/U2V1ZmVydCBDb25zdHJ1Y3Rpb25AcWlsaW4="
+  },
   {
    "victim": "TRANSPORTES JIMENEZ and REYES JIM REY S.A.",
    "group": "emperador",
@@ -1115,24 +1133,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/S2lya2xhbmQgJiBFbGxpcyBMTFBAU2lsZW50UmFuc29tR3JvdXA="
-  },
-  {
-   "victim": "DR.SCHNELL GmbH & Co. KGaA",
-   "group": "rhysida",
-   "date": "2026-10-22T15:26:05+00:00",
-   "attack_date": "2026-10-22",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RFIuU0NITkVMTCBHbWJIICYgQ28uIEtHYUFAcmh5c2lkYQ=="
-  },
-  {
-   "victim": "Airtificial",
-   "group": "qilin",
-   "date": "2026-10-22T15:24:55+00:00",
-   "attack_date": "2026-10-22",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/QWlydGlmaWNpYWxAcWlsaW4="
   }
  ]
 }
