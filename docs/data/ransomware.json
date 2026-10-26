@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T03:15:22+00:00",
+ "generated_at": "2026-10-26T04:40:59+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "N0n",
-   "count": 21
+   "count": 17
   },
   {
    "name": "emperador",
@@ -21,12 +21,12 @@
    "count": 6
   },
   {
-   "name": "lockbit5",
+   "name": "Whitearmor",
    "count": 5
   },
   {
-   "name": "Whitearmor",
-   "count": 4
+   "name": "lockbit5",
+   "count": 5
   },
   {
    "name": "SilentRansomGroup",
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 16
+   "count": 17
   },
   {
    "name": "Professional Services",
-   "count": 15
+   "count": 16
   },
   {
    "name": "Technology",
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 25,
+   "count": 26,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 8,
+   "count": 11,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -105,12 +105,6 @@
    "count": 3,
    "lat": 19.4,
    "lon": -99.1
-  },
-  {
-   "code": "BG",
-   "count": 2,
-   "lat": 42.7,
-   "lon": 23.3
   },
   {
    "code": "FR",
@@ -159,6 +153,12 @@
    "count": 1,
    "lat": 50.8,
    "lon": 4.4
+  },
+  {
+   "code": "BG",
+   "count": 1,
+   "lat": 42.7,
+   "lon": 23.3
   },
   {
    "code": "CA",
@@ -234,6 +234,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Glückauf-Vermessung GmbH",
+   "group": "payload",
+   "date": "2026-10-26T00:24:26+00:00",
+   "attack_date": "2026-10-26",
+   "country": "DE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/R2zDvGNrYXVmLVZlcm1lc3N1bmcgR21iSEBwYXlsb2Fk"
+  },
+  {
+   "victim": "Miletic GmbH",
+   "group": "payload",
+   "date": "2026-10-26T00:23:12+00:00",
+   "attack_date": "2026-10-26",
+   "country": "DE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TWlsZXRpYyBHbWJIQHBheWxvYWQ="
+  },
+  {
+   "victim": "Edelstahl-Mechanik GmbH",
+   "group": "payload",
+   "date": "2026-10-26T00:21:58+00:00",
+   "attack_date": "2026-10-26",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RWRlbHN0YWhsLU1lY2hhbmlrIEdtYkhAcGF5bG9hZA=="
+  },
+  {
+   "victim": "J.B Hunt",
+   "group": "Whitearmor",
+   "date": "2026-10-26T00:00:24+00:00",
+   "attack_date": "2026-10-25",
+   "country": "US",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/Si5CIEh1bnRAV2hpdGVhcm1vcg=="
+  },
   {
    "victim": "Yodingenierie",
    "group": "Panzer",
@@ -1097,42 +1133,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTA5QE4wbg=="
-  },
-  {
-   "victim": "Company #108",
-   "group": "N0n",
-   "date": "2026-10-22T07:28:34+00:00",
-   "attack_date": "2026-10-22",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTA4QE4wbg=="
-  },
-  {
-   "victim": "Company #107",
-   "group": "N0n",
-   "date": "2026-10-22T07:27:59+00:00",
-   "attack_date": "2026-10-22",
-   "country": "BG",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTA3QE4wbg=="
-  },
-  {
-   "victim": "Company #106",
-   "group": "N0n",
-   "date": "2026-10-22T07:27:24+00:00",
-   "attack_date": "2026-10-22",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTA2QE4wbg=="
-  },
-  {
-   "victim": "Company #105",
-   "group": "N0n",
-   "date": "2026-10-22T07:26:49+00:00",
-   "attack_date": "2026-10-22",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTA1QE4wbg=="
   }
  ]
 }
