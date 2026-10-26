@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1922,
-  "c2_servers": 494,
+  "total_iocs": 1773,
+  "c2_servers": 449,
   "families": [
    {
     "name": "IClickFix",
@@ -13,39 +13,33 @@
    },
    {
     "name": "AMOS",
-    "iocs": 285,
+    "iocs": 291,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Vidar",
-    "iocs": 190,
-    "c2": 190,
+    "iocs": 203,
+    "c2": 203,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Mirai",
-    "iocs": 154,
-    "c2": 46,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 138,
+    "iocs": 121,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "SalatStealer",
-    "iocs": 106,
+    "iocs": 111,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 66,
-    "c2": 66,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "Mirai",
+    "iocs": 78,
+    "c2": 6,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "StrelaStealer",
@@ -54,16 +48,22 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 32,
+    "c2": 32,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "php.shin_webshell",
-    "iocs": 25,
+    "iocs": 27,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "AsyncRAT",
-    "iocs": 18,
-    "c2": 9,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+    "name": "PureRAT",
+    "iocs": 20,
+    "c2": 20,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
@@ -73,35 +73,35 @@
   "top_tags": [
    {
     "name": "github",
-    "count": 994
+    "count": 987
    },
    {
     "name": "zapret",
-    "count": 993
+    "count": 776
    },
    {
     "name": "SalatStealer",
-    "count": 448
+    "count": 310
    },
    {
     "name": "rustystealer",
-    "count": 10
+    "count": 11
    },
    {
-    "name": "LummaStealer",
-    "count": 2
+    "name": "Mozi",
+    "count": 5
    },
    {
     "name": "elf",
-    "count": 2
+    "count": 5
    },
    {
-    "name": "gitlab",
-    "count": 2
+    "name": "32-bit",
+    "count": 4
    },
    {
-    "name": "IRAHook",
-    "count": 1
+    "name": "mirai",
+    "count": 4
    }
   ]
  },
@@ -211,6 +211,28 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Beyond testmetest: Native Addon Camouflage and 42 Armed GitHub Repositories Reveal a Hidden npm Publisher",
+   "summary": "Security researchers identified a sophisticated supply chain attack campaign involving 42 compromised GitHub repositories across 11 legitimate owners connected to the testmetest npm operation. The campaign evolved to…",
+   "date": "2026-10-26T14:07:05+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Shai-Hulud",
+    "Miasma"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "supply-chain-attack",
+    "github-actions-abuse",
+    "testmetest",
+    "npm-malware",
+    "shellpanel",
+    "credential-theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6adf5e8931168a2a5042c62f"
+  },
   {
    "name": "Beyond the Inbox: How Threat Actors Abuse Microsoft Teams External Chat for Initial Access",
    "summary": "Adversaries are exploiting Microsoft Teams' default external chat functionality to conduct social engineering attacks and deliver malicious payloads. Analysis of over 400 incidents reveals threat actors consistently…",
@@ -458,43 +480,13 @@
     "stealc"
    ],
    "url": "https://otx.alienvault.com/pulse/6ada5f1e1071ed1bf4072f30"
-  },
-  {
-   "name": "ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft",
-   "summary": "UNC6240, also known as ShinyHunters, has resumed mass exploitation of CVE-2026-35273 targeting Oracle PeopleSoft systems globally across multiple sectors including education, technology, healthcare, agriculture…",
-   "date": "2026-09-26T07:47:04+00:00",
-   "author": "AlienVault",
-   "adversary": "UNC6240",
-   "malware": [
-    "SIDEEYE",
-    "Neo-reGeorg",
-    "MeshAgent"
-   ],
-   "countries": [],
-   "industries": [
-    "Education",
-    "Technology",
-    "Healthcare",
-    "Agriculture",
-    "Transportation",
-    "Government"
-   ],
-   "tags": [
-    "shinyhunters",
-    "cve-2026-35273",
-    "oracle peoplesoft",
-    "unc6240",
-    "neo-regeorg",
-    "waf bypass"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ab77878ad1bbe2993309a09"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-26T18:52:33+00:00",
-  "sans": "2026-10-26T18:52:33+00:00",
-  "otx": "2026-10-26T18:52:33+00:00",
-  "urlhaus": "2026-10-26T18:52:33+00:00"
+  "threatfox": "2026-10-26T20:10:54+00:00",
+  "sans": "2026-10-26T20:10:54+00:00",
+  "otx": "2026-10-26T20:10:54+00:00",
+  "urlhaus": "2026-10-26T20:10:54+00:00"
  },
- "generated_at": "2026-10-26T18:52:33+00:00"
+ "generated_at": "2026-10-26T20:10:54+00:00"
 }
