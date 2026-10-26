@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T07:33:00+00:00",
+ "generated_at": "2026-10-26T09:10:00+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -26,7 +26,7 @@
   },
   {
    "name": "lockbit5",
-   "count": 5
+   "count": 4
   },
   {
    "name": "SilentRansomGroup",
@@ -51,11 +51,11 @@
    "count": 14
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 9
+   "name": "Healthcare",
+   "count": 8
   },
   {
-   "name": "Healthcare",
+   "name": "Retail & E-Commerce",
    "count": 8
   },
   {
@@ -107,6 +107,12 @@
    "lon": -99.1
   },
   {
+   "code": "MY",
+   "count": 3,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
    "code": "FR",
    "count": 2,
    "lat": 48.9,
@@ -125,22 +131,10 @@
    "lon": 12.5
   },
   {
-   "code": "MY",
-   "count": 2,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
    "code": "NL",
    "count": 2,
    "lat": 52.4,
    "lon": 4.9
-  },
-  {
-   "code": "TR",
-   "count": 2,
-   "lat": 41.0,
-   "lon": 29.0
   },
   {
    "code": "BD",
@@ -227,6 +221,12 @@
    "lon": 10.2
   },
   {
+   "code": "TR",
+   "count": 1,
+   "lat": 41.0,
+   "lon": 29.0
+  },
+  {
    "code": "TW",
    "count": 1,
    "lat": 25.0,
@@ -234,6 +234,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "mahsing.com.my",
+   "group": "Scarlettgroup",
+   "date": "2026-10-26T04:56:48+00:00",
+   "attack_date": "2026-10-25",
+   "country": "MY",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/bWFoc2luZy5jb20ubXlAU2NhcmxldHRncm91cA=="
+  },
   {
    "victim": "LoveSac",
    "group": "Whitearmor",
@@ -1016,15 +1025,6 @@
    "country": "MX",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/U0VQSVZFUkBxaWxpbg=="
-  },
-  {
-   "victim": "istanbultrading.com",
-   "group": "lockbit5",
-   "date": "2026-10-22T21:30:20+00:00",
-   "attack_date": "2026-10-22",
-   "country": "TR",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/aXN0YW5idWx0cmFkaW5nLmNvbUBsb2NrYml0NQ=="
   },
   {
    "victim": "M... C...",
