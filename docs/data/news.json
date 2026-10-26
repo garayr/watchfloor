@@ -1,19 +1,6 @@
 {
  "groups": [
   {
-   "group": "Arrests, courts and policy",
-   "items": [
-    {
-     "title": "Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’",
-     "summary": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Data Breach Exposed ‘Certain…",
-     "source": "SecurityWeek",
-     "date": "2026-10-23T08:25:06+00:00",
-     "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
-     "group": "Arrests, courts and policy"
-    }
-   ]
-  },
-  {
    "group": "Breaches and ransomware",
    "items": [
     {
@@ -95,14 +82,6 @@
      "date": "2026-10-23T08:34:14+00:00",
      "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
-     "summary": "Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-23T08:10:46+00:00",
-     "url": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
@@ -110,8 +89,8 @@
    "group": "Exploited right now",
    "items": [
     {
-     "title": "Node2Shell Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
-     "summary": "An out-of-bounds write in Google’s Brotli decoder affects Node.js,.NET, PowerShell, and Python packages, and can lead to code execution. The post Node2Shell Brotli Flaw Triggers Patching Across Microsoft, Node.js…",
+     "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
+     "summary": "An out-of-bounds write in Google’s Brotli decoder affects Node.js,.NET, PowerShell, and Python packages, and can lead to code execution. The post Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js…",
      "source": "SecurityWeek",
      "date": "2026-10-26T10:21:57+00:00",
      "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
@@ -250,6 +229,14 @@
    "group": "Malware and campaigns",
    "items": [
     {
+     "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+     "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these…",
+     "source": "The Hacker News",
+     "date": "2026-10-26T09:54:02+00:00",
+     "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+     "group": "Malware and campaigns"
+    },
+    {
      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
      "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The…",
      "source": "The Hacker News",
@@ -294,6 +281,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+     "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-26T10:26:52+00:00",
+     "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+     "group": "Other news"
+    },
     {
      "title": "Mythos 5 Ignored Real-World Harm in July Attack",
      "summary": "The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub. The post Mythos 5 Ignored Real-World Harm in July Attack appeared first on SecurityWeek.",
