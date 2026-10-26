@@ -2,43 +2,43 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 5906,
-  "c2_servers": 2012,
+  "total_iocs": 5958,
+  "c2_servers": 2011,
   "families": [
    {
     "name": "VShell",
-    "iocs": 1804,
-    "c2": 33,
+    "iocs": 1806,
+    "c2": 35,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "IClickFix",
-    "iocs": 738,
+    "iocs": 737,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Mirai",
-    "iocs": 366,
+    "iocs": 370,
     "c2": 235,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "ClearFake",
-    "iocs": 289,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
     "name": "AMOS",
-    "iocs": 276,
+    "iocs": 281,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
+    "name": "ClearFake",
+    "iocs": 242,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
     "name": "Cobalt Strike",
-    "iocs": 208,
-    "c2": 208,
+    "iocs": 205,
+    "c2": 205,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
@@ -48,20 +48,20 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
+    "name": "SalatStealer",
+    "iocs": 154,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
     "name": "Sliver",
     "iocs": 110,
     "c2": 110,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    },
    {
-    "name": "SalatStealer",
-    "iocs": 97,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
-   },
-   {
     "name": "StrelaStealer",
-    "iocs": 57,
+    "iocs": 55,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    }
@@ -69,115 +69,115 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 961,
+  "online": 957,
   "top_tags": [
    {
     "name": "github",
-    "count": 803
+    "count": 777
    },
    {
     "name": "SalatStealer",
-    "count": 706
+    "count": 686
    },
    {
     "name": "exe",
-    "count": 706
+    "count": 686
    },
    {
     "name": "FakeGit",
-    "count": 97
+    "count": 91
    },
    {
     "name": "SmartLoader",
-    "count": 97
+    "count": 91
    },
    {
     "name": "zip",
-    "count": 97
+    "count": 91
    },
    {
     "name": "Mozi",
-    "count": 71
+    "count": 88
    },
    {
     "name": "mirai",
-    "count": 67
+    "count": 70
    }
   ]
  },
  "ports": [
   {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 3556975,
-   "targets": 270,
-   "sources": 12026
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 3338189,
-   "targets": 264,
-   "sources": 12037
+   "port": 22,
+   "service": "SSH",
+   "records": 262,
+   "targets": 2,
+   "sources": 24
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 1846035,
-   "targets": 276,
-   "sources": 16426
+   "records": 120,
+   "targets": 2,
+   "sources": 75
   },
   {
-   "port": 22,
-   "service": "SSH",
-   "records": 857335,
-   "targets": 280,
-   "sources": 13249
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 77,
+   "targets": 3,
+   "sources": 37
   },
   {
-   "port": 2222,
-   "service": null,
-   "records": 213621,
-   "targets": 267,
-   "sources": 7837
-  },
-  {
-   "port": 6881,
-   "service": null,
-   "records": 180061,
-   "targets": 242,
-   "sources": 1751
+   "port": 8443,
+   "service": "Web (HTTPS alt)",
+   "records": 56,
+   "targets": 2,
+   "sources": 16
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 154379,
-   "targets": 272,
-   "sources": 7417
+   "records": 26,
+   "targets": 2,
+   "sources": 19
   },
   {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 139243,
-   "targets": 270,
-   "sources": 6588
+   "port": 5555,
+   "service": "Android debug (ADB)",
+   "records": 21,
+   "targets": 2,
+   "sources": 14
   },
   {
-   "port": 9000,
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 21,
+   "targets": 2,
+   "sources": 17
+  },
+  {
+   "port": 5060,
+   "service": "VoIP (SIP)",
+   "records": 13,
+   "targets": 2,
+   "sources": 11
+  },
+  {
+   "port": 4443,
    "service": null,
-   "records": 110027,
-   "targets": 260,
-   "sources": 5283
+   "records": 10,
+   "targets": 2,
+   "sources": 10
   },
   {
-   "port": 16767,
+   "port": 83,
    "service": null,
-   "records": 97042,
-   "targets": 10,
-   "sources": 4202
+   "records": 10,
+   "targets": 2,
+   "sources": 6
   }
  ],
- "ports_date": "2026-10-25",
+ "ports_date": "2026-10-26",
  "diary": [
   {
    "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
@@ -471,10 +471,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-26T00:35:58+00:00",
-  "sans": "2026-10-26T00:35:58+00:00",
-  "otx": "2026-10-26T00:35:58+00:00",
-  "urlhaus": "2026-10-26T00:35:58+00:00"
+  "threatfox": "2026-10-26T02:07:04+00:00",
+  "sans": "2026-10-26T02:07:04+00:00",
+  "otx": "2026-10-26T02:07:04+00:00",
+  "urlhaus": "2026-10-26T02:07:04+00:00"
  },
- "generated_at": "2026-10-26T00:35:58+00:00"
+ "generated_at": "2026-10-26T02:07:04+00:00"
 }
