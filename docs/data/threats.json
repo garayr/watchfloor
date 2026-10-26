@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 5958,
-  "c2_servers": 2011,
+  "total_iocs": 5968,
+  "c2_servers": 2040,
   "families": [
    {
     "name": "VShell",
@@ -19,39 +19,39 @@
    },
    {
     "name": "Mirai",
-    "iocs": 370,
-    "c2": 235,
+    "iocs": 377,
+    "c2": 236,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 281,
+    "iocs": 284,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 204,
+    "c2": 204,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 242,
+    "iocs": 197,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 205,
-    "c2": 205,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "SalatStealer",
+    "iocs": 173,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "Unknown Loader",
     "iocs": 159,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
-    "name": "SalatStealer",
-    "iocs": 154,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "Sliver",
@@ -61,7 +61,7 @@
    },
    {
     "name": "StrelaStealer",
-    "iocs": 55,
+    "iocs": 54,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    }
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 957,
+  "online": 950,
   "top_tags": [
    {
     "name": "github",
-    "count": 777
+    "count": 762
    },
    {
     "name": "SalatStealer",
-    "count": 686
+    "count": 674
    },
    {
     "name": "exe",
-    "count": 686
-   },
-   {
-    "name": "FakeGit",
-    "count": 91
-   },
-   {
-    "name": "SmartLoader",
-    "count": 91
-   },
-   {
-    "name": "zip",
-    "count": 91
+    "count": 674
    },
    {
     "name": "Mozi",
+    "count": 98
+   },
+   {
+    "name": "FakeGit",
+    "count": 88
+   },
+   {
+    "name": "SmartLoader",
+    "count": 88
+   },
+   {
+    "name": "zip",
     "count": 88
    },
    {
     "name": "mirai",
-    "count": 70
+    "count": 78
    }
   ]
  },
@@ -471,10 +471,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-26T02:07:04+00:00",
-  "sans": "2026-10-26T02:07:04+00:00",
-  "otx": "2026-10-26T02:07:04+00:00",
-  "urlhaus": "2026-10-26T02:07:04+00:00"
+  "threatfox": "2026-10-26T03:15:22+00:00",
+  "sans": "2026-10-26T03:15:22+00:00",
+  "otx": "2026-10-26T03:15:22+00:00",
+  "urlhaus": "2026-10-26T03:15:22+00:00"
  },
- "generated_at": "2026-10-26T02:07:04+00:00"
+ "generated_at": "2026-10-26T03:15:22+00:00"
 }
