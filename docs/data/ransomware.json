@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T20:10:54+00:00",
+ "generated_at": "2026-10-26T21:13:27+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -29,11 +29,11 @@
    "count": 4
   },
   {
-   "name": "payload",
+   "name": "Falcon",
    "count": 3
   },
   {
-   "name": "thegentlemen",
+   "name": "payload",
    "count": 3
   }
  ],
@@ -44,7 +44,7 @@
   },
   {
    "name": "Professional Services",
-   "count": 14
+   "count": 15
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 34,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -89,12 +89,6 @@
    "lon": -3.7
   },
   {
-   "code": "CH",
-   "count": 3,
-   "lat": 46.9,
-   "lon": 7.4
-  },
-  {
    "code": "GB",
    "count": 3,
    "lat": 51.5,
@@ -111,6 +105,12 @@
    "count": 3,
    "lat": 19.4,
    "lon": -99.1
+  },
+  {
+   "code": "CH",
+   "count": 2,
+   "lat": 46.9,
+   "lon": 7.4
   },
   {
    "code": "MY",
@@ -228,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Beasley Allen Law Firm",
+   "group": "Falcon",
+   "date": "2026-10-26T16:54:28+00:00",
+   "attack_date": "2026-10-26",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QmVhc2xleSBBbGxlbiBMYXcgRmlybUBGYWxjb24="
+  },
   {
    "victim": "RaceTrakka",
    "group": "qilin",
@@ -902,15 +911,6 @@
    "country": "US",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/bWlja2V5Ym9keS5jb21AY2hhb3M="
-  },
-  {
-   "victim": "ARX Group SA",
-   "group": "aurora",
-   "date": "2026-10-23T17:57:21+00:00",
-   "attack_date": "2026-10-23",
-   "country": "CH",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/QVJYIEdyb3VwIFNBQGF1cm9yYQ=="
   },
   {
    "victim": "whitearmor.cc",
