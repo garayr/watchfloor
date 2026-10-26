@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-26T12:03:33+00:00",
+ "generated_at": "2026-10-26T14:50:54+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 23
+   "count": 21
   },
   {
    "name": "N0n",
@@ -14,7 +14,7 @@
   },
   {
    "name": "emperador",
-   "count": 7
+   "count": 8
   },
   {
    "name": "Whitearmor",
@@ -40,27 +40,27 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 17
+   "count": 18
   },
   {
    "name": "Professional Services",
-   "count": 16
+   "count": 15
   },
   {
    "name": "Technology",
-   "count": 14
+   "count": 15
   },
   {
    "name": "Healthcare",
    "count": 8
   },
   {
-   "name": "Other",
+   "name": "Retail & E-Commerce",
    "count": 7
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 7
+   "name": "Other",
+   "count": 6
   }
  ],
  "by_country": [
@@ -89,10 +89,10 @@
    "lon": -3.7
   },
   {
-   "code": "AU",
-   "count": 3,
-   "lat": -33.9,
-   "lon": 151.2
+   "code": "MX",
+   "count": 4,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "CH",
@@ -101,10 +101,10 @@
    "lon": 7.4
   },
   {
-   "code": "MX",
+   "code": "IT",
    "count": 3,
-   "lat": 19.4,
-   "lon": -99.1
+   "lat": 41.9,
+   "lon": 12.5
   },
   {
    "code": "MY",
@@ -119,22 +119,22 @@
    "lon": 2.35
   },
   {
-   "code": "GB",
-   "count": 2,
-   "lat": 51.5,
-   "lon": -0.1
-  },
-  {
-   "code": "IT",
-   "count": 2,
-   "lat": 41.9,
-   "lon": 12.5
-  },
-  {
    "code": "NL",
    "count": 2,
    "lat": 52.4,
    "lon": 4.9
+  },
+  {
+   "code": "TR",
+   "count": 2,
+   "lat": 41.0,
+   "lon": 29.0
+  },
+  {
+   "code": "AU",
+   "count": 1,
+   "lat": -33.9,
+   "lon": 151.2
   },
   {
    "code": "BD",
@@ -185,6 +185,12 @@
    "lon": 38.7
   },
   {
+   "code": "GB",
+   "count": 1,
+   "lat": 51.5,
+   "lon": -0.1
+  },
+  {
    "code": "LB",
    "count": 1,
    "lat": 33.9,
@@ -221,12 +227,6 @@
    "lon": 10.2
   },
   {
-   "code": "TR",
-   "count": 1,
-   "lat": 41.0,
-   "lon": 29.0
-  },
-  {
    "code": "TW",
    "count": 1,
    "lat": 25.0,
@@ -234,6 +234,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "TRANSPORTES JIMENEZ and REYES JIM REY S.A.",
+   "group": "emperador",
+   "date": "2026-10-26T10:21:11+00:00",
+   "attack_date": "2026-10-26",
+   "country": "MX",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/VFJBTlNQT1JURVMgSklNRU5FWiBhbmQgUkVZRVMgSklNIFJFWSBTLkEuQGVtcGVyYWRvcg=="
+  },
+  {
+   "victim": "Referans Lab Ref-Lab",
+   "group": "Doommageddon",
+   "date": "2026-10-26T09:22:04+00:00",
+   "attack_date": "2026-10-26",
+   "country": "TR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/UmVmZXJhbnMgTGFiIFJlZi1MYWJARG9vbW1hZ2VkZG9u"
+  },
+  {
+   "victim": "Ernesto Malvestiti S.p.A.",
+   "group": "aurora",
+   "date": "2026-10-26T08:34:49+00:00",
+   "attack_date": "2026-10-26",
+   "country": "IT",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RXJuZXN0byBNYWx2ZXN0aXRpIFMucC5BLkBhdXJvcmE="
+  },
   {
    "victim": "Inside Passage Electric Cooperative, Inc",
    "group": "dragonforce",
@@ -1106,33 +1133,6 @@
    "country": null,
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/QWlydGlmaWNpYWxAcWlsaW4="
-  },
-  {
-   "victim": "Bathurst RSL",
-   "group": "qilin",
-   "date": "2026-10-22T14:40:40+00:00",
-   "attack_date": "2026-10-22",
-   "country": "AU",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/QmF0aHVyc3QgUlNMQHFpbGlu"
-  },
-  {
-   "victim": "Creative Universe",
-   "group": "qilin",
-   "date": "2026-10-22T14:39:48+00:00",
-   "attack_date": "2026-10-22",
-   "country": "AU",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/Q3JlYXRpdmUgVW5pdmVyc2VAcWlsaW4="
-  },
-  {
-   "victim": "PWC",
-   "group": "everest",
-   "date": "2026-10-22T13:10:19+00:00",
-   "attack_date": "2026-10-22",
-   "country": "GB",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/UFdDQGV2ZXJlc3Q="
   }
  ]
 }

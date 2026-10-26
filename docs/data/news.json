@@ -4,6 +4,14 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
+     "summary": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United…",
+     "source": "BleepingComputer",
+     "date": "2026-10-26T13:56:44+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
      "summary": "The individuals called victims and persuaded them to install an app and scan their credit cards to loot their bank accounts. The post Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank…",
      "source": "SecurityWeek",
@@ -16,6 +24,14 @@
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
+     "summary": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI. The post Stolen AI Reasoning Could Help China Build Cheaper…",
+     "source": "SecurityWeek",
+     "date": "2026-10-26T14:30:09+00:00",
+     "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
      "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into…",
@@ -94,6 +110,30 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+     "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already…",
+     "source": "The Hacker News",
+     "date": "2026-10-26T14:06:13+00:00",
+     "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
+     "summary": "Attackers successfully exploited the PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24. The post PHP2Shell Exploitation Moves From Probes to Working Shells appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-10-26T13:30:10+00:00",
+     "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+     "summary": "Two critical flaws in Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An…",
+     "source": "The Hacker News",
+     "date": "2026-10-26T11:52:41+00:00",
+     "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
      "summary": "An out-of-bounds write in Google’s Brotli decoder affects Node.js,.NET, PowerShell, and Python packages, and can lead to code execution. The post Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js…",
      "source": "SecurityWeek",
@@ -171,60 +211,20 @@
      "date": "2026-10-23T15:38:05+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
      "group": "Exploited right now"
-    },
-    {
-     "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-     "summary": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-23T12:48:00+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
-     "summary": "Researchers tie PHP2Shell attempts to a Mirai botnet and show an ASLR bypass, but no successful compromise has been confirmed yet. The post Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge…",
-     "source": "SecurityWeek",
-     "date": "2026-10-23T12:45:52+00:00",
-     "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-     "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web…",
-     "source": "The Hacker News",
-     "date": "2026-10-23T11:25:43+00:00",
-     "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
-     "summary": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third Arista VCO Zero-Day in Four Months appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-10-23T09:58:34+00:00",
-     "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-     "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow…",
-     "source": "The Hacker News",
-     "date": "2026-10-23T09:36:00+00:00",
-     "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-     "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official…",
-     "source": "The Hacker News",
-     "date": "2026-10-23T08:40:43+00:00",
-     "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "953 Online Stores Infected in Long-Lasting Malware Campaign",
+     "summary": "Small loader code injected into the stores served a payload to visitors or did nothing to avoid detection. The post 953 Online Stores Infected in Long-Lasting Malware Campaign appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-26T12:46:44+00:00",
+     "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
      "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these…",
@@ -256,28 +256,28 @@
      "date": "2026-10-23T18:54:41+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-     "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved…",
-     "source": "The Hacker News",
-     "date": "2026-10-23T11:11:23+00:00",
-     "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
-     "summary": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments. The post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-23T10:31:16+00:00",
-     "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Genesys Hack Exposes Customer Data From Internal Systems",
+     "summary": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected. The post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-26T14:40:48+00:00",
+     "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+     "group": "Other news"
+    },
+    {
+     "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+     "summary": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-26T14:00:10+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+     "group": "Other news"
+    },
     {
      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
      "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual…",
