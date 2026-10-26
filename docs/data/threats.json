@@ -2,44 +2,44 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2089,
-  "c2_servers": 464,
+  "total_iocs": 1922,
+  "c2_servers": 494,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 462,
+    "iocs": 463,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "AMOS",
-    "iocs": 282,
+    "iocs": 285,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "SalatStealer",
-    "iocs": 192,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
-   },
-   {
     "name": "Vidar",
-    "iocs": 184,
-    "c2": 172,
+    "iocs": 190,
+    "c2": 190,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 171,
+    "iocs": 154,
     "c2": 46,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 124,
+    "iocs": 138,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "SalatStealer",
+    "iocs": 106,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "Cobalt Strike",
@@ -49,7 +49,7 @@
    },
    {
     "name": "StrelaStealer",
-    "iocs": 42,
+    "iocs": 45,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
@@ -61,7 +61,7 @@
    },
    {
     "name": "AsyncRAT",
-    "iocs": 20,
+    "iocs": 18,
     "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    }
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 973,
+  "online": 1000,
   "top_tags": [
    {
     "name": "github",
-    "count": 842
+    "count": 994
    },
    {
     "name": "zapret",
-    "count": 446
+    "count": 993
    },
    {
     "name": "SalatStealer",
-    "count": 409
+    "count": 448
    },
    {
-    "name": "exe",
-    "count": 244
+    "name": "rustystealer",
+    "count": 10
    },
    {
-    "name": "zip",
-    "count": 109
-   },
-   {
-    "name": "SmartLoader",
-    "count": 108
-   },
-   {
-    "name": "Mozi",
-    "count": 46
+    "name": "LummaStealer",
+    "count": 2
    },
    {
     "name": "elf",
-    "count": 39
+    "count": 2
+   },
+   {
+    "name": "gitlab",
+    "count": 2
+   },
+   {
+    "name": "IRAHook",
+    "count": 1
    }
   ]
  },
@@ -211,6 +211,32 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Beyond the Inbox: How Threat Actors Abuse Microsoft Teams External Chat for Initial Access",
+   "summary": "Adversaries are exploiting Microsoft Teams' default external chat functionality to conduct social engineering attacks and deliver malicious payloads. Analysis of over 400 incidents reveals threat actors consistently…",
+   "date": "2026-10-26T14:06:34+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "QakBot - S0650",
+    "Pinkslipbot",
+    "QuackBot",
+    "QBot",
+    "DarkGate",
+    "Cobalt Strike - S0154"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "quick assist",
+    "qakbot",
+    "microsoft teams",
+    "email bombing",
+    "external chat federation",
+    "darkgate"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6adf5e6a54877322e0ed8a09"
+  },
   {
    "name": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
    "summary": "Since September 15, 2026, an automated campaign named Gheist has been performing mass abuse of compromised GitHub tokens. The attack commits a workflow named sync-check to every accessible repository, designed to print…",
@@ -462,37 +488,13 @@
     "waf bypass"
    ],
    "url": "https://otx.alienvault.com/pulse/6ab77878ad1bbe2993309a09"
-  },
-  {
-   "name": "PureRAT and PureLogs Campaign Targeting Japanese Organizations",
-   "summary": "Between July and August 2026, a sophisticated campaign targeted organizations across East and Southeast Asia using Japanese and Korean-language phishing emails disguised as product damage complaints. Recipients were…",
-   "date": "2026-09-25T15:41:27+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "PureRAT",
-    "PureLogs"
-   ],
-   "countries": [
-    "Japan"
-   ],
-   "industries": [],
-   "tags": [
-    "purerat",
-    "process hollowing",
-    "stealer",
-    "japanese organizations",
-    "byovd",
-    "phishing campaign"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ab69627dd56b82f3b52796d"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-26T17:23:22+00:00",
-  "sans": "2026-10-26T17:23:22+00:00",
-  "otx": "2026-10-26T17:23:22+00:00",
-  "urlhaus": "2026-10-26T17:23:22+00:00"
+  "threatfox": "2026-10-26T18:52:33+00:00",
+  "sans": "2026-10-26T18:52:33+00:00",
+  "otx": "2026-10-26T18:52:33+00:00",
+  "urlhaus": "2026-10-26T18:52:33+00:00"
  },
- "generated_at": "2026-10-26T17:23:22+00:00"
+ "generated_at": "2026-10-26T18:52:33+00:00"
 }
