@@ -698,69 +698,6 @@
    "epss": 0.8216,
    "cvss": 9.5,
    "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-87902",
-   "date": "2026-09-25",
-   "src": "CISA",
-   "vendor": "WordPress Core",
-   "vendor_name": "WordPress",
-   "product": "Core",
-   "title": "WordPress Core Remote File Inclusion Vulnerability",
-   "detail": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-28",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-87902"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87902",
-   "kev": true,
-   "epss": 0.9577,
-   "cvss": 8.1,
-   "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-67279",
-   "date": "2026-09-25",
-   "src": "CISA",
-   "vendor": "MikroTik RouterOS",
-   "vendor_name": "MikroTik",
-   "product": "RouterOS",
-   "title": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
-   "detail": "Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request. This vulnerability can be chained to achieve unauthenticated exploitation of CVE-2026-86060.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-28",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-67279"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67279",
-   "kev": true,
-   "epss": 0.0228,
-   "cvss": 6.9,
-   "sev": "high"
-  },
-  {
-   "id": "CVE-2026-65660",
-   "date": "2026-09-25",
-   "src": "CISA",
-   "vendor": "Microsoft SharePoint",
-   "vendor_name": "Microsoft",
-   "product": "SharePoint",
-   "title": "Microsoft SharePoint Code Injection Vulnerability",
-   "detail": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-28",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-65660"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
-   "kev": true,
-   "epss": 0.0819,
-   "cvss": 8.8,
-   "sev": "high"
   }
  ]
 }
