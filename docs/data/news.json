@@ -25,6 +25,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+     "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct…",
+     "source": "The Hacker News",
+     "date": "2026-10-26T15:52:40+00:00",
+     "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
      "summary": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI. The post Stolen AI Reasoning Could Help China Build Cheaper…",
      "source": "SecurityWeek",
@@ -79,20 +87,20 @@
      "date": "2026-10-23T17:50:47+00:00",
      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Quest Diagnostics confirms data breach exposed patient records",
-     "summary": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-23T16:40:07+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+     "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and…",
+     "source": "The Hacker News",
+     "date": "2026-10-26T17:45:57+00:00",
+     "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
      "summary": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
@@ -210,14 +218,6 @@
      "source": "The Hacker News",
      "date": "2026-10-23T17:54:08+00:00",
      "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "PHP shares mitigation for new RCE vulnerability with no patch",
-     "summary": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-23T15:38:05+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
      "group": "Exploited right now"
     }
    ]
