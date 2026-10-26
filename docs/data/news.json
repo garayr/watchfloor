@@ -103,14 +103,6 @@
      "date": "2026-10-22T20:22:45+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-     "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-22T19:12:51+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
@@ -135,7 +127,7 @@
     },
     {
      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-     "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli…",
+     "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's.NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to…",
      "source": "The Hacker News",
      "date": "2026-10-24T11:09:29+00:00",
      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
@@ -257,6 +249,14 @@
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+     "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The…",
+     "source": "The Hacker News",
+     "date": "2026-10-26T06:03:48+00:00",
+     "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to…",
