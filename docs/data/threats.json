@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 6014,
-  "c2_servers": 2107,
+  "total_iocs": 5876,
+  "c2_servers": 2047,
   "families": [
    {
     "name": "VShell",
-    "iocs": 1806,
-    "c2": 35,
+    "iocs": 1795,
+    "c2": 24,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "IClickFix",
-    "iocs": 737,
-    "c2": 1,
+    "iocs": 724,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Mirai",
-    "iocs": 390,
-    "c2": 237,
+    "iocs": 343,
+    "c2": 228,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "AMOS",
-    "iocs": 286,
+    "iocs": 289,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 207,
-    "c2": 207,
+    "iocs": 196,
+    "c2": 196,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "SalatStealer",
-    "iocs": 194,
+    "iocs": 195,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 159,
-    "c2": 2,
+    "iocs": 158,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 128,
+    "iocs": 126,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Sliver",
-    "iocs": 118,
-    "c2": 118,
+    "iocs": 115,
+    "c2": 115,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    },
    {
-    "name": "StrelaStealer",
-    "iocs": 43,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+    "name": "Vidar",
+    "iocs": 42,
+    "c2": 30,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 938,
+  "online": 999,
   "top_tags": [
    {
     "name": "github",
-    "count": 725
+    "count": 997
    },
    {
-    "name": "SalatStealer",
-    "count": 642
-   },
-   {
-    "name": "exe",
-    "count": 642
-   },
-   {
-    "name": "Mozi",
-    "count": 124
-   },
-   {
-    "name": "mirai",
-    "count": 84
-   },
-   {
-    "name": "FakeGit",
-    "count": 83
-   },
-   {
-    "name": "SmartLoader",
-    "count": 83
+    "name": "zapret",
+    "count": 428
    },
    {
     "name": "zip",
-    "count": 83
+    "count": 375
+   },
+   {
+    "name": "SmartLoader",
+    "count": 374
+   },
+   {
+    "name": "SalatStealer",
+    "count": 299
+   },
+   {
+    "name": "exe",
+    "count": 120
+   },
+   {
+    "name": "SteamFix",
+    "count": 25
+   },
+   {
+    "name": "rar",
+    "count": 25
    }
   ]
  },
@@ -377,34 +377,6 @@
    "url": "https://otx.alienvault.com/pulse/6ada5f1e04fbf3494e4114a7"
   },
   {
-   "name": "Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)",
-   "summary": "Two critical PHP remote code execution vulnerabilities, CVE-2026-109618 and CVE-2026-109619, both rated CVSS v4.0 9.2, leaked before their scheduled patch on October 21, 2026. The flaws involve out-of-memory corruption…",
-   "date": "2026-10-22T14:31:52+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "Germany",
-    "Singapore",
-    "United Kingdom of Great Britain and Northern Ireland"
-   ],
-   "industries": [
-    "Retail",
-    "Finance",
-    "Technology"
-   ],
-   "tags": [
-    "mirai botnet",
-    "cve-2026-109618",
-    "woocommerce",
-    "magento",
-    "cve-2026-109619",
-    "php2shell"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604"
-  },
-  {
    "name": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
    "summary": "Between July and September 2026, a sophisticated campaign targeted Microsoft 365 accounts through adversary-in-the-middle attacks and token replay techniques. The operation captured sign-in sessions via AiTM relays and…",
    "date": "2026-10-22T14:31:51+00:00",
@@ -420,6 +392,36 @@
     "business email compromise"
    ],
    "url": "https://otx.alienvault.com/pulse/6ada1e572ffb7473cf202754"
+  },
+  {
+   "name": "ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft",
+   "summary": "UNC6240, also known as ShinyHunters, has resumed mass exploitation of CVE-2026-35273 targeting Oracle PeopleSoft systems globally across multiple sectors including education, technology, healthcare, agriculture…",
+   "date": "2026-09-26T07:47:04+00:00",
+   "author": "AlienVault",
+   "adversary": "UNC6240",
+   "malware": [
+    "SIDEEYE",
+    "Neo-reGeorg",
+    "MeshAgent"
+   ],
+   "countries": [],
+   "industries": [
+    "Education",
+    "Technology",
+    "Healthcare",
+    "Agriculture",
+    "Transportation",
+    "Government"
+   ],
+   "tags": [
+    "shinyhunters",
+    "cve-2026-35273",
+    "oracle peoplesoft",
+    "unc6240",
+    "neo-regeorg",
+    "waf bypass"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ab77878ad1bbe2993309a09"
   },
   {
    "name": "PureRAT and PureLogs Campaign Targeting Japanese Organizations",
@@ -471,10 +473,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-26T05:59:53+00:00",
-  "sans": "2026-10-26T05:59:53+00:00",
-  "otx": "2026-10-26T05:59:53+00:00",
-  "urlhaus": "2026-10-26T05:59:53+00:00"
+  "threatfox": "2026-10-26T07:33:00+00:00",
+  "sans": "2026-10-26T07:33:00+00:00",
+  "otx": "2026-10-26T07:33:00+00:00",
+  "urlhaus": "2026-10-26T07:33:00+00:00"
  },
- "generated_at": "2026-10-26T05:59:53+00:00"
+ "generated_at": "2026-10-26T07:33:00+00:00"
 }

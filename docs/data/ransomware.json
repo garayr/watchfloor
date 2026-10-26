@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T05:59:53+00:00",
+ "generated_at": "2026-10-26T07:33:00+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,19 +10,19 @@
   },
   {
    "name": "N0n",
-   "count": 17
+   "count": 16
   },
   {
    "name": "emperador",
    "count": 7
   },
   {
-   "name": "krybit",
+   "name": "Whitearmor",
    "count": 6
   },
   {
-   "name": "Whitearmor",
-   "count": 5
+   "name": "krybit",
+   "count": 6
   },
   {
    "name": "lockbit5",
@@ -51,11 +51,11 @@
    "count": 14
   },
   {
-   "name": "Healthcare",
-   "count": 8
+   "name": "Retail & E-Commerce",
+   "count": 9
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Healthcare",
    "count": 8
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 26,
+   "count": 27,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -234,6 +234,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "LoveSac",
+   "group": "Whitearmor",
+   "date": "2026-10-26T02:57:17+00:00",
+   "attack_date": "2026-10-26",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/TG92ZVNhY0BXaGl0ZWFybW9y"
+  },
   {
    "victim": "Glückauf-Vermessung GmbH",
    "group": "payload",
@@ -1124,15 +1133,6 @@
    "country": "US",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/UGVyZm9ybWFuY2UgRm9yZCBJbmNATjBu"
-  },
-  {
-   "victim": "Company #109",
-   "group": "N0n",
-   "date": "2026-10-22T07:29:09+00:00",
-   "attack_date": "2026-10-22",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTA5QE4wbg=="
   }
  ]
 }
