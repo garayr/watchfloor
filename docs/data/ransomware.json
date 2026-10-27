@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T03:40:44+00:00",
+ "generated_at": "2026-10-27T04:59:39+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "N0n",
-   "count": 15
+   "count": 14
   },
   {
    "name": "emperador",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 19
+   "count": 18
   },
   {
    "name": "Professional Services",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Technology",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Retail & E-Commerce",
@@ -221,13 +221,22 @@
    "lon": -9.1
   },
   {
-   "code": "TN",
+   "code": "UA",
    "count": 1,
-   "lat": 36.8,
-   "lon": 10.2
+   "lat": 50.45,
+   "lon": 30.5
   }
  ],
  "victims": [
+  {
+   "victim": "Zhito Technology",
+   "group": "dragonforce",
+   "date": "2026-10-27T00:14:02+00:00",
+   "attack_date": "2026-10-24",
+   "country": "UA",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/WmhpdG8gVGVjaG5vbG9neUBkcmFnb25mb3JjZQ=="
+  },
   {
    "victim": "Morrison Cohen",
    "group": "SilentRansomGroup",
@@ -1118,15 +1127,6 @@
    "country": "ET",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/SG9ybiBvZiBBZnJpY2EgUmVnaW9uYWwgRW52aXJvbm1lbnQgQ2VudHJlIGFuZCBOZXR3b3JrQE4wbg=="
-  },
-  {
-   "victim": "PROTEX Confection",
-   "group": "N0n",
-   "date": "2026-10-23T07:55:08+00:00",
-   "attack_date": "2026-10-23",
-   "country": "TN",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UFJPVEVYIENvbmZlY3Rpb25ATjBu"
   }
  ]
 }

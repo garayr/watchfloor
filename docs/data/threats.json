@@ -2,36 +2,36 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1524,
-  "c2_servers": 552,
+  "total_iocs": 5276,
+  "c2_servers": 801,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 318,
-    "c2": 294,
+    "iocs": 335,
+    "c2": 311,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 287,
+    "iocs": 282,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "SalatStealer",
-    "iocs": 156,
+    "iocs": 151,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "ClearFake",
-    "iocs": 92,
+    "iocs": 84,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Mirai",
-    "iocs": 88,
+    "iocs": 78,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -43,19 +43,19 @@
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 38,
-    "c2": 38,
+    "iocs": 39,
+    "c2": 39,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 25,
+    "iocs": 26,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "AsyncRAT",
-    "iocs": 20,
+    "iocs": 21,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 994,
+  "online": 990,
   "top_tags": [
    {
     "name": "github",
-    "count": 853
+    "count": 817
    },
    {
     "name": "zapret",
-    "count": 662
+    "count": 571
    },
    {
     "name": "SalatStealer",
-    "count": 212
+    "count": 262
    },
    {
     "name": "Mozi",
-    "count": 90
+    "count": 98
    },
    {
     "name": "elf",
-    "count": 43
-   },
-   {
-    "name": "32-bit",
-    "count": 32
-   },
-   {
-    "name": "mips",
-    "count": 27
+    "count": 61
    },
    {
     "name": "mirai",
-    "count": 24
+    "count": 37
+   },
+   {
+    "name": "32-bit",
+    "count": 35
+   },
+   {
+    "name": "mips",
+    "count": 29
    }
   ]
  },
@@ -483,10 +483,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-27T03:40:44+00:00",
-  "sans": "2026-10-27T03:40:44+00:00",
-  "otx": "2026-10-27T03:40:44+00:00",
-  "urlhaus": "2026-10-27T03:40:44+00:00"
+  "threatfox": "2026-10-27T04:59:39+00:00",
+  "sans": "2026-10-27T04:59:39+00:00",
+  "otx": "2026-10-27T04:59:39+00:00",
+  "urlhaus": "2026-10-27T04:59:39+00:00"
  },
- "generated_at": "2026-10-27T03:40:44+00:00"
+ "generated_at": "2026-10-27T04:59:39+00:00"
 }

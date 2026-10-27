@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T03:40:44+00:00",
+ "generated_at": "2026-10-27T04:59:39+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -6206,8 +6206,8 @@
    "description": "Payload is a ransomware group that emerged in early 2026, using Babuk-derived source code targeting both Windows and ESXi systems with cross-platform double-extortion attacks against healthcare, energy, real estate, and agriculture sectors, claiming 12 victims across seven countries within hours of launching its leak site.",
    "aliases": [],
    "first_seen": "2026-02-17",
-   "last_seen": "2026-10-20",
-   "victims_total": 78,
+   "last_seen": "2026-10-26",
+   "victims_total": 81,
    "cves": [],
    "tools": [],
    "techniques": [
@@ -6227,11 +6227,11 @@
    "targets": {
     "countries": [
      {
-      "name": "CH",
-      "count": 7
+      "name": "DE",
+      "count": 10
      },
      {
-      "name": "DE",
+      "name": "CH",
       "count": 7
      },
      {
@@ -6254,11 +6254,11 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 19
+      "count": 20
      },
      {
       "name": "Professional Services",
-      "count": 9
+      "count": 10
      },
      {
       "name": "Retail & E-Commerce",
@@ -6325,11 +6325,11 @@
     },
     {
      "month": "2026-10",
-     "count": 3
+     "count": 6
     }
    ],
-   "history_size": 78,
-   "updated": "2026-10-20T04:27:31+00:00"
+   "history_size": 81,
+   "updated": "2026-10-27T04:59:39+00:00"
   },
   "bravox": {
    "name": "bravox",
