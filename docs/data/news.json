@@ -94,6 +94,18 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The…",
+     "source": "The Hacker News",
+     "date": "2026-10-27T04:37:59+00:00",
+     "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-109618",
+      "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
+     ]
+    },
+    {
      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
      "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and…",
      "source": "The Hacker News",
@@ -193,18 +205,6 @@
      "date": "2026-10-24T11:09:29+00:00",
      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited…",
-     "source": "The Hacker News",
-     "date": "2026-10-24T06:25:57+00:00",
-     "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-114625",
-      "CVE-2026-110447"
-     ]
     }
    ]
   },
