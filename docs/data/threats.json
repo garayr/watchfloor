@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1936,
-  "c2_servers": 537,
+  "total_iocs": 1949,
+  "c2_servers": 540,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 369,
-    "c2": 345,
+    "iocs": 371,
+    "c2": 347,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 294,
+    "iocs": 287,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -25,33 +25,33 @@
    },
    {
     "name": "Mirai",
-    "iocs": 205,
+    "iocs": 206,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
+    "name": "ClearFake",
+    "iocs": 58,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
     "name": "StrelaStealer",
-    "iocs": 52,
+    "iocs": 53,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
-    "name": "ClearFake",
-    "iocs": 51,
+    "name": "php.shin_webshell",
+    "iocs": 31,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "NetWire RC",
     "iocs": 30,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.netwire"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 30,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Raven Stealer",
@@ -69,23 +69,23 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 847,
+  "online": 854,
   "top_tags": [
    {
-    "name": "ua-wget",
-    "count": 347
+    "name": "github",
+    "count": 379
    },
    {
-    "name": "github",
-    "count": 344
+    "name": "ua-wget",
+    "count": 330
    },
    {
     "name": "elf",
-    "count": 291
+    "count": 297
    },
    {
     "name": "mirai",
-    "count": 246
+    "count": 245
    },
    {
     "name": "SmartLoader",
@@ -100,8 +100,8 @@
     "count": 146
    },
    {
-    "name": "Mozi",
-    "count": 109
+    "name": "zapret",
+    "count": 125
    }
   ]
  },
@@ -485,10 +485,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-27T21:14:19+00:00",
-  "sans": "2026-10-27T21:14:19+00:00",
-  "otx": "2026-10-27T21:14:19+00:00",
-  "urlhaus": "2026-10-27T21:14:19+00:00"
+  "threatfox": "2026-10-27T22:25:05+00:00",
+  "sans": "2026-10-27T22:25:05+00:00",
+  "otx": "2026-10-27T22:25:05+00:00",
+  "urlhaus": "2026-10-27T22:25:05+00:00"
  },
- "generated_at": "2026-10-27T21:14:19+00:00"
+ "generated_at": "2026-10-27T22:25:05+00:00"
 }

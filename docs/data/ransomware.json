@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T21:14:19+00:00",
+ "generated_at": "2026-10-27T22:25:05+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -9,11 +9,11 @@
    "count": 25
   },
   {
-   "name": "N0n",
-   "count": 12
+   "name": "Booba Project",
+   "count": 10
   },
   {
-   "name": "Booba Project",
+   "name": "N0n",
    "count": 10
   },
   {
@@ -43,15 +43,15 @@
    "count": 15
   },
   {
-   "name": "Healthcare",
-   "count": 13
-  },
-  {
    "name": "Professional Services",
    "count": 13
   },
   {
    "name": "Technology",
+   "count": 13
+  },
+  {
+   "name": "Healthcare",
    "count": 12
   },
   {
@@ -107,12 +107,6 @@
    "lon": -99.1
   },
   {
-   "code": "AR",
-   "count": 2,
-   "lat": -34.6,
-   "lon": -58.4
-  },
-  {
    "code": "BE",
    "count": 2,
    "lat": 50.8,
@@ -135,6 +129,12 @@
    "count": 1,
    "lat": 24.5,
    "lon": 54.4
+  },
+  {
+   "code": "AR",
+   "count": 1,
+   "lat": -34.6,
+   "lon": -58.4
   },
   {
    "code": "AU",
@@ -210,6 +210,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "MicroSearch",
+   "group": "play",
+   "date": "2026-10-27T17:30:26+00:00",
+   "attack_date": "2026-10-27",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/TWljcm9TZWFyY2hAcGxheQ=="
+  },
+  {
+   "victim": "QLC",
+   "group": "play",
+   "date": "2026-10-27T17:29:53+00:00",
+   "attack_date": "2026-10-27",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/UUxDQHBsYXk="
+  },
   {
    "victim": "wagyu.xyz",
    "group": "Whitearmor",
@@ -1091,24 +1109,6 @@
    "country": "PT",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/R1BJQyBQcm9qZWN0b3MgQ29uIEluc3RhbGFjb2VzIExkYUBOMG4="
-  },
-  {
-   "victim": "Asisken Asistencia Médica S.A.",
-   "group": "N0n",
-   "date": "2026-10-24T09:53:58+00:00",
-   "attack_date": "2026-10-24",
-   "country": "AR",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/QXNpc2tlbiBBc2lzdGVuY2lhIE3DqWRpY2EgUy5BLkBOMG4="
-  },
-  {
-   "victim": "Adirondack Networks, Inc.",
-   "group": "N0n",
-   "date": "2026-10-24T09:53:23+00:00",
-   "attack_date": "2026-10-24",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/QWRpcm9uZGFjayBOZXR3b3JrcywgSW5jLkBOMG4="
   }
  ]
 }

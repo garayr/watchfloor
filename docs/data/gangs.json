@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T21:14:19+00:00",
+ "generated_at": "2026-10-27T22:25:05+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1973,8 +1973,8 @@
    "description": "Initially observed in June 2022, the Play ransomware (a.k.a PlayCrypt) operates through double extortion, targeting numerous organizations in Latin America. Its Initial Access method is quite similar to other ransomwares, involving attacks such as Phishing, Exposed Services to the Internet, and Valid Account compromises. On April 19, 2023, the security company Symantec published two new tools developed by the Play group. These tools allow the malicious actor to enumerate and exfiltrate data from the internal network. The post mentions the following: 'Play threat actors use the.NET infostealer to enumerate software and services via WMI, WinRM, Remote Registry, and Remote Service. The malware checks for the existence of security and backup software, as well as remote administration tools and other programs, saving the information in.CSV files that are compressed into a.ZIP file for later manual exfiltration by threat actors.'Source: https://github.com/crocodyli/ThreatActors-TTPs",
    "aliases": [],
    "first_seen": "2022-11-26",
-   "last_seen": "2026-10-16",
-   "victims_total": 1333,
+   "last_seen": "2026-10-27",
+   "victims_total": 1340,
    "cves": [],
    "tools": [
     "HandleKatz",
@@ -2021,7 +2021,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 947
+      "count": 952
      },
      {
       "name": "CA",
@@ -2051,19 +2051,19 @@
      },
      {
       "name": "Professional Services",
-      "count": 305
+      "count": 306
      },
      {
       "name": "Technology",
-      "count": 169
+      "count": 171
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 98
+      "count": 99
      },
      {
       "name": "Transportation",
-      "count": 73
+      "count": 74
      },
      {
       "name": "Agriculture and Food Production",
@@ -2118,11 +2118,11 @@
     },
     {
      "month": "2026-10",
-     "count": 11
+     "count": 18
     }
    ],
-   "history_size": 1333,
-   "updated": "2026-10-20T05:00:01+00:00"
+   "history_size": 1340,
+   "updated": "2026-10-27T22:25:05+00:00"
   },
   "interlock": {
    "name": "interlock",
