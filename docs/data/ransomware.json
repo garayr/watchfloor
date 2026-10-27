@@ -1,16 +1,20 @@
 {
- "generated_at": "2026-10-27T17:11:01+00:00",
+ "generated_at": "2026-10-27T18:29:55+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 26
+   "count": 25
   },
   {
    "name": "N0n",
    "count": 13
+  },
+  {
+   "name": "Booba Project",
+   "count": 10
   },
   {
    "name": "everest",
@@ -29,10 +33,6 @@
    "count": 6
   },
   {
-   "name": "Booba Project",
-   "count": 5
-  },
-  {
    "name": "Falcon",
    "count": 3
   }
@@ -40,19 +40,19 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 17
-  },
-  {
-   "name": "Professional Services",
-   "count": 14
+   "count": 15
   },
   {
    "name": "Healthcare",
+   "count": 14
+  },
+  {
+   "name": "Professional Services",
    "count": 13
   },
   {
    "name": "Technology",
-   "count": 13
+   "count": 12
   },
   {
    "name": "Retail & E-Commerce",
@@ -60,19 +60,19 @@
   },
   {
    "name": "Energy & Utilities",
-   "count": 8
+   "count": 9
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 34,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 10,
+   "count": 9,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -89,10 +89,22 @@
    "lon": 101.7
   },
   {
+   "code": "CA",
+   "count": 3,
+   "lat": 43.7,
+   "lon": -79.4
+  },
+  {
    "code": "IT",
    "count": 3,
    "lat": 41.9,
    "lon": 12.5
+  },
+  {
+   "code": "MX",
+   "count": 3,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "AR",
@@ -101,10 +113,10 @@
    "lon": -58.4
   },
   {
-   "code": "CA",
+   "code": "BE",
    "count": 2,
-   "lat": 43.7,
-   "lon": -79.4
+   "lat": 50.8,
+   "lon": 4.4
   },
   {
    "code": "ES",
@@ -119,18 +131,6 @@
    "lon": 2.35
   },
   {
-   "code": "MX",
-   "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
-   "code": "PK",
-   "count": 2,
-   "lat": 24.9,
-   "lon": 67.0
-  },
-  {
    "code": "AE",
    "count": 1,
    "lat": 24.5,
@@ -141,12 +141,6 @@
    "count": 1,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "BE",
-   "count": 1,
-   "lat": 50.8,
-   "lon": 4.4
   },
   {
    "code": "BG",
@@ -191,6 +185,12 @@
    "lon": 121.0
   },
   {
+   "code": "PK",
+   "count": 1,
+   "lat": 24.9,
+   "lon": 67.0
+  },
+  {
    "code": "PT",
    "count": 1,
    "lat": 38.7,
@@ -207,15 +207,63 @@
    "count": 1,
    "lat": 41.0,
    "lon": 29.0
-  },
-  {
-   "code": "UA",
-   "count": 1,
-   "lat": 50.45,
-   "lon": 30.5
   }
  ],
  "victims": [
+  {
+   "victim": "GRUPO PETROIL",
+   "group": "direwolf",
+   "date": "2026-10-27T14:11:50+00:00",
+   "attack_date": "2026-10-27",
+   "country": "MX",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/R1JVUE8gUEVUUk9JTEBkaXJld29sZg=="
+  },
+  {
+   "victim": "RCOA- Regent Christian Online Academy",
+   "group": "Booba Project",
+   "date": "2026-10-27T13:52:40+00:00",
+   "attack_date": "2026-10-27",
+   "country": "CA",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/UkNPQS0gUmVnZW50IENocmlzdGlhbiBPbmxpbmUgQWNhZGVteUBCb29iYSBQcm9qZWN0"
+  },
+  {
+   "victim": "Kerckstede vzw",
+   "group": "Booba Project",
+   "date": "2026-10-27T13:52:20+00:00",
+   "attack_date": "2026-10-27",
+   "country": "BE",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/S2VyY2tzdGVkZSB2endAQm9vYmEgUHJvamVjdA=="
+  },
+  {
+   "victim": "BASS Medical Group",
+   "group": "Booba Project",
+   "date": "2026-10-27T13:51:59+00:00",
+   "attack_date": "2026-10-27",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/QkFTUyBNZWRpY2FsIEdyb3VwQEJvb2JhIFByb2plY3Q="
+  },
+  {
+   "victim": "Hudson River Museum",
+   "group": "Booba Project",
+   "date": "2026-10-27T13:51:38+00:00",
+   "attack_date": "2026-10-27",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/SHVkc29uIFJpdmVyIE11c2V1bUBCb29iYSBQcm9qZWN0"
+  },
+  {
+   "victim": "Horizon Eye Specialists & LASIK Center",
+   "group": "Booba Project",
+   "date": "2026-10-27T13:51:17+00:00",
+   "attack_date": "2026-10-27",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/SG9yaXpvbiBFeWUgU3BlY2lhbGlzdHMgJiBMQVNJSyBDZW50ZXJAQm9vYmEgUHJvamVjdA=="
+  },
   {
    "victim": "Aesthetic Specialty Centre",
    "group": "Booba Project",
@@ -431,15 +479,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/cHJvYmUtMDExNjM3Y2FiYmY5NDA3Ni1AVUxvc2U="
-  },
-  {
-   "victim": "Zhito Technology",
-   "group": "dragonforce",
-   "date": "2026-10-27T00:14:02+00:00",
-   "attack_date": "2026-10-24",
-   "country": "UA",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/WmhpdG8gVGVjaG5vbG9neUBkcmFnb25mb3JjZQ=="
   },
   {
    "victim": "Morrison Cohen",
@@ -1070,51 +1109,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/QXJ0aHJpdGlzIENlbnRlciBvZiBSaXZlcnNpZGVATjBu"
-  },
-  {
-   "victim": "Commonwealth Community Bank",
-   "group": "qilin",
-   "date": "2026-10-24T03:30:27+00:00",
-   "attack_date": "2026-10-24",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/Q29tbW9ud2VhbHRoIENvbW11bml0eSBCYW5rQHFpbGlu"
-  },
-  {
-   "victim": "Trinity Custom Homes",
-   "group": "Deadlock",
-   "date": "2026-10-24T02:53:03+00:00",
-   "attack_date": "2026-10-24",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/VHJpbml0eSBDdXN0b20gSG9tZXNARGVhZGxvY2s="
-  },
-  {
-   "victim": "Family Planning Association of Pakistan",
-   "group": "Panzer",
-   "date": "2026-10-24T00:24:57+00:00",
-   "attack_date": "2026-10-23",
-   "country": "PK",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/RmFtaWx5IFBsYW5uaW5nIEFzc29jaWF0aW9uIG9mIFBha2lzdGFuQFBhbnplcg=="
-  },
-  {
-   "victim": "Hensel Elektrik",
-   "group": "Deadlock",
-   "date": "2026-10-23T21:50:47+00:00",
-   "attack_date": "2026-10-23",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/SGVuc2VsIEVsZWt0cmlrQERlYWRsb2Nr"
-  },
-  {
-   "victim": "Sanders Law Group",
-   "group": "rhysida",
-   "date": "2026-10-23T20:18:08+00:00",
-   "attack_date": "2026-10-23",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/U2FuZGVycyBMYXcgR3JvdXBAcmh5c2lkYQ=="
   }
  ]
 }
