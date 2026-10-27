@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T06:04:06+00:00",
+ "generated_at": "2026-10-27T09:07:07+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -8903,6 +8903,124 @@
    ],
    "history_size": 5,
    "updated": "2026-10-25T19:59:16+00:00"
+  },
+  "crypto24": {
+   "name": "crypto24",
+   "description": "Crypto24 is a double-extortion ransomware-as-a-service group that surfaced on the RAMP forum in mid-2024, targeting large organizations in financial services, healthcare, manufacturing, and technology across Asia, Europe, and North America, with notable victims including CMC Group, Vietnam's second-largest ICT conglomerate.",
+   "aliases": [],
+   "first_seen": "2023-12-13",
+   "last_seen": "2026-10-27",
+   "victims_total": 49,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 8
+     },
+     {
+      "name": "MY",
+      "count": 4
+     },
+     {
+      "name": "SG",
+      "count": 4
+     },
+     {
+      "name": "ID",
+      "count": 3
+     },
+     {
+      "name": "AR",
+      "count": 2
+     },
+     {
+      "name": "DE",
+      "count": 2
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Technology",
+      "count": 11
+     },
+     {
+      "name": "Manufacturing",
+      "count": 7
+     },
+     {
+      "name": "Professional Services",
+      "count": 7
+     },
+     {
+      "name": "Financial Services",
+      "count": 6
+     },
+     {
+      "name": "Healthcare",
+      "count": 6
+     },
+     {
+      "name": "Hospitality",
+      "count": 4
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-11",
+     "count": 2
+    },
+    {
+     "month": "2025-12",
+     "count": 3
+    },
+    {
+     "month": "2026-01",
+     "count": 2
+    },
+    {
+     "month": "2026-02",
+     "count": 1
+    },
+    {
+     "month": "2026-03",
+     "count": 5
+    },
+    {
+     "month": "2026-04",
+     "count": 3
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 1
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 2
+    }
+   ],
+   "history_size": 49,
+   "updated": "2026-10-27T09:07:07+00:00"
   }
  }
 }

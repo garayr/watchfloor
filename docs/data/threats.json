@@ -2,24 +2,24 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1525,
-  "c2_servers": 561,
+  "total_iocs": 1513,
+  "c2_servers": 526,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 371,
-    "c2": 347,
+    "iocs": 345,
+    "c2": 321,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 286,
+    "iocs": 292,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "SalatStealer",
-    "iocs": 167,
+    "iocs": 178,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
@@ -31,20 +31,20 @@
    },
    {
     "name": "Mirai",
-    "iocs": 82,
+    "iocs": 78,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 49,
+    "iocs": 47,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 33,
-    "c2": 32,
+    "iocs": 28,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
@@ -60,20 +60,20 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    },
    {
-    "name": "AsyncRAT",
+    "name": "Bashlite",
     "iocs": 16,
-    "c2": 6,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.bashlite"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 885,
+  "online": 878,
   "top_tags": [
    {
     "name": "github",
-    "count": 555
+    "count": 486
    },
    {
     "name": "SalatStealer",
@@ -81,26 +81,26 @@
    },
    {
     "name": "ua-wget",
-    "count": 194
+    "count": 250
    },
    {
     "name": "elf",
-    "count": 185
+    "count": 215
    },
    {
     "name": "mirai",
-    "count": 113
-   },
-   {
-    "name": "zapret",
-    "count": 108
+    "count": 140
    },
    {
     "name": "Mozi",
-    "count": 101
+    "count": 105
    },
    {
     "name": "176-65-139-40",
+    "count": 56
+   },
+   {
+    "name": "sh",
     "count": 56
    }
   ]
@@ -483,10 +483,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-27T07:37:10+00:00",
-  "sans": "2026-10-27T07:37:10+00:00",
-  "otx": "2026-10-27T07:37:10+00:00",
-  "urlhaus": "2026-10-27T07:37:10+00:00"
+  "threatfox": "2026-10-27T09:07:07+00:00",
+  "sans": "2026-10-27T09:07:07+00:00",
+  "otx": "2026-10-27T09:07:07+00:00",
+  "urlhaus": "2026-10-27T09:07:07+00:00"
  },
- "generated_at": "2026-10-27T07:37:10+00:00"
+ "generated_at": "2026-10-27T09:07:07+00:00"
 }
