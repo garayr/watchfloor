@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T09:07:07+00:00",
+ "generated_at": "2026-10-27T10:27:17+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -22,7 +22,7 @@
   },
   {
    "name": "everest",
-   "count": 7
+   "count": 8
   },
   {
    "name": "krybit",
@@ -43,11 +43,11 @@
    "count": 19
   },
   {
-   "name": "Professional Services",
-   "count": 14
+   "name": "Technology",
+   "count": 15
   },
   {
-   "name": "Technology",
+   "name": "Professional Services",
    "count": 14
   },
   {
@@ -77,12 +77,6 @@
    "lon": 8.7
   },
   {
-   "code": "ES",
-   "count": 4,
-   "lat": 40.4,
-   "lon": -3.7
-  },
-  {
    "code": "MY",
    "count": 4,
    "lat": 3.1,
@@ -93,6 +87,12 @@
    "count": 3,
    "lat": -34.6,
    "lon": -58.4
+  },
+  {
+   "code": "ES",
+   "count": 3,
+   "lat": 40.4,
+   "lon": -3.7
   },
   {
    "code": "GB",
@@ -222,6 +222,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "OR Technology",
+   "group": "everest",
+   "date": "2026-10-27T05:54:22+00:00",
+   "attack_date": "2026-10-27",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/T1IgVGVjaG5vbG9neUBldmVyZXN0"
+  },
   {
    "victim": "Burris & MacOmber",
    "group": "everest",
@@ -1076,15 +1085,6 @@
    "country": null,
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/d2hpdGVhcm1vci5jY0BXaGl0ZWFybW9y"
-  },
-  {
-   "victim": "zelsior.es",
-   "group": "lockbit5",
-   "date": "2026-10-23T17:16:08+00:00",
-   "attack_date": "2026-10-23",
-   "country": "ES",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/emVsc2lvci5lc0Bsb2NrYml0NQ=="
   },
   {
    "victim": "JS Constructor, INC",

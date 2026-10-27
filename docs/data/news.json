@@ -18,14 +18,6 @@
      "date": "2026-10-26T13:56:44+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
-     "summary": "The individuals called victims and persuaded them to install an app and scan their credit cards to loot their bank accounts. The post Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank…",
-     "source": "SecurityWeek",
-     "date": "2026-10-26T11:47:52+00:00",
-     "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
@@ -93,6 +85,27 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
+     "summary": "Keep your patch management pipelines primed in case another round of Citrix NetScaler patches get released soon. The post This is Fine: What NetScaler Zero-Days Tell Us About the New Normal appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-10-27T10:02:24+00:00",
+     "url": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-88779",
+      "CVE-2026-88772",
+      "CVE-2026-88771"
+     ]
+    },
+    {
+     "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+     "summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work…",
+     "source": "The Hacker News",
+     "date": "2026-10-27T08:22:43+00:00",
+     "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by…",
@@ -178,14 +191,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
-     "summary": "An out-of-bounds write in Google’s Brotli decoder affects Node.js,.NET, PowerShell, and Python packages, and can lead to code execution. The post Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js…",
-     "source": "SecurityWeek",
-     "date": "2026-10-26T10:21:57+00:00",
-     "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
      "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
      "source": "BleepingComputer",
@@ -205,28 +210,20 @@
      "date": "2026-10-25T17:19:46+00:00",
      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-     "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security…",
-     "source": "BleepingComputer",
-     "date": "2026-10-24T14:17:32+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-     "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's.NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to…",
-     "source": "The Hacker News",
-     "date": "2026-10-24T11:09:29+00:00",
-     "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+     "summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators…",
+     "source": "The Hacker News",
+     "date": "2026-10-27T09:33:06+00:00",
+     "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
      "summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is…",
@@ -264,6 +261,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover",
+     "summary": "Running at system boot, it periodically polled the update domain to execute any code served, with full privileges. The post Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-10-27T09:44:50+00:00",
+     "url": "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/",
+     "group": "Other news"
+    },
     {
      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with…",
