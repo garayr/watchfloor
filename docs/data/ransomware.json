@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-27T10:27:17+00:00",
+ "generated_at": "2026-10-27T11:42:36+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 28
+   "count": 27
   },
   {
    "name": "N0n",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Whitearmor",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Professional Services",
-   "count": 14
+   "count": 13
   },
   {
    "name": "Healthcare",
@@ -83,12 +83,6 @@
    "lon": 101.7
   },
   {
-   "code": "AR",
-   "count": 3,
-   "lat": -34.6,
-   "lon": -58.4
-  },
-  {
    "code": "ES",
    "count": 3,
    "lat": 40.4,
@@ -107,6 +101,12 @@
    "lon": 12.5
   },
   {
+   "code": "AR",
+   "count": 2,
+   "lat": -34.6,
+   "lon": -58.4
+  },
+  {
    "code": "FR",
    "count": 2,
    "lat": 48.9,
@@ -123,6 +123,12 @@
    "count": 2,
    "lat": 41.0,
    "lon": 29.0
+  },
+  {
+   "code": "AE",
+   "count": 1,
+   "lat": 24.5,
+   "lon": 54.4
   },
   {
    "code": "AU",
@@ -222,6 +228,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #111",
+   "group": "N0n",
+   "date": "2026-10-27T06:24:08+00:00",
+   "attack_date": "2026-10-27",
+   "country": "AE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTExQE4wbg=="
+  },
   {
    "victim": "OR Technology",
    "group": "everest",
@@ -1112,15 +1127,6 @@
    "country": "TR",
    "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/S2FsZSBCYWxhdGEgQUBxaWxpbg=="
-  },
-  {
-   "victim": "MaxiSeguridad",
-   "group": "qilin",
-   "date": "2026-10-23T16:25:48+00:00",
-   "attack_date": "2026-10-23",
-   "country": "AR",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/TWF4aVNlZ3VyaWRhZEBxaWxpbg=="
   }
  ]
 }
