@@ -2,24 +2,24 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1706,
-  "c2_servers": 542,
+  "total_iocs": 1718,
+  "c2_servers": 545,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 354,
-    "c2": 330,
+    "iocs": 358,
+    "c2": 334,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 302,
+    "iocs": 301,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 199,
+    "iocs": 195,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -31,19 +31,19 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 75,
+    "iocs": 74,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 46,
+    "iocs": 50,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 31,
+    "iocs": 30,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -54,54 +54,54 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
+    "name": "VShell",
+    "iocs": 20,
+    "c2": 20,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
     "name": "Formbook",
     "iocs": 19,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
-   },
-   {
-    "name": "VShell",
-    "iocs": 19,
-    "c2": 19,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 853,
+  "online": 805,
   "top_tags": [
    {
     "name": "ua-wget",
-    "count": 399
+    "count": 420
    },
    {
     "name": "elf",
-    "count": 332
-   },
-   {
-    "name": "github",
-    "count": 277
-   },
-   {
-    "name": "SalatStealer",
-    "count": 275
+    "count": 358
    },
    {
     "name": "mirai",
-    "count": 232
+    "count": 246
+   },
+   {
+    "name": "github",
+    "count": 229
+   },
+   {
+    "name": "FakeGit",
+    "count": 146
+   },
+   {
+    "name": "SmartLoader",
+    "count": 146
+   },
+   {
+    "name": "zip",
+    "count": 146
    },
    {
     "name": "Mozi",
-    "count": 106
-   },
-   {
-    "name": "sh",
-    "count": 68
-   },
-   {
-    "name": "exe",
-    "count": 51
+    "count": 107
    }
   ]
  },
@@ -211,6 +211,165 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Notorious Brazilian Magecart group hijacks Convertr checkouts via Plausible analytics",
+   "summary": "A Brazilian Magecart group, active since 2024, conducted a supply chain attack by injecting a card skimmer into the Plausible analytics script of Brazilian ecommerce platform Convertr. Starting October 24, 2026, all…",
+   "date": "2026-10-27T16:07:04+00:00",
+   "author": "AlienVault",
+   "adversary": "Brazilian Magecart group",
+   "malware": [],
+   "countries": [
+    "Brazil"
+   ],
+   "industries": [
+    "Retail"
+   ],
+   "tags": [
+    "convertr",
+    "card skimmer",
+    "supply chain attack",
+    "magecart",
+    "cve-2026-8467"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae0cc2833ef5c6a1e8fb136"
+  },
+  {
+   "name": "Camera Management Software Compromise Leads to Malware Deployment",
+   "summary": "Attackers compromised camera management software (CMS.exe) to gain initial access to multiple organizational environments. Following compromise, adversaries deployed rs.win32.exe into user AppData directories and…",
+   "date": "2026-10-27T16:07:04+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "rs.win32.exe"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "camera management software",
+    "dll sideloading"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae0cc28c4875a80ccd6b804"
+  },
+  {
+   "name": "Tricks from the Past deployed via signed ChatGPT and Claude binaries",
+   "summary": "Check Point Research discovered a campaign tracked as Yoba that exploits the popularity of AI tools like ChatGPT and Claude. Attackers created fake GitHub projects mimicking desktop applications such as GPT-5.6 Sol…",
+   "date": "2026-10-27T14:13:38+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Yoba",
+    "YobaDropper",
+    "YobaLoader",
+    "XMRig"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "xmrig",
+    "yoba",
+    "seo poisoning",
+    "github phishing",
+    "chatgpt lure",
+    "claude lure"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae0b192bfaf2df2545701f0"
+  },
+  {
+   "name": "PHP2Shell: Exploitation Attempts and Remediation Trends",
+   "summary": "Wiz Research has been monitoring exploitation attempts targeting two critical PHP vulnerabilities since their public disclosure on October 21, 2026. While no successful attacks have been observed in their telemetry…",
+   "date": "2026-10-27T14:12:36+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "php2shell",
+    "cve-2026-109618",
+    "cve-2026-109619"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae0b1549b888d367073448e"
+  },
+  {
+   "name": "Inside ICMacOS: From an Infostealer to a Persistent RAT",
+   "summary": "ICMacOS (Icarus macOS) is a newly identified macOS Malware-as-a-Service stealer actively marketed since September 2026 by the Russian-speaking actor GlowComa on underground forums. The malware targets macOS systems…",
+   "date": "2026-10-27T12:15:16+00:00",
+   "author": "AlienVault",
+   "adversary": "GlowComa",
+   "malware": [
+    "ICMacOS",
+    "Icarus macOS",
+    "AMOS",
+    "MacSync",
+    "Cthulhu"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "macos stealer",
+    "macsync",
+    "icarus macos",
+    "amos",
+    "remote access trojan"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae095d4e2266adbe75f4ec3"
+  },
+  {
+   "name": "Domain Shadowing: Attackers Abuse Institutional Domains",
+   "summary": "Two unrelated operations exploited domain shadowing techniques to place illegal gambling content beneath legitimate educational and government domains in Bangladesh, India, and Mexico. Unauthorized parties gained access…",
+   "date": "2026-10-27T12:15:10+00:00",
+   "author": "AlienVault",
+   "adversary": "Hidden Hawk",
+   "malware": [],
+   "countries": [
+    "Bangladesh",
+    "British Indian Ocean Territory",
+    "India",
+    "Mexico"
+   ],
+   "industries": [
+    "Education",
+    "Government"
+   ],
+   "tags": [
+    "cname abuse",
+    "ns delegation",
+    "dns hijacking",
+    "gambling seo",
+    "domain shadowing",
+    "parasite seo"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae095cebdd5fe9e0d5209f2"
+  },
+  {
+   "name": "PHP2Shell (CVE-2026-109618/9) Havoc: UNC actors leveraging Public Exploit Code Against Public, Business And Educational Infrastructure",
+   "summary": "Two critical use-after-free vulnerabilities in the PHP engine, CVE-2026-109618 and CVE-2026-109619, rated CVSS 9.2, affect the session.upload_progress feature. These flaws trigger during multipart request parsing before…",
+   "date": "2026-10-27T12:15:05+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Mirai",
+    "Keitaro"
+   ],
+   "countries": [],
+   "industries": [
+    "Education",
+    "Government",
+    "Healthcare",
+    "Hospitality",
+    "Energy",
+    "Finance"
+   ],
+   "tags": [
+    "php2shell",
+    "keitaro",
+    "remote code execution",
+    "cve-2026-109619",
+    "mirai",
+    "wordpress lfi"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae095c9103f37d94d160182"
+  },
   {
    "name": "DarkCore: A Data-Theft RAT With a Session-Hijacking Browser",
    "summary": "Security researchers uncovered DarkCore, a remote access trojan distributed through cybercrime networks with advanced credential theft and session hijacking capabilities. The threat features a dedicated browser that…",
@@ -323,174 +482,13 @@
     "supply chain"
    ],
    "url": "https://otx.alienvault.com/pulse/6ade9b49eed172cd38ff41e7"
-  },
-  {
-   "name": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
-   "summary": "A criminal group has compromised 953 online stores, predominantly Magento shops, since July 2025 by injecting malicious JavaScript loaders into CMS blocks. The latest domain, deepveindrilling.com, was registered in…",
-   "date": "2026-10-25T06:07:55+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "PolyShell",
-    "SessionReaper",
-    "GSocket"
-   ],
-   "countries": [],
-   "industries": [
-    "Retail"
-   ],
-   "tags": [
-    "keitaro tds",
-    "gsocket",
-    "browser fingerprinting",
-    "cms block injection",
-    "magento"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6add9cbb9d565685946f59b0"
-  },
-  {
-   "name": "Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure",
-   "summary": "A Korean-speaking threat actor, tracked as the June 2026 Minjun campaign and linked with moderate confidence to North Korea's Lazarus Group, is actively planning targeted exploitation of two critical PHP vulnerabilities…",
-   "date": "2026-10-24T01:20:52+00:00",
-   "author": "AlienVault",
-   "adversary": "Lazarus Group",
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "Australia",
-    "British Indian Ocean Territory",
-    "India",
-    "Indonesia",
-    "Japan"
-   ],
-   "industries": [
-    "Government",
-    "Finance",
-    "Manufacturing",
-    "Transportation",
-    "Aerospace",
-    "Construction"
-   ],
-   "tags": [
-    "php2shell",
-    "cve-2026-109618",
-    "web shell",
-    "dprk"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50"
-  },
-  {
-   "name": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-   "summary": "On October 21, 2026, LiteLLM version 1.107.0 was compromised and distributed through PyPI and official container images. The malicious package leveraged Python startup mechanisms to execute credential-stealing payloads…",
-   "date": "2026-10-23T20:52:24+00:00",
-   "author": "AlienVault",
-   "adversary": "Storm-0940",
-   "malware": [
-    "PRIVCOLLECT",
-    "ARTEX"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "developer tools",
-    "pypi",
-    "artex",
-    "startup hooks",
-    "litellm",
-    "supply chain compromise"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6adbc9083a47da5843e87e6a"
-  },
-  {
-   "name": "Infostealer riding the AI Train",
-   "summary": "Aokigahara is a newly identified infostealer with traditional data theft capabilities targeting browsers, VPN clients, cryptocurrency wallets, FTP/SFTP clients, password managers, and email applications. Its…",
-   "date": "2026-10-23T16:09:04+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Aokigahara",
-    "Kamidere",
-    "Stygian"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "infostealer",
-    "kamidere",
-    "aokigahara",
-    "stygian",
-    "ai applications"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6adb86a013dc27c6c19d3f3c"
-  },
-  {
-   "name": "VeloCloud Orchestrator SQL Injection Vulnerability",
-   "summary": "VeloCloud Orchestrator (VCO) on-premises versions contain a critical SQL injection vulnerability that allows authenticated users with minimal privileges to escalate to superuser operator access. Any user with Enterprise…",
-   "date": "2026-10-23T12:28:45+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "sql injection",
-    "active exploitation",
-    "velocloud orchestrator",
-    "cve-2026-114625"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6adb52fde8bfb072942ad917"
-  },
-  {
-   "name": "SEO Poisoning Campaign Delivers New Armorsteal Malware",
-   "summary": "In September 2026, an SEO poisoning campaign distributed Armorsteal malware through fake websites impersonating Chocolatey package manager and Microsoft Activation Scripts (MAS) tool. Victims searching for software…",
-   "date": "2026-10-22T19:13:21+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Armorsteal"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "python malware",
-    "clipboard hijacking",
-    "armorsteal",
-    "seo poisoning",
-    "typosquatting",
-    "pyarmor"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ada6051fb91aa7551af4ba6"
-  },
-  {
-   "name": "StealC Is Back, and This Time It's a RAT",
-   "summary": "Four months after Operation Endgame dismantled StealC in June, its seller returned in October with Stadia, a full-featured remote access trojan that incorporates StealC's code verbatim. Unlike its predecessor, Stadia…",
-   "date": "2026-10-22T19:08:14+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Stadia",
-    "StealC"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "operation endgame",
-    "stadia",
-    "hvnc",
-    "stealc"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ada5f1e1071ed1bf4072f30"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-27T15:40:36+00:00",
-  "sans": "2026-10-27T15:40:36+00:00",
-  "otx": "2026-10-27T15:40:36+00:00",
-  "urlhaus": "2026-10-27T15:40:36+00:00"
+  "threatfox": "2026-10-27T17:11:01+00:00",
+  "sans": "2026-10-27T17:11:01+00:00",
+  "otx": "2026-10-27T17:11:01+00:00",
+  "urlhaus": "2026-10-27T17:11:01+00:00"
  },
- "generated_at": "2026-10-27T15:40:36+00:00"
+ "generated_at": "2026-10-27T17:11:01+00:00"
 }

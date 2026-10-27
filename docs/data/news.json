@@ -86,6 +86,25 @@
      "group": "Exploited right now"
     },
     {
+     "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+     "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The…",
+     "source": "The Hacker News",
+     "date": "2026-10-27T13:59:48+00:00",
+     "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+     "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds…",
+     "source": "The Hacker News",
+     "date": "2026-10-27T13:59:09+00:00",
+     "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-86950"
+     ]
+    },
+    {
      "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
      "summary": "Eight max-severity security defects could lead to remote code execution and authentication bypass. The post HPE Patches Dozens of Critical Flaws in Networking Products appeared first on SecurityWeek.",
      "source": "SecurityWeek",
@@ -242,14 +261,6 @@
      "date": "2026-10-26T18:12:22+00:00",
      "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-     "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these…",
-     "source": "The Hacker News",
-     "date": "2026-10-26T09:54:02+00:00",
-     "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
@@ -342,14 +353,6 @@
      "source": "The Hacker News",
      "date": "2026-10-26T11:23:56+00:00",
      "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
-     "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-26T10:26:52+00:00",
-     "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
      "group": "Other news"
     }
    ]
