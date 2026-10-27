@@ -1,6 +1,56 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-48356",
+   "date": "2026-10-27",
+   "src": "CISA",
+   "vendor": "Adobe Commerce and Magento",
+   "vendor_name": "Adobe",
+   "product": "Commerce and Magento",
+   "title": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+   "detail": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-10",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-48356"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
+   "kev": true,
+   "epss": 0.3058,
+   "cvss": 9.3,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-111497",
+   "date": "2026-10-27",
+   "src": "CISA",
+   "vendor": "Google Brotli",
+   "vendor_name": "Google",
+   "product": "Brotli",
+   "title": "Google Brotli Unchecked Return Value Vulnerability",
+   "detail": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-10",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+   "kev": true,
+   "epss": 0.5548,
+   "cvss": 9.2,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+     "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+     "source": "The Hacker News",
+     "date": "2026-10-26T17:45:57+00:00"
+    }
+   ]
+  },
+  {
    "id": "CVE-2026-109618",
    "date": "2026-10-26",
    "src": "CISA",
