@@ -25,6 +25,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+     "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-27T16:15:39+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
      "summary": "A leaked SquareML access key could have been used to access a database containing personal and health information. The post Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk appeared first on…",
      "source": "SecurityWeek",
@@ -197,19 +205,6 @@
      "date": "2026-10-26T11:52:41+00:00",
      "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-     "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-26T09:19:57+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-109618",
-      "CVE-2026-109619",
-      "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
-     ]
     }
    ]
   },
