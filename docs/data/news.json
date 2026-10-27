@@ -25,6 +25,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
+     "summary": "A leaked SquareML access key could have been used to access a database containing personal and health information. The post Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-10-27T13:30:28+00:00",
+     "url": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Energy giant ENGIE discloses data breach affecting customers",
      "summary": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
      "source": "BleepingComputer",
@@ -47,28 +55,20 @@
      "date": "2026-10-26T15:52:40+00:00",
      "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-     "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into…",
-     "source": "The Hacker News",
-     "date": "2026-10-26T08:35:51+00:00",
-     "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-     "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have…",
-     "source": "The Hacker News",
-     "date": "2026-10-26T07:49:46+00:00",
-     "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+     "summary": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-27T14:09:46+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+     "group": "Exploited right now"
+    },
     {
      "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
      "summary": "Eight max-severity security defects could lead to remote code execution and authentication bypass. The post HPE Patches Dozens of Critical Flaws in Networking Products appeared first on SecurityWeek.",
@@ -175,14 +175,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
-     "summary": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-10-26T14:52:14+00:00",
-     "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
      "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already…",
      "source": "The Hacker News",
@@ -261,6 +253,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+     "summary": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting…",
+     "source": "BleepingComputer",
+     "date": "2026-10-27T14:01:11+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+     "group": "Other news"
+    },
     {
      "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
      "summary": "The company says it reacted to an issue affecting some of its systems, including DreamHost webmail. The post Unexplained DreamHost Incident Prompts Email, FTP Password Resets appeared first on SecurityWeek.",
