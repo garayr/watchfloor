@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T00:19:33+00:00",
+ "generated_at": "2026-10-27T01:14:51+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -44,29 +44,29 @@
   },
   {
    "name": "Professional Services",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Technology",
    "count": 13
   },
   {
-   "name": "Healthcare",
-   "count": 10
-  },
-  {
    "name": "Retail & E-Commerce",
    "count": 10
   },
   {
+   "name": "Healthcare",
+   "count": 9
+  },
+  {
    "name": "Energy & Utilities",
-   "count": 7
+   "count": 8
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 34,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -107,16 +107,16 @@
    "lon": -99.1
   },
   {
+   "code": "MY",
+   "count": 3,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
    "code": "CH",
    "count": 2,
    "lat": 46.9,
    "lon": 7.4
-  },
-  {
-   "code": "MY",
-   "count": 2,
-   "lat": 3.1,
-   "lon": 101.7
   },
   {
    "code": "TR",
@@ -228,6 +228,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "University of New Mexico",
+   "group": "BYOD",
+   "date": "2026-10-26T20:52:51+00:00",
+   "attack_date": "2026-10-26",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/VW5pdmVyc2l0eSBvZiBOZXcgTWV4aWNvQEJZT0Q="
+  },
+  {
+   "victim": "MISC Group",
+   "group": "rhysida",
+   "date": "2026-10-26T20:27:18+00:00",
+   "attack_date": "2026-10-26",
+   "country": "MY",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/TUlTQyBHcm91cEByaHlzaWRh"
+  },
   {
    "victim": "Ingelectus Innovative Electrical Solutions S.L.",
    "group": "N0n",
@@ -1057,15 +1075,6 @@
    "url": "https://www.ransomware.live/id/RG9uIFBpY2tldHQgJiBBc3NvY2lhdGVzQHNhcmNvbWE="
   },
   {
-   "victim": "vinsolutions.com",
-   "group": "Scarlettgroup",
-   "date": "2026-10-23T10:58:40+00:00",
-   "attack_date": "2026-10-23",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/dmluc29sdXRpb25zLmNvbUBTY2FybGV0dGdyb3Vw"
-  },
-  {
    "victim": "Line2Line Coatings",
    "group": "rhysida",
    "date": "2026-10-23T10:20:13+00:00",
@@ -1091,15 +1100,6 @@
    "country": "ET",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/SG9ybiBvZiBBZnJpY2EgUmVnaW9uYWwgRW52aXJvbm1lbnQgQ2VudHJlIGFuZCBOZXR3b3JrQE4wbg=="
-  },
-  {
-   "victim": "Prism Medical Products",
-   "group": "Wallstreet",
-   "date": "2026-10-23T07:58:37+00:00",
-   "attack_date": "2026-10-23",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/UHJpc20gTWVkaWNhbCBQcm9kdWN0c0BXYWxsc3RyZWV0"
   },
   {
    "victim": "PROTEX Confection",
