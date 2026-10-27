@@ -63,20 +63,28 @@
      "date": "2026-10-26T07:49:46+00:00",
      "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-     "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things…",
-     "source": "The Hacker News",
-     "date": "2026-10-25T17:44:09+00:00",
-     "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
+     "summary": "Eight max-severity security defects could lead to remote code execution and authentication bypass. The post HPE Patches Dozens of Critical Flaws in Networking Products appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-27T13:13:58+00:00",
+     "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+     "summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account…",
+     "source": "The Hacker News",
+     "date": "2026-10-27T12:09:50+00:00",
+     "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
      "summary": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18…",
@@ -202,20 +210,28 @@
       "CVE-2026-109619",
       "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
      ]
-    },
-    {
-     "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-     "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What…",
-     "source": "The Hacker News",
-     "date": "2026-10-25T17:19:46+00:00",
-     "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+     "summary": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific…",
+     "source": "The Hacker News",
+     "date": "2026-10-27T11:32:46+00:00",
+     "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+     "group": "Malware and campaigns"
+    },
+    {
+     "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+     "summary": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and…",
+     "source": "The Hacker News",
+     "date": "2026-10-27T11:32:31+00:00",
+     "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
      "summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators…",
@@ -239,14 +255,6 @@
      "date": "2026-10-26T09:54:02+00:00",
      "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-     "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The…",
-     "source": "The Hacker News",
-     "date": "2026-10-26T06:03:48+00:00",
-     "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
@@ -259,6 +267,14 @@
      "source": "SecurityWeek",
      "date": "2026-10-27T12:02:06+00:00",
      "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+     "group": "Other news"
+    },
+    {
+     "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+     "summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit…",
+     "source": "The Hacker News",
+     "date": "2026-10-27T11:46:00+00:00",
+     "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
      "group": "Other news"
     },
     {
@@ -318,14 +334,6 @@
      "group": "Other news"
     },
     {
-     "title": "Genesys Hack Exposes Customer Data From Internal Systems",
-     "summary": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected. The post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-26T14:40:48+00:00",
-     "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
-     "group": "Other news"
-    },
-    {
      "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
      "summary": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
      "source": "BleepingComputer",
@@ -347,14 +355,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-26T10:26:52+00:00",
      "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-     "group": "Other news"
-    },
-    {
-     "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-     "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-25T15:49:38+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
      "group": "Other news"
     }
    ]
