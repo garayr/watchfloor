@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T06:04:06+00:00",
+ "generated_at": "2026-10-27T07:37:10+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -13,12 +13,12 @@
    "count": 13
   },
   {
-   "name": "emperador",
+   "name": "Whitearmor",
    "count": 8
   },
   {
-   "name": "Whitearmor",
-   "count": 7
+   "name": "emperador",
+   "count": 8
   },
   {
    "name": "krybit",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 18
+   "count": 17
   },
   {
    "name": "Professional Services",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Technology",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Retail & E-Commerce",
@@ -222,6 +222,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Verification",
+   "group": "Whitearmor",
+   "date": "2026-10-27T03:07:40+00:00",
+   "attack_date": "2026-10-27",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/VmVyaWZpY2F0aW9uQFdoaXRlYXJtb3I="
+  },
   {
    "victim": "zzq-test",
    "group": "ULose",
@@ -1112,15 +1121,6 @@
    "country": null,
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/RG9uIFBpY2tldHQgJiBBc3NvY2lhdGVzQHNhcmNvbWE="
-  },
-  {
-   "victim": "Line2Line Coatings",
-   "group": "rhysida",
-   "date": "2026-10-23T10:20:13+00:00",
-   "attack_date": "2026-10-23",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TGluZTJMaW5lIENvYXRpbmdzQHJoeXNpZGE="
   }
  ]
 }

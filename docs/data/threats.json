@@ -2,54 +2,54 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1521,
-  "c2_servers": 525,
+  "total_iocs": 1525,
+  "c2_servers": 561,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 352,
-    "c2": 328,
+    "iocs": 371,
+    "c2": 347,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 285,
+    "iocs": 286,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "SalatStealer",
-    "iocs": 160,
+    "iocs": 167,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
-    "name": "Mirai",
-    "iocs": 97,
-    "c2": 6,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 78,
+    "iocs": 82,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Mirai",
+    "iocs": 82,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "StrelaStealer",
-    "iocs": 46,
+    "iocs": 49,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Cobalt Strike",
     "iocs": 33,
-    "c2": 33,
+    "c2": 32,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 26,
+    "iocs": 28,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
@@ -60,44 +60,44 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    },
    {
-    "name": "PureRAT",
-    "iocs": 15,
-    "c2": 15,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
+    "name": "AsyncRAT",
+    "iocs": 16,
+    "c2": 6,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 899,
+  "online": 885,
   "top_tags": [
    {
     "name": "github",
-    "count": 653
+    "count": 555
    },
    {
     "name": "SalatStealer",
     "count": 444
    },
    {
-    "name": "zapret",
-    "count": 206
+    "name": "ua-wget",
+    "count": 194
    },
    {
     "name": "elf",
-    "count": 179
-   },
-   {
-    "name": "ua-wget",
-    "count": 163
+    "count": 185
    },
    {
     "name": "mirai",
-    "count": 110
+    "count": 113
+   },
+   {
+    "name": "zapret",
+    "count": 108
    },
    {
     "name": "Mozi",
-    "count": 93
+    "count": 101
    },
    {
     "name": "176-65-139-40",
@@ -483,10 +483,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-27T06:04:06+00:00",
-  "sans": "2026-10-27T06:04:06+00:00",
-  "otx": "2026-10-27T06:04:06+00:00",
-  "urlhaus": "2026-10-27T06:04:06+00:00"
+  "threatfox": "2026-10-27T07:37:10+00:00",
+  "sans": "2026-10-27T07:37:10+00:00",
+  "otx": "2026-10-27T07:37:10+00:00",
+  "urlhaus": "2026-10-27T07:37:10+00:00"
  },
- "generated_at": "2026-10-27T06:04:06+00:00"
+ "generated_at": "2026-10-27T07:37:10+00:00"
 }
