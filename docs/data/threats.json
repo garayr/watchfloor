@@ -2,20 +2,26 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1616,
-  "c2_servers": 528,
+  "total_iocs": 1706,
+  "c2_servers": 542,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 352,
-    "c2": 328,
+    "iocs": 354,
+    "c2": 330,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 305,
+    "iocs": 302,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 199,
+    "c2": 5,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "SalatStealer",
@@ -24,33 +30,27 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
-    "name": "Mirai",
-    "iocs": 167,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 73,
+    "iocs": 75,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 44,
+    "iocs": 46,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 30,
+    "iocs": 31,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 23,
-    "c2": 22,
+    "iocs": 21,
+    "c2": 20,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
@@ -60,48 +60,48 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    },
    {
-    "name": "PureRAT",
-    "iocs": 17,
-    "c2": 17,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
+    "name": "VShell",
+    "iocs": 19,
+    "c2": 19,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 840,
+  "online": 853,
   "top_tags": [
    {
     "name": "ua-wget",
-    "count": 436
+    "count": 399
    },
    {
     "name": "elf",
-    "count": 357
+    "count": 332
    },
    {
     "name": "github",
-    "count": 309
+    "count": 277
    },
    {
     "name": "SalatStealer",
-    "count": 307
+    "count": 275
    },
    {
     "name": "mirai",
-    "count": 256
+    "count": 232
    },
    {
     "name": "Mozi",
-    "count": 92
+    "count": 106
    },
    {
     "name": "sh",
-    "count": 79
+    "count": 68
    },
    {
-    "name": "176-65-139-40",
-    "count": 44
+    "name": "exe",
+    "count": 51
    }
   ]
  },
@@ -211,6 +211,52 @@
   }
  ],
  "pulses": [
+  {
+   "name": "DarkCore: A Data-Theft RAT With a Session-Hijacking Browser",
+   "summary": "Security researchers uncovered DarkCore, a remote access trojan distributed through cybercrime networks with advanced credential theft and session hijacking capabilities. The threat features a dedicated browser that…",
+   "date": "2026-10-27T12:15:02+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "DarkCore"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "darkcore",
+    "remote access",
+    "hvnc",
+    "business email compromise",
+    "cookie theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae095c663fb4a4ea6376f77"
+  },
+  {
+   "name": "How VBScript Malware Evades Detection Using Trusted Tools Copy",
+   "summary": "Three malware campaigns using VBScript have been identified targeting victims primarily in Brazil and Portugal through phishing attacks. The campaigns deliver Overlord RAT, Lampion trojan, and an unknown RAT using fake…",
+   "date": "2026-10-27T12:15:01+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Overlord RAT",
+    "Lampion"
+   ],
+   "countries": [
+    "Brazil",
+    "Portugal"
+   ],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "overlord rat",
+    "vbscript",
+    "phishing",
+    "banking trojan",
+    "lampion"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae095c5697cb799b2ecd396"
+  },
   {
    "name": "Beyond testmetest: Native Addon Camouflage and 42 Armed GitHub Repositories Reveal a Hidden npm Publisher",
    "summary": "Security researchers identified a sophisticated supply chain attack campaign involving 42 compromised GitHub repositories across 11 legitimate owners connected to the testmetest npm operation. The campaign evolved to…",
@@ -420,48 +466,6 @@
    "url": "https://otx.alienvault.com/pulse/6ada6051fb91aa7551af4ba6"
   },
   {
-   "name": "Beyond the Sandbox: Leveraging Android Intrusion Logs to Expose Advanced Threats",
-   "summary": "Advanced Android threats increasingly operate beyond the standard application sandbox, requiring multi-layered detection strategies that combine on-device behavioral analysis with OS-level telemetry. Android's Delegated…",
-   "date": "2026-10-22T19:08:16+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "RatHat"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "byod",
-    "intrusion logging",
-    "rathat"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ada5f20aaf6e87709a6dee5"
-  },
-  {
-   "name": "2026 Year End Phishing Lures",
-   "summary": "As organizations approach year-end and fiscal close periods, employees face increased administrative activity in finance, HR, and IT departments. This heightened legitimate communication creates ideal cover for phishing…",
-   "date": "2026-10-22T19:08:16+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Finance",
-    "Technology",
-    "Telecommunications",
-    "Manufacturing",
-    "Real Estate",
-    "Aviation"
-   ],
-   "tags": [
-    "sharepoint-impersonation",
-    "social-engineering",
-    "docusign-impersonation",
-    "phishing"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ada5f2001908e1c7f2a85b3"
-  },
-  {
    "name": "StealC Is Back, and This Time It's a RAT",
    "summary": "Four months after Operation Endgame dismantled StealC in June, its seller returned in October with Stadia, a full-featured remote access trojan that incorporates StealC's code verbatim. Unlike its predecessor, Stadia…",
    "date": "2026-10-22T19:08:14+00:00",
@@ -483,10 +487,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-27T14:13:36+00:00",
-  "sans": "2026-10-27T14:13:36+00:00",
-  "otx": "2026-10-27T14:13:36+00:00",
-  "urlhaus": "2026-10-27T14:13:36+00:00"
+  "threatfox": "2026-10-27T15:40:36+00:00",
+  "sans": "2026-10-27T15:40:36+00:00",
+  "otx": "2026-10-27T15:40:36+00:00",
+  "urlhaus": "2026-10-27T15:40:36+00:00"
  },
- "generated_at": "2026-10-27T14:13:36+00:00"
+ "generated_at": "2026-10-27T15:40:36+00:00"
 }

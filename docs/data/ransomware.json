@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T14:13:36+00:00",
+ "generated_at": "2026-10-27T15:40:36+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -52,7 +52,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Retail & E-Commerce",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 32,
+   "count": 34,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -119,12 +119,6 @@
    "lon": -99.1
   },
   {
-   "code": "TR",
-   "count": 2,
-   "lat": 41.0,
-   "lon": 29.0
-  },
-  {
    "code": "AE",
    "count": 1,
    "lat": 24.5,
@@ -135,12 +129,6 @@
    "count": 1,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "BD",
-   "count": 1,
-   "lat": 23.8,
-   "lon": 90.4
   },
   {
    "code": "BE",
@@ -221,6 +209,12 @@
    "lon": 103.8
   },
   {
+   "code": "TR",
+   "count": 1,
+   "lat": 41.0,
+   "lon": 29.0
+  },
+  {
    "code": "UA",
    "count": 1,
    "lat": 50.45,
@@ -228,6 +222,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "NuVista Federal Credit Union",
+   "group": "qilin",
+   "date": "2026-10-27T10:38:24+00:00",
+   "attack_date": "2026-10-27",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/TnVWaXN0YSBGZWRlcmFsIENyZWRpdCBVbmlvbkBxaWxpbg=="
+  },
+  {
+   "victim": "Hawaii Law Enforcement Fedral Credit Union",
+   "group": "qilin",
+   "date": "2026-10-27T10:37:43+00:00",
+   "attack_date": "2026-10-27",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/SGF3YWlpIExhdyBFbmZvcmNlbWVudCBGZWRyYWwgQ3JlZGl0IFVuaW9uQHFpbGlu"
+  },
   {
    "victim": "Company #111",
    "group": "N0n",
@@ -1109,24 +1121,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/SlMgQ29uc3RydWN0b3IsIElOQ0BlbXBlcmFkb3I="
-  },
-  {
-   "victim": "Labaid Cancer Hospital And Super Speciality Center",
-   "group": "qilin",
-   "date": "2026-10-23T16:26:27+00:00",
-   "attack_date": "2026-10-23",
-   "country": "BD",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TGFiYWlkIENhbmNlciBIb3NwaXRhbCBBbmQgU3VwZXIgU3BlY2lhbGl0eSBDZW50ZXJAcWlsaW4="
-  },
-  {
-   "victim": "Kale Balata A",
-   "group": "qilin",
-   "date": "2026-10-23T16:26:08+00:00",
-   "attack_date": "2026-10-23",
-   "country": "TR",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/S2FsZSBCYWxhdGEgQUBxaWxpbg=="
   }
  ]
 }
