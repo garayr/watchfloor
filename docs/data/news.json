@@ -107,20 +107,28 @@
      "date": "2026-10-27T09:25:50+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "University of Copenhagen data breach exposes data of 525,000 people",
-     "summary": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-26T22:20:36+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
+     "summary": "Four EPICS Base flaws found by an autonomous system could let attackers crash processes at particle accelerators and fusion labs. The post Long-Hidden Flaws Patched in EPICS Research Facility Control Software appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-10-28T10:48:00+00:00",
+     "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+     "summary": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-28T10:46:23+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+     "group": "Exploited right now"
+    },
     {
      "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
      "summary": "CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution. The post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek.",
@@ -221,17 +229,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
-     "summary": "Keep your patch management pipelines primed in case another round of Citrix NetScaler patches get released soon. The post This is Fine: What NetScaler Zero-Days Tell Us About the New Normal appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-10-27T10:02:24+00:00",
-     "url": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-88779"
-     ]
-    },
-    {
      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
      "summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work…",
      "source": "The Hacker News",
@@ -294,6 +291,14 @@
    "group": "Other news",
    "items": [
     {
+     "title": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway.",
+     "summary": "The process that gates nearly every B2B deal is a self-assessment the sender distrusts and the receiver accepts. There is finally a better basis for trust between companies. The post Nobody Trusts the Security…",
+     "source": "SecurityWeek",
+     "date": "2026-10-28T10:30:00+00:00",
+     "url": "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/",
+     "group": "Other news"
+    },
+    {
      "title": "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise",
      "summary": "The company will use the Series B funds to expand its platform for securing AI agents’ access to sensitive systems. The post Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise appeared…",
      "source": "SecurityWeek",
@@ -339,14 +344,6 @@
      "source": "The Hacker News",
      "date": "2026-10-27T11:46:00+00:00",
      "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
-     "summary": "Anthropic presents its own initial public offering as a step toward mitigating the risks it believes AI poses. The post Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-10-27T10:44:20+00:00",
-     "url": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
      "group": "Other news"
     },
     {
