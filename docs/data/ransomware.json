@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T01:29:08+00:00",
+ "generated_at": "2026-10-28T03:08:52+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -21,12 +21,12 @@
    "count": 8
   },
   {
-   "name": "everest",
+   "name": "emperador",
    "count": 8
   },
   {
-   "name": "emperador",
-   "count": 7
+   "name": "everest",
+   "count": 8
   },
   {
    "name": "play",
@@ -47,16 +47,16 @@
    "count": 13
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 12
-  },
-  {
    "name": "Technology",
    "count": 12
   },
   {
    "name": "Manufacturing",
    "count": 11
+  },
+  {
+   "name": "Retail & E-Commerce",
+   "count": 10
   },
   {
    "name": "Energy & Utilities",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 38,
+   "count": 37,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -83,10 +83,10 @@
    "lon": -0.1
   },
   {
-   "code": "MY",
-   "count": 4,
-   "lat": 3.1,
-   "lon": 101.7
+   "code": "BE",
+   "count": 3,
+   "lat": 50.8,
+   "lon": 4.4
   },
   {
    "code": "IT",
@@ -95,10 +95,10 @@
    "lon": 12.5
   },
   {
-   "code": "BE",
-   "count": 2,
-   "lat": 50.8,
-   "lon": 4.4
+   "code": "MY",
+   "count": 3,
+   "lat": 3.1,
+   "lon": 101.7
   },
   {
    "code": "CA",
@@ -204,6 +204,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Machelen (Belgium)",
+   "group": "rhysida",
+   "date": "2026-10-27T22:25:47+00:00",
+   "attack_date": "2026-10-27",
+   "country": "BE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TWFjaGVsZW4gKEJlbGdpdW0pQHJoeXNpZGE="
+  },
+  {
+   "victim": "TWICE SRL",
+   "group": "emperador",
+   "date": "2026-10-27T21:22:05+00:00",
+   "attack_date": "2026-10-27",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/VFdJQ0UgU1JMQGVtcGVyYWRvcg=="
+  },
   {
    "victim": "Tailormade Logistics",
    "group": "play",
@@ -1085,24 +1103,6 @@
    "country": "NL",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/U0xUTiBJbnRlciBBY2Nlc3NAcWlsaW4="
-  },
-  {
-   "victim": "www.choicegoodwill.com",
-   "group": "krybit",
-   "date": "2026-10-24T11:22:23+00:00",
-   "attack_date": "2026-10-24",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/d3d3LmNob2ljZWdvb2R3aWxsLmNvbUBrcnliaXQ="
-  },
-  {
-   "victim": "mainplace.com.my",
-   "group": "krybit",
-   "date": "2026-10-24T11:21:47+00:00",
-   "attack_date": "2026-10-24",
-   "country": "MY",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/bWFpbnBsYWNlLmNvbS5teUBrcnliaXQ="
   }
  ]
 }
