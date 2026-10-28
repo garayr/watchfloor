@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:19:44+00:00",
+ "generated_at": "2026-10-28T21:46:15+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -17,16 +17,16 @@
    "count": 10
   },
   {
-   "name": "N0n",
-   "count": 8
-  },
-  {
    "name": "everest",
    "count": 8
   },
   {
    "name": "play",
    "count": 7
+  },
+  {
+   "name": "N0n",
+   "count": 6
   },
   {
    "name": "emperador",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Manufacturing",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 36,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -180,6 +180,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "L...",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-28T17:34:09+00:00",
+   "attack_date": "2026-10-28",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TC4uLkBTaWxlbnRSYW5zb21Hcm91cA=="
+  },
+  {
+   "victim": "Noelker and Hull",
+   "group": "rhysida",
+   "date": "2026-10-28T16:59:06+00:00",
+   "attack_date": "2026-10-28",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Tm9lbGtlciBhbmQgSHVsbEByaHlzaWRh"
+  },
   {
    "victim": "Hauhinco",
    "group": "payload",
@@ -1061,24 +1079,6 @@
    "country": null,
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/UHVyZSBHcm93IERpYW1vbmRzIEluYy5ATjBu"
-  },
-  {
-   "victim": "Mach Law APC (San Diego family law and divorce practice)",
-   "group": "N0n",
-   "date": "2026-10-25T06:55:09+00:00",
-   "attack_date": "2026-10-25",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/TWFjaCBMYXcgQVBDIChTYW4gRGllZ28gZmFtaWx5IGxhdyBhbmQgZGl2b3JjZSBwcmFjdGljZSlATjBu"
-  },
-  {
-   "victim": "Keidel Supply Company Incorporated",
-   "group": "N0n",
-   "date": "2026-10-25T06:54:40+00:00",
-   "attack_date": "2026-10-25",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/S2VpZGVsIFN1cHBseSBDb21wYW55IEluY29ycG9yYXRlZEBOMG4="
   }
  ]
 }
