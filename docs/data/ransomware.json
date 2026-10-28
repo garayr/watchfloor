@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T23:24:23+00:00",
+ "generated_at": "2026-10-28T00:25:59+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -29,12 +29,12 @@
    "count": 7
   },
   {
-   "name": "krybit",
-   "count": 5
+   "name": "play",
+   "count": 7
   },
   {
-   "name": "play",
-   "count": 4
+   "name": "Falcon",
+   "count": 3
   }
  ],
  "by_sector": [
@@ -43,19 +43,19 @@
    "count": 13
   },
   {
-   "name": "Manufacturing",
+   "name": "Professional Services",
    "count": 13
   },
   {
-   "name": "Professional Services",
-   "count": 13
+   "name": "Retail & E-Commerce",
+   "count": 12
   },
   {
    "name": "Technology",
    "count": 12
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Manufacturing",
    "count": 11
   },
   {
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 36,
+   "count": 38,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -95,12 +95,6 @@
    "lon": 12.5
   },
   {
-   "code": "MX",
-   "count": 3,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
    "code": "BE",
    "count": 2,
    "lat": 50.8,
@@ -123,6 +117,12 @@
    "count": 2,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "MX",
+   "count": 2,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "AE",
@@ -161,10 +161,10 @@
    "lon": 116.4
   },
   {
-   "code": "EG",
+   "code": "DK",
    "count": 1,
-   "lat": 30.0,
-   "lon": 31.2
+   "lat": 55.7,
+   "lon": 12.6
   },
   {
    "code": "MM",
@@ -204,6 +204,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Tailormade Logistics",
+   "group": "play",
+   "date": "2026-10-27T19:51:56+00:00",
+   "attack_date": "2026-10-27",
+   "country": "DK",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/VGFpbG9ybWFkZSBMb2dpc3RpY3NAcGxheQ=="
+  },
+  {
+   "victim": "Coast 2 Coast",
+   "group": "play",
+   "date": "2026-10-27T19:51:00+00:00",
+   "attack_date": "2026-10-27",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/Q29hc3QgMiBDb2FzdEBwbGF5"
+  },
+  {
+   "victim": "VPC Builders",
+   "group": "play",
+   "date": "2026-10-27T19:50:08+00:00",
+   "attack_date": "2026-10-27",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/VlBDIEJ1aWxkZXJzQHBsYXk="
+  },
   {
    "victim": "UPDATE: UNM",
    "group": "BYOD",
@@ -1076,33 +1103,6 @@
    "country": "MY",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/bWFpbnBsYWNlLmNvbS5teUBrcnliaXQ="
-  },
-  {
-   "victim": "MODON Developments S.A.E",
-   "group": "krybit",
-   "date": "2026-10-24T11:21:10+00:00",
-   "attack_date": "2026-10-24",
-   "country": "EG",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TU9ET04gRGV2ZWxvcG1lbnRzIFMuQS5FQGtyeWJpdA=="
-  },
-  {
-   "victim": "www.zhservices.com",
-   "group": "krybit",
-   "date": "2026-10-24T11:20:35+00:00",
-   "attack_date": "2026-10-24",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/d3d3Lnpoc2VydmljZXMuY29tQGtyeWJpdA=="
-  },
-  {
-   "victim": "grupoeuro.com.mx",
-   "group": "krybit",
-   "date": "2026-10-24T11:19:59+00:00",
-   "attack_date": "2026-10-24",
-   "country": "MX",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Z3J1cG9ldXJvLmNvbS5teEBrcnliaXQ="
   }
  ]
 }

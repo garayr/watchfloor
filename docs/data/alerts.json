@@ -750,64 +750,6 @@
    "cves": [],
    "url": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
    "sev": "medium"
-  },
-  {
-   "id": "CVE-2026-88772",
-   "date": "2026-09-27",
-   "src": "CISA",
-   "vendor": "Citrix NetScaler",
-   "vendor_name": "Citrix",
-   "product": "NetScaler",
-   "title": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-   "detail": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-30",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-88772"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88772",
-   "kev": true,
-   "epss": 0.7816,
-   "cvss": 9.5,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
-     "url": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
-     "source": "SecurityWeek",
-     "date": "2026-10-27T10:02:24+00:00"
-    }
-   ]
-  },
-  {
-   "id": "CVE-2026-88771",
-   "date": "2026-09-27",
-   "src": "CISA",
-   "vendor": "Citrix NetScaler",
-   "vendor_name": "Citrix",
-   "product": "NetScaler",
-   "title": "Citrix NetScaler Improper Input Validation Vulnerability",
-   "detail": "Citrix NetScaler ADC and NetScaler Gateway contain an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-09-30",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-88771"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88771",
-   "kev": true,
-   "epss": 0.8216,
-   "cvss": 9.5,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
-     "url": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
-     "source": "SecurityWeek",
-     "date": "2026-10-27T10:02:24+00:00"
-    }
-   ]
   }
  ]
 }

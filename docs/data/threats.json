@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1945,
-  "c2_servers": 541,
+  "total_iocs": 1953,
+  "c2_servers": 543,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 371,
-    "c2": 347,
+    "iocs": 370,
+    "c2": 346,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -25,33 +25,33 @@
    },
    {
     "name": "Mirai",
-    "iocs": 197,
+    "iocs": 198,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 59,
+    "iocs": 62,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 56,
+    "iocs": 53,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 32,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "NetWire RC",
     "iocs": 30,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.netwire"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 30,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Raven Stealer",
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 845,
+  "online": 831,
   "top_tags": [
    {
     "name": "github",
-    "count": 384
+    "count": 392
    },
    {
     "name": "ua-wget",
-    "count": 328
+    "count": 305
    },
    {
     "name": "elf",
-    "count": 300
-   },
-   {
-    "name": "mirai",
-    "count": 245
+    "count": 281
    },
    {
     "name": "SmartLoader",
-    "count": 240
+    "count": 245
    },
    {
     "name": "zip",
-    "count": 240
+    "count": 245
+   },
+   {
+    "name": "mirai",
+    "count": 225
    },
    {
     "name": "FakeGit",
     "count": 146
    },
    {
-    "name": "zapret",
-    "count": 129
+    "name": "Mozi",
+    "count": 135
    }
   ]
  },
@@ -211,6 +211,78 @@
   }
  ],
  "pulses": [
+  {
+   "name": "SkyW4lker Phishing Kit: Microsoft 365 Threat to US Firms",
+   "summary": "SkyW4lker is an active device-code phishing kit exploiting Microsoft 365 authentication processes across the United States, Europe, and other regions. Operating since June 2026, it bypasses MFA by abusing legitimate…",
+   "date": "2026-10-27T20:44:43+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "SkyW4lker",
+    "Gabagool"
+   ],
+   "countries": [
+    "United States of America",
+    "British Indian Ocean Territory",
+    "Canada",
+    "India",
+    "United Kingdom of Great Britain and Northern Ireland"
+   ],
+   "industries": [
+    "Technology",
+    "Manufacturing",
+    "Government"
+   ],
+   "tags": [
+    "enterprise targeting",
+    "device-code phishing",
+    "gabagool",
+    "microsoft 365",
+    "credential theft",
+    "phishing kit"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae10d3bd4b201062c857223"
+  },
+  {
+   "name": "Automated Subversion and Attempted Takeover of AI Pentesting Harnesses",
+   "summary": "Unprotected Cairn AI intrusion harnesses are being systematically compromised by unknown actors through automated campaigns that began around October 20, 2026. Attackers insert malicious tasks that manipulate agents to…",
+   "date": "2026-10-27T16:12:32+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Poseidon"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "ai harness compromise",
+    "credential theft",
+    "automated attacks",
+    "poseidon rat",
+    "cairn",
+    "poseidon"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae0cd70485894a6eeb2bad8"
+  },
+  {
+   "name": "Locked and Loaded: Phishing through Fake Bids and Protected Documents",
+   "summary": "A sophisticated credential phishing campaign leverages fake business bid invitations to target professionals. The attack begins with an email titled 'Project Bid Invitation' containing a password-protected PDF…",
+   "date": "2026-10-27T16:12:31+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "fake onedrive",
+    "business email compromise",
+    "document sharing lure",
+    "credential phishing",
+    "social engineering",
+    "bid invitation theme"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae0cd6f9f3a85948233e4b9"
+  },
   {
    "name": "Notorious Brazilian Magecart group hijacks Convertr checkouts via Plausible analytics",
    "summary": "A Brazilian Magecart group, active since 2024, conducted a supply chain attack by injecting a card skimmer into the Plausible analytics script of Brazilian ecommerce platform Convertr. Starting October 24, 2026, all…",
@@ -415,80 +487,13 @@
     "lampion"
    ],
    "url": "https://otx.alienvault.com/pulse/6ae095c5697cb799b2ecd396"
-  },
-  {
-   "name": "Beyond testmetest: Native Addon Camouflage and 42 Armed GitHub Repositories Reveal a Hidden npm Publisher",
-   "summary": "Security researchers identified a sophisticated supply chain attack campaign involving 42 compromised GitHub repositories across 11 legitimate owners connected to the testmetest npm operation. The campaign evolved to…",
-   "date": "2026-10-26T14:07:05+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Shai-Hulud",
-    "Miasma"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "supply-chain-attack",
-    "github-actions-abuse",
-    "testmetest",
-    "npm-malware",
-    "shellpanel",
-    "credential-theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6adf5e8931168a2a5042c62f"
-  },
-  {
-   "name": "Beyond the Inbox: How Threat Actors Abuse Microsoft Teams External Chat for Initial Access",
-   "summary": "Adversaries are exploiting Microsoft Teams' default external chat functionality to conduct social engineering attacks and deliver malicious payloads. Analysis of over 400 incidents reveals threat actors consistently…",
-   "date": "2026-10-26T14:06:34+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "QakBot - S0650",
-    "Pinkslipbot",
-    "QuackBot",
-    "QBot",
-    "DarkGate",
-    "Cobalt Strike - S0154"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "quick assist",
-    "qakbot",
-    "microsoft teams",
-    "email bombing",
-    "external chat federation",
-    "darkgate"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6adf5e6a54877322e0ed8a09"
-  },
-  {
-   "name": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
-   "summary": "Since September 15, 2026, an automated campaign named Gheist has been performing mass abuse of compromised GitHub tokens. The attack commits a workflow named sync-check to every accessible repository, designed to print…",
-   "date": "2026-10-26T00:14:01+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "PolinRider"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "github tokens",
-    "secret exfiltration",
-    "polinrider",
-    "supply chain"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ade9b49eed172cd38ff41e7"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-27T23:24:23+00:00",
-  "sans": "2026-10-27T23:24:23+00:00",
-  "otx": "2026-10-27T23:24:23+00:00",
-  "urlhaus": "2026-10-27T23:24:23+00:00"
+  "threatfox": "2026-10-28T00:25:59+00:00",
+  "sans": "2026-10-28T00:25:59+00:00",
+  "otx": "2026-10-28T00:25:59+00:00",
+  "urlhaus": "2026-10-28T00:25:59+00:00"
  },
- "generated_at": "2026-10-27T23:24:23+00:00"
+ "generated_at": "2026-10-28T00:25:59+00:00"
 }
