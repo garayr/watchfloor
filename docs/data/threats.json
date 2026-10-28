@@ -2,30 +2,30 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1708,
-  "c2_servers": 531,
+  "total_iocs": 1703,
+  "c2_servers": 532,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 334,
-    "c2": 334,
+    "iocs": 333,
+    "c2": 333,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 292,
+    "iocs": 291,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 216,
+    "iocs": 209,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "SalatStealer",
-    "iocs": 146,
+    "iocs": 144,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
@@ -37,14 +37,14 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 49,
+    "iocs": 47,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 43,
-    "c2": 43,
+    "iocs": 47,
+    "c2": 47,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 952,
+  "online": 943,
   "top_tags": [
    {
     "name": "github",
-    "count": 970
+    "count": 973
    },
    {
     "name": "SalatStealer",
-    "count": 826
+    "count": 636
    },
    {
     "name": "zapret",
-    "count": 826
+    "count": 636
+   },
+   {
+    "name": "SmartLoader",
+    "count": 337
+   },
+   {
+    "name": "zip",
+    "count": 337
    },
    {
     "name": "FakeGit",
     "count": 144
    },
    {
-    "name": "SmartLoader",
-    "count": 144
-   },
-   {
-    "name": "zip",
-    "count": 144
-   },
-   {
     "name": "Mozi",
-    "count": 13
+    "count": 8
    },
    {
     "name": "mirai",
-    "count": 12
+    "count": 6
    }
   ]
  },
@@ -211,6 +211,25 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Omegatech Is Disrupted, and the Pressure on Bulletproof Hosting Keeps Building",
+   "summary": "The FBI seized virtualine[.]net on October 27, 2026, under Operation Omegaline, targeting Virtualine Technologies, which operated as Omegatech (AS202412). This bulletproof hosting provider emerged in February 2026 after…",
+   "date": "2026-10-28T01:06:58+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "bulletproof hosting",
+    "operation omegaline",
+    "asn manipulation",
+    "omegatech",
+    "cybercrime infrastructure",
+    "fbi seizure"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae14ab2a51c8b2b96924ba2"
+  },
   {
    "name": "SkyW4lker Phishing Kit: Microsoft 365 Threat to US Firms",
    "summary": "SkyW4lker is an active device-code phishing kit exploiting Microsoft 365 authentication processes across the United States, Europe, and other regions. Operating since June 2026, it bypasses MFA by abusing legitimate…",
@@ -461,39 +480,13 @@
     "cookie theft"
    ],
    "url": "https://otx.alienvault.com/pulse/6ae095c663fb4a4ea6376f77"
-  },
-  {
-   "name": "How VBScript Malware Evades Detection Using Trusted Tools Copy",
-   "summary": "Three malware campaigns using VBScript have been identified targeting victims primarily in Brazil and Portugal through phishing attacks. The campaigns deliver Overlord RAT, Lampion trojan, and an unknown RAT using fake…",
-   "date": "2026-10-27T12:15:01+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Overlord RAT",
-    "Lampion"
-   ],
-   "countries": [
-    "Brazil",
-    "Portugal"
-   ],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "overlord rat",
-    "vbscript",
-    "phishing",
-    "banking trojan",
-    "lampion"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae095c5697cb799b2ecd396"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-28T09:15:57+00:00",
-  "sans": "2026-10-28T09:15:57+00:00",
-  "otx": "2026-10-28T09:15:57+00:00",
-  "urlhaus": "2026-10-28T09:15:57+00:00"
+  "threatfox": "2026-10-28T10:14:01+00:00",
+  "sans": "2026-10-28T10:14:01+00:00",
+  "otx": "2026-10-28T10:14:01+00:00",
+  "urlhaus": "2026-10-28T10:14:01+00:00"
  },
- "generated_at": "2026-10-28T09:15:57+00:00"
+ "generated_at": "2026-10-28T10:14:01+00:00"
 }
