@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1751,
-  "c2_servers": 590,
+  "total_iocs": 1801,
+  "c2_servers": 597,
   "families": [
    {
     "name": "Vidar",
@@ -19,13 +19,13 @@
    },
    {
     "name": "Mirai",
-    "iocs": 255,
+    "iocs": 260,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 212,
+    "iocs": 245,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -37,21 +37,21 @@
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 52,
-    "c2": 52,
+    "iocs": 53,
+    "c2": 53,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "StrelaStealer",
-    "iocs": 48,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "SalatStealer",
     "iocs": 46,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
+    "name": "StrelaStealer",
+    "iocs": 45,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Unknown Loader",
@@ -61,7 +61,7 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 25,
+    "iocs": 24,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
@@ -69,31 +69,31 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 814,
+  "online": 801,
   "top_tags": [
    {
     "name": "github",
-    "count": 629
+    "count": 613
    },
    {
     "name": "zip",
-    "count": 339
+    "count": 340
    },
    {
     "name": "SmartLoader",
-    "count": 338
+    "count": 339
    },
    {
     "name": "SalatStealer",
-    "count": 288
+    "count": 271
    },
    {
     "name": "zapret",
-    "count": 277
+    "count": 260
    },
    {
     "name": "elf",
-    "count": 144
+    "count": 149
    },
    {
     "name": "FakeGit",
@@ -101,7 +101,7 @@
    },
    {
     "name": "mirai",
-    "count": 119
+    "count": 123
    }
   ]
  },
@@ -211,6 +211,155 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Node2Shell / HTTP2Shell Vulnerability May Allow RCE",
+   "summary": "An out-of-bounds write vulnerability in Google's Brotli decoder, tracked as CVE-2026-111497 and known as Node2Shell or HTTP2Shell, affects Node.js and various other software packages. The critical flaw (CVSS 9.2) can be…",
+   "date": "2026-10-28T18:43:22+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "http2shell",
+    "remote code execution",
+    "out-of-bounds write",
+    "compression vulnerability",
+    "cve-2026-111497",
+    "brotli decoder"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae2424aa801637ecf4942df"
+  },
+  {
+   "name": "n0n Ransomware: Inside an AI-Assisted Extortion Operation",
+   "summary": "In September 2026, an exposed staging server revealed the complete operational workspace of a n0n ransomware operator, including breach tools, encryptor source code, extortion infrastructure, and an AI coding agent…",
+   "date": "2026-10-28T14:54:04+00:00",
+   "author": "AlienVault",
+   "adversary": "N0n",
+   "malware": [
+    "n0n"
+   ],
+   "countries": [
+    "United States of America",
+    "Argentina",
+    "Venezuela, Bolivarian Republic of"
+   ],
+   "industries": [
+    "Retail",
+    "Technology",
+    "Education",
+    "Telecommunications",
+    "Government",
+    "Healthcare"
+   ],
+   "tags": [
+    "backup destruction",
+    "n0n",
+    "credential stuffing",
+    "destructive extortion",
+    "ai-assisted attacks",
+    "llm coding agent"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae20c8c345d85127b06d6d0"
+  },
+  {
+   "name": "PHP2Shell Weaponized After Japanese Real Estate Extortion",
+   "summary": "An exposed staging server at 96.126.130.81 revealed an operator's extortion campaign targeting Japanese real estate websites between October 9-11, 2026, followed by PHP2Shell exploitation tooling. The operator, using…",
+   "date": "2026-10-28T14:54:03+00:00",
+   "author": "AlienVault",
+   "adversary": "kkkkevin777",
+   "malware": [],
+   "countries": [
+    "Japan",
+    "Taiwan"
+   ],
+   "industries": [
+    "Real Estate",
+    "Finance"
+   ],
+   "tags": [
+    "kkkkevin777",
+    "cve-2026-109618",
+    "php2shell",
+    "shared hosting compromise",
+    "japanese real estate extortion",
+    "cve-2026-109619"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae20c8b7eea709e876863db"
+  },
+  {
+   "name": "68 GB Stolen From a Philippine Government Agency's Overseas-Employment Databases, Exposed by the Operator's Own Open Directory",
+   "summary": "An unidentified operator exfiltrated 68.837 GiB of database backups from a Philippine government agency managing overseas employment and migrant workers on 6 September 2026. The theft involved 27 SQL Server backups…",
+   "date": "2026-10-28T14:25:18+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Wrqsnx",
+    "GodPotato"
+   ],
+   "countries": [
+    "Philippines"
+   ],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "impacket toolkit",
+    "database exfiltration",
+    "wrqsnx",
+    "privilege escalation",
+    "philippines government",
+    "open directory exposure"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae205cefd1c69f6a9b3116d"
+  },
+  {
+   "name": "Managed for Malice: How Attackers Turn MDM into Remote Access",
+   "summary": "Threat actors are weaponizing legitimate mobile device management platforms, including Hexnode and Rippling, through social engineering techniques to establish unauthorized remote access to victim systems. Attackers use…",
+   "date": "2026-10-28T14:25:17+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "mdm abuse",
+    "rmm tools",
+    "social engineering",
+    "privileged access",
+    "hexnode",
+    "rippling"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae205cd5f78e91614edbd47"
+  },
+  {
+   "name": "False Protection, Emptied Accounts: The Seven Android Trojan Families Targeting Indian Banking Apps",
+   "summary": "Group-IB's Threat Intelligence team uncovered a sophisticated Android malware campaign systematically targeting India's financial services sector since July 2025, orchestrated by the financially-motivated threat cluster…",
+   "date": "2026-10-28T14:25:16+00:00",
+   "author": "AlienVault",
+   "adversary": "CyberDakait",
+   "malware": [
+    "GhostBat",
+    "GhostGrab",
+    "cyb3rx",
+    "d-passive",
+    "d-shine",
+    "tenxen"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "xmrig",
+    "ghostgrab",
+    "credential theft",
+    "tenxen",
+    "cyb3rx",
+    "banking fraud"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae205cc6609fd489e50c1b4"
+  },
   {
    "name": "Inside \"MR ROBOT\" - Anatomy of a Malware-as-a-Service Operation Targeting Indian Bank Customers",
    "summary": "A sophisticated Android Malware-as-a-Service operation called MR ROBOT is actively targeting Indian bank customers through a subscription-based model. The platform enables cybercriminals to rent customized banking…",
@@ -349,148 +498,13 @@
     "fbi seizure"
    ],
    "url": "https://otx.alienvault.com/pulse/6ae14ab2a51c8b2b96924ba2"
-  },
-  {
-   "name": "SkyW4lker Phishing Kit: Microsoft 365 Threat to US Firms",
-   "summary": "SkyW4lker is an active device-code phishing kit exploiting Microsoft 365 authentication processes across the United States, Europe, and other regions. Operating since June 2026, it bypasses MFA by abusing legitimate…",
-   "date": "2026-10-27T20:44:43+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "SkyW4lker",
-    "Gabagool"
-   ],
-   "countries": [
-    "United States of America",
-    "British Indian Ocean Territory",
-    "Canada",
-    "India",
-    "United Kingdom of Great Britain and Northern Ireland"
-   ],
-   "industries": [
-    "Technology",
-    "Manufacturing",
-    "Government"
-   ],
-   "tags": [
-    "enterprise targeting",
-    "device-code phishing",
-    "gabagool",
-    "microsoft 365",
-    "credential theft",
-    "phishing kit"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae10d3bd4b201062c857223"
-  },
-  {
-   "name": "Automated Subversion and Attempted Takeover of AI Pentesting Harnesses",
-   "summary": "Unprotected Cairn AI intrusion harnesses are being systematically compromised by unknown actors through automated campaigns that began around October 20, 2026. Attackers insert malicious tasks that manipulate agents to…",
-   "date": "2026-10-27T16:12:32+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Poseidon"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "ai harness compromise",
-    "credential theft",
-    "automated attacks",
-    "poseidon rat",
-    "cairn",
-    "poseidon"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae0cd70485894a6eeb2bad8"
-  },
-  {
-   "name": "Locked and Loaded: Phishing through Fake Bids and Protected Documents",
-   "summary": "A sophisticated credential phishing campaign leverages fake business bid invitations to target professionals. The attack begins with an email titled 'Project Bid Invitation' containing a password-protected PDF…",
-   "date": "2026-10-27T16:12:31+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "fake onedrive",
-    "business email compromise",
-    "document sharing lure",
-    "credential phishing",
-    "social engineering",
-    "bid invitation theme"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae0cd6f9f3a85948233e4b9"
-  },
-  {
-   "name": "Notorious Brazilian Magecart group hijacks Convertr checkouts via Plausible analytics",
-   "summary": "A Brazilian Magecart group, active since 2024, conducted a supply chain attack by injecting a card skimmer into the Plausible analytics script of Brazilian ecommerce platform Convertr. Starting October 24, 2026, all…",
-   "date": "2026-10-27T16:07:04+00:00",
-   "author": "AlienVault",
-   "adversary": "Brazilian Magecart group",
-   "malware": [],
-   "countries": [
-    "Brazil"
-   ],
-   "industries": [
-    "Retail"
-   ],
-   "tags": [
-    "convertr",
-    "card skimmer",
-    "supply chain attack",
-    "magecart",
-    "cve-2026-8467"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae0cc2833ef5c6a1e8fb136"
-  },
-  {
-   "name": "Camera Management Software Compromise Leads to Malware Deployment",
-   "summary": "Attackers compromised camera management software (CMS.exe) to gain initial access to multiple organizational environments. Following compromise, adversaries deployed rs.win32.exe into user AppData directories and…",
-   "date": "2026-10-27T16:07:04+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "rs.win32.exe"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "camera management software",
-    "dll sideloading"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae0cc28c4875a80ccd6b804"
-  },
-  {
-   "name": "Tricks from the Past deployed via signed ChatGPT and Claude binaries",
-   "summary": "Check Point Research discovered a campaign tracked as Yoba that exploits the popularity of AI tools like ChatGPT and Claude. Attackers created fake GitHub projects mimicking desktop applications such as GPT-5.6 Sol…",
-   "date": "2026-10-27T14:13:38+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Yoba",
-    "YobaDropper",
-    "YobaLoader",
-    "XMRig"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "xmrig",
-    "yoba",
-    "seo poisoning",
-    "github phishing",
-    "chatgpt lure",
-    "claude lure"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae0b192bfaf2df2545701f0"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-28T21:46:15+00:00",
-  "sans": "2026-10-28T21:46:15+00:00",
-  "otx": "2026-10-28T21:46:15+00:00",
-  "urlhaus": "2026-10-28T21:46:15+00:00"
+  "threatfox": "2026-10-28T23:03:29+00:00",
+  "sans": "2026-10-28T23:03:29+00:00",
+  "otx": "2026-10-28T23:03:29+00:00",
+  "urlhaus": "2026-10-28T23:03:29+00:00"
  },
- "generated_at": "2026-10-28T21:46:15+00:00"
+ "generated_at": "2026-10-28T23:03:29+00:00"
 }

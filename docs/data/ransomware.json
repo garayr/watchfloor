@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:46:15+00:00",
+ "generated_at": "2026-10-28T23:03:29+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -26,7 +26,7 @@
   },
   {
    "name": "N0n",
-   "count": 6
+   "count": 5
   },
   {
    "name": "emperador",
@@ -40,19 +40,19 @@
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 14
+   "count": 15
   },
   {
    "name": "Healthcare",
    "count": 13
   },
   {
-   "name": "Manufacturing",
+   "name": "Technology",
    "count": 11
   },
   {
-   "name": "Technology",
-   "count": 11
+   "name": "Manufacturing",
+   "count": 10
   },
   {
    "name": "Energy & Utilities",
@@ -180,6 +180,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "PQE Group",
+   "group": "Panzer",
+   "date": "2026-10-28T18:26:50+00:00",
+   "attack_date": "2026-10-28",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/UFFFIEdyb3VwQFBhbnplcg=="
+  },
   {
    "victim": "L...",
    "group": "SilentRansomGroup",
@@ -1070,15 +1079,6 @@
    "country": null,
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/VGVjaG5vbGVhZHMgU2VydmljZXMgSW5jLkBOMG4="
-  },
-  {
-   "victim": "Pure Grow Diamonds Inc.",
-   "group": "N0n",
-   "date": "2026-10-25T06:55:37+00:00",
-   "attack_date": "2026-10-25",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UHVyZSBHcm93IERpYW1vbmRzIEluYy5ATjBu"
   }
  ]
 }
