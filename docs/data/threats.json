@@ -2,30 +2,30 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1703,
-  "c2_servers": 532,
+  "total_iocs": 1707,
+  "c2_servers": 543,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 333,
-    "c2": 333,
+    "iocs": 332,
+    "c2": 332,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 291,
+    "iocs": 277,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 209,
+    "iocs": 214,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "SalatStealer",
-    "iocs": 144,
+    "iocs": 143,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
@@ -36,16 +36,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 48,
+    "c2": 48,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "ClearFake",
     "iocs": 47,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 47,
-    "c2": 47,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "NetWire RC",
@@ -60,35 +60,35 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "Quasar RAT",
-    "iocs": 25,
-    "c2": 3,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.quasar_rat"
+    "name": "ValleyRAT",
+    "iocs": 26,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 943,
+  "online": 936,
   "top_tags": [
    {
     "name": "github",
-    "count": 973
+    "count": 914
    },
    {
     "name": "SalatStealer",
-    "count": 636
+    "count": 575
    },
    {
     "name": "zapret",
-    "count": 636
-   },
-   {
-    "name": "SmartLoader",
-    "count": 337
+    "count": 567
    },
    {
     "name": "zip",
+    "count": 338
+   },
+   {
+    "name": "SmartLoader",
     "count": 337
    },
    {
@@ -96,12 +96,12 @@
     "count": 144
    },
    {
-    "name": "Mozi",
-    "count": 8
+    "name": "GuLoader",
+    "count": 38
    },
    {
-    "name": "mirai",
-    "count": 6
+    "name": "ascii",
+    "count": 20
    }
   ]
  },
@@ -211,6 +211,126 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Inside \"MR ROBOT\" - Anatomy of a Malware-as-a-Service Operation Targeting Indian Bank Customers",
+   "summary": "A sophisticated Android Malware-as-a-Service operation called MR ROBOT is actively targeting Indian bank customers through a subscription-based model. The platform enables cybercriminals to rent customized banking…",
+   "date": "2026-10-28T09:39:43+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "MR ROBOT"
+   ],
+   "countries": [
+    "British Indian Ocean Territory",
+    "India"
+   ],
+   "industries": [
+    "Finance",
+    "Government",
+    "Energy",
+    "Telecommunications"
+   ],
+   "tags": [
+    "maas",
+    "firebase exfiltration",
+    "malware-as-a-service",
+    "mr robot",
+    "android banking trojan",
+    "sms interception"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae1c2df52dc75787f8e7d74"
+  },
+  {
+   "name": "Malicious Firefox Extensions Impersonate Phantom, Jupiter, and Bitget to Steal Wallet Secrets",
+   "summary": "Three malicious Firefox extensions impersonating popular cryptocurrency wallets—Phantom, Jupiter, and Bitget—were discovered stealing recovery phrases and private keys from users. The extensions use Unicode homoglyphs…",
+   "date": "2026-10-28T08:20:01+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "firefox extensions",
+    "crypto wallet impersonation",
+    "seed phrase theft",
+    "browser extension malware"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae1b031bb4673daca05fd52"
+  },
+  {
+   "name": "September 2026 Infostealer Trend Report",
+   "summary": "During September 2026, infostealers were primarily distributed through SEO poisoning, disguised as illegal software such as cracks and keygens. Major distribution platforms included Mediafire, AWS S3, Mega, and…",
+   "date": "2026-10-28T08:19:07+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Lzveil",
+    "DarkCloud",
+    "AgentTesla",
+    "ACRStealer",
+    "Remus",
+    "Vidar"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "cryptocurrency theft",
+    "darkcloud",
+    "vidar",
+    "seo poisoning",
+    "lzveil",
+    "acrstealer"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae1affbaef99b0bc3777283"
+  },
+  {
+   "name": "RATatouille: Today's Special: Impersonating Companies in Korea, Payments in Cryptocurrency",
+   "summary": "Infrastructure tracking related to ValleyRAT led to the discovery of multiple fraudulent websites impersonating legitimate Korean companies including Doosan Robotics and Cheonjeong. These sites used authentic corporate…",
+   "date": "2026-10-28T05:19:12+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ValleyRAT"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "usdt",
+    "cryptocurrency fraud",
+    "valleyrat",
+    "phishing websites",
+    "RATatouille"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae185d0d24a85ae5c54ae6f"
+  },
+  {
+   "name": "Inside Qilin ransomware: ESXi attacks, affiliate networks and double extortion",
+   "summary": "Qilin, also known as Agenda, is a Russian-speaking ransomware-as-a-service operation active since 2022 that became one of the most prolific groups by 2025 with over 1,000 claimed victims. The operation employs a…",
+   "date": "2026-10-28T05:19:11+00:00",
+   "author": "AlienVault",
+   "adversary": "qilin",
+   "malware": [
+    "Qilin",
+    "Agenda"
+   ],
+   "countries": [
+    "United States of America",
+    "Canada",
+    "United Kingdom of Great Britain and Northern Ireland"
+   ],
+   "industries": [
+    "Healthcare"
+   ],
+   "tags": [
+    "rust",
+    "virtual-machine-encryption",
+    "affiliate-network",
+    "esxi",
+    "qilin",
+    "ransomware-as-a-service"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae185cf23690a9648c6f503"
+  },
   {
    "name": "Omegatech Is Disrupted, and the Pressure on Bulletproof Hosting Keeps Building",
    "summary": "The FBI seized virtualine[.]net on October 27, 2026, under Operation Omegaline, targeting Virtualine Technologies, which operated as Omegatech (AS202412). This bulletproof hosting provider emerged in February 2026 after…",
@@ -364,129 +484,13 @@
     "claude lure"
    ],
    "url": "https://otx.alienvault.com/pulse/6ae0b192bfaf2df2545701f0"
-  },
-  {
-   "name": "PHP2Shell: Exploitation Attempts and Remediation Trends",
-   "summary": "Wiz Research has been monitoring exploitation attempts targeting two critical PHP vulnerabilities since their public disclosure on October 21, 2026. While no successful attacks have been observed in their telemetry…",
-   "date": "2026-10-27T14:12:36+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "php2shell",
-    "cve-2026-109618",
-    "cve-2026-109619"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae0b1549b888d367073448e"
-  },
-  {
-   "name": "Inside ICMacOS: From an Infostealer to a Persistent RAT",
-   "summary": "ICMacOS (Icarus macOS) is a newly identified macOS Malware-as-a-Service stealer actively marketed since September 2026 by the Russian-speaking actor GlowComa on underground forums. The malware targets macOS systems…",
-   "date": "2026-10-27T12:15:16+00:00",
-   "author": "AlienVault",
-   "adversary": "GlowComa",
-   "malware": [
-    "ICMacOS",
-    "Icarus macOS",
-    "AMOS",
-    "MacSync",
-    "Cthulhu"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "macos stealer",
-    "macsync",
-    "icarus macos",
-    "amos",
-    "remote access trojan"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae095d4e2266adbe75f4ec3"
-  },
-  {
-   "name": "Domain Shadowing: Attackers Abuse Institutional Domains",
-   "summary": "Two unrelated operations exploited domain shadowing techniques to place illegal gambling content beneath legitimate educational and government domains in Bangladesh, India, and Mexico. Unauthorized parties gained access…",
-   "date": "2026-10-27T12:15:10+00:00",
-   "author": "AlienVault",
-   "adversary": "Hidden Hawk",
-   "malware": [],
-   "countries": [
-    "Bangladesh",
-    "British Indian Ocean Territory",
-    "India",
-    "Mexico"
-   ],
-   "industries": [
-    "Education",
-    "Government"
-   ],
-   "tags": [
-    "cname abuse",
-    "ns delegation",
-    "dns hijacking",
-    "gambling seo",
-    "domain shadowing",
-    "parasite seo"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae095cebdd5fe9e0d5209f2"
-  },
-  {
-   "name": "PHP2Shell (CVE-2026-109618/9) Havoc: UNC actors leveraging Public Exploit Code Against Public, Business And Educational Infrastructure",
-   "summary": "Two critical use-after-free vulnerabilities in the PHP engine, CVE-2026-109618 and CVE-2026-109619, rated CVSS 9.2, affect the session.upload_progress feature. These flaws trigger during multipart request parsing before…",
-   "date": "2026-10-27T12:15:05+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Mirai",
-    "Keitaro"
-   ],
-   "countries": [],
-   "industries": [
-    "Education",
-    "Government",
-    "Healthcare",
-    "Hospitality",
-    "Energy",
-    "Finance"
-   ],
-   "tags": [
-    "php2shell",
-    "keitaro",
-    "remote code execution",
-    "cve-2026-109619",
-    "mirai",
-    "wordpress lfi"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae095c9103f37d94d160182"
-  },
-  {
-   "name": "DarkCore: A Data-Theft RAT With a Session-Hijacking Browser",
-   "summary": "Security researchers uncovered DarkCore, a remote access trojan distributed through cybercrime networks with advanced credential theft and session hijacking capabilities. The threat features a dedicated browser that…",
-   "date": "2026-10-27T12:15:02+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "DarkCore"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "darkcore",
-    "remote access",
-    "hvnc",
-    "business email compromise",
-    "cookie theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae095c663fb4a4ea6376f77"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-28T10:14:01+00:00",
-  "sans": "2026-10-28T10:14:01+00:00",
-  "otx": "2026-10-28T10:14:01+00:00",
-  "urlhaus": "2026-10-28T10:14:01+00:00"
+  "threatfox": "2026-10-28T11:30:28+00:00",
+  "sans": "2026-10-28T11:30:28+00:00",
+  "otx": "2026-10-28T11:30:28+00:00",
+  "urlhaus": "2026-10-28T11:30:28+00:00"
  },
- "generated_at": "2026-10-28T10:14:01+00:00"
+ "generated_at": "2026-10-28T11:30:28+00:00"
 }
