@@ -146,6 +146,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+     "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE…",
+     "source": "The Hacker News",
+     "date": "2026-10-28T16:23:34+00:00",
+     "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
      "summary": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and…",
      "source": "BleepingComputer",
@@ -264,25 +272,6 @@
      "date": "2026-10-27T14:09:46+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
      "group": "Exploited right now"
-    },
-    {
-     "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-     "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The…",
-     "source": "The Hacker News",
-     "date": "2026-10-27T13:59:48+00:00",
-     "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-     "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds…",
-     "source": "The Hacker News",
-     "date": "2026-10-27T13:59:09+00:00",
-     "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-86950"
-     ]
     }
    ]
   },
@@ -302,6 +291,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+     "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass…",
+     "source": "The Hacker News",
+     "date": "2026-10-28T17:08:09+00:00",
+     "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+     "group": "Other news"
+    },
     {
      "title": "Upwind Security Raises $400 Million at $3.8 Billion Valuation",
      "summary": "The massive funding round comes just days after reports emerged that Upwind had attracted acquisition interest from several companies, including Datadog The post Upwind Security Raises $400 Million at $3.8 Billion…",
