@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-28T11:30:28+00:00",
+ "generated_at": "2026-10-28T13:28:14+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 24
+   "count": 23
   },
   {
    "name": "Whitearmor",
@@ -18,7 +18,7 @@
   },
   {
    "name": "N0n",
-   "count": 8
+   "count": 9
   },
   {
    "name": "everest",
@@ -77,10 +77,10 @@
    "lon": 8.7
   },
   {
-   "code": "GB",
+   "code": "MY",
    "count": 4,
-   "lat": 51.5,
-   "lon": -0.1
+   "lat": 3.1,
+   "lon": 101.7
   },
   {
    "code": "BE",
@@ -89,16 +89,16 @@
    "lon": 4.4
   },
   {
+   "code": "GB",
+   "count": 3,
+   "lat": 51.5,
+   "lon": -0.1
+  },
+  {
    "code": "IT",
    "count": 3,
    "lat": 41.9,
    "lon": 12.5
-  },
-  {
-   "code": "MY",
-   "count": 3,
-   "lat": 3.1,
-   "lon": 101.7
   },
   {
    "code": "CA",
@@ -198,6 +198,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Company #112",
+   "group": "N0n",
+   "date": "2026-10-28T07:53:44+00:00",
+   "attack_date": "2026-10-28",
+   "country": "MY",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTEyQE4wbg=="
+  },
   {
    "victim": "wagyu.xyz unfairness",
    "group": "Whitearmor",
@@ -1088,15 +1097,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/TmV3Y29tZXIgQ3JlbWF0aW9ucywgRnVuZXJhbHMgJiBSZWNlcHRpb25zQGFudWJpcw=="
-  },
-  {
-   "victim": "Castle Howard Estate",
-   "group": "qilin",
-   "date": "2026-10-24T16:34:49+00:00",
-   "attack_date": "2026-10-24",
-   "country": "GB",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/Q2FzdGxlIEhvd2FyZCBFc3RhdGVAcWlsaW4="
   }
  ]
 }
