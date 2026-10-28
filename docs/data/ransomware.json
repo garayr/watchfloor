@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T17:15:49+00:00",
+ "generated_at": "2026-10-28T18:53:37+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -30,7 +30,7 @@
   },
   {
    "name": "emperador",
-   "count": 6
+   "count": 5
   },
   {
    "name": "aurora",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 14
+   "count": 15
   },
   {
    "name": "Healthcare",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 38,
+   "count": 37,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -89,16 +89,16 @@
    "lon": 101.7
   },
   {
-   "code": "BE",
-   "count": 3,
-   "lat": 50.8,
-   "lon": 4.4
-  },
-  {
    "code": "IT",
    "count": 3,
    "lat": 41.9,
    "lon": 12.5
+  },
+  {
+   "code": "BE",
+   "count": 2,
+   "lat": 50.8,
+   "lon": 4.4
   },
   {
    "code": "CA",
@@ -180,6 +180,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Trulife",
+   "group": "akira",
+   "date": "2026-10-28T13:37:58+00:00",
+   "attack_date": "2026-10-28",
+   "country": null,
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/VHJ1bGlmZUBha2lyYQ=="
+  },
+  {
+   "victim": "Roberts Consulting Services",
+   "group": "akira",
+   "date": "2026-10-28T13:37:39+00:00",
+   "attack_date": "2026-10-28",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Um9iZXJ0cyBDb25zdWx0aW5nIFNlcnZpY2VzQGFraXJh"
+  },
   {
    "victim": "EWM Group",
    "group": "aurora",
@@ -1061,24 +1079,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/QW5kcmV3cyBBZHZpc29yeSBHcm91cCBMTENATjBu"
-  },
-  {
-   "victim": "AB InBev",
-   "group": "emperador",
-   "date": "2026-10-25T03:22:10+00:00",
-   "attack_date": "2026-10-25",
-   "country": "BE",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/QUIgSW5CZXZAZW1wZXJhZG9y"
-  },
-  {
-   "victim": "Newcomer Cremations, Funerals & Receptions",
-   "group": "anubis",
-   "date": "2026-10-25T00:31:56+00:00",
-   "attack_date": "2026-10-25",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TmV3Y29tZXIgQ3JlbWF0aW9ucywgRnVuZXJhbHMgJiBSZWNlcHRpb25zQGFudWJpcw=="
   }
  ]
 }
