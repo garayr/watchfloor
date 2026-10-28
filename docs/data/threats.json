@@ -2,13 +2,13 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1766,
-  "c2_servers": 586,
+  "total_iocs": 1711,
+  "c2_servers": 575,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 334,
-    "c2": 334,
+    "iocs": 333,
+    "c2": 333,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -19,8 +19,8 @@
    },
    {
     "name": "Mirai",
-    "iocs": 235,
-    "c2": 4,
+    "iocs": 204,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
@@ -30,28 +30,28 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
-    "name": "StrelaStealer",
-    "iocs": 61,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
-   },
-   {
     "name": "Stealc",
     "iocs": 58,
     "c2": 53,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.stealc"
    },
    {
+    "name": "StrelaStealer",
+    "iocs": 58,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 51,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
     "name": "Cobalt Strike",
     "iocs": 50,
     "c2": 50,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "ClearFake",
-    "iocs": 48,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Unknown Loader",
@@ -69,19 +69,19 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 913,
+  "online": 898,
   "top_tags": [
    {
     "name": "github",
-    "count": 821
+    "count": 805
    },
    {
     "name": "SalatStealer",
-    "count": 474
+    "count": 458
    },
    {
     "name": "zapret",
-    "count": 462
+    "count": 446
    },
    {
     "name": "zip",
@@ -97,7 +97,7 @@
    },
    {
     "name": "Mozi",
-    "count": 51
+    "count": 55
    },
    {
     "name": "GuLoader",
@@ -180,6 +180,11 @@
  "ports_date": "2026-10-28",
  "diary": [
   {
+   "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
+   "url": "https://isc.sans.edu/diary/rss/33466",
+   "date": "2026-10-28T16:07:03+00:00"
+  },
+  {
    "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
    "url": "https://isc.sans.edu/diary/rss/33464",
    "date": "2026-10-28T02:30:11+00:00"
@@ -203,11 +208,6 @@
    "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
    "url": "https://isc.sans.edu/diary/rss/33456",
    "date": "2026-10-26T03:30:12+00:00"
-  },
-  {
-   "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-   "url": "https://isc.sans.edu/diary/rss/33454",
-   "date": "2026-10-25T19:57:53+00:00"
   }
  ],
  "pulses": [
@@ -487,10 +487,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-28T15:16:34+00:00",
-  "sans": "2026-10-28T15:16:34+00:00",
-  "otx": "2026-10-28T15:16:34+00:00",
-  "urlhaus": "2026-10-28T15:16:34+00:00"
+  "threatfox": "2026-10-28T16:16:22+00:00",
+  "sans": "2026-10-28T16:16:22+00:00",
+  "otx": "2026-10-28T16:16:22+00:00",
+  "urlhaus": "2026-10-28T16:16:22+00:00"
  },
- "generated_at": "2026-10-28T15:16:34+00:00"
+ "generated_at": "2026-10-28T16:16:22+00:00"
 }
