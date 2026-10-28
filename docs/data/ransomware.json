@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-28T16:16:22+00:00",
+ "generated_at": "2026-10-28T17:15:49+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 23
+   "count": 20
   },
   {
    "name": "Whitearmor",
@@ -33,33 +33,33 @@
    "count": 6
   },
   {
-   "name": "Falcon",
-   "count": 3
+   "name": "aurora",
+   "count": 4
   }
  ],
  "by_sector": [
+  {
+   "name": "Professional Services",
+   "count": 14
+  },
   {
    "name": "Healthcare",
    "count": 13
   },
   {
-   "name": "Professional Services",
-   "count": 13
-  },
-  {
    "name": "Technology",
-   "count": 12
-  },
-  {
-   "name": "Manufacturing",
    "count": 11
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 9
+   "name": "Manufacturing",
+   "count": 10
   },
   {
    "name": "Energy & Utilities",
+   "count": 8
+  },
+  {
+   "name": "Retail & E-Commerce",
    "count": 8
   }
  ],
@@ -72,9 +72,15 @@
   },
   {
    "code": "DE",
-   "count": 9,
+   "count": 8,
    "lat": 50.1,
    "lon": 8.7
+  },
+  {
+   "code": "GB",
+   "count": 4,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "MY",
@@ -87,12 +93,6 @@
    "count": 3,
    "lat": 50.8,
    "lon": 4.4
-  },
-  {
-   "code": "GB",
-   "count": 3,
-   "lat": 51.5,
-   "lon": -0.1
   },
   {
    "code": "IT",
@@ -143,12 +143,6 @@
    "lon": 23.3
   },
   {
-   "code": "CH",
-   "count": 1,
-   "lat": 46.9,
-   "lon": 7.4
-  },
-  {
    "code": "DK",
    "count": 1,
    "lat": 55.7,
@@ -159,12 +153,6 @@
    "count": 1,
    "lat": 48.9,
    "lon": 2.35
-  },
-  {
-   "code": "MM",
-   "count": 1,
-   "lat": 16.8,
-   "lon": 96.2
   },
   {
    "code": "PH",
@@ -192,6 +180,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "EWM Group",
+   "group": "aurora",
+   "date": "2026-10-28T13:00:09+00:00",
+   "attack_date": "2026-10-28",
+   "country": "GB",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/RVdNIEdyb3VwQGF1cm9yYQ=="
+  },
+  {
+   "victim": "Insurance Services",
+   "group": "akira",
+   "date": "2026-10-28T12:58:43+00:00",
+   "attack_date": "2026-10-28",
+   "country": null,
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/SW5zdXJhbmNlIFNlcnZpY2VzQGFraXJh"
+  },
+  {
+   "victim": "Broadstreet HEOR",
+   "group": "rhysida",
+   "date": "2026-10-28T12:28:36+00:00",
+   "attack_date": "2026-10-28",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QnJvYWRzdHJlZXQgSEVPUkByaHlzaWRh"
+  },
   {
    "victim": "Meleghy Automotive & Cie. GmbH",
    "group": "aurora",
@@ -931,15 +946,6 @@
    "url": "https://www.ransomware.live/id/V2hpdGUgJiBDYXNlQHFpbGlu"
   },
   {
-   "victim": "Hossner-Textil GmbH",
-   "group": "qilin",
-   "date": "2026-10-25T17:17:40+00:00",
-   "attack_date": "2026-10-25",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/SG9zc25lci1UZXh0aWwgR21iSEBxaWxpbg=="
-  },
-  {
    "victim": "Partido Liberal",
    "group": "Whitearmor",
    "date": "2026-10-25T16:56:33+00:00",
@@ -947,15 +953,6 @@
    "country": "AR",
    "sector": "Government & Defense",
    "url": "https://www.ransomware.live/id/UGFydGlkbyBMaWJlcmFsQFdoaXRlYXJtb3I="
-  },
-  {
-   "victim": "Ooredoo Myanmar",
-   "group": "qilin",
-   "date": "2026-10-25T16:20:30+00:00",
-   "attack_date": "2026-10-25",
-   "country": "MM",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/T29yZWRvbyBNeWFubWFyQHFpbGlu"
   },
   {
    "victim": "Weitz & Luxenberg",
@@ -992,15 +989,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/QWVzdGhldGljIERlbnRhbCBEZXNpZ25zLCBQLkFASFlGTE9DSw=="
-  },
-  {
-   "victim": "ECOM",
-   "group": "qilin",
-   "date": "2026-10-25T10:35:02+00:00",
-   "attack_date": "2026-10-25",
-   "country": "CH",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/RUNPTUBxaWxpbg=="
   },
   {
    "victim": "AyT COMPUTERS SRL",
