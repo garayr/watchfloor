@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T05:53:44+00:00",
+ "generated_at": "2026-10-28T07:33:38+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -9,11 +9,11 @@
    "count": 24
   },
   {
-   "name": "Booba Project",
-   "count": 10
+   "name": "Whitearmor",
+   "count": 12
   },
   {
-   "name": "Whitearmor",
+   "name": "Booba Project",
    "count": 10
   },
   {
@@ -25,12 +25,12 @@
    "count": 8
   },
   {
-   "name": "emperador",
+   "name": "play",
    "count": 7
   },
   {
-   "name": "play",
-   "count": 7
+   "name": "emperador",
+   "count": 6
   },
   {
    "name": "Falcon",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Technology",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Manufacturing",
@@ -56,11 +56,11 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 10
+   "count": 9
   },
   {
    "name": "Energy & Utilities",
-   "count": 9
+   "count": 8
   }
  ],
  "by_country": [
@@ -113,12 +113,6 @@
    "lon": -3.7
   },
   {
-   "code": "FR",
-   "count": 2,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
    "code": "MX",
    "count": 2,
    "lat": 19.4,
@@ -167,6 +161,12 @@
    "lon": 12.6
   },
   {
+   "code": "FR",
+   "count": 1,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "MM",
    "count": 1,
    "lat": 16.8,
@@ -198,6 +198,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "wagyu.xyz unfairness",
+   "group": "Whitearmor",
+   "date": "2026-10-28T02:10:42+00:00",
+   "attack_date": "2026-10-28",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/d2FneXUueHl6IHVuZmFpcm5lc3NAV2hpdGVhcm1vcg=="
+  },
+  {
+   "victim": "Echo.com",
+   "group": "Whitearmor",
+   "date": "2026-10-28T02:10:02+00:00",
+   "attack_date": "2026-10-28",
+   "country": "DE",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/RWNoby5jb21AV2hpdGVhcm1vcg=="
+  },
   {
    "victim": "Ryder",
    "group": "Whitearmor",
@@ -1079,24 +1097,6 @@
    "country": "GB",
    "sector": "Hospitality",
    "url": "https://www.ransomware.live/id/Q2FzdGxlIEhvd2FyZCBFc3RhdGVAcWlsaW4="
-  },
-  {
-   "victim": "Vins Viallet",
-   "group": "lamashtu",
-   "date": "2026-10-24T16:30:40+00:00",
-   "attack_date": "2026-10-24",
-   "country": "FR",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/VmlucyBWaWFsbGV0QGxhbWFzaHR1"
-  },
-  {
-   "victim": "Frommann Energie GmbH",
-   "group": "emperador",
-   "date": "2026-10-24T14:52:41+00:00",
-   "attack_date": "2026-10-24",
-   "country": "DE",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/RnJvbW1hbm4gRW5lcmdpZSBHbWJIQGVtcGVyYWRvcg=="
   }
  ]
 }

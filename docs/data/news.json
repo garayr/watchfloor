@@ -17,6 +17,34 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+     "summary": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program…",
+     "source": "The Hacker News",
+     "date": "2026-10-28T07:13:21+00:00",
+     "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+     "summary": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. The flaws are in how…",
+     "source": "The Hacker News",
+     "date": "2026-10-28T06:20:37+00:00",
+     "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities…",
+     "source": "The Hacker News",
+     "date": "2026-10-28T05:42:26+00:00",
+     "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "CVE-2026-48356",
+      "CVE-2026-111497"
+     ]
+    },
+    {
      "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
      "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack…",
      "source": "BleepingComputer",
@@ -79,20 +107,20 @@
      "date": "2026-10-26T22:20:36+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-     "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct…",
-     "source": "The Hacker News",
-     "date": "2026-10-26T15:52:40+00:00",
-     "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+     "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single…",
+     "source": "The Hacker News",
+     "date": "2026-10-28T06:04:58+00:00",
+     "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
      "summary": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released. The post Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws…",
@@ -206,25 +234,6 @@
       "CVE-2026-109618",
       "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
      ]
-    },
-    {
-     "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-     "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and…",
-     "source": "The Hacker News",
-     "date": "2026-10-26T17:45:57+00:00",
-     "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-111497"
-     ]
-    },
-    {
-     "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-     "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already…",
-     "source": "The Hacker News",
-     "date": "2026-10-26T14:06:13+00:00",
-     "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-     "group": "Exploited right now"
     }
    ]
   },
@@ -253,14 +262,6 @@
      "source": "The Hacker News",
      "date": "2026-10-27T09:33:06+00:00",
      "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-     "summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is…",
-     "source": "The Hacker News",
-     "date": "2026-10-26T18:12:22+00:00",
-     "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
      "group": "Malware and campaigns"
     }
    ]
