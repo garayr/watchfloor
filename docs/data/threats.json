@@ -2,30 +2,30 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1720,
-  "c2_servers": 542,
+  "total_iocs": 1725,
+  "c2_servers": 541,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 343,
-    "c2": 343,
+    "iocs": 341,
+    "c2": 341,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 294,
+    "iocs": 296,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Mirai",
-    "iocs": 203,
+    "iocs": 205,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "SalatStealer",
-    "iocs": 183,
+    "iocs": 182,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
@@ -37,7 +37,7 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 60,
+    "iocs": 54,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -54,54 +54,54 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
+    "name": "VShell",
+    "iocs": 25,
+    "c2": 25,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
     "name": "Quasar RAT",
     "iocs": 24,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.quasar_rat"
-   },
-   {
-    "name": "VShell",
-    "iocs": 23,
-    "c2": 23,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 1000,
+  "online": 995,
   "top_tags": [
    {
     "name": "github",
-    "count": 975
+    "count": 973
    },
    {
     "name": "zapret",
-    "count": 784
+    "count": 843
    },
    {
     "name": "dropper",
-    "count": 185
+    "count": 128
    },
    {
     "name": "Mozi",
-    "count": 11
-   },
-   {
-    "name": "elf",
-    "count": 9
+    "count": 15
    },
    {
     "name": "mirai",
-    "count": 8
+    "count": 12
    },
    {
     "name": "SalatStealer",
-    "count": 7
+    "count": 8
+   },
+   {
+    "name": "elf",
+    "count": 6
    },
    {
     "name": "32-bit",
-    "count": 6
+    "count": 5
    }
   ]
  },
@@ -490,10 +490,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-28T03:08:52+00:00",
-  "sans": "2026-10-28T03:08:52+00:00",
-  "otx": "2026-10-28T03:08:52+00:00",
-  "urlhaus": "2026-10-28T03:08:52+00:00"
+  "threatfox": "2026-10-28T04:29:56+00:00",
+  "sans": "2026-10-28T04:29:56+00:00",
+  "otx": "2026-10-28T04:29:56+00:00",
+  "urlhaus": "2026-10-28T04:29:56+00:00"
  },
- "generated_at": "2026-10-28T03:08:52+00:00"
+ "generated_at": "2026-10-28T04:29:56+00:00"
 }
