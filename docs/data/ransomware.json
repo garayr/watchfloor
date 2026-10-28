@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:53:37+00:00",
+ "generated_at": "2026-10-28T20:19:44+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -18,7 +18,7 @@
   },
   {
    "name": "N0n",
-   "count": 9
+   "count": 8
   },
   {
    "name": "everest",
@@ -33,26 +33,26 @@
    "count": 5
   },
   {
-   "name": "aurora",
-   "count": 4
+   "name": "payload",
+   "count": 5
   }
  ],
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Healthcare",
    "count": 13
   },
   {
-   "name": "Technology",
-   "count": 11
+   "name": "Manufacturing",
+   "count": 12
   },
   {
-   "name": "Manufacturing",
-   "count": 10
+   "name": "Technology",
+   "count": 11
   },
   {
    "name": "Energy & Utilities",
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 37,
+   "count": 36,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 8,
+   "count": 9,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -83,16 +83,16 @@
    "lon": -0.1
   },
   {
-   "code": "MY",
-   "count": 4,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
    "code": "IT",
    "count": 3,
    "lat": 41.9,
    "lon": 12.5
+  },
+  {
+   "code": "MY",
+   "count": 3,
+   "lat": 3.1,
+   "lon": 101.7
   },
   {
    "code": "BE",
@@ -180,6 +180,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Hauhinco",
+   "group": "payload",
+   "date": "2026-10-28T14:49:50+00:00",
+   "attack_date": "2026-10-28",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/SGF1aGluY29AcGF5bG9hZA=="
+  },
+  {
+   "victim": "Marbre Design",
+   "group": "payload",
+   "date": "2026-10-28T14:48:35+00:00",
+   "attack_date": "2026-10-28",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TWFyYnJlIERlc2lnbkBwYXlsb2Fk"
+  },
   {
    "victim": "Trulife",
    "group": "akira",
@@ -892,15 +910,6 @@
    "url": "https://www.ransomware.live/id/SW5zaWRlIFBhc3NhZ2UgRWxlY3RyaWMgQ29vcGVyYXRpdmUsIEluY0BkcmFnb25mb3JjZQ=="
   },
   {
-   "victim": "mahsing.com.my",
-   "group": "Scarlettgroup",
-   "date": "2026-10-26T04:56:48+00:00",
-   "attack_date": "2026-10-25",
-   "country": "MY",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/bWFoc2luZy5jb20ubXlAU2NhcmxldHRncm91cA=="
-  },
-  {
    "victim": "LoveSac",
    "group": "Whitearmor",
    "date": "2026-10-26T02:57:17+00:00",
@@ -1070,15 +1079,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/S2VpZGVsIFN1cHBseSBDb21wYW55IEluY29ycG9yYXRlZEBOMG4="
-  },
-  {
-   "victim": "Andrews Advisory Group LLC",
-   "group": "N0n",
-   "date": "2026-10-25T06:54:11+00:00",
-   "attack_date": "2026-10-25",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/QW5kcmV3cyBBZHZpc29yeSBHcm91cCBMTENATjBu"
   }
  ]
 }

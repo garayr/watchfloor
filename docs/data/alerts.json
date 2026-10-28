@@ -1,6 +1,48 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-41709",
+   "date": "2026-10-28",
+   "src": "CISA",
+   "vendor": "Broadcom VMware ESX",
+   "vendor_name": "Broadcom",
+   "product": "VMware ESX",
+   "title": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+   "detail": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-11",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-41709"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
+   "kev": true,
+   "epss": 0.003,
+   "cvss": 2.7,
+   "sev": "high"
+  },
+  {
+   "id": "CVE-2026-46300",
+   "date": "2026-10-28",
+   "src": "CISA",
+   "vendor": "Linux Kernel",
+   "vendor_name": "Linux",
+   "product": "Kernel",
+   "title": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+   "detail": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells…",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-10-31",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-46300"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
+   "kev": true,
+   "epss": 0.1019,
+   "cvss": 7.8,
+   "sev": "high"
+  },
+  {
    "id": "CVE-2026-48356",
    "date": "2026-10-27",
    "src": "CISA",
