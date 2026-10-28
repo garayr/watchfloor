@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T04:29:56+00:00",
+ "generated_at": "2026-10-28T05:53:44+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -14,19 +14,19 @@
   },
   {
    "name": "Whitearmor",
-   "count": 9
+   "count": 10
   },
   {
    "name": "N0n",
    "count": 8
   },
   {
-   "name": "emperador",
+   "name": "everest",
    "count": 8
   },
   {
-   "name": "everest",
-   "count": 8
+   "name": "emperador",
+   "count": 7
   },
   {
    "name": "play",
@@ -52,7 +52,7 @@
   },
   {
    "name": "Manufacturing",
-   "count": 11
+   "count": 10
   },
   {
    "name": "Retail & E-Commerce",
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 37,
+   "count": 38,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 9,
+   "count": 8,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -198,6 +198,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Ryder",
+   "group": "Whitearmor",
+   "date": "2026-10-28T01:09:16+00:00",
+   "attack_date": "2026-10-27",
+   "country": "US",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/UnlkZXJAV2hpdGVhcm1vcg=="
+  },
   {
    "victim": "https://t.me/whitearmorxd",
    "group": "Whitearmor",
@@ -1079,15 +1088,6 @@
    "country": "FR",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/VmlucyBWaWFsbGV0QGxhbWFzaHR1"
-  },
-  {
-   "victim": "Phoenix S&S GmbH",
-   "group": "emperador",
-   "date": "2026-10-24T14:53:32+00:00",
-   "attack_date": "2026-10-24",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UGhvZW5peCBTJlMgR21iSEBlbXBlcmFkb3I="
   },
   {
    "victim": "Frommann Energie GmbH",
