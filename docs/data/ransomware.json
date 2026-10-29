@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-29T00:12:45+00:00",
+ "generated_at": "2026-10-29T01:59:16+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 20
+   "count": 19
   },
   {
    "name": "Whitearmor",
@@ -25,16 +25,16 @@
    "count": 7
   },
   {
-   "name": "N0n",
-   "count": 5
-  },
-  {
-   "name": "emperador",
+   "name": "SilentRansomGroup",
    "count": 5
   },
   {
    "name": "payload",
    "count": 5
+  },
+  {
+   "name": "aurora",
+   "count": 4
   }
  ],
  "by_sector": [
@@ -44,35 +44,35 @@
   },
   {
    "name": "Healthcare",
-   "count": 13
-  },
-  {
-   "name": "Technology",
-   "count": 11
+   "count": 12
   },
   {
    "name": "Manufacturing",
-   "count": 10
+   "count": 11
   },
   {
-   "name": "Energy & Utilities",
-   "count": 8
+   "name": "Technology",
+   "count": 9
   },
   {
    "name": "Retail & E-Commerce",
    "count": 8
+  },
+  {
+   "name": "Energy & Utilities",
+   "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 37,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 9,
+   "count": 8,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -137,12 +137,6 @@
    "lon": 151.2
   },
   {
-   "code": "BG",
-   "count": 1,
-   "lat": 42.7,
-   "lon": 23.3
-  },
-  {
    "code": "DK",
    "count": 1,
    "lat": 55.7,
@@ -153,6 +147,12 @@
    "count": 1,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "IL",
+   "count": 1,
+   "lat": 32.1,
+   "lon": 34.8
   },
   {
    "code": "PH",
@@ -180,6 +180,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Fortrex",
+   "group": "Wallstreet",
+   "date": "2026-10-28T21:31:10+00:00",
+   "attack_date": "2026-10-28",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Rm9ydHJleEBXYWxsc3RyZWV0"
+  },
+  {
+   "victim": "Morrison Foerster",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-28T21:29:40+00:00",
+   "attack_date": "2026-10-28",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TW9ycmlzb24gRm9lcnN0ZXJAU2lsZW50UmFuc29tR3JvdXA="
+  },
+  {
+   "victim": "T... E...",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-28T21:29:20+00:00",
+   "attack_date": "2026-10-28",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/VC4uLiBFLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
+  },
+  {
+   "victim": "S... H...",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-28T21:28:57+00:00",
+   "attack_date": "2026-10-28",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Uy4uLiBILi4uQFNpbGVudFJhbnNvbUdyb3Vw"
+  },
+  {
+   "victim": "A&B Lab",
+   "group": "genesis",
+   "date": "2026-10-28T20:53:55+00:00",
+   "attack_date": "2026-10-27",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/QSZCIExhYkBnZW5lc2lz"
+  },
+  {
+   "victim": "The Anglican International School",
+   "group": "Global Secret Group",
+   "date": "2026-10-28T20:24:06+00:00",
+   "attack_date": "2026-10-28",
+   "country": "IL",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/VGhlIEFuZ2xpY2FuIEludGVybmF0aW9uYWwgU2Nob29sQEdsb2JhbCBTZWNyZXQgR3JvdXA="
+  },
   {
    "victim": "PQE Group",
    "group": "Panzer",
@@ -260,15 +314,6 @@
    "country": null,
    "sector": "Financial Services",
    "url": "https://www.ransomware.live/id/SW5zdXJhbmNlIFNlcnZpY2VzQGFraXJh"
-  },
-  {
-   "victim": "Broadstreet HEOR",
-   "group": "rhysida",
-   "date": "2026-10-28T12:28:36+00:00",
-   "attack_date": "2026-10-28",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/QnJvYWRzdHJlZXQgSEVPUkByaHlzaWRh"
   },
   {
    "victim": "Meleghy Automotive & Cie. GmbH",
@@ -1034,51 +1079,6 @@
    "country": null,
    "sector": "Government & Defense",
    "url": "https://www.ransomware.live/id/QS1STVNAZW1wZXJhZG9y"
-  },
-  {
-   "victim": "Aesthetic Dental Designs, P.A",
-   "group": "HYFLOCK",
-   "date": "2026-10-25T11:53:17+00:00",
-   "attack_date": "2026-10-25",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/QWVzdGhldGljIERlbnRhbCBEZXNpZ25zLCBQLkFASFlGTE9DSw=="
-  },
-  {
-   "victim": "AyT COMPUTERS SRL",
-   "group": "emperador",
-   "date": "2026-10-25T09:52:04+00:00",
-   "attack_date": "2026-10-25",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/QXlUIENPTVBVVEVSUyBTUkxAZW1wZXJhZG9y"
-  },
-  {
-   "victim": "ETO",
-   "group": "qilin",
-   "date": "2026-10-25T07:24:50+00:00",
-   "attack_date": "2026-10-25",
-   "country": "DE",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/RVRPQHFpbGlu"
-  },
-  {
-   "victim": "TOPLIVO AD",
-   "group": "N0n",
-   "date": "2026-10-25T06:56:34+00:00",
-   "attack_date": "2026-10-25",
-   "country": "BG",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/VE9QTElWTyBBREBOMG4="
-  },
-  {
-   "victim": "Technoleads Services Inc.",
-   "group": "N0n",
-   "date": "2026-10-25T06:56:05+00:00",
-   "attack_date": "2026-10-25",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VGVjaG5vbGVhZHMgU2VydmljZXMgSW5jLkBOMG4="
   }
  ]
 }
