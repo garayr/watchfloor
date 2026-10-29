@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T07:31:23+00:00",
+ "generated_at": "2026-10-29T08:27:29+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -9,11 +9,11 @@
    "count": 19
   },
   {
-   "name": "Whitearmor",
-   "count": 11
+   "name": "Booba Project",
+   "count": 10
   },
   {
-   "name": "Booba Project",
+   "name": "Whitearmor",
    "count": 10
   },
   {
@@ -84,21 +84,21 @@
   },
   {
    "code": "IT",
-   "count": 3,
+   "count": 4,
    "lat": 41.9,
    "lon": 12.5
+  },
+  {
+   "code": "MX",
+   "count": 3,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "MY",
    "count": 3,
    "lat": 3.1,
    "lon": 101.7
-  },
-  {
-   "code": "BE",
-   "count": 2,
-   "lat": 50.8,
-   "lon": 4.4
   },
   {
    "code": "CA",
@@ -113,10 +113,16 @@
    "lon": -3.7
   },
   {
-   "code": "MX",
+   "code": "FR",
    "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
+   "code": "SG",
+   "count": 2,
+   "lat": 1.35,
+   "lon": 103.8
   },
   {
    "code": "AE",
@@ -137,16 +143,16 @@
    "lon": 151.2
   },
   {
+   "code": "BE",
+   "count": 1,
+   "lat": 50.8,
+   "lon": 4.4
+  },
+  {
    "code": "DK",
    "count": 1,
    "lat": 55.7,
    "lon": 12.6
-  },
-  {
-   "code": "FR",
-   "count": 1,
-   "lat": 48.9,
-   "lon": 2.35
   },
   {
    "code": "IL",
@@ -167,12 +173,6 @@
    "lon": 67.0
   },
   {
-   "code": "SG",
-   "count": 1,
-   "lat": 1.35,
-   "lon": 103.8
-  },
-  {
    "code": "TR",
    "count": 1,
    "lat": 41.0,
@@ -180,6 +180,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "xspringcapital.com",
+   "group": "lockbit5",
+   "date": "2026-10-29T04:03:54+00:00",
+   "attack_date": "2026-10-28",
+   "country": "SG",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/eHNwcmluZ2NhcGl0YWwuY29tQGxvY2tiaXQ1"
+  },
+  {
+   "victim": "susannecerda.com",
+   "group": "lockbit5",
+   "date": "2026-10-29T04:03:09+00:00",
+   "attack_date": "2026-10-28",
+   "country": "MX",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/c3VzYW5uZWNlcmRhLmNvbUBsb2NrYml0NQ=="
+  },
   {
    "victim": "Santiam Hospital & Clinics",
    "group": "anubis",
@@ -266,7 +284,7 @@
    "group": "Panzer",
    "date": "2026-10-28T18:26:50+00:00",
    "attack_date": "2026-10-28",
-   "country": null,
+   "country": "IT",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/UFFFIEdyb3VwQFBhbnplcg=="
   },
@@ -302,7 +320,7 @@
    "group": "payload",
    "date": "2026-10-28T14:48:35+00:00",
    "attack_date": "2026-10-28",
-   "country": null,
+   "country": "FR",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/TWFyYnJlIERlc2lnbkBwYXlsb2Fk"
   },
@@ -386,24 +404,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/UnlkZXJAV2hpdGVhcm1vcg=="
-  },
-  {
-   "victim": "https://t.me/whitearmorxd",
-   "group": "Whitearmor",
-   "date": "2026-10-27T23:18:42+00:00",
-   "attack_date": "2026-10-27",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/aHR0cHM6Ly90Lm1lL3doaXRlYXJtb3J4ZEBXaGl0ZWFybW9y"
-  },
-  {
-   "victim": "Machelen (Belgium)",
-   "group": "rhysida",
-   "date": "2026-10-27T22:25:47+00:00",
-   "attack_date": "2026-10-27",
-   "country": "BE",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/TWFjaGVsZW4gKEJlbGdpdW0pQHJoeXNpZGE="
   },
   {
    "victim": "TWICE SRL",
