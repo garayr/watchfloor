@@ -138,15 +138,23 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
+     "summary": "Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon’s Silent Train network, which Lumen detailed. The post Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’…",
+     "source": "SecurityWeek",
+     "date": "2026-10-29T10:29:25+00:00",
+     "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76504"
+     ]
+    },
+    {
      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-     "summary": "Cisco on Wednesday released fixes for an exploited vulnerability affecting its Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) software. Tracked as CVE-2026-76418 and assigned…",
+     "summary": "An exploited flaw in the Remote Access SSL VPN service lets unauthenticated attackers remotely force ASA and FTD firewalls to reload. The post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared…",
      "source": "SecurityWeek",
      "date": "2026-10-29T09:47:10+00:00",
      "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-76519"
-     ]
+     "group": "Exploited right now"
     },
     {
      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
@@ -341,14 +349,6 @@
      "source": "The Hacker News",
      "date": "2026-10-28T11:30:00+00:00",
      "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway.",
-     "summary": "The process that gates nearly every B2B deal is a self-assessment the sender distrusts and the receiver accepts. There is finally a better basis for trust between companies. The post Nobody Trusts the Security…",
-     "source": "SecurityWeek",
-     "date": "2026-10-28T10:30:00+00:00",
-     "url": "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/",
      "group": "Other news"
     },
     {
