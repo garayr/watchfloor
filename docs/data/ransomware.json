@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T03:24:53+00:00",
+ "generated_at": "2026-10-29T04:54:18+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -26,7 +26,7 @@
   },
   {
    "name": "SilentRansomGroup",
-   "count": 5
+   "count": 6
   },
   {
    "name": "payload",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 14
+   "count": 15
   },
   {
    "name": "Healthcare",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 38,
+   "count": 39,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -180,6 +180,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Santiam Hospital & Clinics",
+   "group": "anubis",
+   "date": "2026-10-28T23:32:38+00:00",
+   "attack_date": "2026-10-28",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/U2FudGlhbSBIb3NwaXRhbCAmIENsaW5pY3NAYW51Ymlz"
+  },
+  {
+   "victim": "Lowenstein Sandler LLP",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-28T23:30:55+00:00",
+   "attack_date": "2026-10-28",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TG93ZW5zdGVpbiBTYW5kbGVyIExMUEBTaWxlbnRSYW5zb21Hcm91cA=="
+  },
   {
    "victim": "Cyrious Software",
    "group": "pear",
@@ -1061,24 +1079,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/V2VpdHogJiBMdXhlbmJlcmdARmFsY29u"
-  },
-  {
-   "victim": "Astrana Health",
-   "group": "Falcon",
-   "date": "2026-10-25T14:53:02+00:00",
-   "attack_date": "2026-10-25",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/QXN0cmFuYSBIZWFsdGhARmFsY29u"
-  },
-  {
-   "victim": "A-RMS",
-   "group": "emperador",
-   "date": "2026-10-25T14:52:33+00:00",
-   "attack_date": "2026-10-25",
-   "country": null,
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/QS1STVNAZW1wZXJhZG9y"
   }
  ]
 }
