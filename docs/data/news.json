@@ -41,6 +41,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
+     "summary": "Hackers stole personal information and iRhythm account and device data from third-party-hosted business applications. The post HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-10-29T08:27:16+00:00",
+     "url": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
      "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting…",
      "source": "The Hacker News",
@@ -123,20 +131,23 @@
      "date": "2026-10-27T23:35:51+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "UNM Health ransomware attack disrupts patient care, surgeries",
-     "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-27T22:07:34+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+     "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the…",
+     "source": "The Hacker News",
+     "date": "2026-10-29T08:24:22+00:00",
+     "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76504"
+     ]
+    },
     {
      "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
      "summary": "CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged. The post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek.",
@@ -253,14 +264,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-28T10:46:23+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
-     "summary": "CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution. The post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-28T09:14:23+00:00",
-     "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
      "group": "Exploited right now"
     },
     {
