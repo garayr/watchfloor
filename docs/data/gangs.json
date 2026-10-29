@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T17:19:56+00:00",
+ "generated_at": "2026-10-29T21:54:46+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1320,8 +1320,8 @@
    "description": "Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The group utilizes a namesake ransomware through phishing attacks and Cobalt Strike to breach the targets' networks and deploy their payloads. The group threatens to publicly distribute exfiltrated data if the ransom is not paid, and it's worth mentioning that Rhysida is still in the early stages of development. The ransomware leaves PDF notes in the affected folders, instructing victims to contact the group through its portal, and payment is made via Bitcoin. After encryption, the ransomware appends the extension '.ryshida' to encrypted files. Source: https://github.com/crocodyli/ThreatActors-TTPs",
    "aliases": [],
    "first_seen": "2023-06-05",
-   "last_seen": "2026-10-22",
-   "victims_total": 301,
+   "last_seen": "2026-10-29",
+   "victims_total": 308,
    "cves": [
     {
      "id": "CVE-2026-50751",
@@ -1386,7 +1386,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 132
+      "count": 133
      },
      {
       "name": "CA",
@@ -1420,7 +1420,7 @@
      },
      {
       "name": "Professional Services",
-      "count": 44
+      "count": 46
      },
      {
       "name": "Government & Defense",
@@ -1428,7 +1428,7 @@
      },
      {
       "name": "Manufacturing",
-      "count": 31
+      "count": 32
      },
      {
       "name": "Technology",
@@ -1483,11 +1483,11 @@
     },
     {
      "month": "2026-10",
-     "count": 9
+     "count": 16
     }
    ],
-   "history_size": 301,
-   "updated": "2026-10-22T20:24:01+00:00"
+   "history_size": 308,
+   "updated": "2026-10-29T21:54:46+00:00"
   },
   "lamashtu": {
    "name": "lamashtu",
@@ -6015,11 +6015,11 @@
   },
   "Scarlettgroup": {
    "name": "Scarlettgroup",
-   "description": null,
+   "description": "Leaks are uploaded to QU.AX service",
    "aliases": [],
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-21",
-   "victims_total": 4,
+   "last_seen": "2026-10-29",
+   "victims_total": 8,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -6028,10 +6028,18 @@
     "countries": [
      {
       "name": "US",
-      "count": 3
+      "count": 4
      },
      {
       "name": "IN",
+      "count": 2
+     },
+     {
+      "name": "CA",
+      "count": 1
+     },
+     {
+      "name": "MY",
       "count": 1
      }
     ],
@@ -6045,7 +6053,19 @@
       "count": 1
      },
      {
+      "name": "Financial Services",
+      "count": 1
+     },
+     {
       "name": "Government & Defense",
+      "count": 1
+     },
+     {
+      "name": "Healthcare",
+      "count": 1
+     },
+     {
+      "name": "Hospitality",
       "count": 1
      }
     ]
@@ -6097,11 +6117,11 @@
     },
     {
      "month": "2026-10",
-     "count": 4
+     "count": 8
     }
    ],
-   "history_size": 4,
-   "updated": "2026-10-21T09:16:36+00:00"
+   "history_size": 8,
+   "updated": "2026-10-29T21:54:46+00:00"
   },
   "RunSomeWares": {
    "name": "RunSomeWares",

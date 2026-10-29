@@ -25,6 +25,22 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
+     "summary": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets…",
+     "source": "BleepingComputer",
+     "date": "2026-10-29T21:47:25+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+     "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix…",
+     "source": "The Hacker News",
+     "date": "2026-10-29T19:11:58+00:00",
+     "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Over 41,000 DHS Employee Records Leaked Online",
      "summary": "The personal and work information was allegedly stolen from an Okta single sign-on system earlier this year. The post Over 41,000 DHS Employee Records Leaked Online appeared first on SecurityWeek.",
      "source": "SecurityWeek",
@@ -86,6 +102,18 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+     "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware…",
+     "source": "BleepingComputer",
+     "date": "2026-10-29T18:38:26+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76418",
+      "CVE-2026-76504"
+     ]
+    },
+    {
      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
      "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale…",
      "source": "The Hacker News",
@@ -119,7 +147,7 @@
     },
     {
      "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-     "summary": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account…",
+     "summary": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec. The attacker needed…",
      "source": "The Hacker News",
      "date": "2026-10-29T11:39:18+00:00",
      "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
@@ -131,7 +159,10 @@
      "source": "BleepingComputer",
      "date": "2026-10-29T11:10:13+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76418"
+     ]
     },
     {
      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
@@ -141,6 +172,7 @@
      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
      "group": "Exploited right now",
      "alerts": [
+      "CVE-2026-76418",
       "CVE-2026-76519"
      ]
     },
@@ -152,6 +184,7 @@
      "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
      "group": "Exploited right now",
      "alerts": [
+      "CVE-2026-76418",
       "CVE-2026-76504"
      ]
     },
@@ -161,7 +194,10 @@
      "source": "SecurityWeek",
      "date": "2026-10-29T09:47:10+00:00",
      "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76418"
+     ]
     },
     {
      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
@@ -169,7 +205,10 @@
      "source": "The Hacker News",
      "date": "2026-10-29T09:05:39+00:00",
      "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-97229"
+     ]
     },
     {
      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
@@ -179,6 +218,7 @@
      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
      "group": "Exploited right now",
      "alerts": [
+      "CVE-2026-76418",
       "CVE-2026-76504"
      ]
     },
@@ -207,30 +247,6 @@
      "source": "The Hacker News",
      "date": "2026-10-28T16:23:34+00:00",
      "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
-     "summary": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and…",
-     "source": "BleepingComputer",
-     "date": "2026-10-28T14:00:00+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
-     "summary": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is…",
-     "source": "BleepingComputer",
-     "date": "2026-10-28T13:50:59+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-     "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767…",
-     "source": "The Hacker News",
-     "date": "2026-10-28T12:48:03+00:00",
-     "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
      "group": "Exploited right now"
     }
    ]
@@ -261,20 +277,20 @@
      "date": "2026-10-29T15:00:00+00:00",
      "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
-     "summary": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-28T14:48:32+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
+     "summary": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-29T19:23:41+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
+     "group": "Other news"
+    },
     {
      "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
      "summary": "Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you. The post When…",
@@ -305,7 +321,10 @@
      "source": "SecurityWeek",
      "date": "2026-10-29T14:18:03+00:00",
      "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
-     "group": "Other news"
+     "group": "Other news",
+     "alerts": [
+      "CVE-2026-76418"
+     ]
     },
     {
      "title": "3 Ways AI Agents Already Operate in Your Browser",
