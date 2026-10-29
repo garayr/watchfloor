@@ -2,24 +2,24 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2150,
-  "c2_servers": 595,
+  "total_iocs": 2189,
+  "c2_servers": 606,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 337,
+    "iocs": 370,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 333,
-    "c2": 333,
+    "iocs": 331,
+    "c2": 331,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 272,
+    "iocs": 274,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -31,8 +31,8 @@
    },
    {
     "name": "SalatStealer",
-    "iocs": 204,
-    "c2": 0,
+    "iocs": 199,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
@@ -48,12 +48,6 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "StrelaStealer",
-    "iocs": 42,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
-   },
-   {
     "name": "Unknown Loader",
     "iocs": 41,
     "c2": 3,
@@ -61,19 +55,25 @@
    },
    {
     "name": "VShell",
-    "iocs": 24,
-    "c2": 21,
+    "iocs": 34,
+    "c2": 31,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "StrelaStealer",
+    "iocs": 33,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 793,
+  "online": 783,
   "top_tags": [
    {
     "name": "github",
-    "count": 578
+    "count": 560
    },
    {
     "name": "zip",
@@ -85,23 +85,23 @@
    },
    {
     "name": "SalatStealer",
-    "count": 234
+    "count": 216
    },
    {
     "name": "zapret",
-    "count": 221
+    "count": 203
    },
    {
     "name": "elf",
-    "count": 164
+    "count": 171
    },
    {
     "name": "Mozi",
-    "count": 146
+    "count": 159
    },
    {
-    "name": "FakeGit",
-    "count": 135
+    "name": "mirai",
+    "count": 139
    }
   ]
  },
@@ -180,6 +180,11 @@
  "ports_date": "2026-10-28",
  "diary": [
   {
+   "title": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
+   "url": "https://isc.sans.edu/diary/rss/33468",
+   "date": "2026-10-29T03:10:12+00:00"
+  },
+  {
    "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
    "url": "https://isc.sans.edu/diary/rss/33466",
    "date": "2026-10-29T00:42:15+00:00"
@@ -203,11 +208,6 @@
    "title": "Looking for a Language [Guest Diary], (Wed, Oct 21st)",
    "url": "https://isc.sans.edu/diary/rss/33442",
    "date": "2026-10-26T09:38:03+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
-   "url": "https://isc.sans.edu/diary/rss/33456",
-   "date": "2026-10-26T03:30:12+00:00"
   }
  ],
  "pulses": [
@@ -501,10 +501,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-29T01:59:16+00:00",
-  "sans": "2026-10-29T01:59:16+00:00",
-  "otx": "2026-10-29T01:59:16+00:00",
-  "urlhaus": "2026-10-29T01:59:16+00:00"
+  "threatfox": "2026-10-29T03:24:53+00:00",
+  "sans": "2026-10-29T03:24:53+00:00",
+  "otx": "2026-10-29T03:24:53+00:00",
+  "urlhaus": "2026-10-29T03:24:53+00:00"
  },
- "generated_at": "2026-10-29T01:59:16+00:00"
+ "generated_at": "2026-10-29T03:24:53+00:00"
 }
