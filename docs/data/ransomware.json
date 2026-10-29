@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T10:14:44+00:00",
+ "generated_at": "2026-10-29T17:19:56+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -14,7 +14,7 @@
   },
   {
    "name": "Whitearmor",
-   "count": 10
+   "count": 9
   },
   {
    "name": "everest",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 39,
+   "count": 38,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -119,22 +119,10 @@
    "lon": 2.35
   },
   {
-   "code": "SG",
-   "count": 2,
-   "lat": 1.35,
-   "lon": 103.8
-  },
-  {
    "code": "AE",
    "count": 1,
    "lat": 24.5,
    "lon": 54.4
-  },
-  {
-   "code": "AR",
-   "count": 1,
-   "lat": -34.6,
-   "lon": -58.4
   },
   {
    "code": "AU",
@@ -173,6 +161,18 @@
    "lon": 67.0
   },
   {
+   "code": "SG",
+   "count": 1,
+   "lat": 1.35,
+   "lon": 103.8
+  },
+  {
+   "code": "TH",
+   "count": 1,
+   "lat": 13.75,
+   "lon": 100.5
+  },
+  {
    "code": "TR",
    "count": 1,
    "lat": 41.0,
@@ -181,11 +181,29 @@
  ],
  "victims": [
   {
+   "victim": "MAA Group Consulting Engineers",
+   "group": "emperador",
+   "date": "2026-10-29T10:21:43+00:00",
+   "attack_date": "2026-10-29",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TUFBIEdyb3VwIENvbnN1bHRpbmcgRW5naW5lZXJzQGVtcGVyYWRvcg=="
+  },
+  {
+   "victim": "ClaimTek Systems",
+   "group": "rhysida",
+   "date": "2026-10-29T09:07:28+00:00",
+   "attack_date": "2026-10-29",
+   "country": null,
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/Q2xhaW1UZWsgU3lzdGVtc0ByaHlzaWRh"
+  },
+  {
    "victim": "xspringcapital.com",
    "group": "lockbit5",
    "date": "2026-10-29T04:03:54+00:00",
    "attack_date": "2026-10-28",
-   "country": "SG",
+   "country": "TH",
    "sector": "Financial Services",
    "url": "https://www.ransomware.live/id/eHNwcmluZ2NhcGl0YWwuY29tQGxvY2tiaXQ1"
   },
@@ -1061,24 +1079,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/V2hpdGUgJiBDYXNlQHFpbGlu"
-  },
-  {
-   "victim": "Partido Liberal",
-   "group": "Whitearmor",
-   "date": "2026-10-25T16:56:33+00:00",
-   "attack_date": "2026-10-25",
-   "country": "AR",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/UGFydGlkbyBMaWJlcmFsQFdoaXRlYXJtb3I="
-  },
-  {
-   "victim": "Weitz & Luxenberg",
-   "group": "Falcon",
-   "date": "2026-10-25T15:52:01+00:00",
-   "attack_date": "2026-10-25",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/V2VpdHogJiBMdXhlbmJlcmdARmFsY29u"
   }
  ]
 }

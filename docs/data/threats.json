@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2220,
-  "c2_servers": 671,
+  "total_iocs": 2087,
+  "c2_servers": 651,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 525,
+    "iocs": 528,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 327,
-    "c2": 327,
+    "iocs": 325,
+    "c2": 325,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 281,
-    "c2": 1,
+    "iocs": 244,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "Mirai",
-    "iocs": 210,
-    "c2": 9,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "SalatStealer",
-    "iocs": 188,
+    "iocs": 189,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
-    "name": "Stealc",
-    "iocs": 56,
-    "c2": 53,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.stealc"
+    "name": "Mirai",
+    "iocs": 95,
+    "c2": 8,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "VShell",
-    "iocs": 41,
-    "c2": 38,
+    "iocs": 49,
+    "c2": 46,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 35,
-    "c2": 35,
+    "iocs": 46,
+    "c2": 46,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "StrelaStealer",
-    "iocs": 29,
+    "name": "php.shin_webshell",
+    "iocs": 26,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 27,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+    "name": "Sliver",
+    "iocs": 21,
+    "c2": 21,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
+   },
+   {
+    "name": "StrelaStealer",
+    "iocs": 18,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 780,
+  "online": 955,
   "top_tags": [
    {
     "name": "github",
-    "count": 481
-   },
-   {
-    "name": "zip",
-    "count": 295
-   },
-   {
-    "name": "SmartLoader",
-    "count": 292
-   },
-   {
-    "name": "FakeGit",
-    "count": 262
-   },
-   {
-    "name": "elf",
-    "count": 218
-   },
-   {
-    "name": "Mozi",
-    "count": 192
-   },
-   {
-    "name": "zapret",
-    "count": 178
+    "count": 936
    },
    {
     "name": "SalatStealer",
-    "count": 164
+    "count": 915
+   },
+   {
+    "name": "zapret",
+    "count": 222
+   },
+   {
+    "name": "exe",
+    "count": 57
+   },
+   {
+    "name": "Mozi",
+    "count": 33
+   },
+   {
+    "name": "elf",
+    "count": 23
+   },
+   {
+    "name": "32-bit",
+    "count": 19
+   },
+   {
+    "name": "mirai",
+    "count": 19
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 190632,
-   "targets": 267,
-   "sources": 5727
+   "records": 499540,
+   "targets": 276,
+   "sources": 10145
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 126109,
-   "targets": 260,
-   "sources": 5815
+   "records": 313749,
+   "targets": 268,
+   "sources": 12077
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 108847,
-   "targets": 250,
-   "sources": 4421
+   "records": 239230,
+   "targets": 265,
+   "sources": 7635
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 105255,
-   "targets": 223,
-   "sources": 4901
+   "records": 214484,
+   "targets": 264,
+   "sources": 8482
   },
   {
    "port": 2222,
    "service": null,
-   "records": 71901,
-   "targets": 242,
-   "sources": 4052
+   "records": 173080,
+   "targets": 267,
+   "sources": 6184
   },
   {
    "port": 137,
    "service": null,
-   "records": 62195,
-   "targets": 163,
-   "sources": 479
+   "records": 110536,
+   "targets": 188,
+   "sources": 1063
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 26966,
-   "targets": 255,
-   "sources": 3388
+   "records": 60618,
+   "targets": 273,
+   "sources": 5893
   },
   {
    "port": 16767,
    "service": null,
-   "records": 23719,
-   "targets": 12,
-   "sources": 1919
+   "records": 56073,
+   "targets": 14,
+   "sources": 3022
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 20449,
-   "targets": 250,
-   "sources": 2923
+   "records": 47828,
+   "targets": 267,
+   "sources": 5342
   },
   {
    "port": 8443,
    "service": "Web (HTTPS alt)",
-   "records": 17835,
-   "targets": 244,
-   "sources": 2048
+   "records": 42343,
+   "targets": 258,
+   "sources": 3472
   }
  ],
  "ports_date": "2026-10-29",
@@ -211,6 +211,161 @@
   }
  ],
  "pulses": [
+  {
+   "name": "From Hijacked Pbx To Stolen Trunk Inj3ctor3s Campaign",
+   "summary": "The provided document does not contain an intelligence report. Instead, it appears to be a loading or verification page that displays a placeholder message indicating that a request is being processed or verified. There…",
+   "date": "2026-10-29T16:12:31+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [],
+   "url": "https://otx.alienvault.com/pulse/6ae3706fa734f9bc58705e02"
+  },
+  {
+   "name": "MadApe: The Code That Opens the Door",
+   "summary": "A previously undocumented Microsoft Device Code phishing kit named MadApe has been uncovered, operating through a multi-stage campaign that combines business-themed PDF lures, configurable redirect chains, and fake…",
+   "date": "2026-10-29T13:35:15+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "Israel"
+   ],
+   "industries": [],
+   "tags": [
+    "microsoft 365",
+    "madape",
+    "multi-stage phishing",
+    "business-themed lures"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae34b9375e99ba3a966f469"
+  },
+  {
+   "name": "Sandbox Flipped to 'Danger-Full-Access': Unauthorized AI Relays Create Risk for Organizations",
+   "summary": "An unauthorized relay service has been installing genuine OpenAI Codex and Anthropic Claude Code command-line interfaces on enterprise systems, then reconfiguring them to route all requests through third-party…",
+   "date": "2026-10-29T13:14:26+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "China",
+    "Malaysia",
+    "Taiwan"
+   ],
+   "industries": [
+    "Manufacturing",
+    "Semiconductor",
+    "Healthcare",
+    "Transportation",
+    "Energy",
+    "Technology"
+   ],
+   "tags": [
+    "powershell",
+    "ai relay service",
+    "sandbox bypass"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae346b2ba6034789081c550"
+  },
+  {
+   "name": "NIK C2: The new AI-enabled command-and-control framework",
+   "summary": "A sophisticated AI-integrated command-and-control framework named NIK C2 has been discovered, featuring a Windows implant capable of credential dumping, keystroke streaming, and real-time AI-powered data analysis…",
+   "date": "2026-10-29T13:14:25+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "NIK C2"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "amsi bypass",
+    "screen-locking ransomware",
+    "nik c2"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae346b144e7d60cfc369b7f"
+  },
+  {
+   "name": "Fake \"View & Sign\" and Adobe Acrobat Lures Deliver Attacker-Configured ScreenConnect Clients",
+   "summary": "Researchers uncovered fake Adobe Acrobat and \"View & Sign\" pages distributing legitimate, digitally signed ConnectWise ScreenConnect installers configured for unauthorized remote access. The campaign uses Telegram bots…",
+   "date": "2026-10-29T08:51:50+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ScreenConnect"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "connectwise",
+    "screenconnect",
+    "adobe lure",
+    "remote access trojan"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae30926ecb75953084b298e"
+  },
+  {
+   "name": "Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia",
+   "summary": "A sophisticated supply-chain attack has been discovered targeting a custom Windows 10 build used exclusively by government entities in Asia. The attack employs a complex multi-stage infection chain called NetamLoader…",
+   "date": "2026-10-29T08:45:23+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "NetamLoader"
+   ],
+   "countries": [],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "supply-chain attack",
+    "amsi bypass",
+    "netamloader"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae307a3ac3f1c968fce54a3"
+  },
+  {
+   "name": "Adversary Unmasked APT Profile - Star Blizzard",
+   "summary": "Star Blizzard, attributed to the Russian Federal Security Service Centre 18, is a persistent espionage group targeting government officials, defence personnel, think tanks, NGOs, and academia primarily in the UK, US…",
+   "date": "2026-10-28T18:54:54+00:00",
+   "author": "AlienVault",
+   "adversary": "Callisto",
+   "malware": [
+    "SPICA",
+    "EvilGinx",
+    "COLDCOPY",
+    "LOSTKEYS",
+    "NOROBOT",
+    "BAITSWITCH"
+   ],
+   "countries": [
+    "United States of America",
+    "Canada",
+    "Estonia",
+    "France",
+    "Germany",
+    "Greece"
+   ],
+   "industries": [
+    "Government",
+    "Defense",
+    "NGO",
+    "Media",
+    "Energy",
+    "Finance"
+   ],
+   "tags": [
+    "evilginx",
+    "simplefix",
+    "ghostblade",
+    "baitswitch",
+    "cosmicpulse",
+    "coldcopy"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae244fe073f118d830cf4be"
+  },
   {
    "name": "Node2Shell / HTTP2Shell Vulnerability May Allow RCE",
    "summary": "An out-of-bounds write vulnerability in Google's Brotli decoder, tracked as CVE-2026-111497 and known as Node2Shell or HTTP2Shell, affects Node.js and various other software packages. The critical flaw (CVSS 9.2) can be…",
@@ -331,180 +486,13 @@
     "rippling"
    ],
    "url": "https://otx.alienvault.com/pulse/6ae205cd5f78e91614edbd47"
-  },
-  {
-   "name": "False Protection, Emptied Accounts: The Seven Android Trojan Families Targeting Indian Banking Apps",
-   "summary": "Group-IB's Threat Intelligence team uncovered a sophisticated Android malware campaign systematically targeting India's financial services sector since July 2025, orchestrated by the financially-motivated threat cluster…",
-   "date": "2026-10-28T14:25:16+00:00",
-   "author": "AlienVault",
-   "adversary": "CyberDakait",
-   "malware": [
-    "GhostBat",
-    "GhostGrab",
-    "cyb3rx",
-    "d-passive",
-    "d-shine",
-    "tenxen"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "xmrig",
-    "ghostgrab",
-    "credential theft",
-    "tenxen",
-    "cyb3rx",
-    "banking fraud"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae205cc6609fd489e50c1b4"
-  },
-  {
-   "name": "Inside \"MR ROBOT\" - Anatomy of a Malware-as-a-Service Operation Targeting Indian Bank Customers",
-   "summary": "A sophisticated Android Malware-as-a-Service operation called MR ROBOT is actively targeting Indian bank customers through a subscription-based model. The platform enables cybercriminals to rent customized banking…",
-   "date": "2026-10-28T09:39:43+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "MR ROBOT"
-   ],
-   "countries": [
-    "British Indian Ocean Territory",
-    "India"
-   ],
-   "industries": [
-    "Finance",
-    "Government",
-    "Energy",
-    "Telecommunications"
-   ],
-   "tags": [
-    "maas",
-    "firebase exfiltration",
-    "malware-as-a-service",
-    "mr robot",
-    "android banking trojan",
-    "sms interception"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae1c2df52dc75787f8e7d74"
-  },
-  {
-   "name": "Malicious Firefox Extensions Impersonate Phantom, Jupiter, and Bitget to Steal Wallet Secrets",
-   "summary": "Three malicious Firefox extensions impersonating popular cryptocurrency wallets—Phantom, Jupiter, and Bitget—were discovered stealing recovery phrases and private keys from users. The extensions use Unicode homoglyphs…",
-   "date": "2026-10-28T08:20:01+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "firefox extensions",
-    "crypto wallet impersonation",
-    "seed phrase theft",
-    "browser extension malware"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae1b031bb4673daca05fd52"
-  },
-  {
-   "name": "September 2026 Infostealer Trend Report",
-   "summary": "During September 2026, infostealers were primarily distributed through SEO poisoning, disguised as illegal software such as cracks and keygens. Major distribution platforms included Mediafire, AWS S3, Mega, and…",
-   "date": "2026-10-28T08:19:07+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Lzveil",
-    "DarkCloud",
-    "AgentTesla",
-    "ACRStealer",
-    "Remus",
-    "Vidar"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "cryptocurrency theft",
-    "darkcloud",
-    "vidar",
-    "seo poisoning",
-    "lzveil",
-    "acrstealer"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae1affbaef99b0bc3777283"
-  },
-  {
-   "name": "RATatouille: Today's Special: Impersonating Companies in Korea, Payments in Cryptocurrency",
-   "summary": "Infrastructure tracking related to ValleyRAT led to the discovery of multiple fraudulent websites impersonating legitimate Korean companies including Doosan Robotics and Cheonjeong. These sites used authentic corporate…",
-   "date": "2026-10-28T05:19:12+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ValleyRAT"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "usdt",
-    "cryptocurrency fraud",
-    "valleyrat",
-    "phishing websites",
-    "RATatouille"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae185d0d24a85ae5c54ae6f"
-  },
-  {
-   "name": "Inside Qilin ransomware: ESXi attacks, affiliate networks and double extortion",
-   "summary": "Qilin, also known as Agenda, is a Russian-speaking ransomware-as-a-service operation active since 2022 that became one of the most prolific groups by 2025 with over 1,000 claimed victims. The operation employs a…",
-   "date": "2026-10-28T05:19:11+00:00",
-   "author": "AlienVault",
-   "adversary": "qilin",
-   "malware": [
-    "Qilin",
-    "Agenda"
-   ],
-   "countries": [
-    "United States of America",
-    "Canada",
-    "United Kingdom of Great Britain and Northern Ireland"
-   ],
-   "industries": [
-    "Healthcare"
-   ],
-   "tags": [
-    "rust",
-    "virtual-machine-encryption",
-    "affiliate-network",
-    "esxi",
-    "qilin",
-    "ransomware-as-a-service"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae185cf23690a9648c6f503"
-  },
-  {
-   "name": "Omegatech Is Disrupted, and the Pressure on Bulletproof Hosting Keeps Building",
-   "summary": "The FBI seized virtualine[.]net on October 27, 2026, under Operation Omegaline, targeting Virtualine Technologies, which operated as Omegatech (AS202412). This bulletproof hosting provider emerged in February 2026 after…",
-   "date": "2026-10-28T01:06:58+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "bulletproof hosting",
-    "operation omegaline",
-    "asn manipulation",
-    "omegatech",
-    "cybercrime infrastructure",
-    "fbi seizure"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae14ab2a51c8b2b96924ba2"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-29T10:14:44+00:00",
-  "sans": "2026-10-29T10:14:44+00:00",
-  "otx": "2026-10-29T10:14:44+00:00",
-  "urlhaus": "2026-10-29T10:14:44+00:00"
+  "threatfox": "2026-10-29T17:19:56+00:00",
+  "sans": "2026-10-29T17:19:56+00:00",
+  "otx": "2026-10-29T17:19:56+00:00",
+  "urlhaus": "2026-10-29T17:19:56+00:00"
  },
- "generated_at": "2026-10-29T10:14:44+00:00"
+ "generated_at": "2026-10-29T17:19:56+00:00"
 }
