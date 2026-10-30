@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T19:41:45+00:00",
+ "generated_at": "2026-10-30T23:14:32+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,14 +10,10 @@
   },
   {
    "name": "qilin",
-   "count": 9
+   "count": 12
   },
   {
-   "name": "everest",
-   "count": 8
-  },
-  {
-   "name": "Whitearmor",
+   "name": "SilentRansomGroup",
    "count": 7
   },
   {
@@ -25,34 +21,38 @@
    "count": 7
   },
   {
-   "name": "SilentRansomGroup",
-   "count": 6
-  },
-  {
    "name": "akira",
    "count": 6
   },
   {
-   "name": "Shiba",
-   "count": 4
+   "name": "everest",
+   "count": 6
+  },
+  {
+   "name": "Whitearmor",
+   "count": 5
+  },
+  {
+   "name": "rhysida",
+   "count": 5
   }
  ],
  "by_sector": [
   {
+   "name": "Technology",
+   "count": 13
+  },
+  {
    "name": "Healthcare",
-   "count": 14
+   "count": 12
   },
   {
    "name": "Professional Services",
    "count": 12
   },
   {
-   "name": "Technology",
-   "count": 12
-  },
-  {
    "name": "Manufacturing",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Education",
@@ -66,21 +66,21 @@
  "by_country": [
   {
    "code": "US",
-   "count": 29,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
+  },
+  {
+   "code": "MX",
+   "count": 7,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "GB",
    "count": 5,
    "lat": 51.5,
    "lon": -0.1
-  },
-  {
-   "code": "MX",
-   "count": 5,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "IT",
@@ -192,6 +192,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Cipsa Industrias Sa De Cv",
+   "group": "rhysida",
+   "date": "2026-10-30T18:43:09+00:00",
+   "attack_date": "2026-10-30",
+   "country": "MX",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Q2lwc2EgSW5kdXN0cmlhcyBTYSBEZSBDdkByaHlzaWRh"
+  },
+  {
+   "victim": "Richland Resources Corporation",
+   "group": "qilin",
+   "date": "2026-10-30T18:41:56+00:00",
+   "attack_date": "2026-10-30",
+   "country": "US",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/UmljaGxhbmQgUmVzb3VyY2VzIENvcnBvcmF0aW9uQHFpbGlu"
+  },
+  {
+   "victim": "A... F...",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-30T17:09:36+00:00",
+   "attack_date": "2026-10-30",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QS4uLiBGLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
+  },
+  {
+   "victim": "Sistemas Visuales 360",
+   "group": "qilin",
+   "date": "2026-10-30T16:40:18+00:00",
+   "attack_date": "2026-10-30",
+   "country": "MX",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U2lzdGVtYXMgVmlzdWFsZXMgMzYwQHFpbGlu"
+  },
+  {
+   "victim": "Societe Ivoirienne De Telediffusion",
+   "group": "qilin",
+   "date": "2026-10-30T16:39:39+00:00",
+   "attack_date": "2026-10-30",
+   "country": "CI",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U29jaWV0ZSBJdm9pcmllbm5lIERlIFRlbGVkaWZmdXNpb25AcWlsaW4="
+  },
   {
    "victim": "Palletline",
    "group": "qilin",
@@ -1039,24 +1084,6 @@
    "url": "https://www.ransomware.live/id/VEVDTkEgSUNFQGV2ZXJlc3Q="
   },
   {
-   "victim": "MediSolution",
-   "group": "everest",
-   "date": "2026-10-27T04:30:31+00:00",
-   "attack_date": "2026-10-27",
-   "country": null,
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TWVkaVNvbHV0aW9uQGV2ZXJlc3Q="
-  },
-  {
-   "victim": "SleepEx LabRetriever",
-   "group": "everest",
-   "date": "2026-10-27T04:29:56+00:00",
-   "attack_date": "2026-10-27",
-   "country": null,
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/U2xlZXBFeCBMYWJSZXRyaWV2ZXJAZXZlcmVzdA=="
-  },
-  {
    "victim": "DATEM, Inc.",
    "group": "crypto24",
    "date": "2026-10-27T04:11:17+00:00",
@@ -1064,33 +1091,6 @@
    "country": "PH",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/REFURU0sIEluYy5AY3J5cHRvMjQ="
-  },
-  {
-   "victim": "gamblinglore",
-   "group": "Whitearmor",
-   "date": "2026-10-27T04:05:36+00:00",
-   "attack_date": "2026-10-27",
-   "country": null,
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/Z2FtYmxpbmdsb3JlQFdoaXRlYXJtb3I="
-  },
-  {
-   "victim": "Verification",
-   "group": "Whitearmor",
-   "date": "2026-10-27T03:07:40+00:00",
-   "attack_date": "2026-10-27",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VmVyaWZpY2F0aW9uQFdoaXRlYXJtb3I="
-  },
-  {
-   "victim": "zzq-test",
-   "group": "ULose",
-   "date": "2026-10-27T01:08:42+00:00",
-   "attack_date": "2026-10-27",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/enpxLXRlc3RAVUxvc2U="
   }
  ]
 }

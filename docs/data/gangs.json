@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T07:37:33+00:00",
+ "generated_at": "2026-10-30T23:14:32+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -717,124 +717,6 @@
    "history_size": 100,
    "updated": "2026-10-10T00:37:57+00:00"
   },
-  "m3rx": {
-   "name": "m3rx",
-   "description": "M3rx is a small ransomware group first observed in 2025, using AES-CTR/AES-GCM encryption and targeting organizations in England, the US, Australia, Germany, Italy, and Switzerland, with around eight claimed victims including a Sydney-based property firm.",
-   "aliases": [],
-   "first_seen": "2026-04-29",
-   "last_seen": "2026-09-29",
-   "victims_total": 44,
-   "cves": [],
-   "tools": [],
-   "techniques": [],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "US",
-      "count": 10
-     },
-     {
-      "name": "CA",
-      "count": 4
-     },
-     {
-      "name": "DE",
-      "count": 4
-     },
-     {
-      "name": "GB",
-      "count": 4
-     },
-     {
-      "name": "AU",
-      "count": 3
-     },
-     {
-      "name": "BR",
-      "count": 2
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Professional Services",
-      "count": 17
-     },
-     {
-      "name": "Technology",
-      "count": 8
-     },
-     {
-      "name": "Retail & E-Commerce",
-      "count": 7
-     },
-     {
-      "name": "Manufacturing",
-      "count": 2
-     },
-     {
-      "name": "Other",
-      "count": 2
-     },
-     {
-      "name": "Transportation",
-      "count": 2
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-10",
-     "count": 0
-    },
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 0
-    },
-    {
-     "month": "2026-04",
-     "count": 8
-    },
-    {
-     "month": "2026-05",
-     "count": 12
-    },
-    {
-     "month": "2026-06",
-     "count": 6
-    },
-    {
-     "month": "2026-07",
-     "count": 10
-    },
-    {
-     "month": "2026-08",
-     "count": 1
-    },
-    {
-     "month": "2026-09",
-     "count": 7
-    }
-   ],
-   "history_size": 44,
-   "updated": "2026-09-30T12:08:39+00:00"
-  },
   "emperador": {
    "name": "emperador",
    "description": null,
@@ -978,138 +860,6 @@
    ],
    "history_size": 53,
    "updated": "2026-10-26T15:55:06+00:00"
-  },
-  "medusalocker": {
-   "name": "medusalocker",
-   "description": "Medusa is a DDoS bot written in.NET 2.0. In its current incarnation its C&C protocol is based on HTTP, while its predecessor made use of IRC.",
-   "aliases": [],
-   "first_seen": "2021-11-03",
-   "last_seen": "2026-09-28",
-   "victims_total": 101,
-   "cves": [],
-   "tools": [
-    "Invoke-TheHash",
-    "Mimikatz",
-    "HRSword",
-    "PCHunter",
-    "ProcessHacker",
-    "Advanced IP Scanner",
-    "Advanced Port Scanner",
-    "SoftPerfect NetScan",
-    "PsExec",
-    "Impacket",
-    "Remote Desktop Plus (RDP+)"
-   ],
-   "techniques": [
-    "Parent PID Spoofing"
-   ],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "US",
-      "count": 11
-     },
-     {
-      "name": "DE",
-      "count": 5
-     },
-     {
-      "name": "CA",
-      "count": 4
-     },
-     {
-      "name": "FR",
-      "count": 4
-     },
-     {
-      "name": "GB",
-      "count": 4
-     },
-     {
-      "name": "AE",
-      "count": 3
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Manufacturing",
-      "count": 18
-     },
-     {
-      "name": "Technology",
-      "count": 15
-     },
-     {
-      "name": "Professional Services",
-      "count": 14
-     },
-     {
-      "name": "Other",
-      "count": 6
-     },
-     {
-      "name": "Retail & E-Commerce",
-      "count": 6
-     },
-     {
-      "name": "Agriculture and Food Production",
-      "count": 5
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-10",
-     "count": 0
-    },
-    {
-     "month": "2025-11",
-     "count": 1
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 0
-    },
-    {
-     "month": "2026-04",
-     "count": 0
-    },
-    {
-     "month": "2026-05",
-     "count": 16
-    },
-    {
-     "month": "2026-06",
-     "count": 0
-    },
-    {
-     "month": "2026-07",
-     "count": 11
-    },
-    {
-     "month": "2026-08",
-     "count": 10
-    },
-    {
-     "month": "2026-09",
-     "count": 13
-    }
-   ],
-   "history_size": 101,
-   "updated": "2026-09-30T12:35:40+00:00"
   },
   "ULose": {
    "name": "ULose",
@@ -3139,8 +2889,8 @@
    "description": "The Akira ransomware group is said to have emerged in March 2023, and there's much speculation about its ties to the former CONTI ransomware group. It's worth noting that with the end of CONTI's operation, several affiliates migrated to independent campaigns such as Royal, BlackBasta, and others. According to some reports, Akira affiliates also work with other ransomware operations, such as Snatch and BlackByte, as an open directory of tools used by an Akira operator was identified, which also had connections to the Snatch ransomware. The first version of the Akira ransomware was written in C++ and appended files with the '.akira' extension, creating a ransom note named 'akira_readme.txt,' partially based on the Conti V2 source code. However, on June 29, 2023, a decryptor for this version was reportedly released by Avast. Subsequently, a version was released that fixed the decryption flaw on July 2, 2023. Since then, the new version is said to be written in Rust, this time called 'megazord.exe,' and it changes the extension to '.powerranges' for encrypted files. Most of Akira's initial access vectors use brute-force attempts on Cisco VPN devices (which use single-factor…",
    "aliases": [],
    "first_seen": "2023-04-12",
-   "last_seen": "2026-10-23",
-   "victims_total": 1652,
+   "last_seen": "2026-10-30",
+   "victims_total": 1658,
    "cves": [
     {
      "id": "CVE-2022-40684",
@@ -3247,7 +2997,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 883
+      "count": 885
      },
      {
       "name": "CA",
@@ -3273,11 +3023,11 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 455
+      "count": 456
      },
      {
       "name": "Professional Services",
-      "count": 380
+      "count": 381
      },
      {
       "name": "Technology",
@@ -3289,7 +3039,7 @@
      },
      {
       "name": "Financial Services",
-      "count": 104
+      "count": 105
      },
      {
       "name": "Agriculture and Food Production",
@@ -3344,11 +3094,11 @@
     },
     {
      "month": "2026-10",
-     "count": 29
+     "count": 35
     }
    ],
-   "history_size": 1652,
-   "updated": "2026-10-23T20:39:58+00:00"
+   "history_size": 1658,
+   "updated": "2026-10-30T23:14:32+00:00"
   },
   "Redact": {
    "name": "Redact",
@@ -8639,8 +8389,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-23",
-   "victims_total": 3,
+   "last_seen": "2026-10-30",
+   "victims_total": 16,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -8649,20 +8399,48 @@
     "countries": [
      {
       "name": "US",
-      "count": 2
+      "count": 5
+     },
+     {
+      "name": "AR",
+      "count": 1
+     },
+     {
+      "name": "CN",
+      "count": 1
+     },
+     {
+      "name": "DE",
+      "count": 1
+     },
+     {
+      "name": "PH",
+      "count": 1
      }
     ],
     "sectors": [
      {
-      "name": "Manufacturing",
-      "count": 1
-     },
-     {
       "name": "Technology",
-      "count": 1
+      "count": 5
      },
      {
       "name": "Transportation",
+      "count": 4
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 3
+     },
+     {
+      "name": "Other",
+      "count": 2
+     },
+     {
+      "name": "Government & Defense",
+      "count": 1
+     },
+     {
+      "name": "Manufacturing",
       "count": 1
      }
     ]
@@ -8714,11 +8492,11 @@
     },
     {
      "month": "2026-10",
-     "count": 3
+     "count": 16
     }
    ],
-   "history_size": 3,
-   "updated": "2026-10-23T21:10:17+00:00"
+   "history_size": 16,
+   "updated": "2026-10-30T23:14:32+00:00"
   },
   "chaos": {
    "name": "chaos",
