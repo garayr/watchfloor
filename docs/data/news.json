@@ -33,6 +33,22 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+     "summary": "Over 22.6 million exposed instances are potentially affected by the critical PHP flaws that have been targeted for over a week. The post PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-10-30T15:09:25+00:00",
+     "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+     "summary": "Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware. The post In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most…",
+     "source": "SecurityWeek",
+     "date": "2026-10-30T14:41:35+00:00",
+     "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
      "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
      "source": "BleepingComputer",
@@ -87,20 +103,28 @@
      "date": "2026-10-29T19:11:58+00:00",
      "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-     "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent…",
-     "source": "The Hacker News",
-     "date": "2026-10-29T11:33:15+00:00",
-     "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+     "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the…",
+     "source": "The Hacker News",
+     "date": "2026-10-30T15:17:28+00:00",
+     "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+     "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of…",
+     "source": "The Hacker News",
+     "date": "2026-10-30T14:08:14+00:00",
+     "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
      "summary": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how…",
@@ -215,24 +239,20 @@
      "date": "2026-10-29T11:39:18+00:00",
      "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-     "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the…",
-     "source": "The Hacker News",
-     "date": "2026-10-29T10:44:46+00:00",
-     "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-76418",
-      "CVE-2026-76519"
-     ]
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+     "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to…",
+     "source": "BleepingComputer",
+     "date": "2026-10-30T14:36:54+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
      "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent…",
@@ -262,6 +282,22 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+     "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The…",
+     "source": "The Hacker News",
+     "date": "2026-10-30T16:58:44+00:00",
+     "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+     "group": "Other news"
+    },
+    {
+     "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+     "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-30T15:58:20+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+     "group": "Other news"
+    },
     {
      "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
      "summary": "As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it. The post Passkeys Are Better Than Passwords. But They Are Not…",
@@ -316,46 +352,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-29T19:23:41+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-     "group": "Other news"
-    },
-    {
-     "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
-     "summary": "Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you. The post When…",
-     "source": "SecurityWeek",
-     "date": "2026-10-29T16:30:00+00:00",
-     "url": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
-     "group": "Other news"
-    },
-    {
-     "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
-     "summary": "Google’s new frontier model scored 88.2% on SEC-bench Pro and is rolling out first to vetted cyber defenders via its Fairwind Program. The post Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model…",
-     "source": "SecurityWeek",
-     "date": "2026-10-29T15:01:00+00:00",
-     "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
-     "group": "Other news"
-    },
-    {
-     "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-     "summary": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-29T14:35:40+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-     "group": "Other news"
-    },
-    {
-     "title": "3 Ways AI Agents Already Operate in Your Browser",
-     "summary": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers…",
-     "source": "BleepingComputer",
-     "date": "2026-10-29T14:00:10+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
-     "group": "Other news"
-    },
-    {
-     "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-     "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are…",
-     "source": "The Hacker News",
-     "date": "2026-10-29T11:33:41+00:00",
-     "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
      "group": "Other news"
     }
    ]

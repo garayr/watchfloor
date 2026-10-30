@@ -1,6 +1,46 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-118527",
+   "date": "2026-10-30",
+   "src": "CISA",
+   "vendor": "Ivanti Connect Secure",
+   "vendor_name": "Ivanti",
+   "product": "Connect Secure",
+   "title": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+   "detail": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-118527"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+   "kev": true,
+   "sev": "high"
+  },
+  {
+   "id": "CVE-2026-111357",
+   "date": "2026-10-30",
+   "src": "CISA",
+   "vendor": "Ivanti Connect Secure",
+   "vendor_name": "Ivanti",
+   "product": "Connect Secure",
+   "title": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+   "detail": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-02",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-111357"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+   "kev": true,
+   "epss": 0.0032,
+   "cvss": 7.0,
+   "sev": "high"
+  },
+  {
    "id": "CVE-2026-97229",
    "date": "2026-10-29",
    "src": "CISA",
@@ -17,7 +57,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
    "kev": true,
-   "epss": 0.1843,
+   "epss": 0.2657,
    "cvss": 10.0,
    "sev": "critical",
    "news": [
@@ -52,7 +92,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
    "kev": true,
-   "epss": 0.0057,
+   "epss": 0.0091,
    "cvss": 8.6,
    "sev": "high",
    "news": [
@@ -67,12 +107,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
      "source": "BleepingComputer",
      "date": "2026-10-29T18:38:26+00:00"
-    },
-    {
-     "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-     "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-     "source": "The Hacker News",
-     "date": "2026-10-29T10:44:46+00:00"
     }
    ]
   },
@@ -93,7 +127,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
    "kev": true,
-   "epss": 0.0076,
+   "epss": 0.0069,
    "cvss": 2.7,
    "sev": "high"
   },
@@ -114,7 +148,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
    "kev": true,
-   "epss": 0.1572,
+   "epss": 0.1613,
    "cvss": 7.8,
    "sev": "high"
   },
@@ -488,15 +522,7 @@
    "kev": true,
    "epss": 0.0215,
    "cvss": 9.8,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-     "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-     "source": "The Hacker News",
-     "date": "2026-10-29T10:44:46+00:00"
-    }
-   ]
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-105133",

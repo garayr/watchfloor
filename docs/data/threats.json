@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 3342,
-  "c2_servers": 632,
+  "total_iocs": 2932,
+  "c2_servers": 545,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 1466,
+    "iocs": 1486,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Vidar",
-    "iocs": 349,
-    "c2": 349,
+    "iocs": 295,
+    "c2": 295,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "ClearFake",
-    "iocs": 323,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
     "name": "AMOS",
-    "iocs": 267,
+    "iocs": 289,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
+    "name": "ClearFake",
+    "iocs": 271,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "VShell",
+    "iocs": 103,
+    "c2": 103,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
     "name": "SalatStealer",
-    "iocs": 232,
+    "iocs": 58,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
-    "name": "VShell",
-    "iocs": 88,
-    "c2": 88,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 59,
+    "iocs": 56,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
+    "name": "StrelaStealer",
+    "iocs": 36,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+   },
+   {
     "name": "php.shin_webshell",
-    "iocs": 37,
+    "iocs": 36,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "Mirai",
-    "iocs": 34,
+    "iocs": 31,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "StrelaStealer",
-    "iocs": 30,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 982,
+  "online": 901,
   "top_tags": [
    {
     "name": "github",
-    "count": 804
-   },
-   {
-    "name": "SalatStealer",
-    "count": 331
+    "count": 718
    },
    {
     "name": "SmartLoader",
-    "count": 310
+    "count": 365
    },
    {
     "name": "zip",
-    "count": 310
+    "count": 365
    },
    {
-    "name": "zapret",
-    "count": 276
+    "name": "SalatStealer",
+    "count": 244
    },
    {
     "name": "FakeGit",
     "count": 212
    },
    {
+    "name": "zapret",
+    "count": 159
+   },
+   {
     "name": "dropper",
-    "count": 125
+    "count": 123
    },
    {
     "name": "Mozi",
-    "count": 79
+    "count": 105
    }
   ]
  },
@@ -466,10 +466,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-30T14:31:02+00:00",
-  "sans": "2026-10-30T14:31:02+00:00",
-  "otx": "2026-10-30T14:31:02+00:00",
-  "urlhaus": "2026-10-30T14:31:02+00:00"
+  "threatfox": "2026-10-30T19:41:45+00:00",
+  "sans": "2026-10-30T19:41:45+00:00",
+  "otx": "2026-10-30T19:41:45+00:00",
+  "urlhaus": "2026-10-30T19:41:45+00:00"
  },
- "generated_at": "2026-10-30T14:31:02+00:00"
+ "generated_at": "2026-10-30T19:41:45+00:00"
 }
