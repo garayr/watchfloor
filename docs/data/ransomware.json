@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T01:29:07+00:00",
+ "generated_at": "2026-10-30T07:37:33+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "qilin",
-   "count": 11
+   "count": 9
   },
   {
    "name": "Whitearmor",
@@ -21,12 +21,12 @@
    "count": 8
   },
   {
-   "name": "play",
+   "name": "SilentRansomGroup",
    "count": 7
   },
   {
-   "name": "SilentRansomGroup",
-   "count": 6
+   "name": "play",
+   "count": 7
   },
   {
    "name": "Shiba",
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 14
+   "count": 13
   },
   {
    "name": "Professional Services",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Technology",
@@ -186,6 +186,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Susman Godfrey LLP",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-30T00:02:22+00:00",
+   "attack_date": "2026-10-30",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/U3VzbWFuIEdvZGZyZXkgTExQQFNpbGVudFJhbnNvbUdyb3Vw"
+  },
+  {
+   "victim": "TDS Telecommunications LLC.",
+   "group": "Global Secret Group",
+   "date": "2026-10-29T21:54:07+00:00",
+   "attack_date": "2026-10-29",
+   "country": "US",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/VERTIFRlbGVjb21tdW5pY2F0aW9ucyBMTEMuQEdsb2JhbCBTZWNyZXQgR3JvdXA="
+  },
   {
    "victim": "IT Foods Industries",
    "group": "Shiba",
@@ -1067,24 +1085,6 @@
    "country": "DE",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/RklSTUVOR1JVUFBFIEFQUEwgSG9sZGluZyBHbWJIQHFpbGlu"
-  },
-  {
-   "victim": "Premier Medical Group",
-   "group": "qilin",
-   "date": "2026-10-26T12:00:15+00:00",
-   "attack_date": "2026-10-26",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/UHJlbWllciBNZWRpY2FsIEdyb3VwQHFpbGlu"
-  },
-  {
-   "victim": "Zachary Confections",
-   "group": "qilin",
-   "date": "2026-10-26T11:59:07+00:00",
-   "attack_date": "2026-10-26",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/WmFjaGFyeSBDb25mZWN0aW9uc0BxaWxpbg=="
   }
  ]
 }
