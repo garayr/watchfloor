@@ -825,27 +825,6 @@
      "date": "2026-10-29T08:24:22+00:00"
     }
    ]
-  },
-  {
-   "id": "CVE-2026-86950",
-   "date": "2026-09-29",
-   "src": "CISA",
-   "vendor": "Apple Multiple Products",
-   "vendor_name": "Apple",
-   "product": "Multiple Products",
-   "title": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
-   "detail": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-10-13",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-86950"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950",
-   "kev": true,
-   "epss": 0.2617,
-   "cvss": 8.8,
-   "sev": "high"
   }
  ]
 }

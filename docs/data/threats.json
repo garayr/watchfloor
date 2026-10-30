@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2309,
-  "c2_servers": 683,
+  "total_iocs": 3546,
+  "c2_servers": 708,
   "families": [
    {
+    "name": "IClickFix",
+    "iocs": 1467,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 530,
+    "iocs": 489,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "SalatStealer",
-    "iocs": 366,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
-   },
-   {
     "name": "Vidar",
-    "iocs": 329,
-    "c2": 329,
+    "iocs": 332,
+    "c2": 332,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 258,
+    "iocs": 257,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
+    "name": "SalatStealer",
+    "iocs": 209,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
     "name": "VShell",
-    "iocs": 54,
-    "c2": 51,
+    "iocs": 60,
+    "c2": 60,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Mirai",
-    "iocs": 44,
-    "c2": 8,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+    "name": "Unknown Loader",
+    "iocs": 56,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 43,
-    "c2": 43,
+    "iocs": 42,
+    "c2": 42,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
+    "name": "StrelaStealer",
+    "iocs": 28,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "php.shin_webshell",
     "iocs": 27,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "PureRAT",
-    "iocs": 23,
-    "c2": 23,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
-   },
-   {
-    "name": "StrelaStealer",
-    "iocs": 22,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 954,
+  "online": 963,
   "top_tags": [
    {
     "name": "github",
-    "count": 868
+    "count": 839
    },
    {
     "name": "SalatStealer",
-    "count": 846
+    "count": 813
    },
    {
     "name": "zapret",
-    "count": 302
-   },
-   {
-    "name": "Mozi",
-    "count": 68
+    "count": 413
    },
    {
     "name": "exe",
-    "count": 57
+    "count": 391
+   },
+   {
+    "name": "Mozi",
+    "count": 84
    },
    {
     "name": "elf",
-    "count": 49
+    "count": 63
    },
    {
     "name": "mirai",
-    "count": 44
+    "count": 58
    },
    {
     "name": "32-bit",
-    "count": 37
+    "count": 42
    }
   ]
  },
@@ -211,6 +211,145 @@
   }
  ],
  "pulses": [
+  {
+   "name": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
+   "summary": "A sophisticated SEO poisoning campaign targets users searching for DeepSeek AI tools through malicious lookalike domains positioned on first-page search results. The attack employs a multi-stage infection chain…",
+   "date": "2026-10-29T18:09:45+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Kong RAT"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "keylogger",
+    "deepseek",
+    "seo poisoning",
+    "scheduled task persistence",
+    "chinese threat actor",
+    "dll side-loading"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae38be9be54297cf156f922"
+  },
+  {
+   "name": "Inside Coruna and DarkSword Chains: From Web Lures to iOS Exploitation",
+   "summary": "Seven months after initial disclosure, the Coruna iOS exploit framework continues evolving with two distinct exploit chains conditioned on device operating system versions. Targets running iOS 17.2.1 or earlier receive…",
+   "date": "2026-10-29T18:09:10+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Coruna",
+    "DarkSword"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "darksword",
+    "cve-2022-48503",
+    "drive-by compromise",
+    "webkit vulnerability",
+    "coruna",
+    "amfi manipulation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae38bc6be61d23c0f7a2165"
+  },
+  {
+   "name": "Node2Shell (CVE-2026-111497): Brotli RCE Exploited",
+   "summary": "A critical out-of-bounds write vulnerability in Google's Brotli decompression library allows specially crafted compressed data to corrupt application memory, potentially enabling remote code execution. The flaw, scoring…",
+   "date": "2026-10-29T18:09:09+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "cve-2026-111497",
+    "out-of-bounds write",
+    "node2shell",
+    "memory corruption",
+    "active exploitation",
+    "http exploitation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae38bc5104a1b7a03e20f92"
+  },
+  {
+   "name": "Investigating Abuse of Remote Desktop and Bulk Mailing Apps",
+   "summary": "Investigation into a tech-support scam led to discovering connections between the remote-access application UltraViewer and bulk-mailing software UltraMailer. DNS and email analysis revealed a long-running QuickBooks…",
+   "date": "2026-10-29T18:09:09+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "njRAT - S0385",
+    "Njw0rm",
+    "LV",
+    "Bladabindi",
+    "DarkKometa"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "tech-support scam",
+    "darkkometa",
+    "njrat",
+    "dns tracking",
+    "bulk mailing abuse",
+    "ultramailer"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae38bc5290b5bac6b7748e0"
+  },
+  {
+   "name": "Prediction Markets Emerge as a New Vertical for Traffer Teams",
+   "summary": "Multiple Russian-language traffer teams have rapidly adapted affiliate-fraud models to exploit growing interest in prediction markets like PolyMarket and Kalshi since spring 2026. Three teams—AtlasCore, PolyFucked, and…",
+   "date": "2026-10-29T17:54:26+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "cryptocurrency fraud",
+    "traffer teams",
+    "atlascore",
+    "polyfucked",
+    "prediction markets",
+    "affiliate fraud"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae388525fa9f64db6d1d947"
+  },
+  {
+   "name": "Aurora ransomware targets ESXi abuses Cursor Agent for exploitation",
+   "summary": "Aurora ransomware group has been active since approximately April 2026, targeting organizations across multiple countries and operating a data leak site. The investigation revealed the group deploys a Linux ransomware…",
+   "date": "2026-10-29T17:45:39+00:00",
+   "author": "AlienVault",
+   "adversary": "aurora",
+   "malware": [
+    "Hydraq - S0203",
+    "Roarur",
+    "MdmBot",
+    "HomeUnix",
+    "Homux",
+    "HidraQ"
+   ],
+   "countries": [
+    "United States of America",
+    "Argentina",
+    "Austria",
+    "Germany",
+    "Israel",
+    "Spain"
+   ],
+   "industries": [],
+   "tags": [
+    "aurora",
+    "virtualization",
+    "chacha20",
+    "linux",
+    "ransomware",
+    "ai-assisted exploitation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae386434a2934ca4f48754d"
+  },
   {
    "name": "From Hijacked Pbx To Stolen Trunk Inj3ctor3s Campaign",
    "summary": "The provided document does not contain an intelligence report. Instead, it appears to be a loading or verification page that displays a placeholder message indicating that a request is being processed or verified. There…",
@@ -325,174 +464,13 @@
     "netamloader"
    ],
    "url": "https://otx.alienvault.com/pulse/6ae307a3ac3f1c968fce54a3"
-  },
-  {
-   "name": "Adversary Unmasked APT Profile - Star Blizzard",
-   "summary": "Star Blizzard, attributed to the Russian Federal Security Service Centre 18, is a persistent espionage group targeting government officials, defence personnel, think tanks, NGOs, and academia primarily in the UK, US…",
-   "date": "2026-10-28T18:54:54+00:00",
-   "author": "AlienVault",
-   "adversary": "Callisto",
-   "malware": [
-    "SPICA",
-    "EvilGinx",
-    "COLDCOPY",
-    "LOSTKEYS",
-    "NOROBOT",
-    "BAITSWITCH"
-   ],
-   "countries": [
-    "United States of America",
-    "Canada",
-    "Estonia",
-    "France",
-    "Germany",
-    "Greece"
-   ],
-   "industries": [
-    "Government",
-    "Defense",
-    "NGO",
-    "Media",
-    "Energy",
-    "Finance"
-   ],
-   "tags": [
-    "evilginx",
-    "simplefix",
-    "ghostblade",
-    "baitswitch",
-    "cosmicpulse",
-    "coldcopy"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae244fe073f118d830cf4be"
-  },
-  {
-   "name": "Node2Shell / HTTP2Shell Vulnerability May Allow RCE",
-   "summary": "An out-of-bounds write vulnerability in Google's Brotli decoder, tracked as CVE-2026-111497 and known as Node2Shell or HTTP2Shell, affects Node.js and various other software packages. The critical flaw (CVSS 9.2) can be…",
-   "date": "2026-10-28T18:43:22+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "http2shell",
-    "remote code execution",
-    "out-of-bounds write",
-    "compression vulnerability",
-    "cve-2026-111497",
-    "brotli decoder"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae2424aa801637ecf4942df"
-  },
-  {
-   "name": "n0n Ransomware: Inside an AI-Assisted Extortion Operation",
-   "summary": "In September 2026, an exposed staging server revealed the complete operational workspace of a n0n ransomware operator, including breach tools, encryptor source code, extortion infrastructure, and an AI coding agent…",
-   "date": "2026-10-28T14:54:04+00:00",
-   "author": "AlienVault",
-   "adversary": "N0n",
-   "malware": [
-    "n0n"
-   ],
-   "countries": [
-    "United States of America",
-    "Argentina",
-    "Venezuela, Bolivarian Republic of"
-   ],
-   "industries": [
-    "Retail",
-    "Technology",
-    "Education",
-    "Telecommunications",
-    "Government",
-    "Healthcare"
-   ],
-   "tags": [
-    "backup destruction",
-    "n0n",
-    "credential stuffing",
-    "destructive extortion",
-    "ai-assisted attacks",
-    "llm coding agent"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae20c8c345d85127b06d6d0"
-  },
-  {
-   "name": "PHP2Shell Weaponized After Japanese Real Estate Extortion",
-   "summary": "An exposed staging server at 96.126.130.81 revealed an operator's extortion campaign targeting Japanese real estate websites between October 9-11, 2026, followed by PHP2Shell exploitation tooling. The operator, using…",
-   "date": "2026-10-28T14:54:03+00:00",
-   "author": "AlienVault",
-   "adversary": "kkkkevin777",
-   "malware": [],
-   "countries": [
-    "Japan",
-    "Taiwan"
-   ],
-   "industries": [
-    "Real Estate",
-    "Finance"
-   ],
-   "tags": [
-    "kkkkevin777",
-    "cve-2026-109618",
-    "php2shell",
-    "shared hosting compromise",
-    "japanese real estate extortion",
-    "cve-2026-109619"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae20c8b7eea709e876863db"
-  },
-  {
-   "name": "68 GB Stolen From a Philippine Government Agency's Overseas-Employment Databases, Exposed by the Operator's Own Open Directory",
-   "summary": "An unidentified operator exfiltrated 68.837 GiB of database backups from a Philippine government agency managing overseas employment and migrant workers on 6 September 2026. The theft involved 27 SQL Server backups…",
-   "date": "2026-10-28T14:25:18+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Wrqsnx",
-    "GodPotato"
-   ],
-   "countries": [
-    "Philippines"
-   ],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "impacket toolkit",
-    "database exfiltration",
-    "wrqsnx",
-    "privilege escalation",
-    "philippines government",
-    "open directory exposure"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae205cefd1c69f6a9b3116d"
-  },
-  {
-   "name": "Managed for Malice: How Attackers Turn MDM into Remote Access",
-   "summary": "Threat actors are weaponizing legitimate mobile device management platforms, including Hexnode and Rippling, through social engineering techniques to establish unauthorized remote access to victim systems. Attackers use…",
-   "date": "2026-10-28T14:25:17+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "mdm abuse",
-    "rmm tools",
-    "social engineering",
-    "privileged access",
-    "hexnode",
-    "rippling"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae205cd5f78e91614edbd47"
   }
  ],
  "updated": {
-  "threatfox": "2026-10-29T21:54:46+00:00",
-  "sans": "2026-10-29T21:54:46+00:00",
-  "otx": "2026-10-29T21:54:46+00:00",
-  "urlhaus": "2026-10-29T21:54:46+00:00"
+  "threatfox": "2026-10-30T01:29:07+00:00",
+  "sans": "2026-10-30T01:29:07+00:00",
+  "otx": "2026-10-30T01:29:07+00:00",
+  "urlhaus": "2026-10-30T01:29:07+00:00"
  },
- "generated_at": "2026-10-29T21:54:46+00:00"
+ "generated_at": "2026-10-30T01:29:07+00:00"
 }

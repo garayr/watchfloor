@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-29T21:54:46+00:00",
+ "generated_at": "2026-10-30T01:29:07+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
-   "name": "qilin",
-   "count": 19
-  },
-  {
    "name": "Booba Project",
    "count": 16
   },
   {
-   "name": "everest",
-   "count": 8
+   "name": "qilin",
+   "count": 11
   },
   {
    "name": "Whitearmor",
-   "count": 7
+   "count": 8
+  },
+  {
+   "name": "everest",
+   "count": 8
   },
   {
    "name": "play",
@@ -29,58 +29,58 @@
    "count": 6
   },
   {
-   "name": "emperador",
-   "count": 5
+   "name": "Shiba",
+   "count": 4
   },
   {
-   "name": "rhysida",
+   "name": "emperador",
    "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Professional Services",
    "count": 12
   },
   {
-   "name": "Financial Services",
-   "count": 10
-  },
-  {
-   "name": "Manufacturing",
-   "count": 10
-  },
-  {
    "name": "Technology",
+   "count": 11
+  },
+  {
+   "name": "Financial Services",
    "count": 9
   },
   {
    "name": "Education",
+   "count": 8
+  },
+  {
+   "name": "Manufacturing",
    "count": 8
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 37,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
-  },
-  {
-   "code": "DE",
-   "count": 5,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "GB",
    "count": 5,
    "lat": 51.5,
    "lon": -0.1
+  },
+  {
+   "code": "DE",
+   "count": 4,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "IT",
@@ -101,16 +101,16 @@
    "lon": -3.7
   },
   {
-   "code": "MX",
-   "count": 3,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
    "code": "FR",
    "count": 2,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "MX",
+   "count": 2,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "MY",
@@ -186,6 +186,87 @@
   }
  ],
  "victims": [
+  {
+   "victim": "IT Foods Industries",
+   "group": "Shiba",
+   "date": "2026-10-29T20:36:55+00:00",
+   "attack_date": "2026-10-29",
+   "country": null,
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/SVQgRm9vZHMgSW5kdXN0cmllc0BTaGliYQ=="
+  },
+  {
+   "victim": "Friendly Senior Living",
+   "group": "Shiba",
+   "date": "2026-10-29T20:36:36+00:00",
+   "attack_date": "2026-10-29",
+   "country": null,
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/RnJpZW5kbHkgU2VuaW9yIExpdmluZ0BTaGliYQ=="
+  },
+  {
+   "victim": "Morgan White Group",
+   "group": "Shiba",
+   "date": "2026-10-29T20:36:16+00:00",
+   "attack_date": "2026-10-29",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TW9yZ2FuIFdoaXRlIEdyb3VwQFNoaWJh"
+  },
+  {
+   "victim": "Antwerp House Dentistry",
+   "group": "Shiba",
+   "date": "2026-10-29T20:35:57+00:00",
+   "attack_date": "2026-10-29",
+   "country": "GB",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/QW50d2VycCBIb3VzZSBEZW50aXN0cnlAU2hpYmE="
+  },
+  {
+   "victim": "as*****g.com",
+   "group": "everstake",
+   "date": "2026-10-29T20:25:08+00:00",
+   "attack_date": "2026-10-29",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/YXMqKioqKmcuY29tQGV2ZXJzdGFrZQ=="
+  },
+  {
+   "victim": "ca*****s.com",
+   "group": "everstake",
+   "date": "2026-10-29T20:24:31+00:00",
+   "attack_date": "2026-10-29",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Y2EqKioqKnMuY29tQGV2ZXJzdGFrZQ=="
+  },
+  {
+   "victim": "in*****s.com",
+   "group": "everstake",
+   "date": "2026-10-29T20:23:52+00:00",
+   "attack_date": "2026-10-29",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/aW4qKioqKnMuY29tQGV2ZXJzdGFrZQ=="
+  },
+  {
+   "victim": "corp-smart.com",
+   "group": "everstake",
+   "date": "2026-10-29T20:23:13+00:00",
+   "attack_date": "2026-10-29",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/Y29ycC1zbWFydC5jb21AZXZlcnN0YWtl"
+  },
+  {
+   "victim": "rolly.io",
+   "group": "Whitearmor",
+   "date": "2026-10-29T18:04:46+00:00",
+   "attack_date": "2026-10-29",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/cm9sbHkuaW9AV2hpdGVhcm1vcg=="
+  },
   {
    "victim": "LA PROFUMERIA SRL",
    "group": "emperador",
@@ -1004,87 +1085,6 @@
    "country": "US",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/WmFjaGFyeSBDb25mZWN0aW9uc0BxaWxpbg=="
-  },
-  {
-   "victim": "THOMAS JORDAN, P.A",
-   "group": "qilin",
-   "date": "2026-10-26T11:58:15+00:00",
-   "attack_date": "2026-10-26",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/VEhPTUFTIEpPUkRBTiwgUC5BQHFpbGlu"
-  },
-  {
-   "victim": "Five Star Sheets",
-   "group": "qilin",
-   "date": "2026-10-26T11:57:22+00:00",
-   "attack_date": "2026-10-26",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/Rml2ZSBTdGFyIFNoZWV0c0BxaWxpbg=="
-  },
-  {
-   "victim": "Power Funding",
-   "group": "qilin",
-   "date": "2026-10-26T11:55:59+00:00",
-   "attack_date": "2026-10-26",
-   "country": "GB",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/UG93ZXIgRnVuZGluZ0BxaWxpbg=="
-  },
-  {
-   "victim": "Mountain Rheumatology",
-   "group": "qilin",
-   "date": "2026-10-26T11:53:05+00:00",
-   "attack_date": "2026-10-26",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TW91bnRhaW4gUmhldW1hdG9sb2d5QHFpbGlu"
-  },
-  {
-   "victim": "Taubensee Steel & Wire",
-   "group": "qilin",
-   "date": "2026-10-26T11:51:36+00:00",
-   "attack_date": "2026-10-26",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/VGF1YmVuc2VlIFN0ZWVsICYgV2lyZUBxaWxpbg=="
-  },
-  {
-   "victim": "Natural Energy Laboratory of Hawaii Authority",
-   "group": "qilin",
-   "date": "2026-10-26T11:50:06+00:00",
-   "attack_date": "2026-10-26",
-   "country": "US",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/TmF0dXJhbCBFbmVyZ3kgTGFib3JhdG9yeSBvZiBIYXdhaWkgQXV0aG9yaXR5QHFpbGlu"
-  },
-  {
-   "victim": "Miller Stratvert",
-   "group": "qilin",
-   "date": "2026-10-26T11:35:08+00:00",
-   "attack_date": "2026-10-26",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/TWlsbGVyIFN0cmF0dmVydEBxaWxpbg=="
-  },
-  {
-   "victim": "Seufert Construction",
-   "group": "qilin",
-   "date": "2026-10-26T11:33:31+00:00",
-   "attack_date": "2026-10-26",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/U2V1ZmVydCBDb25zdHJ1Y3Rpb25AcWlsaW4="
-  },
-  {
-   "victim": "TRANSPORTES JIMENEZ and REYES JIM REY S.A.",
-   "group": "emperador",
-   "date": "2026-10-26T10:21:11+00:00",
-   "attack_date": "2026-10-26",
-   "country": "MX",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/VFJBTlNQT1JURVMgSklNRU5FWiBhbmQgUkVZRVMgSklNIFJFWSBTLkEuQGVtcGVyYWRvcg=="
   }
  ]
 }
