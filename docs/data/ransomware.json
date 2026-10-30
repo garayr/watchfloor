@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T07:37:33+00:00",
+ "generated_at": "2026-10-30T14:31:02+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -7,10 +7,6 @@
   {
    "name": "Booba Project",
    "count": 16
-  },
-  {
-   "name": "qilin",
-   "count": 9
   },
   {
    "name": "Whitearmor",
@@ -29,38 +25,42 @@
    "count": 7
   },
   {
-   "name": "Shiba",
-   "count": 4
+   "name": "qilin",
+   "count": 6
   },
   {
-   "name": "emperador",
+   "name": "rhysida",
+   "count": 5
+  },
+  {
+   "name": "N0n",
    "count": 4
   }
  ],
  "by_sector": [
   {
+   "name": "Professional Services",
+   "count": 14
+  },
+  {
    "name": "Healthcare",
    "count": 13
   },
   {
-   "name": "Professional Services",
-   "count": 13
+   "name": "Technology",
+   "count": 10
   },
   {
-   "name": "Technology",
-   "count": 11
+   "name": "Education",
+   "count": 9
   },
   {
    "name": "Financial Services",
    "count": 9
   },
   {
-   "name": "Education",
-   "count": 8
-  },
-  {
    "name": "Manufacturing",
-   "count": 8
+   "count": 7
   }
  ],
  "by_country": [
@@ -72,15 +72,9 @@
   },
   {
    "code": "GB",
-   "count": 5,
+   "count": 4,
    "lat": 51.5,
    "lon": -0.1
-  },
-  {
-   "code": "DE",
-   "count": 4,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "IT",
@@ -95,8 +89,26 @@
    "lon": -79.4
   },
   {
-   "code": "ES",
+   "code": "DE",
    "count": 3,
+   "lat": 50.1,
+   "lon": 8.7
+  },
+  {
+   "code": "MY",
+   "count": 3,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
+   "code": "AE",
+   "count": 2,
+   "lat": 24.5,
+   "lon": 54.4
+  },
+  {
+   "code": "ES",
+   "count": 2,
    "lat": 40.4,
    "lon": -3.7
   },
@@ -111,18 +123,6 @@
    "count": 2,
    "lat": 19.4,
    "lon": -99.1
-  },
-  {
-   "code": "MY",
-   "count": 2,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
-   "code": "AE",
-   "count": 1,
-   "lat": 24.5,
-   "lon": 54.4
   },
   {
    "code": "AT",
@@ -186,6 +186,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "A***** T******",
+   "group": "Doommageddon",
+   "date": "2026-10-30T09:22:24+00:00",
+   "attack_date": "2026-10-30",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QSoqKioqIFQqKioqKipARG9vbW1hZ2VkZG9u"
+  },
+  {
+   "victim": "INTI International University & Colleges",
+   "group": "rhysida",
+   "date": "2026-10-30T06:33:09+00:00",
+   "attack_date": "2026-10-30",
+   "country": "MY",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/SU5USSBJbnRlcm5hdGlvbmFsIFVuaXZlcnNpdHkgJiBDb2xsZWdlc0ByaHlzaWRh"
+  },
+  {
+   "victim": "Minutes Quick Services",
+   "group": "N0n",
+   "date": "2026-10-30T05:53:58+00:00",
+   "attack_date": "2026-10-30",
+   "country": "AE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TWludXRlcyBRdWljayBTZXJ2aWNlc0BOMG4="
+  },
   {
    "victim": "Susman Godfrey LLP",
    "group": "SilentRansomGroup",
@@ -1058,33 +1085,6 @@
    "country": "US",
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/RGVsdGEgRWxlY3RyaWMgUG93ZXIgQXNzb2NpYXRpb25AcWlsaW4="
-  },
-  {
-   "victim": "Bangor Wholesale Laminates",
-   "group": "qilin",
-   "date": "2026-10-26T12:03:03+00:00",
-   "attack_date": "2026-10-26",
-   "country": "GB",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/QmFuZ29yIFdob2xlc2FsZSBMYW1pbmF0ZXNAcWlsaW4="
-  },
-  {
-   "victim": "TeleTronic",
-   "group": "qilin",
-   "date": "2026-10-26T12:02:01+00:00",
-   "attack_date": "2026-10-26",
-   "country": "ES",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VGVsZVRyb25pY0BxaWxpbg=="
-  },
-  {
-   "victim": "FIRMENGRUPPE APPL Holding GmbH",
-   "group": "qilin",
-   "date": "2026-10-26T12:01:07+00:00",
-   "attack_date": "2026-10-26",
-   "country": "DE",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/RklSTUVOR1JVUFBFIEFQUEwgSG9sZGluZyBHbWJIQHFpbGlu"
   }
  ]
 }

@@ -22,10 +22,16 @@
    "sev": "critical",
    "news": [
     {
-     "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-     "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+     "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+     "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+     "source": "SecurityWeek",
+     "date": "2026-10-30T09:32:27+00:00"
+    },
+    {
+     "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+     "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
      "source": "The Hacker News",
-     "date": "2026-10-29T09:05:39+00:00"
+     "date": "2026-10-30T07:27:05+00:00"
     }
    ]
   },
@@ -51,22 +57,22 @@
    "sev": "high",
    "news": [
     {
+     "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+     "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+     "source": "The Hacker News",
+     "date": "2026-10-30T07:27:05+00:00"
+    },
+    {
      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
      "source": "BleepingComputer",
      "date": "2026-10-29T18:38:26+00:00"
     },
     {
-     "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
-     "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
-     "source": "SecurityWeek",
-     "date": "2026-10-29T14:18:03+00:00"
-    },
-    {
-     "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-     "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-     "source": "BleepingComputer",
-     "date": "2026-10-29T11:10:13+00:00"
+     "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+     "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+     "source": "The Hacker News",
+     "date": "2026-10-29T10:44:46+00:00"
     }
    ]
   },
@@ -89,15 +95,7 @@
    "kev": true,
    "epss": 0.0076,
    "cvss": 2.7,
-   "sev": "high",
-   "news": [
-    {
-     "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-     "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-     "source": "The Hacker News",
-     "date": "2026-10-29T06:22:33+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "CVE-2026-46300",
@@ -811,18 +809,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
      "source": "BleepingComputer",
      "date": "2026-10-29T18:38:26+00:00"
-    },
-    {
-     "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
-     "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
-     "source": "SecurityWeek",
-     "date": "2026-10-29T10:29:25+00:00"
-    },
-    {
-     "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-     "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-     "source": "The Hacker News",
-     "date": "2026-10-29T08:24:22+00:00"
     }
    ]
   }
