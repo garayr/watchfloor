@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1446,
-  "c2_servers": 327,
+  "total_iocs": 1700,
+  "c2_servers": 324,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 334,
+    "iocs": 373,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Mirai",
-    "iocs": 192,
+    "iocs": 194,
     "c2": 13,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 142,
+    "iocs": 158,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "SalatStealer",
+    "iocs": 112,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
     "name": "AMOS",
-    "iocs": 139,
+    "iocs": 102,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "VShell",
-    "iocs": 104,
-    "c2": 104,
+    "iocs": 99,
+    "c2": 99,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "SmartLoader",
     "iocs": 45,
-    "c2": 3,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.smartloader"
    },
    {
+    "name": "stealler",
+    "iocs": 40,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
+   },
+   {
     "name": "StrelaStealer",
-    "iocs": 45,
+    "iocs": 38,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 32,
-    "c2": 3,
+    "iocs": 33,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 29,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "Sliver",
-    "iocs": 27,
-    "c2": 27,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 926,
+  "online": 925,
   "top_tags": [
    {
     "name": "github",
-    "count": 581
+    "count": 549
    },
    {
     "name": "zapret",
-    "count": 458
+    "count": 454
    },
    {
     "name": "mirai",
-    "count": 263
+    "count": 287
    },
    {
     "name": "SalatStealer",
-    "count": 197
-   },
-   {
-    "name": "SmartLoader",
-    "count": 97
-   },
-   {
-    "name": "zip",
-    "count": 97
-   },
-   {
-    "name": "elf",
-    "count": 88
+    "count": 205
    },
    {
     "name": "Mozi",
-    "count": 80
+    "count": 103
+   },
+   {
+    "name": "elf",
+    "count": 92
+   },
+   {
+    "name": "SmartLoader",
+    "count": 67
+   },
+   {
+    "name": "zip",
+    "count": 67
    }
   ]
  },
@@ -466,10 +466,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-31T18:48:07+00:00",
-  "sans": "2026-10-31T18:48:07+00:00",
-  "otx": "2026-10-31T18:48:07+00:00",
-  "urlhaus": "2026-10-31T18:48:07+00:00"
+  "threatfox": "2026-10-31T22:06:09+00:00",
+  "sans": "2026-10-31T22:06:09+00:00",
+  "otx": "2026-10-31T22:06:09+00:00",
+  "urlhaus": "2026-10-31T22:06:09+00:00"
  },
- "generated_at": "2026-10-31T18:48:07+00:00"
+ "generated_at": "2026-10-31T22:06:09+00:00"
 }
