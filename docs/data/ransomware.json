@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T02:25:03+00:00",
+ "generated_at": "2026-10-31T08:37:23+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,11 +10,7 @@
   },
   {
    "name": "SilentRansomGroup",
-   "count": 10
-  },
-  {
-   "name": "Booba Project",
-   "count": 9
+   "count": 11
   },
   {
    "name": "genesis",
@@ -25,7 +21,7 @@
    "count": 7
   },
   {
-   "name": "Whitearmor",
+   "name": "Booba Project",
    "count": 6
   },
   {
@@ -33,14 +29,18 @@
    "count": 6
   },
   {
-   "name": "rhysida",
+   "name": "Whitearmor",
+   "count": 5
+  },
+  {
+   "name": "everstake",
    "count": 5
   }
  ],
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 16
+   "count": 19
   },
   {
    "name": "Manufacturing",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Healthcare",
-   "count": 12
+   "count": 10
   },
   {
    "name": "Technology",
@@ -72,7 +72,7 @@
   },
   {
    "code": "MX",
-   "count": 7,
+   "count": 6,
    "lat": 19.4,
    "lon": -99.1
   },
@@ -89,16 +89,16 @@
    "lon": -0.1
   },
   {
+   "code": "IT",
+   "count": 3,
+   "lat": 41.9,
+   "lon": 12.5
+  },
+  {
    "code": "CA",
    "count": 2,
    "lat": 43.7,
    "lon": -79.4
-  },
-  {
-   "code": "IT",
-   "count": 2,
-   "lat": 41.9,
-   "lon": 12.5
   },
   {
    "code": "MY",
@@ -180,6 +180,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "spencers.com",
+   "group": "Scarlettgroup",
+   "date": "2026-10-31T03:34:17+00:00",
+   "attack_date": "2026-10-30",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/c3BlbmNlcnMuY29tQFNjYXJsZXR0Z3JvdXA="
+  },
+  {
+   "victim": "chicagolawyer.com",
+   "group": "incransom",
+   "date": "2026-10-31T00:01:20+00:00",
+   "attack_date": "2026-10-30",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Y2hpY2Fnb2xhd3llci5jb21AaW5jcmFuc29t"
+  },
+  {
+   "victim": "sp*****g.com",
+   "group": "everstake",
+   "date": "2026-10-30T23:55:36+00:00",
+   "attack_date": "2026-10-30",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/c3AqKioqKmcuY29tQGV2ZXJzdGFrZQ=="
+  },
+  {
+   "victim": "ArentFox Schiff",
+   "group": "SilentRansomGroup",
+   "date": "2026-10-30T23:39:46+00:00",
+   "attack_date": "2026-10-30",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QXJlbnRGb3ggU2NoaWZmQFNpbGVudFJhbnNvbUdyb3Vw"
+  },
+  {
+   "victim": "Studio Stelitano e Associati",
+   "group": "emperador",
+   "date": "2026-10-30T23:27:04+00:00",
+   "attack_date": "2026-10-30",
+   "country": "IT",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/U3R1ZGlvIFN0ZWxpdGFubyBlIEFzc29jaWF0aUBlbXBlcmFkb3I="
+  },
   {
    "victim": "Acclaim Companies / JCJ Investment",
    "group": "genesis",
@@ -1034,51 +1079,6 @@
    "country": "US",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/UUxDQHBsYXk="
-  },
-  {
-   "victim": "wagyu.xyz",
-   "group": "Whitearmor",
-   "date": "2026-10-27T15:06:27+00:00",
-   "attack_date": "2026-10-27",
-   "country": null,
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/d2FneXUueHl6QFdoaXRlYXJtb3I="
-  },
-  {
-   "victim": "GRUPO PETROIL",
-   "group": "direwolf",
-   "date": "2026-10-27T14:11:50+00:00",
-   "attack_date": "2026-10-27",
-   "country": "MX",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/R1JVUE8gUEVUUk9JTEBkaXJld29sZg=="
-  },
-  {
-   "victim": "BASS Medical Group",
-   "group": "Booba Project",
-   "date": "2026-10-27T13:51:59+00:00",
-   "attack_date": "2026-10-27",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/QkFTUyBNZWRpY2FsIEdyb3VwQEJvb2JhIFByb2plY3Q="
-  },
-  {
-   "victim": "Hudson River Museum",
-   "group": "Booba Project",
-   "date": "2026-10-27T13:51:38+00:00",
-   "attack_date": "2026-10-27",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/SHVkc29uIFJpdmVyIE11c2V1bUBCb29iYSBQcm9qZWN0"
-  },
-  {
-   "victim": "Horizon Eye Specialists & LASIK Center",
-   "group": "Booba Project",
-   "date": "2026-10-27T13:51:17+00:00",
-   "attack_date": "2026-10-27",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/SG9yaXpvbiBFeWUgU3BlY2lhbGlzdHMgJiBMQVNJSyBDZW50ZXJAQm9vYmEgUHJvamVjdA=="
   }
  ]
 }
