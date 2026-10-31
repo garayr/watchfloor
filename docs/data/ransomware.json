@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T14:44:37+00:00",
+ "generated_at": "2026-10-31T18:48:07+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "SilentRansomGroup",
-   "count": 11
+   "count": 10
   },
   {
    "name": "genesis",
@@ -19,10 +19,6 @@
   {
    "name": "safepay",
    "count": 9
-  },
-  {
-   "name": "thegentlemen",
-   "count": 7
   },
   {
    "name": "Booba Project",
@@ -35,31 +31,35 @@
   {
    "name": "rhysida",
    "count": 5
+  },
+  {
+   "name": "AuditTeam",
+   "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 17
+   "count": 15
   },
   {
    "name": "Manufacturing",
-   "count": 14
-  },
-  {
-   "name": "Healthcare",
-   "count": 9
+   "count": 12
   },
   {
    "name": "Technology",
    "count": 9
   },
   {
-   "name": "Financial Services",
-   "count": 7
+   "name": "Education",
+   "count": 8
   },
   {
-   "name": "Education",
+   "name": "Healthcare",
+   "count": 8
+  },
+  {
+   "name": "Financial Services",
    "count": 6
   }
  ],
@@ -77,10 +77,10 @@
    "lon": -99.1
   },
   {
-   "code": "MY",
+   "code": "DE",
    "count": 3,
-   "lat": 3.1,
-   "lon": 101.7
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "PH",
@@ -107,18 +107,6 @@
    "lon": -79.4
   },
   {
-   "code": "DE",
-   "count": 2,
-   "lat": 50.1,
-   "lon": 8.7
-  },
-  {
-   "code": "FR",
-   "count": 2,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
    "code": "GB",
    "count": 2,
    "lat": 51.5,
@@ -143,10 +131,10 @@
    "lon": 139.7
   },
   {
-   "code": "SG",
+   "code": "MY",
    "count": 2,
-   "lat": 1.35,
-   "lon": 103.8
+   "lat": 3.1,
+   "lon": 101.7
   },
   {
    "code": "AE",
@@ -173,10 +161,22 @@
    "lon": -78.5
   },
   {
+   "code": "FR",
+   "count": 1,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "IN",
    "count": 1,
    "lat": 19.1,
    "lon": 72.9
+  },
+  {
+   "code": "NL",
+   "count": 1,
+   "lat": 52.4,
+   "lon": 4.9
   },
   {
    "code": "PE",
@@ -191,6 +191,12 @@
    "lon": 26.1
   },
   {
+   "code": "SG",
+   "count": 1,
+   "lat": 1.35,
+   "lon": 103.8
+  },
+  {
    "code": "TH",
    "count": 1,
    "lat": 13.75,
@@ -198,6 +204,78 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Straze Garden Center",
+   "group": "payload",
+   "date": "2026-10-31T14:31:26+00:00",
+   "attack_date": "2026-10-31",
+   "country": null,
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/U3RyYXplIEdhcmRlbiBDZW50ZXJAcGF5bG9hZA=="
+  },
+  {
+   "victim": "Kraft Lernen",
+   "group": "payload",
+   "date": "2026-10-31T14:30:05+00:00",
+   "attack_date": "2026-10-31",
+   "country": "DE",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/S3JhZnQgTGVybmVuQHBheWxvYWQ="
+  },
+  {
+   "victim": "SALEG (Sachsen-Anhaltische Landesentwicklungsgesellschaft mbH)",
+   "group": "payload",
+   "date": "2026-10-31T14:28:42+00:00",
+   "attack_date": "2026-10-31",
+   "country": "DE",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/U0FMRUcgKFNhY2hzZW4tQW5oYWx0aXNjaGUgTGFuZGVzZW50d2lja2x1bmdzZ2VzZWxsc2NoYWZ0IG1iSClAcGF5bG9hZA=="
+  },
+  {
+   "victim": "Phoenix Charter Academy",
+   "group": "rhysida",
+   "date": "2026-10-31T12:35:39+00:00",
+   "attack_date": "2026-10-31",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/UGhvZW5peCBDaGFydGVyIEFjYWRlbXlAcmh5c2lkYQ=="
+  },
+  {
+   "victim": "Pe***CT",
+   "group": "AuditTeam",
+   "date": "2026-10-31T10:53:29+00:00",
+   "attack_date": "2026-10-31",
+   "country": "NL",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/UGUqKipDVEBBdWRpdFRlYW0="
+  },
+  {
+   "victim": "jl***om",
+   "group": "AuditTeam",
+   "date": "2026-10-31T10:52:58+00:00",
+   "attack_date": "2026-10-31",
+   "country": "SG",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/amwqKipvbUBBdWRpdFRlYW0="
+  },
+  {
+   "victim": "hn***rg",
+   "group": "AuditTeam",
+   "date": "2026-10-31T10:52:27+00:00",
+   "attack_date": "2026-10-31",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/aG4qKipyZ0BBdWRpdFRlYW0="
+  },
+  {
+   "victim": "ro***up",
+   "group": "AuditTeam",
+   "date": "2026-10-31T10:51:15+00:00",
+   "attack_date": "2026-10-31",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/cm8qKip1cEBBdWRpdFRlYW0="
+  },
   {
    "victim": "Ivan Smith Furniture",
    "group": "sarcoma",
@@ -316,38 +394,11 @@
    "url": "https://www.ransomware.live/id/RGlnaXRhbCBUcml1bXBoQE4wbg=="
   },
   {
-   "victim": "SK Capital Partners",
-   "group": "thegentlemen",
-   "date": "2026-10-31T07:20:54+00:00",
-   "attack_date": "2026-10-28",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/U0sgQ2FwaXRhbCBQYXJ0bmVyc0B0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "Cherry Bekaert",
-   "group": "thegentlemen",
-   "date": "2026-10-31T07:20:33+00:00",
-   "attack_date": "2026-10-28",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Q2hlcnJ5IEJla2FlcnRAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "GIO Dental",
-   "group": "thegentlemen",
-   "date": "2026-10-31T07:20:12+00:00",
-   "attack_date": "2026-10-28",
-   "country": "SL",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/R0lPIERlbnRhbEB0aGVnZW50bGVtZW4="
-  },
-  {
    "victim": "CommTank",
    "group": "thegentlemen",
    "date": "2026-10-31T07:19:51+00:00",
    "attack_date": "2026-10-30",
-   "country": "SG",
+   "country": "US",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/Q29tbVRhbmtAdGhlZ2VudGxlbWVu"
   },
@@ -374,7 +425,7 @@
    "group": "thegentlemen",
    "date": "2026-10-31T07:18:47+00:00",
    "attack_date": "2026-10-31",
-   "country": "SG",
+   "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/QmkgTGlua0B0aGVnZW50bGVtZW4="
   },
@@ -1052,51 +1103,6 @@
    "country": "IL",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/VGhlIEFuZ2xpY2FuIEludGVybmF0aW9uYWwgU2Nob29sQEdsb2JhbCBTZWNyZXQgR3JvdXA="
-  },
-  {
-   "victim": "L...",
-   "group": "SilentRansomGroup",
-   "date": "2026-10-28T17:34:09+00:00",
-   "attack_date": "2026-10-28",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/TC4uLkBTaWxlbnRSYW5zb21Hcm91cA=="
-  },
-  {
-   "victim": "Noelker and Hull",
-   "group": "rhysida",
-   "date": "2026-10-28T16:59:06+00:00",
-   "attack_date": "2026-10-28",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Tm9lbGtlciBhbmQgSHVsbEByaHlzaWRh"
-  },
-  {
-   "victim": "Hauhinco",
-   "group": "payload",
-   "date": "2026-10-28T14:49:50+00:00",
-   "attack_date": "2026-10-28",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/SGF1aGluY29AcGF5bG9hZA=="
-  },
-  {
-   "victim": "Marbre Design",
-   "group": "payload",
-   "date": "2026-10-28T14:48:35+00:00",
-   "attack_date": "2026-10-28",
-   "country": "FR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TWFyYnJlIERlc2lnbkBwYXlsb2Fk"
-  },
-  {
-   "victim": "Company #112",
-   "group": "N0n",
-   "date": "2026-10-28T07:53:44+00:00",
-   "attack_date": "2026-10-28",
-   "country": "MY",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTEyQE4wbg=="
   }
  ]
 }

@@ -26,20 +26,20 @@
      "date": "2026-10-30T10:40:45+00:00",
      "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-     "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on…",
-     "source": "BleepingComputer",
-     "date": "2026-10-29T22:09:24+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Northflank security breach leads to abuse of customers' AI API keys",
+     "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-31T18:01:12+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
      "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and…",
@@ -97,14 +97,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-     "summary": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-29T22:08:04+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
      "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix…",
      "source": "The Hacker News",
@@ -117,6 +109,22 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+     "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or…",
+     "source": "BleepingComputer",
+     "date": "2026-10-31T15:35:11+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+     "summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity…",
+     "source": "BleepingComputer",
+     "date": "2026-10-31T13:10:19+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+     "group": "Exploited right now"
+    },
     {
      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active…",
@@ -265,14 +273,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-31T14:05:15+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
-     "group": "Other news"
-    },
-    {
-     "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-     "summary": "[...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-31T13:10:19+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
      "group": "Other news"
     },
     {
