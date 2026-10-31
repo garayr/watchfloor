@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1522,
-  "c2_servers": 423,
+  "total_iocs": 1410,
+  "c2_servers": 338,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 335,
+    "iocs": 334,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "AMOS",
-    "iocs": 259,
+    "iocs": 188,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "ClearFake",
-    "iocs": 147,
+    "iocs": 151,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "VShell",
-    "iocs": 104,
-    "c2": 104,
+    "iocs": 107,
+    "c2": 107,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Vidar",
-    "iocs": 99,
-    "c2": 99,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "SmartLoader",
-    "iocs": 46,
-    "c2": 3,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.smartloader"
-   },
-   {
     "name": "Mirai",
-    "iocs": 42,
+    "iocs": 99,
     "c2": 12,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
+    "name": "SmartLoader",
+    "iocs": 45,
+    "c2": 3,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.smartloader"
+   },
+   {
     "name": "StrelaStealer",
-    "iocs": 38,
+    "iocs": 39,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 34,
+    "iocs": 31,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
+    "name": "Sliver",
+    "iocs": 27,
+    "c2": 27,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
+   },
+   {
     "name": "SalatStealer",
-    "iocs": 33,
-    "c2": 0,
+    "iocs": 26,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 830,
+  "online": 911,
   "top_tags": [
    {
     "name": "github",
-    "count": 623
-   },
-   {
-    "name": "SmartLoader",
-    "count": 332
-   },
-   {
-    "name": "zip",
-    "count": 332
-   },
-   {
-    "name": "SalatStealer",
-    "count": 205
+    "count": 490
    },
    {
     "name": "zapret",
-    "count": 181
-   },
-   {
-    "name": "Mozi",
-    "count": 135
+    "count": 317
    },
    {
     "name": "mirai",
-    "count": 101
+    "count": 275
+   },
+   {
+    "name": "SalatStealer",
+    "count": 159
+   },
+   {
+    "name": "SmartLoader",
+    "count": 146
+   },
+   {
+    "name": "zip",
+    "count": 146
+   },
+   {
+    "name": "Mozi",
+    "count": 113
    },
    {
     "name": "elf",
-    "count": 99
+    "count": 107
    }
   ]
  },
@@ -109,76 +109,91 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 169219,
-   "targets": 234,
-   "sources": 4167
+   "records": 430831,
+   "targets": 269,
+   "sources": 7452
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 79232,
-   "targets": 234,
-   "sources": 4204
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 67897,
-   "targets": 218,
-   "sources": 2835
+   "records": 207994,
+   "targets": 264,
+   "sources": 8036
   },
   {
    "port": 2222,
    "service": null,
-   "records": 52401,
-   "targets": 220,
-   "sources": 2611
+   "records": 131787,
+   "targets": 261,
+   "sources": 5254
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 113503,
+   "targets": 237,
+   "sources": 4736
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 28226,
-   "targets": 210,
-   "sources": 3345
+   "records": 77137,
+   "targets": 256,
+   "sources": 5795
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 25102,
-   "targets": 222,
-   "sources": 1941
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 20414,
-   "targets": 22,
-   "sources": 689
+   "records": 60272,
+   "targets": 263,
+   "sources": 3604
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 17831,
-   "targets": 221,
-   "sources": 1632
+   "records": 51161,
+   "targets": 262,
+   "sources": 3107
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 47282,
+   "targets": 62,
+   "sources": 1517
   },
   {
    "port": 137,
    "service": null,
-   "records": 15720,
-   "targets": 155,
-   "sources": 466
+   "records": 37732,
+   "targets": 173,
+   "sources": 837
   },
   {
    "port": 16767,
    "service": null,
-   "records": 15476,
-   "targets": 10,
-   "sources": 1476
+   "records": 35225,
+   "targets": 12,
+   "sources": 2444
   }
  ],
  "ports_date": "2026-10-31",
  "diary": [
+  {
+   "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+   "url": "https://isc.sans.edu/diary/rss/33476",
+   "date": "2026-10-31T10:52:53+00:00"
+  },
+  {
+   "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
+   "url": "https://isc.sans.edu/diary/rss/33474",
+   "date": "2026-10-31T10:48:17+00:00"
+  },
+  {
+   "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+   "url": "https://isc.sans.edu/diary/rss/33454",
+   "date": "2026-10-31T10:45:40+00:00"
+  },
   {
    "title": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
    "url": "https://isc.sans.edu/diary/rss/33472",
@@ -193,21 +208,6 @@
    "title": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
    "url": "https://isc.sans.edu/diary/rss/33468",
    "date": "2026-10-29T03:10:12+00:00"
-  },
-  {
-   "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
-   "url": "https://isc.sans.edu/diary/rss/33466",
-   "date": "2026-10-29T00:42:15+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
-   "url": "https://isc.sans.edu/diary/rss/33464",
-   "date": "2026-10-28T02:30:11+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
-   "url": "https://isc.sans.edu/diary/rss/33462",
-   "date": "2026-10-27T02:55:13+00:00"
   }
  ],
  "pulses": [
@@ -466,10 +466,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-10-31T08:37:23+00:00",
-  "sans": "2026-10-31T08:37:23+00:00",
-  "otx": "2026-10-31T08:37:23+00:00",
-  "urlhaus": "2026-10-31T08:37:23+00:00"
+  "threatfox": "2026-10-31T14:44:37+00:00",
+  "sans": "2026-10-31T14:44:37+00:00",
+  "otx": "2026-10-31T14:44:37+00:00",
+  "urlhaus": "2026-10-31T14:44:37+00:00"
  },
- "generated_at": "2026-10-31T08:37:23+00:00"
+ "generated_at": "2026-10-31T14:44:37+00:00"
 }

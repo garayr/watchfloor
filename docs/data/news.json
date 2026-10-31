@@ -4,6 +4,14 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+     "summary": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities. The post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-10-31T11:00:00+00:00",
+     "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
      "summary": "It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments. The post Bulletproof Host Virtualine Loses Its Domain to FBI Seizure appeared first on…",
      "source": "SecurityWeek",
@@ -33,6 +41,22 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+     "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and…",
+     "source": "BleepingComputer",
+     "date": "2026-10-31T12:50:09+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+     "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result…",
+     "source": "The Hacker News",
+     "date": "2026-10-31T12:01:56+00:00",
+     "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
      "summary": "Over 22.6 million exposed instances are potentially affected by the critical PHP flaws that have been targeted for over a week. The post PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress appeared…",
      "source": "SecurityWeek",
@@ -54,14 +78,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-30T09:18:13+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
-     "summary": "Blockchain analysts link the record crypto theft to North Korean hackers, as Binance probes a possibly compromised engineer laptop. The post $6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor…",
-     "source": "SecurityWeek",
-     "date": "2026-10-30T08:16:26+00:00",
-     "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
      "group": "Breaches and ransomware"
     },
     {
@@ -89,14 +105,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-     "summary": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets…",
-     "source": "BleepingComputer",
-     "date": "2026-10-29T21:47:25+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
      "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix…",
      "source": "The Hacker News",
@@ -109,6 +117,19 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active…",
+     "source": "The Hacker News",
+     "date": "2026-10-31T08:27:43+00:00",
+     "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-118527",
+      "CVE-2026-111357",
+      "CVE-2026-104935"
+     ]
+    },
     {
      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
      "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP)…",
@@ -211,25 +232,6 @@
       "CVE-2026-97229",
       "CVE-2026-76418"
      ]
-    },
-    {
-     "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-     "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware…",
-     "source": "BleepingComputer",
-     "date": "2026-10-29T18:38:26+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-76418"
-     ]
-    },
-    {
-     "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-     "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale…",
-     "source": "The Hacker News",
-     "date": "2026-10-29T15:57:05+00:00",
-     "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-     "group": "Exploited right now"
     }
    ]
   },
@@ -251,20 +253,28 @@
      "date": "2026-10-30T08:55:47+00:00",
      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-     "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba…",
-     "source": "The Hacker News",
-     "date": "2026-10-29T15:20:29+00:00",
-     "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Reddit to lock content behind logins to fight scrapers",
+     "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-31T14:05:15+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+     "group": "Other news"
+    },
+    {
+     "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+     "summary": "[...]",
+     "source": "BleepingComputer",
+     "date": "2026-10-31T13:10:19+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+     "group": "Other news"
+    },
     {
      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
      "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The…",
@@ -343,14 +353,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-29T23:35:52+00:00",
      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-     "group": "Other news"
-    },
-    {
-     "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-     "summary": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-29T19:23:41+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
      "group": "Other news"
     }
    ]

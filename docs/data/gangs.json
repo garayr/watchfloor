@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T08:37:23+00:00",
+ "generated_at": "2026-10-31T14:44:37+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -7,8 +7,8 @@
    "description": "The Gentlemen is a RaaS group that emerged in July–August 2025, rapidly claiming over 320 victims across 17+ countries by offering affiliates a 90% revenue share, deploying a Go-based locker against Windows, Linux, NAS, and BSD systems; a compromised C2 server in 2026 revealed more than 1,570 linked victims.",
    "aliases": [],
    "first_seen": "2023-02-28",
-   "last_seen": "2026-10-24",
-   "victims_total": 1006,
+   "last_seen": "2026-10-31",
+   "victims_total": 1056,
    "cves": [
     {
      "id": "CVE-2025-32433",
@@ -100,7 +100,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 203
+      "count": 216
+     },
+     {
+      "name": "DE",
+      "count": 45
      },
      {
       "name": "GB",
@@ -111,12 +115,8 @@
       "count": 44
      },
      {
-      "name": "DE",
-      "count": 41
-     },
-     {
       "name": "FR",
-      "count": 41
+      "count": 43
      },
      {
       "name": "BR",
@@ -126,27 +126,27 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 195
+      "count": 203
      },
      {
       "name": "Technology",
-      "count": 130
+      "count": 138
      },
      {
       "name": "Professional Services",
-      "count": 120
+      "count": 122
      },
      {
       "name": "Healthcare",
-      "count": 98
+      "count": 104
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 74
+      "count": 77
      },
      {
-      "name": "Agriculture and Food Production",
-      "count": 52
+      "name": "Other",
+      "count": 58
      }
     ]
    },
@@ -197,11 +197,11 @@
     },
     {
      "month": "2026-10",
-     "count": 93
+     "count": 143
     }
    ],
-   "history_size": 1006,
-   "updated": "2026-10-24T14:04:25+00:00"
+   "history_size": 1056,
+   "updated": "2026-10-31T14:44:37+00:00"
   },
   "Storm": {
    "name": "Storm",
@@ -322,8 +322,8 @@
    "description": "SafePay emerged in September 2024 as a rapidly growing ransomware operation that explicitly disavows the RaaS model and manages all operations internally, claiming over 300 victims worldwide by mid-2025 with a high-profile early attack against UK telematics firm Microlise stealing 1.2 TB of data.",
    "aliases": [],
    "first_seen": "2023-11-10",
-   "last_seen": "2026-10-05",
-   "victims_total": 591,
+   "last_seen": "2026-10-31",
+   "victims_total": 603,
    "cves": [],
    "tools": [
     "Invoke-ShareFinder",
@@ -360,11 +360,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 216
+      "count": 218
      },
      {
       "name": "DE",
-      "count": 132
+      "count": 133
      },
      {
       "name": "GB",
@@ -386,7 +386,7 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 103
+      "count": 104
      },
      {
       "name": "Professional Services",
@@ -402,11 +402,11 @@
      },
      {
       "name": "Healthcare",
-      "count": 47
+      "count": 48
      },
      {
       "name": "Education",
-      "count": 45
+      "count": 47
      }
     ]
    },
@@ -457,11 +457,11 @@
     },
     {
      "month": "2026-10",
-     "count": 10
+     "count": 22
     }
    ],
-   "history_size": 591,
-   "updated": "2026-10-07T12:14:54+00:00"
+   "history_size": 603,
+   "updated": "2026-10-31T14:44:37+00:00"
   },
   "BrainCipher": {
    "name": "BrainCipher",
@@ -6930,8 +6930,8 @@
    "description": "Sarcoma is a ransomware group that debuted in October 2024, immediately ranking among the top three most active groups globally and surpassing 116 documented victims by mid-2025, targeting mid-market companies across manufacturing, retail, healthcare, legal, and business services with roughly 50% of victims in the United States.",
    "aliases": [],
    "first_seen": "2024-07-09",
-   "last_seen": "2026-10-23",
-   "victims_total": 143,
+   "last_seen": "2026-10-31",
+   "victims_total": 144,
    "cves": [],
    "tools": [
     "Advanced IP Scanner"
@@ -7001,7 +7001,7 @@
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 11
+      "count": 12
      },
      {
       "name": "Technology",
@@ -7060,11 +7060,11 @@
     },
     {
      "month": "2026-10",
-     "count": 2
+     "count": 3
     }
    ],
-   "history_size": 143,
-   "updated": "2026-10-23T16:17:49+00:00"
+   "history_size": 144,
+   "updated": "2026-10-31T14:44:37+00:00"
   },
   "HYFLOCK": {
    "name": "HYFLOCK",
