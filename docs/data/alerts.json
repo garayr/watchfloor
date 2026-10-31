@@ -808,35 +808,6 @@
    "epss": 0.0457,
    "cvss": 9.8,
    "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-76504",
-   "date": "2026-09-30",
-   "src": "CISA",
-   "vendor": "Cisco Catalyst SD-WAN Manager",
-   "vendor_name": "Cisco",
-   "product": "Catalyst SD-WAN Manager",
-   "title": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
-   "detail": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-10-03",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-76504"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
-   "kev": true,
-   "epss": 0.3893,
-   "cvss": 9.8,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-     "source": "BleepingComputer",
-     "date": "2026-10-29T18:38:26+00:00"
-    }
-   ]
   }
  ]
 }
