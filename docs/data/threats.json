@@ -2,50 +2,56 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1544,
-  "c2_servers": 369,
+  "total_iocs": 2033,
+  "c2_servers": 330,
   "families": [
    {
-    "name": "ClearFake",
-    "iocs": 258,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Mirai",
-    "iocs": 201,
-    "c2": 20,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "IClickFix",
-    "iocs": 171,
+    "iocs": 490,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
+    "name": "ClearFake",
+    "iocs": 275,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "AMOS",
+    "iocs": 180,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
     "name": "Unknown Loader",
-    "iocs": 92,
-    "c2": 2,
+    "iocs": 160,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
+    "name": "Mirai",
+    "iocs": 134,
+    "c2": 12,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "SalatStealer",
-    "iocs": 88,
-    "c2": 1,
+    "iocs": 95,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
-    "name": "VShell",
-    "iocs": 80,
-    "c2": 80,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+    "name": "StrelaStealer",
+    "iocs": 71,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
-    "name": "SmartLoader",
-    "iocs": 45,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.smartloader"
+    "name": "VShell",
+    "iocs": 66,
+    "c2": 66,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "stealler",
@@ -58,50 +64,44 @@
     "iocs": 32,
     "c2": 32,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 31,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 910,
+  "online": 836,
   "top_tags": [
    {
     "name": "github",
-    "count": 319
-   },
-   {
-    "name": "mirai",
-    "count": 258
+    "count": 389
    },
    {
     "name": "zapret",
-    "count": 236
+    "count": 262
    },
    {
     "name": "SalatStealer",
-    "count": 182
+    "count": 254
    },
    {
     "name": "Mozi",
-    "count": 145
+    "count": 177
+   },
+   {
+    "name": "mirai",
+    "count": 131
    },
    {
     "name": "elf",
-    "count": 74
+    "count": 100
+   },
+   {
+    "name": "exe",
+    "count": 77
    },
    {
     "name": "32-bit",
-    "count": 49
-   },
-   {
-    "name": "mips",
-    "count": 42
+    "count": 58
    }
   ]
  },
@@ -109,76 +109,81 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 217784,
-   "targets": 261,
-   "sources": 5580
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 106841,
-   "targets": 231,
-   "sources": 4976
+   "records": 459541,
+   "targets": 273,
+   "sources": 8732
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 97615,
-   "targets": 260,
-   "sources": 5719
+   "records": 202663,
+   "targets": 269,
+   "sources": 9548
   },
   {
    "port": 2222,
    "service": null,
-   "records": 84360,
-   "targets": 233,
-   "sources": 3430
+   "records": 179371,
+   "targets": 260,
+   "sources": 4939
+  },
+  {
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 159127,
+   "targets": 267,
+   "sources": 7351
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 57971,
-   "targets": 249,
-   "sources": 3302
+   "records": 91527,
+   "targets": 265,
+   "sources": 4794
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 39041,
-   "targets": 244,
-   "sources": 4507
-  },
-  {
-   "port": 55563,
-   "service": null,
-   "records": 30568,
-   "targets": 4,
-   "sources": 7367
+   "records": 82630,
+   "targets": 258,
+   "sources": 6477
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 25339,
-   "targets": 231,
-   "sources": 2298
+   "records": 55810,
+   "targets": 255,
+   "sources": 3726
+  },
+  {
+   "port": 137,
+   "service": null,
+   "records": 44181,
+   "targets": 180,
+   "sources": 818
   },
   {
    "port": 16767,
    "service": null,
-   "records": 22142,
-   "targets": 119,
-   "sources": 1893
+   "records": 43930,
+   "targets": 126,
+   "sources": 2631
   },
   {
-   "port": 51413,
+   "port": 55563,
    "service": null,
-   "records": 21562,
-   "targets": 85,
-   "sources": 809
+   "records": 43826,
+   "targets": 5,
+   "sources": 8699
   }
  ],
  "ports_date": "2026-11-01",
  "diary": [
+  {
+   "title": "OneNote File Extraction, (Sun, Nov 1st)",
+   "url": "https://isc.sans.edu/diary/rss/33478",
+   "date": "2026-11-01T09:12:23+00:00"
+  },
   {
    "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
    "url": "https://isc.sans.edu/diary/rss/33476",
@@ -203,11 +208,6 @@
    "title": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
    "url": "https://isc.sans.edu/diary/rss/33470",
    "date": "2026-10-29T06:17:41+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
-   "url": "https://isc.sans.edu/diary/rss/33468",
-   "date": "2026-10-29T03:10:12+00:00"
   }
  ],
  "pulses": [
@@ -357,50 +357,6 @@
    "url": "https://otx.alienvault.com/pulse/6ae38bc6be61d23c0f7a2165"
   },
   {
-   "name": "Node2Shell (CVE-2026-111497): Brotli RCE Exploited",
-   "summary": "A critical out-of-bounds write vulnerability in Google's Brotli decompression library allows specially crafted compressed data to corrupt application memory, potentially enabling remote code execution. The flaw, scoring…",
-   "date": "2026-10-29T18:09:09+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "cve-2026-111497",
-    "out-of-bounds write",
-    "node2shell",
-    "memory corruption",
-    "active exploitation",
-    "http exploitation"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae38bc5104a1b7a03e20f92"
-  },
-  {
-   "name": "Investigating Abuse of Remote Desktop and Bulk Mailing Apps",
-   "summary": "Investigation into a tech-support scam led to discovering connections between the remote-access application UltraViewer and bulk-mailing software UltraMailer. DNS and email analysis revealed a long-running QuickBooks…",
-   "date": "2026-10-29T18:09:09+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "njRAT - S0385",
-    "Njw0rm",
-    "LV",
-    "Bladabindi",
-    "DarkKometa"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "tech-support scam",
-    "darkkometa",
-    "njrat",
-    "dns tracking",
-    "bulk mailing abuse",
-    "ultramailer"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae38bc5290b5bac6b7748e0"
-  },
-  {
    "name": "Prediction Markets Emerge as a New Vertical for Traffer Teams",
    "summary": "Multiple Russian-language traffer teams have rapidly adapted affiliate-fraud models to exploit growing interest in prediction markets like PolyMarket and Kalshi since spring 2026. Three teams—AtlasCore, PolyFucked, and…",
    "date": "2026-10-29T17:54:26+00:00",
@@ -453,6 +409,60 @@
    "url": "https://otx.alienvault.com/pulse/6ae386434a2934ca4f48754d"
   },
   {
+   "name": "The Psychedelic Stealer: When the CAPTCHA Is the Installer",
+   "summary": "Between September 9 and September 14, 2026, an unattributed Russian-speaking operator compromised at least six legitimate Ukrainian small-business websites to deliver a fake Cloudflare verification page. The ClickFix…",
+   "date": "2026-10-02T13:48:42+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Psychedelic",
+    "psychedeliclove.exe"
+   ],
+   "countries": [
+    "Ukraine"
+   ],
+   "industries": [
+    "Healthcare",
+    "Manufacturing",
+    "Media",
+    "Retail"
+   ],
+   "tags": [
+    "cryptocurrency theft",
+    "fake captcha",
+    "native-messaging bridge",
+    "clickfix",
+    "ukraine targeting",
+    "msi execution"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abfb63a870eec5021127b09"
+  },
+  {
+   "name": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+   "summary": "A sophisticated multi-component campaign targeting telecommunications and network-edge appliances has been discovered, featuring BPFDoor variants and a newly identified implant designated AVERAT. The operation leverages…",
+   "date": "2026-10-02T13:48:11+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "BPFDoor",
+    "AVERAT",
+    "Rekoobe"
+   ],
+   "countries": [],
+   "industries": [
+    "Telecommunications"
+   ],
+   "tags": [
+    "linux",
+    "implant",
+    "bpfdoor",
+    "network-edge",
+    "rekoobe",
+    "smtp"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abfb61b65922c3229d35cf8"
+  },
+  {
    "name": "$100k in Crypto Drained by the Underground Operation",
    "summary": "A cryptocurrency-stealing operation utilizing an Aotera/Tedy loader injects a Vidar-class stealer into Windows processes, launching Chrome or Edge to inject malicious scripts into victim sessions. The malware builder…",
    "date": "2026-10-02T07:13:34+00:00",
@@ -477,10 +487,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-01T07:29:23+00:00",
-  "sans": "2026-11-01T07:29:23+00:00",
-  "otx": "2026-11-01T07:29:23+00:00",
-  "urlhaus": "2026-11-01T07:29:23+00:00"
+  "threatfox": "2026-11-01T14:26:30+00:00",
+  "sans": "2026-11-01T14:26:30+00:00",
+  "otx": "2026-11-01T14:26:30+00:00",
+  "urlhaus": "2026-11-01T14:26:30+00:00"
  },
- "generated_at": "2026-11-01T07:29:23+00:00"
+ "generated_at": "2026-11-01T14:26:30+00:00"
 }

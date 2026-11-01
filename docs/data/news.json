@@ -33,6 +33,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+     "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet…",
+     "source": "The Hacker News",
+     "date": "2026-11-01T07:03:00+00:00",
+     "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Northflank security breach leads to abuse of customers' AI API keys",
      "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
      "source": "BleepingComputer",
@@ -79,36 +87,28 @@
      "date": "2026-10-30T09:18:13+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-     "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those…",
-     "source": "The Hacker News",
-     "date": "2026-10-30T04:14:59+00:00",
-     "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Binance probes potential $5.8 billion crypto-theft hack",
-     "summary": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-29T22:45:23+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-     "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix…",
-     "source": "The Hacker News",
-     "date": "2026-10-29T19:11:58+00:00",
-     "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+     "summary": "The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues. The post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations…",
+     "source": "SecurityWeek",
+     "date": "2026-11-01T11:15:00+00:00",
+     "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+     "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the…",
+     "source": "The Hacker News",
+     "date": "2026-11-01T08:51:31+00:00",
+     "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
      "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or…",
@@ -214,38 +214,26 @@
      ]
     },
     {
-     "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
-     "summary": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-10-30T08:44:49+00:00",
-     "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
      "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization…",
      "source": "The Hacker News",
      "date": "2026-10-30T07:45:30+00:00",
      "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active…",
-     "source": "The Hacker News",
-     "date": "2026-10-30T07:27:05+00:00",
-     "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-97229",
-      "CVE-2026-76418"
-     ]
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via.NET Injection",
+     "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted…",
+     "source": "The Hacker News",
+     "date": "2026-11-01T07:02:58+00:00",
+     "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to…",
@@ -267,6 +255,22 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+     "summary": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-01T13:53:11+00:00",
+     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+     "group": "Other news"
+    },
+    {
+     "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+     "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded…",
+     "source": "The Hacker News",
+     "date": "2026-11-01T07:25:40+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+     "group": "Other news"
+    },
     {
      "title": "Reddit to lock content behind logins to fight scrapers",
      "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
@@ -345,14 +349,6 @@
      "source": "SecurityWeek",
      "date": "2026-10-30T09:41:36+00:00",
      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
-     "group": "Other news"
-    },
-    {
-     "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-     "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-10-29T23:35:52+00:00",
-     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
      "group": "Other news"
     }
    ]
