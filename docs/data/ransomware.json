@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-01T19:02:35+00:00",
+ "generated_at": "2026-11-01T22:46:54+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 19
+   "count": 21
   },
   {
    "name": "genesis",
@@ -21,7 +21,7 @@
    "count": 6
   },
   {
-   "name": "Booba Project",
+   "name": "Shiba",
    "count": 5
   },
   {
@@ -33,7 +33,7 @@
    "count": 4
   },
   {
-   "name": "Shiba",
+   "name": "Whitearmor",
    "count": 4
   }
  ],
@@ -51,7 +51,7 @@
    "count": 11
   },
   {
-   "name": "Education",
+   "name": "Other",
    "count": 7
   },
   {
@@ -66,21 +66,21 @@
  "by_country": [
   {
    "code": "US",
-   "count": 33,
+   "count": 30,
    "lat": 39.0,
    "lon": -77.5
+  },
+  {
+   "code": "DE",
+   "count": 7,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "MX",
    "count": 6,
    "lat": 19.4,
    "lon": -99.1
-  },
-  {
-   "code": "DE",
-   "count": 5,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "GB",
@@ -222,6 +222,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Tema Hwt",
+   "group": "Shiba",
+   "date": "2026-11-01T18:03:35+00:00",
+   "attack_date": "2026-11-01",
+   "country": "DE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/VGVtYSBId3RAU2hpYmE="
+  },
+  {
+   "victim": "fzmb GmbH, Forschungszentrum für Medizintechnik und Biotechnologie",
+   "group": "qilin",
+   "date": "2026-11-01T17:33:12+00:00",
+   "attack_date": "2026-11-01",
+   "country": "DE",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/ZnptYiBHbWJILCBGb3JzY2h1bmdzemVudHJ1bSBmw7xyIE1lZGl6aW50ZWNobmlrIHVuZCBCaW90ZWNobm9sb2dpZUBxaWxpbg=="
+  },
+  {
+   "victim": "Global Holding",
+   "group": "qilin",
+   "date": "2026-11-01T15:29:16+00:00",
+   "attack_date": "2026-11-01",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/R2xvYmFsIEhvbGRpbmdAcWlsaW4="
+  },
   {
    "victim": "AmplifAI (GoDaddy instance)",
    "group": "Whitearmor",
@@ -1076,33 +1103,6 @@
    "country": "AT",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/d3d3LnZpZWhoYXVzZXIta2Z6LmF0QGtyeWJpdA=="
-  },
-  {
-   "victim": "National Association of Credit Management",
-   "group": "Booba Project",
-   "date": "2026-10-29T13:22:58+00:00",
-   "attack_date": "2026-10-29",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/TmF0aW9uYWwgQXNzb2NpYXRpb24gb2YgQ3JlZGl0IE1hbmFnZW1lbnRAQm9vYmEgUHJvamVjdA=="
-  },
-  {
-   "victim": "California School Boards Association",
-   "group": "Booba Project",
-   "date": "2026-10-29T13:22:37+00:00",
-   "attack_date": "2026-10-29",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/Q2FsaWZvcm5pYSBTY2hvb2wgQm9hcmRzIEFzc29jaWF0aW9uQEJvb2JhIFByb2plY3Q="
-  },
-  {
-   "victim": "South Weber City",
-   "group": "Booba Project",
-   "date": "2026-10-29T13:22:16+00:00",
-   "attack_date": "2026-10-29",
-   "country": "US",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/U291dGggV2ViZXIgQ2l0eUBCb29iYSBQcm9qZWN0"
   },
   {
    "victim": "Programs for Parents, Inc.",

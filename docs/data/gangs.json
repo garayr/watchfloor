@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T07:29:23+00:00",
+ "generated_at": "2026-11-01T22:46:54+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -7071,14 +7071,18 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-09",
-   "last_seen": "2026-10-21",
-   "victims_total": 10,
+   "last_seen": "2026-11-01",
+   "victims_total": 12,
    "cves": [],
    "tools": [],
    "techniques": [],
    "links": [],
    "targets": {
     "countries": [
+     {
+      "name": "US",
+      "count": 2
+     },
      {
       "name": "BR",
       "count": 1
@@ -7098,16 +7102,12 @@
      {
       "name": "MY",
       "count": 1
-     },
-     {
-      "name": "NG",
-      "count": 1
      }
     ],
     "sectors": [
      {
       "name": "Technology",
-      "count": 2
+      "count": 3
      },
      {
       "name": "Energy & Utilities",
@@ -7122,20 +7122,16 @@
       "count": 1
      },
      {
-      "name": "Manufacturing",
+      "name": "Healthcare",
       "count": 1
      },
      {
-      "name": "Other",
+      "name": "Manufacturing",
       "count": 1
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -7178,11 +7174,15 @@
     },
     {
      "month": "2026-10",
-     "count": 10
+     "count": 11
+    },
+    {
+     "month": "2026-11",
+     "count": 1
     }
    ],
-   "history_size": 10,
-   "updated": "2026-10-21T16:40:08+00:00"
+   "history_size": 12,
+   "updated": "2026-11-01T22:46:54+00:00"
   },
   "iah6477": {
    "name": "iah6477",
