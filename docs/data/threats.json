@@ -2,44 +2,44 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1461,
-  "c2_servers": 333,
+  "total_iocs": 1544,
+  "c2_servers": 369,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 246,
+    "iocs": 258,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Mirai",
-    "iocs": 200,
-    "c2": 13,
+    "iocs": 201,
+    "c2": 20,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
+    "name": "IClickFix",
+    "iocs": 171,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 92,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "SalatStealer",
-    "iocs": 107,
+    "iocs": 88,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "VShell",
-    "iocs": 93,
-    "c2": 93,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
-    "name": "IClickFix",
     "iocs": 80,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
-    "name": "AMOS",
-    "iocs": 67,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+    "c2": 80,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "SmartLoader",
@@ -54,14 +54,14 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
    },
    {
-    "name": "Unknown Loader",
+    "name": "Cobalt Strike",
     "iocs": 32,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+    "c2": 32,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 30,
+    "iocs": 31,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 925,
+  "online": 910,
   "top_tags": [
    {
     "name": "github",
-    "count": 541
-   },
-   {
-    "name": "zapret",
-    "count": 449
+    "count": 319
    },
    {
     "name": "mirai",
-    "count": 285
+    "count": 258
+   },
+   {
+    "name": "zapret",
+    "count": 236
    },
    {
     "name": "SalatStealer",
-    "count": 208
+    "count": 182
    },
    {
     "name": "Mozi",
-    "count": 127
+    "count": 145
    },
    {
     "name": "elf",
-    "count": 84
+    "count": 74
    },
    {
-    "name": "SmartLoader",
-    "count": 64
+    "name": "32-bit",
+    "count": 49
    },
    {
-    "name": "zip",
-    "count": 64
+    "name": "mips",
+    "count": 42
    }
   ]
  },
@@ -109,75 +109,75 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 862635,
-   "targets": 280,
-   "sources": 12282
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 646092,
+   "records": 217784,
    "targets": 261,
-   "sources": 9836
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 445026,
-   "targets": 272,
-   "sources": 14463
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 273310,
-   "targets": 276,
-   "sources": 7653
+   "sources": 5580
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 224873,
-   "targets": 281,
-   "sources": 9436
+   "records": 106841,
+   "targets": 231,
+   "sources": 4976
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 97615,
+   "targets": 260,
+   "sources": 5719
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 84360,
+   "targets": 233,
+   "sources": 3430
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 143512,
-   "targets": 273,
-   "sources": 6973
+   "records": 57971,
+   "targets": 249,
+   "sources": 3302
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 39041,
+   "targets": 244,
+   "sources": 4507
+  },
+  {
+   "port": 55563,
+   "service": null,
+   "records": 30568,
+   "targets": 4,
+   "sources": 7367
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 108564,
-   "targets": 275,
-   "sources": 6064
+   "records": 25339,
+   "targets": 231,
+   "sources": 2298
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 22142,
+   "targets": 119,
+   "sources": 1893
   },
   {
    "port": 51413,
    "service": null,
-   "records": 90101,
-   "targets": 86,
-   "sources": 2440
-  },
-  {
-   "port": 2323,
-   "service": "Telnet (alt)",
-   "records": 84285,
-   "targets": 248,
-   "sources": 1809
-  },
-  {
-   "port": 137,
-   "service": null,
-   "records": 77831,
-   "targets": 199,
-   "sources": 1763
+   "records": 21562,
+   "targets": 85,
+   "sources": 809
   }
  ],
- "ports_date": "2026-10-31",
+ "ports_date": "2026-11-01",
  "diary": [
   {
    "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
@@ -453,23 +453,34 @@
    "url": "https://otx.alienvault.com/pulse/6ae386434a2934ca4f48754d"
   },
   {
-   "name": "From Hijacked Pbx To Stolen Trunk Inj3ctor3s Campaign",
-   "summary": "The provided document does not contain an intelligence report. Instead, it appears to be a loading or verification page that displays a placeholder message indicating that a request is being processed or verified. There…",
-   "date": "2026-10-29T16:12:31+00:00",
+   "name": "$100k in Crypto Drained by the Underground Operation",
+   "summary": "A cryptocurrency-stealing operation utilizing an Aotera/Tedy loader injects a Vidar-class stealer into Windows processes, launching Chrome or Edge to inject malicious scripts into victim sessions. The malware builder…",
+   "date": "2026-10-02T07:13:34+00:00",
    "author": "AlienVault",
    "adversary": null,
-   "malware": [],
+   "malware": [
+    "Aotera",
+    "Tedy",
+    "Vidar"
+   ],
    "countries": [],
    "industries": [],
-   "tags": [],
-   "url": "https://otx.alienvault.com/pulse/6ae3706fa734f9bc58705e02"
+   "tags": [
+    "exchange drain",
+    "tedy",
+    "vidar",
+    "aotera loader",
+    "vidar stealer",
+    "underground"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6abf599ea3419c5518645c45"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-01T01:06:55+00:00",
-  "sans": "2026-11-01T01:06:55+00:00",
-  "otx": "2026-11-01T01:06:55+00:00",
-  "urlhaus": "2026-11-01T01:06:55+00:00"
+  "threatfox": "2026-11-01T07:29:23+00:00",
+  "sans": "2026-11-01T07:29:23+00:00",
+  "otx": "2026-11-01T07:29:23+00:00",
+  "urlhaus": "2026-11-01T07:29:23+00:00"
  },
- "generated_at": "2026-11-01T01:06:55+00:00"
+ "generated_at": "2026-11-01T07:29:23+00:00"
 }

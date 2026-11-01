@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-01T01:06:55+00:00",
+ "generated_at": "2026-11-01T07:29:23+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 12
+   "count": 13
   },
   {
    "name": "genesis",
@@ -18,7 +18,7 @@
   },
   {
    "name": "SilentRansomGroup",
-   "count": 8
+   "count": 7
   },
   {
    "name": "Booba Project",
@@ -40,7 +40,7 @@
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Manufacturing",
@@ -48,7 +48,7 @@
   },
   {
    "name": "Technology",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Healthcare",
@@ -59,7 +59,7 @@
    "count": 7
   },
   {
-   "name": "Financial Services",
+   "name": "Other",
    "count": 6
   }
  ],
@@ -215,13 +215,31 @@
    "lon": 103.8
   },
   {
-   "code": "TH",
+   "code": "TR",
    "count": 1,
-   "lat": 13.75,
-   "lon": 100.5
+   "lat": 41.0,
+   "lon": 29.0
   }
  ],
  "victims": [
+  {
+   "victim": "EVINOKS",
+   "group": "Barracuda",
+   "date": "2026-11-01T01:50:47+00:00",
+   "attack_date": "2026-11-01",
+   "country": "TR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/RVZJTk9LU0BCYXJyYWN1ZGE="
+  },
+  {
+   "victim": "Danser",
+   "group": "qilin",
+   "date": "2026-11-01T00:39:08+00:00",
+   "attack_date": "2026-11-01",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/RGFuc2VyQHFpbGlu"
+  },
   {
    "victim": "System Soft",
    "group": "Vexy Ransomware",
@@ -1078,15 +1096,6 @@
    "url": "https://www.ransomware.live/id/Q2xhaW1UZWsgU3lzdGVtc0ByaHlzaWRh"
   },
   {
-   "victim": "xspringcapital.com",
-   "group": "lockbit5",
-   "date": "2026-10-29T04:03:54+00:00",
-   "attack_date": "2026-10-28",
-   "country": "TH",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/eHNwcmluZ2NhcGl0YWwuY29tQGxvY2tiaXQ1"
-  },
-  {
    "victim": "susannecerda.com",
    "group": "lockbit5",
    "date": "2026-10-29T04:03:09+00:00",
@@ -1112,15 +1121,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/TG93ZW5zdGVpbiBTYW5kbGVyIExMUEBTaWxlbnRSYW5zb21Hcm91cA=="
-  },
-  {
-   "victim": "Morrison Foerster",
-   "group": "SilentRansomGroup",
-   "date": "2026-10-28T21:29:40+00:00",
-   "attack_date": "2026-10-28",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/TW9ycmlzb24gRm9lcnN0ZXJAU2lsZW50UmFuc29tR3JvdXA="
   }
  ]
 }
