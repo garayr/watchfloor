@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T22:06:09+00:00",
+ "generated_at": "2026-11-01T01:06:55+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -7,10 +7,6 @@
   {
    "name": "qilin",
    "count": 12
-  },
-  {
-   "name": "SilentRansomGroup",
-   "count": 10
   },
   {
    "name": "genesis",
@@ -21,8 +17,16 @@
    "count": 9
   },
   {
+   "name": "SilentRansomGroup",
+   "count": 8
+  },
+  {
    "name": "Booba Project",
    "count": 6
+  },
+  {
+   "name": "emperador",
+   "count": 5
   },
   {
    "name": "everstake",
@@ -31,10 +35,6 @@
   {
    "name": "rhysida",
    "count": 5
-  },
-  {
-   "name": "AuditTeam",
-   "count": 4
   }
  ],
  "by_sector": [
@@ -44,19 +44,19 @@
   },
   {
    "name": "Manufacturing",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Technology",
-   "count": 9
-  },
-  {
-   "name": "Education",
-   "count": 8
+   "count": 10
   },
   {
    "name": "Healthcare",
    "count": 8
+  },
+  {
+   "name": "Education",
+   "count": 7
   },
   {
    "name": "Financial Services",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 33,
+   "count": 32,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -113,12 +113,6 @@
    "lon": -0.1
   },
   {
-   "code": "IL",
-   "count": 2,
-   "lat": 32.1,
-   "lon": 34.8
-  },
-  {
    "code": "IT",
    "count": 2,
    "lat": 41.9,
@@ -149,6 +143,24 @@
    "lon": 16.4
   },
   {
+   "code": "BD",
+   "count": 1,
+   "lat": 23.8,
+   "lon": 90.4
+  },
+  {
+   "code": "BG",
+   "count": 1,
+   "lat": 42.7,
+   "lon": 23.3
+  },
+  {
+   "code": "BR",
+   "count": 1,
+   "lat": -23.5,
+   "lon": -46.6
+  },
+  {
    "code": "CH",
    "count": 1,
    "lat": 46.9,
@@ -165,6 +177,12 @@
    "count": 1,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "IL",
+   "count": 1,
+   "lat": 32.1,
+   "lon": 34.8
   },
   {
    "code": "IN",
@@ -204,6 +222,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "System Soft",
+   "group": "Vexy Ransomware",
+   "date": "2026-10-31T19:04:42+00:00",
+   "attack_date": "2026-10-31",
+   "country": "BG",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U3lzdGVtIFNvZnRAVmV4eSBSYW5zb213YXJl"
+  },
+  {
+   "victim": "JHAMF Group",
+   "group": "Vexy Ransomware",
+   "date": "2026-10-31T19:04:20+00:00",
+   "attack_date": "2026-10-31",
+   "country": "BD",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/SkhBTUYgR3JvdXBAVmV4eSBSYW5zb213YXJl"
+  },
+  {
+   "victim": "Punta Shopping",
+   "group": "emperador",
+   "date": "2026-10-31T18:51:54+00:00",
+   "attack_date": "2026-10-31",
+   "country": "BR",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/UHVudGEgU2hvcHBpbmdAZW1wZXJhZG9y"
+  },
+  {
+   "victim": "**F*A *.A",
+   "group": "nightspire",
+   "date": "2026-10-31T18:29:04+00:00",
+   "attack_date": "2026-10-31",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/KipGKkEgKi5BQG5pZ2h0c3BpcmU="
+  },
   {
    "victim": "Straze Garden Center",
    "group": "payload",
@@ -1060,15 +1114,6 @@
    "url": "https://www.ransomware.live/id/TG93ZW5zdGVpbiBTYW5kbGVyIExMUEBTaWxlbnRSYW5zb21Hcm91cA=="
   },
   {
-   "victim": "Fortrex",
-   "group": "Wallstreet",
-   "date": "2026-10-28T21:31:10+00:00",
-   "attack_date": "2026-10-28",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Rm9ydHJleEBXYWxsc3RyZWV0"
-  },
-  {
    "victim": "Morrison Foerster",
    "group": "SilentRansomGroup",
    "date": "2026-10-28T21:29:40+00:00",
@@ -1076,33 +1121,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/TW9ycmlzb24gRm9lcnN0ZXJAU2lsZW50UmFuc29tR3JvdXA="
-  },
-  {
-   "victim": "T... E...",
-   "group": "SilentRansomGroup",
-   "date": "2026-10-28T21:29:20+00:00",
-   "attack_date": "2026-10-28",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/VC4uLiBFLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "S... H...",
-   "group": "SilentRansomGroup",
-   "date": "2026-10-28T21:28:57+00:00",
-   "attack_date": "2026-10-28",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Uy4uLiBILi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "The Anglican International School",
-   "group": "Global Secret Group",
-   "date": "2026-10-28T20:24:06+00:00",
-   "attack_date": "2026-10-28",
-   "country": "IL",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/VGhlIEFuZ2xpY2FuIEludGVybmF0aW9uYWwgU2Nob29sQEdsb2JhbCBTZWNyZXQgR3JvdXA="
   }
  ]
 }
