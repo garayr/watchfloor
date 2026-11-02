@@ -33,6 +33,22 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist",
+     "summary": "The FBI has officially pinned the $6 billion Binance hack on North Korea’s TraderTraitor as the attackers launder the stolen crypto. The post FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-02T08:40:36+00:00",
+     "url": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+     "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value…",
+     "source": "The Hacker News",
+     "date": "2026-11-02T05:51:07+00:00",
+     "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
      "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
      "source": "BleepingComputer",
@@ -42,7 +58,7 @@
     },
     {
      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-     "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet…",
+     "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade…",
      "source": "The Hacker News",
      "date": "2026-11-01T07:03:00+00:00",
      "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
@@ -93,6 +109,19 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+     "summary": "CISA has added CVE-2026-111357 and CVE-2026-118527 to its KEV catalog after the Ivanti VPN flaws were chained in zero-day attacks. The post Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain…",
+     "source": "SecurityWeek",
+     "date": "2026-11-02T07:57:49+00:00",
+     "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-118527",
+      "CVE-2026-111357",
+      "CVE-2026-104935"
+     ]
+    },
     {
      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over…",
@@ -209,17 +238,6 @@
      "date": "2026-10-30T10:16:07+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
-     "summary": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server. The post Max-Severity GitLab Vulnerability Exploited Against Alpine Linux appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-10-30T09:32:27+00:00",
-     "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-97229"
-     ]
     }
    ]
   },
@@ -240,14 +258,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-30T14:36:54+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-     "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent…",
-     "source": "The Hacker News",
-     "date": "2026-10-30T08:55:47+00:00",
-     "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
      "group": "Malware and campaigns"
     }
    ]
@@ -341,14 +351,6 @@
      "source": "BleepingComputer",
      "date": "2026-10-30T11:20:26+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-     "group": "Other news"
-    },
-    {
-     "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
-     "summary": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds. The post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-10-30T09:41:36+00:00",
-     "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
      "group": "Other news"
     }
    ]
