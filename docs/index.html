@@ -46,7 +46,8 @@ a{color:inherit}
 .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
 
 /* Header */
-header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--paper);border-bottom:1px solid var(--rule)}
+.masthead{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--paper);border-bottom:1px solid var(--rule)}
+.tabbar{background:var(--paper)}
 .bar{display:flex;align-items:flex-end;gap:24px;flex-wrap:wrap;padding-top:18px}
 .brand{font-weight:800;font-variation-settings:"wdth" 62;font-size:34px;line-height:1;letter-spacing:-.01em;margin:0 0 12px}
 .brand span{display:block;font-size:13px;font-weight:500;font-variation-settings:"wdth" 100;color:var(--muted);letter-spacing:0;margin-top:6px}
@@ -63,6 +64,7 @@ header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;backgroun
   font-variation-settings:"wdth" 88;font-size:17px;padding:10px 14px 12px;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}
 [role="tab"]:hover{color:var(--ink)}
 [role="tab"][aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+.count:empty{display:none}
 .count{display:inline-block;min-width:22px;padding:0 6px;margin-left:6px;border-radius:11px;background:var(--rule);color:var(--ink);font-size:12px;text-align:center;line-height:20px}
 
 main{padding:28px 0 60px}
@@ -222,7 +224,7 @@ dialog.gang::backdrop{background:rgba(10,16,24,.55)}
 .btn{appearance:none;font:inherit;font-size:14px;font-weight:600;border:1px solid var(--ink);background:none;color:var(--ink);padding:5px 14px;border-radius:4px;cursor:pointer}
 .map-wrap{position:relative;background:var(--sea);border-radius:4px;overflow:hidden}
 .map-wrap canvas{display:block;width:100%;height:auto}
-.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--paper);font-size:13px;line-height:1.35;padding:7px 10px;border-radius:4px;max-width:240px;transform:translate(-50%,calc(-100% - 12px));display:none}
+.tip{position:absolute;pointer-events:none;width:max-content;background:var(--ink);color:var(--paper);font-size:13px;line-height:1.35;padding:7px 10px;border-radius:4px;max-width:240px;transform:translate(-50%,calc(-100% - 12px));display:none}
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:10px;font-size:13px;color:var(--muted)}
 .legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
 .legend .pin i{border-radius:0;background:none;border:2px solid var(--ink);width:10px;height:10px}
@@ -255,7 +257,8 @@ footer{border-top:1px solid var(--rule);padding:18px 0 30px;font-size:13px;color
 footer p{margin:0 0 6px;max-width:80ch}
 
 @media (max-width:860px){
-  .map-layout{grid-template-columns:1fr}
+  .map-layout{grid-template-columns:minmax(0,1fr)}
+  .map-card{min-width:0}
   .stat-grid,.breaches,.threat-grid{grid-template-columns:1fr}
   .news-grid{grid-template-columns:1fr}
 }
@@ -271,11 +274,43 @@ footer p{margin:0 0 6px;max-width:80ch}
   [role="tablist"]{gap:0;margin:0 -8px}
   .count{margin-left:4px;min-width:18px;padding:0 4px;font-size:11px;line-height:18px}
 }
+/* Phones: only the tab row stays pinned, so the header doesn't eat the screen */
+@media (max-width:600px){
+  .masthead{display:contents}
+  .tabbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;border-bottom:1px solid var(--rule);box-shadow:0 6px 12px -10px rgba(0,0,0,.35)}
+  .top .bar{padding-top:12px}
+  .brand{font-size:30px}
+  /* Ransomware table becomes stacked rows instead of scrolling sideways */
+  .vtable{overflow-x:visible}
+  .vrow{display:flex;flex-wrap:wrap;gap:2px 0;min-width:0;padding:10px 14px}
+  .vrow.head{display:none}
+  .vrow .org{order:-1;flex-basis:100%;font-size:15.5px}
+  .vrow>[role=cell]:not(.org){font-size:13.5px}
+  .vrow>[role=cell]:not(.org):not(time)::before{content:"\00b7";margin:0 7px;color:var(--muted)}
+  /* Map: give it real width and let it pan sideways */
+  .map-wrap.pan{overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+  .pan-hint{display:block}
+  .feed{max-height:200px}
+}
+.pan-hint{display:none;font-size:12.5px;color:var(--muted);margin:6px 0 0}
+/* Touch screens (phones and iPads): finger-sized controls, no zoom-on-focus */
+@media (pointer:coarse){
+  .theme button{padding:10px 14px;font-size:13.5px;min-height:40px}
+  .chip{padding:9px 14px;min-height:40px}
+  .act{padding:8px 12px;min-height:38px}
+  .btn{padding:9px 16px;min-height:40px}
+  .gang-link,.linkbtn{padding:6px 0}
+  .related .cve{padding:6px 10px}
+  .search input,.panel select{font-size:16px;padding:10px 12px}
+  [role="tab"]{min-height:46px}
+  .tip{max-width:min(240px,70vw)}
+}
 @media (prefers-reduced-motion: reduce){ *{scroll-behavior:auto!important} }
 </style>
 </head>
 <body>
 
+<div class="masthead">
 <header class="top">
   <div class="wrap">
     <div class="bar">
@@ -289,6 +324,10 @@ footer p{margin:0 0 6px;max-width:80ch}
         <p class="stamp" id="stamp">Loading latest data…</p>
       </div>
     </div>
+  </div>
+</header>
+<div class="tabbar">
+  <div class="wrap">
     <div role="tablist" aria-label="Sections">
       <button role="tab" id="tab-alerts" aria-controls="panel-alerts" aria-selected="true">Alerts<span class="count" id="alert-count"></span></button>
       <button role="tab" id="tab-map" aria-controls="panel-map" aria-selected="false" tabindex="-1">Map</button>
@@ -297,7 +336,8 @@ footer p{margin:0 0 6px;max-width:80ch}
       <button role="tab" id="tab-threats" aria-controls="panel-threats" aria-selected="false" tabindex="-1">Threats</button>
     </div>
   </div>
-</header>
+</div>
+</div>
 
 <main class="wrap">
 
@@ -327,6 +367,7 @@ footer p{margin:0 0 6px;max-width:80ch}
           <canvas id="map" aria-label="World map with animated attack arcs between countries and markers for reported incidents" role="img"></canvas>
           <div class="tip" id="tip"></div>
         </div>
+        <p class="pan-hint" id="pan-hint">Swipe the map sideways to see more. Tap a marker for details.</p>
         <div class="legend" id="legend"></div>
       </div>
       <aside class="side">
@@ -816,7 +857,11 @@ const MapView=(function(){
   }
 
   function build(){
-    const w=wrap.clientWidth; if(!w) return;
+    const cw=wrap.clientWidth; if(!cw) return;
+    const narrow=window.matchMedia('(max-width:600px)').matches;
+    const w=narrow?Math.max(cw,680):cw, panning=w>cw, first=!wrap.classList.contains('pan')&&panning;
+    wrap.classList.toggle('pan',panning); cv.style.width=panning?w+'px':'';
+    if(first) requestAnimationFrame(()=>{ wrap.scrollLeft=Math.round((w-cw)*0.42); });
     W=w; H=Math.round(w*LAT_SPAN/360); S=W/(2*Math.PI); dpr=Math.min(window.devicePixelRatio||1,2);
     cv.width=W*dpr; cv.height=H*dpr; cv.style.height=H+'px';
     // sample land into a dot grid
@@ -929,26 +974,36 @@ const MapView=(function(){
   // hover tooltips for incident pins
   function countryAt(x,y){
     if(mode!=='radar') return null;
-    let best=null, bd=12;
+    let best=null, bd=COARSE?22:12;
     countries().forEach(c=>{ const [px,py]=P(c.lon,c.lat), d=Math.hypot(px-x,py-y); if(d<bd){bd=d;best=c;} });
     return best;
   }
-  cv.addEventListener('click',e=>{ const r=cv.getBoundingClientRect(); const c=countryAt(e.clientX-r.left,e.clientY-r.top); if(c) setFocus(c.code); });
+  const COARSE=window.matchMedia('(pointer:coarse)').matches;
+  cv.addEventListener('click',e=>{ const r=cv.getBoundingClientRect(); const c=countryAt(e.clientX-r.left,e.clientY-r.top); if(c) setFocus(c.code); else hover(e); });
+  function placeTip(px,py){
+    tip.style.display='block'; tip.style.transform='';
+    const hw=tip.offsetWidth/2, th=tip.offsetHeight, l=wrap.scrollLeft;
+    const x=Math.min(Math.max(px,l+hw+4),l+wrap.clientWidth-hw-4);
+    tip.style.left=x+'px'; tip.style.top=py+'px';
+    if(py-th-12<0) tip.style.transform='translate(-50%,14px)';
+  }
   function hover(e){
     const r=cv.getBoundingClientRect(), x=e.clientX-r.left, y=e.clientY-r.top;
     const c=countryAt(x,y);
     cv.style.cursor=c?'pointer':'default';
     if(c){ const [px,py]=P(c.lon,c.lat);
       tip.innerHTML=`<b>${esc(c.name)}</b><br>${c.n} top route${c.n>1?'s':''}. ${c.code===focus?'Click to show all countries':'Click to focus'}`;
-      tip.style.left=px+'px'; tip.style.top=py+'px'; tip.style.display='block'; return; }
-    const hits=INCIDENTS.filter(i=>{const [px,py]=P(i.lon,i.lat);return Math.abs(px-x)<9&&Math.abs(py-y)<9});
+      placeTip(px,py); return; }
+    const R=COARSE?18:9;
+    const hits=INCIDENTS.filter(i=>{const [px,py]=P(i.lon,i.lat);return Math.abs(px-x)<R&&Math.abs(py-y)<R});
     if(hits.length){
       const [px,py]=P(hits[0].lon,hits[0].lat);
       tip.innerHTML=hits.map(h=>`<b>${esc(h.name)}</b><br>${esc(h.place)}${h.date?`, ${fmt(h.date)}`:''}`).join('<br><br>');
-      tip.style.left=px+'px'; tip.style.top=py+'px'; tip.style.display='block';
+      placeTip(px,py);
     } else tip.style.display='none';
   }
-  cv.addEventListener('mousemove',hover); cv.addEventListener('mouseleave',()=>tip.style.display='none');
+  cv.addEventListener('mousemove',e=>{ if(!COARSE) hover(e); });
+  wrap.addEventListener('scroll',()=>{ tip.style.display='none'; },{passive:true}); cv.addEventListener('mouseleave',()=>tip.style.display='none');
 
   new ResizeObserver(()=>{ if(visible) build(); }).observe(wrap);
   document.addEventListener('visibilitychange',()=>{ if(!document.hidden&&running&&visible) loop(); });
