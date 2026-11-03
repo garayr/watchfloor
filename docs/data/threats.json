@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2857,
-  "c2_servers": 1524,
+  "total_iocs": 1855,
+  "c2_servers": 505,
   "families": [
    {
+    "name": "Vidar",
+    "iocs": 283,
+    "c2": 283,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "AMOS",
-    "iocs": 250,
+    "iocs": 280,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "ClearFake",
-    "iocs": 250,
+    "iocs": 257,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Vidar",
-    "iocs": 190,
-    "c2": 190,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 176,
-    "c2": 0,
+    "iocs": 172,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "IClickFix",
-    "iocs": 131,
+    "iocs": 140,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 124,
+    "iocs": 120,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Mirai",
-    "iocs": 57,
-    "c2": 5,
+    "iocs": 50,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "VShell",
-    "iocs": 43,
-    "c2": 5,
+    "iocs": 49,
+    "c2": 11,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "SalatStealer",
-    "iocs": 36,
+    "iocs": 35,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 30,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "Cobalt Strike",
+    "iocs": 34,
+    "c2": 34,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 932,
+  "online": 903,
   "top_tags": [
    {
     "name": "github",
-    "count": 924
-   },
-   {
-    "name": "SalatStealer",
-    "count": 920
+    "count": 874
    },
    {
     "name": "zapret",
-    "count": 884
+    "count": 711
    },
    {
-    "name": "elf",
-    "count": 68
+    "name": "SalatStealer",
+    "count": 707
+   },
+   {
+    "name": "zip",
+    "count": 164
    },
    {
     "name": "exe",
-    "count": 38
+    "count": 141
    },
    {
-    "name": "Mozi",
-    "count": 4
+    "name": "elf",
+    "count": 92
    },
    {
-    "name": "ascii",
-    "count": 3
+    "name": "SmartLoader",
+    "count": 22
    },
    {
     "name": "ua-wget",
-    "count": 3
+    "count": 21
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 123155,
-   "targets": 245,
-   "sources": 3573
+   "records": 675426,
+   "targets": 292,
+   "sources": 10187
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 91290,
-   "targets": 245,
-   "sources": 3957
+   "records": 387051,
+   "targets": 290,
+   "sources": 13627
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 55570,
-   "targets": 220,
-   "sources": 4672
+   "records": 238722,
+   "targets": 290,
+   "sources": 12264
   },
   {
    "port": 3389,
    "service": "Remote Desktop (RDP)",
-   "records": 48614,
-   "targets": 222,
-   "sources": 459
+   "records": 227347,
+   "targets": 265,
+   "sources": 2277
   },
   {
    "port": 2222,
    "service": null,
-   "records": 32611,
-   "targets": 230,
-   "sources": 2568
-  },
-  {
-   "port": 5900,
-   "service": "VNC",
-   "records": 27552,
-   "targets": 202,
-   "sources": 232
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 25584,
-   "targets": 230,
-   "sources": 2485
+   "records": 203083,
+   "targets": 291,
+   "sources": 5951
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 23070,
-   "targets": 223,
-   "sources": 2688
+   "records": 175407,
+   "targets": 258,
+   "sources": 8430
+  },
+  {
+   "port": 5900,
+   "service": "VNC",
+   "records": 119789,
+   "targets": 261,
+   "sources": 788
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 20404,
-   "targets": 226,
-   "sources": 2036
+   "records": 116827,
+   "targets": 283,
+   "sources": 5954
   },
   {
-   "port": 51413,
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 114655,
+   "targets": 276,
+   "sources": 6975
+  },
+  {
+   "port": 137,
    "service": null,
-   "records": 16625,
-   "targets": 17,
-   "sources": 1453
+   "records": 81018,
+   "targets": 202,
+   "sources": 1262
   }
  ],
  "ports_date": "2026-11-03",
@@ -211,6 +211,198 @@
   }
  ],
  "pulses": [
+  {
+   "name": "StyleSmuggler Exploitation Deploys PSK Agent RAT Against Magento Stores",
+   "summary": "Between September 9 and September 13, 2026, a coordinated campaign exploited Magento and Adobe Commerce stores across Western Europe, North America, and Asia-Pacific using CVE-2026-75650 (StyleSmuggler). The attack…",
+   "date": "2026-11-03T14:09:27+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "PSK Agent",
+    "chi_down",
+    "zer4.php"
+   ],
+   "countries": [],
+   "industries": [
+    "Retail"
+   ],
+   "tags": [
+    "chi_down",
+    "chinese-speaking operator",
+    "webshell deployment",
+    "cve-2026-75650",
+    "magento exploitation",
+    "zer4.php"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae9eb17c5d87b8a004ed8fb"
+  },
+  {
+   "name": "Yoba Malware Campaign Abuses Signed AI Applications to Evade Detection",
+   "summary": "A sophisticated campaign tracked as Yoba distributes cryptocurrency mining malware through fraudulent GitHub repositories impersonating ChatGPT and Claude AI applications. Attackers leverage legitimate, digitally signed…",
+   "date": "2026-11-03T14:09:26+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "YobaLoader",
+    "YobaDropper",
+    "XMRig"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "ai application impersonation",
+    "github phishing",
+    "yobaloader",
+    "signed binary abuse",
+    "xmrig",
+    "yobadropper"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae9eb16f9bae7d0faed8d7a"
+  },
+  {
+   "name": "Exploitation Targeting Node-RED, a Tool Embedded in ICS Products",
+   "summary": "On October 30, 2026, exploitation activity was detected targeting CVE-2026-58115, an unauthenticated Node-RED admin API vulnerability. Attackers deployed malicious flows that automatically download and execute Linux…",
+   "date": "2026-11-03T09:42:06+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Manufacturing",
+    "Energy",
+    "Healthcare",
+    "Agriculture",
+    "Government"
+   ],
+   "tags": [
+    "exploitation",
+    "linux bot",
+    "cve-2026-58115",
+    "industrial control systems",
+    "critical infrastructure",
+    "ics"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae9ac6e66c89c6be4d99928"
+  },
+  {
+   "name": "DarkBlinders: Active Espionage Campaign",
+   "summary": "A sophisticated cyberespionage operation targeting Israel and the Kurdistan Region of Iraq was conducted by DarkBlinders, the threat actor behind the Blinder Tunnel campaign. Active between August and October 2026, the…",
+   "date": "2026-11-03T09:06:36+00:00",
+   "author": "AlienVault",
+   "adversary": "DarkBlinders",
+   "malware": [
+    "SHELBYLOADER",
+    "SHELBYC2",
+    "HOTAIR",
+    "AEROSTAT",
+    "TREEWORLD",
+    "GHOSTFORM"
+   ],
+   "countries": [
+    "Iraq",
+    "Israel",
+    "Kuwait"
+   ],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "kurdistan",
+    "runtimebrokerapi",
+    "dust specter",
+    "espionage",
+    "treeworld",
+    "gulf cooperation council"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae9a41c3b21a1b31d13d6b6"
+  },
+  {
+   "name": "The Internals of a Badbox Operation",
+   "summary": "Investigation reveals a massive supply chain compromise involving MECOOL Android set-top boxes manufactured by Videostrong Technology Co., Ltd. Over 1.3 million devices were pre-infected with the x.cpe backdoor…",
+   "date": "2026-11-03T08:50:34+00:00",
+   "author": "AlienVault",
+   "adversary": "Videostrong Technology Co., Ltd.",
+   "malware": [
+    "x.cpe",
+    "AdMoyu",
+    "Appsalt",
+    "APSolo",
+    "LinkFog",
+    "Gaganode"
+   ],
+   "countries": [
+    "United States of America",
+    "Brazil",
+    "China",
+    "Germany",
+    "Malaysia",
+    "Mexico"
+   ],
+   "industries": [
+    "Media"
+   ],
+   "tags": [
+    "badbox",
+    "supply chain compromise",
+    "traffmonetizer",
+    "kimwolf",
+    "honeygain",
+    "ad fraud"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae9a05a6c8de6ce3516b3c8"
+  },
+  {
+   "name": "BITTER Expands Its Arsenal with PapRAT",
+   "summary": "A cyberespionage group known as BITTER has been conducting campaigns targeting South Asian organizations using PowerShell scripts and a custom remote access trojan called PapRAT. Three distinct infection chains have…",
+   "date": "2026-11-03T08:15:22+00:00",
+   "author": "AlienVault",
+   "adversary": "HAZY TIGER",
+   "malware": [
+    "PapRAT",
+    "WmRAT"
+   ],
+   "countries": [],
+   "industries": [
+    "Government",
+    "Energy"
+   ],
+   "tags": [
+    "wmrat",
+    "south asia",
+    "lnk files",
+    "cyberespionage",
+    "msi installer",
+    "rat"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae9981a0b51502b1e8d1e4f"
+  },
+  {
+   "name": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+   "summary": "Threat actors are hijacking enterprise access to Large Language Models through a tactic called LLMJacking, impacting organizations across North America, South America, and Asia Pacific in financial services, retail…",
+   "date": "2026-11-02T19:30:35+00:00",
+   "author": "AlienVault",
+   "adversary": "UNC6993",
+   "malware": [
+    "Bankshot - S0239",
+    "Trojan Manuscript"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance",
+    "Retail",
+    "Technology",
+    "Transportation"
+   ],
+   "tags": [
+    "llmjacking",
+    "llm mixers",
+    "cve-2026-40217",
+    "manus",
+    "api key theft",
+    "privilege escalation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae8e4db45e485be0d9c99d9"
+  },
   {
    "name": "Shutting the Door on the XCPE Botnet",
    "summary": "Google and industry partners dismantled the XCPE backdoor that enrolled over 1.3 million set-top boxes into a botnet. The backdoor was intentionally developed and operated by Videostrong Technology Co., an Android…",
@@ -337,176 +529,13 @@
     "session hijacking"
    ],
    "url": "https://otx.alienvault.com/pulse/6ae5f5fe1e9d5fb8fd713f1a"
-  },
-  {
-   "name": "Hackers Impersonate IT Help Desk on Microsoft Teams to Hijack Active Directory Accounts and Steal Data",
-   "summary": "Attackers impersonated IT help desk personnel on Microsoft Teams to gain unauthorized access to Active Directory environments through social engineering and misconfigured certificate services. Two distinct intrusion…",
-   "date": "2026-10-31T08:06:55+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Rclone",
-    "PetitPotam"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "active directory",
-    "dcsync",
-    "petitpotam",
-    "esc8",
-    "microsoft teams",
-    "data exfiltration"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae5a19f6a4b01412ddf5f9e"
-  },
-  {
-   "name": "North Korea's Crypto Heists Start on the Open Internet",
-   "summary": "North Korean operators execute cryptocurrency thefts by initially compromising developers through social engineering on the open internet before moving operations on-chain. The Bybit theft in February 2025 began when…",
-   "date": "2026-10-31T06:10:56+00:00",
-   "author": "AlienVault",
-   "adversary": "Lazarus Group",
-   "malware": [
-    "TraderTraitor"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "cryptocurrency theft",
-    "domain infrastructure",
-    "devops targeting",
-    "social engineering",
-    "tradertraitor",
-    "crypto developers"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae58670747ffa49b026a7f5"
-  },
-  {
-   "name": "Fake Claude Code extension in Cursor: How to find the backdoor",
-   "summary": "On October 29, 2026, Cursor's VS Code extension marketplace served malicious Claude Code extensions (versions 2.1.312 and 2.1.313) designed to plant SSH backdoors on developer machines. The fake extensions, not…",
-   "date": "2026-10-31T06:10:53+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "cursor ide",
-    "macos targeting",
-    "software supply chain attack",
-    "ssh backdoor",
-    "persistence mechanism",
-    "extension compromise"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae5866df62f40be3fe5904b"
-  },
-  {
-   "name": "Black October for AI Developer Platforms",
-   "summary": "Throughout October 2026, at least nine AI Developer Platforms experienced security breaches involving credential theft and subsequent abuse of AI model access. The attacks targeted platforms including Fireworks AI…",
-   "date": "2026-10-31T01:15:08+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "distillation",
-    "agentic attacks",
-    "credential theft",
-    "llmjacking",
-    "llm brokers",
-    "token abuse"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae5411ce86c1aaec037ddbf"
-  },
-  {
-   "name": "PHP2Shell One Week Later: Honeypot Shells on the Web, a Path to Root on Palo Alto Firewalls",
-   "summary": "PHP2Shell emerged from two critical PHP memory-safety vulnerabilities, CVE-2026-109618 and CVE-2026-109619, rated CVSS 9.2 and patched on October 21, 2026. Investigation of open directories uncovered 616…",
-   "date": "2026-10-30T16:46:49+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "Philippines"
-   ],
-   "industries": [
-    "Government",
-    "Finance",
-    "Telecommunications",
-    "Education",
-    "Technology"
-   ],
-   "tags": [
-    "cve-2026-109618",
-    "cve-2026-109619",
-    "pan-os exploitation",
-    "exploit infrastructure",
-    "honeypot detection",
-    "cve-2026-46300"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae4c9f97b4e07a268c06b96"
-  },
-  {
-   "name": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-   "summary": "Two human-operated intrusions leveraged Microsoft Teams messages and calls to impersonate IT personnel, socially engineering users into granting remote access through Quick Assist. Threat actors staged portable Python…",
-   "date": "2026-10-30T16:37:41+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Rclone"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "teams phishing",
-    "petitpotam",
-    "ad cs exploitation",
-    "social engineering",
-    "portable runtimes",
-    "esc1 certificate abuse"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae4c7d56e2e1e8caa32e069"
-  },
-  {
-   "name": "Belarus-Linked Hackers Deploy Wiper Malware in First Documented Destructive Attack on Ukraine",
-   "summary": "Belarus-aligned threat actors deployed a VBScript wiper against a Ukrainian manufacturing company involved in the transportation sector in late May 2026. The group, tracked as FrostyNeighbor (also known as UNC1151…",
-   "date": "2026-10-30T14:11:01+00:00",
-   "author": "AlienVault",
-   "adversary": "FrostyNeighbor",
-   "malware": [
-    "Cobalt Strike - S0154",
-    "Chisel",
-    "UltraVNC"
-   ],
-   "countries": [
-    "Ukraine"
-   ],
-   "industries": [
-    "Manufacturing",
-    "Transportation"
-   ],
-   "tags": [
-    "ultravnc",
-    "unc1151",
-    "cobalt strike",
-    "frostyneighbor",
-    "transportation",
-    "wiper"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae4a5754dedf6097f0cfd5d"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-03T08:36:15+00:00",
-  "sans": "2026-11-03T08:36:15+00:00",
-  "otx": "2026-11-03T08:36:15+00:00",
-  "urlhaus": "2026-11-03T08:36:15+00:00"
+  "threatfox": "2026-11-03T16:32:05+00:00",
+  "sans": "2026-11-03T16:32:05+00:00",
+  "otx": "2026-11-03T16:32:05+00:00",
+  "urlhaus": "2026-11-03T16:32:05+00:00"
  },
- "generated_at": "2026-11-03T08:36:15+00:00"
+ "generated_at": "2026-11-03T16:32:05+00:00"
 }
