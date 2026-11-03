@@ -2,106 +2,98 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2505,
-  "c2_servers": 1418,
+  "total_iocs": 2998,
+  "c2_servers": 1430,
   "families": [
    {
+    "name": "Unknown Loader",
+    "iocs": 374,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "AMOS",
-    "iocs": 300,
+    "iocs": 281,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "ClearFake",
-    "iocs": 277,
+    "iocs": 276,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 216,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+    "name": "IClickFix",
+    "iocs": 121,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Mirai",
-    "iocs": 60,
+    "iocs": 48,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
+    "name": "VShell",
+    "iocs": 45,
+    "c2": 8,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
     "name": "Vidar",
-    "iocs": 34,
-    "c2": 34,
+    "iocs": 44,
+    "c2": 44,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 31,
-    "c2": 31,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 28,
+    "name": "SalatStealer",
+    "iocs": 36,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "StrelaStealer",
-    "iocs": 24,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "XMRIG",
-    "iocs": 22,
-    "c2": 12,
+    "iocs": 31,
+    "c2": 15,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.xmrig"
    },
    {
-    "name": "WARDENStealer",
-    "iocs": 19,
-    "c2": 18,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+    "name": "php.shin_webshell",
+    "iocs": 30,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 670,
+  "online": 1000,
   "top_tags": [
    {
     "name": "github",
-    "count": 499
+    "count": 1000
    },
    {
     "name": "SalatStealer",
-    "count": 306
-   },
-   {
-    "name": "elf",
-    "count": 184
-   },
-   {
-    "name": "mirai",
-    "count": 166
-   },
-   {
-    "name": "ua-wget",
-    "count": 157
+    "count": 999
    },
    {
     "name": "zapret",
-    "count": 138
+    "count": 954
    },
    {
-    "name": "zip",
-    "count": 129
+    "name": "exe",
+    "count": 46
    },
    {
-    "name": "Mozi",
-    "count": 122
+    "name": "CheatSheet",
+    "count": 1
+   },
+   {
+    "name": "rustystealer",
+    "count": 1
    }
   ]
  },
@@ -212,285 +204,301 @@
  ],
  "pulses": [
   {
-   "name": "Kairos Hold'em: Dissecting a New Go-Based DDoS Botnet",
-   "summary": "Kairos is a newly documented DDoS botnet for Linux written in Go, designed to transform compromised machines into attack nodes. The bot establishes hundreds to thousands of TCP connections to operator-specified targets…",
-   "date": "2026-10-30T09:41:33+00:00",
+   "name": "Shutting the Door on the XCPE Botnet",
+   "summary": "Google and industry partners dismantled the XCPE backdoor that enrolled over 1.3 million set-top boxes into a botnet. The backdoor was intentionally developed and operated by Videostrong Technology Co., an Android…",
+   "date": "2026-11-02T15:12:40+00:00",
    "author": "AlienVault",
-   "adversary": null,
+   "adversary": "Videostrong Technology Co.",
    "malware": [
-    "Kairos"
+    "XCPE",
+    "ABCNexus",
+    "Wingbird - S0176",
+    "Linkfog",
+    "Jaguar",
+    "AppSalt"
    ],
    "countries": [],
    "industries": [],
    "tags": [
-    "kairos",
-    "ddos",
-    "telnet exploitation",
-    "tcp flood",
-    "go-based botnet"
+    "linkfog",
+    "spirit",
+    "netnut",
+    "set-top boxes",
+    "bwm",
+    "backdoor"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ae4664dc4882837d4aa5670"
+   "url": "https://otx.alienvault.com/pulse/6ae8a86845dfd06f55cb0848"
   },
   {
-   "name": "Trojanized Claude Code Extension Plants an SSH Backdoor",
-   "summary": "Version 2.1.313 of the Claude Code extension in the Cursor Marketplace was compromised on October 29th, 2026. A malicious 66-line loader was inserted before legitimate extension code in the extension.js file. Upon…",
-   "date": "2026-10-30T09:31:38+00:00",
+   "name": "Hackers Use Fake ChatGPT Plus Billing Emails to Steal Credit Card Details and OTP Codes",
+   "summary": "A sophisticated phishing campaign impersonates OpenAI by sending fraudulent ChatGPT Plus billing emails claiming failed subscription payments. Victims are directed to fake payment pages hosted on compromised WordPress…",
+   "date": "2026-11-02T14:34:47+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "credential theft",
+    "phishing",
+    "otp interception",
+    "payment fraud",
+    "chatgpt",
+    "wordpress compromise"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae89f875023c8d646113532"
+  },
+  {
+   "name": "CyberStrikeAI attacks educational institutions",
+   "summary": "An open-source framework called CyberStrikeAI was used in real-world attacks against educational institutions across Africa and Latin America. The framework combines LLM-based orchestration with a traditional C2 server…",
+   "date": "2026-11-02T10:46:49+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "CyberStrikeAI",
+    "NodeRabbit",
+    "PollCat",
+    "mimikatz"
+   ],
    "countries": [],
    "industries": [
-    "Technology"
+    "Education"
    ],
    "tags": [
-    "supply chain compromise",
-    "ssh backdoor",
-    "vscode"
+    "cyberstrikeai",
+    "domain compromise",
+    "pollcat",
+    "mimikatz",
+    "noderabbit",
+    "llm orchestration"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ae463fa75713227e9492efc"
+   "url": "https://otx.alienvault.com/pulse/6ae86a19eabc583f87c50fd6"
   },
   {
-   "name": "Polymarket Breach Alert: Wallet-Draining Code Found in a Third-Party Script",
-   "summary": "A malicious JavaScript file was discovered in a third-party performance monitoring integration on Polymarket. The script, hosted on a DebugBear CDN URL, contained sophisticated code designed to access authenticated…",
-   "date": "2026-10-30T08:33:18+00:00",
+   "name": "VAPOR PANDA Uses AI-Driven ARTEX to Grow Global Espionage Campaign",
+   "summary": "VAPOR PANDA conducted a sophisticated espionage campaign beginning October 17, 2026, using the ARTEX AI-driven framework alongside DeepSeek and commercial LLMs to orchestrate parallel intrusions against over 200…",
+   "date": "2026-10-31T19:29:24+00:00",
    "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Finance",
-    "Technology"
-   ],
-   "tags": [
-    "cryptocurrency theft",
-    "supply chain attack",
-    "polymarket",
-    "third-party compromise",
-    "debugbear"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae4564eb479948d2335e8d1"
-  },
-  {
-   "name": "Inside Coruna and DarkSword Chains: From Web Lures to iOS Exploitation",
-   "summary": "Seven months after initial disclosure, the Coruna iOS exploit framework continues to evolve, now deploying two distinct chains based on device operating system version. Targets running iOS 17.2.1 or earlier receive the…",
-   "date": "2026-10-30T08:21:07+00:00",
-   "author": "AlienVault",
-   "adversary": null,
+   "adversary": "VAPOR PANDA",
    "malware": [
-    "Coruna",
-    "DarkSword"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "darksword",
-    "browser exploitation",
-    "coruna",
-    "coruna framework"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae45373ec45a11f4f945be7"
-  },
-  {
-   "name": "How Attackers Redirect Crypto Payments",
-   "summary": "Cryptocurrency transactions face unique threats from specialized malware known as Clipbankers, designed to redirect payments by replacing copied wallet addresses with attacker-controlled ones. These attacks exploit user…",
-   "date": "2026-10-29T22:40:57+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "AnimateClipper",
-    "ZigClipper",
-    "Efimer",
-    "CryptoBandit"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "clipboard hijacking",
-    "cryptobandit",
-    "zigclipper",
-    "efimer",
-    "clickfix"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae3cb79a3fb666626c21e74"
-  },
-  {
-   "name": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
-   "summary": "A sophisticated SEO poisoning campaign targets users searching for DeepSeek AI tools through malicious lookalike domains positioned on first-page search results. The attack employs a multi-stage infection chain…",
-   "date": "2026-10-29T18:09:45+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Kong RAT"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "keylogger",
-    "deepseek",
-    "seo poisoning",
-    "scheduled task persistence",
-    "chinese threat actor",
-    "dll side-loading"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae38be9be54297cf156f922"
-  },
-  {
-   "name": "Inside Coruna and DarkSword Chains: From Web Lures to iOS Exploitation",
-   "summary": "Seven months after initial disclosure, the Coruna iOS exploit framework continues evolving with two distinct exploit chains conditioned on device operating system versions. Targets running iOS 17.2.1 or earlier receive…",
-   "date": "2026-10-29T18:09:10+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Coruna",
-    "DarkSword"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "darksword",
-    "cve-2022-48503",
-    "drive-by compromise",
-    "webkit vulnerability",
-    "coruna",
-    "amfi manipulation"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae38bc6be61d23c0f7a2165"
-  },
-  {
-   "name": "Prediction Markets Emerge as a New Vertical for Traffer Teams",
-   "summary": "Multiple Russian-language traffer teams have rapidly adapted affiliate-fraud models to exploit growing interest in prediction markets like PolyMarket and Kalshi since spring 2026. Three teams—AtlasCore, PolyFucked, and…",
-   "date": "2026-10-29T17:54:26+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "cryptocurrency fraud",
-    "traffer teams",
-    "atlascore",
-    "polyfucked",
-    "prediction markets",
-    "affiliate fraud"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae388525fa9f64db6d1d947"
-  },
-  {
-   "name": "Aurora ransomware targets ESXi abuses Cursor Agent for exploitation",
-   "summary": "Aurora ransomware group has been active since approximately April 2026, targeting organizations across multiple countries and operating a data leak site. The investigation revealed the group deploys a Linux ransomware…",
-   "date": "2026-10-29T17:45:39+00:00",
-   "author": "AlienVault",
-   "adversary": "aurora",
-   "malware": [
-    "Hydraq - S0203",
-    "Roarur",
-    "MdmBot",
-    "HomeUnix",
-    "Homux",
-    "HidraQ"
+    "ARTEX",
+    "BLOODALCHEMY"
    ],
    "countries": [
     "United States of America",
-    "Argentina",
-    "Austria",
-    "Germany",
-    "Israel",
-    "Spain"
+    "Belgium",
+    "Greece",
+    "Philippines"
    ],
-   "industries": [],
+   "industries": [
+    "Government",
+    "Defense",
+    "Semiconductor",
+    "Telecommunications",
+    "Hospitality",
+    "Finance"
+   ],
    "tags": [
-    "aurora",
-    "virtualization",
-    "chacha20",
-    "linux",
-    "ransomware",
-    "ai-assisted exploitation"
+    "bloodalchemy",
+    "foreign ministries",
+    "agentic framework",
+    "china-nexus",
+    "credential spraying",
+    "ai-driven intrusion"
    ],
-   "url": "https://otx.alienvault.com/pulse/6ae386434a2934ca4f48754d"
+   "url": "https://otx.alienvault.com/pulse/6ae64194faf7dc45dce3baa3"
   },
   {
-   "name": "The Psychedelic Stealer: When the CAPTCHA Is the Installer",
-   "summary": "Between September 9 and September 14, 2026, an unattributed Russian-speaking operator compromised at least six legitimate Ukrainian small-business websites to deliver a fake Cloudflare verification page. The ClickFix…",
-   "date": "2026-10-02T13:48:42+00:00",
+   "name": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+   "summary": "VOLTA is a sophisticated Windows infostealer that incorporates AI-powered victim profiling to prioritize targets based on monetization potential. After harvesting credentials, browser data, cryptocurrency wallets…",
+   "date": "2026-10-31T14:06:54+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [
-    "Psychedelic",
-    "psychedeliclove.exe"
+    "VOLTA",
+    "VOLTA-AUTODOXER"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "infostealer",
+    "victim profiling",
+    "volta",
+    "ai-integration",
+    "openrouter",
+    "session hijacking"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae5f5fe1e9d5fb8fd713f1a"
+  },
+  {
+   "name": "Hackers Impersonate IT Help Desk on Microsoft Teams to Hijack Active Directory Accounts and Steal Data",
+   "summary": "Attackers impersonated IT help desk personnel on Microsoft Teams to gain unauthorized access to Active Directory environments through social engineering and misconfigured certificate services. Two distinct intrusion…",
+   "date": "2026-10-31T08:06:55+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Rclone",
+    "PetitPotam"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "active directory",
+    "dcsync",
+    "petitpotam",
+    "esc8",
+    "microsoft teams",
+    "data exfiltration"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae5a19f6a4b01412ddf5f9e"
+  },
+  {
+   "name": "North Korea's Crypto Heists Start on the Open Internet",
+   "summary": "North Korean operators execute cryptocurrency thefts by initially compromising developers through social engineering on the open internet before moving operations on-chain. The Bybit theft in February 2025 began when…",
+   "date": "2026-10-31T06:10:56+00:00",
+   "author": "AlienVault",
+   "adversary": "Lazarus Group",
+   "malware": [
+    "TraderTraitor"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "cryptocurrency theft",
+    "domain infrastructure",
+    "devops targeting",
+    "social engineering",
+    "tradertraitor",
+    "crypto developers"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae58670747ffa49b026a7f5"
+  },
+  {
+   "name": "Fake Claude Code extension in Cursor: How to find the backdoor",
+   "summary": "On October 29, 2026, Cursor's VS Code extension marketplace served malicious Claude Code extensions (versions 2.1.312 and 2.1.313) designed to plant SSH backdoors on developer machines. The fake extensions, not…",
+   "date": "2026-10-31T06:10:53+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "cursor ide",
+    "macos targeting",
+    "software supply chain attack",
+    "ssh backdoor",
+    "persistence mechanism",
+    "extension compromise"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae5866df62f40be3fe5904b"
+  },
+  {
+   "name": "Black October for AI Developer Platforms",
+   "summary": "Throughout October 2026, at least nine AI Developer Platforms experienced security breaches involving credential theft and subsequent abuse of AI model access. The attacks targeted platforms including Fireworks AI…",
+   "date": "2026-10-31T01:15:08+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "distillation",
+    "agentic attacks",
+    "credential theft",
+    "llmjacking",
+    "llm brokers",
+    "token abuse"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae5411ce86c1aaec037ddbf"
+  },
+  {
+   "name": "PHP2Shell One Week Later: Honeypot Shells on the Web, a Path to Root on Palo Alto Firewalls",
+   "summary": "PHP2Shell emerged from two critical PHP memory-safety vulnerabilities, CVE-2026-109618 and CVE-2026-109619, rated CVSS 9.2 and patched on October 21, 2026. Investigation of open directories uncovered 616…",
+   "date": "2026-10-30T16:46:49+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "Philippines"
+   ],
+   "industries": [
+    "Government",
+    "Finance",
+    "Telecommunications",
+    "Education",
+    "Technology"
+   ],
+   "tags": [
+    "cve-2026-109618",
+    "cve-2026-109619",
+    "pan-os exploitation",
+    "exploit infrastructure",
+    "honeypot detection",
+    "cve-2026-46300"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae4c9f97b4e07a268c06b96"
+  },
+  {
+   "name": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+   "summary": "Two human-operated intrusions leveraged Microsoft Teams messages and calls to impersonate IT personnel, socially engineering users into granting remote access through Quick Assist. Threat actors staged portable Python…",
+   "date": "2026-10-30T16:37:41+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Rclone"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "teams phishing",
+    "petitpotam",
+    "ad cs exploitation",
+    "social engineering",
+    "portable runtimes",
+    "esc1 certificate abuse"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae4c7d56e2e1e8caa32e069"
+  },
+  {
+   "name": "Belarus-Linked Hackers Deploy Wiper Malware in First Documented Destructive Attack on Ukraine",
+   "summary": "Belarus-aligned threat actors deployed a VBScript wiper against a Ukrainian manufacturing company involved in the transportation sector in late May 2026. The group, tracked as FrostyNeighbor (also known as UNC1151…",
+   "date": "2026-10-30T14:11:01+00:00",
+   "author": "AlienVault",
+   "adversary": "FrostyNeighbor",
+   "malware": [
+    "Cobalt Strike - S0154",
+    "Chisel",
+    "UltraVNC"
    ],
    "countries": [
     "Ukraine"
    ],
    "industries": [
-    "Healthcare",
     "Manufacturing",
-    "Media",
-    "Retail"
+    "Transportation"
    ],
    "tags": [
-    "cryptocurrency theft",
-    "fake captcha",
-    "native-messaging bridge",
-    "clickfix",
-    "ukraine targeting",
-    "msi execution"
+    "ultravnc",
+    "unc1151",
+    "cobalt strike",
+    "frostyneighbor",
+    "transportation",
+    "wiper"
    ],
-   "url": "https://otx.alienvault.com/pulse/6abfb63a870eec5021127b09"
-  },
-  {
-   "name": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
-   "summary": "A sophisticated multi-component campaign targeting telecommunications and network-edge appliances has been discovered, featuring BPFDoor variants and a newly identified implant designated AVERAT. The operation leverages…",
-   "date": "2026-10-02T13:48:11+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "BPFDoor",
-    "AVERAT",
-    "Rekoobe"
-   ],
-   "countries": [],
-   "industries": [
-    "Telecommunications"
-   ],
-   "tags": [
-    "linux",
-    "implant",
-    "bpfdoor",
-    "network-edge",
-    "rekoobe",
-    "smtp"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abfb61b65922c3229d35cf8"
-  },
-  {
-   "name": "$100k in Crypto Drained by the Underground Operation",
-   "summary": "A cryptocurrency-stealing operation utilizing an Aotera/Tedy loader injects a Vidar-class stealer into Windows processes, launching Chrome or Edge to inject malicious scripts into victim sessions. The malware builder…",
-   "date": "2026-10-02T07:13:34+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Aotera",
-    "Tedy",
-    "Vidar"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "exchange drain",
-    "tedy",
-    "vidar",
-    "aotera loader",
-    "vidar stealer",
-    "underground"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6abf599ea3419c5518645c45"
+   "url": "https://otx.alienvault.com/pulse/6ae4a5754dedf6097f0cfd5d"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-02T19:27:36+00:00",
-  "sans": "2026-11-02T19:27:36+00:00",
-  "otx": "2026-11-02T19:27:36+00:00",
-  "urlhaus": "2026-11-02T19:27:36+00:00"
+  "threatfox": "2026-11-03T01:43:10+00:00",
+  "sans": "2026-11-03T01:43:10+00:00",
+  "otx": "2026-11-03T01:43:10+00:00",
+  "urlhaus": "2026-11-03T01:43:10+00:00"
  },
- "generated_at": "2026-11-02T19:27:36+00:00"
+ "generated_at": "2026-11-03T01:43:10+00:00"
 }
