@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T01:43:10+00:00",
+ "generated_at": "2026-11-03T08:36:15+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -4557,8 +4557,8 @@
    "description": "A former Conti team aka Chatty Spider and UNC3753",
    "aliases": [],
    "first_seen": "2022-06-07",
-   "last_seen": "2026-10-26",
-   "victims_total": 174,
+   "last_seen": "2026-11-02",
+   "victims_total": 186,
    "cves": [],
    "tools": [
     "Rclone",
@@ -4583,7 +4583,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 123
+      "count": 128
      },
      {
       "name": "DE",
@@ -4605,7 +4605,7 @@
     "sectors": [
      {
       "name": "Professional Services",
-      "count": 86
+      "count": 91
      },
      {
       "name": "Financial Services",
@@ -4630,10 +4630,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 3
-    },
     {
      "month": "2025-12",
      "count": 2
@@ -4676,11 +4672,15 @@
     },
     {
      "month": "2026-10",
-     "count": 19
+     "count": 30
+    },
+    {
+     "month": "2026-11",
+     "count": 1
     }
    ],
-   "history_size": 174,
-   "updated": "2026-10-27T03:40:44+00:00"
+   "history_size": 186,
+   "updated": "2026-11-03T08:36:15+00:00"
   },
   "Global Secret Group": {
    "name": "Global Secret Group",
@@ -5870,9 +5870,15 @@
    "description": "Payload is a ransomware group that emerged in early 2026, using Babuk-derived source code targeting both Windows and ESXi systems with cross-platform double-extortion attacks against healthcare, energy, real estate, and agriculture sectors, claiming 12 victims across seven countries within hours of launching its leak site.",
    "aliases": [],
    "first_seen": "2026-02-17",
-   "last_seen": "2026-10-26",
-   "victims_total": 81,
-   "cves": [],
+   "last_seen": "2026-11-03",
+   "victims_total": 87,
+   "cves": [
+    {
+     "id": "CVE-2026-19118",
+     "cvss": null,
+     "label": null
+    }
+   ],
    "tools": [],
    "techniques": [
     "Native API",
@@ -5892,7 +5898,7 @@
     "countries": [
      {
       "name": "DE",
-      "count": 10
+      "count": 14
      },
      {
       "name": "CH",
@@ -5918,7 +5924,7 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 20
+      "count": 23
      },
      {
       "name": "Professional Services",
@@ -5926,27 +5932,23 @@
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 9
+      "count": 10
      },
      {
       "name": "Financial Services",
       "count": 6
      },
      {
-      "name": "Energy & Utilities",
+      "name": "Education",
       "count": 5
      },
      {
-      "name": "Healthcare",
+      "name": "Energy & Utilities",
       "count": 5
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -5989,11 +5991,15 @@
     },
     {
      "month": "2026-10",
-     "count": 6
+     "count": 11
+    },
+    {
+     "month": "2026-11",
+     "count": 1
     }
    ],
-   "history_size": 81,
-   "updated": "2026-10-27T04:59:39+00:00"
+   "history_size": 87,
+   "updated": "2026-11-03T08:36:15+00:00"
   },
   "bravox": {
    "name": "bravox",

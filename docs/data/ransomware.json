@@ -1,12 +1,16 @@
 {
- "generated_at": "2026-11-03T01:43:10+00:00",
+ "generated_at": "2026-11-03T08:36:15+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "qilin",
-   "count": 19
+   "count": 16
+  },
+  {
+   "name": "N0n",
+   "count": 12
   },
   {
    "name": "safepay",
@@ -17,19 +21,15 @@
    "count": 9
   },
   {
-   "name": "N0n",
-   "count": 7
-  },
-  {
    "name": "SilentRansomGroup",
    "count": 7
   },
   {
-   "name": "akira",
-   "count": 6
+   "name": "AuditTeam",
+   "count": 4
   },
   {
-   "name": "AuditTeam",
+   "name": "payload",
    "count": 4
   },
   {
@@ -44,18 +44,18 @@
   },
   {
    "name": "Manufacturing",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Technology",
-   "count": 10
+   "count": 9
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Other",
    "count": 7
   },
   {
-   "name": "Transportation",
+   "name": "Retail & E-Commerce",
    "count": 7
   },
   {
@@ -66,15 +66,21 @@
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 36,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 7,
+   "count": 8,
    "lat": 50.1,
    "lon": 8.7
+  },
+  {
+   "code": "AR",
+   "count": 3,
+   "lat": -34.6,
+   "lon": -58.4
   },
   {
    "code": "MX",
@@ -89,34 +95,28 @@
    "lon": 101.7
   },
   {
-   "code": "PH",
-   "count": 3,
-   "lat": 14.6,
-   "lon": 121.0
-  },
-  {
    "code": "TW",
    "count": 3,
    "lat": 25.0,
    "lon": 121.5
   },
   {
-   "code": "AR",
+   "code": "AE",
    "count": 2,
-   "lat": -34.6,
-   "lon": -58.4
-  },
-  {
-   "code": "GB",
-   "count": 2,
-   "lat": 51.5,
-   "lon": -0.1
+   "lat": 24.5,
+   "lon": 54.4
   },
   {
    "code": "JP",
    "count": 2,
    "lat": 35.7,
    "lon": 139.7
+  },
+  {
+   "code": "PH",
+   "count": 2,
+   "lat": 14.6,
+   "lon": 121.0
   },
   {
    "code": "SG",
@@ -129,12 +129,6 @@
    "count": 2,
    "lat": 41.0,
    "lon": 29.0
-  },
-  {
-   "code": "AE",
-   "count": 1,
-   "lat": 24.5,
-   "lon": 54.4
   },
   {
    "code": "AT",
@@ -191,6 +185,12 @@
    "lon": 2.35
   },
   {
+   "code": "GB",
+   "count": 1,
+   "lat": 51.5,
+   "lon": -0.1
+  },
+  {
    "code": "HU",
    "count": 1,
    "lat": 47.5,
@@ -234,6 +234,69 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Stahlbau Mann GmbH",
+   "group": "payload",
+   "date": "2026-11-03T04:06:32+00:00",
+   "attack_date": "2026-11-03",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/U3RhaGxiYXUgTWFubiBHbWJIQHBheWxvYWQ="
+  },
+  {
+   "victim": "Company #122",
+   "group": "N0n",
+   "date": "2026-11-03T03:28:32+00:00",
+   "attack_date": "2026-11-03",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTIyQE4wbg=="
+  },
+  {
+   "victim": "Company #121",
+   "group": "N0n",
+   "date": "2026-11-03T03:27:56+00:00",
+   "attack_date": "2026-11-03",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTIxQE4wbg=="
+  },
+  {
+   "victim": "Company #120",
+   "group": "N0n",
+   "date": "2026-11-03T03:27:20+00:00",
+   "attack_date": "2026-11-03",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTIwQE4wbg=="
+  },
+  {
+   "victim": "Company #119",
+   "group": "N0n",
+   "date": "2026-11-03T03:26:45+00:00",
+   "attack_date": "2026-11-03",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTE5QE4wbg=="
+  },
+  {
+   "victim": "Company #118",
+   "group": "N0n",
+   "date": "2026-11-03T03:26:08+00:00",
+   "attack_date": "2026-11-03",
+   "country": "AE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTE4QE4wbg=="
+  },
+  {
+   "victim": "REFSA S.A.",
+   "group": "nightspire",
+   "date": "2026-11-02T22:26:30+00:00",
+   "attack_date": "2026-10-31",
+   "country": "AR",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/UkVGU0EgUy5BLkBuaWdodHNwaXJl"
+  },
   {
    "victim": "S... G...",
    "group": "SilentRansomGroup",
@@ -1034,69 +1097,6 @@
    "country": "MX",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/U2lzdGVtYXMgVmlzdWFsZXMgMzYwQHFpbGlu"
-  },
-  {
-   "victim": "Societe Ivoirienne De Telediffusion",
-   "group": "qilin",
-   "date": "2026-10-30T16:39:39+00:00",
-   "attack_date": "2026-10-30",
-   "country": "CI",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/U29jaWV0ZSBJdm9pcmllbm5lIERlIFRlbGVkaWZmdXNpb25AcWlsaW4="
-  },
-  {
-   "victim": "Palletline",
-   "group": "qilin",
-   "date": "2026-10-30T15:30:38+00:00",
-   "attack_date": "2026-10-30",
-   "country": "GB",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/UGFsbGV0bGluZUBxaWxpbg=="
-  },
-  {
-   "victim": "Rapid Manufacturing",
-   "group": "aurora",
-   "date": "2026-10-30T15:03:11+00:00",
-   "attack_date": "2026-10-30",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UmFwaWQgTWFudWZhY3R1cmluZ0BhdXJvcmE="
-  },
-  {
-   "victim": "FrenchCreek Production",
-   "group": "akira",
-   "date": "2026-10-30T15:01:56+00:00",
-   "attack_date": "2026-10-30",
-   "country": "US",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/RnJlbmNoQ3JlZWsgUHJvZHVjdGlvbkBha2lyYQ=="
-  },
-  {
-   "victim": "Light Rail Manila",
-   "group": "qilin",
-   "date": "2026-10-30T14:35:27+00:00",
-   "attack_date": "2026-10-30",
-   "country": "PH",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/TGlnaHQgUmFpbCBNYW5pbGFAcWlsaW4="
-  },
-  {
-   "victim": "Hudson & Hudson Sign Products",
-   "group": "akira",
-   "date": "2026-10-30T14:07:54+00:00",
-   "attack_date": "2026-10-30",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/SHVkc29uICYgSHVkc29uIFNpZ24gUHJvZHVjdHNAYWtpcmE="
-  },
-  {
-   "victim": "Service One Transportation",
-   "group": "akira",
-   "date": "2026-10-30T14:07:33+00:00",
-   "attack_date": "2026-10-30",
-   "country": null,
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/U2VydmljZSBPbmUgVHJhbnNwb3J0YXRpb25AYWtpcmE="
   },
   {
    "victim": "A***** T******",

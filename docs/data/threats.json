@@ -2,62 +2,62 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2998,
-  "c2_servers": 1430,
+  "total_iocs": 2857,
+  "c2_servers": 1524,
   "families": [
    {
-    "name": "Unknown Loader",
-    "iocs": 374,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "AMOS",
-    "iocs": 281,
+    "iocs": 250,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "ClearFake",
-    "iocs": 276,
+    "iocs": 250,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Vidar",
+    "iocs": 190,
+    "c2": 190,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 176,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "IClickFix",
-    "iocs": 121,
-    "c2": 1,
+    "iocs": 131,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
+    "name": "StrelaStealer",
+    "iocs": 124,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+   },
+   {
     "name": "Mirai",
-    "iocs": 48,
+    "iocs": 57,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "VShell",
-    "iocs": 45,
-    "c2": 8,
+    "iocs": 43,
+    "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 44,
-    "c2": 44,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "SalatStealer",
     "iocs": 36,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
-   },
-   {
-    "name": "XMRIG",
-    "iocs": 31,
-    "c2": 15,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.xmrig"
    },
    {
     "name": "php.shin_webshell",
@@ -69,31 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 1000,
+  "online": 932,
   "top_tags": [
    {
     "name": "github",
-    "count": 1000
+    "count": 924
    },
    {
     "name": "SalatStealer",
-    "count": 999
+    "count": 920
    },
    {
     "name": "zapret",
-    "count": 954
+    "count": 884
+   },
+   {
+    "name": "elf",
+    "count": 68
    },
    {
     "name": "exe",
-    "count": 46
+    "count": 38
    },
    {
-    "name": "CheatSheet",
-    "count": 1
+    "name": "Mozi",
+    "count": 4
    },
    {
-    "name": "rustystealer",
-    "count": 1
+    "name": "ascii",
+    "count": 3
+   },
+   {
+    "name": "ua-wget",
+    "count": 3
    }
   ]
  },
@@ -101,76 +109,81 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 512000,
-   "targets": 284,
-   "sources": 8346
+   "records": 123155,
+   "targets": 245,
+   "sources": 3573
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 372341,
-   "targets": 277,
-   "sources": 10575
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 168325,
-   "targets": 256,
-   "sources": 6504
+   "records": 91290,
+   "targets": 245,
+   "sources": 3957
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 95228,
-   "targets": 284,
-   "sources": 7588
+   "records": 55570,
+   "targets": 220,
+   "sources": 4672
   },
   {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 90981,
-   "targets": 241,
-   "sources": 6156
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 48614,
+   "targets": 222,
+   "sources": 459
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 32611,
+   "targets": 230,
+   "sources": 2568
+  },
+  {
+   "port": 5900,
+   "service": "VNC",
+   "records": 27552,
+   "targets": 202,
+   "sources": 232
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 62408,
-   "targets": 267,
-   "sources": 3738
+   "records": 25584,
+   "targets": 230,
+   "sources": 2485
   },
   {
-   "port": 7680,
-   "service": null,
-   "records": 56034,
-   "targets": 48,
-   "sources": 2305
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 23070,
+   "targets": 223,
+   "sources": 2688
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 53664,
-   "targets": 267,
-   "sources": 3100
+   "records": 20404,
+   "targets": 226,
+   "sources": 2036
   },
   {
-   "port": 137,
+   "port": 51413,
    "service": null,
-   "records": 46711,
-   "targets": 189,
-   "sources": 758
-  },
-  {
-   "port": 60437,
-   "service": null,
-   "records": 41685,
-   "targets": 20,
-   "sources": 751
+   "records": 16625,
+   "targets": 17,
+   "sources": 1453
   }
  ],
- "ports_date": "2026-11-02",
+ "ports_date": "2026-11-03",
  "diary": [
+  {
+   "title": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
+   "url": "https://isc.sans.edu/diary/rss/33484",
+   "date": "2026-11-03T02:00:02+00:00"
+  },
   {
    "title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
    "url": "https://isc.sans.edu/diary/rss/33482",
@@ -195,11 +208,6 @@
    "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
    "url": "https://isc.sans.edu/diary/rss/33474",
    "date": "2026-10-31T10:48:17+00:00"
-  },
-  {
-   "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-   "url": "https://isc.sans.edu/diary/rss/33454",
-   "date": "2026-10-31T10:45:40+00:00"
   }
  ],
  "pulses": [
@@ -495,10 +503,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-03T01:43:10+00:00",
-  "sans": "2026-11-03T01:43:10+00:00",
-  "otx": "2026-11-03T01:43:10+00:00",
-  "urlhaus": "2026-11-03T01:43:10+00:00"
+  "threatfox": "2026-11-03T08:36:15+00:00",
+  "sans": "2026-11-03T08:36:15+00:00",
+  "otx": "2026-11-03T08:36:15+00:00",
+  "urlhaus": "2026-11-03T08:36:15+00:00"
  },
- "generated_at": "2026-11-03T01:43:10+00:00"
+ "generated_at": "2026-11-03T08:36:15+00:00"
 }

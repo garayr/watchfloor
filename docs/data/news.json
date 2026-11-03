@@ -17,6 +17,22 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
+     "summary": "Attackers again tampered with internet-exposed refrigeration controllers, this time at stores in Belgium, Sweden, Ireland and beyond. The post Over 100 European Stores Hit as Supermarket Fridge Attacks Return appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-03T07:43:24+00:00",
+     "url": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+     "summary": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors…",
+     "source": "The Hacker News",
+     "date": "2026-11-03T07:43:07+00:00",
+     "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Your Mobile Carrier Stores Your Call Logs for Years",
      "summary": "Mobile carriers can retain years of call and text metadata, exposing sensitive details about customers' relationships, locations, and daily routines if breached. Cape examines the privacy risks of long-term telecom data…",
      "source": "BleepingComputer",
@@ -33,8 +49,8 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Revolve Data Breach Impacts at Least 180,000 People",
-     "summary": "Hackers accessed its online shopping platform and stole customers’ personal and payment card information. The post Revolve Data Breach Impacts at Least 180,000 People appeared first on SecurityWeek.",
+     "title": "Revolve Data Breach Impacts at Least 200,000 People",
+     "summary": "Hackers accessed its online shopping platform and stole customers’ personal and payment card information. The post Revolve Data Breach Impacts at Least 200,000 People appeared first on SecurityWeek.",
      "source": "SecurityWeek",
      "date": "2026-11-02T13:35:21+00:00",
      "url": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
@@ -111,20 +127,28 @@
      "date": "2026-10-31T18:01:12+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-     "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result…",
-     "source": "The Hacker News",
-     "date": "2026-10-31T12:01:56+00:00",
-     "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+     "summary": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case…",
+     "source": "The Hacker News",
+     "date": "2026-11-03T05:34:41+00:00",
+     "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+     "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is…",
+     "source": "The Hacker News",
+     "date": "2026-11-03T05:34:37+00:00",
+     "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
      "summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its…",
@@ -168,41 +192,12 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
-     "summary": "The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues. The post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations…",
-     "source": "SecurityWeek",
-     "date": "2026-11-01T11:15:00+00:00",
-     "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the…",
      "source": "The Hacker News",
      "date": "2026-11-01T08:51:31+00:00",
      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
-     "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or…",
-     "source": "BleepingComputer",
-     "date": "2026-10-31T15:35:11+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active…",
-     "source": "The Hacker News",
-     "date": "2026-10-31T08:27:43+00:00",
-     "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-118527",
-      "CVE-2026-111357",
-      "CVE-2026-104935"
-     ]
     }
    ]
   },
@@ -254,6 +249,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+     "summary": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers. No chain…",
+     "source": "The Hacker News",
+     "date": "2026-11-03T07:27:07+00:00",
+     "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+     "group": "Other news"
+    },
     {
      "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
      "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
@@ -348,14 +351,6 @@
      "source": "The Hacker News",
      "date": "2026-11-01T07:25:40+00:00",
      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
-     "group": "Other news"
-    },
-    {
-     "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-     "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The…",
-     "source": "The Hacker News",
-     "date": "2026-10-31T05:33:41+00:00",
-     "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
      "group": "Other news"
     }
    ]
