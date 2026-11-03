@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1855,
-  "c2_servers": 505,
+  "total_iocs": 1911,
+  "c2_servers": 596,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 283,
-    "c2": 283,
+    "iocs": 362,
+    "c2": 353,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 280,
+    "iocs": 279,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
+    "name": "Unknown Loader",
+    "iocs": 174,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 257,
+    "iocs": 152,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 172,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "IClickFix",
-    "iocs": 140,
+    "iocs": 148,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "StrelaStealer",
-    "iocs": 120,
+    "iocs": 117,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
    },
    {
     "name": "Mirai",
-    "iocs": 50,
+    "iocs": 59,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "VShell",
-    "iocs": 49,
-    "c2": 11,
+    "iocs": 39,
+    "c2": 12,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
-    "name": "SalatStealer",
-    "iocs": 35,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "Cobalt Strike",
     "iocs": 34,
     "c2": 34,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 34,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 903,
+  "online": 889,
   "top_tags": [
    {
     "name": "github",
-    "count": 874
+    "count": 838
    },
    {
     "name": "zapret",
-    "count": 711
+    "count": 615
    },
    {
     "name": "SalatStealer",
-    "count": 707
+    "count": 508
    },
    {
     "name": "zip",
-    "count": 164
+    "count": 324
    },
    {
     "name": "exe",
-    "count": 141
+    "count": 193
    },
    {
     "name": "elf",
-    "count": 92
+    "count": 59
    },
    {
-    "name": "SmartLoader",
-    "count": 22
+    "name": "Mozi",
+    "count": 49
    },
    {
-    "name": "ua-wget",
-    "count": 21
+    "name": "mirai",
+    "count": 31
    }
   ]
  },
@@ -532,10 +532,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-03T16:32:05+00:00",
-  "sans": "2026-11-03T16:32:05+00:00",
-  "otx": "2026-11-03T16:32:05+00:00",
-  "urlhaus": "2026-11-03T16:32:05+00:00"
+  "threatfox": "2026-11-03T21:59:59+00:00",
+  "sans": "2026-11-03T21:59:59+00:00",
+  "otx": "2026-11-03T21:59:59+00:00",
+  "urlhaus": "2026-11-03T21:59:59+00:00"
  },
- "generated_at": "2026-11-03T16:32:05+00:00"
+ "generated_at": "2026-11-03T21:59:59+00:00"
 }

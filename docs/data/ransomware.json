@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-03T16:32:05+00:00",
+ "generated_at": "2026-11-03T21:59:59+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 17
+   "count": 16
   },
   {
    "name": "qilin",
-   "count": 12
+   "count": 13
   },
   {
    "name": "safepay",
@@ -18,6 +18,10 @@
   },
   {
    "name": "SilentRansomGroup",
+   "count": 7
+  },
+  {
+   "name": "akira",
    "count": 6
   },
   {
@@ -31,36 +35,32 @@
   {
    "name": "Orova",
    "count": 4
-  },
-  {
-   "name": "payload",
-   "count": 4
   }
  ],
  "by_sector": [
   {
-   "name": "Professional Services",
+   "name": "Manufacturing",
    "count": 10
   },
   {
-   "name": "Manufacturing",
-   "count": 9
+   "name": "Professional Services",
+   "count": 10
   },
   {
    "name": "Other",
    "count": 8
   },
   {
+   "name": "Retail & E-Commerce",
+   "count": 7
+  },
+  {
    "name": "Technology",
-   "count": 8
+   "count": 7
   },
   {
    "name": "Education",
-   "count": 6
-  },
-  {
-   "name": "Retail & E-Commerce",
-   "count": 6
+   "count": 5
   }
  ],
  "by_country": [
@@ -78,15 +78,9 @@
   },
   {
    "code": "MY",
-   "count": 4,
+   "count": 3,
    "lat": 3.1,
    "lon": 101.7
-  },
-  {
-   "code": "AR",
-   "count": 3,
-   "lat": -34.6,
-   "lon": -58.4
   },
   {
    "code": "SG",
@@ -95,10 +89,10 @@
    "lon": 103.8
   },
   {
-   "code": "AE",
+   "code": "AR",
    "count": 2,
-   "lat": 24.5,
-   "lon": 54.4
+   "lat": -34.6,
+   "lon": -58.4
   },
   {
    "code": "GB",
@@ -117,6 +111,12 @@
    "count": 2,
    "lat": 35.7,
    "lon": 139.7
+  },
+  {
+   "code": "KR",
+   "count": 2,
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "MX",
@@ -141,6 +141,12 @@
    "count": 2,
    "lat": 25.0,
    "lon": 121.5
+  },
+  {
+   "code": "AE",
+   "count": 1,
+   "lat": 24.5,
+   "lon": 54.4
   },
   {
    "code": "AT",
@@ -209,12 +215,6 @@
    "lon": 34.8
   },
   {
-   "code": "KR",
-   "count": 1,
-   "lat": 37.6,
-   "lon": 127.0
-  },
-  {
    "code": "NL",
    "count": 1,
    "lat": 52.4,
@@ -246,6 +246,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Arthur Chapman Kettering Smetak Pikala PA",
+   "group": "qilin",
+   "date": "2026-11-03T15:16:48+00:00",
+   "attack_date": "2026-11-03",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QXJ0aHVyIENoYXBtYW4gS2V0dGVyaW5nIFNtZXRhayBQaWthbGEgUEFAcWlsaW4="
+  },
+  {
+   "victim": "Bison Bag",
+   "group": "akira",
+   "date": "2026-11-03T14:23:34+00:00",
+   "attack_date": "2026-11-03",
+   "country": null,
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/Qmlzb24gQmFnQGFraXJh"
+  },
+  {
+   "victim": "SK Global Software",
+   "group": "akira",
+   "date": "2026-11-03T14:23:15+00:00",
+   "attack_date": "2026-11-03",
+   "country": "KR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U0sgR2xvYmFsIFNvZnR3YXJlQGFraXJh"
+  },
+  {
+   "victim": "Pelham Plastics",
+   "group": "akira",
+   "date": "2026-11-03T14:22:55+00:00",
+   "attack_date": "2026-11-03",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UGVsaGFtIFBsYXN0aWNzQGFraXJh"
+  },
+  {
+   "victim": "G... R...",
+   "group": "SilentRansomGroup",
+   "date": "2026-11-03T12:54:26+00:00",
+   "attack_date": "2026-11-03",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Ry4uLiBSLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
+  },
   {
    "victim": "Boardman Park",
    "group": "Booba Project",
@@ -994,24 +1039,6 @@
    "url": "https://www.ransomware.live/id/RGlnaXRhbCBUcml1bXBoQE4wbg=="
   },
   {
-   "victim": "CommTank",
-   "group": "thegentlemen",
-   "date": "2026-10-31T07:19:51+00:00",
-   "attack_date": "2026-10-30",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Q29tbVRhbmtAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "NOVADATA",
-   "group": "thegentlemen",
-   "date": "2026-10-31T07:19:09+00:00",
-   "attack_date": "2026-10-30",
-   "country": "AR",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Tk9WQURBVEFAdGhlZ2VudGxlbWVu"
-  },
-  {
    "victim": "Bi Link",
    "group": "thegentlemen",
    "date": "2026-10-31T07:18:47+00:00",
@@ -1118,33 +1145,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/QS4uLiBGLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "A***** T******",
-   "group": "Doommageddon",
-   "date": "2026-10-30T09:22:24+00:00",
-   "attack_date": "2026-10-30",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/QSoqKioqIFQqKioqKipARG9vbW1hZ2VkZG9u"
-  },
-  {
-   "victim": "INTI International University & Colleges",
-   "group": "rhysida",
-   "date": "2026-10-30T06:33:09+00:00",
-   "attack_date": "2026-10-30",
-   "country": "MY",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/SU5USSBJbnRlcm5hdGlvbmFsIFVuaXZlcnNpdHkgJiBDb2xsZWdlc0ByaHlzaWRh"
-  },
-  {
-   "victim": "Minutes Quick Services",
-   "group": "N0n",
-   "date": "2026-10-30T05:53:58+00:00",
-   "attack_date": "2026-10-30",
-   "country": "AE",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/TWludXRlcyBRdWljayBTZXJ2aWNlc0BOMG4="
   }
  ]
 }
