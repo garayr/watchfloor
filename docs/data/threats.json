@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1309,
-  "c2_servers": 470,
+  "total_iocs": 1256,
+  "c2_servers": 423,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 293,
+    "iocs": 299,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Vidar",
-    "iocs": 246,
-    "c2": 240,
+    "iocs": 181,
+    "c2": 175,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -25,83 +25,83 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 63,
+    "iocs": 69,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "VShell",
-    "iocs": 59,
-    "c2": 15,
+    "iocs": 61,
+    "c2": 16,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Mirai",
-    "iocs": 53,
+    "iocs": 44,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 45,
+    "iocs": 35,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 29,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "PureRAT",
+    "iocs": 27,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
     "name": "WARDENStealer",
-    "iocs": 27,
-    "c2": 25,
+    "iocs": 24,
+    "c2": 22,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    },
    {
-    "name": "PureRAT",
-    "iocs": 22,
-    "c2": 19,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
+    "name": "php.shin_webshell",
+    "iocs": 24,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 613,
+  "online": 713,
   "top_tags": [
    {
     "name": "github",
-    "count": 399
+    "count": 339
    },
    {
     "name": "zapret",
-    "count": 293
+    "count": 308
    },
    {
     "name": "zip",
-    "count": 291
+    "count": 300
    },
    {
     "name": "Mozi",
-    "count": 231
-   },
-   {
-    "name": "elf",
-    "count": 191
+    "count": 255
    },
    {
     "name": "mirai",
-    "count": 182
+    "count": 197
    },
    {
-    "name": "SalatStealer",
-    "count": 102
+    "name": "elf",
+    "count": 195
    },
    {
     "name": "32-bit",
-    "count": 81
+    "count": 91
+   },
+   {
+    "name": "ua-wget",
+    "count": 67
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 418164,
-   "targets": 305,
-   "sources": 9079
+   "records": 881594,
+   "targets": 311,
+   "sources": 18213
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 227599,
-   "targets": 296,
-   "sources": 9957
+   "records": 496029,
+   "targets": 301,
+   "sources": 17039
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 199261,
-   "targets": 299,
-   "sources": 8381
+   "records": 455071,
+   "targets": 324,
+   "sources": 15608
   },
   {
    "port": 161,
    "service": "SNMP",
-   "records": 155320,
-   "targets": 247,
-   "sources": 726
+   "records": 378681,
+   "targets": 265,
+   "sources": 1549
   },
   {
    "port": 2222,
    "service": null,
-   "records": 148329,
-   "targets": 292,
-   "sources": 5357
+   "records": 274150,
+   "targets": 302,
+   "sources": 9307
   },
   {
    "port": 3389,
    "service": "Remote Desktop (RDP)",
-   "records": 129581,
-   "targets": 272,
-   "sources": 1280
+   "records": 264074,
+   "targets": 277,
+   "sources": 2839
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 104433,
-   "targets": 260,
-   "sources": 7829
+   "records": 211656,
+   "targets": 283,
+   "sources": 14857
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 81975,
-   "targets": 287,
-   "sources": 5450
+   "records": 200807,
+   "targets": 296,
+   "sources": 12944
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 75614,
-   "targets": 286,
-   "sources": 4285
+   "records": 167289,
+   "targets": 293,
+   "sources": 10415
   },
   {
-   "port": 9000,
+   "port": 137,
    "service": null,
-   "records": 48162,
-   "targets": 274,
-   "sources": 3637
+   "records": 97731,
+   "targets": 226,
+   "sources": 1809
   }
  ],
  "ports_date": "2026-11-04",
@@ -211,6 +211,139 @@
   }
  ],
  "pulses": [
+  {
+   "name": "ARTEX Exposed: Infrastructure Behind the South Korea Bank Hack",
+   "summary": "Between late September and early October 2026, seven South Korean financial institutions experienced breaches affecting approximately 66,000 individuals and 2,200 corporations. The intrusions were attributed to ARTEX…",
+   "date": "2026-11-04T16:52:37+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ARTEX"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "south-korean-banks",
+    "artex",
+    "autonomous-framework",
+    "open-directories",
+    "financial-intrusions",
+    "infrastructure-exposure"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aeb62d591162af275e93f90"
+  },
+  {
+   "name": "Not Actually Suspended: How a Bank-Phishing Network Fakes Its Own Takedown",
+   "summary": "A sophisticated phishing campaign targets 189 US financial institutions through 248 live look-alike domains using a distinctive naming pattern combining urgency keywords with bank names. The operation employs an…",
+   "date": "2026-11-04T14:27:02+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "United States of America"
+   ],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "suspended page",
+    "credential theft",
+    "bank phishing",
+    "domain look-alike",
+    "us financial institutions",
+    "treasury portal"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aeb40b674ccf1e5c2eb0bd3"
+  },
+  {
+   "name": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+   "summary": "A Chinese-speaking threat actor identified as leepsmarts conducted a multi-vector operation combining LLM API credential theft with academic fraud targeting 20 universities. The campaign harvested 2,233 API keys from…",
+   "date": "2026-11-04T14:27:00+00:00",
+   "author": "AlienVault",
+   "adversary": "leepsmarts",
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "Argentina",
+    "France",
+    "Germany",
+    "Netherlands",
+    "Pakistan"
+   ],
+   "industries": [
+    "Education",
+    "Finance"
+   ],
+   "tags": [
+    "llm api theft",
+    "ai agent frameworks",
+    "financial fraud",
+    "credential harvesting",
+    "academic fraud",
+    "cve-2026-41940"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aeb40b4e681d29bd1496aac"
+  },
+  {
+   "name": "From Business Emails to XLoader: An Order Lure That Led to In-Memory Injection",
+   "summary": "Morphisec has observed increased XLoader activity using business-themed email lures. The attack chain begins with order confirmation or payment request emails containing RAR archives that hold obfuscated JScript files…",
+   "date": "2026-11-04T12:25:05+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "XLoader",
+    "Agent Tesla - S0331",
+    "Remcos",
+    "XWorm"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "luajit",
+    "xworm",
+    "in-memory execution",
+    "shared-section injection",
+    "remcos",
+    "obfuscated jscript"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aeb242105ebdc46e55850e9"
+  },
+  {
+   "name": "Poisoned Source: APT29 Watering Holes Targets Mobile Devices",
+   "summary": "Sekoia TDR identified a large-scale watering hole campaign employing three infection vectors: compromised legitimate websites, Adversary-in-the-Middle-like impersonating high-profile domains, and supply-chain compromise…",
+   "date": "2026-11-04T12:25:04+00:00",
+   "author": "AlienVault",
+   "adversary": "APT29",
+   "malware": [
+    "DarkSword",
+    "AndroSnitch"
+   ],
+   "countries": [
+    "United States of America",
+    "Bulgaria",
+    "Czechia",
+    "Mongolia",
+    "Ukraine",
+    "United Kingdom of Great Britain and Northern Ireland"
+   ],
+   "industries": [
+    "Government",
+    "Energy",
+    "Defense",
+    "Hospitality"
+   ],
+   "tags": [
+    "darksword",
+    "cve-2025-27038",
+    "cve-2025-43510",
+    "cve-2025-14174",
+    "cve-2026-3910",
+    "supply chain attack"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aeb242026030af6a32b4b10"
+  },
   {
    "name": "BOSSAI: Inside the AI attack mesh that targeted Taiwan's emergency services",
    "summary": "Acronis Threat Research Unit identified a single operator utilizing a mesh of 12 AI agents called BOSSAI to conduct persistent campaigns across 11 countries. The attacker deployed both abliterated and commercial AI…",
@@ -394,158 +527,13 @@
     "ics"
    ],
    "url": "https://otx.alienvault.com/pulse/6ae9ac6e66c89c6be4d99928"
-  },
-  {
-   "name": "DarkBlinders: Active Espionage Campaign",
-   "summary": "A sophisticated cyberespionage operation targeting Israel and the Kurdistan Region of Iraq was conducted by DarkBlinders, the threat actor behind the Blinder Tunnel campaign. Active between August and October 2026, the…",
-   "date": "2026-11-03T09:06:36+00:00",
-   "author": "AlienVault",
-   "adversary": "DarkBlinders",
-   "malware": [
-    "SHELBYLOADER",
-    "SHELBYC2",
-    "HOTAIR",
-    "AEROSTAT",
-    "TREEWORLD",
-    "GHOSTFORM"
-   ],
-   "countries": [
-    "Iraq",
-    "Israel",
-    "Kuwait"
-   ],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "kurdistan",
-    "runtimebrokerapi",
-    "dust specter",
-    "espionage",
-    "treeworld",
-    "gulf cooperation council"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae9a41c3b21a1b31d13d6b6"
-  },
-  {
-   "name": "The Internals of a Badbox Operation",
-   "summary": "Investigation reveals a massive supply chain compromise involving MECOOL Android set-top boxes manufactured by Videostrong Technology Co., Ltd. Over 1.3 million devices were pre-infected with the x.cpe backdoor…",
-   "date": "2026-11-03T08:50:34+00:00",
-   "author": "AlienVault",
-   "adversary": "Videostrong Technology Co., Ltd.",
-   "malware": [
-    "x.cpe",
-    "AdMoyu",
-    "Appsalt",
-    "APSolo",
-    "LinkFog",
-    "Gaganode"
-   ],
-   "countries": [
-    "United States of America",
-    "Brazil",
-    "China",
-    "Germany",
-    "Malaysia",
-    "Mexico"
-   ],
-   "industries": [
-    "Media"
-   ],
-   "tags": [
-    "badbox",
-    "supply chain compromise",
-    "traffmonetizer",
-    "kimwolf",
-    "honeygain",
-    "ad fraud"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae9a05a6c8de6ce3516b3c8"
-  },
-  {
-   "name": "BITTER Expands Its Arsenal with PapRAT",
-   "summary": "A cyberespionage group known as BITTER has been conducting campaigns targeting South Asian organizations using PowerShell scripts and a custom remote access trojan called PapRAT. Three distinct infection chains have…",
-   "date": "2026-11-03T08:15:22+00:00",
-   "author": "AlienVault",
-   "adversary": "HAZY TIGER",
-   "malware": [
-    "PapRAT",
-    "WmRAT"
-   ],
-   "countries": [],
-   "industries": [
-    "Government",
-    "Energy"
-   ],
-   "tags": [
-    "wmrat",
-    "south asia",
-    "lnk files",
-    "cyberespionage",
-    "msi installer",
-    "rat"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae9981a0b51502b1e8d1e4f"
-  },
-  {
-   "name": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-   "summary": "Threat actors are hijacking enterprise access to Large Language Models through a tactic called LLMJacking, impacting organizations across North America, South America, and Asia Pacific in financial services, retail…",
-   "date": "2026-11-02T19:30:35+00:00",
-   "author": "AlienVault",
-   "adversary": "UNC6993",
-   "malware": [
-    "Bankshot - S0239",
-    "Trojan Manuscript"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance",
-    "Retail",
-    "Technology",
-    "Transportation"
-   ],
-   "tags": [
-    "llmjacking",
-    "llm mixers",
-    "cve-2026-40217",
-    "manus",
-    "api key theft",
-    "privilege escalation"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae8e4db45e485be0d9c99d9"
-  },
-  {
-   "name": "Shutting the Door on the XCPE Botnet",
-   "summary": "Google and industry partners dismantled the XCPE backdoor that enrolled over 1.3 million set-top boxes into a botnet. The backdoor was intentionally developed and operated by Videostrong Technology Co., an Android…",
-   "date": "2026-11-02T15:12:40+00:00",
-   "author": "AlienVault",
-   "adversary": "Videostrong Technology Co.",
-   "malware": [
-    "XCPE",
-    "ABCNexus",
-    "Wingbird - S0176",
-    "Linkfog",
-    "Jaguar",
-    "AppSalt"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "linkfog",
-    "spirit",
-    "netnut",
-    "set-top boxes",
-    "bwm",
-    "backdoor"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae8a86845dfd06f55cb0848"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-04T17:11:29+00:00",
-  "sans": "2026-11-04T17:11:29+00:00",
-  "otx": "2026-11-04T17:11:29+00:00",
-  "urlhaus": "2026-11-04T17:11:29+00:00"
+  "threatfox": "2026-11-04T22:36:52+00:00",
+  "sans": "2026-11-04T22:36:52+00:00",
+  "otx": "2026-11-04T22:36:52+00:00",
+  "urlhaus": "2026-11-04T22:36:52+00:00"
  },
- "generated_at": "2026-11-04T17:11:29+00:00"
+ "generated_at": "2026-11-04T22:36:52+00:00"
 }

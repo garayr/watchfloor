@@ -26,20 +26,28 @@
      "date": "2026-11-04T08:17:11+00:00",
      "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Police seizes over 100 servers in investment scam crackdown",
-     "summary": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-03T13:33:49+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Vercel rolls out new protection against stolen session cookie attacks",
+     "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-04T21:31:18+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+     "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-04T19:05:19+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
      "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency…",
@@ -135,20 +143,36 @@
      "date": "2026-11-03T18:16:19+00:00",
      "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-     "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-03T14:00:00+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+     "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-04T20:58:19+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+     "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that…",
+     "source": "The Hacker News",
+     "date": "2026-11-04T17:00:46+00:00",
+     "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+     "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier…",
+     "source": "The Hacker News",
+     "date": "2026-11-04T17:00:38+00:00",
+     "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
      "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
@@ -218,22 +242,6 @@
      "date": "2026-11-03T15:59:19+00:00",
      "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Barracuda warns of critical flaws allowing root access to devices",
-     "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-03T15:06:16+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-     "summary": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases…",
-     "source": "The Hacker News",
-     "date": "2026-11-03T11:23:53+00:00",
-     "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-     "group": "Exploited right now"
     }
    ]
   },
@@ -263,20 +271,28 @@
      "date": "2026-11-03T16:55:58+00:00",
      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
-     "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and…",
-     "source": "The Hacker News",
-     "date": "2026-11-03T15:16:32+00:00",
-     "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+     "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-04T18:02:56+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+     "group": "Other news"
+    },
+    {
+     "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+     "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI…",
+     "source": "The Hacker News",
+     "date": "2026-11-04T16:06:43+00:00",
+     "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+     "group": "Other news"
+    },
     {
      "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
      "summary": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems. The post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on…",
@@ -331,22 +347,6 @@
      "source": "The Hacker News",
      "date": "2026-11-03T18:46:38+00:00",
      "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-     "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form…",
-     "source": "The Hacker News",
-     "date": "2026-11-03T15:41:53+00:00",
-     "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
-     "summary": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst…",
-     "source": "BleepingComputer",
-     "date": "2026-11-03T15:00:10+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
      "group": "Other news"
     }
    ]

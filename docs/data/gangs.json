@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T09:06:11+00:00",
+ "generated_at": "2026-11-04T22:36:52+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -468,8 +468,8 @@
    "description": "Brain Cipher emerged in July 2024. Both Windows and Linux variants are available. Brain Cipher using the leaked build of LockBit Black for their operations. The group suspected to have exploited CVE-2023-28252 (Microsoft Windows CLFS Driver Privilege Escalation Vulnerability). The Ransom demand ranges from $150,000 to $1,00,0000. Demand to be paid with Monero (XMR) cryptocurrency. In 2025, they have shifted their new Negotiation portal to new server with vanity TOR Domain starting with 'brain'.",
    "aliases": [],
    "first_seen": "2024-07-01",
-   "last_seen": "2026-10-21",
-   "victims_total": 98,
+   "last_seen": "2026-11-04",
+   "victims_total": 109,
    "cves": [],
    "tools": [],
    "techniques": [
@@ -484,15 +484,15 @@
     "countries": [
      {
       "name": "US",
-      "count": 33
+      "count": 39
+     },
+     {
+      "name": "CA",
+      "count": 10
      },
      {
       "name": "GB",
       "count": 10
-     },
-     {
-      "name": "CA",
-      "count": 8
      },
      {
       "name": "ES",
@@ -510,35 +510,31 @@
     "sectors": [
      {
       "name": "Professional Services",
-      "count": 28
+      "count": 30
      },
      {
       "name": "Technology",
-      "count": 15
+      "count": 16
+     },
+     {
+      "name": "Healthcare",
+      "count": 12
      },
      {
       "name": "Manufacturing",
       "count": 11
      },
      {
-      "name": "Healthcare",
-      "count": 10
+      "name": "Financial Services",
+      "count": 9
      },
      {
       "name": "Other",
       "count": 7
-     },
-     {
-      "name": "Financial Services",
-      "count": 6
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -582,10 +578,14 @@
     {
      "month": "2026-10",
      "count": 9
+    },
+    {
+     "month": "2026-11",
+     "count": 11
     }
    ],
-   "history_size": 98,
-   "updated": "2026-10-22T01:07:50+00:00"
+   "history_size": 109,
+   "updated": "2026-11-04T22:36:52+00:00"
   },
   "threeam": {
    "name": "threeam",
@@ -1476,8 +1476,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-18",
-   "last_seen": "2026-10-28",
-   "victims_total": 165,
+   "last_seen": "2026-11-04",
+   "victims_total": 186,
    "cves": [],
    "tools": [],
    "techniques": [
@@ -1497,7 +1497,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 50
+      "count": 65
      },
      {
       "name": "KR",
@@ -1512,11 +1512,11 @@
       "count": 4
      },
      {
-      "name": "CA",
+      "name": "AE",
       "count": 3
      },
      {
-      "name": "ES",
+      "name": "CA",
       "count": 3
      }
     ],
@@ -1527,7 +1527,7 @@
      },
      {
       "name": "Technology",
-      "count": 14
+      "count": 15
      },
      {
       "name": "Healthcare",
@@ -1548,10 +1548,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -1594,11 +1590,15 @@
     },
     {
      "month": "2026-10",
-     "count": 147
+     "count": 148
+    },
+    {
+     "month": "2026-11",
+     "count": 20
     }
    ],
-   "history_size": 165,
-   "updated": "2026-10-28T18:53:37+00:00"
+   "history_size": 186,
+   "updated": "2026-11-04T22:36:52+00:00"
   },
   "netrunner": {
    "name": "netrunner",
