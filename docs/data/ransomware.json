@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T21:59:59+00:00",
+ "generated_at": "2026-11-04T02:03:39+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -18,7 +18,7 @@
   },
   {
    "name": "SilentRansomGroup",
-   "count": 7
+   "count": 6
   },
   {
    "name": "akira",
@@ -39,16 +39,16 @@
  ],
  "by_sector": [
   {
+   "name": "Professional Services",
+   "count": 11
+  },
+  {
    "name": "Manufacturing",
    "count": 10
   },
   {
-   "name": "Professional Services",
-   "count": 10
-  },
-  {
    "name": "Other",
-   "count": 8
+   "count": 9
   },
   {
    "name": "Retail & E-Commerce",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -117,12 +117,6 @@
    "count": 2,
    "lat": 37.6,
    "lon": 127.0
-  },
-  {
-   "code": "MX",
-   "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "PH",
@@ -215,6 +209,12 @@
    "lon": 34.8
   },
   {
+   "code": "MX",
+   "count": 1,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "NL",
    "count": 1,
    "lat": 52.4,
@@ -246,6 +246,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "darrequipment.com",
+   "group": "chaos",
+   "date": "2026-11-03T21:44:06+00:00",
+   "attack_date": "2026-11-03",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/ZGFycmVxdWlwbWVudC5jb21AY2hhb3M="
+  },
+  {
+   "victim": "Project Trojan Horse",
+   "group": "Whitearmor",
+   "date": "2026-11-03T20:28:58+00:00",
+   "attack_date": "2026-11-03",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/UHJvamVjdCBUcm9qYW4gSG9yc2VAV2hpdGVhcm1vcg=="
+  },
+  {
+   "victim": "Buchanan Ingersoll & Rooney PC",
+   "group": "Falcon",
+   "date": "2026-11-03T20:21:16+00:00",
+   "attack_date": "2026-11-03",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QnVjaGFuYW4gSW5nZXJzb2xsICYgUm9vbmV5IFBDQEZhbGNvbg=="
+  },
   {
    "victim": "Arthur Chapman Kettering Smetak Pikala PA",
    "group": "qilin",
@@ -1111,15 +1138,6 @@
    "url": "https://www.ransomware.live/id/UC4uLkBTaWxlbnRSYW5zb21Hcm91cA=="
   },
   {
-   "victim": "Suburban Orthopaedics",
-   "group": "Wallstreet",
-   "date": "2026-10-30T20:31:26+00:00",
-   "attack_date": "2026-10-30",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/U3VidXJiYW4gT3J0aG9wYWVkaWNzQFdhbGxzdHJlZXQ="
-  },
-  {
    "victim": "M... H...",
    "group": "SilentRansomGroup",
    "date": "2026-10-30T20:30:49+00:00",
@@ -1127,24 +1145,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/TS4uLiBILi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "Cipsa Industrias Sa De Cv",
-   "group": "rhysida",
-   "date": "2026-10-30T18:43:09+00:00",
-   "attack_date": "2026-10-30",
-   "country": "MX",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Q2lwc2EgSW5kdXN0cmlhcyBTYSBEZSBDdkByaHlzaWRh"
-  },
-  {
-   "victim": "A... F...",
-   "group": "SilentRansomGroup",
-   "date": "2026-10-30T17:09:36+00:00",
-   "attack_date": "2026-10-30",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/QS4uLiBGLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
   }
  ]
 }
