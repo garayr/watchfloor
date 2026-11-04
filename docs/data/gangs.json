@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T02:03:39+00:00",
+ "generated_at": "2026-11-04T09:06:11+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -4333,8 +4333,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-26",
-   "victims_total": 9,
+   "last_seen": "2026-11-04",
+   "victims_total": 12,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -4343,7 +4343,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 3
+      "count": 4
+     },
+     {
+      "name": "GB",
+      "count": 1
      },
      {
       "name": "MY",
@@ -4356,15 +4360,19 @@
     ],
     "sectors": [
      {
+      "name": "Education",
+      "count": 3
+     },
+     {
       "name": "Technology",
       "count": 3
      },
      {
-      "name": "Education",
+      "name": "Financial Services",
       "count": 1
      },
      {
-      "name": "Financial Services",
+      "name": "Hospitality",
       "count": 1
      },
      {
@@ -4374,18 +4382,10 @@
      {
       "name": "Other",
       "count": 1
-     },
-     {
-      "name": "Professional Services",
-      "count": 1
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -4428,11 +4428,15 @@
     },
     {
      "month": "2026-10",
-     "count": 9
+     "count": 10
+    },
+    {
+     "month": "2026-11",
+     "count": 2
     }
    ],
-   "history_size": 9,
-   "updated": "2026-10-27T01:14:51+00:00"
+   "history_size": 12,
+   "updated": "2026-11-04T09:06:11+00:00"
   },
   "SilentRansomGroup": {
    "name": "SilentRansomGroup",
@@ -8833,6 +8837,108 @@
    ],
    "history_size": 6,
    "updated": "2026-11-03T16:32:05+00:00"
+  },
+  "Aoqin": {
+   "name": "Aoqin",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "victims_total": 4,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "CL",
+      "count": 1
+     },
+     {
+      "name": "CN",
+      "count": 1
+     },
+     {
+      "name": "SI",
+      "count": 1
+     },
+     {
+      "name": "US",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Energy & Utilities",
+      "count": 1
+     },
+     {
+      "name": "Manufacturing",
+      "count": 1
+     },
+     {
+      "name": "Professional Services",
+      "count": 1
+     },
+     {
+      "name": "Technology",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 0
+    },
+    {
+     "month": "2026-11",
+     "count": 4
+    }
+   ],
+   "history_size": 4,
+   "updated": "2026-11-04T09:06:11+00:00"
   }
  }
 }

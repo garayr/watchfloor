@@ -25,6 +25,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million",
+     "summary": "A $300,000 award went to a pre-launch flaw that exposed conversations and tokens on internal Muse test VMs used by Meta staff. The post Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-04T08:27:05+00:00",
+     "url": "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
      "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
      "source": "BleepingComputer",
@@ -111,20 +119,23 @@
      "date": "2026-11-03T07:43:07+00:00",
      "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Your Mobile Carrier Stores Your Call Logs for Years",
-     "summary": "Mobile carriers can retain years of call and text metadata, exposing sensitive details about customers' relationships, locations, and daily routines if breached. Cape examines the privacy risks of long-term telecom data…",
-     "source": "BleepingComputer",
-     "date": "2026-11-02T15:01:11+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The…",
+     "source": "The Hacker News",
+     "date": "2026-11-04T05:43:11+00:00",
+     "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-119977"
+     ]
+    },
     {
      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
      "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The…",
@@ -336,14 +347,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-02T15:03:07+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-     "group": "Other news"
-    },
-    {
-     "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
-     "summary": "Significant cybersecurity deals were announced by Absolute Security, Aikido, Anthropic, Cohere, Hex-Rays, and Proofpoint. The post Cybersecurity M&A Roundup: 37 Deals Announced in October 2026 appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-02T15:01:11+00:00",
-     "url": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
      "group": "Other news"
     }
    ]

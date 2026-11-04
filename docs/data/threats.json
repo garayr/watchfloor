@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1604,
-  "c2_servers": 655,
+  "total_iocs": 1331,
+  "c2_servers": 505,
   "families": [
    {
     "name": "Vidar",
-    "iocs": 419,
-    "c2": 410,
+    "iocs": 335,
+    "c2": 326,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "AMOS",
-    "iocs": 280,
-    "c2": 0,
+    "iocs": 331,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "StrelaStealer",
-    "iocs": 114,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+    "name": "VShell",
+    "iocs": 67,
+    "c2": 20,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 54,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 78,
+    "iocs": 50,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Mirai",
-    "iocs": 66,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "IClickFix",
-    "iocs": 52,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
-    "name": "VShell",
-    "iocs": 52,
-    "c2": 19,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
     "name": "WARDENStealer",
-    "iocs": 39,
-    "c2": 38,
+    "iocs": 37,
+    "c2": 35,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 34,
-    "c2": 34,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "ValleyRAT",
+    "iocs": 32,
+    "c2": 8,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 31,
+    "iocs": 30,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "SalatStealer",
+    "iocs": 27,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 24,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 781,
+  "online": 640,
   "top_tags": [
    {
     "name": "github",
-    "count": 761
+    "count": 566
    },
    {
     "name": "zapret",
-    "count": 538
-   },
-   {
-    "name": "SalatStealer",
-    "count": 428
+    "count": 373
    },
    {
     "name": "zip",
-    "count": 327
+    "count": 280
+   },
+   {
+    "name": "SalatStealer",
+    "count": 277
    },
    {
     "name": "exe",
-    "count": 193
+    "count": 166
    },
    {
     "name": "Mozi",
-    "count": 101
+    "count": 163
    },
    {
     "name": "elf",
-    "count": 81
+    "count": 156
    },
    {
     "name": "mirai",
-    "count": 68
+    "count": 151
    }
   ]
  },
@@ -109,76 +109,81 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 675426,
-   "targets": 292,
-   "sources": 10187
+   "records": 185233,
+   "targets": 285,
+   "sources": 5866
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 387051,
-   "targets": 290,
-   "sources": 13627
+   "records": 98315,
+   "targets": 284,
+   "sources": 6100
+  },
+  {
+   "port": 161,
+   "service": "SNMP",
+   "records": 73759,
+   "targets": 222,
+   "sources": 466
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 238722,
-   "targets": 290,
-   "sources": 12264
-  },
-  {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 227347,
-   "targets": 265,
-   "sources": 2277
+   "records": 68250,
+   "targets": 243,
+   "sources": 5528
   },
   {
    "port": 2222,
    "service": null,
-   "records": 203083,
-   "targets": 291,
-   "sources": 5951
+   "records": 66106,
+   "targets": 267,
+   "sources": 3328
+  },
+  {
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 64572,
+   "targets": 245,
+   "sources": 670
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 175407,
-   "targets": 258,
-   "sources": 8430
-  },
-  {
-   "port": 5900,
-   "service": "VNC",
-   "records": 119789,
-   "targets": 261,
-   "sources": 788
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 116827,
-   "targets": 283,
-   "sources": 5954
+   "records": 51405,
+   "targets": 241,
+   "sources": 4965
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 114655,
-   "targets": 276,
-   "sources": 6975
+   "records": 37712,
+   "targets": 262,
+   "sources": 3471
   },
   {
-   "port": 137,
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 34358,
+   "targets": 251,
+   "sources": 2805
+  },
+  {
+   "port": 9000,
    "service": null,
-   "records": 81018,
-   "targets": 202,
-   "sources": 1262
+   "records": 22376,
+   "targets": 248,
+   "sources": 2341
   }
  ],
- "ports_date": "2026-11-03",
+ "ports_date": "2026-11-04",
  "diary": [
+  {
+   "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
+   "url": "https://isc.sans.edu/diary/rss/33486",
+   "date": "2026-11-04T02:10:02+00:00"
+  },
   {
    "title": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
    "url": "https://isc.sans.edu/diary/rss/33484",
@@ -203,14 +208,120 @@
    "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
    "url": "https://isc.sans.edu/diary/rss/33476",
    "date": "2026-10-31T10:52:53+00:00"
-  },
-  {
-   "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
-   "url": "https://isc.sans.edu/diary/rss/33474",
-   "date": "2026-10-31T10:48:17+00:00"
   }
  ],
  "pulses": [
+  {
+   "name": "BOSSAI: Inside the AI attack mesh that targeted Taiwan's emergency services",
+   "summary": "Acronis Threat Research Unit identified a single operator utilizing a mesh of 12 AI agents called BOSSAI to conduct persistent campaigns across 11 countries. The attacker deployed both abliterated and commercial AI…",
+   "date": "2026-11-04T07:55:42+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "Australia",
+    "Canada",
+    "China",
+    "Honduras",
+    "Hong Kong"
+   ],
+   "industries": [
+    "Government",
+    "Healthcare",
+    "Education",
+    "Finance",
+    "Telecommunications",
+    "Technology"
+   ],
+   "tags": [
+    "sql injection",
+    "bossai mesh",
+    "taiwan",
+    "data exfiltration",
+    "emergency services targeting",
+    "agentic ai"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aeae4fe1c423d6e45143b77"
+  },
+  {
+   "name": "Gorbag: Orcs at the border harvesting intelligence from Ukraine",
+   "summary": "A Russia-aligned threat actor named Gorbag has been operating since February 2025, conducting highly targeted cyberespionage operations against Ukrainian organizations. The group primarily focuses on law enforcement…",
+   "date": "2026-11-03T18:25:33+00:00",
+   "author": "AlienVault",
+   "adversary": "Gorbag",
+   "malware": [
+    "BeautyStealer",
+    "Prime ReverseShell",
+    "GIFTEDCROOK"
+   ],
+   "countries": [
+    "Ukraine"
+   ],
+   "industries": [
+    "Government",
+    "Defense",
+    "Transportation"
+   ],
+   "tags": [
+    "prime reverseshell",
+    "ukraine",
+    "gorbag",
+    "spearphishing",
+    "giftedcrook",
+    "beautystealer"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aea271df4897a00b60de744"
+  },
+  {
+   "name": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+   "summary": "Microsoft Threat Intelligence identified an evolving campaign targeting users searching for cracked commercial software, free games, activators, and unofficial utilities. The operation uses trojanized Inno Setup-style…",
+   "date": "2026-11-03T18:15:32+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "WorldProxyPool",
+    "CharityEngine",
+    "BOINC",
+    "AdvancedWindowsManager",
+    "Windows Manager",
+    "OfferLoader"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "boinc",
+    "monetization campaign",
+    "fake software",
+    "egairtigado",
+    "worldproxypool",
+    "distributed computing"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aea24c415c16b64650d5689"
+  },
+  {
+   "name": "Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles",
+   "summary": "Check Point Research discovered the Haiou jailbreak bundle, a prompt package targeting OpenAI Codex designed to weaken model guardrails for security-related tasks including hacking and software cracking. The bundle…",
+   "date": "2026-11-03T18:15:30+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Cobalt Strike - S0154",
+    "Ladon",
+    "VulnClaw"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "llm gateway",
+    "vulnclaw",
+    "agent modification",
+    "cybersecurity tools",
+    "ladon",
+    "chinese threat"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aea24c23a971d197231c78c"
+  },
   {
    "name": "StyleSmuggler Exploitation Deploys PSK Agent RAT Against Magento Stores",
    "summary": "Between September 9 and September 13, 2026, a coordinated campaign exploited Magento and Adobe Commerce stores across Western Europe, North America, and Asia-Pacific using CVE-2026-75650 (StyleSmuggler). The attack…",
@@ -428,114 +539,13 @@
     "backdoor"
    ],
    "url": "https://otx.alienvault.com/pulse/6ae8a86845dfd06f55cb0848"
-  },
-  {
-   "name": "Hackers Use Fake ChatGPT Plus Billing Emails to Steal Credit Card Details and OTP Codes",
-   "summary": "A sophisticated phishing campaign impersonates OpenAI by sending fraudulent ChatGPT Plus billing emails claiming failed subscription payments. Victims are directed to fake payment pages hosted on compromised WordPress…",
-   "date": "2026-11-02T14:34:47+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "credential theft",
-    "phishing",
-    "otp interception",
-    "payment fraud",
-    "chatgpt",
-    "wordpress compromise"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae89f875023c8d646113532"
-  },
-  {
-   "name": "CyberStrikeAI attacks educational institutions",
-   "summary": "An open-source framework called CyberStrikeAI was used in real-world attacks against educational institutions across Africa and Latin America. The framework combines LLM-based orchestration with a traditional C2 server…",
-   "date": "2026-11-02T10:46:49+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "CyberStrikeAI",
-    "NodeRabbit",
-    "PollCat",
-    "mimikatz"
-   ],
-   "countries": [],
-   "industries": [
-    "Education"
-   ],
-   "tags": [
-    "cyberstrikeai",
-    "domain compromise",
-    "pollcat",
-    "mimikatz",
-    "noderabbit",
-    "llm orchestration"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae86a19eabc583f87c50fd6"
-  },
-  {
-   "name": "VAPOR PANDA Uses AI-Driven ARTEX to Grow Global Espionage Campaign",
-   "summary": "VAPOR PANDA conducted a sophisticated espionage campaign beginning October 17, 2026, using the ARTEX AI-driven framework alongside DeepSeek and commercial LLMs to orchestrate parallel intrusions against over 200…",
-   "date": "2026-10-31T19:29:24+00:00",
-   "author": "AlienVault",
-   "adversary": "VAPOR PANDA",
-   "malware": [
-    "ARTEX",
-    "BLOODALCHEMY"
-   ],
-   "countries": [
-    "United States of America",
-    "Belgium",
-    "Greece",
-    "Philippines"
-   ],
-   "industries": [
-    "Government",
-    "Defense",
-    "Semiconductor",
-    "Telecommunications",
-    "Hospitality",
-    "Finance"
-   ],
-   "tags": [
-    "bloodalchemy",
-    "foreign ministries",
-    "agentic framework",
-    "china-nexus",
-    "credential spraying",
-    "ai-driven intrusion"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae64194faf7dc45dce3baa3"
-  },
-  {
-   "name": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
-   "summary": "VOLTA is a sophisticated Windows infostealer that incorporates AI-powered victim profiling to prioritize targets based on monetization potential. After harvesting credentials, browser data, cryptocurrency wallets…",
-   "date": "2026-10-31T14:06:54+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "VOLTA",
-    "VOLTA-AUTODOXER"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "infostealer",
-    "victim profiling",
-    "volta",
-    "ai-integration",
-    "openrouter",
-    "session hijacking"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae5f5fe1e9d5fb8fd713f1a"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-04T02:03:39+00:00",
-  "sans": "2026-11-04T02:03:39+00:00",
-  "otx": "2026-11-04T02:03:39+00:00",
-  "urlhaus": "2026-11-04T02:03:39+00:00"
+  "threatfox": "2026-11-04T09:06:11+00:00",
+  "sans": "2026-11-04T09:06:11+00:00",
+  "otx": "2026-11-04T09:06:11+00:00",
+  "urlhaus": "2026-11-04T09:06:11+00:00"
  },
- "generated_at": "2026-11-04T02:03:39+00:00"
+ "generated_at": "2026-11-04T09:06:11+00:00"
 }
