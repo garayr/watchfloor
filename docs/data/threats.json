@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1331,
-  "c2_servers": 505,
+  "total_iocs": 1309,
+  "c2_servers": 470,
   "families": [
    {
-    "name": "Vidar",
-    "iocs": 335,
-    "c2": 326,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "AMOS",
-    "iocs": 331,
+    "iocs": 293,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "VShell",
-    "iocs": 67,
-    "c2": 20,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
-    "name": "Mirai",
-    "iocs": 54,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "ClearFake",
-    "iocs": 50,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "WARDENStealer",
-    "iocs": 37,
-    "c2": 35,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
-   },
-   {
-    "name": "ValleyRAT",
-    "iocs": 32,
-    "c2": 8,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 30,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "Vidar",
+    "iocs": 246,
+    "c2": 240,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "SalatStealer",
-    "iocs": 27,
+    "iocs": 73,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 24,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "Unknown Loader",
+    "iocs": 63,
+    "c2": 3,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "VShell",
+    "iocs": 59,
+    "c2": 15,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 53,
+    "c2": 6,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 45,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 29,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "WARDENStealer",
+    "iocs": 27,
+    "c2": 25,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+   },
+   {
+    "name": "PureRAT",
+    "iocs": 22,
+    "c2": 19,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 640,
+  "online": 613,
   "top_tags": [
    {
     "name": "github",
-    "count": 566
+    "count": 399
    },
    {
     "name": "zapret",
-    "count": 373
+    "count": 293
    },
    {
     "name": "zip",
-    "count": 280
-   },
-   {
-    "name": "SalatStealer",
-    "count": 277
-   },
-   {
-    "name": "exe",
-    "count": 166
+    "count": 291
    },
    {
     "name": "Mozi",
-    "count": 163
+    "count": 231
    },
    {
     "name": "elf",
-    "count": 156
+    "count": 191
    },
    {
     "name": "mirai",
-    "count": 151
+    "count": 182
+   },
+   {
+    "name": "SalatStealer",
+    "count": 102
+   },
+   {
+    "name": "32-bit",
+    "count": 81
    }
   ]
  },
@@ -109,76 +109,81 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 185233,
-   "targets": 285,
-   "sources": 5866
+   "records": 418164,
+   "targets": 305,
+   "sources": 9079
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 98315,
-   "targets": 284,
-   "sources": 6100
-  },
-  {
-   "port": 161,
-   "service": "SNMP",
-   "records": 73759,
-   "targets": 222,
-   "sources": 466
+   "records": 227599,
+   "targets": 296,
+   "sources": 9957
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 68250,
-   "targets": 243,
-   "sources": 5528
+   "records": 199261,
+   "targets": 299,
+   "sources": 8381
+  },
+  {
+   "port": 161,
+   "service": "SNMP",
+   "records": 155320,
+   "targets": 247,
+   "sources": 726
   },
   {
    "port": 2222,
    "service": null,
-   "records": 66106,
-   "targets": 267,
-   "sources": 3328
+   "records": 148329,
+   "targets": 292,
+   "sources": 5357
   },
   {
    "port": 3389,
    "service": "Remote Desktop (RDP)",
-   "records": 64572,
-   "targets": 245,
-   "sources": 670
+   "records": 129581,
+   "targets": 272,
+   "sources": 1280
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 51405,
-   "targets": 241,
-   "sources": 4965
+   "records": 104433,
+   "targets": 260,
+   "sources": 7829
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 37712,
-   "targets": 262,
-   "sources": 3471
+   "records": 81975,
+   "targets": 287,
+   "sources": 5450
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 34358,
-   "targets": 251,
-   "sources": 2805
+   "records": 75614,
+   "targets": 286,
+   "sources": 4285
   },
   {
    "port": 9000,
    "service": null,
-   "records": 22376,
-   "targets": 248,
-   "sources": 2341
+   "records": 48162,
+   "targets": 274,
+   "sources": 3637
   }
  ],
  "ports_date": "2026-11-04",
  "diary": [
+  {
+   "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+   "url": "https://isc.sans.edu/diary/rss/33488",
+   "date": "2026-11-04T13:24:13+00:00"
+  },
   {
    "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
    "url": "https://isc.sans.edu/diary/rss/33486",
@@ -203,11 +208,6 @@
    "title": "OneNote File Extraction, (Sun, Nov 1st)",
    "url": "https://isc.sans.edu/diary/rss/33478",
    "date": "2026-11-01T09:12:23+00:00"
-  },
-  {
-   "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
-   "url": "https://isc.sans.edu/diary/rss/33476",
-   "date": "2026-10-31T10:52:53+00:00"
   }
  ],
  "pulses": [
@@ -542,10 +542,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-04T09:06:11+00:00",
-  "sans": "2026-11-04T09:06:11+00:00",
-  "otx": "2026-11-04T09:06:11+00:00",
-  "urlhaus": "2026-11-04T09:06:11+00:00"
+  "threatfox": "2026-11-04T17:11:29+00:00",
+  "sans": "2026-11-04T17:11:29+00:00",
+  "otx": "2026-11-04T17:11:29+00:00",
+  "urlhaus": "2026-11-04T17:11:29+00:00"
  },
- "generated_at": "2026-11-04T09:06:11+00:00"
+ "generated_at": "2026-11-04T17:11:29+00:00"
 }
