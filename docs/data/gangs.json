@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T22:36:52+00:00",
+ "generated_at": "2026-11-05T02:46:36+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1723,8 +1723,8 @@
    "description": "Initially observed in June 2022, the Play ransomware (a.k.a PlayCrypt) operates through double extortion, targeting numerous organizations in Latin America. Its Initial Access method is quite similar to other ransomwares, involving attacks such as Phishing, Exposed Services to the Internet, and Valid Account compromises. On April 19, 2023, the security company Symantec published two new tools developed by the Play group. These tools allow the malicious actor to enumerate and exfiltrate data from the internal network. The post mentions the following: 'Play threat actors use the.NET infostealer to enumerate software and services via WMI, WinRM, Remote Registry, and Remote Service. The malware checks for the existence of security and backup software, as well as remote administration tools and other programs, saving the information in.CSV files that are compressed into a.ZIP file for later manual exfiltration by threat actors.'Source: https://github.com/crocodyli/ThreatActors-TTPs",
    "aliases": [],
    "first_seen": "2022-11-26",
-   "last_seen": "2026-10-27",
-   "victims_total": 1340,
+   "last_seen": "2026-11-04",
+   "victims_total": 1345,
    "cves": [],
    "tools": [
     "HandleKatz",
@@ -1771,11 +1771,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 952
+      "count": 954
      },
      {
       "name": "CA",
-      "count": 98
+      "count": 99
      },
      {
       "name": "GB",
@@ -1797,7 +1797,7 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 353
+      "count": 355
      },
      {
       "name": "Professional Services",
@@ -1805,7 +1805,7 @@
      },
      {
       "name": "Technology",
-      "count": 171
+      "count": 173
      },
      {
       "name": "Retail & E-Commerce",
@@ -1822,10 +1822,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 27
-    },
     {
      "month": "2025-12",
      "count": 22
@@ -1869,10 +1865,14 @@
     {
      "month": "2026-10",
      "count": 18
+    },
+    {
+     "month": "2026-11",
+     "count": 5
     }
    ],
-   "history_size": 1340,
-   "updated": "2026-10-27T22:25:05+00:00"
+   "history_size": 1345,
+   "updated": "2026-11-05T02:46:36+00:00"
   },
   "interlock": {
    "name": "interlock",
@@ -8939,6 +8939,138 @@
    ],
    "history_size": 4,
    "updated": "2026-11-04T09:06:11+00:00"
+  },
+  "medusalocker": {
+   "name": "medusalocker",
+   "description": "Medusa is a DDoS bot written in.NET 2.0. In its current incarnation its C&C protocol is based on HTTP, while its predecessor made use of IRC.",
+   "aliases": [],
+   "first_seen": "2021-11-03",
+   "last_seen": "2026-11-04",
+   "victims_total": 121,
+   "cves": [],
+   "tools": [
+    "Invoke-TheHash",
+    "Mimikatz",
+    "HRSword",
+    "PCHunter",
+    "ProcessHacker",
+    "Advanced IP Scanner",
+    "Advanced Port Scanner",
+    "SoftPerfect NetScan",
+    "PsExec",
+    "Impacket",
+    "Remote Desktop Plus (RDP+)"
+   ],
+   "techniques": [
+    "Parent PID Spoofing"
+   ],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 13
+     },
+     {
+      "name": "BR",
+      "count": 5
+     },
+     {
+      "name": "CA",
+      "count": 5
+     },
+     {
+      "name": "DE",
+      "count": 5
+     },
+     {
+      "name": "GB",
+      "count": 5
+     },
+     {
+      "name": "FR",
+      "count": 4
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Manufacturing",
+      "count": 21
+     },
+     {
+      "name": "Technology",
+      "count": 19
+     },
+     {
+      "name": "Professional Services",
+      "count": 16
+     },
+     {
+      "name": "Other",
+      "count": 8
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 7
+     },
+     {
+      "name": "Education",
+      "count": 6
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 16
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 11
+    },
+    {
+     "month": "2026-08",
+     "count": 10
+    },
+    {
+     "month": "2026-09",
+     "count": 13
+    },
+    {
+     "month": "2026-10",
+     "count": 2
+    },
+    {
+     "month": "2026-11",
+     "count": 18
+    }
+   ],
+   "history_size": 121,
+   "updated": "2026-11-05T02:46:36+00:00"
   }
  }
 }

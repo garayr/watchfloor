@@ -2,48 +2,48 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1256,
-  "c2_servers": 423,
+  "total_iocs": 1298,
+  "c2_servers": 390,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 299,
+    "iocs": 302,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Vidar",
-    "iocs": 181,
-    "c2": 175,
+    "iocs": 126,
+    "c2": 120,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "SalatStealer",
-    "iocs": 73,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 69,
+    "iocs": 108,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
+    "name": "SalatStealer",
+    "iocs": 88,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
     "name": "VShell",
-    "iocs": 61,
-    "c2": 16,
+    "iocs": 52,
+    "c2": 13,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Mirai",
-    "iocs": 44,
+    "iocs": 35,
     "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 35,
+    "iocs": 32,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -54,54 +54,54 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
-    "name": "WARDENStealer",
-    "iocs": 24,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
-   },
-   {
     "name": "php.shin_webshell",
-    "iocs": 24,
+    "iocs": 26,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "IClickFix",
+    "iocs": 24,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    }
   ]
  },
  "urls": {
-  "sample": 1000,
-  "online": 713,
+  "sample": 884,
+  "online": 670,
   "top_tags": [
    {
     "name": "github",
-    "count": 339
+    "count": 288
    },
    {
     "name": "zapret",
-    "count": 308
+    "count": 267
    },
    {
     "name": "zip",
-    "count": 300
+    "count": 263
    },
    {
     "name": "Mozi",
-    "count": 255
+    "count": 229
    },
    {
     "name": "mirai",
-    "count": 197
+    "count": 182
    },
    {
     "name": "elf",
-    "count": 195
+    "count": 180
    },
    {
     "name": "32-bit",
-    "count": 91
+    "count": 93
    },
    {
     "name": "ua-wget",
-    "count": 67
+    "count": 62
    }
   ]
  },
@@ -109,75 +109,75 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 881594,
-   "targets": 311,
-   "sources": 18213
+   "records": 15275,
+   "targets": 206,
+   "sources": 1760
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 496029,
-   "targets": 301,
-   "sources": 17039
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 455071,
-   "targets": 324,
-   "sources": 15608
-  },
-  {
-   "port": 161,
-   "service": "SNMP",
-   "records": 378681,
-   "targets": 265,
-   "sources": 1549
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 274150,
-   "targets": 302,
-   "sources": 9307
-  },
-  {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 264074,
-   "targets": 277,
-   "sources": 2839
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 211656,
-   "targets": 283,
-   "sources": 14857
+   "records": 10894,
+   "targets": 191,
+   "sources": 592
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 200807,
-   "targets": 296,
-   "sources": 12944
+   "records": 9029,
+   "targets": 177,
+   "sources": 1818
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 167289,
-   "targets": 293,
-   "sources": 10415
+   "records": 7340,
+   "targets": 152,
+   "sources": 1779
   },
   {
-   "port": 137,
+   "port": 161,
+   "service": "SNMP",
+   "records": 6293,
+   "targets": 52,
+   "sources": 41
+  },
+  {
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 5109,
+   "targets": 144,
+   "sources": 80
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 4003,
+   "targets": 171,
+   "sources": 1227
+  },
+  {
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 2621,
+   "targets": 147,
+   "sources": 811
+  },
+  {
+   "port": 2222,
    "service": null,
-   "records": 97731,
-   "targets": 226,
-   "sources": 1809
+   "records": 1795,
+   "targets": 157,
+   "sources": 405
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 1381,
+   "targets": 4,
+   "sources": 151
   }
  ],
- "ports_date": "2026-11-04",
+ "ports_date": "2026-11-05",
  "diary": [
   {
    "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
@@ -530,10 +530,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-04T22:36:52+00:00",
-  "sans": "2026-11-04T22:36:52+00:00",
-  "otx": "2026-11-04T22:36:52+00:00",
-  "urlhaus": "2026-11-04T22:36:52+00:00"
+  "threatfox": "2026-11-05T02:46:36+00:00",
+  "sans": "2026-11-05T02:46:36+00:00",
+  "otx": "2026-11-05T02:46:36+00:00",
+  "urlhaus": "2026-11-05T02:46:36+00:00"
  },
- "generated_at": "2026-11-04T22:36:52+00:00"
+ "generated_at": "2026-11-05T02:46:36+00:00"
 }
