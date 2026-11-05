@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-05T10:08:35+00:00",
+ "generated_at": "2026-11-05T17:59:10+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
-   "name": "N0n",
+   "name": "medusalocker",
    "count": 17
   },
   {
-   "name": "medusalocker",
-   "count": 17
+   "name": "N0n",
+   "count": 15
   },
   {
    "name": "BrainCipher",
@@ -21,11 +21,11 @@
    "count": 8
   },
   {
-   "name": "incransom",
-   "count": 6
+   "name": "Aoqin",
+   "count": 5
   },
   {
-   "name": "akira",
+   "name": "incransom",
    "count": 5
   },
   {
@@ -33,7 +33,7 @@
    "count": 5
   },
   {
-   "name": "Aoqin",
+   "name": "Booba Project",
    "count": 4
   }
  ],
@@ -43,38 +43,44 @@
    "count": 16
   },
   {
-   "name": "Professional Services",
-   "count": 11
+   "name": "Technology",
+   "count": 10
   },
   {
-   "name": "Technology",
+   "name": "Professional Services",
    "count": 9
+  },
+  {
+   "name": "Other",
+   "count": 8
+  },
+  {
+   "name": "Financial Services",
+   "count": 7
   },
   {
    "name": "Healthcare",
    "count": 7
-  },
-  {
-   "name": "Other",
-   "count": 7
-  },
-  {
-   "name": "Financial Services",
-   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 39,
+   "count": 38,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 7,
+   "count": 8,
    "lat": 50.1,
    "lon": 8.7
+  },
+  {
+   "code": "BR",
+   "count": 4,
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "CA",
@@ -84,15 +90,15 @@
   },
   {
    "code": "GB",
-   "count": 4,
+   "count": 3,
    "lat": 51.5,
    "lon": -0.1
   },
   {
-   "code": "BR",
+   "code": "AU",
    "count": 2,
-   "lat": -23.5,
-   "lon": -46.6
+   "lat": -33.9,
+   "lon": 151.2
   },
   {
    "code": "CH",
@@ -101,28 +107,22 @@
    "lon": 7.4
   },
   {
+   "code": "CN",
+   "count": 2,
+   "lat": 39.9,
+   "lon": 116.4
+  },
+  {
    "code": "ES",
    "count": 2,
    "lat": 40.4,
    "lon": -3.7
   },
   {
-   "code": "AE",
-   "count": 1,
-   "lat": 24.5,
-   "lon": 54.4
-  },
-  {
    "code": "AR",
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
-  },
-  {
-   "code": "AU",
-   "count": 1,
-   "lat": -33.9,
-   "lon": 151.2
   },
   {
    "code": "BE",
@@ -135,12 +135,6 @@
    "count": 1,
    "lat": -33.4,
    "lon": -70.6
-  },
-  {
-   "code": "CN",
-   "count": 1,
-   "lat": 39.9,
-   "lon": 116.4
   },
   {
    "code": "FR",
@@ -159,12 +153,6 @@
    "count": 1,
    "lat": 41.9,
    "lon": 12.5
-  },
-  {
-   "code": "KR",
-   "count": 1,
-   "lat": 37.6,
-   "lon": 127.0
   },
   {
    "code": "SA",
@@ -198,6 +186,87 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Sistel",
+   "group": "Aoqin",
+   "date": "2026-11-05T11:20:37+00:00",
+   "attack_date": "2026-11-05",
+   "country": "BR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U2lzdGVsQEFvcWlu"
+  },
+  {
+   "victim": "First and Final Warning - IHG Hotels & Resorts (Estate)",
+   "group": "BYOD",
+   "date": "2026-11-05T09:50:45+00:00",
+   "attack_date": "2026-11-05",
+   "country": null,
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/Rmlyc3QgYW5kIEZpbmFsIFdhcm5pbmcgLSBJSEcgSG90ZWxzICYgUmVzb3J0cyAoRXN0YXRlKUBCWU9E"
+  },
+  {
+   "victim": "Calvary Christian College",
+   "group": "qilin",
+   "date": "2026-11-05T09:14:45+00:00",
+   "attack_date": "2026-11-05",
+   "country": "AU",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/Q2FsdmFyeSBDaHJpc3RpYW4gQ29sbGVnZUBxaWxpbg=="
+  },
+  {
+   "victim": "ne*****h.com",
+   "group": "everstake",
+   "date": "2026-11-05T09:09:10+00:00",
+   "attack_date": "2026-11-05",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/bmUqKioqKmguY29tQGV2ZXJzdGFrZQ=="
+  },
+  {
+   "victim": "kx***om",
+   "group": "AuditTeam",
+   "date": "2026-11-05T08:50:34+00:00",
+   "attack_date": "2026-11-05",
+   "country": "CN",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/a3gqKipvbUBBdWRpdFRlYW0="
+  },
+  {
+   "victim": "Disclosed",
+   "group": "PixelLeaks",
+   "date": "2026-11-05T07:59:30+00:00",
+   "attack_date": "2026-11-05",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/RGlzY2xvc2VkQFBpeGVsTGVha3M="
+  },
+  {
+   "victim": "Custom Bakehouse",
+   "group": "Dark Project",
+   "date": "2026-11-05T06:21:31+00:00",
+   "attack_date": "2026-11-05",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/Q3VzdG9tIEJha2Vob3VzZUBEYXJrIFByb2plY3Q="
+  },
+  {
+   "victim": "MAPFRE Brasil 2026",
+   "group": "Destello",
+   "date": "2026-11-05T06:18:10+00:00",
+   "attack_date": "2026-11-03",
+   "country": "BR",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/TUFQRlJFIEJyYXNpbCAyMDI2QERlc3RlbGxv"
+  },
+  {
+   "victim": "MKG Kirchrode",
+   "group": "thegentlemen",
+   "date": "2026-11-05T06:03:08+00:00",
+   "attack_date": "2026-11-03",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TUtHIEtpcmNocm9kZUB0aGVnZW50bGVtZW4="
+  },
   {
    "victim": "Delta Dental of Missouri",
    "group": "N0n",
@@ -757,15 +826,6 @@
    "url": "https://www.ransomware.live/id/QVNMQU4gVEVLU1TEsEwgdmUgS09ORkVLU8SwWU9OIFNhbi52ZSBUaWMuIEEuxZ4uQERvb21tYWdlZGRvbg=="
   },
   {
-   "victim": "IHG Hotels & Resorts (Estate)",
-   "group": "BYOD",
-   "date": "2026-11-04T01:26:31+00:00",
-   "attack_date": "2026-11-03",
-   "country": "GB",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/SUhHIEhvdGVscyAmIFJlc29ydHMgKEVzdGF0ZSlAQllPRA=="
-  },
-  {
    "victim": "SILIKO d.o.o.",
    "group": "Aoqin",
    "date": "2026-11-04T00:54:26+00:00",
@@ -856,15 +916,6 @@
    "url": "https://www.ransomware.live/id/bWVkaW5haGVhbHRoY2FyZS5uZXRAU2NhcmxldHRncm91cA=="
   },
   {
-   "victim": "hillandbeyer.com",
-   "group": "incransom",
-   "date": "2026-11-03T21:56:42+00:00",
-   "attack_date": "2026-11-03",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/aGlsbGFuZGJleWVyLmNvbUBpbmNyYW5zb20="
-  },
-  {
    "victim": "darrequipment.com",
    "group": "chaos",
    "date": "2026-11-03T21:44:06+00:00",
@@ -890,42 +941,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/QnVjaGFuYW4gSW5nZXJzb2xsICYgUm9vbmV5IFBDQEZhbGNvbg=="
-  },
-  {
-   "victim": "Arthur Chapman Kettering Smetak Pikala PA",
-   "group": "qilin",
-   "date": "2026-11-03T15:16:48+00:00",
-   "attack_date": "2026-11-03",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/QXJ0aHVyIENoYXBtYW4gS2V0dGVyaW5nIFNtZXRhayBQaWthbGEgUEFAcWlsaW4="
-  },
-  {
-   "victim": "Bison Bag",
-   "group": "akira",
-   "date": "2026-11-03T14:23:34+00:00",
-   "attack_date": "2026-11-03",
-   "country": null,
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/Qmlzb24gQmFnQGFraXJh"
-  },
-  {
-   "victim": "SK Global Software",
-   "group": "akira",
-   "date": "2026-11-03T14:23:15+00:00",
-   "attack_date": "2026-11-03",
-   "country": "KR",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/U0sgR2xvYmFsIFNvZnR3YXJlQGFraXJh"
-  },
-  {
-   "victim": "Pelham Plastics",
-   "group": "akira",
-   "date": "2026-11-03T14:22:55+00:00",
-   "attack_date": "2026-11-03",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UGVsaGFtIFBsYXN0aWNzQGFraXJh"
   },
   {
    "victim": "G... R...",
@@ -1070,33 +1085,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTIwQE4wbg=="
-  },
-  {
-   "victim": "Company #119",
-   "group": "N0n",
-   "date": "2026-11-03T03:26:45+00:00",
-   "attack_date": "2026-11-03",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTE5QE4wbg=="
-  },
-  {
-   "victim": "Company #118",
-   "group": "N0n",
-   "date": "2026-11-03T03:26:08+00:00",
-   "attack_date": "2026-11-03",
-   "country": "AE",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTE4QE4wbg=="
-  },
-  {
-   "victim": "S... G...",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-02T21:00:34+00:00",
-   "attack_date": "2026-11-02",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Uy4uLiBHLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
   }
  ]
 }

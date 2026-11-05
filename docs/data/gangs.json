@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T02:46:36+00:00",
+ "generated_at": "2026-11-05T17:59:10+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -2369,11 +2369,16 @@
    "description": "Qilin ransomware was first observed in July of 2022. Qilin Ransomware is written in Golang and supports multiple encryption modes; all of which are controlled by the operator. Qilin actors practice double extortion – demanding payment for a decryptor, as well as for the non-release of stolen data.",
    "aliases": [],
    "first_seen": "2022-10-08",
-   "last_seen": "2026-10-29",
-   "victims_total": 2533,
+   "last_seen": "2026-11-05",
+   "victims_total": 2558,
    "cves": [
     {
      "id": "CVE-2025-31324",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-20079",
      "cvss": null,
      "label": null
     },
@@ -2438,12 +2443,7 @@
      "label": null
     },
     {
-     "id": "CVE-2024-1853",
-     "cvss": null,
-     "label": null
-    },
-    {
-     "id": "CVE-2026-20316",
+     "id": "CVE-2026-50752",
      "cvss": null,
      "label": null
     }
@@ -2497,11 +2497,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 1068
+      "count": 1074
      },
      {
       "name": "GB",
-      "count": 123
+      "count": 124
      },
      {
       "name": "CA",
@@ -2513,7 +2513,7 @@
      },
      {
       "name": "DE",
-      "count": 103
+      "count": 107
      },
      {
       "name": "ES",
@@ -2523,23 +2523,23 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 521
+      "count": 525
      },
      {
       "name": "Professional Services",
-      "count": 410
+      "count": 416
      },
      {
       "name": "Technology",
-      "count": 280
+      "count": 282
      },
      {
       "name": "Healthcare",
-      "count": 206
+      "count": 210
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 186
+      "count": 187
      },
      {
       "name": "Financial Services",
@@ -2548,10 +2548,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 130
-    },
     {
      "month": "2025-12",
      "count": 192
@@ -2594,11 +2590,15 @@
     },
     {
      "month": "2026-10",
-     "count": 117
+     "count": 128
+    },
+    {
+     "month": "2026-11",
+     "count": 14
     }
    ],
-   "history_size": 2533,
-   "updated": "2026-10-29T17:19:56+00:00"
+   "history_size": 2558,
+   "updated": "2026-11-05T17:59:10+00:00"
   },
   "incransom": {
    "name": "incransom",
@@ -4685,96 +4685,6 @@
    ],
    "history_size": 54,
    "updated": "2026-10-30T07:37:33+00:00"
-  },
-  "EndZone": {
-   "name": "EndZone",
-   "description": null,
-   "aliases": [],
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-10-06",
-   "victims_total": 6,
-   "cves": [],
-   "tools": [],
-   "techniques": [],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "US",
-      "count": 5
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Technology",
-      "count": 2
-     },
-     {
-      "name": "Education",
-      "count": 1
-     },
-     {
-      "name": "Government & Defense",
-      "count": 1
-     },
-     {
-      "name": "Professional Services",
-      "count": 1
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 0
-    },
-    {
-     "month": "2026-04",
-     "count": 0
-    },
-    {
-     "month": "2026-05",
-     "count": 0
-    },
-    {
-     "month": "2026-06",
-     "count": 0
-    },
-    {
-     "month": "2026-07",
-     "count": 0
-    },
-    {
-     "month": "2026-08",
-     "count": 0
-    },
-    {
-     "month": "2026-09",
-     "count": 5
-    },
-    {
-     "month": "2026-10",
-     "count": 1
-    }
-   ],
-   "history_size": 6,
-   "updated": "2026-10-06T12:08:21+00:00"
   },
   "UmBra": {
    "name": "UmBra",

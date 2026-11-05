@@ -17,7 +17,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
    "kev": true,
-   "epss": 0.006,
+   "epss": 0.0141,
    "cvss": 5.5,
    "sev": "high",
    "news": [
@@ -46,7 +46,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
    "kev": true,
-   "epss": 0.0102,
+   "epss": 0.0116,
    "cvss": 8.1,
    "sev": "high",
    "news": [
@@ -55,12 +55,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
      "source": "BleepingComputer",
      "date": "2026-11-04T12:11:05+00:00"
-    },
-    {
-     "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-     "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-     "source": "The Hacker News",
-     "date": "2026-11-04T05:43:11+00:00"
     }
    ]
   },
@@ -158,7 +152,15 @@
    "kev": true,
    "epss": 0.0082,
    "cvss": 8.6,
-   "sev": "high"
+   "sev": "high",
+   "news": [
+    {
+     "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
+     "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+     "source": "SecurityWeek",
+     "date": "2026-11-05T12:33:49+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-41709",
@@ -402,7 +404,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
    "kev": true,
-   "epss": 0.0164,
+   "epss": 0.1072,
    "cvss": 5.3,
    "sev": "high"
   },

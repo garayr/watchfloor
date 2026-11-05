@@ -4,27 +4,19 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
+     "summary": "More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-05T13:22:12+00:00",
+     "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "US charges two Canadians accused of hacking US universities",
      "summary": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...]",
      "source": "BleepingComputer",
      "date": "2026-11-04T13:13:20+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
-     "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
-     "summary": "A federal grand jury indicted two Canadian men for hijacking university supercomputers to secretly mine Electroneum cryptocurrency. The post Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers…",
-     "source": "SecurityWeek",
-     "date": "2026-11-04T12:27:58+00:00",
-     "url": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
-     "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-     "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian…",
-     "source": "The Hacker News",
-     "date": "2026-11-04T08:17:11+00:00",
-     "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
      "group": "Arrests, courts and policy"
     }
    ]
@@ -32,6 +24,38 @@
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "DigiCert data breach exposes customer information, identity documents",
+     "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-05T16:12:46+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+     "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach…",
+     "source": "The Hacker News",
+     "date": "2026-11-05T14:41:10+00:00",
+     "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+     "summary": "The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French Blood Bank Site but…",
+     "source": "SecurityWeek",
+     "date": "2026-11-05T12:58:32+00:00",
+     "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+     "summary": "A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the…",
+     "source": "The Hacker News",
+     "date": "2026-11-05T12:25:00+00:00",
+     "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Vercel rolls out new protection against stolen session cookie attacks",
      "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
@@ -71,60 +95,71 @@
      "date": "2026-11-04T14:27:52+00:00",
      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
-     "summary": "Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks. The post AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-04T12:43:20+00:00",
-     "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
-     "summary": "Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions. The post Malicious cPGuard Updates Served in OpsShield Supply Chain Attack appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-04T10:54:48+00:00",
-     "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
-     "summary": "Binance’s first incident report traces the record theft to a months-long campaign that compromised three engineers’ computers. The post Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist…",
-     "source": "SecurityWeek",
-     "date": "2026-11-04T10:36:32+00:00",
-     "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-     "summary": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-04T09:39:54+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-     "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-03T22:18:50+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-     "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-03T21:28:44+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+     "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an…",
+     "source": "BleepingComputer",
+     "date": "2026-11-05T17:45:29+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+     "summary": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-05T17:32:37+00:00",
+     "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
+     "summary": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-05T12:33:49+00:00",
+     "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76418"
+     ]
+    },
+    {
+     "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+     "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API…",
+     "source": "The Hacker News",
+     "date": "2026-11-05T12:08:54+00:00",
+     "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
+     "summary": "Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests. The post Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-05T10:56:41+00:00",
+     "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
+     "summary": "The large-scale watering hole campaign has been targeting entities in the US and Europe, mainly in Ukraine. The post Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes appeared first…",
+     "source": "SecurityWeek",
+     "date": "2026-11-05T10:37:13+00:00",
+     "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+     "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these…",
+     "source": "The Hacker News",
+     "date": "2026-11-05T10:06:19+00:00",
+     "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
      "summary": "OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently. The post OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit…",
@@ -161,14 +196,6 @@
      ]
     },
     {
-     "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-     "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API…",
-     "source": "The Hacker News",
-     "date": "2026-11-05T04:31:16+00:00",
-     "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
      "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
      "source": "BleepingComputer",
@@ -201,14 +228,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
-     "summary": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first…",
-     "source": "SecurityWeek",
-     "date": "2026-11-04T14:24:54+00:00",
-     "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
      "source": "BleepingComputer",
@@ -234,31 +253,20 @@
      "date": "2026-11-04T11:46:27+00:00",
      "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-     "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get…",
-     "source": "The Hacker News",
-     "date": "2026-11-04T07:46:15+00:00",
-     "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The…",
-     "source": "The Hacker News",
-     "date": "2026-11-04T05:43:11+00:00",
-     "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-119977"
-     ]
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+     "summary": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-05T16:24:26+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
      "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services…",
@@ -274,20 +282,36 @@
      "date": "2026-11-04T15:00:10+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-     "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a…",
-     "source": "The Hacker News",
-     "date": "2026-11-04T11:24:31+00:00",
-     "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Closing the Identity Gap at the Service Desk",
+     "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification…",
+     "source": "BleepingComputer",
+     "date": "2026-11-05T15:00:10+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+     "group": "Other news"
+    },
+    {
+     "title": "The Agent Smith Dilemma: Governing Agentic Identities",
+     "summary": "Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter. The post The Agent Smith Dilemma: Governing Agentic Identities appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-05T11:15:00+00:00",
+     "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
+     "group": "Other news"
+    },
+    {
+     "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
+     "summary": "Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI. The post CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality…",
+     "source": "SecurityWeek",
+     "date": "2026-11-05T11:00:00+00:00",
+     "url": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
+     "group": "Other news"
+    },
     {
      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
      "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users…",
@@ -321,35 +345,11 @@
      "group": "Other news"
     },
     {
-     "title": "Agentic Data Security Firm Sentra Raises $150 Million",
-     "summary": "The company will invest in agentic data security capabilities and expand its go-to-market organization. The post Agentic Data Security Firm Sentra Raises $150 Million appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-04T14:09:20+00:00",
-     "url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
-     "group": "Other news"
-    },
-    {
      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
      "summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise…",
      "source": "The Hacker News",
      "date": "2026-11-04T11:34:20+00:00",
      "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
-     "summary": "The browser update resolves dozens of memory safety bugs and incorrect/missing authorization issues. The post Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-04T10:38:46+00:00",
-     "url": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
-     "group": "Other news"
-    },
-    {
-     "title": "North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack",
-     "summary": "In recent months, North Korea has accelerated its weapons tests in a likely bid to increase its leverage in potential diplomacy with the US. The post North Korea Launches Missiles Toward the Sea as Pyongyang Protests…",
-     "source": "SecurityWeek",
-     "date": "2026-11-04T09:23:22+00:00",
-     "url": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/",
      "group": "Other news"
     }
    ]
