@@ -66,7 +66,7 @@
     },
     {
      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-     "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a…",
+     "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving…",
      "source": "The Hacker News",
      "date": "2026-11-04T14:27:52+00:00",
      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
@@ -105,14 +105,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million",
-     "summary": "A $300,000 award went to a pre-launch flaw that exposed conversations and tokens on internal Muse test VMs used by Meta staff. The post Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-04T08:27:05+00:00",
-     "url": "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
      "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
      "source": "BleepingComputer",
@@ -127,28 +119,55 @@
      "date": "2026-11-03T21:28:44+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Binance says fake job interview led to $6.3 billion crypto heist",
-     "summary": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about…",
-     "source": "BleepingComputer",
-     "date": "2026-11-03T20:05:50+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-     "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed…",
-     "source": "The Hacker News",
-     "date": "2026-11-03T18:16:19+00:00",
-     "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+     "summary": "OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently. The post OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit…",
+     "source": "SecurityWeek",
+     "date": "2026-11-05T10:02:00+00:00",
+     "url": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+     "summary": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-05T09:18:29+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+     "summary": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a…",
+     "source": "The Hacker News",
+     "date": "2026-11-05T07:06:33+00:00",
+     "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog…",
+     "source": "The Hacker News",
+     "date": "2026-11-05T05:17:04+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2024-27834"
+     ]
+    },
+    {
+     "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+     "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API…",
+     "source": "The Hacker News",
+     "date": "2026-11-05T04:31:16+00:00",
+     "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
      "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
@@ -234,20 +253,20 @@
      "alerts": [
       "CVE-2026-119977"
      ]
-    },
-    {
-     "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-     "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The…",
-     "source": "The Hacker News",
-     "date": "2026-11-03T15:59:19+00:00",
-     "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+     "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services…",
+     "source": "The Hacker News",
+     "date": "2026-11-05T08:42:03+00:00",
+     "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
      "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the…",
@@ -263,20 +282,20 @@
      "date": "2026-11-04T11:24:31+00:00",
      "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-     "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a…",
-     "source": "The Hacker News",
-     "date": "2026-11-03T16:55:58+00:00",
-     "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+     "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users…",
+     "source": "The Hacker News",
+     "date": "2026-11-05T09:13:28+00:00",
+     "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+     "group": "Other news"
+    },
     {
      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
      "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
@@ -331,22 +350,6 @@
      "source": "SecurityWeek",
      "date": "2026-11-04T09:23:22+00:00",
      "url": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/",
-     "group": "Other news"
-    },
-    {
-     "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
-     "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-03T18:51:04+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-     "group": "Other news"
-    },
-    {
-     "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-     "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing…",
-     "source": "The Hacker News",
-     "date": "2026-11-03T18:46:38+00:00",
-     "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
      "group": "Other news"
     }
    ]

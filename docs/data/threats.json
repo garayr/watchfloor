@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1298,
-  "c2_servers": 390,
+  "total_iocs": 1592,
+  "c2_servers": 467,
   "families": [
    {
-    "name": "AMOS",
-    "iocs": 302,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 126,
-    "c2": 120,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 108,
+    "iocs": 356,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
+    "name": "AMOS",
+    "iocs": 300,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
     "name": "SalatStealer",
-    "iocs": 88,
+    "iocs": 79,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
+    "name": "Astaroth",
+    "iocs": 66,
+    "c2": 66,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.astaroth"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 57,
+    "c2": 51,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "VShell",
-    "iocs": 52,
-    "c2": 13,
+    "iocs": 38,
+    "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Mirai",
-    "iocs": 35,
-    "c2": 6,
+    "iocs": 36,
+    "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "ClearFake",
-    "iocs": 32,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
     "name": "PureRAT",
-    "iocs": 27,
-    "c2": 24,
+    "iocs": 34,
+    "c2": 31,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 26,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "ACR Stealer",
+    "iocs": 31,
+    "c2": 28,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.acr_stealer"
    },
    {
-    "name": "IClickFix",
-    "iocs": 24,
+    "name": "ClearFake",
+    "iocs": 31,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    }
   ]
  },
  "urls": {
-  "sample": 884,
-  "online": 670,
+  "sample": 1000,
+  "online": 734,
   "top_tags": [
    {
     "name": "github",
-    "count": 288
-   },
-   {
-    "name": "zapret",
-    "count": 267
+    "count": 293
    },
    {
     "name": "zip",
-    "count": 263
+    "count": 268
+   },
+   {
+    "name": "zapret",
+    "count": 261
    },
    {
     "name": "Mozi",
-    "count": 229
+    "count": 253
    },
    {
     "name": "mirai",
-    "count": 182
+    "count": 197
    },
    {
     "name": "elf",
-    "count": 180
+    "count": 181
    },
    {
     "name": "32-bit",
-    "count": 93
+    "count": 101
    },
    {
-    "name": "ua-wget",
-    "count": 62
+    "name": "cowrie",
+    "count": 75
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 15275,
-   "targets": 206,
-   "sources": 1760
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 10894,
-   "targets": 191,
-   "sources": 592
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 9029,
-   "targets": 177,
-   "sources": 1818
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 7340,
-   "targets": 152,
-   "sources": 1779
+   "records": 212298,
+   "targets": 275,
+   "sources": 6419
   },
   {
    "port": 161,
    "service": "SNMP",
-   "records": 6293,
-   "targets": 52,
-   "sources": 41
+   "records": 132388,
+   "targets": 220,
+   "sources": 402
   },
   {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 5109,
-   "targets": 144,
-   "sources": 80
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 4003,
-   "targets": 171,
-   "sources": 1227
+   "port": 23,
+   "service": "Telnet",
+   "records": 128846,
+   "targets": 274,
+   "sources": 4943
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 2621,
-   "targets": 147,
-   "sources": 811
+   "records": 69558,
+   "targets": 257,
+   "sources": 5927
+  },
+  {
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 61152,
+   "targets": 260,
+   "sources": 863
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 58205,
+   "targets": 268,
+   "sources": 5384
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 49300,
+   "targets": 240,
+   "sources": 6386
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 44656,
+   "targets": 264,
+   "sources": 5147
   },
   {
    "port": 2222,
    "service": null,
-   "records": 1795,
-   "targets": 157,
-   "sources": 405
+   "records": 35067,
+   "targets": 267,
+   "sources": 2893
   },
   {
    "port": 51413,
    "service": null,
-   "records": 1381,
-   "targets": 4,
-   "sources": 151
+   "records": 20865,
+   "targets": 28,
+   "sources": 923
   }
  ],
  "ports_date": "2026-11-05",
@@ -211,6 +211,134 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Summary of Malicious Program Distribution via Goddess of Victory: NIKKE PC Launcher",
+   "summary": "Level Infinite disclosed that the PC launcher for the game \"Goddess of Victory: NIKKE\" was compromised when four script files on the official CDN were tampered with between September 27 and November 4, 2026. The…",
+   "date": "2026-11-05T08:27:50+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "K2F"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "luajit",
+    "gaming platform",
+    "domain hijacking",
+    "k2f",
+    "cdn compromise",
+    "cryptocurrency theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aec3e073e76c608aeccf05d"
+  },
+  {
+   "name": "Binance heist: what we know, and what we see in TraderTraitor's toolkit",
+   "summary": "In October 2026, attackers stole approximately $6.34 billion from Binance in one of the largest cryptocurrency thefts on record. The FBI attributed the attack to North Korea's TraderTraitor operation. The multi-stage…",
+   "date": "2026-11-05T08:22:58+00:00",
+   "author": "AlienVault",
+   "adversary": "TraderTraitor",
+   "malware": [
+    "FLATROOF",
+    "ROOFDECK",
+    "MacOS.Trojan.Multiverze",
+    "MacOS.Trojan.Generic",
+    "MacOS.Trojan.Flatroof",
+    "MacOS.Trojan.Gaslight"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "macos.exploit.reverseshell",
+    "macos.trojan.multiverze",
+    "macos.trojan.gaslight",
+    "devops targeting",
+    "fake job interview",
+    "macos.trojan.generic"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aec3ce29e33d6b94efd4c0f"
+  },
+  {
+   "name": "Grand Theft Auto VI Release Phishing Lures",
+   "summary": "Ahead of the highly anticipated Grand Theft Auto VI release on November 19, 2026, threat actors are exploiting consumer hype through phishing campaigns and fraudulent schemes. Analysis of 121 newly registered domains…",
+   "date": "2026-11-05T08:10:25+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Media"
+   ],
+   "tags": [
+    "trojan",
+    "social engineering",
+    "cryptocurrency scam",
+    "phishing",
+    "content locker",
+    "credential theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aec39f1c741f78d03f95337"
+  },
+  {
+   "name": "Hackers exploited iOS and Android flaws to infect phones",
+   "summary": "Hackers potentially linked to Russia's Foreign Intelligence Service exploited previously patched iOS and Android vulnerabilities to target visitors of multiple websites. The operation included impersonating…",
+   "date": "2026-11-05T02:13:53+00:00",
+   "author": "AlienVault",
+   "adversary": "APT29",
+   "malware": [
+    "DarkSword"
+   ],
+   "countries": [
+    "United States of America",
+    "Ukraine",
+    "United Kingdom of Great Britain and Northern Ireland"
+   ],
+   "industries": [
+    "Government",
+    "Hospitality",
+    "Energy"
+   ],
+   "tags": [
+    "ukraine conflict",
+    "diplomatic targeting",
+    "zero-click exploits",
+    "ios exploitation",
+    "watering hole attacks",
+    "supply chain compromise"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aebe661b7e5525aa39d6ba8"
+  },
+  {
+   "name": "SkyW4lker Phishing Kit: Microsoft 365 Threat to US Firms",
+   "summary": "SkyW4lker is an active device-code phishing kit targeting Microsoft 365 users primarily in the United States, Europe, and other regions. By exploiting Microsoft's legitimate authentication process, attackers gain access…",
+   "date": "2026-11-04T21:08:21+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "British Indian Ocean Territory",
+    "Canada",
+    "India",
+    "United Kingdom of Great Britain and Northern Ireland"
+   ],
+   "industries": [
+    "Technology",
+    "Manufacturing",
+    "Government"
+   ],
+   "tags": [
+    "enterprise targeting",
+    "authentication abuse",
+    "skyw4lker",
+    "phishing kit",
+    "oauth compromise",
+    "microsoft 365"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aeb9ec5f0df7c45eb2cdd32"
+  },
   {
    "name": "ARTEX Exposed: Infrastructure Behind the South Korea Bank Hack",
    "summary": "Between late September and early October 2026, seven South Korean financial institutions experienced breaches affecting approximately 66,000 individuals and 2,200 corporations. The intrusions were attributed to ARTEX…",
@@ -405,135 +533,13 @@
     "beautystealer"
    ],
    "url": "https://otx.alienvault.com/pulse/6aea271df4897a00b60de744"
-  },
-  {
-   "name": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
-   "summary": "Microsoft Threat Intelligence identified an evolving campaign targeting users searching for cracked commercial software, free games, activators, and unofficial utilities. The operation uses trojanized Inno Setup-style…",
-   "date": "2026-11-03T18:15:32+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "WorldProxyPool",
-    "CharityEngine",
-    "BOINC",
-    "AdvancedWindowsManager",
-    "Windows Manager",
-    "OfferLoader"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "boinc",
-    "monetization campaign",
-    "fake software",
-    "egairtigado",
-    "worldproxypool",
-    "distributed computing"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aea24c415c16b64650d5689"
-  },
-  {
-   "name": "Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles",
-   "summary": "Check Point Research discovered the Haiou jailbreak bundle, a prompt package targeting OpenAI Codex designed to weaken model guardrails for security-related tasks including hacking and software cracking. The bundle…",
-   "date": "2026-11-03T18:15:30+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Cobalt Strike - S0154",
-    "Ladon",
-    "VulnClaw"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "llm gateway",
-    "vulnclaw",
-    "agent modification",
-    "cybersecurity tools",
-    "ladon",
-    "chinese threat"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aea24c23a971d197231c78c"
-  },
-  {
-   "name": "StyleSmuggler Exploitation Deploys PSK Agent RAT Against Magento Stores",
-   "summary": "Between September 9 and September 13, 2026, a coordinated campaign exploited Magento and Adobe Commerce stores across Western Europe, North America, and Asia-Pacific using CVE-2026-75650 (StyleSmuggler). The attack…",
-   "date": "2026-11-03T14:09:27+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "PSK Agent",
-    "chi_down",
-    "zer4.php"
-   ],
-   "countries": [],
-   "industries": [
-    "Retail"
-   ],
-   "tags": [
-    "chi_down",
-    "chinese-speaking operator",
-    "webshell deployment",
-    "cve-2026-75650",
-    "magento exploitation",
-    "zer4.php"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae9eb17c5d87b8a004ed8fb"
-  },
-  {
-   "name": "Yoba Malware Campaign Abuses Signed AI Applications to Evade Detection",
-   "summary": "A sophisticated campaign tracked as Yoba distributes cryptocurrency mining malware through fraudulent GitHub repositories impersonating ChatGPT and Claude AI applications. Attackers leverage legitimate, digitally signed…",
-   "date": "2026-11-03T14:09:26+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "YobaLoader",
-    "YobaDropper",
-    "XMRig"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "ai application impersonation",
-    "github phishing",
-    "yobaloader",
-    "signed binary abuse",
-    "xmrig",
-    "yobadropper"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae9eb16f9bae7d0faed8d7a"
-  },
-  {
-   "name": "Exploitation Targeting Node-RED, a Tool Embedded in ICS Products",
-   "summary": "On October 30, 2026, exploitation activity was detected targeting CVE-2026-58115, an unauthenticated Node-RED admin API vulnerability. Attackers deployed malicious flows that automatically download and execute Linux…",
-   "date": "2026-11-03T09:42:06+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Manufacturing",
-    "Energy",
-    "Healthcare",
-    "Agriculture",
-    "Government"
-   ],
-   "tags": [
-    "exploitation",
-    "linux bot",
-    "cve-2026-58115",
-    "industrial control systems",
-    "critical infrastructure",
-    "ics"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ae9ac6e66c89c6be4d99928"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-05T02:46:36+00:00",
-  "sans": "2026-11-05T02:46:36+00:00",
-  "otx": "2026-11-05T02:46:36+00:00",
-  "urlhaus": "2026-11-05T02:46:36+00:00"
+  "threatfox": "2026-11-05T10:08:35+00:00",
+  "sans": "2026-11-05T10:08:35+00:00",
+  "otx": "2026-11-05T10:08:35+00:00",
+  "urlhaus": "2026-11-05T10:08:35+00:00"
  },
- "generated_at": "2026-11-05T02:46:36+00:00"
+ "generated_at": "2026-11-05T10:08:35+00:00"
 }

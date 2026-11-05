@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-05T02:46:36+00:00",
+ "generated_at": "2026-11-05T10:08:35+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
-   "name": "medusalocker",
+   "name": "N0n",
    "count": 17
   },
   {
-   "name": "N0n",
-   "count": 15
+   "name": "medusalocker",
+   "count": 17
   },
   {
    "name": "BrainCipher",
@@ -44,29 +44,29 @@
   },
   {
    "name": "Professional Services",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Technology",
-   "count": 10
-  },
-  {
-   "name": "Financial Services",
-   "count": 6
+   "count": 9
   },
   {
    "name": "Healthcare",
-   "count": 6
+   "count": 7
   },
   {
    "name": "Other",
+   "count": 7
+  },
+  {
+   "name": "Financial Services",
    "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 38,
+   "count": 39,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -87,6 +87,12 @@
    "count": 4,
    "lat": 51.5,
    "lon": -0.1
+  },
+  {
+   "code": "BR",
+   "count": 2,
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "CH",
@@ -123,12 +129,6 @@
    "count": 1,
    "lat": 50.8,
    "lon": 4.4
-  },
-  {
-   "code": "BR",
-   "count": 1,
-   "lat": -23.5,
-   "lon": -46.6
   },
   {
    "code": "CL",
@@ -198,6 +198,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Delta Dental of Missouri",
+   "group": "N0n",
+   "date": "2026-11-05T04:52:28+00:00",
+   "attack_date": "2026-11-05",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/RGVsdGEgRGVudGFsIG9mIE1pc3NvdXJpQE4wbg=="
+  },
+  {
+   "victim": "The Container Store",
+   "group": "N0n",
+   "date": "2026-11-05T04:51:57+00:00",
+   "attack_date": "2026-11-05",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/VGhlIENvbnRhaW5lciBTdG9yZUBOMG4="
+  },
+  {
+   "victim": "centratamagroup.com",
+   "group": "lockbit5",
+   "date": "2026-11-04T23:14:32+00:00",
+   "attack_date": "2026-11-04",
+   "country": "BR",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/Y2VudHJhdGFtYWdyb3VwLmNvbUBsb2NrYml0NQ=="
+  },
   {
    "victim": "Msn",
    "group": "medusalocker",
@@ -1070,33 +1097,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Uy4uLiBHLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "da*****t.com",
-   "group": "everstake",
-   "date": "2026-11-02T16:17:21+00:00",
-   "attack_date": "2026-11-02",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/ZGEqKioqKnQuY29tQGV2ZXJzdGFrZQ=="
-  },
-  {
-   "victim": "ra*****g.com",
-   "group": "everstake",
-   "date": "2026-11-02T16:16:43+00:00",
-   "attack_date": "2026-11-02",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/cmEqKioqKmcuY29tQGV2ZXJzdGFrZQ=="
-  },
-  {
-   "victim": "Holland & Knight",
-   "group": "Redact",
-   "date": "2026-11-02T16:00:11+00:00",
-   "attack_date": "2026-11-02",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/SG9sbGFuZCAmIEtuaWdodEBSZWRhY3Q="
   }
  ]
 }
