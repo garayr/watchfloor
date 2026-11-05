@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:59:10+00:00",
+ "generated_at": "2026-11-05T23:26:52+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -3105,8 +3105,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-06-28",
-   "last_seen": "2026-10-19",
-   "victims_total": 8,
+   "last_seen": "2026-11-05",
+   "victims_total": 10,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -3115,7 +3115,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 8
+      "count": 10
      }
     ],
     "sectors": [
@@ -3132,20 +3132,20 @@
       "count": 2
      },
      {
+      "name": "Professional Services",
+      "count": 2
+     },
+     {
       "name": "Financial Services",
       "count": 1
      },
      {
-      "name": "Professional Services",
+      "name": "Hospitality",
       "count": 1
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -3189,10 +3189,14 @@
     {
      "month": "2026-10",
      "count": 6
+    },
+    {
+     "month": "2026-11",
+     "count": 2
     }
    ],
-   "history_size": 8,
-   "updated": "2026-10-20T01:26:49+00:00"
+   "history_size": 10,
+   "updated": "2026-11-05T23:26:52+00:00"
   },
   "nightspire": {
    "name": "nightspire",
@@ -4685,84 +4689,6 @@
    ],
    "history_size": 54,
    "updated": "2026-10-30T07:37:33+00:00"
-  },
-  "UmBra": {
-   "name": "UmBra",
-   "description": null,
-   "aliases": [],
-   "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
-   "victims_total": 1,
-   "cves": [],
-   "tools": [],
-   "techniques": [],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "US",
-      "count": 1
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Other",
-      "count": 1
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 0
-    },
-    {
-     "month": "2026-04",
-     "count": 0
-    },
-    {
-     "month": "2026-05",
-     "count": 0
-    },
-    {
-     "month": "2026-06",
-     "count": 0
-    },
-    {
-     "month": "2026-07",
-     "count": 0
-    },
-    {
-     "month": "2026-08",
-     "count": 0
-    },
-    {
-     "month": "2026-09",
-     "count": 0
-    },
-    {
-     "month": "2026-10",
-     "count": 1
-    }
-   ],
-   "history_size": 1,
-   "updated": "2026-10-06T19:26:28+00:00"
   },
   "everest": {
    "name": "everest",

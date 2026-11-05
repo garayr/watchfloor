@@ -2,19 +2,19 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1521,
-  "c2_servers": 461,
+  "total_iocs": 1503,
+  "c2_servers": 441,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 327,
+    "iocs": 320,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 326,
-    "c2": 1,
+    "iocs": 320,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
@@ -31,77 +31,77 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 59,
+    "iocs": 54,
     "c2": 30,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Vidar",
-    "iocs": 53,
-    "c2": 53,
+    "iocs": 48,
+    "c2": 48,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "VShell",
-    "iocs": 41,
-    "c2": 13,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
-    "name": "PureRAT",
-    "iocs": 40,
-    "c2": 31,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
-   },
-   {
     "name": "Mirai",
-    "iocs": 33,
-    "c2": 4,
+    "iocs": 45,
+    "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
+    "name": "VShell",
+    "iocs": 40,
+    "c2": 12,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 30,
+    "iocs": 31,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "ACR Stealer",
+    "iocs": 28,
+    "c2": 28,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.acr_stealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 690,
+  "online": 656,
   "top_tags": [
    {
     "name": "github",
-    "count": 317
+    "count": 425
    },
    {
     "name": "zapret",
-    "count": 291
+    "count": 372
    },
    {
     "name": "zip",
-    "count": 290
+    "count": 370
    },
    {
     "name": "Mozi",
-    "count": 240
+    "count": 192
    },
    {
     "name": "elf",
-    "count": 169
+    "count": 145
    },
    {
     "name": "mirai",
-    "count": 162
+    "count": 119
    },
    {
     "name": "32-bit",
-    "count": 98
+    "count": 93
    },
    {
-    "name": "mips",
-    "count": 54
+    "name": "arm",
+    "count": 51
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 510388,
-   "targets": 288,
-   "sources": 9883
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 259949,
-   "targets": 286,
-   "sources": 9070
-  },
-  {
-   "port": 161,
-   "service": "SNMP",
-   "records": 237241,
-   "targets": 251,
-   "sources": 972
+   "records": 962097,
+   "targets": 295,
+   "sources": 17106
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 183044,
-   "targets": 308,
-   "sources": 9761
+   "records": 771455,
+   "targets": 322,
+   "sources": 20812
   },
   {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 134309,
-   "targets": 273,
-   "sources": 1934
+   "port": 161,
+   "service": "SNMP",
+   "records": 500605,
+   "targets": 263,
+   "sources": 1731
   },
   {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 112816,
-   "targets": 285,
-   "sources": 8136
+   "port": 23,
+   "service": "Telnet",
+   "records": 481587,
+   "targets": 291,
+   "sources": 15569
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 101298,
-   "targets": 256,
-   "sources": 9257
+   "records": 329887,
+   "targets": 296,
+   "sources": 14631
+  },
+  {
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 276243,
+   "targets": 279,
+   "sources": 3179
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 235456,
+   "targets": 294,
+   "sources": 15331
   },
   {
    "port": 2222,
    "service": null,
-   "records": 98562,
-   "targets": 290,
-   "sources": 6685
+   "records": 194769,
+   "targets": 297,
+   "sources": 9090
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 93812,
-   "targets": 285,
-   "sources": 7213
+   "records": 188565,
+   "targets": 295,
+   "sources": 11963
   },
   {
-   "port": 61522,
+   "port": 137,
    "service": null,
-   "records": 54039,
-   "targets": 14,
-   "sources": 5813
+   "records": 101747,
+   "targets": 228,
+   "sources": 1746
   }
  ],
  "ports_date": "2026-11-05",
@@ -211,6 +211,149 @@
   }
  ],
  "pulses": [
+  {
+   "name": "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel",
+   "summary": "A sophisticated passive backdoor named cwpdoor has been discovered targeting Control Web Panel (CWP), a free open-source server management control panel for Linux. The malware embeds malicious code directly into the…",
+   "date": "2026-11-05T15:31:01+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "cwpdoor",
+    "Ebury - S0377"
+   ],
+   "countries": [
+    "Brazil"
+   ],
+   "industries": [],
+   "tags": [
+    "cwpdoor",
+    "log suppression",
+    "cwpsrv",
+    "encrypted c2",
+    "ebury",
+    "passive backdoor"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aeca135ab4fb550bdc9ee28"
+  },
+  {
+   "name": "New Lindnor Backdoor and Glut of Security Killers Used in Ransomware Attack on U.S. Org",
+   "summary": "Attackers leveraging Anubis ransomware targeted a U.S. organization in October 2026, deploying a previously undocumented custom backdoor named Lindnor. The backdoor masqueraded as Chrome and VMware components on…",
+   "date": "2026-11-05T15:22:22+00:00",
+   "author": "AlienVault",
+   "adversary": "Hawkmoth",
+   "malware": [
+    "Lindnor",
+    "Anubis"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "anubis",
+    "safe mode persistence",
+    "sql server targeting",
+    "anydesk",
+    "vulnerable drivers",
+    "byovd"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aec9f2ee643039eabc3b1db"
+  },
+  {
+   "name": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+   "summary": "Between March and September 2026, thousands of Android devices in the META region were infected with Mirax malware, causing millions in estimated losses. The campaign uses malicious advertisements within low-reputation…",
+   "date": "2026-11-05T10:58:40+00:00",
+   "author": "AlienVault",
+   "adversary": "MiraxBot",
+   "malware": [
+    "Mirax"
+   ],
+   "countries": [
+    "British Indian Ocean Territory",
+    "India"
+   ],
+   "industries": [
+    "Finance",
+    "Retail"
+   ],
+   "tags": [
+    "android",
+    "device takeover",
+    "meta region",
+    "financial fraud",
+    "maas",
+    "mirax"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aec6160f76daaa66cf143ac"
+  },
+  {
+   "name": "Inside Phexia: A macOS malware delivered through ClickFix",
+   "summary": "Phexia is a modular macOS backdoor and infostealer actively distributed through ClickFix campaigns since late 2025. The malware employs a multi-stage infection chain beginning with Terminal command execution that…",
+   "date": "2026-11-05T10:54:17+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Phexia",
+    "XMRig",
+    "MacSync",
+    "Atomic macOS stealer"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "xmrig",
+    "applescript",
+    "launchagent persistence",
+    "credential theft",
+    "macsync",
+    "clickfix"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aec6059b2260af9dd811d39"
+  },
+  {
+   "name": "Supply chain attack: BO Team in a software developer's infrastructure",
+   "summary": "In June 2025, a software developer detected suspicious SMB connection attempts, revealing a sophisticated compromise by the Black Owl (BO Team) APT group. Attackers seized nearly all infrastructure components including…",
+   "date": "2026-11-05T10:52:25+00:00",
+   "author": "AlienVault",
+   "adversary": "Black Owl (BO Team",
+   "malware": [
+    "Nanodump",
+    "Global Socket",
+    "ReverseSSH"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "backdoor persistence",
+    "credential theft",
+    "software developer",
+    "vmware vcenter",
+    "nanodump",
+    "bo team"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aec5fe933b8cac0f8ed7334"
+  },
+  {
+   "name": "How to detect fileless attacks exploiting ToolShell: analyzing the Storm-2603 incident",
+   "summary": "In 2025, threat actors exploited CVE-2025-53770 and CVE-2025-53771 (ToolShell vulnerabilities) in on-premises Microsoft SharePoint to achieve remote code execution. Storm-2603 deployed ransomware following successful…",
+   "date": "2026-11-05T10:52:25+00:00",
+   "author": "AlienVault",
+   "adversary": "Storm-2603",
+   "malware": [
+    "Warlock"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "velociraptor",
+    "token impersonation",
+    "cve-2025-53771",
+    "toolshell",
+    "cve-2025-53770",
+    "sharepoint"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aec5fe9d7ff10f7065a9f18"
+  },
   {
    "name": "Summary of Malicious Program Distribution via Goddess of Victory: NIKKE PC Launcher",
    "summary": "Level Infinite disclosed that the PC launcher for the game \"Goddess of Victory: NIKKE\" was compromised when four script files on the official CDN were tampered with between September 27 and November 4, 2026. The…",
@@ -361,182 +504,13 @@
     "infrastructure-exposure"
    ],
    "url": "https://otx.alienvault.com/pulse/6aeb62d591162af275e93f90"
-  },
-  {
-   "name": "Not Actually Suspended: How a Bank-Phishing Network Fakes Its Own Takedown",
-   "summary": "A sophisticated phishing campaign targets 189 US financial institutions through 248 live look-alike domains using a distinctive naming pattern combining urgency keywords with bank names. The operation employs an…",
-   "date": "2026-11-04T14:27:02+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "United States of America"
-   ],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "suspended page",
-    "credential theft",
-    "bank phishing",
-    "domain look-alike",
-    "us financial institutions",
-    "treasury portal"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aeb40b674ccf1e5c2eb0bd3"
-  },
-  {
-   "name": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
-   "summary": "A Chinese-speaking threat actor identified as leepsmarts conducted a multi-vector operation combining LLM API credential theft with academic fraud targeting 20 universities. The campaign harvested 2,233 API keys from…",
-   "date": "2026-11-04T14:27:00+00:00",
-   "author": "AlienVault",
-   "adversary": "leepsmarts",
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "Argentina",
-    "France",
-    "Germany",
-    "Netherlands",
-    "Pakistan"
-   ],
-   "industries": [
-    "Education",
-    "Finance"
-   ],
-   "tags": [
-    "llm api theft",
-    "ai agent frameworks",
-    "financial fraud",
-    "credential harvesting",
-    "academic fraud",
-    "cve-2026-41940"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aeb40b4e681d29bd1496aac"
-  },
-  {
-   "name": "From Business Emails to XLoader: An Order Lure That Led to In-Memory Injection",
-   "summary": "Morphisec has observed increased XLoader activity using business-themed email lures. The attack chain begins with order confirmation or payment request emails containing RAR archives that hold obfuscated JScript files…",
-   "date": "2026-11-04T12:25:05+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "XLoader",
-    "Agent Tesla - S0331",
-    "Remcos",
-    "XWorm"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "luajit",
-    "xworm",
-    "in-memory execution",
-    "shared-section injection",
-    "remcos",
-    "obfuscated jscript"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aeb242105ebdc46e55850e9"
-  },
-  {
-   "name": "Poisoned Source: APT29 Watering Holes Targets Mobile Devices",
-   "summary": "Sekoia TDR identified a large-scale watering hole campaign employing three infection vectors: compromised legitimate websites, Adversary-in-the-Middle-like impersonating high-profile domains, and supply-chain compromise…",
-   "date": "2026-11-04T12:25:04+00:00",
-   "author": "AlienVault",
-   "adversary": "APT29",
-   "malware": [
-    "DarkSword",
-    "AndroSnitch"
-   ],
-   "countries": [
-    "United States of America",
-    "Bulgaria",
-    "Czechia",
-    "Mongolia",
-    "Ukraine",
-    "United Kingdom of Great Britain and Northern Ireland"
-   ],
-   "industries": [
-    "Government",
-    "Energy",
-    "Defense",
-    "Hospitality"
-   ],
-   "tags": [
-    "darksword",
-    "cve-2025-27038",
-    "cve-2025-43510",
-    "cve-2025-14174",
-    "cve-2026-3910",
-    "supply chain attack"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aeb242026030af6a32b4b10"
-  },
-  {
-   "name": "BOSSAI: Inside the AI attack mesh that targeted Taiwan's emergency services",
-   "summary": "Acronis Threat Research Unit identified a single operator utilizing a mesh of 12 AI agents called BOSSAI to conduct persistent campaigns across 11 countries. The attacker deployed both abliterated and commercial AI…",
-   "date": "2026-11-04T07:55:42+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "Australia",
-    "Canada",
-    "China",
-    "Honduras",
-    "Hong Kong"
-   ],
-   "industries": [
-    "Government",
-    "Healthcare",
-    "Education",
-    "Finance",
-    "Telecommunications",
-    "Technology"
-   ],
-   "tags": [
-    "sql injection",
-    "bossai mesh",
-    "taiwan",
-    "data exfiltration",
-    "emergency services targeting",
-    "agentic ai"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aeae4fe1c423d6e45143b77"
-  },
-  {
-   "name": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
-   "summary": "Microsoft Threat Intelligence identified an evolving campaign targeting users searching for cracked commercial software, free games, activators, and unofficial utilities. The operation uses trojanized Inno Setup-style…",
-   "date": "2026-11-03T18:15:32+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "WorldProxyPool",
-    "CharityEngine",
-    "BOINC",
-    "AdvancedWindowsManager",
-    "Windows Manager",
-    "OfferLoader"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "boinc",
-    "monetization campaign",
-    "fake software",
-    "egairtigado",
-    "worldproxypool",
-    "distributed computing"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aea24c415c16b64650d5689"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-05T17:59:10+00:00",
-  "sans": "2026-11-05T17:59:10+00:00",
-  "otx": "2026-11-05T17:59:10+00:00",
-  "urlhaus": "2026-11-05T17:59:10+00:00"
+  "threatfox": "2026-11-05T23:26:52+00:00",
+  "sans": "2026-11-05T23:26:52+00:00",
+  "otx": "2026-11-05T23:26:52+00:00",
+  "urlhaus": "2026-11-05T23:26:52+00:00"
  },
- "generated_at": "2026-11-05T17:59:10+00:00"
+ "generated_at": "2026-11-05T23:26:52+00:00"
 }

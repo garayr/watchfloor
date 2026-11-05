@@ -10,20 +10,20 @@
      "date": "2026-11-05T13:22:12+00:00",
      "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "US charges two Canadians accused of hacking US universities",
-     "summary": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-04T13:13:20+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+     "summary": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-05T20:15:08+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "DigiCert data breach exposes customer information, identity documents",
      "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
@@ -115,6 +115,22 @@
      "source": "SecurityWeek",
      "date": "2026-11-05T17:32:37+00:00",
      "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+     "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name…",
+     "source": "The Hacker News",
+     "date": "2026-11-05T16:42:46+00:00",
+     "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+     "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence…",
+     "source": "The Hacker News",
+     "date": "2026-11-05T16:42:32+00:00",
+     "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
      "group": "Exploited right now"
     },
     {
@@ -220,38 +236,11 @@
      "group": "Exploited right now"
     },
     {
-     "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-     "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-04T14:42:25+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-     "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-04T12:11:05+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-119977"
-     ]
-    },
-    {
      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
      "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project…",
      "source": "The Hacker News",
      "date": "2026-11-04T12:07:04+00:00",
      "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-     "summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages…",
-     "source": "The Hacker News",
-     "date": "2026-11-04T11:46:27+00:00",
-     "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
      "group": "Exploited right now"
     }
    ]
@@ -259,6 +248,14 @@
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+     "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and…",
+     "source": "BleepingComputer",
+     "date": "2026-11-05T21:30:30+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Hackers backdoor Linux servers using trojanized CWP web server",
      "summary": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
@@ -288,6 +285,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+     "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-05T19:24:26+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+     "group": "Other news"
+    },
     {
      "title": "Closing the Identity Gap at the Service Desk",
      "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification…",
@@ -342,14 +347,6 @@
      "source": "SecurityWeek",
      "date": "2026-11-04T14:34:44+00:00",
      "url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
-     "group": "Other news"
-    },
-    {
-     "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-     "summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise…",
-     "source": "The Hacker News",
-     "date": "2026-11-04T11:34:20+00:00",
-     "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
      "group": "Other news"
     }
    ]
