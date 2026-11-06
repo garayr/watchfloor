@@ -17,6 +17,22 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+     "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and…",
+     "source": "BleepingComputer",
+     "date": "2026-11-06T22:27:25+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+     "summary": "The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan. The post Japan Announces…",
+     "source": "SecurityWeek",
+     "date": "2026-11-06T18:28:41+00:00",
+     "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
      "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
      "source": "BleepingComputer",
@@ -71,14 +87,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "DigiCert data breach exposes customer information, identity documents",
-     "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-05T16:12:46+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
      "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach…",
      "source": "The Hacker News",
@@ -99,6 +107,14 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+     "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws…",
+     "source": "BleepingComputer",
+     "date": "2026-11-06T20:24:19+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+     "group": "Exploited right now"
+    },
     {
      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks…",
@@ -183,14 +199,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
-     "summary": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-05T17:32:37+00:00",
-     "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
      "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name…",
      "source": "The Hacker News",
@@ -221,20 +229,20 @@
      "date": "2026-11-05T10:06:19+00:00",
      "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
-     "summary": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-05T09:18:29+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Fake security tools on GitHub push backdoors and infostealers",
+     "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-06T18:46:52+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
      "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes…",
@@ -342,14 +350,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-05T19:24:26+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-     "group": "Other news"
-    },
-    {
-     "title": "Closing the Identity Gap at the Service Desk",
-     "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification…",
-     "source": "BleepingComputer",
-     "date": "2026-11-05T15:00:10+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
      "group": "Other news"
     }
    ]

@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1770,
-  "c2_servers": 409,
+  "total_iocs": 1776,
+  "c2_servers": 405,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 577,
+    "iocs": 579,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "AMOS",
-    "iocs": 328,
+    "iocs": 331,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -31,76 +31,76 @@
    },
    {
     "name": "VShell",
-    "iocs": 56,
-    "c2": 11,
+    "iocs": 58,
+    "c2": 13,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 55,
-    "c2": 55,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "Vidar",
-    "iocs": 55,
-    "c2": 55,
+    "iocs": 50,
+    "c2": 50,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Mirai",
-    "iocs": 49,
-    "c2": 6,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 48,
+    "iocs": 49,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 48,
+    "c2": 48,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 40,
+    "c2": 6,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "Sliver",
-    "iocs": 36,
-    "c2": 36,
+    "iocs": 35,
+    "c2": 35,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 639,
+  "online": 654,
   "top_tags": [
    {
     "name": "github",
-    "count": 243
-   },
-   {
-    "name": "zapret",
-    "count": 193
+    "count": 242
    },
    {
     "name": "zip",
-    "count": 188
+    "count": 196
+   },
+   {
+    "name": "zapret",
+    "count": 195
    },
    {
     "name": "elf",
-    "count": 118
+    "count": 117
    },
    {
     "name": "Mozi",
-    "count": 85
+    "count": 88
    },
    {
     "name": "32-bit",
-    "count": 71
-   },
-   {
-    "name": "SalatStealer",
-    "count": 51
+    "count": 81
    },
    {
     "name": "arm",
+    "count": 47
+   },
+   {
+    "name": "SalatStealer",
     "count": 43
    }
   ]
@@ -211,6 +211,98 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+   "summary": "Armorsteal is a sophisticated Python-based malware kit that combines information stealing, cryptocurrency mining, and backdoor capabilities. Distributed through fake download pages for legitimate tools, it installs into…",
+   "date": "2026-11-06T14:11:04+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Armorsteal",
+    "XMRig"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "pyarmor obfuscation",
+    "credential harvesting",
+    "clipper",
+    "xmrig",
+    "xmrig miner",
+    "keylogger"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aeddff8a8cf552b829954c3"
+  },
+  {
+   "name": "Lookalike Domains Expose the iPhone Theft Economy",
+   "summary": "A thriving underground marketplace operating primarily through Telegram has emerged to unlock stolen iPhones, making phone theft profitable despite Apple's security features like Activation Lock. Thieves combine…",
+   "date": "2026-11-06T11:15:45+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "United States of America"
+   ],
+   "industries": [],
+   "tags": [
+    "device unlock",
+    "unlocking tools",
+    "phishing kits",
+    "smishing",
+    "iphone theft",
+    "telegram marketplace"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aedb6e121254ba434499c9a"
+  },
+  {
+   "name": "Inside Help TDS: Hotejka, Cloudflare Pages and Predictive Detection",
+   "summary": "Infoblox attributes the Help Traffic Distribution System (TDS) to Hotejka, a small Russian-language affiliate program believed to be a rebrand of ROI777, which was exposed in 2018. Operating since April 2017, this TDS…",
+   "date": "2026-11-06T11:15:44+00:00",
+   "author": "AlienVault",
+   "adversary": "Hotejka",
+   "malware": [
+    "UltraViewer"
+   ],
+   "countries": [
+    "United States of America",
+    "Australia",
+    "Belgium",
+    "Canada",
+    "France",
+    "Japan"
+   ],
+   "industries": [],
+   "tags": [
+    "ultraviewer",
+    "detour dog",
+    "cloudflare pages",
+    "roi777",
+    "hotejka",
+    "balada injector"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aedb6e052da4a432861b11c"
+  },
+  {
+   "name": "Remcos RAT",
+   "summary": "This intelligence analysis details a malicious campaign involving Remcos RAT, a commercially available remote access trojan. The attack chain begins with a weaponized Excel spreadsheet (Remittance Advice.xlsm) that…",
+   "date": "2026-11-06T11:15:43+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Remcos"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "powershell",
+    "excel weaponization",
+    "remcos rat",
+    "remote access trojan",
+    "command and control",
+    "remcos"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aedb6df481d077141e5e5e4"
+  },
   {
    "name": "ARTEX: Agentic Asbestos",
    "summary": "ARTEX is an open-source, LLM-driven autonomous penetration testing framework released in July 2026 that integrates AI agents with reconnaissance and exploitation capabilities. As of November 2026, 1,465 hosts run…",
@@ -417,104 +509,13 @@
     "bo team"
    ],
    "url": "https://otx.alienvault.com/pulse/6aec5fe933b8cac0f8ed7334"
-  },
-  {
-   "name": "How to detect fileless attacks exploiting ToolShell: analyzing the Storm-2603 incident",
-   "summary": "In 2025, threat actors exploited CVE-2025-53770 and CVE-2025-53771 (ToolShell vulnerabilities) in on-premises Microsoft SharePoint to achieve remote code execution. Storm-2603 deployed ransomware following successful…",
-   "date": "2026-11-05T10:52:25+00:00",
-   "author": "AlienVault",
-   "adversary": "Storm-2603",
-   "malware": [
-    "Warlock"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "velociraptor",
-    "token impersonation",
-    "cve-2025-53771",
-    "toolshell",
-    "cve-2025-53770",
-    "sharepoint"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aec5fe9d7ff10f7065a9f18"
-  },
-  {
-   "name": "Summary of Malicious Program Distribution via Goddess of Victory: NIKKE PC Launcher",
-   "summary": "Level Infinite disclosed that the PC launcher for the game \"Goddess of Victory: NIKKE\" was compromised when four script files on the official CDN were tampered with between September 27 and November 4, 2026. The…",
-   "date": "2026-11-05T08:27:50+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "K2F"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "luajit",
-    "gaming platform",
-    "domain hijacking",
-    "k2f",
-    "cdn compromise",
-    "cryptocurrency theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aec3e073e76c608aeccf05d"
-  },
-  {
-   "name": "Binance heist: what we know, and what we see in TraderTraitor's toolkit",
-   "summary": "In October 2026, attackers stole approximately $6.34 billion from Binance in one of the largest cryptocurrency thefts on record. The FBI attributed the attack to North Korea's TraderTraitor operation. The multi-stage…",
-   "date": "2026-11-05T08:22:58+00:00",
-   "author": "AlienVault",
-   "adversary": "TraderTraitor",
-   "malware": [
-    "FLATROOF",
-    "ROOFDECK",
-    "MacOS.Trojan.Multiverze",
-    "MacOS.Trojan.Generic",
-    "MacOS.Trojan.Flatroof",
-    "MacOS.Trojan.Gaslight"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "macos.exploit.reverseshell",
-    "macos.trojan.multiverze",
-    "macos.trojan.gaslight",
-    "devops targeting",
-    "fake job interview",
-    "macos.trojan.generic"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aec3ce29e33d6b94efd4c0f"
-  },
-  {
-   "name": "Grand Theft Auto VI Release Phishing Lures",
-   "summary": "Ahead of the highly anticipated Grand Theft Auto VI release on November 19, 2026, threat actors are exploiting consumer hype through phishing campaigns and fraudulent schemes. Analysis of 121 newly registered domains…",
-   "date": "2026-11-05T08:10:25+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Media"
-   ],
-   "tags": [
-    "trojan",
-    "social engineering",
-    "cryptocurrency scam",
-    "phishing",
-    "content locker",
-    "credential theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aec39f1c741f78d03f95337"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-06T18:16:50+00:00",
-  "sans": "2026-11-06T18:16:50+00:00",
-  "otx": "2026-11-06T18:16:50+00:00",
-  "urlhaus": "2026-11-06T18:16:50+00:00"
+  "threatfox": "2026-11-06T23:20:43+00:00",
+  "sans": "2026-11-06T23:20:43+00:00",
+  "otx": "2026-11-06T23:20:43+00:00",
+  "urlhaus": "2026-11-06T23:20:43+00:00"
  },
- "generated_at": "2026-11-06T18:16:50+00:00"
+ "generated_at": "2026-11-06T23:20:43+00:00"
 }

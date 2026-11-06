@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T18:16:50+00:00",
+ "generated_at": "2026-11-06T23:20:43+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,23 +10,23 @@
   },
   {
    "name": "medusalocker",
-   "count": 17
+   "count": 16
   },
   {
    "name": "BrainCipher",
    "count": 11
   },
   {
-   "name": "akira",
-   "count": 8
-  },
-  {
    "name": "safepay",
    "count": 8
   },
   {
-   "name": "Aoqin",
-   "count": 5
+   "name": "SilentRansomGroup",
+   "count": 7
+  },
+  {
+   "name": "akira",
+   "count": 7
   },
   {
    "name": "play",
@@ -39,7 +39,7 @@
  ],
  "by_sector": [
   {
-   "name": "Technology",
+   "name": "Professional Services",
    "count": 14
   },
   {
@@ -47,32 +47,32 @@
    "count": 12
   },
   {
-   "name": "Professional Services",
+   "name": "Technology",
    "count": 12
+  },
+  {
+   "name": "Healthcare",
+   "count": 7
   },
   {
    "name": "Other",
    "count": 7
   },
   {
-   "name": "Healthcare",
-   "count": 6
-  },
-  {
    "name": "Retail & E-Commerce",
-   "count": 6
+   "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 37,
+   "count": 39,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "CA",
-   "count": 6,
+   "count": 7,
    "lat": 43.7,
    "lon": -79.4
   },
@@ -93,18 +93,6 @@
    "count": 2,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "CH",
-   "count": 2,
-   "lat": 46.9,
-   "lon": 7.4
-  },
-  {
-   "code": "CN",
-   "count": 2,
-   "lat": 39.9,
-   "lon": 116.4
   },
   {
    "code": "GB",
@@ -137,10 +125,22 @@
    "lon": 4.4
   },
   {
+   "code": "CH",
+   "count": 1,
+   "lat": 46.9,
+   "lon": 7.4
+  },
+  {
    "code": "CL",
    "count": 1,
    "lat": -33.4,
    "lon": -70.6
+  },
+  {
+   "code": "CN",
+   "count": 1,
+   "lat": 39.9,
+   "lon": 116.4
   },
   {
    "code": "DK",
@@ -153,6 +153,12 @@
    "count": 1,
    "lat": 40.4,
    "lon": -3.7
+  },
+  {
+   "code": "FR",
+   "count": 1,
+   "lat": 48.9,
+   "lon": 2.35
   },
   {
    "code": "ID",
@@ -189,15 +195,63 @@
    "count": 1,
    "lat": 21.0,
    "lon": 105.8
-  },
-  {
-   "code": "ZA",
-   "count": 1,
-   "lat": -26.2,
-   "lon": 28.0
   }
  ],
  "victims": [
+  {
+   "victim": "https://www.sleep-clinic.ca/",
+   "group": "incransom",
+   "date": "2026-11-06T19:09:52+00:00",
+   "attack_date": "2026-11-06",
+   "country": "CA",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/aHR0cHM6Ly93d3cuc2xlZXAtY2xpbmljLmNhL0BpbmNyYW5zb20="
+  },
+  {
+   "victim": "Tucker Ellis",
+   "group": "SilentRansomGroup",
+   "date": "2026-11-06T18:58:03+00:00",
+   "attack_date": "2026-11-06",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/VHVja2VyIEVsbGlzQFNpbGVudFJhbnNvbUdyb3Vw"
+  },
+  {
+   "victim": "Wachtell, Lipton, Rosen & Katz",
+   "group": "SilentRansomGroup",
+   "date": "2026-11-06T18:57:43+00:00",
+   "attack_date": "2026-11-06",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/V2FjaHRlbGwsIExpcHRvbiwgUm9zZW4gJiBLYXR6QFNpbGVudFJhbnNvbUdyb3Vw"
+  },
+  {
+   "victim": "B... law",
+   "group": "SilentRansomGroup",
+   "date": "2026-11-06T16:36:19+00:00",
+   "attack_date": "2026-11-06",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Qi4uLiBsYXdAU2lsZW50UmFuc29tR3JvdXA="
+  },
+  {
+   "victim": "Ligne Roset",
+   "group": "akira",
+   "date": "2026-11-06T15:33:41+00:00",
+   "attack_date": "2026-11-06",
+   "country": "FR",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/TGlnbmUgUm9zZXRAYWtpcmE="
+  },
+  {
+   "victim": "Houston Machine and Thread",
+   "group": "akira",
+   "date": "2026-11-06T15:33:21+00:00",
+   "attack_date": "2026-11-06",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/SG91c3RvbiBNYWNoaW5lIGFuZCBUaHJlYWRAYWtpcmE="
+  },
   {
    "victim": "Algonomy",
    "group": "direwolf",
@@ -422,15 +476,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/V2VzdGJvcm8gUGFydG5lcnNAYWtpcmE="
-  },
-  {
-   "victim": "System Plus",
-   "group": "akira",
-   "date": "2026-11-05T14:34:04+00:00",
-   "attack_date": "2026-11-04",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/U3lzdGVtIFBsdXNAYWtpcmE="
   },
   {
    "victim": "David L Wade & Associates",
@@ -665,15 +710,6 @@
    "country": "BR",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/SW50ZXJhdGl2YSBQbGFzdGljb3MgKEludGVycGxhc3QpQG1lZHVzYWxvY2tlcg=="
-  },
-  {
-   "victim": "The Courier Guy",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:18:59+00:00",
-   "attack_date": "2026-11-04",
-   "country": "ZA",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/VGhlIENvdXJpZXIgR3V5QG1lZHVzYWxvY2tlcg=="
   },
   {
    "victim": "bataaab",
@@ -982,24 +1018,6 @@
    "url": "https://www.ransomware.live/id/RWwgQ2Fqb24sIENBQHJoeXNpZGE="
   },
   {
-   "victim": "Krishnan",
-   "group": "akira",
-   "date": "2026-11-04T14:30:26+00:00",
-   "attack_date": "2026-11-04",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/S3Jpc2huYW5AYWtpcmE="
-  },
-  {
-   "victim": "Erowa",
-   "group": "akira",
-   "date": "2026-11-04T14:30:04+00:00",
-   "attack_date": "2026-11-04",
-   "country": "CH",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RXJvd2FAYWtpcmE="
-  },
-  {
    "victim": "Company #132",
    "group": "N0n",
    "date": "2026-11-04T12:25:49+00:00",
@@ -1079,24 +1097,6 @@
    "country": "CL",
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/UGV0cm9zaGFoZChFbmFwIFNpcGV0cm9sIEludGVybmF0aW9uYWwgLSBFZ3lwdCBCcmFuY2gpQEFvcWlu"
-  },
-  {
-   "victim": "Nextron Technology",
-   "group": "Aoqin",
-   "date": "2026-11-04T00:53:18+00:00",
-   "attack_date": "2026-11-04",
-   "country": "CN",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/TmV4dHJvbiBUZWNobm9sb2d5QEFvcWlu"
-  },
-  {
-   "victim": "Goldsmith & Hull",
-   "group": "Aoqin",
-   "date": "2026-11-04T00:52:42+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/R29sZHNtaXRoICYgSHVsbEBBb3Fpbg=="
   }
  ]
 }

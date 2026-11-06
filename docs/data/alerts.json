@@ -1,6 +1,26 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-19868",
+   "date": "2026-11-06",
+   "src": "CISA",
+   "vendor": "SonicWall SonicOS SSLVPN",
+   "vendor_name": "SonicWall",
+   "product": "SonicOS SSLVPN",
+   "title": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+   "detail": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-20",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
+   "kev": true,
+   "cvss": 7.5,
+   "sev": "high"
+  },
+  {
    "id": "CVE-2024-27834",
    "date": "2026-11-04",
    "src": "CISA",

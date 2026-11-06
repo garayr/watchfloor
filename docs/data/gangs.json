@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T18:16:50+00:00",
+ "generated_at": "2026-11-06T23:20:43+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -2889,8 +2889,8 @@
    "description": "The Akira ransomware group is said to have emerged in March 2023, and there's much speculation about its ties to the former CONTI ransomware group. It's worth noting that with the end of CONTI's operation, several affiliates migrated to independent campaigns such as Royal, BlackBasta, and others. According to some reports, Akira affiliates also work with other ransomware operations, such as Snatch and BlackByte, as an open directory of tools used by an Akira operator was identified, which also had connections to the Snatch ransomware. The first version of the Akira ransomware was written in C++ and appended files with the '.akira' extension, creating a ransom note named 'akira_readme.txt,' partially based on the Conti V2 source code. However, on June 29, 2023, a decryptor for this version was reportedly released by Avast. Subsequently, a version was released that fixed the decryption flaw on July 2, 2023. Since then, the new version is said to be written in Rust, this time called 'megazord.exe,' and it changes the extension to '.powerranges' for encrypted files. Most of Akira's initial access vectors use brute-force attempts on Cisco VPN devices (which use single-factor…",
    "aliases": [],
    "first_seen": "2023-04-12",
-   "last_seen": "2026-10-30",
-   "victims_total": 1658,
+   "last_seen": "2026-11-06",
+   "victims_total": 1674,
    "cves": [
     {
      "id": "CVE-2022-40684",
@@ -2997,11 +2997,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 885
+      "count": 888
      },
      {
       "name": "CA",
-      "count": 83
+      "count": 84
      },
      {
       "name": "DE",
@@ -3017,29 +3017,29 @@
      },
      {
       "name": "CH",
-      "count": 27
+      "count": 28
      }
     ],
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 456
+      "count": 460
      },
      {
       "name": "Professional Services",
-      "count": 381
+      "count": 383
      },
      {
       "name": "Technology",
-      "count": 159
+      "count": 161
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 121
+      "count": 123
      },
      {
       "name": "Financial Services",
-      "count": 105
+      "count": 106
      },
      {
       "name": "Agriculture and Food Production",
@@ -3048,10 +3048,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 87
-    },
     {
      "month": "2025-12",
      "count": 71
@@ -3095,10 +3091,14 @@
     {
      "month": "2026-10",
      "count": 35
+    },
+    {
+     "month": "2026-11",
+     "count": 16
     }
    ],
-   "history_size": 1658,
-   "updated": "2026-10-30T23:14:32+00:00"
+   "history_size": 1674,
+   "updated": "2026-11-06T23:20:43+00:00"
   },
   "Redact": {
    "name": "Redact",
