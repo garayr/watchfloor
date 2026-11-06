@@ -25,6 +25,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+     "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While…",
+     "source": "The Hacker News",
+     "date": "2026-11-06T08:04:49+00:00",
+     "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
      "summary": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
      "source": "BleepingComputer",
@@ -87,28 +95,20 @@
      "date": "2026-11-04T16:58:46+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "mSecure password manager hack prompts password reset warnings",
-     "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted…",
-     "source": "BleepingComputer",
-     "date": "2026-11-04T16:00:18+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-     "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving…",
-     "source": "The Hacker News",
-     "date": "2026-11-04T14:27:52+00:00",
-     "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+     "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday…",
+     "source": "The Hacker News",
+     "date": "2026-11-06T05:39:10+00:00",
+     "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
      "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
@@ -193,14 +193,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
-     "summary": "OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently. The post OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit…",
-     "source": "SecurityWeek",
-     "date": "2026-11-05T10:02:00+00:00",
-     "url": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
      "summary": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
      "source": "BleepingComputer",
@@ -250,20 +242,20 @@
      "date": "2026-11-04T17:00:38+00:00",
      "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-     "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project…",
-     "source": "The Hacker News",
-     "date": "2026-11-04T12:07:04+00:00",
-     "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+     "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes…",
+     "source": "The Hacker News",
+     "date": "2026-11-06T05:58:54+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
      "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and…",
@@ -293,6 +285,22 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+     "summary": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet. The post OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions…",
+     "source": "SecurityWeek",
+     "date": "2026-11-06T09:33:51+00:00",
+     "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+     "group": "Other news"
+    },
+    {
+     "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+     "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-06T09:22:28+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+     "group": "Other news"
+    },
     {
      "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
      "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
@@ -339,14 +347,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-04T18:02:56+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
-     "group": "Other news"
-    },
-    {
-     "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-     "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI…",
-     "source": "The Hacker News",
-     "date": "2026-11-04T16:06:43+00:00",
-     "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
      "group": "Other news"
     }
    ]

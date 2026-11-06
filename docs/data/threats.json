@@ -2,182 +2,182 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1483,
-  "c2_servers": 438,
+  "total_iocs": 1482,
+  "c2_servers": 411,
   "families": [
    {
-    "name": "AMOS",
-    "iocs": 325,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 303,
+    "iocs": 389,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "Astaroth",
-    "iocs": 66,
-    "c2": 66,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.astaroth"
+    "name": "AMOS",
+    "iocs": 336,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
+   },
+   {
+    "name": "ValleyRAT",
+    "iocs": 85,
+    "c2": 85,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 67,
+    "c2": 67,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "IClickFix",
-    "iocs": 52,
+    "iocs": 46,
     "c2": 30,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Vidar",
-    "iocs": 49,
-    "c2": 49,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "SalatStealer",
-    "iocs": 48,
+    "iocs": 45,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "ClearFake",
-    "iocs": 38,
+    "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Unknown Stealer",
-    "iocs": 36,
-    "c2": 6,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
-   },
-   {
     "name": "VShell",
-    "iocs": 34,
-    "c2": 8,
+    "iocs": 40,
+    "c2": 12,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "ACR Stealer",
-    "iocs": 28,
-    "c2": 28,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.acr_stealer"
+    "name": "Cobalt Strike",
+    "iocs": 37,
+    "c2": 37,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
+    "name": "PureRAT",
+    "iocs": 26,
+    "c2": 17,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
  "urls": {
-  "sample": 720,
-  "online": 543,
+  "sample": 867,
+  "online": 567,
   "top_tags": [
    {
     "name": "github",
     "count": 217
    },
    {
+    "name": "Mozi",
+    "count": 177
+   },
+   {
+    "name": "zip",
+    "count": 163
+   },
+   {
     "name": "zapret",
     "count": 162
    },
    {
-    "name": "Mozi",
-    "count": 160
-   },
-   {
-    "name": "zip",
-    "count": 159
-   },
-   {
     "name": "elf",
-    "count": 132
+    "count": 155
+   },
+   {
+    "name": "32-bit",
+    "count": 101
    },
    {
     "name": "mirai",
     "count": 93
    },
    {
-    "name": "32-bit",
-    "count": 87
-   },
-   {
     "name": "arm",
-    "count": 52
+    "count": 60
    }
   ]
  },
  "ports": [
   {
+   "port": 161,
+   "service": "SNMP",
+   "records": 332942,
+   "targets": 254,
+   "sources": 842
+  },
+  {
    "port": 22,
    "service": "SSH",
-   "records": 962097,
-   "targets": 295,
-   "sources": 17106
+   "records": 242925,
+   "targets": 288,
+   "sources": 7729
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 771455,
-   "targets": 322,
-   "sources": 20812
-  },
-  {
-   "port": 161,
-   "service": "SNMP",
-   "records": 500605,
-   "targets": 263,
-   "sources": 1731
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 481587,
-   "targets": 291,
-   "sources": 15569
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 329887,
-   "targets": 296,
-   "sources": 14631
-  },
-  {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 276243,
-   "targets": 279,
-   "sources": 3179
+   "records": 215303,
+   "targets": 261,
+   "sources": 8641
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 235456,
-   "targets": 294,
-   "sources": 15331
+   "records": 192745,
+   "targets": 288,
+   "sources": 4991
   },
   {
-   "port": 2222,
-   "service": null,
-   "records": 194769,
-   "targets": 297,
-   "sources": 9090
+   "port": 23,
+   "service": "Telnet",
+   "records": 160759,
+   "targets": 286,
+   "sources": 7716
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 155468,
+   "targets": 255,
+   "sources": 5789
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 188565,
-   "targets": 295,
-   "sources": 11963
+   "records": 155440,
+   "targets": 290,
+   "sources": 4165
   },
   {
-   "port": 137,
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 112009,
+   "targets": 272,
+   "sources": 1391
+  },
+  {
+   "port": 2222,
    "service": null,
-   "records": 101747,
-   "targets": 228,
-   "sources": 1746
+   "records": 76645,
+   "targets": 291,
+   "sources": 5259
+  },
+  {
+   "port": 7680,
+   "service": null,
+   "records": 45801,
+   "targets": 30,
+   "sources": 2171
   }
  ],
- "ports_date": "2026-11-05",
+ "ports_date": "2026-11-06",
  "diary": [
   {
    "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
@@ -211,6 +211,91 @@
   }
  ],
  "pulses": [
+  {
+   "name": "ARTEX: Agentic Asbestos",
+   "summary": "ARTEX is an open-source, LLM-driven autonomous penetration testing framework released in July 2026 that integrates AI agents with reconnaissance and exploitation capabilities. As of November 2026, 1,465 hosts run…",
+   "date": "2026-11-06T08:02:59+00:00",
+   "author": "AlienVault",
+   "adversary": "Storm-0940",
+   "malware": [
+    "Cobalt Strike - S0154",
+    "Vshell",
+    "Adaptix C2"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "cobalt strike",
+    "autonomous pentesting",
+    "artex",
+    "adaptix c2",
+    "vshell",
+    "connectwise compromise"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aed89b36eddd48d6b209367"
+  },
+  {
+   "name": "A Dish Served Lukewarm: The Refrigerator Botnet",
+   "summary": "Exposed Dixell/Copeland XWEB PRO refrigeration controllers are being exploited as abuse infrastructure. The STRIKE Team discovered a suspected SMTP botnet comprising nine IP addresses, with three confirmed as…",
+   "date": "2026-11-06T01:52:08+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "Argentina",
+    "Belgium",
+    "Estonia",
+    "Finland",
+    "France",
+    "Hungary"
+   ],
+   "industries": [
+    "Retail"
+   ],
+   "tags": [
+    "cve-2026-25085",
+    "dixell copeland",
+    "proxy abuse",
+    "spam infrastructure",
+    "smtp botnet",
+    "refrigeration infrastructure"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aed32c8b1c53b811aaa8bb0"
+  },
+  {
+   "name": "Email threat landscape: Q3 2026 trends and insights",
+   "summary": "From July through September 2026, approximately 7.3 billion email-based phishing threats were detected, with September reaching nearly 3 billion attacks—a 41% increase from August. The quarter demonstrated significant…",
+   "date": "2026-11-05T20:45:44+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Agent Tesla - S0331"
+   ],
+   "countries": [
+    "United States of America",
+    "Chile",
+    "Colombia",
+    "Mexico",
+    "Spain"
+   ],
+   "industries": [
+    "Legal",
+    "Retail",
+    "Manufacturing",
+    "Finance"
+   ],
+   "tags": [
+    "svg attachments",
+    "qr code attacks",
+    "domain spoofing",
+    "agent tesla",
+    "teams social engineering",
+    "phishing campaigns"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aeceaf8cfe0e0287c9a54a1"
+  },
   {
    "name": "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel",
    "summary": "A sophisticated passive backdoor named cwpdoor has been discovered targeting Control Web Panel (CWP), a free open-source server management control panel for Linux. The malware embeds malicious code directly into the…",
@@ -423,94 +508,13 @@
     "credential theft"
    ],
    "url": "https://otx.alienvault.com/pulse/6aec39f1c741f78d03f95337"
-  },
-  {
-   "name": "Hackers exploited iOS and Android flaws to infect phones",
-   "summary": "Hackers potentially linked to Russia's Foreign Intelligence Service exploited previously patched iOS and Android vulnerabilities to target visitors of multiple websites. The operation included impersonating…",
-   "date": "2026-11-05T02:13:53+00:00",
-   "author": "AlienVault",
-   "adversary": "APT29",
-   "malware": [
-    "DarkSword"
-   ],
-   "countries": [
-    "United States of America",
-    "Ukraine",
-    "United Kingdom of Great Britain and Northern Ireland"
-   ],
-   "industries": [
-    "Government",
-    "Hospitality",
-    "Energy"
-   ],
-   "tags": [
-    "ukraine conflict",
-    "diplomatic targeting",
-    "zero-click exploits",
-    "ios exploitation",
-    "watering hole attacks",
-    "supply chain compromise"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aebe661b7e5525aa39d6ba8"
-  },
-  {
-   "name": "SkyW4lker Phishing Kit: Microsoft 365 Threat to US Firms",
-   "summary": "SkyW4lker is an active device-code phishing kit targeting Microsoft 365 users primarily in the United States, Europe, and other regions. By exploiting Microsoft's legitimate authentication process, attackers gain access…",
-   "date": "2026-11-04T21:08:21+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "British Indian Ocean Territory",
-    "Canada",
-    "India",
-    "United Kingdom of Great Britain and Northern Ireland"
-   ],
-   "industries": [
-    "Technology",
-    "Manufacturing",
-    "Government"
-   ],
-   "tags": [
-    "enterprise targeting",
-    "authentication abuse",
-    "skyw4lker",
-    "phishing kit",
-    "oauth compromise",
-    "microsoft 365"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aeb9ec5f0df7c45eb2cdd32"
-  },
-  {
-   "name": "ARTEX Exposed: Infrastructure Behind the South Korea Bank Hack",
-   "summary": "Between late September and early October 2026, seven South Korean financial institutions experienced breaches affecting approximately 66,000 individuals and 2,200 corporations. The intrusions were attributed to ARTEX…",
-   "date": "2026-11-04T16:52:37+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ARTEX"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "south-korean-banks",
-    "artex",
-    "autonomous-framework",
-    "open-directories",
-    "financial-intrusions",
-    "infrastructure-exposure"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aeb62d591162af275e93f90"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-06T03:31:42+00:00",
-  "sans": "2026-11-06T03:31:42+00:00",
-  "otx": "2026-11-06T03:31:42+00:00",
-  "urlhaus": "2026-11-06T03:31:42+00:00"
+  "threatfox": "2026-11-06T11:29:13+00:00",
+  "sans": "2026-11-06T11:29:13+00:00",
+  "otx": "2026-11-06T11:29:13+00:00",
+  "urlhaus": "2026-11-06T11:29:13+00:00"
  },
- "generated_at": "2026-11-06T03:31:42+00:00"
+ "generated_at": "2026-11-06T11:29:13+00:00"
 }

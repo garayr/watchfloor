@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T03:31:42+00:00",
+ "generated_at": "2026-11-06T11:29:13+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,7 +10,7 @@
   },
   {
    "name": "N0n",
-   "count": 12
+   "count": 15
   },
   {
    "name": "BrainCipher",
@@ -40,14 +40,14 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 15
-  },
-  {
-   "name": "Professional Services",
-   "count": 11
+   "count": 13
   },
   {
    "name": "Technology",
+   "count": 13
+  },
+  {
+   "name": "Professional Services",
    "count": 11
   },
   {
@@ -59,28 +59,28 @@
    "count": 7
   },
   {
-   "name": "Healthcare",
+   "name": "Retail & E-Commerce",
    "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 37,
+   "count": 38,
    "lat": 39.0,
    "lon": -77.5
-  },
-  {
-   "code": "DE",
-   "count": 7,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "CA",
    "count": 6,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "DE",
+   "count": 6,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "BR",
@@ -119,6 +119,12 @@
    "lon": -0.1
   },
   {
+   "code": "AE",
+   "count": 1,
+   "lat": 24.5,
+   "lon": 54.4
+  },
+  {
    "code": "AR",
    "count": 1,
    "lat": -34.6,
@@ -143,12 +149,6 @@
    "lon": 12.6
   },
   {
-   "code": "FR",
-   "count": 1,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
    "code": "ID",
    "count": 1,
    "lat": -6.2,
@@ -159,12 +159,6 @@
    "count": 1,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "SE",
-   "count": 1,
-   "lat": 59.3,
-   "lon": 18.1
   },
   {
    "code": "SI",
@@ -179,6 +173,12 @@
    "lon": 29.0
   },
   {
+   "code": "VN",
+   "count": 1,
+   "lat": 21.0,
+   "lon": 105.8
+  },
+  {
    "code": "ZA",
    "count": 1,
    "lat": -26.2,
@@ -186,6 +186,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Max Fashion",
+   "group": "N0n",
+   "date": "2026-11-06T01:24:03+00:00",
+   "attack_date": "2026-11-06",
+   "country": "AE",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/TWF4IEZhc2hpb25ATjBu"
+  },
+  {
+   "victim": "Hallmark Cards, Inc.",
+   "group": "N0n",
+   "date": "2026-11-06T01:23:31+00:00",
+   "attack_date": "2026-11-06",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/SGFsbG1hcmsgQ2FyZHMsIEluYy5ATjBu"
+  },
+  {
+   "victim": "Scry Analytics",
+   "group": "N0n",
+   "date": "2026-11-06T01:22:59+00:00",
+   "attack_date": "2026-11-06",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U2NyeSBBbmFseXRpY3NATjBu"
+  },
+  {
+   "victim": "ZipAI",
+   "group": "Vexy Ransomware",
+   "date": "2026-11-05T23:27:37+00:00",
+   "attack_date": "2026-11-05",
+   "country": "VN",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/WmlwQUlAVmV4eSBSYW5zb213YXJl"
+  },
   {
    "victim": "Smith, Gambrell & Russell, LLP",
    "group": "SilentRansomGroup",
@@ -374,15 +410,6 @@
    "country": "BR",
    "sector": "Financial Services",
    "url": "https://www.ransomware.live/id/TUFQRlJFIEJyYXNpbCAyMDI2QERlc3RlbGxv"
-  },
-  {
-   "victim": "MKG Kirchrode",
-   "group": "thegentlemen",
-   "date": "2026-11-05T06:03:08+00:00",
-   "attack_date": "2026-11-03",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TUtHIEtpcmNocm9kZUB0aGVnZW50bGVtZW4="
   },
   {
    "victim": "Delta Dental of Missouri",
@@ -1058,33 +1085,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Ry4uLiBSLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "Vetstoria",
-   "group": "Booba Project",
-   "date": "2026-11-03T12:21:25+00:00",
-   "attack_date": "2026-11-03",
-   "country": "SE",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/VmV0c3RvcmlhQEJvb2JhIFByb2plY3Q="
-  },
-  {
-   "victim": "City of Edgewater",
-   "group": "Booba Project",
-   "date": "2026-11-03T12:21:02+00:00",
-   "attack_date": "2026-11-03",
-   "country": "US",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/Q2l0eSBvZiBFZGdld2F0ZXJAQm9vYmEgUHJvamVjdA=="
-  },
-  {
-   "victim": "DROUIN SAS",
-   "group": "Booba Project",
-   "date": "2026-11-03T12:20:41+00:00",
-   "attack_date": "2026-11-03",
-   "country": "FR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RFJPVUlOIFNBU0BCb29iYSBQcm9qZWN0"
   }
  ]
 }
