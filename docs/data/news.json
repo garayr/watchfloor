@@ -10,20 +10,50 @@
      "date": "2026-11-06T03:03:29+00:00",
      "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
-     "summary": "More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-05T13:22:12+00:00",
-     "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+     "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-06T17:04:23+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "CVE-2026-96656",
+      "CVE-2026-96655",
+      "CVE-2026-96654",
+      "CVE-2026-96652"
+     ]
+    },
+    {
+     "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
+     "summary": "Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands. The post In Other News: Trezor Implant, LLMJacking…",
+     "source": "SecurityWeek",
+     "date": "2026-11-06T14:40:09+00:00",
+     "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Chainalysis says breach exposed credentials for all customers",
+     "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-06T14:17:07+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "DigiCert Data Breach Impacts Business Customer Information",
+     "summary": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses. The post DigiCert Data Breach Impacts Business Customer Information appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-06T14:00:07+00:00",
+     "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
      "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While…",
@@ -57,43 +87,11 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
-     "summary": "The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French Blood Bank Site but…",
-     "source": "SecurityWeek",
-     "date": "2026-11-05T12:58:32+00:00",
-     "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
      "summary": "A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the…",
      "source": "The Hacker News",
      "date": "2026-11-05T12:25:00+00:00",
      "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Vercel rolls out new protection against stolen session cookie attacks",
-     "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-04T21:31:18+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-     "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-04T19:05:19+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-     "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency…",
-     "source": "BleepingComputer",
-     "date": "2026-11-04T16:58:46+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
      "group": "Breaches and ransomware"
     }
    ]
@@ -101,6 +99,65 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+     "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks…",
+     "source": "The Hacker News",
+     "date": "2026-11-06T16:08:38+00:00",
+     "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-119977"
+     ]
+    },
+    {
+     "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+     "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as…",
+     "source": "The Hacker News",
+     "date": "2026-11-06T15:21:49+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+     "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The…",
+     "source": "The Hacker News",
+     "date": "2026-11-06T14:58:32+00:00",
+     "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+     "summary": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-06T13:19:52+00:00",
+     "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+     "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-06T12:37:22+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+     "summary": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters. The post OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-06T12:07:42+00:00",
+     "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+     "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was…",
+     "source": "The Hacker News",
+     "date": "2026-11-06T12:06:43+00:00",
+     "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
      "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday…",
@@ -150,38 +207,11 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
-     "summary": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-05T12:33:49+00:00",
-     "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-76418"
-     ]
-    },
-    {
      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
      "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API…",
      "source": "The Hacker News",
      "date": "2026-11-05T12:08:54+00:00",
      "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
-     "summary": "Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests. The post Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-05T10:56:41+00:00",
-     "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
-     "summary": "The large-scale watering hole campaign has been targeting entities in the US and Europe, mainly in Ukraine. The post Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes appeared first…",
-     "source": "SecurityWeek",
-     "date": "2026-11-05T10:37:13+00:00",
-     "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
      "group": "Exploited right now"
     },
     {
@@ -198,49 +228,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-05T09:18:29+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-     "summary": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a…",
-     "source": "The Hacker News",
-     "date": "2026-11-05T07:06:33+00:00",
-     "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog…",
-     "source": "The Hacker News",
-     "date": "2026-11-05T05:17:04+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2024-27834"
-     ]
-    },
-    {
-     "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-     "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-04T20:58:19+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-     "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that…",
-     "source": "The Hacker News",
-     "date": "2026-11-04T17:00:46+00:00",
-     "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-     "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier…",
-     "source": "The Hacker News",
-     "date": "2026-11-04T17:00:38+00:00",
-     "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
      "group": "Exploited right now"
     }
    ]
@@ -271,20 +258,68 @@
      "date": "2026-11-05T16:24:26+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-     "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services…",
-     "source": "The Hacker News",
-     "date": "2026-11-05T08:42:03+00:00",
-     "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+     "summary": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-06T15:25:31+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+     "group": "Other news"
+    },
+    {
+     "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+     "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-06T15:00:10+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+     "group": "Other news"
+    },
+    {
+     "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
+     "summary": "The recommendations come amid attacks targeting fridges and freezers in supermarkets and blood banks in Europe. The post US Agencies Urge Organizations to Harden Refrigeration Controllers appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-06T13:02:26+00:00",
+     "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
+     "group": "Other news"
+    },
+    {
+     "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+     "summary": "The October incident will cut fourth-quarter sales by up to €250 million and has led Ahold Delhaize to lower its 2026 outlook. The post Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack…",
+     "source": "SecurityWeek",
+     "date": "2026-11-06T12:47:55+00:00",
+     "url": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
+     "group": "Other news"
+    },
+    {
+     "title": "Researchers Find Residential Proxies on White House Network",
+     "summary": "In a month, 28 residential proxy services used 6 addresses, mainly between 5 p.m. and midnight, Eastern Time. The post Researchers Find Residential Proxies on White House Network appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-06T12:16:13+00:00",
+     "url": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+     "group": "Other news"
+    },
+    {
+     "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+     "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs…",
+     "source": "The Hacker News",
+     "date": "2026-11-06T12:06:35+00:00",
+     "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+     "group": "Other news"
+    },
+    {
+     "title": "The Flood is Coming And The Pipes Were Already Full",
+     "summary": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at…",
+     "source": "The Hacker News",
+     "date": "2026-11-06T11:30:00+00:00",
+     "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+     "group": "Other news"
+    },
     {
      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
      "summary": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet. The post OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions…",
@@ -315,38 +350,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-05T15:00:10+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
-     "group": "Other news"
-    },
-    {
-     "title": "The Agent Smith Dilemma: Governing Agentic Identities",
-     "summary": "Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter. The post The Agent Smith Dilemma: Governing Agentic Identities appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-05T11:15:00+00:00",
-     "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
-     "group": "Other news"
-    },
-    {
-     "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
-     "summary": "Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI. The post CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality…",
-     "source": "SecurityWeek",
-     "date": "2026-11-05T11:00:00+00:00",
-     "url": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
-     "group": "Other news"
-    },
-    {
-     "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-     "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users…",
-     "source": "The Hacker News",
-     "date": "2026-11-05T09:13:28+00:00",
-     "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Cyberattack disrupts blood storage refrigeration systems in France",
-     "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-04T18:02:56+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
      "group": "Other news"
     }
    ]
