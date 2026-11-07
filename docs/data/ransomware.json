@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T15:55:06+00:00",
+ "generated_at": "2026-11-07T19:45:47+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -11,10 +11,6 @@
   {
    "name": "medusalocker",
    "count": 16
-  },
-  {
-   "name": "BrainCipher",
-   "count": 12
   },
   {
    "name": "SilentRansomGroup",
@@ -29,22 +25,26 @@
    "count": 7
   },
   {
-   "name": "play",
+   "name": "qilin",
+   "count": 7
+  },
+  {
+   "name": "BrainCipher",
    "count": 5
   },
   {
-   "name": "qilin",
-   "count": 4
+   "name": "play",
+   "count": 5
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 16
+   "count": 17
   },
   {
    "name": "Technology",
-   "count": 16
+   "count": 15
   },
   {
    "name": "Professional Services",
@@ -52,21 +52,21 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Financial Services",
-   "count": 7
+   "count": 5
   },
   {
    "name": "Healthcare",
-   "count": 6
+   "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 38,
+   "count": 34,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -78,9 +78,15 @@
   },
   {
    "code": "DE",
-   "count": 5,
+   "count": 6,
    "lat": 50.1,
    "lon": 8.7
+  },
+  {
+   "code": "GB",
+   "count": 4,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "KR",
@@ -89,14 +95,8 @@
    "lon": 127.0
   },
   {
-   "code": "AU",
-   "count": 2,
-   "lat": -33.9,
-   "lon": 151.2
-  },
-  {
    "code": "BR",
-   "count": 2,
+   "count": 3,
    "lat": -23.5,
    "lon": -46.6
   },
@@ -111,12 +111,6 @@
    "count": 2,
    "lat": 55.7,
    "lon": 12.6
-  },
-  {
-   "code": "GB",
-   "count": 2,
-   "lat": 51.5,
-   "lon": -0.1
   },
   {
    "code": "IT",
@@ -141,6 +135,12 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
+  },
+  {
+   "code": "AU",
+   "count": 1,
+   "lat": -33.9,
+   "lon": 151.2
   },
   {
    "code": "CN",
@@ -185,6 +185,12 @@
    "lon": 46.7
   },
   {
+   "code": "TR",
+   "count": 1,
+   "lat": 41.0,
+   "lon": 29.0
+  },
+  {
    "code": "VN",
    "count": 1,
    "lat": 21.0,
@@ -192,6 +198,78 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Oak Green School",
+   "group": "qilin",
+   "date": "2026-11-07T14:32:10+00:00",
+   "attack_date": "2026-11-07",
+   "country": "GB",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/T2FrIEdyZWVuIFNjaG9vbEBxaWxpbg=="
+  },
+  {
+   "victim": "Gandol Doors",
+   "group": "qilin",
+   "date": "2026-11-07T14:31:27+00:00",
+   "attack_date": "2026-11-07",
+   "country": "TR",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/R2FuZG9sIERvb3JzQHFpbGlu"
+  },
+  {
+   "victim": "Amber Management Ltd",
+   "group": "qilin",
+   "date": "2026-11-07T14:30:35+00:00",
+   "attack_date": "2026-11-07",
+   "country": "GB",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/QW1iZXIgTWFuYWdlbWVudCBMdGRAcWlsaW4="
+  },
+  {
+   "victim": "Tribunal de Justica do Estado de Minas Gerais",
+   "group": "rhysida",
+   "date": "2026-11-07T13:16:04+00:00",
+   "attack_date": "2026-11-07",
+   "country": "BR",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/VHJpYnVuYWwgZGUgSnVzdGljYSBkbyBFc3RhZG8gZGUgTWluYXMgR2VyYWlzQHJoeXNpZGE="
+  },
+  {
+   "victim": "Autohaus Arnold",
+   "group": "payload",
+   "date": "2026-11-07T13:15:06+00:00",
+   "attack_date": "2026-11-07",
+   "country": "DE",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/QXV0b2hhdXMgQXJub2xkQHBheWxvYWQ="
+  },
+  {
+   "victim": "Brauco",
+   "group": "payload",
+   "date": "2026-11-07T13:13:44+00:00",
+   "attack_date": "2026-11-07",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QnJhdWNvQHBheWxvYWQ="
+  },
+  {
+   "victim": "Schroers Ingenieure",
+   "group": "payload",
+   "date": "2026-11-07T13:12:23+00:00",
+   "attack_date": "2026-11-07",
+   "country": "DE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/U2Nocm9lcnMgSW5nZW5pZXVyZUBwYXlsb2Fk"
+  },
+  {
+   "victim": "Otto Stops",
+   "group": "payload",
+   "date": "2026-11-07T13:11:05+00:00",
+   "attack_date": "2026-11-07",
+   "country": null,
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/T3R0byBTdG9wc0BwYXlsb2Fk"
+  },
   {
    "victim": "Christie Digital Systems",
    "group": "metaencryptor",
@@ -1019,78 +1097,6 @@
    "country": "US",
    "sector": "Agriculture and Food Production",
    "url": "https://www.ransomware.live/id/cHJhaXJpZXJpZGdlLm5ldEBCcmFpbkNpcGhlcg=="
-  },
-  {
-   "victim": "ciscocems.com",
-   "group": "BrainCipher",
-   "date": "2026-11-04T19:23:13+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Y2lzY29jZW1zLmNvbUBCcmFpbkNpcGhlcg=="
-  },
-  {
-   "victim": "parkell.com",
-   "group": "BrainCipher",
-   "date": "2026-11-04T19:22:34+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/cGFya2VsbC5jb21AQnJhaW5DaXBoZXI="
-  },
-  {
-   "victim": "tritonclaims.com",
-   "group": "BrainCipher",
-   "date": "2026-11-04T19:21:56+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/dHJpdG9uY2xhaW1zLmNvbUBCcmFpbkNpcGhlcg=="
-  },
-  {
-   "victim": "cadorath.com",
-   "group": "BrainCipher",
-   "date": "2026-11-04T19:21:18+00:00",
-   "attack_date": "2026-11-04",
-   "country": "DE",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Y2Fkb3JhdGguY29tQEJyYWluQ2lwaGVy"
-  },
-  {
-   "victim": "spearcenter.com",
-   "group": "BrainCipher",
-   "date": "2026-11-04T18:22:54+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/c3BlYXJjZW50ZXIuY29tQEJyYWluQ2lwaGVy"
-  },
-  {
-   "victim": "myronl.com",
-   "group": "BrainCipher",
-   "date": "2026-11-04T18:22:20+00:00",
-   "attack_date": "2026-11-04",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/bXlyb25sLmNvbUBCcmFpbkNpcGhlcg=="
-  },
-  {
-   "victim": "megastarfinancial.com",
-   "group": "BrainCipher",
-   "date": "2026-11-04T18:21:44+00:00",
-   "attack_date": "2026-11-04",
-   "country": null,
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/bWVnYXN0YXJmaW5hbmNpYWwuY29tQEJyYWluQ2lwaGVy"
-  },
-  {
-   "victim": "prospecthillcamberwell.com.au",
-   "group": "safepay",
-   "date": "2026-11-04T17:56:02+00:00",
-   "attack_date": "2026-11-04",
-   "country": "AU",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/cHJvc3BlY3RoaWxsY2FtYmVyd2VsbC5jb20uYXVAc2FmZXBheQ=="
   }
  ]
 }
