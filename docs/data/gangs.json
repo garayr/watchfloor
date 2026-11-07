@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T09:41:36+00:00",
+ "generated_at": "2026-11-07T15:55:06+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1070,8 +1070,8 @@
    "description": "Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The group utilizes a namesake ransomware through phishing attacks and Cobalt Strike to breach the targets' networks and deploy their payloads. The group threatens to publicly distribute exfiltrated data if the ransom is not paid, and it's worth mentioning that Rhysida is still in the early stages of development. The ransomware leaves PDF notes in the affected folders, instructing victims to contact the group through its portal, and payment is made via Bitcoin. After encryption, the ransomware appends the extension '.ryshida' to encrypted files. Source: https://github.com/crocodyli/ThreatActors-TTPs",
    "aliases": [],
    "first_seen": "2023-06-05",
-   "last_seen": "2026-10-29",
-   "victims_total": 308,
+   "last_seen": "2026-11-07",
+   "victims_total": 316,
    "cves": [
     {
      "id": "CVE-2026-50751",
@@ -1136,7 +1136,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 133
+      "count": 135
      },
      {
       "name": "CA",
@@ -1162,7 +1162,7 @@
     "sectors": [
      {
       "name": "Education",
-      "count": 58
+      "count": 60
      },
      {
       "name": "Healthcare",
@@ -1170,15 +1170,15 @@
      },
      {
       "name": "Professional Services",
-      "count": 46
+      "count": 47
      },
      {
       "name": "Government & Defense",
-      "count": 33
+      "count": 34
      },
      {
       "name": "Manufacturing",
-      "count": 32
+      "count": 33
      },
      {
       "name": "Technology",
@@ -1187,10 +1187,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 11
-    },
     {
      "month": "2025-12",
      "count": 11
@@ -1233,11 +1229,15 @@
     },
     {
      "month": "2026-10",
-     "count": 16
+     "count": 19
+    },
+    {
+     "month": "2026-11",
+     "count": 5
     }
    ],
-   "history_size": 308,
-   "updated": "2026-10-29T21:54:46+00:00"
+   "history_size": 316,
+   "updated": "2026-11-07T15:55:06+00:00"
   },
   "lamashtu": {
    "name": "lamashtu",
@@ -6070,8 +6070,8 @@
    "description": "MetaEncryptor is a ransomware group first observed in mid-2023, targeting medium-to-large enterprises in legal, technology, logistics, manufacturing, and finance sectors primarily in the UK, Europe, and Southeast Asia, using AES-256/RSA-2048 encryption and double extortion.",
    "aliases": [],
    "first_seen": "2023-08-16",
-   "last_seen": "2026-10-12",
-   "victims_total": 57,
+   "last_seen": "2026-11-07",
+   "victims_total": 64,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -6080,11 +6080,15 @@
     "countries": [
      {
       "name": "US",
-      "count": 22
+      "count": 25
      },
      {
       "name": "DE",
       "count": 10
+     },
+     {
+      "name": "KR",
+      "count": 6
      },
      {
       "name": "CA",
@@ -6095,10 +6099,6 @@
       "count": 3
      },
      {
-      "name": "KR",
-      "count": 2
-     },
-     {
       "name": "AT",
       "count": 1
      }
@@ -6106,7 +6106,7 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 13
+      "count": 17
      },
      {
       "name": "Professional Services",
@@ -6114,7 +6114,7 @@
      },
      {
       "name": "Technology",
-      "count": 7
+      "count": 9
      },
      {
       "name": "Healthcare",
@@ -6131,10 +6131,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -6178,10 +6174,14 @@
     {
      "month": "2026-10",
      "count": 2
+    },
+    {
+     "month": "2026-11",
+     "count": 7
     }
    ],
-   "history_size": 57,
-   "updated": "2026-10-12T19:27:43+00:00"
+   "history_size": 64,
+   "updated": "2026-11-07T15:55:06+00:00"
   },
   "Dark Project": {
    "name": "Dark Project",

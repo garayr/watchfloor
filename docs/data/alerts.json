@@ -17,9 +17,16 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
    "kev": true,
+   "epss": 0.0062,
    "cvss": 7.5,
    "sev": "high",
    "news": [
+    {
+     "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+     "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+     "source": "SecurityWeek",
+     "date": "2026-11-07T10:16:23+00:00"
+    },
     {
      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
@@ -637,7 +644,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
    "kev": true,
-   "epss": 0.7947,
+   "epss": 0.8448,
    "cvss": 5.5,
    "sev": "critical"
   },
@@ -808,18 +815,6 @@
    "epss": 0.0411,
    "cvss": 4.9,
    "sev": "high"
-  },
-  {
-   "id": "https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data",
-   "date": "2026-10-08",
-   "src": "NCSC",
-   "vendor": "NCSC",
-   "title": "China-linked malicious actors called out by UK and international partners for targeting sensitive data globally",
-   "detail": "Joint advisory with international partners highlights malicious targeting of organisations from a range of sectors across the globe.",
-   "todo": "Read the advisory for affected products and mitigations.",
-   "cves": [],
-   "url": "https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data",
-   "sev": "medium"
   }
  ]
 }

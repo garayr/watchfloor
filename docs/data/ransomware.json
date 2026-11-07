@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-07T09:41:36+00:00",
+ "generated_at": "2026-11-07T15:55:06+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
-   "name": "medusalocker",
-   "count": 16
+   "name": "N0n",
+   "count": 19
   },
   {
-   "name": "N0n",
-   "count": 15
+   "name": "medusalocker",
+   "count": 16
   },
   {
    "name": "BrainCipher",
@@ -21,11 +21,11 @@
    "count": 8
   },
   {
-   "name": "safepay",
-   "count": 8
+   "name": "akira",
+   "count": 7
   },
   {
-   "name": "akira",
+   "name": "metaencryptor",
    "count": 7
   },
   {
@@ -33,48 +33,42 @@
    "count": 5
   },
   {
-   "name": "Dark Project",
+   "name": "qilin",
    "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 14
+   "count": 16
+  },
+  {
+   "name": "Technology",
+   "count": 16
   },
   {
    "name": "Professional Services",
    "count": 14
   },
   {
-   "name": "Technology",
-   "count": 13
+   "name": "Retail & E-Commerce",
+   "count": 9
+  },
+  {
+   "name": "Financial Services",
+   "count": 7
   },
   {
    "name": "Healthcare",
-   "count": 7
-  },
-  {
-   "name": "Other",
-   "count": 7
-  },
-  {
-   "name": "Retail & E-Commerce",
-   "count": 7
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 37,
+   "count": 38,
    "lat": 39.0,
    "lon": -77.5
-  },
-  {
-   "code": "DE",
-   "count": 8,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "CA",
@@ -83,16 +77,34 @@
    "lon": -79.4
   },
   {
-   "code": "BR",
-   "count": 3,
-   "lat": -23.5,
-   "lon": -46.6
+   "code": "DE",
+   "count": 5,
+   "lat": 50.1,
+   "lon": 8.7
+  },
+  {
+   "code": "KR",
+   "count": 4,
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "AU",
    "count": 2,
    "lat": -33.9,
    "lon": 151.2
+  },
+  {
+   "code": "BR",
+   "count": 2,
+   "lat": -23.5,
+   "lon": -46.6
+  },
+  {
+   "code": "CH",
+   "count": 2,
+   "lat": 46.9,
+   "lon": 7.4
   },
   {
    "code": "DK",
@@ -131,28 +143,10 @@
    "lon": -58.4
   },
   {
-   "code": "BE",
-   "count": 1,
-   "lat": 50.8,
-   "lon": 4.4
-  },
-  {
-   "code": "CH",
-   "count": 1,
-   "lat": 46.9,
-   "lon": 7.4
-  },
-  {
    "code": "CN",
    "count": 1,
    "lat": 39.9,
    "lon": 116.4
-  },
-  {
-   "code": "ES",
-   "count": 1,
-   "lat": 40.4,
-   "lon": -3.7
   },
   {
    "code": "FR",
@@ -198,6 +192,114 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Christie Digital Systems",
+   "group": "metaencryptor",
+   "date": "2026-11-07T11:43:20+00:00",
+   "attack_date": "2026-11-07",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/Q2hyaXN0aWUgRGlnaXRhbCBTeXN0ZW1zQG1ldGFlbmNyeXB0b3I="
+  },
+  {
+   "victim": "Daeah E&C",
+   "group": "metaencryptor",
+   "date": "2026-11-07T11:42:38+00:00",
+   "attack_date": "2026-11-07",
+   "country": "KR",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RGFlYWggRSZDQG1ldGFlbmNyeXB0b3I="
+  },
+  {
+   "victim": "DAEWON Chemical",
+   "group": "metaencryptor",
+   "date": "2026-11-07T11:41:54+00:00",
+   "attack_date": "2026-11-07",
+   "country": "KR",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/REFFV09OIENoZW1pY2FsQG1ldGFlbmNyeXB0b3I="
+  },
+  {
+   "victim": "Wooshin Systems",
+   "group": "metaencryptor",
+   "date": "2026-11-07T11:41:12+00:00",
+   "attack_date": "2026-11-07",
+   "country": "KR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/V29vc2hpbiBTeXN0ZW1zQG1ldGFlbmNyeXB0b3I="
+  },
+  {
+   "victim": "Proterial America, Ltd.",
+   "group": "metaencryptor",
+   "date": "2026-11-07T11:40:31+00:00",
+   "attack_date": "2026-11-07",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UHJvdGVyaWFsIEFtZXJpY2EsIEx0ZC5AbWV0YWVuY3J5cHRvcg=="
+  },
+  {
+   "victim": "Hyundai E&C",
+   "group": "metaencryptor",
+   "date": "2026-11-07T11:39:48+00:00",
+   "attack_date": "2026-11-07",
+   "country": "KR",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/SHl1bmRhaSBFJkNAbWV0YWVuY3J5cHRvcg=="
+  },
+  {
+   "victim": "Pekin Insurance",
+   "group": "metaencryptor",
+   "date": "2026-11-07T11:39:07+00:00",
+   "attack_date": "2026-11-07",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/UGVraW4gSW5zdXJhbmNlQG1ldGFlbmNyeXB0b3I="
+  },
+  {
+   "victim": "Staples, Inc. / SBD Inc.",
+   "group": "N0n",
+   "date": "2026-11-07T10:54:52+00:00",
+   "attack_date": "2026-11-07",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/U3RhcGxlcywgSW5jLiAvIFNCRCBJbmMuQE4wbg=="
+  },
+  {
+   "victim": "Lampenwelt GmbH",
+   "group": "N0n",
+   "date": "2026-11-07T10:54:16+00:00",
+   "attack_date": "2026-11-07",
+   "country": "DE",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/TGFtcGVud2VsdCBHbWJIQE4wbg=="
+  },
+  {
+   "victim": "Infutor Data Solutions",
+   "group": "N0n",
+   "date": "2026-11-07T10:53:42+00:00",
+   "attack_date": "2026-11-07",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/SW5mdXRvciBEYXRhIFNvbHV0aW9uc0BOMG4="
+  },
+  {
+   "victim": "Higginbotham",
+   "group": "N0n",
+   "date": "2026-11-07T10:53:07+00:00",
+   "attack_date": "2026-11-07",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/SGlnZ2luYm90aGFtQE4wbg=="
+  },
+  {
+   "victim": "Treuhand & Immobilien Abt AG",
+   "group": "rhysida",
+   "date": "2026-11-07T08:18:16+00:00",
+   "attack_date": "2026-11-07",
+   "country": "CH",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/VHJldWhhbmQgJiBJbW1vYmlsaWVuIEFidCBBR0ByaHlzaWRh"
+  },
   {
    "victim": "maersk",
    "group": "Whitearmor",
@@ -658,15 +760,6 @@
    "url": "https://www.ransomware.live/id/VGhlIENvbnRhaW5lciBTdG9yZUBOMG4="
   },
   {
-   "victim": "centratamagroup.com",
-   "group": "lockbit5",
-   "date": "2026-11-04T23:14:32+00:00",
-   "attack_date": "2026-11-04",
-   "country": "BR",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/Y2VudHJhdGFtYWdyb3VwLmNvbUBsb2NrYml0NQ=="
-  },
-  {
    "victim": "Msn",
    "group": "medusalocker",
    "date": "2026-11-04T22:27:24+00:00",
@@ -901,24 +994,6 @@
    "url": "https://www.ransomware.live/id/Vy4uLiBHLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
   },
   {
-   "victim": "Homestead Creamery",
-   "group": "Dark Project",
-   "date": "2026-11-04T20:29:14+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/SG9tZXN0ZWFkIENyZWFtZXJ5QERhcmsgUHJvamVjdA=="
-  },
-  {
-   "victim": "Food Bank of Central Louisiana",
-   "group": "Dark Project",
-   "date": "2026-11-04T20:28:28+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/Rm9vZCBCYW5rIG9mIENlbnRyYWwgTG91aXNpYW5hQERhcmsgUHJvamVjdA=="
-  },
-  {
    "victim": "Simplehuman",
    "group": "Dark Project",
    "date": "2026-11-04T20:27:47+00:00",
@@ -1016,87 +1091,6 @@
    "country": "AU",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/cHJvc3BlY3RoaWxsY2FtYmVyd2VsbC5jb20uYXVAc2FmZXBheQ=="
-  },
-  {
-   "victim": "jhz-bernardshof.de",
-   "group": "safepay",
-   "date": "2026-11-04T17:55:15+00:00",
-   "attack_date": "2026-11-04",
-   "country": "DE",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/amh6LWJlcm5hcmRzaG9mLmRlQHNhZmVwYXk="
-  },
-  {
-   "victim": "ehrenwall.de",
-   "group": "safepay",
-   "date": "2026-11-04T17:54:37+00:00",
-   "attack_date": "2026-11-04",
-   "country": "DE",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/ZWhyZW53YWxsLmRlQHNhZmVwYXk="
-  },
-  {
-   "victim": "ruscopackaging.com",
-   "group": "safepay",
-   "date": "2026-11-04T17:53:53+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/cnVzY29wYWNrYWdpbmcuY29tQHNhZmVwYXk="
-  },
-  {
-   "victim": "valemany.com",
-   "group": "safepay",
-   "date": "2026-11-04T17:53:16+00:00",
-   "attack_date": "2026-11-04",
-   "country": "ES",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/dmFsZW1hbnkuY29tQHNhZmVwYXk="
-  },
-  {
-   "victim": "titres-services.net",
-   "group": "safepay",
-   "date": "2026-11-04T17:52:27+00:00",
-   "attack_date": "2026-11-04",
-   "country": "BE",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/dGl0cmVzLXNlcnZpY2VzLm5ldEBzYWZlcGF5"
-  },
-  {
-   "victim": "sportschule-steinbach.de",
-   "group": "safepay",
-   "date": "2026-11-04T17:51:37+00:00",
-   "attack_date": "2026-11-04",
-   "country": "DE",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/c3BvcnRzY2h1bGUtc3RlaW5iYWNoLmRlQHNhZmVwYXk="
-  },
-  {
-   "victim": "fuss-sprunggelenk.de",
-   "group": "safepay",
-   "date": "2026-11-04T17:50:55+00:00",
-   "attack_date": "2026-11-04",
-   "country": "DE",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/ZnVzcy1zcHJ1bmdnZWxlbmsuZGVAc2FmZXBheQ=="
-  },
-  {
-   "victim": "Kontron North America",
-   "group": "Global Secret Group",
-   "date": "2026-11-04T17:22:40+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/S29udHJvbiBOb3J0aCBBbWVyaWNhQEdsb2JhbCBTZWNyZXQgR3JvdXA="
-  },
-  {
-   "victim": "El Cajon, CA",
-   "group": "rhysida",
-   "date": "2026-11-04T16:55:52+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/RWwgQ2Fqb24sIENBQHJoeXNpZGE="
   }
  ]
 }
