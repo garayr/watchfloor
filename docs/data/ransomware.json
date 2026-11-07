@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-11-07T02:58:19+00:00",
+ "generated_at": "2026-11-07T09:41:36+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
-   "name": "N0n",
-   "count": 20
-  },
-  {
    "name": "medusalocker",
    "count": 16
+  },
+  {
+   "name": "N0n",
+   "count": 15
   },
   {
    "name": "BrainCipher",
    "count": 12
   },
   {
-   "name": "safepay",
+   "name": "SilentRansomGroup",
    "count": 8
   },
   {
-   "name": "SilentRansomGroup",
-   "count": 7
+   "name": "safepay",
+   "count": 8
   },
   {
    "name": "akira",
@@ -39,16 +39,16 @@
  ],
  "by_sector": [
   {
+   "name": "Manufacturing",
+   "count": 14
+  },
+  {
    "name": "Professional Services",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Technology",
    "count": 13
-  },
-  {
-   "name": "Manufacturing",
-   "count": 12
   },
   {
    "name": "Healthcare",
@@ -66,21 +66,21 @@
  "by_country": [
   {
    "code": "US",
-   "count": 40,
+   "count": 37,
    "lat": 39.0,
    "lon": -77.5
+  },
+  {
+   "code": "DE",
+   "count": 8,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "CA",
    "count": 7,
    "lat": 43.7,
    "lon": -79.4
-  },
-  {
-   "code": "DE",
-   "count": 7,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "BR",
@@ -93,6 +93,12 @@
    "count": 2,
    "lat": -33.9,
    "lon": 151.2
+  },
+  {
+   "code": "DK",
+   "count": 2,
+   "lat": 55.7,
+   "lon": 12.6
   },
   {
    "code": "GB",
@@ -111,6 +117,12 @@
    "count": 1,
    "lat": 24.5,
    "lon": 54.4
+  },
+  {
+   "code": "AL",
+   "count": 1,
+   "lat": 41.3,
+   "lon": 19.8
   },
   {
    "code": "AR",
@@ -135,12 +147,6 @@
    "count": 1,
    "lat": 39.9,
    "lon": 116.4
-  },
-  {
-   "code": "DK",
-   "count": 1,
-   "lat": 55.7,
-   "lon": 12.6
   },
   {
    "code": "ES",
@@ -192,6 +198,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "maersk",
+   "group": "Whitearmor",
+   "date": "2026-11-07T03:48:01+00:00",
+   "attack_date": "2026-11-07",
+   "country": "DK",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/bWFlcnNrQFdoaXRlYXJtb3I="
+  },
+  {
+   "victim": "Acondistec",
+   "group": "qilin",
+   "date": "2026-11-07T01:34:21+00:00",
+   "attack_date": "2026-11-06",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/QWNvbmRpc3RlY0BxaWxpbg=="
+  },
+  {
+   "victim": "Kahler Automation",
+   "group": "anubis",
+   "date": "2026-11-07T01:08:56+00:00",
+   "attack_date": "2026-11-07",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/S2FobGVyIEF1dG9tYXRpb25AYW51Ymlz"
+  },
+  {
+   "victim": "Benesch Law",
+   "group": "SilentRansomGroup",
+   "date": "2026-11-07T01:07:11+00:00",
+   "attack_date": "2026-11-07",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QmVuZXNjaCBMYXdAU2lsZW50UmFuc29tR3JvdXA="
+  },
+  {
+   "victim": "1da9100e55aqf21eb651eNea",
+   "group": "incransom",
+   "date": "2026-11-07T00:15:21+00:00",
+   "attack_date": "2026-11-06",
+   "country": "AL",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/MWRhOTEwMGU1NWFxZjIxZWI2NTFlTmVhQGluY3JhbnNvbQ=="
+  },
   {
    "victim": "Mutares.com",
    "group": "BrainCipher",
@@ -1046,51 +1097,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/RWwgQ2Fqb24sIENBQHJoeXNpZGE="
-  },
-  {
-   "victim": "Company #132",
-   "group": "N0n",
-   "date": "2026-11-04T12:25:49+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTMyQE4wbg=="
-  },
-  {
-   "victim": "Company #131",
-   "group": "N0n",
-   "date": "2026-11-04T12:25:12+00:00",
-   "attack_date": "2026-11-04",
-   "country": "DE",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTMxQE4wbg=="
-  },
-  {
-   "victim": "Company #130",
-   "group": "N0n",
-   "date": "2026-11-04T12:24:34+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTMwQE4wbg=="
-  },
-  {
-   "victim": "Company #129",
-   "group": "N0n",
-   "date": "2026-11-04T12:23:54+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTI5QE4wbg=="
-  },
-  {
-   "victim": "Company #128",
-   "group": "N0n",
-   "date": "2026-11-04T12:23:16+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTI4QE4wbg=="
   }
  ]
 }
