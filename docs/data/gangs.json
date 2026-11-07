@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T23:20:43+00:00",
+ "generated_at": "2026-11-07T02:58:19+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -2251,8 +2251,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-08-14",
-   "last_seen": "2026-10-17",
-   "victims_total": 20,
+   "last_seen": "2026-11-06",
+   "victims_total": 21,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -2298,24 +2298,20 @@
       "count": 3
      },
      {
+      "name": "Transportation",
+      "count": 3
+     },
+     {
       "name": "Healthcare",
       "count": 2
      },
      {
       "name": "Hospitality",
       "count": 2
-     },
-     {
-      "name": "Professional Services",
-      "count": 2
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -2359,10 +2355,14 @@
     {
      "month": "2026-10",
      "count": 9
+    },
+    {
+     "month": "2026-11",
+     "count": 1
     }
    ],
-   "history_size": 20,
-   "updated": "2026-10-18T03:05:51+00:00"
+   "history_size": 21,
+   "updated": "2026-11-07T02:58:19+00:00"
   },
   "qilin": {
    "name": "qilin",
@@ -2771,8 +2771,8 @@
    "description": "Genesis is an emerging ransomware group first observed in late 2025, targeting small to mid-sized US organizations across healthcare, retail, financial services, legal, and manufacturing using double-extortion tactics, focusing heavily on data exfiltration and public leaking.",
    "aliases": [],
    "first_seen": "2024-05-07",
-   "last_seen": "2026-10-28",
-   "victims_total": 122,
+   "last_seen": "2026-11-06",
+   "victims_total": 133,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -2781,7 +2781,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 108
+      "count": 118
      },
      {
       "name": "GB",
@@ -2789,7 +2789,7 @@
      },
      {
       "name": "CA",
-      "count": 2
+      "count": 3
      },
      {
       "name": "DK",
@@ -2807,23 +2807,23 @@
     "sectors": [
      {
       "name": "Professional Services",
-      "count": 30
+      "count": 34
      },
      {
       "name": "Healthcare",
-      "count": 26
+      "count": 27
      },
      {
       "name": "Manufacturing",
-      "count": 16
+      "count": 19
      },
      {
       "name": "Technology",
-      "count": 12
+      "count": 13
      },
      {
       "name": "Financial Services",
-      "count": 9
+      "count": 10
      },
      {
       "name": "Retail & E-Commerce",
@@ -2832,10 +2832,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 4
-    },
     {
      "month": "2025-12",
      "count": 8
@@ -2878,11 +2874,15 @@
     },
     {
      "month": "2026-10",
-     "count": 5
+     "count": 14
+    },
+    {
+     "month": "2026-11",
+     "count": 2
     }
    ],
-   "history_size": 122,
-   "updated": "2026-10-29T01:59:16+00:00"
+   "history_size": 133,
+   "updated": "2026-11-07T02:58:19+00:00"
   },
   "akira": {
    "name": "akira",

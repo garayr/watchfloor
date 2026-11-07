@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1776,
-  "c2_servers": 405,
+  "total_iocs": 1781,
+  "c2_servers": 404,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 579,
+    "iocs": 540,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "AMOS",
-    "iocs": 331,
+    "iocs": 313,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -25,39 +25,39 @@
    },
    {
     "name": "ValleyRAT",
-    "iocs": 103,
-    "c2": 82,
+    "iocs": 106,
+    "c2": 85,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 90,
+    "c2": 6,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "VShell",
     "iocs": 58,
-    "c2": 13,
+    "c2": 15,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Vidar",
-    "iocs": 50,
-    "c2": 50,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+    "name": "Cobalt Strike",
+    "iocs": 52,
+    "c2": 52,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "ClearFake",
-    "iocs": 49,
+    "iocs": 47,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 48,
-    "c2": 48,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "Mirai",
-    "iocs": 40,
-    "c2": 6,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+    "name": "Vidar",
+    "iocs": 43,
+    "c2": 43,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Sliver",
@@ -68,40 +68,40 @@
   ]
  },
  "urls": {
-  "sample": 1000,
-  "online": 654,
+  "sample": 838,
+  "online": 531,
   "top_tags": [
    {
-    "name": "github",
-    "count": 242
+    "name": "elf",
+    "count": 128
    },
    {
-    "name": "zip",
-    "count": 196
+    "name": "github",
+    "count": 116
    },
    {
     "name": "zapret",
-    "count": 195
+    "count": 106
    },
    {
-    "name": "elf",
-    "count": 117
+    "name": "zip",
+    "count": 104
    },
    {
     "name": "Mozi",
-    "count": 88
+    "count": 74
    },
    {
     "name": "32-bit",
-    "count": 81
+    "count": 68
+   },
+   {
+    "name": "SilentNet",
+    "count": 42
    },
    {
     "name": "arm",
-    "count": 47
-   },
-   {
-    "name": "SalatStealer",
-    "count": 43
+    "count": 39
    }
   ]
  },
@@ -512,10 +512,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-06T23:20:43+00:00",
-  "sans": "2026-11-06T23:20:43+00:00",
-  "otx": "2026-11-06T23:20:43+00:00",
-  "urlhaus": "2026-11-06T23:20:43+00:00"
+  "threatfox": "2026-11-07T02:58:19+00:00",
+  "sans": "2026-11-07T02:58:19+00:00",
+  "otx": "2026-11-07T02:58:19+00:00",
+  "urlhaus": "2026-11-07T02:58:19+00:00"
  },
- "generated_at": "2026-11-06T23:20:43+00:00"
+ "generated_at": "2026-11-07T02:58:19+00:00"
 }
