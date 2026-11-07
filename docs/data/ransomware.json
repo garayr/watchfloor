@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T19:45:47+00:00",
+ "generated_at": "2026-11-07T23:17:41+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -13,8 +13,12 @@
    "count": 16
   },
   {
+   "name": "qilin",
+   "count": 12
+  },
+  {
    "name": "SilentRansomGroup",
-   "count": 8
+   "count": 7
   },
   {
    "name": "akira",
@@ -25,16 +29,12 @@
    "count": 7
   },
   {
-   "name": "qilin",
-   "count": 7
-  },
-  {
-   "name": "BrainCipher",
-   "count": 5
-  },
-  {
    "name": "play",
    "count": 5
+  },
+  {
+   "name": "payload",
+   "count": 4
   }
  ],
  "by_sector": [
@@ -52,21 +52,21 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 10
-  },
-  {
-   "name": "Financial Services",
-   "count": 5
+   "count": 9
   },
   {
    "name": "Healthcare",
-   "count": 5
+   "count": 6
+  },
+  {
+   "name": "Other",
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 34,
+   "count": 31,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -83,6 +83,12 @@
    "lon": 8.7
   },
   {
+   "code": "BR",
+   "count": 4,
+   "lat": -23.5,
+   "lon": -46.6
+  },
+  {
    "code": "GB",
    "count": 4,
    "lat": 51.5,
@@ -95,12 +101,6 @@
    "lon": 127.0
   },
   {
-   "code": "BR",
-   "count": 3,
-   "lat": -23.5,
-   "lon": -46.6
-  },
-  {
    "code": "CH",
    "count": 2,
    "lat": 46.9,
@@ -111,6 +111,12 @@
    "count": 2,
    "lat": 55.7,
    "lon": 12.6
+  },
+  {
+   "code": "FR",
+   "count": 2,
+   "lat": 48.9,
+   "lon": 2.35
   },
   {
    "code": "IT",
@@ -149,12 +155,6 @@
    "lon": 116.4
   },
   {
-   "code": "FR",
-   "count": 1,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
    "code": "ID",
    "count": 1,
    "lat": -6.2,
@@ -179,10 +179,22 @@
    "lon": -99.1
   },
   {
+   "code": "PT",
+   "count": 1,
+   "lat": 38.7,
+   "lon": -9.1
+  },
+  {
    "code": "SA",
    "count": 1,
    "lat": 24.7,
    "lon": 46.7
+  },
+  {
+   "code": "SG",
+   "count": 1,
+   "lat": 1.35,
+   "lon": 103.8
   },
   {
    "code": "TR",
@@ -198,6 +210,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "BOSH Engineering Private Limited",
+   "group": "qilin",
+   "date": "2026-11-07T18:30:51+00:00",
+   "attack_date": "2026-11-07",
+   "country": "SG",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Qk9TSCBFbmdpbmVlcmluZyBQcml2YXRlIExpbWl0ZWRAcWlsaW4="
+  },
+  {
+   "victim": "J. J. Louro Pereira",
+   "group": "qilin",
+   "date": "2026-11-07T18:30:08+00:00",
+   "attack_date": "2026-11-07",
+   "country": "PT",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/Si4gSi4gTG91cm8gUGVyZWlyYUBxaWxpbg=="
+  },
+  {
+   "victim": "Simply UK",
+   "group": "qilin",
+   "date": "2026-11-07T18:29:21+00:00",
+   "attack_date": "2026-11-07",
+   "country": "GB",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/U2ltcGx5IFVLQHFpbGlu"
+  },
+  {
+   "victim": "Roxfarma",
+   "group": "qilin",
+   "date": "2026-11-07T18:28:27+00:00",
+   "attack_date": "2026-11-07",
+   "country": "BR",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Um94ZmFybWFAcWlsaW4="
+  },
+  {
+   "victim": "AXE - EXPERTS",
+   "group": "qilin",
+   "date": "2026-11-07T17:25:22+00:00",
+   "attack_date": "2026-11-07",
+   "country": "FR",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QVhFIC0gRVhQRVJUU0BxaWxpbg=="
+  },
   {
    "victim": "Oak Green School",
    "group": "qilin",
@@ -1052,51 +1109,6 @@
    "country": null,
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/QVZJUkBwbGF5"
-  },
-  {
-   "victim": "Unilever",
-   "group": "Whitearmor",
-   "date": "2026-11-04T20:57:10+00:00",
-   "attack_date": "2026-11-04",
-   "country": "GB",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/VW5pbGV2ZXJAV2hpdGVhcm1vcg=="
-  },
-  {
-   "victim": "W... G...",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-04T20:56:19+00:00",
-   "attack_date": "2026-11-04",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Vy4uLiBHLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "Simplehuman",
-   "group": "Dark Project",
-   "date": "2026-11-04T20:27:47+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/U2ltcGxlaHVtYW5ARGFyayBQcm9qZWN0"
-  },
-  {
-   "victim": "hhjcpa.com",
-   "group": "BrainCipher",
-   "date": "2026-11-04T20:26:51+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/aGhqY3BhLmNvbUBCcmFpbkNpcGhlcg=="
-  },
-  {
-   "victim": "prairieridge.net",
-   "group": "BrainCipher",
-   "date": "2026-11-04T19:23:48+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/cHJhaXJpZXJpZGdlLm5ldEBCcmFpbkNpcGhlcg=="
   }
  ]
 }
