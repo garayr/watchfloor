@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T20:27:54+00:00",
+ "generated_at": "2026-11-08T23:53:34+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -14,7 +14,7 @@
   },
   {
    "name": "akira",
-   "count": 7
+   "count": 8
   },
   {
    "name": "metaencryptor",
@@ -29,12 +29,12 @@
    "count": 5
   },
   {
-   "name": "payload",
+   "name": "Deadlock",
    "count": 4
   },
   {
-   "name": "BYOD",
-   "count": 3
+   "name": "payload",
+   "count": 4
   }
  ],
  "by_sector": [
@@ -48,7 +48,7 @@
   },
   {
    "name": "Technology",
-   "count": 13
+   "count": 11
   },
   {
    "name": "Retail & E-Commerce",
@@ -66,21 +66,21 @@
  "by_country": [
   {
    "code": "US",
-   "count": 39,
+   "count": 38,
    "lat": 39.0,
    "lon": -77.5
+  },
+  {
+   "code": "CA",
+   "count": 6,
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "DE",
    "count": 6,
    "lat": 50.1,
    "lon": 8.7
-  },
-  {
-   "code": "CA",
-   "count": 5,
-   "lat": 43.7,
-   "lon": -79.4
   },
   {
    "code": "KR",
@@ -131,6 +131,12 @@
    "lon": 12.5
   },
   {
+   "code": "SG",
+   "count": 2,
+   "lat": 1.35,
+   "lon": 103.8
+  },
+  {
    "code": "AE",
    "count": 1,
    "lat": 24.5,
@@ -173,16 +179,16 @@
    "lon": -74.1
   },
   {
+   "code": "CR",
+   "count": 1,
+   "lat": 9.9,
+   "lon": -84.1
+  },
+  {
    "code": "ID",
    "count": 1,
    "lat": -6.2,
    "lon": 106.8
-  },
-  {
-   "code": "IN",
-   "count": 1,
-   "lat": 19.1,
-   "lon": 72.9
   },
   {
    "code": "PT",
@@ -195,12 +201,6 @@
    "count": 1,
    "lat": 24.7,
    "lon": 46.7
-  },
-  {
-   "code": "SG",
-   "count": 1,
-   "lat": 1.35,
-   "lon": 103.8
   },
   {
    "code": "TH",
@@ -222,6 +222,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Coopebis",
+   "group": "Deadlock",
+   "date": "2026-11-08T18:21:29+00:00",
+   "attack_date": "2026-11-08",
+   "country": "CR",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/Q29vcGViaXNARGVhZGxvY2s="
+  },
+  {
+   "victim": "Calmont Wire & Cable",
+   "group": "akira",
+   "date": "2026-11-08T17:33:01+00:00",
+   "attack_date": "2026-11-06",
+   "country": "CA",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Q2FsbW9udCBXaXJlICYgQ2FibGVAYWtpcmE="
+  },
+  {
+   "victim": "globalair.com.sg",
+   "group": "Eclipse",
+   "date": "2026-11-08T16:22:07+00:00",
+   "attack_date": "2026-11-08",
+   "country": "SG",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/Z2xvYmFsYWlyLmNvbS5zZ0BFY2xpcHNl"
+  },
   {
    "victim": "Trinity Custom Homes - USA",
    "group": "Deadlock",
@@ -1094,33 +1121,6 @@
    "country": "US",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/VGhlIENvbnRhaW5lciBTdG9yZUBOMG4="
-  },
-  {
-   "victim": "Msn",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:27:24+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/TXNuQG1lZHVzYWxvY2tlcg=="
-  },
-  {
-   "victim": "baiapai",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:25:50+00:00",
-   "attack_date": "2026-11-04",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/YmFpYXBhaUBtZWR1c2Fsb2NrZXI="
-  },
-  {
-   "victim": "Vinitgloves",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:25:19+00:00",
-   "attack_date": "2026-11-04",
-   "country": "IN",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/VmluaXRnbG92ZXNAbWVkdXNhbG9ja2Vy"
   }
  ]
 }
