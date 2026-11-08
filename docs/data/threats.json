@@ -2,50 +2,56 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1526,
-  "c2_servers": 252,
+  "total_iocs": 1517,
+  "c2_servers": 277,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 286,
+    "iocs": 203,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
+    "name": "Mirai",
+    "iocs": 163,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "WARDENStealer",
+    "iocs": 157,
+    "c2": 14,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+   },
+   {
     "name": "Unknown Loader",
-    "iocs": 180,
+    "iocs": 152,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "WARDENStealer",
-    "iocs": 159,
-    "c2": 15,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 120,
+    "iocs": 123,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Mirai",
-    "iocs": 112,
-    "c2": 3,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 74,
-    "c2": 59,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+    "name": "SNOWLIGHT",
+    "iocs": 77,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
    },
    {
     "name": "VShell",
-    "iocs": 67,
-    "c2": 7,
+    "iocs": 69,
+    "c2": 12,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 65,
+    "c2": 50,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "RN Stealer",
@@ -58,50 +64,44 @@
     "iocs": 37,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 35,
-    "c2": 35,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 834,
+  "online": 820,
   "top_tags": [
    {
     "name": "github",
-    "count": 466
+    "count": 465
    },
    {
     "name": "SalatStealer",
-    "count": 360
+    "count": 359
    },
    {
     "name": "elf",
-    "count": 109
-   },
-   {
-    "name": "zip",
-    "count": 86
-   },
-   {
-    "name": "SmartLoader",
-    "count": 82
-   },
-   {
-    "name": "ua-wget",
-    "count": 81
+    "count": 160
    },
    {
     "name": "Mozi",
-    "count": 71
+    "count": 90
+   },
+   {
+    "name": "ua-wget",
+    "count": 90
+   },
+   {
+    "name": "zip",
+    "count": 88
    },
    {
     "name": "32-bit",
-    "count": 65
+    "count": 84
+   },
+   {
+    "name": "SmartLoader",
+    "count": 84
    }
   ]
  },
@@ -109,75 +109,75 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 788432,
-   "targets": 303,
-   "sources": 14947
+   "records": 336225,
+   "targets": 285,
+   "sources": 7863
   },
   {
    "port": 161,
    "service": "SNMP",
-   "records": 403942,
-   "targets": 271,
-   "sources": 1533
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 386985,
-   "targets": 314,
-   "sources": 17807
+   "records": 222647,
+   "targets": 238,
+   "sources": 541
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 330548,
-   "targets": 294,
-   "sources": 13729
+   "records": 168825,
+   "targets": 282,
+   "sources": 8040
   },
   {
-   "port": 2222,
-   "service": null,
-   "records": 251377,
-   "targets": 301,
-   "sources": 7570
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 151982,
+   "targets": 269,
+   "sources": 8545
   },
   {
    "port": 3389,
    "service": "Remote Desktop (RDP)",
-   "records": 247578,
-   "targets": 278,
-   "sources": 2156
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 161102,
-   "targets": 293,
-   "sources": 9840
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 158341,
-   "targets": 293,
-   "sources": 18929
+   "records": 120695,
+   "targets": 268,
+   "sources": 1814
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 128426,
-   "targets": 294,
-   "sources": 9787
+   "records": 102388,
+   "targets": 279,
+   "sources": 3577
   },
   {
-   "port": 7680,
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 93514,
+   "targets": 280,
+   "sources": 4423
+  },
+  {
+   "port": 9000,
    "service": null,
-   "records": 88380,
-   "targets": 57,
-   "sources": 2947
+   "records": 83358,
+   "targets": 262,
+   "sources": 2705
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 79873,
+   "targets": 65,
+   "sources": 1073
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 77348,
+   "targets": 279,
+   "sources": 5848
   }
  ],
- "ports_date": "2026-11-07",
+ "ports_date": "2026-11-08",
  "diary": [
   {
    "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
@@ -413,28 +413,6 @@
    "url": "https://otx.alienvault.com/pulse/6aeca135ab4fb550bdc9ee28"
   },
   {
-   "name": "New Lindnor Backdoor and Glut of Security Killers Used in Ransomware Attack on U.S. Org",
-   "summary": "Attackers leveraging Anubis ransomware targeted a U.S. organization in October 2026, deploying a previously undocumented custom backdoor named Lindnor. The backdoor masqueraded as Chrome and VMware components on…",
-   "date": "2026-11-05T15:22:22+00:00",
-   "author": "AlienVault",
-   "adversary": "Hawkmoth",
-   "malware": [
-    "Lindnor",
-    "Anubis"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "anubis",
-    "safe mode persistence",
-    "sql server targeting",
-    "anydesk",
-    "vulnerable drivers",
-    "byovd"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aec9f2ee643039eabc3b1db"
-  },
-  {
    "name": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
    "summary": "Between March and September 2026, thousands of Android devices in the META region were infected with Mirax malware, causing millions in estimated losses. The campaign uses malicious advertisements within low-reputation…",
    "date": "2026-11-05T10:58:40+00:00",
@@ -462,28 +440,43 @@
    "url": "https://otx.alienvault.com/pulse/6aec6160f76daaa66cf143ac"
   },
   {
-   "name": "Inside Phexia: A macOS malware delivered through ClickFix",
-   "summary": "Phexia is a modular macOS backdoor and infostealer actively distributed through ClickFix campaigns since late 2025. The malware employs a multi-stage infection chain beginning with Terminal command execution that…",
-   "date": "2026-11-05T10:54:17+00:00",
+   "name": "NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL",
+   "summary": "In late September 2026, an actor deployed seven malicious npm packages masquerading as a NebulaAI software development kit to deliver a Windows remote-access trojan. The operation, tracked as NEBULA, spans four…",
+   "date": "2026-10-09T08:22:58+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [
-    "Phexia",
-    "XMRig",
-    "MacSync",
-    "Atomic macOS stealer"
+    "KNTRAT"
    ],
    "countries": [],
    "industries": [],
    "tags": [
-    "xmrig",
-    "applescript",
-    "launchagent persistence",
-    "credential theft",
-    "macsync",
-    "clickfix"
+    "npm",
+    "supply chain attack",
+    "hvnc",
+    "NEBULA"
    ],
-   "url": "https://otx.alienvault.com/pulse/6aec6059b2260af9dd811d39"
+   "url": "https://otx.alienvault.com/pulse/6ac8a46214e2077a0bfe7409"
+  },
+  {
+   "name": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
+   "summary": "An unidentified threat actor, likely Chinese-speaking and financially motivated, conducted targeted attacks against South Korean financial institutions between late September and early October 2026, successfully…",
+   "date": "2026-10-09T08:13:35+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ARTEX"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "llm-powered attacks",
+    "agentic ai",
+    "artex"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ac8a22f8d0ad1ea5f056ddc"
   },
   {
    "name": "Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer",
@@ -510,10 +503,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-08T02:37:05+00:00",
-  "sans": "2026-11-08T02:37:05+00:00",
-  "otx": "2026-11-08T02:37:05+00:00",
-  "urlhaus": "2026-11-08T02:37:05+00:00"
+  "threatfox": "2026-11-08T09:28:03+00:00",
+  "sans": "2026-11-08T09:28:03+00:00",
+  "otx": "2026-11-08T09:28:03+00:00",
+  "urlhaus": "2026-11-08T09:28:03+00:00"
  },
- "generated_at": "2026-11-08T02:37:05+00:00"
+ "generated_at": "2026-11-08T09:28:03+00:00"
 }

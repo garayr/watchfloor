@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T02:37:05+00:00",
+ "generated_at": "2026-11-08T09:28:03+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -11,10 +11,6 @@
   {
    "name": "qilin",
    "count": 13
-  },
-  {
-   "name": "medusalocker",
-   "count": 12
   },
   {
    "name": "akira",
@@ -29,12 +25,16 @@
    "count": 6
   },
   {
-   "name": "payload",
-   "count": 4
+   "name": "medusalocker",
+   "count": 6
   },
   {
-   "name": "genesis",
-   "count": 2
+   "name": "incransom",
+   "count": 5
+  },
+  {
+   "name": "payload",
+   "count": 4
   }
  ],
  "by_sector": [
@@ -52,29 +52,23 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 9
+   "count": 8
   },
   {
    "name": "Healthcare",
-   "count": 5
+   "count": 6
   },
   {
    "name": "Other",
-   "count": 4
+   "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 36,
+   "count": 37,
    "lat": 39.0,
    "lon": -77.5
-  },
-  {
-   "code": "CA",
-   "count": 6,
-   "lat": 43.7,
-   "lon": -79.4
   },
   {
    "code": "DE",
@@ -83,16 +77,16 @@
    "lon": 8.7
   },
   {
+   "code": "CA",
+   "count": 5,
+   "lat": 43.7,
+   "lon": -79.4
+  },
+  {
    "code": "KR",
    "count": 5,
    "lat": 37.6,
    "lon": 127.0
-  },
-  {
-   "code": "GB",
-   "count": 4,
-   "lat": 51.5,
-   "lon": -0.1
   },
   {
    "code": "BR",
@@ -101,10 +95,16 @@
    "lon": -46.6
   },
   {
-   "code": "CH",
-   "count": 2,
-   "lat": 46.9,
-   "lon": 7.4
+   "code": "GB",
+   "count": 3,
+   "lat": 51.5,
+   "lon": -0.1
+  },
+  {
+   "code": "MX",
+   "count": 3,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "DK",
@@ -131,12 +131,6 @@
    "lon": 12.5
   },
   {
-   "code": "MX",
-   "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
    "code": "AE",
    "count": 1,
    "lat": 24.5,
@@ -155,10 +149,28 @@
    "lon": 151.2
   },
   {
+   "code": "BE",
+   "count": 1,
+   "lat": 50.8,
+   "lon": 4.4
+  },
+  {
+   "code": "CH",
+   "count": 1,
+   "lat": 46.9,
+   "lon": 7.4
+  },
+  {
    "code": "CN",
    "count": 1,
    "lat": 39.9,
    "lon": 116.4
+  },
+  {
+   "code": "CO",
+   "count": 1,
+   "lat": 4.7,
+   "lon": -74.1
   },
   {
    "code": "ID",
@@ -204,6 +216,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "q-technicians.be",
+   "group": "incransom",
+   "date": "2026-11-08T03:49:05+00:00",
+   "attack_date": "2026-11-08",
+   "country": "BE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/cS10ZWNobmljaWFucy5iZUBpbmNyYW5zb20="
+  },
+  {
+   "victim": "bpcm.com",
+   "group": "incransom",
+   "date": "2026-11-08T03:48:13+00:00",
+   "attack_date": "2026-11-08",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/YnBjbS5jb21AaW5jcmFuc29t"
+  },
+  {
+   "victim": "www.bogard.com.mx",
+   "group": "incransom",
+   "date": "2026-11-08T03:47:21+00:00",
+   "attack_date": "2026-11-08",
+   "country": "MX",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/d3d3LmJvZ2FyZC5jb20ubXhAaW5jcmFuc29t"
+  },
+  {
+   "victim": "Clínica La Sagrada Familia (Colombia)",
+   "group": "Whitearmor",
+   "date": "2026-11-08T03:33:23+00:00",
+   "attack_date": "2026-11-08",
+   "country": "CO",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Q2zDrW5pY2EgTGEgU2FncmFkYSBGYW1pbGlhIChDb2xvbWJpYSlAV2hpdGVhcm1vcg=="
+  },
+  {
+   "victim": "???",
+   "group": "BYOD",
+   "date": "2026-11-08T03:21:11+00:00",
+   "attack_date": "2026-11-07",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Pz8%2FQEJZT0Q="
+  },
+  {
+   "victim": "Twitter",
+   "group": "BYOD",
+   "date": "2026-11-08T03:20:51+00:00",
+   "attack_date": "2026-11-08",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/VHdpdHRlckBCWU9E"
+  },
   {
    "victim": "Company #147",
    "group": "N0n",
@@ -1049,60 +1115,6 @@
    "country": null,
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/UnVpeGlhbmcgSmlkaWFuQG1lZHVzYWxvY2tlcg=="
-  },
-  {
-   "victim": "Kde",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:23:12+00:00",
-   "attack_date": "2026-11-04",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/S2RlQG1lZHVzYWxvY2tlcg=="
-  },
-  {
-   "victim": "Jobmongers",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:22:41+00:00",
-   "attack_date": "2026-11-04",
-   "country": "GB",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Sm9ibW9uZ2Vyc0BtZWR1c2Fsb2NrZXI="
-  },
-  {
-   "victim": "baeaqab",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:22:08+00:00",
-   "attack_date": "2026-11-04",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/YmFlYXFhYkBtZWR1c2Fsb2NrZXI="
-  },
-  {
-   "victim": "Ulaval",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:21:35+00:00",
-   "attack_date": "2026-11-04",
-   "country": "CA",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/VWxhdmFsQG1lZHVzYWxvY2tlcg=="
-  },
-  {
-   "victim": "On",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:21:04+00:00",
-   "attack_date": "2026-11-04",
-   "country": "CH",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/T25AbWVkdXNhbG9ja2Vy"
-  },
-  {
-   "victim": "Hirschinjurylaw",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:20:33+00:00",
-   "attack_date": "2026-11-04",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/SGlyc2NoaW5qdXJ5bGF3QG1lZHVzYWxvY2tlcg=="
   }
  ]
 }
