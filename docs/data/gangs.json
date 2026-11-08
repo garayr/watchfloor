@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T15:55:06+00:00",
+ "generated_at": "2026-11-08T02:37:05+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -322,8 +322,8 @@
    "description": "SafePay emerged in September 2024 as a rapidly growing ransomware operation that explicitly disavows the RaaS model and manages all operations internally, claiming over 300 victims worldwide by mid-2025 with a high-profile early attack against UK telematics firm Microlise stealing 1.2 TB of data.",
    "aliases": [],
    "first_seen": "2023-11-10",
-   "last_seen": "2026-10-31",
-   "victims_total": 603,
+   "last_seen": "2026-11-07",
+   "victims_total": 613,
    "cves": [],
    "tools": [
     "Invoke-ShareFinder",
@@ -360,11 +360,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 218
+      "count": 219
      },
      {
       "name": "DE",
-      "count": 133
+      "count": 137
      },
      {
       "name": "GB",
@@ -375,22 +375,22 @@
       "count": 32
      },
      {
-      "name": "IT",
+      "name": "AU",
       "count": 18
      },
      {
-      "name": "AU",
-      "count": 17
+      "name": "IT",
+      "count": 18
      }
     ],
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 104
+      "count": 105
      },
      {
       "name": "Professional Services",
-      "count": 102
+      "count": 103
      },
      {
       "name": "Retail & E-Commerce",
@@ -402,19 +402,15 @@
      },
      {
       "name": "Healthcare",
-      "count": 48
+      "count": 49
      },
      {
       "name": "Education",
-      "count": 47
+      "count": 48
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 14
-    },
     {
      "month": "2025-12",
      "count": 68
@@ -458,10 +454,14 @@
     {
      "month": "2026-10",
      "count": 22
+    },
+    {
+     "month": "2026-11",
+     "count": 10
     }
    ],
-   "history_size": 603,
-   "updated": "2026-10-31T14:44:37+00:00"
+   "history_size": 613,
+   "updated": "2026-11-08T02:37:05+00:00"
   },
   "BrainCipher": {
    "name": "BrainCipher",
@@ -5370,104 +5370,6 @@
    ],
    "history_size": 8,
    "updated": "2026-10-29T21:54:46+00:00"
-  },
-  "RunSomeWares": {
-   "name": "RunSomeWares",
-   "description": "RunSomeWares is an emerging ransomware group that surfaced in February 2025 with initial victims across supply-chain services, financial services, accounting, and manufacturing, with unclear deployment of an encryptor vs. pure data-theft extortion.",
-   "aliases": [],
-   "first_seen": "2024-06-22",
-   "last_seen": "2026-10-08",
-   "victims_total": 7,
-   "cves": [],
-   "tools": [],
-   "techniques": [],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "US",
-      "count": 5
-     },
-     {
-      "name": "FR",
-      "count": 1
-     },
-     {
-      "name": "TH",
-      "count": 1
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Financial Services",
-      "count": 3
-     },
-     {
-      "name": "Healthcare",
-      "count": 2
-     },
-     {
-      "name": "Manufacturing",
-      "count": 1
-     },
-     {
-      "name": "Transportation",
-      "count": 1
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 0
-    },
-    {
-     "month": "2026-04",
-     "count": 0
-    },
-    {
-     "month": "2026-05",
-     "count": 0
-    },
-    {
-     "month": "2026-06",
-     "count": 0
-    },
-    {
-     "month": "2026-07",
-     "count": 0
-    },
-    {
-     "month": "2026-08",
-     "count": 0
-    },
-    {
-     "month": "2026-09",
-     "count": 0
-    },
-    {
-     "month": "2026-10",
-     "count": 1
-    }
-   ],
-   "history_size": 7,
-   "updated": "2026-10-08T16:34:45+00:00"
   },
   "payload": {
    "name": "payload",

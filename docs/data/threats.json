@@ -2,50 +2,50 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1402,
-  "c2_servers": 245,
+  "total_iocs": 1526,
+  "c2_servers": 252,
   "families": [
    {
     "name": "AMOS",
-    "iocs": 280,
+    "iocs": 286,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
    {
-    "name": "WARDENStealer",
-    "iocs": 141,
-    "c2": 14,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 132,
+    "iocs": 180,
     "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "Mirai",
-    "iocs": 115,
-    "c2": 3,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+    "name": "WARDENStealer",
+    "iocs": 159,
+    "c2": 15,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    },
    {
     "name": "ClearFake",
-    "iocs": 105,
+    "iocs": 120,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "VShell",
-    "iocs": 69,
-    "c2": 9,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+    "name": "Mirai",
+    "iocs": 112,
+    "c2": 3,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Vidar",
-    "iocs": 69,
-    "c2": 54,
+    "iocs": 74,
+    "c2": 59,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "VShell",
+    "iocs": 67,
+    "c2": 7,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "RN Stealer",
@@ -54,16 +54,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.rn_stealer"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 37,
-    "c2": 37,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "Raven Stealer",
     "iocs": 37,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 35,
+    "c2": 35,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
@@ -73,19 +73,15 @@
   "top_tags": [
    {
     "name": "github",
-    "count": 451
+    "count": 466
    },
    {
     "name": "SalatStealer",
-    "count": 364
+    "count": 360
    },
    {
     "name": "elf",
-    "count": 126
-   },
-   {
-    "name": "ua-wget",
-    "count": 101
+    "count": 109
    },
    {
     "name": "zip",
@@ -93,15 +89,19 @@
    },
    {
     "name": "SmartLoader",
-    "count": 77
+    "count": 82
+   },
+   {
+    "name": "ua-wget",
+    "count": 81
    },
    {
     "name": "Mozi",
-    "count": 68
+    "count": 71
    },
    {
     "name": "32-bit",
-    "count": 62
+    "count": 65
    }
   ]
  },
@@ -486,36 +486,34 @@
    "url": "https://otx.alienvault.com/pulse/6aec6059b2260af9dd811d39"
   },
   {
-   "name": "Supply chain attack: BO Team in a software developer's infrastructure",
-   "summary": "In June 2025, a software developer detected suspicious SMB connection attempts, revealing a sophisticated compromise by the Black Owl (BO Team) APT group. Attackers seized nearly all infrastructure components including…",
-   "date": "2026-11-05T10:52:25+00:00",
+   "name": "Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer",
+   "summary": "Beginning October 7, 2026, threat actors exploited two critical vulnerabilities in AhsayCBS backup utility (CVE-2026-105133 and CVE-2026-105134) to achieve unauthenticated remote code execution on exposed systems. The…",
+   "date": "2026-10-09T01:57:42+00:00",
    "author": "AlienVault",
-   "adversary": "Black Owl (BO Team",
+   "adversary": null,
    "malware": [
-    "Nanodump",
-    "Global Socket",
-    "ReverseSSH"
+    "XMRig"
    ],
    "countries": [],
    "industries": [
     "Technology"
    ],
    "tags": [
-    "backdoor persistence",
-    "credential theft",
-    "software developer",
-    "vmware vcenter",
-    "nanodump",
-    "bo team"
+    "kernel driver exploitation",
+    "ahsaycbs",
+    "cryptomining",
+    "webshell",
+    "xmrig",
+    "msp targeting"
    ],
-   "url": "https://otx.alienvault.com/pulse/6aec5fe933b8cac0f8ed7334"
+   "url": "https://otx.alienvault.com/pulse/6ac84a1665712fe245b07ce7"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-07T23:17:41+00:00",
-  "sans": "2026-11-07T23:17:41+00:00",
-  "otx": "2026-11-07T23:17:41+00:00",
-  "urlhaus": "2026-11-07T23:17:41+00:00"
+  "threatfox": "2026-11-08T02:37:05+00:00",
+  "sans": "2026-11-08T02:37:05+00:00",
+  "otx": "2026-11-08T02:37:05+00:00",
+  "urlhaus": "2026-11-08T02:37:05+00:00"
  },
- "generated_at": "2026-11-07T23:17:41+00:00"
+ "generated_at": "2026-11-08T02:37:05+00:00"
 }
