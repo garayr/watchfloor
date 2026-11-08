@@ -2,36 +2,36 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1483,
-  "c2_servers": 274,
+  "total_iocs": 1468,
+  "c2_servers": 291,
   "families": [
    {
-    "name": "ClearFake",
-    "iocs": 176,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
     "name": "Mirai",
-    "iocs": 169,
+    "iocs": 193,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "WARDENStealer",
-    "iocs": 152,
-    "c2": 9,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 140,
+    "iocs": 153,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
+    "name": "ClearFake",
+    "iocs": 151,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "WARDENStealer",
+    "iocs": 150,
+    "c2": 7,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+   },
+   {
     "name": "AMOS",
-    "iocs": 118,
+    "iocs": 77,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/osx.amos"
    },
@@ -42,66 +42,66 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
    },
    {
-    "name": "VShell",
-    "iocs": 68,
-    "c2": 11,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+    "name": "Raven Stealer",
+    "iocs": 65,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    },
    {
     "name": "Vidar",
-    "iocs": 64,
+    "iocs": 58,
     "c2": 49,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "RN Stealer",
-    "iocs": 40,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.rn_stealer"
+    "name": "VShell",
+    "iocs": 45,
+    "c2": 9,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Raven Stealer",
-    "iocs": 37,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
+    "name": "ACR Stealer",
+    "iocs": 36,
+    "c2": 36,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.acr_stealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 807,
+  "online": 821,
   "top_tags": [
    {
+    "name": "zip",
+    "count": 163
+   },
+   {
     "name": "github",
-    "count": 110
+    "count": 162
    },
    {
     "name": "SmartLoader",
-    "count": 108
-   },
-   {
-    "name": "zip",
-    "count": 108
+    "count": 133
    },
    {
     "name": "elf",
-    "count": 31
+    "count": 127
+   },
+   {
+    "name": "ua-wget",
+    "count": 88
    },
    {
     "name": "Mozi",
-    "count": 26
+    "count": 35
    },
    {
     "name": "32-bit",
-    "count": 25
+    "count": 34
    },
    {
-    "name": "mips",
-    "count": 14
-   },
-   {
-    "name": "arm",
-    "count": 11
+    "name": "zapret",
+    "count": 29
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 336225,
-   "targets": 285,
-   "sources": 7863
+   "records": 663686,
+   "targets": 303,
+   "sources": 12706
   },
   {
    "port": 161,
    "service": "SNMP",
-   "records": 222647,
-   "targets": 238,
-   "sources": 541
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 168825,
-   "targets": 282,
-   "sources": 8040
+   "records": 428067,
+   "targets": 252,
+   "sources": 1196
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 151982,
-   "targets": 269,
-   "sources": 8545
+   "records": 379881,
+   "targets": 304,
+   "sources": 13266
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 369386,
+   "targets": 294,
+   "sources": 14105
   },
   {
    "port": 3389,
    "service": "Remote Desktop (RDP)",
-   "records": 120695,
-   "targets": 268,
-   "sources": 1814
+   "records": 262328,
+   "targets": 277,
+   "sources": 2955
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 102388,
-   "targets": 279,
-   "sources": 3577
+   "records": 188917,
+   "targets": 294,
+   "sources": 5651
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 93514,
-   "targets": 280,
-   "sources": 4423
-  },
-  {
-   "port": 9000,
-   "service": null,
-   "records": 83358,
-   "targets": 262,
-   "sources": 2705
+   "records": 183608,
+   "targets": 288,
+   "sources": 7203
   },
   {
    "port": 51413,
    "service": null,
-   "records": 79873,
-   "targets": 65,
-   "sources": 1073
+   "records": 173774,
+   "targets": 80,
+   "sources": 1621
+  },
+  {
+   "port": 9000,
+   "service": null,
+   "records": 164127,
+   "targets": 271,
+   "sources": 4387
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 77348,
-   "targets": 279,
-   "sources": 5848
+   "records": 155316,
+   "targets": 288,
+   "sources": 8894
   }
  ],
  "ports_date": "2026-11-08",
@@ -503,10 +503,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-08T16:11:22+00:00",
-  "sans": "2026-11-08T16:11:22+00:00",
-  "otx": "2026-11-08T16:11:22+00:00",
-  "urlhaus": "2026-11-08T16:11:22+00:00"
+  "threatfox": "2026-11-08T20:27:54+00:00",
+  "sans": "2026-11-08T20:27:54+00:00",
+  "otx": "2026-11-08T20:27:54+00:00",
+  "urlhaus": "2026-11-08T20:27:54+00:00"
  },
- "generated_at": "2026-11-08T16:11:22+00:00"
+ "generated_at": "2026-11-08T20:27:54+00:00"
 }

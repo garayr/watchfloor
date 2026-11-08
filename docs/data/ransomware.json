@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T16:11:22+00:00",
+ "generated_at": "2026-11-08T20:27:54+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -25,16 +25,16 @@
    "count": 6
   },
   {
-   "name": "medusalocker",
-   "count": 6
-  },
-  {
    "name": "incransom",
    "count": 5
   },
   {
    "name": "payload",
    "count": 4
+  },
+  {
+   "name": "BYOD",
+   "count": 3
   }
  ],
  "by_sector": [
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 37,
+   "count": 39,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -203,6 +203,12 @@
    "lon": 103.8
   },
   {
+   "code": "TH",
+   "count": 1,
+   "lat": 13.75,
+   "lon": 100.5
+  },
+  {
    "code": "TR",
    "count": 1,
    "lat": 41.0,
@@ -216,6 +222,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Trinity Custom Homes - USA",
+   "group": "Deadlock",
+   "date": "2026-11-08T15:21:58+00:00",
+   "attack_date": "2026-11-08",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/VHJpbml0eSBDdXN0b20gSG9tZXMgLSBVU0FARGVhZGxvY2s="
+  },
+  {
+   "victim": "Chonlatee",
+   "group": "Deadlock",
+   "date": "2026-11-08T15:21:38+00:00",
+   "attack_date": "2026-11-08",
+   "country": "TH",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q2hvbmxhdGVlQERlYWRsb2Nr"
+  },
+  {
+   "victim": "Kadick",
+   "group": "Deadlock",
+   "date": "2026-11-08T15:21:17+00:00",
+   "attack_date": "2026-11-08",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/S2FkaWNrQERlYWRsb2Nr"
+  },
   {
    "victim": "q-technicians.be",
    "group": "incransom",
@@ -1088,33 +1121,6 @@
    "country": "IN",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/VmluaXRnbG92ZXNAbWVkdXNhbG9ja2Vy"
-  },
-  {
-   "victim": "Jatl",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:24:46+00:00",
-   "attack_date": "2026-11-04",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/SmF0bEBtZWR1c2Fsb2NrZXI="
-  },
-  {
-   "victim": "Geetees",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:24:15+00:00",
-   "attack_date": "2026-11-04",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/R2VldGVlc0BtZWR1c2Fsb2NrZXI="
-  },
-  {
-   "victim": "Ruixiang Jidian",
-   "group": "medusalocker",
-   "date": "2026-11-04T22:23:43+00:00",
-   "attack_date": "2026-11-04",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/UnVpeGlhbmcgSmlkaWFuQG1lZHVzYWxvY2tlcg=="
   }
  ]
 }
