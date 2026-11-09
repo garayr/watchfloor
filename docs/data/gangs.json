@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T03:55:34+00:00",
+ "generated_at": "2026-11-09T12:25:24+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -3806,8 +3806,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-08-05",
-   "last_seen": "2026-10-24",
-   "victims_total": 44,
+   "last_seen": "2026-11-09",
+   "victims_total": 47,
    "cves": [
     {
      "id": "CVE-2026-20131",
@@ -3848,19 +3848,23 @@
       "count": 4
      },
      {
+      "name": "IT",
+      "count": 3
+     },
+     {
       "name": "BR",
       "count": 2
      },
      {
       "name": "ES",
       "count": 2
-     },
-     {
-      "name": "IT",
-      "count": 2
      }
     ],
     "sectors": [
+     {
+      "name": "Professional Services",
+      "count": 8
+     },
      {
       "name": "Manufacturing",
       "count": 7
@@ -3870,28 +3874,20 @@
       "count": 7
      },
      {
-      "name": "Professional Services",
-      "count": 6
+      "name": "Government & Defense",
+      "count": 5
      },
      {
-      "name": "Government & Defense",
+      "name": "Other",
       "count": 5
      },
      {
       "name": "Education",
       "count": 4
-     },
-     {
-      "name": "Other",
-      "count": 4
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -3934,11 +3930,15 @@
     },
     {
      "month": "2026-10",
-     "count": 9
+     "count": 11
+    },
+    {
+     "month": "2026-11",
+     "count": 1
     }
    ],
-   "history_size": 44,
-   "updated": "2026-10-24T04:38:22+00:00"
+   "history_size": 47,
+   "updated": "2026-11-09T12:25:24+00:00"
   },
   "direwolf": {
    "name": "direwolf",
@@ -4592,8 +4592,8 @@
    "description": "Anubis is a ransomware-as-a-service group active since December 2024 that targets healthcare, engineering, construction, and professional services sectors, offering affiliates a flexible revenue split model and an optional destructive \"wipe mode\" alongside standard encryption.",
    "aliases": [],
    "first_seen": "2025-02-25",
-   "last_seen": "2026-10-28",
-   "victims_total": 117,
+   "last_seen": "2026-11-09",
+   "victims_total": 119,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -4614,7 +4614,7 @@
      },
      {
       "name": "DE",
-      "count": 5
+      "count": 6
      },
      {
       "name": "FR",
@@ -4632,7 +4632,7 @@
      },
      {
       "name": "Manufacturing",
-      "count": 22
+      "count": 23
      },
      {
       "name": "Professional Services",
@@ -4653,10 +4653,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 9
-    },
     {
      "month": "2025-12",
      "count": 10
@@ -4700,10 +4696,14 @@
     {
      "month": "2026-10",
      "count": 5
+    },
+    {
+     "month": "2026-11",
+     "count": 2
     }
    ],
-   "history_size": 117,
-   "updated": "2026-10-29T04:54:18+00:00"
+   "history_size": 119,
+   "updated": "2026-11-09T12:25:24+00:00"
   },
   "dragonforce": {
    "name": "dragonforce",

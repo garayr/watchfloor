@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-09T03:55:34+00:00",
+ "generated_at": "2026-11-09T12:25:24+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 29
+   "count": 28
   },
   {
    "name": "qilin",
@@ -40,23 +40,23 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 15
+   "count": 16
   },
   {
    "name": "Professional Services",
    "count": 13
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 10
-  },
-  {
    "name": "Technology",
    "count": 10
   },
   {
+   "name": "Retail & E-Commerce",
+   "count": 8
+  },
+  {
    "name": "Healthcare",
-   "count": 7
+   "count": 6
   },
   {
    "name": "Other",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 39,
+   "count": 38,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -191,6 +191,12 @@
    "lon": 72.9
   },
   {
+   "code": "PL",
+   "count": 1,
+   "lat": 52.2,
+   "lon": 21.0
+  },
+  {
    "code": "PT",
    "count": 1,
    "lat": 38.7,
@@ -216,6 +222,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Cuomo LLC",
+   "group": "anubis",
+   "date": "2026-11-09T03:59:31+00:00",
+   "attack_date": "2026-11-09",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q3VvbW8gTExDQGFudWJpcw=="
+  },
+  {
+   "victim": "Grupa ABS",
+   "group": "Panzer",
+   "date": "2026-11-09T00:55:15+00:00",
+   "attack_date": "2026-11-09",
+   "country": "PL",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/R3J1cGEgQUJTQFBhbnplcg=="
+  },
+  {
+   "victim": "IE & E Industries",
+   "group": "Orova",
+   "date": "2026-11-09T00:53:07+00:00",
+   "attack_date": "2026-11-08",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/SUUgJiBFIEluZHVzdHJpZXNAT3JvdmE="
+  },
+  {
+   "victim": "Expedia Group, Inc.",
+   "group": "N0n",
+   "date": "2026-11-09T00:52:31+00:00",
+   "attack_date": "2026-11-09",
+   "country": "US",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/RXhwZWRpYSBHcm91cCwgSW5jLkBOMG4="
+  },
   {
    "victim": "starmark.co.th",
    "group": "lockbit5",
@@ -1079,42 +1121,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/bmUqKioqKmguY29tQGV2ZXJzdGFrZQ=="
-  },
-  {
-   "victim": "Disclosed",
-   "group": "PixelLeaks",
-   "date": "2026-11-05T07:59:30+00:00",
-   "attack_date": "2026-11-05",
-   "country": null,
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/RGlzY2xvc2VkQFBpeGVsTGVha3M="
-  },
-  {
-   "victim": "Custom Bakehouse",
-   "group": "Dark Project",
-   "date": "2026-11-05T06:21:31+00:00",
-   "attack_date": "2026-11-05",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/Q3VzdG9tIEJha2Vob3VzZUBEYXJrIFByb2plY3Q="
-  },
-  {
-   "victim": "Delta Dental of Missouri",
-   "group": "N0n",
-   "date": "2026-11-05T04:52:28+00:00",
-   "attack_date": "2026-11-05",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/RGVsdGEgRGVudGFsIG9mIE1pc3NvdXJpQE4wbg=="
-  },
-  {
-   "victim": "The Container Store",
-   "group": "N0n",
-   "date": "2026-11-05T04:51:57+00:00",
-   "attack_date": "2026-11-05",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/VGhlIENvbnRhaW5lciBTdG9yZUBOMG4="
   }
  ]
 }
