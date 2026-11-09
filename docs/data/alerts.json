@@ -1,6 +1,104 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-102895",
+   "date": "2026-11-09",
+   "src": "CISA",
+   "vendor": "GPUStack GPUStack",
+   "vendor_name": "GPUStack",
+   "product": "GPUStack",
+   "title": "GPUStack Improper Authentication Vulnerability",
+   "detail": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-102895"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
+   "kev": true,
+   "epss": 0.0033,
+   "cvss": 9.8,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-116779",
+   "date": "2026-11-09",
+   "src": "CISA",
+   "vendor": "SignalWire FreeSwitch",
+   "vendor_name": "SignalWire",
+   "product": "FreeSwitch",
+   "title": "SignalWire FreeSwitch Code Injection Vulnerability",
+   "detail": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-116779"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+   "kev": true,
+   "epss": 0.013,
+   "cvss": 9.8,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-123218",
+   "date": "2026-11-09",
+   "src": "CISA",
+   "vendor": "IBM Aspera Faspex",
+   "vendor_name": "IBM",
+   "product": "Aspera Faspex",
+   "title": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+   "detail": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-123218"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+   "kev": true,
+   "epss": 0.004,
+   "cvss": 9.8,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-123158",
+   "date": "2026-11-09",
+   "src": "CISA",
+   "vendor": "OpenBSD OpenSSH",
+   "vendor_name": "OpenBSD",
+   "product": "OpenSSH",
+   "title": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+   "detail": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+   "kev": true,
+   "epss": 0.0101,
+   "cvss": 8.1,
+   "sev": "high",
+   "news": [
+    {
+     "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+     "source": "BleepingComputer",
+     "date": "2026-11-09T16:04:57+00:00"
+    },
+    {
+     "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+     "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+     "source": "The Hacker News",
+     "date": "2026-11-06T15:21:49+00:00"
+    }
+   ]
+  },
+  {
    "id": "CVE-2026-19868",
    "date": "2026-11-06",
    "src": "CISA",
@@ -79,7 +177,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
    "kev": true,
-   "epss": 0.0116,
+   "epss": 0.012,
    "cvss": 8.1,
    "sev": "high",
    "news": [
@@ -413,10 +511,10 @@
    "sev": "high",
    "news": [
     {
-     "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-     "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-     "source": "BleepingComputer",
-     "date": "2026-11-06T17:04:23+00:00"
+     "title": "Plex2Shell Exploited Against QNAP NAS Users",
+     "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+     "source": "SecurityWeek",
+     "date": "2026-11-09T13:13:28+00:00"
     }
    ]
   },
@@ -442,10 +540,10 @@
    "sev": "high",
    "news": [
     {
-     "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-     "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-     "source": "BleepingComputer",
-     "date": "2026-11-06T17:04:23+00:00"
+     "title": "Plex2Shell Exploited Against QNAP NAS Users",
+     "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+     "source": "SecurityWeek",
+     "date": "2026-11-09T13:13:28+00:00"
     }
    ]
   },
@@ -471,10 +569,10 @@
    "sev": "high",
    "news": [
     {
-     "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-     "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-     "source": "BleepingComputer",
-     "date": "2026-11-06T17:04:23+00:00"
+     "title": "Plex2Shell Exploited Against QNAP NAS Users",
+     "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+     "source": "SecurityWeek",
+     "date": "2026-11-09T13:13:28+00:00"
     }
    ]
   },
@@ -500,10 +598,10 @@
    "sev": "high",
    "news": [
     {
-     "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-     "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-     "source": "BleepingComputer",
-     "date": "2026-11-06T17:04:23+00:00"
+     "title": "Plex2Shell Exploited Against QNAP NAS Users",
+     "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+     "source": "SecurityWeek",
+     "date": "2026-11-09T13:13:28+00:00"
     }
    ]
   },

@@ -4,6 +4,30 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+     "summary": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-09T14:34:03+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+     "group": "Arrests, courts and policy"
+    },
+    {
+     "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+     "summary": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-09T14:08:08+00:00",
+     "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+     "group": "Arrests, courts and policy"
+    },
+    {
+     "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
+     "summary": "The US Department of the Treasury has cut off the MEXC Global crypto exchange from the US financial system over sanctions evasion and links with cybercrime gangs. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-09T13:28:56+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
      "summary": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. [...]",
      "source": "BleepingComputer",
@@ -32,6 +56,65 @@
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+     "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-09T22:09:33+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "York University breach exposed personal information dating to 2007",
+     "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-09T21:22:31+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+     "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an…",
+     "source": "The Hacker News",
+     "date": "2026-11-09T17:51:21+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Binance denies data breach after alleged ShinyHunters claims",
+     "summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-09T16:12:39+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+     "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-09T16:04:57+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "CVE-2026-123158"
+     ]
+    },
+    {
+     "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+     "summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or…",
+     "source": "The Hacker News",
+     "date": "2026-11-09T13:28:25+00:00",
+     "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
+     "summary": "Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it. The post Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-09T12:41:27+00:00",
+     "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
      "summary": "Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web. The post Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web…",
@@ -71,30 +154,27 @@
      "date": "2026-11-07T15:25:35+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
      "group": "Breaches and ransomware"
-    },
+    }
+   ]
+  },
+  {
+   "group": "Exploited right now",
+   "items": [
     {
-     "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-     "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and…",
+     "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+     "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities…",
      "source": "BleepingComputer",
-     "date": "2026-11-06T22:27:25+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-     "group": "Breaches and ransomware"
+     "date": "2026-11-09T21:26:25+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+     "group": "Exploited right now"
     },
     {
-     "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
-     "summary": "The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan. The post Japan Announces…",
+     "title": "Plex2Shell Exploited Against QNAP NAS Users",
+     "summary": "Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices. The post Plex2Shell Exploited Against QNAP NAS Users appeared first on SecurityWeek.",
      "source": "SecurityWeek",
-     "date": "2026-11-06T18:28:41+00:00",
-     "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-     "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-06T17:04:23+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-     "group": "Breaches and ransomware",
+     "date": "2026-11-09T13:13:28+00:00",
+     "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+     "group": "Exploited right now",
      "alerts": [
       "CVE-2026-96656",
       "CVE-2026-96655",
@@ -102,43 +182,6 @@
       "CVE-2026-96652"
      ]
     },
-    {
-     "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
-     "summary": "Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands. The post In Other News: Trezor Implant, LLMJacking…",
-     "source": "SecurityWeek",
-     "date": "2026-11-06T14:40:09+00:00",
-     "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Chainalysis says breach exposed credentials for all customers",
-     "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-06T14:17:07+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "DigiCert Data Breach Impacts Business Customer Information",
-     "summary": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses. The post DigiCert Data Breach Impacts Business Customer Information appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-06T14:00:07+00:00",
-     "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-     "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While…",
-     "source": "The Hacker News",
-     "date": "2026-11-06T08:04:49+00:00",
-     "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-     "group": "Breaches and ransomware"
-    }
-   ]
-  },
-  {
-   "group": "Exploited right now",
-   "items": [
     {
      "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
      "summary": "The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on…",
@@ -197,14 +240,6 @@
      ]
     },
     {
-     "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-     "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws…",
-     "source": "BleepingComputer",
-     "date": "2026-11-06T20:24:19+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks…",
      "source": "The Hacker News",
@@ -221,7 +256,10 @@
      "source": "The Hacker News",
      "date": "2026-11-06T15:21:49+00:00",
      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-123158"
+     ]
     },
     {
      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
@@ -230,22 +268,6 @@
      "date": "2026-11-06T14:58:32+00:00",
      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-     "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-06T12:37:22+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-     "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was…",
-     "source": "The Hacker News",
-     "date": "2026-11-06T12:06:43+00:00",
-     "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-     "group": "Exploited right now"
     }
    ]
   },
@@ -253,19 +275,27 @@
    "group": "Malware and campaigns",
    "items": [
     {
-     "title": "Fake security tools on GitHub push backdoors and infostealers",
-     "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+     "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+     "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
      "source": "BleepingComputer",
-     "date": "2026-11-06T18:46:52+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+     "date": "2026-11-09T17:50:32+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
      "group": "Malware and campaigns"
     },
     {
-     "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-     "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes…",
+     "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+     "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases…",
      "source": "The Hacker News",
-     "date": "2026-11-06T05:58:54+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+     "date": "2026-11-09T17:36:28+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+     "group": "Malware and campaigns"
+    },
+    {
+     "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+     "summary": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote…",
+     "source": "The Hacker News",
+     "date": "2026-11-09T14:31:29+00:00",
+     "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
      "group": "Malware and campaigns"
     }
    ]
@@ -273,6 +303,22 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+     "summary": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at…",
+     "source": "BleepingComputer",
+     "date": "2026-11-09T18:32:42+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+     "group": "Other news"
+    },
+    {
+     "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
+     "summary": "AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant. Anecdotes examines three essential skills for the AI-driven GRC…",
+     "source": "BleepingComputer",
+     "date": "2026-11-09T15:05:15+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+     "group": "Other news"
+    },
     {
      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
      "summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the…",
@@ -319,46 +365,6 @@
      "source": "The Hacker News",
      "date": "2026-11-07T06:44:17+00:00",
      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-     "summary": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-06T15:25:31+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-     "group": "Other news"
-    },
-    {
-     "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-     "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-06T15:00:10+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-     "group": "Other news"
-    },
-    {
-     "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-     "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs…",
-     "source": "The Hacker News",
-     "date": "2026-11-06T12:06:35+00:00",
-     "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-     "group": "Other news"
-    },
-    {
-     "title": "The Flood is Coming And The Pipes Were Already Full",
-     "summary": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at…",
-     "source": "The Hacker News",
-     "date": "2026-11-06T11:30:00+00:00",
-     "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-     "group": "Other news"
-    },
-    {
-     "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-     "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-06T09:22:28+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
      "group": "Other news"
     }
    ]

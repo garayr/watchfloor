@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T12:25:24+00:00",
+ "generated_at": "2026-11-09T22:35:58+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -3098,8 +3098,8 @@
    "description": "Krybit is an emerging RaaS group that launched in late March 2026, offering affiliates an 80/20 revenue split with support for Windows, Linux, ESXi, and NAS device encryption, and became notable for a public feud with rival group 0APT in which each breached and leaked the other's operator data.",
    "aliases": [],
    "first_seen": "2026-03-30",
-   "last_seen": "2026-10-24",
-   "victims_total": 167,
+   "last_seen": "2026-11-09",
+   "victims_total": 173,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -3127,7 +3127,7 @@
       "count": 8
      },
      {
-      "name": "US",
+      "name": "TH",
       "count": 6
      }
     ],
@@ -3138,7 +3138,7 @@
      },
      {
       "name": "Technology",
-      "count": 22
+      "count": 24
      },
      {
       "name": "Retail & E-Commerce",
@@ -3150,7 +3150,7 @@
      },
      {
       "name": "Other",
-      "count": 14
+      "count": 15
      },
      {
       "name": "Manufacturing",
@@ -3159,10 +3159,6 @@
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -3205,11 +3201,15 @@
     },
     {
      "month": "2026-10",
-     "count": 14
+     "count": 15
+    },
+    {
+     "month": "2026-11",
+     "count": 5
     }
    ],
-   "history_size": 167,
-   "updated": "2026-10-24T16:06:01+00:00"
+   "history_size": 173,
+   "updated": "2026-11-09T22:35:58+00:00"
   },
   "Booba Project": {
    "name": "Booba Project",
@@ -5377,112 +5377,6 @@
    "history_size": 34,
    "updated": "2026-10-23T20:04:44+00:00"
   },
-  "exitium": {
-   "name": "exitium",
-   "description": "Exitium is a data extortion group first observed in early 2026, operating a Tor-based double extortion site and targeting victims via bulk data exfiltration followed by public naming-and-shaming, with known victims including a Brazilian agro-industrial firm and a US county appraisal district.",
-   "aliases": [],
-   "first_seen": "2026-03-17",
-   "last_seen": "2026-10-10",
-   "victims_total": 5,
-   "cves": [],
-   "tools": [],
-   "techniques": [],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "US",
-      "count": 2
-     },
-     {
-      "name": "BR",
-      "count": 1
-     },
-     {
-      "name": "JP",
-      "count": 1
-     },
-     {
-      "name": "TW",
-      "count": 1
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Agriculture and Food Production",
-      "count": 1
-     },
-     {
-      "name": "Energy & Utilities",
-      "count": 1
-     },
-     {
-      "name": "Government & Defense",
-      "count": 1
-     },
-     {
-      "name": "Healthcare",
-      "count": 1
-     },
-     {
-      "name": "Manufacturing",
-      "count": 1
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 3
-    },
-    {
-     "month": "2026-04",
-     "count": 1
-    },
-    {
-     "month": "2026-05",
-     "count": 0
-    },
-    {
-     "month": "2026-06",
-     "count": 0
-    },
-    {
-     "month": "2026-07",
-     "count": 0
-    },
-    {
-     "month": "2026-08",
-     "count": 0
-    },
-    {
-     "month": "2026-09",
-     "count": 0
-    },
-    {
-     "month": "2026-10",
-     "count": 1
-    }
-   ],
-   "history_size": 5,
-   "updated": "2026-10-10T18:47:14+00:00"
-  },
   "metaencryptor": {
    "name": "metaencryptor",
    "description": "MetaEncryptor is a ransomware group first observed in mid-2023, targeting medium-to-large enterprises in legal, technology, logistics, manufacturing, and finance sectors primarily in the UK, Europe, and Southeast Asia, using AES-256/RSA-2048 encryption and double extortion.",
@@ -5993,14 +5887,18 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-09",
-   "last_seen": "2026-11-01",
-   "victims_total": 12,
+   "last_seen": "2026-11-09",
+   "victims_total": 14,
    "cves": [],
    "tools": [],
    "techniques": [],
    "links": [],
    "targets": {
     "countries": [
+     {
+      "name": "TR",
+      "count": 2
+     },
      {
       "name": "US",
       "count": 2
@@ -6010,19 +5908,15 @@
       "count": 1
      },
      {
+      "name": "CM",
+      "count": 1
+     },
+     {
       "name": "EC",
       "count": 1
      },
      {
       "name": "GA",
-      "count": 1
-     },
-     {
-      "name": "IN",
-      "count": 1
-     },
-     {
-      "name": "MY",
       "count": 1
      }
     ],
@@ -6030,6 +5924,14 @@
      {
       "name": "Technology",
       "count": 3
+     },
+     {
+      "name": "Government & Defense",
+      "count": 2
+     },
+     {
+      "name": "Manufacturing",
+      "count": 2
      },
      {
       "name": "Energy & Utilities",
@@ -6040,15 +5942,7 @@
       "count": 1
      },
      {
-      "name": "Government & Defense",
-      "count": 1
-     },
-     {
       "name": "Healthcare",
-      "count": 1
-     },
-     {
-      "name": "Manufacturing",
       "count": 1
      }
     ]
@@ -6100,11 +5994,11 @@
     },
     {
      "month": "2026-11",
-     "count": 1
+     "count": 3
     }
    ],
-   "history_size": 12,
-   "updated": "2026-11-01T22:46:54+00:00"
+   "history_size": 14,
+   "updated": "2026-11-09T22:35:58+00:00"
   },
   "iah6477": {
    "name": "iah6477",
