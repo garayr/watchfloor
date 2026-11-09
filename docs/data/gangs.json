@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T20:27:54+00:00",
+ "generated_at": "2026-11-09T03:55:34+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -586,136 +586,6 @@
    ],
    "history_size": 109,
    "updated": "2026-11-04T22:36:52+00:00"
-  },
-  "threeam": {
-   "name": "threeam",
-   "description": "A new Ransomware family identified by the name '3AM' or 'ThreeAM' in September 2023. The ransomware operation was observed by the Symantec team, in which a ransomware affiliate attempted to deploy another ransomware, LockBit, on the target network and then switched to 3AM when LockBit was reportedly blocked. > > The ransomware operation, according to the publication on its Tor-based website, has been operating since mid-August 2023, according to the publication from its first victim. Source: https://github.com/crocodyli/ThreatActors-TTPs",
-   "aliases": [],
-   "first_seen": "2023-08-04",
-   "last_seen": "2026-10-09",
-   "victims_total": 100,
-   "cves": [],
-   "tools": [],
-   "techniques": [
-    "Create Account",
-    "Service Execution",
-    "Bypass User Account Control",
-    "Clear Windows Event Logs",
-    "Disable or Modify System Firewall Settings",
-    "Remote System Discovery",
-    "Network Share Discovery",
-    "Group Policy Discovery",
-    "Exfiltration Over Alternative Protocol",
-    "Data Encrypted for Impact",
-    "Inhibit System Recovery"
-   ],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "US",
-      "count": 42
-     },
-     {
-      "name": "GB",
-      "count": 7
-     },
-     {
-      "name": "AU",
-      "count": 6
-     },
-     {
-      "name": "DE",
-      "count": 6
-     },
-     {
-      "name": "MX",
-      "count": 4
-     },
-     {
-      "name": "AR",
-      "count": 3
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Manufacturing",
-      "count": 20
-     },
-     {
-      "name": "Professional Services",
-      "count": 20
-     },
-     {
-      "name": "Healthcare",
-      "count": 18
-     },
-     {
-      "name": "Agriculture and Food Production",
-      "count": 9
-     },
-     {
-      "name": "Technology",
-      "count": 9
-     },
-     {
-      "name": "Government & Defense",
-      "count": 4
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 0
-    },
-    {
-     "month": "2026-04",
-     "count": 0
-    },
-    {
-     "month": "2026-05",
-     "count": 9
-    },
-    {
-     "month": "2026-06",
-     "count": 14
-    },
-    {
-     "month": "2026-07",
-     "count": 1
-    },
-    {
-     "month": "2026-08",
-     "count": 3
-    },
-    {
-     "month": "2026-09",
-     "count": 8
-    },
-    {
-     "month": "2026-10",
-     "count": 1
-    }
-   ],
-   "history_size": 100,
-   "updated": "2026-10-10T00:37:57+00:00"
   },
   "emperador": {
    "name": "emperador",
@@ -3464,8 +3334,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-08-05",
-   "last_seen": "2026-11-01",
-   "victims_total": 16,
+   "last_seen": "2026-11-08",
+   "victims_total": 17,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -3511,15 +3381,15 @@
       "count": 3
      },
      {
+      "name": "Other",
+      "count": 2
+     },
+     {
       "name": "Transportation",
       "count": 2
      },
      {
       "name": "Agriculture and Food Production",
-      "count": 1
-     },
-     {
-      "name": "Other",
       "count": 1
      }
     ]
@@ -3571,11 +3441,11 @@
     },
     {
      "month": "2026-11",
-     "count": 1
+     "count": 2
     }
    ],
-   "history_size": 16,
-   "updated": "2026-11-01T07:29:23+00:00"
+   "history_size": 17,
+   "updated": "2026-11-09T03:55:34+00:00"
   },
   "Deadlock": {
    "name": "Deadlock",
@@ -5030,8 +4900,8 @@
    "description": "LockBit 5.0 (\"ChuongDong\") emerged in September 2025 as the group's resurgence following the February 2024 law enforcement takedown, introducing cross-platform payloads targeting Windows, Linux, and VMware ESXi with enhanced evasion capabilities and continuing the RaaS affiliate model of its predecessors.",
    "aliases": [],
    "first_seen": "2023-04-17",
-   "last_seen": "2026-11-01",
-   "victims_total": 393,
+   "last_seen": "2026-11-08",
+   "victims_total": 398,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -5040,15 +4910,15 @@
     "countries": [
      {
       "name": "US",
-      "count": 70
+      "count": 71
+     },
+     {
+      "name": "BR",
+      "count": 32
      },
      {
       "name": "IT",
       "count": 31
-     },
-     {
-      "name": "BR",
-      "count": 30
      },
      {
       "name": "DE",
@@ -5070,7 +4940,7 @@
      },
      {
       "name": "Manufacturing",
-      "count": 64
+      "count": 65
      },
      {
       "name": "Technology",
@@ -5078,14 +4948,14 @@
      },
      {
       "name": "Healthcare",
-      "count": 35
-     },
-     {
-      "name": "Agriculture and Food Production",
-      "count": 26
+      "count": 36
      },
      {
       "name": "Retail & E-Commerce",
+      "count": 27
+     },
+     {
+      "name": "Agriculture and Food Production",
       "count": 26
      }
     ]
@@ -5137,11 +5007,11 @@
     },
     {
      "month": "2026-11",
-     "count": 1
+     "count": 6
     }
    ],
-   "history_size": 393,
-   "updated": "2026-11-02T01:59:54+00:00"
+   "history_size": 398,
+   "updated": "2026-11-09T03:55:34+00:00"
   },
   "Scarlettgroup": {
    "name": "Scarlettgroup",
@@ -5506,124 +5376,6 @@
    ],
    "history_size": 34,
    "updated": "2026-10-23T20:04:44+00:00"
-  },
-  "Black X": {
-   "name": "Black X",
-   "description": null,
-   "aliases": [],
-   "first_seen": "2025-05-07",
-   "last_seen": "2026-10-09",
-   "victims_total": 14,
-   "cves": [],
-   "tools": [],
-   "techniques": [],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "KR",
-      "count": 4
-     },
-     {
-      "name": "DE",
-      "count": 2
-     },
-     {
-      "name": "YE",
-      "count": 2
-     },
-     {
-      "name": "GB",
-      "count": 1
-     },
-     {
-      "name": "JP",
-      "count": 1
-     },
-     {
-      "name": "MY",
-      "count": 1
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Healthcare",
-      "count": 3
-     },
-     {
-      "name": "Financial Services",
-      "count": 2
-     },
-     {
-      "name": "Professional Services",
-      "count": 2
-     },
-     {
-      "name": "Technology",
-      "count": 2
-     },
-     {
-      "name": "Energy & Utilities",
-      "count": 1
-     },
-     {
-      "name": "Government & Defense",
-      "count": 1
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 0
-    },
-    {
-     "month": "2026-04",
-     "count": 0
-    },
-    {
-     "month": "2026-05",
-     "count": 0
-    },
-    {
-     "month": "2026-06",
-     "count": 5
-    },
-    {
-     "month": "2026-07",
-     "count": 3
-    },
-    {
-     "month": "2026-08",
-     "count": 2
-    },
-    {
-     "month": "2026-09",
-     "count": 1
-    },
-    {
-     "month": "2026-10",
-     "count": 3
-    }
-   ],
-   "history_size": 14,
-   "updated": "2026-10-09T23:25:38+00:00"
   },
   "exitium": {
    "name": "exitium",
