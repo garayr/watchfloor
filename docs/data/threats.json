@@ -2,78 +2,78 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1069,
-  "c2_servers": 312,
+  "total_iocs": 760,
+  "c2_servers": 280,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 254,
-    "c2": 14,
+    "iocs": 165,
+    "c2": 17,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "SNOWLIGHT",
-    "iocs": 90,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 79,
-    "c2": 2,
+    "iocs": 96,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 61,
+    "iocs": 58,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 54,
-    "c2": 54,
+    "iocs": 52,
+    "c2": 52,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "AsyncRAT",
-    "iocs": 52,
-    "c2": 43,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
-   },
-   {
-    "name": "IClickFix",
-    "iocs": 52,
-    "c2": 9,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
-    "name": "Prometei",
-    "iocs": 42,
+    "name": "SNOWLIGHT",
+    "iocs": 51,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.prometei"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 36,
+    "c2": 36,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "SalatStealer",
-    "iocs": 40,
+    "iocs": 32,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
+    "name": "XWorm",
+    "iocs": 29,
+    "c2": 29,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.xworm"
+   },
+   {
     "name": "php.shin_webshell",
-    "iocs": 32,
+    "iocs": 29,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "AsyncRAT",
+    "iocs": 18,
+    "c2": 17,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 858,
+  "online": 830,
   "top_tags": [
    {
     "name": "github",
-    "count": 455
+    "count": 498
    },
    {
     "name": "SalatStealer",
@@ -81,104 +81,109 @@
    },
    {
     "name": "exe",
-    "count": 236
-   },
-   {
-    "name": "elf",
-    "count": 176
+    "count": 235
    },
    {
     "name": "zip",
-    "count": 125
+    "count": 192
    },
    {
-    "name": "Mozi",
-    "count": 106
+    "name": "elf",
+    "count": 141
+   },
+   {
+    "name": "SmartLoader",
+    "count": 116
    },
    {
     "name": "zapret",
-    "count": 98
+    "count": 94
    },
    {
-    "name": "32-bit",
-    "count": 95
+    "name": "Mozi",
+    "count": 89
    }
   ]
  },
  "ports": [
   {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 80382,
-   "targets": 218,
-   "sources": 1332
-  },
-  {
    "port": 22,
    "service": "SSH",
-   "records": 50066,
-   "targets": 237,
-   "sources": 1959
+   "records": 334395,
+   "targets": 291,
+   "sources": 6922
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 26684,
-   "targets": 207,
-   "sources": 2780
+   "records": 240546,
+   "targets": 264,
+   "sources": 8822
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 21664,
-   "targets": 240,
-   "sources": 1651
+   "records": 142953,
+   "targets": 285,
+   "sources": 7125
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 128683,
+   "targets": 252,
+   "sources": 4856
   },
   {
    "port": 3389,
    "service": "Remote Desktop (RDP)",
-   "records": 21009,
-   "targets": 216,
-   "sources": 196
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 16704,
-   "targets": 5,
-   "sources": 666
-  },
-  {
-   "port": 16767,
-   "service": null,
-   "records": 12021,
-   "targets": 10,
-   "sources": 1371
+   "records": 120374,
+   "targets": 270,
+   "sources": 1167
   },
   {
    "port": 2222,
    "service": null,
-   "records": 10820,
-   "targets": 211,
-   "sources": 877
+   "records": 85985,
+   "targets": 286,
+   "sources": 3618
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 85869,
+   "targets": 77,
+   "sources": 2759
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 50897,
+   "targets": 13,
+   "sources": 2630
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 9433,
-   "targets": 220,
-   "sources": 1198
+   "records": 47990,
+   "targets": 278,
+   "sources": 3672
   },
   {
    "port": 7680,
    "service": null,
-   "records": 8166,
-   "targets": 11,
-   "sources": 858
+   "records": 44660,
+   "targets": 31,
+   "sources": 2079
   }
  ],
  "ports_date": "2026-11-10",
  "diary": [
+  {
+   "title": "Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)",
+   "url": "https://isc.sans.edu/diary/rss/33506",
+   "date": "2026-11-10T12:48:55+00:00"
+  },
   {
    "title": "ISC Stormcast For Tuesday, November 10th, 2026 https://isc.sans.edu/podcastdetail/10172, (Tue, Nov 10th)",
    "url": "https://isc.sans.edu/diary/rss/33504",
@@ -203,14 +208,165 @@
    "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
    "url": "https://isc.sans.edu/diary/rss/33494",
    "date": "2026-11-06T02:00:02+00:00"
-  },
-  {
-   "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
-   "url": "https://isc.sans.edu/diary/rss/33492",
-   "date": "2026-11-05T15:29:08+00:00"
   }
  ],
  "pulses": [
+  {
+   "name": "Contagious Interview - One Interview Away From Infection",
+   "summary": "A sophisticated campaign targeting software developers through fake job interviews has been exposed, using a fraudulent company called AccuraSoftHire as a front. The operation lures developers through legitimate job…",
+   "date": "2026-11-10T08:32:53+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Technology",
+    "Finance"
+   ],
+   "tags": [
+    "blockchain dead drop",
+    "fake job interview",
+    "developer targeting",
+    "supply chain attack",
+    "npm poisoning",
+    "cryptocurrency theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af2d6b5777af782c0ecd03b"
+  },
+  {
+   "name": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
+   "summary": "In October 2026, an AI-native penetration framework called ARTEX was observed conducting attacks against AWS environments, primarily targeting financial data. ARTEX operates through LLM agents that autonomously plan and…",
+   "date": "2026-11-09T20:26:28+00:00",
+   "author": "AlienVault",
+   "adversary": "Storm-0940",
+   "malware": [
+    "ARTEX"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance",
+    "Technology"
+   ],
+   "tags": [
+    "cognito",
+    "cloudwatch",
+    "china-aligned",
+    "artex",
+    "aws",
+    "cloud exploitation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af22c74c56e69bb42cb8363"
+  },
+  {
+   "name": "Trusted by Default: Qubole Cross-Account Access Abused in the Wild",
+   "summary": "A threat actor exploited IAM credentials from Qubole's AWS account (805246085872) to assume integration roles in customer environments between October 14 and October 26, 2026. The attacker used two IAM users and…",
+   "date": "2026-11-09T20:26:26+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "TruffleHog"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "s3-exfiltration",
+    "iam-role-assumption",
+    "cross-account-access",
+    "aws",
+    "trufflehog",
+    "supply-chain"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af22c7231935985c957ec55"
+  },
+  {
+   "name": "Malicious bee-js npm Release and Swarm Desktop Releases Deliver SleepyDuck Ethereum C2 Backdoor",
+   "summary": "On November 9, 2026, threat actors compromised Ethersphere's release pipeline through two compromised GitHub accounts, publishing malicious @ethersphere/bee-js 13.3.0 to npm and trojanized Swarm Desktop 0.56.2 releases…",
+   "date": "2026-11-09T20:26:26+00:00",
+   "author": "AlienVault",
+   "adversary": "SleepyDuck",
+   "malware": [
+    "SleepyDuck",
+    "EtherDuck"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "sleepyduck",
+    "swarm",
+    "bee-js",
+    "blockchain-c2",
+    "screenconnect",
+    "etherduck"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af22c723959134a2c8d25fa"
+  },
+  {
+   "name": "Analyzing an Illegal Android Gambling App Built with Flutter",
+   "summary": "A Flutter-based Android malware campaign distributes an illegal online gambling application disguised as a Macau casino clone. The malware employs a sophisticated multi-tiered infrastructure with configuration servers…",
+   "date": "2026-11-09T16:05:45+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "TinstaPorn"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "casino fraud",
+    "geolocation exfiltration",
+    "android",
+    "phone number theft",
+    "tinstaporn",
+    "flutter"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af1ef590698ce92eade8614"
+  },
+  {
+   "name": "Inside an AhsayCBS Intrusion: Hidden Webshells, a CryptoMiner, and a C2 Implant",
+   "summary": "Between October 8 and 11, 2026, threat actors exploited authentication bypass and remote code execution vulnerabilities in AhsayCBS backup management software to compromise multiple servers. The intrusion involved…",
+   "date": "2026-11-09T16:05:44+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "XMRig",
+    "Mimikatz",
+    "NetExec"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "cryptomining",
+    "credential theft",
+    "cve-2026-105134",
+    "steganography",
+    "webshells",
+    "cve-2026-105133"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af1ef5821afddb68d6df42b"
+  },
+  {
+   "name": "Infostealer VOLTA That Has AI Assess Stolen Information",
+   "summary": "VOLTA is a Windows-based infostealer that incorporates an LLM assessment phase to evaluate stolen data. It operates through multiple phases: stealing credentials, sessions, and cryptocurrency wallets from browsers and…",
+   "date": "2026-11-09T14:27:44+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "VOLTA"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "volta",
+    "credential theft",
+    "openrouter",
+    "llm integration",
+    "chrome abe bypass",
+    "infostealer"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af1d860f5d71db2f5f24f0e"
+  },
   {
    "name": "The Industry Leader in Enterprise Brand Protection",
    "summary": "A sophisticated phishing campaign has been identified targeting hospitality customers through fake hotel reservation pages impersonating Booking.com and other hotel services. The operation uses personalized reservation…",
@@ -325,186 +481,13 @@
     "telegram marketplace"
    ],
    "url": "https://otx.alienvault.com/pulse/6aedb6e121254ba434499c9a"
-  },
-  {
-   "name": "Inside Help TDS: Hotejka, Cloudflare Pages and Predictive Detection",
-   "summary": "Infoblox attributes the Help Traffic Distribution System (TDS) to Hotejka, a small Russian-language affiliate program believed to be a rebrand of ROI777, which was exposed in 2018. Operating since April 2017, this TDS…",
-   "date": "2026-11-06T11:15:44+00:00",
-   "author": "AlienVault",
-   "adversary": "Hotejka",
-   "malware": [
-    "UltraViewer"
-   ],
-   "countries": [
-    "United States of America",
-    "Australia",
-    "Belgium",
-    "Canada",
-    "France",
-    "Japan"
-   ],
-   "industries": [],
-   "tags": [
-    "ultraviewer",
-    "detour dog",
-    "cloudflare pages",
-    "roi777",
-    "hotejka",
-    "balada injector"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aedb6e052da4a432861b11c"
-  },
-  {
-   "name": "Remcos RAT",
-   "summary": "This intelligence analysis details a malicious campaign involving Remcos RAT, a commercially available remote access trojan. The attack chain begins with a weaponized Excel spreadsheet (Remittance Advice.xlsm) that…",
-   "date": "2026-11-06T11:15:43+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Remcos"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "powershell",
-    "excel weaponization",
-    "remcos rat",
-    "remote access trojan",
-    "command and control",
-    "remcos"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aedb6df481d077141e5e5e4"
-  },
-  {
-   "name": "ARTEX: Agentic Asbestos",
-   "summary": "ARTEX is an open-source, LLM-driven autonomous penetration testing framework released in July 2026 that integrates AI agents with reconnaissance and exploitation capabilities. As of November 2026, 1,465 hosts run…",
-   "date": "2026-11-06T08:02:59+00:00",
-   "author": "AlienVault",
-   "adversary": "Storm-0940",
-   "malware": [
-    "Cobalt Strike - S0154",
-    "Vshell",
-    "Adaptix C2"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "cobalt strike",
-    "autonomous pentesting",
-    "artex",
-    "adaptix c2",
-    "vshell",
-    "connectwise compromise"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aed89b36eddd48d6b209367"
-  },
-  {
-   "name": "A Dish Served Lukewarm: The Refrigerator Botnet",
-   "summary": "Exposed Dixell/Copeland XWEB PRO refrigeration controllers are being exploited as abuse infrastructure. The STRIKE Team discovered a suspected SMTP botnet comprising nine IP addresses, with three confirmed as…",
-   "date": "2026-11-06T01:52:08+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "Argentina",
-    "Belgium",
-    "Estonia",
-    "Finland",
-    "France",
-    "Hungary"
-   ],
-   "industries": [
-    "Retail"
-   ],
-   "tags": [
-    "cve-2026-25085",
-    "dixell copeland",
-    "proxy abuse",
-    "spam infrastructure",
-    "smtp botnet",
-    "refrigeration infrastructure"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aed32c8b1c53b811aaa8bb0"
-  },
-  {
-   "name": "Email threat landscape: Q3 2026 trends and insights",
-   "summary": "From July through September 2026, approximately 7.3 billion email-based phishing threats were detected, with September reaching nearly 3 billion attacks—a 41% increase from August. The quarter demonstrated significant…",
-   "date": "2026-11-05T20:45:44+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Agent Tesla - S0331"
-   ],
-   "countries": [
-    "United States of America",
-    "Chile",
-    "Colombia",
-    "Mexico",
-    "Spain"
-   ],
-   "industries": [
-    "Legal",
-    "Retail",
-    "Manufacturing",
-    "Finance"
-   ],
-   "tags": [
-    "svg attachments",
-    "qr code attacks",
-    "domain spoofing",
-    "agent tesla",
-    "teams social engineering",
-    "phishing campaigns"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aeceaf8cfe0e0287c9a54a1"
-  },
-  {
-   "name": "NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL",
-   "summary": "In late September 2026, an actor deployed seven malicious npm packages masquerading as a NebulaAI software development kit to deliver a Windows remote-access trojan. The operation, tracked as NEBULA, spans four…",
-   "date": "2026-10-09T08:22:58+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "KNTRAT"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "npm",
-    "supply chain attack",
-    "hvnc",
-    "NEBULA"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac8a46214e2077a0bfe7409"
-  },
-  {
-   "name": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
-   "summary": "An unidentified threat actor, likely Chinese-speaking and financially motivated, conducted targeted attacks against South Korean financial institutions between late September and early October 2026, successfully…",
-   "date": "2026-10-09T08:13:35+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ARTEX"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "llm-powered attacks",
-    "agentic ai",
-    "artex"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ac8a22f8d0ad1ea5f056ddc"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-10T04:19:22+00:00",
-  "sans": "2026-11-10T04:19:22+00:00",
-  "otx": "2026-11-10T04:19:22+00:00",
-  "urlhaus": "2026-11-10T04:19:22+00:00"
+  "threatfox": "2026-11-10T12:50:44+00:00",
+  "sans": "2026-11-10T12:50:44+00:00",
+  "otx": "2026-11-10T12:50:44+00:00",
+  "urlhaus": "2026-11-10T12:50:44+00:00"
  },
- "generated_at": "2026-11-10T04:19:22+00:00"
+ "generated_at": "2026-11-10T12:50:44+00:00"
 }

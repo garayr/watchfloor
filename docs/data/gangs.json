@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T04:19:22+00:00",
+ "generated_at": "2026-11-10T12:50:44+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1631,8 +1631,8 @@
    "description": "Interlock is a ransomware group first observed in September 2024 that targets critical infrastructure sectors including healthcare, government, education, and technology across North America and Europe using double-extortion, with 57+ claimed victims including a major US dialysis provider exposing over two million patient records.",
    "aliases": [],
    "first_seen": "2023-12-01",
-   "last_seen": "2026-10-21",
-   "victims_total": 140,
+   "last_seen": "2026-11-10",
+   "victims_total": 151,
    "cves": [
     {
      "id": "CVE-2026-20131",
@@ -1659,11 +1659,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 107
+      "count": 117
      },
      {
       "name": "CA",
-      "count": 9
+      "count": 10
      },
      {
       "name": "GB",
@@ -1685,19 +1685,19 @@
     "sectors": [
      {
       "name": "Education",
-      "count": 33
+      "count": 38
      },
      {
       "name": "Manufacturing",
       "count": 23
      },
      {
-      "name": "Professional Services",
-      "count": 20
+      "name": "Healthcare",
+      "count": 21
      },
      {
-      "name": "Healthcare",
-      "count": 18
+      "name": "Professional Services",
+      "count": 20
      },
      {
       "name": "Government & Defense",
@@ -1705,15 +1705,11 @@
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 8
+      "count": 10
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 6
-    },
     {
      "month": "2025-12",
      "count": 8
@@ -1757,10 +1753,14 @@
     {
      "month": "2026-10",
      "count": 11
+    },
+    {
+     "month": "2026-11",
+     "count": 11
     }
    ],
-   "history_size": 140,
-   "updated": "2026-10-21T23:51:30+00:00"
+   "history_size": 151,
+   "updated": "2026-11-10T12:50:44+00:00"
   },
   "aurora": {
    "name": "aurora",
@@ -8195,6 +8195,226 @@
    ],
    "history_size": 3,
    "updated": "2026-11-10T04:19:22+00:00"
+  },
+  "Vortex": {
+   "name": "Vortex",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-11-10",
+   "victims_total": 14,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 13
+     },
+     {
+      "name": "DE",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 7
+     },
+     {
+      "name": "Manufacturing",
+      "count": 3
+     },
+     {
+      "name": "Hospitality",
+      "count": 1
+     },
+     {
+      "name": "Professional Services",
+      "count": 1
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 1
+     },
+     {
+      "name": "Transportation",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 0
+    },
+    {
+     "month": "2026-11",
+     "count": 14
+    }
+   ],
+   "history_size": 14,
+   "updated": "2026-11-10T12:50:44+00:00"
+  },
+  "Black X": {
+   "name": "Black X",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2025-05-07",
+   "last_seen": "2026-11-10",
+   "victims_total": 17,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "KR",
+      "count": 4
+     },
+     {
+      "name": "DE",
+      "count": 2
+     },
+     {
+      "name": "ES",
+      "count": 2
+     },
+     {
+      "name": "YE",
+      "count": 2
+     },
+     {
+      "name": "GB",
+      "count": 1
+     },
+     {
+      "name": "JP",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 4
+     },
+     {
+      "name": "Financial Services",
+      "count": 3
+     },
+     {
+      "name": "Professional Services",
+      "count": 2
+     },
+     {
+      "name": "Technology",
+      "count": 2
+     },
+     {
+      "name": "Energy & Utilities",
+      "count": 1
+     },
+     {
+      "name": "Government & Defense",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 5
+    },
+    {
+     "month": "2026-07",
+     "count": 3
+    },
+    {
+     "month": "2026-08",
+     "count": 2
+    },
+    {
+     "month": "2026-09",
+     "count": 1
+    },
+    {
+     "month": "2026-10",
+     "count": 3
+    },
+    {
+     "month": "2026-11",
+     "count": 3
+    }
+   ],
+   "history_size": 17,
+   "updated": "2026-11-10T12:50:44+00:00"
   }
  }
 }
