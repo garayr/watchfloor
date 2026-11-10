@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-09T22:35:58+00:00",
+ "generated_at": "2026-11-10T04:19:22+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 66
+   "count": 67
   },
   {
    "name": "Deadlock",
@@ -17,24 +17,24 @@
    "count": 5
   },
   {
-   "name": "lockbit5",
-   "count": 4
+   "name": "Aoqin",
+   "count": 2
   },
   {
    "name": "BYOD",
-   "count": 3
+   "count": 2
   },
   {
-   "name": "incransom",
-   "count": 3
+   "name": "Global Secret Group",
+   "count": 2
+  },
+  {
+   "name": "SilentRansomGroup",
+   "count": 2
   },
   {
    "name": "metaencryptor",
    "count": 2
-  },
-  {
-   "name": "Aoqin",
-   "count": 1
   }
  ],
  "by_sector": [
@@ -43,24 +43,24 @@
    "count": 6
   },
   {
-   "name": "Other",
+   "name": "Retail & E-Commerce",
    "count": 5
+  },
+  {
+   "name": "Other",
+   "count": 4
   },
   {
    "name": "Healthcare",
    "count": 3
   },
   {
+   "name": "Government & Defense",
+   "count": 2
+  },
+  {
    "name": "Hospitality",
-   "count": 3
-  },
-  {
-   "name": "Manufacturing",
-   "count": 3
-  },
-  {
-   "name": "Retail & E-Commerce",
-   "count": 3
+   "count": 2
   }
  ],
  "by_country": [
@@ -77,12 +77,6 @@
    "lon": -79.4
   },
   {
-   "code": "TH",
-   "count": 4,
-   "lat": 13.75,
-   "lon": 100.5
-  },
-  {
    "code": "GB",
    "count": 3,
    "lat": 51.5,
@@ -95,34 +89,28 @@
    "lon": 114.2
   },
   {
-   "code": "CO",
+   "code": "TH",
+   "count": 3,
+   "lat": 13.75,
+   "lon": 100.5
+  },
+  {
+   "code": "ZA",
    "count": 2,
-   "lat": 4.7,
-   "lon": -74.1
-  },
-  {
-   "code": "MX",
-   "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
-   "code": "BE",
-   "count": 1,
-   "lat": 50.8,
-   "lon": 4.4
-  },
-  {
-   "code": "BR",
-   "count": 1,
-   "lat": -23.5,
-   "lon": -46.6
+   "lat": -26.2,
+   "lon": 28.0
   },
   {
    "code": "CM",
    "count": 1,
    "lat": 3.9,
    "lon": 11.5
+  },
+  {
+   "code": "CO",
+   "count": 1,
+   "lat": 4.7,
+   "lon": -74.1
   },
   {
    "code": "CR",
@@ -149,12 +137,6 @@
    "lon": 2.35
   },
   {
-   "code": "IN",
-   "count": 1,
-   "lat": 19.1,
-   "lon": 72.9
-  },
-  {
    "code": "IT",
    "count": 1,
    "lat": 41.9,
@@ -167,10 +149,22 @@
    "lon": 127.0
   },
   {
+   "code": "KW",
+   "count": 1,
+   "lat": 29.4,
+   "lon": 48.0
+  },
+  {
    "code": "LY",
    "count": 1,
    "lat": 32.9,
    "lon": 13.2
+  },
+  {
+   "code": "MX",
+   "count": 1,
+   "lat": 19.4,
+   "lon": -99.1
   },
   {
    "code": "NL",
@@ -189,15 +183,90 @@
    "count": 1,
    "lat": 24.7,
    "lon": 46.7
-  },
-  {
-   "code": "ZA",
-   "count": 1,
-   "lat": -26.2,
-   "lon": 28.0
   }
  ],
  "victims": [
+  {
+   "victim": "Vertex Pharmaceuticals Incorporated",
+   "group": "N0n",
+   "date": "2026-11-09T23:53:08+00:00",
+   "attack_date": "2026-11-09",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/VmVydGV4IFBoYXJtYWNldXRpY2FscyBJbmNvcnBvcmF0ZWRATjBu"
+  },
+  {
+   "victim": "fhiworks",
+   "group": "iah6477",
+   "date": "2026-11-09T23:22:45+00:00",
+   "attack_date": "2026-11-09",
+   "country": null,
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Zmhpd29ya3NAaWFoNjQ3Nw=="
+  },
+  {
+   "victim": "Irwin Automotive Group",
+   "group": "Aoqin",
+   "date": "2026-11-09T22:51:05+00:00",
+   "attack_date": "2026-11-09",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/SXJ3aW4gQXV0b21vdGl2ZSBHcm91cEBBb3Fpbg=="
+  },
+  {
+   "victim": "Wilentz, Goldman & Spitzer",
+   "group": "SilentRansomGroup",
+   "date": "2026-11-09T21:06:01+00:00",
+   "attack_date": "2026-11-09",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/V2lsZW50eiwgR29sZG1hbiAmIFNwaXR6ZXJAU2lsZW50UmFuc29tR3JvdXA="
+  },
+  {
+   "victim": "B... W...",
+   "group": "SilentRansomGroup",
+   "date": "2026-11-09T19:06:39+00:00",
+   "attack_date": "2026-11-09",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Qi4uLiBXLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
+  },
+  {
+   "victim": "Published",
+   "group": "PixelLeaks",
+   "date": "2026-11-09T19:05:21+00:00",
+   "attack_date": "2026-11-09",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/UHVibGlzaGVkQFBpeGVsTGVha3M="
+  },
+  {
+   "victim": "Ornico",
+   "group": "Global Secret Group",
+   "date": "2026-11-09T18:54:40+00:00",
+   "attack_date": "2026-11-09",
+   "country": "ZA",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/T3JuaWNvQEdsb2JhbCBTZWNyZXQgR3JvdXA="
+  },
+  {
+   "victim": "Heartland Honda",
+   "group": "Global Secret Group",
+   "date": "2026-11-09T18:53:36+00:00",
+   "attack_date": "2026-11-09",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/SGVhcnRsYW5kIEhvbmRhQEdsb2JhbCBTZWNyZXQgR3JvdXA="
+  },
+  {
+   "victim": "La'ala Al Kuwait Real Estate Co KSCC",
+   "group": "Eclipse",
+   "date": "2026-11-09T18:52:16+00:00",
+   "attack_date": "2026-11-09",
+   "country": "KW",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/TGEnYWxhIEFsIEt1d2FpdCBSZWFsIEVzdGF0ZSBDbyBLU0NDQEVjbGlwc2U="
+  },
   {
    "victim": "M.C.S. Steel Public Company Limited",
    "group": "rhysida",
@@ -955,42 +1024,6 @@
    "url": "https://www.ransomware.live/id/RXhwZWRpYSBHcm91cCwgSW5jLkBOMG4="
   },
   {
-   "victim": "starmark.co.th",
-   "group": "lockbit5",
-   "date": "2026-11-08T23:34:54+00:00",
-   "attack_date": "2026-11-08",
-   "country": "TH",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/c3Rhcm1hcmsuY28udGhAbG9ja2JpdDU="
-  },
-  {
-   "victim": "grupotelles.com",
-   "group": "lockbit5",
-   "date": "2026-11-08T23:32:52+00:00",
-   "attack_date": "2026-11-08",
-   "country": "BR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Z3J1cG90ZWxsZXMuY29tQGxvY2tiaXQ1"
-  },
-  {
-   "victim": "yatra.com",
-   "group": "lockbit5",
-   "date": "2026-11-08T23:30:44+00:00",
-   "attack_date": "2026-11-08",
-   "country": "IN",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/eWF0cmEuY29tQGxvY2tiaXQ1"
-  },
-  {
-   "victim": "sunclinicallaboratories.com",
-   "group": "lockbit5",
-   "date": "2026-11-08T23:28:39+00:00",
-   "attack_date": "2026-11-08",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/c3VuY2xpbmljYWxsYWJvcmF0b3JpZXMuY29tQGxvY2tiaXQ1"
-  },
-  {
    "victim": "ADG Blatt",
    "group": "Barracuda",
    "date": "2026-11-08T22:50:42+00:00",
@@ -1052,51 +1085,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/S2FkaWNrQERlYWRsb2Nr"
-  },
-  {
-   "victim": "q-technicians.be",
-   "group": "incransom",
-   "date": "2026-11-08T03:49:05+00:00",
-   "attack_date": "2026-11-08",
-   "country": "BE",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/cS10ZWNobmljaWFucy5iZUBpbmNyYW5zb20="
-  },
-  {
-   "victim": "bpcm.com",
-   "group": "incransom",
-   "date": "2026-11-08T03:48:13+00:00",
-   "attack_date": "2026-11-08",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/YnBjbS5jb21AaW5jcmFuc29t"
-  },
-  {
-   "victim": "www.bogard.com.mx",
-   "group": "incransom",
-   "date": "2026-11-08T03:47:21+00:00",
-   "attack_date": "2026-11-08",
-   "country": "MX",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/d3d3LmJvZ2FyZC5jb20ubXhAaW5jcmFuc29t"
-  },
-  {
-   "victim": "Clínica La Sagrada Familia (Colombia)",
-   "group": "Whitearmor",
-   "date": "2026-11-08T03:33:23+00:00",
-   "attack_date": "2026-11-08",
-   "country": "CO",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Q2zDrW5pY2EgTGEgU2FncmFkYSBGYW1pbGlhIChDb2xvbWJpYSlAV2hpdGVhcm1vcg=="
-  },
-  {
-   "victim": "Twitter",
-   "group": "BYOD",
-   "date": "2026-11-08T03:20:51+00:00",
-   "attack_date": "2026-11-08",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VHdpdHRlckBCWU9E"
   }
  ]
 }

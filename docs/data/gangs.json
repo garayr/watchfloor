@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T22:35:58+00:00",
+ "generated_at": "2026-11-10T04:19:22+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -4329,8 +4329,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-01-17",
-   "last_seen": "2026-10-29",
-   "victims_total": 54,
+   "last_seen": "2026-11-09",
+   "victims_total": 57,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -4339,7 +4339,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 33
+      "count": 35
      },
      {
       "name": "IN",
@@ -4364,16 +4364,16 @@
     ],
     "sectors": [
      {
+      "name": "Manufacturing",
+      "count": 9
+     },
+     {
       "name": "Technology",
       "count": 9
      },
      {
-      "name": "Manufacturing",
-      "count": 8
-     },
-     {
       "name": "Retail & E-Commerce",
-      "count": 7
+      "count": 8
      },
      {
       "name": "Financial Services",
@@ -4385,15 +4385,11 @@
      },
      {
       "name": "Professional Services",
-      "count": 5
+      "count": 6
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -4437,10 +4433,14 @@
     {
      "month": "2026-10",
      "count": 6
+    },
+    {
+     "month": "2026-11",
+     "count": 3
     }
    ],
-   "history_size": 54,
-   "updated": "2026-10-30T07:37:33+00:00"
+   "history_size": 57,
+   "updated": "2026-11-10T04:19:22+00:00"
   },
   "everest": {
    "name": "everest",
@@ -6005,8 +6005,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-08-20",
-   "last_seen": "2026-10-15",
-   "victims_total": 9,
+   "last_seen": "2026-11-09",
+   "victims_total": 17,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -6015,16 +6015,28 @@
     "countries": [
      {
       "name": "US",
-      "count": 7
+      "count": 10
+     },
+     {
+      "name": "GB",
+      "count": 1
      }
     ],
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 4
+      "count": 5
      },
      {
       "name": "Professional Services",
+      "count": 3
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 2
+     },
+     {
+      "name": "Retail & E-Commerce",
       "count": 2
      },
      {
@@ -6032,20 +6044,12 @@
       "count": 1
      },
      {
-      "name": "Retail & E-Commerce",
-      "count": 1
-     },
-     {
-      "name": "Technology",
+      "name": "Healthcare",
       "count": 1
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -6088,11 +6092,15 @@
     },
     {
      "month": "2026-10",
+     "count": 8
+    },
+    {
+     "month": "2026-11",
      "count": 1
     }
    ],
-   "history_size": 9,
-   "updated": "2026-10-15T07:31:03+00:00"
+   "history_size": 17,
+   "updated": "2026-11-10T04:19:22+00:00"
   },
   "spacebears": {
    "name": "spacebears",
@@ -8105,6 +8113,88 @@
    ],
    "history_size": 121,
    "updated": "2026-11-05T02:46:36+00:00"
+  },
+  "PixelLeaks": {
+   "name": "PixelLeaks",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-09",
+   "victims_total": 3,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "IT",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Other",
+      "count": 1
+     },
+     {
+      "name": "Technology",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 0
+    },
+    {
+     "month": "2026-11",
+     "count": 3
+    }
+   ],
+   "history_size": 3,
+   "updated": "2026-11-10T04:19:22+00:00"
   }
  }
 }
