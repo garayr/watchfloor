@@ -2,32 +2,26 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 760,
-  "c2_servers": 280,
+  "total_iocs": 992,
+  "c2_servers": 299,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 165,
+    "iocs": 170,
     "c2": 17,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 96,
+    "iocs": 84,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 58,
+    "iocs": 66,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 52,
-    "c2": 52,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "SNOWLIGHT",
@@ -36,149 +30,160 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 36,
-    "c2": 36,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "Vidar",
+    "iocs": 51,
+    "c2": 51,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "PureRAT",
+    "iocs": 37,
+    "c2": 25,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    },
    {
     "name": "SalatStealer",
-    "iocs": 32,
+    "iocs": 35,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 33,
+    "c2": 33,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "XWorm",
-    "iocs": 29,
-    "c2": 29,
+    "iocs": 33,
+    "c2": 30,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.xworm"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 29,
+    "iocs": 33,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "AsyncRAT",
-    "iocs": 18,
-    "c2": 17,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 830,
+  "online": 739,
   "top_tags": [
    {
     "name": "github",
-    "count": 498
-   },
-   {
-    "name": "SalatStealer",
-    "count": 270
-   },
-   {
-    "name": "exe",
-    "count": 235
+    "count": 406
    },
    {
     "name": "zip",
-    "count": 192
+    "count": 245
    },
    {
     "name": "elf",
-    "count": 141
-   },
-   {
-    "name": "SmartLoader",
-    "count": 116
+    "count": 169
    },
    {
     "name": "zapret",
-    "count": 94
+    "count": 145
+   },
+   {
+    "name": "SalatStealer",
+    "count": 126
    },
    {
     "name": "Mozi",
-    "count": 89
+    "count": 114
+   },
+   {
+    "name": "SmartLoader",
+    "count": 114
+   },
+   {
+    "name": "32-bit",
+    "count": 105
    }
   ]
  },
  "ports": [
   {
-   "port": 22,
-   "service": "SSH",
-   "records": 334395,
-   "targets": 291,
-   "sources": 6922
-  },
-  {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 240546,
-   "targets": 264,
-   "sources": 8822
+   "records": 977075,
+   "targets": 321,
+   "sources": 13516
+  },
+  {
+   "port": 22,
+   "service": "SSH",
+   "records": 708737,
+   "targets": 312,
+   "sources": 11868
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 142953,
-   "targets": 285,
-   "sources": 7125
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 128683,
-   "targets": 252,
-   "sources": 4856
+   "records": 282573,
+   "targets": 296,
+   "sources": 12763
   },
   {
    "port": 3389,
    "service": "Remote Desktop (RDP)",
-   "records": 120374,
-   "targets": 270,
-   "sources": 1167
+   "records": 263111,
+   "targets": 279,
+   "sources": 2229
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 246610,
+   "targets": 268,
+   "sources": 9660
   },
   {
    "port": 2222,
    "service": null,
-   "records": 85985,
-   "targets": 286,
-   "sources": 3618
+   "records": 182087,
+   "targets": 296,
+   "sources": 7225
   },
   {
    "port": 51413,
    "service": null,
-   "records": 85869,
-   "targets": 77,
-   "sources": 2759
-  },
-  {
-   "port": 16767,
-   "service": null,
-   "records": 50897,
-   "targets": 13,
-   "sources": 2630
+   "records": 181675,
+   "targets": 109,
+   "sources": 4602
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 47990,
-   "targets": 278,
-   "sources": 3672
+   "records": 112474,
+   "targets": 288,
+   "sources": 8014
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 106087,
+   "targets": 50,
+   "sources": 4777
   },
   {
    "port": 7680,
    "service": null,
-   "records": 44660,
-   "targets": 31,
-   "sources": 2079
+   "records": 96039,
+   "targets": 51,
+   "sources": 2509
   }
  ],
  "ports_date": "2026-11-10",
  "diary": [
+  {
+   "title": "Microsoft Patch Tuesday November 2027, (Tue, Nov 10th)",
+   "url": "https://isc.sans.edu/diary/rss/33508",
+   "date": "2026-11-10T19:09:32+00:00"
+  },
   {
    "title": "Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)",
    "url": "https://isc.sans.edu/diary/rss/33506",
@@ -203,11 +208,6 @@
    "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
    "url": "https://isc.sans.edu/diary/rss/33498",
    "date": "2026-11-08T15:44:33+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
-   "url": "https://isc.sans.edu/diary/rss/33494",
-   "date": "2026-11-06T02:00:02+00:00"
   }
  ],
  "pulses": [
@@ -484,10 +484,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-10T12:50:44+00:00",
-  "sans": "2026-11-10T12:50:44+00:00",
-  "otx": "2026-11-10T12:50:44+00:00",
-  "urlhaus": "2026-11-10T12:50:44+00:00"
+  "threatfox": "2026-11-10T20:08:01+00:00",
+  "sans": "2026-11-10T20:08:01+00:00",
+  "otx": "2026-11-10T20:08:01+00:00",
+  "urlhaus": "2026-11-10T20:08:01+00:00"
  },
- "generated_at": "2026-11-10T12:50:44+00:00"
+ "generated_at": "2026-11-10T20:08:01+00:00"
 }

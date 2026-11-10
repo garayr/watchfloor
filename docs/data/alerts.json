@@ -1,6 +1,153 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-116606",
+   "date": "2026-11-10",
+   "src": "CISA",
+   "vendor": "Barracuda Networks Barracuda Email Security Gateway (ESG)",
+   "vendor_name": "Barracuda Networks",
+   "product": "Barracuda Email Security Gateway (ESG)",
+   "title": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "detail": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-116606"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
+   "kev": true,
+   "epss": 0.016,
+   "cvss": 9.3,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+     "source": "BleepingComputer",
+     "date": "2026-11-10T10:10:20+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-124194",
+   "date": "2026-11-10",
+   "src": "CISA",
+   "vendor": "Microsoft Office",
+   "vendor_name": "Microsoft",
+   "product": "Office",
+   "title": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+   "detail": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-124194"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
+   "kev": true,
+   "cvss": 6.5,
+   "sev": "high",
+   "news": [
+    {
+     "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+     "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+     "source": "SecurityWeek",
+     "date": "2026-11-10T19:19:46+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-111793",
+   "date": "2026-11-10",
+   "src": "CISA",
+   "vendor": "Openwave Messaging Limited Webtop Media Transcoder",
+   "vendor_name": "Openwave Messaging Limited",
+   "product": "Webtop Media Transcoder",
+   "title": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+   "detail": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-111793"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
+   "kev": true,
+   "epss": 0.0027,
+   "cvss": 4.3,
+   "sev": "high"
+  },
+  {
+   "id": "CVE-2026-20320",
+   "date": "2026-11-10",
+   "src": "CISA",
+   "vendor": "Cisco BroadWorks",
+   "vendor_name": "Cisco",
+   "product": "BroadWorks",
+   "title": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+   "detail": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-20320"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
+   "kev": true,
+   "epss": 0.0039,
+   "cvss": 7.5,
+   "sev": "high"
+  },
+  {
+   "id": "CVE-2026-111560",
+   "date": "2026-11-10",
+   "src": "CISA",
+   "vendor": "Barracuda Networks Multiple Products",
+   "vendor_name": "Barracuda Networks",
+   "product": "Multiple Products",
+   "title": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+   "detail": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted…",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-111560"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
+   "kev": true,
+   "epss": 0.0106,
+   "cvss": 8.6,
+   "sev": "high"
+  },
+  {
+   "id": "CVE-2026-125350",
+   "date": "2026-11-10",
+   "src": "CISA",
+   "vendor": "Google Chromium",
+   "vendor_name": "Google",
+   "product": "Chromium",
+   "title": "Google Chromium Use-After-Free Vulnerability",
+   "detail": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-125350"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
+   "kev": true,
+   "sev": "high",
+   "news": [
+    {
+     "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+     "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+     "source": "The Hacker News",
+     "date": "2026-11-10T06:52:54+00:00"
+    }
+   ]
+  },
+  {
    "id": "CVE-2026-102895",
    "date": "2026-11-09",
    "src": "CISA",
@@ -17,7 +164,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
    "kev": true,
-   "epss": 0.0033,
+   "epss": 0.0056,
    "cvss": 9.8,
    "sev": "critical",
    "news": [
@@ -46,16 +193,10 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
    "kev": true,
-   "epss": 0.013,
+   "epss": 0.0218,
    "cvss": 9.8,
    "sev": "critical",
    "news": [
-    {
-     "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks",
-     "url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T09:42:27+00:00"
-    },
     {
      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
      "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
@@ -81,16 +222,10 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
    "kev": true,
-   "epss": 0.004,
+   "epss": 0.007,
    "cvss": 9.8,
    "sev": "critical",
    "news": [
-    {
-     "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks",
-     "url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T09:42:27+00:00"
-    },
     {
      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
      "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
@@ -116,7 +251,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
    "kev": true,
-   "epss": 0.0101,
+   "epss": 0.165,
    "cvss": 8.1,
    "sev": "high",
    "news": [
@@ -125,12 +260,6 @@
      "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
      "source": "The Hacker News",
      "date": "2026-11-10T06:31:42+00:00"
-    },
-    {
-     "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
-     "source": "BleepingComputer",
-     "date": "2026-11-09T16:04:57+00:00"
     }
    ]
   },
@@ -151,7 +280,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
    "kev": true,
-   "epss": 0.0062,
+   "epss": 0.0053,
    "cvss": 7.5,
    "sev": "high"
   },
@@ -516,15 +645,7 @@
    "kev": true,
    "epss": 0.0179,
    "cvss": 8.6,
-   "sev": "high",
-   "news": [
-    {
-     "title": "Plex2Shell Exploited Against QNAP NAS Users",
-     "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
-     "source": "SecurityWeek",
-     "date": "2026-11-09T13:13:28+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "CVE-2026-96655",
@@ -545,15 +666,7 @@
    "kev": true,
    "epss": 0.1072,
    "cvss": 5.3,
-   "sev": "high",
-   "news": [
-    {
-     "title": "Plex2Shell Exploited Against QNAP NAS Users",
-     "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
-     "source": "SecurityWeek",
-     "date": "2026-11-09T13:13:28+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "CVE-2026-96654",
@@ -574,15 +687,7 @@
    "kev": true,
    "epss": 0.0195,
    "cvss": 6.9,
-   "sev": "high",
-   "news": [
-    {
-     "title": "Plex2Shell Exploited Against QNAP NAS Users",
-     "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
-     "source": "SecurityWeek",
-     "date": "2026-11-09T13:13:28+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "CVE-2026-96652",
@@ -603,15 +708,7 @@
    "kev": true,
    "epss": 0.1189,
    "cvss": 5.3,
-   "sev": "high",
-   "news": [
-    {
-     "title": "Plex2Shell Exploited Against QNAP NAS Users",
-     "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
-     "source": "SecurityWeek",
-     "date": "2026-11-09T13:13:28+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "CVE-2026-110936",
@@ -716,7 +813,15 @@
    "kev": true,
    "epss": 0.8176,
    "cvss": 9.3,
-   "sev": "critical"
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+     "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+     "source": "The Hacker News",
+     "date": "2026-11-10T16:00:55+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-76519",
@@ -758,7 +863,15 @@
    "kev": true,
    "epss": 0.8448,
    "cvss": 5.5,
-   "sev": "critical"
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+     "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+     "source": "The Hacker News",
+     "date": "2026-11-10T16:00:55+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-0322",

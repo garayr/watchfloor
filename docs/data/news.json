@@ -4,27 +4,11 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
-     "title": "France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators",
-     "summary": "France summoned the Iranian ambassador and said it would seek European sanctions against those responsible for the attack The post France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T07:35:05+00:00",
-     "url": "https://www.securityweek.com/france-blames-iran-for-a-cyberattack-that-heated-supermarket-refrigerators/",
-     "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
-     "summary": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-09T14:34:03+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
-     "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
-     "summary": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-09T14:08:08+00:00",
-     "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+     "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+     "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that…",
+     "source": "The Hacker News",
+     "date": "2026-11-10T15:58:44+00:00",
+     "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
      "group": "Arrests, courts and policy"
     }
    ]
@@ -32,6 +16,54 @@
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+     "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-10T19:31:11+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+     "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed…",
+     "source": "The Hacker News",
+     "date": "2026-11-10T19:19:39+00:00",
+     "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+     "summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and…",
+     "source": "BleepingComputer",
+     "date": "2026-11-10T15:59:19+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+     "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets…",
+     "source": "The Hacker News",
+     "date": "2026-11-10T15:33:59+00:00",
+     "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Ransomware recovery is now a client retention metric",
+     "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these…",
+     "source": "BleepingComputer",
+     "date": "2026-11-10T15:01:11+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+     "summary": "Hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials. The post Over a Dozen Organizations Hit in Qubole Supply Chain Attack appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-10T13:27:44+00:00",
+     "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Fireworks AI discloses new breach after cloud provider hack",
      "summary": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
@@ -47,79 +79,99 @@
      "date": "2026-11-09T23:52:12+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-     "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-09T22:09:33+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "York University breach exposed personal information dating to 2007",
-     "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-09T21:22:31+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-     "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an…",
-     "source": "The Hacker News",
-     "date": "2026-11-09T17:51:21+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Binance denies data breach after alleged ShinyHunters claims",
-     "summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-09T16:12:39+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-     "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-09T16:04:57+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
-     "group": "Breaches and ransomware",
-     "alerts": [
-      "CVE-2026-123158"
-     ]
-    },
-    {
-     "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
-     "summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or…",
-     "source": "The Hacker News",
-     "date": "2026-11-09T13:28:25+00:00",
-     "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
-     "summary": "Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it. The post Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-09T12:41:27+00:00",
-     "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
-     "summary": "Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web. The post Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web…",
-     "source": "SecurityWeek",
-     "date": "2026-11-09T12:22:12+00:00",
-     "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+     "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-10T20:04:36+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+     "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the…",
+     "source": "The Hacker News",
+     "date": "2026-11-10T19:23:10+00:00",
+     "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+     "summary": "CVE-2026-124194 is the Outlook zero-day for which Microsoft says it’s aware of active exploitation. The post Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-10T19:19:46+00:00",
+     "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-124194"
+     ]
+    },
+    {
+     "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+     "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-10T19:07:36+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
+     "summary": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-10T18:33:26+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+     "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE…",
+     "source": "The Hacker News",
+     "date": "2026-11-10T18:12:21+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
+     "summary": "Adobe has fixed vulnerabilities in AEM, Premiere, Photoshop, After Effects, Connect, Audition, Dimension, Content Credentials SDK, and Media Encoder. The post Adobe Patches 110 Vulnerabilities Across 9 Products appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-10T18:11:54+00:00",
+     "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+     "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-10T16:17:16+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+     "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026…",
+     "source": "The Hacker News",
+     "date": "2026-11-10T16:00:55+00:00",
+     "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-105134",
+      "CVE-2026-105133"
+     ]
+    },
+    {
+     "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
+     "summary": "SAP has published 42 new and updated security advisories, including nine that address critical-severity vulnerabilities. The post SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-10T14:46:28+00:00",
+     "url": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
+     "group": "Exploited right now"
+    },
     {
      "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
      "summary": "Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests. The post Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes…",
@@ -150,7 +202,10 @@
      "source": "BleepingComputer",
      "date": "2026-11-10T10:10:20+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-116606"
+     ]
     },
     {
      "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
@@ -169,18 +224,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks",
-     "summary": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first…",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T09:42:27+00:00",
-     "url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-116779",
-      "CVE-2026-123218"
-     ]
-    },
-    {
      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
      "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
      "source": "BleepingComputer",
@@ -194,7 +237,10 @@
      "source": "The Hacker News",
      "date": "2026-11-10T06:52:54+00:00",
      "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-125350"
+     ]
     },
     {
      "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
@@ -217,50 +263,20 @@
       "CVE-2026-123218",
       "CVE-2026-123158"
      ]
-    },
-    {
-     "title": "Chrome Update Patches Exploited XML Zero-Day, Eighth This Year",
-     "summary": "The high-severity use-after-free in Chrome’s XML component was reported anonymously on November 6 and is already exploited in attacks. The post Chrome Update Patches Exploited XML Zero-Day, Eighth This Year appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T06:12:24+00:00",
-     "url": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-     "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities…",
-     "source": "BleepingComputer",
-     "date": "2026-11-09T21:26:25+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Plex2Shell Exploited Against QNAP NAS Users",
-     "summary": "Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices. The post Plex2Shell Exploited Against QNAP NAS Users appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-09T13:13:28+00:00",
-     "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-96656",
-      "CVE-2026-96655",
-      "CVE-2026-96654",
-      "CVE-2026-96652"
-     ]
-    },
-    {
-     "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
-     "summary": "The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-09T12:13:32+00:00",
-     "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+     "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research…",
+     "source": "The Hacker News",
+     "date": "2026-11-10T17:43:23+00:00",
+     "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
      "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with…",
@@ -276,36 +292,44 @@
      "date": "2026-11-10T10:04:32+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
-     "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-09T17:50:32+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-     "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases…",
-     "source": "The Hacker News",
-     "date": "2026-11-09T17:36:28+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-     "summary": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote…",
-     "source": "The Hacker News",
-     "date": "2026-11-09T14:31:29+00:00",
-     "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+     "summary": "SBOM pioneer Allan Friedman joined the SecurityWeek Podcast to discuss why knowing what is inside software is only the beginning, how AI is complicating software supply chain visibility, and what organizations should be…",
+     "source": "SecurityWeek",
+     "date": "2026-11-10T16:45:00+00:00",
+     "url": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+     "group": "Other news"
+    },
+    {
+     "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+     "summary": "Google opened Carbon to paying developers and businesses as DeepMind used agents built on it to prove libsignal security guarantees. The post Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code…",
+     "source": "SecurityWeek",
+     "date": "2026-11-10T16:42:02+00:00",
+     "url": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+     "group": "Other news"
+    },
+    {
+     "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
+     "summary": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise. The…",
+     "source": "SecurityWeek",
+     "date": "2026-11-10T15:00:00+00:00",
+     "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+     "group": "Other news"
+    },
+    {
+     "title": "WhiteMatter Raises $20 Million in Series A Funding",
+     "summary": "The cybersecurity startup deploys a dedicated guardian agent for every AI agent in an organization’s environment. The post WhiteMatter Raises $20 Million in Series A Funding appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-10T14:58:19+00:00",
+     "url": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+     "group": "Other news"
+    },
     {
      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
      "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance…",
@@ -336,30 +360,6 @@
      "source": "The Hacker News",
      "date": "2026-11-10T08:16:14+00:00",
      "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-     "group": "Other news"
-    },
-    {
-     "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
-     "summary": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at…",
-     "source": "BleepingComputer",
-     "date": "2026-11-09T18:32:42+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
-     "group": "Other news"
-    },
-    {
-     "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
-     "summary": "AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant. Anecdotes examines three essential skills for the AI-driven GRC…",
-     "source": "BleepingComputer",
-     "date": "2026-11-09T15:05:15+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
-     "group": "Other news"
-    },
-    {
-     "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
-     "summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the…",
-     "source": "The Hacker News",
-     "date": "2026-11-09T11:27:53+00:00",
-     "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
      "group": "Other news"
     }
    ]
