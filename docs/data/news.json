@@ -17,6 +17,35 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+     "summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at…",
+     "source": "The Hacker News",
+     "date": "2026-11-11T12:19:40+00:00",
+     "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+     "summary": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data. The post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-11T09:01:07+00:00",
+     "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "CVE-2026-111793",
+      "CVE-2026-20320",
+      "CVE-2026-76418"
+     ]
+    },
+    {
+     "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+     "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to…",
+     "source": "The Hacker News",
+     "date": "2026-11-11T07:49:04+00:00",
+     "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
      "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing…",
      "source": "BleepingComputer",
@@ -71,22 +100,6 @@
      "date": "2026-11-10T15:01:11+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
-     "summary": "Hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials. The post Over a Dozen Organizations Hit in Qubole Supply Chain Attack appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T13:27:44+00:00",
-     "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Fireworks AI discloses new breach after cloud provider hack",
-     "summary": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-10T07:49:58+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
@@ -94,11 +107,87 @@
    "group": "Exploited right now",
    "items": [
     {
-     "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
-     "summary": "Apple has patched Bluetooth and AirPlay pairing flaws, iMessage vulnerabilities, and an exploited Brotli bug across its platforms. The post Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms…",
+     "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+     "summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they…",
+     "source": "The Hacker News",
+     "date": "2026-11-11T14:01:00+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Asus, Zoom Release Security Patches",
+     "summary": "Attackers could exploit them for command execution, memory overwrites, and privilege escalation. The post Asus, Zoom Release Security Patches appeared first on SecurityWeek.",
      "source": "SecurityWeek",
-     "date": "2026-11-11T07:00:17+00:00",
-     "url": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
+     "date": "2026-11-11T13:58:38+00:00",
+     "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+     "summary": "Attackers could exploit the bugs to tamper with certificate entries, achieve remote code execution, and compromise hosts. The post Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-11T13:37:19+00:00",
+     "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+     "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted…",
+     "source": "BleepingComputer",
+     "date": "2026-11-11T12:32:27+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Fortinet Patches Nearly 100 Vulnerabilities",
+     "summary": "The massive drop comes after the company integrated frontier AI models into its product security testing. The post Fortinet Patches Nearly 100 Vulnerabilities appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-11T12:10:14+00:00",
+     "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
+     "summary": "Pre-Patch Tuesday advisories were published by VDE CERT, Phoenix Contact, Johnson Controls, and Hitachi Energy. The post ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-11T10:35:15+00:00",
+     "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+     "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-11T10:12:08+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-20320",
+      "CVE-2026-76418"
+     ]
+    },
+    {
+     "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
+     "summary": "Intel and AMD disclose more than 200 vulnerabilities, including critical flaws in Intel TDX software and numerous AMD graphics bugs. The post Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD…",
+     "source": "SecurityWeek",
+     "date": "2026-11-11T08:42:44+00:00",
+     "url": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+     "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows…",
+     "source": "The Hacker News",
+     "date": "2026-11-11T08:17:53+00:00",
+     "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
+     "summary": "The security defects could allow attackers to bypass authorization and gain root access to devices. The post Recently Patched Barracuda Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-11T07:53:51+00:00",
+     "url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
      "group": "Exploited right now"
     },
     {
@@ -130,17 +219,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
-     "summary": "CVE-2026-124194 is the Outlook zero-day for which Microsoft says it’s aware of active exploitation. The post Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T19:19:46+00:00",
-     "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-124194"
-     ]
-    },
-    {
      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
      "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
      "source": "BleepingComputer",
@@ -165,14 +243,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
-     "summary": "Adobe has fixed vulnerabilities in AEM, Premiere, Photoshop, After Effects, Connect, Audition, Dimension, Content Credentials SDK, and Media Encoder. The post Adobe Patches 110 Vulnerabilities Across 9 Products appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T18:11:54+00:00",
-     "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
      "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
      "source": "BleepingComputer",
@@ -191,76 +261,6 @@
       "CVE-2026-105134",
       "CVE-2026-105133"
      ]
-    },
-    {
-     "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
-     "summary": "SAP has published 42 new and updated security advisories, including nine that address critical-severity vulnerabilities. The post SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T14:46:28+00:00",
-     "url": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
-     "summary": "Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests. The post Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes…",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T12:17:13+00:00",
-     "url": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
-     "summary": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-10T12:07:03+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
-     "summary": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T10:16:51+00:00",
-     "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
-     "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-10T10:10:20+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-116606"
-     ]
-    },
-    {
-     "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-     "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T10:02:40+00:00",
-     "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-     "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-10T08:51:25+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-     "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T06:52:54+00:00",
-     "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-125350"
-     ]
     }
    ]
   },
@@ -268,27 +268,19 @@
    "group": "Malware and campaigns",
    "items": [
     {
+     "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+     "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an…",
+     "source": "The Hacker News",
+     "date": "2026-11-11T07:21:05+00:00",
+     "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+     "group": "Malware and campaigns"
+    },
+    {
      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
      "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research…",
      "source": "The Hacker News",
      "date": "2026-11-10T17:43:23+00:00",
      "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-     "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T10:07:29+00:00",
-     "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-     "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-10T10:04:32+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
      "group": "Malware and campaigns"
     }
    ]
@@ -297,35 +289,67 @@
    "group": "Other news",
    "items": [
     {
-     "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
-     "summary": "SBOM pioneer Allan Friedman joined the SecurityWeek Podcast to discuss why knowing what is inside software is only the beginning, how AI is complicating software supply chain visibility, and what organizations should be…",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T16:45:00+00:00",
-     "url": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+     "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+     "summary": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors…",
+     "source": "BleepingComputer",
+     "date": "2026-11-11T15:01:11+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
      "group": "Other news"
     },
     {
-     "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
-     "summary": "Google opened Carbon to paying developers and businesses as DeepMind used agents built on it to prove libsignal security guarantees. The post Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code…",
+     "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
+     "summary": "The Series C round will fund international expansion and more autonomous features for the firm’s device security platform. The post Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices…",
      "source": "SecurityWeek",
-     "date": "2026-11-10T16:42:02+00:00",
-     "url": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+     "date": "2026-11-11T12:24:33+00:00",
+     "url": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
      "group": "Other news"
     },
     {
-     "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
-     "summary": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise. The…",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T15:00:00+00:00",
-     "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+     "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+     "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well…",
+     "source": "The Hacker News",
+     "date": "2026-11-11T12:01:59+00:00",
+     "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
      "group": "Other news"
     },
     {
-     "title": "WhiteMatter Raises $20 Million in Series A Funding",
-     "summary": "The cybersecurity startup deploys a dedicated guardian agent for every AI agent in an organization’s environment. The post WhiteMatter Raises $20 Million in Series A Funding appeared first on SecurityWeek.",
+     "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+     "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has…",
+     "source": "The Hacker News",
+     "date": "2026-11-11T12:00:53+00:00",
+     "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+     "group": "Other news"
+    },
+    {
+     "title": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
+     "summary": "Founded by three ex-IDF Unit 8200 intelligence officers, Bay is launched to provide a control plane for AI agents. The post Bay Raises $50 Million to Control What Enterprise AI Agents Can Do appeared first on…",
      "source": "SecurityWeek",
-     "date": "2026-11-10T14:58:19+00:00",
-     "url": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+     "date": "2026-11-11T11:30:00+00:00",
+     "url": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
+     "group": "Other news"
+    },
+    {
+     "title": "Microsoft fixes audio issues caused by September security updates",
+     "summary": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-11T11:18:36+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+     "group": "Other news"
+    },
+    {
+     "title": "Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks",
+     "summary": "Created by Zerto and Kashya veterans, the startup has launched a platform designed to recover whole cloud applications. The post Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-11T11:16:40+00:00",
+     "url": "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
+     "group": "Other news"
+    },
+    {
+     "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+     "summary": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-11T09:07:27+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
      "group": "Other news"
     },
     {
@@ -334,30 +358,6 @@
      "source": "The Hacker News",
      "date": "2026-11-10T12:15:31+00:00",
      "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Beyond the Alert: The Case for Rich Network Data",
-     "summary": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T11:38:13+00:00",
-     "url": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
-     "group": "Other news"
-    },
-    {
-     "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-     "summary": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T09:08:20+00:00",
-     "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-     "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T08:16:14+00:00",
-     "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
      "group": "Other news"
     }
    ]

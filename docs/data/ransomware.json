@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-11T07:07:40+00:00",
+ "generated_at": "2026-11-11T15:08:15+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 48
+   "count": 45
   },
   {
    "name": "interlock",
@@ -21,6 +21,10 @@
    "count": 4
   },
   {
+   "name": "Aoqin",
+   "count": 3
+  },
+  {
    "name": "BYOD",
    "count": 3
   },
@@ -31,10 +35,6 @@
   {
    "name": "Vortex",
    "count": 3
-  },
-  {
-   "name": "play",
-   "count": 3
   }
  ],
  "by_sector": [
@@ -44,11 +44,11 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 10
+   "count": 8
   },
   {
    "name": "Professional Services",
-   "count": 6
+   "count": 7
   },
   {
    "name": "Technology",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 55,
+   "count": 56,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -89,16 +89,16 @@
    "lon": -0.1
   },
   {
-   "code": "AE",
-   "count": 2,
-   "lat": 24.5,
-   "lon": 54.4
-  },
-  {
    "code": "ZA",
    "count": 2,
    "lat": -26.2,
    "lon": 28.0
+  },
+  {
+   "code": "AE",
+   "count": 1,
+   "lat": 24.5,
+   "lon": 54.4
   },
   {
    "code": "AU",
@@ -187,6 +187,33 @@
  ],
  "victims": [
   {
+   "victim": "The Queenan Law Firm",
+   "group": "osiris",
+   "date": "2026-11-11T10:57:35+00:00",
+   "attack_date": "2026-11-11",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/VGhlIFF1ZWVuYW4gTGF3IEZpcm1Ab3Npcmlz"
+  },
+  {
+   "victim": "Tyfone",
+   "group": "Aoqin",
+   "date": "2026-11-11T09:51:11+00:00",
+   "attack_date": "2026-11-11",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/VHlmb25lQEFvcWlu"
+  },
+  {
+   "victim": "Herald Christian Health Center",
+   "group": "osiris",
+   "date": "2026-11-11T08:15:49+00:00",
+   "attack_date": "2026-11-10",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/SGVyYWxkIENocmlzdGlhbiBIZWFsdGggQ2VudGVyQG9zaXJpcw=="
+  },
+  {
    "victim": "SUNNIER HOMES",
    "group": "Panzer",
    "date": "2026-11-11T01:32:33+00:00",
@@ -194,24 +221,6 @@
    "country": "ES",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/U1VOTklFUiBIT01FU0BQYW56ZXI="
-  },
-  {
-   "victim": "LiveRamp",
-   "group": "N0n",
-   "date": "2026-11-11T01:00:34+00:00",
-   "attack_date": "2026-11-11",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/TGl2ZVJhbXBATjBu"
-  },
-  {
-   "victim": "DraftKings",
-   "group": "N0n",
-   "date": "2026-11-11T00:59:58+00:00",
-   "attack_date": "2026-11-11",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/RHJhZnRLaW5nc0BOMG4="
   },
   {
    "victim": "Garden Valley School Division",
@@ -547,24 +556,6 @@
    "url": "https://www.ransomware.live/id/UFlSQU1JRCBIRUFMVEhDQVJFQFZvcnRleA=="
   },
   {
-   "victim": "Landmark Group",
-   "group": "N0n",
-   "date": "2026-11-10T01:53:03+00:00",
-   "attack_date": "2026-11-10",
-   "country": "AE",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/TGFuZG1hcmsgR3JvdXBATjBu"
-  },
-  {
-   "victim": "Vertex Pharmaceuticals Incorporated",
-   "group": "N0n",
-   "date": "2026-11-09T23:53:08+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/VmVydGV4IFBoYXJtYWNldXRpY2FscyBJbmNvcnBvcmF0ZWRATjBu"
-  },
-  {
    "victim": "fhiworks",
    "group": "iah6477",
    "date": "2026-11-09T23:22:45+00:00",
@@ -788,15 +779,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTk4QE4wbg=="
-  },
-  {
-   "victim": "159 Solutions, Inc.",
-   "group": "N0n",
-   "date": "2026-11-09T12:23:17+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/MTU5IFNvbHV0aW9ucywgSW5jLkBOMG4="
   },
   {
    "victim": "Fortox Security Group",
@@ -1085,6 +1067,24 @@
    "country": "CA",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTY5QE4wbg=="
+  },
+  {
+   "victim": "Company #168",
+   "group": "N0n",
+   "date": "2026-11-09T10:32:24+00:00",
+   "attack_date": "2026-11-09",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTY4QE4wbg=="
+  },
+  {
+   "victim": "Company #167",
+   "group": "N0n",
+   "date": "2026-11-09T10:31:44+00:00",
+   "attack_date": "2026-11-09",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTY3QE4wbg=="
   }
  ]
 }

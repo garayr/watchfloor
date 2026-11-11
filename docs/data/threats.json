@@ -2,37 +2,43 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1258,
-  "c2_servers": 315,
+  "total_iocs": 1431,
+  "c2_servers": 322,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 177,
-    "c2": 2,
+    "iocs": 307,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "ClearFake",
-    "iocs": 115,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Mirai",
-    "iocs": 87,
-    "c2": 16,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "SalatStealer",
-    "iocs": 59,
+    "iocs": 185,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
+    "name": "ClearFake",
+    "iocs": 111,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "StrelaStealer",
+    "iocs": 77,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 72,
+    "c2": 11,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "Vidar",
-    "iocs": 50,
-    "c2": 50,
+    "iocs": 49,
+    "c2": 49,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -42,66 +48,60 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "PureRAT",
+    "name": "Cobalt Strike",
     "iocs": 40,
-    "c2": 28,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
+    "c2": 40,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 31,
+    "iocs": 29,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 23,
-    "c2": 23,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "stealler",
-    "iocs": 18,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
+    "name": "PureRAT",
+    "iocs": 28,
+    "c2": 28,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
  "urls": {
-  "sample": 866,
-  "online": 637,
+  "sample": 1000,
+  "online": 856,
   "top_tags": [
    {
-    "name": "github",
-    "count": 254
-   },
-   {
-    "name": "zip",
-    "count": 232
-   },
-   {
     "name": "elf",
-    "count": 170
+    "count": 116
+   },
+   {
+    "name": "github",
+    "count": 102
    },
    {
     "name": "zapret",
-    "count": 145
-   },
-   {
-    "name": "Mozi",
-    "count": 119
-   },
-   {
-    "name": "32-bit",
-    "count": 112
-   },
-   {
-    "name": "SmartLoader",
     "count": 90
    },
    {
-    "name": "mips",
+    "name": "zip",
+    "count": 89
+   },
+   {
+    "name": "Mozi",
+    "count": 74
+   },
+   {
+    "name": "32-bit",
     "count": 70
+   },
+   {
+    "name": "mips",
+    "count": 44
+   },
+   {
+    "name": "arm",
+    "count": 31
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 135914,
-   "targets": 259,
-   "sources": 5127
+   "records": 343102,
+   "targets": 298,
+   "sources": 8330
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 67017,
-   "targets": 244,
-   "sources": 3561
+   "records": 153222,
+   "targets": 285,
+   "sources": 5306
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 57919,
-   "targets": 264,
-   "sources": 4069
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 57064,
-   "targets": 250,
-   "sources": 3267
-  },
-  {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 56665,
-   "targets": 241,
-   "sources": 593
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 51650,
-   "targets": 261,
-   "sources": 4618
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 48991,
-   "targets": 96,
-   "sources": 2051
+   "records": 153041,
+   "targets": 289,
+   "sources": 7507
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 45779,
-   "targets": 225,
-   "sources": 5974
+   "records": 134249,
+   "targets": 255,
+   "sources": 8790
+  },
+  {
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 128092,
+   "targets": 268,
+   "sources": 1472
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 125115,
+   "targets": 284,
+   "sources": 4664
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 105511,
+   "targets": 297,
+   "sources": 6935
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 99928,
+   "targets": 166,
+   "sources": 4462
   },
   {
    "port": 2222,
    "service": null,
-   "records": 28366,
-   "targets": 251,
-   "sources": 2548
+   "records": 73641,
+   "targets": 285,
+   "sources": 4282
   },
   {
    "port": 7680,
    "service": null,
-   "records": 25272,
-   "targets": 18,
-   "sources": 1999
+   "records": 69924,
+   "targets": 34,
+   "sources": 3172
   }
  ],
  "ports_date": "2026-11-11",
@@ -211,6 +211,184 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Analysis of Wpcdoor Attack Case Distributed Through Domestic DVR Management Software",
+   "summary": "A South Korean company's DVR management software (CMS) was exploited to distribute the Wpcdoor backdoor malware. The attack chain begins when CMS.exe installs rs.win32.exe along with a malicious IPHLPAPI.DLL file that…",
+   "date": "2026-11-11T09:55:02+00:00",
+   "author": "AlienVault",
+   "adversary": "Larva-26013",
+   "malware": [
+    "Wpcdoor",
+    "IPHLPAPI.DLL",
+    "QtCore4.dll",
+    "samcli.dll",
+    "rsaenh.dll"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "iphlpapi.dll",
+    "hvnc",
+    "wpcdoor",
+    "backdoor",
+    "dll side-loading",
+    "samcli.dll"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af43b7618f6962a478a6835"
+  },
+  {
+   "name": "A New ESXi Implant Linked to Settra Ransomware",
+   "summary": "GhostFrame is a previously undocumented post-exploitation framework enabling extensive control over compromised VMware ESXi environments. After root-level access is obtained, it provides a unified interface for…",
+   "date": "2026-11-10T19:18:27+00:00",
+   "author": "AlienVault",
+   "adversary": "TAG-218",
+   "malware": [
+    "GhostFrame",
+    "VMkatz",
+    "MeshCentral"
+   ],
+   "countries": [
+    "United States of America"
+   ],
+   "industries": [],
+   "tags": [
+    "vmware esxi",
+    "cve-2026-0257",
+    "credential harvesting",
+    "settra",
+    "ghostframe",
+    "meshcentral"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af36e03fef8cc1180e8a7da"
+  },
+  {
+   "name": "The Cold Chain on Fire: Unpatched Danfoss controllers exploited",
+   "summary": "Between October and November 2026, hundreds of supermarkets across France and over a dozen European countries suffered cyberattacks targeting unpatched Danfoss refrigeration controllers directly exposed to the internet…",
+   "date": "2026-11-10T14:57:10+00:00",
+   "author": "AlienVault",
+   "adversary": "CyberAveng3rs",
+   "malware": [],
+   "countries": [
+    "Belgium",
+    "France",
+    "Germany",
+    "Netherlands",
+    "Sweden"
+   ],
+   "industries": [
+    "Retail",
+    "Healthcare"
+   ],
+   "tags": [
+    "authentication bypass",
+    "danfoss controllers",
+    "industrial control systems",
+    "refrigeration systems",
+    "iran nexus",
+    "ics vulnerabilities"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af330c6ae77e9cab69b34fc"
+  },
+  {
+   "name": "Beyond the clipboard: The evolving tradecraft of ClickFix",
+   "summary": "Threat actors continue to evolve ClickFix tactics, moving beyond simple clipboard-based social engineering to more sophisticated attack chains. Recent campaigns leverage malvertising through typosquatting, SEO…",
+   "date": "2026-11-10T14:44:38+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "DuskDesk",
+    "Matanbuchus",
+    "AstarionRAT",
+    "Potemkin",
+    "RMMProject",
+    "EtherRAT"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "typosquatting",
+    "etherrat",
+    "rat",
+    "lateral movement",
+    "matanbuchus",
+    "astarionrat"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37"
+  },
+  {
+   "name": "Not All That Glitters Is Gold: Tracking CopperDragon's Sparrow Framework Around the Globe",
+   "summary": "Over the past year, researchers investigated intrusion campaigns targeting high-profile organizations across Latin America, Asia, and Europe. These initially appeared independent but were linked through shared tools and…",
+   "date": "2026-11-10T14:39:28+00:00",
+   "author": "AlienVault",
+   "adversary": "CopperDragon",
+   "malware": [
+    "SquadC",
+    "SparrowDoor",
+    "CrowDoor",
+    "HemiGate",
+    "TernDoor",
+    "AnnobinDoor"
+   ],
+   "countries": [
+    "Czechia",
+    "France",
+    "Germany",
+    "Hong Kong",
+    "Indonesia",
+    "Nepal"
+   ],
+   "industries": [
+    "Government",
+    "Telecommunications",
+    "Military",
+    "Technology"
+   ],
+   "tags": [
+    "melofee",
+    "sparrowshell",
+    "copperdragon",
+    "china-nexus",
+    "pyproxy",
+    "copperadu"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af32ca0532e5bb3ad1eb242"
+  },
+  {
+   "name": "Dark Web Profile: CyberXero",
+   "summary": "CyberXero is a Russian-speaking, financially motivated Initial Access Broker operating on Dark Web forums, conducting two parallel operations: a global mass-exploitation campaign targeting WordPress, Magento and…",
+   "date": "2026-11-10T14:18:09+00:00",
+   "author": "AlienVault",
+   "adversary": "CyberXero",
+   "malware": [
+    "wp2shell",
+    "WSO webshell",
+    "Cobalt Strike - S0154",
+    "PentAGI"
+   ],
+   "countries": [
+    "China",
+    "Netherlands",
+    "Pakistan",
+    "Poland",
+    "Ukraine"
+   ],
+   "industries": [
+    "Energy",
+    "Government",
+    "Telecommunications",
+    "Retail",
+    "Technology"
+   ],
+   "tags": [
+    "wso webshell",
+    "cve-2026-60137",
+    "wordpress exploitation",
+    "ukrainian critical infrastructure",
+    "cve-2015-1397",
+    "wp2shell"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af327a10b5317aadf0fbfc8"
+  },
   {
    "name": "Contagious Interview - One Interview Away From Infection",
    "summary": "A sophisticated campaign targeting software developers through fake job interviews has been exposed, using a fraudulent company called AccuraSoftHire as a front. The operation lures developers through legitimate job…",
@@ -345,149 +523,13 @@
     "cve-2026-105133"
    ],
    "url": "https://otx.alienvault.com/pulse/6af1ef5821afddb68d6df42b"
-  },
-  {
-   "name": "Infostealer VOLTA That Has AI Assess Stolen Information",
-   "summary": "VOLTA is a Windows-based infostealer that incorporates an LLM assessment phase to evaluate stolen data. It operates through multiple phases: stealing credentials, sessions, and cryptocurrency wallets from browsers and…",
-   "date": "2026-11-09T14:27:44+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "VOLTA"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "volta",
-    "credential theft",
-    "openrouter",
-    "llm integration",
-    "chrome abe bypass",
-    "infostealer"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af1d860f5d71db2f5f24f0e"
-  },
-  {
-   "name": "The Industry Leader in Enterprise Brand Protection",
-   "summary": "A sophisticated phishing campaign has been identified targeting hospitality customers through fake hotel reservation pages impersonating Booking.com and other hotel services. The operation uses personalized reservation…",
-   "date": "2026-11-09T12:44:59+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "Japan"
-   ],
-   "industries": [
-    "Hospitality"
-   ],
-   "tags": [
-    "personalized lures",
-    "booking.com impersonation",
-    "payment card theft",
-    "phishing",
-    "multi-language kit",
-    "3d secure"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af1c04bc9cb5773cc15b8bc"
-  },
-  {
-   "name": "Shai-Hulud Descendant Surfaces in Malicious Ruby Gem That Steals Credentials and Poisons AI Tools",
-   "summary": "A malicious Ruby gem, strutil-core version 1.0.1, executes a 5.48 MB credential-stealing worm during installation. Published on November 1, 2026, by RubyGems account jamnajiea, the package was flagged 70 seconds after…",
-   "date": "2026-11-09T12:43:12+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "testmetest",
-    "Miasma",
-    "Shai-Hulud"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "supply-chain",
-    "ruby-gem",
-    "ai-poisoning",
-    "miasma",
-    "shai-hulud",
-    "testmetest"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af1bfe0945ca03e48243de3"
-  },
-  {
-   "name": "ARTEX abuse expands as cybercriminals target financial sector",
-   "summary": "In October 2026, the Cambodia-based threat actor Storm-3358 began leveraging the agentic AI offensive framework ARTEX to target financial organizations primarily in Southeast Asia and select global institutions. The…",
-   "date": "2026-11-07T05:23:08+00:00",
-   "author": "AlienVault",
-   "adversary": "Storm-3358",
-   "malware": [
-    "ARTEX",
-    "WISP",
-    "vshell",
-    "AdaptixC2"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "agentic ai",
-    "credential compromise",
-    "wisp",
-    "wisp rat",
-    "southeast asia",
-    "adaptixc2"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aeeb5bc2f487ae6d84ea7e9"
-  },
-  {
-   "name": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
-   "summary": "Armorsteal is a sophisticated Python-based malware kit that combines information stealing, cryptocurrency mining, and backdoor capabilities. Distributed through fake download pages for legitimate tools, it installs into…",
-   "date": "2026-11-06T14:11:04+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Armorsteal",
-    "XMRig"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "pyarmor obfuscation",
-    "credential harvesting",
-    "clipper",
-    "xmrig",
-    "xmrig miner",
-    "keylogger"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aeddff8a8cf552b829954c3"
-  },
-  {
-   "name": "Lookalike Domains Expose the iPhone Theft Economy",
-   "summary": "A thriving underground marketplace operating primarily through Telegram has emerged to unlock stolen iPhones, making phone theft profitable despite Apple's security features like Activation Lock. Thieves combine…",
-   "date": "2026-11-06T11:15:45+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "United States of America"
-   ],
-   "industries": [],
-   "tags": [
-    "device unlock",
-    "unlocking tools",
-    "phishing kits",
-    "smishing",
-    "iphone theft",
-    "telegram marketplace"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aedb6e121254ba434499c9a"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-11T07:07:40+00:00",
-  "sans": "2026-11-11T07:07:40+00:00",
-  "otx": "2026-11-11T07:07:40+00:00",
-  "urlhaus": "2026-11-11T07:07:40+00:00"
+  "threatfox": "2026-11-11T15:08:15+00:00",
+  "sans": "2026-11-11T15:08:15+00:00",
+  "otx": "2026-11-11T15:08:15+00:00",
+  "urlhaus": "2026-11-11T15:08:15+00:00"
  },
- "generated_at": "2026-11-11T07:07:40+00:00"
+ "generated_at": "2026-11-11T15:08:15+00:00"
 }

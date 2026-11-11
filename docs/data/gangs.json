@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T00:38:41+00:00",
+ "generated_at": "2026-11-11T15:08:15+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -4089,8 +4089,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-29",
-   "last_seen": "2026-11-04",
-   "victims_total": 12,
+   "last_seen": "2026-11-10",
+   "victims_total": 19,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -4099,10 +4099,14 @@
     "countries": [
      {
       "name": "US",
-      "count": 4
+      "count": 7
      },
      {
       "name": "GB",
+      "count": 1
+     },
+     {
+      "name": "JP",
       "count": 1
      },
      {
@@ -4117,26 +4121,26 @@
     "sectors": [
      {
       "name": "Education",
-      "count": 3
+      "count": 4
      },
      {
       "name": "Technology",
-      "count": 3
+      "count": 4
+     },
+     {
+      "name": "Hospitality",
+      "count": 2
+     },
+     {
+      "name": "Manufacturing",
+      "count": 2
      },
      {
       "name": "Financial Services",
       "count": 1
      },
      {
-      "name": "Hospitality",
-      "count": 1
-     },
-     {
-      "name": "Manufacturing",
-      "count": 1
-     },
-     {
-      "name": "Other",
+      "name": "Government & Defense",
       "count": 1
      }
     ]
@@ -4188,11 +4192,11 @@
     },
     {
      "month": "2026-11",
-     "count": 2
+     "count": 9
     }
    ],
-   "history_size": 12,
-   "updated": "2026-11-04T09:06:11+00:00"
+   "history_size": 19,
+   "updated": "2026-11-11T15:08:15+00:00"
   },
   "SilentRansomGroup": {
    "name": "SilentRansomGroup",
@@ -7885,14 +7889,22 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "victims_total": 4,
+   "last_seen": "2026-11-11",
+   "victims_total": 8,
    "cves": [],
    "tools": [],
    "techniques": [],
    "links": [],
    "targets": {
     "countries": [
+     {
+      "name": "US",
+      "count": 3
+     },
+     {
+      "name": "BR",
+      "count": 1
+     },
      {
       "name": "CL",
       "count": 1
@@ -7902,15 +7914,19 @@
       "count": 1
      },
      {
-      "name": "SI",
+      "name": "CO",
       "count": 1
      },
      {
-      "name": "US",
+      "name": "SI",
       "count": 1
      }
     ],
     "sectors": [
+     {
+      "name": "Technology",
+      "count": 4
+     },
      {
       "name": "Energy & Utilities",
       "count": 1
@@ -7924,7 +7940,7 @@
       "count": 1
      },
      {
-      "name": "Technology",
+      "name": "Retail & E-Commerce",
       "count": 1
      }
     ]
@@ -7976,11 +7992,11 @@
     },
     {
      "month": "2026-11",
-     "count": 4
+     "count": 8
     }
    ],
-   "history_size": 4,
-   "updated": "2026-11-04T09:06:11+00:00"
+   "history_size": 8,
+   "updated": "2026-11-11T15:08:15+00:00"
   },
   "medusalocker": {
    "name": "medusalocker",
@@ -8533,6 +8549,116 @@
    ],
    "history_size": 17,
    "updated": "2026-11-10T20:08:01+00:00"
+  },
+  "osiris": {
+   "name": "osiris",
+   "description": "Osiris is a ransomware-as-a-service operation first observed in November 2025 that uses a Bring Your Own Vulnerable Driver (BYOVD) technique to disable endpoint detection tools before deploying hybrid ECC + AES-128-CTR encryption; Symantec researchers linked its operators to former INC ransomware affiliates.",
+   "aliases": [],
+   "first_seen": "2025-12-10",
+   "last_seen": "2026-11-11",
+   "victims_total": 10,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 6
+     },
+     {
+      "name": "DE",
+      "count": 2
+     },
+     {
+      "name": "GB",
+      "count": 1
+     },
+     {
+      "name": "PH",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 3
+     },
+     {
+      "name": "Manufacturing",
+      "count": 3
+     },
+     {
+      "name": "Hospitality",
+      "count": 1
+     },
+     {
+      "name": "Professional Services",
+      "count": 1
+     },
+     {
+      "name": "Technology",
+      "count": 1
+     },
+     {
+      "name": "Transportation",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-12",
+     "count": 1
+    },
+    {
+     "month": "2026-01",
+     "count": 1
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 0
+    },
+    {
+     "month": "2026-11",
+     "count": 8
+    }
+   ],
+   "history_size": 10,
+   "updated": "2026-11-11T15:08:15+00:00"
   }
  }
 }
