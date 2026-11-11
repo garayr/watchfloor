@@ -2,14 +2,20 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1431,
-  "c2_servers": 322,
+  "total_iocs": 1694,
+  "c2_servers": 353,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 307,
+    "iocs": 293,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "IClickFix",
+    "iocs": 282,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "SalatStealer",
@@ -19,7 +25,7 @@
    },
    {
     "name": "ClearFake",
-    "iocs": 111,
+    "iocs": 117,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -31,163 +37,157 @@
    },
    {
     "name": "Mirai",
-    "iocs": 72,
-    "c2": 11,
+    "iocs": 64,
+    "c2": 12,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "Vidar",
-    "iocs": 49,
-    "c2": 49,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "IClickFix",
-    "iocs": 45,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "Cobalt Strike",
-    "iocs": 40,
-    "c2": 40,
+    "iocs": 54,
+    "c2": 54,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 29,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "Vidar",
+    "iocs": 50,
+    "c2": 50,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "PureRAT",
-    "iocs": 28,
-    "c2": 28,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
+    "name": "Unknown Stealer",
+    "iocs": 37,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 25,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 856,
+  "online": 866,
   "top_tags": [
    {
     "name": "elf",
-    "count": 116
+    "count": 119
    },
    {
     "name": "github",
-    "count": 102
-   },
-   {
-    "name": "zapret",
-    "count": 90
+    "count": 110
    },
    {
     "name": "zip",
-    "count": 89
+    "count": 104
+   },
+   {
+    "name": "zapret",
+    "count": 98
    },
    {
     "name": "Mozi",
-    "count": 74
+    "count": 71
    },
    {
     "name": "32-bit",
-    "count": 70
+    "count": 68
    },
    {
     "name": "mips",
-    "count": 44
+    "count": 48
    },
    {
     "name": "arm",
-    "count": 31
+    "count": 25
    }
   ]
  },
  "ports": [
   {
-   "port": 22,
-   "service": "SSH",
-   "records": 343102,
-   "targets": 298,
-   "sources": 8330
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 789757,
+   "targets": 311,
+   "sources": 24165
   },
   {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 153222,
-   "targets": 285,
-   "sources": 5306
+   "port": 22,
+   "service": "SSH",
+   "records": 697703,
+   "targets": 309,
+   "sources": 12932
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 153041,
-   "targets": 289,
-   "sources": 7507
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 134249,
-   "targets": 255,
-   "sources": 8790
+   "records": 278861,
+   "targets": 296,
+   "sources": 12634
   },
   {
    "port": 3389,
    "service": "Remote Desktop (RDP)",
-   "records": 128092,
-   "targets": 268,
-   "sources": 1472
+   "records": 264414,
+   "targets": 275,
+   "sources": 2666
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 241956,
+   "targets": 296,
+   "sources": 8142
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 125115,
-   "targets": 284,
-   "sources": 4664
+   "records": 184338,
+   "targets": 294,
+   "sources": 6836
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 105511,
-   "targets": 297,
-   "sources": 6935
+   "records": 183968,
+   "targets": 311,
+   "sources": 18755
   },
   {
    "port": 51413,
    "service": null,
-   "records": 99928,
-   "targets": 166,
-   "sources": 4462
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 73641,
-   "targets": 285,
-   "sources": 4282
+   "records": 179833,
+   "targets": 198,
+   "sources": 8096
   },
   {
    "port": 7680,
    "service": null,
-   "records": 69924,
-   "targets": 34,
-   "sources": 3172
+   "records": 178806,
+   "targets": 137,
+   "sources": 4646
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 151580,
+   "targets": 296,
+   "sources": 7526
   }
  ],
  "ports_date": "2026-11-11",
  "diary": [
   {
+   "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
+   "url": "https://isc.sans.edu/diary/rss/33508",
+   "date": "2026-11-11T18:28:43+00:00"
+  },
+  {
    "title": "ISC Stormcast For Wednesday, November 11th, 2026 https://isc.sans.edu/podcastdetail/10174, (Wed, Nov 11th)",
    "url": "https://isc.sans.edu/diary/rss/33510",
    "date": "2026-11-11T02:00:03+00:00"
-  },
-  {
-   "title": "Microsoft Patch Tuesday November 2027, (Tue, Nov 10th)",
-   "url": "https://isc.sans.edu/diary/rss/33508",
-   "date": "2026-11-10T19:09:32+00:00"
   },
   {
    "title": "Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)",
@@ -211,6 +211,67 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Off the Rails: Inside an Exposed Silent Lynx Server",
+   "summary": "An exposed open directory belonging to Silent Lynx, a Central Asia-focused espionage cluster, revealed the group's operations through October 2026. The directory contained tooling, data from active intrusions into…",
+   "date": "2026-11-11T13:18:51+00:00",
+   "author": "AlienVault",
+   "adversary": "YoroTrooper",
+   "malware": [
+    "Laplas",
+    "Chvost",
+    "PickleShell"
+   ],
+   "countries": [
+    "Armenia",
+    "Kyrgyzstan",
+    "Pakistan",
+    "Tajikistan",
+    "Turkmenistan",
+    "Uzbekistan"
+   ],
+   "industries": [
+    "Government",
+    "Transportation",
+    "Defense",
+    "Telecommunications"
+   ],
+   "tags": [
+    "central asia",
+    "laplas",
+    "infrastructure compromise",
+    "ai agent",
+    "silent lynx",
+    "government targeting"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af46b3b47e5158053c05be0"
+  },
+  {
+   "name": "Citrus Ransomware: tactics, techniques, procedures, and links to Toy Ghouls",
+   "summary": "Citrus Ransomware represents a hybrid threat combining traditional infrastructure compromise techniques with modern evasion methods and AI-powered automation. The group gains initial access through compromised…",
+   "date": "2026-11-11T13:09:25+00:00",
+   "author": "AlienVault",
+   "adversary": "Citrus Ransomware",
+   "malware": [
+    "Sn00py",
+    "mimikatz",
+    "peeping-tom",
+    "Xray",
+    "Meterpreter",
+    "fscan"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "sn00py",
+    "vless tunnels",
+    "meterpreter",
+    "adrecon",
+    "contractor compromise",
+    "llm automation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af46905053d389268987e1d"
+  },
   {
    "name": "Analysis of Wpcdoor Attack Case Distributed Through Domestic DVR Management Software",
    "summary": "A South Korean company's DVR management software (CMS) was exploited to distribute the Wpcdoor backdoor malware. The attack chain begins when CMS.exe installs rs.win32.exe along with a malicious IPHLPAPI.DLL file that…",
@@ -479,57 +540,13 @@
     "etherduck"
    ],
    "url": "https://otx.alienvault.com/pulse/6af22c723959134a2c8d25fa"
-  },
-  {
-   "name": "Analyzing an Illegal Android Gambling App Built with Flutter",
-   "summary": "A Flutter-based Android malware campaign distributes an illegal online gambling application disguised as a Macau casino clone. The malware employs a sophisticated multi-tiered infrastructure with configuration servers…",
-   "date": "2026-11-09T16:05:45+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "TinstaPorn"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "casino fraud",
-    "geolocation exfiltration",
-    "android",
-    "phone number theft",
-    "tinstaporn",
-    "flutter"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af1ef590698ce92eade8614"
-  },
-  {
-   "name": "Inside an AhsayCBS Intrusion: Hidden Webshells, a CryptoMiner, and a C2 Implant",
-   "summary": "Between October 8 and 11, 2026, threat actors exploited authentication bypass and remote code execution vulnerabilities in AhsayCBS backup management software to compromise multiple servers. The intrusion involved…",
-   "date": "2026-11-09T16:05:44+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "XMRig",
-    "Mimikatz",
-    "NetExec"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "cryptomining",
-    "credential theft",
-    "cve-2026-105134",
-    "steganography",
-    "webshells",
-    "cve-2026-105133"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af1ef5821afddb68d6df42b"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-11T15:08:15+00:00",
-  "sans": "2026-11-11T15:08:15+00:00",
-  "otx": "2026-11-11T15:08:15+00:00",
-  "urlhaus": "2026-11-11T15:08:15+00:00"
+  "threatfox": "2026-11-11T21:54:39+00:00",
+  "sans": "2026-11-11T21:54:39+00:00",
+  "otx": "2026-11-11T21:54:39+00:00",
+  "urlhaus": "2026-11-11T21:54:39+00:00"
  },
- "generated_at": "2026-11-11T15:08:15+00:00"
+ "generated_at": "2026-11-11T21:54:39+00:00"
 }

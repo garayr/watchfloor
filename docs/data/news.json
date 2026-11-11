@@ -1,21 +1,24 @@
 {
  "groups": [
   {
-   "group": "Arrests, courts and policy",
-   "items": [
-    {
-     "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-     "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T15:58:44+00:00",
-     "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
-     "group": "Arrests, courts and policy"
-    }
-   ]
-  },
-  {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+     "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-11T20:54:20+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+     "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-11T16:24:18+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
      "summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at…",
@@ -76,36 +79,28 @@
      "date": "2026-11-10T19:19:39+00:00",
      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
-     "summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and…",
-     "source": "BleepingComputer",
-     "date": "2026-11-10T15:59:19+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
-     "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T15:33:59+00:00",
-     "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Ransomware recovery is now a client retention metric",
-     "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these…",
-     "source": "BleepingComputer",
-     "date": "2026-11-10T15:01:11+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+     "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are…",
+     "source": "The Hacker News",
+     "date": "2026-11-11T16:12:46+00:00",
+     "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
+     "summary": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-11T15:42:47+00:00",
+     "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+     "group": "Exploited right now"
+    },
     {
      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
      "summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they…",
@@ -167,27 +162,11 @@
      ]
     },
     {
-     "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
-     "summary": "Intel and AMD disclose more than 200 vulnerabilities, including critical flaws in Intel TDX software and numerous AMD graphics bugs. The post Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD…",
-     "source": "SecurityWeek",
-     "date": "2026-11-11T08:42:44+00:00",
-     "url": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
      "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows…",
      "source": "The Hacker News",
      "date": "2026-11-11T08:17:53+00:00",
      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
-     "summary": "The security defects could allow attackers to bypass authorization and gain root access to devices. The post Recently Patched Barracuda Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-11T07:53:51+00:00",
-     "url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
      "group": "Exploited right now"
     },
     {
@@ -243,14 +222,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
-     "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-10T16:17:16+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026…",
      "source": "The Hacker News",
@@ -267,6 +238,14 @@
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+     "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally…",
+     "source": "The Hacker News",
+     "date": "2026-11-11T15:34:27+00:00",
+     "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
      "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an…",
@@ -288,6 +267,30 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+     "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the…",
+     "source": "BleepingComputer",
+     "date": "2026-11-11T21:27:40+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+     "group": "Other news"
+    },
+    {
+     "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
+     "summary": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise. The…",
+     "source": "SecurityWeek",
+     "date": "2026-11-11T16:29:42+00:00",
+     "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+     "group": "Other news"
+    },
+    {
+     "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+     "summary": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-11T15:12:59+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+     "group": "Other news"
+    },
     {
      "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
      "summary": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors…",
@@ -350,14 +353,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-11T09:07:27+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
-     "group": "Other news"
-    },
-    {
-     "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
-     "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T12:15:31+00:00",
-     "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
      "group": "Other news"
     }
    ]
