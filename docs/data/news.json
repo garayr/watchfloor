@@ -94,6 +94,26 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
+     "summary": "Apple has patched Bluetooth and AirPlay pairing flaws, iMessage vulnerabilities, and an exploited Brotli bug across its platforms. The post Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms…",
+     "source": "SecurityWeek",
+     "date": "2026-11-11T07:00:17+00:00",
+     "url": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV)…",
+     "source": "The Hacker News",
+     "date": "2026-11-11T06:04:02+00:00",
+     "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-20320",
+      "CVE-2026-76418"
+     ]
+    },
+    {
      "title": "Microsoft releases Windows 10 KB5131096 extended security update",
      "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
      "source": "BleepingComputer",
@@ -224,14 +244,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
-     "summary": "Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-10T09:56:28+00:00",
-     "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
      "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
      "source": "BleepingComputer",
@@ -249,14 +261,6 @@
      "alerts": [
       "CVE-2026-125350"
      ]
-    },
-    {
-     "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-     "summary": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T06:44:36+00:00",
-     "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-     "group": "Exploited right now"
     }
    ]
   },

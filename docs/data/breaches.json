@@ -1,8 +1,25 @@
 {
- "generated_at": "2026-11-11T00:38:41+00:00",
+ "generated_at": "2026-11-11T07:07:40+00:00",
  "source": "Have I Been Pwned",
  "window_days": 60,
  "breaches": [
+  {
+   "title": "СберСпасибо (SberSpasibo)",
+   "domain": "spasibosberbank.ru",
+   "added": "2026-11-11T01:44:58+00:00",
+   "breach_date": "2023-03-09",
+   "accounts": 3288711,
+   "data": [
+    "Bank card numbers",
+    "Dates of birth",
+    "Email addresses",
+    "Loyalty program details",
+    "Phone numbers"
+   ],
+   "verified": true,
+   "stealer_logs": false,
+   "url": "https://haveibeenpwned.com/Breach/SberSpasibo"
+  },
   {
    "title": "Harvard",
    "domain": "harvard.edu",

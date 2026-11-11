@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-11T00:38:41+00:00",
+ "generated_at": "2026-11-11T07:07:40+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 51
+   "count": 48
   },
   {
    "name": "interlock",
-   "count": 8
+   "count": 9
   },
   {
    "name": "Booba Project",
@@ -44,37 +44,43 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 8
+   "count": 10
   },
   {
    "name": "Professional Services",
    "count": 6
   },
   {
-   "name": "Manufacturing",
-   "count": 4
-  },
-  {
    "name": "Technology",
-   "count": 4
+   "count": 5
   },
   {
    "name": "Education",
-   "count": 3
+   "count": 4
+  },
+  {
+   "name": "Manufacturing",
+   "count": 4
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 57,
+   "count": 55,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "CA",
-   "count": 10,
+   "count": 11,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "ES",
+   "count": 3,
+   "lat": 40.4,
+   "lon": -3.7
   },
   {
    "code": "GB",
@@ -87,12 +93,6 @@
    "count": 2,
    "lat": 24.5,
    "lon": 54.4
-  },
-  {
-   "code": "ES",
-   "count": 2,
-   "lat": 40.4,
-   "lon": -3.7
   },
   {
    "code": "ZA",
@@ -135,12 +135,6 @@
    "count": 1,
    "lat": 55.7,
    "lon": 12.6
-  },
-  {
-   "code": "HK",
-   "count": 1,
-   "lat": 22.3,
-   "lon": 114.2
   },
   {
    "code": "IN",
@@ -192,6 +186,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "SUNNIER HOMES",
+   "group": "Panzer",
+   "date": "2026-11-11T01:32:33+00:00",
+   "attack_date": "2026-11-11",
+   "country": "ES",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/U1VOTklFUiBIT01FU0BQYW56ZXI="
+  },
+  {
+   "victim": "LiveRamp",
+   "group": "N0n",
+   "date": "2026-11-11T01:00:34+00:00",
+   "attack_date": "2026-11-11",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/TGl2ZVJhbXBATjBu"
+  },
+  {
+   "victim": "DraftKings",
+   "group": "N0n",
+   "date": "2026-11-11T00:59:58+00:00",
+   "attack_date": "2026-11-11",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/RHJhZnRLaW5nc0BOMG4="
+  },
+  {
+   "victim": "Garden Valley School Division",
+   "group": "interlock",
+   "date": "2026-11-11T00:43:34+00:00",
+   "attack_date": "2026-11-11",
+   "country": "CA",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/R2FyZGVuIFZhbGxleSBTY2hvb2wgRGl2aXNpb25AaW50ZXJsb2Nr"
+  },
+  {
+   "victim": "Capetown",
+   "group": "medusalocker",
+   "date": "2026-11-10T22:57:49+00:00",
+   "attack_date": "2026-11-10",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q2FwZXRvd25AbWVkdXNhbG9ja2Vy"
+  },
   {
    "victim": "AWO Bundesverband",
    "group": "bravox",
@@ -1046,51 +1085,6 @@
    "country": "CA",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTY5QE4wbg=="
-  },
-  {
-   "victim": "Company #168",
-   "group": "N0n",
-   "date": "2026-11-09T10:32:24+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTY4QE4wbg=="
-  },
-  {
-   "victim": "Company #167",
-   "group": "N0n",
-   "date": "2026-11-09T10:31:44+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTY3QE4wbg=="
-  },
-  {
-   "victim": "Company #166",
-   "group": "N0n",
-   "date": "2026-11-09T10:31:04+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTY2QE4wbg=="
-  },
-  {
-   "victim": "Company #165",
-   "group": "N0n",
-   "date": "2026-11-09T10:30:24+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTY1QE4wbg=="
-  },
-  {
-   "victim": "Company #164",
-   "group": "N0n",
-   "date": "2026-11-09T10:29:42+00:00",
-   "attack_date": "2026-11-09",
-   "country": "HK",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTY0QE4wbg=="
   }
  ]
 }
