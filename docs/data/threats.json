@@ -2,32 +2,56 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1103,
-  "c2_servers": 289,
+  "total_iocs": 1624,
+  "c2_servers": 347,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 201,
+    "iocs": 328,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "Mirai",
-    "iocs": 111,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 89,
+    "iocs": 173,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Mirai",
+    "iocs": 115,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "IClickFix",
-    "iocs": 78,
+    "iocs": 70,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
+    "name": "KAgent",
+    "iocs": 57,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.kagent"
+   },
+   {
+    "name": "NjRAT",
+    "iocs": 57,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat"
+   },
+   {
+    "name": "Remcos",
+    "iocs": 49,
+    "c2": 48,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+   },
+   {
+    "name": "SalatStealer",
+    "iocs": 46,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "Unknown Stealer",
@@ -37,67 +61,43 @@
    },
    {
     "name": "Vidar",
-    "iocs": 37,
-    "c2": 37,
+    "iocs": 35,
+    "c2": 35,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 28,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "SalatStealer",
-    "iocs": 22,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 20,
-    "c2": 20,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "ACR Stealer",
-    "iocs": 19,
-    "c2": 19,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.acr_stealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 622,
+  "online": 588,
   "top_tags": [
    {
-    "name": "elf",
-    "count": 228
-   },
-   {
     "name": "github",
-    "count": 155
+    "count": 246
    },
    {
-    "name": "Mozi",
-    "count": 131
+    "name": "elf",
+    "count": 226
    },
    {
     "name": "zapret",
-    "count": 126
+    "count": 217
+   },
+   {
+    "name": "Mozi",
+    "count": 127
    },
    {
     "name": "32-bit",
-    "count": 123
+    "count": 119
+   },
+   {
+    "name": "SalatStealer",
+    "count": 110
    },
    {
     "name": "zip",
-    "count": 112
-   },
-   {
-    "name": "mips",
-    "count": 75
+    "count": 95
    },
    {
     "name": "ssh",
@@ -527,10 +527,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-12T18:28:48+00:00",
-  "sans": "2026-11-12T18:28:48+00:00",
-  "otx": "2026-11-12T18:28:48+00:00",
-  "urlhaus": "2026-11-12T18:28:48+00:00"
+  "threatfox": "2026-11-12T23:46:50+00:00",
+  "sans": "2026-11-12T23:46:50+00:00",
+  "otx": "2026-11-12T23:46:50+00:00",
+  "urlhaus": "2026-11-12T23:46:50+00:00"
  },
- "generated_at": "2026-11-12T18:28:48+00:00"
+ "generated_at": "2026-11-12T23:46:50+00:00"
 }

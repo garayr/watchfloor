@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:28:48+00:00",
+ "generated_at": "2026-11-12T23:46:50+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -33,7 +33,7 @@
    "count": 4
   },
   {
-   "name": "BYOD",
+   "name": "Climax Inc",
    "count": 3
   }
  ],
@@ -55,18 +55,18 @@
    "count": 9
   },
   {
-   "name": "Education",
+   "name": "Retail & E-Commerce",
    "count": 7
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 7
+   "name": "Education",
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 42,
+   "count": 41,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -197,6 +197,12 @@
    "lon": 21.4
   },
   {
+   "code": "MY",
+   "count": 1,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
    "code": "NP",
    "count": 1,
    "lat": 27.7,
@@ -228,6 +234,15 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Ministry of Health Malaysia",
+   "group": "Panzer",
+   "date": "2026-11-12T17:58:17+00:00",
+   "attack_date": "2026-11-12",
+   "country": "MY",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/TWluaXN0cnkgb2YgSGVhbHRoIE1hbGF5c2lhQFBhbnplcg=="
+  },
   {
    "victim": "cey-tech.com",
    "group": "krybit",
@@ -1118,15 +1133,6 @@
    "country": "CM",
    "sector": "Government & Defense",
    "url": "https://www.ransomware.live/id/Q2FtZXJvb24gZ292ZXJubWVudCB0cm9vcHMgbGVha2VkQEhZRkxPQ0s="
-  },
-  {
-   "victim": "Vanderbilt EDU",
-   "group": "BYOD",
-   "date": "2026-11-09T15:50:50+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/VmFuZGVyYmlsdCBFRFVAQllPRA=="
   }
  ]
 }
