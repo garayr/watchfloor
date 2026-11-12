@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-11T21:54:39+00:00",
+ "generated_at": "2026-11-12T02:38:14+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "N0n",
-   "count": 31
+   "count": 28
   },
   {
    "name": "Curious Worm",
@@ -25,15 +25,15 @@
    "count": 4
   },
   {
+   "name": "play",
+   "count": 4
+  },
+  {
    "name": "Aoqin",
    "count": 3
   },
   {
    "name": "BYOD",
-   "count": 3
-  },
-  {
-   "name": "Climax Inc",
    "count": 3
   }
  ],
@@ -66,13 +66,13 @@
  "by_country": [
   {
    "code": "US",
-   "count": 54,
+   "count": 51,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "CA",
-   "count": 8,
+   "count": 7,
    "lat": 43.7,
    "lon": -79.4
   },
@@ -125,6 +125,12 @@
    "lon": 8.7
   },
   {
+   "code": "ET",
+   "count": 1,
+   "lat": 9.0,
+   "lon": 38.7
+  },
+  {
    "code": "IE",
    "count": 1,
    "lat": 53.3,
@@ -173,6 +179,12 @@
    "lon": 85.3
   },
   {
+   "code": "QA",
+   "count": 1,
+   "lat": 25.3,
+   "lon": 51.5
+  },
+  {
    "code": "SA",
    "count": 1,
    "lat": 24.7,
@@ -192,6 +204,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Dep",
+   "group": "medusalocker",
+   "date": "2026-11-11T22:01:37+00:00",
+   "attack_date": "2026-11-11",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/RGVwQG1lZHVzYWxvY2tlcg=="
+  },
+  {
+   "victim": "Minor League Baseball",
+   "group": "play",
+   "date": "2026-11-11T20:19:30+00:00",
+   "attack_date": "2026-11-11",
+   "country": "US",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/TWlub3IgTGVhZ3VlIEJhc2ViYWxsQHBsYXk="
+  },
+  {
+   "victim": "Company #213",
+   "group": "N0n",
+   "date": "2026-11-11T18:00:30+00:00",
+   "attack_date": "2026-11-11",
+   "country": "QA",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjEzQE4wbg=="
+  },
+  {
+   "victim": "Company #212",
+   "group": "N0n",
+   "date": "2026-11-11T17:59:43+00:00",
+   "attack_date": "2026-11-11",
+   "country": "ET",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjEyQE4wbg=="
+  },
+  {
+   "victim": "K**** T**** H**** B****",
+   "group": "Doommageddon",
+   "date": "2026-11-11T17:52:05+00:00",
+   "attack_date": "2026-11-11",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/SyoqKiogVCoqKiogSCoqKiogQioqKipARG9vbW1hZ2VkZG9u"
+  },
   {
    "victim": "sacheminc.com",
    "group": "Curious Worm",
@@ -1046,51 +1103,6 @@
    "country": "CA",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTg2QE4wbg=="
-  },
-  {
-   "victim": "Company #185",
-   "group": "N0n",
-   "date": "2026-11-09T10:45:15+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTg1QE4wbg=="
-  },
-  {
-   "victim": "Company #184",
-   "group": "N0n",
-   "date": "2026-11-09T10:44:25+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTg0QE4wbg=="
-  },
-  {
-   "victim": "Company #183",
-   "group": "N0n",
-   "date": "2026-11-09T10:43:45+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTgzQE4wbg=="
-  },
-  {
-   "victim": "Company #182",
-   "group": "N0n",
-   "date": "2026-11-09T10:43:02+00:00",
-   "attack_date": "2026-11-09",
-   "country": "CA",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTgyQE4wbg=="
-  },
-  {
-   "victim": "Company #181",
-   "group": "N0n",
-   "date": "2026-11-09T10:42:22+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTgxQE4wbg=="
   }
  ]
 }

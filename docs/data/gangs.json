@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T21:54:39+00:00",
+ "generated_at": "2026-11-12T02:38:14+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1232,8 +1232,8 @@
    "description": "Direct Extortion Double Extortion",
    "aliases": [],
    "first_seen": "2026-03-08",
-   "last_seen": "2026-10-23",
-   "victims_total": 17,
+   "last_seen": "2026-11-11",
+   "victims_total": 21,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -1242,7 +1242,7 @@
     "countries": [
      {
       "name": "TR",
-      "count": 6
+      "count": 8
      },
      {
       "name": "IN",
@@ -1264,7 +1264,7 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 4
+      "count": 5
      },
      {
       "name": "Other",
@@ -1275,24 +1275,20 @@
       "count": 2
      },
      {
+      "name": "Technology",
+      "count": 2
+     },
+     {
       "name": "Transportation",
       "count": 2
      },
      {
       "name": "Education",
       "count": 1
-     },
-     {
-      "name": "Financial Services",
-      "count": 1
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -1335,19 +1331,23 @@
     },
     {
      "month": "2026-10",
-     "count": 3
+     "count": 5
+    },
+    {
+     "month": "2026-11",
+     "count": 2
     }
    ],
-   "history_size": 17,
-   "updated": "2026-10-23T17:27:49+00:00"
+   "history_size": 21,
+   "updated": "2026-11-12T02:38:14+00:00"
   },
   "N0n": {
    "name": "N0n",
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-18",
-   "last_seen": "2026-11-04",
-   "victims_total": 186,
+   "last_seen": "2026-11-11",
+   "victims_total": 222,
    "cves": [],
    "tools": [],
    "techniques": [
@@ -1367,7 +1367,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 65
+      "count": 99
+     },
+     {
+      "name": "CA",
+      "count": 17
      },
      {
       "name": "KR",
@@ -1375,19 +1379,15 @@
      },
      {
       "name": "BR",
-      "count": 7
+      "count": 6
+     },
+     {
+      "name": "GB",
+      "count": 6
      },
      {
       "name": "ID",
-      "count": 4
-     },
-     {
-      "name": "AE",
-      "count": 3
-     },
-     {
-      "name": "CA",
-      "count": 3
+      "count": 5
      }
     ],
     "sectors": [
@@ -1397,23 +1397,23 @@
      },
      {
       "name": "Technology",
-      "count": 15
+      "count": 18
      },
      {
       "name": "Healthcare",
-      "count": 13
+      "count": 16
      },
      {
       "name": "Manufacturing",
       "count": 13
      },
      {
-      "name": "Financial Services",
-      "count": 7
+      "name": "Retail & E-Commerce",
+      "count": 13
      },
      {
       "name": "Professional Services",
-      "count": 7
+      "count": 8
      }
     ]
    },
@@ -1460,15 +1460,15 @@
     },
     {
      "month": "2026-10",
-     "count": 148
+     "count": 103
     },
     {
      "month": "2026-11",
-     "count": 20
+     "count": 101
     }
    ],
-   "history_size": 186,
-   "updated": "2026-11-04T22:36:52+00:00"
+   "history_size": 222,
+   "updated": "2026-11-12T02:38:14+00:00"
   },
   "play": {
    "name": "play",
