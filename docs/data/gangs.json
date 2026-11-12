@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T10:18:48+00:00",
+ "generated_at": "2026-11-12T18:28:48+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -7,8 +7,8 @@
    "description": "The Gentlemen is a RaaS group that emerged in July–August 2025, rapidly claiming over 320 victims across 17+ countries by offering affiliates a 90% revenue share, deploying a Go-based locker against Windows, Linux, NAS, and BSD systems; a compromised C2 server in 2026 revealed more than 1,570 linked victims.",
    "aliases": [],
    "first_seen": "2023-02-28",
-   "last_seen": "2026-10-31",
-   "victims_total": 1056,
+   "last_seen": "2026-11-12",
+   "victims_total": 1103,
    "cves": [
     {
      "id": "CVE-2025-32433",
@@ -21,7 +21,37 @@
      "label": null
     },
     {
+     "id": "CVE-2026-15409",
+     "cvss": null,
+     "label": null
+    },
+    {
      "id": "CVE-2024-55591",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-35616",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-9082",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-63030",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-41940",
+     "cvss": null,
+     "label": null
+    },
+    {
+     "id": "CVE-2026-42208",
      "cvss": null,
      "label": null
     },
@@ -92,22 +122,26 @@
     "Adversary-in-the-Middle",
     "Obfuscated Files or Information",
     "Indicator Removal",
-    "Proxy",
-    "Modify Registry"
+    "OS Credential Dumping",
+    "Brute Force"
    ],
    "links": [],
    "targets": {
     "countries": [
      {
       "name": "US",
-      "count": 216
+      "count": 225
      },
      {
       "name": "DE",
-      "count": 45
+      "count": 50
      },
      {
       "name": "GB",
+      "count": 50
+     },
+     {
+      "name": "FR",
       "count": 45
      },
      {
@@ -115,46 +149,38 @@
       "count": 44
      },
      {
-      "name": "FR",
-      "count": 43
-     },
-     {
       "name": "BR",
-      "count": 38
+      "count": 42
      }
     ],
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 203
+      "count": 211
      },
      {
       "name": "Technology",
-      "count": 138
+      "count": 145
      },
      {
       "name": "Professional Services",
-      "count": 122
+      "count": 127
      },
      {
       "name": "Healthcare",
-      "count": 104
+      "count": 108
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 77
+      "count": 80
      },
      {
       "name": "Other",
-      "count": 58
+      "count": 61
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 19
-    },
     {
      "month": "2025-12",
      "count": 13
@@ -198,10 +224,14 @@
     {
      "month": "2026-10",
      "count": 143
+    },
+    {
+     "month": "2026-11",
+     "count": 47
     }
    ],
-   "history_size": 1056,
-   "updated": "2026-10-31T14:44:37+00:00"
+   "history_size": 1103,
+   "updated": "2026-11-12T18:28:48+00:00"
   },
   "Storm": {
    "name": "Storm",

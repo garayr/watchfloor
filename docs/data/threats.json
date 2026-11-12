@@ -2,50 +2,44 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1179,
-  "c2_servers": 290,
+  "total_iocs": 1103,
+  "c2_servers": 289,
   "families": [
    {
-    "name": "IClickFix",
-    "iocs": 284,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 235,
+    "iocs": 201,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
-    "iocs": 115,
+    "iocs": 111,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 90,
+    "iocs": 89,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Vidar",
-    "iocs": 42,
-    "c2": 42,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 41,
-    "c2": 41,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "IClickFix",
+    "iocs": 78,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Unknown Stealer",
     "iocs": 40,
     "c2": 22,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 37,
+    "c2": 37,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "php.shin_webshell",
@@ -60,6 +54,12 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 20,
+    "c2": 20,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "ACR Stealer",
     "iocs": 19,
     "c2": 19,
@@ -69,116 +69,121 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 776,
+  "online": 622,
   "top_tags": [
    {
     "name": "elf",
-    "count": 172
+    "count": 228
    },
    {
     "name": "github",
-    "count": 137
-   },
-   {
-    "name": "zapret",
-    "count": 118
-   },
-   {
-    "name": "zip",
-    "count": 106
+    "count": 155
    },
    {
     "name": "Mozi",
-    "count": 89
+    "count": 131
+   },
+   {
+    "name": "zapret",
+    "count": 126
    },
    {
     "name": "32-bit",
-    "count": 86
+    "count": 123
    },
    {
-    "name": "ssh",
-    "count": 72
+    "name": "zip",
+    "count": 112
    },
    {
     "name": "mips",
-    "count": 54
+    "count": 75
+   },
+   {
+    "name": "ssh",
+    "count": 75
    }
   ]
  },
  "ports": [
   {
+   "port": 22,
+   "service": "SSH",
+   "records": 793194,
+   "targets": 309,
+   "sources": 19284
+  },
+  {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 405391,
-   "targets": 286,
-   "sources": 5840
+   "records": 661128,
+   "targets": 299,
+   "sources": 14047
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 394981,
-   "targets": 283,
-   "sources": 6900
-  },
-  {
-   "port": 22,
-   "service": "SSH",
-   "records": 385267,
-   "targets": 303,
-   "sources": 9392
+   "records": 657460,
+   "targets": 295,
+   "sources": 15402
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 141971,
-   "targets": 283,
-   "sources": 8811
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 133839,
-   "targets": 293,
-   "sources": 6860
-  },
-  {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 124987,
-   "targets": 270,
-   "sources": 1158
-  },
-  {
-   "port": 9000,
-   "service": null,
-   "records": 119209,
-   "targets": 261,
-   "sources": 2251
+   "records": 449793,
+   "targets": 302,
+   "sources": 16647
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 116273,
-   "targets": 261,
-   "sources": 10216
+   "records": 446565,
+   "targets": 334,
+   "sources": 18337
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 270328,
+   "targets": 298,
+   "sources": 13124
+  },
+  {
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 228641,
+   "targets": 276,
+   "sources": 2503
   },
   {
    "port": 7680,
    "service": null,
-   "records": 107387,
-   "targets": 48,
-   "sources": 5103
+   "records": 227495,
+   "targets": 72,
+   "sources": 6117
+  },
+  {
+   "port": 9000,
+   "service": null,
+   "records": 217716,
+   "targets": 277,
+   "sources": 3949
   },
   {
    "port": 5555,
    "service": "Android debug (ADB)",
-   "records": 96144,
-   "targets": 251,
-   "sources": 1573
+   "records": 178050,
+   "targets": 273,
+   "sources": 3074
   }
  ],
  "ports_date": "2026-11-12",
  "diary": [
+  {
+   "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+   "url": "https://isc.sans.edu/diary/rss/33514",
+   "date": "2026-11-12T11:56:24+00:00"
+  },
   {
    "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
    "url": "https://isc.sans.edu/diary/rss/33512",
@@ -203,14 +208,166 @@
    "title": "ISC Stormcast For Tuesday, November 10th, 2026 https://isc.sans.edu/podcastdetail/10172, (Tue, Nov 10th)",
    "url": "https://isc.sans.edu/diary/rss/33504",
    "date": "2026-11-10T02:00:02+00:00"
-  },
-  {
-   "title": "Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)",
-   "url": "https://isc.sans.edu/diary/rss/33502",
-   "date": "2026-11-09T18:18:15+00:00"
   }
  ],
  "pulses": [
+  {
+   "name": "T-SQL Being Abused to Deliver Malware on Compromised MS SQL Servers",
+   "summary": "An active campaign discovered in October 2026 targets Internet-facing Microsoft SQL Server instances using T-SQL commands to deliver malicious payloads. Attackers scan IP ranges for exposed servers on TCP port 1433 and…",
+   "date": "2026-11-12T15:58:13+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "XMRig",
+    "gh0st RAT - S0032",
+    "Mydoor",
+    "Moudoor",
+    "Naabu"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "cryptocurrency mining",
+    "naabu",
+    "gh0st rat",
+    "t-sql abuse",
+    "xmrig",
+    "remote access trojan"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af5e2153359d5f8fa91aa75"
+  },
+  {
+   "name": "ScreenConnect Attack: SCKit Turns Remote Support Into an Attack Platform",
+   "summary": "On November 11, 2026, widespread unauthorized ScreenConnect deployments were detected originating from legitimate cloud-hosted management instances. The investigation uncovered SCKit, a malicious toolkit designed to…",
+   "date": "2026-11-12T15:58:12+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "SCKit",
+    "RelayTrap",
+    "ToolboxRelayUploader"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "toolboxrelayuploader",
+    "cookie-theft",
+    "screenconnect",
+    "session-hijacking",
+    "msp-targeting",
+    "cve-2026-84869"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af5e214a7ab22c3761899ed"
+  },
+  {
+   "name": "Crafty Microsoft Teams Booking Flow Disguises Device Code Phishing",
+   "summary": "A sophisticated device code phishing campaign was observed in mid-October targeting the construction industry. Attackers used a typosquatted domain and impersonated a senior vice president to deliver spear-phishing…",
+   "date": "2026-11-12T15:58:12+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Construction"
+   ],
+   "tags": [
+    "oauth abuse",
+    "device code phishing",
+    "construction sector",
+    "residential proxy",
+    "microsoft teams",
+    "typosquatting"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af5e2140542eb6793155aa6"
+  },
+  {
+   "name": "0% GPU utilization: How SANSAR hides Linux cryptomining",
+   "summary": "Elastic Security Labs analyzes REF3364, a sophisticated Linux cryptomining intrusion combining custom malware with public miners. The toolkit features SANSAR, a Rust-based orchestrator managing CPU and GPU miners over…",
+   "date": "2026-11-12T15:48:37+00:00",
+   "author": "AlienVault",
+   "adversary": "REF3364",
+   "malware": [
+    "SANSAR",
+    "netns",
+    "XMRig",
+    "SRBMiner-MULTI",
+    "kurt",
+    "tilki"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "ethereum blockchain",
+    "gpu hijacking",
+    "srbminer-multi",
+    "tilki",
+    "lyrebird",
+    "tor c2"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af5dfd520ceb5c877234020"
+  },
+  {
+   "name": "PHP2Shell Exploitation on Check Point Gateway",
+   "summary": "In late October 2026, approximately one week after security fixes became available, attackers exploited vulnerable Mobile Access portals on Security Gateways, targeting Israeli organizations from IP address…",
+   "date": "2026-11-12T14:13:06+00:00",
+   "author": "AlienVault",
+   "adversary": "UTA0178",
+   "malware": [
+    "PHP2Shell",
+    "TSGA",
+    "TSProxy",
+    "PhiliKit",
+    "destroy_v6",
+    "gogo"
+   ],
+   "countries": [
+    "Israel"
+   ],
+   "industries": [],
+   "tags": [
+    "gogo",
+    "privilege escalation",
+    "cve-2026-109618",
+    "wiper",
+    "cve-2026-123039",
+    "tsga"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af5c9723703485eb3ab2b49"
+  },
+  {
+   "name": "How AI Revived a Stalled Attack on a U.S. Retailer",
+   "summary": "In September 2026, attackers targeting a U.S. retail organization initially struggled with hand-typed commands that contained errors and were blocked by security software. The following day, their tactics dramatically…",
+   "date": "2026-11-12T11:39:54+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ShadowPad - S0596",
+    "POISONPLUG.SHADOW",
+    "Chisel",
+    "Yuze",
+    "Warlock"
+   ],
+   "countries": [],
+   "industries": [
+    "Retail",
+    "Education",
+    "Technology",
+    "Government",
+    "Energy",
+    "Finance"
+   ],
+   "tags": [
+    "credential harvesting",
+    "rabbitmq exploitation",
+    "chisel",
+    "yuze",
+    "ai-assisted attacks",
+    "cve-2022-21882"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af5a58a01f1f0317453e3f6"
+  },
   {
    "name": "The Rise of LLMjacking: How Attackers Monetize Compromised Cloud and Model Resources",
    "summary": "Google Threat Intelligence Group identified multiple incidents where attackers hijacked enterprise Large Language Model (LLM) access in a tactic called LLMJacking. These intrusions affected organizations across…",
@@ -367,181 +524,13 @@
     "government targeting"
    ],
    "url": "https://otx.alienvault.com/pulse/6af46b3b47e5158053c05be0"
-  },
-  {
-   "name": "Citrus Ransomware: tactics, techniques, procedures, and links to Toy Ghouls",
-   "summary": "Citrus Ransomware represents a hybrid threat combining traditional infrastructure compromise techniques with modern evasion methods and AI-powered automation. The group gains initial access through compromised…",
-   "date": "2026-11-11T13:09:25+00:00",
-   "author": "AlienVault",
-   "adversary": "Citrus Ransomware",
-   "malware": [
-    "Sn00py",
-    "mimikatz",
-    "peeping-tom",
-    "Xray",
-    "Meterpreter",
-    "fscan"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "sn00py",
-    "vless tunnels",
-    "meterpreter",
-    "adrecon",
-    "contractor compromise",
-    "llm automation"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af46905053d389268987e1d"
-  },
-  {
-   "name": "Analysis of Wpcdoor Attack Case Distributed Through Domestic DVR Management Software",
-   "summary": "A South Korean company's DVR management software (CMS) was exploited to distribute the Wpcdoor backdoor malware. The attack chain begins when CMS.exe installs rs.win32.exe along with a malicious IPHLPAPI.DLL file that…",
-   "date": "2026-11-11T09:55:02+00:00",
-   "author": "AlienVault",
-   "adversary": "Larva-26013",
-   "malware": [
-    "Wpcdoor",
-    "IPHLPAPI.DLL",
-    "QtCore4.dll",
-    "samcli.dll",
-    "rsaenh.dll"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "iphlpapi.dll",
-    "hvnc",
-    "wpcdoor",
-    "backdoor",
-    "dll side-loading",
-    "samcli.dll"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af43b7618f6962a478a6835"
-  },
-  {
-   "name": "A New ESXi Implant Linked to Settra Ransomware",
-   "summary": "GhostFrame is a previously undocumented post-exploitation framework enabling extensive control over compromised VMware ESXi environments. After root-level access is obtained, it provides a unified interface for…",
-   "date": "2026-11-10T19:18:27+00:00",
-   "author": "AlienVault",
-   "adversary": "TAG-218",
-   "malware": [
-    "GhostFrame",
-    "VMkatz",
-    "MeshCentral"
-   ],
-   "countries": [
-    "United States of America"
-   ],
-   "industries": [],
-   "tags": [
-    "vmware esxi",
-    "cve-2026-0257",
-    "credential harvesting",
-    "settra",
-    "ghostframe",
-    "meshcentral"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af36e03fef8cc1180e8a7da"
-  },
-  {
-   "name": "The Cold Chain on Fire: Unpatched Danfoss controllers exploited",
-   "summary": "Between October and November 2026, hundreds of supermarkets across France and over a dozen European countries suffered cyberattacks targeting unpatched Danfoss refrigeration controllers directly exposed to the internet…",
-   "date": "2026-11-10T14:57:10+00:00",
-   "author": "AlienVault",
-   "adversary": "CyberAveng3rs",
-   "malware": [],
-   "countries": [
-    "Belgium",
-    "France",
-    "Germany",
-    "Netherlands",
-    "Sweden"
-   ],
-   "industries": [
-    "Retail",
-    "Healthcare"
-   ],
-   "tags": [
-    "authentication bypass",
-    "danfoss controllers",
-    "industrial control systems",
-    "refrigeration systems",
-    "iran nexus",
-    "ics vulnerabilities"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af330c6ae77e9cab69b34fc"
-  },
-  {
-   "name": "Beyond the clipboard: The evolving tradecraft of ClickFix",
-   "summary": "Threat actors continue to evolve ClickFix tactics, moving beyond simple clipboard-based social engineering to more sophisticated attack chains. Recent campaigns leverage malvertising through typosquatting, SEO…",
-   "date": "2026-11-10T14:44:38+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "DuskDesk",
-    "Matanbuchus",
-    "AstarionRAT",
-    "Potemkin",
-    "RMMProject",
-    "EtherRAT"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "typosquatting",
-    "etherrat",
-    "rat",
-    "lateral movement",
-    "matanbuchus",
-    "astarionrat"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37"
-  },
-  {
-   "name": "Not All That Glitters Is Gold: Tracking CopperDragon's Sparrow Framework Around the Globe",
-   "summary": "Over the past year, researchers investigated intrusion campaigns targeting high-profile organizations across Latin America, Asia, and Europe. These initially appeared independent but were linked through shared tools and…",
-   "date": "2026-11-10T14:39:28+00:00",
-   "author": "AlienVault",
-   "adversary": "CopperDragon",
-   "malware": [
-    "SquadC",
-    "SparrowDoor",
-    "CrowDoor",
-    "HemiGate",
-    "TernDoor",
-    "AnnobinDoor"
-   ],
-   "countries": [
-    "Czechia",
-    "France",
-    "Germany",
-    "Hong Kong",
-    "Indonesia",
-    "Nepal"
-   ],
-   "industries": [
-    "Government",
-    "Telecommunications",
-    "Military",
-    "Technology"
-   ],
-   "tags": [
-    "melofee",
-    "sparrowshell",
-    "copperdragon",
-    "china-nexus",
-    "pyproxy",
-    "copperadu"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af32ca0532e5bb3ad1eb242"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-12T10:18:48+00:00",
-  "sans": "2026-11-12T10:18:48+00:00",
-  "otx": "2026-11-12T10:18:48+00:00",
-  "urlhaus": "2026-11-12T10:18:48+00:00"
+  "threatfox": "2026-11-12T18:28:48+00:00",
+  "sans": "2026-11-12T18:28:48+00:00",
+  "otx": "2026-11-12T18:28:48+00:00",
+  "urlhaus": "2026-11-12T18:28:48+00:00"
  },
- "generated_at": "2026-11-12T10:18:48+00:00"
+ "generated_at": "2026-11-12T18:28:48+00:00"
 }

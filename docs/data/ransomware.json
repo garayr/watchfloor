@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-12T10:18:48+00:00",
+ "generated_at": "2026-11-12T18:28:48+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
-   "name": "N0n",
-   "count": 28
+   "name": "thegentlemen",
+   "count": 22
   },
   {
    "name": "Curious Worm",
@@ -25,12 +25,12 @@
    "count": 4
   },
   {
-   "name": "play",
+   "name": "incransom",
    "count": 4
   },
   {
-   "name": "Aoqin",
-   "count": 3
+   "name": "play",
+   "count": 4
   },
   {
    "name": "BYOD",
@@ -40,33 +40,33 @@
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 18
+   "count": 19
   },
   {
    "name": "Professional Services",
-   "count": 9
-  },
-  {
-   "name": "Retail & E-Commerce",
-   "count": 8
-  },
-  {
-   "name": "Manufacturing",
-   "count": 7
+   "count": 14
   },
   {
    "name": "Technology",
-   "count": 6
+   "count": 10
+  },
+  {
+   "name": "Manufacturing",
+   "count": 9
   },
   {
    "name": "Education",
-   "count": 5
+   "count": 7
+  },
+  {
+   "name": "Retail & E-Commerce",
+   "count": 7
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 51,
+   "count": 42,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -77,16 +77,52 @@
    "lon": -79.4
   },
   {
-   "code": "GB",
-   "count": 4,
-   "lat": 51.5,
-   "lon": -0.1
-  },
-  {
    "code": "ES",
    "count": 3,
    "lat": 40.4,
    "lon": -3.7
+  },
+  {
+   "code": "GB",
+   "count": 3,
+   "lat": 51.5,
+   "lon": -0.1
+  },
+  {
+   "code": "MX",
+   "count": 3,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
+   "code": "SA",
+   "count": 3,
+   "lat": 24.7,
+   "lon": 46.7
+  },
+  {
+   "code": "BR",
+   "count": 2,
+   "lat": -23.5,
+   "lon": -46.6
+  },
+  {
+   "code": "DE",
+   "count": 2,
+   "lat": 50.1,
+   "lon": 8.7
+  },
+  {
+   "code": "JP",
+   "count": 2,
+   "lat": 35.7,
+   "lon": 139.7
+  },
+  {
+   "code": "ZA",
+   "count": 2,
+   "lat": -26.2,
+   "lon": 28.0
   },
   {
    "code": "AE",
@@ -95,16 +131,16 @@
    "lon": 54.4
   },
   {
+   "code": "AR",
+   "count": 1,
+   "lat": -34.6,
+   "lon": -58.4
+  },
+  {
    "code": "AU",
    "count": 1,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "BR",
-   "count": 1,
-   "lat": -23.5,
-   "lon": -46.6
   },
   {
    "code": "CM",
@@ -113,22 +149,28 @@
    "lon": 11.5
   },
   {
-   "code": "CO",
+   "code": "CY",
    "count": 1,
-   "lat": 4.7,
-   "lon": -74.1
-  },
-  {
-   "code": "DE",
-   "count": 1,
-   "lat": 50.1,
-   "lon": 8.7
+   "lat": 35.2,
+   "lon": 33.4
   },
   {
    "code": "ET",
    "count": 1,
    "lat": 9.0,
    "lon": 38.7
+  },
+  {
+   "code": "FR",
+   "count": 1,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
+   "code": "HK",
+   "count": 1,
+   "lat": 22.3,
+   "lon": 114.2
   },
   {
    "code": "IE",
@@ -143,34 +185,16 @@
    "lon": 72.9
   },
   {
-   "code": "IT",
+   "code": "KE",
    "count": 1,
-   "lat": 41.9,
-   "lon": 12.5
+   "lat": -1.3,
+   "lon": 36.8
   },
   {
-   "code": "JP",
+   "code": "MK",
    "count": 1,
-   "lat": 35.7,
-   "lon": 139.7
-  },
-  {
-   "code": "KR",
-   "count": 1,
-   "lat": 37.6,
-   "lon": 127.0
-  },
-  {
-   "code": "MX",
-   "count": 1,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
-   "code": "NL",
-   "count": 1,
-   "lat": 52.4,
-   "lon": 4.9
+   "lat": 42.0,
+   "lon": 21.4
   },
   {
    "code": "NP",
@@ -179,31 +203,310 @@
    "lon": 85.3
   },
   {
+   "code": "PE",
+   "count": 1,
+   "lat": -12.0,
+   "lon": -77.0
+  },
+  {
    "code": "QA",
    "count": 1,
    "lat": 25.3,
    "lon": 51.5
   },
   {
-   "code": "SA",
+   "code": "SE",
    "count": 1,
-   "lat": 24.7,
-   "lon": 46.7
+   "lat": 59.3,
+   "lon": 18.1
   },
   {
    "code": "TH",
    "count": 1,
    "lat": 13.75,
    "lon": 100.5
-  },
-  {
-   "code": "ZA",
-   "count": 1,
-   "lat": -26.2,
-   "lon": 28.0
   }
  ],
  "victims": [
+  {
+   "victim": "cey-tech.com",
+   "group": "krybit",
+   "date": "2026-11-12T13:56:09+00:00",
+   "attack_date": "2026-11-12",
+   "country": "CY",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/Y2V5LXRlY2guY29tQGtyeWJpdA=="
+  },
+  {
+   "victim": "Promantra, Inc.",
+   "group": "metaencryptor",
+   "date": "2026-11-12T12:18:48+00:00",
+   "attack_date": "2026-11-12",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/UHJvbWFudHJhLCBJbmMuQG1ldGFlbmNyeXB0b3I="
+  },
+  {
+   "victim": "CIMSA LOGISTICS",
+   "group": "incransom",
+   "date": "2026-11-12T10:06:05+00:00",
+   "attack_date": "2026-11-10",
+   "country": "US",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/Q0lNU0EgTE9HSVNUSUNTQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "HELP Foundation",
+   "group": "incransom",
+   "date": "2026-11-12T10:05:46+00:00",
+   "attack_date": "2026-11-09",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/SEVMUCBGb3VuZGF0aW9uQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "gamechangerwm.com",
+   "group": "incransom",
+   "date": "2026-11-12T10:05:07+00:00",
+   "attack_date": "2026-11-10",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Z2FtZWNoYW5nZXJ3bS5jb21AaW5jcmFuc29t"
+  },
+  {
+   "victim": "raymondjames.com",
+   "group": "incransom",
+   "date": "2026-11-12T10:04:47+00:00",
+   "attack_date": "2026-11-10",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/cmF5bW9uZGphbWVzLmNvbUBpbmNyYW5zb20="
+  },
+  {
+   "victim": "Esri South Africa",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:57:13+00:00",
+   "attack_date": "2026-11-11",
+   "country": "ZA",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/RXNyaSBTb3V0aCBBZnJpY2FAdGhlZ2VudGxlbWVu"
+  },
+  {
+   "victim": "MEGATRANS",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:56:52+00:00",
+   "attack_date": "2026-11-11",
+   "country": "AR",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/TUVHQVRSQU5TQHRoZWdlbnRsZW1lbg=="
+  },
+  {
+   "victim": "United Pharmacy",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:56:31+00:00",
+   "attack_date": "2026-11-11",
+   "country": "SA",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/VW5pdGVkIFBoYXJtYWN5QHRoZWdlbnRsZW1lbg=="
+  },
+  {
+   "victim": "Clancy Systems International",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:56:11+00:00",
+   "attack_date": "2026-11-11",
+   "country": "US",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/Q2xhbmN5IFN5c3RlbXMgSW50ZXJuYXRpb25hbEB0aGVnZW50bGVtZW4="
+  },
+  {
+   "victim": "Orennia",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:55:50+00:00",
+   "attack_date": "2026-11-11",
+   "country": "SE",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/T3Jlbm5pYUB0aGVnZW50bGVtZW4="
+  },
+  {
+   "victim": "City of Humboldt",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:55:29+00:00",
+   "attack_date": "2026-11-11",
+   "country": "CA",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/Q2l0eSBvZiBIdW1ib2xkdEB0aGVnZW50bGVtZW4="
+  },
+  {
+   "victim": "Reso Tech Laurentides",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:55:08+00:00",
+   "attack_date": "2026-11-11",
+   "country": "CA",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/UmVzbyBUZWNoIExhdXJlbnRpZGVzQHRoZWdlbnRsZW1lbg=="
+  },
+  {
+   "victim": "Darr Equipment",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:54:47+00:00",
+   "attack_date": "2026-11-11",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RGFyciBFcXVpcG1lbnRAdGhlZ2VudGxlbWVu"
+  },
+  {
+   "victim": "Municipalidad de Cieneguilla",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:54:26+00:00",
+   "attack_date": "2026-11-11",
+   "country": "PE",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/TXVuaWNpcGFsaWRhZCBkZSBDaWVuZWd1aWxsYUB0aGVnZW50bGVtZW4="
+  },
+  {
+   "victim": "Grupo San Cristobal",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:54:05+00:00",
+   "attack_date": "2026-11-11",
+   "country": "MX",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/R3J1cG8gU2FuIENyaXN0b2JhbEB0aGVnZW50bGVtZW4="
+  },
+  {
+   "victim": "Groupe Alternance",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:53:44+00:00",
+   "attack_date": "2026-11-11",
+   "country": "FR",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/R3JvdXBlIEFsdGVybmFuY2VAdGhlZ2VudGxlbWVu"
+  },
+  {
+   "victim": "Sielke",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:53:23+00:00",
+   "attack_date": "2026-11-11",
+   "country": "DE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/U2llbGtlQHRoZWdlbnRsZW1lbg=="
+  },
+  {
+   "victim": "imas",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:53:02+00:00",
+   "attack_date": "2026-11-11",
+   "country": "ES",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/aW1hc0B0aGVnZW50bGVtZW4="
+  },
+  {
+   "victim": "National Investments Company",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:52:41+00:00",
+   "attack_date": "2026-11-11",
+   "country": "SA",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/TmF0aW9uYWwgSW52ZXN0bWVudHMgQ29tcGFueUB0aGVnZW50bGVtZW4="
+  },
+  {
+   "victim": "Triad Architects",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:52:21+00:00",
+   "attack_date": "2026-11-11",
+   "country": "KE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/VHJpYWQgQXJjaGl0ZWN0c0B0aGVnZW50bGVtZW4="
+  },
+  {
+   "victim": "Alan Mok Engineering",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:52:00+00:00",
+   "attack_date": "2026-11-11",
+   "country": "HK",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/QWxhbiBNb2sgRW5naW5lZXJpbmdAdGhlZ2VudGxlbWVu"
+  },
+  {
+   "victim": "Burgess Lowman CPAs",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:51:39+00:00",
+   "attack_date": "2026-11-11",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QnVyZ2VzcyBMb3dtYW4gQ1BBc0B0aGVnZW50bGVtZW4="
+  },
+  {
+   "victim": "Solarium",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:51:18+00:00",
+   "attack_date": "2026-11-11",
+   "country": "BR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U29sYXJpdW1AdGhlZ2VudGxlbWVu"
+  },
+  {
+   "victim": "National Agency Programmes and Mobility",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:50:57+00:00",
+   "attack_date": "2026-11-11",
+   "country": "MK",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/TmF0aW9uYWwgQWdlbmN5IFByb2dyYW1tZXMgYW5kIE1vYmlsaXR5QHRoZWdlbnRsZW1lbg=="
+  },
+  {
+   "victim": "Prinsel",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:50:37+00:00",
+   "attack_date": "2026-11-11",
+   "country": "MX",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/UHJpbnNlbEB0aGVnZW50bGVtZW4="
+  },
+  {
+   "victim": "Vinson",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:50:16+00:00",
+   "attack_date": "2026-11-11",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Vmluc29uQHRoZWdlbnRsZW1lbg=="
+  },
+  {
+   "victim": "EiCOh",
+   "group": "thegentlemen",
+   "date": "2026-11-12T09:49:55+00:00",
+   "attack_date": "2026-11-11",
+   "country": "JP",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/RWlDT2hAdGhlZ2VudGxlbWVu"
+  },
+  {
+   "victim": "ProLiant",
+   "group": "Barracuda",
+   "date": "2026-11-12T07:22:39+00:00",
+   "attack_date": "2026-11-12",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/UHJvTGlhbnRAQmFycmFjdWRh"
+  },
+  {
+   "victim": "The University of Texas at Arlington",
+   "group": "qilin",
+   "date": "2026-11-12T06:50:40+00:00",
+   "attack_date": "2026-11-12",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/VGhlIFVuaXZlcnNpdHkgb2YgVGV4YXMgYXQgQXJsaW5ndG9uQHFpbGlu"
+  },
+  {
+   "victim": "York University",
+   "group": "qilin",
+   "date": "2026-11-12T06:49:59+00:00",
+   "attack_date": "2026-11-12",
+   "country": "CA",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/WW9yayBVbml2ZXJzaXR5QHFpbGlu"
+  },
   {
    "victim": "Dep",
    "group": "medusalocker",
@@ -700,15 +1003,6 @@
    "url": "https://www.ransomware.live/id/Q29uZWN1aCBTYXVzYWdlIENvbXBhbnkgSW5jQGludGVybG9jaw=="
   },
   {
-   "victim": "Forus Deporte y Ocio S.L",
-   "group": "Black X",
-   "date": "2026-11-10T04:57:36+00:00",
-   "attack_date": "2026-11-09",
-   "country": "ES",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/Rm9ydXMgRGVwb3J0ZSB5IE9jaW8gUy5MQEJsYWNrIFg="
-  },
-  {
    "victim": "DomusVi",
    "group": "Black X",
    "date": "2026-11-10T04:56:53+00:00",
@@ -833,276 +1127,6 @@
    "country": "US",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/VmFuZGVyYmlsdCBFRFVAQllPRA=="
-  },
-  {
-   "victim": "carrollins.com",
-   "group": "everstake",
-   "date": "2026-11-09T15:16:03+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/Y2Fycm9sbGlucy5jb21AZXZlcnN0YWtl"
-  },
-  {
-   "victim": "Company #211",
-   "group": "N0n",
-   "date": "2026-11-09T12:33:23+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjExQE4wbg=="
-  },
-  {
-   "victim": "Company #210",
-   "group": "N0n",
-   "date": "2026-11-09T12:32:39+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjEwQE4wbg=="
-  },
-  {
-   "victim": "Company #209",
-   "group": "N0n",
-   "date": "2026-11-09T12:31:56+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjA5QE4wbg=="
-  },
-  {
-   "victim": "Company #208",
-   "group": "N0n",
-   "date": "2026-11-09T12:31:13+00:00",
-   "attack_date": "2026-11-09",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjA4QE4wbg=="
-  },
-  {
-   "victim": "Company #207",
-   "group": "N0n",
-   "date": "2026-11-09T12:30:30+00:00",
-   "attack_date": "2026-11-09",
-   "country": "NL",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjA3QE4wbg=="
-  },
-  {
-   "victim": "Company #206",
-   "group": "N0n",
-   "date": "2026-11-09T12:29:46+00:00",
-   "attack_date": "2026-11-09",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjA2QE4wbg=="
-  },
-  {
-   "victim": "Company #205",
-   "group": "N0n",
-   "date": "2026-11-09T12:29:03+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjA1QE4wbg=="
-  },
-  {
-   "victim": "Company #204",
-   "group": "N0n",
-   "date": "2026-11-09T12:28:20+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjA0QE4wbg=="
-  },
-  {
-   "victim": "Company #203",
-   "group": "N0n",
-   "date": "2026-11-09T12:27:37+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjAzQE4wbg=="
-  },
-  {
-   "victim": "Company #202",
-   "group": "N0n",
-   "date": "2026-11-09T12:26:52+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjAyQE4wbg=="
-  },
-  {
-   "victim": "Company #201",
-   "group": "N0n",
-   "date": "2026-11-09T12:26:09+00:00",
-   "attack_date": "2026-11-09",
-   "country": "IT",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjAxQE4wbg=="
-  },
-  {
-   "victim": "Company #200",
-   "group": "N0n",
-   "date": "2026-11-09T12:25:27+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjAwQE4wbg=="
-  },
-  {
-   "victim": "Company #199",
-   "group": "N0n",
-   "date": "2026-11-09T12:24:45+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTk5QE4wbg=="
-  },
-  {
-   "victim": "Company #198",
-   "group": "N0n",
-   "date": "2026-11-09T12:24:02+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTk4QE4wbg=="
-  },
-  {
-   "victim": "Fortox Security Group",
-   "group": "Aoqin",
-   "date": "2026-11-09T12:20:40+00:00",
-   "attack_date": "2026-11-09",
-   "country": "CO",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Rm9ydG94IFNlY3VyaXR5IEdyb3VwQEFvcWlu"
-  },
-  {
-   "victim": "JH Technology",
-   "group": "metaencryptor",
-   "date": "2026-11-09T11:45:38+00:00",
-   "attack_date": "2026-11-09",
-   "country": "KR",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/SkggVGVjaG5vbG9neUBtZXRhZW5jcnlwdG9y"
-  },
-  {
-   "victim": "Greentech Renewables",
-   "group": "metaencryptor",
-   "date": "2026-11-09T11:44:59+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/R3JlZW50ZWNoIFJlbmV3YWJsZXNAbWV0YWVuY3J5cHRvcg=="
-  },
-  {
-   "victim": "Company #197",
-   "group": "N0n",
-   "date": "2026-11-09T10:54:00+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTk3QE4wbg=="
-  },
-  {
-   "victim": "Company #196",
-   "group": "N0n",
-   "date": "2026-11-09T10:53:16+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTk2QE4wbg=="
-  },
-  {
-   "victim": "Company #195",
-   "group": "N0n",
-   "date": "2026-11-09T10:52:33+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTk1QE4wbg=="
-  },
-  {
-   "victim": "Company #194",
-   "group": "N0n",
-   "date": "2026-11-09T10:51:49+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTk0QE4wbg=="
-  },
-  {
-   "victim": "Company #193",
-   "group": "N0n",
-   "date": "2026-11-09T10:51:06+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTkzQE4wbg=="
-  },
-  {
-   "victim": "Company #192",
-   "group": "N0n",
-   "date": "2026-11-09T10:50:23+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTkyQE4wbg=="
-  },
-  {
-   "victim": "Company #191",
-   "group": "N0n",
-   "date": "2026-11-09T10:49:40+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTkxQE4wbg=="
-  },
-  {
-   "victim": "Company #190",
-   "group": "N0n",
-   "date": "2026-11-09T10:48:58+00:00",
-   "attack_date": "2026-11-09",
-   "country": "CA",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTkwQE4wbg=="
-  },
-  {
-   "victim": "Company #189",
-   "group": "N0n",
-   "date": "2026-11-09T10:48:17+00:00",
-   "attack_date": "2026-11-09",
-   "country": "GB",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTg5QE4wbg=="
-  },
-  {
-   "victim": "Company #188",
-   "group": "N0n",
-   "date": "2026-11-09T10:47:34+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTg4QE4wbg=="
-  },
-  {
-   "victim": "Company #187",
-   "group": "N0n",
-   "date": "2026-11-09T10:46:52+00:00",
-   "attack_date": "2026-11-09",
-   "country": "CA",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTg3QE4wbg=="
-  },
-  {
-   "victim": "Company #186",
-   "group": "N0n",
-   "date": "2026-11-09T10:46:06+00:00",
-   "attack_date": "2026-11-09",
-   "country": "CA",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTg2QE4wbg=="
   }
  ]
 }
