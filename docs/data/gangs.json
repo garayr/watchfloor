@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T02:38:14+00:00",
+ "generated_at": "2026-11-12T10:18:48+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1475,8 +1475,8 @@
    "description": "Initially observed in June 2022, the Play ransomware (a.k.a PlayCrypt) operates through double extortion, targeting numerous organizations in Latin America. Its Initial Access method is quite similar to other ransomwares, involving attacks such as Phishing, Exposed Services to the Internet, and Valid Account compromises. On April 19, 2023, the security company Symantec published two new tools developed by the Play group. These tools allow the malicious actor to enumerate and exfiltrate data from the internal network. The post mentions the following: 'Play threat actors use the.NET infostealer to enumerate software and services via WMI, WinRM, Remote Registry, and Remote Service. The malware checks for the existence of security and backup software, as well as remote administration tools and other programs, saving the information in.CSV files that are compressed into a.ZIP file for later manual exfiltration by threat actors.'Source: https://github.com/crocodyli/ThreatActors-TTPs",
    "aliases": [],
    "first_seen": "2022-11-26",
-   "last_seen": "2026-11-04",
-   "victims_total": 1345,
+   "last_seen": "2026-11-11",
+   "victims_total": 1349,
    "cves": [],
    "tools": [
     "HandleKatz",
@@ -1507,23 +1507,23 @@
     "Command and Scripting Interpreter: PowerShell",
     "Command and Scripting Interpreter: Windows Command Shell",
     "Obfuscated Files or Information",
-    "Indicator Removal",
-    "Indicator Removal: Clear Windows Event Logs",
-    "Domain or Tenant Policy Modification",
-    "Domain or Tenant Policy Modification: Group Policy…",
-    "Disable or Modify Tools",
     "Obfuscated Files or Information: Command Obfuscation",
+    "Indicator Removal",
     "Indicator Removal: File Deletion",
     "OS Credential Dumping",
     "OS Credential Dumping: LSASS Memory",
-    "OS Credential Dumping: NTDS"
+    "OS Credential Dumping: NTDS",
+    "Unsecured Credentials",
+    "System Network Configuration Discovery",
+    "Remote System Discovery",
+    "Network Service Discovery"
    ],
    "links": [],
    "targets": {
     "countries": [
      {
       "name": "US",
-      "count": 954
+      "count": 957
      },
      {
       "name": "CA",
@@ -1531,7 +1531,7 @@
      },
      {
       "name": "GB",
-      "count": 42
+      "count": 43
      },
      {
       "name": "DE",
@@ -1561,11 +1561,11 @@
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 99
+      "count": 100
      },
      {
       "name": "Transportation",
-      "count": 74
+      "count": 75
      },
      {
       "name": "Agriculture and Food Production",
@@ -1620,11 +1620,11 @@
     },
     {
      "month": "2026-11",
-     "count": 5
+     "count": 9
     }
    ],
-   "history_size": 1345,
-   "updated": "2026-11-05T02:46:36+00:00"
+   "history_size": 1349,
+   "updated": "2026-11-12T10:18:48+00:00"
   },
   "interlock": {
    "name": "interlock",
@@ -8012,8 +8012,8 @@
    "description": "Medusa is a DDoS bot written in.NET 2.0. In its current incarnation its C&C protocol is based on HTTP, while its predecessor made use of IRC.",
    "aliases": [],
    "first_seen": "2021-11-03",
-   "last_seen": "2026-11-04",
-   "victims_total": 121,
+   "last_seen": "2026-11-11",
+   "victims_total": 123,
    "cves": [],
    "tools": [
     "Invoke-TheHash",
@@ -8133,11 +8133,11 @@
     },
     {
      "month": "2026-11",
-     "count": 18
+     "count": 20
     }
    ],
-   "history_size": 121,
-   "updated": "2026-11-05T02:46:36+00:00"
+   "history_size": 123,
+   "updated": "2026-11-12T10:18:48+00:00"
   },
   "PixelLeaks": {
    "name": "PixelLeaks",

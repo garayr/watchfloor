@@ -4,6 +4,30 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+     "summary": "The WhiteArmor ransomware group claims it stole 100GB of data from the shipping giant’s systems. The post Maersk Confirms Data Theft Amid $5 Million Extortion Attempt appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-12T08:38:47+00:00",
+     "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+     "summary": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client…",
+     "source": "The Hacker News",
+     "date": "2026-11-12T08:20:37+00:00",
+     "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+     "summary": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The…",
+     "source": "The Hacker News",
+     "date": "2026-11-12T06:42:47+00:00",
+     "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Baker Tilly notifies clients of data breach at third-party provider",
      "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
      "source": "BleepingComputer",
@@ -44,19 +68,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
-     "summary": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data. The post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-11T09:01:07+00:00",
-     "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
-     "group": "Breaches and ransomware",
-     "alerts": [
-      "CVE-2026-111793",
-      "CVE-2026-20320",
-      "CVE-2026-76418"
-     ]
-    },
-    {
      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
      "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to…",
      "source": "The Hacker News",
@@ -79,28 +90,52 @@
      "date": "2026-11-10T20:54:55+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-     "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-10T19:31:11+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-     "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T19:19:39+00:00",
-     "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+     "summary": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones. The post Hackers Target N-central Zero-Days as N-able Rushes Patches appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-12T09:39:55+00:00",
+     "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Hackers plant GSocket on Linux servers for persistent access",
+     "summary": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-12T09:38:00+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+     "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server…",
+     "source": "The Hacker News",
+     "date": "2026-11-12T09:25:00+00:00",
+     "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+     "summary": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access. The post Critical Red Hat Quay Vulnerability Could Expose Private Container…",
+     "source": "SecurityWeek",
+     "date": "2026-11-12T09:23:21+00:00",
+     "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+     "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71…",
+     "source": "The Hacker News",
+     "date": "2026-11-12T05:12:26+00:00",
+     "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
      "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are…",
@@ -158,14 +193,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
-     "summary": "Pre-Patch Tuesday advisories were published by VDE CERT, Phoenix Contact, Johnson Controls, and Hitachi Energy. The post ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-11T10:35:15+00:00",
-     "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
      "source": "BleepingComputer",
@@ -204,34 +231,6 @@
      "date": "2026-11-10T20:04:36+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-     "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T19:23:10+00:00",
-     "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-     "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T18:12:21+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-     "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T16:00:55+00:00",
-     "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-105134",
-      "CVE-2026-105133"
-     ]
     }
    ]
   },
@@ -253,20 +252,20 @@
      "date": "2026-11-11T07:21:05+00:00",
      "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-     "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research…",
-     "source": "The Hacker News",
-     "date": "2026-11-10T17:43:23+00:00",
-     "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+     "summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no…",
+     "source": "The Hacker News",
+     "date": "2026-11-12T04:39:48+00:00",
+     "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+     "group": "Other news"
+    },
     {
      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
      "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the…",
@@ -337,14 +336,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-11T11:18:36+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-     "group": "Other news"
-    },
-    {
-     "title": "Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks",
-     "summary": "Created by Zerto and Kashya veterans, the startup has launched a platform designed to recover whole cloud applications. The post Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-11T11:16:40+00:00",
-     "url": "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
      "group": "Other news"
     },
     {

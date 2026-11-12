@@ -2,56 +2,44 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1705,
-  "c2_servers": 345,
+  "total_iocs": 1179,
+  "c2_servers": 290,
   "families": [
    {
-    "name": "Unknown Loader",
-    "iocs": 309,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "IClickFix",
-    "iocs": 283,
+    "iocs": 284,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "SalatStealer",
-    "iocs": 185,
+    "name": "Unknown Loader",
+    "iocs": 235,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 115,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
     "iocs": 90,
-    "c2": 1,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Mirai",
-    "iocs": 86,
-    "c2": 12,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
-    "name": "StrelaStealer",
-    "iocs": 77,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
+    "name": "Vidar",
+    "iocs": 42,
+    "c2": 42,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 51,
-    "c2": 51,
+    "iocs": 41,
+    "c2": 41,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 47,
-    "c2": 47,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Unknown Stealer",
@@ -61,123 +49,135 @@
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 24,
+    "iocs": 28,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "SalatStealer",
+    "iocs": 22,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
+    "name": "ACR Stealer",
+    "iocs": 19,
+    "c2": 19,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.acr_stealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 857,
+  "online": 776,
   "top_tags": [
    {
-    "name": "github",
-    "count": 113
-   },
-   {
     "name": "elf",
-    "count": 109
+    "count": 172
    },
    {
-    "name": "zip",
-    "count": 102
+    "name": "github",
+    "count": 137
    },
    {
     "name": "zapret",
-    "count": 98
+    "count": 118
+   },
+   {
+    "name": "zip",
+    "count": 106
    },
    {
     "name": "Mozi",
-    "count": 74
+    "count": 89
    },
    {
     "name": "32-bit",
+    "count": 86
+   },
+   {
+    "name": "ssh",
     "count": 72
    },
    {
     "name": "mips",
-    "count": 48
-   },
-   {
-    "name": "arm",
-    "count": 28
+    "count": 54
    }
   ]
  },
  "ports": [
   {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 789757,
-   "targets": 311,
-   "sources": 24165
-  },
-  {
-   "port": 22,
-   "service": "SSH",
-   "records": 697703,
-   "targets": 309,
-   "sources": 12932
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 278861,
-   "targets": 296,
-   "sources": 12634
-  },
-  {
-   "port": 3389,
-   "service": "Remote Desktop (RDP)",
-   "records": 264414,
-   "targets": 275,
-   "sources": 2666
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 405391,
+   "targets": 286,
+   "sources": 5840
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 241956,
-   "targets": 296,
-   "sources": 8142
+   "records": 394981,
+   "targets": 283,
+   "sources": 6900
   },
   {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 184338,
-   "targets": 294,
-   "sources": 6836
+   "port": 22,
+   "service": "SSH",
+   "records": 385267,
+   "targets": 303,
+   "sources": 9392
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 183968,
-   "targets": 311,
-   "sources": 18755
+   "records": 141971,
+   "targets": 283,
+   "sources": 8811
   },
   {
-   "port": 51413,
+   "port": 23,
+   "service": "Telnet",
+   "records": 133839,
+   "targets": 293,
+   "sources": 6860
+  },
+  {
+   "port": 3389,
+   "service": "Remote Desktop (RDP)",
+   "records": 124987,
+   "targets": 270,
+   "sources": 1158
+  },
+  {
+   "port": 9000,
    "service": null,
-   "records": 179833,
-   "targets": 198,
-   "sources": 8096
+   "records": 119209,
+   "targets": 261,
+   "sources": 2251
+  },
+  {
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 116273,
+   "targets": 261,
+   "sources": 10216
   },
   {
    "port": 7680,
    "service": null,
-   "records": 178806,
-   "targets": 137,
-   "sources": 4646
+   "records": 107387,
+   "targets": 48,
+   "sources": 5103
   },
   {
-   "port": 2222,
-   "service": null,
-   "records": 151580,
-   "targets": 296,
-   "sources": 7526
+   "port": 5555,
+   "service": "Android debug (ADB)",
+   "records": 96144,
+   "targets": 251,
+   "sources": 1573
   }
  ],
- "ports_date": "2026-11-11",
+ "ports_date": "2026-11-12",
  "diary": [
   {
    "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
@@ -211,6 +211,128 @@
   }
  ],
  "pulses": [
+  {
+   "name": "The Rise of LLMjacking: How Attackers Monetize Compromised Cloud and Model Resources",
+   "summary": "Google Threat Intelligence Group identified multiple incidents where attackers hijacked enterprise Large Language Model (LLM) access in a tactic called LLMJacking. These intrusions affected organizations across…",
+   "date": "2026-11-12T08:19:11+00:00",
+   "author": "AlienVault",
+   "adversary": "UNC6993",
+   "malware": [
+    "Bankshot - S0239",
+    "Trojan Manuscript"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance",
+    "Retail",
+    "Technology",
+    "Transportation"
+   ],
+   "tags": [
+    "llmjacking",
+    "cloud resource hijacking",
+    "cve-2026-40217",
+    "unauthorized ai access",
+    "manus",
+    "proxy infrastructure"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af5767f02f93b7da4d25b8a"
+  },
+  {
+   "name": "Beware of Phishing Email Disguised as Quotation Inquiry (SnakeKeylogger)",
+   "summary": "A phishing campaign disguised as quotation inquiry requests has been observed, where attackers impersonate purchasing team material management personnel requesting quote confirmations. The emails contain compressed…",
+   "date": "2026-11-12T08:17:45+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "SnakeKeylogger"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "javascript",
+    "snakekeylogger",
+    "powershell",
+    "process hollowing",
+    "credential theft",
+    "infostealer"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af57629f156de011b1bb497"
+  },
+  {
+   "name": "SCKit Worm Installs Rogue ScreenConnect Clients and Session Cookie Relays Across Hundreds of Endpoints",
+   "summary": "On November 11, 2026, operators exploited cloud-hosted ScreenConnect panels to deploy attacker-controlled clients and the SCKit toolkit across 288 hosts in 48 organizations. ConnectWise disabled five third-party…",
+   "date": "2026-11-12T02:33:42+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "SCKit",
+    "RelayTrap"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "sckit",
+    "rmm abuse",
+    "persistence",
+    "cve-2026-84869",
+    "worm",
+    "screenconnect"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af52586b68571a7151ac421"
+  },
+  {
+   "name": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+   "summary": "Multiple threat actors have been deploying GSocket, an open source remote access tool, on compromised Linux servers to maintain persistent access even after initial vulnerabilities are patched. The activity increased…",
+   "date": "2026-11-11T22:11:30+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "GSocket",
+    "gs-netcat"
+   ],
+   "countries": [],
+   "industries": [
+    "Education",
+    "Technology",
+    "Telecommunications"
+   ],
+   "tags": [
+    "privilege escalation",
+    "remote access",
+    "gsocket",
+    "php applications",
+    "relay network",
+    "command and control"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af4e812bfab56c87bffd06e"
+  },
+  {
+   "name": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+   "summary": "A sophisticated command and control framework named Falcon (also known as XG or Xiàng Gē) has been identified operating entirely within browser contexts through malicious JavaScript. The framework compromises webmail…",
+   "date": "2026-11-11T17:43:08+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Falcon",
+    "Antino"
+   ],
+   "countries": [],
+   "industries": [
+    "Government",
+    "Defense",
+    "Telecommunications"
+   ],
+   "tags": [
+    "javascript",
+    "chrome extension",
+    "antino",
+    "falcon",
+    "browser-based c2",
+    "firefox extension"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af4a92c87b5f26c33791714"
+  },
   {
    "name": "Off the Rails: Inside an Exposed Silent Lynx Server",
    "summary": "An exposed open directory belonging to Silent Lynx, a Central Asia-focused espionage cluster, revealed the group's operations through October 2026. The directory contained tooling, data from active intrusions into…",
@@ -413,140 +535,13 @@
     "copperadu"
    ],
    "url": "https://otx.alienvault.com/pulse/6af32ca0532e5bb3ad1eb242"
-  },
-  {
-   "name": "Dark Web Profile: CyberXero",
-   "summary": "CyberXero is a Russian-speaking, financially motivated Initial Access Broker operating on Dark Web forums, conducting two parallel operations: a global mass-exploitation campaign targeting WordPress, Magento and…",
-   "date": "2026-11-10T14:18:09+00:00",
-   "author": "AlienVault",
-   "adversary": "CyberXero",
-   "malware": [
-    "wp2shell",
-    "WSO webshell",
-    "Cobalt Strike - S0154",
-    "PentAGI"
-   ],
-   "countries": [
-    "China",
-    "Netherlands",
-    "Pakistan",
-    "Poland",
-    "Ukraine"
-   ],
-   "industries": [
-    "Energy",
-    "Government",
-    "Telecommunications",
-    "Retail",
-    "Technology"
-   ],
-   "tags": [
-    "wso webshell",
-    "cve-2026-60137",
-    "wordpress exploitation",
-    "ukrainian critical infrastructure",
-    "cve-2015-1397",
-    "wp2shell"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af327a10b5317aadf0fbfc8"
-  },
-  {
-   "name": "Contagious Interview - One Interview Away From Infection",
-   "summary": "A sophisticated campaign targeting software developers through fake job interviews has been exposed, using a fraudulent company called AccuraSoftHire as a front. The operation lures developers through legitimate job…",
-   "date": "2026-11-10T08:32:53+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Technology",
-    "Finance"
-   ],
-   "tags": [
-    "blockchain dead drop",
-    "fake job interview",
-    "developer targeting",
-    "supply chain attack",
-    "npm poisoning",
-    "cryptocurrency theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af2d6b5777af782c0ecd03b"
-  },
-  {
-   "name": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
-   "summary": "In October 2026, an AI-native penetration framework called ARTEX was observed conducting attacks against AWS environments, primarily targeting financial data. ARTEX operates through LLM agents that autonomously plan and…",
-   "date": "2026-11-09T20:26:28+00:00",
-   "author": "AlienVault",
-   "adversary": "Storm-0940",
-   "malware": [
-    "ARTEX"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance",
-    "Technology"
-   ],
-   "tags": [
-    "cognito",
-    "cloudwatch",
-    "china-aligned",
-    "artex",
-    "aws",
-    "cloud exploitation"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af22c74c56e69bb42cb8363"
-  },
-  {
-   "name": "Trusted by Default: Qubole Cross-Account Access Abused in the Wild",
-   "summary": "A threat actor exploited IAM credentials from Qubole's AWS account (805246085872) to assume integration roles in customer environments between October 14 and October 26, 2026. The attacker used two IAM users and…",
-   "date": "2026-11-09T20:26:26+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "TruffleHog"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "s3-exfiltration",
-    "iam-role-assumption",
-    "cross-account-access",
-    "aws",
-    "trufflehog",
-    "supply-chain"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af22c7231935985c957ec55"
-  },
-  {
-   "name": "Malicious bee-js npm Release and Swarm Desktop Releases Deliver SleepyDuck Ethereum C2 Backdoor",
-   "summary": "On November 9, 2026, threat actors compromised Ethersphere's release pipeline through two compromised GitHub accounts, publishing malicious @ethersphere/bee-js 13.3.0 to npm and trojanized Swarm Desktop 0.56.2 releases…",
-   "date": "2026-11-09T20:26:26+00:00",
-   "author": "AlienVault",
-   "adversary": "SleepyDuck",
-   "malware": [
-    "SleepyDuck",
-    "EtherDuck"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "sleepyduck",
-    "swarm",
-    "bee-js",
-    "blockchain-c2",
-    "screenconnect",
-    "etherduck"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af22c723959134a2c8d25fa"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-12T02:38:14+00:00",
-  "sans": "2026-11-12T02:38:14+00:00",
-  "otx": "2026-11-12T02:38:14+00:00",
-  "urlhaus": "2026-11-12T02:38:14+00:00"
+  "threatfox": "2026-11-12T10:18:48+00:00",
+  "sans": "2026-11-12T10:18:48+00:00",
+  "otx": "2026-11-12T10:18:48+00:00",
+  "urlhaus": "2026-11-12T10:18:48+00:00"
  },
- "generated_at": "2026-11-12T02:38:14+00:00"
+ "generated_at": "2026-11-12T10:18:48+00:00"
 }
