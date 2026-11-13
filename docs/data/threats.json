@@ -2,32 +2,32 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1766,
-  "c2_servers": 284,
+  "total_iocs": 2077,
+  "c2_servers": 243,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 642,
+    "iocs": 980,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 148,
+    "iocs": 109,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "IClickFix",
-    "iocs": 67,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "Mirai",
-    "iocs": 66,
+    "iocs": 82,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "NjRAT",
+    "iocs": 65,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat"
    },
    {
     "name": "KAgent",
@@ -36,48 +36,48 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.kagent"
    },
    {
-    "name": "NjRAT",
-    "iocs": 56,
+    "name": "RN Stealer",
+    "iocs": 45,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.rn_stealer"
    },
    {
     "name": "Vidar",
-    "iocs": 36,
-    "c2": 36,
+    "iocs": 44,
+    "c2": 32,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "php.shin_webshell",
+    "name": "Formbook",
+    "iocs": 29,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
+   },
+   {
+    "name": "IClickFix",
     "iocs": 27,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "SalatStealer",
-    "iocs": 25,
+    "name": "php.shin_webshell",
+    "iocs": 26,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
-   },
-   {
-    "name": "PureRAT",
-    "iocs": 23,
-    "c2": 23,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 503,
+  "online": 597,
   "top_tags": [
    {
     "name": "elf",
-    "count": 260
+    "count": 243
    },
    {
     "name": "github",
-    "count": 186
+    "count": 196
    },
    {
     "name": "zapret",
@@ -85,23 +85,23 @@
    },
    {
     "name": "Mozi",
-    "count": 136
-   },
-   {
-    "name": "32-bit",
-    "count": 120
+    "count": 127
    },
    {
     "name": "SalatStealer",
-    "count": 113
+    "count": 112
    },
    {
-    "name": "ssh",
-    "count": 77
+    "name": "32-bit",
+    "count": 111
    },
    {
     "name": "mips",
-    "count": 67
+    "count": 68
+   },
+   {
+    "name": "ssh",
+    "count": 62
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 387958,
-   "targets": 288,
-   "sources": 12130
+   "records": 859327,
+   "targets": 300,
+   "sources": 19161
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 343825,
-   "targets": 283,
-   "sources": 7615
+   "records": 571328,
+   "targets": 296,
+   "sources": 12460
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 316506,
-   "targets": 280,
-   "sources": 6664
+   "records": 517875,
+   "targets": 291,
+   "sources": 10968
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 179211,
-   "targets": 284,
-   "sources": 7389
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 122017,
-   "targets": 282,
-   "sources": 8560
+   "records": 430836,
+   "targets": 293,
+   "sources": 14032
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 109367,
-   "targets": 267,
-   "sources": 11404
+   "records": 261326,
+   "targets": 328,
+   "sources": 18294
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 229326,
+   "targets": 309,
+   "sources": 14235
   },
   {
    "port": 2222,
    "service": null,
-   "records": 108383,
-   "targets": 277,
-   "sources": 6172
+   "records": 216043,
+   "targets": 292,
+   "sources": 8911
   },
   {
    "port": 9000,
    "service": null,
-   "records": 75439,
-   "targets": 259,
-   "sources": 2275
+   "records": 186720,
+   "targets": 274,
+   "sources": 5209
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 150994,
+   "targets": 53,
+   "sources": 5159
   },
   {
    "port": 7680,
    "service": null,
-   "records": 59218,
-   "targets": 37,
-   "sources": 3560
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 58369,
-   "targets": 42,
-   "sources": 4304
+   "records": 133840,
+   "targets": 100,
+   "sources": 4801
   }
  ],
  "ports_date": "2026-11-13",
@@ -373,31 +373,6 @@
    "url": "https://otx.alienvault.com/pulse/6af61f931cd135114986ff2c"
   },
   {
-   "name": "T-SQL Being Abused to Deliver Malware on Compromised MS SQL Servers",
-   "summary": "An active campaign discovered in October 2026 targets Internet-facing Microsoft SQL Server instances using T-SQL commands to deliver malicious payloads. Attackers scan IP ranges for exposed servers on TCP port 1433 and…",
-   "date": "2026-11-12T15:58:13+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "XMRig",
-    "gh0st RAT - S0032",
-    "Mydoor",
-    "Moudoor",
-    "Naabu"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "cryptocurrency mining",
-    "naabu",
-    "gh0st rat",
-    "t-sql abuse",
-    "xmrig",
-    "remote access trojan"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af5e2153359d5f8fa91aa75"
-  },
-  {
    "name": "ScreenConnect Attack: SCKit Turns Remote Support Into an Attack Platform",
    "summary": "On November 11, 2026, widespread unauthorized ScreenConnect deployments were detected originating from legitimate cloud-hosted management instances. The investigation uncovered SCKit, a malicious toolkit designed to…",
    "date": "2026-11-12T15:58:12+00:00",
@@ -496,13 +471,45 @@
     "tsga"
    ],
    "url": "https://otx.alienvault.com/pulse/6af5c9723703485eb3ab2b49"
+  },
+  {
+   "name": "How AI Revived a Stalled Attack on a U.S. Retailer",
+   "summary": "In September 2026, attackers targeting a U.S. retail organization initially struggled with hand-typed commands that contained errors and were blocked by security software. The following day, their tactics dramatically…",
+   "date": "2026-11-12T11:39:54+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ShadowPad - S0596",
+    "POISONPLUG.SHADOW",
+    "Chisel",
+    "Yuze",
+    "Warlock"
+   ],
+   "countries": [],
+   "industries": [
+    "Retail",
+    "Education",
+    "Technology",
+    "Government",
+    "Energy",
+    "Finance"
+   ],
+   "tags": [
+    "credential harvesting",
+    "rabbitmq exploitation",
+    "chisel",
+    "yuze",
+    "ai-assisted attacks",
+    "cve-2022-21882"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af5a58a01f1f0317453e3f6"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-13T12:28:54+00:00",
-  "sans": "2026-11-13T12:28:54+00:00",
-  "otx": "2026-11-13T12:28:54+00:00",
-  "urlhaus": "2026-11-13T12:28:54+00:00"
+  "threatfox": "2026-11-13T19:56:59+00:00",
+  "sans": "2026-11-13T19:56:59+00:00",
+  "otx": "2026-11-13T19:56:59+00:00",
+  "urlhaus": "2026-11-13T19:56:59+00:00"
  },
- "generated_at": "2026-11-13T12:28:54+00:00"
+ "generated_at": "2026-11-13T19:56:59+00:00"
 }

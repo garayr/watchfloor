@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T12:28:54+00:00",
+ "generated_at": "2026-11-13T19:56:59+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -21,34 +21,34 @@
    "count": 6
   },
   {
+   "name": "akira",
+   "count": 6
+  },
+  {
    "name": "incransom",
-   "count": 5
+   "count": 4
   },
   {
    "name": "play",
    "count": 4
   },
   {
-   "name": "Aoqin",
-   "count": 3
-  },
-  {
-   "name": "Climax Inc",
+   "name": "N0n",
    "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 19
-  },
-  {
-   "name": "Professional Services",
-   "count": 12
+   "count": 18
   },
   {
    "name": "Manufacturing",
-   "count": 10
+   "count": 14
+  },
+  {
+   "name": "Professional Services",
+   "count": 14
   },
   {
    "name": "Technology",
@@ -59,14 +59,14 @@
    "count": 6
   },
   {
-   "name": "Other",
-   "count": 6
+   "name": "Government & Defense",
+   "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 41,
+   "count": 42,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -75,12 +75,6 @@
    "count": 7,
    "lat": 43.7,
    "lon": -79.4
-  },
-  {
-   "code": "BR",
-   "count": 3,
-   "lat": -23.5,
-   "lon": -46.6
   },
   {
    "code": "GB",
@@ -99,6 +93,12 @@
    "count": 3,
    "lat": 24.7,
    "lon": 46.7
+  },
+  {
+   "code": "BR",
+   "count": 2,
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "DE",
@@ -123,6 +123,12 @@
    "count": 2,
    "lat": 35.7,
    "lon": 139.7
+  },
+  {
+   "code": "MY",
+   "count": 2,
+   "lat": 3.1,
+   "lon": 101.7
   },
   {
    "code": "AE",
@@ -185,22 +191,10 @@
    "lon": 21.4
   },
   {
-   "code": "MY",
-   "count": 1,
-   "lat": 3.1,
-   "lon": 101.7
-  },
-  {
    "code": "NG",
    "count": 1,
    "lat": 6.5,
    "lon": 3.4
-  },
-  {
-   "code": "NP",
-   "count": 1,
-   "lat": 27.7,
-   "lon": 85.3
   },
   {
    "code": "PE",
@@ -233,6 +227,12 @@
    "lon": 100.5
   },
   {
+   "code": "TR",
+   "count": 1,
+   "lat": 41.0,
+   "lon": 29.0
+  },
+  {
    "code": "ZA",
    "count": 1,
    "lat": -26.2,
@@ -240,6 +240,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "World Wide Fittings",
+   "group": "bravox",
+   "date": "2026-11-13T14:21:52+00:00",
+   "attack_date": "2026-11-13",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/V29ybGQgV2lkZSBGaXR0aW5nc0BicmF2b3g="
+  },
+  {
+   "victim": "Galorath",
+   "group": "akira",
+   "date": "2026-11-13T14:19:54+00:00",
+   "attack_date": "2026-11-13",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/R2Fsb3JhdGhAYWtpcmE="
+  },
+  {
+   "victim": "Replogle Globes",
+   "group": "akira",
+   "date": "2026-11-13T14:19:35+00:00",
+   "attack_date": "2026-11-13",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UmVwbG9nbGUgR2xvYmVzQGFraXJh"
+  },
+  {
+   "victim": "Paragon Mechanical",
+   "group": "akira",
+   "date": "2026-11-13T14:19:15+00:00",
+   "attack_date": "2026-11-13",
+   "country": null,
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/UGFyYWdvbiBNZWNoYW5pY2FsQGFraXJh"
+  },
+  {
+   "victim": "Carsem",
+   "group": "emperador",
+   "date": "2026-11-13T11:23:06+00:00",
+   "attack_date": "2026-11-13",
+   "country": "MY",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/Q2Fyc2VtQGVtcGVyYWRvcg=="
+  },
+  {
+   "victim": "Koray Topaç Hukuk Bürosu",
+   "group": "Doommageddon",
+   "date": "2026-11-13T11:22:24+00:00",
+   "attack_date": "2026-11-13",
+   "country": "TR",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/S29yYXkgVG9wYcOnIEh1a3VrIELDvHJvc3VARG9vbW1hZ2VkZG9u"
+  },
   {
    "victim": "Company #216",
    "group": "N0n",
@@ -347,15 +401,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/Q0lNU0EgTE9HSVNUSUNTQGluY3JhbnNvbQ=="
-  },
-  {
-   "victim": "HELP Foundation",
-   "group": "incransom",
-   "date": "2026-11-12T10:05:46+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/SEVMUCBGb3VuZGF0aW9uQGluY3JhbnNvbQ=="
   },
   {
    "victim": "gamechangerwm.com",
@@ -943,33 +988,6 @@
    "url": "https://www.ransomware.live/id/QWN0dWFsaXplIENvbnN1bHRpbmdAa3J5Yml0"
   },
   {
-   "victim": "Redacted Redacted",
-   "group": "Climax Inc",
-   "date": "2026-11-10T12:54:38+00:00",
-   "attack_date": "2026-11-10",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/UmVkYWN0ZWQgUmVkYWN0ZWRAQ2xpbWF4IEluYw=="
-  },
-  {
-   "victim": "Nepal Electricity Authority",
-   "group": "Climax Inc",
-   "date": "2026-11-10T12:54:04+00:00",
-   "attack_date": "2026-11-10",
-   "country": "NP",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/TmVwYWwgRWxlY3RyaWNpdHkgQXV0aG9yaXR5QENsaW1heCBJbmM="
-  },
-  {
-   "victim": "Frolina Home",
-   "group": "Climax Inc",
-   "date": "2026-11-10T12:53:22+00:00",
-   "attack_date": "2026-11-10",
-   "country": "BR",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/RnJvbGluYSBIb21lQENsaW1heCBJbmM="
-  },
-  {
    "victim": "COMPUTER TASK GROUP, Inc.",
    "group": "Booba Project",
    "date": "2026-11-10T12:52:35+00:00",
@@ -1121,24 +1139,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/UFlSQU1JRCBIRUFMVEhDQVJFQFZvcnRleA=="
-  },
-  {
-   "victim": "fhiworks",
-   "group": "iah6477",
-   "date": "2026-11-09T23:22:45+00:00",
-   "attack_date": "2026-11-09",
-   "country": null,
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Zmhpd29ya3NAaWFoNjQ3Nw=="
-  },
-  {
-   "victim": "Irwin Automotive Group",
-   "group": "Aoqin",
-   "date": "2026-11-09T22:51:05+00:00",
-   "attack_date": "2026-11-09",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/SXJ3aW4gQXV0b21vdGl2ZSBHcm91cEBBb3Fpbg=="
   }
  ]
 }

@@ -33,19 +33,43 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+     "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-13T16:21:43+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+     "summary": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director…",
+     "source": "SecurityWeek",
+     "date": "2026-11-13T15:20:00+00:00",
+     "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "How one AI agent exposed five critical enterprise security gaps",
+     "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI…",
+     "source": "BleepingComputer",
+     "date": "2026-11-13T15:01:11+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+     "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as…",
+     "source": "The Hacker News",
+     "date": "2026-11-13T14:28:58+00:00",
+     "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
      "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in…",
      "source": "The Hacker News",
      "date": "2026-11-13T11:10:40+00:00",
      "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
-     "summary": "Also Thursday, the FBI blamed North Korea for a separate social engineering scheme that officials say resulted in the theft of $400 million worth of cryptocurrency. The post FBI Says US Seized $1.2 Billion Worth of…",
-     "source": "SecurityWeek",
-     "date": "2026-11-13T02:28:21+00:00",
-     "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
      "group": "Breaches and ransomware"
     },
     {
@@ -55,36 +79,20 @@
      "date": "2026-11-12T22:25:30+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
-     "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled…",
-     "source": "BleepingComputer",
-     "date": "2026-11-12T15:00:10+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Apify rotates API tokens, prompts 2FA resets after breach",
-     "summary": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-12T14:36:47+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-     "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T12:09:14+00:00",
-     "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+     "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires…",
+     "source": "The Hacker News",
+     "date": "2026-11-13T16:53:08+00:00",
+     "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Check Point warns of zero-day flaw exploited for root access",
      "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
@@ -139,7 +147,10 @@
      "source": "SecurityWeek",
      "date": "2026-11-13T07:39:04+00:00",
      "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-123039"
+     ]
     },
     {
      "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
@@ -206,43 +217,11 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-     "summary": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first…",
-     "source": "SecurityWeek",
-     "date": "2026-11-12T15:38:31+00:00",
-     "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
      "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged…",
      "source": "The Hacker News",
      "date": "2026-11-12T13:08:28+00:00",
      "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
-     "summary": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-12T12:11:11+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-     "summary": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2. \"Based on our initial review, the…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T11:51:43+00:00",
-     "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-     "summary": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T11:33:15+00:00",
-     "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
      "group": "Exploited right now"
     }
    ]
@@ -273,20 +252,60 @@
      "date": "2026-11-12T15:15:40+00:00",
      "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-     "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T11:51:31+00:00",
-     "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+     "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send…",
+     "source": "BleepingComputer",
+     "date": "2026-11-13T19:38:36+00:00",
+     "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+     "group": "Other news"
+    },
+    {
+     "title": "German military drone operations disrupted by cyberattack",
+     "summary": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-13T17:31:56+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+     "group": "Other news"
+    },
+    {
+     "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+     "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's…",
+     "source": "The Hacker News",
+     "date": "2026-11-13T15:27:05+00:00",
+     "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+     "group": "Other news"
+    },
+    {
+     "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+     "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase…",
+     "source": "The Hacker News",
+     "date": "2026-11-13T13:54:20+00:00",
+     "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+     "group": "Other news"
+    },
+    {
+     "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
+     "summary": "Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using “a measured approach to identify and repair affected infrastructure.” The post Microsoft Struggles to…",
+     "source": "SecurityWeek",
+     "date": "2026-11-13T13:47:42+00:00",
+     "url": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
+     "group": "Other news"
+    },
+    {
+     "title": "Apify Confirms Customer Data Accessed in Cyberattack",
+     "summary": "The web scraping company says an intruder accessed customer accounts and obtained personal information or stored data. The post Apify Confirms Customer Data Accessed in Cyberattack appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-13T12:41:01+00:00",
+     "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
+     "group": "Other news"
+    },
     {
      "title": "Microsoft says November security updates cause printing issues",
      "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
@@ -320,27 +339,11 @@
      "group": "Other news"
     },
     {
-     "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
-     "summary": "Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack. The post Microsoft 365 Outage…",
-     "source": "SecurityWeek",
-     "date": "2026-11-12T20:55:30+00:00",
-     "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
-     "group": "Other news"
-    },
-    {
      "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
      "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
      "source": "BleepingComputer",
      "date": "2026-11-12T20:15:16+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
-     "group": "Other news"
-    },
-    {
-     "title": "Microsoft confirms Windows security updates installation issues",
-     "summary": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-12T10:24:07+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
      "group": "Other news"
     }
    ]
