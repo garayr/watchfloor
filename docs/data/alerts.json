@@ -824,48 +824,6 @@
    "epss": 0.0215,
    "cvss": 8.6,
    "sev": "high"
-  },
-  {
-   "id": "CVE-2026-104935",
-   "date": "2026-10-13",
-   "src": "CISA",
-   "vendor": "Ivanti Connect Secure",
-   "vendor_name": "Ivanti",
-   "product": "Connect Secure",
-   "title": "Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
-   "detail": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-10-16",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-104935"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
-   "kev": true,
-   "epss": 0.8894,
-   "cvss": 8.6,
-   "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-96951",
-   "date": "2026-10-13",
-   "src": "CISA",
-   "vendor": "Microsoft Windows",
-   "vendor_name": "Microsoft",
-   "product": "Windows",
-   "title": "Microsoft Windows Command Injection Vulnerability",
-   "detail": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-10-16",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-96951"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
-   "kev": true,
-   "epss": 0.0981,
-   "cvss": 8.8,
-   "sev": "high"
   }
  ]
 }
