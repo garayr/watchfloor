@@ -4,6 +4,22 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+     "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks…",
+     "source": "The Hacker News",
+     "date": "2026-11-13T10:55:03+00:00",
+     "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+     "group": "Arrests, courts and policy"
+    },
+    {
+     "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
+     "summary": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-13T08:34:20+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
      "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
      "source": "BleepingComputer",
@@ -16,6 +32,14 @@
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+     "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in…",
+     "source": "The Hacker News",
+     "date": "2026-11-13T11:10:40+00:00",
+     "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
      "summary": "Also Thursday, the FBI blamed North Korea for a separate social engineering scheme that officials say resulted in the theft of $400 million worth of cryptocurrency. The post FBI Says US Seized $1.2 Billion Worth of…",
@@ -55,52 +79,84 @@
      "date": "2026-11-12T12:09:14+00:00",
      "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Notion Customer Data Compromised in Fireworks AI Hack",
-     "summary": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable. The post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-12T11:08:52+00:00",
-     "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
-     "summary": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T08:20:37+00:00",
-     "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-     "summary": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T06:42:47+00:00",
-     "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Baker Tilly notifies clients of data breach at third-party provider",
-     "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-11T23:01:31+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-     "summary": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-11T22:56:21+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Check Point warns of zero-day flaw exploited for root access",
+     "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-13T10:44:22+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+     "summary": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions. The post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-13T09:36:56+00:00",
+     "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Microsoft confirms Windows activation failures after November updates",
+     "summary": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-13T09:36:18+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
+     "summary": "Daybreak Red Team pentests web applications with AI agents, while Defense Factory investigates security findings and prepares patches. The post OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-13T09:21:01+00:00",
+     "url": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+     "summary": "It abuses CLFS and Windows Defender to trigger arbitrary file creation in the context of the antimalware process. The post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’ appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-13T08:50:36+00:00",
+     "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+     "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in…",
+     "source": "The Hacker News",
+     "date": "2026-11-13T08:05:49+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+     "summary": "PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root. The post PHP2Shell Exploited in Destructive Check Point Gateway Attacks appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-13T07:39:04+00:00",
+     "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+     "summary": "Dubbed 4EverAble2Shell, the flaw could allow remote, unauthenticated attackers to execute code with root privileges. The post Hackers Exploit New N-central Zero-Day Hours After PoC Publication appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-13T07:20:50+00:00",
+     "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+     "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and…",
+     "source": "The Hacker News",
+     "date": "2026-11-13T05:43:28+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
      "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected…",
@@ -158,14 +214,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
-     "summary": "Google fixed 83 flaws with a new Chrome 157 release, and Mozilla addressed 99 bugs in Firefox 160. The post Chrome, Firefox Updates Patch Over 180 Vulnerabilities appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-12T13:42:09+00:00",
-     "url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
      "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged…",
      "source": "The Hacker News",
@@ -195,54 +243,6 @@
      "source": "The Hacker News",
      "date": "2026-11-12T11:33:15+00:00",
      "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
-     "summary": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication. The post Hackers Deploy Malware in Fresh ScreenConnect Campaign appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-12T10:39:34+00:00",
-     "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
-     "summary": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones. The post Hackers Target N-central Zero-Days as N-able Rushes Patches appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-12T09:39:55+00:00",
-     "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers plant GSocket on Linux servers for persistent access",
-     "summary": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-12T09:38:00+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-     "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T09:25:00+00:00",
-     "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
-     "summary": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access. The post Critical Red Hat Quay Vulnerability Could Expose Private Container…",
-     "source": "SecurityWeek",
-     "date": "2026-11-12T09:23:21+00:00",
-     "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-     "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T05:12:26+00:00",
-     "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
      "group": "Exploited right now"
     }
    ]
@@ -275,14 +275,6 @@
      "group": "Malware and campaigns"
     },
     {
-     "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
-     "summary": "Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories. The post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign…",
-     "source": "SecurityWeek",
-     "date": "2026-11-12T13:39:03+00:00",
-     "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
-     "group": "Malware and campaigns"
-    },
-    {
      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
      "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on…",
      "source": "The Hacker News",
@@ -295,6 +287,38 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Microsoft says November security updates cause printing issues",
+     "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-13T12:27:40+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+     "group": "Other news"
+    },
+    {
+     "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
+     "summary": "Enea says SilentAir hijacked mobile network nodes to intercept calls and messages, with Taiwanese subscribers the primary targets. The post SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-13T12:20:28+00:00",
+     "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
+     "group": "Other news"
+    },
+    {
+     "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+     "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because…",
+     "source": "The Hacker News",
+     "date": "2026-11-13T11:52:31+00:00",
+     "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+     "group": "Other news"
+    },
+    {
+     "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
+     "summary": "Investigators seized 235 servers and 257 domains, along with 6.4 million victim credentials as part of Operation Endgame. The post Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure appeared first…",
+     "source": "SecurityWeek",
+     "date": "2026-11-13T10:48:40+00:00",
+     "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
+     "group": "Other news"
+    },
     {
      "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
      "summary": "Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack. The post Microsoft 365 Outage…",
@@ -312,35 +336,11 @@
      "group": "Other news"
     },
     {
-     "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
-     "summary": "The company plans to accelerate product development, hire new talent, expand its US presence, and enter new markets. The post Daylight Lands $80 Million for AI-Powered Security Operations appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-12T13:12:11+00:00",
-     "url": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
-     "group": "Other news"
-    },
-    {
      "title": "Microsoft confirms Windows security updates installation issues",
      "summary": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
      "source": "BleepingComputer",
      "date": "2026-11-12T10:24:07+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
-     "group": "Other news"
-    },
-    {
-     "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-     "summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T04:39:48+00:00",
-     "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
-     "group": "Other news"
-    },
-    {
-     "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-     "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the…",
-     "source": "BleepingComputer",
-     "date": "2026-11-11T21:27:40+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
      "group": "Other news"
     }
    ]

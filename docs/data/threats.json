@@ -2,32 +2,32 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1635,
-  "c2_servers": 353,
+  "total_iocs": 1766,
+  "c2_servers": 284,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 360,
-    "c2": 0,
+    "iocs": 642,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 163,
+    "iocs": 148,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Mirai",
-    "iocs": 110,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "IClickFix",
-    "iocs": 72,
+    "iocs": 67,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 66,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "KAgent",
@@ -37,47 +37,47 @@
    },
    {
     "name": "NjRAT",
-    "iocs": 57,
-    "c2": 1,
+    "iocs": 56,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat"
    },
    {
-    "name": "Remcos",
-    "iocs": 48,
-    "c2": 48,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
-   },
-   {
-    "name": "Unknown Stealer",
-    "iocs": 41,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
-   },
-   {
     "name": "Vidar",
-    "iocs": 35,
-    "c2": 35,
+    "iocs": 36,
+    "c2": 36,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 30,
+    "iocs": 27,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "SalatStealer",
+    "iocs": 25,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
+    "name": "PureRAT",
+    "iocs": 23,
+    "c2": 23,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
  "urls": {
-  "sample": 842,
-  "online": 509,
+  "sample": 1000,
+  "online": 503,
   "top_tags": [
    {
     "name": "elf",
-    "count": 224
+    "count": 260
    },
    {
     "name": "github",
-    "count": 171
+    "count": 186
    },
    {
     "name": "zapret",
@@ -85,96 +85,96 @@
    },
    {
     "name": "Mozi",
-    "count": 116
-   },
-   {
-    "name": "SalatStealer",
-    "count": 110
+    "count": 136
    },
    {
     "name": "32-bit",
-    "count": 107
+    "count": 120
+   },
+   {
+    "name": "SalatStealer",
+    "count": 113
    },
    {
     "name": "ssh",
-    "count": 75
+    "count": 77
    },
    {
     "name": "mips",
-    "count": 61
+    "count": 67
    }
   ]
  },
  "ports": [
   {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 59145,
-   "targets": 216,
-   "sources": 4898
-  },
-  {
    "port": 22,
    "service": "SSH",
-   "records": 58417,
-   "targets": 236,
-   "sources": 5443
+   "records": 387958,
+   "targets": 288,
+   "sources": 12130
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 343825,
+   "targets": 283,
+   "sources": 7615
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 53342,
-   "targets": 228,
-   "sources": 4561
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 31862,
-   "targets": 223,
-   "sources": 4450
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 18163,
-   "targets": 211,
-   "sources": 1442
+   "records": 316506,
+   "targets": 280,
+   "sources": 6664
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 17704,
-   "targets": 241,
-   "sources": 1686
+   "records": 179211,
+   "targets": 284,
+   "sources": 7389
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 122017,
+   "targets": 282,
+   "sources": 8560
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 15148,
-   "targets": 201,
-   "sources": 3968
+   "records": 109367,
+   "targets": 267,
+   "sources": 11404
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 108383,
+   "targets": 277,
+   "sources": 6172
   },
   {
    "port": 9000,
    "service": null,
-   "records": 11722,
-   "targets": 181,
-   "sources": 458
+   "records": 75439,
+   "targets": 259,
+   "sources": 2275
   },
   {
    "port": 7680,
    "service": null,
-   "records": 11331,
-   "targets": 12,
-   "sources": 1527
+   "records": 59218,
+   "targets": 37,
+   "sources": 3560
   },
   {
    "port": 51413,
    "service": null,
-   "records": 9754,
-   "targets": 9,
-   "sources": 736
+   "records": 58369,
+   "targets": 42,
+   "sources": 4304
   }
  ],
  "ports_date": "2026-11-13",
@@ -211,6 +211,167 @@
   }
  ],
  "pulses": [
+  {
+   "name": "Stolen webcam clips of 900+ victims feed North Korea's $400 million fake Zoom scheme",
+   "summary": "North Korean state-sponsored hackers have stolen over $400 million in cryptocurrency during the past 18 months through a sophisticated social engineering operation known as FaceStealer. The attackers compromise…",
+   "date": "2026-11-13T09:50:55+00:00",
+   "author": "AlienVault",
+   "adversary": "Lazarus Group",
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Technology",
+    "Finance"
+   ],
+   "tags": [
+    "bluenoroff",
+    "social engineering",
+    "apt38",
+    "fake video calls",
+    "north korea",
+    "cryptocurrency theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af6dd7f5c46ed2857e7d678"
+  },
+  {
+   "name": "ESXi ransomware: why it is dangerous and how to defend against it",
+   "summary": "A recent investigation revealed how adversaries systematically destroyed an organization's virtualization estate over ten days by compromising four ESXi hosts, all virtual machines, both vCenter Server Appliances, and…",
+   "date": "2026-11-13T09:50:06+00:00",
+   "author": "AlienVault",
+   "adversary": "Trial Recovery",
+   "malware": [
+    "Babuk - S0638",
+    "Babyk",
+    "Vasa Locker",
+    "LockBit",
+    "GwisinLocker",
+    "Conti - S0575"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "babuk-derived",
+    "hypervisor",
+    "cve-2021-22005",
+    "cve-2023-34048",
+    "backup destruction",
+    "trigona"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af6dd4e596db4bd8d7a709b"
+  },
+  {
+   "name": "Beware of Phishing Email Disguised as Purchase Order Confirmation Request (Xloader)",
+   "summary": "A phishing campaign distributes XLoader infostealer through emails disguised as purchase order confirmation requests. The attack chain begins with a malicious DOCX file that exploits Word's altChunk feature to execute…",
+   "date": "2026-11-13T08:07:47+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "XLoader"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "xloader",
+    "infostealer",
+    "phishing email",
+    "rtf document",
+    "cve-2017-11882",
+    "altchunk exploitation"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af6c5535313263a193f072b"
+  },
+  {
+   "name": "European Refrigeration Systems Cyber Sabotage",
+   "summary": "A series of cyberattacks targeting commercial refrigeration infrastructure across Europe exposed critical vulnerabilities in operational technology systems. Beginning October 2026 in France with approximately 700…",
+   "date": "2026-11-13T08:06:42+00:00",
+   "author": "AlienVault",
+   "adversary": "Cyber Av3ngers",
+   "malware": [],
+   "countries": [
+    "Belgium",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Ireland"
+   ],
+   "industries": [
+    "Retail",
+    "Healthcare"
+   ],
+   "tags": [
+    "cve-2021-38459",
+    "critical infrastructure",
+    "default credentials",
+    "irgc",
+    "operational technology",
+    "noname057(16)"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af6c512eff4af48c4b11a6b"
+  },
+  {
+   "name": "2026-11-12: SmartApeSG ClickFix campaign pushes CNCmachineRMS RAT",
+   "summary": "A malicious campaign utilizing SmartApeSG ClickFix (also known as BabaDeda) techniques has been observed distributing CNCmachineRMS RAT through fake CAPTCHA verification pages. The attack chain begins with compromised…",
+   "date": "2026-11-13T05:37:24+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "CNCmachineRMS RAT"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "smartapesg",
+    "social engineering",
+    "cncmachinerms rat",
+    "clickfix",
+    "babadeda",
+    "hta"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af6a2141941c1adfc3963ca"
+  },
+  {
+   "name": "Fake Zillow pages use ClickFix NetSupport RAT to target apartment hunters",
+   "summary": "A ClickFix campaign deployed NetSupport RAT through fraudulent Zillow apartment-review pages targeting Windows users. The attack leveraged social engineering by presenting fake verification checks that copied PowerShell…",
+   "date": "2026-11-13T00:42:00+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "NetSupport RAT"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "clickfix",
+    "powershell",
+    "netsupport rat",
+    "apartment scam",
+    "social engineering",
+    "remote access"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af65cd84505f8125e2ca3ed"
+  },
+  {
+   "name": "Luna Moth Returns, Re-Targeting Law Firms Through Access Tokens",
+   "summary": "The extortion group Luna Moth is re-targeting law firms that previously declined to pay ransom demands, employing a novel token-based exfiltration technique. Attackers impersonate IT support via video calls, convincing…",
+   "date": "2026-11-12T20:20:35+00:00",
+   "author": "AlienVault",
+   "adversary": "Luna Moth",
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "social engineering",
+    "token theft",
+    "silent ransom group",
+    "conditional access",
+    "law firms",
+    "extortion"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af61f931cd135114986ff2c"
+  },
   {
    "name": "T-SQL Being Abused to Deliver Malware on Compromised MS SQL Servers",
    "summary": "An active campaign discovered in October 2026 targets Internet-facing Microsoft SQL Server instances using T-SQL commands to deliver malicious payloads. Attackers scan IP ranges for exposed servers on TCP port 1433 and…",
@@ -335,202 +496,13 @@
     "tsga"
    ],
    "url": "https://otx.alienvault.com/pulse/6af5c9723703485eb3ab2b49"
-  },
-  {
-   "name": "How AI Revived a Stalled Attack on a U.S. Retailer",
-   "summary": "In September 2026, attackers targeting a U.S. retail organization initially struggled with hand-typed commands that contained errors and were blocked by security software. The following day, their tactics dramatically…",
-   "date": "2026-11-12T11:39:54+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ShadowPad - S0596",
-    "POISONPLUG.SHADOW",
-    "Chisel",
-    "Yuze",
-    "Warlock"
-   ],
-   "countries": [],
-   "industries": [
-    "Retail",
-    "Education",
-    "Technology",
-    "Government",
-    "Energy",
-    "Finance"
-   ],
-   "tags": [
-    "credential harvesting",
-    "rabbitmq exploitation",
-    "chisel",
-    "yuze",
-    "ai-assisted attacks",
-    "cve-2022-21882"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af5a58a01f1f0317453e3f6"
-  },
-  {
-   "name": "The Rise of LLMjacking: How Attackers Monetize Compromised Cloud and Model Resources",
-   "summary": "Google Threat Intelligence Group identified multiple incidents where attackers hijacked enterprise Large Language Model (LLM) access in a tactic called LLMJacking. These intrusions affected organizations across…",
-   "date": "2026-11-12T08:19:11+00:00",
-   "author": "AlienVault",
-   "adversary": "UNC6993",
-   "malware": [
-    "Bankshot - S0239",
-    "Trojan Manuscript"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance",
-    "Retail",
-    "Technology",
-    "Transportation"
-   ],
-   "tags": [
-    "llmjacking",
-    "cloud resource hijacking",
-    "cve-2026-40217",
-    "unauthorized ai access",
-    "manus",
-    "proxy infrastructure"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af5767f02f93b7da4d25b8a"
-  },
-  {
-   "name": "Beware of Phishing Email Disguised as Quotation Inquiry (SnakeKeylogger)",
-   "summary": "A phishing campaign disguised as quotation inquiry requests has been observed, where attackers impersonate purchasing team material management personnel requesting quote confirmations. The emails contain compressed…",
-   "date": "2026-11-12T08:17:45+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "SnakeKeylogger"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "javascript",
-    "snakekeylogger",
-    "powershell",
-    "process hollowing",
-    "credential theft",
-    "infostealer"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af57629f156de011b1bb497"
-  },
-  {
-   "name": "SCKit Worm Installs Rogue ScreenConnect Clients and Session Cookie Relays Across Hundreds of Endpoints",
-   "summary": "On November 11, 2026, operators exploited cloud-hosted ScreenConnect panels to deploy attacker-controlled clients and the SCKit toolkit across 288 hosts in 48 organizations. ConnectWise disabled five third-party…",
-   "date": "2026-11-12T02:33:42+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "SCKit",
-    "RelayTrap"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "sckit",
-    "rmm abuse",
-    "persistence",
-    "cve-2026-84869",
-    "worm",
-    "screenconnect"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af52586b68571a7151ac421"
-  },
-  {
-   "name": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
-   "summary": "Multiple threat actors have been deploying GSocket, an open source remote access tool, on compromised Linux servers to maintain persistent access even after initial vulnerabilities are patched. The activity increased…",
-   "date": "2026-11-11T22:11:30+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "GSocket",
-    "gs-netcat"
-   ],
-   "countries": [],
-   "industries": [
-    "Education",
-    "Technology",
-    "Telecommunications"
-   ],
-   "tags": [
-    "privilege escalation",
-    "remote access",
-    "gsocket",
-    "php applications",
-    "relay network",
-    "command and control"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af4e812bfab56c87bffd06e"
-  },
-  {
-   "name": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
-   "summary": "A sophisticated command and control framework named Falcon (also known as XG or Xiàng Gē) has been identified operating entirely within browser contexts through malicious JavaScript. The framework compromises webmail…",
-   "date": "2026-11-11T17:43:08+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Falcon",
-    "Antino"
-   ],
-   "countries": [],
-   "industries": [
-    "Government",
-    "Defense",
-    "Telecommunications"
-   ],
-   "tags": [
-    "javascript",
-    "chrome extension",
-    "antino",
-    "falcon",
-    "browser-based c2",
-    "firefox extension"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af4a92c87b5f26c33791714"
-  },
-  {
-   "name": "Off the Rails: Inside an Exposed Silent Lynx Server",
-   "summary": "An exposed open directory belonging to Silent Lynx, a Central Asia-focused espionage cluster, revealed the group's operations through October 2026. The directory contained tooling, data from active intrusions into…",
-   "date": "2026-11-11T13:18:51+00:00",
-   "author": "AlienVault",
-   "adversary": "YoroTrooper",
-   "malware": [
-    "Laplas",
-    "Chvost",
-    "PickleShell"
-   ],
-   "countries": [
-    "Armenia",
-    "Kyrgyzstan",
-    "Pakistan",
-    "Tajikistan",
-    "Turkmenistan",
-    "Uzbekistan"
-   ],
-   "industries": [
-    "Government",
-    "Transportation",
-    "Defense",
-    "Telecommunications"
-   ],
-   "tags": [
-    "central asia",
-    "laplas",
-    "infrastructure compromise",
-    "ai agent",
-    "silent lynx",
-    "government targeting"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af46b3b47e5158053c05be0"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-13T04:27:21+00:00",
-  "sans": "2026-11-13T04:27:21+00:00",
-  "otx": "2026-11-13T04:27:21+00:00",
-  "urlhaus": "2026-11-13T04:27:21+00:00"
+  "threatfox": "2026-11-13T12:28:54+00:00",
+  "sans": "2026-11-13T12:28:54+00:00",
+  "otx": "2026-11-13T12:28:54+00:00",
+  "urlhaus": "2026-11-13T12:28:54+00:00"
  },
- "generated_at": "2026-11-13T04:27:21+00:00"
+ "generated_at": "2026-11-13T12:28:54+00:00"
 }
