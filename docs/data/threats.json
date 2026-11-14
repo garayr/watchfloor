@@ -2,26 +2,26 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 733,
-  "c2_servers": 281,
+  "total_iocs": 729,
+  "c2_servers": 299,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 118,
+    "iocs": 94,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "Vidar",
-    "iocs": 58,
-    "c2": 46,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+    "name": "Raven Stealer",
+    "iocs": 66,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 51,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+    "name": "Vidar",
+    "iocs": 59,
+    "c2": 53,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "WARDENStealer",
@@ -30,22 +30,28 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    },
    {
-    "name": "RN Stealer",
-    "iocs": 43,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.rn_stealer"
+    "name": "NjRAT",
+    "iocs": 39,
+    "c2": 3,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat"
+   },
+   {
+    "name": "AdaptixC2",
+    "iocs": 22,
+    "c2": 16,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    },
    {
     "name": "ZStealer",
-    "iocs": 24,
+    "iocs": 21,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
-    "name": "RevStealer",
-    "iocs": 21,
-    "c2": 3,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.revstealer"
+    "name": "ClearFake",
+    "iocs": 20,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Cobalt Strike",
@@ -54,54 +60,48 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "AdaptixC2",
-    "iocs": 17,
-    "c2": 16,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
-   },
-   {
-    "name": "php.shin_webshell",
-    "iocs": 17,
+    "name": "SalatStealer",
+    "iocs": 18,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    }
   ]
  },
  "urls": {
-  "sample": 960,
-  "online": 605,
+  "sample": 1000,
+  "online": 710,
   "top_tags": [
    {
-    "name": "elf",
-    "count": 198
-   },
-   {
     "name": "github",
-    "count": 120
+    "count": 262
    },
    {
-    "name": "Mozi",
-    "count": 111
+    "name": "SalatStealer",
+    "count": 162
    },
    {
-    "name": "32-bit",
-    "count": 101
+    "name": "zapret",
+    "count": 156
+   },
+   {
+    "name": "elf",
+    "count": 141
    },
    {
     "name": "zip",
-    "count": 98
+    "count": 100
+   },
+   {
+    "name": "Mozi",
+    "count": 97
+   },
+   {
+    "name": "32-bit",
+    "count": 93
    },
    {
     "name": "SmartLoader",
-    "count": 85
-   },
-   {
-    "name": "ua-wget",
-    "count": 84
-   },
-   {
-    "name": "mips",
-    "count": 58
+    "count": 89
    }
   ]
  },
@@ -373,38 +373,6 @@
    "url": "https://otx.alienvault.com/pulse/6af61f931cd135114986ff2c"
   },
   {
-   "name": "How AI Revived a Stalled Attack on a U.S. Retailer",
-   "summary": "In September 2026, attackers targeting a U.S. retail organization initially struggled with hand-typed commands that contained errors and were blocked by security software. The following day, their tactics dramatically…",
-   "date": "2026-11-12T11:39:54+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ShadowPad - S0596",
-    "POISONPLUG.SHADOW",
-    "Chisel",
-    "Yuze",
-    "Warlock"
-   ],
-   "countries": [],
-   "industries": [
-    "Retail",
-    "Education",
-    "Technology",
-    "Government",
-    "Energy",
-    "Finance"
-   ],
-   "tags": [
-    "credential harvesting",
-    "rabbitmq exploitation",
-    "chisel",
-    "yuze",
-    "ai-assisted attacks",
-    "cve-2022-21882"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af5a58a01f1f0317453e3f6"
-  },
-  {
    "name": "Beyond the clipboard: The evolving tradecraft of ClickFix",
    "summary": "Threat actors continue to evolve ClickFix tactics, moving beyond simple clipboard-based social engineering to more sophisticated attack chains. Recent campaigns leverage malvertising through typosquatting, SEO…",
    "date": "2026-11-10T14:44:38+00:00",
@@ -429,6 +397,32 @@
     "astarionrat"
    ],
    "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37"
+  },
+  {
+   "name": "KGB RAT: A Fully Undetectable Windows Trojan Built to Spy, Steal, and Terrorize",
+   "summary": "KGB RAT is a Windows Remote Access Trojan actively promoted on underground forums since late 2025, marketed deceptively as a legitimate administration tool. Sold through a Malware-as-a-Service model with pricing from…",
+   "date": "2026-10-15T16:41:31+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "KGB RAT",
+    "njRAT - S0385",
+    "Njw0rm",
+    "LV",
+    "Bladabindi",
+    "Lime-Worm"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "credential theft",
+    "hvnc",
+    "telegram c2",
+    "psychological harassment",
+    "bladabindi",
+    "remote access trojan"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad1023b92a010044f3dcbc8"
   },
   {
    "name": "Inside a PaperCut Attacker's AI Toolkit: Agent Instructions, Exploit Code, a Second RCE, and Victims Across 45+ Countries",
@@ -511,10 +505,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-14T14:06:56+00:00",
-  "sans": "2026-11-14T14:06:56+00:00",
-  "otx": "2026-11-14T14:06:56+00:00",
-  "urlhaus": "2026-11-14T14:06:56+00:00"
+  "threatfox": "2026-11-14T19:08:05+00:00",
+  "sans": "2026-11-14T19:08:05+00:00",
+  "otx": "2026-11-14T19:08:05+00:00",
+  "urlhaus": "2026-11-14T19:08:05+00:00"
  },
- "generated_at": "2026-11-14T14:06:56+00:00"
+ "generated_at": "2026-11-14T19:08:05+00:00"
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T14:06:56+00:00",
+ "generated_at": "2026-11-14T19:08:05+00:00",
  "sources": [
   {
    "name": "CISA KEV",
@@ -46,8 +46,8 @@
   {
    "name": "Cloudflare Radar",
    "ok": true,
-   "count": 23,
-   "error": "Network DDoS attacks: api.cloudflare.com: HTTP Error 429: Too Many Requests"
+   "count": 46,
+   "error": null
   },
   {
    "name": "Ransomware.live",
@@ -64,13 +64,13 @@
   {
    "name": "abuse.ch ThreatFox",
    "ok": true,
-   "count": 733,
+   "count": 729,
    "error": null
   },
   {
    "name": "abuse.ch URLhaus",
    "ok": true,
-   "count": 960,
+   "count": 1000,
    "error": null
   },
   {
@@ -83,6 +83,12 @@
    "name": "SANS ISC",
    "ok": true,
    "count": 4,
+   "error": null
+  },
+  {
+   "name": "Ransomware.live gang profiles",
+   "ok": true,
+   "count": 1,
    "error": null
   },
   {

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T14:06:56+00:00",
+ "generated_at": "2026-11-14T19:08:05+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -25,15 +25,15 @@
    "count": 6
   },
   {
-   "name": "interlock",
-   "count": 5
-  },
-  {
    "name": "incransom",
    "count": 4
   },
   {
    "name": "Aoqin",
+   "count": 3
+  },
+  {
+   "name": "Dark Project",
    "count": 3
   }
  ],
@@ -47,26 +47,26 @@
    "count": 13
   },
   {
+   "name": "Technology",
+   "count": 12
+  },
+  {
    "name": "Healthcare",
    "count": 11
   },
   {
-   "name": "Technology",
-   "count": 11
-  },
-  {
-   "name": "Retail & E-Commerce",
-   "count": 7
-  },
-  {
    "name": "Government & Defense",
+   "count": 6
+  },
+  {
+   "name": "Other",
    "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 38,
+   "count": 37,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -246,6 +246,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Momentum Telecom",
+   "group": "EndZone",
+   "date": "2026-11-14T12:25:18+00:00",
+   "attack_date": "2026-11-14",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/TW9tZW50dW0gVGVsZWNvbUBFbmRab25l"
+  },
+  {
+   "victim": "Absolute Bail Bonds",
+   "group": "EndZone",
+   "date": "2026-11-14T12:24:57+00:00",
+   "attack_date": "2026-11-14",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/QWJzb2x1dGUgQmFpbCBCb25kc0BFbmRab25l"
+  },
   {
    "victim": "Grundbaulabor Trier GmbH",
    "group": "everest",
@@ -1127,24 +1145,6 @@
    "country": "US",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/TWFkaXNvbiBIb25kYUBpbnRlcmxvY2s="
-  },
-  {
-   "victim": "Custom Floors Unlimited",
-   "group": "interlock",
-   "date": "2026-11-10T07:12:27+00:00",
-   "attack_date": "2026-11-10",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/Q3VzdG9tIEZsb29ycyBVbmxpbWl0ZWRAaW50ZXJsb2Nr"
-  },
-  {
-   "victim": "Meadows Valley School District",
-   "group": "interlock",
-   "date": "2026-11-10T07:11:55+00:00",
-   "attack_date": "2026-11-10",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/TWVhZG93cyBWYWxsZXkgU2Nob29sIERpc3RyaWN0QGludGVybG9jaw=="
   }
  ]
 }
