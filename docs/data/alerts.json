@@ -19,7 +19,15 @@
    "kev": true,
    "epss": 0.003,
    "cvss": 8.6,
-   "sev": "high"
+   "sev": "high",
+   "news": [
+    {
+     "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+     "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+     "source": "The Hacker News",
+     "date": "2026-11-14T12:38:35+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-123039",
@@ -40,15 +48,7 @@
    "kev": true,
    "epss": 0.0127,
    "cvss": 7.8,
-   "sev": "high",
-   "news": [
-    {
-     "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
-     "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
-     "source": "SecurityWeek",
-     "date": "2026-11-13T07:39:04+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "CVE-2026-116606",

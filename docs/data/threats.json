@@ -2,26 +2,32 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1509,
-  "c2_servers": 323,
+  "total_iocs": 733,
+  "c2_servers": 281,
   "families": [
    {
-    "name": "Unknown Loader",
-    "iocs": 667,
-    "c2": 3,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "Mirai",
-    "iocs": 65,
+    "iocs": 118,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Vidar",
-    "iocs": 57,
-    "c2": 45,
+    "iocs": 58,
+    "c2": 46,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 51,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "WARDENStealer",
+    "iocs": 47,
+    "c2": 40,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    },
    {
     "name": "RN Stealer",
@@ -30,78 +36,72 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.rn_stealer"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 24,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "ZStealer",
     "iocs": 24,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
-    "name": "WARDENStealer",
-    "iocs": 23,
-    "c2": 17,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
-   },
-   {
     "name": "RevStealer",
-    "iocs": 22,
-    "c2": 4,
+    "iocs": 21,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.revstealer"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 19,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+    "name": "Cobalt Strike",
+    "iocs": 18,
+    "c2": 18,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "ClearFake",
-    "iocs": 18,
+    "name": "AdaptixC2",
+    "iocs": 17,
+    "c2": 16,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 17,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    }
   ]
  },
  "urls": {
-  "sample": 690,
-  "online": 435,
+  "sample": 960,
+  "online": 605,
   "top_tags": [
    {
     "name": "elf",
-    "count": 171
-   },
-   {
-    "name": "Mozi",
-    "count": 94
-   },
-   {
-    "name": "32-bit",
-    "count": 87
+    "count": 198
    },
    {
     "name": "github",
-    "count": 57
+    "count": 120
    },
    {
-    "name": "ua-wget",
-    "count": 53
+    "name": "Mozi",
+    "count": 111
    },
    {
-    "name": "mips",
-    "count": 49
-   },
-   {
-    "name": "arm",
-    "count": 47
+    "name": "32-bit",
+    "count": 101
    },
    {
     "name": "zip",
-    "count": 39
+    "count": 98
+   },
+   {
+    "name": "SmartLoader",
+    "count": 85
+   },
+   {
+    "name": "ua-wget",
+    "count": 84
+   },
+   {
+    "name": "mips",
+    "count": 58
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 195959,
-   "targets": 269,
-   "sources": 8017
+   "records": 445070,
+   "targets": 290,
+   "sources": 11148
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 172198,
-   "targets": 245,
-   "sources": 4484
+   "records": 362440,
+   "targets": 279,
+   "sources": 6022
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 138147,
-   "targets": 244,
-   "sources": 4133
+   "records": 292100,
+   "targets": 276,
+   "sources": 5118
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 92025,
-   "targets": 233,
-   "sources": 7149
+   "records": 184552,
+   "targets": 289,
+   "sources": 10043
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 75801,
-   "targets": 265,
-   "sources": 4770
+   "records": 175933,
+   "targets": 280,
+   "sources": 7806
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 65708,
-   "targets": 250,
-   "sources": 6217
+   "records": 141529,
+   "targets": 279,
+   "sources": 8175
   },
   {
    "port": 16767,
    "service": null,
-   "records": 42411,
-   "targets": 9,
-   "sources": 2491
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 34059,
-   "targets": 20,
-   "sources": 2752
+   "records": 90730,
+   "targets": 12,
+   "sources": 3471
   },
   {
    "port": 2222,
    "service": null,
-   "records": 30082,
-   "targets": 236,
-   "sources": 3249
+   "records": 79798,
+   "targets": 277,
+   "sources": 5012
   },
   {
-   "port": 9000,
+   "port": 51413,
    "service": null,
-   "records": 25637,
-   "targets": 220,
-   "sources": 945
+   "records": 58747,
+   "targets": 72,
+   "sources": 3973
+  },
+  {
+   "port": 7680,
+   "service": null,
+   "records": 47531,
+   "targets": 112,
+   "sources": 2431
   }
  ],
  "ports_date": "2026-11-14",
@@ -373,85 +373,6 @@
    "url": "https://otx.alienvault.com/pulse/6af61f931cd135114986ff2c"
   },
   {
-   "name": "ScreenConnect Attack: SCKit Turns Remote Support Into an Attack Platform",
-   "summary": "On November 11, 2026, widespread unauthorized ScreenConnect deployments were detected originating from legitimate cloud-hosted management instances. The investigation uncovered SCKit, a malicious toolkit designed to…",
-   "date": "2026-11-12T15:58:12+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "SCKit",
-    "RelayTrap",
-    "ToolboxRelayUploader"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "toolboxrelayuploader",
-    "cookie-theft",
-    "screenconnect",
-    "session-hijacking",
-    "msp-targeting",
-    "cve-2026-84869"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af5e214a7ab22c3761899ed"
-  },
-  {
-   "name": "0% GPU utilization: How SANSAR hides Linux cryptomining",
-   "summary": "Elastic Security Labs analyzes REF3364, a sophisticated Linux cryptomining intrusion combining custom malware with public miners. The toolkit features SANSAR, a Rust-based orchestrator managing CPU and GPU miners over…",
-   "date": "2026-11-12T15:48:37+00:00",
-   "author": "AlienVault",
-   "adversary": "REF3364",
-   "malware": [
-    "SANSAR",
-    "netns",
-    "XMRig",
-    "SRBMiner-MULTI",
-    "kurt",
-    "tilki"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "ethereum blockchain",
-    "gpu hijacking",
-    "srbminer-multi",
-    "tilki",
-    "lyrebird",
-    "tor c2"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af5dfd520ceb5c877234020"
-  },
-  {
-   "name": "PHP2Shell Exploitation on Check Point Gateway",
-   "summary": "In late October 2026, approximately one week after security fixes became available, attackers exploited vulnerable Mobile Access portals on Security Gateways, targeting Israeli organizations from IP address…",
-   "date": "2026-11-12T14:13:06+00:00",
-   "author": "AlienVault",
-   "adversary": "UTA0178",
-   "malware": [
-    "PHP2Shell",
-    "TSGA",
-    "TSProxy",
-    "PhiliKit",
-    "destroy_v6",
-    "gogo"
-   ],
-   "countries": [
-    "Israel"
-   ],
-   "industries": [],
-   "tags": [
-    "gogo",
-    "privilege escalation",
-    "cve-2026-109618",
-    "wiper",
-    "cve-2026-123039",
-    "tsga"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af5c9723703485eb3ab2b49"
-  },
-  {
    "name": "How AI Revived a Stalled Attack on a U.S. Retailer",
    "summary": "In September 2026, attackers targeting a U.S. retail organization initially struggled with hand-typed commands that contained errors and were blocked by security software. The following day, their tactics dramatically…",
    "date": "2026-11-12T11:39:54+00:00",
@@ -508,13 +429,92 @@
     "astarionrat"
    ],
    "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37"
+  },
+  {
+   "name": "Inside a PaperCut Attacker's AI Toolkit: Agent Instructions, Exploit Code, a Second RCE, and Victims Across 45+ Countries",
+   "summary": "Three exposed directories on infrastructure at 45.142.193[.]132 revealed an AI-orchestrated campaign targeting PaperCut NG/MF print management software. The exposed workbench contained AI-agent instructions, exploit…",
+   "date": "2026-10-15T14:21:06+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Education"
+   ],
+   "tags": [
+    "pentagi framework",
+    "ai-orchestrated exploitation",
+    "cve-2026-81578",
+    "xml-rpc abuse",
+    "reverse socks5",
+    "credential harvesting"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad0e1520be4762ce91fe695"
+  },
+  {
+   "name": "DragonForce Ransomware Profile: From Affiliate Program to Cybercrime Cartel",
+   "summary": "DragonForce is a financially motivated ransomware operation that emerged in August 2023, initially using leaked LockBit 3.0 code and later transitioning to Conti v3-based variants. Operating as a Ransomware-as-a-Service…",
+   "date": "2026-10-15T13:58:54+00:00",
+   "author": "AlienVault",
+   "adversary": "DragonForce",
+   "malware": [
+    "DragonForce",
+    "LockBit 3.0 - S1202",
+    "LockBit Black",
+    "Conti - S0575",
+    "Cobalt Strike - S0154",
+    "SystemBC"
+   ],
+   "countries": [
+    "United States of America",
+    "United Kingdom of Great Britain and Northern Ireland",
+    "Australia",
+    "Canada",
+    "Italy"
+   ],
+   "industries": [
+    "Manufacturing",
+    "Professional Services",
+    "Real Estate",
+    "Transportation",
+    "Retail",
+    "Healthcare"
+   ],
+   "tags": [
+    "cve-2021-44228",
+    "conti",
+    "lockbit 3.0",
+    "dragonforce",
+    "affiliate program",
+    "cve-2024-57728"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad0dc1e98341fe609c19f3e"
+  },
+  {
+   "name": "How AI Agents Turned One Exposed Endpoint into a Server Takeover",
+   "summary": "An investigation revealed the first confirmed incident where large language model-driven AI agents executed substantial portions of an attack. Within 24 hours, attackers exploited an exposed job-submission feature on an…",
+   "date": "2026-10-15T07:06:58+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "privilege escalation",
+    "ai agents",
+    "llm-driven attacks",
+    "automated attack execution",
+    "cairn orchestration",
+    "agentic ai threats"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad07b924dde0538386bd7d5"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-14T07:00:45+00:00",
-  "sans": "2026-11-14T07:00:45+00:00",
-  "otx": "2026-11-14T07:00:45+00:00",
-  "urlhaus": "2026-11-14T07:00:45+00:00"
+  "threatfox": "2026-11-14T14:06:56+00:00",
+  "sans": "2026-11-14T14:06:56+00:00",
+  "otx": "2026-11-14T14:06:56+00:00",
+  "urlhaus": "2026-11-14T14:06:56+00:00"
  },
- "generated_at": "2026-11-14T07:00:45+00:00"
+ "generated_at": "2026-11-14T14:06:56+00:00"
 }
