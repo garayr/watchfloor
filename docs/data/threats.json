@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 729,
-  "c2_servers": 299,
+  "total_iocs": 734,
+  "c2_servers": 307,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 94,
+    "iocs": 86,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -19,8 +19,8 @@
    },
    {
     "name": "Vidar",
-    "iocs": 59,
-    "c2": 53,
+    "iocs": 64,
+    "c2": 58,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
@@ -36,22 +36,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat"
    },
    {
-    "name": "AdaptixC2",
-    "iocs": 22,
-    "c2": 16,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
+    "name": "ClearFake",
+    "iocs": 21,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "ZStealer",
     "iocs": 21,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
-   },
-   {
-    "name": "ClearFake",
-    "iocs": 20,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Cobalt Strike",
@@ -64,16 +58,22 @@
     "iocs": 18,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
+    "name": "AdaptixC2",
+    "iocs": 17,
+    "c2": 11,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 710,
+  "online": 732,
   "top_tags": [
    {
     "name": "github",
-    "count": 262
+    "count": 257
    },
    {
     "name": "SalatStealer",
@@ -85,11 +85,7 @@
    },
    {
     "name": "elf",
-    "count": 141
-   },
-   {
-    "name": "zip",
-    "count": 100
+    "count": 143
    },
    {
     "name": "Mozi",
@@ -97,84 +93,88 @@
    },
    {
     "name": "32-bit",
-    "count": 93
+    "count": 94
+   },
+   {
+    "name": "zip",
+    "count": 91
    },
    {
     "name": "SmartLoader",
-    "count": 89
+    "count": 81
    }
   ]
  },
  "ports": [
   {
+   "port": 23,
+   "service": "Telnet",
+   "records": 908610,
+   "targets": 298,
+   "sources": 15630
+  },
+  {
    "port": 22,
    "service": "SSH",
-   "records": 445070,
-   "targets": 290,
-   "sources": 11148
+   "records": 877310,
+   "targets": 303,
+   "sources": 18384
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 362440,
-   "targets": 279,
-   "sources": 6022
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 292100,
-   "targets": 276,
-   "sources": 5118
+   "records": 464318,
+   "targets": 293,
+   "sources": 9623
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 184552,
-   "targets": 289,
-   "sources": 10043
+   "records": 366850,
+   "targets": 305,
+   "sources": 16284
   },
   {
-   "port": 23,
-   "service": "Telnet",
-   "records": 175933,
-   "targets": 280,
-   "sources": 7806
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 361605,
+   "targets": 287,
+   "sources": 8272
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 141529,
-   "targets": 279,
-   "sources": 8175
+   "records": 256557,
+   "targets": 292,
+   "sources": 13496
   },
   {
    "port": 16767,
    "service": null,
-   "records": 90730,
-   "targets": 12,
-   "sources": 3471
+   "records": 223749,
+   "targets": 20,
+   "sources": 6009
   },
   {
    "port": 2222,
    "service": null,
-   "records": 79798,
-   "targets": 277,
-   "sources": 5012
+   "records": 171262,
+   "targets": 285,
+   "sources": 9209
   },
   {
    "port": 51413,
    "service": null,
-   "records": 58747,
-   "targets": 72,
-   "sources": 3973
+   "records": 135976,
+   "targets": 103,
+   "sources": 6961
   },
   {
-   "port": 7680,
-   "service": null,
-   "records": 47531,
-   "targets": 112,
-   "sources": 2431
+   "port": 123,
+   "service": "NTP",
+   "records": 112859,
+   "targets": 269,
+   "sources": 4737
   }
  ],
  "ports_date": "2026-11-14",
@@ -505,10 +505,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-14T19:08:05+00:00",
-  "sans": "2026-11-14T19:08:05+00:00",
-  "otx": "2026-11-14T19:08:05+00:00",
-  "urlhaus": "2026-11-14T19:08:05+00:00"
+  "threatfox": "2026-11-14T22:57:15+00:00",
+  "sans": "2026-11-14T22:57:15+00:00",
+  "otx": "2026-11-14T22:57:15+00:00",
+  "urlhaus": "2026-11-14T22:57:15+00:00"
  },
- "generated_at": "2026-11-14T19:08:05+00:00"
+ "generated_at": "2026-11-14T22:57:15+00:00"
 }
