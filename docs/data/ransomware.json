@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T19:56:59+00:00",
+ "generated_at": "2026-11-14T00:39:34+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -26,29 +26,29 @@
   },
   {
    "name": "incransom",
-   "count": 4
+   "count": 5
   },
   {
    "name": "play",
    "count": 4
   },
   {
-   "name": "N0n",
+   "name": "Aoqin",
    "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 18
-  },
-  {
-   "name": "Manufacturing",
-   "count": 14
+   "count": 16
   },
   {
    "name": "Professional Services",
    "count": 14
+  },
+  {
+   "name": "Manufacturing",
+   "count": 12
   },
   {
    "name": "Technology",
@@ -59,20 +59,20 @@
    "count": 6
   },
   {
-   "name": "Government & Defense",
-   "count": 5
+   "name": "Retail & E-Commerce",
+   "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 42,
+   "count": 44,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "CA",
-   "count": 7,
+   "count": 8,
    "lat": 43.7,
    "lon": -79.4
   },
@@ -111,18 +111,6 @@
    "count": 2,
    "lat": 40.4,
    "lon": -3.7
-  },
-  {
-   "code": "IN",
-   "count": 2,
-   "lat": 19.1,
-   "lon": 72.9
-  },
-  {
-   "code": "JP",
-   "count": 2,
-   "lat": 35.7,
-   "lon": 139.7
   },
   {
    "code": "MY",
@@ -177,6 +165,18 @@
    "count": 1,
    "lat": 53.3,
    "lon": -6.3
+  },
+  {
+   "code": "IN",
+   "count": 1,
+   "lat": 19.1,
+   "lon": 72.9
+  },
+  {
+   "code": "JP",
+   "count": 1,
+   "lat": 35.7,
+   "lon": 139.7
   },
   {
    "code": "KE",
@@ -240,6 +240,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Advantage Archives",
+   "group": "incransom",
+   "date": "2026-11-13T20:14:47+00:00",
+   "attack_date": "2026-11-13",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/QWR2YW50YWdlIEFyY2hpdmVzQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "sportsmansguide.com",
+   "group": "incransom",
+   "date": "2026-11-13T20:14:27+00:00",
+   "attack_date": "2026-11-13",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/c3BvcnRzbWFuc2d1aWRlLmNvbUBpbmNyYW5zb20="
+  },
+  {
+   "victim": "Walgreen Co.",
+   "group": "Wallstreet",
+   "date": "2026-11-13T19:03:11+00:00",
+   "attack_date": "2026-11-13",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/V2FsZ3JlZW4gQ28uQFdhbGxzdHJlZXQ="
+  },
+  {
+   "victim": "The Tidewater Inn",
+   "group": "Aoqin",
+   "date": "2026-11-13T18:21:30+00:00",
+   "attack_date": "2026-11-13",
+   "country": "US",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/VGhlIFRpZGV3YXRlciBJbm5AQW9xaW4="
+  },
+  {
+   "victim": "The CCMC",
+   "group": "Dark Project",
+   "date": "2026-11-13T15:55:12+00:00",
+   "attack_date": "2026-11-13",
+   "country": "CA",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/VGhlIENDTUNARGFyayBQcm9qZWN0"
+  },
   {
    "victim": "World Wide Fittings",
    "group": "bravox",
@@ -401,15 +446,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/Q0lNU0EgTE9HSVNUSUNTQGluY3JhbnNvbQ=="
-  },
-  {
-   "victim": "gamechangerwm.com",
-   "group": "incransom",
-   "date": "2026-11-12T10:05:07+00:00",
-   "attack_date": "2026-11-10",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Z2FtZWNoYW5nZXJ3bS5jb21AaW5jcmFuc29t"
   },
   {
    "victim": "raymondjames.com",
@@ -835,15 +871,6 @@
    "url": "https://www.ransomware.live/id/VHlmb25lQEFvcWlu"
   },
   {
-   "victim": "Herald Christian Health Center",
-   "group": "osiris",
-   "date": "2026-11-11T08:15:49+00:00",
-   "attack_date": "2026-11-10",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/SGVyYWxkIENocmlzdGlhbiBIZWFsdGggQ2VudGVyQG9zaXJpcw=="
-  },
-  {
    "victim": "SUNNIER HOMES",
    "group": "Panzer",
    "date": "2026-11-11T01:32:33+00:00",
@@ -950,33 +977,6 @@
    "country": "AU",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/dGNhZGFyd2luQEhZRkxPQ0s="
-  },
-  {
-   "victim": "Providence",
-   "group": "BYOD",
-   "date": "2026-11-10T18:21:10+00:00",
-   "attack_date": "2026-11-10",
-   "country": null,
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/UHJvdmlkZW5jZUBCWU9E"
-  },
-  {
-   "victim": "Toyota",
-   "group": "BYOD",
-   "date": "2026-11-10T18:20:50+00:00",
-   "attack_date": "2026-11-10",
-   "country": "JP",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/VG95b3RhQEJZT0Q="
-  },
-  {
-   "victim": "Herminio India Precision Technology",
-   "group": "Orova",
-   "date": "2026-11-10T16:58:23+00:00",
-   "attack_date": "2026-11-10",
-   "country": "IN",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/SGVybWluaW8gSW5kaWEgUHJlY2lzaW9uIFRlY2hub2xvZ3lAT3JvdmE="
   },
   {
    "victim": "Actualize Consulting",

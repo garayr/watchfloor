@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2077,
-  "c2_servers": 243,
+  "total_iocs": 1641,
+  "c2_servers": 266,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 980,
+    "iocs": 832,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "ClearFake",
-    "iocs": 109,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
     "name": "Mirai",
-    "iocs": 82,
+    "iocs": 87,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "NjRAT",
-    "iocs": 65,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat"
-   },
-   {
-    "name": "KAgent",
-    "iocs": 57,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.kagent"
-   },
-   {
     "name": "RN Stealer",
-    "iocs": 45,
+    "iocs": 43,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.rn_stealer"
    },
    {
     "name": "Vidar",
-    "iocs": 44,
-    "c2": 32,
+    "iocs": 42,
+    "c2": 30,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Formbook",
-    "iocs": 29,
+    "name": "ZStealer",
+    "iocs": 24,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
-   },
-   {
-    "name": "IClickFix",
-    "iocs": 27,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
     "name": "php.shin_webshell",
-    "iocs": 26,
+    "iocs": 24,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
+   },
+   {
+    "name": "ClearFake",
+    "iocs": 22,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "PureRAT",
+    "iocs": 22,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
+   },
+   {
+    "name": "Unknown Stealer",
+    "iocs": 19,
+    "c2": 18,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+   },
+   {
+    "name": "WARDENStealer",
+    "iocs": 19,
+    "c2": 17,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    }
   ]
  },
  "urls": {
-  "sample": 1000,
-  "online": 597,
+  "sample": 599,
+  "online": 389,
   "top_tags": [
    {
     "name": "elf",
-    "count": 243
-   },
-   {
-    "name": "github",
-    "count": 196
-   },
-   {
-    "name": "zapret",
     "count": 147
    },
    {
     "name": "Mozi",
-    "count": 127
-   },
-   {
-    "name": "SalatStealer",
-    "count": 112
+    "count": 76
    },
    {
     "name": "32-bit",
-    "count": 111
+    "count": 69
+   },
+   {
+    "name": "github",
+    "count": 57
+   },
+   {
+    "name": "ua-wget",
+    "count": 52
    },
    {
     "name": "mips",
-    "count": 68
+    "count": 42
    },
    {
-    "name": "ssh",
-    "count": 62
+    "name": "zip",
+    "count": 39
+   },
+   {
+    "name": "arm",
+    "count": 36
    }
   ]
  },
@@ -396,27 +396,6 @@
    "url": "https://otx.alienvault.com/pulse/6af5e214a7ab22c3761899ed"
   },
   {
-   "name": "Crafty Microsoft Teams Booking Flow Disguises Device Code Phishing",
-   "summary": "A sophisticated device code phishing campaign was observed in mid-October targeting the construction industry. Attackers used a typosquatted domain and impersonated a senior vice president to deliver spear-phishing…",
-   "date": "2026-11-12T15:58:12+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Construction"
-   ],
-   "tags": [
-    "oauth abuse",
-    "device code phishing",
-    "construction sector",
-    "residential proxy",
-    "microsoft teams",
-    "typosquatting"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af5e2140542eb6793155aa6"
-  },
-  {
    "name": "0% GPU utilization: How SANSAR hides Linux cryptomining",
    "summary": "Elastic Security Labs analyzes REF3364, a sophisticated Linux cryptomining intrusion combining custom malware with public miners. The toolkit features SANSAR, a Rust-based orchestrator managing CPU and GPU miners over…",
    "date": "2026-11-12T15:48:37+00:00",
@@ -503,13 +482,39 @@
     "cve-2022-21882"
    ],
    "url": "https://otx.alienvault.com/pulse/6af5a58a01f1f0317453e3f6"
+  },
+  {
+   "name": "Beyond the clipboard: The evolving tradecraft of ClickFix",
+   "summary": "Threat actors continue to evolve ClickFix tactics, moving beyond simple clipboard-based social engineering to more sophisticated attack chains. Recent campaigns leverage malvertising through typosquatting, SEO…",
+   "date": "2026-11-10T14:44:38+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "DuskDesk",
+    "Matanbuchus",
+    "AstarionRAT",
+    "Potemkin",
+    "RMMProject",
+    "EtherRAT"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "typosquatting",
+    "etherrat",
+    "rat",
+    "lateral movement",
+    "matanbuchus",
+    "astarionrat"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-13T19:56:59+00:00",
-  "sans": "2026-11-13T19:56:59+00:00",
-  "otx": "2026-11-13T19:56:59+00:00",
-  "urlhaus": "2026-11-13T19:56:59+00:00"
+  "threatfox": "2026-11-14T00:39:34+00:00",
+  "sans": "2026-11-14T00:39:34+00:00",
+  "otx": "2026-11-14T00:39:34+00:00",
+  "urlhaus": "2026-11-14T00:39:34+00:00"
  },
- "generated_at": "2026-11-13T19:56:59+00:00"
+ "generated_at": "2026-11-14T00:39:34+00:00"
 }

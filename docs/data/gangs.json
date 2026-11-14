@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T19:56:59+00:00",
+ "generated_at": "2026-11-14T00:39:34+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -846,124 +846,6 @@
    ],
    "history_size": 8,
    "updated": "2026-10-27T06:04:06+00:00"
-  },
-  "kairos": {
-   "name": "kairos",
-   "description": "Kairos is a data extortion group active since late 2024 that focuses solely on data theft with no encryption, primarily targeting small-to-mid-sized organizations in healthcare, manufacturing, and business services in the US, purchasing initial access from brokers and demanding Bitcoin payments.",
-   "aliases": [],
-   "first_seen": "2024-06-26",
-   "last_seen": "2026-10-14",
-   "victims_total": 101,
-   "cves": [],
-   "tools": [],
-   "techniques": [],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "US",
-      "count": 57
-     },
-     {
-      "name": "AU",
-      "count": 13
-     },
-     {
-      "name": "GB",
-      "count": 7
-     },
-     {
-      "name": "CA",
-      "count": 4
-     },
-     {
-      "name": "FR",
-      "count": 4
-     },
-     {
-      "name": "DE",
-      "count": 3
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Professional Services",
-      "count": 19
-     },
-     {
-      "name": "Healthcare",
-      "count": 14
-     },
-     {
-      "name": "Education",
-      "count": 13
-     },
-     {
-      "name": "Government & Defense",
-      "count": 11
-     },
-     {
-      "name": "Manufacturing",
-      "count": 9
-     },
-     {
-      "name": "Retail & E-Commerce",
-      "count": 9
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 10
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 4
-    },
-    {
-     "month": "2026-03",
-     "count": 4
-    },
-    {
-     "month": "2026-04",
-     "count": 7
-    },
-    {
-     "month": "2026-05",
-     "count": 5
-    },
-    {
-     "month": "2026-06",
-     "count": 1
-    },
-    {
-     "month": "2026-07",
-     "count": 4
-    },
-    {
-     "month": "2026-08",
-     "count": 2
-    },
-    {
-     "month": "2026-09",
-     "count": 5
-    },
-    {
-     "month": "2026-10",
-     "count": 2
-    }
-   ],
-   "history_size": 101,
-   "updated": "2026-10-14T20:56:23+00:00"
   },
   "rhysida": {
    "name": "rhysida",
@@ -2671,8 +2553,8 @@
    "description": "The Akira ransomware group is said to have emerged in March 2023, and there's much speculation about its ties to the former CONTI ransomware group. It's worth noting that with the end of CONTI's operation, several affiliates migrated to independent campaigns such as Royal, BlackBasta, and others. According to some reports, Akira affiliates also work with other ransomware operations, such as Snatch and BlackByte, as an open directory of tools used by an Akira operator was identified, which also had connections to the Snatch ransomware. The first version of the Akira ransomware was written in C++ and appended files with the '.akira' extension, creating a ransom note named 'akira_readme.txt,' partially based on the Conti V2 source code. However, on June 29, 2023, a decryptor for this version was reportedly released by Avast. Subsequently, a version was released that fixed the decryption flaw on July 2, 2023. Since then, the new version is said to be written in Rust, this time called 'megazord.exe,' and it changes the extension to '.powerranges' for encrypted files. Most of Akira's initial access vectors use brute-force attempts on Cisco VPN devices (which use single-factor…",
    "aliases": [],
    "first_seen": "2023-04-12",
-   "last_seen": "2026-11-06",
-   "victims_total": 1674,
+   "last_seen": "2026-11-13",
+   "victims_total": 1681,
    "cves": [
     {
      "id": "CVE-2022-40684",
@@ -2755,6 +2637,7 @@
    "techniques": [
     "Valid Accounts",
     "Valid Accounts: Domain Accounts",
+    "Replication Through Removable Media",
     "External Remote Services",
     "Exploit Public-Facing Application",
     "Windows Management Instrumentation",
@@ -2764,26 +2647,25 @@
     "Command and Scripting Interpreter: Windows Command Shell",
     "Create Account: Local Account",
     "Create Account: Domain Account",
-    "Privilege Escalation",
+    "Create or Modify System Process",
+    "Create or Modify System Process: Windows Service",
     "Obfuscated Files or Information: Binary Padding",
     "Masquerading: Match Legitimate Resource Name or Location",
-    "Modify Registry",
-    "Impair Defenses: Disable or Modify Tools",
     "OS Credential Dumping: LSASS Memory",
-    "Steal or Forge Kerberos Tickets",
-    "Remote System Discovery",
-    "System Information Discovery"
+    "Unsecured Credentials",
+    "Unsecured Credentials: Credentials In Files",
+    "Credentials from Password Stores"
    ],
    "links": [],
    "targets": {
     "countries": [
      {
       "name": "US",
-      "count": 888
+      "count": 891
      },
      {
       "name": "CA",
-      "count": 84
+      "count": 85
      },
      {
       "name": "DE",
@@ -2805,11 +2687,11 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 460
+      "count": 465
      },
      {
       "name": "Professional Services",
-      "count": 383
+      "count": 384
      },
      {
       "name": "Technology",
@@ -2876,11 +2758,11 @@
     },
     {
      "month": "2026-11",
-     "count": 16
+     "count": 23
     }
    ],
-   "history_size": 1674,
-   "updated": "2026-11-06T23:20:43+00:00"
+   "history_size": 1681,
+   "updated": "2026-11-14T00:39:34+00:00"
   },
   "Redact": {
    "name": "Redact",
@@ -3600,8 +3482,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-06-16",
-   "last_seen": "2026-10-30",
-   "victims_total": 47,
+   "last_seen": "2026-11-13",
+   "victims_total": 48,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -3610,7 +3492,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 27
+      "count": 28
      },
      {
       "name": "SE",
@@ -3662,10 +3544,6 @@
    },
    "monthly": [
     {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
      "month": "2025-12",
      "count": 0
     },
@@ -3708,10 +3586,14 @@
     {
      "month": "2026-10",
      "count": 22
+    },
+    {
+     "month": "2026-11",
+     "count": 1
     }
    ],
-   "history_size": 47,
-   "updated": "2026-10-31T02:25:03+00:00"
+   "history_size": 48,
+   "updated": "2026-11-14T00:39:34+00:00"
   },
   "AuditTeam": {
    "name": "AuditTeam",
@@ -5534,8 +5416,8 @@
    "description": "Dark Project is a newly emerged ransomware leak operation active as of August 2026. The group utilizes a double extortion model (stealing sensitive data before encrypting local systems and threatening to leak it on their dark web portal).",
    "aliases": [],
    "first_seen": "2026-06-08",
-   "last_seen": "2026-11-05",
-   "victims_total": 40,
+   "last_seen": "2026-11-13",
+   "victims_total": 43,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -5544,37 +5426,37 @@
     "countries": [
      {
       "name": "US",
-      "count": 32
+      "count": 33
+     },
+     {
+      "name": "CA",
+      "count": 2
      },
      {
       "name": "GB",
       "count": 2
      },
      {
+      "name": "AE",
+      "count": 1
+     },
+     {
       "name": "BR",
       "count": 1
      },
      {
-      "name": "CA",
-      "count": 1
-     },
-     {
       "name": "DE",
-      "count": 1
-     },
-     {
-      "name": "MX",
       "count": 1
      }
     ],
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 13
+      "count": 14
      },
      {
       "name": "Healthcare",
-      "count": 7
+      "count": 8
      },
      {
       "name": "Professional Services",
@@ -5641,11 +5523,11 @@
     },
     {
      "month": "2026-11",
-     "count": 4
+     "count": 7
     }
    ],
-   "history_size": 40,
-   "updated": "2026-11-06T18:16:50+00:00"
+   "history_size": 43,
+   "updated": "2026-11-14T00:39:34+00:00"
   },
   "Orova": {
    "name": "Orova",
