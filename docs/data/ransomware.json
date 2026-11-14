@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T00:39:34+00:00",
+ "generated_at": "2026-11-14T07:00:45+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,11 +10,7 @@
   },
   {
    "name": "Curious Worm",
-   "count": 10
-  },
-  {
-   "name": "interlock",
-   "count": 9
+   "count": 12
   },
   {
    "name": "Booba Project",
@@ -25,11 +21,15 @@
    "count": 6
   },
   {
-   "name": "incransom",
-   "count": 5
+   "name": "interlock",
+   "count": 6
   },
   {
    "name": "play",
+   "count": 6
+  },
+  {
+   "name": "incransom",
    "count": 4
   },
   {
@@ -39,10 +39,6 @@
  ],
  "by_sector": [
   {
-   "name": "Healthcare",
-   "count": 16
-  },
-  {
    "name": "Professional Services",
    "count": 14
   },
@@ -51,30 +47,40 @@
    "count": 12
   },
   {
-   "name": "Technology",
-   "count": 10
+   "name": "Healthcare",
+   "count": 11
   },
   {
-   "name": "Education",
-   "count": 6
+   "name": "Technology",
+   "count": 11
   },
   {
    "name": "Retail & E-Commerce",
+   "count": 7
+  },
+  {
+   "name": "Education",
    "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 44,
+   "count": 39,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "CA",
-   "count": 8,
+   "count": 7,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "DE",
+   "count": 3,
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "GB",
@@ -95,16 +101,16 @@
    "lon": 46.7
   },
   {
+   "code": "AU",
+   "count": 2,
+   "lat": -33.9,
+   "lon": 151.2
+  },
+  {
    "code": "BR",
    "count": 2,
    "lat": -23.5,
    "lon": -46.6
-  },
-  {
-   "code": "DE",
-   "count": 2,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "ES",
@@ -129,12 +135,6 @@
    "count": 1,
    "lat": -34.6,
    "lon": -58.4
-  },
-  {
-   "code": "AU",
-   "count": 1,
-   "lat": -33.9,
-   "lon": 151.2
   },
   {
    "code": "CY",
@@ -183,6 +183,12 @@
    "count": 1,
    "lat": -1.3,
    "lon": 36.8
+  },
+  {
+   "code": "KW",
+   "count": 1,
+   "lat": 29.4,
+   "lon": 48.0
   },
   {
    "code": "MK",
@@ -240,6 +246,78 @@
   }
  ],
  "victims": [
+  {
+   "victim": "I****** A*****",
+   "group": "netrunner",
+   "date": "2026-11-14T01:30:50+00:00",
+   "attack_date": "2026-11-14",
+   "country": "KW",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/SSoqKioqKiBBKioqKipAbmV0cnVubmVy"
+  },
+  {
+   "victim": "K&A Industries",
+   "group": "interlock",
+   "date": "2026-11-13T22:46:01+00:00",
+   "attack_date": "2026-11-13",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/SyZBIEluZHVzdHJpZXNAaW50ZXJsb2Nr"
+  },
+  {
+   "victim": "Final Notice Before Publication",
+   "group": "everest",
+   "date": "2026-11-13T22:44:12+00:00",
+   "attack_date": "2026-11-13",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/RmluYWwgTm90aWNlIEJlZm9yZSBQdWJsaWNhdGlvbkBldmVyZXN0"
+  },
+  {
+   "victim": "RE/MAX Germany",
+   "group": "Panzer",
+   "date": "2026-11-13T21:51:51+00:00",
+   "attack_date": "2026-11-13",
+   "country": "DE",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/UkUvTUFYIEdlcm1hbnlAUGFuemVy"
+  },
+  {
+   "victim": "i*t*r***t.com",
+   "group": "Curious Worm",
+   "date": "2026-11-13T20:53:46+00:00",
+   "attack_date": "2026-11-13",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/aSp0KnIqKip0LmNvbUBDdXJpb3VzIFdvcm0="
+  },
+  {
+   "victim": "t**a.com",
+   "group": "Curious Worm",
+   "date": "2026-11-13T20:53:27+00:00",
+   "attack_date": "2026-11-13",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/dCoqYS5jb21AQ3VyaW91cyBXb3Jt"
+  },
+  {
+   "victim": "Frey Properties of Highland LLC",
+   "group": "play",
+   "date": "2026-11-13T20:29:46+00:00",
+   "attack_date": "2026-11-13",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/RnJleSBQcm9wZXJ0aWVzIG9mIEhpZ2hsYW5kIExMQ0BwbGF5"
+  },
+  {
+   "victim": "ARRB Group",
+   "group": "play",
+   "date": "2026-11-13T20:29:10+00:00",
+   "attack_date": "2026-11-13",
+   "country": "AU",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/QVJSQiBHcm91cEBwbGF5"
+  },
   {
    "victim": "Advantage Archives",
    "group": "incransom",
@@ -446,15 +524,6 @@
    "country": "US",
    "sector": "Transportation",
    "url": "https://www.ransomware.live/id/Q0lNU0EgTE9HSVNUSUNTQGluY3JhbnNvbQ=="
-  },
-  {
-   "victim": "raymondjames.com",
-   "group": "incransom",
-   "date": "2026-11-12T10:04:47+00:00",
-   "attack_date": "2026-11-10",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/cmF5bW9uZGphbWVzLmNvbUBpbmNyYW5zb20="
   },
   {
    "victim": "Esri South Africa",
@@ -1076,69 +1145,6 @@
    "country": "US",
    "sector": "Education",
    "url": "https://www.ransomware.live/id/UmlkZ3dheSBIaWdoIFNjaG9vbEBpbnRlcmxvY2s="
-  },
-  {
-   "victim": "Southwest Orthopedic & Reconstructive Specialists",
-   "group": "interlock",
-   "date": "2026-11-10T07:09:08+00:00",
-   "attack_date": "2026-11-10",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/U291dGh3ZXN0IE9ydGhvcGVkaWMgJiBSZWNvbnN0cnVjdGl2ZSBTcGVjaWFsaXN0c0BpbnRlcmxvY2s="
-  },
-  {
-   "victim": "Assiniboine Dental Group",
-   "group": "interlock",
-   "date": "2026-11-10T07:07:31+00:00",
-   "attack_date": "2026-11-10",
-   "country": "CA",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/QXNzaW5pYm9pbmUgRGVudGFsIEdyb3VwQGludGVybG9jaw=="
-  },
-  {
-   "victim": "Elmcrest Children's Center, Inc",
-   "group": "interlock",
-   "date": "2026-11-10T07:06:58+00:00",
-   "attack_date": "2026-11-10",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/RWxtY3Jlc3QgQ2hpbGRyZW4ncyBDZW50ZXIsIEluY0BpbnRlcmxvY2s="
-  },
-  {
-   "victim": "Conecuh Sausage Company Inc",
-   "group": "interlock",
-   "date": "2026-11-10T07:06:19+00:00",
-   "attack_date": "2026-11-10",
-   "country": "US",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/Q29uZWN1aCBTYXVzYWdlIENvbXBhbnkgSW5jQGludGVybG9jaw=="
-  },
-  {
-   "victim": "CRESA",
-   "group": "Vortex",
-   "date": "2026-11-10T04:50:18+00:00",
-   "attack_date": "2026-11-10",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Q1JFU0FAVm9ydGV4"
-  },
-  {
-   "victim": "ALEXION",
-   "group": "Vortex",
-   "date": "2026-11-10T04:49:46+00:00",
-   "attack_date": "2026-11-10",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/QUxFWElPTkBWb3J0ZXg="
-  },
-  {
-   "victim": "PYRAMID HEALTHCARE",
-   "group": "Vortex",
-   "date": "2026-11-10T04:49:12+00:00",
-   "attack_date": "2026-11-10",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/UFlSQU1JRCBIRUFMVEhDQVJFQFZvcnRleA=="
   }
  ]
 }

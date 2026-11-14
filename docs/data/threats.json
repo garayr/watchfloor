@@ -2,20 +2,26 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1641,
-  "c2_servers": 266,
+  "total_iocs": 1509,
+  "c2_servers": 323,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 832,
+    "iocs": 667,
     "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
-    "iocs": 87,
-    "c2": 0,
+    "iocs": 65,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 57,
+    "c2": 45,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "RN Stealer",
@@ -24,10 +30,10 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.rn_stealer"
    },
    {
-    "name": "Vidar",
-    "iocs": 42,
-    "c2": 30,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+    "name": "Cobalt Strike",
+    "iocs": 24,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "ZStealer",
@@ -36,52 +42,46 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
+    "name": "WARDENStealer",
+    "iocs": 23,
+    "c2": 17,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+   },
+   {
+    "name": "RevStealer",
+    "iocs": 22,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.revstealer"
+   },
+   {
     "name": "php.shin_webshell",
-    "iocs": 24,
+    "iocs": 19,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "ClearFake",
-    "iocs": 22,
+    "iocs": 18,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "PureRAT",
-    "iocs": 22,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
-   },
-   {
-    "name": "Unknown Stealer",
-    "iocs": 19,
-    "c2": 18,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
-   },
-   {
-    "name": "WARDENStealer",
-    "iocs": 19,
-    "c2": 17,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    }
   ]
  },
  "urls": {
-  "sample": 599,
-  "online": 389,
+  "sample": 690,
+  "online": 435,
   "top_tags": [
    {
     "name": "elf",
-    "count": 147
+    "count": 171
    },
    {
     "name": "Mozi",
-    "count": 76
+    "count": 94
    },
    {
     "name": "32-bit",
-    "count": 69
+    "count": 87
    },
    {
     "name": "github",
@@ -89,19 +89,19 @@
    },
    {
     "name": "ua-wget",
-    "count": 52
+    "count": 53
    },
    {
     "name": "mips",
-    "count": 42
+    "count": 49
+   },
+   {
+    "name": "arm",
+    "count": 47
    },
    {
     "name": "zip",
     "count": 39
-   },
-   {
-    "name": "arm",
-    "count": 36
    }
   ]
  },
@@ -109,75 +109,75 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 859327,
-   "targets": 300,
-   "sources": 19161
+   "records": 195959,
+   "targets": 269,
+   "sources": 8017
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 571328,
-   "targets": 296,
-   "sources": 12460
+   "records": 172198,
+   "targets": 245,
+   "sources": 4484
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 517875,
-   "targets": 291,
-   "sources": 10968
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 430836,
-   "targets": 293,
-   "sources": 14032
+   "records": 138147,
+   "targets": 244,
+   "sources": 4133
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 261326,
-   "targets": 328,
-   "sources": 18294
+   "records": 92025,
+   "targets": 233,
+   "sources": 7149
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 75801,
+   "targets": 265,
+   "sources": 4770
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 229326,
-   "targets": 309,
-   "sources": 14235
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 216043,
-   "targets": 292,
-   "sources": 8911
-  },
-  {
-   "port": 9000,
-   "service": null,
-   "records": 186720,
-   "targets": 274,
-   "sources": 5209
+   "records": 65708,
+   "targets": 250,
+   "sources": 6217
   },
   {
    "port": 16767,
    "service": null,
-   "records": 150994,
-   "targets": 53,
-   "sources": 5159
+   "records": 42411,
+   "targets": 9,
+   "sources": 2491
   },
   {
-   "port": 7680,
+   "port": 51413,
    "service": null,
-   "records": 133840,
-   "targets": 100,
-   "sources": 4801
+   "records": 34059,
+   "targets": 20,
+   "sources": 2752
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 30082,
+   "targets": 236,
+   "sources": 3249
+  },
+  {
+   "port": 9000,
+   "service": null,
+   "records": 25637,
+   "targets": 220,
+   "sources": 945
   }
  ],
- "ports_date": "2026-11-13",
+ "ports_date": "2026-11-14",
  "diary": [
   {
    "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
@@ -511,10 +511,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-14T00:39:34+00:00",
-  "sans": "2026-11-14T00:39:34+00:00",
-  "otx": "2026-11-14T00:39:34+00:00",
-  "urlhaus": "2026-11-14T00:39:34+00:00"
+  "threatfox": "2026-11-14T07:00:45+00:00",
+  "sans": "2026-11-14T07:00:45+00:00",
+  "otx": "2026-11-14T07:00:45+00:00",
+  "urlhaus": "2026-11-14T07:00:45+00:00"
  },
- "generated_at": "2026-11-14T00:39:34+00:00"
+ "generated_at": "2026-11-14T07:00:45+00:00"
 }
