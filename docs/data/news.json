@@ -4,6 +4,22 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+     "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that…",
+     "source": "The Hacker News",
+     "date": "2026-11-15T11:27:31+00:00",
+     "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+     "group": "Arrests, courts and policy"
+    },
+    {
+     "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+     "summary": "The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said. The post Meta Fined $887 Million in Italy Over Android Gallery Photos…",
+     "source": "SecurityWeek",
+     "date": "2026-11-14T19:00:00+00:00",
+     "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
      "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks…",
      "source": "The Hacker News",
@@ -25,7 +41,15 @@
    "group": "Breaches and ransomware",
    "items": [
     {
-     "title": "Stolen Fireworks AI Key Led to Cursor Data Breach and Trojanized Claude Code Extension",
+     "title": "TSMC employee data breach linked to cloud provider",
+     "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-15T15:23:48+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
      "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker…",
      "source": "The Hacker News",
      "date": "2026-11-15T08:22:04+00:00",
@@ -121,14 +145,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-     "summary": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions. The post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-13T09:36:56+00:00",
-     "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Microsoft confirms Windows activation failures after November updates",
      "summary": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
      "source": "BleepingComputer",
@@ -161,14 +177,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-     "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-12T19:12:55+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
      "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication…",
      "source": "The Hacker News",
@@ -182,14 +190,6 @@
      "source": "The Hacker News",
      "date": "2026-11-12T16:27:01+00:00",
      "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-     "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T15:38:49+00:00",
-     "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
      "group": "Exploited right now"
     }
    ]
@@ -226,6 +226,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+     "summary": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications. The post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-15T12:51:33+00:00",
+     "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+     "group": "Other news"
+    },
     {
      "title": "Is AI Making Us Worse at Cybersecurity?",
      "summary": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there’s no playbook. The post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek.",
@@ -328,14 +336,6 @@
      "source": "The Hacker News",
      "date": "2026-11-13T11:52:31+00:00",
      "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
-     "summary": "Investigators seized 235 servers and 257 domains, along with 6.4 million victim credentials as part of Operation Endgame. The post Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure appeared first…",
-     "source": "SecurityWeek",
-     "date": "2026-11-13T10:48:40+00:00",
-     "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
      "group": "Other news"
     },
     {

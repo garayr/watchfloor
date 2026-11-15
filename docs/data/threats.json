@@ -2,30 +2,30 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1016,
-  "c2_servers": 202,
+  "total_iocs": 1670,
+  "c2_servers": 212,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 208,
-    "c2": 0,
+    "iocs": 653,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "Mirai",
-    "iocs": 141,
-    "c2": 11,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "IClickFix",
-    "iocs": 105,
+    "iocs": 229,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
+    "name": "Mirai",
+    "iocs": 156,
+    "c2": 11,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 70,
+    "iocs": 101,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -37,15 +37,21 @@
    },
    {
     "name": "Vidar",
-    "iocs": 51,
-    "c2": 45,
+    "iocs": 50,
+    "c2": 44,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "NjRAT",
-    "iocs": 42,
-    "c2": 6,
+    "iocs": 41,
+    "c2": 5,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat"
+   },
+   {
+    "name": "SalatStealer",
+    "iocs": 21,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "ZStealer",
@@ -54,54 +60,48 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
-    "name": "SalatStealer",
-    "iocs": 20,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
-   },
-   {
-    "name": "RN Stealer",
-    "iocs": 16,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.rn_stealer"
+    "name": "WARDENStealer",
+    "iocs": 17,
+    "c2": 13,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 816,
+  "online": 806,
   "top_tags": [
    {
-    "name": "github",
-    "count": 194
-   },
-   {
-    "name": "SalatStealer",
-    "count": 158
-   },
-   {
-    "name": "zapret",
-    "count": 146
-   },
-   {
     "name": "elf",
-    "count": 100
+    "count": 211
+   },
+   {
+    "name": "ua-wget",
+    "count": 111
    },
    {
     "name": "Mozi",
-    "count": 77
+    "count": 73
    },
    {
     "name": "32-bit",
-    "count": 74
+    "count": 72
    },
    {
-    "name": "arm",
-    "count": 39
+    "name": "github",
+    "count": 47
+   },
+   {
+    "name": "zip",
+    "count": 44
    },
    {
     "name": "mips",
-    "count": 37
+    "count": 38
+   },
+   {
+    "name": "SmartLoader",
+    "count": 35
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 23,
    "service": "Telnet",
-   "records": 987532,
-   "targets": 282,
-   "sources": 7201
+   "records": 2091757,
+   "targets": 292,
+   "sources": 12401
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 255693,
-   "targets": 280,
-   "sources": 7307
+   "records": 557415,
+   "targets": 303,
+   "sources": 12192
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 120092,
-   "targets": 255,
-   "sources": 7469
+   "records": 270340,
+   "targets": 321,
+   "sources": 12510
   },
   {
    "port": 16767,
    "service": null,
-   "records": 92507,
-   "targets": 20,
-   "sources": 3607
+   "records": 203146,
+   "targets": 28,
+   "sources": 5417
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 88709,
-   "targets": 278,
-   "sources": 4442
+   "records": 168087,
+   "targets": 295,
+   "sources": 7376
   },
   {
    "port": 51413,
    "service": null,
-   "records": 74178,
-   "targets": 65,
-   "sources": 3401
+   "records": 146922,
+   "targets": 208,
+   "sources": 5896
   },
   {
    "port": 2222,
    "service": null,
-   "records": 57471,
-   "targets": 266,
-   "sources": 4550
+   "records": 138287,
+   "targets": 284,
+   "sources": 8102
   },
   {
    "port": 123,
    "service": "NTP",
-   "records": 47811,
-   "targets": 262,
-   "sources": 2523
+   "records": 102372,
+   "targets": 271,
+   "sources": 4172
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 46346,
-   "targets": 278,
-   "sources": 3112
+   "records": 96430,
+   "targets": 287,
+   "sources": 5726
   },
   {
-   "port": 137,
+   "port": 7680,
    "service": null,
-   "records": 32144,
-   "targets": 204,
-   "sources": 399
+   "records": 74921,
+   "targets": 86,
+   "sources": 2987
   }
  ],
  "ports_date": "2026-11-15",
@@ -399,6 +399,25 @@
    "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37"
   },
   {
+   "name": "YuanKong RAT: the Android remote-control service that stamps its operators' names into every build",
+   "summary": "YuanKong is a multi-tenant Android remote access trojan whose dropper stores decryption keys in cleartext configuration files. The malware uses a two-key XOR scheme to unpack payloads signed with a shared certificate…",
+   "date": "2026-10-16T15:25:13+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "YuanKong"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "overlay-attack",
+    "android",
+    "adb-escalation",
+    "yuankong"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad241d9f4cd3e84da0dbd3c"
+  },
+  {
    "name": "Inside Help TDS: Hotejka, Cloudflare Pages and Predictive Detection",
    "summary": "Since April 2017, a Russian-language affiliate program called Hotejka, believed to be a rebrand of ROI777, has operated the Help Traffic Distribution System (TDS), delivering tech support scams to victims. The operation…",
    "date": "2026-10-16T07:29:06+00:00",
@@ -485,39 +504,13 @@
     "ai-generated payloads"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad187349cefc9d2193e5cc3"
-  },
-  {
-   "name": "KGB RAT: A Fully Undetectable Windows Trojan Built to Spy, Steal, and Terrorize",
-   "summary": "KGB RAT is a Windows Remote Access Trojan actively promoted on underground forums since late 2025, marketed deceptively as a legitimate administration tool. Sold through a Malware-as-a-Service model with pricing from…",
-   "date": "2026-10-15T16:41:31+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "KGB RAT",
-    "njRAT - S0385",
-    "Njw0rm",
-    "LV",
-    "Bladabindi",
-    "Lime-Worm"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "credential theft",
-    "hvnc",
-    "telegram c2",
-    "psychological harassment",
-    "bladabindi",
-    "remote access trojan"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad1023b92a010044f3dcbc8"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-15T09:41:25+00:00",
-  "sans": "2026-11-15T09:41:25+00:00",
-  "otx": "2026-11-15T09:41:25+00:00",
-  "urlhaus": "2026-11-15T09:41:25+00:00"
+  "threatfox": "2026-11-15T16:36:25+00:00",
+  "sans": "2026-11-15T16:36:25+00:00",
+  "otx": "2026-11-15T16:36:25+00:00",
+  "urlhaus": "2026-11-15T16:36:25+00:00"
  },
- "generated_at": "2026-11-15T09:41:25+00:00"
+ "generated_at": "2026-11-15T16:36:25+00:00"
 }
