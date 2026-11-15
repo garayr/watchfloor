@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T02:23:57+00:00",
+ "generated_at": "2026-11-15T09:41:25+00:00",
  "sources": [
   {
    "name": "CISA KEV",
@@ -46,14 +46,14 @@
   {
    "name": "Cloudflare Radar",
    "ok": true,
-   "count": 45,
+   "count": 46,
    "error": null
   },
   {
    "name": "Ransomware.live",
-   "ok": false,
-   "count": 0,
-   "error": "api.ransomware.live: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>"
+   "ok": true,
+   "count": 100,
+   "error": null
   },
   {
    "name": "Have I Been Pwned",
@@ -64,13 +64,13 @@
   {
    "name": "abuse.ch ThreatFox",
    "ok": true,
-   "count": 1100,
+   "count": 1016,
    "error": null
   },
   {
    "name": "abuse.ch URLhaus",
    "ok": true,
-   "count": 781,
+   "count": 1000,
    "error": null
   },
   {
@@ -82,7 +82,13 @@
   {
    "name": "SANS ISC",
    "ok": true,
-   "count": 2,
+   "count": 4,
+   "error": null
+  },
+  {
+   "name": "Ransomware.live gang profiles",
+   "ok": true,
+   "count": 3,
    "error": null
   },
   {

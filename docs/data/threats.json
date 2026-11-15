@@ -2,32 +2,32 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1100,
-  "c2_servers": 317,
+  "total_iocs": 1016,
+  "c2_servers": 202,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 209,
+    "iocs": 208,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Mirai",
-    "iocs": 137,
-    "c2": 1,
+    "iocs": 141,
+    "c2": 11,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "IClickFix",
-    "iocs": 99,
+    "iocs": 105,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Vidar",
-    "iocs": 71,
-    "c2": 65,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+    "name": "ClearFake",
+    "iocs": 70,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Raven Stealer",
@@ -36,22 +36,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    },
    {
-    "name": "WARDENStealer",
-    "iocs": 50,
-    "c2": 40,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+    "name": "Vidar",
+    "iocs": 51,
+    "c2": 45,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "NjRAT",
-    "iocs": 43,
-    "c2": 7,
+    "iocs": 42,
+    "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat"
-   },
-   {
-    "name": "ClearFake",
-    "iocs": 22,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "ZStealer",
@@ -61,23 +55,29 @@
    },
    {
     "name": "SalatStealer",
-    "iocs": 18,
+    "iocs": 20,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
+    "name": "RN Stealer",
+    "iocs": 16,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.rn_stealer"
    }
   ]
  },
  "urls": {
-  "sample": 781,
-  "online": 594,
+  "sample": 1000,
+  "online": 816,
   "top_tags": [
    {
     "name": "github",
-    "count": 236
+    "count": 194
    },
    {
     "name": "SalatStealer",
-    "count": 152
+    "count": 158
    },
    {
     "name": "zapret",
@@ -85,23 +85,23 @@
    },
    {
     "name": "elf",
-    "count": 113
+    "count": 100
    },
    {
     "name": "Mozi",
-    "count": 81
-   },
-   {
-    "name": "zip",
-    "count": 81
-   },
-   {
-    "name": "32-bit",
     "count": 77
    },
    {
-    "name": "SmartLoader",
-    "count": 73
+    "name": "32-bit",
+    "count": 74
+   },
+   {
+    "name": "arm",
+    "count": 39
+   },
+   {
+    "name": "mips",
+    "count": 37
    }
   ]
  },
@@ -109,75 +109,75 @@
   {
    "port": 23,
    "service": "Telnet",
-   "records": 908610,
-   "targets": 298,
-   "sources": 15630
+   "records": 987532,
+   "targets": 282,
+   "sources": 7201
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 877310,
-   "targets": 303,
-   "sources": 18384
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 464318,
-   "targets": 293,
-   "sources": 9623
+   "records": 255693,
+   "targets": 280,
+   "sources": 7307
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 366850,
-   "targets": 305,
-   "sources": 16284
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 361605,
-   "targets": 287,
-   "sources": 8272
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 256557,
-   "targets": 292,
-   "sources": 13496
+   "records": 120092,
+   "targets": 255,
+   "sources": 7469
   },
   {
    "port": 16767,
    "service": null,
-   "records": 223749,
+   "records": 92507,
    "targets": 20,
-   "sources": 6009
+   "sources": 3607
   },
   {
-   "port": 2222,
-   "service": null,
-   "records": 171262,
-   "targets": 285,
-   "sources": 9209
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 88709,
+   "targets": 278,
+   "sources": 4442
   },
   {
    "port": 51413,
    "service": null,
-   "records": 135976,
-   "targets": 103,
-   "sources": 6961
+   "records": 74178,
+   "targets": 65,
+   "sources": 3401
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 57471,
+   "targets": 266,
+   "sources": 4550
   },
   {
    "port": 123,
    "service": "NTP",
-   "records": 112859,
-   "targets": 269,
-   "sources": 4737
+   "records": 47811,
+   "targets": 262,
+   "sources": 2523
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 46346,
+   "targets": 278,
+   "sources": 3112
+  },
+  {
+   "port": 137,
+   "service": null,
+   "records": 32144,
+   "targets": 204,
+   "sources": 399
   }
  ],
- "ports_date": "2026-11-14",
+ "ports_date": "2026-11-15",
  "diary": [
   {
    "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
@@ -399,6 +399,71 @@
    "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37"
   },
   {
+   "name": "Inside Help TDS: Hotejka, Cloudflare Pages and Predictive Detection",
+   "summary": "Since April 2017, a Russian-language affiliate program called Hotejka, believed to be a rebrand of ROI777, has operated the Help Traffic Distribution System (TDS), delivering tech support scams to victims. The operation…",
+   "date": "2026-10-16T07:29:06+00:00",
+   "author": "AlienVault",
+   "adversary": "Hotejka",
+   "malware": [
+    "UltraViewer"
+   ],
+   "countries": [
+    "United States of America",
+    "Australia",
+    "Belgium",
+    "Canada",
+    "France",
+    "Japan"
+   ],
+   "industries": [],
+   "tags": [
+    "tds infrastructure",
+    "ultraviewer",
+    "cloudflare pages abuse",
+    "tech support scams",
+    "roi777",
+    "hotejka"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad1d2421e774bf7224baf2b"
+  },
+  {
+   "name": "BREAK THE SILENCE: Tracking Silent Lynx Through Exposed Infrastructure",
+   "summary": "Silent Lynx, a persistent cyber espionage threat actor, has conducted targeted intrusion campaigns against government ministries, diplomatic missions, and civil society organizations across Central Asia since 2024. The…",
+   "date": "2026-10-16T07:21:52+00:00",
+   "author": "AlienVault",
+   "adversary": "silent lynx",
+   "malware": [
+    "Laplas",
+    "Chvost",
+    "PickleShell",
+    "SSDPShell",
+    "Ligolo-ng",
+    "Cobalt Strike - S0154"
+   ],
+   "countries": [
+    "Armenia",
+    "Azerbaijan",
+    "Belarus",
+    "Kazakhstan",
+    "Kyrgyzstan",
+    "Russian Federation"
+   ],
+   "industries": [
+    "Government",
+    "Energy",
+    "NGO"
+   ],
+   "tags": [
+    "silent lynx",
+    "chvost",
+    "laplas",
+    "cobalt strike",
+    "github staging",
+    "pickleshell"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad1d090651f974e1ec049ed"
+  },
+  {
    "name": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
    "summary": "An espionage campaign tracked as CL-UNK-1211 targeted government entities and state-affiliated infrastructure between October 2025 and April 2026, utilizing AI-generated payloads containing conversational annotations…",
    "date": "2026-10-16T02:08:52+00:00",
@@ -446,73 +511,13 @@
     "remote access trojan"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad1023b92a010044f3dcbc8"
-  },
-  {
-   "name": "Inside a PaperCut Attacker's AI Toolkit: Agent Instructions, Exploit Code, a Second RCE, and Victims Across 45+ Countries",
-   "summary": "Three exposed directories on infrastructure at 45.142.193[.]132 revealed an AI-orchestrated campaign targeting PaperCut NG/MF print management software. The exposed workbench contained AI-agent instructions, exploit…",
-   "date": "2026-10-15T14:21:06+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Education"
-   ],
-   "tags": [
-    "pentagi framework",
-    "ai-orchestrated exploitation",
-    "cve-2026-81578",
-    "xml-rpc abuse",
-    "reverse socks5",
-    "credential harvesting"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad0e1520be4762ce91fe695"
-  },
-  {
-   "name": "DragonForce Ransomware Profile: From Affiliate Program to Cybercrime Cartel",
-   "summary": "DragonForce is a financially motivated ransomware operation that emerged in August 2023, initially using leaked LockBit 3.0 code and later transitioning to Conti v3-based variants. Operating as a Ransomware-as-a-Service…",
-   "date": "2026-10-15T13:58:54+00:00",
-   "author": "AlienVault",
-   "adversary": "DragonForce",
-   "malware": [
-    "DragonForce",
-    "LockBit 3.0 - S1202",
-    "LockBit Black",
-    "Conti - S0575",
-    "Cobalt Strike - S0154",
-    "SystemBC"
-   ],
-   "countries": [
-    "United States of America",
-    "United Kingdom of Great Britain and Northern Ireland",
-    "Australia",
-    "Canada",
-    "Italy"
-   ],
-   "industries": [
-    "Manufacturing",
-    "Professional Services",
-    "Real Estate",
-    "Transportation",
-    "Retail",
-    "Healthcare"
-   ],
-   "tags": [
-    "cve-2021-44228",
-    "conti",
-    "lockbit 3.0",
-    "dragonforce",
-    "affiliate program",
-    "cve-2024-57728"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad0dc1e98341fe609c19f3e"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-15T02:23:57+00:00",
-  "sans": "2026-11-15T02:23:57+00:00",
-  "otx": "2026-11-15T02:23:57+00:00",
-  "urlhaus": "2026-11-15T02:23:57+00:00"
+  "threatfox": "2026-11-15T09:41:25+00:00",
+  "sans": "2026-11-15T09:41:25+00:00",
+  "otx": "2026-11-15T09:41:25+00:00",
+  "urlhaus": "2026-11-15T09:41:25+00:00"
  },
- "generated_at": "2026-11-15T02:23:57+00:00"
+ "generated_at": "2026-11-15T09:41:25+00:00"
 }

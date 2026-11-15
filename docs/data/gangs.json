@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T19:08:05+00:00",
+ "generated_at": "2026-11-15T09:41:25+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -2033,8 +2033,8 @@
    "description": "Qilin ransomware was first observed in July of 2022. Qilin Ransomware is written in Golang and supports multiple encryption modes; all of which are controlled by the operator. Qilin actors practice double extortion – demanding payment for a decryptor, as well as for the non-release of stolen data.",
    "aliases": [],
    "first_seen": "2022-10-08",
-   "last_seen": "2026-11-05",
-   "victims_total": 2558,
+   "last_seen": "2026-11-14",
+   "victims_total": 2576,
    "cves": [
     {
      "id": "CVE-2025-31324",
@@ -2141,43 +2141,43 @@
     "Phishing: Spearphishing via Service",
     "Command and Scripting Interpreter: PowerShell",
     "Command and Scripting Interpreter: Unix Shell",
+    "Native API",
+    "Shared Modules",
     "System Services",
     "System Services: Service Execution",
+    "Hijack Execution Flow",
     "Boot or Logon Initialization Scripts",
     "Scheduled Task/Job",
     "Scheduled Task/Job: Scheduled Task",
     "Account Manipulation: SSH Authorized Keys",
     "Create Account",
+    "Create or Modify System Process",
     "Boot or Logon Autostart Execution",
-    "Exploitation for Privilege Escalation",
-    "Obfuscated Files or Information",
-    "Masquerading: Invalid Code Signature",
-    "Access Token Manipulation: Parent PID Spoofing",
-    "Exploitation for Defense Evasion",
-    "Execution Guardrails"
+    "Process Injection",
+    "Exploitation for Privilege Escalation"
    ],
    "links": [],
    "targets": {
     "countries": [
      {
       "name": "US",
-      "count": 1074
+      "count": 1078
      },
      {
       "name": "GB",
-      "count": 124
+      "count": 127
      },
      {
       "name": "CA",
-      "count": 116
+      "count": 117
      },
      {
       "name": "FR",
-      "count": 109
+      "count": 110
      },
      {
       "name": "DE",
-      "count": 107
+      "count": 108
      },
      {
       "name": "ES",
@@ -2187,11 +2187,11 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 525
+      "count": 529
      },
      {
       "name": "Professional Services",
-      "count": 416
+      "count": 418
      },
      {
       "name": "Technology",
@@ -2199,7 +2199,7 @@
      },
      {
       "name": "Healthcare",
-      "count": 210
+      "count": 211
      },
      {
       "name": "Retail & E-Commerce",
@@ -2207,7 +2207,7 @@
      },
      {
       "name": "Financial Services",
-      "count": 166
+      "count": 167
      }
     ]
    },
@@ -2258,19 +2258,19 @@
     },
     {
      "month": "2026-11",
-     "count": 14
+     "count": 32
     }
    ],
-   "history_size": 2558,
-   "updated": "2026-11-05T17:59:10+00:00"
+   "history_size": 2576,
+   "updated": "2026-11-15T09:41:25+00:00"
   },
   "incransom": {
    "name": "incransom",
    "description": "INC Ransom is a prolific ransomware-as-a-service operation active since July 2023 that systematically targets healthcare, government, education, and manufacturing sectors in North America and Europe, having posted over 200 victims in 2025 alone with no sector off-limits.",
    "aliases": [],
    "first_seen": "2023-08-06",
-   "last_seen": "2026-11-08",
-   "victims_total": 991,
+   "last_seen": "2026-11-13",
+   "victims_total": 1044,
    "cves": [
     {
      "id": "CVE-2026-15409",
@@ -2327,19 +2327,19 @@
     "countries": [
      {
       "name": "US",
-      "count": 549
+      "count": 577
      },
      {
       "name": "CA",
-      "count": 53
+      "count": 55
      },
      {
       "name": "DE",
-      "count": 44
+      "count": 45
      },
      {
       "name": "GB",
-      "count": 39
+      "count": 40
      },
      {
       "name": "AU",
@@ -2353,27 +2353,27 @@
     "sectors": [
      {
       "name": "Professional Services",
-      "count": 205
+      "count": 213
      },
      {
       "name": "Healthcare",
-      "count": 145
+      "count": 147
      },
      {
       "name": "Manufacturing",
-      "count": 141
+      "count": 144
      },
      {
       "name": "Technology",
-      "count": 114
+      "count": 118
      },
      {
       "name": "Education",
-      "count": 77
+      "count": 81
      },
      {
       "name": "Government & Defense",
-      "count": 56
+      "count": 59
      }
     ]
    },
@@ -2424,11 +2424,11 @@
     },
     {
      "month": "2026-11",
-     "count": 11
+     "count": 64
     }
    ],
-   "history_size": 991,
-   "updated": "2026-11-08T09:28:03+00:00"
+   "history_size": 1044,
+   "updated": "2026-11-15T09:41:25+00:00"
   },
   "genesis": {
    "name": "genesis",
@@ -4934,8 +4934,8 @@
    "description": "Leaks are uploaded to QU.AX service",
    "aliases": [],
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-29",
-   "victims_total": 8,
+   "last_seen": "2026-11-14",
+   "victims_total": 13,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -4944,7 +4944,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 4
+      "count": 6
      },
      {
       "name": "IN",
@@ -4955,11 +4955,23 @@
       "count": 1
      },
      {
+      "name": "GB",
+      "count": 1
+     },
+     {
       "name": "MY",
       "count": 1
      }
     ],
     "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 3
+     },
+     {
+      "name": "Retail & E-Commerce",
+      "count": 2
+     },
      {
       "name": "Technology",
       "count": 2
@@ -4975,22 +4987,10 @@
      {
       "name": "Government & Defense",
       "count": 1
-     },
-     {
-      "name": "Healthcare",
-      "count": 1
-     },
-     {
-      "name": "Hospitality",
-      "count": 1
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -5033,11 +5033,15 @@
     },
     {
      "month": "2026-10",
-     "count": 8
+     "count": 9
+    },
+    {
+     "month": "2026-11",
+     "count": 4
     }
    ],
-   "history_size": 8,
-   "updated": "2026-10-29T21:54:46+00:00"
+   "history_size": 13,
+   "updated": "2026-11-15T09:41:25+00:00"
   },
   "payload": {
    "name": "payload",
