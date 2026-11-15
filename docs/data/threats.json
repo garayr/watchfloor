@@ -2,14 +2,32 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 734,
-  "c2_servers": 307,
+  "total_iocs": 1100,
+  "c2_servers": 317,
   "families": [
    {
+    "name": "Unknown Loader",
+    "iocs": 209,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "Mirai",
-    "iocs": 86,
+    "iocs": 137,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "IClickFix",
+    "iocs": 99,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 71,
+    "c2": 65,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Raven Stealer",
@@ -18,26 +36,20 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    },
    {
-    "name": "Vidar",
-    "iocs": 64,
-    "c2": 58,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "WARDENStealer",
-    "iocs": 47,
+    "iocs": 50,
     "c2": 40,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    },
    {
     "name": "NjRAT",
-    "iocs": 39,
-    "c2": 3,
+    "iocs": 43,
+    "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat"
    },
    {
     "name": "ClearFake",
-    "iocs": 21,
+    "iocs": 22,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -48,60 +60,48 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 18,
-    "c2": 18,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "SalatStealer",
     "iocs": 18,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
-   },
-   {
-    "name": "AdaptixC2",
-    "iocs": 17,
-    "c2": 11,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.adaptix_c2"
    }
   ]
  },
  "urls": {
-  "sample": 1000,
-  "online": 732,
+  "sample": 781,
+  "online": 594,
   "top_tags": [
    {
     "name": "github",
-    "count": 257
+    "count": 236
    },
    {
     "name": "SalatStealer",
-    "count": 162
+    "count": 152
    },
    {
     "name": "zapret",
-    "count": 156
+    "count": 146
    },
    {
     "name": "elf",
-    "count": 143
+    "count": 113
    },
    {
     "name": "Mozi",
-    "count": 97
-   },
-   {
-    "name": "32-bit",
-    "count": 94
+    "count": 81
    },
    {
     "name": "zip",
-    "count": 91
+    "count": 81
+   },
+   {
+    "name": "32-bit",
+    "count": 77
    },
    {
     "name": "SmartLoader",
-    "count": 81
+    "count": 73
    }
   ]
  },
@@ -399,6 +399,29 @@
    "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37"
   },
   {
+   "name": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+   "summary": "An espionage campaign tracked as CL-UNK-1211 targeted government entities and state-affiliated infrastructure between October 2025 and April 2026, utilizing AI-generated payloads containing conversational annotations…",
+   "date": "2026-10-16T02:08:52+00:00",
+   "author": "AlienVault",
+   "adversary": "CL-UNK-1211",
+   "malware": [
+    "SysGoRAT"
+   ],
+   "countries": [],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "database exfiltration",
+    "sysgorat",
+    "web shells",
+    "linux",
+    "cve-2025-55182",
+    "ai-generated payloads"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad187349cefc9d2193e5cc3"
+  },
+  {
    "name": "KGB RAT: A Fully Undetectable Windows Trojan Built to Spy, Steal, and Terrorize",
    "summary": "KGB RAT is a Windows Remote Access Trojan actively promoted on underground forums since late 2025, marketed deceptively as a legitimate administration tool. Sold through a Malware-as-a-Service model with pricing from…",
    "date": "2026-10-15T16:41:31+00:00",
@@ -483,32 +506,13 @@
     "cve-2024-57728"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad0dc1e98341fe609c19f3e"
-  },
-  {
-   "name": "How AI Agents Turned One Exposed Endpoint into a Server Takeover",
-   "summary": "An investigation revealed the first confirmed incident where large language model-driven AI agents executed substantial portions of an attack. Within 24 hours, attackers exploited an exposed job-submission feature on an…",
-   "date": "2026-10-15T07:06:58+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "privilege escalation",
-    "ai agents",
-    "llm-driven attacks",
-    "automated attack execution",
-    "cairn orchestration",
-    "agentic ai threats"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad07b924dde0538386bd7d5"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-14T22:57:15+00:00",
-  "sans": "2026-11-14T22:57:15+00:00",
-  "otx": "2026-11-14T22:57:15+00:00",
-  "urlhaus": "2026-11-14T22:57:15+00:00"
+  "threatfox": "2026-11-15T02:23:57+00:00",
+  "sans": "2026-11-15T02:23:57+00:00",
+  "otx": "2026-11-15T02:23:57+00:00",
+  "urlhaus": "2026-11-15T02:23:57+00:00"
  },
- "generated_at": "2026-11-14T22:57:15+00:00"
+ "generated_at": "2026-11-15T02:23:57+00:00"
 }
