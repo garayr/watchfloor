@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1651,
-  "c2_servers": 205,
+  "total_iocs": 1687,
+  "c2_servers": 226,
   "families": [
    {
     "name": "Unknown Loader",
@@ -13,33 +13,45 @@
    },
    {
     "name": "IClickFix",
-    "iocs": 243,
+    "iocs": 210,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Mirai",
-    "iocs": 193,
+    "iocs": 194,
     "c2": 11,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 152,
+    "iocs": 177,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 42,
-    "c2": 42,
+    "iocs": 45,
+    "c2": 45,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "Unknown Stealer",
+    "iocs": 26,
+    "c2": 10,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+   },
+   {
     "name": "WARDENStealer",
-    "iocs": 17,
+    "iocs": 18,
     "c2": 13,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+   },
+   {
+    "name": "php.shin_webshell",
+    "iocs": 17,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
    },
    {
     "name": "RevStealer",
@@ -48,20 +60,8 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.revstealer"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 15,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 14,
-    "c2": 13,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "Mozi",
-    "iocs": 13,
+    "iocs": 15,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mozi"
    }
@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 761,
+  "online": 737,
   "top_tags": [
    {
     "name": "elf",
-    "count": 207
+    "count": 200
    },
    {
     "name": "ua-wget",
-    "count": 112
+    "count": 111
    },
    {
     "name": "Mozi",
-    "count": 70
+    "count": 65
    },
    {
     "name": "32-bit",
-    "count": 69
+    "count": 64
    },
    {
     "name": "github",
-    "count": 46
+    "count": 47
    },
    {
     "name": "zip",
-    "count": 46
-   },
-   {
-    "name": "mips",
-    "count": 43
+    "count": 47
    },
    {
     "name": "SmartLoader",
-    "count": 37
+    "count": 38
+   },
+   {
+    "name": "mips",
+    "count": 36
    }
   ]
  },
@@ -281,35 +281,6 @@
    "url": "https://otx.alienvault.com/pulse/6af6c5535313263a193f072b"
   },
   {
-   "name": "European Refrigeration Systems Cyber Sabotage",
-   "summary": "A series of cyberattacks targeting commercial refrigeration infrastructure across Europe exposed critical vulnerabilities in operational technology systems. Beginning October 2026 in France with approximately 700…",
-   "date": "2026-11-13T08:06:42+00:00",
-   "author": "AlienVault",
-   "adversary": "Cyber Av3ngers",
-   "malware": [],
-   "countries": [
-    "Belgium",
-    "Estonia",
-    "Finland",
-    "France",
-    "Germany",
-    "Ireland"
-   ],
-   "industries": [
-    "Retail",
-    "Healthcare"
-   ],
-   "tags": [
-    "cve-2021-38459",
-    "critical infrastructure",
-    "default credentials",
-    "irgc",
-    "operational technology",
-    "noname057(16)"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af6c512eff4af48c4b11a6b"
-  },
-  {
    "name": "2026-11-12: SmartApeSG ClickFix campaign pushes CNCmachineRMS RAT",
    "summary": "A malicious campaign utilizing SmartApeSG ClickFix (also known as BabaDeda) techniques has been observed distributing CNCmachineRMS RAT through fake CAPTCHA verification pages. The attack chain begins with compromised…",
    "date": "2026-11-13T05:37:24+00:00",
@@ -397,6 +368,25 @@
     "astarionrat"
    ],
    "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37"
+  },
+  {
+   "name": "CVE-2026-88771: Inside the Exploitation of a Critical NetScaler RCE Vulnerability",
+   "summary": "On September 27, 2026, Citrix disclosed CVE-2026-88771, a critical remote code execution vulnerability affecting NetScaler Application Delivery Controller and NetScaler Gateway with a CVSS score of 9.8. The…",
+   "date": "2026-10-17T01:06:08+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "rce vulnerability",
+    "netscaler",
+    "freebsd implant",
+    "zero-day exploitation",
+    "web shells",
+    "cve-2026-88771"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ad2ca008bd3199ee7bb0b83"
   },
   {
    "name": "YuanKong RAT: the Android remote-control service that stamps its operators' names into every build",
@@ -507,10 +497,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-15T21:16:15+00:00",
-  "sans": "2026-11-15T21:16:15+00:00",
-  "otx": "2026-11-15T21:16:15+00:00",
-  "urlhaus": "2026-11-15T21:16:15+00:00"
+  "threatfox": "2026-11-16T01:14:34+00:00",
+  "sans": "2026-11-16T01:14:34+00:00",
+  "otx": "2026-11-16T01:14:34+00:00",
+  "urlhaus": "2026-11-16T01:14:34+00:00"
  },
- "generated_at": "2026-11-15T21:16:15+00:00"
+ "generated_at": "2026-11-16T01:14:34+00:00"
 }
