@@ -4,35 +4,19 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+     "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file…",
+     "source": "The Hacker News",
+     "date": "2026-11-16T12:33:18+00:00",
+     "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
      "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that…",
      "source": "The Hacker News",
      "date": "2026-11-15T11:27:31+00:00",
      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-     "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
-     "summary": "The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said. The post Meta Fined $887 Million in Italy Over Android Gallery Photos…",
-     "source": "SecurityWeek",
-     "date": "2026-11-14T19:00:00+00:00",
-     "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
-     "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-     "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks…",
-     "source": "The Hacker News",
-     "date": "2026-11-13T10:55:03+00:00",
-     "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-     "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
-     "summary": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-13T08:34:20+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
      "group": "Arrests, courts and policy"
     }
    ]
@@ -40,6 +24,38 @@
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Cursor Supply Chain Attack Started at Fireworks AI",
+     "summary": "The attacker stole an access key from Fireworks and used it to exfiltrate credentials that enabled them to push malicious Claude Code extension copies. The post Cursor Supply Chain Attack Started at Fireworks AI…",
+     "source": "SecurityWeek",
+     "date": "2026-11-16T15:45:43+00:00",
+     "url": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Fandango says hackers stole payment card details from checkout pages",
+     "summary": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-16T15:44:21+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks",
+     "summary": "Chinese threat actors are broadly adopting the agentic AI penetration testing framework to accelerate their attacks. The post Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-16T15:07:32+00:00",
+     "url": "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Uber Data Breach Impacts 150,000 People",
+     "summary": "Hackers compromised a third-party services provider and stole names, addresses, and driver’s license numbers. The post Uber Data Breach Impacts 150,000 People appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-16T11:02:48+00:00",
+     "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
      "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which…",
@@ -81,51 +97,11 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-     "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-13T16:21:43+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
-     "summary": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director…",
-     "source": "SecurityWeek",
-     "date": "2026-11-13T15:20:00+00:00",
-     "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "How one AI agent exposed five critical enterprise security gaps",
-     "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI…",
-     "source": "BleepingComputer",
-     "date": "2026-11-13T15:01:11+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
      "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as…",
      "source": "The Hacker News",
      "date": "2026-11-13T14:28:58+00:00",
      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-     "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in…",
-     "source": "The Hacker News",
-     "date": "2026-11-13T11:10:40+00:00",
-     "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-     "summary": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-12T22:25:30+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
      "group": "Breaches and ransomware"
     }
    ]
@@ -133,6 +109,89 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
+     "summary": "It will move to a 60-day vulnerability disclosure window in February 2027 and to a 30-day window in January 2028. The post Google Project Zero Sets Course for 30-Day Disclosure Deadline appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-16T15:31:25+00:00",
+     "url": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Google warns that fully-automated AI attacks are coming soon",
+     "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-16T14:00:00+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+     "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI…",
+     "source": "The Hacker News",
+     "date": "2026-11-16T14:00:00+00:00",
+     "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+     "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always…",
+     "source": "The Hacker News",
+     "date": "2026-11-16T13:27:20+00:00",
+     "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
+     "summary": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch…",
+     "source": "SecurityWeek",
+     "date": "2026-11-16T12:48:03+00:00",
+     "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+     "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and…",
+     "source": "The Hacker News",
+     "date": "2026-11-16T12:34:21+00:00",
+     "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
+     "summary": "Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges. The post Recent UnrealIRCd Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-16T11:15:48+00:00",
+     "url": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-114713"
+     ]
+    },
+    {
+     "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
+     "summary": "Vulncheck disclosed 14 vulnerabilities affecting Copeland XWEB EVO controllers, including two that threat actors quickly targeted. The post Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers…",
+     "source": "SecurityWeek",
+     "date": "2026-11-16T11:05:42+00:00",
+     "url": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+     "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-16T09:30:04+00:00",
+     "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
+     "summary": "Tor 0.4.9.17 patches several security issues, including one related to how built-in DoS protections deal with IPv6. The post Tor Updates DoS Defenses Again as Relay Attacks Continue appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-16T08:55:32+00:00",
+     "url": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
+     "group": "Exploited right now"
+    },
     {
      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
      "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity…",
@@ -159,38 +218,6 @@
      "date": "2026-11-13T16:53:08+00:00",
      "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Check Point warns of zero-day flaw exploited for root access",
-     "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-13T10:44:22+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Microsoft confirms Windows activation failures after November updates",
-     "summary": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-13T09:36:18+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-     "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in…",
-     "source": "The Hacker News",
-     "date": "2026-11-13T08:05:49+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
-     "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and…",
-     "source": "The Hacker News",
-     "date": "2026-11-13T05:43:28+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
-     "group": "Exploited right now"
     }
    ]
   },
@@ -198,27 +225,27 @@
    "group": "Malware and campaigns",
    "items": [
     {
+     "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+     "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the…",
+     "source": "The Hacker News",
+     "date": "2026-11-16T09:32:57+00:00",
+     "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+     "group": "Malware and campaigns"
+    },
+    {
+     "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
+     "summary": "Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages. The post Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-16T08:15:12+00:00",
+     "url": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
+     "group": "Malware and campaigns"
+    },
+    {
      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
      "summary": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
      "source": "BleepingComputer",
      "date": "2026-11-14T15:15:49+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
-     "summary": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers…",
-     "source": "BleepingComputer",
-     "date": "2026-11-12T22:53:10+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-     "summary": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T18:02:51+00:00",
-     "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
      "group": "Malware and campaigns"
     }
    ]
@@ -227,43 +254,59 @@
    "group": "Other news",
    "items": [
     {
+     "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+     "summary": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-16T16:43:24+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+     "group": "Other news"
+    },
+    {
+     "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
+     "summary": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps…",
+     "source": "BleepingComputer",
+     "date": "2026-11-16T15:01:11+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+     "group": "Other news"
+    },
+    {
+     "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+     "summary": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-16T12:53:18+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+     "group": "Other news"
+    },
+    {
+     "title": "Australian retail giant Coles investigates cybersecurity incident",
+     "summary": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-16T11:18:09+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+     "group": "Other news"
+    },
+    {
+     "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+     "summary": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-16T11:00:00+00:00",
+     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+     "group": "Other news"
+    },
+    {
+     "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+     "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-16T08:26:52+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+     "group": "Other news"
+    },
+    {
      "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
      "summary": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications. The post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on…",
      "source": "SecurityWeek",
      "date": "2026-11-15T12:51:33+00:00",
      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
-     "group": "Other news"
-    },
-    {
-     "title": "Is AI Making Us Worse at Cybersecurity?",
-     "summary": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there’s no playbook. The post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-14T14:00:00+00:00",
-     "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
-     "group": "Other news"
-    },
-    {
-     "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
-     "summary": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones. The post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-14T11:00:00+00:00",
-     "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
-     "group": "Other news"
-    },
-    {
-     "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
-     "summary": "Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update. The post No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software…",
-     "source": "SecurityWeek",
-     "date": "2026-11-14T08:40:22+00:00",
-     "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
-     "group": "Other news"
-    },
-    {
-     "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
-     "summary": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack. The post FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’ appeared first…",
-     "source": "SecurityWeek",
-     "date": "2026-11-13T21:33:27+00:00",
-     "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
      "group": "Other news"
     },
     {
@@ -299,51 +342,11 @@
      "group": "Other news"
     },
     {
-     "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
-     "summary": "Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using “a measured approach to identify and repair affected infrastructure.” The post Microsoft Struggles to…",
-     "source": "SecurityWeek",
-     "date": "2026-11-13T13:47:42+00:00",
-     "url": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
-     "group": "Other news"
-    },
-    {
-     "title": "Apify Confirms Customer Data Accessed in Cyberattack",
-     "summary": "The web scraping company says an intruder accessed customer accounts and obtained personal information or stored data. The post Apify Confirms Customer Data Accessed in Cyberattack appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-13T12:41:01+00:00",
-     "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
-     "group": "Other news"
-    },
-    {
-     "title": "Microsoft says November security updates cause printing issues",
-     "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-13T12:27:40+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-     "group": "Other news"
-    },
-    {
-     "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
-     "summary": "Enea says SilentAir hijacked mobile network nodes to intercept calls and messages, with Taiwanese subscribers the primary targets. The post SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-13T12:20:28+00:00",
-     "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
-     "group": "Other news"
-    },
-    {
      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
      "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because…",
      "source": "The Hacker News",
      "date": "2026-11-13T11:52:31+00:00",
      "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
-     "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-12T20:15:16+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
      "group": "Other news"
     }
    ]

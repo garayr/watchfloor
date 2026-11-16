@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1564,
-  "c2_servers": 264,
+  "total_iocs": 1567,
+  "c2_servers": 574,
   "families": [
    {
-    "name": "Unknown Loader",
-    "iocs": 497,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "IClickFix",
-    "iocs": 144,
+    "iocs": 176,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Mirai",
-    "iocs": 134,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 133,
+    "iocs": 104,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Mirai",
+    "iocs": 93,
+    "c2": 3,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
+    "name": "ZStealer",
+    "iocs": 87,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
+   },
+   {
     "name": "Raven Stealer",
-    "iocs": 73,
+    "iocs": 76,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    },
    {
     "name": "Vidar",
-    "iocs": 63,
-    "c2": 48,
+    "iocs": 72,
+    "c2": 51,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "Unknown Loader",
+    "iocs": 64,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "Stealc",
+    "iocs": 55,
+    "c2": 43,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.stealc"
+   },
+   {
     "name": "SalatStealer",
-    "iocs": 35,
+    "iocs": 34,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
     "name": "Unknown Stealer",
-    "iocs": 30,
+    "iocs": 28,
     "c2": 14,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 26,
-    "c2": 26,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "ValleyRAT",
-    "iocs": 21,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 765,
+  "online": 633,
   "top_tags": [
    {
     "name": "elf",
-    "count": 211
+    "count": 251
    },
    {
     "name": "ua-wget",
-    "count": 103
+    "count": 124
    },
    {
     "name": "Mozi",
-    "count": 78
+    "count": 102
    },
    {
     "name": "32-bit",
-    "count": 77
+    "count": 101
    },
    {
     "name": "mips",
-    "count": 44
+    "count": 59
    },
    {
     "name": "zip",
-    "count": 43
-   },
-   {
-    "name": "github",
-    "count": 38
+    "count": 46
    },
    {
     "name": "arm",
-    "count": 33
+    "count": 42
+   },
+   {
+    "name": "github",
+    "count": 40
    }
   ]
  },
@@ -109,76 +109,81 @@
   {
    "port": 23,
    "service": "Telnet",
-   "records": 476988,
-   "targets": 260,
-   "sources": 4544
+   "records": 1072809,
+   "targets": 287,
+   "sources": 7848
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 131410,
-   "targets": 255,
-   "sources": 4593
+   "records": 329999,
+   "targets": 291,
+   "sources": 8166
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 57609,
-   "targets": 226,
-   "sources": 4667
+   "records": 128248,
+   "targets": 254,
+   "sources": 7414
   },
   {
    "port": 16767,
    "service": null,
-   "records": 53441,
-   "targets": 15,
-   "sources": 2758
+   "records": 103229,
+   "targets": 18,
+   "sources": 3747
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 50058,
-   "targets": 254,
-   "sources": 3821
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 30405,
-   "targets": 64,
-   "sources": 1776
+   "records": 100928,
+   "targets": 288,
+   "sources": 6799
   },
   {
    "port": 2222,
    "service": null,
-   "records": 29737,
-   "targets": 241,
-   "sources": 3882
+   "records": 70869,
+   "targets": 270,
+   "sources": 5681
   },
   {
-   "port": 123,
-   "service": "NTP",
-   "records": 26556,
-   "targets": 199,
-   "sources": 1413
-  },
-  {
-   "port": 7680,
+   "port": 51413,
    "service": null,
-   "records": 22475,
-   "targets": 16,
-   "sources": 1979
+   "records": 68668,
+   "targets": 159,
+   "sources": 3241
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 20810,
-   "targets": 251,
-   "sources": 1968
+   "records": 55979,
+   "targets": 282,
+   "sources": 3834
+  },
+  {
+   "port": 123,
+   "service": "NTP",
+   "records": 51685,
+   "targets": 241,
+   "sources": 2118
+  },
+  {
+   "port": 7680,
+   "service": null,
+   "records": 48635,
+   "targets": 35,
+   "sources": 2662
   }
  ],
  "ports_date": "2026-11-16",
  "diary": [
+  {
+   "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
+   "url": "https://isc.sans.edu/diary/rss/33522",
+   "date": "2026-11-16T13:11:04+00:00"
+  },
   {
    "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
    "url": "https://isc.sans.edu/diary/rss/33520",
@@ -203,145 +208,228 @@
    "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
    "url": "https://isc.sans.edu/diary/rss/33514",
    "date": "2026-11-12T11:56:24+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
-   "url": "https://isc.sans.edu/diary/rss/33512",
-   "date": "2026-11-12T02:00:03+00:00"
   }
  ],
  "pulses": [
   {
-   "name": "Stolen webcam clips of 900+ victims feed North Korea's $400 million fake Zoom scheme",
-   "summary": "North Korean state-sponsored hackers have stolen over $400 million in cryptocurrency during the past 18 months through a sophisticated social engineering operation known as FaceStealer. The attackers compromise…",
-   "date": "2026-11-13T09:50:55+00:00",
-   "author": "AlienVault",
-   "adversary": "Lazarus Group",
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Technology",
-    "Finance"
-   ],
-   "tags": [
-    "bluenoroff",
-    "social engineering",
-    "apt38",
-    "fake video calls",
-    "north korea",
-    "cryptocurrency theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af6dd7f5c46ed2857e7d678"
-  },
-  {
-   "name": "ESXi ransomware: why it is dangerous and how to defend against it",
-   "summary": "A recent investigation revealed how adversaries systematically destroyed an organization's virtualization estate over ten days by compromising four ESXi hosts, all virtual machines, both vCenter Server Appliances, and…",
-   "date": "2026-11-13T09:50:06+00:00",
-   "author": "AlienVault",
-   "adversary": "Trial Recovery",
-   "malware": [
-    "Babuk - S0638",
-    "Babyk",
-    "Vasa Locker",
-    "LockBit",
-    "GwisinLocker",
-    "Conti - S0575"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "babuk-derived",
-    "hypervisor",
-    "cve-2021-22005",
-    "cve-2023-34048",
-    "backup destruction",
-    "trigona"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af6dd4e596db4bd8d7a709b"
-  },
-  {
-   "name": "Beware of Phishing Email Disguised as Purchase Order Confirmation Request (Xloader)",
-   "summary": "A phishing campaign distributes XLoader infostealer through emails disguised as purchase order confirmation requests. The attack chain begins with a malicious DOCX file that exploits Word's altChunk feature to execute…",
-   "date": "2026-11-13T08:07:47+00:00",
+   "name": "WardenStealer Malware: Turning AI Access into an Underground Commodity",
+   "summary": "WardenStealer is a Rust-based Windows infostealer first observed in November 2026 that specializes in stealing credentials, authentication tokens, cookies, API keys, and local AI application files targeting platforms…",
+   "date": "2026-11-16T08:13:00+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [
-    "XLoader"
+    "WardenStealer"
    ],
    "countries": [],
    "industries": [],
    "tags": [
-    "xloader",
+    "session hijacking",
     "infostealer",
-    "phishing email",
-    "rtf document",
-    "cve-2017-11882",
-    "altchunk exploitation"
+    "ai credential theft",
+    "wardenstealer",
+    "rust-based",
+    "llmjacking"
    ],
-   "url": "https://otx.alienvault.com/pulse/6af6c5535313263a193f072b"
+   "url": "https://otx.alienvault.com/pulse/6afabb0c724e4715eb97f1c1"
   },
   {
-   "name": "2026-11-12: SmartApeSG ClickFix campaign pushes CNCmachineRMS RAT",
-   "summary": "A malicious campaign utilizing SmartApeSG ClickFix (also known as BabaDeda) techniques has been observed distributing CNCmachineRMS RAT through fake CAPTCHA verification pages. The attack chain begins with compromised…",
-   "date": "2026-11-13T05:37:24+00:00",
+   "name": "Analysis of NodeLinkRAT, a New North Korea-Linked RAT Abusing Public Note Services as C2",
+   "summary": "Between September 12 and 18, 2026, a threat actor impersonating a South Korean National Assembly aide conducted spearphishing attacks against seminar attendees using honorarium payment forms as lures. The attacker…",
+   "date": "2026-11-16T08:07:49+00:00",
+   "author": "AlienVault",
+   "adversary": "Kimsuky",
+   "malware": [
+    "NodeLinkRAT",
+    "XenoRAT"
+   ],
+   "countries": [],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "spearphishing",
+    "xenorat",
+    "nodelinkrat",
+    "cyberespionage",
+    "south korea targeting",
+    "anotepad abuse"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afab9d57e1e0bda6f30aa7e"
+  },
+  {
+   "name": "The Retadup USB worm is back to spread CoffeeLoader",
+   "summary": "In August 2026, a new CoffeeLoader malware variant was identified, utilizing an NSIS-based installer that drops a patched 7z.dll file containing malicious shellcode. This version employs the Armoury packer, which has…",
+   "date": "2026-11-16T07:44:22+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [
-    "CNCmachineRMS RAT"
+    "CoffeeLoader",
+    "Retadup",
+    "SmokeLoader",
+    "Armoury"
    ],
-   "countries": [],
+   "countries": [
+    "Angola",
+    "Bolivia, Plurinational State of",
+    "France",
+    "Peru",
+    "Russian Federation"
+   ],
    "industries": [],
    "tags": [
-    "smartapesg",
-    "social engineering",
-    "cncmachinerms rat",
-    "clickfix",
-    "babadeda",
-    "hta"
+    "botnet resurrection",
+    "autoit",
+    "usb worm",
+    "autohotkey",
+    "armoury",
+    "smokeloader"
    ],
-   "url": "https://otx.alienvault.com/pulse/6af6a2141941c1adfc3963ca"
+   "url": "https://otx.alienvault.com/pulse/6afab4565b7b300512430168"
   },
   {
-   "name": "Fake Zillow pages use ClickFix NetSupport RAT to target apartment hunters",
-   "summary": "A ClickFix campaign deployed NetSupport RAT through fraudulent Zillow apartment-review pages targeting Windows users. The attack leveraged social engineering by presenting fake verification checks that copied PowerShell…",
-   "date": "2026-11-13T00:42:00+00:00",
+   "name": "Threat Overview of ARTEX Autonomous Penetration Testing Framework",
+   "summary": "ARTEX is an open-source, large language model-driven autonomous penetration testing framework that threat actors have weaponized to automate cyber intrusions from reconnaissance through data exfiltration. Since August…",
+   "date": "2026-11-14T12:50:27+00:00",
+   "author": "AlienVault",
+   "adversary": "Storm-3358",
+   "malware": [
+    "BLOODALCHEMY",
+    "WISP",
+    "vshell",
+    "AdaptixC2"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance",
+    "Government",
+    "Technology",
+    "Defense",
+    "Semiconductor",
+    "Energy"
+   ],
+   "tags": [
+    "artex",
+    "autonomous penetration testing",
+    "wisp",
+    "agentic framework",
+    "vshell",
+    "bloodalchemy"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af85913b204d5d844397582"
+  },
+  {
+   "name": "Attackers use Crypto Exchange Names to Disguise Unauthorized Sessions on 100+ ScreenConnect Servers",
+   "summary": "Between November 3 and November 13, 2026, threat actors enrolled over 2,200 fake guest sessions across 118 ScreenConnect servers belonging to 109 MSPs and organizations. The unauthorized sessions masquerade as…",
+   "date": "2026-11-14T03:45:48+00:00",
    "author": "AlienVault",
    "adversary": null,
-   "malware": [
-    "NetSupport RAT"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "clickfix",
-    "powershell",
-    "netsupport rat",
-    "apartment scam",
-    "social engineering",
-    "remote access"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af65cd84505f8125e2ca3ed"
-  },
-  {
-   "name": "Luna Moth Returns, Re-Targeting Law Firms Through Access Tokens",
-   "summary": "The extortion group Luna Moth is re-targeting law firms that previously declined to pay ransom demands, employing a novel token-based exfiltration technique. Attackers impersonate IT support via video calls, convincing…",
-   "date": "2026-11-12T20:20:35+00:00",
-   "author": "AlienVault",
-   "adversary": "Luna Moth",
    "malware": [],
    "countries": [],
    "industries": [
-    "Finance"
+    "Technology"
    ],
    "tags": [
-    "social engineering",
-    "token theft",
-    "silent ransom group",
-    "conditional access",
-    "law firms",
-    "extortion"
+    "ionos infrastructure",
+    "msp targeting",
+    "crypto exchange lure",
+    "cve-2026-84869",
+    "session hijacking",
+    "remote access trojan"
    ],
-   "url": "https://otx.alienvault.com/pulse/6af61f931cd135114986ff2c"
+   "url": "https://otx.alienvault.com/pulse/6af7d96cec6d5f884d3b30bc"
+  },
+  {
+   "name": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+   "summary": "Beginning November 11, 2026, threat actors gained unauthorized access to cloud-hosted ConnectWise ScreenConnect instances belonging to managed service providers. The attackers abuse ScreenConnect, a legitimate…",
+   "date": "2026-11-13T22:49:55+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "SCKit",
+    "RelayTrap"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "msp targeting",
+    "connectwise",
+    "technician workstation compromise",
+    "relaytrap",
+    "screenconnect",
+    "remote access trojan"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af7941347ca65a70dfca476"
+  },
+  {
+   "name": "GeoVision Camera Software Abused to Deploy XMRig Cryptominer",
+   "summary": "Widespread malicious activity was observed targeting GeoVision webcam software between November 8 and November 10, affecting ten accounts and 13 organizations across various industries. Attackers exploited publicly…",
+   "date": "2026-11-13T18:27:59+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "XMRig"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "xmrig",
+    "golang loader",
+    "camera exploitation",
+    "cryptominer",
+    "byovd",
+    "geovision"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af756af3fb9352962a1bd8f"
+  },
+  {
+   "name": "TypoPrompting: From AI Typos to Malware",
+   "summary": "Attackers leveraged 186 typosquatting domains across 27 AI brands including Claude, ChatGPT, DeepSeek, Perplexity, Midjourney, and ElevenLabs to distribute malicious payloads. Simple typing mistakes lead users to…",
+   "date": "2026-11-13T18:20:09+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Net Guard",
+    "Aurora stealer",
+    "Invalid Printer",
+    "OctoV2"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance",
+    "Technology",
+    "Healthcare",
+    "Telecommunications"
+   ],
+   "tags": [
+    "aurora stealer",
+    "typoprompting",
+    "browser hijacking",
+    "chrome extensions",
+    "net guard",
+    "octov2"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af754d99146a92e2897881f"
+  },
+  {
+   "name": "56 AWS API calls in 141 milliseconds: Inside an AI-run intrusion",
+   "summary": "Between September 30 and October 16, 2026, a CyberStrikeAI server executed a sophisticated AWS intrusion spanning four accounts using eight compromised identities. The attack featured machine-speed credential…",
+   "date": "2026-11-13T14:04:27+00:00",
+   "author": "AlienVault",
+   "adversary": "CyberStrikeAI",
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "cloud security",
+    "ssm",
+    "credential theft",
+    "api abuse",
+    "automation",
+    "aws"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6af718eb6d8fdb6cdc927201"
   },
   {
    "name": "Beyond the clipboard: The evolving tradecraft of ClickFix",
@@ -406,101 +494,13 @@
     "yuankong"
    ],
    "url": "https://otx.alienvault.com/pulse/6ad241d9f4cd3e84da0dbd3c"
-  },
-  {
-   "name": "Inside Help TDS: Hotejka, Cloudflare Pages and Predictive Detection",
-   "summary": "Since April 2017, a Russian-language affiliate program called Hotejka, believed to be a rebrand of ROI777, has operated the Help Traffic Distribution System (TDS), delivering tech support scams to victims. The operation…",
-   "date": "2026-10-16T07:29:06+00:00",
-   "author": "AlienVault",
-   "adversary": "Hotejka",
-   "malware": [
-    "UltraViewer"
-   ],
-   "countries": [
-    "United States of America",
-    "Australia",
-    "Belgium",
-    "Canada",
-    "France",
-    "Japan"
-   ],
-   "industries": [],
-   "tags": [
-    "tds infrastructure",
-    "ultraviewer",
-    "cloudflare pages abuse",
-    "tech support scams",
-    "roi777",
-    "hotejka"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad1d2421e774bf7224baf2b"
-  },
-  {
-   "name": "BREAK THE SILENCE: Tracking Silent Lynx Through Exposed Infrastructure",
-   "summary": "Silent Lynx, a persistent cyber espionage threat actor, has conducted targeted intrusion campaigns against government ministries, diplomatic missions, and civil society organizations across Central Asia since 2024. The…",
-   "date": "2026-10-16T07:21:52+00:00",
-   "author": "AlienVault",
-   "adversary": "silent lynx",
-   "malware": [
-    "Laplas",
-    "Chvost",
-    "PickleShell",
-    "SSDPShell",
-    "Ligolo-ng",
-    "Cobalt Strike - S0154"
-   ],
-   "countries": [
-    "Armenia",
-    "Azerbaijan",
-    "Belarus",
-    "Kazakhstan",
-    "Kyrgyzstan",
-    "Russian Federation"
-   ],
-   "industries": [
-    "Government",
-    "Energy",
-    "NGO"
-   ],
-   "tags": [
-    "silent lynx",
-    "chvost",
-    "laplas",
-    "cobalt strike",
-    "github staging",
-    "pickleshell"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad1d090651f974e1ec049ed"
-  },
-  {
-   "name": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
-   "summary": "An espionage campaign tracked as CL-UNK-1211 targeted government entities and state-affiliated infrastructure between October 2025 and April 2026, utilizing AI-generated payloads containing conversational annotations…",
-   "date": "2026-10-16T02:08:52+00:00",
-   "author": "AlienVault",
-   "adversary": "CL-UNK-1211",
-   "malware": [
-    "SysGoRAT"
-   ],
-   "countries": [],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "database exfiltration",
-    "sysgorat",
-    "web shells",
-    "linux",
-    "cve-2025-55182",
-    "ai-generated payloads"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad187349cefc9d2193e5cc3"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-16T08:00:49+00:00",
-  "sans": "2026-11-16T08:00:49+00:00",
-  "otx": "2026-11-16T08:00:49+00:00",
-  "urlhaus": "2026-11-16T08:00:49+00:00"
+  "threatfox": "2026-11-16T18:28:31+00:00",
+  "sans": "2026-11-16T18:28:31+00:00",
+  "otx": "2026-11-16T18:28:31+00:00",
+  "urlhaus": "2026-11-16T18:28:31+00:00"
  },
- "generated_at": "2026-11-16T08:00:49+00:00"
+ "generated_at": "2026-11-16T18:28:31+00:00"
 }
