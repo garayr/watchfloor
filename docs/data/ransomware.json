@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-16T01:14:34+00:00",
+ "generated_at": "2026-11-16T08:00:49+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "PixelLeaks",
-   "count": 20
-  },
-  {
-   "name": "thegentlemen",
-   "count": 17
+   "count": 23
   },
   {
    "name": "Curious Worm",
    "count": 12
+  },
+  {
+   "name": "thegentlemen",
+   "count": 11
   },
   {
    "name": "qilin",
@@ -25,15 +25,15 @@
    "count": 4
   },
   {
+   "name": "Aoqin",
+   "count": 3
+  },
+  {
    "name": "N0n",
    "count": 3
   },
   {
    "name": "Vexy Ransomware",
-   "count": 3
-  },
-  {
-   "name": "akira",
    "count": 3
   }
  ],
@@ -44,7 +44,7 @@
   },
   {
    "name": "Technology",
-   "count": 15
+   "count": 14
   },
   {
    "name": "Professional Services",
@@ -52,35 +52,41 @@
   },
   {
    "name": "Healthcare",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Financial Services",
    "count": 7
   },
   {
-   "name": "Government & Defense",
+   "name": "Retail & E-Commerce",
    "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 37,
    "lat": 39.0,
    "lon": -77.5
   },
   {
-   "code": "CA",
-   "count": 5,
-   "lat": 43.7,
-   "lon": -79.4
+   "code": "IN",
+   "count": 4,
+   "lat": 19.1,
+   "lon": 72.9
   },
   {
    "code": "MY",
    "count": 4,
    "lat": 3.1,
    "lon": 101.7
+  },
+  {
+   "code": "CA",
+   "count": 3,
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "DE",
@@ -125,12 +131,6 @@
    "lon": 106.8
   },
   {
-   "code": "MX",
-   "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
-  },
-  {
    "code": "SA",
    "count": 2,
    "lat": 24.7,
@@ -167,12 +167,6 @@
    "lon": -6.3
   },
   {
-   "code": "IN",
-   "count": 1,
-   "lat": 19.1,
-   "lon": 72.9
-  },
-  {
    "code": "JP",
    "count": 1,
    "lat": 35.7,
@@ -197,16 +191,16 @@
    "lon": 21.4
   },
   {
+   "code": "MX",
+   "count": 1,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "NG",
    "count": 1,
    "lat": 6.5,
    "lon": 3.4
-  },
-  {
-   "code": "PE",
-   "count": 1,
-   "lat": -12.0,
-   "lon": -77.0
   },
   {
    "code": "PH",
@@ -225,12 +219,6 @@
    "count": 1,
    "lat": 25.3,
    "lon": 51.5
-  },
-  {
-   "code": "SE",
-   "count": 1,
-   "lat": 59.3,
-   "lon": 18.1
   },
   {
    "code": "TH",
@@ -252,6 +240,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Culinary Specialties",
+   "group": "Aoqin",
+   "date": "2026-11-16T02:50:36+00:00",
+   "attack_date": "2026-11-16",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/Q3VsaW5hcnkgU3BlY2lhbHRpZXNAQW9xaW4="
+  },
+  {
+   "victim": "Michigan State University - New DL",
+   "group": "BYOD",
+   "date": "2026-11-16T00:22:06+00:00",
+   "attack_date": "2026-11-15",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/TWljaGlnYW4gU3RhdGUgVW5pdmVyc2l0eSAtIE5ldyBETEBCWU9E"
+  },
+  {
+   "victim": "Texas HHSC - Final Warning & Sample",
+   "group": "BYOD",
+   "date": "2026-11-16T00:21:46+00:00",
+   "attack_date": "2026-11-15",
+   "country": "US",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/VGV4YXMgSEhTQyAtIEZpbmFsIFdhcm5pbmcgJiBTYW1wbGVAQllPRA=="
+  },
+  {
+   "victim": "PlasmaGen Biosciences Pvt Ltd (plasmagen.co.in)",
+   "group": "PixelLeaks",
+   "date": "2026-11-15T23:14:09+00:00",
+   "attack_date": "2026-11-15",
+   "country": "IN",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/UGxhc21hR2VuIEJpb3NjaWVuY2VzIFB2dCBMdGQgKHBsYXNtYWdlbi5jby5pbilAUGl4ZWxMZWFrcw=="
+  },
+  {
+   "victim": "Connectwell Industries Pvt Ltd (connectwell.com)",
+   "group": "PixelLeaks",
+   "date": "2026-11-15T21:19:50+00:00",
+   "attack_date": "2026-11-15",
+   "country": "IN",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29ubmVjdHdlbGwgSW5kdXN0cmllcyBQdnQgTHRkIChjb25uZWN0d2VsbC5jb20pQFBpeGVsTGVha3M="
+  },
+  {
+   "victim": "Godrej & Boyce Mfg Co Ltd (Vikhroli campus systems, godrej.com)",
+   "group": "PixelLeaks",
+   "date": "2026-11-15T21:19:28+00:00",
+   "attack_date": "2026-11-15",
+   "country": "IN",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/R29kcmVqICYgQm95Y2UgTWZnIENvIEx0ZCAoVmlraHJvbGkgY2FtcHVzIHN5c3RlbXMsIGdvZHJlai5jb20pQFBpeGVsTGVha3M="
+  },
   {
    "victim": "The Heartland Construction Group",
    "group": "qilin",
@@ -836,60 +878,6 @@
    "country": "US",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/UHJvbWFudHJhLCBJbmMuQG1ldGFlbmNyeXB0b3I="
-  },
-  {
-   "victim": "Orennia",
-   "group": "thegentlemen",
-   "date": "2026-11-12T09:55:50+00:00",
-   "attack_date": "2026-11-11",
-   "country": "SE",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/T3Jlbm5pYUB0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "City of Humboldt",
-   "group": "thegentlemen",
-   "date": "2026-11-12T09:55:29+00:00",
-   "attack_date": "2026-11-11",
-   "country": "CA",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/Q2l0eSBvZiBIdW1ib2xkdEB0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "Reso Tech Laurentides",
-   "group": "thegentlemen",
-   "date": "2026-11-12T09:55:08+00:00",
-   "attack_date": "2026-11-11",
-   "country": "CA",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/UmVzbyBUZWNoIExhdXJlbnRpZGVzQHRoZWdlbnRsZW1lbg=="
-  },
-  {
-   "victim": "Darr Equipment",
-   "group": "thegentlemen",
-   "date": "2026-11-12T09:54:47+00:00",
-   "attack_date": "2026-11-11",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/RGFyciBFcXVpcG1lbnRAdGhlZ2VudGxlbWVu"
-  },
-  {
-   "victim": "Municipalidad de Cieneguilla",
-   "group": "thegentlemen",
-   "date": "2026-11-12T09:54:26+00:00",
-   "attack_date": "2026-11-11",
-   "country": "PE",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/TXVuaWNpcGFsaWRhZCBkZSBDaWVuZWd1aWxsYUB0aGVnZW50bGVtZW4="
-  },
-  {
-   "victim": "Grupo San Cristobal",
-   "group": "thegentlemen",
-   "date": "2026-11-12T09:54:05+00:00",
-   "attack_date": "2026-11-11",
-   "country": "MX",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/R3J1cG8gU2FuIENyaXN0b2JhbEB0aGVnZW50bGVtZW4="
   },
   {
    "victim": "Sielke",

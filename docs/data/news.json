@@ -41,6 +41,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+     "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which…",
+     "source": "The Hacker News",
+     "date": "2026-11-16T07:34:21+00:00",
+     "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
      "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that…",
      "source": "BleepingComputer",
@@ -126,6 +134,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+     "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity…",
+     "source": "The Hacker News",
+     "date": "2026-11-16T06:53:34+00:00",
+     "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited…",
      "source": "The Hacker News",
@@ -174,22 +190,6 @@
      "source": "The Hacker News",
      "date": "2026-11-13T05:43:28+00:00",
      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-     "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T17:50:27+00:00",
-     "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-     "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled…",
-     "source": "The Hacker News",
-     "date": "2026-11-12T16:27:01+00:00",
-     "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
      "group": "Exploited right now"
     }
    ]

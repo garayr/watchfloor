@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1687,
-  "c2_servers": 226,
+  "total_iocs": 1564,
+  "c2_servers": 264,
   "families": [
    {
     "name": "Unknown Loader",
-    "iocs": 665,
-    "c2": 1,
+    "iocs": 497,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "IClickFix",
-    "iocs": 210,
+    "iocs": 144,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "Mirai",
-    "iocs": 194,
-    "c2": 11,
+    "iocs": 134,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 177,
+    "iocs": 133,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Raven Stealer",
+    "iocs": 73,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
+   },
+   {
     "name": "Vidar",
-    "iocs": 45,
-    "c2": 45,
+    "iocs": 63,
+    "c2": 48,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "SalatStealer",
+    "iocs": 35,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+   },
+   {
     "name": "Unknown Stealer",
-    "iocs": 26,
-    "c2": 10,
+    "iocs": 30,
+    "c2": 14,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
-    "name": "WARDENStealer",
-    "iocs": 18,
-    "c2": 13,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+    "name": "Cobalt Strike",
+    "iocs": 26,
+    "c2": 26,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "php.shin_webshell",
-    "iocs": 17,
+    "name": "ValleyRAT",
+    "iocs": 21,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/php.shin_webshell"
-   },
-   {
-    "name": "RevStealer",
-    "iocs": 16,
-    "c2": 6,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.revstealer"
-   },
-   {
-    "name": "Mozi",
-    "iocs": 15,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mozi"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 737,
+  "online": 765,
   "top_tags": [
    {
     "name": "elf",
-    "count": 200
+    "count": 211
    },
    {
     "name": "ua-wget",
-    "count": 111
+    "count": 103
    },
    {
     "name": "Mozi",
-    "count": 65
+    "count": 78
    },
    {
     "name": "32-bit",
-    "count": 64
-   },
-   {
-    "name": "github",
-    "count": 47
-   },
-   {
-    "name": "zip",
-    "count": 47
-   },
-   {
-    "name": "SmartLoader",
-    "count": 38
+    "count": 77
    },
    {
     "name": "mips",
-    "count": 36
+    "count": 44
+   },
+   {
+    "name": "zip",
+    "count": 43
+   },
+   {
+    "name": "github",
+    "count": 38
+   },
+   {
+    "name": "arm",
+    "count": 33
    }
   ]
  },
@@ -109,76 +109,81 @@
   {
    "port": 23,
    "service": "Telnet",
-   "records": 2091757,
-   "targets": 292,
-   "sources": 12401
+   "records": 476988,
+   "targets": 260,
+   "sources": 4544
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 557415,
-   "targets": 303,
-   "sources": 12192
+   "records": 131410,
+   "targets": 255,
+   "sources": 4593
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 270340,
-   "targets": 321,
-   "sources": 12510
+   "records": 57609,
+   "targets": 226,
+   "sources": 4667
   },
   {
    "port": 16767,
    "service": null,
-   "records": 203146,
-   "targets": 28,
-   "sources": 5417
+   "records": 53441,
+   "targets": 15,
+   "sources": 2758
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 168087,
-   "targets": 295,
-   "sources": 7376
+   "records": 50058,
+   "targets": 254,
+   "sources": 3821
   },
   {
    "port": 51413,
    "service": null,
-   "records": 146922,
-   "targets": 208,
-   "sources": 5896
+   "records": 30405,
+   "targets": 64,
+   "sources": 1776
   },
   {
    "port": 2222,
    "service": null,
-   "records": 138287,
-   "targets": 284,
-   "sources": 8102
+   "records": 29737,
+   "targets": 241,
+   "sources": 3882
   },
   {
    "port": 123,
    "service": "NTP",
-   "records": 102372,
-   "targets": 271,
-   "sources": 4172
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 96430,
-   "targets": 287,
-   "sources": 5726
+   "records": 26556,
+   "targets": 199,
+   "sources": 1413
   },
   {
    "port": 7680,
    "service": null,
-   "records": 74921,
-   "targets": 86,
-   "sources": 2987
+   "records": 22475,
+   "targets": 16,
+   "sources": 1979
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 20810,
+   "targets": 251,
+   "sources": 1968
   }
  ],
- "ports_date": "2026-11-15",
+ "ports_date": "2026-11-16",
  "diary": [
+  {
+   "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
+   "url": "https://isc.sans.edu/diary/rss/33520",
+   "date": "2026-11-16T02:00:05+00:00"
+  },
   {
    "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
    "url": "https://isc.sans.edu/diary/rss/33496",
@@ -203,11 +208,6 @@
    "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
    "url": "https://isc.sans.edu/diary/rss/33512",
    "date": "2026-11-12T02:00:03+00:00"
-  },
-  {
-   "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
-   "url": "https://isc.sans.edu/diary/rss/33508",
-   "date": "2026-11-11T18:28:43+00:00"
   }
  ],
  "pulses": [
@@ -497,10 +497,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-16T01:14:34+00:00",
-  "sans": "2026-11-16T01:14:34+00:00",
-  "otx": "2026-11-16T01:14:34+00:00",
-  "urlhaus": "2026-11-16T01:14:34+00:00"
+  "threatfox": "2026-11-16T08:00:49+00:00",
+  "sans": "2026-11-16T08:00:49+00:00",
+  "otx": "2026-11-16T08:00:49+00:00",
+  "urlhaus": "2026-11-16T08:00:49+00:00"
  },
- "generated_at": "2026-11-16T01:14:34+00:00"
+ "generated_at": "2026-11-16T08:00:49+00:00"
 }
