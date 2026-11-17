@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T18:28:31+00:00",
+ "generated_at": "2026-11-17T01:57:24+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -6313,108 +6313,6 @@
    "history_size": 130,
    "updated": "2026-10-29T03:24:53+00:00"
   },
-  "Helix": {
-   "name": "Helix",
-   "description": null,
-   "aliases": [],
-   "first_seen": "2026-08-07",
-   "last_seen": "2026-10-17",
-   "victims_total": 12,
-   "cves": [],
-   "tools": [],
-   "techniques": [],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "US",
-      "count": 10
-     },
-     {
-      "name": "CA",
-      "count": 1
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Energy & Utilities",
-      "count": 2
-     },
-     {
-      "name": "Manufacturing",
-      "count": 2
-     },
-     {
-      "name": "Professional Services",
-      "count": 2
-     },
-     {
-      "name": "Transportation",
-      "count": 2
-     },
-     {
-      "name": "Financial Services",
-      "count": 1
-     },
-     {
-      "name": "Healthcare",
-      "count": 1
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 0
-    },
-    {
-     "month": "2026-04",
-     "count": 0
-    },
-    {
-     "month": "2026-05",
-     "count": 0
-    },
-    {
-     "month": "2026-06",
-     "count": 0
-    },
-    {
-     "month": "2026-07",
-     "count": 0
-    },
-    {
-     "month": "2026-08",
-     "count": 8
-    },
-    {
-     "month": "2026-09",
-     "count": 0
-    },
-    {
-     "month": "2026-10",
-     "count": 4
-    }
-   ],
-   "history_size": 12,
-   "updated": "2026-10-17T22:58:25+00:00"
-  },
   "cloak": {
    "name": "cloak",
    "description": "Cloak is a ransomware-as-a-service operation active since late 2022, primarily targeting small-to-medium enterprises in Europe — especially Germany — across manufacturing, healthcare, education, and government sectors, with expansion into North American and Asian targets by 2025.",
@@ -7079,8 +6977,8 @@
    "description": "Chaos is a ransomware-as-a-service operation that emerged in early 2025, likely formed by former BlackSuit/Royal members, offering cross-platform ransomware for Windows, Linux, ESXi, and NAS to affiliates recruited on the RAMP dark web forum, excluding CIS/BRICS countries and hospitals from targeting.",
    "aliases": [],
    "first_seen": "2025-02-19",
-   "last_seen": "2026-11-03",
-   "victims_total": 98,
+   "last_seen": "2026-11-16",
+   "victims_total": 100,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -7092,15 +6990,15 @@
       "count": 70
      },
      {
+      "name": "DE",
+      "count": 5
+     },
+     {
       "name": "GB",
       "count": 5
      },
      {
       "name": "CA",
-      "count": 4
-     },
-     {
-      "name": "DE",
       "count": 4
      },
      {
@@ -7119,7 +7017,7 @@
      },
      {
       "name": "Technology",
-      "count": 19
+      "count": 20
      },
      {
       "name": "Professional Services",
@@ -7130,11 +7028,11 @@
       "count": 10
      },
      {
-      "name": "Financial Services",
-      "count": 6
+      "name": "Retail & E-Commerce",
+      "count": 7
      },
      {
-      "name": "Retail & E-Commerce",
+      "name": "Financial Services",
       "count": 6
      }
     ]
@@ -7186,11 +7084,11 @@
     },
     {
      "month": "2026-11",
-     "count": 1
+     "count": 3
     }
    ],
-   "history_size": 98,
-   "updated": "2026-11-04T02:03:39+00:00"
+   "history_size": 100,
+   "updated": "2026-11-17T01:57:24+00:00"
   },
   "Falcon": {
    "name": "Falcon",
