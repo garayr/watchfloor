@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T10:12:40+00:00",
+ "generated_at": "2026-11-17T19:11:22+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -7904,8 +7904,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-17",
-   "last_seen": "2026-11-10",
-   "victims_total": 14,
+   "last_seen": "2026-11-17",
+   "victims_total": 23,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -7914,21 +7914,33 @@
     "countries": [
      {
       "name": "US",
-      "count": 13
+      "count": 20
      },
      {
       "name": "DE",
+      "count": 2
+     },
+     {
+      "name": "GB",
       "count": 1
      }
     ],
     "sectors": [
      {
       "name": "Healthcare",
-      "count": 7
+      "count": 12
      },
      {
       "name": "Manufacturing",
-      "count": 3
+      "count": 4
+     },
+     {
+      "name": "Financial Services",
+      "count": 2
+     },
+     {
+      "name": "Energy & Utilities",
+      "count": 1
      },
      {
       "name": "Hospitality",
@@ -7936,14 +7948,6 @@
      },
      {
       "name": "Professional Services",
-      "count": 1
-     },
-     {
-      "name": "Retail & E-Commerce",
-      "count": 1
-     },
-     {
-      "name": "Transportation",
       "count": 1
      }
     ]
@@ -7995,11 +7999,11 @@
     },
     {
      "month": "2026-11",
-     "count": 14
+     "count": 23
     }
    ],
-   "history_size": 14,
-   "updated": "2026-11-10T12:50:44+00:00"
+   "history_size": 23,
+   "updated": "2026-11-17T19:11:22+00:00"
   },
   "Black X": {
    "name": "Black X",
@@ -8782,6 +8786,96 @@
    ],
    "history_size": 24,
    "updated": "2026-11-16T18:28:31+00:00"
+  },
+  "Inception": {
+   "name": "Inception",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "victims_total": 5,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 5
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 2
+     },
+     {
+      "name": "Agriculture and Food Production",
+      "count": 1
+     },
+     {
+      "name": "Financial Services",
+      "count": 1
+     },
+     {
+      "name": "Technology",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 0
+    },
+    {
+     "month": "2026-11",
+     "count": 5
+    }
+   ],
+   "history_size": 5,
+   "updated": "2026-11-17T19:11:22+00:00"
   }
  }
 }
