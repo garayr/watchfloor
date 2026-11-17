@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T01:57:24+00:00",
+ "generated_at": "2026-11-17T10:12:40+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,45 +10,45 @@
   },
   {
    "name": "qilin",
-   "count": 20
+   "count": 19
   },
   {
    "name": "N0n",
    "count": 13
   },
   {
-   "name": "Curious Worm",
-   "count": 5
+   "name": "Vortex",
+   "count": 9
   },
   {
    "name": "ShadowByt3$",
    "count": 5
   },
   {
+   "name": "Curious Worm",
+   "count": 4
+  },
+  {
    "name": "metaencryptor",
    "count": 4
   },
   {
-   "name": "Vortex",
-   "count": 3
-  },
-  {
-   "name": "EndZone",
+   "name": "Aoqin",
    "count": 2
   }
  ],
  "by_sector": [
   {
-   "name": "Manufacturing",
-   "count": 17
+   "name": "Healthcare",
+   "count": 18
   },
   {
    "name": "Financial Services",
-   "count": 15
+   "count": 16
   },
   {
-   "name": "Healthcare",
-   "count": 14
+   "name": "Manufacturing",
+   "count": 16
   },
   {
    "name": "Technology",
@@ -56,7 +56,7 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 9
+   "count": 7
   },
   {
    "name": "Professional Services",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 38,
+   "count": 42,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -78,15 +78,9 @@
   },
   {
    "code": "DE",
-   "count": 5,
+   "count": 4,
    "lat": 50.1,
    "lon": 8.7
-  },
-  {
-   "code": "GB",
-   "count": 4,
-   "lat": 51.5,
-   "lon": -0.1
   },
   {
    "code": "IN",
@@ -95,10 +89,10 @@
    "lon": 72.9
   },
   {
-   "code": "MY",
+   "code": "GB",
    "count": 3,
-   "lat": 3.1,
-   "lon": 101.7
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "PH",
@@ -129,6 +123,12 @@
    "count": 2,
    "lat": -6.2,
    "lon": 106.8
+  },
+  {
+   "code": "MY",
+   "count": 2,
+   "lat": 3.1,
+   "lon": 101.7
   },
   {
    "code": "AE",
@@ -185,6 +185,12 @@
    "lon": -9.1
   },
   {
+   "code": "SA",
+   "count": 1,
+   "lat": 24.7,
+   "lon": 46.7
+  },
+  {
    "code": "VN",
    "count": 1,
    "lat": 21.0,
@@ -192,6 +198,87 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Molex (Koch) - 16,448,279 records",
+   "group": "Vortex",
+   "date": "2026-11-17T02:32:30+00:00",
+   "attack_date": "2026-11-17",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TW9sZXggKEtvY2gpIC0gMTYsNDQ4LDI3OSByZWNvcmRzQFZvcnRleA=="
+  },
+  {
+   "victim": "Mycorpass (Carrington Mortgage Services)",
+   "group": "Vortex",
+   "date": "2026-11-17T02:31:56+00:00",
+   "attack_date": "2026-11-17",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/TXljb3JwYXNzIChDYXJyaW5ndG9uIE1vcnRnYWdlIFNlcnZpY2VzKUBWb3J0ZXg="
+  },
+  {
+   "victim": "Apellis Pharmaceuticals",
+   "group": "Vortex",
+   "date": "2026-11-17T02:31:21+00:00",
+   "attack_date": "2026-11-17",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/QXBlbGxpcyBQaGFybWFjZXV0aWNhbHNAVm9ydGV4"
+  },
+  {
+   "victim": "Castle Biosciences - 2,018,234 records",
+   "group": "Vortex",
+   "date": "2026-11-17T02:30:47+00:00",
+   "attack_date": "2026-11-17",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Q2FzdGxlIEJpb3NjaWVuY2VzIC0gMiwwMTgsMjM0IHJlY29yZHNAVm9ydGV4"
+  },
+  {
+   "victim": "Caris Life Sciences - 21,432,021 records",
+   "group": "Vortex",
+   "date": "2026-11-17T02:30:12+00:00",
+   "attack_date": "2026-11-17",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/Q2FyaXMgTGlmZSBTY2llbmNlcyAtIDIxLDQzMiwwMjEgcmVjb3Jkc0BWb3J0ZXg="
+  },
+  {
+   "victim": "Owens-Minor - 57,985,343 records",
+   "group": "Vortex",
+   "date": "2026-11-17T02:29:37+00:00",
+   "attack_date": "2026-11-17",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/T3dlbnMtTWlub3IgLSA1Nyw5ODUsMzQzIHJlY29yZHNAVm9ydGV4"
+  },
+  {
+   "victim": "Instant Access",
+   "group": "netrunner",
+   "date": "2026-11-16T23:17:57+00:00",
+   "attack_date": "2026-11-16",
+   "country": "KW",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/SW5zdGFudCBBY2Nlc3NAbmV0cnVubmVy"
+  },
+  {
+   "victim": "ex********s.com",
+   "group": "Curious Worm",
+   "date": "2026-11-16T22:51:42+00:00",
+   "attack_date": "2026-11-16",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/ZXgqKioqKioqKnMuY29tQEN1cmlvdXMgV29ybQ=="
+  },
+  {
+   "victim": "Anmat Technology for Trading Co.",
+   "group": "Aoqin",
+   "date": "2026-11-16T22:50:50+00:00",
+   "attack_date": "2026-11-16",
+   "country": "SA",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/QW5tYXQgVGVjaG5vbG9neSBmb3IgVHJhZGluZyBDby5AQW9xaW4="
+  },
   {
    "victim": "risingpharma.com",
    "group": "Curious Worm",
@@ -976,24 +1063,6 @@
    "url": "https://www.ransomware.live/id/SmlhbmdzdSBIZW5nc2hlbmcgSW5mb3JtYXRpb24gVGVjaG5vbG9neSAo5rGf6IuP5oGS55ub5L%2Bh5oGv5oqA5pyvIC8gaGVuc3VuLmNvbSlAUGl4ZWxMZWFrcw=="
   },
   {
-   "victim": "Kayaku Safety Systems Malaysia Sdn Bhd",
-   "group": "qilin",
-   "date": "2026-11-14T21:36:07+00:00",
-   "attack_date": "2026-11-14",
-   "country": "MY",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/S2F5YWt1IFNhZmV0eSBTeXN0ZW1zIE1hbGF5c2lhIFNkbiBCaGRAcWlsaW4="
-  },
-  {
-   "victim": "fittleworth.com",
-   "group": "Scarlettgroup",
-   "date": "2026-11-14T18:16:18+00:00",
-   "attack_date": "2026-11-14",
-   "country": "GB",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/Zml0dGxld29ydGguY29tQFNjYXJsZXR0Z3JvdXA="
-  },
-  {
    "victim": "FINSA",
    "group": "Barracuda",
    "date": "2026-11-14T17:50:40+00:00",
@@ -1028,69 +1097,6 @@
    "country": "US",
    "sector": "Financial Services",
    "url": "https://www.ransomware.live/id/QWJzb2x1dGUgQmFpbCBCb25kc0BFbmRab25l"
-  },
-  {
-   "victim": "Grundbaulabor Trier GmbH",
-   "group": "everest",
-   "date": "2026-11-14T03:32:50+00:00",
-   "attack_date": "2026-11-14",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/R3J1bmRiYXVsYWJvciBUcmllciBHbWJIQGV2ZXJlc3Q="
-  },
-  {
-   "victim": "I****** A*****",
-   "group": "netrunner",
-   "date": "2026-11-14T01:30:50+00:00",
-   "attack_date": "2026-11-14",
-   "country": "KW",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/SSoqKioqKiBBKioqKipAbmV0cnVubmVy"
-  },
-  {
-   "victim": "K&A Industries",
-   "group": "interlock",
-   "date": "2026-11-13T22:46:01+00:00",
-   "attack_date": "2026-11-13",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/SyZBIEluZHVzdHJpZXNAaW50ZXJsb2Nr"
-  },
-  {
-   "victim": "Final Notice Before Publication",
-   "group": "everest",
-   "date": "2026-11-13T22:44:12+00:00",
-   "attack_date": "2026-11-13",
-   "country": null,
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/RmluYWwgTm90aWNlIEJlZm9yZSBQdWJsaWNhdGlvbkBldmVyZXN0"
-  },
-  {
-   "victim": "i*t*r***t.com",
-   "group": "Curious Worm",
-   "date": "2026-11-13T20:53:46+00:00",
-   "attack_date": "2026-11-13",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/aSp0KnIqKip0LmNvbUBDdXJpb3VzIFdvcm0="
-  },
-  {
-   "victim": "t**a.com",
-   "group": "Curious Worm",
-   "date": "2026-11-13T20:53:27+00:00",
-   "attack_date": "2026-11-13",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/dCoqYS5jb21AQ3VyaW91cyBXb3Jt"
-  },
-  {
-   "victim": "Frey Properties of Highland LLC",
-   "group": "play",
-   "date": "2026-11-13T20:29:46+00:00",
-   "attack_date": "2026-11-13",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/RnJleSBQcm9wZXJ0aWVzIG9mIEhpZ2hsYW5kIExMQ0BwbGF5"
   }
  ]
 }

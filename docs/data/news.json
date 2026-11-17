@@ -4,6 +4,22 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+     "summary": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-17T09:44:22+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+     "group": "Arrests, courts and policy"
+    },
+    {
+     "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+     "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-17T07:25:44+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
      "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file…",
      "source": "The Hacker News",
@@ -24,6 +40,14 @@
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+     "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-17T08:35:42+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
      "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
@@ -73,35 +97,11 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-     "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that…",
-     "source": "BleepingComputer",
-     "date": "2026-11-15T18:29:53+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "TSMC employee data breach linked to cloud provider",
-     "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-15T15:23:48+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
      "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker…",
      "source": "The Hacker News",
      "date": "2026-11-15T08:22:04+00:00",
      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-     "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as…",
-     "source": "The Hacker News",
-     "date": "2026-11-13T14:28:58+00:00",
-     "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
      "group": "Breaches and ransomware"
     }
    ]
@@ -109,6 +109,22 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+     "summary": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at…",
+     "source": "The Hacker News",
+     "date": "2026-11-17T07:12:13+00:00",
+     "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+     "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of…",
+     "source": "The Hacker News",
+     "date": "2026-11-17T05:00:34+00:00",
+     "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
      "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
@@ -185,14 +201,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
-     "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-16T09:30:04+00:00",
-     "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
      "summary": "Tor 0.4.9.17 patches several security issues, including one related to how built-in DoS protections deal with IPv6. The post Tor Updates DoS Defenses Again as Relay Attacks Continue appeared first on SecurityWeek.",
      "source": "SecurityWeek",
@@ -233,6 +241,14 @@
    "group": "Malware and campaigns",
    "items": [
     {
+     "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+     "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts…",
+     "source": "BleepingComputer",
+     "date": "2026-11-17T02:12:17+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+     "group": "Malware and campaigns"
+    },
+    {
      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
      "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the…",
      "source": "The Hacker News",
@@ -253,6 +269,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+     "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5…",
+     "source": "The Hacker News",
+     "date": "2026-11-17T06:29:27+00:00",
+     "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+     "group": "Other news"
+    },
     {
      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
      "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from…",
@@ -318,35 +342,11 @@
      "group": "Other news"
     },
     {
-     "title": "Microsoft pushes Windows emergency updates to fix activation failures",
-     "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-16T08:26:52+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
-     "group": "Other news"
-    },
-    {
      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
      "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's…",
      "source": "The Hacker News",
      "date": "2026-11-13T15:27:05+00:00",
      "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-     "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase…",
-     "source": "The Hacker News",
-     "date": "2026-11-13T13:54:20+00:00",
-     "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-     "group": "Other news"
-    },
-    {
-     "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-     "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because…",
-     "source": "The Hacker News",
-     "date": "2026-11-13T11:52:31+00:00",
-     "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
      "group": "Other news"
     }
    ]

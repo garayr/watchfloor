@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T01:57:24+00:00",
+ "generated_at": "2026-11-17T10:12:40+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -7786,8 +7786,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-09",
-   "victims_total": 3,
+   "last_seen": "2026-11-17",
+   "victims_total": 27,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -7795,18 +7795,54 @@
    "targets": {
     "countries": [
      {
-      "name": "IT",
+      "name": "US",
+      "count": 6
+     },
+     {
+      "name": "IN",
+      "count": 3
+     },
+     {
+      "name": "CN",
+      "count": 2
+     },
+     {
+      "name": "HK",
+      "count": 2
+     },
+     {
+      "name": "CH",
+      "count": 1
+     },
+     {
+      "name": "ID",
       "count": 1
      }
     ],
     "sectors": [
      {
-      "name": "Other",
-      "count": 1
+      "name": "Technology",
+      "count": 7
      },
      {
-      "name": "Technology",
-      "count": 1
+      "name": "Financial Services",
+      "count": 4
+     },
+     {
+      "name": "Healthcare",
+      "count": 4
+     },
+     {
+      "name": "Other",
+      "count": 3
+     },
+     {
+      "name": "Energy & Utilities",
+      "count": 2
+     },
+     {
+      "name": "Manufacturing",
+      "count": 2
      }
     ]
    },
@@ -7857,11 +7893,11 @@
     },
     {
      "month": "2026-11",
-     "count": 3
+     "count": 27
     }
    ],
-   "history_size": 3,
-   "updated": "2026-11-10T04:19:22+00:00"
+   "history_size": 27,
+   "updated": "2026-11-17T10:12:40+00:00"
   },
   "Vortex": {
    "name": "Vortex",

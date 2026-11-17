@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1564,
-  "c2_servers": 582,
+  "total_iocs": 1589,
+  "c2_servers": 563,
   "families": [
    {
     "name": "ClearFake",
-    "iocs": 202,
+    "iocs": 236,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
@@ -19,7 +19,7 @@
    },
    {
     "name": "Unknown Loader",
-    "iocs": 183,
+    "iocs": 181,
     "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -30,62 +30,62 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
-    "name": "Vidar",
-    "iocs": 56,
-    "c2": 50,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "Stealc",
     "iocs": 55,
     "c2": 43,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.stealc"
    },
    {
+    "name": "Vidar",
+    "iocs": 54,
+    "c2": 47,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "Mirai",
-    "iocs": 44,
+    "iocs": 49,
     "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
+    "name": "SNOWLIGHT",
+    "iocs": 35,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
+   },
+   {
     "name": "Cobalt Strike",
-    "iocs": 30,
-    "c2": 30,
+    "iocs": 24,
+    "c2": 24,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "Unknown Stealer",
-    "iocs": 28,
-    "c2": 14,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
-   },
-   {
-    "name": "Unknown RAT",
-    "iocs": 14,
-    "c2": 11,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat"
+    "name": "Coruna",
+    "iocs": 17,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/ios.coruna"
    }
   ]
  },
  "urls": {
-  "sample": 573,
-  "online": 413,
+  "sample": 791,
+  "online": 507,
   "top_tags": [
    {
     "name": "elf",
-    "count": 112
+    "count": 144
    },
    {
     "name": "github",
-    "count": 97
+    "count": 125
    },
    {
     "name": "Mozi",
-    "count": 77
+    "count": 98
    },
    {
     "name": "32-bit",
-    "count": 75
+    "count": 92
    },
    {
     "name": "SalatStealer",
@@ -93,15 +93,15 @@
    },
    {
     "name": "mips",
-    "count": 43
+    "count": 54
    },
    {
     "name": "arm",
-    "count": 33
+    "count": 44
    },
    {
     "name": "zip",
-    "count": 24
+    "count": 35
    }
   ]
  },
@@ -109,76 +109,81 @@
   {
    "port": 23,
    "service": "Telnet",
-   "records": 1072809,
-   "targets": 287,
-   "sources": 7848
+   "records": 823896,
+   "targets": 293,
+   "sources": 7771
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 329999,
-   "targets": 291,
-   "sources": 8166
+   "records": 472231,
+   "targets": 293,
+   "sources": 8629
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 128248,
-   "targets": 254,
-   "sources": 7414
+   "records": 164270,
+   "targets": 268,
+   "sources": 9376
   },
   {
    "port": 16767,
    "service": null,
-   "records": 103229,
-   "targets": 18,
-   "sources": 3747
+   "records": 137371,
+   "targets": 21,
+   "sources": 4218
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 100928,
-   "targets": 288,
-   "sources": 6799
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 70869,
-   "targets": 270,
-   "sources": 5681
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 68668,
-   "targets": 159,
-   "sources": 3241
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 55979,
-   "targets": 282,
-   "sources": 3834
-  },
-  {
-   "port": 123,
-   "service": "NTP",
-   "records": 51685,
-   "targets": 241,
-   "sources": 2118
+   "records": 96607,
+   "targets": 279,
+   "sources": 5420
   },
   {
    "port": 7680,
    "service": null,
-   "records": 48635,
-   "targets": 35,
-   "sources": 2662
+   "records": 69765,
+   "targets": 61,
+   "sources": 3049
+  },
+  {
+   "port": 123,
+   "service": "NTP",
+   "records": 62877,
+   "targets": 250,
+   "sources": 2291
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 62077,
+   "targets": 44,
+   "sources": 3043
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 50835,
+   "targets": 283,
+   "sources": 5502
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 48458,
+   "targets": 280,
+   "sources": 3876
   }
  ],
- "ports_date": "2026-11-16",
+ "ports_date": "2026-11-17",
  "diary": [
+  {
+   "title": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
+   "url": "https://isc.sans.edu/diary/rss/33524",
+   "date": "2026-11-17T02:05:15+00:00"
+  },
   {
    "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
    "url": "https://isc.sans.edu/diary/rss/33522",
@@ -203,14 +208,128 @@
    "title": "ISC Stormcast For Friday, November 13th, 2026 https://isc.sans.edu/podcastdetail/10178, (Fri, Nov 13th)",
    "url": "https://isc.sans.edu/diary/rss/33516",
    "date": "2026-11-13T02:00:03+00:00"
-  },
-  {
-   "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-   "url": "https://isc.sans.edu/diary/rss/33514",
-   "date": "2026-11-12T11:56:24+00:00"
   }
  ],
  "pulses": [
+  {
+   "name": "Beyond Optimizely: Malicious Scripts Traced Across Four Web Services",
+   "summary": "An investigation documents malicious JavaScript delivered through four web services: Optimizely, Kissmetrics, StorifyMe, and minute-ly. Optimizely confirmed attackers exploited a vulnerability in its Experimentation…",
+   "date": "2026-11-17T08:15:30+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "DarkSword",
+    "Coruna"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance",
+    "Media",
+    "Technology",
+    "Transportation",
+    "Retail",
+    "Healthcare"
+   ],
+   "tags": [
+    "coruna",
+    "supply chain attack",
+    "darksword",
+    "web services compromise",
+    "optimizely",
+    "javascript injection"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afc0d22dddc5e2e49356d47"
+  },
+  {
+   "name": "Fake crypto-wallet downloads used to deploy ScreenConnect remote access software",
+   "summary": "A sophisticated attack campaign is targeting cryptocurrency users, particularly those utilizing hardware wallets. The attackers employ deceptive ZIP files containing malicious BAT scripts, masquerading as legitimate…",
+   "date": "2026-11-17T02:00:11+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "cryptocurrency",
+    "financial fraud",
+    "screenconnect",
+    "phishing",
+    "hardware wallet"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afbb52bb532a8221df13dd9"
+  },
+  {
+   "name": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
+   "summary": "A sophisticated multi-stage cyberespionage campaign has been targeting Southeast Asian government entities since July 2025. The activity features two previously undocumented custom remote access Trojans: PerfectPioneer…",
+   "date": "2026-11-17T01:25:05+00:00",
+   "author": "AlienVault",
+   "adversary": "TGR-STA-0049",
+   "malware": [
+    "PerfectPioneer RAT",
+    "KUKURAT",
+    "Squidoor",
+    "FINALDRAFT",
+    "ASPXSpy - S0073",
+    "ASPXTool"
+   ],
+   "countries": [
+    "Myanmar"
+   ],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "cyberespionage",
+    "quic",
+    "ref7707",
+    "squidoor",
+    "kukurat",
+    "finaldraft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afbacf126eac7bcf7b10a59"
+  },
+  {
+   "name": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+   "summary": "On November 13, 2026, a coordinated high-volume phishing campaign targeted organizations worldwide across multiple sectors. Threat actors disguised emails as legitimate Microsoft 365 service-health notifications…",
+   "date": "2026-11-17T01:25:04+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "service notification spoofing",
+    "microsoft 365 impersonation",
+    "social engineering",
+    "phishing",
+    "credential theft"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afbacf0488bbec09c3d11ed"
+  },
+  {
+   "name": "CVE-2026-84869 in ScreenConnect Exploited to Run Malicious Files on MSP Technician Accounts",
+   "summary": "A critical vulnerability in ConnectWise ScreenConnect (CVE-2026-84869, CVSS 9.9) allows malicious guests in remote sessions to push files to technician workstations and execute them with elevated privileges without…",
+   "date": "2026-11-16T21:10:59+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "SCKit"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "sckit",
+    "file-transfer exploitation",
+    "screenconnect",
+    "cve-2026-84869",
+    "remote access abuse"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afb71630acda8057ec487b6"
+  },
   {
    "name": "WardenStealer Malware: Turning AI Access into an Underground Commodity",
    "summary": "WardenStealer is a Rust-based Windows infostealer first observed in November 2026 that specializes in stealing credentials, authentication tokens, cookies, API keys, and local AI application files targeting platforms…",
@@ -382,125 +501,13 @@
     "geovision"
    ],
    "url": "https://otx.alienvault.com/pulse/6af756af3fb9352962a1bd8f"
-  },
-  {
-   "name": "TypoPrompting: From AI Typos to Malware",
-   "summary": "Attackers leveraged 186 typosquatting domains across 27 AI brands including Claude, ChatGPT, DeepSeek, Perplexity, Midjourney, and ElevenLabs to distribute malicious payloads. Simple typing mistakes lead users to…",
-   "date": "2026-11-13T18:20:09+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Net Guard",
-    "Aurora stealer",
-    "Invalid Printer",
-    "OctoV2"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance",
-    "Technology",
-    "Healthcare",
-    "Telecommunications"
-   ],
-   "tags": [
-    "aurora stealer",
-    "typoprompting",
-    "browser hijacking",
-    "chrome extensions",
-    "net guard",
-    "octov2"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af754d99146a92e2897881f"
-  },
-  {
-   "name": "56 AWS API calls in 141 milliseconds: Inside an AI-run intrusion",
-   "summary": "Between September 30 and October 16, 2026, a CyberStrikeAI server executed a sophisticated AWS intrusion spanning four accounts using eight compromised identities. The attack featured machine-speed credential…",
-   "date": "2026-11-13T14:04:27+00:00",
-   "author": "AlienVault",
-   "adversary": "CyberStrikeAI",
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "cloud security",
-    "ssm",
-    "credential theft",
-    "api abuse",
-    "automation",
-    "aws"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af718eb6d8fdb6cdc927201"
-  },
-  {
-   "name": "Beyond the clipboard: The evolving tradecraft of ClickFix",
-   "summary": "Threat actors continue to evolve ClickFix tactics, moving beyond simple clipboard-based social engineering to more sophisticated attack chains. Recent campaigns leverage malvertising through typosquatting, SEO…",
-   "date": "2026-11-10T14:44:38+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "DuskDesk",
-    "Matanbuchus",
-    "AstarionRAT",
-    "Potemkin",
-    "RMMProject",
-    "EtherRAT"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "typosquatting",
-    "etherrat",
-    "rat",
-    "lateral movement",
-    "matanbuchus",
-    "astarionrat"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37"
-  },
-  {
-   "name": "CVE-2026-88771: Inside the Exploitation of a Critical NetScaler RCE Vulnerability",
-   "summary": "On September 27, 2026, Citrix disclosed CVE-2026-88771, a critical remote code execution vulnerability affecting NetScaler Application Delivery Controller and NetScaler Gateway with a CVSS score of 9.8. The…",
-   "date": "2026-10-17T01:06:08+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "rce vulnerability",
-    "netscaler",
-    "freebsd implant",
-    "zero-day exploitation",
-    "web shells",
-    "cve-2026-88771"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad2ca008bd3199ee7bb0b83"
-  },
-  {
-   "name": "YuanKong RAT: the Android remote-control service that stamps its operators' names into every build",
-   "summary": "YuanKong is a multi-tenant Android remote access trojan whose dropper stores decryption keys in cleartext configuration files. The malware uses a two-key XOR scheme to unpack payloads signed with a shared certificate…",
-   "date": "2026-10-16T15:25:13+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "YuanKong"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "overlay-attack",
-    "android",
-    "adb-escalation",
-    "yuankong"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ad241d9f4cd3e84da0dbd3c"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-17T01:57:24+00:00",
-  "sans": "2026-11-17T01:57:24+00:00",
-  "otx": "2026-11-17T01:57:24+00:00",
-  "urlhaus": "2026-11-17T01:57:24+00:00"
+  "threatfox": "2026-11-17T10:12:40+00:00",
+  "sans": "2026-11-17T10:12:40+00:00",
+  "otx": "2026-11-17T10:12:40+00:00",
+  "urlhaus": "2026-11-17T10:12:40+00:00"
  },
- "generated_at": "2026-11-17T01:57:24+00:00"
+ "generated_at": "2026-11-17T10:12:40+00:00"
 }
