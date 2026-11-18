@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T01:35:50+00:00",
+ "generated_at": "2026-11-18T09:06:39+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -498,23 +498,23 @@
    "description": "Brain Cipher emerged in July 2024. Both Windows and Linux variants are available. Brain Cipher using the leaked build of LockBit Black for their operations. The group suspected to have exploited CVE-2023-28252 (Microsoft Windows CLFS Driver Privilege Escalation Vulnerability). The Ransom demand ranges from $150,000 to $1,00,0000. Demand to be paid with Monero (XMR) cryptocurrency. In 2025, they have shifted their new Negotiation portal to new server with vanity TOR Domain starting with 'brain'.",
    "aliases": [],
    "first_seen": "2024-07-01",
-   "last_seen": "2026-11-04",
-   "victims_total": 109,
+   "last_seen": "2026-11-17",
+   "victims_total": 114,
    "cves": [],
    "tools": [],
    "techniques": [
     "User Execution",
     "Indicator Removal: File Deletion",
-    "Impair Defenses: Disable or Modify Tools",
     "File and Directory Discovery",
-    "Data Encrypted for Impact"
+    "Data Encrypted for Impact",
+    "Disable or Modify Tools"
    ],
    "links": [],
    "targets": {
     "countries": [
      {
       "name": "US",
-      "count": 39
+      "count": 40
      },
      {
       "name": "CA",
@@ -525,22 +525,22 @@
       "count": 10
      },
      {
+      "name": "DE",
+      "count": 5
+     },
+     {
       "name": "ES",
       "count": 5
      },
      {
       "name": "FR",
       "count": 5
-     },
-     {
-      "name": "MX",
-      "count": 4
      }
     ],
     "sectors": [
      {
       "name": "Professional Services",
-      "count": 30
+      "count": 32
      },
      {
       "name": "Technology",
@@ -548,11 +548,11 @@
      },
      {
       "name": "Healthcare",
-      "count": 12
+      "count": 14
      },
      {
       "name": "Manufacturing",
-      "count": 11
+      "count": 12
      },
      {
       "name": "Financial Services",
@@ -611,11 +611,11 @@
     },
     {
      "month": "2026-11",
-     "count": 11
+     "count": 16
     }
    ],
-   "history_size": 109,
-   "updated": "2026-11-04T22:36:52+00:00"
+   "history_size": 114,
+   "updated": "2026-11-18T09:06:39+00:00"
   },
   "emperador": {
    "name": "emperador",

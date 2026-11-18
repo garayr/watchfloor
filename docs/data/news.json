@@ -4,11 +4,11 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
-     "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
-     "summary": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards. The post California Sues OpenAI, Seeking Court-Ordered Changes After…",
-     "source": "SecurityWeek",
-     "date": "2026-11-17T12:00:00+00:00",
-     "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
+     "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+     "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-18T08:24:18+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
      "group": "Arrests, courts and policy"
     },
     {
@@ -26,20 +26,28 @@
      "date": "2026-11-17T07:25:44+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-     "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file…",
-     "source": "The Hacker News",
-     "date": "2026-11-16T12:33:18+00:00",
-     "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+     "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned…",
+     "source": "The Hacker News",
+     "date": "2026-11-18T06:45:26+00:00",
+     "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+     "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in…",
+     "source": "The Hacker News",
+     "date": "2026-11-18T05:58:04+00:00",
+     "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
      "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
@@ -95,20 +103,36 @@
      "date": "2026-11-17T08:35:42+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-     "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which…",
-     "source": "The Hacker News",
-     "date": "2026-11-16T07:34:21+00:00",
-     "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Oracle Patches 640 Vulnerabilities With November 2026 CSPU",
+     "summary": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws. The post Oracle Patches 640 Vulnerabilities With November 2026 CSPU appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-18T08:47:18+00:00",
+     "url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+     "summary": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of…",
+     "source": "SecurityWeek",
+     "date": "2026-11-18T07:43:34+00:00",
+     "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+     "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this…",
+     "source": "The Hacker News",
+     "date": "2026-11-18T04:27:41+00:00",
+     "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
      "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins…",
@@ -150,27 +174,11 @@
      "group": "Exploited right now"
     },
     {
-     "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
-     "summary": "The patches target recently disclosed zero-days, as well as vulnerabilities already exploited in the wild. The post N-able Kills Legacy APIs, Patches 17 N-central Zero-Days appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-17T12:28:45+00:00",
-     "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
      "summary": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17…",
      "source": "The Hacker News",
      "date": "2026-11-17T12:14:36+00:00",
      "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
-     "summary": "Affected organizations include BBC, CNN, Zoom, GitLab, Salesforce, Equifax, HSBC, and IKEA. The post Optimizely Vulnerability Exploited to Serve Malware on Major Websites appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-17T10:22:20+00:00",
-     "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
      "group": "Exploited right now"
     },
     {
@@ -187,14 +195,6 @@
      "source": "The Hacker News",
      "date": "2026-11-17T05:00:34+00:00",
      "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-     "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-16T21:31:44+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
      "group": "Exploited right now"
     },
     {
@@ -265,20 +265,20 @@
      "date": "2026-11-17T02:12:17+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-     "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the…",
-     "source": "The Hacker News",
-     "date": "2026-11-16T09:32:57+00:00",
-     "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+     "summary": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency. The post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says…",
+     "source": "SecurityWeek",
+     "date": "2026-11-18T02:15:07+00:00",
+     "url": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
+     "group": "Other news"
+    },
     {
      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
      "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",

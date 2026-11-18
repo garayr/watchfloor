@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T01:35:50+00:00",
+ "generated_at": "2026-11-18T09:06:39+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,18 +10,14 @@
   },
   {
    "name": "qilin",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Vortex",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Booba Project",
-   "count": 6
-  },
-  {
-   "name": "PixelLeaks",
    "count": 6
   },
   {
@@ -35,12 +31,16 @@
   {
    "name": "Aoqin",
    "count": 4
+  },
+  {
+   "name": "BrainCipher",
+   "count": 4
   }
  ],
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 22
+   "count": 21
   },
   {
    "name": "Manufacturing",
@@ -52,21 +52,21 @@
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 7
+   "count": 8
+  },
+  {
+   "name": "Financial Services",
+   "count": 5
   },
   {
    "name": "Other",
-   "count": 6
-  },
-  {
-   "name": "Professional Services",
    "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 42,
+   "count": 45,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -87,12 +87,6 @@
    "count": 3,
    "lat": -33.9,
    "lon": 151.2
-  },
-  {
-   "code": "IN",
-   "count": 3,
-   "lat": 19.1,
-   "lon": 72.9
   },
   {
    "code": "AE",
@@ -119,6 +113,12 @@
    "lon": 12.5
   },
   {
+   "code": "MX",
+   "count": 2,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "PH",
    "count": 2,
    "lat": 14.6,
@@ -143,22 +143,10 @@
    "lon": -46.6
   },
   {
-   "code": "CN",
-   "count": 1,
-   "lat": 39.9,
-   "lon": 116.4
-  },
-  {
    "code": "FR",
    "count": 1,
    "lat": 48.9,
    "lon": 2.35
-  },
-  {
-   "code": "ID",
-   "count": 1,
-   "lat": -6.2,
-   "lon": 106.8
   },
   {
    "code": "IE",
@@ -177,12 +165,6 @@
    "count": 1,
    "lat": 29.4,
    "lon": 48.0
-  },
-  {
-   "code": "MX",
-   "count": 1,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "MY",
@@ -228,6 +210,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Mnfhs",
+   "group": "Helix",
+   "date": "2026-11-18T02:51:10+00:00",
+   "attack_date": "2026-11-18",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TW5maHNASGVsaXg="
+  },
+  {
+   "victim": "Meridian Capital Group",
+   "group": "qilin",
+   "date": "2026-11-18T01:23:36+00:00",
+   "attack_date": "2026-11-18",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/TWVyaWRpYW4gQ2FwaXRhbCBHcm91cEBxaWxpbg=="
+  },
+  {
+   "victim": "KDBS Solutions (client hosting)",
+   "group": "PixelLeaks",
+   "date": "2026-11-18T01:07:38+00:00",
+   "attack_date": "2026-11-18",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/S0RCUyBTb2x1dGlvbnMgKGNsaWVudCBob3N0aW5nKUBQaXhlbExlYWtz"
+  },
+  {
+   "victim": "Proymoda (proymoda.com.mx)",
+   "group": "PixelLeaks",
+   "date": "2026-11-18T01:07:18+00:00",
+   "attack_date": "2026-11-18",
+   "country": "MX",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/UHJveW1vZGEgKHByb3ltb2RhLmNvbS5teClAUGl4ZWxMZWFrcw=="
+  },
+  {
+   "victim": "Veritiv",
+   "group": "Helix",
+   "date": "2026-11-18T00:51:25+00:00",
+   "attack_date": "2026-11-18",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/VmVyaXRpdkBIZWxpeA=="
+  },
+  {
+   "victim": "Drive Medical - 1,442,814 records",
+   "group": "Vortex",
+   "date": "2026-11-17T23:08:12+00:00",
+   "attack_date": "2026-11-17",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/RHJpdmUgTWVkaWNhbCAtIDEsNDQyLDgxNCByZWNvcmRzQFZvcnRleA=="
+  },
   {
    "victim": "Sonoco",
    "group": "Helix",
@@ -967,15 +1003,6 @@
    "url": "https://www.ransomware.live/id/QkhJQyBCb2ZvcnMgQXNpYUBpbmNyYW5zb20="
   },
   {
-   "victim": "The Mandrel Group",
-   "group": "akira",
-   "date": "2026-11-16T13:25:36+00:00",
-   "attack_date": "2026-11-16",
-   "country": null,
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/VGhlIE1hbmRyZWwgR3JvdXBAYWtpcmE="
-  },
-  {
    "victim": "SRM Technologies",
    "group": "metaencryptor",
    "date": "2026-11-16T08:39:11+00:00",
@@ -1082,51 +1109,6 @@
    "country": "US",
    "sector": "Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/Q3VsaW5hcnkgU3BlY2lhbHRpZXNAQW9xaW4="
-  },
-  {
-   "victim": "PlasmaGen Biosciences Pvt Ltd (plasmagen.co.in)",
-   "group": "PixelLeaks",
-   "date": "2026-11-15T23:14:09+00:00",
-   "attack_date": "2026-11-15",
-   "country": "IN",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/UGxhc21hR2VuIEJpb3NjaWVuY2VzIFB2dCBMdGQgKHBsYXNtYWdlbi5jby5pbilAUGl4ZWxMZWFrcw=="
-  },
-  {
-   "victim": "Connectwell Industries Pvt Ltd (connectwell.com)",
-   "group": "PixelLeaks",
-   "date": "2026-11-15T21:19:50+00:00",
-   "attack_date": "2026-11-15",
-   "country": "IN",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29ubmVjdHdlbGwgSW5kdXN0cmllcyBQdnQgTHRkIChjb25uZWN0d2VsbC5jb20pQFBpeGVsTGVha3M="
-  },
-  {
-   "victim": "Godrej & Boyce Mfg Co Ltd (Vikhroli campus systems, godrej.com)",
-   "group": "PixelLeaks",
-   "date": "2026-11-15T21:19:28+00:00",
-   "attack_date": "2026-11-15",
-   "country": "IN",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/R29kcmVqICYgQm95Y2UgTWZnIENvIEx0ZCAoVmlraHJvbGkgY2FtcHVzIHN5c3RlbXMsIGdvZHJlai5jb20pQFBpeGVsTGVha3M="
-  },
-  {
-   "victim": "PT. Fiber Networks Indonesia (AltosDLP surveillance platform, fiber.net.id)",
-   "group": "PixelLeaks",
-   "date": "2026-11-15T09:06:32+00:00",
-   "attack_date": "2026-11-15",
-   "country": "ID",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/UFQuIEZpYmVyIE5ldHdvcmtzIEluZG9uZXNpYSAoQWx0b3NETFAgc3VydmVpbGxhbmNlIHBsYXRmb3JtLCBmaWJlci5uZXQuaWQpQFBpeGVsTGVha3M="
-  },
-  {
-   "victim": "Huangshi Medical Laboratory (黄石医养医学检验) / Ezong Medical Group x Getein JV",
-   "group": "PixelLeaks",
-   "date": "2026-11-15T09:06:11+00:00",
-   "attack_date": "2026-11-15",
-   "country": "CN",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/SHVhbmdzaGkgTWVkaWNhbCBMYWJvcmF0b3J5ICjpu4Tnn7PljLvlhbvljLvlrabmo4DpqowpIC8gRXpvbmcgTWVkaWNhbCBHcm91cCB4IEdldGVpbiBKVkBQaXhlbExlYWtz"
   }
  ]
 }

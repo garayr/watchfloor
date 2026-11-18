@@ -2,32 +2,32 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1344,
-  "c2_servers": 481,
+  "total_iocs": 1334,
+  "c2_servers": 483,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 164,
+    "iocs": 146,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
+    "name": "Mirai",
+    "iocs": 138,
+    "c2": 9,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 156,
+    "iocs": 128,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 84,
-    "c2": 3,
+    "iocs": 85,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
-    "name": "Mirai",
-    "iocs": 56,
-    "c2": 5,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "StrelaStealer",
@@ -37,20 +37,26 @@
    },
    {
     "name": "Vidar",
-    "iocs": 52,
+    "iocs": 51,
     "c2": 46,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "AsyncRAT",
+    "iocs": 43,
+    "c2": 34,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
     "name": "Cobalt Strike",
-    "iocs": 37,
-    "c2": 37,
+    "iocs": 41,
+    "c2": 41,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "VShell",
     "iocs": 28,
-    "c2": 6,
+    "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
@@ -58,127 +64,126 @@
     "iocs": 27,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla"
-   },
-   {
-    "name": "stealler",
-    "iocs": 27,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/py.stealler"
    }
   ]
  },
  "urls": {
-  "sample": 712,
-  "online": 505,
+  "sample": 1000,
+  "online": 785,
   "top_tags": [
    {
     "name": "github",
-    "count": 236
+    "count": 354
    },
    {
     "name": "js",
-    "count": 126
-   },
-   {
-    "name": "elf",
-    "count": 117
+    "count": 338
    },
    {
     "name": "VSCode",
-    "count": 98
-   },
-   {
-    "name": "Mozi",
-    "count": 64
-   },
-   {
-    "name": "DEVBOX",
-    "count": 60
-   },
-   {
-    "name": "32-bit",
-    "count": 58
+    "count": 282
    },
    {
     "name": "DEVPOPPER",
-    "count": 58
+    "count": 174
+   },
+   {
+    "name": "TxDataHiding",
+    "count": 174
+   },
+   {
+    "name": "DEVBOX",
+    "count": 164
+   },
+   {
+    "name": "elf",
+    "count": 145
+   },
+   {
+    "name": "ua-wget",
+    "count": 61
    }
   ]
  },
  "ports": [
   {
-   "port": 23,
-   "service": "Telnet",
-   "records": 823896,
-   "targets": 293,
-   "sources": 7771
-  },
-  {
    "port": 22,
    "service": "SSH",
-   "records": 472231,
-   "targets": 293,
-   "sources": 8629
+   "records": 329631,
+   "targets": 291,
+   "sources": 7587
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 164270,
-   "targets": 268,
-   "sources": 9376
+   "records": 141478,
+   "targets": 258,
+   "sources": 8476
   },
   {
-   "port": 16767,
-   "service": null,
-   "records": 137371,
-   "targets": 21,
-   "sources": 4218
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 96607,
-   "targets": 279,
-   "sources": 5420
-  },
-  {
-   "port": 7680,
-   "service": null,
-   "records": 69765,
-   "targets": 61,
-   "sources": 3049
-  },
-  {
-   "port": 123,
-   "service": "NTP",
-   "records": 62877,
-   "targets": 250,
-   "sources": 2291
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 62077,
-   "targets": 44,
-   "sources": 3043
+   "port": 23,
+   "service": "Telnet",
+   "records": 122625,
+   "targets": 289,
+   "sources": 6506
   },
   {
    "port": 2222,
    "service": null,
-   "records": 50835,
-   "targets": 283,
-   "sources": 5502
+   "records": 104115,
+   "targets": 272,
+   "sources": 4433
   },
   {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 48458,
-   "targets": 280,
-   "sources": 3876
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 101072,
+   "targets": 297,
+   "sources": 5591
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 93123,
+   "targets": 20,
+   "sources": 3840
+  },
+  {
+   "port": 7680,
+   "service": null,
+   "records": 45390,
+   "targets": 37,
+   "sources": 2737
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 43131,
+   "targets": 43,
+   "sources": 2676
+  },
+  {
+   "port": 123,
+   "service": "NTP",
+   "records": 43130,
+   "targets": 266,
+   "sources": 2310
+  },
+  {
+   "port": 137,
+   "service": null,
+   "records": 34714,
+   "targets": 195,
+   "sources": 406
   }
  ],
- "ports_date": "2026-11-17",
+ "ports_date": "2026-11-18",
  "diary": [
+  {
+   "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
+   "url": "https://isc.sans.edu/diary/rss/33528",
+   "date": "2026-11-18T02:00:03+00:00"
+  },
   {
    "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
    "url": "https://isc.sans.edu/diary/rss/33526",
@@ -203,14 +208,141 @@
    "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
    "url": "https://isc.sans.edu/diary/rss/33496",
    "date": "2026-11-15T18:17:27+00:00"
-  },
-  {
-   "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
-   "url": "https://isc.sans.edu/diary/rss/33518",
-   "date": "2026-11-13T03:41:41+00:00"
   }
  ],
  "pulses": [
+  {
+   "name": "Hackers Exploit Critical ScreenConnect Flaw to Silently Run Malware on MSP Technicians' Computers",
+   "summary": "Attackers are exploiting CVE-2026-84869, a critical vulnerability in ScreenConnect with a CVSS score of 9.9, to execute malicious files on managed service provider technician workstations without user confirmation. The…",
+   "date": "2026-11-18T07:58:02+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "SCKit"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "cve-2026-84869",
+    "file transfer abuse",
+    "screenconnect",
+    "sckit",
+    "msp",
+    "technician compromise"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afd5a8a1dc37870181386de"
+  },
+  {
+   "name": "Microsoft’s agent-framework PyPI package Compromised with Credential Stealer",
+   "summary": "Microsoft's agent-framework package on PyPI was compromised on November 17th, with versions 1.26.1 and 1.26.2 containing malicious code. Both versions install Python startup hooks through.pth files that silently execute…",
+   "date": "2026-11-18T04:22:33+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "github-actions",
+    "cloud-credentials",
+    "credential-theft",
+    "startup-hooks",
+    "pypi-compromise",
+    "data-exfiltration"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afd28092f3aa69ab72ff6d9"
+  },
+  {
+   "name": "Amazon job offer promises $5,000 a month, but it has got all the signs of a scam",
+   "summary": "Multiple fraudulent websites are advertising fake remote assistant positions using Amazon-like branding and domain names, promising up to $5,000 monthly. These sites, registered between July and October through the same…",
+   "date": "2026-11-17T15:14:15+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "phishing",
+    "parcel mule",
+    "employment scam",
+    "amazon impersonation",
+    "identity theft",
+    "fake recruitment"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afc6f47b1a4561557f1a652"
+  },
+  {
+   "name": "AI Agents Targeted Through Malicious GitHub Repositories",
+   "summary": "A sophisticated malware campaign has been discovered that targets developers using AI coding assistants through compromised GitHub repositories. The attack exploits configuration files and instruction documents that AI…",
+   "date": "2026-11-17T15:14:14+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "ai coding assistants",
+    "developer tools",
+    "github",
+    "credential theft",
+    "supply chain attack",
+    "autonomous agents"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afc6f463588da4e08ab1204"
+  },
+  {
+   "name": "Optimizely Attack Hits Zoom, BBC, CNN With Skimmer, iOS Kits",
+   "summary": "On November 16, 2026, attackers exploited a vulnerability in Optimizely's Experimentation product to inject malicious JavaScript into 188 customer projects, affecting major organizations including Zoom, BBC, CNN, IKEA…",
+   "date": "2026-11-17T14:29:21+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Coruna",
+    "DarkSword"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance",
+    "Technology",
+    "Retail",
+    "Media",
+    "Telecommunications",
+    "Transportation"
+   ],
+   "tags": [
+    "payment card skimmer",
+    "coruna kit",
+    "third-party javascript",
+    "cdn compromise",
+    "darksword kit",
+    "coruna"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afc64c10725d6ed55140f7e"
+  },
+  {
+   "name": "Threat Researcher’s Notebook: BubbleLoader",
+   "summary": "BubbleLoader is an evolving loader actively used in recent attack campaigns to deliver secondary malicious payloads. It hijacks common benign software such as WinRAR, x64dbg, Windows Media Player, Firefox Launcher, and…",
+   "date": "2026-11-17T14:16:36+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "BubbleLoader"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "runtime polymorphism",
+    "loader",
+    "anti-forensics",
+    "png steganography",
+    "entry point patching",
+    "reflective loading"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afc61c46fe947aa765b59ec"
+  },
   {
    "name": "Detected Exploitation of CVE-2026-90436 against Atlassian Confluence Data Center, N-able N-central also Exploited",
    "summary": "On November 6, 2026, the Apache Software Foundation disclosed CVE-2026-90436, a critical unsafe reflection vulnerability in Apache Axis 1.x that enables unauthenticated remote code execution. The vulnerability affects…",
@@ -373,146 +505,13 @@
     "javascript injection"
    ],
    "url": "https://otx.alienvault.com/pulse/6afc0d22dddc5e2e49356d47"
-  },
-  {
-   "name": "Fake crypto-wallet downloads used to deploy ScreenConnect remote access software",
-   "summary": "A sophisticated attack campaign is targeting cryptocurrency users, particularly those utilizing hardware wallets. The attackers employ deceptive ZIP files containing malicious BAT scripts, masquerading as legitimate…",
-   "date": "2026-11-17T02:00:11+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "cryptocurrency",
-    "financial fraud",
-    "screenconnect",
-    "phishing",
-    "hardware wallet"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afbb52bb532a8221df13dd9"
-  },
-  {
-   "name": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
-   "summary": "A sophisticated multi-stage cyberespionage campaign has been targeting Southeast Asian government entities since July 2025. The activity features two previously undocumented custom remote access Trojans: PerfectPioneer…",
-   "date": "2026-11-17T01:25:05+00:00",
-   "author": "AlienVault",
-   "adversary": "TGR-STA-0049",
-   "malware": [
-    "PerfectPioneer RAT",
-    "KUKURAT",
-    "Squidoor",
-    "FINALDRAFT",
-    "ASPXSpy - S0073",
-    "ASPXTool"
-   ],
-   "countries": [
-    "Myanmar"
-   ],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "cyberespionage",
-    "quic",
-    "ref7707",
-    "squidoor",
-    "kukurat",
-    "finaldraft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afbacf126eac7bcf7b10a59"
-  },
-  {
-   "name": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
-   "summary": "On November 13, 2026, a coordinated high-volume phishing campaign targeted organizations worldwide across multiple sectors. Threat actors disguised emails as legitimate Microsoft 365 service-health notifications…",
-   "date": "2026-11-17T01:25:04+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "service notification spoofing",
-    "microsoft 365 impersonation",
-    "social engineering",
-    "phishing",
-    "credential theft"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afbacf0488bbec09c3d11ed"
-  },
-  {
-   "name": "CVE-2026-84869 in ScreenConnect Exploited to Run Malicious Files on MSP Technician Accounts",
-   "summary": "A critical vulnerability in ConnectWise ScreenConnect (CVE-2026-84869, CVSS 9.9) allows malicious guests in remote sessions to push files to technician workstations and execute them with elevated privileges without…",
-   "date": "2026-11-16T21:10:59+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "SCKit"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "sckit",
-    "file-transfer exploitation",
-    "screenconnect",
-    "cve-2026-84869",
-    "remote access abuse"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afb71630acda8057ec487b6"
-  },
-  {
-   "name": "Fake Prime Gaming x FC 27 reward site harvests EA passwords and 2FA codes",
-   "summary": "Football fans seeking free player packs for EA SPORTS FC 27 are targeted by a sophisticated phishing campaign mimicking Prime Gaming reward pages. The fake site, styled as an official promotion, directs victims to a…",
-   "date": "2026-11-16T16:16:37+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "two-factor authentication bypass",
-    "prime gaming",
-    "phishing",
-    "social engineering",
-    "ea sports fc 27",
-    "account takeover"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afb2c6589ab78953b54db22"
-  },
-  {
-   "name": "Typosquatters Copy Big Brands' New Domains Within a Day of Registration",
-   "summary": "An ongoing typosquatting campaign has been targeting clients of brand-protection registrars CSC and MarkMonitor by monitoring their new domain registrations. Malicious actors registered 25 lookalike domains using…",
-   "date": "2026-11-16T12:02:17+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Healthcare",
-    "Retail",
-    "Technology",
-    "Finance",
-    "Media"
-   ],
-   "tags": [
-    "china-based-registrars",
-    "typosquatting",
-    "domain-monitoring",
-    "brand-protection",
-    "markmonitor"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afaf0c9e29d3b2008243c83"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-18T01:35:50+00:00",
-  "sans": "2026-11-18T01:35:50+00:00",
-  "otx": "2026-11-18T01:35:50+00:00",
-  "urlhaus": "2026-11-18T01:35:50+00:00"
+  "threatfox": "2026-11-18T09:06:39+00:00",
+  "sans": "2026-11-18T09:06:39+00:00",
+  "otx": "2026-11-18T09:06:39+00:00",
+  "urlhaus": "2026-11-18T09:06:39+00:00"
  },
- "generated_at": "2026-11-18T01:35:50+00:00"
+ "generated_at": "2026-11-18T09:06:39+00:00"
 }
