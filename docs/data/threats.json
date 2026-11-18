@@ -2,32 +2,26 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1334,
-  "c2_servers": 483,
+  "total_iocs": 1314,
+  "c2_servers": 493,
   "families": [
    {
-    "name": "IClickFix",
-    "iocs": 146,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "Mirai",
-    "iocs": 138,
+    "iocs": 145,
     "c2": 9,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "ClearFake",
-    "iocs": 128,
+    "name": "IClickFix",
+    "iocs": 143,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 85,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+    "name": "ClearFake",
+    "iocs": 125,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "StrelaStealer",
@@ -37,71 +31,77 @@
    },
    {
     "name": "Vidar",
-    "iocs": 51,
-    "c2": 46,
+    "iocs": 48,
+    "c2": 48,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "Raven Stealer",
+    "iocs": 45,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
+   },
+   {
     "name": "AsyncRAT",
-    "iocs": 43,
-    "c2": 34,
+    "iocs": 39,
+    "c2": 36,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
+    "name": "Unknown Loader",
+    "iocs": 36,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "Cobalt Strike",
-    "iocs": 41,
-    "c2": 41,
+    "iocs": 31,
+    "c2": 31,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "VShell",
-    "iocs": 28,
-    "c2": 7,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
-    "name": "Agent Tesla",
-    "iocs": 27,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla"
+    "name": "Sliver",
+    "iocs": 26,
+    "c2": 10,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 785,
+  "online": 868,
   "top_tags": [
    {
     "name": "github",
-    "count": 354
+    "count": 628
    },
    {
     "name": "js",
-    "count": 338
+    "count": 441
    },
    {
     "name": "VSCode",
-    "count": 282
-   },
-   {
-    "name": "DEVPOPPER",
-    "count": 174
+    "count": 367
    },
    {
     "name": "TxDataHiding",
-    "count": 174
+    "count": 246
+   },
+   {
+    "name": "DEVPOPPER",
+    "count": 243
    },
    {
     "name": "DEVBOX",
-    "count": 164
+    "count": 194
    },
    {
-    "name": "elf",
-    "count": 145
+    "name": "exe",
+    "count": 126
    },
    {
-    "name": "ua-wget",
-    "count": 61
+    "name": "SalatStealer",
+    "count": 118
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 329631,
-   "targets": 291,
-   "sources": 7587
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 141478,
-   "targets": 258,
-   "sources": 8476
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 122625,
-   "targets": 289,
-   "sources": 6506
+   "records": 746725,
+   "targets": 303,
+   "sources": 12340
   },
   {
    "port": 2222,
    "service": null,
-   "records": 104115,
-   "targets": 272,
-   "sources": 4433
+   "records": 367029,
+   "targets": 294,
+   "sources": 6930
+  },
+  {
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 366240,
+   "targets": 350,
+   "sources": 15815
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 330797,
+   "targets": 298,
+   "sources": 12531
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 101072,
-   "targets": 297,
-   "sources": 5591
+   "records": 212644,
+   "targets": 312,
+   "sources": 9662
   },
   {
    "port": 16767,
    "service": null,
-   "records": 93123,
-   "targets": 20,
-   "sources": 3840
-  },
-  {
-   "port": 7680,
-   "service": null,
-   "records": 45390,
-   "targets": 37,
-   "sources": 2737
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 43131,
-   "targets": 43,
-   "sources": 2676
+   "records": 212215,
+   "targets": 29,
+   "sources": 5558
   },
   {
    "port": 123,
    "service": "NTP",
-   "records": 43130,
-   "targets": 266,
-   "sources": 2310
+   "records": 107644,
+   "targets": 276,
+   "sources": 5166
   },
   {
-   "port": 137,
+   "port": 7680,
    "service": null,
-   "records": 34714,
-   "targets": 195,
-   "sources": 406
+   "records": 105517,
+   "targets": 54,
+   "sources": 3688
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 102151,
+   "targets": 291,
+   "sources": 6100
+  },
+  {
+   "port": 51413,
+   "service": null,
+   "records": 95390,
+   "targets": 113,
+   "sources": 5603
   }
  ],
  "ports_date": "2026-11-18",
@@ -211,6 +211,109 @@
   }
  ],
  "pulses": [
+  {
+   "name": "MCH and Caishen: supply chain poisoning pushes iOS exploits",
+   "summary": "On November 16, 2026, compromised third-party scripts delivered card skimmers and cryptocurrency clippers to visitors of major websites including BBC, Zoom, and CNN. An unauthorized party exploited a vulnerability in…",
+   "date": "2026-11-18T08:16:52+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Caishen",
+    "Coruna",
+    "Darksword"
+   ],
+   "countries": [],
+   "industries": [
+    "Media",
+    "Technology",
+    "Government",
+    "Finance",
+    "Retail",
+    "Hospitality"
+   ],
+   "tags": [
+    "ios exploitation",
+    "coruna",
+    "optimizely",
+    "supply chain attack",
+    "caishen",
+    "darksword"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afd5ef41efb879b09a69ff7"
+  },
+  {
+   "name": "agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines",
+   "summary": "On November 17, 2026, two malicious versions (1.26.1 and 1.26.2) of Microsoft's agent-framework Python package were published to PyPI for approximately 50 minutes before removal. The compromised packages deployed…",
+   "date": "2026-11-18T08:09:56+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "ci/cd pipelines",
+    "azure credential theft",
+    "supply chain attack",
+    "github actions",
+    "pypi compromise",
+    "azure devops"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afd5d540e49984e613c22ce"
+  },
+  {
+   "name": "Active DGA Phishing and Polymorphic WebView Trojans Targeting Romanian Users - NACE Exchange / TroveX",
+   "summary": "A sophisticated financial fraud campaign is actively targeting Romanian users through fake cryptocurrency exchange platforms branded as NACE Exchange and TroveX. The operation employs domain generation algorithms to…",
+   "date": "2026-11-18T08:09:06+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Android.Riskware.SpyAgent.RB"
+   ],
+   "countries": [
+    "Romania"
+   ],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "dga phishing",
+    "android malware",
+    "trovex",
+    "webview trojan",
+    "nace exchange",
+    "android.riskware.spyagent.rb"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afd5d22755125a9b65a6dcb"
+  },
+  {
+   "name": "US Logistics Cyber Threats: 3 Campaigns & Defense",
+   "summary": "Three distinct campaigns are actively targeting the US trucking and logistics sector through fraudulent business portals and malicious documents. HelloFriends uses fake FMCSA carrier verification portals to harvest…",
+   "date": "2026-11-18T08:05:22+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "NodeRemote",
+    "CastleRAT",
+    "NightshadeC2",
+    "MeshCentral",
+    "NetSupport Manager"
+   ],
+   "countries": [
+    "United States of America"
+   ],
+   "industries": [
+    "Transportation"
+   ],
+   "tags": [
+    "castlerat",
+    "broker impersonation",
+    "noderemote",
+    "webdav delivery",
+    "meshcentral",
+    "carrier verification"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afd5c42c6e50b8c437fe592"
+  },
   {
    "name": "Hackers Exploit Critical ScreenConnect Flaw to Silently Run Malware on MSP Technicians' Computers",
    "summary": "Attackers are exploiting CVE-2026-84869, a critical vulnerability in ScreenConnect with a CVSS score of 9.9, to execute malicious files on managed service provider technician workstations without user confirmation. The…",
@@ -252,6 +355,35 @@
     "data-exfiltration"
    ],
    "url": "https://otx.alienvault.com/pulse/6afd28092f3aa69ab72ff6d9"
+  },
+  {
+   "name": "URGENT: iOS Exploits Are Being Actively Deployed via Poisoned JavaScript on BBC, Zoom, CNN and Other Major Websites",
+   "summary": "Research reveals that threat actors have compromised third-party JavaScript providers including Optimizely, Kissmetrics, StorifyMe, and Minute-ly to deliver iOS exploits through at least 21 major websites. The attack…",
+   "date": "2026-11-17T19:32:01+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Coruna",
+    "DarkSword"
+   ],
+   "countries": [],
+   "industries": [
+    "Media",
+    "Technology",
+    "Finance",
+    "Telecommunications",
+    "Retail",
+    "Education"
+   ],
+   "tags": [
+    "supply-chain",
+    "zero-click",
+    "exploit-kit",
+    "mobile safari",
+    "darksword",
+    "ios"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afcabb1c963ba9d1ae92e1a"
   },
   {
    "name": "Amazon job offer promises $5,000 a month, but it has got all the signs of a scam",
@@ -361,157 +493,13 @@
     "emergency patching"
    ],
    "url": "https://otx.alienvault.com/pulse/6afc357e27807e81d0a64eef"
-  },
-  {
-   "name": "Lotuslite V2: The Evolution of Mustang Panda's.NET Backdoor",
-   "summary": "This analysis identifies Lotuslite V2 as a.NET successor to LOTUSLITE malware, attributed to Mustang Panda (Earth Preta). The campaign targets Thailand through a public Zoho WorkDrive link delivering an…",
-   "date": "2026-11-17T11:05:53+00:00",
-   "author": "AlienVault",
-   "adversary": "MUSTANG PANDA",
-   "malware": [
-    "Lotuslite V2",
-    "LOTUSLITE"
-   ],
-   "countries": [
-    "Thailand"
-   ],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "lotuslite v2",
-    "lotuslite",
-    "mustang panda",
-    "earth preta"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afc35110b4de5ee65835e87"
-  },
-  {
-   "name": "XaocMail ClickFix Campaign Drops Phantom53 and HavoX Across Latin America, Asia, and Europe",
-   "summary": "A Russian-speaking threat actor operates a sophisticated multi-stage campaign utilizing XaocMail phishing platform, Phantom53 DNS-over-HTTPS command-and-control framework, and Havoc post-exploitation toolkit. The…",
-   "date": "2026-11-17T11:02:47+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "XaocMail",
-    "Phantom53",
-    "HavoX",
-    "Havoc"
-   ],
-   "countries": [
-    "Brazil",
-    "British Indian Ocean Territory",
-    "India",
-    "Indonesia",
-    "Peru",
-    "Spain"
-   ],
-   "industries": [
-    "Technology",
-    "Finance",
-    "Education",
-    "Government",
-    "Transportation",
-    "Manufacturing"
-   ],
-   "tags": [
-    "clickfix",
-    "phishing campaign",
-    "havoc",
-    "xaocmail",
-    "dns-over-https",
-    "phantom53"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afc3457e63a03d90d550932"
-  },
-  {
-   "name": "World's Largest Brands Infected With Malware Via Optimizely",
-   "summary": "On 16 November 2026, malicious JavaScript was distributed to 178 organizations through the Optimizely Web experimentation platform, affecting major sites including Zoom, BBC, CNN, Salesforce, GitLab, IKEA, and HSBC. The…",
-   "date": "2026-11-17T11:00:41+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Coruna",
-    "DarkSword"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance",
-    "Technology",
-    "Retail",
-    "Media",
-    "Telecommunications",
-    "Healthcare"
-   ],
-   "tags": [
-    "optimizely",
-    "coruna",
-    "supply-chain-attack",
-    "card-skimmer",
-    "ios-exploit-kit",
-    "darksword"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afc33d9e7e1114ef258bdbf"
-  },
-  {
-   "name": "Operation ShadowCloud: initial infection and the GitDoor backdoor",
-   "summary": "A sophisticated cyber intrusion campaign dubbed Operation ShadowCloud has been identified targeting government entities across Asia and Africa. Adversaries deploy two novel backdoors, GitDoor and GraphDoor, through the…",
-   "date": "2026-11-17T10:59:17+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "GitDoor",
-    "GraphDoor",
-    "MeshAgent",
-    "Mimikatz",
-    "CookieKatz"
-   ],
-   "countries": [],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "gitdoor",
-    "shadowcloud",
-    "cookiekatz"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afc3385bd07f5708d823e2b"
-  },
-  {
-   "name": "Beyond Optimizely: Malicious Scripts Traced Across Four Web Services",
-   "summary": "An investigation documents malicious JavaScript delivered through four web services: Optimizely, Kissmetrics, StorifyMe, and minute-ly. Optimizely confirmed attackers exploited a vulnerability in its Experimentation…",
-   "date": "2026-11-17T08:15:30+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "DarkSword",
-    "Coruna"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance",
-    "Media",
-    "Technology",
-    "Transportation",
-    "Retail",
-    "Healthcare"
-   ],
-   "tags": [
-    "coruna",
-    "supply chain attack",
-    "darksword",
-    "web services compromise",
-    "optimizely",
-    "javascript injection"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afc0d22dddc5e2e49356d47"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-18T09:06:39+00:00",
-  "sans": "2026-11-18T09:06:39+00:00",
-  "otx": "2026-11-18T09:06:39+00:00",
-  "urlhaus": "2026-11-18T09:06:39+00:00"
+  "threatfox": "2026-11-18T18:00:02+00:00",
+  "sans": "2026-11-18T18:00:02+00:00",
+  "otx": "2026-11-18T18:00:02+00:00",
+  "urlhaus": "2026-11-18T18:00:02+00:00"
  },
- "generated_at": "2026-11-18T09:06:39+00:00"
+ "generated_at": "2026-11-18T18:00:02+00:00"
 }
