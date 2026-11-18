@@ -34,20 +34,28 @@
      "date": "2026-11-16T12:33:18+00:00",
      "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-     "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that…",
-     "source": "The Hacker News",
-     "date": "2026-11-15T11:27:31+00:00",
-     "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+     "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-17T21:27:17+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+     "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-17T20:51:21+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
      "summary": "The company made the incident public on Monday, November 16, five days after filing a complaint with authorities. The post Market Research Giant Ipsos Investigating Breach of Internal System appeared first on…",
@@ -89,35 +97,11 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-     "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-16T19:57:13+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Fandango says hackers stole payment card details from checkout pages",
-     "summary": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-16T15:44:21+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
      "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which…",
      "source": "The Hacker News",
      "date": "2026-11-16T07:34:21+00:00",
      "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-     "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker…",
-     "source": "The Hacker News",
-     "date": "2026-11-15T08:22:04+00:00",
-     "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
      "group": "Breaches and ransomware"
     }
    ]
@@ -126,11 +110,35 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+     "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins…",
+     "source": "BleepingComputer",
+     "date": "2026-11-17T23:04:21+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+     "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send…",
+     "source": "The Hacker News",
+     "date": "2026-11-17T19:34:20+00:00",
+     "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
      "summary": "Threat actors are deploying multi-agent offensive frameworks to increase the velocity of multi-stage intrusions. The post AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says appeared first on…",
      "source": "SecurityWeek",
      "date": "2026-11-17T18:16:17+00:00",
      "url": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+     "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially…",
+     "source": "The Hacker News",
+     "date": "2026-11-17T15:17:36+00:00",
+     "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
      "group": "Exploited right now"
     },
     {
@@ -212,14 +220,6 @@
      "date": "2026-11-16T12:34:21+00:00",
      "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-     "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity…",
-     "source": "The Hacker News",
-     "date": "2026-11-16T06:53:34+00:00",
-     "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-     "group": "Exploited right now"
     }
    ]
   },
@@ -232,6 +232,14 @@
      "source": "BleepingComputer",
      "date": "2026-11-17T16:00:00+00:00",
      "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+     "group": "Malware and campaigns"
+    },
+    {
+     "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+     "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that…",
+     "source": "The Hacker News",
+     "date": "2026-11-17T15:17:28+00:00",
+     "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
      "group": "Malware and campaigns"
     },
     {
@@ -272,6 +280,14 @@
    "group": "Other news",
    "items": [
     {
+     "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+     "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-17T19:24:07+00:00",
+     "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+     "group": "Other news"
+    },
+    {
      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
      "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]",
      "source": "BleepingComputer",
@@ -281,7 +297,7 @@
     },
     {
      "title": "Tor releases emergency update amid ongoing DDoS attack",
-     "summary": "[...]",
+     "summary": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators…",
      "source": "BleepingComputer",
      "date": "2026-11-17T18:04:15+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
@@ -325,22 +341,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-16T22:54:00+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-     "group": "Other news"
-    },
-    {
-     "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-     "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents…",
-     "source": "BleepingComputer",
-     "date": "2026-11-16T20:59:44+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-     "group": "Other news"
-    },
-    {
-     "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-     "summary": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-16T16:43:24+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
      "group": "Other news"
     }
    ]
