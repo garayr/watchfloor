@@ -102,6 +102,14 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+     "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30…",
+     "source": "The Hacker News",
+     "date": "2026-11-19T04:33:46+00:00",
+     "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
      "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's…",
      "source": "The Hacker News",
@@ -212,14 +220,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover",
-     "summary": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover…",
-     "source": "SecurityWeek",
-     "date": "2026-11-18T07:43:34+00:00",
-     "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
      "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins…",
      "source": "BleepingComputer",
@@ -263,20 +263,20 @@
      "date": "2026-11-18T11:05:39+00:00",
      "url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-     "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that…",
-     "source": "The Hacker News",
-     "date": "2026-11-17T15:17:28+00:00",
-     "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
+     "summary": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds. The post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5…",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T03:25:23+00:00",
+     "url": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
+     "group": "Other news"
+    },
     {
      "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
      "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers…",

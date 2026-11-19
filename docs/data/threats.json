@@ -2,20 +2,26 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 940,
-  "c2_servers": 355,
+  "total_iocs": 921,
+  "c2_servers": 308,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 114,
-    "c2": 7,
+    "iocs": 169,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "IClickFix",
-    "iocs": 107,
+    "iocs": 62,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
+    "name": "Vidar",
+    "iocs": 47,
+    "c2": 47,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Raven Stealer",
@@ -24,34 +30,10 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    },
    {
-    "name": "Vidar",
-    "iocs": 45,
-    "c2": 45,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
-    "name": "AsyncRAT",
-    "iocs": 43,
-    "c2": 40,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
-   },
-   {
-    "name": "Cobalt Strike",
-    "iocs": 33,
-    "c2": 33,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 31,
+    "iocs": 30,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "Sliver",
-    "iocs": 26,
-    "c2": 10,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    },
    {
     "name": "XWorm",
@@ -60,43 +42,61 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.xworm"
    },
    {
+    "name": "Unknown Loader",
+    "iocs": 24,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "Formbook",
     "iocs": 21,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
+   },
+   {
+    "name": "Sliver",
+    "iocs": 20,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
+   },
+   {
+    "name": "Agent Tesla",
+    "iocs": 18,
+    "c2": 5,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 853,
+  "online": 870,
   "top_tags": [
    {
     "name": "github",
-    "count": 621
+    "count": 637
    },
    {
     "name": "js",
-    "count": 437
+    "count": 451
    },
    {
     "name": "VSCode",
-    "count": 364
+    "count": 401
    },
    {
     "name": "TxDataHiding",
-    "count": 248
+    "count": 325
    },
    {
     "name": "DEVPOPPER",
-    "count": 245
-   },
-   {
-    "name": "DEVBOX",
-    "count": 188
+    "count": 238
    },
    {
     "name": "exe",
+    "count": 126
+   },
+   {
+    "name": "DEVBOX",
     "count": 125
    },
    {
@@ -109,76 +109,86 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 746725,
-   "targets": 303,
-   "sources": 12340
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 367029,
-   "targets": 294,
-   "sources": 6930
-  },
-  {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 366240,
-   "targets": 350,
-   "sources": 15815
+   "records": 147739,
+   "targets": 262,
+   "sources": 3469
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 330797,
-   "targets": 298,
-   "sources": 12531
+   "records": 74309,
+   "targets": 275,
+   "sources": 3699
   },
   {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 212644,
-   "targets": 312,
-   "sources": 9662
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 65132,
+   "targets": 254,
+   "sources": 6131
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 53098,
+   "targets": 255,
+   "sources": 2129
   },
   {
    "port": 16767,
    "service": null,
-   "records": 212215,
-   "targets": 29,
-   "sources": 5558
+   "records": 52248,
+   "targets": 15,
+   "sources": 2620
   },
   {
-   "port": 123,
-   "service": "NTP",
-   "records": 107644,
-   "targets": 276,
-   "sources": 5166
-  },
-  {
-   "port": 7680,
-   "service": null,
-   "records": 105517,
-   "targets": 54,
-   "sources": 3688
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 44044,
+   "targets": 257,
+   "sources": 3509
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 102151,
-   "targets": 291,
-   "sources": 6100
+   "records": 43051,
+   "targets": 249,
+   "sources": 2042
   },
   {
-   "port": 51413,
+   "port": 123,
+   "service": "NTP",
+   "records": 23341,
+   "targets": 201,
+   "sources": 1484
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 20329,
+   "targets": 250,
+   "sources": 1597
+  },
+  {
+   "port": 137,
    "service": null,
-   "records": 95390,
-   "targets": 113,
-   "sources": 5603
+   "records": 16947,
+   "targets": 146,
+   "sources": 274
   }
  ],
- "ports_date": "2026-11-18",
+ "ports_date": "2026-11-19",
  "diary": [
+  {
+   "title": "ISC Stormcast For Thursday, November 19th, 2026 https://isc.sans.edu/podcastdetail/10186, (Thu, Nov 19th)",
+   "url": "https://isc.sans.edu/diary/rss/33536",
+   "date": "2026-11-19T02:00:03+00:00"
+  },
+  {
+   "title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI [Guest Diary], (Wed, Nov 18th)",
+   "url": "https://isc.sans.edu/diary/rss/33534",
+   "date": "2026-11-19T01:53:48+00:00"
+  },
   {
    "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
    "url": "https://isc.sans.edu/diary/rss/33532",
@@ -198,16 +208,6 @@
    "title": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
    "url": "https://isc.sans.edu/diary/rss/33524",
    "date": "2026-11-17T02:05:15+00:00"
-  },
-  {
-   "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
-   "url": "https://isc.sans.edu/diary/rss/33522",
-   "date": "2026-11-16T13:11:04+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
-   "url": "https://isc.sans.edu/diary/rss/33520",
-   "date": "2026-11-16T02:00:05+00:00"
   }
  ],
  "pulses": [
@@ -496,10 +496,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-19T00:08:19+00:00",
-  "sans": "2026-11-19T00:08:19+00:00",
-  "otx": "2026-11-19T00:08:19+00:00",
-  "urlhaus": "2026-11-19T00:08:19+00:00"
+  "threatfox": "2026-11-19T07:18:02+00:00",
+  "sans": "2026-11-19T07:18:02+00:00",
+  "otx": "2026-11-19T07:18:02+00:00",
+  "urlhaus": "2026-11-19T07:18:02+00:00"
  },
- "generated_at": "2026-11-19T00:08:19+00:00"
+ "generated_at": "2026-11-19T07:18:02+00:00"
 }
