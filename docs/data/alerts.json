@@ -17,51 +17,17 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
    "kev": true,
-   "epss": 0.0125,
+   "epss": 0.0215,
    "cvss": 9.8,
-   "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-90817",
-   "date": "2026-11-18",
-   "src": "CISA",
-   "vendor": "Vanderbilt University Research Electronic Data Capture (REDCap)",
-   "vendor_name": "Vanderbilt University",
-   "product": "Research Electronic Data Capture (REDCap)",
-   "title": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-   "detail": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import…",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-11-21",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-90817"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
-   "kev": true,
-   "epss": 0.0375,
-   "cvss": 9.8,
-   "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-90436",
-   "date": "2026-11-18",
-   "src": "CISA",
-   "vendor": "Apache Axis",
-   "vendor_name": "Apache",
-   "product": "Axis",
-   "title": "Apache Axis Unsafe Reflection Vulnerability",
-   "detail": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised…",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-11-21",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-90436"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
-   "kev": true,
-   "epss": 0.0113,
-   "cvss": 9.8,
-   "sev": "critical"
+   "sev": "critical",
+   "news": [
+    {
+     "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+     "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+     "source": "The Hacker News",
+     "date": "2026-11-19T08:00:00+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-40217",
@@ -80,9 +46,81 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
    "kev": true,
-   "epss": 0.1702,
+   "epss": 0.6191,
    "cvss": 8.8,
-   "sev": "high"
+   "sev": "critical",
+   "news": [
+    {
+     "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+     "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+     "source": "The Hacker News",
+     "date": "2026-11-19T08:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-90817",
+   "date": "2026-11-18",
+   "src": "CISA",
+   "vendor": "Vanderbilt University Research Electronic Data Capture (REDCap)",
+   "vendor_name": "Vanderbilt University",
+   "product": "Research Electronic Data Capture (REDCap)",
+   "title": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+   "detail": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import…",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-21",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-90817"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
+   "kev": true,
+   "epss": 0.2519,
+   "cvss": 9.8,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+     "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+     "source": "The Hacker News",
+     "date": "2026-11-19T08:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-90436",
+   "date": "2026-11-18",
+   "src": "CISA",
+   "vendor": "Apache Axis",
+   "vendor_name": "Apache",
+   "product": "Axis",
+   "title": "Apache Axis Unsafe Reflection Vulnerability",
+   "detail": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised…",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-21",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-90436"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
+   "kev": true,
+   "epss": 0.0177,
+   "cvss": 9.8,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+     "url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T12:13:24+00:00"
+    },
+    {
+     "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+     "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+     "source": "The Hacker News",
+     "date": "2026-11-19T08:00:00+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-115731",
@@ -103,21 +141,7 @@
    "kev": true,
    "epss": 0.0069,
    "cvss": 9.4,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "Critical Perforce Puppet RCE Exploited in Attacks",
-     "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
-     "source": "SecurityWeek",
-     "date": "2026-11-18T10:37:08+00:00"
-    },
-    {
-     "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-     "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-     "source": "The Hacker News",
-     "date": "2026-11-18T08:24:31+00:00"
-    }
-   ]
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-114713",
@@ -528,7 +552,21 @@
    "kev": true,
    "epss": 0.0082,
    "cvss": 8.6,
-   "sev": "high"
+   "sev": "high",
+   "news": [
+    {
+     "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+     "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T13:12:20+00:00"
+    },
+    {
+     "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
+     "url": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T09:10:58+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-41709",
@@ -549,7 +587,15 @@
    "kev": true,
    "epss": 0.0069,
    "cvss": 2.7,
-   "sev": "high"
+   "sev": "high",
+   "news": [
+    {
+     "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+     "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+     "source": "The Hacker News",
+     "date": "2026-11-19T15:11:06+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-46300",
@@ -610,7 +656,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
    "kev": true,
-   "epss": 0.8264,
+   "epss": 0.8237,
    "cvss": 9.2,
    "sev": "critical"
   },
@@ -633,7 +679,15 @@
    "kev": true,
    "epss": 1.0,
    "cvss": 9.2,
-   "sev": "critical"
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Everything Is a Web Application, Including Your Firewall",
+     "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+     "source": "The Hacker News",
+     "date": "2026-11-19T11:52:23+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-109619",
@@ -654,7 +708,15 @@
    "kev": true,
    "epss": 1.0,
    "cvss": 9.2,
-   "sev": "critical"
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Everything Is a Web Application, Including Your Firewall",
+     "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+     "source": "The Hacker News",
+     "date": "2026-11-19T11:52:23+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-114625",
@@ -711,7 +773,15 @@
     "CVE-2026-109619"
    ],
    "url": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
-   "sev": "medium"
+   "sev": "medium",
+   "news": [
+    {
+     "title": "Everything Is a Web Application, Including Your Firewall",
+     "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+     "source": "The Hacker News",
+     "date": "2026-11-19T11:52:23+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-106931",

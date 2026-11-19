@@ -10,28 +10,69 @@
      "date": "2026-11-18T23:08:33+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
-     "summary": "British national Tyler Robert Buchanan has been sentenced to 6 years in prison in the United States, the DOJ announced. The post Last of Five Defendants Sentenced in US Scattered Spider Hacking Case appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-18T13:19:32+00:00",
-     "url": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
-     "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "British Scattered Spider hacker sentenced to 6 years in prison",
-     "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-18T08:24:18+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Five warning signs of ransomware breach before encryption or data theft",
+     "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions…",
+     "source": "BleepingComputer",
+     "date": "2026-11-19T15:00:10+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+     "summary": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim. The post Nvidia Responds to Gentlemen Ransomware Claim appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T14:17:32+00:00",
+     "url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+     "summary": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement. The post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T13:12:20+00:00",
+     "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "CVE-2026-76418"
+     ]
+    },
+    {
+     "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+     "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have…",
+     "source": "The Hacker News",
+     "date": "2026-11-19T09:31:26+00:00",
+     "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "NVIDIA investigating Gentlemen ransomware breach claims",
+     "summary": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-19T09:23:21+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research…",
+     "source": "The Hacker News",
+     "date": "2026-11-19T08:00:00+00:00",
+     "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "CVE-2024-10441",
+      "CVE-2026-40217",
+      "CVE-2026-90817",
+      "CVE-2026-90436"
+     ]
+    },
     {
      "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
      "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
@@ -47,60 +88,146 @@
      "date": "2026-11-18T16:58:42+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
-     "summary": "Star Blizzard weaponized data and identities stolen in late 2025 to phish and compromise a US organization. The post Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-18T13:33:47+00:00",
-     "url": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
-     "summary": "Patti Degnan’s identity was stolen in 2006. It set her on a path to the CISO seat at endpoint security firm Glow. The post CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-18T12:00:00+00:00",
-     "url": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
-     "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned…",
-     "source": "The Hacker News",
-     "date": "2026-11-18T06:45:26+00:00",
-     "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
-     "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in…",
-     "source": "The Hacker News",
-     "date": "2026-11-18T05:58:04+00:00",
-     "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-     "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-17T21:27:17+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-     "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-17T20:51:21+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+     "summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-19T16:28:23+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+     "summary": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T15:54:20+00:00",
+     "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+     "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The list of…",
+     "source": "The Hacker News",
+     "date": "2026-11-19T15:18:07+00:00",
+     "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+     "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions…",
+     "source": "The Hacker News",
+     "date": "2026-11-19T15:11:06+00:00",
+     "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-41709"
+     ]
+    },
+    {
+     "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+     "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel…",
+     "source": "BleepingComputer",
+     "date": "2026-11-19T14:57:24+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+     "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote…",
+     "source": "The Hacker News",
+     "date": "2026-11-19T14:33:06+00:00",
+     "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+     "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-19T13:08:08+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+     "summary": "Attackers are targeting Confluence Data Center through an Axis flaw and Apache is warning of attacks against Roller. The post Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T12:13:24+00:00",
+     "url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-90436"
+     ]
+    },
+    {
+     "title": "Everything Is a Web Application, Including Your Firewall",
+     "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against…",
+     "source": "The Hacker News",
+     "date": "2026-11-19T11:52:23+00:00",
+     "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-109618",
+      "CVE-2026-109619",
+      "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php"
+     ]
+    },
+    {
+     "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
+     "summary": "The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation. The post Splunk Patches Nearly 140 Flaws Across Three Core Products…",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T10:41:05+00:00",
+     "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
+     "summary": "The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code. The post F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T10:26:51+00:00",
+     "url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
+     "summary": "GreyNoise, WatchTowr and Cloudflare report probing and exploit attempts, while Cisco, Elastic, Red Hat and Siemens detail impact. The post Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T09:10:58+00:00",
+     "url": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76418"
+     ]
+    },
+    {
+     "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+     "summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can…",
+     "source": "The Hacker News",
+     "date": "2026-11-19T08:42:11+00:00",
+     "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+     "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code…",
+     "source": "The Hacker News",
+     "date": "2026-11-19T08:14:00+00:00",
+     "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
+     "summary": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed. The post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T07:45:17+00:00",
+     "url": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
+     "group": "Exploited right now"
+    },
     {
      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
      "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30…",
@@ -142,14 +269,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
-     "summary": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview. The post Microsoft Takes Perception Agentic Security Platform Out of Preview appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-18T12:14:23+00:00",
-     "url": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
      "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this…",
      "source": "The Hacker News",
@@ -158,89 +277,11 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Chrome 158 Patches 204 Vulnerabilities",
-     "summary": "Google handed out $11,000 for five externally reported flaws but has yet to determine the amounts to be paid for 36 bugs. The post Chrome 158 Patches 204 Vulnerabilities appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-18T11:43:22+00:00",
-     "url": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
      "summary": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now…",
      "source": "The Hacker News",
      "date": "2026-11-18T11:03:57+00:00",
      "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Critical Perforce Puppet RCE Exploited in Attacks",
-     "summary": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-18T10:37:08+00:00",
-     "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-115731"
-     ]
-    },
-    {
-     "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-     "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-18T10:35:05+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
-     "summary": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws. The post Oracle Patches 950 Vulnerabilities With November 2026 CSPU appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-18T08:47:18+00:00",
-     "url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to…",
-     "source": "The Hacker News",
-     "date": "2026-11-18T08:24:31+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-115731"
-     ]
-    },
-    {
-     "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS…",
-     "source": "The Hacker News",
-     "date": "2026-11-18T08:24:23+00:00",
-     "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-     "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins…",
-     "source": "BleepingComputer",
-     "date": "2026-11-17T23:04:21+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
-     "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send…",
-     "source": "The Hacker News",
-     "date": "2026-11-17T19:34:20+00:00",
-     "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-     "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially…",
-     "source": "The Hacker News",
-     "date": "2026-11-17T15:17:36+00:00",
-     "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
      "group": "Exploited right now"
     }
    ]
@@ -255,14 +296,6 @@
      "date": "2026-11-18T14:11:28+00:00",
      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
-     "summary": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts. The post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-18T11:05:39+00:00",
-     "url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
-     "group": "Malware and campaigns"
     }
    ]
   },
@@ -270,11 +303,35 @@
    "group": "Other news",
    "items": [
     {
-     "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
-     "summary": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds. The post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5…",
+     "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+     "summary": "The company will use the funds to accelerate the development and distribution of its security platform. The post StepSecurity Secures $20 Million to Expand Supply Chain Protection appeared first on SecurityWeek.",
      "source": "SecurityWeek",
-     "date": "2026-11-19T03:25:23+00:00",
-     "url": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
+     "date": "2026-11-19T12:23:34+00:00",
+     "url": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
+     "group": "Other news"
+    },
+    {
+     "title": "The Governance Gap in Open-Weight AI and What to Do About It",
+     "summary": "Lower costs, data privacy, and greater control are driving open-weight AI adoption, but many organizations are not addressing the risks that come with it. The post The Governance Gap in Open-Weight AI and What to Do…",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T12:00:00+00:00",
+     "url": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
+     "group": "Other news"
+    },
+    {
+     "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+     "summary": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-19T11:46:00+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+     "group": "Other news"
+    },
+    {
+     "title": "Microsoft confirms app installation, launch issues after hotpatch",
+     "summary": "Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-19T10:35:05+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
      "group": "Other news"
     },
     {
@@ -283,14 +340,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-18T20:49:32+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
-     "group": "Other news"
-    },
-    {
-     "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
-     "summary": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity. The post VeroSecurity Raises $11 Million for AI Security Engineering Platform appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-18T15:30:42+00:00",
-     "url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
      "group": "Other news"
     },
     {
@@ -315,38 +364,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-18T11:50:25+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-     "group": "Other news"
-    },
-    {
-     "title": "Microsoft announces Windows Server 2028 with hardened security",
-     "summary": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-18T09:24:31+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
-     "group": "Other news"
-    },
-    {
-     "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
-     "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-17T19:24:07+00:00",
-     "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
-     "group": "Other news"
-    },
-    {
-     "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
-     "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-17T18:21:24+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
-     "group": "Other news"
-    },
-    {
-     "title": "Tor releases emergency update amid ongoing DDoS attack",
-     "summary": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators…",
-     "source": "BleepingComputer",
-     "date": "2026-11-17T18:04:15+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
      "group": "Other news"
     }
    ]
