@@ -17,6 +17,22 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+     "summary": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to…",
+     "source": "BleepingComputer",
+     "date": "2026-11-19T22:25:42+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+     "summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-19T18:20:01+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Five warning signs of ransomware breach before encryption or data theft",
      "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions…",
      "source": "BleepingComputer",
@@ -95,6 +111,41 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+     "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-19T21:15:59+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+     "summary": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT…",
+     "source": "SecurityWeek",
+     "date": "2026-11-19T19:21:06+00:00",
+     "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-41709"
+     ]
+    },
+    {
+     "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+     "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories…",
+     "source": "The Hacker News",
+     "date": "2026-11-19T18:47:58+00:00",
+     "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+     "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the…",
+     "source": "The Hacker News",
+     "date": "2026-11-19T16:59:56+00:00",
+     "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+     "group": "Exploited right now"
+    },
+    {
      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
      "summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
      "source": "BleepingComputer",
@@ -112,7 +163,7 @@
     },
     {
      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-     "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The list of…",
+     "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of…",
      "source": "The Hacker News",
      "date": "2026-11-19T15:18:07+00:00",
      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
@@ -221,14 +272,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
-     "summary": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed. The post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-19T07:45:17+00:00",
-     "url": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
      "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30…",
      "source": "The Hacker News",
@@ -258,30 +301,6 @@
      "source": "The Hacker News",
      "date": "2026-11-18T17:10:45+00:00",
      "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-     "summary": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure…",
-     "source": "The Hacker News",
-     "date": "2026-11-18T12:15:00+00:00",
-     "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-     "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this…",
-     "source": "The Hacker News",
-     "date": "2026-11-18T11:55:49+00:00",
-     "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
-     "summary": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now…",
-     "source": "The Hacker News",
-     "date": "2026-11-18T11:03:57+00:00",
-     "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
      "group": "Exploited right now"
     }
    ]
@@ -348,22 +367,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-18T15:00:10+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-     "group": "Other news"
-    },
-    {
-     "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-     "summary": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to…",
-     "source": "The Hacker News",
-     "date": "2026-11-18T12:28:30+00:00",
-     "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
-     "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-18T11:50:25+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
      "group": "Other news"
     }
    ]

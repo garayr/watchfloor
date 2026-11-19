@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T16:40:55+00:00",
+ "generated_at": "2026-11-19T23:13:55+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -6199,92 +6199,6 @@
    "history_size": 130,
    "updated": "2026-10-29T03:24:53+00:00"
   },
-  "Mimori": {
-   "name": "Mimori",
-   "description": null,
-   "aliases": [],
-   "first_seen": "2026-10-20",
-   "last_seen": "2026-10-20",
-   "victims_total": 2,
-   "cves": [],
-   "tools": [],
-   "techniques": [],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "CA",
-      "count": 1
-     },
-     {
-      "name": "GB",
-      "count": 1
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Manufacturing",
-      "count": 1
-     },
-     {
-      "name": "Technology",
-      "count": 1
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 0
-    },
-    {
-     "month": "2026-04",
-     "count": 0
-    },
-    {
-     "month": "2026-05",
-     "count": 0
-    },
-    {
-     "month": "2026-06",
-     "count": 0
-    },
-    {
-     "month": "2026-07",
-     "count": 0
-    },
-    {
-     "month": "2026-08",
-     "count": 0
-    },
-    {
-     "month": "2026-09",
-     "count": 0
-    },
-    {
-     "month": "2026-10",
-     "count": 2
-    }
-   ],
-   "history_size": 2,
-   "updated": "2026-10-20T18:22:15+00:00"
-  },
   "clop": {
    "name": "clop",
    "description": "The ransomware group known as Cl0p is a variant of a previously known strain dubbed CryptoMix. It is worth noting that this variant was delivered as the final payload in a phishing campaign in 2019 and was exclusively financially motivated, with attacks carried out by the threat actors TA505. At that time, malicious actors sent phishing emails that led to a macro-enabled document that would drop a loader called 'Get2.' After gaining an initial foothold in the system or infrastructure, the actors began using reconnaissance, lateral movement, and exfiltration techniques to prepare for the deployment of the ransomware. After the execution of the ransomware, Cl0p appends the extension '.clop' to the end of files, or other types of extensions such as '.CIIp,.Cllp, and.C_L_O_P,' as well as different versions of the ransom note that were also observed after encryption. Depending on the variant, any of the ransom text files were created with names like 'ClopReadMe.txt, README_README.txt, Cl0pReadMe.txt, and READ_ME_!!!.TXT.' The Clop operation has shifted from delivering its final payload via phishing and has begun initiating attacks using vulnerabilities that resulted in the exploitation…",
@@ -8754,6 +8668,210 @@
    ],
    "history_size": 30,
    "updated": "2026-11-19T16:40:55+00:00"
+  },
+  "SoulGroup": {
+   "name": "SoulGroup",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "victims_total": 26,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 19
+     },
+     {
+      "name": "ES",
+      "count": 2
+     },
+     {
+      "name": "AR",
+      "count": 1
+     },
+     {
+      "name": "CA",
+      "count": 1
+     },
+     {
+      "name": "EG",
+      "count": 1
+     },
+     {
+      "name": "PA",
+      "count": 1
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 9
+     },
+     {
+      "name": "Professional Services",
+      "count": 5
+     },
+     {
+      "name": "Manufacturing",
+      "count": 4
+     },
+     {
+      "name": "Technology",
+      "count": 4
+     },
+     {
+      "name": "Energy & Utilities",
+      "count": 1
+     },
+     {
+      "name": "Financial Services",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 0
+    },
+    {
+     "month": "2026-11",
+     "count": 26
+    }
+   ],
+   "history_size": 26,
+   "updated": "2026-11-19T23:13:55+00:00"
+  },
+  "Handsome Boy Hacking Club": {
+   "name": "Handsome Boy Hacking Club",
+   "description": null,
+   "aliases": [],
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-19",
+   "victims_total": 3,
+   "cves": [],
+   "tools": [],
+   "techniques": [],
+   "links": [],
+   "targets": {
+    "countries": [
+     {
+      "name": "US",
+      "count": 3
+     }
+    ],
+    "sectors": [
+     {
+      "name": "Healthcare",
+      "count": 1
+     },
+     {
+      "name": "Manufacturing",
+      "count": 1
+     },
+     {
+      "name": "Technology",
+      "count": 1
+     }
+    ]
+   },
+   "monthly": [
+    {
+     "month": "2025-12",
+     "count": 0
+    },
+    {
+     "month": "2026-01",
+     "count": 0
+    },
+    {
+     "month": "2026-02",
+     "count": 0
+    },
+    {
+     "month": "2026-03",
+     "count": 0
+    },
+    {
+     "month": "2026-04",
+     "count": 0
+    },
+    {
+     "month": "2026-05",
+     "count": 0
+    },
+    {
+     "month": "2026-06",
+     "count": 0
+    },
+    {
+     "month": "2026-07",
+     "count": 0
+    },
+    {
+     "month": "2026-08",
+     "count": 0
+    },
+    {
+     "month": "2026-09",
+     "count": 0
+    },
+    {
+     "month": "2026-10",
+     "count": 0
+    },
+    {
+     "month": "2026-11",
+     "count": 3
+    }
+   ],
+   "history_size": 3,
+   "updated": "2026-11-19T23:13:55+00:00"
   }
  }
 }

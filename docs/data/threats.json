@@ -2,12 +2,12 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1111,
-  "c2_servers": 355,
+  "total_iocs": 1081,
+  "c2_servers": 365,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 173,
+    "iocs": 172,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
@@ -18,12 +18,6 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
-    "name": "IClickFix",
-    "iocs": 62,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "Mispadu",
     "iocs": 59,
     "c2": 2,
@@ -31,26 +25,32 @@
    },
    {
     "name": "Vidar",
-    "iocs": 45,
-    "c2": 45,
+    "iocs": 46,
+    "c2": 46,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "ClearFake",
+    "iocs": 32,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
     "name": "Unknown Loader",
-    "iocs": 27,
-    "c2": 1,
+    "iocs": 24,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Unknown Stealer",
-    "iocs": 25,
-    "c2": 21,
+    "iocs": 24,
+    "c2": 20,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
     "name": "AsyncRAT",
-    "iocs": 22,
-    "c2": 17,
+    "iocs": 21,
+    "c2": 16,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
@@ -60,48 +60,48 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.gentlemen"
    },
    {
-    "name": "Remcos",
-    "iocs": 17,
-    "c2": 14,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+    "name": "Potassium",
+    "iocs": 19,
+    "c2": 19,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 790,
+  "online": 829,
   "top_tags": [
    {
     "name": "github",
-    "count": 506
+    "count": 556
    },
    {
     "name": "js",
-    "count": 450
+    "count": 414
    },
    {
     "name": "VSCode",
-    "count": 431
+    "count": 396
    },
    {
     "name": "TxDataHiding",
-    "count": 368
+    "count": 328
    },
    {
     "name": "DEVPOPPER",
-    "count": 247
+    "count": 233
    },
    {
-    "name": "elf",
-    "count": 99
+    "name": "exe",
+    "count": 103
+   },
+   {
+    "name": "SalatStealer",
+    "count": 92
    },
    {
     "name": "DEVBOX",
-    "count": 82
-   },
-   {
-    "name": "opendir",
-    "count": 65
+    "count": 85
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 303447,
-   "targets": 288,
-   "sources": 5793
+   "records": 735440,
+   "targets": 303,
+   "sources": 11203
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 156504,
-   "targets": 290,
-   "sources": 6228
+   "records": 364363,
+   "targets": 300,
+   "sources": 12741
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 123851,
-   "targets": 275,
-   "sources": 9480
+   "records": 351556,
+   "targets": 332,
+   "sources": 18224
   },
   {
    "port": 2222,
    "service": null,
-   "records": 116326,
-   "targets": 283,
-   "sources": 4346
+   "records": 280997,
+   "targets": 296,
+   "sources": 6287
   },
   {
    "port": 16767,
    "service": null,
-   "records": 90258,
-   "targets": 23,
-   "sources": 3550
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 86421,
-   "targets": 281,
-   "sources": 3157
+   "records": 216089,
+   "targets": 30,
+   "sources": 5303
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 79708,
-   "targets": 275,
-   "sources": 5432
+   "records": 199232,
+   "targets": 303,
+   "sources": 9901
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 147068,
+   "targets": 294,
+   "sources": 6443
   },
   {
    "port": 7680,
    "service": null,
-   "records": 47893,
-   "targets": 33,
-   "sources": 3343
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 43864,
-   "targets": 277,
-   "sources": 2676
+   "records": 134621,
+   "targets": 52,
+   "sources": 4334
   },
   {
    "port": 123,
    "service": "NTP",
-   "records": 39386,
-   "targets": 250,
-   "sources": 2215
+   "records": 97637,
+   "targets": 266,
+   "sources": 4373
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 88691,
+   "targets": 294,
+   "sources": 5360
   }
  ],
  "ports_date": "2026-11-19",
@@ -509,10 +509,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-19T16:40:55+00:00",
-  "sans": "2026-11-19T16:40:55+00:00",
-  "otx": "2026-11-19T16:40:55+00:00",
-  "urlhaus": "2026-11-19T16:40:55+00:00"
+  "threatfox": "2026-11-19T23:13:55+00:00",
+  "sans": "2026-11-19T23:13:55+00:00",
+  "otx": "2026-11-19T23:13:55+00:00",
+  "urlhaus": "2026-11-19T23:13:55+00:00"
  },
- "generated_at": "2026-11-19T16:40:55+00:00"
+ "generated_at": "2026-11-19T23:13:55+00:00"
 }
