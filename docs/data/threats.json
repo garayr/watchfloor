@@ -2,38 +2,20 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1314,
-  "c2_servers": 493,
+  "total_iocs": 940,
+  "c2_servers": 355,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 145,
-    "c2": 9,
+    "iocs": 114,
+    "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "IClickFix",
-    "iocs": 143,
+    "iocs": 107,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
-    "name": "ClearFake",
-    "iocs": 125,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
-    "name": "StrelaStealer",
-    "iocs": 56,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.strelastealer"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 48,
-    "c2": 48,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Raven Stealer",
@@ -42,62 +24,80 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    },
    {
+    "name": "Vidar",
+    "iocs": 45,
+    "c2": 45,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "AsyncRAT",
-    "iocs": 39,
-    "c2": 36,
+    "iocs": 43,
+    "c2": 40,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 36,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+    "name": "Cobalt Strike",
+    "iocs": 33,
+    "c2": 33,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "Cobalt Strike",
+    "name": "ClearFake",
     "iocs": 31,
-    "c2": 31,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Sliver",
     "iocs": 26,
     "c2": 10,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
+   },
+   {
+    "name": "XWorm",
+    "iocs": 25,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.xworm"
+   },
+   {
+    "name": "Formbook",
+    "iocs": 21,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 868,
+  "online": 853,
   "top_tags": [
    {
     "name": "github",
-    "count": 628
+    "count": 621
    },
    {
     "name": "js",
-    "count": 441
+    "count": 437
    },
    {
     "name": "VSCode",
-    "count": 367
+    "count": 364
    },
    {
     "name": "TxDataHiding",
-    "count": 246
+    "count": 248
    },
    {
     "name": "DEVPOPPER",
-    "count": 243
+    "count": 245
    },
    {
     "name": "DEVBOX",
-    "count": 194
+    "count": 188
    },
    {
     "name": "exe",
-    "count": 126
+    "count": 125
    },
    {
     "name": "SalatStealer",
@@ -180,6 +180,11 @@
  "ports_date": "2026-11-18",
  "diary": [
   {
+   "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
+   "url": "https://isc.sans.edu/diary/rss/33532",
+   "date": "2026-11-18T19:54:50+00:00"
+  },
+  {
    "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
    "url": "https://isc.sans.edu/diary/rss/33528",
    "date": "2026-11-18T02:00:03+00:00"
@@ -203,11 +208,6 @@
    "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
    "url": "https://isc.sans.edu/diary/rss/33520",
    "date": "2026-11-16T02:00:05+00:00"
-  },
-  {
-   "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
-   "url": "https://isc.sans.edu/diary/rss/33496",
-   "date": "2026-11-15T18:17:27+00:00"
   }
  ],
  "pulses": [
@@ -496,10 +496,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-18T18:00:02+00:00",
-  "sans": "2026-11-18T18:00:02+00:00",
-  "otx": "2026-11-18T18:00:02+00:00",
-  "urlhaus": "2026-11-18T18:00:02+00:00"
+  "threatfox": "2026-11-19T00:08:19+00:00",
+  "sans": "2026-11-19T00:08:19+00:00",
+  "otx": "2026-11-19T00:08:19+00:00",
+  "urlhaus": "2026-11-19T00:08:19+00:00"
  },
- "generated_at": "2026-11-18T18:00:02+00:00"
+ "generated_at": "2026-11-19T00:08:19+00:00"
 }

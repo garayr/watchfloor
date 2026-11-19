@@ -4,6 +4,14 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+     "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide…",
+     "source": "BleepingComputer",
+     "date": "2026-11-18T23:08:33+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
      "summary": "British national Tyler Robert Buchanan has been sentenced to 6 years in prison in the United States, the DOJ announced. The post Last of Five Defendants Sentenced in US Scattered Spider Hacking Case appeared first on…",
      "source": "SecurityWeek",
@@ -24,6 +32,14 @@
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+     "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-18T19:39:33+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
      "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
@@ -79,20 +95,36 @@
      "date": "2026-11-17T20:51:21+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-     "summary": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-17T11:19:51+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+     "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's…",
+     "source": "The Hacker News",
+     "date": "2026-11-18T18:31:17+00:00",
+     "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+     "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual…",
+     "source": "The Hacker News",
+     "date": "2026-11-18T18:15:39+00:00",
+     "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+     "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as…",
+     "source": "The Hacker News",
+     "date": "2026-11-18T17:10:45+00:00",
+     "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
      "summary": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure…",
@@ -210,14 +242,6 @@
      "date": "2026-11-17T15:17:36+00:00",
      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-     "summary": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17…",
-     "source": "The Hacker News",
-     "date": "2026-11-17T12:14:36+00:00",
-     "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-     "group": "Exploited right now"
     }
    ]
   },
@@ -241,35 +265,11 @@
      "group": "Malware and campaigns"
     },
     {
-     "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
-     "summary": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-17T16:00:00+00:00",
-     "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
-     "group": "Malware and campaigns"
-    },
-    {
      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
      "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that…",
      "source": "The Hacker News",
      "date": "2026-11-17T15:17:28+00:00",
      "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
-     "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-17T15:01:11+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-     "summary": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub…",
-     "source": "The Hacker News",
-     "date": "2026-11-17T11:20:18+00:00",
-     "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
      "group": "Malware and campaigns"
     }
    ]
@@ -277,6 +277,14 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+     "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers…",
+     "source": "BleepingComputer",
+     "date": "2026-11-18T20:49:32+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+     "group": "Other news"
+    },
     {
      "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
      "summary": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity. The post VeroSecurity Raises $11 Million for AI Security Engineering Platform appeared first on…",
@@ -339,14 +347,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-17T18:04:15+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
-     "group": "Other news"
-    },
-    {
-     "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-     "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in…",
-     "source": "The Hacker News",
-     "date": "2026-11-17T11:07:31+00:00",
-     "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
      "group": "Other news"
     }
    ]
