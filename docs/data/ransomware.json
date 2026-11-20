@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T03:59:02+00:00",
+ "generated_at": "2026-11-20T12:37:31+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -17,10 +17,6 @@
    "count": 9
   },
   {
-   "name": "HYFLOCK",
-   "count": 6
-  },
-  {
    "name": "SilentRansomGroup",
    "count": 5
   },
@@ -29,64 +25,62 @@
    "count": 5
   },
   {
-   "name": "rhysida",
-   "count": 5
+   "name": "spacebears",
+   "count": 4
   },
   {
-   "name": "krybit",
-   "count": 4
+   "name": "HYFLOCK",
+   "count": 3
+  },
+  {
+   "name": "Handsome Boy Hacking Club",
+   "count": 3
   }
  ],
  "by_sector": [
-  {
-   "name": "Professional Services",
-   "count": 17
-  },
   {
    "name": "Healthcare",
    "count": 15
   },
   {
-   "name": "Manufacturing",
-   "count": 13
+   "name": "Professional Services",
+   "count": 15
   },
   {
-   "name": "Technology",
-   "count": 7
+   "name": "Manufacturing",
+   "count": 12
   },
   {
    "name": "Other",
+   "count": 8
+  },
+  {
+   "name": "Technology",
    "count": 6
   },
   {
    "name": "Retail & E-Commerce",
-   "count": 5
+   "count": 4
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 53,
+   "count": 56,
    "lat": 39.0,
    "lon": -77.5
+  },
+  {
+   "code": "GB",
+   "count": 6,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "CA",
    "count": 5,
    "lat": 43.7,
    "lon": -79.4
-  },
-  {
-   "code": "GB",
-   "count": 5,
-   "lat": 51.5,
-   "lon": -0.1
-  },
-  {
-   "code": "CO",
-   "count": 2,
-   "lat": 4.7,
-   "lon": -74.1
   },
   {
    "code": "ES",
@@ -99,12 +93,6 @@
    "count": 2,
    "lat": 48.9,
    "lon": 2.35
-  },
-  {
-   "code": "IN",
-   "count": 2,
-   "lat": 19.1,
-   "lon": 72.9
   },
   {
    "code": "MX",
@@ -131,6 +119,18 @@
    "lon": -58.4
   },
   {
+   "code": "CH",
+   "count": 1,
+   "lat": 46.9,
+   "lon": 7.4
+  },
+  {
+   "code": "CO",
+   "count": 1,
+   "lat": 4.7,
+   "lon": -74.1
+  },
+  {
    "code": "EC",
    "count": 1,
    "lat": -0.2,
@@ -153,6 +153,24 @@
    "count": 1,
    "lat": 53.3,
    "lon": -6.3
+  },
+  {
+   "code": "IN",
+   "count": 1,
+   "lat": 19.1,
+   "lon": 72.9
+  },
+  {
+   "code": "IT",
+   "count": 1,
+   "lat": 41.9,
+   "lon": 12.5
+  },
+  {
+   "code": "JP",
+   "count": 1,
+   "lat": 35.7,
+   "lon": 139.7
   },
   {
    "code": "MA",
@@ -189,21 +207,81 @@
    "count": 1,
    "lat": 55.75,
    "lon": 37.6
-  },
-  {
-   "code": "SG",
-   "count": 1,
-   "lat": 1.35,
-   "lon": 103.8
-  },
-  {
-   "code": "TW",
-   "count": 1,
-   "lat": 25.0,
-   "lon": 121.5
   }
  ],
  "victims": [
+  {
+   "victim": "wakao.co.jp",
+   "group": "blackout",
+   "date": "2026-11-20T05:35:29+00:00",
+   "attack_date": "2026-11-20",
+   "country": "JP",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/d2FrYW8uY28uanBAYmxhY2tvdXQ="
+  },
+  {
+   "victim": "eni.it",
+   "group": "incransom",
+   "date": "2026-11-20T04:42:22+00:00",
+   "attack_date": "2026-11-19",
+   "country": "IT",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/ZW5pLml0QGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "Inlandboatmen’s Union of the Pacific — Marine Division of the ILWU",
+   "group": "spacebears",
+   "date": "2026-11-20T03:55:59+00:00",
+   "attack_date": "2026-11-20",
+   "country": "US",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/SW5sYW5kYm9hdG1lbuKAmXMgVW5pb24gb2YgdGhlIFBhY2lmaWMg4oCUIE1hcmluZSBEaXZpc2lvbiBvZiB0aGUgSUxXVUBzcGFjZWJlYXJz"
+  },
+  {
+   "victim": "SDJ Design Engineering Limited",
+   "group": "spacebears",
+   "date": "2026-11-20T03:55:17+00:00",
+   "attack_date": "2026-11-20",
+   "country": "GB",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/U0RKIERlc2lnbiBFbmdpbmVlcmluZyBMaW1pdGVkQHNwYWNlYmVhcnM="
+  },
+  {
+   "victim": "Rise | A Community Service Partnership (also known as NJ Rise)",
+   "group": "spacebears",
+   "date": "2026-11-20T03:54:35+00:00",
+   "attack_date": "2026-11-20",
+   "country": "US",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/UmlzZSB8IEEgQ29tbXVuaXR5IFNlcnZpY2UgUGFydG5lcnNoaXAgKGFsc28ga25vd24gYXMgTkogUmlzZSlAc3BhY2ViZWFycw=="
+  },
+  {
+   "victim": "Epoch Residential",
+   "group": "spacebears",
+   "date": "2026-11-20T03:53:54+00:00",
+   "attack_date": "2026-11-20",
+   "country": "US",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/RXBvY2ggUmVzaWRlbnRpYWxAc3BhY2ViZWFycw=="
+  },
+  {
+   "victim": "Boeing",
+   "group": "incransom",
+   "date": "2026-11-20T03:46:28+00:00",
+   "attack_date": "2026-11-20",
+   "country": "US",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/Qm9laW5nQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "FIFA (Fédération Internationale de Football Association)",
+   "group": "Handsome Boy Hacking Club",
+   "date": "2026-11-20T01:22:03+00:00",
+   "attack_date": "2026-11-20",
+   "country": "CH",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/RklGQSAoRsOpZMOpcmF0aW9uIEludGVybmF0aW9uYWxlIGRlIEZvb3RiYWxsIEFzc29jaWF0aW9uKUBIYW5kc29tZSBCb3kgSGFja2luZyBDbHVi"
+  },
   {
    "victim": "Rudolph F. Jass, Jr., PLLC",
    "group": "rhysida",
@@ -1031,78 +1109,6 @@
    "country": "VN",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/Y2loLmNvbS52bkBsb2NrYml0NQ=="
-  },
-  {
-   "victim": "STL International Pte Ltd",
-   "group": "krybit",
-   "date": "2026-11-18T15:19:08+00:00",
-   "attack_date": "2026-11-18",
-   "country": "SG",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/U1RMIEludGVybmF0aW9uYWwgUHRlIEx0ZEBrcnliaXQ="
-  },
-  {
-   "victim": "WILLIAMS, BRODERSEN, PRITCHETT & RUIZ LLP",
-   "group": "rhysida",
-   "date": "2026-11-18T14:22:57+00:00",
-   "attack_date": "2026-11-18",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/V0lMTElBTVMsIEJST0RFUlNFTiwgUFJJVENIRVRUICYgUlVJWiBMTFBAcmh5c2lkYQ=="
-  },
-  {
-   "victim": "Permit Pros LLC",
-   "group": "PixelLeaks",
-   "date": "2026-11-18T14:09:59+00:00",
-   "attack_date": "2026-11-18",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/UGVybWl0IFByb3MgTExDQFBpeGVsTGVha3M="
-  },
-  {
-   "victim": "Jeld-wen",
-   "group": "Whitearmor",
-   "date": "2026-11-18T13:08:10+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/SmVsZC13ZW5AV2hpdGVhcm1vcg=="
-  },
-  {
-   "victim": "Colombian Real Estate",
-   "group": "HYFLOCK",
-   "date": "2026-11-18T12:51:35+00:00",
-   "attack_date": "2026-11-18",
-   "country": "CO",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/Q29sb21iaWFuIFJlYWwgRXN0YXRlQEhZRkxPQ0s="
-  },
-  {
-   "victim": "SteelTech Inc.",
-   "group": "rhysida",
-   "date": "2026-11-18T10:22:57+00:00",
-   "attack_date": "2026-11-18",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/U3RlZWxUZWNoIEluYy5Acmh5c2lkYQ=="
-  },
-  {
-   "victim": "bestcorp",
-   "group": "HYFLOCK",
-   "date": "2026-11-18T09:34:44+00:00",
-   "attack_date": "2026-11-18",
-   "country": "IN",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/YmVzdGNvcnBASFlGTE9DSw=="
-  },
-  {
-   "victim": "ASIA FM Taiwan Inc",
-   "group": "HYFLOCK",
-   "date": "2026-11-18T09:34:09+00:00",
-   "attack_date": "2026-11-18",
-   "country": "TW",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/QVNJQSBGTSBUYWl3YW4gSW5jQEhZRkxPQ0s="
   }
  ]
 }

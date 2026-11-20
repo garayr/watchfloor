@@ -2,14 +2,14 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1094,
-  "c2_servers": 395,
+  "total_iocs": 1139,
+  "c2_servers": 597,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 131,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.mirai"
+    "iocs": 123,
+    "c2": 6,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ZStealer",
@@ -18,90 +18,90 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
-    "name": "Mispadu",
-    "iocs": 59,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.mispadu"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 45,
-    "c2": 44,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 31,
+    "iocs": 48,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Vidar",
+    "iocs": 48,
+    "c2": 47,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 34,
+    "c2": 34,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
+    "name": "AsyncRAT",
+    "iocs": 32,
+    "c2": 28,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
+    "name": "Sliver",
+    "iocs": 32,
+    "c2": 32,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
+   },
+   {
     "name": "VShell",
-    "iocs": 28,
-    "c2": 15,
+    "iocs": 32,
+    "c2": 19,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
     "name": "Unknown Stealer",
-    "iocs": 24,
-    "c2": 20,
+    "iocs": 23,
+    "c2": 18,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 23,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
-    "name": "Potassium",
-    "iocs": 21,
-    "c2": 21,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
-   },
-   {
-    "name": "AsyncRAT",
-    "iocs": 19,
-    "c2": 15,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+    "name": "PureRAT",
+    "iocs": 22,
+    "c2": 22,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 790,
+  "online": 796,
   "top_tags": [
    {
     "name": "github",
-    "count": 500
+    "count": 548
    },
    {
     "name": "js",
-    "count": 352
+    "count": 402
    },
    {
     "name": "VSCode",
-    "count": 337
+    "count": 346
    },
    {
     "name": "TxDataHiding",
-    "count": 276
+    "count": 242
    },
    {
     "name": "DEVPOPPER",
-    "count": 202
+    "count": 189
+   },
+   {
+    "name": "DEVBOX",
+    "count": 158
    },
    {
     "name": "exe",
-    "count": 102
+    "count": 107
    },
    {
     "name": "SalatStealer",
     "count": 92
-   },
-   {
-    "name": "elf",
-    "count": 91
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 11506,
-   "targets": 201,
-   "sources": 681
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 8413,
-   "targets": 150,
-   "sources": 496
+   "records": 312202,
+   "targets": 284,
+   "sources": 5985
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 6031,
-   "targets": 199,
-   "sources": 540
+   "records": 139275,
+   "targets": 287,
+   "sources": 5889
   },
   {
    "port": 2222,
    "service": null,
-   "records": 4098,
-   "targets": 129,
-   "sources": 540
+   "records": 114064,
+   "targets": 274,
+   "sources": 2674
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 4033,
-   "targets": 182,
-   "sources": 1101
+   "records": 106133,
+   "targets": 280,
+   "sources": 7648
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 93829,
+   "targets": 273,
+   "sources": 5925
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 80715,
+   "targets": 15,
+   "sources": 3187
   },
   {
    "port": 123,
    "service": "NTP",
-   "records": 2498,
-   "targets": 48,
-   "sources": 300
+   "records": 42809,
+   "targets": 238,
+   "sources": 2052
   },
   {
    "port": 7680,
    "service": null,
-   "records": 1767,
-   "targets": 6,
-   "sources": 280
+   "records": 34195,
+   "targets": 46,
+   "sources": 2271
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 1490,
-   "targets": 162,
-   "sources": 287
-  },
-  {
-   "port": 51413,
-   "service": null,
-   "records": 1020,
-   "targets": 3,
-   "sources": 83
+   "records": 31881,
+   "targets": 270,
+   "sources": 3402
   },
   {
    "port": 137,
    "service": null,
-   "records": 997,
-   "targets": 48,
-   "sources": 65
+   "records": 31770,
+   "targets": 203,
+   "sources": 738
   }
  ],
  "ports_date": "2026-11-20",
@@ -212,271 +212,192 @@
  ],
  "pulses": [
   {
-   "name": "Brain Cipher Ransomware Group: Victims, Leak Site, TTPs & IOCs",
-   "summary": "Brain Cipher is a financially motivated cybercriminal group operating since the early 2020s, specializing in sophisticated ransomware attacks against large organizations. The group employs double extortion tactics…",
-   "date": "2026-11-19T08:26:01+00:00",
+   "name": "Inside the 'Party' Panel: How Fraudsters Rent Android Banking Trojans to Target Indian Bank Customers",
+   "summary": "A multi-tenant malware-as-a-service platform enables fraudsters to deploy fake Google Play pages and branded Android banking trojans targeting Indian financial institutions. The operation, discovered via an unprotected…",
+   "date": "2026-11-20T10:16:21+00:00",
    "author": "AlienVault",
-   "adversary": "BrainCipher",
+   "adversary": null,
    "malware": [
-    "Brain Cipher",
-    "LockBit 3.0"
+    "SecuriDropper"
    ],
    "countries": [
-    "United States of America",
-    "Argentina",
-    "Canada",
-    "Germany",
-    "Ireland",
-    "United Kingdom of Great Britain and Northern Ireland"
+    "British Indian Ocean Territory",
+    "India"
    ],
-   "industries": [
-    "Healthcare",
-    "Finance",
-    "Manufacturing",
-    "Technology"
-   ],
-   "tags": [
-    "monero",
-    "brain cipher",
-    "double extortion",
-    "data exfiltration",
-    "zero-day",
-    "lockbit 3.0"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afeb2994a0d7c67652d9554"
-  },
-  {
-   "name": "PHP2Shell Exploited by AI Agents from Day One: Inside a Credential-Harvesting Campaign",
-   "summary": "A credential-harvesting campaign exploited PHP2Shell vulnerabilities within days of public disclosure on October 21, 2026. The operation utilized attacker infrastructure at 206.245.153[.]56 serving as…",
-   "date": "2026-11-19T08:23:43+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
    "industries": [
     "Finance",
-    "Education",
-    "Technology"
+    "Government",
+    "Agriculture"
    ],
    "tags": [
-    "cloud credential theft",
-    "php2shell",
-    "deepseek",
-    "webshell persistence",
-    "initial access broker",
-    "automated exploitation"
+    "fake google play",
+    "call forwarding",
+    "securidropper",
+    "android banking trojan",
+    "card fraud",
+    "sms stealer"
    ],
-   "url": "https://otx.alienvault.com/pulse/6afeb20f28d6ef2c94a8c482"
+   "url": "https://otx.alienvault.com/pulse/6b001df518d887db38d8b386"
   },
   {
-   "name": "OPTIMJACK: When Trusted JavaScript Becomes a Supply Chain Attack",
-   "summary": "On November 16, 2026, attackers exploited a vulnerability in Optimizely's Web Experimentation platform to inject malicious JavaScript into 188 snippets affecting 178 organizations including Zoom, CNN, Salesforce…",
-   "date": "2026-11-19T08:12:10+00:00",
+   "name": "ARMORY CASTLE Exploits vSphere",
+   "summary": "In September 2026, the suspected PRC-nexus threat actor ARMORY CASTLE exploited CVE-2026-123890, a zero-day vulnerability in VMware vCenter Server, following their initial exploitation of CVE-2026-102764 in BeyondTrust…",
+   "date": "2026-11-19T20:05:50+00:00",
    "author": "AlienVault",
-   "adversary": null,
+   "adversary": "UTA0178",
    "malware": [
-    "track.js",
-    "Coruna",
-    "DarkSword"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology",
-    "Media",
-    "Finance",
-    "Retail",
-    "Telecommunications"
-   ],
-   "tags": [
-    "track.js",
-    "content security policy",
-    "javascript injection",
-    "optimjack",
-    "optimizely",
-    "supply chain attack"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afeaf5a7a0c7df492285dbd"
-  },
-  {
-   "name": "Microsoft's agent-framework Hijacked on PyPI via Silent.pth Startup Hook",
-   "summary": "A supply chain attack targeted Microsoft's agent-framework package on PyPI, affecting versions 1.26.1 and 1.26.2 released on November 17, 2026. The attacker repacked legitimate wheels locally and injected a.pth startup…",
-   "date": "2026-11-19T08:06:05+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "cloud-credentials",
-    "supply-chain-attack",
-    "python",
-    "pypi",
-    "credential-theft",
-    "agent-framework"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afeaded9de11b28a742cb61"
-  },
-  {
-   "name": "Fake Conad Plus App: A Promise of 10× Loyalty Points Conceals Android Malware",
-   "summary": "A fraudulent campaign targeting users in Italy impersonates Conad, a retail brand, by offering multiplied miPREMIO loyalty points through a fake application called Conad Plus. The malicious website conad-plus[.]shop…",
-   "date": "2026-11-19T07:08:23+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Koktevrat"
-   ],
-   "countries": [
-    "Italy"
-   ],
-   "industries": [
-    "Retail"
-   ],
-   "tags": [
-    "italy",
-    "accessibility abuse",
-    "koktevrat",
-    "android rat",
-    "overlay attack",
-    "loyalty program scam"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afea0670379624593667583"
-  },
-  {
-   "name": "Customer Advisory: Guidance Following the Optimizely Supply Chain Incident",
-   "summary": "On November 16, an unauthorized party exploited a vulnerability in Optimizely Web Experimentation, injecting malicious JavaScript into customer projects. The malicious code, active from 04:21 to 23:11 UTC, could swap…",
-   "date": "2026-11-19T07:08:23+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "third-party scripts",
-    "card skimming",
-    "cryptocurrency theft",
-    "optimizely",
-    "vendor compromise",
-    "javascript injection"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afea0678fef8d2ecb316241"
-  },
-  {
-   "name": "ROMULUS Campaign: CNCMachineRMS RAT Analysis",
-   "summary": "Starting in late September 2026, widespread ClickFix activity was observed involving multiple malware delivery chains impersonating legitimate software. The ROMULUS platform distributed both CNCMachineRMS and…",
-   "date": "2026-11-19T02:40:02+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "CNCMachineRMS",
-    "LegionLoader"
+    "BONESAW",
+    "SAWSNAKE",
+    "SLIMSAVAGE",
+    "CAGEMATCH",
+    "BEARBONES",
+    "LAZYBONES"
    ],
    "countries": [],
    "industries": [],
    "tags": [
-    "legionloader",
-    "rat",
-    "clickfix",
-    "remote access trojan",
-    "babadeda",
-    "romulus"
+    "vsphere",
+    "bonesaw",
+    "bearbones",
+    "webshells",
+    "esxi",
+    "slimsavage"
    ],
-   "url": "https://otx.alienvault.com/pulse/6afe618212d4bcf4450d3cb6"
+   "url": "https://otx.alienvault.com/pulse/6aff569e13ea32795e9750a1"
   },
   {
-   "name": "agent-framework 1.26.1 and 1.26.2: PyPI credential stealer",
-   "summary": "Microsoft's Agent Framework meta-package on PyPI was compromised with versions 1.26.1 and 1.26.2, published on November 17, 2026. Both versions deployed a.pth startup hook that executed credential-stealing code every…",
-   "date": "2026-11-18T22:15:42+00:00",
+   "name": "US Bank, IRS, and Social Security Logins Stolen by a Russian-Speaking Operation",
+   "summary": "A Russian-speaking credential-theft operation compromised 603 Windows systems between October and November 2026, stealing US bank credentials and federal identity logins from victims' own machines. Operating from a…",
+   "date": "2026-11-19T15:44:52+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [
-    "agent-framework"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "oidc-tokens",
-    "supply-chain-attack",
-    "pypi",
-    "agent-framework",
-    "github-actions",
-    "environment-variables"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afe238e2c4ba09cd1ded286"
-  },
-  {
-   "name": "IronWorm eBPF Rootkit: How GhostMap Hides on Linux",
-   "summary": "GhostMap is a Linux eBPF rootkit shared across IronWorm and Atomic Arch malware payloads that manipulates kernel data to conceal malicious processes, files, and network sockets from user-space applications. The rootkit…",
-   "date": "2026-11-18T22:06:02+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "GhostMap",
-    "IronWorm",
-    "Shai-Hulud"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "process hiding",
-    "socket concealment",
-    "ironworm",
-    "runtime detection",
-    "ghostmap",
-    "systemd service"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afe214a2d713599d9c3976e"
-  },
-  {
-   "name": "Fake FMCSA, DAT, and TIMOCOM Portals: 3 Cyberattacks Targeting US Logistics",
-   "summary": "Three distinct campaigns are actively targeting American trucking and logistics companies through digital platforms used for routine business operations. HelloFriends employs fraudulent carrier verification portals…",
-   "date": "2026-11-18T22:06:00+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "NodeRemote",
-    "NetSupport Manager",
-    "MeshCentral",
-    "CastleRAT",
-    "NightshadeC2"
+    "HavoX",
+    "Phantom53",
+    "Kraken Bridge"
    ],
    "countries": [
     "United States of America"
    ],
    "industries": [
-    "Transportation"
+    "Finance",
+    "Government",
+    "Technology"
    ],
    "tags": [
-    "credential harvesting",
-    "castlerat",
-    "meshcentral",
-    "phishing infrastructure",
-    "nightshadec2",
-    "noderemote"
+    "rmm-persistence",
+    "federal-identity",
+    "cryptocurrency-theft",
+    "chrome-encryption-bypass",
+    "password-manager-cracking",
+    "havox"
    ],
-   "url": "https://otx.alienvault.com/pulse/6afe21487f55b1567b331b59"
+   "url": "https://otx.alienvault.com/pulse/6aff1974fdd6b0d529aa3708"
   },
   {
-   "name": "Open by Default, Already Occupied: Threat Actors are Renting your Compute",
-   "summary": "Analysis of 11,891 IP addresses reveals that over half of exposed Ollama servers show evidence of unauthorized access. Approximately 65% of affected hosts reside in cloud or hosting networks, with Germany, China, and…",
-   "date": "2026-11-18T17:52:30+00:00",
+   "name": "Inside Turla's Cereal: 12 Exchange loaders, older traces and new ways to hunt",
+   "summary": "In November 2026, researchers disclosed Cereal, a modular espionage toolset deployed by the Russia-aligned Turla group against Microsoft Exchange servers at government organizations in Kazakhstan and Romania. The…",
+   "date": "2026-11-19T14:14:39+00:00",
+   "author": "AlienVault",
+   "adversary": "Turla",
+   "malware": [
+    "Cereal",
+    "CerealLoader",
+    "CerealNeuron",
+    "CerealBox",
+    "BlankPage",
+    "CerealMood"
+   ],
+   "countries": [
+    "Kazakhstan",
+    "Romania"
+   ],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "cerealloader",
+    "cerealmood",
+    "nautilus",
+    "cerealneuron",
+    "cereal",
+    "netbootstrapper"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6aff044fb4b53217d494e9a1"
+  },
+  {
+   "name": "Major African Stock Exchange Targeted in AI-Assisted Attack",
+   "summary": "Attackers deployed a sophisticated 41-module PowerShell toolkit against an African stock exchange, exhibiting strong indicators of AI-assisted development. The toolkit operated for just over three minutes in September…",
+   "date": "2026-11-19T11:29:55+00:00",
+   "author": "AlienVault",
+   "adversary": "Witchetty",
+   "malware": [
+    "Cobalt Strike - S0154",
+    "Mimikatz"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "powershell modules",
+    "mimikatz",
+    "dns exfiltration",
+    "ai-generated toolkit",
+    "cobalt strike"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afeddb30eb6cad456c0630b"
+  },
+  {
+   "name": "One Phishing Kit, 29 Fake Banks",
+   "summary": "Since late September 2026, a phishing campaign has been deploying fake online banking websites using a single template kit. The operation created 29 unique fake-bank domains with professional-looking pages designed to…",
+   "date": "2026-11-19T11:22:07+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [],
    "countries": [
     "United States of America",
-    "China",
-    "Germany"
+    "Canada"
    ],
-   "industries": [],
+   "industries": [
+    "Finance"
+   ],
    "tags": [
-    "path-traversal",
-    "rental-compute",
-    "cloud-models",
-    "ollama",
-    "llmjacking",
-    "embedding-models"
+    "phishing",
+    "pii theft",
+    "disposable domains",
+    "fake banking sites"
    ],
-   "url": "https://otx.alienvault.com/pulse/6afde5de85d121d01c609834"
+   "url": "https://otx.alienvault.com/pulse/6afedbdf974daf92590f1394"
+  },
+  {
+   "name": "Attackers Exploit Optimizely Flaw To Inject Malicious JavaScript",
+   "summary": "On November 16, 2026, an attacker exploited a vulnerability in Optimizely's Web Experimentation account signup flow, allowing unauthorized modification of the Project JavaScript field. This enabled injection of…",
+   "date": "2026-11-19T02:33:45+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Coruna",
+    "DarkSword"
+   ],
+   "countries": [],
+   "industries": [
+    "Aerospace",
+    "Automotive",
+    "Finance",
+    "Retail",
+    "Technology",
+    "Telecommunications"
+   ],
+   "tags": [
+    "darksword",
+    "coruna",
+    "supply chain attack",
+    "optimizely",
+    "javascript injection",
+    "payment card skimming"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afe6009a92c5d101710a3da"
   },
   {
    "name": "Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools",
@@ -498,13 +419,111 @@
     "domain controller compromise"
    ],
    "url": "https://otx.alienvault.com/pulse/6afdaa4262eb5177f038db47"
+  },
+  {
+   "name": "Bazuka: The Fraud Framework That Can Do It All",
+   "summary": "In late October 2026, a new mobile threat called Bazuka was discovered while investigating an NFC card relay application. Unlike typical banking trojans with simple architectures, Bazuka is a comprehensive modular…",
+   "date": "2026-11-18T13:38:10+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Bazuka",
+    "RatOn"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "banking trojan",
+    "bazuka",
+    "llm integration",
+    "modular framework",
+    "cryptocurrency theft",
+    "raton"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afdaa42ee27fc70ccfe0fad"
+  },
+  {
+   "name": "Optimizely Supply Chain Attack Distributes Malware Across Global Brands",
+   "summary": "An attacker exploited a vulnerability in Optimizely's Web Experimentation platform on November 16, 2026, compromising 188 JavaScript snippets across 178 organizations including BBC, CNN, Zoom, GitLab, IKEA, and HSBC…",
+   "date": "2026-11-18T13:38:09+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Media",
+    "Technology",
+    "Finance",
+    "Retail",
+    "Government"
+   ],
+   "tags": [
+    "supply chain attack",
+    "optimizely",
+    "ios exploit kit",
+    "card skimmer",
+    "cryptocurrency clipper",
+    "javascript injection"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afdaa416a4121d2f40898b5"
+  },
+  {
+   "name": "GravityRAT Mobile Cyber-Campaign Targets Defense Personnel",
+   "summary": "An active cyber-surveillance campaign has been uncovered deploying GravityRAT malware against defense industry and military personnel, primarily targeting individuals from India seeking positions at foreign defense…",
+   "date": "2026-11-18T13:32:41+00:00",
+   "author": "AlienVault",
+   "adversary": "SpaceCobra, Cosmic Leopard, Operation Celestial Force",
+   "malware": [
+    "GravityRAT - S0237",
+    "HeavyLift"
+   ],
+   "countries": [
+    "British Indian Ocean Territory",
+    "India"
+   ],
+   "industries": [
+    "Defense",
+    "Aerospace"
+   ],
+   "tags": [
+    "gravityrat",
+    "pakistan-aligned",
+    "spacecobra",
+    "android surveillance",
+    "heavylift",
+    "fake recruitment portals"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afda8f9f5dd55f9f13c0cd0"
+  },
+  {
+   "name": "Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools",
+   "summary": "An attacker exploited CyberPower PowerPanel Business (PPB), a UPS management software, to execute malicious code on a Windows domain controller. The threat actor uploaded custom scripts through the web console's…",
+   "date": "2026-11-18T13:32:40+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "MSIL.Killav!gen1"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "powerpanel business",
+    "msil.killav!gen1",
+    "active directory extraction",
+    "infrastructure software abuse",
+    "script injection",
+    "system privilege abuse"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afda8f8ad54682e30c1bb10"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-20T03:59:02+00:00",
-  "sans": "2026-11-20T03:59:02+00:00",
-  "otx": "2026-11-20T03:59:02+00:00",
-  "urlhaus": "2026-11-20T03:59:02+00:00"
+  "threatfox": "2026-11-20T12:37:31+00:00",
+  "sans": "2026-11-20T12:37:31+00:00",
+  "otx": "2026-11-20T12:37:31+00:00",
+  "urlhaus": "2026-11-20T12:37:31+00:00"
  },
- "generated_at": "2026-11-20T03:59:02+00:00"
+ "generated_at": "2026-11-20T12:37:31+00:00"
 }

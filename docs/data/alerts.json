@@ -19,15 +19,7 @@
    "kev": true,
    "epss": 0.0215,
    "cvss": 9.8,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-     "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-     "source": "The Hacker News",
-     "date": "2026-11-19T08:00:00+00:00"
-    }
-   ]
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-40217",
@@ -48,15 +40,7 @@
    "kev": true,
    "epss": 0.6191,
    "cvss": 8.8,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-     "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-     "source": "The Hacker News",
-     "date": "2026-11-19T08:00:00+00:00"
-    }
-   ]
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-90817",
@@ -77,15 +61,7 @@
    "kev": true,
    "epss": 0.2519,
    "cvss": 9.8,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-     "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-     "source": "The Hacker News",
-     "date": "2026-11-19T08:00:00+00:00"
-    }
-   ]
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-90436",
@@ -106,21 +82,7 @@
    "kev": true,
    "epss": 0.0177,
    "cvss": 9.8,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
-     "url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
-     "source": "SecurityWeek",
-     "date": "2026-11-19T12:13:24+00:00"
-    },
-    {
-     "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-     "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-     "source": "The Hacker News",
-     "date": "2026-11-19T08:00:00+00:00"
-    }
-   ]
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-115731",
@@ -555,16 +517,16 @@
    "sev": "high",
    "news": [
     {
+     "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+     "source": "The Hacker News",
+     "date": "2026-11-20T10:32:50+00:00"
+    },
+    {
      "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
      "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
      "source": "SecurityWeek",
      "date": "2026-11-19T13:12:20+00:00"
-    },
-    {
-     "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
-     "url": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
-     "source": "SecurityWeek",
-     "date": "2026-11-19T09:10:58+00:00"
     }
    ]
   },
@@ -771,29 +733,6 @@
    "epss": 0.7331,
    "cvss": 9.2,
    "sev": "critical"
-  },
-  {
-   "id": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
-   "date": "2026-10-21",
-   "src": "NCSC",
-   "vendor": "NCSC",
-   "title": "Critical security issue affecting PHP",
-   "detail": "Updated: The NCSC is encouraging UK organisations to take immediate action to mitigate a security issue affecting PHP (CVE-2026-109618 and CVE-2026-109619).",
-   "todo": "Read the advisory for affected products and mitigations.",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "url": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
-   "sev": "medium",
-   "news": [
-    {
-     "title": "Everything Is a Web Application, Including Your Firewall",
-     "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-     "source": "The Hacker News",
-     "date": "2026-11-19T11:52:23+00:00"
-    }
-   ]
   }
  ]
 }
