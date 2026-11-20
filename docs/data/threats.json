@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1139,
-  "c2_servers": 597,
+  "total_iocs": 903,
+  "c2_servers": 601,
   "families": [
    {
     "name": "Mirai",
-    "iocs": 123,
-    "c2": 6,
+    "iocs": 139,
+    "c2": 16,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "ZStealer",
-    "iocs": 96,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
+    "name": "Vidar",
+    "iocs": 43,
+    "c2": 42,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "ClearFake",
-    "iocs": 48,
+    "iocs": 41,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Vidar",
-    "iocs": 48,
-    "c2": 47,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "Cobalt Strike",
-    "iocs": 34,
+    "iocs": 36,
     "c2": 34,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "AsyncRAT",
-    "iocs": 32,
-    "c2": 28,
+    "iocs": 30,
+    "c2": 29,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
     "name": "Sliver",
-    "iocs": 32,
-    "c2": 32,
+    "iocs": 30,
+    "c2": 30,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    },
    {
     "name": "VShell",
-    "iocs": 32,
-    "c2": 19,
+    "iocs": 30,
+    "c2": 17,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Unknown Stealer",
+    "name": "Agent Tesla",
     "iocs": 23,
-    "c2": 18,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+    "c2": 23,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla"
    },
    {
     "name": "PureRAT",
-    "iocs": 22,
-    "c2": 22,
+    "iocs": 18,
+    "c2": 18,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
+   },
+   {
+    "name": "SalatStealer",
+    "iocs": 18,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 796,
+  "online": 885,
   "top_tags": [
    {
     "name": "github",
-    "count": 548
+    "count": 639
    },
    {
     "name": "js",
-    "count": 402
+    "count": 501
    },
    {
     "name": "VSCode",
-    "count": 346
+    "count": 415
    },
    {
     "name": "TxDataHiding",
-    "count": 242
+    "count": 287
    },
    {
     "name": "DEVPOPPER",
-    "count": 189
+    "count": 239
    },
    {
     "name": "DEVBOX",
-    "count": 158
+    "count": 213
    },
    {
     "name": "exe",
-    "count": 107
+    "count": 91
    },
    {
     "name": "SalatStealer",
-    "count": 92
+    "count": 78
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 312202,
-   "targets": 284,
-   "sources": 5985
+   "records": 607403,
+   "targets": 296,
+   "sources": 9450
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 139275,
-   "targets": 287,
-   "sources": 5889
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 114064,
-   "targets": 274,
-   "sources": 2674
+   "records": 301021,
+   "targets": 294,
+   "sources": 10225
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 106133,
-   "targets": 280,
-   "sources": 7648
+   "records": 225619,
+   "targets": 337,
+   "sources": 12445
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 216282,
+   "targets": 286,
+   "sources": 5080
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 93829,
-   "targets": 273,
-   "sources": 5925
+   "records": 188628,
+   "targets": 294,
+   "sources": 9971
   },
   {
    "port": 16767,
    "service": null,
-   "records": 80715,
-   "targets": 15,
-   "sources": 3187
+   "records": 160582,
+   "targets": 17,
+   "sources": 4725
   },
   {
    "port": 123,
    "service": "NTP",
-   "records": 42809,
-   "targets": 238,
-   "sources": 2052
+   "records": 84371,
+   "targets": 266,
+   "sources": 3396
   },
   {
    "port": 7680,
    "service": null,
-   "records": 34195,
-   "targets": 46,
-   "sources": 2271
+   "records": 71790,
+   "targets": 57,
+   "sources": 2834
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 31881,
-   "targets": 270,
-   "sources": 3402
+   "records": 62451,
+   "targets": 284,
+   "sources": 5461
   },
   {
    "port": 137,
    "service": null,
-   "records": 31770,
-   "targets": 203,
-   "sources": 738
+   "records": 62373,
+   "targets": 220,
+   "sources": 1005
   }
  ],
  "ports_date": "2026-11-20",
@@ -212,6 +212,66 @@
  ],
  "pulses": [
   {
+   "name": "Uncovered and Disrupted BADBOX 3.0, the Largest Ad Fraud Operation by Bid Volume Ever Publicly Disclosed",
+   "summary": "BADBOX 3.0 represents the largest ad fraud operation ever disclosed, generating approximately 40 billion bid requests daily and comprising over 4% of all connected TV traffic. The operation primarily targets low-cost…",
+   "date": "2026-11-20T12:58:32+00:00",
+   "author": "AlienVault",
+   "adversary": "TXCZ",
+   "malware": [
+    "BADBOX"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "ad fraud",
+    "residential proxy",
+    "backdoor",
+    "ctv traffic",
+    "badbox",
+    "pxyedge"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b0043f873dc92a1ab3560c9"
+  },
+  {
+   "name": "Device Code Phishing in Microsoft 365: Attack Analysis",
+   "summary": "In November 2026, a resurgence of device-code phishing campaigns targeted Microsoft 365 accounts using payment-themed emails and fake SharePoint workspaces. Attackers delivered obfuscated HTML and SVG attachments that…",
+   "date": "2026-11-20T12:51:05+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "payment-themed lures",
+    "oauth abuse",
+    "microsoft 365",
+    "svg redirector",
+    "authentication hijacking",
+    "device-code phishing"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b00423946b48f044785f9d8"
+  },
+  {
+   "name": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infostealing",
+   "summary": "A financially motivated threat group designated UAT-12643 has been discovered operating malicious infrastructure targeting cryptocurrency holders, gaming platform users, and VoIP software operators. The actor deploys…",
+   "date": "2026-11-20T12:48:53+00:00",
+   "author": "AlienVault",
+   "adversary": "UAT-12643",
+   "malware": [
+    "Good Game",
+    "Overlord"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "UAT-12643",
+    "Overlord RAT",
+    "Good Game stealer",
+    "Solana blockchain"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b0041b6f254e5321e03a189"
+  },
+  {
    "name": "Inside the 'Party' Panel: How Fraudsters Rent Android Banking Trojans to Target Indian Bank Customers",
    "summary": "A multi-tenant malware-as-a-service platform enables fraudsters to deploy fake Google Play pages and branded Android banking trojans targeting Indian financial institutions. The operation, discovered via an unprotected…",
    "date": "2026-11-20T10:16:21+00:00",
@@ -238,6 +298,39 @@
     "sms stealer"
    ],
    "url": "https://otx.alienvault.com/pulse/6b001df518d887db38d8b386"
+  },
+  {
+   "name": "N0N Ransomware Group: Victims, Leak Site, TTPs & IOCs",
+   "summary": "N0N is a financially motivated cyber extortion group that emerged in September 2026, employing data theft and extortion tactics without using traditional encryption methods. The group leverages compromised credentials…",
+   "date": "2026-11-20T08:23:35+00:00",
+   "author": "AlienVault",
+   "adversary": "n0n",
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "Botswana",
+    "Canada",
+    "France",
+    "Italy",
+    "Netherlands"
+   ],
+   "industries": [
+    "Healthcare",
+    "Retail",
+    "Finance",
+    "Technology",
+    "Education",
+    "Telecommunications"
+   ],
+   "tags": [
+    "data extortion",
+    "multi-sector targeting",
+    "administrative tools",
+    "infostealer",
+    "dark web leaks",
+    "cyber extortion"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b00038798ea9ab49aa7e331"
   },
   {
    "name": "ARMORY CASTLE Exploits vSphere",
@@ -400,130 +493,39 @@
    "url": "https://otx.alienvault.com/pulse/6afe6009a92c5d101710a3da"
   },
   {
-   "name": "Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools",
-   "summary": "Threat actors exploited CyberPower PowerPanel Business (PPB), a UPS management software, as an execution channel on a Windows domain controller. The attackers leveraged PPB's legitimate feature that runs scripts during…",
-   "date": "2026-11-18T13:38:10+00:00",
+   "name": "Unsolicited audits: how AuditTeam masks ransomware",
+   "summary": "AuditTeam is an active threat group operating since January 2026, using the sophisticated OpsAgent framework to compromise organizations across multiple countries including Russia, Italy, Philippines, Hong Kong…",
+   "date": "2026-11-18T09:23:38+00:00",
    "author": "AlienVault",
-   "adversary": null,
+   "adversary": "AuditTeam",
    "malware": [
-    "MSIL.Killav!gen1"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "privilege escalation",
-    "cyberpower powerpanel business",
-    "msil.killav!gen1",
-    "active directory extraction",
-    "infrastructure tools abuse",
-    "domain controller compromise"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afdaa4262eb5177f038db47"
-  },
-  {
-   "name": "Bazuka: The Fraud Framework That Can Do It All",
-   "summary": "In late October 2026, a new mobile threat called Bazuka was discovered while investigating an NFC card relay application. Unlike typical banking trojans with simple architectures, Bazuka is a comprehensive modular…",
-   "date": "2026-11-18T13:38:10+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Bazuka",
-    "RatOn"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "banking trojan",
-    "bazuka",
-    "llm integration",
-    "modular framework",
-    "cryptocurrency theft",
-    "raton"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afdaa42ee27fc70ccfe0fad"
-  },
-  {
-   "name": "Optimizely Supply Chain Attack Distributes Malware Across Global Brands",
-   "summary": "An attacker exploited a vulnerability in Optimizely's Web Experimentation platform on November 16, 2026, compromising 188 JavaScript snippets across 178 organizations including BBC, CNN, Zoom, GitLab, IKEA, and HSBC…",
-   "date": "2026-11-18T13:38:09+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Media",
-    "Technology",
-    "Finance",
-    "Retail",
-    "Government"
-   ],
-   "tags": [
-    "supply chain attack",
-    "optimizely",
-    "ios exploit kit",
-    "card skimmer",
-    "cryptocurrency clipper",
-    "javascript injection"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afdaa416a4121d2f40898b5"
-  },
-  {
-   "name": "GravityRAT Mobile Cyber-Campaign Targets Defense Personnel",
-   "summary": "An active cyber-surveillance campaign has been uncovered deploying GravityRAT malware against defense industry and military personnel, primarily targeting individuals from India seeking positions at foreign defense…",
-   "date": "2026-11-18T13:32:41+00:00",
-   "author": "AlienVault",
-   "adversary": "SpaceCobra, Cosmic Leopard, Operation Celestial Force",
-   "malware": [
-    "GravityRAT - S0237",
-    "HeavyLift"
+    "OpsAgent",
+    "OpsAgent-rs"
    ],
    "countries": [
-    "British Indian Ocean Territory",
-    "India"
+    "Argentina",
+    "China",
+    "Finland",
+    "Hong Kong",
+    "Italy",
+    "Japan"
    ],
-   "industries": [
-    "Defense",
-    "Aerospace"
-   ],
-   "tags": [
-    "gravityrat",
-    "pakistan-aligned",
-    "spacecobra",
-    "android surveillance",
-    "heavylift",
-    "fake recruitment portals"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afda8f9f5dd55f9f13c0cd0"
-  },
-  {
-   "name": "Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools",
-   "summary": "An attacker exploited CyberPower PowerPanel Business (PPB), a UPS management software, to execute malicious code on a Windows domain controller. The threat actor uploaded custom scripts through the web console's…",
-   "date": "2026-11-18T13:32:40+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "MSIL.Killav!gen1"
-   ],
-   "countries": [],
    "industries": [],
    "tags": [
-    "powerpanel business",
-    "msil.killav!gen1",
-    "active directory extraction",
-    "infrastructure software abuse",
-    "script injection",
-    "system privilege abuse"
+    "edr-killer",
+    "opsagent-rs",
+    "auditteam",
+    "cloudfront-c2",
+    "rust-implant"
    ],
-   "url": "https://otx.alienvault.com/pulse/6afda8f8ad54682e30c1bb10"
+   "url": "https://otx.alienvault.com/pulse/6afd6e9a1376c3625c410a29"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-20T12:37:31+00:00",
-  "sans": "2026-11-20T12:37:31+00:00",
-  "otx": "2026-11-20T12:37:31+00:00",
-  "urlhaus": "2026-11-20T12:37:31+00:00"
+  "threatfox": "2026-11-20T20:43:11+00:00",
+  "sans": "2026-11-20T20:43:11+00:00",
+  "otx": "2026-11-20T20:43:11+00:00",
+  "urlhaus": "2026-11-20T20:43:11+00:00"
  },
- "generated_at": "2026-11-20T12:37:31+00:00"
+ "generated_at": "2026-11-20T20:43:11+00:00"
 }

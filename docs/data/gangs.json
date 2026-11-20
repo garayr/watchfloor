@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T12:37:31+00:00",
+ "generated_at": "2026-11-20T20:43:11+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1565,8 +1565,8 @@
    "description": "Aurora is a ransomware group associated with a multi-purpose Go-based malware distributed by multiple criminal teams from mid-2022, also sold as an infostealer/botnet under the same name on underground forums.",
    "aliases": [],
    "first_seen": "2026-04-17",
-   "last_seen": "2026-10-27",
-   "victims_total": 52,
+   "last_seen": "2026-11-20",
+   "victims_total": 64,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -1575,40 +1575,44 @@
     "countries": [
      {
       "name": "US",
-      "count": 20
+      "count": 21
      },
      {
       "name": "DE",
-      "count": 8
+      "count": 10
+     },
+     {
+      "name": "GB",
+      "count": 6
+     },
+     {
+      "name": "IT",
+      "count": 4
      },
      {
       "name": "CA",
       "count": 3
      },
      {
-      "name": "GB",
-      "count": 3
-     },
-     {
       "name": "NL",
       "count": 3
-     },
-     {
-      "name": "IT",
-      "count": 2
      }
     ],
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 17
+      "count": 22
      },
      {
       "name": "Professional Services",
-      "count": 11
+      "count": 12
      },
      {
       "name": "Retail & E-Commerce",
+      "count": 7
+     },
+     {
+      "name": "Other",
       "count": 6
      },
      {
@@ -1616,20 +1620,12 @@
       "count": 5
      },
      {
-      "name": "Healthcare",
-      "count": 3
-     },
-     {
-      "name": "Technology",
+      "name": "Agriculture and Food Production",
       "count": 3
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -1672,11 +1668,15 @@
     },
     {
      "month": "2026-10",
-     "count": 13
+     "count": 17
+    },
+    {
+     "month": "2026-11",
+     "count": 8
     }
    ],
-   "history_size": 52,
-   "updated": "2026-10-27T18:29:55+00:00"
+   "history_size": 64,
+   "updated": "2026-11-20T20:43:11+00:00"
   },
   "Vexy Ransomware": {
    "name": "Vexy Ransomware",
@@ -6727,11 +6727,11 @@
   },
   "everstake": {
    "name": "everstake",
-   "description": null,
+   "description": "⚠️ Not affiliated with Everstake, Inc. (everstake.com), a legitimate blockchain infrastructure company whose name this group appears to be misusing.",
    "aliases": [],
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-11",
-   "victims_total": 10,
+   "last_seen": "2026-11-20",
+   "victims_total": 12,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -6746,7 +6746,7 @@
     "sectors": [
      {
       "name": "Technology",
-      "count": 2
+      "count": 3
      },
      {
       "name": "Retail & E-Commerce",
@@ -6801,11 +6801,11 @@
     },
     {
      "month": "2026-11",
-     "count": 5
+     "count": 7
     }
    ],
-   "history_size": 10,
-   "updated": "2026-11-11T21:54:39+00:00"
+   "history_size": 12,
+   "updated": "2026-11-20T20:43:11+00:00"
   },
   "OBSOFT": {
    "name": "OBSOFT",

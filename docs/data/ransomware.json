@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T12:37:31+00:00",
+ "generated_at": "2026-11-20T20:43:11+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -21,8 +21,12 @@
    "count": 5
   },
   {
-   "name": "lockbit5",
-   "count": 5
+   "name": "aurora",
+   "count": 4
+  },
+  {
+   "name": "rhysida",
+   "count": 4
   },
   {
    "name": "spacebears",
@@ -31,48 +35,44 @@
   {
    "name": "HYFLOCK",
    "count": 3
-  },
-  {
-   "name": "Handsome Boy Hacking Club",
-   "count": 3
   }
  ],
  "by_sector": [
-  {
-   "name": "Healthcare",
-   "count": 15
-  },
   {
    "name": "Professional Services",
    "count": 15
   },
   {
+   "name": "Healthcare",
+   "count": 14
+  },
+  {
    "name": "Manufacturing",
-   "count": 12
+   "count": 13
   },
   {
    "name": "Other",
-   "count": 8
+   "count": 7
   },
   {
    "name": "Technology",
    "count": 6
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 4
+   "name": "Hospitality",
+   "count": 3
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 56,
+   "count": 55,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "GB",
-   "count": 6,
+   "count": 7,
    "lat": 51.5,
    "lon": -0.1
   },
@@ -83,28 +83,22 @@
    "lon": -79.4
   },
   {
+   "code": "IT",
+   "count": 3,
+   "lat": 41.9,
+   "lon": 12.5
+  },
+  {
    "code": "ES",
    "count": 2,
    "lat": 40.4,
    "lon": -3.7
   },
   {
-   "code": "FR",
-   "count": 2,
-   "lat": 48.9,
-   "lon": 2.35
-  },
-  {
    "code": "MX",
    "count": 2,
    "lat": 19.4,
    "lon": -99.1
-  },
-  {
-   "code": "VN",
-   "count": 2,
-   "lat": 21.0,
-   "lon": 105.8
   },
   {
    "code": "AE",
@@ -131,16 +125,16 @@
    "lon": -74.1
   },
   {
-   "code": "EC",
-   "count": 1,
-   "lat": -0.2,
-   "lon": -78.5
-  },
-  {
    "code": "EG",
    "count": 1,
    "lat": 30.0,
    "lon": 31.2
+  },
+  {
+   "code": "FR",
+   "count": 1,
+   "lat": 48.9,
+   "lon": 2.35
   },
   {
    "code": "GR",
@@ -153,18 +147,6 @@
    "count": 1,
    "lat": 53.3,
    "lon": -6.3
-  },
-  {
-   "code": "IN",
-   "count": 1,
-   "lat": 19.1,
-   "lon": 72.9
-  },
-  {
-   "code": "IT",
-   "count": 1,
-   "lat": 41.9,
-   "lon": 12.5
   },
   {
    "code": "JP",
@@ -207,9 +189,69 @@
    "count": 1,
    "lat": 55.75,
    "lon": 37.6
+  },
+  {
+   "code": "VN",
+   "count": 1,
+   "lat": 21.0,
+   "lon": 105.8
   }
  ],
  "victims": [
+  {
+   "victim": "TraWell Co S.p.A. (d/b/a Safe Bag)",
+   "group": "aurora",
+   "date": "2026-11-20T15:13:48+00:00",
+   "attack_date": "2026-11-20",
+   "country": "IT",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/VHJhV2VsbCBDbyBTLnAuQS4gKGQvYi9hIFNhZmUgQmFnKUBhdXJvcmE="
+  },
+  {
+   "victim": "al*****o.com",
+   "group": "everstake",
+   "date": "2026-11-20T14:50:12+00:00",
+   "attack_date": "2026-11-20",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/YWwqKioqKm8uY29tQGV2ZXJzdGFrZQ=="
+  },
+  {
+   "victim": "Clarkesville Police Department, City of Clarkesville",
+   "group": "rhysida",
+   "date": "2026-11-20T14:30:00+00:00",
+   "attack_date": "2026-11-20",
+   "country": "GA",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/Q2xhcmtlc3ZpbGxlIFBvbGljZSBEZXBhcnRtZW50LCBDaXR5IG9mIENsYXJrZXN2aWxsZUByaHlzaWRh"
+  },
+  {
+   "victim": "William Cook Holdings Limited",
+   "group": "aurora",
+   "date": "2026-11-20T14:17:35+00:00",
+   "attack_date": "2026-11-19",
+   "country": "GB",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/V2lsbGlhbSBDb29rIEhvbGRpbmdzIExpbWl0ZWRAYXVyb3Jh"
+  },
+  {
+   "victim": "Pecora",
+   "group": "akira",
+   "date": "2026-11-20T13:19:58+00:00",
+   "attack_date": "2026-11-20",
+   "country": "IT",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/UGVjb3JhQGFraXJh"
+  },
+  {
+   "victim": "Dallas Theological Seminary",
+   "group": "Barracuda",
+   "date": "2026-11-20T11:51:15+00:00",
+   "attack_date": "2026-11-20",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/RGFsbGFzIFRoZW9sb2dpY2FsIFNlbWluYXJ5QEJhcnJhY3VkYQ=="
+  },
   {
    "victim": "wakao.co.jp",
    "group": "blackout",
@@ -317,15 +359,6 @@
    "country": "US",
    "sector": "Professional Services",
    "url": "https://www.ransomware.live/id/S3V0YWsgUm9jayBMTFBAU2lsZW50UmFuc29tR3JvdXA="
-  },
-  {
-   "victim": "CHAMBOURCY",
-   "group": "incransom",
-   "date": "2026-11-19T17:35:54+00:00",
-   "attack_date": "2026-11-19",
-   "country": "FR",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/Q0hBTUJPVVJDWUBpbmNyYW5zb20="
   },
   {
    "victim": "UCHealth",
@@ -1064,51 +1097,6 @@
    "country": null,
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/ZW8qKipyKioqKioqeS5jb21AQ3VyaW91cyBXb3Jt"
-  },
-  {
-   "victim": "primecareofmi.com",
-   "group": "lockbit5",
-   "date": "2026-11-18T16:24:20+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/cHJpbWVjYXJlb2ZtaS5jb21AbG9ja2JpdDU="
-  },
-  {
-   "victim": "softlinefurniture.com",
-   "group": "lockbit5",
-   "date": "2026-11-18T16:22:40+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/c29mdGxpbmVmdXJuaXR1cmUuY29tQGxvY2tiaXQ1"
-  },
-  {
-   "victim": "laguarda.com.ec",
-   "group": "lockbit5",
-   "date": "2026-11-18T16:21:59+00:00",
-   "attack_date": "2026-11-18",
-   "country": "EC",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/bGFndWFyZGEuY29tLmVjQGxvY2tiaXQ1"
-  },
-  {
-   "victim": "umraocashmere.com",
-   "group": "lockbit5",
-   "date": "2026-11-18T16:21:16+00:00",
-   "attack_date": "2026-11-18",
-   "country": "IN",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/dW1yYW9jYXNobWVyZS5jb21AbG9ja2JpdDU="
-  },
-  {
-   "victim": "cih.com.vn",
-   "group": "lockbit5",
-   "date": "2026-11-18T16:19:16+00:00",
-   "attack_date": "2026-11-18",
-   "country": "VN",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/Y2loLmNvbS52bkBsb2NrYml0NQ=="
   }
  ]
 }
