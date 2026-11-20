@@ -111,6 +111,17 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "VMware patches vCenter zero-day exploited in attacks since September",
+     "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-20T00:26:25+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-41709"
+     ]
+    },
+    {
      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
      "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
      "source": "BleepingComputer",
@@ -170,7 +181,7 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+     "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
      "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions…",
      "source": "The Hacker News",
      "date": "2026-11-19T15:11:06+00:00",
@@ -359,14 +370,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-18T20:49:32+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
-     "group": "Other news"
-    },
-    {
-     "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-     "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how…",
-     "source": "BleepingComputer",
-     "date": "2026-11-18T15:00:10+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
      "group": "Other news"
     }
    ]
