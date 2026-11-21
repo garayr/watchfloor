@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-21T16:44:46+00:00",
+ "generated_at": "2026-11-21T21:55:00+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
  "by_group": [
   {
    "name": "SoulGroup",
-   "count": 26
+   "count": 27
   },
   {
    "name": "everest",
@@ -29,18 +29,18 @@
    "count": 5
   },
   {
-   "name": "N0n",
+   "name": "spacebears",
    "count": 4
   },
   {
-   "name": "spacebears",
-   "count": 4
+   "name": "Handsome Boy Hacking Club",
+   "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 20
+   "count": 21
   },
   {
    "name": "Professional Services",
@@ -59,28 +59,28 @@
    "count": 11
   },
   {
-   "name": "Energy & Utilities",
-   "count": 3
+   "name": "Government & Defense",
+   "count": 4
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 45,
+   "count": 46,
    "lat": 39.0,
    "lon": -77.5
-  },
-  {
-   "code": "GB",
-   "count": 4,
-   "lat": 51.5,
-   "lon": -0.1
   },
   {
    "code": "CA",
    "count": 3,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "GB",
+   "count": 3,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "IT",
@@ -185,12 +185,6 @@
    "lon": -79.5
   },
   {
-   "code": "PH",
-   "count": 1,
-   "lat": 14.6,
-   "lon": 121.0
-  },
-  {
    "code": "PK",
    "count": 1,
    "lat": 24.9,
@@ -209,6 +203,12 @@
    "lon": 18.1
   },
   {
+   "code": "TW",
+   "count": 1,
+   "lat": 25.0,
+   "lon": 121.5
+  },
+  {
    "code": "VE",
    "count": 1,
    "lat": 10.5,
@@ -222,6 +222,33 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Kang Chiao International School (Linkou)",
+   "group": "osiris",
+   "date": "2026-11-21T17:23:07+00:00",
+   "attack_date": "2026-11-21",
+   "country": "TW",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/S2FuZyBDaGlhbyBJbnRlcm5hdGlvbmFsIFNjaG9vbCAoTGlua291KUBvc2lyaXM="
+  },
+  {
+   "victim": "Regions Behavioral Hospital",
+   "group": "incransom",
+   "date": "2026-11-21T17:20:46+00:00",
+   "attack_date": "2026-11-21",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/UmVnaW9ucyBCZWhhdmlvcmFsIEhvc3BpdGFsQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "County government within a U.S. state",
+   "group": "SoulGroup",
+   "date": "2026-11-21T15:39:24+00:00",
+   "attack_date": "2026-11-21",
+   "country": "US",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/Q291bnR5IGdvdmVybm1lbnQgd2l0aGluIGEgVS5TLiBzdGF0ZUBTb3VsR3JvdXA="
+  },
   {
    "victim": "genica.com.ve",
    "group": "lockbit5",
@@ -1094,33 +1121,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjQxQE4wbg=="
-  },
-  {
-   "victim": "Company #240",
-   "group": "N0n",
-   "date": "2026-11-18T22:13:41+00:00",
-   "attack_date": "2026-11-18",
-   "country": "PH",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjQwQE4wbg=="
-  },
-  {
-   "victim": "Company #239",
-   "group": "N0n",
-   "date": "2026-11-18T22:13:04+00:00",
-   "attack_date": "2026-11-18",
-   "country": "GB",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjM5QE4wbg=="
-  },
-  {
-   "victim": "Company #238",
-   "group": "N0n",
-   "date": "2026-11-18T22:12:27+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjM4QE4wbg=="
   }
  ]
 }

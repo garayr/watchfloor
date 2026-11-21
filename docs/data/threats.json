@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1770,
-  "c2_servers": 531,
+  "total_iocs": 2024,
+  "c2_servers": 579,
   "families": [
    {
     "name": "Skimer",
@@ -12,22 +12,28 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.skimer"
    },
    {
+    "name": "Unknown Loader",
+    "iocs": 158,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
     "name": "ZStealer",
     "iocs": 156,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
+    "name": "Mirai",
+    "iocs": 141,
+    "c2": 4,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "Merdoor",
     "iocs": 120,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.merdoor"
-   },
-   {
-    "name": "Mirai",
-    "iocs": 106,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Raven Stealer",
@@ -42,66 +48,60 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
-    "name": "ClearFake",
-    "iocs": 38,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+    "name": "Cobalt Strike",
+    "iocs": 39,
+    "c2": 39,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 31,
-    "c2": 31,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "ClearFake",
+    "iocs": 37,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "SalatStealer",
     "iocs": 23,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
-   },
-   {
-    "name": "Sliver",
-    "iocs": 19,
-    "c2": 19,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 810,
+  "online": 811,
   "top_tags": [
    {
     "name": "github",
-    "count": 447
+    "count": 440
    },
    {
     "name": "js",
-    "count": 309
+    "count": 306
+   },
+   {
+    "name": "TxDataHiding",
+    "count": 305
    },
    {
     "name": "VSCode",
     "count": 305
    },
    {
-    "name": "TxDataHiding",
-    "count": 294
-   },
-   {
     "name": "DEVPOPPER",
-    "count": 260
+    "count": 275
    },
    {
     "name": "mirai",
-    "count": 212
+    "count": 232
    },
    {
     "name": "elf",
-    "count": 123
+    "count": 156
    },
    {
-    "name": "exe",
-    "count": 121
+    "name": "SalatStealer",
+    "count": 120
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 23,
    "service": "Telnet",
-   "records": 510972,
-   "targets": 287,
-   "sources": 7209
+   "records": 1204405,
+   "targets": 296,
+   "sources": 14077
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 299659,
-   "targets": 288,
-   "sources": 6653
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 109157,
-   "targets": 260,
-   "sources": 5808
+   "records": 779535,
+   "targets": 312,
+   "sources": 12588
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 107779,
-   "targets": 272,
-   "sources": 7651
+   "records": 309702,
+   "targets": 294,
+   "sources": 12975
   },
   {
    "port": 2222,
    "service": null,
-   "records": 106235,
-   "targets": 272,
-   "sources": 2530
+   "records": 309606,
+   "targets": 289,
+   "sources": 5947
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 276593,
+   "targets": 291,
+   "sources": 11150
   },
   {
    "port": 16767,
    "service": null,
-   "records": 89514,
-   "targets": 12,
-   "sources": 3476
+   "records": 216803,
+   "targets": 16,
+   "sources": 5602
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 50056,
-   "targets": 278,
-   "sources": 4198
+   "records": 109958,
+   "targets": 287,
+   "sources": 8506
   },
   {
    "port": 123,
    "service": "NTP",
-   "records": 47083,
-   "targets": 256,
-   "sources": 2327
+   "records": 105133,
+   "targets": 266,
+   "sources": 4087
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 34869,
-   "targets": 275,
-   "sources": 3100
+   "records": 82869,
+   "targets": 288,
+   "sources": 5453
   },
   {
    "port": 137,
    "service": null,
-   "records": 33269,
-   "targets": 208,
-   "sources": 757
+   "records": 80230,
+   "targets": 223,
+   "sources": 1084
   }
  ],
  "ports_date": "2026-11-21",
@@ -333,111 +333,6 @@
    "url": "https://otx.alienvault.com/pulse/6b00038798ea9ab49aa7e331"
   },
   {
-   "name": "Inside Turla's Cereal: 12 Exchange loaders, older traces and new ways to hunt",
-   "summary": "In November 2026, researchers disclosed Cereal, a modular espionage toolset deployed by the Russia-aligned Turla group against Microsoft Exchange servers at government organizations in Kazakhstan and Romania. The…",
-   "date": "2026-11-19T14:14:39+00:00",
-   "author": "AlienVault",
-   "adversary": "Turla",
-   "malware": [
-    "Cereal",
-    "CerealLoader",
-    "CerealNeuron",
-    "CerealBox",
-    "BlankPage",
-    "CerealMood"
-   ],
-   "countries": [
-    "Kazakhstan",
-    "Romania"
-   ],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "cerealloader",
-    "cerealmood",
-    "nautilus",
-    "cerealneuron",
-    "cereal",
-    "netbootstrapper"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aff044fb4b53217d494e9a1"
-  },
-  {
-   "name": "Major African Stock Exchange Targeted in AI-Assisted Attack",
-   "summary": "Attackers deployed a sophisticated 41-module PowerShell toolkit against an African stock exchange, exhibiting strong indicators of AI-assisted development. The toolkit operated for just over three minutes in September…",
-   "date": "2026-11-19T11:29:55+00:00",
-   "author": "AlienVault",
-   "adversary": "Witchetty",
-   "malware": [
-    "Cobalt Strike - S0154",
-    "Mimikatz"
-   ],
-   "countries": [],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "powershell modules",
-    "mimikatz",
-    "dns exfiltration",
-    "ai-generated toolkit",
-    "cobalt strike"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afeddb30eb6cad456c0630b"
-  },
-  {
-   "name": "One Phishing Kit, 29 Fake Banks",
-   "summary": "Since late September 2026, a phishing campaign has been deploying fake online banking websites using a single template kit. The operation created 29 unique fake-bank domains with professional-looking pages designed to…",
-   "date": "2026-11-19T11:22:07+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "Canada"
-   ],
-   "industries": [
-    "Finance"
-   ],
-   "tags": [
-    "phishing",
-    "pii theft",
-    "disposable domains",
-    "fake banking sites"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afedbdf974daf92590f1394"
-  },
-  {
-   "name": "Attackers Exploit Optimizely Flaw To Inject Malicious JavaScript",
-   "summary": "On November 16, 2026, an attacker exploited a vulnerability in Optimizely's Web Experimentation account signup flow, allowing unauthorized modification of the Project JavaScript field. This enabled injection of…",
-   "date": "2026-11-19T02:33:45+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Coruna",
-    "DarkSword"
-   ],
-   "countries": [],
-   "industries": [
-    "Aerospace",
-    "Automotive",
-    "Finance",
-    "Retail",
-    "Technology",
-    "Telecommunications"
-   ],
-   "tags": [
-    "darksword",
-    "coruna",
-    "supply chain attack",
-    "optimizely",
-    "javascript injection",
-    "payment card skimming"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6afe6009a92c5d101710a3da"
-  },
-  {
    "name": "Unsolicited audits: how AuditTeam masks ransomware",
    "summary": "AuditTeam is an active threat group operating since January 2026, using the sophisticated OpsAgent framework to compromise organizations across multiple countries including Russia, Italy, Philippines, Hong Kong…",
    "date": "2026-11-18T09:23:38+00:00",
@@ -464,6 +359,94 @@
     "rust-implant"
    ],
    "url": "https://otx.alienvault.com/pulse/6afd6e9a1376c3625c410a29"
+  },
+  {
+   "name": "SEO Poisoning Campaign Delivers New Armorsteal Malware",
+   "summary": "In September 2026, an SEO poisoning campaign distributed Armorsteal malware through fake websites impersonating Chocolatey package manager and Microsoft Activation Scripts (MAS) tool. Victims searching for software…",
+   "date": "2026-10-22T19:13:21+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Armorsteal"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "python malware",
+    "clipboard hijacking",
+    "armorsteal",
+    "seo poisoning",
+    "typosquatting",
+    "pyarmor"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada6051fb91aa7551af4ba6"
+  },
+  {
+   "name": "ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors",
+   "summary": "Throughout October 2026, an actor utilizing ARTEX, an autonomous AI penetration-testing agent, targeted multiple IT and software vendors with attacks focused on identity providers including Okta, Entra, and Cognito. The…",
+   "date": "2026-10-22T19:08:15+00:00",
+   "author": "AlienVault",
+   "adversary": "Storm-0940",
+   "malware": [
+    "ARTEX"
+   ],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "autonomous ai agent",
+    "oauth manipulation",
+    "artex",
+    "supply chain attack"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada5f1fcf9561726fe676ad"
+  },
+  {
+   "name": "StealC Is Back, and This Time It's a RAT",
+   "summary": "Four months after Operation Endgame dismantled StealC in June, its seller returned in October with Stadia, a full-featured remote access trojan that incorporates StealC's code verbatim. Unlike its predecessor, Stadia…",
+   "date": "2026-10-22T19:08:14+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Stadia",
+    "StealC"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "operation endgame",
+    "stadia",
+    "hvnc",
+    "stealc"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada5f1e1071ed1bf4072f30"
+  },
+  {
+   "name": "MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration",
+   "summary": "On July 16th, 2025, UAC-0099 conducted a spearphishing attack against a Ukrainian grain logistics company, deploying the MATCHWOK backdoor. The following day, attackers introduced MythicRatatoskr, a previously…",
+   "date": "2026-10-22T19:08:14+00:00",
+   "author": "AlienVault",
+   "adversary": "UAC-0099, Sandworm",
+   "malware": [
+    "MythicRatatoskr",
+    "MATCHWOK",
+    "MATCHBOIL",
+    "SDelete"
+   ],
+   "countries": [
+    "Ukraine"
+   ],
+   "industries": [
+    "Agriculture"
+   ],
+   "tags": [
+    "mythicratatoskr",
+    "matchboil",
+    "sdelete",
+    "yggdrasil"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada5f1e04fbf3494e4114a7"
   },
   {
    "name": "Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)",
@@ -512,10 +495,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-21T16:44:46+00:00",
-  "sans": "2026-11-21T16:44:46+00:00",
-  "otx": "2026-11-21T16:44:46+00:00",
-  "urlhaus": "2026-11-21T16:44:46+00:00"
+  "threatfox": "2026-11-21T21:55:00+00:00",
+  "sans": "2026-11-21T21:55:00+00:00",
+  "otx": "2026-11-21T21:55:00+00:00",
+  "urlhaus": "2026-11-21T21:55:00+00:00"
  },
- "generated_at": "2026-11-21T16:44:46+00:00"
+ "generated_at": "2026-11-21T21:55:00+00:00"
 }

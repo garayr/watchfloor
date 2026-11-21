@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T16:44:46+00:00",
+ "generated_at": "2026-11-21T21:55:00+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -7477,8 +7477,8 @@
    "description": "Osiris is a ransomware-as-a-service operation first observed in November 2025 that uses a Bring Your Own Vulnerable Driver (BYOVD) technique to disable endpoint detection tools before deploying hybrid ECC + AES-128-CTR encryption; Symantec researchers linked its operators to former INC ransomware affiliates.",
    "aliases": [],
    "first_seen": "2025-12-10",
-   "last_seen": "2026-11-11",
-   "victims_total": 10,
+   "last_seen": "2026-11-21",
+   "victims_total": 11,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -7500,6 +7500,10 @@
      {
       "name": "PH",
       "count": 1
+     },
+     {
+      "name": "TW",
+      "count": 1
      }
     ],
     "sectors": [
@@ -7512,6 +7516,10 @@
       "count": 3
      },
      {
+      "name": "Education",
+      "count": 1
+     },
+     {
       "name": "Hospitality",
       "count": 1
      },
@@ -7521,10 +7529,6 @@
      },
      {
       "name": "Technology",
-      "count": 1
-     },
-     {
-      "name": "Transportation",
       "count": 1
      }
     ]
@@ -7576,11 +7580,11 @@
     },
     {
      "month": "2026-11",
-     "count": 8
+     "count": 9
     }
    ],
-   "history_size": 10,
-   "updated": "2026-11-11T15:08:15+00:00"
+   "history_size": 11,
+   "updated": "2026-11-21T21:55:00+00:00"
   },
   "Curious Worm": {
    "name": "Curious Worm",
