@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T09:00:33+00:00",
+ "generated_at": "2026-11-21T16:44:46+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -17,10 +17,6 @@
    "count": 9
   },
   {
-   "name": "N0n",
-   "count": 8
-  },
-  {
    "name": "PixelLeaks",
    "count": 5
   },
@@ -33,6 +29,10 @@
    "count": 5
   },
   {
+   "name": "N0n",
+   "count": 4
+  },
+  {
    "name": "spacebears",
    "count": 4
   }
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 19
+   "count": 20
   },
   {
    "name": "Professional Services",
-   "count": 16
+   "count": 17
   },
   {
    "name": "Manufacturing",
@@ -52,11 +52,11 @@
   },
   {
    "name": "Other",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Technology",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Energy & Utilities",
@@ -72,7 +72,7 @@
   },
   {
    "code": "GB",
-   "count": 5,
+   "count": 4,
    "lat": 51.5,
    "lon": -0.1
   },
@@ -111,6 +111,12 @@
    "count": 2,
    "lat": 48.9,
    "lon": 2.35
+  },
+  {
+   "code": "IE",
+   "count": 2,
+   "lat": 53.3,
+   "lon": -6.3
   },
   {
    "code": "JP",
@@ -155,22 +161,10 @@
    "lon": 23.7
   },
   {
-   "code": "IE",
-   "count": 1,
-   "lat": 53.3,
-   "lon": -6.3
-  },
-  {
    "code": "IN",
    "count": 1,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "MX",
-   "count": 1,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "MZ",
@@ -215,6 +209,12 @@
    "lon": 18.1
   },
   {
+   "code": "VE",
+   "count": 1,
+   "lat": 10.5,
+   "lon": -66.9
+  },
+  {
    "code": "VN",
    "count": 1,
    "lat": 21.0,
@@ -222,6 +222,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "genica.com.ve",
+   "group": "lockbit5",
+   "date": "2026-11-21T11:33:10+00:00",
+   "attack_date": "2026-11-21",
+   "country": "VE",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/Z2VuaWNhLmNvbS52ZUBsb2NrYml0NQ=="
+  },
+  {
+   "victim": "Dallas Fort Worth Fertility Associates",
+   "group": "Barracuda",
+   "date": "2026-11-21T07:55:50+00:00",
+   "attack_date": "2026-11-21",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/RGFsbGFzIEZvcnQgV29ydGggRmVydGlsaXR5IEFzc29jaWF0ZXNAQmFycmFjdWRh"
+  },
+  {
+   "victim": "Law Office of Ronald D. Weiss, P.C",
+   "group": "pear",
+   "date": "2026-11-21T07:26:34+00:00",
+   "attack_date": "2026-11-19",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TGF3IE9mZmljZSBvZiBSb25hbGQgRC4gV2Vpc3MsIFAuQ0BwZWFy"
+  },
+  {
+   "victim": "Realta Technologies",
+   "group": "Eclipse",
+   "date": "2026-11-21T06:51:14+00:00",
+   "attack_date": "2026-11-21",
+   "country": "IE",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/UmVhbHRhIFRlY2hub2xvZ2llc0BFY2xpcHNl"
+  },
   {
    "victim": "Lucid Motors",
    "group": "Inception",
@@ -1085,42 +1121,6 @@
    "country": "US",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjM4QE4wbg=="
-  },
-  {
-   "victim": "Company #237",
-   "group": "N0n",
-   "date": "2026-11-18T22:11:51+00:00",
-   "attack_date": "2026-11-18",
-   "country": "MX",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjM3QE4wbg=="
-  },
-  {
-   "victim": "Company #236",
-   "group": "N0n",
-   "date": "2026-11-18T22:11:12+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjM2QE4wbg=="
-  },
-  {
-   "victim": "Company #235",
-   "group": "N0n",
-   "date": "2026-11-18T22:10:36+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjM1QE4wbg=="
-  },
-  {
-   "victim": "Company #234",
-   "group": "N0n",
-   "date": "2026-11-18T22:09:59+00:00",
-   "attack_date": "2026-11-18",
-   "country": "GB",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjM0QE4wbg=="
   }
  ]
 }

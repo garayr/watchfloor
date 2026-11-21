@@ -4,6 +4,14 @@
    "group": "Arrests, courts and policy",
    "items": [
     {
+     "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+     "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and…",
+     "source": "BleepingComputer",
+     "date": "2026-11-21T14:26:04+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+     "group": "Arrests, courts and policy"
+    },
+    {
      "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit",
      "summary": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI. The post In Other News…",
      "source": "SecurityWeek",
@@ -99,14 +107,6 @@
      "date": "2026-11-19T18:20:01+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Five warning signs of ransomware breach before encryption or data theft",
-     "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions…",
-     "source": "BleepingComputer",
-     "date": "2026-11-19T15:00:10+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
@@ -114,8 +114,46 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+     "summary": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-21T12:08:50+00:00",
+     "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+     "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be…",
+     "source": "The Hacker News",
+     "date": "2026-11-21T11:05:53+00:00",
+     "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+     "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence…",
+     "source": "The Hacker News",
+     "date": "2026-11-21T11:03:17+00:00",
+     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities…",
+     "source": "The Hacker News",
+     "date": "2026-11-21T08:49:13+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-129448",
+      "CVE-2026-123890",
+      "CVE-2026-76466",
+      "CVE-2025-42884"
+     ]
+    },
+    {
      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-     "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as…",
+     "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871…",
      "source": "The Hacker News",
      "date": "2026-11-20T17:57:20+00:00",
      "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
@@ -243,76 +281,20 @@
      "date": "2026-11-19T16:59:56+00:00",
      "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
-     "summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-19T16:28:23+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "PHP Patches Seven Critical RCE Vulnerabilities",
-     "summary": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-19T15:54:20+00:00",
-     "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-     "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of…",
-     "source": "The Hacker News",
-     "date": "2026-11-19T15:18:07+00:00",
-     "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-     "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions…",
-     "source": "The Hacker News",
-     "date": "2026-11-19T15:11:06+00:00",
-     "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-123890",
-      "CVE-2026-41709"
-     ]
-    },
-    {
-     "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
-     "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel…",
-     "source": "BleepingComputer",
-     "date": "2026-11-19T14:57:24+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-     "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote…",
-     "source": "The Hacker News",
-     "date": "2026-11-19T14:33:06+00:00",
-     "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Everything Is a Web Application, Including Your Firewall",
-     "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against…",
-     "source": "The Hacker News",
-     "date": "2026-11-19T11:52:23+00:00",
-     "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-109618",
-      "CVE-2026-109619"
-     ]
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+     "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-21T15:17:27+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
      "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch…",
@@ -334,6 +316,22 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+     "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to…",
+     "source": "The Hacker News",
+     "date": "2026-11-21T11:53:07+00:00",
+     "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+     "group": "Other news"
+    },
+    {
+     "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+     "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The…",
+     "source": "The Hacker News",
+     "date": "2026-11-21T08:49:20+00:00",
+     "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+     "group": "Other news"
+    },
     {
      "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
      "summary": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]",

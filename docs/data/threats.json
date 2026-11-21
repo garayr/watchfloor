@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1657,
-  "c2_servers": 519,
+  "total_iocs": 1770,
+  "c2_servers": 531,
   "families": [
    {
     "name": "Skimer",
@@ -25,83 +25,83 @@
    },
    {
     "name": "Mirai",
-    "iocs": 111,
-    "c2": 14,
+    "iocs": 106,
+    "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "Unknown Stealer",
-    "iocs": 73,
-    "c2": 60,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
-   },
-   {
     "name": "Raven Stealer",
-    "iocs": 69,
+    "iocs": 84,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    },
    {
+    "name": "Unknown Stealer",
+    "iocs": 84,
+    "c2": 65,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 41,
+    "iocs": 38,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 24,
-    "c2": 22,
+    "iocs": 31,
+    "c2": 31,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "Vidar",
-    "iocs": 24,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+    "name": "SalatStealer",
+    "iocs": 23,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
    },
    {
-    "name": "Agent Tesla",
-    "iocs": 20,
-    "c2": 20,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla"
+    "name": "Sliver",
+    "iocs": 19,
+    "c2": 19,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 856,
+  "online": 810,
   "top_tags": [
    {
     "name": "github",
-    "count": 386
+    "count": 447
    },
    {
     "name": "js",
-    "count": 202
-   },
-   {
-    "name": "mirai",
-    "count": 197
+    "count": 309
    },
    {
     "name": "VSCode",
-    "count": 195
+    "count": 305
    },
    {
     "name": "TxDataHiding",
-    "count": 178
+    "count": 294
    },
    {
     "name": "DEVPOPPER",
-    "count": 164
+    "count": 260
    },
    {
-    "name": "Mozi",
-    "count": 160
+    "name": "mirai",
+    "count": 212
+   },
+   {
+    "name": "elf",
+    "count": 123
    },
    {
     "name": "exe",
-    "count": 118
+    "count": 121
    }
   ]
  },
@@ -333,61 +333,6 @@
    "url": "https://otx.alienvault.com/pulse/6b00038798ea9ab49aa7e331"
   },
   {
-   "name": "ARMORY CASTLE Exploits vSphere",
-   "summary": "In September 2026, the suspected PRC-nexus threat actor ARMORY CASTLE exploited CVE-2026-123890, a zero-day vulnerability in VMware vCenter Server, following their initial exploitation of CVE-2026-102764 in BeyondTrust…",
-   "date": "2026-11-19T20:05:50+00:00",
-   "author": "AlienVault",
-   "adversary": "UTA0178",
-   "malware": [
-    "BONESAW",
-    "SAWSNAKE",
-    "SLIMSAVAGE",
-    "CAGEMATCH",
-    "BEARBONES",
-    "LAZYBONES"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "vsphere",
-    "bonesaw",
-    "bearbones",
-    "webshells",
-    "esxi",
-    "slimsavage"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aff569e13ea32795e9750a1"
-  },
-  {
-   "name": "US Bank, IRS, and Social Security Logins Stolen by a Russian-Speaking Operation",
-   "summary": "A Russian-speaking credential-theft operation compromised 603 Windows systems between October and November 2026, stealing US bank credentials and federal identity logins from victims' own machines. Operating from a…",
-   "date": "2026-11-19T15:44:52+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "HavoX",
-    "Phantom53",
-    "Kraken Bridge"
-   ],
-   "countries": [
-    "United States of America"
-   ],
-   "industries": [
-    "Finance",
-    "Government",
-    "Technology"
-   ],
-   "tags": [
-    "rmm-persistence",
-    "federal-identity",
-    "cryptocurrency-theft",
-    "chrome-encryption-bypass",
-    "password-manager-cracking",
-    "havox"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6aff1974fdd6b0d529aa3708"
-  },
-  {
    "name": "Inside Turla's Cereal: 12 Exchange loaders, older traces and new ways to hunt",
    "summary": "In November 2026, researchers disclosed Cereal, a modular espionage toolset deployed by the Russia-aligned Turla group against Microsoft Exchange servers at government organizations in Kazakhstan and Romania. The…",
    "date": "2026-11-19T14:14:39+00:00",
@@ -519,13 +464,58 @@
     "rust-implant"
    ],
    "url": "https://otx.alienvault.com/pulse/6afd6e9a1376c3625c410a29"
+  },
+  {
+   "name": "Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)",
+   "summary": "Two critical PHP remote code execution vulnerabilities, CVE-2026-109618 and CVE-2026-109619, both rated CVSS v4.0 9.2, leaked before their scheduled patch on October 21, 2026. The flaws involve out-of-memory corruption…",
+   "date": "2026-10-22T14:31:52+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "Germany",
+    "Singapore",
+    "United Kingdom of Great Britain and Northern Ireland"
+   ],
+   "industries": [
+    "Retail",
+    "Finance",
+    "Technology"
+   ],
+   "tags": [
+    "mirai botnet",
+    "cve-2026-109618",
+    "woocommerce",
+    "magento",
+    "cve-2026-109619",
+    "php2shell"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604"
+  },
+  {
+   "name": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
+   "summary": "Between July and September 2026, a sophisticated campaign targeted Microsoft 365 accounts through adversary-in-the-middle attacks and token replay techniques. The operation captured sign-in sessions via AiTM relays and…",
+   "date": "2026-10-22T14:31:51+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "microsoft 365",
+    "token replay",
+    "adversary-in-the-middle",
+    "business email compromise"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada1e572ffb7473cf202754"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-21T09:00:33+00:00",
-  "sans": "2026-11-21T09:00:33+00:00",
-  "otx": "2026-11-21T09:00:33+00:00",
-  "urlhaus": "2026-11-21T09:00:33+00:00"
+  "threatfox": "2026-11-21T16:44:46+00:00",
+  "sans": "2026-11-21T16:44:46+00:00",
+  "otx": "2026-11-21T16:44:46+00:00",
+  "urlhaus": "2026-11-21T16:44:46+00:00"
  },
- "generated_at": "2026-11-21T09:00:33+00:00"
+ "generated_at": "2026-11-21T16:44:46+00:00"
 }
