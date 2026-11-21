@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T01:45:10+00:00",
+ "generated_at": "2026-11-21T09:00:33+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -906,124 +906,6 @@
    ],
    "history_size": 319,
    "updated": "2026-11-16T18:28:31+00:00"
-  },
-  "lamashtu": {
-   "name": "lamashtu",
-   "description": "Lamashtu is an extortion group that first appeared in April 2026, claiming attacks against organizations in France, Romania, and Thailand across energy, pharmaceutical, and film sectors; it has not yet been confirmed as operating actual file-encrypting ransomware rather than pure data-theft extortion.",
-   "aliases": [],
-   "first_seen": "2026-04-11",
-   "last_seen": "2026-10-22",
-   "victims_total": 53,
-   "cves": [],
-   "tools": [],
-   "techniques": [],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "DE",
-      "count": 13
-     },
-     {
-      "name": "FR",
-      "count": 6
-     },
-     {
-      "name": "MY",
-      "count": 5
-     },
-     {
-      "name": "MX",
-      "count": 4
-     },
-     {
-      "name": "ES",
-      "count": 3
-     },
-     {
-      "name": "IT",
-      "count": 3
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Manufacturing",
-      "count": 15
-     },
-     {
-      "name": "Agriculture and Food Production",
-      "count": 5
-     },
-     {
-      "name": "Other",
-      "count": 5
-     },
-     {
-      "name": "Professional Services",
-      "count": 5
-     },
-     {
-      "name": "Energy & Utilities",
-      "count": 4
-     },
-     {
-      "name": "Retail & E-Commerce",
-      "count": 4
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 0
-    },
-    {
-     "month": "2026-04",
-     "count": 17
-    },
-    {
-     "month": "2026-05",
-     "count": 15
-    },
-    {
-     "month": "2026-06",
-     "count": 2
-    },
-    {
-     "month": "2026-07",
-     "count": 0
-    },
-    {
-     "month": "2026-08",
-     "count": 0
-    },
-    {
-     "month": "2026-09",
-     "count": 10
-    },
-    {
-     "month": "2026-10",
-     "count": 9
-    }
-   ],
-   "history_size": 53,
-   "updated": "2026-10-22T04:16:33+00:00"
   },
   "Doommageddon": {
    "name": "Doommageddon",
@@ -4249,8 +4131,8 @@
    "description": "Everest ransom group collects and analyzes information about their victims. They specialize in customer privacy data, financial information, databases, credit card information, and more. The Everest ransom group leaks the victim's data to the darknet and they announced that any victim that will not contact them will suffer from a data leak and they will not delete hist files for future usage.",
    "aliases": [],
    "first_seen": "2021-09-09",
-   "last_seen": "2026-11-14",
-   "victims_total": 431,
+   "last_seen": "2026-11-20",
+   "victims_total": 441,
    "cves": [],
    "tools": [
     "ProcDump",
@@ -4301,26 +4183,26 @@
       "count": 13
      },
      {
-      "name": "AE",
-      "count": 12
+      "name": "JP",
+      "count": 13
      },
      {
-      "name": "JP",
+      "name": "AE",
       "count": 12
      }
     ],
     "sectors": [
      {
       "name": "Healthcare",
-      "count": 70
+      "count": 72
+     },
+     {
+      "name": "Technology",
+      "count": 71
      },
      {
       "name": "Professional Services",
       "count": 70
-     },
-     {
-      "name": "Technology",
-      "count": 68
      },
      {
       "name": "Manufacturing",
@@ -4383,11 +4265,11 @@
     },
     {
      "month": "2026-11",
-     "count": 2
+     "count": 12
     }
    ],
-   "history_size": 431,
-   "updated": "2026-11-14T07:00:45+00:00"
+   "history_size": 441,
+   "updated": "2026-11-21T09:00:33+00:00"
   },
   "anubis": {
    "name": "anubis",

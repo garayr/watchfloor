@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T01:45:10+00:00",
+ "generated_at": "2026-11-21T09:00:33+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -9,19 +9,23 @@
    "count": 26
   },
   {
-   "name": "N0n",
-   "count": 21
+   "name": "everest",
+   "count": 10
   },
   {
    "name": "Vortex",
    "count": 9
   },
   {
-   "name": "aurora",
+   "name": "N0n",
+   "count": 8
+  },
+  {
+   "name": "PixelLeaks",
    "count": 5
   },
   {
-   "name": "everest",
+   "name": "aurora",
    "count": 5
   },
   {
@@ -31,16 +35,12 @@
   {
    "name": "spacebears",
    "count": 4
-  },
-  {
-   "name": "Handsome Boy Hacking Club",
-   "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 16
+   "count": 19
   },
   {
    "name": "Professional Services",
@@ -48,15 +48,15 @@
   },
   {
    "name": "Manufacturing",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Other",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Technology",
-   "count": 6
+   "count": 10
   },
   {
    "name": "Energy & Utilities",
@@ -66,19 +66,19 @@
  "by_country": [
   {
    "code": "US",
-   "count": 52,
+   "count": 45,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "GB",
-   "count": 7,
+   "count": 5,
    "lat": 51.5,
    "lon": -0.1
   },
   {
    "code": "CA",
-   "count": 4,
+   "count": 3,
    "lat": 43.7,
    "lon": -79.4
   },
@@ -89,22 +89,34 @@
    "lon": 12.5
   },
   {
+   "code": "CO",
+   "count": 2,
+   "lat": 4.7,
+   "lon": -74.1
+  },
+  {
+   "code": "EG",
+   "count": 2,
+   "lat": 30.0,
+   "lon": 31.2
+  },
+  {
    "code": "ES",
    "count": 2,
    "lat": 40.4,
    "lon": -3.7
   },
   {
+   "code": "FR",
+   "count": 2,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "JP",
    "count": 2,
    "lat": 35.7,
    "lon": 139.7
-  },
-  {
-   "code": "MX",
-   "count": 2,
-   "lat": 19.4,
-   "lon": -99.1
   },
   {
    "code": "AE",
@@ -125,28 +137,16 @@
    "lon": 7.4
   },
   {
-   "code": "CO",
+   "code": "CZ",
    "count": 1,
-   "lat": 4.7,
-   "lon": -74.1
+   "lat": 50.1,
+   "lon": 14.4
   },
   {
    "code": "DE",
    "count": 1,
    "lat": 50.1,
    "lon": 8.7
-  },
-  {
-   "code": "EG",
-   "count": 1,
-   "lat": 30.0,
-   "lon": 31.2
-  },
-  {
-   "code": "FR",
-   "count": 1,
-   "lat": 48.9,
-   "lon": 2.35
   },
   {
    "code": "GR",
@@ -167,10 +167,22 @@
    "lon": 72.9
   },
   {
+   "code": "MX",
+   "count": 1,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "MZ",
    "count": 1,
    "lat": -25.9,
    "lon": 32.6
+  },
+  {
+   "code": "NO",
+   "count": 1,
+   "lat": 59.9,
+   "lon": 10.8
   },
   {
    "code": "PA",
@@ -197,6 +209,12 @@
    "lon": 37.6
   },
   {
+   "code": "SE",
+   "count": 1,
+   "lat": 59.3,
+   "lon": 18.1
+  },
+  {
    "code": "VN",
    "count": 1,
    "lat": 21.0,
@@ -204,6 +222,123 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Lucid Motors",
+   "group": "Inception",
+   "date": "2026-11-21T02:51:53+00:00",
+   "attack_date": "2026-11-21",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/THVjaWQgTW90b3JzQEluY2VwdGlvbg=="
+  },
+  {
+   "victim": "DROP 1 — CASANARE, PAJONAL, PUTUMAYO AND URUS — 8,000 PATIENTS, 4,000 INVOICES, 7,733 CRED...",
+   "group": "Whitearmor",
+   "date": "2026-11-20T23:54:37+00:00",
+   "attack_date": "2026-11-20",
+   "country": "CO",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/RFJPUCAxIOKAlCBDQVNBTkFSRSwgUEFKT05BTCwgUFVUVU1BWU8gQU5EIFVSVVMg4oCUIDgsMDAwIFBBVElFTlRTLCA0LDAwMCBJTlZPSUNFUywgNyw3MzMgQ1JFRC4uLkBXaGl0ZWFybW9y"
+  },
+  {
+   "victim": "MT5 algo-trading farm (OneFunded funded account, WINSERVER)",
+   "group": "PixelLeaks",
+   "date": "2026-11-20T22:54:54+00:00",
+   "attack_date": "2026-11-20",
+   "country": null,
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/TVQ1IGFsZ28tdHJhZGluZyBmYXJtIChPbmVGdW5kZWQgZnVuZGVkIGFjY291bnQsIFdJTlNFUlZFUilAUGl4ZWxMZWFrcw=="
+  },
+  {
+   "victim": "bastion.internal domain controller (GCP, GRATEFUL-V1)",
+   "group": "PixelLeaks",
+   "date": "2026-11-20T22:54:34+00:00",
+   "attack_date": "2026-11-20",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/YmFzdGlvbi5pbnRlcm5hbCBkb21haW4gY29udHJvbGxlciAoR0NQLCBHUkFURUZVTC1WMSlAUGl4ZWxMZWFrcw=="
+  },
+  {
+   "victim": "Aixia Group AB (Nasdaq-listed AI/IT, Sweden)",
+   "group": "PixelLeaks",
+   "date": "2026-11-20T22:54:13+00:00",
+   "attack_date": "2026-11-20",
+   "country": "SE",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QWl4aWEgR3JvdXAgQUIgKE5hc2RhcS1saXN0ZWQgQUkvSVQsIFN3ZWRlbilAUGl4ZWxMZWFrcw=="
+  },
+  {
+   "victim": "Kingsport Cargo (logistics, Laravel intranet)",
+   "group": "PixelLeaks",
+   "date": "2026-11-20T22:53:53+00:00",
+   "attack_date": "2026-11-20",
+   "country": null,
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/S2luZ3Nwb3J0IENhcmdvIChsb2dpc3RpY3MsIExhcmF2ZWwgaW50cmFuZXQpQFBpeGVsTGVha3M="
+  },
+  {
+   "victim": "Arab Software Computer / ASCON (Oracle ERP hosting, Alexandria)",
+   "group": "PixelLeaks",
+   "date": "2026-11-20T22:53:33+00:00",
+   "attack_date": "2026-11-20",
+   "country": "EG",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/QXJhYiBTb2Z0d2FyZSBDb21wdXRlciAvIEFTQ09OIChPcmFjbGUgRVJQIGhvc3RpbmcsIEFsZXhhbmRyaWEpQFBpeGVsTGVha3M="
+  },
+  {
+   "victim": "Lee Memorial Health System",
+   "group": "medusalocker",
+   "date": "2026-11-20T22:35:47+00:00",
+   "attack_date": "2026-11-20",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/TGVlIE1lbW9yaWFsIEhlYWx0aCBTeXN0ZW1AbWVkdXNhbG9ja2Vy"
+  },
+  {
+   "victim": "FAST ČR",
+   "group": "everest",
+   "date": "2026-11-20T22:04:10+00:00",
+   "attack_date": "2026-11-20",
+   "country": "CZ",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/RkFTVCDEjFJAZXZlcmVzdA=="
+  },
+  {
+   "victim": "Alla France",
+   "group": "everest",
+   "date": "2026-11-20T22:03:33+00:00",
+   "attack_date": "2026-11-20",
+   "country": "FR",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/QWxsYSBGcmFuY2VAZXZlcmVzdA=="
+  },
+  {
+   "victim": "ABL Bio",
+   "group": "everest",
+   "date": "2026-11-20T22:02:57+00:00",
+   "attack_date": "2026-11-20",
+   "country": null,
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/QUJMIEJpb0BldmVyZXN0"
+  },
+  {
+   "victim": "Vizrt",
+   "group": "everest",
+   "date": "2026-11-20T22:02:21+00:00",
+   "attack_date": "2026-11-20",
+   "country": "NO",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/Vml6cnRAZXZlcmVzdA=="
+  },
+  {
+   "victim": "ALKF",
+   "group": "everest",
+   "date": "2026-11-20T22:01:44+00:00",
+   "attack_date": "2026-11-20",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QUxLRkBldmVyZXN0"
+  },
   {
    "victim": "Geesol",
    "group": "everest",
@@ -986,123 +1121,6 @@
    "country": "GB",
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjM0QE4wbg=="
-  },
-  {
-   "victim": "Company #233",
-   "group": "N0n",
-   "date": "2026-11-18T22:09:17+00:00",
-   "attack_date": "2026-11-18",
-   "country": "MX",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjMzQE4wbg=="
-  },
-  {
-   "victim": "Company #232",
-   "group": "N0n",
-   "date": "2026-11-18T22:08:40+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjMyQE4wbg=="
-  },
-  {
-   "victim": "Company #231",
-   "group": "N0n",
-   "date": "2026-11-18T22:08:00+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjMxQE4wbg=="
-  },
-  {
-   "victim": "Company #230",
-   "group": "N0n",
-   "date": "2026-11-18T22:07:23+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjMwQE4wbg=="
-  },
-  {
-   "victim": "Company #229",
-   "group": "N0n",
-   "date": "2026-11-18T22:06:46+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjI5QE4wbg=="
-  },
-  {
-   "victim": "Company #228",
-   "group": "N0n",
-   "date": "2026-11-18T22:06:09+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjI4QE4wbg=="
-  },
-  {
-   "victim": "Company #227",
-   "group": "N0n",
-   "date": "2026-11-18T22:05:31+00:00",
-   "attack_date": "2026-11-18",
-   "country": "GB",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjI3QE4wbg=="
-  },
-  {
-   "victim": "Company #226",
-   "group": "N0n",
-   "date": "2026-11-18T22:04:54+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjI2QE4wbg=="
-  },
-  {
-   "victim": "Company #225",
-   "group": "N0n",
-   "date": "2026-11-18T22:04:18+00:00",
-   "attack_date": "2026-11-18",
-   "country": "GB",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjI1QE4wbg=="
-  },
-  {
-   "victim": "Company #224",
-   "group": "N0n",
-   "date": "2026-11-18T22:03:21+00:00",
-   "attack_date": "2026-11-18",
-   "country": "CA",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjI0QE4wbg=="
-  },
-  {
-   "victim": "Company #223",
-   "group": "N0n",
-   "date": "2026-11-18T22:02:44+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjIzQE4wbg=="
-  },
-  {
-   "victim": "Company #222",
-   "group": "N0n",
-   "date": "2026-11-18T22:01:43+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjIyQE4wbg=="
-  },
-  {
-   "victim": "Company #221",
-   "group": "N0n",
-   "date": "2026-11-18T22:01:04+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjIxQE4wbg=="
   }
  ]
 }
