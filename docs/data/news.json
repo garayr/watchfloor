@@ -25,6 +25,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+     "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests…",
+     "source": "The Hacker News",
+     "date": "2026-11-22T05:06:55+00:00",
+     "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
      "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
      "source": "BleepingComputer",
@@ -113,6 +121,14 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+     "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert…",
+     "source": "The Hacker News",
+     "date": "2026-11-22T05:03:41+00:00",
+     "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
      "summary": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on…",
@@ -245,22 +261,6 @@
       "CVE-2026-123890",
       "CVE-2026-41709"
      ]
-    },
-    {
-     "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
-     "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-19T21:15:59+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-     "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories…",
-     "source": "The Hacker News",
-     "date": "2026-11-19T18:47:58+00:00",
-     "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-     "group": "Exploited right now"
     }
    ]
   },
