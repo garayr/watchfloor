@@ -69,39 +69,39 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 830,
+  "online": 840,
   "top_tags": [
    {
     "name": "github",
-    "count": 593
-   },
-   {
-    "name": "TxDataHiding",
-    "count": 452
-   },
-   {
-    "name": "VSCode",
-    "count": 452
+    "count": 535
    },
    {
     "name": "js",
-    "count": 452
+    "count": 469
+   },
+   {
+    "name": "TxDataHiding",
+    "count": 468
+   },
+   {
+    "name": "VSCode",
+    "count": 468
    },
    {
     "name": "DEVPOPPER",
-    "count": 427
+    "count": 443
    },
    {
     "name": "Mozi",
-    "count": 175
-   },
-   {
-    "name": "elf",
-    "count": 153
+    "count": 197
    },
    {
     "name": "mirai",
-    "count": 147
+    "count": 155
+   },
+   {
+    "name": "elf",
+    "count": 139
    }
   ]
  },
@@ -272,65 +272,28 @@
    "url": "https://otx.alienvault.com/pulse/6b0041b6f254e5321e03a189"
   },
   {
-   "name": "Inside the 'Party' Panel: How Fraudsters Rent Android Banking Trojans to Target Indian Bank Customers",
-   "summary": "A multi-tenant malware-as-a-service platform enables fraudsters to deploy fake Google Play pages and branded Android banking trojans targeting Indian financial institutions. The operation, discovered via an unprotected…",
-   "date": "2026-11-20T10:16:21+00:00",
+   "name": "Infostealer riding the AI Train",
+   "summary": "Aokigahara is a newly identified infostealer with traditional data theft capabilities targeting browsers, VPN clients, cryptocurrency wallets, FTP/SFTP clients, password managers, and email applications. Its…",
+   "date": "2026-10-23T16:09:04+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [
-    "SecuriDropper"
+    "Aokigahara",
+    "Kamidere",
+    "Stygian"
    ],
-   "countries": [
-    "British Indian Ocean Territory",
-    "India"
-   ],
+   "countries": [],
    "industries": [
-    "Finance",
-    "Government",
-    "Agriculture"
+    "Technology"
    ],
    "tags": [
-    "fake google play",
-    "call forwarding",
-    "securidropper",
-    "android banking trojan",
-    "card fraud",
-    "sms stealer"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b001df518d887db38d8b386"
-  },
-  {
-   "name": "N0N Ransomware Group: Victims, Leak Site, TTPs & IOCs",
-   "summary": "N0N is a financially motivated cyber extortion group that emerged in September 2026, employing data theft and extortion tactics without using traditional encryption methods. The group leverages compromised credentials…",
-   "date": "2026-11-20T08:23:35+00:00",
-   "author": "AlienVault",
-   "adversary": "n0n",
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "Botswana",
-    "Canada",
-    "France",
-    "Italy",
-    "Netherlands"
-   ],
-   "industries": [
-    "Healthcare",
-    "Retail",
-    "Finance",
-    "Technology",
-    "Education",
-    "Telecommunications"
-   ],
-   "tags": [
-    "data extortion",
-    "multi-sector targeting",
-    "administrative tools",
     "infostealer",
-    "dark web leaks",
-    "cyber extortion"
+    "kamidere",
+    "aokigahara",
+    "stygian",
+    "ai applications"
    ],
-   "url": "https://otx.alienvault.com/pulse/6b00038798ea9ab49aa7e331"
+   "url": "https://otx.alienvault.com/pulse/6adb86a013dc27c6c19d3f3c"
   },
   {
    "name": "VeloCloud Orchestrator SQL Injection Vulnerability",
@@ -369,6 +332,30 @@
     "pyarmor"
    ],
    "url": "https://otx.alienvault.com/pulse/6ada6051fb91aa7551af4ba6"
+  },
+  {
+   "name": "2026 Year End Phishing Lures",
+   "summary": "As organizations approach year-end and fiscal close periods, employees face increased administrative activity in finance, HR, and IT departments. This heightened legitimate communication creates ideal cover for phishing…",
+   "date": "2026-10-22T19:08:16+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Finance",
+    "Technology",
+    "Telecommunications",
+    "Manufacturing",
+    "Real Estate",
+    "Aviation"
+   ],
+   "tags": [
+    "sharepoint-impersonation",
+    "social-engineering",
+    "docusign-impersonation",
+    "phishing"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ada5f2001908e1c7f2a85b3"
   },
   {
    "name": "ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors",
@@ -485,9 +472,9 @@
  ],
  "updated": {
   "threatfox": "2026-11-22T01:50:25+00:00",
-  "sans": "2026-11-22T09:09:57+00:00",
-  "otx": "2026-11-22T09:09:57+00:00",
-  "urlhaus": "2026-11-22T09:09:57+00:00"
+  "sans": "2026-11-22T17:06:49+00:00",
+  "otx": "2026-11-22T17:06:49+00:00",
+  "urlhaus": "2026-11-22T17:06:49+00:00"
  },
- "generated_at": "2026-11-22T09:09:57+00:00"
+ "generated_at": "2026-11-22T17:06:49+00:00"
 }

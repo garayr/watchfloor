@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T09:09:57+00:00",
+ "generated_at": "2026-11-22T17:06:49+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1801,8 +1801,8 @@
    "description": "Qilin ransomware was first observed in July of 2022. Qilin Ransomware is written in Golang and supports multiple encryption modes; all of which are controlled by the operator. Qilin actors practice double extortion – demanding payment for a decryptor, as well as for the non-release of stolen data.",
    "aliases": [],
    "first_seen": "2022-10-08",
-   "last_seen": "2026-11-14",
-   "victims_total": 2576,
+   "last_seen": "2026-11-22",
+   "victims_total": 2599,
    "cves": [
     {
      "id": "CVE-2025-31324",
@@ -1929,11 +1929,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 1078
+      "count": 1089
      },
      {
       "name": "GB",
-      "count": 127
+      "count": 128
      },
      {
       "name": "CA",
@@ -1945,7 +1945,7 @@
      },
      {
       "name": "DE",
-      "count": 108
+      "count": 109
      },
      {
       "name": "ES",
@@ -1955,15 +1955,15 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 529
+      "count": 537
      },
      {
       "name": "Professional Services",
-      "count": 418
+      "count": 421
      },
      {
       "name": "Technology",
-      "count": 282
+      "count": 284
      },
      {
       "name": "Healthcare",
@@ -1971,11 +1971,11 @@
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 187
+      "count": 189
      },
      {
       "name": "Financial Services",
-      "count": 167
+      "count": 168
      }
     ]
    },
@@ -2026,11 +2026,11 @@
     },
     {
      "month": "2026-11",
-     "count": 32
+     "count": 55
     }
    ],
-   "history_size": 2576,
-   "updated": "2026-11-15T09:41:25+00:00"
+   "history_size": 2599,
+   "updated": "2026-11-22T17:06:49+00:00"
   },
   "incransom": {
    "name": "incransom",
@@ -7819,8 +7819,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-18",
-   "last_seen": "2026-11-14",
-   "victims_total": 8,
+   "last_seen": "2026-11-22",
+   "victims_total": 11,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -7829,24 +7829,32 @@
     "countries": [
      {
       "name": "US",
-      "count": 6
+      "count": 7
+     },
+     {
+      "name": "PH",
+      "count": 1
      }
     ],
     "sectors": [
      {
       "name": "Technology",
-      "count": 3
+      "count": 4
+     },
+     {
+      "name": "Financial Services",
+      "count": 2
      },
      {
       "name": "Education",
       "count": 1
      },
      {
-      "name": "Financial Services",
+      "name": "Government & Defense",
       "count": 1
      },
      {
-      "name": "Government & Defense",
+      "name": "Healthcare",
       "count": 1
      },
      {
@@ -7902,11 +7910,11 @@
     },
     {
      "month": "2026-11",
-     "count": 2
+     "count": 5
     }
    ],
-   "history_size": 8,
-   "updated": "2026-11-14T19:08:05+00:00"
+   "history_size": 11,
+   "updated": "2026-11-22T17:06:49+00:00"
   },
   "ShadowByt3$": {
    "name": "ShadowByt3$",

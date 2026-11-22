@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T09:09:57+00:00",
+ "generated_at": "2026-11-22T17:06:49+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -17,16 +17,16 @@
    "count": 9
   },
   {
+   "name": "rhysida",
+   "count": 6
+  },
+  {
    "name": "PixelLeaks",
    "count": 5
   },
   {
-   "name": "aurora",
-   "count": 5
-  },
-  {
-   "name": "rhysida",
-   "count": 5
+   "name": "HYFLOCK",
+   "count": 4
   },
   {
    "name": "spacebears",
@@ -44,19 +44,19 @@
   },
   {
    "name": "Professional Services",
-   "count": 15
-  },
-  {
-   "name": "Other",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Technology",
    "count": 13
   },
   {
-   "name": "Manufacturing",
+   "name": "Other",
    "count": 12
+  },
+  {
+   "name": "Manufacturing",
+   "count": 11
   },
   {
    "name": "Energy & Utilities",
@@ -66,7 +66,7 @@
  "by_country": [
   {
    "code": "US",
-   "count": 40,
+   "count": 41,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -81,12 +81,6 @@
    "count": 3,
    "lat": 40.4,
    "lon": -3.7
-  },
-  {
-   "code": "GB",
-   "count": 3,
-   "lat": 51.5,
-   "lon": -0.1
   },
   {
    "code": "IT",
@@ -123,6 +117,12 @@
    "count": 2,
    "lat": 35.7,
    "lon": 139.7
+  },
+  {
+   "code": "PH",
+   "count": 2,
+   "lat": 14.6,
+   "lon": 121.0
   },
   {
    "code": "SG",
@@ -167,10 +167,22 @@
    "lon": 8.7
   },
   {
+   "code": "DO",
+   "count": 1,
+   "lat": 18.5,
+   "lon": -69.9
+  },
+  {
    "code": "EC",
    "count": 1,
    "lat": -0.2,
    "lon": -78.5
+  },
+  {
+   "code": "GB",
+   "count": 1,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "GR",
@@ -209,12 +221,6 @@
    "lon": -79.5
   },
   {
-   "code": "PH",
-   "count": 1,
-   "lat": 14.6,
-   "lon": 121.0
-  },
-  {
    "code": "PK",
    "count": 1,
    "lat": 24.9,
@@ -246,6 +252,51 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Law Offices of Cynthia A. de Petris",
+   "group": "rhysida",
+   "date": "2026-11-22T10:43:39+00:00",
+   "attack_date": "2026-11-22",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TGF3IE9mZmljZXMgb2YgQ3ludGhpYSBBLiBkZSBQZXRyaXNAcmh5c2lkYQ=="
+  },
+  {
+   "victim": "A Ransomware Attack on a Company Ranked Among the Top 30 in the Fortune 500",
+   "group": "HYFLOCK",
+   "date": "2026-11-22T09:22:21+00:00",
+   "attack_date": "2026-11-22",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QSBSYW5zb213YXJlIEF0dGFjayBvbiBhIENvbXBhbnkgUmFua2VkIEFtb25nIHRoZSBUb3AgMzAgaW4gdGhlIEZvcnR1bmUgNTAwQEhZRkxPQ0s="
+  },
+  {
+   "victim": "UCA General Insurance Services, Inc",
+   "group": "EndZone",
+   "date": "2026-11-22T09:21:28+00:00",
+   "attack_date": "2026-11-22",
+   "country": "PH",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/VUNBIEdlbmVyYWwgSW5zdXJhbmNlIFNlcnZpY2VzLCBJbmNARW5kWm9uZQ=="
+  },
+  {
+   "victim": "Data Breach at O&M University in the Dominican Republic",
+   "group": "HYFLOCK",
+   "date": "2026-11-22T07:22:04+00:00",
+   "attack_date": "2026-11-22",
+   "country": "DO",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/RGF0YSBCcmVhY2ggYXQgTyZNIFVuaXZlcnNpdHkgaW4gdGhlIERvbWluaWNhbiBSZXB1YmxpY0BIWUZMT0NL"
+  },
+  {
+   "victim": "Invicta Watch Group",
+   "group": "qilin",
+   "date": "2026-11-22T07:13:44+00:00",
+   "attack_date": "2026-11-22",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/SW52aWN0YSBXYXRjaCBHcm91cEBxaWxpbg=="
+  },
   {
    "victim": "F5A",
    "group": "medusalocker",
@@ -380,15 +431,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/RGFsbGFzIEZvcnQgV29ydGggRmVydGlsaXR5IEFzc29jaWF0ZXNAQmFycmFjdWRh"
-  },
-  {
-   "victim": "Law Office of Ronald D. Weiss, P.C",
-   "group": "pear",
-   "date": "2026-11-21T07:26:34+00:00",
-   "attack_date": "2026-11-19",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/TGF3IE9mZmljZSBvZiBSb25hbGQgRC4gV2Vpc3MsIFAuQ0BwZWFy"
   },
   {
    "victim": "Realta Technologies",
@@ -632,15 +674,6 @@
    "country": "GA",
    "sector": "Government & Defense",
    "url": "https://www.ransomware.live/id/Q2xhcmtlc3ZpbGxlIFBvbGljZSBEZXBhcnRtZW50LCBDaXR5IG9mIENsYXJrZXN2aWxsZUByaHlzaWRh"
-  },
-  {
-   "victim": "William Cook Holdings Limited",
-   "group": "aurora",
-   "date": "2026-11-20T14:17:35+00:00",
-   "attack_date": "2026-11-19",
-   "country": "GB",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/V2lsbGlhbSBDb29rIEhvbGRpbmdzIExpbWl0ZWRAYXVyb3Jh"
   },
   {
    "victim": "Pecora",
@@ -913,15 +946,6 @@
    "url": "https://www.ransomware.live/id/Q29kaW50ZXJAU291bEdyb3Vw"
   },
   {
-   "victim": "Boutinot Limited",
-   "group": "aurora",
-   "date": "2026-11-19T14:06:19+00:00",
-   "attack_date": "2026-11-19",
-   "country": "GB",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/Qm91dGlub3QgTGltaXRlZEBhdXJvcmE="
-  },
-  {
    "victim": "Aurora Health Management",
    "group": "SoulGroup",
    "date": "2026-11-19T14:06:03+00:00",
@@ -1084,15 +1108,6 @@
    "url": "https://www.ransomware.live/id/R2lua2dvIEJpb3dvcmtzQGZ1bGNydW1zZWM="
   },
   {
-   "victim": "TrueBlue - 1,094.12 GB",
-   "group": "Vortex",
-   "date": "2026-11-19T10:59:46+00:00",
-   "attack_date": "2026-11-19",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/VHJ1ZUJsdWUgLSAxLDA5NC4xMiBHQkBWb3J0ZXg="
-  },
-  {
    "victim": "M.N. Textiles (Pvt) Ltd",
    "group": "crypto24",
    "date": "2026-11-19T10:40:56+00:00",
@@ -1100,15 +1115,6 @@
    "country": "PK",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/TS5OLiBUZXh0aWxlcyAoUHZ0KSBMdGRAY3J5cHRvMjQ="
-  },
-  {
-   "victim": "Boulart Inc.",
-   "group": "aurora",
-   "date": "2026-11-19T10:37:50+00:00",
-   "attack_date": "2026-11-19",
-   "country": null,
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/Qm91bGFydCBJbmMuQGF1cm9yYQ=="
   },
   {
    "victim": "Smith & Green, Attorneys at Law PLLC",
