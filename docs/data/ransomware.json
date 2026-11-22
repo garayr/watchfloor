@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T17:06:49+00:00",
+ "generated_at": "2026-11-22T22:27:05+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -21,12 +21,12 @@
    "count": 6
   },
   {
-   "name": "PixelLeaks",
+   "name": "HYFLOCK",
    "count": 5
   },
   {
-   "name": "HYFLOCK",
-   "count": 4
+   "name": "PixelLeaks",
+   "count": 5
   },
   {
    "name": "spacebears",
@@ -43,12 +43,12 @@
    "count": 20
   },
   {
-   "name": "Professional Services",
-   "count": 14
+   "name": "Technology",
+   "count": 15
   },
   {
-   "name": "Technology",
-   "count": 13
+   "name": "Professional Services",
+   "count": 14
   },
   {
    "name": "Other",
@@ -56,7 +56,7 @@
   },
   {
    "name": "Manufacturing",
-   "count": 11
+   "count": 9
   },
   {
    "name": "Energy & Utilities",
@@ -137,12 +137,6 @@
    "lon": 121.5
   },
   {
-   "code": "AE",
-   "count": 1,
-   "lat": 24.5,
-   "lon": 54.4
-  },
-  {
    "code": "CH",
    "count": 1,
    "lat": 46.9,
@@ -185,12 +179,6 @@
    "lon": -0.1
   },
   {
-   "code": "GR",
-   "count": 1,
-   "lat": 38.0,
-   "lon": 23.7
-  },
-  {
    "code": "IE",
    "count": 1,
    "lat": 53.3,
@@ -207,6 +195,12 @@
    "count": 1,
    "lat": 19.1,
    "lon": 72.9
+  },
+  {
+   "code": "KR",
+   "count": 1,
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "NO",
@@ -252,6 +246,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "EconSys",
+   "group": "direwolf",
+   "date": "2026-11-22T15:07:43+00:00",
+   "attack_date": "2026-11-22",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/RWNvblN5c0BkaXJld29sZg=="
+  },
+  {
+   "victim": "Samsung Group: 1TB Data Breach from Ransomware Attack",
+   "group": "HYFLOCK",
+   "date": "2026-11-22T13:52:25+00:00",
+   "attack_date": "2026-11-22",
+   "country": "KR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/U2Ftc3VuZyBHcm91cDogMVRCIERhdGEgQnJlYWNoIGZyb20gUmFuc29td2FyZSBBdHRhY2tASFlGTE9DSw=="
+  },
   {
    "victim": "Law Offices of Cynthia A. de Petris",
    "group": "rhysida",
@@ -1133,24 +1145,6 @@
    "country": "RU",
    "sector": "Hospitality",
    "url": "https://www.ransomware.live/id/d3d3LnNsZWVwYm94YnltaXJhY2xlLmNvbUBrcnliaXQ="
-  },
-  {
-   "victim": "www.leadersaluminium.ae",
-   "group": "krybit",
-   "date": "2026-11-19T01:57:18+00:00",
-   "attack_date": "2026-11-19",
-   "country": "AE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/d3d3LmxlYWRlcnNhbHVtaW5pdW0uYWVAa3J5Yml0"
-  },
-  {
-   "victim": "alumil.com",
-   "group": "krybit",
-   "date": "2026-11-19T00:50:25+00:00",
-   "attack_date": "2026-11-19",
-   "country": "GR",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/YWx1bWlsLmNvbUBrcnliaXQ="
   }
  ]
 }

@@ -69,116 +69,121 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 840,
+  "online": 810,
   "top_tags": [
    {
     "name": "github",
-    "count": 535
+    "count": 507
    },
    {
     "name": "js",
-    "count": 469
+    "count": 325
    },
    {
     "name": "TxDataHiding",
-    "count": 468
+    "count": 324
    },
    {
     "name": "VSCode",
-    "count": 468
+    "count": 324
    },
    {
     "name": "DEVPOPPER",
-    "count": 443
+    "count": 319
    },
    {
     "name": "Mozi",
-    "count": 197
+    "count": 220
    },
    {
     "name": "mirai",
-    "count": 155
+    "count": 163
    },
    {
     "name": "elf",
-    "count": 139
+    "count": 133
    }
   ]
  },
  "ports": [
   {
+   "port": 23,
+   "service": "Telnet",
+   "records": 810371,
+   "targets": 299,
+   "sources": 15273
+  },
+  {
    "port": 22,
    "service": "SSH",
-   "records": 336924,
-   "targets": 279,
-   "sources": 5479
+   "records": 695040,
+   "targets": 305,
+   "sources": 12292
   },
   {
    "port": 2222,
    "service": null,
-   "records": 198323,
-   "targets": 266,
-   "sources": 4637
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 116945,
-   "targets": 283,
-   "sources": 6572
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 116456,
-   "targets": 281,
-   "sources": 4101
+   "records": 482195,
+   "targets": 289,
+   "sources": 6990
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 101030,
-   "targets": 270,
-   "sources": 8213
+   "records": 273688,
+   "targets": 312,
+   "sources": 14229
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 264596,
+   "targets": 291,
+   "sources": 9082
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 99231,
-   "targets": 269,
-   "sources": 2864
+   "records": 241550,
+   "targets": 292,
+   "sources": 4859
   },
   {
    "port": 16767,
    "service": null,
-   "records": 84530,
-   "targets": 14,
-   "sources": 3309
+   "records": 181493,
+   "targets": 52,
+   "sources": 5174
   },
   {
    "port": 9000,
    "service": null,
-   "records": 83512,
-   "targets": 257,
-   "sources": 2126
-  },
-  {
-   "port": 7547,
-   "service": "Router management (TR-069)",
-   "records": 65599,
-   "targets": 210,
-   "sources": 1597
+   "records": 181291,
+   "targets": 273,
+   "sources": 3858
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 64234,
-   "targets": 268,
-   "sources": 6548
+   "records": 165666,
+   "targets": 294,
+   "sources": 14028
+  },
+  {
+   "port": 7547,
+   "service": "Router management (TR-069)",
+   "records": 141196,
+   "targets": 239,
+   "sources": 2730
   }
  ],
  "ports_date": "2026-11-22",
  "diary": [
+  {
+   "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+   "url": "https://isc.sans.edu/diary/rss/33530",
+   "date": "2026-11-22T18:40:18+00:00"
+  },
   {
    "title": "ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)",
    "url": "https://isc.sans.edu/diary/rss/33538",
@@ -203,11 +208,6 @@
    "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
    "url": "https://isc.sans.edu/diary/rss/33528",
    "date": "2026-11-18T02:00:03+00:00"
-  },
-  {
-   "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
-   "url": "https://isc.sans.edu/diary/rss/33526",
-   "date": "2026-11-17T10:56:38+00:00"
   }
  ],
  "pulses": [
@@ -472,9 +472,9 @@
  ],
  "updated": {
   "threatfox": "2026-11-22T01:50:25+00:00",
-  "sans": "2026-11-22T17:06:49+00:00",
-  "otx": "2026-11-22T17:06:49+00:00",
-  "urlhaus": "2026-11-22T17:06:49+00:00"
+  "sans": "2026-11-22T22:27:05+00:00",
+  "otx": "2026-11-22T22:27:05+00:00",
+  "urlhaus": "2026-11-22T22:27:05+00:00"
  },
- "generated_at": "2026-11-22T17:06:49+00:00"
+ "generated_at": "2026-11-22T22:27:05+00:00"
 }
