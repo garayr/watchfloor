@@ -2,18 +2,18 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2024,
-  "c2_servers": 579,
+  "total_iocs": 2234,
+  "c2_servers": 698,
   "families": [
    {
     "name": "Skimer",
-    "iocs": 335,
-    "c2": 2,
+    "iocs": 332,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.skimer"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 158,
+    "iocs": 159,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
@@ -24,16 +24,16 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
-    "name": "Mirai",
-    "iocs": 141,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "Merdoor",
     "iocs": 120,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.merdoor"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 116,
+    "c2": 5,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Raven Stealer",
@@ -48,60 +48,60 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 39,
-    "c2": 39,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 37,
+    "iocs": 42,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "SalatStealer",
-    "iocs": 23,
+    "name": "Cobalt Strike",
+    "iocs": 42,
+    "c2": 42,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
+    "name": "SNOWLIGHT",
+    "iocs": 32,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.salatstealer"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 811,
+  "online": 770,
   "top_tags": [
    {
     "name": "github",
-    "count": 440
-   },
-   {
-    "name": "js",
-    "count": 306
+    "count": 437
    },
    {
     "name": "TxDataHiding",
-    "count": 305
+    "count": 304
    },
    {
     "name": "VSCode",
-    "count": 305
+    "count": 304
+   },
+   {
+    "name": "js",
+    "count": 304
    },
    {
     "name": "DEVPOPPER",
-    "count": 275
+    "count": 274
    },
    {
     "name": "mirai",
-    "count": 232
+    "count": 237
    },
    {
     "name": "elf",
-    "count": 156
+    "count": 172
    },
    {
-    "name": "SalatStealer",
-    "count": 120
+    "name": "Mozi",
+    "count": 155
    }
   ]
  },
@@ -333,32 +333,21 @@
    "url": "https://otx.alienvault.com/pulse/6b00038798ea9ab49aa7e331"
   },
   {
-   "name": "Unsolicited audits: how AuditTeam masks ransomware",
-   "summary": "AuditTeam is an active threat group operating since January 2026, using the sophisticated OpsAgent framework to compromise organizations across multiple countries including Russia, Italy, Philippines, Hong Kong…",
-   "date": "2026-11-18T09:23:38+00:00",
+   "name": "VeloCloud Orchestrator SQL Injection Vulnerability",
+   "summary": "VeloCloud Orchestrator (VCO) on-premises versions contain a critical SQL injection vulnerability that allows authenticated users with minimal privileges to escalate to superuser operator access. Any user with Enterprise…",
+   "date": "2026-10-23T12:28:45+00:00",
    "author": "AlienVault",
-   "adversary": "AuditTeam",
-   "malware": [
-    "OpsAgent",
-    "OpsAgent-rs"
-   ],
-   "countries": [
-    "Argentina",
-    "China",
-    "Finland",
-    "Hong Kong",
-    "Italy",
-    "Japan"
-   ],
+   "adversary": null,
+   "malware": [],
+   "countries": [],
    "industries": [],
    "tags": [
-    "edr-killer",
-    "opsagent-rs",
-    "auditteam",
-    "cloudfront-c2",
-    "rust-implant"
+    "sql injection",
+    "active exploitation",
+    "velocloud orchestrator",
+    "cve-2026-114625"
    ],
-   "url": "https://otx.alienvault.com/pulse/6afd6e9a1376c3625c410a29"
+   "url": "https://otx.alienvault.com/pulse/6adb52fde8bfb072942ad917"
   },
   {
    "name": "SEO Poisoning Campaign Delivers New Armorsteal Malware",
@@ -495,10 +484,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-21T21:55:00+00:00",
-  "sans": "2026-11-21T21:55:00+00:00",
-  "otx": "2026-11-21T21:55:00+00:00",
-  "urlhaus": "2026-11-21T21:55:00+00:00"
+  "threatfox": "2026-11-22T01:50:25+00:00",
+  "sans": "2026-11-22T01:50:25+00:00",
+  "otx": "2026-11-22T01:50:25+00:00",
+  "urlhaus": "2026-11-22T01:50:25+00:00"
  },
- "generated_at": "2026-11-21T21:55:00+00:00"
+ "generated_at": "2026-11-22T01:50:25+00:00"
 }

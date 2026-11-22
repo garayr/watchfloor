@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T21:55:00+00:00",
+ "generated_at": "2026-11-22T01:50:25+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -13,7 +13,7 @@
    "count": 10
   },
   {
-   "name": "Vortex",
+   "name": "safepay",
    "count": 9
   },
   {
@@ -40,33 +40,33 @@
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 21
+   "count": 20
   },
   {
    "name": "Professional Services",
-   "count": 17
-  },
-  {
-   "name": "Manufacturing",
-   "count": 14
+   "count": 16
   },
   {
    "name": "Other",
-   "count": 11
+   "count": 13
+  },
+  {
+   "name": "Manufacturing",
+   "count": 12
   },
   {
    "name": "Technology",
-   "count": 11
+   "count": 12
   },
   {
-   "name": "Government & Defense",
+   "name": "Energy & Utilities",
    "count": 4
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 46,
+   "count": 41,
    "lat": 39.0,
    "lon": -77.5
   },
@@ -75,6 +75,12 @@
    "count": 3,
    "lat": 43.7,
    "lon": -79.4
+  },
+  {
+   "code": "ES",
+   "count": 3,
+   "lat": 40.4,
+   "lon": -3.7
   },
   {
    "code": "GB",
@@ -89,6 +95,12 @@
    "lon": 12.5
   },
   {
+   "code": "AR",
+   "count": 2,
+   "lat": -34.6,
+   "lon": -58.4
+  },
+  {
    "code": "CO",
    "count": 2,
    "lat": 4.7,
@@ -101,22 +113,10 @@
    "lon": 31.2
   },
   {
-   "code": "ES",
-   "count": 2,
-   "lat": 40.4,
-   "lon": -3.7
-  },
-  {
    "code": "FR",
    "count": 2,
    "lat": 48.9,
    "lon": 2.35
-  },
-  {
-   "code": "IE",
-   "count": 2,
-   "lat": 53.3,
-   "lon": -6.3
   },
   {
    "code": "JP",
@@ -125,22 +125,34 @@
    "lon": 139.7
   },
   {
+   "code": "SG",
+   "count": 2,
+   "lat": 1.35,
+   "lon": 103.8
+  },
+  {
+   "code": "TW",
+   "count": 2,
+   "lat": 25.0,
+   "lon": 121.5
+  },
+  {
    "code": "AE",
    "count": 1,
    "lat": 24.5,
    "lon": 54.4
   },
   {
-   "code": "AR",
-   "count": 1,
-   "lat": -34.6,
-   "lon": -58.4
-  },
-  {
    "code": "CH",
    "count": 1,
    "lat": 46.9,
    "lon": 7.4
+  },
+  {
+   "code": "CL",
+   "count": 1,
+   "lat": -33.4,
+   "lon": -70.6
   },
   {
    "code": "CZ",
@@ -155,22 +167,34 @@
    "lon": 8.7
   },
   {
+   "code": "EC",
+   "count": 1,
+   "lat": -0.2,
+   "lon": -78.5
+  },
+  {
    "code": "GR",
    "count": 1,
    "lat": 38.0,
    "lon": 23.7
   },
   {
+   "code": "IE",
+   "count": 1,
+   "lat": 53.3,
+   "lon": -6.3
+  },
+  {
+   "code": "IL",
+   "count": 1,
+   "lat": 32.1,
+   "lon": 34.8
+  },
+  {
    "code": "IN",
    "count": 1,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "MZ",
-   "count": 1,
-   "lat": -25.9,
-   "lon": 32.6
   },
   {
    "code": "NO",
@@ -183,6 +207,12 @@
    "count": 1,
    "lat": 9.0,
    "lon": -79.5
+  },
+  {
+   "code": "PH",
+   "count": 1,
+   "lat": 14.6,
+   "lon": 121.0
   },
   {
    "code": "PK",
@@ -203,12 +233,6 @@
    "lon": 18.1
   },
   {
-   "code": "TW",
-   "count": 1,
-   "lat": 25.0,
-   "lon": 121.5
-  },
-  {
    "code": "VE",
    "count": 1,
    "lat": 10.5,
@@ -222,6 +246,87 @@
   }
  ],
  "victims": [
+  {
+   "victim": "tiic.com.ph",
+   "group": "safepay",
+   "date": "2026-11-21T18:34:09+00:00",
+   "attack_date": "2026-11-21",
+   "country": "PH",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/dGlpYy5jb20ucGhAc2FmZXBheQ=="
+  },
+  {
+   "victim": "threeroyal.com",
+   "group": "safepay",
+   "date": "2026-11-21T18:32:47+00:00",
+   "attack_date": "2026-11-21",
+   "country": "TW",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/dGhyZWVyb3lhbC5jb21Ac2FmZXBheQ=="
+  },
+  {
+   "victim": "factotal.com",
+   "group": "safepay",
+   "date": "2026-11-21T18:31:39+00:00",
+   "attack_date": "2026-11-21",
+   "country": "CL",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/ZmFjdG90YWwuY29tQHNhZmVwYXk="
+  },
+  {
+   "victim": "offshore-ocs.com",
+   "group": "safepay",
+   "date": "2026-11-21T18:31:05+00:00",
+   "attack_date": "2026-11-21",
+   "country": "SG",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/b2Zmc2hvcmUtb2NzLmNvbUBzYWZlcGF5"
+  },
+  {
+   "victim": "relax.es",
+   "group": "safepay",
+   "date": "2026-11-21T18:30:30+00:00",
+   "attack_date": "2026-11-21",
+   "country": "ES",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/cmVsYXguZXNAc2FmZXBheQ=="
+  },
+  {
+   "victim": "pacifico.com.ar",
+   "group": "safepay",
+   "date": "2026-11-21T18:29:55+00:00",
+   "attack_date": "2026-11-21",
+   "country": "AR",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/cGFjaWZpY28uY29tLmFyQHNhZmVwYXk="
+  },
+  {
+   "victim": "qrc-solutions.com",
+   "group": "safepay",
+   "date": "2026-11-21T18:29:19+00:00",
+   "attack_date": "2026-11-21",
+   "country": "EC",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/cXJjLXNvbHV0aW9ucy5jb21Ac2FmZXBheQ=="
+  },
+  {
+   "victim": "santak.com.sg",
+   "group": "safepay",
+   "date": "2026-11-21T18:28:43+00:00",
+   "attack_date": "2026-11-21",
+   "country": "SG",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/c2FudGFrLmNvbS5zZ0BzYWZlcGF5"
+  },
+  {
+   "victim": "themedical.co.il",
+   "group": "safepay",
+   "date": "2026-11-21T18:28:08+00:00",
+   "attack_date": "2026-11-21",
+   "country": "IL",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/dGhlbWVkaWNhbC5jby5pbEBzYWZlcGF5"
+  },
   {
    "victim": "Kang Chiao International School (Linkou)",
    "group": "osiris",
@@ -1006,69 +1111,6 @@
    "url": "https://www.ransomware.live/id/VHJ1ZUJsdWVAVm9ydGV4"
   },
   {
-   "victim": "Gensler",
-   "group": "Vortex",
-   "date": "2026-11-19T10:35:10+00:00",
-   "attack_date": "2026-11-19",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/R2Vuc2xlckBWb3J0ZXg="
-  },
-  {
-   "victim": "Buffalo Construction",
-   "group": "Vortex",
-   "date": "2026-11-19T10:34:35+00:00",
-   "attack_date": "2026-11-19",
-   "country": null,
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/QnVmZmFsbyBDb25zdHJ1Y3Rpb25AVm9ydGV4"
-  },
-  {
-   "victim": "Ochsner Health",
-   "group": "Vortex",
-   "date": "2026-11-19T10:34:00+00:00",
-   "attack_date": "2026-11-19",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/T2Noc25lciBIZWFsdGhAVm9ydGV4"
-  },
-  {
-   "victim": "CDM Smith",
-   "group": "Vortex",
-   "date": "2026-11-19T10:33:24+00:00",
-   "attack_date": "2026-11-19",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Q0RNIFNtaXRoQFZvcnRleA=="
-  },
-  {
-   "victim": "Kiely Builders",
-   "group": "Vortex",
-   "date": "2026-11-19T10:32:49+00:00",
-   "attack_date": "2026-11-19",
-   "country": "IE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/S2llbHkgQnVpbGRlcnNAVm9ydGV4"
-  },
-  {
-   "victim": "Bond Building",
-   "group": "Vortex",
-   "date": "2026-11-19T10:32:14+00:00",
-   "attack_date": "2026-11-19",
-   "country": null,
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/Qm9uZCBCdWlsZGluZ0BWb3J0ZXg="
-  },
-  {
-   "victim": "Orlando Health",
-   "group": "Vortex",
-   "date": "2026-11-19T10:31:39+00:00",
-   "attack_date": "2026-11-19",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/T3JsYW5kbyBIZWFsdGhAVm9ydGV4"
-  },
-  {
    "victim": "Smith & Green, Attorneys at Law PLLC",
    "group": "rhysida",
    "date": "2026-11-19T06:44:34+00:00",
@@ -1103,24 +1145,6 @@
    "country": "GR",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/YWx1bWlsLmNvbUBrcnliaXQ="
-  },
-  {
-   "victim": "Terminais",
-   "group": "medusalocker",
-   "date": "2026-11-18T23:01:01+00:00",
-   "attack_date": "2026-11-18",
-   "country": "MZ",
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/VGVybWluYWlzQG1lZHVzYWxvY2tlcg=="
-  },
-  {
-   "victim": "Company #241",
-   "group": "N0n",
-   "date": "2026-11-18T22:14:17+00:00",
-   "attack_date": "2026-11-18",
-   "country": "US",
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjQxQE4wbg=="
   }
  ]
 }
