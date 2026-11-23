@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T02:57:12+00:00",
+ "generated_at": "2026-11-23T23:10:12+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -1683,8 +1683,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-08-14",
-   "last_seen": "2026-11-06",
-   "victims_total": 21,
+   "last_seen": "2026-11-23",
+   "victims_total": 25,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -1693,14 +1693,14 @@
     "countries": [
      {
       "name": "SG",
+      "count": 6
+     },
+     {
+      "name": "US",
       "count": 5
      },
      {
       "name": "IN",
-      "count": 4
-     },
-     {
-      "name": "US",
       "count": 4
      },
      {
@@ -1719,18 +1719,18 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 3
-     },
-     {
-      "name": "Other",
-      "count": 3
+      "count": 4
      },
      {
       "name": "Technology",
-      "count": 3
+      "count": 4
      },
      {
       "name": "Transportation",
+      "count": 4
+     },
+     {
+      "name": "Other",
       "count": 3
      },
      {
@@ -1790,11 +1790,11 @@
     },
     {
      "month": "2026-11",
-     "count": 1
+     "count": 5
     }
    ],
-   "history_size": 21,
-   "updated": "2026-11-07T02:58:19+00:00"
+   "history_size": 25,
+   "updated": "2026-11-23T23:10:12+00:00"
   },
   "qilin": {
    "name": "qilin",
@@ -2037,8 +2037,8 @@
    "description": "INC Ransom is a prolific ransomware-as-a-service operation active since July 2023 that systematically targets healthcare, government, education, and manufacturing sectors in North America and Europe, having posted over 200 victims in 2025 alone with no sector off-limits.",
    "aliases": [],
    "first_seen": "2023-08-06",
-   "last_seen": "2026-11-13",
-   "victims_total": 1044,
+   "last_seen": "2026-11-23",
+   "victims_total": 1058,
    "cves": [
     {
      "id": "CVE-2026-15409",
@@ -2095,7 +2095,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 577
+      "count": 582
      },
      {
       "name": "CA",
@@ -2125,15 +2125,15 @@
      },
      {
       "name": "Healthcare",
-      "count": 147
+      "count": 148
      },
      {
       "name": "Manufacturing",
-      "count": 144
+      "count": 146
      },
      {
       "name": "Technology",
-      "count": 118
+      "count": 123
      },
      {
       "name": "Education",
@@ -2141,7 +2141,7 @@
      },
      {
       "name": "Government & Defense",
-      "count": 59
+      "count": 62
      }
     ]
    },
@@ -2192,11 +2192,11 @@
     },
     {
      "month": "2026-11",
-     "count": 64
+     "count": 78
     }
    ],
-   "history_size": 1044,
-   "updated": "2026-11-15T09:41:25+00:00"
+   "history_size": 1058,
+   "updated": "2026-11-23T23:10:12+00:00"
   },
   "genesis": {
    "name": "genesis",
