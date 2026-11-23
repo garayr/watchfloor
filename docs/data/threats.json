@@ -68,40 +68,40 @@
   ]
  },
  "urls": {
-  "sample": 1000,
-  "online": 810,
+  "sample": 924,
+  "online": 738,
   "top_tags": [
    {
     "name": "github",
-    "count": 507
+    "count": 457
    },
    {
     "name": "js",
-    "count": 325
+    "count": 271
    },
    {
     "name": "TxDataHiding",
-    "count": 324
+    "count": 270
    },
    {
     "name": "VSCode",
-    "count": 324
+    "count": 270
    },
    {
     "name": "DEVPOPPER",
-    "count": 319
+    "count": 267
    },
    {
     "name": "Mozi",
-    "count": 220
+    "count": 228
    },
    {
     "name": "mirai",
-    "count": 163
+    "count": 144
    },
    {
-    "name": "elf",
-    "count": 133
+    "name": "SalatStealer",
+    "count": 129
    }
   ]
  },
@@ -180,6 +180,11 @@
  "ports_date": "2026-11-22",
  "diary": [
   {
+   "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
+   "url": "https://isc.sans.edu/diary/rss/33548",
+   "date": "2026-11-23T02:00:04+00:00"
+  },
+  {
    "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
    "url": "https://isc.sans.edu/diary/rss/33530",
    "date": "2026-11-22T18:40:18+00:00"
@@ -203,11 +208,6 @@
    "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
    "url": "https://isc.sans.edu/diary/rss/33532",
    "date": "2026-11-18T19:54:50+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
-   "url": "https://isc.sans.edu/diary/rss/33528",
-   "date": "2026-11-18T02:00:03+00:00"
   }
  ],
  "pulses": [
@@ -252,24 +252,35 @@
    "url": "https://otx.alienvault.com/pulse/6b00423946b48f044785f9d8"
   },
   {
-   "name": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infostealing",
-   "summary": "A financially motivated threat group designated UAT-12643 has been discovered operating malicious infrastructure targeting cryptocurrency holders, gaming platform users, and VoIP software operators. The actor deploys…",
-   "date": "2026-11-20T12:48:53+00:00",
+   "name": "Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure",
+   "summary": "A Korean-speaking threat actor, tracked as the June 2026 Minjun campaign and linked with moderate confidence to North Korea's Lazarus Group, is actively planning targeted exploitation of two critical PHP vulnerabilities…",
+   "date": "2026-10-24T01:20:52+00:00",
    "author": "AlienVault",
-   "adversary": "UAT-12643",
-   "malware": [
-    "Good Game",
-    "Overlord"
+   "adversary": "Lazarus Group",
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "Australia",
+    "British Indian Ocean Territory",
+    "India",
+    "Indonesia",
+    "Japan"
    ],
-   "countries": [],
-   "industries": [],
+   "industries": [
+    "Government",
+    "Finance",
+    "Manufacturing",
+    "Transportation",
+    "Aerospace",
+    "Construction"
+   ],
    "tags": [
-    "UAT-12643",
-    "Overlord RAT",
-    "Good Game stealer",
-    "Solana blockchain"
+    "php2shell",
+    "cve-2026-109618",
+    "web shell",
+    "dprk"
    ],
-   "url": "https://otx.alienvault.com/pulse/6b0041b6f254e5321e03a189"
+   "url": "https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50"
   },
   {
    "name": "Infostealer riding the AI Train",
@@ -472,9 +483,9 @@
  ],
  "updated": {
   "threatfox": "2026-11-22T01:50:25+00:00",
-  "sans": "2026-11-22T22:27:05+00:00",
-  "otx": "2026-11-22T22:27:05+00:00",
-  "urlhaus": "2026-11-22T22:27:05+00:00"
+  "sans": "2026-11-23T02:57:12+00:00",
+  "otx": "2026-11-23T02:57:12+00:00",
+  "urlhaus": "2026-11-23T02:57:12+00:00"
  },
- "generated_at": "2026-11-22T22:27:05+00:00"
+ "generated_at": "2026-11-23T02:57:12+00:00"
 }

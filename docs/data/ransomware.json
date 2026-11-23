@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T22:27:05+00:00",
+ "generated_at": "2026-11-23T02:57:12+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -17,49 +17,49 @@
    "count": 9
   },
   {
-   "name": "rhysida",
-   "count": 6
-  },
-  {
-   "name": "HYFLOCK",
-   "count": 5
-  },
-  {
    "name": "PixelLeaks",
+   "count": 7
+  },
+  {
+   "name": "rhysida",
    "count": 5
+  },
+  {
+   "name": "medusalocker",
+   "count": 4
   },
   {
    "name": "spacebears",
    "count": 4
   },
   {
-   "name": "Handsome Boy Hacking Club",
+   "name": "HYFLOCK",
    "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Healthcare",
-   "count": 20
+   "count": 19
   },
   {
    "name": "Technology",
    "count": 15
   },
   {
-   "name": "Professional Services",
+   "name": "Other",
    "count": 14
   },
   {
-   "name": "Other",
+   "name": "Professional Services",
    "count": 12
   },
   {
    "name": "Manufacturing",
-   "count": 9
+   "count": 7
   },
   {
-   "name": "Energy & Utilities",
+   "name": "Financial Services",
    "count": 4
   }
  ],
@@ -95,10 +95,10 @@
    "lon": -58.4
   },
   {
-   "code": "CO",
+   "code": "DE",
    "count": 2,
-   "lat": 4.7,
-   "lon": -74.1
+   "lat": 50.1,
+   "lon": 8.7
   },
   {
    "code": "EG",
@@ -107,10 +107,10 @@
    "lon": 31.2
   },
   {
-   "code": "FR",
+   "code": "IN",
    "count": 2,
-   "lat": 48.9,
-   "lon": 2.35
+   "lat": 19.1,
+   "lon": 72.9
   },
   {
    "code": "JP",
@@ -149,16 +149,16 @@
    "lon": -70.6
   },
   {
+   "code": "CO",
+   "count": 1,
+   "lat": 4.7,
+   "lon": -74.1
+  },
+  {
    "code": "CZ",
    "count": 1,
    "lat": 50.1,
    "lon": 14.4
-  },
-  {
-   "code": "DE",
-   "count": 1,
-   "lat": 50.1,
-   "lon": 8.7
   },
   {
    "code": "DO",
@@ -173,10 +173,22 @@
    "lon": -78.5
   },
   {
+   "code": "FR",
+   "count": 1,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "GB",
    "count": 1,
    "lat": 51.5,
    "lon": -0.1
+  },
+  {
+   "code": "HU",
+   "count": 1,
+   "lat": 47.5,
+   "lon": 19.0
   },
   {
    "code": "IE",
@@ -189,12 +201,6 @@
    "count": 1,
    "lat": 32.1,
    "lon": 34.8
-  },
-  {
-   "code": "IN",
-   "count": 1,
-   "lat": 19.1,
-   "lon": 72.9
   },
   {
    "code": "KR",
@@ -215,16 +221,10 @@
    "lon": -79.5
   },
   {
-   "code": "PK",
+   "code": "PS",
    "count": 1,
-   "lat": 24.9,
-   "lon": 67.0
-  },
-  {
-   "code": "RU",
-   "count": 1,
-   "lat": 55.75,
-   "lon": 37.6
+   "lat": 31.9,
+   "lon": 35.2
   },
   {
    "code": "SE",
@@ -237,15 +237,81 @@
    "count": 1,
    "lat": 10.5,
    "lon": -66.9
-  },
-  {
-   "code": "VN",
-   "count": 1,
-   "lat": 21.0,
-   "lon": 105.8
   }
  ],
  "victims": [
+  {
+   "victim": "Agenzia Agorà Società Cooperativa Sociale",
+   "group": "Panzer",
+   "date": "2026-11-22T22:55:38+00:00",
+   "attack_date": "2026-11-22",
+   "country": "IT",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/QWdlbnppYSBBZ29yw6AgU29jaWV0w6AgQ29vcGVyYXRpdmEgU29jaWFsZUBQYW56ZXI="
+  },
+  {
+   "victim": "Company #243",
+   "group": "N0n",
+   "date": "2026-11-22T22:52:59+00:00",
+   "attack_date": "2026-11-22",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjQzQE4wbg=="
+  },
+  {
+   "victim": "Company #242",
+   "group": "N0n",
+   "date": "2026-11-22T22:52:21+00:00",
+   "attack_date": "2026-11-22",
+   "country": "US",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjQyQE4wbg=="
+  },
+  {
+   "victim": "Moreth",
+   "group": "medusalocker",
+   "date": "2026-11-22T22:41:43+00:00",
+   "attack_date": "2026-11-22",
+   "country": "DE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/TW9yZXRoQG1lZHVzYWxvY2tlcg=="
+  },
+  {
+   "victim": "BASABAH",
+   "group": "medusalocker",
+   "date": "2026-11-22T22:41:10+00:00",
+   "attack_date": "2026-11-22",
+   "country": null,
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/QkFTQUJBSEBtZWR1c2Fsb2NrZXI="
+  },
+  {
+   "victim": "East Jerusalem food distribution firm (AlArabi InterBase accounting estate)",
+   "group": "PixelLeaks",
+   "date": "2026-11-22T22:20:00+00:00",
+   "attack_date": "2026-11-22",
+   "country": "PS",
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/RWFzdCBKZXJ1c2FsZW0gZm9vZCBkaXN0cmlidXRpb24gZmlybSAoQWxBcmFiaSBJbnRlckJhc2UgYWNjb3VudGluZyBlc3RhdGUpQFBpeGVsTGVha3M="
+  },
+  {
+   "victim": "Indian railway Tatkal booking agency (licensed booking bot operator)",
+   "group": "PixelLeaks",
+   "date": "2026-11-22T22:19:40+00:00",
+   "attack_date": "2026-11-22",
+   "country": "IN",
+   "sector": "Transportation",
+   "url": "https://www.ransomware.live/id/SW5kaWFuIHJhaWx3YXkgVGF0a2FsIGJvb2tpbmcgYWdlbmN5IChsaWNlbnNlZCBib29raW5nIGJvdCBvcGVyYXRvcilAUGl4ZWxMZWFrcw=="
+  },
+  {
+   "victim": "Viapan Group",
+   "group": "qilin",
+   "date": "2026-11-22T19:36:08+00:00",
+   "attack_date": "2026-11-22",
+   "country": "HU",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/VmlhcGFuIEdyb3VwQHFpbGlu"
+  },
   {
    "victim": "EconSys",
    "group": "direwolf",
@@ -715,15 +781,6 @@
    "url": "https://www.ransomware.live/id/d2FrYW8uY28uanBAYmxhY2tvdXQ="
   },
   {
-   "victim": "eni.it",
-   "group": "incransom",
-   "date": "2026-11-20T04:42:22+00:00",
-   "attack_date": "2026-11-19",
-   "country": "IT",
-   "sector": "Energy & Utilities",
-   "url": "https://www.ransomware.live/id/ZW5pLml0QGluY3JhbnNvbQ=="
-  },
-  {
    "victim": "Inlandboatmen’s Union of the Pacific — Marine Division of the ILWU",
    "group": "spacebears",
    "date": "2026-11-20T03:55:59+00:00",
@@ -976,15 +1033,6 @@
    "url": "https://www.ransomware.live/id/TWV0cm8gVHVsc2EgRm9vdEBTb3VsR3JvdXA="
   },
   {
-   "victim": "Clinica Pajonal - Clinica Urus - Clinica Putumayo - Clinicia Casanare | MoMentum Holding —...",
-   "group": "Whitearmor",
-   "date": "2026-11-19T14:04:46+00:00",
-   "attack_date": "2026-11-19",
-   "country": "CO",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/Q2xpbmljYSBQYWpvbmFsIC0gQ2xpbmljYSBVcnVzIC0gQ2xpbmljYSBQdXR1bWF5byAtIENsaW5pY2lhIENhc2FuYXJlIHwgTW9NZW50dW0gSG9sZGluZyDigJQuLi5AV2hpdGVhcm1vcg=="
-  },
-  {
    "victim": "Maglin, Miskiv & Associates",
    "group": "SoulGroup",
    "date": "2026-11-19T14:04:33+00:00",
@@ -1091,60 +1139,6 @@
    "country": "EG",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/RWd5cHRpYW4gU3RlZWwgQ29tcGFueUBTb3VsR3JvdXA="
-  },
-  {
-   "victim": "Dong Engineering Consulting Company Data Breach",
-   "group": "HYFLOCK",
-   "date": "2026-11-19T11:25:01+00:00",
-   "attack_date": "2026-11-19",
-   "country": "VN",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/RG9uZyBFbmdpbmVlcmluZyBDb25zdWx0aW5nIENvbXBhbnkgRGF0YSBCcmVhY2hASFlGTE9DSw=="
-  },
-  {
-   "victim": "Piz'wich Data Breach",
-   "group": "HYFLOCK",
-   "date": "2026-11-19T11:24:24+00:00",
-   "attack_date": "2026-11-19",
-   "country": "FR",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/UGl6J3dpY2ggRGF0YSBCcmVhY2hASFlGTE9DSw=="
-  },
-  {
-   "victim": "Ginkgo Bioworks",
-   "group": "fulcrumsec",
-   "date": "2026-11-19T11:08:48+00:00",
-   "attack_date": "2026-11-19",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/R2lua2dvIEJpb3dvcmtzQGZ1bGNydW1zZWM="
-  },
-  {
-   "victim": "M.N. Textiles (Pvt) Ltd",
-   "group": "crypto24",
-   "date": "2026-11-19T10:40:56+00:00",
-   "attack_date": "2026-11-19",
-   "country": "PK",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TS5OLiBUZXh0aWxlcyAoUHZ0KSBMdGRAY3J5cHRvMjQ="
-  },
-  {
-   "victim": "Smith & Green, Attorneys at Law PLLC",
-   "group": "rhysida",
-   "date": "2026-11-19T06:44:34+00:00",
-   "attack_date": "2026-11-19",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/U21pdGggJiBHcmVlbiwgQXR0b3JuZXlzIGF0IExhdyBQTExDQHJoeXNpZGE="
-  },
-  {
-   "victim": "www.sleepboxbymiracle.com",
-   "group": "krybit",
-   "date": "2026-11-19T03:51:04+00:00",
-   "attack_date": "2026-11-19",
-   "country": "RU",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/d3d3LnNsZWVwYm94YnltaXJhY2xlLmNvbUBrcnliaXQ="
   }
  ]
 }
