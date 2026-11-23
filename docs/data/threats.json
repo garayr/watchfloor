@@ -2,50 +2,38 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2234,
-  "c2_servers": 698,
+  "total_iocs": 1303,
+  "c2_servers": 431,
   "families": [
    {
-    "name": "Skimer",
-    "iocs": 332,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.skimer"
-   },
-   {
-    "name": "Unknown Loader",
-    "iocs": 159,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
-    "name": "ZStealer",
-    "iocs": 156,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
-   },
-   {
-    "name": "Merdoor",
-    "iocs": 120,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.merdoor"
-   },
-   {
     "name": "Mirai",
-    "iocs": 116,
-    "c2": 5,
+    "iocs": 158,
+    "c2": 7,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Raven Stealer",
-    "iocs": 84,
+    "iocs": 102,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    },
    {
-    "name": "Unknown Stealer",
-    "iocs": 84,
-    "c2": 65,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+    "name": "Vidar",
+    "iocs": 87,
+    "c2": 44,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 83,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
+   },
+   {
+    "name": "XWorm",
+    "iocs": 56,
+    "c2": 56,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.xworm"
    },
    {
     "name": "ClearFake",
@@ -54,54 +42,66 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 42,
-    "c2": 42,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "SNOWLIGHT",
-    "iocs": 32,
+    "iocs": 41,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
+   },
+   {
+    "name": "NjRAT",
+    "iocs": 38,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.njrat"
+   },
+   {
+    "name": "ValleyRAT",
+    "iocs": 27,
+    "c2": 6,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
+   },
+   {
+    "name": "IClickFix",
+    "iocs": 17,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    }
   ]
  },
  "urls": {
-  "sample": 924,
-  "online": 738,
+  "sample": 1000,
+  "online": 734,
   "top_tags": [
    {
     "name": "github",
-    "count": 457
-   },
-   {
-    "name": "js",
-    "count": 271
-   },
-   {
-    "name": "TxDataHiding",
-    "count": 270
-   },
-   {
-    "name": "VSCode",
-    "count": 270
-   },
-   {
-    "name": "DEVPOPPER",
-    "count": 267
+    "count": 389
    },
    {
     "name": "Mozi",
+    "count": 237
+   },
+   {
+    "name": "elf",
     "count": 228
    },
    {
     "name": "mirai",
-    "count": 144
+    "count": 221
    },
    {
-    "name": "SalatStealer",
-    "count": 129
+    "name": "js",
+    "count": 191
+   },
+   {
+    "name": "DEVPOPPER",
+    "count": 190
+   },
+   {
+    "name": "TxDataHiding",
+    "count": 190
+   },
+   {
+    "name": "VSCode",
+    "count": 190
    }
   ]
  },
@@ -109,75 +109,75 @@
   {
    "port": 23,
    "service": "Telnet",
-   "records": 810371,
-   "targets": 299,
-   "sources": 15273
+   "records": 655839,
+   "targets": 287,
+   "sources": 6138
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 695040,
-   "targets": 305,
-   "sources": 12292
+   "records": 317231,
+   "targets": 283,
+   "sources": 4823
   },
   {
    "port": 2222,
    "service": null,
-   "records": 482195,
-   "targets": 289,
-   "sources": 6990
+   "records": 191035,
+   "targets": 280,
+   "sources": 4476
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 273688,
-   "targets": 312,
-   "sources": 14229
+   "records": 132514,
+   "targets": 273,
+   "sources": 16656
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 264596,
-   "targets": 291,
-   "sources": 9082
+   "records": 126499,
+   "targets": 281,
+   "sources": 3558
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 241550,
-   "targets": 292,
-   "sources": 4859
-  },
-  {
-   "port": 16767,
-   "service": null,
-   "records": 181493,
-   "targets": 52,
-   "sources": 5174
+   "records": 107162,
+   "targets": 276,
+   "sources": 2209
   },
   {
    "port": 9000,
    "service": null,
-   "records": 181291,
-   "targets": 273,
-   "sources": 3858
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 165666,
-   "targets": 294,
-   "sources": 14028
+   "records": 91648,
+   "targets": 261,
+   "sources": 1738
   },
   {
    "port": 7547,
    "service": "Router management (TR-069)",
-   "records": 141196,
-   "targets": 239,
-   "sources": 2730
+   "records": 70675,
+   "targets": 212,
+   "sources": 1000
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 68178,
+   "targets": 12,
+   "sources": 2848
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 61537,
+   "targets": 275,
+   "sources": 4664
   }
  ],
- "ports_date": "2026-11-22",
+ "ports_date": "2026-11-23",
  "diary": [
   {
    "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
@@ -212,44 +212,183 @@
  ],
  "pulses": [
   {
-   "name": "Uncovered and Disrupted BADBOX 3.0, the Largest Ad Fraud Operation by Bid Volume Ever Publicly Disclosed",
-   "summary": "BADBOX 3.0 represents the largest ad fraud operation ever disclosed, generating approximately 40 billion bid requests daily and comprising over 4% of all connected TV traffic. The operation primarily targets low-cost…",
-   "date": "2026-11-20T12:58:32+00:00",
+   "name": "Rotating Storefronts: Inside a Fake-Shop Network Gearing Up for Black Friday 2026",
+   "summary": "A sophisticated fake-shop operation has been identified preparing for Black Friday 2026, utilizing a Chinese-developed SaaS store builder platform called oemcart. The network operates 4,660 domains, with 3,415 observed…",
+   "date": "2026-11-23T07:53:02+00:00",
    "author": "AlienVault",
-   "adversary": "TXCZ",
-   "malware": [
-    "BADBOX"
+   "adversary": null,
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "Austria",
+    "Czechia",
+    "Germany",
+    "Greece",
+    "Hungary"
    ],
-   "countries": [],
-   "industries": [],
+   "industries": [
+    "Retail"
+   ],
    "tags": [
-    "ad fraud",
-    "residential proxy",
-    "backdoor",
-    "ctv traffic",
-    "badbox",
-    "pxyedge"
+    "phishing",
+    "domain rotation",
+    "fake-shop",
+    "oemcart",
+    "brand impersonation",
+    "black friday"
    ],
-   "url": "https://otx.alienvault.com/pulse/6b0043f873dc92a1ab3560c9"
+   "url": "https://otx.alienvault.com/pulse/6b03f0de3b5ed21d7846ec1e"
   },
   {
-   "name": "Device Code Phishing in Microsoft 365: Attack Analysis",
-   "summary": "In November 2026, a resurgence of device-code phishing campaigns targeted Microsoft 365 accounts using payment-themed emails and fake SharePoint workspaces. Attackers delivered obfuscated HTML and SVG attachments that…",
-   "date": "2026-11-20T12:51:05+00:00",
+   "name": "Inside a Gentlemen Ransomware-Linked Intrusion",
+   "summary": "A deception alert revealed a multi-week intrusion initiated through compromised credentials on an internet-facing Citrix VDI environment lacking MFA enforcement. The threat actor, whose credentials appeared in…",
+   "date": "2026-11-21T03:49:50+00:00",
    "author": "AlienVault",
    "adversary": null,
    "malware": [],
    "countries": [],
    "industries": [],
    "tags": [
-    "payment-themed lures",
-    "oauth abuse",
-    "microsoft 365",
-    "svg redirector",
-    "authentication hijacking",
-    "device-code phishing"
+    "citrix vdi",
+    "stealer-log",
+    "sftp exfiltration",
+    "domain admin compromise"
    ],
-   "url": "https://otx.alienvault.com/pulse/6b00423946b48f044785f9d8"
+   "url": "https://otx.alienvault.com/pulse/6b0114de9281959005e481a4"
+  },
+  {
+   "name": "Dialing for Data: Inside the Com's High-Profile Heists",
+   "summary": "Multiple threat actors affiliated with Com have conducted persistent vishing campaigns targeting data-rich organizations since August 2026, leading to data theft and extortion attempts. The operations primarily focused…",
+   "date": "2026-11-20T23:28:18+00:00",
+   "author": "AlienVault",
+   "adversary": "Bling Libra",
+   "malware": [],
+   "countries": [
+    "United States of America",
+    "Australia",
+    "United Kingdom of Great Britain and Northern Ireland"
+   ],
+   "industries": [
+    "Finance",
+    "Healthcare",
+    "Technology",
+    "Legal Services",
+    "Construction",
+    "Transportation"
+   ],
+   "tags": [
+    "browser extensions",
+    "cloud compromise",
+    "aitm phishing",
+    "vishing",
+    "social engineering",
+    "shinyhunters"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b00d792e0f0c62062da298f"
+  },
+  {
+   "name": "An AI-Augmented Cybercrime Operation",
+   "summary": "A French-speaking operator with minimal technical skills conducted a nine-day campaign in November 2026 targeting European banks, insurers, payment providers and municipalities using a jailbroken AI agent. The operator…",
+   "date": "2026-11-20T14:26:04+00:00",
+   "author": "AlienVault",
+   "adversary": "BabidiGhost",
+   "malware": [
+    "Hermes",
+    "WinUpdSvc2"
+   ],
+   "countries": [
+    "Belgium",
+    "France",
+    "Switzerland"
+   ],
+   "industries": [
+    "Finance",
+    "Government",
+    "Healthcare"
+   ],
+   "tags": [
+    "winupdsvc2",
+    "ghosthunters",
+    "blackhatsect0r toolchain",
+    "hermes",
+    "ai-augmented attack",
+    "jailbroken ai agent"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b00587c86464de890abdca1"
+  },
+  {
+   "name": "October 2026 Infostealer Trend Report",
+   "summary": "During October 2026, multiple infostealer families including Lzveil, StealC, Remus, DarkCloud, and AgentTesla were distributed through various channels. Distribution methods included SEO poisoning, file-hosting…",
+   "date": "2026-11-20T14:18:47+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Lzveil",
+    "StealC",
+    "Remus",
+    "DarkCloud",
+    "AgentTesla"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "stealc",
+    "seo poisoning",
+    "infostealer",
+    "remus",
+    "agenttesla",
+    "darkcloud"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b0056c70ff05cc28c4f0d54"
+  },
+  {
+   "name": "October 2026 APT Attack Trends Report (Domestic)",
+   "summary": "During October 2026, multiple APT campaigns targeting South Korea were observed, primarily utilizing spear phishing and malicious HWP documents. Seven distinct attack types were identified, predominantly leveraging LNK…",
+   "date": "2026-11-20T14:13:38+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "XenoRAT",
+    "Xctdoor",
+    "MeshAgent"
+   ],
+   "countries": [],
+   "industries": [
+    "Defense"
+   ],
+   "tags": [
+    "meshagent",
+    "apt",
+    "spear phishing",
+    "xenorat",
+    "xctdoor",
+    "information stealer"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b0055920249dca4654a73bb"
+  },
+  {
+   "name": "Bazuka: The Fraud Framework That Can Do It All",
+   "summary": "In late October 2026, a new mobile threat called Bazuka was discovered while investigating an NFC card relay application. Unlike typical banking trojans with simple architectures, Bazuka is a comprehensive modular…",
+   "date": "2026-11-18T13:38:10+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Bazuka",
+    "RatOn"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "banking trojan",
+    "bazuka",
+    "llm integration",
+    "modular framework",
+    "cryptocurrency theft",
+    "raton"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6afdaa42ee27fc70ccfe0fad"
   },
   {
    "name": "Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure",
@@ -367,125 +506,13 @@
     "phishing"
    ],
    "url": "https://otx.alienvault.com/pulse/6ada5f2001908e1c7f2a85b3"
-  },
-  {
-   "name": "ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors",
-   "summary": "Throughout October 2026, an actor utilizing ARTEX, an autonomous AI penetration-testing agent, targeted multiple IT and software vendors with attacks focused on identity providers including Okta, Entra, and Cognito. The…",
-   "date": "2026-10-22T19:08:15+00:00",
-   "author": "AlienVault",
-   "adversary": "Storm-0940",
-   "malware": [
-    "ARTEX"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "autonomous ai agent",
-    "oauth manipulation",
-    "artex",
-    "supply chain attack"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ada5f1fcf9561726fe676ad"
-  },
-  {
-   "name": "StealC Is Back, and This Time It's a RAT",
-   "summary": "Four months after Operation Endgame dismantled StealC in June, its seller returned in October with Stadia, a full-featured remote access trojan that incorporates StealC's code verbatim. Unlike its predecessor, Stadia…",
-   "date": "2026-10-22T19:08:14+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Stadia",
-    "StealC"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "operation endgame",
-    "stadia",
-    "hvnc",
-    "stealc"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ada5f1e1071ed1bf4072f30"
-  },
-  {
-   "name": "MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration",
-   "summary": "On July 16th, 2025, UAC-0099 conducted a spearphishing attack against a Ukrainian grain logistics company, deploying the MATCHWOK backdoor. The following day, attackers introduced MythicRatatoskr, a previously…",
-   "date": "2026-10-22T19:08:14+00:00",
-   "author": "AlienVault",
-   "adversary": "UAC-0099, Sandworm",
-   "malware": [
-    "MythicRatatoskr",
-    "MATCHWOK",
-    "MATCHBOIL",
-    "SDelete"
-   ],
-   "countries": [
-    "Ukraine"
-   ],
-   "industries": [
-    "Agriculture"
-   ],
-   "tags": [
-    "mythicratatoskr",
-    "matchboil",
-    "sdelete",
-    "yggdrasil"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ada5f1e04fbf3494e4114a7"
-  },
-  {
-   "name": "Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)",
-   "summary": "Two critical PHP remote code execution vulnerabilities, CVE-2026-109618 and CVE-2026-109619, both rated CVSS v4.0 9.2, leaked before their scheduled patch on October 21, 2026. The flaws involve out-of-memory corruption…",
-   "date": "2026-10-22T14:31:52+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "Germany",
-    "Singapore",
-    "United Kingdom of Great Britain and Northern Ireland"
-   ],
-   "industries": [
-    "Retail",
-    "Finance",
-    "Technology"
-   ],
-   "tags": [
-    "mirai botnet",
-    "cve-2026-109618",
-    "woocommerce",
-    "magento",
-    "cve-2026-109619",
-    "php2shell"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604"
-  },
-  {
-   "name": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
-   "summary": "Between July and September 2026, a sophisticated campaign targeted Microsoft 365 accounts through adversary-in-the-middle attacks and token replay techniques. The operation captured sign-in sessions via AiTM relays and…",
-   "date": "2026-10-22T14:31:51+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "microsoft 365",
-    "token replay",
-    "adversary-in-the-middle",
-    "business email compromise"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6ada1e572ffb7473cf202754"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-22T01:50:25+00:00",
-  "sans": "2026-11-23T02:57:12+00:00",
-  "otx": "2026-11-23T02:57:12+00:00",
-  "urlhaus": "2026-11-23T02:57:12+00:00"
+  "threatfox": "2026-11-23T11:49:08+00:00",
+  "sans": "2026-11-23T11:49:08+00:00",
+  "otx": "2026-11-23T11:49:08+00:00",
+  "urlhaus": "2026-11-23T11:49:08+00:00"
  },
- "generated_at": "2026-11-23T02:57:12+00:00"
+ "generated_at": "2026-11-23T11:49:08+00:00"
 }

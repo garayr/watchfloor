@@ -25,6 +25,19 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
+     "summary": "Threat actors could exploit them to leak or modify server information and to execute commands as root. The post SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-23T11:35:15+00:00",
+     "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "CVE-2026-76466",
+      "CVE-2025-42884",
+      "CVE-2026-76418"
+     ]
+    },
+    {
      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
      "source": "BleepingComputer",
@@ -95,32 +108,40 @@
      "date": "2026-11-20T11:36:51+00:00",
      "url": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
-     "summary": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach. The post European Commission Confirms AI-Assisted Cyberattack Disrupted Services appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-20T10:51:42+00:00",
-     "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-     "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The…",
-     "source": "The Hacker News",
-     "date": "2026-11-20T10:32:50+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-     "group": "Breaches and ransomware",
-     "alerts": [
-      "CVE-2026-76466",
-      "CVE-2026-76418"
-     ]
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+     "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been…",
+     "source": "The Hacker News",
+     "date": "2026-11-23T09:11:56+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+     "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a…",
+     "source": "The Hacker News",
+     "date": "2026-11-23T09:04:08+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+     "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-23T07:44:19+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76466",
+      "CVE-2026-76418"
+     ]
+    },
     {
      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and…",
@@ -216,45 +237,26 @@
      "group": "Exploited right now"
     },
     {
-     "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-     "summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-20T10:57:43+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
      "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks…",
      "source": "The Hacker News",
      "date": "2026-11-20T10:38:22+00:00",
      "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
-     "summary": "Tracked as CVE-2026-132825, the bug is a heap-based buffer overflow that could lead to remote code execution (RCE). The post Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-20T10:34:10+00:00",
-     "url": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-     "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026…",
-     "source": "The Hacker News",
-     "date": "2026-11-20T09:38:15+00:00",
-     "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-123890"
-     ]
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted",
+     "summary": "Backdoors on low-cost consumer devices served modules for ad fraud and for turning devices into residential proxies. The post BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-23T11:44:18+00:00",
+     "url": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
      "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
@@ -270,20 +272,36 @@
      "date": "2026-11-20T16:58:16+00:00",
      "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-     "summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates…",
-     "source": "The Hacker News",
-     "date": "2026-11-20T07:11:39+00:00",
-     "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
+     "summary": "CrowdStrike expects the combined company to have more than $10 billion in annual recurring revenue. The post CrowdStrike to Acquire Zscaler in $43.9 Billion Deal appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-23T11:31:44+00:00",
+     "url": "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/",
+     "group": "Other news"
+    },
+    {
+     "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+     "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-23T09:11:15+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+     "group": "Other news"
+    },
+    {
+     "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+     "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in…",
+     "source": "The Hacker News",
+     "date": "2026-11-23T08:24:15+00:00",
+     "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+     "group": "Other news"
+    },
     {
      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
@@ -338,22 +356,6 @@
      "source": "The Hacker News",
      "date": "2026-11-20T12:00:00+00:00",
      "url": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-     "summary": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-20T09:25:35+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-     "group": "Other news"
-    },
-    {
-     "title": "N-able Blames Service Disruption on Cyberattack",
-     "summary": "The incident affected Mail Assure and SpamExperts Hosted Cloud and could have led to credential theft. The post N-able Blames Service Disruption on Cyberattack appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-20T09:08:35+00:00",
-     "url": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
      "group": "Other news"
     }
    ]
