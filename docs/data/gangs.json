@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T23:10:12+00:00",
+ "generated_at": "2026-11-24T06:56:45+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -738,8 +738,8 @@
    "description": "Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The group utilizes a namesake ransomware through phishing attacks and Cobalt Strike to breach the targets' networks and deploy their payloads. The group threatens to publicly distribute exfiltrated data if the ransom is not paid, and it's worth mentioning that Rhysida is still in the early stages of development. The ransomware leaves PDF notes in the affected folders, instructing victims to contact the group through its portal, and payment is made via Bitcoin. After encryption, the ransomware appends the extension '.ryshida' to encrypted files. Source: https://github.com/crocodyli/ThreatActors-TTPs",
    "aliases": [],
    "first_seen": "2023-06-05",
-   "last_seen": "2026-11-16",
-   "victims_total": 319,
+   "last_seen": "2026-11-23",
+   "victims_total": 331,
    "cves": [
     {
      "id": "CVE-2026-50751",
@@ -804,7 +804,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 135
+      "count": 140
      },
      {
       "name": "CA",
@@ -833,24 +833,24 @@
       "count": 60
      },
      {
+      "name": "Professional Services",
+      "count": 55
+     },
+     {
       "name": "Healthcare",
       "count": 51
      },
      {
-      "name": "Professional Services",
-      "count": 48
+      "name": "Manufacturing",
+      "count": 36
      },
      {
       "name": "Government & Defense",
-      "count": 34
-     },
-     {
-      "name": "Manufacturing",
-      "count": 34
+      "count": 35
      },
      {
       "name": "Technology",
-      "count": 20
+      "count": 21
      }
     ]
    },
@@ -901,11 +901,11 @@
     },
     {
      "month": "2026-11",
-     "count": 8
+     "count": 20
     }
    ],
-   "history_size": 319,
-   "updated": "2026-11-16T18:28:31+00:00"
+   "history_size": 331,
+   "updated": "2026-11-24T06:56:45+00:00"
   },
   "Doommageddon": {
    "name": "Doommageddon",
@@ -4276,8 +4276,8 @@
    "description": "Anubis is a ransomware-as-a-service group active since December 2024 that targets healthcare, engineering, construction, and professional services sectors, offering affiliates a flexible revenue split model and an optional destructive \"wipe mode\" alongside standard encryption.",
    "aliases": [],
    "first_seen": "2025-02-25",
-   "last_seen": "2026-11-09",
-   "victims_total": 119,
+   "last_seen": "2026-11-24",
+   "victims_total": 121,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -4286,18 +4286,18 @@
     "countries": [
      {
       "name": "US",
-      "count": 62
+      "count": 63
      },
      {
       "name": "GB",
       "count": 8
      },
      {
-      "name": "AU",
-      "count": 6
+      "name": "DE",
+      "count": 7
      },
      {
-      "name": "DE",
+      "name": "AU",
       "count": 6
      },
      {
@@ -4312,7 +4312,7 @@
     "sectors": [
      {
       "name": "Healthcare",
-      "count": 31
+      "count": 32
      },
      {
       "name": "Manufacturing",
@@ -4383,11 +4383,11 @@
     },
     {
      "month": "2026-11",
-     "count": 2
+     "count": 4
     }
    ],
-   "history_size": 119,
-   "updated": "2026-11-09T12:25:24+00:00"
+   "history_size": 121,
+   "updated": "2026-11-24T06:56:45+00:00"
   },
   "dragonforce": {
    "name": "dragonforce",

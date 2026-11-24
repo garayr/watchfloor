@@ -118,6 +118,28 @@
    "group": "Exploited right now",
    "items": [
     {
+     "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+     "summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write…",
+     "source": "The Hacker News",
+     "date": "2026-11-24T06:02:57+00:00",
+     "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-76418"
+     ]
+    },
+    {
+     "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active…",
+     "source": "The Hacker News",
+     "date": "2026-11-24T06:02:45+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-134624"
+     ]
+    },
+    {
      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
      "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks…",
      "source": "BleepingComputer",
@@ -134,8 +156,8 @@
      "group": "Exploited right now"
     },
     {
-     "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
-     "summary": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack appeared first on SecurityWeek.",
+     "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
+     "summary": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack appeared first on SecurityWeek.",
      "source": "SecurityWeek",
      "date": "2026-11-23T15:06:49+00:00",
      "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
@@ -224,20 +246,6 @@
      "date": "2026-11-21T11:03:17+00:00",
      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities…",
-     "source": "The Hacker News",
-     "date": "2026-11-21T08:49:13+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-129448",
-      "CVE-2026-123890",
-      "CVE-2026-76466",
-      "CVE-2025-42884"
-     ]
     }
    ]
   },
@@ -351,14 +359,6 @@
      "source": "The Hacker News",
      "date": "2026-11-21T11:53:07+00:00",
      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-     "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The…",
-     "source": "The Hacker News",
-     "date": "2026-11-21T08:49:20+00:00",
-     "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
      "group": "Other news"
     }
    ]

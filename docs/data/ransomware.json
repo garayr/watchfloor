@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T23:10:12+00:00",
+ "generated_at": "2026-11-24T06:56:45+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -17,12 +17,12 @@
    "count": 8
   },
   {
-   "name": "everest",
-   "count": 5
+   "name": "medusalocker",
+   "count": 6
   },
   {
-   "name": "medusalocker",
-   "count": 5
+   "name": "qilin",
+   "count": 4
   },
   {
    "name": "spacebears",
@@ -40,11 +40,15 @@
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 13
+   "count": 14
   },
   {
    "name": "Healthcare",
    "count": 10
+  },
+  {
+   "name": "Professional Services",
+   "count": 9
   },
   {
    "name": "Technology",
@@ -52,11 +56,7 @@
   },
   {
    "name": "Other",
-   "count": 8
-  },
-  {
-   "name": "Professional Services",
-   "count": 8
+   "count": 6
   },
   {
    "name": "Agriculture and Food Production",
@@ -66,27 +66,21 @@
  "by_country": [
   {
    "code": "US",
-   "count": 30,
+   "count": 33,
    "lat": 39.0,
    "lon": -77.5
   },
   {
-   "code": "CA",
-   "count": 5,
-   "lat": 43.7,
-   "lon": -79.4
-  },
-  {
    "code": "DE",
-   "count": 4,
+   "count": 5,
    "lat": 50.1,
    "lon": 8.7
   },
   {
-   "code": "FR",
+   "code": "CA",
    "count": 4,
-   "lat": 48.9,
-   "lon": 2.35
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "GB",
@@ -95,10 +89,22 @@
    "lon": -0.1
   },
   {
+   "code": "FR",
+   "count": 3,
+   "lat": 48.9,
+   "lon": 2.35
+  },
+  {
    "code": "PH",
    "count": 3,
    "lat": 14.6,
    "lon": 121.0
+  },
+  {
+   "code": "BR",
+   "count": 2,
+   "lat": -23.5,
+   "lon": -46.6
   },
   {
    "code": "ES",
@@ -149,12 +155,6 @@
    "lon": 151.2
   },
   {
-   "code": "BR",
-   "count": 1,
-   "lat": -23.5,
-   "lon": -46.6
-  },
-  {
    "code": "CL",
    "count": 1,
    "lat": -33.4,
@@ -171,12 +171,6 @@
    "count": 1,
    "lat": 4.7,
    "lon": -74.1
-  },
-  {
-   "code": "CZ",
-   "count": 1,
-   "lat": 50.1,
-   "lon": 14.4
   },
   {
    "code": "DK",
@@ -233,16 +227,16 @@
    "lon": 127.0
   },
   {
+   "code": "MX",
+   "count": 1,
+   "lat": 19.4,
+   "lon": -99.1
+  },
+  {
    "code": "MY",
    "count": 1,
    "lat": 3.1,
    "lon": 101.7
-  },
-  {
-   "code": "NO",
-   "count": 1,
-   "lat": 59.9,
-   "lon": 10.8
   },
   {
    "code": "NZ",
@@ -282,6 +276,60 @@
   }
  ],
  "victims": [
+  {
+   "victim": "VHV Company",
+   "group": "anubis",
+   "date": "2026-11-24T00:03:34+00:00",
+   "attack_date": "2026-11-24",
+   "country": "DE",
+   "sector": "Not Found",
+   "url": "https://www.ransomware.live/id/VkhWIENvbXBhbnlAYW51Ymlz"
+  },
+  {
+   "victim": "Home Instead",
+   "group": "anubis",
+   "date": "2026-11-24T00:02:29+00:00",
+   "attack_date": "2026-11-24",
+   "country": "US",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/SG9tZSBJbnN0ZWFkQGFudWJpcw=="
+  },
+  {
+   "victim": "Nationwide IT Services, Inc.",
+   "group": "rhysida",
+   "date": "2026-11-23T23:23:41+00:00",
+   "attack_date": "2026-11-23",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/TmF0aW9ud2lkZSBJVCBTZXJ2aWNlcywgSW5jLkByaHlzaWRh"
+  },
+  {
+   "victim": "Toyota Chihuahua",
+   "group": "qilin",
+   "date": "2026-11-23T23:22:35+00:00",
+   "attack_date": "2026-11-23",
+   "country": "MX",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/VG95b3RhIENoaWh1YWh1YUBxaWxpbg=="
+  },
+  {
+   "victim": "Yahoo",
+   "group": "medusalocker",
+   "date": "2026-11-23T23:21:20+00:00",
+   "attack_date": "2026-11-23",
+   "country": "BR",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/WWFob29AbWVkdXNhbG9ja2Vy"
+  },
+  {
+   "victim": "Golden State Baptist College",
+   "group": "Dark Project",
+   "date": "2026-11-23T19:51:14+00:00",
+   "attack_date": "2026-11-23",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/R29sZGVuIFN0YXRlIEJhcHRpc3QgQ29sbGVnZUBEYXJrIFByb2plY3Q="
+  },
   {
    "victim": "Quetico LLC",
    "group": "aurora",
@@ -1127,60 +1175,6 @@
    "country": "US",
    "sector": "Healthcare",
    "url": "https://www.ransomware.live/id/TGVlIE1lbW9yaWFsIEhlYWx0aCBTeXN0ZW1AbWVkdXNhbG9ja2Vy"
-  },
-  {
-   "victim": "FAST ČR",
-   "group": "everest",
-   "date": "2026-11-20T22:04:10+00:00",
-   "attack_date": "2026-11-20",
-   "country": "CZ",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/RkFTVCDEjFJAZXZlcmVzdA=="
-  },
-  {
-   "victim": "Alla France",
-   "group": "everest",
-   "date": "2026-11-20T22:03:33+00:00",
-   "attack_date": "2026-11-20",
-   "country": "FR",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/QWxsYSBGcmFuY2VAZXZlcmVzdA=="
-  },
-  {
-   "victim": "ABL Bio",
-   "group": "everest",
-   "date": "2026-11-20T22:02:57+00:00",
-   "attack_date": "2026-11-20",
-   "country": null,
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/QUJMIEJpb0BldmVyZXN0"
-  },
-  {
-   "victim": "Vizrt",
-   "group": "everest",
-   "date": "2026-11-20T22:02:21+00:00",
-   "attack_date": "2026-11-20",
-   "country": "NO",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Vml6cnRAZXZlcmVzdA=="
-  },
-  {
-   "victim": "ALKF",
-   "group": "everest",
-   "date": "2026-11-20T22:01:44+00:00",
-   "attack_date": "2026-11-20",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/QUxLRkBldmVyZXN0"
-  },
-  {
-   "victim": "VanMor",
-   "group": "Dark Project",
-   "date": "2026-11-20T20:51:19+00:00",
-   "attack_date": "2026-11-20",
-   "country": "CA",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/VmFuTW9yQERhcmsgUHJvamVjdA=="
   }
  ]
 }
