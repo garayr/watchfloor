@@ -1,6 +1,75 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-131914",
+   "date": "2026-11-24",
+   "src": "CISA",
+   "vendor": "Idunno AntiCsrf",
+   "vendor_name": "Idunno",
+   "product": "AntiCsrf",
+   "title": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+   "detail": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-131914"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+   "kev": true,
+   "epss": 0.0061,
+   "cvss": 9.3,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+     "source": "The Hacker News",
+     "date": "2026-11-23T09:11:56+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-132224",
+   "date": "2026-11-24",
+   "src": "CISA",
+   "vendor": "Optimizely Web Experimentation",
+   "vendor_name": "Optimizely",
+   "product": "Web Experimentation",
+   "title": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+   "detail": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer…",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-132224"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+   "kev": true,
+   "epss": 0.0041,
+   "cvss": 7.1,
+   "sev": "high"
+  },
+  {
+   "id": "CVE-2026-132165",
+   "date": "2026-11-24",
+   "src": "CISA",
+   "vendor": "Drupal Core",
+   "vendor_name": "Drupal",
+   "product": "Core",
+   "title": "Drupal Core Remote Code Execution Vulnerability",
+   "detail": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-132165"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+   "kev": true,
+   "sev": "high"
+  },
+  {
    "id": "CVE-2026-133968",
    "date": "2026-11-23",
    "src": "CISA",
@@ -17,7 +86,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
    "kev": true,
-   "epss": 0.0366,
+   "epss": 0.498,
    "cvss": 9.8,
    "sev": "critical"
   },
@@ -38,7 +107,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
    "kev": true,
-   "epss": 0.0035,
+   "epss": 0.0062,
    "cvss": 9.3,
    "sev": "critical",
    "news": [
@@ -73,7 +142,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
    "kev": true,
-   "epss": 0.0546,
+   "epss": 0.4007,
    "cvss": 9.8,
    "sev": "critical"
   },
@@ -96,7 +165,15 @@
    "kev": true,
    "epss": 0.0353,
    "cvss": 9.8,
-   "sev": "critical"
+   "sev": "critical",
+   "news": [
+    {
+     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+     "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+     "source": "The Hacker News",
+     "date": "2026-11-24T13:28:26+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-76466",
@@ -117,21 +194,7 @@
    "kev": true,
    "epss": 0.0219,
    "cvss": 9.8,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
-     "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
-     "source": "SecurityWeek",
-     "date": "2026-11-23T11:35:15+00:00"
-    },
-    {
-     "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
-     "source": "BleepingComputer",
-     "date": "2026-11-23T07:44:19+00:00"
-    }
-   ]
+   "sev": "critical"
   },
   {
    "id": "CVE-2025-42884",
@@ -152,15 +215,7 @@
    "kev": true,
    "epss": 0.009,
    "cvss": 6.5,
-   "sev": "high",
-   "news": [
-    {
-     "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
-     "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
-     "source": "SecurityWeek",
-     "date": "2026-11-23T11:35:15+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "CVE-2024-10441",
@@ -284,7 +339,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
    "kev": true,
-   "epss": 0.0115,
+   "epss": 0.0135,
    "cvss": 8.6,
    "sev": "high"
   },
@@ -679,22 +734,22 @@
    "sev": "high",
    "news": [
     {
+     "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+     "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+     "source": "BleepingComputer",
+     "date": "2026-11-24T13:34:23+00:00"
+    },
+    {
+     "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+     "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
+     "source": "SecurityWeek",
+     "date": "2026-11-24T12:20:41+00:00"
+    },
+    {
      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
      "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
      "source": "The Hacker News",
      "date": "2026-11-24T06:02:57+00:00"
-    },
-    {
-     "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
-     "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
-     "source": "SecurityWeek",
-     "date": "2026-11-23T11:35:15+00:00"
-    },
-    {
-     "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
-     "source": "BleepingComputer",
-     "date": "2026-11-23T07:44:19+00:00"
     }
    ]
   },
@@ -717,7 +772,15 @@
    "kev": true,
    "epss": 0.009,
    "cvss": 2.7,
-   "sev": "high"
+   "sev": "high",
+   "news": [
+    {
+     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+     "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+     "source": "The Hacker News",
+     "date": "2026-11-24T13:28:26+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-46300",
@@ -778,7 +841,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
    "kev": true,
-   "epss": 0.9993,
+   "epss": 0.9999,
    "cvss": 9.2,
    "sev": "critical"
   },

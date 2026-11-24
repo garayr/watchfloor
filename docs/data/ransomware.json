@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T06:56:45+00:00",
+ "generated_at": "2026-11-24T18:36:35+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 100,
@@ -10,48 +10,44 @@
   },
   {
    "name": "safepay",
-   "count": 18
+   "count": 19
   },
   {
    "name": "PixelLeaks",
-   "count": 8
+   "count": 5
   },
   {
    "name": "medusalocker",
-   "count": 6
+   "count": 5
   },
   {
    "name": "qilin",
-   "count": 4
+   "count": 5
   },
   {
    "name": "spacebears",
    "count": 4
   },
   {
-   "name": "HYFLOCK",
+   "name": "Aoqin",
    "count": 3
   },
   {
-   "name": "aurora",
+   "name": "HYFLOCK",
    "count": 3
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 14
-  },
-  {
-   "name": "Healthcare",
-   "count": 10
+   "count": 15
   },
   {
    "name": "Professional Services",
-   "count": 9
+   "count": 10
   },
   {
-   "name": "Technology",
+   "name": "Healthcare",
    "count": 9
   },
   {
@@ -59,20 +55,24 @@
    "count": 6
   },
   {
-   "name": "Agriculture and Food Production",
-   "count": 3
+   "name": "Technology",
+   "count": 6
+  },
+  {
+   "name": "Education",
+   "count": 4
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 33,
+   "count": 37,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 5,
+   "count": 6,
    "lat": 50.1,
    "lon": 8.7
   },
@@ -87,6 +87,12 @@
    "count": 4,
    "lat": 51.5,
    "lon": -0.1
+  },
+  {
+   "code": "IN",
+   "count": 4,
+   "lat": 19.1,
+   "lon": 72.9
   },
   {
    "code": "FR",
@@ -119,12 +125,6 @@
    "lon": 34.8
   },
   {
-   "code": "IN",
-   "count": 2,
-   "lat": 19.1,
-   "lon": 72.9
-  },
-  {
    "code": "IT",
    "count": 2,
    "lat": 41.9,
@@ -135,12 +135,6 @@
    "count": 2,
    "lat": 1.35,
    "lon": 103.8
-  },
-  {
-   "code": "TW",
-   "count": 2,
-   "lat": 25.0,
-   "lon": 121.5
   },
   {
    "code": "AR",
@@ -191,22 +185,10 @@
    "lon": -78.5
   },
   {
-   "code": "EG",
-   "count": 1,
-   "lat": 30.0,
-   "lon": 31.2
-  },
-  {
    "code": "HU",
    "count": 1,
    "lat": 47.5,
    "lon": 19.0
-  },
-  {
-   "code": "IE",
-   "count": 1,
-   "lat": 53.3,
-   "lon": -6.3
   },
   {
    "code": "IR",
@@ -257,16 +239,16 @@
    "lon": 26.1
   },
   {
-   "code": "SE",
-   "count": 1,
-   "lat": 59.3,
-   "lon": 18.1
-  },
-  {
    "code": "TH",
    "count": 1,
    "lat": 13.75,
    "lon": 100.5
+  },
+  {
+   "code": "TW",
+   "count": 1,
+   "lat": 25.0,
+   "lon": 121.5
   },
   {
    "code": "VE",
@@ -276,6 +258,78 @@
   }
  ],
  "victims": [
+  {
+   "victim": "fiwealth.com",
+   "group": "incransom",
+   "date": "2026-11-24T11:39:16+00:00",
+   "attack_date": "2026-11-24",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/Zml3ZWFsdGguY29tQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "Mayerhofer Hoch-, Tief- und Ingenieurbau GmbH",
+   "group": "qilin",
+   "date": "2026-11-24T08:39:50+00:00",
+   "attack_date": "2026-11-24",
+   "country": "DE",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/TWF5ZXJob2ZlciBIb2NoLSwgVGllZi0gdW5kIEluZ2VuaWV1cmJhdSBHbWJIQHFpbGlu"
+  },
+  {
+   "victim": "Coneco Engineers & Scientists",
+   "group": "Aoqin",
+   "date": "2026-11-24T07:50:30+00:00",
+   "attack_date": "2026-11-24",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/Q29uZWNvIEVuZ2luZWVycyAmIFNjaWVudGlzdHNAQW9xaW4="
+  },
+  {
+   "victim": "IIM Raipur perimeter (Indian Institute of Management)",
+   "group": "PixelLeaks",
+   "date": "2026-11-24T06:59:26+00:00",
+   "attack_date": "2026-11-24",
+   "country": "IN",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/SUlNIFJhaXB1ciBwZXJpbWV0ZXIgKEluZGlhbiBJbnN0aXR1dGUgb2YgTWFuYWdlbWVudClAUGl4ZWxMZWFrcw=="
+  },
+  {
+   "victim": "NKN Delhi PoP (National Knowledge Network / NIC / MeitY, India)",
+   "group": "PixelLeaks",
+   "date": "2026-11-24T06:59:06+00:00",
+   "attack_date": "2026-11-24",
+   "country": "IN",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/TktOIERlbGhpIFBvUCAoTmF0aW9uYWwgS25vd2xlZGdlIE5ldHdvcmsgLyBOSUMgLyBNZWl0WSwgSW5kaWEpQFBpeGVsTGVha3M="
+  },
+  {
+   "victim": "kneron.com",
+   "group": "safepay",
+   "date": "2026-11-24T06:24:21+00:00",
+   "attack_date": "2026-11-24",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/a25lcm9uLmNvbUBzYWZlcGF5"
+  },
+  {
+   "victim": "knox.edu",
+   "group": "Scarlettgroup",
+   "date": "2026-11-24T03:59:27+00:00",
+   "attack_date": "2026-11-23",
+   "country": "US",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/a25veC5lZHVAU2NhcmxldHRncm91cA=="
+  },
+  {
+   "victim": "A government website for a county in a U.S. state",
+   "group": "SoulGroup",
+   "date": "2026-11-24T02:56:45+00:00",
+   "attack_date": "2026-11-24",
+   "country": "US",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/QSBnb3Zlcm5tZW50IHdlYnNpdGUgZm9yIGEgY291bnR5IGluIGEgVS5TLiBzdGF0ZUBTb3VsR3JvdXA="
+  },
   {
    "victim": "VHV Company",
    "group": "anubis",
@@ -1060,15 +1114,6 @@
    "url": "https://www.ransomware.live/id/dGhlbWVkaWNhbC5jby5pbEBzYWZlcGF5"
   },
   {
-   "victim": "Kang Chiao International School (Linkou)",
-   "group": "osiris",
-   "date": "2026-11-21T17:23:07+00:00",
-   "attack_date": "2026-11-21",
-   "country": "TW",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/S2FuZyBDaGlhbyBJbnRlcm5hdGlvbmFsIFNjaG9vbCAoTGlua291KUBvc2lyaXM="
-  },
-  {
    "victim": "Regions Behavioral Hospital",
    "group": "incransom",
    "date": "2026-11-21T17:20:46+00:00",
@@ -1105,15 +1150,6 @@
    "url": "https://www.ransomware.live/id/RGFsbGFzIEZvcnQgV29ydGggRmVydGlsaXR5IEFzc29jaWF0ZXNAQmFycmFjdWRh"
   },
   {
-   "victim": "Realta Technologies",
-   "group": "Eclipse",
-   "date": "2026-11-21T06:51:14+00:00",
-   "attack_date": "2026-11-21",
-   "country": "IE",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/UmVhbHRhIFRlY2hub2xvZ2llc0BFY2xpcHNl"
-  },
-  {
    "victim": "Lucid Motors",
    "group": "Inception",
    "date": "2026-11-21T02:51:53+00:00",
@@ -1121,60 +1157,6 @@
    "country": "US",
    "sector": "Manufacturing",
    "url": "https://www.ransomware.live/id/THVjaWQgTW90b3JzQEluY2VwdGlvbg=="
-  },
-  {
-   "victim": "MT5 algo-trading farm (OneFunded funded account, WINSERVER)",
-   "group": "PixelLeaks",
-   "date": "2026-11-20T22:54:54+00:00",
-   "attack_date": "2026-11-20",
-   "country": null,
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/TVQ1IGFsZ28tdHJhZGluZyBmYXJtIChPbmVGdW5kZWQgZnVuZGVkIGFjY291bnQsIFdJTlNFUlZFUilAUGl4ZWxMZWFrcw=="
-  },
-  {
-   "victim": "bastion.internal domain controller (GCP, GRATEFUL-V1)",
-   "group": "PixelLeaks",
-   "date": "2026-11-20T22:54:34+00:00",
-   "attack_date": "2026-11-20",
-   "country": null,
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/YmFzdGlvbi5pbnRlcm5hbCBkb21haW4gY29udHJvbGxlciAoR0NQLCBHUkFURUZVTC1WMSlAUGl4ZWxMZWFrcw=="
-  },
-  {
-   "victim": "Aixia Group AB (Nasdaq-listed AI/IT, Sweden)",
-   "group": "PixelLeaks",
-   "date": "2026-11-20T22:54:13+00:00",
-   "attack_date": "2026-11-20",
-   "country": "SE",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/QWl4aWEgR3JvdXAgQUIgKE5hc2RhcS1saXN0ZWQgQUkvSVQsIFN3ZWRlbilAUGl4ZWxMZWFrcw=="
-  },
-  {
-   "victim": "Kingsport Cargo (logistics, Laravel intranet)",
-   "group": "PixelLeaks",
-   "date": "2026-11-20T22:53:53+00:00",
-   "attack_date": "2026-11-20",
-   "country": null,
-   "sector": "Transportation",
-   "url": "https://www.ransomware.live/id/S2luZ3Nwb3J0IENhcmdvIChsb2dpc3RpY3MsIExhcmF2ZWwgaW50cmFuZXQpQFBpeGVsTGVha3M="
-  },
-  {
-   "victim": "Arab Software Computer / ASCON (Oracle ERP hosting, Alexandria)",
-   "group": "PixelLeaks",
-   "date": "2026-11-20T22:53:33+00:00",
-   "attack_date": "2026-11-20",
-   "country": "EG",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/QXJhYiBTb2Z0d2FyZSBDb21wdXRlciAvIEFTQ09OIChPcmFjbGUgRVJQIGhvc3RpbmcsIEFsZXhhbmRyaWEpQFBpeGVsTGVha3M="
-  },
-  {
-   "victim": "Lee Memorial Health System",
-   "group": "medusalocker",
-   "date": "2026-11-20T22:35:47+00:00",
-   "attack_date": "2026-11-20",
-   "country": "US",
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/TGVlIE1lbW9yaWFsIEhlYWx0aCBTeXN0ZW1AbWVkdXNhbG9ja2Vy"
   }
  ]
 }

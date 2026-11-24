@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T06:56:45+00:00",
+ "generated_at": "2026-11-24T18:36:35+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -4702,8 +4702,8 @@
    "description": "Leaks are uploaded to QU.AX service",
    "aliases": [],
    "first_seen": "2026-10-05",
-   "last_seen": "2026-11-14",
-   "victims_total": 13,
+   "last_seen": "2026-11-24",
+   "victims_total": 15,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -4712,7 +4712,7 @@
     "countries": [
      {
       "name": "US",
-      "count": 6
+      "count": 7
      },
      {
       "name": "IN",
@@ -4720,6 +4720,10 @@
      },
      {
       "name": "CA",
+      "count": 1
+     },
+     {
+      "name": "FR",
       "count": 1
      },
      {
@@ -4734,7 +4738,11 @@
     "sectors": [
      {
       "name": "Healthcare",
-      "count": 3
+      "count": 4
+     },
+     {
+      "name": "Education",
+      "count": 2
      },
      {
       "name": "Retail & E-Commerce",
@@ -4743,10 +4751,6 @@
      {
       "name": "Technology",
       "count": 2
-     },
-     {
-      "name": "Education",
-      "count": 1
      },
      {
       "name": "Financial Services",
@@ -4805,11 +4809,11 @@
     },
     {
      "month": "2026-11",
-     "count": 4
+     "count": 6
     }
    ],
-   "history_size": 13,
-   "updated": "2026-11-15T09:41:25+00:00"
+   "history_size": 15,
+   "updated": "2026-11-24T18:36:35+00:00"
   },
   "payload": {
    "name": "payload",
@@ -7017,8 +7021,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-17",
-   "victims_total": 27,
+   "last_seen": "2026-11-24",
+   "victims_total": 44,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -7027,10 +7031,14 @@
     "countries": [
      {
       "name": "US",
-      "count": 6
+      "count": 7
      },
      {
       "name": "IN",
+      "count": 6
+     },
+     {
+      "name": "MX",
       "count": 3
      },
      {
@@ -7042,25 +7050,25 @@
       "count": 2
      },
      {
-      "name": "CH",
-      "count": 1
-     },
-     {
-      "name": "ID",
-      "count": 1
+      "name": "VN",
+      "count": 2
      }
     ],
     "sectors": [
      {
       "name": "Technology",
-      "count": 7
+      "count": 11
      },
      {
       "name": "Financial Services",
-      "count": 4
+      "count": 6
      },
      {
       "name": "Healthcare",
+      "count": 5
+     },
+     {
+      "name": "Manufacturing",
       "count": 4
      },
      {
@@ -7068,12 +7076,8 @@
       "count": 3
      },
      {
-      "name": "Energy & Utilities",
-      "count": 2
-     },
-     {
-      "name": "Manufacturing",
-      "count": 2
+      "name": "Professional Services",
+      "count": 3
      }
     ]
    },
@@ -7124,11 +7128,11 @@
     },
     {
      "month": "2026-11",
-     "count": 27
+     "count": 44
     }
    ],
-   "history_size": 27,
-   "updated": "2026-11-17T10:12:40+00:00"
+   "history_size": 44,
+   "updated": "2026-11-24T18:36:35+00:00"
   },
   "Vortex": {
    "name": "Vortex",

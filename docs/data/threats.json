@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 6188,
-  "c2_servers": 5346,
+  "total_iocs": 6429,
+  "c2_servers": 5648,
   "families": [
    {
+    "name": "ZStealer",
+    "iocs": 261,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
+   },
+   {
     "name": "Mirai",
-    "iocs": 110,
-    "c2": 8,
+    "iocs": 65,
+    "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "magecart",
-    "iocs": 92,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.magecart"
-   },
-   {
-    "name": "Unknown Loader",
-    "iocs": 72,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 58,
-    "c2": 38,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 40,
+    "iocs": 59,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Raven Stealer",
-    "iocs": 38,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
+    "name": "Unknown Loader",
+    "iocs": 58,
+    "c2": 1,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 34,
-    "c2": 34,
+    "iocs": 42,
+    "c2": 42,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "VShell",
-    "iocs": 29,
-    "c2": 7,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
+    "name": "Vidar",
+    "iocs": 39,
+    "c2": 39,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "IClickFix",
-    "iocs": 27,
+    "iocs": 19,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Agent Tesla",
-    "iocs": 24,
+    "name": "Potassium",
+    "iocs": 19,
+    "c2": 19,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
+   },
+   {
+    "name": "SNOWLIGHT",
+    "iocs": 18,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
+   },
+   {
+    "name": "PureRAT",
+    "iocs": 16,
+    "c2": 16,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
  "urls": {
-  "sample": 798,
-  "online": 477,
+  "sample": 1000,
+  "online": 617,
   "top_tags": [
    {
     "name": "elf",
-    "count": 228
+    "count": 258
    },
    {
     "name": "github",
-    "count": 216
+    "count": 255
    },
    {
     "name": "Mozi",
-    "count": 212
+    "count": 215
    },
    {
     "name": "mirai",
-    "count": 188
-   },
-   {
-    "name": "exe",
-    "count": 119
+    "count": 199
    },
    {
     "name": "SalatStealer",
-    "count": 118
+    "count": 148
+   },
+   {
+    "name": "exe",
+    "count": 140
    },
    {
     "name": "ua-wget",
-    "count": 103
+    "count": 98
    },
    {
     "name": "32-bit",
-    "count": 82
+    "count": 83
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 163079,
-   "targets": 265,
-   "sources": 4238
+   "records": 429927,
+   "targets": 300,
+   "sources": 7511
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 100032,
-   "targets": 248,
-   "sources": 8117
+   "records": 368056,
+   "targets": 299,
+   "sources": 13672
   },
   {
    "port": 2222,
    "service": null,
-   "records": 86700,
-   "targets": 240,
-   "sources": 4579
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 63994,
-   "targets": 248,
-   "sources": 2289
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 63075,
-   "targets": 243,
-   "sources": 1714
+   "records": 243302,
+   "targets": 280,
+   "sources": 6251
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 60497,
-   "targets": 274,
-   "sources": 3671
+   "records": 196272,
+   "targets": 297,
+   "sources": 8263
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 189791,
+   "targets": 279,
+   "sources": 4370
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 188270,
+   "targets": 279,
+   "sources": 3713
   },
   {
    "port": 9000,
    "service": null,
-   "records": 52486,
-   "targets": 224,
-   "sources": 1302
-  },
-  {
-   "port": 16767,
-   "service": null,
-   "records": 44703,
-   "targets": 13,
-   "sources": 2468
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 44152,
-   "targets": 236,
-   "sources": 3152
+   "records": 144967,
+   "targets": 255,
+   "sources": 2771
   },
   {
    "port": 5555,
    "service": "Android debug (ADB)",
-   "records": 39998,
-   "targets": 216,
-   "sources": 850
+   "records": 117055,
+   "targets": 269,
+   "sources": 2064
+  },
+  {
+   "port": 7547,
+   "service": "Router management (TR-069)",
+   "records": 104231,
+   "targets": 237,
+   "sources": 2267
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 91715,
+   "targets": 260,
+   "sources": 6176
   }
  ],
  "ports_date": "2026-11-24",
@@ -211,6 +211,61 @@
   }
  ],
  "pulses": [
+  {
+   "name": "An Active Intrusion Campaign Against Check Point Security Management Servers",
+   "summary": "An active intrusion campaign targeting Check Point Security Management Servers has been identified, impacting at least 22 organizations globally between October 17th and November 2nd, 2026. Tracked as GreyNoise Threat…",
+   "date": "2026-11-24T11:11:58+00:00",
+   "author": "AlienVault",
+   "adversary": "GreyNoise Threat 13",
+   "malware": [
+    "ZULT"
+   ],
+   "countries": [
+    "United States of America",
+    "Australia",
+    "Austria",
+    "British Indian Ocean Territory",
+    "Bulgaria",
+    "China"
+   ],
+   "industries": [
+    "Finance",
+    "Energy",
+    "Government",
+    "Transportation",
+    "Manufacturing"
+   ],
+   "tags": [
+    "cve-2020-1472",
+    "check point",
+    "certificate manipulation",
+    "cve-2026-98432",
+    "security management server",
+    "cve-2021-34473"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b0570fe5ce90c0db1b3cf42"
+  },
+  {
+   "name": "Python, Re-Skinned, Keeping the Steal: Braodo's Latest Python Loader and Obfuscation",
+   "summary": "Attackers have evolved the Braodo Stealer campaign to use sophisticated obfuscation techniques and GitHub-hosted payloads. The malware employs varied social-engineering lures themed around travel, medical records…",
+   "date": "2026-11-24T06:43:52+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Braodo Stealer"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "braodo stealer",
+    "telegram exfiltration",
+    "browser data harvesting",
+    "github payload delivery",
+    "social engineering",
+    "python bytecode"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b05322836d8c5aba9340d1d"
+  },
   {
    "name": "Agentic Attacks in the Wild: ARTEX & Offensive AI Frameworks",
    "summary": "Between late September and November 2026, cloud environments experienced a surge in automated intrusions driven by agentic offensive frameworks, particularly ARTEX and its variants including Cairn, CyberStrikeAI, and…",
@@ -454,68 +509,13 @@
     "shinyhunters"
    ],
    "url": "https://otx.alienvault.com/pulse/6b00d792e0f0c62062da298f"
-  },
-  {
-   "name": "An AI-Augmented Cybercrime Operation",
-   "summary": "A French-speaking operator with minimal technical skills conducted a nine-day campaign in November 2026 targeting European banks, insurers, payment providers and municipalities using a jailbroken AI agent. The operator…",
-   "date": "2026-11-20T14:26:04+00:00",
-   "author": "AlienVault",
-   "adversary": "BabidiGhost",
-   "malware": [
-    "Hermes",
-    "WinUpdSvc2"
-   ],
-   "countries": [
-    "Belgium",
-    "France",
-    "Switzerland"
-   ],
-   "industries": [
-    "Finance",
-    "Government",
-    "Healthcare"
-   ],
-   "tags": [
-    "winupdsvc2",
-    "ghosthunters",
-    "blackhatsect0r toolchain",
-    "hermes",
-    "ai-augmented attack",
-    "jailbroken ai agent"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b00587c86464de890abdca1"
-  },
-  {
-   "name": "October 2026 Infostealer Trend Report",
-   "summary": "During October 2026, multiple infostealer families including Lzveil, StealC, Remus, DarkCloud, and AgentTesla were distributed through various channels. Distribution methods included SEO poisoning, file-hosting…",
-   "date": "2026-11-20T14:18:47+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Lzveil",
-    "StealC",
-    "Remus",
-    "DarkCloud",
-    "AgentTesla"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "stealc",
-    "seo poisoning",
-    "infostealer",
-    "remus",
-    "agenttesla",
-    "darkcloud"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b0056c70ff05cc28c4f0d54"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-24T06:56:45+00:00",
-  "sans": "2026-11-24T06:56:45+00:00",
-  "otx": "2026-11-24T06:56:45+00:00",
-  "urlhaus": "2026-11-24T06:56:45+00:00"
+  "threatfox": "2026-11-24T18:36:35+00:00",
+  "sans": "2026-11-24T18:36:35+00:00",
+  "otx": "2026-11-24T18:36:35+00:00",
+  "urlhaus": "2026-11-24T18:36:35+00:00"
  },
- "generated_at": "2026-11-24T06:56:45+00:00"
+ "generated_at": "2026-11-24T18:36:35+00:00"
 }
