@@ -22,10 +22,10 @@
    "sev": "critical",
    "news": [
     {
-     "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-     "source": "The Hacker News",
-     "date": "2026-11-23T09:11:56+00:00"
+     "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+     "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+     "source": "SecurityWeek",
+     "date": "2026-11-25T09:05:13+00:00"
     }
    ]
   },
@@ -116,12 +116,6 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
      "source": "The Hacker News",
      "date": "2026-11-24T06:02:45+00:00"
-    },
-    {
-     "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-     "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
-     "source": "The Hacker News",
-     "date": "2026-11-23T12:28:09+00:00"
     }
    ]
   },
@@ -635,7 +629,15 @@
    "kev": true,
    "epss": 0.0805,
    "cvss": 8.1,
-   "sev": "high"
+   "sev": "high",
+   "news": [
+    {
+     "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+     "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+     "source": "The Hacker News",
+     "date": "2026-11-25T06:21:12+00:00"
+    }
+   ]
   },
   {
    "id": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",

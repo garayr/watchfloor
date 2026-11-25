@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1686,
-  "c2_servers": 902,
+  "total_iocs": 1698,
+  "c2_servers": 936,
   "families": [
    {
     "name": "ZStealer",
@@ -12,96 +12,96 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 63,
+    "c2": 63,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "ClearFake",
     "iocs": 62,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Unknown Loader",
-    "iocs": 45,
-    "c2": 1,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "Vidar",
-    "iocs": 43,
-    "c2": 43,
+    "iocs": 51,
+    "c2": 51,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 36,
-    "c2": 36,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "IClickFix",
-    "iocs": 32,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "Unknown Stealer",
-    "iocs": 30,
-    "c2": 25,
+    "iocs": 31,
+    "c2": 27,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
    },
    {
     "name": "Mirai",
-    "iocs": 22,
-    "c2": 3,
+    "iocs": 28,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
+    "name": "IClickFix",
+    "iocs": 27,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
+   },
+   {
+    "name": "PureRAT",
+    "iocs": 21,
+    "c2": 21,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
+   },
+   {
     "name": "SNOWLIGHT",
-    "iocs": 22,
+    "iocs": 21,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
    },
    {
-    "name": "Remcos",
-    "iocs": 21,
-    "c2": 10,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
+    "name": "Unknown Loader",
+    "iocs": 19,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    }
   ]
  },
  "urls": {
-  "sample": 662,
-  "online": 452,
+  "sample": 894,
+  "online": 568,
   "top_tags": [
    {
-    "name": "github",
-    "count": 174
+    "name": "Mozi",
+    "count": 219
    },
    {
-    "name": "Mozi",
-    "count": 161
+    "name": "github",
+    "count": 210
+   },
+   {
+    "name": "elf",
+    "count": 172
    },
    {
     "name": "SalatStealer",
     "count": 138
    },
    {
-    "name": "elf",
-    "count": 132
+    "name": "mirai",
+    "count": 130
    },
    {
     "name": "exe",
     "count": 120
    },
    {
-    "name": "mirai",
-    "count": 85
-   },
-   {
     "name": "32-bit",
-    "count": 52
+    "count": 71
    },
    {
     "name": "RemcosRAT",
-    "count": 47
+    "count": 55
    }
   ]
  },
@@ -109,75 +109,75 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 429927,
-   "targets": 300,
-   "sources": 7511
+   "records": 264846,
+   "targets": 295,
+   "sources": 6572
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 368056,
-   "targets": 299,
-   "sources": 13672
+   "records": 154871,
+   "targets": 272,
+   "sources": 12249
   },
   {
    "port": 2222,
    "service": null,
-   "records": 243302,
-   "targets": 280,
-   "sources": 6251
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 196272,
-   "targets": 297,
-   "sources": 8263
+   "records": 112420,
+   "targets": 274,
+   "sources": 4036
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 189791,
-   "targets": 279,
-   "sources": 4370
+   "records": 111311,
+   "targets": 278,
+   "sources": 3814
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 106085,
+   "targets": 284,
+   "sources": 6140
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 188270,
-   "targets": 279,
-   "sources": 3713
+   "records": 97263,
+   "targets": 271,
+   "sources": 2927
   },
   {
    "port": 9000,
    "service": null,
-   "records": 144967,
-   "targets": 255,
-   "sources": 2771
-  },
-  {
-   "port": 5555,
-   "service": "Android debug (ADB)",
-   "records": 117055,
-   "targets": 269,
-   "sources": 2064
-  },
-  {
-   "port": 7547,
-   "service": "Router management (TR-069)",
-   "records": 104231,
-   "targets": 237,
-   "sources": 2267
+   "records": 81799,
+   "targets": 249,
+   "sources": 2033
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 91715,
-   "targets": 260,
-   "sources": 6176
+   "records": 72426,
+   "targets": 256,
+   "sources": 5270
+  },
+  {
+   "port": 16767,
+   "service": null,
+   "records": 64079,
+   "targets": 36,
+   "sources": 3467
+  },
+  {
+   "port": 7547,
+   "service": "Router management (TR-069)",
+   "records": 60669,
+   "targets": 218,
+   "sources": 1616
   }
  ],
- "ports_date": "2026-11-24",
+ "ports_date": "2026-11-25",
  "diary": [
   {
    "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
@@ -211,6 +211,125 @@
   }
  ],
  "pulses": [
+  {
+   "name": "IkonRAT: A Poisoned Update in the Supply Chain Compromise",
+   "summary": "In November 2026, a software supply chain compromise affected a legitimate business application used within the automotive industry. Threat actors inserted 6,438 bytes of malicious JavaScript into server.bundle.js, a…",
+   "date": "2026-11-25T05:40:40+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "IkonRAT"
+   ],
+   "countries": [],
+   "industries": [
+    "Automotive"
+   ],
+   "tags": [
+    "ikonrat",
+    "uac bypass",
+    "credential theft",
+    "registry hive extraction",
+    "automotive industry",
+    "command and control"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b0674d8bd3e94833f81b5f4"
+  },
+  {
+   "name": "Chaos Ransomware Profile: Tactics, Targets, and Indicators",
+   "summary": "Active since 2025, Chaos operates as a financially motivated ransomware-as-a-service group utilizing an affiliate model. Affiliates employ social engineering techniques, particularly spam campaigns and voice phishing…",
+   "date": "2026-11-24T20:33:57+00:00",
+   "author": "AlienVault",
+   "adversary": "chaos",
+   "malware": [
+    "Chaos - S0220"
+   ],
+   "countries": [
+    "United States of America"
+   ],
+   "industries": [],
+   "tags": [
+    "vishing",
+    "affiliate model",
+    "chaos",
+    "it support impersonation",
+    "social engineering",
+    "ddos extortion"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b05f4b567c7668826d406d8"
+  },
+  {
+   "name": "13 Malicious NuGet Packages Target.NET Developers With Fake Job Assessments",
+   "summary": "Thirteen malicious NuGet packages were discovered targeting Windows.NET developers through fake job assessment projects. The operation began on npm in July 2024 and uses WinUI 3 and WPF button controls as lures. The…",
+   "date": "2026-11-24T16:00:41+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Technology"
+   ],
+   "tags": [
+    "github-c2",
+    "dll-side-loading",
+    "nuget-packages",
+    "fake-job-assessment",
+    "credential-theft",
+    "msbuild-abuse"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b05b4a9fc9275b1ea55209b"
+  },
+  {
+   "name": "Recent Trends and Tactics of Agentic AI Attacks",
+   "summary": "Attackers are deploying autonomous AI agents in real-world campaigns, operating at machine speed and compressing attack lifecycles from weeks into hours. Between July and September 2026, over 10 global campaigns were…",
+   "date": "2026-11-24T16:00:37+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Government",
+    "Hospitality",
+    "Manufacturing",
+    "Agriculture",
+    "Education"
+   ],
+   "tags": [
+    "privilege escalation",
+    "edr evasion",
+    "cloud compromise",
+    "web shells",
+    "cve-2026-31431",
+    "cross-platform attacks"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b05b4a5dd58cdb3c3b8dc64"
+  },
+  {
+   "name": "ARTEX leads to persistent ZQAgent backdoor",
+   "summary": "NVISO has observed an increase in intrusions leveraging adversary LLM tools such as ARTEX. These LLM-driven attacks typically excel at exploitation and credential abuse, maintaining relatively consistent attack-chains…",
+   "date": "2026-11-24T15:34:41+00:00",
+   "author": "AlienVault",
+   "adversary": "FOG0003",
+   "malware": [
+    "ARTEX",
+    "ZQAgent"
+   ],
+   "countries": [
+    "Belgium",
+    "Taiwan"
+   ],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "persistence",
+    "taiwan",
+    "zqagent",
+    "process spoofing",
+    "backdoor",
+    "human-rights organizations"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b05ae911562fdd4bba9179d"
+  },
   {
    "name": "An Active Intrusion Campaign Against Check Point Security Management Servers",
    "summary": "An active intrusion campaign targeting Check Point Security Management Servers has been identified, impacting at least 22 organizations globally between October 17th and November 2nd, 2026. Tracked as GreyNoise Threat…",
@@ -391,131 +510,13 @@
     "multi-stage infection"
    ],
    "url": "https://otx.alienvault.com/pulse/6b046f701baf56a1277f3d3b"
-  },
-  {
-   "name": "Lost in relocation: analysis of a new loader distributing CASTLESTEALER",
-   "summary": "A previously undocumented Windows loader tracked as OXLOADER delivers the CASTLESTEALER infostealer through malicious Google Ads campaigns. The loader employs sophisticated evasion techniques including control-flow…",
-   "date": "2026-11-23T12:20:29+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "OXLOADER",
-    "CASTLESTEALER",
-    "DonutLoader"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "malvertising",
-    "google ads",
-    "oxloader",
-    "infostealer",
-    "donutloader",
-    "castlestealer"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b042f8d0739278a44479afb"
-  },
-  {
-   "name": "CLoader Bot Campaign Targets Thai Organizations Through LuaJIT-Based Malware Delivery",
-   "summary": "A sophisticated campaign targeting organizations and individuals in Thailand has been identified, utilizing spear-phishing emails to deliver CLoader bot malware through a multi-stage infection chain. The attack begins…",
-   "date": "2026-11-23T12:10:58+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "CLoader"
-   ],
-   "countries": [
-    "Thailand"
-   ],
-   "industries": [],
-   "tags": [
-    "luajit",
-    "spear-phishing",
-    "cloader"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b042d52d8920a5e4eaa9722"
-  },
-  {
-   "name": "Rotating Storefronts: Inside a Fake-Shop Network Gearing Up for Black Friday 2026",
-   "summary": "A sophisticated fake-shop operation has been identified preparing for Black Friday 2026, utilizing a Chinese-developed SaaS store builder platform called oemcart. The network operates 4,660 domains, with 3,415 observed…",
-   "date": "2026-11-23T07:53:02+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "Austria",
-    "Czechia",
-    "Germany",
-    "Greece",
-    "Hungary"
-   ],
-   "industries": [
-    "Retail"
-   ],
-   "tags": [
-    "phishing",
-    "domain rotation",
-    "fake-shop",
-    "oemcart",
-    "brand impersonation",
-    "black friday"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b03f0de3b5ed21d7846ec1e"
-  },
-  {
-   "name": "Inside a Gentlemen Ransomware-Linked Intrusion",
-   "summary": "A deception alert revealed a multi-week intrusion initiated through compromised credentials on an internet-facing Citrix VDI environment lacking MFA enforcement. The threat actor, whose credentials appeared in…",
-   "date": "2026-11-21T03:49:50+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "citrix vdi",
-    "stealer-log",
-    "sftp exfiltration",
-    "domain admin compromise"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b0114de9281959005e481a4"
-  },
-  {
-   "name": "Dialing for Data: Inside the Com's High-Profile Heists",
-   "summary": "Multiple threat actors affiliated with Com have conducted persistent vishing campaigns targeting data-rich organizations since August 2026, leading to data theft and extortion attempts. The operations primarily focused…",
-   "date": "2026-11-20T23:28:18+00:00",
-   "author": "AlienVault",
-   "adversary": "Bling Libra",
-   "malware": [],
-   "countries": [
-    "United States of America",
-    "Australia",
-    "United Kingdom of Great Britain and Northern Ireland"
-   ],
-   "industries": [
-    "Finance",
-    "Healthcare",
-    "Technology",
-    "Legal Services",
-    "Construction",
-    "Transportation"
-   ],
-   "tags": [
-    "browser extensions",
-    "cloud compromise",
-    "aitm phishing",
-    "vishing",
-    "social engineering",
-    "shinyhunters"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b00d792e0f0c62062da298f"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-25T02:46:54+00:00",
-  "sans": "2026-11-25T02:46:54+00:00",
-  "otx": "2026-11-25T02:46:54+00:00",
-  "urlhaus": "2026-11-25T02:46:54+00:00"
+  "threatfox": "2026-11-25T11:56:38+00:00",
+  "sans": "2026-11-25T11:56:38+00:00",
+  "otx": "2026-11-25T11:56:38+00:00",
+  "urlhaus": "2026-11-25T11:56:38+00:00"
  },
- "generated_at": "2026-11-25T02:46:54+00:00"
+ "generated_at": "2026-11-25T11:56:38+00:00"
 }
