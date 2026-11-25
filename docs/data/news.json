@@ -18,14 +18,6 @@
      "date": "2026-11-24T16:30:19+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
-     "summary": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over 7.3 million visits each year. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-24T15:10:10+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
@@ -89,30 +81,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
-     "summary": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October. The post European Commission Uncovers Data Breach in Cyberattack Investigation…",
-     "source": "SecurityWeek",
-     "date": "2026-11-24T14:49:59+00:00",
-     "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
-     "summary": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries. The post Check Point Security Management Servers Hacked in AI-Assisted Campaign appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-24T14:21:56+00:00",
-     "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "McDonald's Japan data breach exposes customer location information",
-     "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-24T14:09:37+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
      "summary": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The…",
      "source": "The Hacker News",
@@ -125,6 +93,54 @@
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and…",
+     "source": "BleepingComputer",
+     "date": "2026-11-25T16:13:40+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2023-25915",
+      "CVE-2025-41450",
+      "CVE-2023-25914"
+     ]
+    },
+    {
+     "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+     "summary": "Attackers are probing GeoServer instances for two high-severity flaws that can be chained with other bugs for unauthenticated RCE. The post Two Newly Disclosed GeoServer Vulnerabilities Under Attack appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-25T15:27:36+00:00",
+     "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+     "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than…",
+     "source": "BleepingComputer",
+     "date": "2026-11-25T15:00:00+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+     "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -…",
+     "source": "The Hacker News",
+     "date": "2026-11-25T12:48:54+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by…",
+     "source": "The Hacker News",
+     "date": "2026-11-25T11:23:26+00:00",
+     "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-132165"
+     ]
+    },
     {
      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
      "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
@@ -193,25 +209,6 @@
      "group": "Exploited right now"
     },
     {
-     "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
-     "summary": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container…",
-     "source": "BleepingComputer",
-     "date": "2026-11-24T15:01:11+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
-     "summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without…",
-     "source": "BleepingComputer",
-     "date": "2026-11-24T13:34:23+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-76418"
-     ]
-    },
-    {
      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
      "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The…",
      "source": "The Hacker News",
@@ -224,53 +221,12 @@
      ]
     },
     {
-     "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
-     "summary": "OpenAI and Cisco’s Shirudo uses AI-generated shields to block Linux exploits while patches are prepared, but it’s not yet production-ready. The post OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux…",
-     "source": "SecurityWeek",
-     "date": "2026-11-24T12:20:41+00:00",
-     "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-76418"
-     ]
-    },
-    {
      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
      "summary": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy…",
      "source": "The Hacker News",
      "date": "2026-11-24T10:44:49+00:00",
      "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
      "group": "Exploited right now"
-    },
-    {
-     "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
-     "summary": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password…",
-     "source": "The Hacker News",
-     "date": "2026-11-24T08:34:20+00:00",
-     "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
-     "summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write…",
-     "source": "The Hacker News",
-     "date": "2026-11-24T06:02:57+00:00",
-     "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-76418"
-     ]
-    },
-    {
-     "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active…",
-     "source": "The Hacker News",
-     "date": "2026-11-24T06:02:45+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-134624"
-     ]
     }
    ]
   },
@@ -310,6 +266,62 @@
    "group": "Other news",
    "items": [
     {
+     "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+     "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-25T19:39:31+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+     "group": "Other news"
+    },
+    {
+     "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+     "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more…",
+     "source": "BleepingComputer",
+     "date": "2026-11-25T15:00:10+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+     "group": "Other news"
+    },
+    {
+     "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
+     "summary": "An account tied to ShinyHunters announced the group’s return, as Okta spots possible links between Inception and ShinyHunters hackers. The post ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties…",
+     "source": "SecurityWeek",
+     "date": "2026-11-25T14:15:25+00:00",
+     "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+     "group": "Other news"
+    },
+    {
+     "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
+     "summary": "FinCEN has extended deadlines for filers affected by the disruptions while it is investigating the incident. The post US Treasury’s FinCEN Disconnects Systems Following Cyber Incident appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-25T13:39:21+00:00",
+     "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+     "group": "Other news"
+    },
+    {
+     "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
+     "summary": "Matthew Martin is Chief Information Security and Privacy Officer at Western Carolina University. The post Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-25T13:30:00+00:00",
+     "url": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
+     "group": "Other news"
+    },
+    {
+     "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+     "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on…",
+     "source": "The Hacker News",
+     "date": "2026-11-25T12:30:08+00:00",
+     "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+     "group": "Other news"
+    },
+    {
+     "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+     "summary": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will…",
+     "source": "The Hacker News",
+     "date": "2026-11-25T11:51:48+00:00",
+     "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+     "group": "Other news"
+    },
+    {
      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
      "summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
      "source": "BleepingComputer",
@@ -334,14 +346,6 @@
      "group": "Other news"
     },
     {
-     "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
-     "summary": "EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud. The post Anthropic Expands Enterprise Safeguards for Detecting AI Misuse appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-24T13:30:23+00:00",
-     "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
-     "group": "Other news"
-    },
-    {
      "title": "Google Researcher Shows How a Single Bit Change in.NET Files Bypassed Windows Code Integrity",
      "summary": "A quirk in how the.NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up…",
      "source": "The Hacker News",
@@ -355,14 +359,6 @@
      "source": "The Hacker News",
      "date": "2026-11-24T12:01:54+00:00",
      "url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-     "summary": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as…",
-     "source": "The Hacker News",
-     "date": "2026-11-23T17:45:15+00:00",
-     "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
      "group": "Other news"
     }
    ]

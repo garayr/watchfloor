@@ -68,113 +68,113 @@
   ]
  },
  "urls": {
-  "sample": 894,
-  "online": 568,
+  "sample": 1000,
+  "online": 585,
   "top_tags": [
    {
     "name": "Mozi",
-    "count": 219
+    "count": 236
    },
    {
     "name": "github",
-    "count": 210
+    "count": 212
    },
    {
     "name": "elf",
     "count": 172
    },
    {
+    "name": "mirai",
+    "count": 149
+   },
+   {
     "name": "SalatStealer",
     "count": 138
    },
    {
-    "name": "mirai",
-    "count": 130
-   },
-   {
     "name": "exe",
-    "count": 120
-   },
-   {
-    "name": "32-bit",
-    "count": 71
+    "count": 123
    },
    {
     "name": "RemcosRAT",
-    "count": 55
+    "count": 85
+   },
+   {
+    "name": "rat",
+    "count": 76
    }
   ]
  },
  "ports": [
   {
-   "port": 22,
-   "service": "SSH",
-   "records": 264846,
-   "targets": 295,
-   "sources": 6572
-  },
-  {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 154871,
-   "targets": 272,
-   "sources": 12249
+   "records": 708367,
+   "targets": 336,
+   "sources": 20033
   },
   {
-   "port": 2222,
-   "service": null,
-   "records": 112420,
-   "targets": 274,
-   "sources": 4036
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 111311,
-   "targets": 278,
-   "sources": 3814
+   "port": 22,
+   "service": "SSH",
+   "records": 503426,
+   "targets": 301,
+   "sources": 9917
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 106085,
-   "targets": 284,
-   "sources": 6140
+   "records": 215428,
+   "targets": 290,
+   "sources": 10078
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 210895,
+   "targets": 286,
+   "sources": 5662
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 186981,
+   "targets": 286,
+   "sources": 5705
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 97263,
-   "targets": 271,
-   "sources": 2927
-  },
-  {
-   "port": 9000,
-   "service": null,
-   "records": 81799,
-   "targets": 249,
-   "sources": 2033
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 72426,
-   "targets": 256,
-   "sources": 5270
+   "records": 167184,
+   "targets": 284,
+   "sources": 4772
   },
   {
    "port": 16767,
    "service": null,
-   "records": 64079,
-   "targets": 36,
-   "sources": 3467
+   "records": 154314,
+   "targets": 171,
+   "sources": 5161
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 142553,
+   "targets": 273,
+   "sources": 8410
+  },
+  {
+   "port": 9000,
+   "service": null,
+   "records": 135014,
+   "targets": 267,
+   "sources": 3462
   },
   {
    "port": 7547,
    "service": "Router management (TR-069)",
-   "records": 60669,
-   "targets": 218,
-   "sources": 1616
+   "records": 99227,
+   "targets": 235,
+   "sources": 2631
   }
  ],
  "ports_date": "2026-11-25",
@@ -211,6 +211,75 @@
   }
  ],
  "pulses": [
+  {
+   "name": "ShinyHunters-Associated Vishing Group Linked to New INCEPTION Data Leak Site",
+   "summary": "A threat cluster designated O-UNC-053, previously linked to the ShinyHunters extortion crew, appears to have rebranded under the name INCEPTION. The group conducts voice phishing attacks to harvest credentials and…",
+   "date": "2026-11-25T12:16:16+00:00",
+   "author": "AlienVault",
+   "adversary": "O-UNC-053",
+   "malware": [],
+   "countries": [],
+   "industries": [
+    "Technology",
+    "Healthcare",
+    "Finance",
+    "Entertainment",
+    "Retail",
+    "Transportation"
+   ],
+   "tags": [
+    "account takeover",
+    "shinyhunters",
+    "inception",
+    "credential harvesting",
+    "data leak site",
+    "social engineering"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b06d19082ce9f6140be59eb"
+  },
+  {
+   "name": "Vinci RAT Delivered Through a Malicious Microsoft Store App",
+   "summary": "In early November 2026, investigators discovered an intrusion initiated through redirection to a fake snipping tool website, leading to installation of a malicious application called Setup Assistant from the Microsoft…",
+   "date": "2026-11-25T10:08:43+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Vinci RAT",
+    "Setup Assistant"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "powershell rat",
+    "setup assistant",
+    "electron backdoor",
+    "fake download pages",
+    "microsoft store abuse",
+    "search-engine redirection"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b06b3aba5af3b81ce75b529"
+  },
+  {
+   "name": "Exposing the Gmail \"Zero-Day\" Behind Remus Stealer's Email Interception Feature",
+   "summary": "Developers of Remus Stealer promoted a new Gmail interception feature on November 8, 2026, claiming it exploited a zero-day vulnerability allowing mailbox access independent of stolen cookies, even after password…",
+   "date": "2026-11-25T10:08:43+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Remus Stealer"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "email exfiltration",
+    "browser manipulation",
+    "credential theft",
+    "gmail interception",
+    "stealer campaign",
+    "malicious chrome extension"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b06b3ab67d3d88fe8c63eb4"
+  },
   {
    "name": "IkonRAT: A Poisoned Update in the Supply Chain Compromise",
    "summary": "In November 2026, a software supply chain compromise affected a legitimate business application used within the automotive industry. Threat actors inserted 6,438 bytes of malicious JavaScript into server.bundle.js, a…",
@@ -256,6 +325,35 @@
     "ddos extortion"
    ],
    "url": "https://otx.alienvault.com/pulse/6b05f4b567c7668826d406d8"
+  },
+  {
+   "name": "Volant Manticore: Flying Under the Radar",
+   "summary": "An Iran-nexus threat group named Volant Manticore has been conducting espionage operations since at least September 2025, with links to the Ministry of Intelligence and Security (MOIS). The group shares tooling and…",
+   "date": "2026-11-24T16:03:11+00:00",
+   "author": "AlienVault",
+   "adversary": "Volant Manticore",
+   "malware": [
+    "KuboShell",
+    "Homa Framework",
+    "MuddyC2Go",
+    "PhonyC2",
+    "DarkBeatC2"
+   ],
+   "countries": [],
+   "industries": [
+    "Telecommunications",
+    "Transportation",
+    "Healthcare"
+   ],
+   "tags": [
+    "kuboshell",
+    "mois",
+    "muddyc2go",
+    "healthcare sector",
+    "phishing campaigns",
+    "ipfs"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b05b53f25f012a58e23b63c"
   },
   {
    "name": "13 Malicious NuGet Packages Target.NET Developers With Fake Job Assessments",
@@ -410,113 +508,13 @@
     "hexstrike"
    ],
    "url": "https://otx.alienvault.com/pulse/6b047274d961f9811fa48f1c"
-  },
-  {
-   "name": "RevStealer Malware: A Hidden Data Heist Behind the Promise of Free AI",
-   "summary": "RevStealer is an infostealer first identified in September 2026 targeting Windows systems through trojanized Electron applications disguised as legitimate software, particularly a fake Claude Opus 5 Free Desktop lure…",
-   "date": "2026-11-23T16:58:10+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "RevStealer"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "fake ai application",
-    "blockchain c2",
-    "revstealer"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b0470a2fa16d437c0e84abf"
-  },
-  {
-   "name": "MoldyRoost: A Malvertising Machine Built to Deliver iOS Exploits",
-   "summary": "MoldyRoost represents a large-scale malvertising operation delivering nation-state-grade iPhone exploit chains through programmatic advertising. Between May and November 2026, over 480 ad domains across six sub-clusters…",
-   "date": "2026-11-23T16:57:44+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Coruna",
-    "DarkSword",
-    "SilkPath",
-    "GhostWave"
-   ],
-   "countries": [
-    "United States of America",
-    "Australia",
-    "Austria",
-    "British Indian Ocean Territory",
-    "Canada",
-    "France"
-   ],
-   "industries": [],
-   "tags": [
-    "moldyroost",
-    "malvertising",
-    "darksword",
-    "ghostwave",
-    "coruna"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b0470884a0f9cab17aa31ff"
-  },
-  {
-   "name": "Vmcloudoor: a stealthy backdoor targeting the Chinese cloud",
-   "summary": "A sophisticated Linux implant called Vmcloudoor has been discovered targeting virtual machines hosted on Chinese cloud platforms, specifically Alibaba, Tencent, and Huawei. The backdoor disguises itself by mimicking…",
-   "date": "2026-11-23T16:54:59+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Vmcloudoor"
-   ],
-   "countries": [
-    "China"
-   ],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "tencent",
-    "linux backdoor",
-    "alibaba cloud",
-    "vmcloudoor"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b046fe32e04752522fe3aed"
-  },
-  {
-   "name": "From Phishing Email to Azalea Agent: Uncovering a Multi-Stage Attack on Ukrainian Government Bodies",
-   "summary": "A sophisticated spear-phishing campaign targeted Ukrainian government bodies in October 2026, using a fraudulent email about financial assistance for military unit A1836. The attack employed a RAR archive containing a…",
-   "date": "2026-11-23T16:53:04+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Azalea Agent",
-    "HIODropper",
-    "StageLoader",
-    "NativeLoader"
-   ],
-   "countries": [
-    "Ukraine"
-   ],
-   "industries": [
-    "Government",
-    "Defense"
-   ],
-   "tags": [
-    "azalea agent",
-    "stageloader",
-    "nativeloader",
-    "maas",
-    "spear-phishing",
-    "multi-stage infection"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b046f701baf56a1277f3d3b"
   }
  ],
  "updated": {
   "threatfox": "2026-11-25T11:56:38+00:00",
-  "sans": "2026-11-25T11:56:38+00:00",
-  "otx": "2026-11-25T11:56:38+00:00",
-  "urlhaus": "2026-11-25T11:56:38+00:00"
+  "sans": "2026-11-25T21:00:09+00:00",
+  "otx": "2026-11-25T21:00:09+00:00",
+  "urlhaus": "2026-11-25T21:00:09+00:00"
  },
- "generated_at": "2026-11-25T11:56:38+00:00"
+ "generated_at": "2026-11-25T21:00:09+00:00"
 }

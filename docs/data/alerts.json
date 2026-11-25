@@ -1,6 +1,240 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-103406",
+   "date": "2026-11-25",
+   "src": "CISA",
+   "vendor": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router",
+   "vendor_name": "Hewlett Packard Enterprise (HPE)",
+   "product": "Juniper Session Smart Conductor and Session Smart Router",
+   "title": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+   "detail": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-28",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-103406"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+   "kev": true,
+   "epss": 0.0086,
+   "cvss": 9.8,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-133469",
+   "date": "2026-11-25",
+   "src": "CISA",
+   "vendor": "Vates Xen Orchestra",
+   "vendor_name": "Vates",
+   "product": "Xen Orchestra",
+   "title": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+   "detail": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-28",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-133469"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
+   "kev": true,
+   "epss": 0.011,
+   "cvss": 9.8,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2023-25915",
+   "date": "2026-11-25",
+   "src": "CISA",
+   "vendor": "Danfoss AK-SM 800A Series",
+   "vendor_name": "Danfoss",
+   "product": "AK-SM 800A Series",
+   "title": "Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+   "detail": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-28",
+   "ransomware": false,
+   "cves": [
+    "CVE-2023-25915"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915",
+   "kev": true,
+   "epss": 0.0143,
+   "cvss": 9.9,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+     "source": "BleepingComputer",
+     "date": "2026-11-25T16:13:40+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-133303",
+   "date": "2026-11-25",
+   "src": "CISA",
+   "vendor": "Mitel MiCollab",
+   "vendor_name": "Mitel",
+   "product": "MiCollab",
+   "title": "Mitel MiCollab XML Injection Vulnerability",
+   "detail": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-28",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-133303"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+   "kev": true,
+   "epss": 0.0052,
+   "cvss": 9.0,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-133323",
+   "date": "2026-11-25",
+   "src": "CISA",
+   "vendor": "Mitel MiCollab",
+   "vendor_name": "Mitel",
+   "product": "MiCollab",
+   "title": "Mitel MiCollab OS Command Injection Vulnerability",
+   "detail": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-28",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-133323"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+   "kev": true,
+   "epss": 0.0255,
+   "cvss": 10.0,
+   "sev": "critical"
+  },
+  {
+   "id": "CVE-2025-41450",
+   "date": "2026-11-25",
+   "src": "CISA",
+   "vendor": "Danfoss AK-SM 800A Series",
+   "vendor_name": "Danfoss",
+   "product": "AK-SM 800A Series",
+   "title": "Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+   "detail": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-12-09",
+   "ransomware": false,
+   "cves": [
+    "CVE-2025-41450"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
+   "kev": true,
+   "epss": 0.0051,
+   "cvss": 8.2,
+   "sev": "high",
+   "news": [
+    {
+     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+     "source": "BleepingComputer",
+     "date": "2026-11-25T16:13:40+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2023-25914",
+   "date": "2026-11-25",
+   "src": "CISA",
+   "vendor": "Danfoss AK-SM 800A Series",
+   "vendor_name": "Danfoss",
+   "product": "AK-SM 800A Series",
+   "title": "Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+   "detail": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-28",
+   "ransomware": false,
+   "cves": [
+    "CVE-2023-25914"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
+   "kev": true,
+   "epss": 0.0108,
+   "cvss": 8.8,
+   "sev": "high",
+   "news": [
+    {
+     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+     "source": "BleepingComputer",
+     "date": "2026-11-25T16:13:40+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-133324",
+   "date": "2026-11-25",
+   "src": "CISA",
+   "vendor": "Mitel MiCollab",
+   "vendor_name": "Mitel",
+   "product": "MiCollab",
+   "title": "Mitel MiCollab Not Failing Securely Vulnerability",
+   "detail": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-28",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-133324"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324",
+   "kev": true,
+   "epss": 0.0041,
+   "cvss": 5.3,
+   "sev": "high"
+  },
+  {
+   "id": "CVE-2026-133275",
+   "date": "2026-11-25",
+   "src": "CISA",
+   "vendor": "Mitel MiCollab",
+   "vendor_name": "Mitel",
+   "product": "MiCollab",
+   "title": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+   "detail": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-28",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-133275"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
+   "kev": true,
+   "epss": 0.0032,
+   "cvss": 5.3,
+   "sev": "high"
+  },
+  {
+   "id": "CVE-2026-133311",
+   "date": "2026-11-25",
+   "src": "CISA",
+   "vendor": "Mitel MiCollab",
+   "vendor_name": "Mitel",
+   "product": "MiCollab",
+   "title": "Mitel MiCollab Weak Authentication Vulnerability",
+   "detail": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-12-09",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-133311"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311",
+   "kev": true,
+   "epss": 0.004,
+   "cvss": 5.9,
+   "sev": "high"
+  },
+  {
    "id": "CVE-2026-131914",
    "date": "2026-11-24",
    "src": "CISA",
@@ -17,7 +251,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
    "kev": true,
-   "epss": 0.0061,
+   "epss": 0.0429,
    "cvss": 9.3,
    "sev": "critical",
    "news": [
@@ -46,7 +280,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
    "kev": true,
-   "epss": 0.0041,
+   "epss": 0.0078,
    "cvss": 7.1,
    "sev": "high"
   },
@@ -67,7 +301,15 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
    "kev": true,
-   "sev": "high"
+   "sev": "high",
+   "news": [
+    {
+     "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+     "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+     "source": "The Hacker News",
+     "date": "2026-11-25T11:23:26+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-133968",
@@ -86,7 +328,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
    "kev": true,
-   "epss": 0.498,
+   "epss": 0.2716,
    "cvss": 9.8,
    "sev": "critical"
   },
@@ -107,17 +349,9 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
    "kev": true,
-   "epss": 0.0062,
+   "epss": 0.0179,
    "cvss": 9.3,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
-     "source": "The Hacker News",
-     "date": "2026-11-24T06:02:45+00:00"
-    }
-   ]
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-129448",
@@ -136,7 +370,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
    "kev": true,
-   "epss": 0.4007,
+   "epss": 0.2416,
    "cvss": 9.8,
    "sev": "critical"
   },
@@ -157,7 +391,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
    "kev": true,
-   "epss": 0.0353,
+   "epss": 0.0501,
    "cvss": 9.8,
    "sev": "critical",
    "news": [
@@ -186,7 +420,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
    "kev": true,
-   "epss": 0.0219,
+   "epss": 0.0112,
    "cvss": 9.8,
    "sev": "critical"
   },
@@ -207,7 +441,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
    "kev": true,
-   "epss": 0.009,
+   "epss": 0.011,
    "cvss": 6.5,
    "sev": "high"
   },
@@ -228,29 +462,8 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
    "kev": true,
-   "epss": 0.0313,
+   "epss": 0.0276,
    "cvss": 9.8,
-   "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-40217",
-   "date": "2026-11-18",
-   "src": "CISA",
-   "vendor": "BerriAI LiteLLM",
-   "vendor_name": "BerriAI",
-   "product": "LiteLLM",
-   "title": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-   "detail": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-12-02",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-40217"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
-   "kev": true,
-   "epss": 0.828,
-   "cvss": 8.8,
    "sev": "critical"
   },
   {
@@ -270,7 +483,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
    "kev": true,
-   "epss": 0.3433,
+   "epss": 0.1888,
    "cvss": 9.8,
    "sev": "critical"
   },
@@ -291,9 +504,30 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
    "kev": true,
-   "epss": 0.0587,
+   "epss": 0.027,
    "cvss": 9.8,
    "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-40217",
+   "date": "2026-11-18",
+   "src": "CISA",
+   "vendor": "BerriAI LiteLLM",
+   "vendor_name": "BerriAI",
+   "product": "LiteLLM",
+   "title": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+   "detail": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-12-02",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-40217"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
+   "kev": true,
+   "epss": 0.2021,
+   "cvss": 8.8,
+   "sev": "high"
   },
   {
    "id": "CVE-2026-115731",
@@ -312,7 +546,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
    "kev": true,
-   "epss": 0.1284,
+   "epss": 0.1258,
    "cvss": 9.4,
    "sev": "critical"
   },
@@ -354,30 +588,9 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
    "kev": true,
-   "epss": 0.0327,
+   "epss": 0.0023,
    "cvss": 7.8,
    "sev": "high"
-  },
-  {
-   "id": "CVE-2026-111560",
-   "date": "2026-11-10",
-   "src": "CISA",
-   "vendor": "Barracuda Networks Multiple Products",
-   "vendor_name": "Barracuda Networks",
-   "product": "Multiple Products",
-   "title": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-   "detail": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted…",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-11-13",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-111560"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
-   "kev": true,
-   "epss": 0.6377,
-   "cvss": 8.6,
-   "sev": "critical"
   },
   {
    "id": "CVE-2026-116606",
@@ -396,7 +609,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
    "kev": true,
-   "epss": 0.7452,
+   "epss": 0.138,
    "cvss": 9.3,
    "sev": "critical"
   },
@@ -417,7 +630,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
    "kev": true,
-   "epss": 0.2489,
+   "epss": 0.0104,
    "cvss": 6.5,
    "sev": "high"
   },
@@ -438,7 +651,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
    "kev": true,
-   "epss": 0.0117,
+   "epss": 0.0098,
    "cvss": 4.3,
    "sev": "high"
   },
@@ -459,8 +672,29 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
    "kev": true,
-   "epss": 0.0168,
+   "epss": 0.013,
    "cvss": 7.5,
+   "sev": "high"
+  },
+  {
+   "id": "CVE-2026-111560",
+   "date": "2026-11-10",
+   "src": "CISA",
+   "vendor": "Barracuda Networks Multiple Products",
+   "vendor_name": "Barracuda Networks",
+   "product": "Multiple Products",
+   "title": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+   "detail": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted…",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-111560"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
+   "kev": true,
+   "epss": 0.108,
+   "cvss": 8.6,
    "sev": "high"
   },
   {
@@ -501,29 +735,8 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
    "kev": true,
-   "epss": 0.1879,
+   "epss": 0.0855,
    "cvss": 9.8,
-   "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-123158",
-   "date": "2026-11-09",
-   "src": "CISA",
-   "vendor": "OpenBSD OpenSSH",
-   "vendor_name": "OpenBSD",
-   "product": "OpenSSH",
-   "title": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-   "detail": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-11-12",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
-   "kev": true,
-   "epss": 0.9554,
-   "cvss": 8.1,
    "sev": "critical"
   },
   {
@@ -543,7 +756,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
    "kev": true,
-   "epss": 0.4411,
+   "epss": 0.4369,
    "cvss": 9.8,
    "sev": "critical"
   },
@@ -564,9 +777,30 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
    "kev": true,
-   "epss": 0.0101,
+   "epss": 0.0078,
    "cvss": 9.8,
    "sev": "critical"
+  },
+  {
+   "id": "CVE-2026-123158",
+   "date": "2026-11-09",
+   "src": "CISA",
+   "vendor": "OpenBSD OpenSSH",
+   "vendor_name": "OpenBSD",
+   "product": "OpenSSH",
+   "title": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+   "detail": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+   "kev": true,
+   "epss": 0.1421,
+   "cvss": 8.1,
+   "sev": "high"
   },
   {
    "id": "CVE-2026-19868",
@@ -585,7 +819,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
    "kev": true,
-   "epss": 0.0804,
+   "epss": 0.0054,
    "cvss": 7.5,
    "sev": "high"
   },
@@ -606,7 +840,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
    "kev": true,
-   "epss": 0.0156,
+   "epss": 0.0079,
    "cvss": 5.5,
    "sev": "high"
   },
@@ -627,7 +861,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
    "kev": true,
-   "epss": 0.0805,
+   "epss": 0.0215,
    "cvss": 8.1,
    "sev": "high",
    "news": [
@@ -668,7 +902,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
    "kev": true,
-   "epss": 0.0099,
+   "epss": 0.0083,
    "cvss": 4.3,
    "sev": "high"
   },
@@ -689,7 +923,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
    "kev": true,
-   "epss": 0.008,
+   "epss": 0.0056,
    "cvss": 7.0,
    "sev": "high"
   },
@@ -710,7 +944,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
    "kev": true,
-   "epss": 0.7431,
+   "epss": 0.1184,
    "cvss": 10.0,
    "sev": "critical"
   },
@@ -731,29 +965,9 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
    "kev": true,
-   "epss": 0.0855,
+   "epss": 0.0099,
    "cvss": 8.6,
-   "sev": "high",
-   "news": [
-    {
-     "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
-     "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
-     "source": "BleepingComputer",
-     "date": "2026-11-24T13:34:23+00:00"
-    },
-    {
-     "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
-     "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
-     "source": "SecurityWeek",
-     "date": "2026-11-24T12:20:41+00:00"
-    },
-    {
-     "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
-     "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
-     "source": "The Hacker News",
-     "date": "2026-11-24T06:02:57+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "CVE-2026-41709",
@@ -772,7 +986,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
    "kev": true,
-   "epss": 0.009,
+   "epss": 0.0047,
    "cvss": 2.7,
    "sev": "high",
    "news": [
@@ -801,7 +1015,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
    "kev": true,
-   "epss": 0.172,
+   "epss": 0.0296,
    "cvss": 7.8,
    "sev": "high"
   },
@@ -822,7 +1036,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
    "kev": true,
-   "epss": 0.8162,
+   "epss": 0.0785,
    "cvss": 9.3,
    "sev": "critical"
   },
@@ -843,7 +1057,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
    "kev": true,
-   "epss": 0.9999,
+   "epss": 0.3298,
    "cvss": 9.2,
    "sev": "critical"
   },
@@ -864,7 +1078,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
    "kev": true,
-   "epss": 1.0,
+   "epss": 0.4508,
    "cvss": 9.2,
    "sev": "critical"
   },
@@ -885,7 +1099,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
    "kev": true,
-   "epss": 1.0,
+   "epss": 0.2075,
    "cvss": 9.2,
    "sev": "critical"
   }
