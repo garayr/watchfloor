@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 6429,
-  "c2_servers": 5648,
+  "total_iocs": 1686,
+  "c2_servers": 902,
   "families": [
    {
     "name": "ZStealer",
@@ -12,96 +12,96 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
-    "name": "Mirai",
-    "iocs": 65,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 59,
+    "iocs": 62,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Unknown Loader",
-    "iocs": 58,
+    "iocs": 45,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 42,
-    "c2": 42,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "Vidar",
-    "iocs": 39,
-    "c2": 39,
+    "iocs": 43,
+    "c2": 43,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 36,
+    "c2": 36,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "IClickFix",
-    "iocs": 19,
+    "iocs": 32,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Potassium",
-    "iocs": 19,
-    "c2": 19,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.potassium"
+    "name": "Unknown Stealer",
+    "iocs": 30,
+    "c2": 25,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
+   },
+   {
+    "name": "Mirai",
+    "iocs": 22,
+    "c2": 3,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "SNOWLIGHT",
-    "iocs": 18,
+    "iocs": 22,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.snowlight"
    },
    {
-    "name": "PureRAT",
-    "iocs": 16,
-    "c2": 16,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
+    "name": "Remcos",
+    "iocs": 21,
+    "c2": 10,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.remcos"
    }
   ]
  },
  "urls": {
-  "sample": 1000,
-  "online": 617,
+  "sample": 662,
+  "online": 452,
   "top_tags": [
    {
-    "name": "elf",
-    "count": 258
-   },
-   {
     "name": "github",
-    "count": 255
+    "count": 174
    },
    {
     "name": "Mozi",
-    "count": 215
-   },
-   {
-    "name": "mirai",
-    "count": 199
+    "count": 161
    },
    {
     "name": "SalatStealer",
-    "count": 148
+    "count": 138
+   },
+   {
+    "name": "elf",
+    "count": 132
    },
    {
     "name": "exe",
-    "count": 140
+    "count": 120
    },
    {
-    "name": "ua-wget",
-    "count": 98
+    "name": "mirai",
+    "count": 85
    },
    {
     "name": "32-bit",
-    "count": 83
+    "count": 52
+   },
+   {
+    "name": "RemcosRAT",
+    "count": 47
    }
   ]
  },
@@ -180,6 +180,11 @@
  "ports_date": "2026-11-24",
  "diary": [
   {
+   "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
+   "url": "https://isc.sans.edu/diary/rss/33554",
+   "date": "2026-11-25T02:00:03+00:00"
+  },
+  {
    "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
    "url": "https://isc.sans.edu/diary/rss/33550",
    "date": "2026-11-24T02:32:00+00:00"
@@ -203,11 +208,6 @@
    "title": "ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)",
    "url": "https://isc.sans.edu/diary/rss/33538",
    "date": "2026-11-20T02:00:02+00:00"
-  },
-  {
-   "title": "ISC Stormcast For Thursday, November 19th, 2026 https://isc.sans.edu/podcastdetail/10186, (Thu, Nov 19th)",
-   "url": "https://isc.sans.edu/diary/rss/33536",
-   "date": "2026-11-19T02:00:03+00:00"
   }
  ],
  "pulses": [
@@ -512,10 +512,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-24T18:36:35+00:00",
-  "sans": "2026-11-24T18:36:35+00:00",
-  "otx": "2026-11-24T18:36:35+00:00",
-  "urlhaus": "2026-11-24T18:36:35+00:00"
+  "threatfox": "2026-11-25T02:46:54+00:00",
+  "sans": "2026-11-25T02:46:54+00:00",
+  "otx": "2026-11-25T02:46:54+00:00",
+  "urlhaus": "2026-11-25T02:46:54+00:00"
  },
- "generated_at": "2026-11-24T18:36:35+00:00"
+ "generated_at": "2026-11-25T02:46:54+00:00"
 }

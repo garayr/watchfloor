@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-24T18:36:35+00:00",
+ "generated_at": "2026-11-25T02:46:54+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
    "name": "thegentlemen",
    "description": "The Gentlemen is a RaaS group that emerged in July–August 2025, rapidly claiming over 320 victims across 17+ countries by offering affiliates a 90% revenue share, deploying a Go-based locker against Windows, Linux, NAS, and BSD systems; a compromised C2 server in 2026 revealed more than 1,570 linked victims.",
    "aliases": [],
-   "first_seen": "2023-02-28",
-   "last_seen": "2026-11-12",
-   "victims_total": 1103,
+   "first_seen": "2025-02-19",
+   "last_seen": "2026-11-24",
+   "victims_total": 1139,
    "cves": [
     {
      "id": "CVE-2025-32433",
@@ -130,19 +130,19 @@
     "countries": [
      {
       "name": "US",
-      "count": 225
+      "count": 238
      },
      {
       "name": "DE",
-      "count": 50
+      "count": 53
      },
      {
       "name": "GB",
-      "count": 50
+      "count": 51
      },
      {
       "name": "FR",
-      "count": 45
+      "count": 47
      },
      {
       "name": "TH",
@@ -150,33 +150,33 @@
      },
      {
       "name": "BR",
-      "count": 42
+      "count": 43
      }
     ],
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 211
+      "count": 218
      },
      {
       "name": "Technology",
-      "count": 145
+      "count": 151
      },
      {
       "name": "Professional Services",
-      "count": 127
+      "count": 129
      },
      {
       "name": "Healthcare",
-      "count": 108
+      "count": 115
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 80
+      "count": 81
      },
      {
       "name": "Other",
-      "count": 61
+      "count": 66
      }
     ]
    },
@@ -227,11 +227,11 @@
     },
     {
      "month": "2026-11",
-     "count": 47
+     "count": 83
     }
    ],
-   "history_size": 1103,
-   "updated": "2026-11-12T18:28:48+00:00"
+   "history_size": 1139,
+   "updated": "2026-11-25T02:46:54+00:00"
   },
   "safepay": {
    "name": "safepay",
@@ -1155,8 +1155,8 @@
    "description": "Initially observed in June 2022, the Play ransomware (a.k.a PlayCrypt) operates through double extortion, targeting numerous organizations in Latin America. Its Initial Access method is quite similar to other ransomwares, involving attacks such as Phishing, Exposed Services to the Internet, and Valid Account compromises. On April 19, 2023, the security company Symantec published two new tools developed by the Play group. These tools allow the malicious actor to enumerate and exfiltrate data from the internal network. The post mentions the following: 'Play threat actors use the.NET infostealer to enumerate software and services via WMI, WinRM, Remote Registry, and Remote Service. The malware checks for the existence of security and backup software, as well as remote administration tools and other programs, saving the information in.CSV files that are compressed into a.ZIP file for later manual exfiltration by threat actors.'Source: https://github.com/crocodyli/ThreatActors-TTPs",
    "aliases": [],
    "first_seen": "2022-11-26",
-   "last_seen": "2026-11-11",
-   "victims_total": 1349,
+   "last_seen": "2026-11-24",
+   "victims_total": 1357,
    "cves": [],
    "tools": [
     "HandleKatz",
@@ -1203,11 +1203,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 957
+      "count": 961
      },
      {
       "name": "CA",
-      "count": 99
+      "count": 101
      },
      {
       "name": "GB",
@@ -1229,7 +1229,7 @@
     "sectors": [
      {
       "name": "Manufacturing",
-      "count": 355
+      "count": 358
      },
      {
       "name": "Professional Services",
@@ -1237,11 +1237,11 @@
      },
      {
       "name": "Technology",
-      "count": 173
+      "count": 174
      },
      {
       "name": "Retail & E-Commerce",
-      "count": 100
+      "count": 102
      },
      {
       "name": "Transportation",
@@ -1300,11 +1300,11 @@
     },
     {
      "month": "2026-11",
-     "count": 9
+     "count": 17
     }
    ],
-   "history_size": 1349,
-   "updated": "2026-11-12T10:18:48+00:00"
+   "history_size": 1357,
+   "updated": "2026-11-25T02:46:54+00:00"
   },
   "interlock": {
    "name": "interlock",
@@ -6326,8 +6326,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-07-14",
-   "last_seen": "2026-10-25",
-   "victims_total": 5,
+   "last_seen": "2026-11-24",
+   "victims_total": 10,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -6336,29 +6336,37 @@
     "countries": [
      {
       "name": "US",
-      "count": 5
+      "count": 9
+     },
+     {
+      "name": "NZ",
+      "count": 1
      }
     ],
     "sectors": [
      {
       "name": "Healthcare",
-      "count": 2
+      "count": 3
+     },
+     {
+      "name": "Professional Services",
+      "count": 3
      },
      {
       "name": "Manufacturing",
       "count": 2
      },
      {
-      "name": "Professional Services",
+      "name": "Hospitality",
+      "count": 1
+     },
+     {
+      "name": "Technology",
       "count": 1
      }
     ]
    },
    "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
     {
      "month": "2025-12",
      "count": 0
@@ -6401,11 +6409,15 @@
     },
     {
      "month": "2026-10",
-     "count": 2
+     "count": 3
+    },
+    {
+     "month": "2026-11",
+     "count": 4
     }
    ],
-   "history_size": 5,
-   "updated": "2026-10-25T19:59:16+00:00"
+   "history_size": 10,
+   "updated": "2026-11-25T02:46:54+00:00"
   },
   "crypto24": {
    "name": "crypto24",
