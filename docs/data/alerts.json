@@ -1060,48 +1060,6 @@
    "epss": 0.3298,
    "cvss": 9.2,
    "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-109618",
-   "date": "2026-10-26",
-   "src": "CISA",
-   "vendor": "PHP Group PHP",
-   "vendor_name": "PHP Group",
-   "product": "PHP",
-   "title": "PHP Memory Corruption Vulnerability",
-   "detail": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-10-29",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-109618"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
-   "kev": true,
-   "epss": 0.4508,
-   "cvss": 9.2,
-   "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-109619",
-   "date": "2026-10-26",
-   "src": "CISA",
-   "vendor": "PHP Group PHP",
-   "vendor_name": "PHP Group",
-   "product": "PHP",
-   "title": "PHP Stale Internal Request-State Vulnerability",
-   "detail": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-10-29",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-109619"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
-   "kev": true,
-   "epss": 0.2075,
-   "cvss": 9.2,
-   "sev": "critical"
   }
  ]
 }

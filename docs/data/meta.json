@@ -1,22 +1,22 @@
 {
- "generated_at": "2026-11-25T21:00:09+00:00",
+ "generated_at": "2026-11-26T03:31:29+00:00",
  "sources": [
   {
    "name": "CISA KEV",
    "ok": true,
-   "count": 49,
+   "count": 47,
    "error": null
   },
   {
    "name": "FIRST EPSS",
    "ok": true,
-   "count": 48,
+   "count": 46,
    "error": null
   },
   {
    "name": "NVD CVSS",
    "ok": true,
-   "count": 10,
+   "count": 0,
    "error": null
   },
   {
@@ -63,14 +63,14 @@
   },
   {
    "name": "abuse.ch ThreatFox",
-   "ok": false,
-   "count": 0,
-   "error": "IncompleteRead(64375 bytes read)"
+   "ok": true,
+   "count": 2442,
+   "error": null
   },
   {
    "name": "abuse.ch URLhaus",
    "ok": true,
-   "count": 1000,
+   "count": 762,
    "error": null
   },
   {
@@ -88,13 +88,13 @@
   {
    "name": "Ransomware.live gang profiles",
    "ok": true,
-   "count": 1,
+   "count": 2,
    "error": null
   },
   {
    "name": "Phone alerts",
    "ok": true,
-   "count": 5,
+   "count": 0,
    "error": null
   }
  ]
