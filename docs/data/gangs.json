@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T03:31:29+00:00",
+ "generated_at": "2026-11-26T13:08:32+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -647,92 +647,6 @@
    "history_size": 61,
    "updated": "2026-11-13T19:56:59+00:00"
   },
-  "ULose": {
-   "name": "ULose",
-   "description": null,
-   "aliases": [],
-   "first_seen": "2026-06-09",
-   "last_seen": "2026-10-27",
-   "victims_total": 8,
-   "cves": [],
-   "tools": [],
-   "techniques": [],
-   "links": [],
-   "targets": {
-    "countries": [
-     {
-      "name": "KR",
-      "count": 6
-     }
-    ],
-    "sectors": [
-     {
-      "name": "Financial Services",
-      "count": 3
-     },
-     {
-      "name": "Healthcare",
-      "count": 1
-     },
-     {
-      "name": "Manufacturing",
-      "count": 1
-     }
-    ]
-   },
-   "monthly": [
-    {
-     "month": "2025-11",
-     "count": 0
-    },
-    {
-     "month": "2025-12",
-     "count": 0
-    },
-    {
-     "month": "2026-01",
-     "count": 0
-    },
-    {
-     "month": "2026-02",
-     "count": 0
-    },
-    {
-     "month": "2026-03",
-     "count": 0
-    },
-    {
-     "month": "2026-04",
-     "count": 0
-    },
-    {
-     "month": "2026-05",
-     "count": 0
-    },
-    {
-     "month": "2026-06",
-     "count": 5
-    },
-    {
-     "month": "2026-07",
-     "count": 0
-    },
-    {
-     "month": "2026-08",
-     "count": 0
-    },
-    {
-     "month": "2026-09",
-     "count": 1
-    },
-    {
-     "month": "2026-10",
-     "count": 2
-    }
-   ],
-   "history_size": 8,
-   "updated": "2026-10-27T06:04:06+00:00"
-  },
   "rhysida": {
    "name": "rhysida",
    "description": "Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The group utilizes a namesake ransomware through phishing attacks and Cobalt Strike to breach the targets' networks and deploy their payloads. The group threatens to publicly distribute exfiltrated data if the ransom is not paid, and it's worth mentioning that Rhysida is still in the early stages of development. The ransomware leaves PDF notes in the affected folders, instructing victims to contact the group through its portal, and payment is made via Bitcoin. After encryption, the ransomware appends the extension '.ryshida' to encrypted files. Source: https://github.com/crocodyli/ThreatActors-TTPs",
@@ -1026,8 +940,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-18",
-   "last_seen": "2026-11-19",
-   "victims_total": 259,
+   "last_seen": "2026-11-25",
+   "victims_total": 306,
    "cves": [],
    "tools": [],
    "techniques": [
@@ -1047,11 +961,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 122
+      "count": 146
      },
      {
       "name": "CA",
-      "count": 24
+      "count": 30
      },
      {
       "name": "KR",
@@ -1059,41 +973,41 @@
      },
      {
       "name": "GB",
-      "count": 10
-     },
-     {
-      "name": "BR",
-      "count": 6
+      "count": 13
      },
      {
       "name": "ID",
+      "count": 7
+     },
+     {
+      "name": "BR",
       "count": 6
      }
     ],
     "sectors": [
      {
-      "name": "Transportation",
-      "count": 36
+      "name": "Retail & E-Commerce",
+      "count": 42
      },
      {
-      "name": "Retail & E-Commerce",
-      "count": 35
+      "name": "Transportation",
+      "count": 38
      },
      {
       "name": "Healthcare",
-      "count": 32
+      "count": 34
      },
      {
       "name": "Financial Services",
-      "count": 23
+      "count": 30
      },
      {
       "name": "Technology",
-      "count": 23
+      "count": 26
      },
      {
       "name": "Manufacturing",
-      "count": 17
+      "count": 18
      }
     ]
    },
@@ -1144,11 +1058,11 @@
     },
     {
      "month": "2026-11",
-     "count": 138
+     "count": 185
     }
    ],
-   "history_size": 259,
-   "updated": "2026-11-19T07:18:02+00:00"
+   "history_size": 306,
+   "updated": "2026-11-26T13:08:32+00:00"
   },
   "play": {
    "name": "play",
@@ -5389,14 +5303,18 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-09-09",
-   "last_seen": "2026-11-18",
-   "victims_total": 18,
+   "last_seen": "2026-11-26",
+   "victims_total": 25,
    "cves": [],
    "tools": [],
    "techniques": [],
    "links": [],
    "targets": {
     "countries": [
+     {
+      "name": "US",
+      "count": 3
+     },
      {
       "name": "IN",
       "count": 2
@@ -5406,7 +5324,7 @@
       "count": 2
      },
      {
-      "name": "US",
+      "name": "VN",
       "count": 2
      },
      {
@@ -5416,19 +5334,19 @@
      {
       "name": "BR",
       "count": 1
-     },
-     {
-      "name": "CM",
-      "count": 1
      }
     ],
     "sectors": [
      {
       "name": "Technology",
-      "count": 4
+      "count": 5
      },
      {
       "name": "Government & Defense",
+      "count": 3
+     },
+     {
+      "name": "Financial Services",
       "count": 2
      },
      {
@@ -5442,10 +5360,6 @@
      {
       "name": "Retail & E-Commerce",
       "count": 2
-     },
-     {
-      "name": "Energy & Utilities",
-      "count": 1
      }
     ]
    },
@@ -5496,11 +5410,11 @@
     },
     {
      "month": "2026-11",
-     "count": 7
+     "count": 14
     }
    ],
-   "history_size": 18,
-   "updated": "2026-11-18T18:00:02+00:00"
+   "history_size": 25,
+   "updated": "2026-11-26T13:08:32+00:00"
   },
   "iah6477": {
    "name": "iah6477",

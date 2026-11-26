@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T03:31:29+00:00",
+ "generated_at": "2026-11-26T13:08:32+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -14,7 +14,7 @@
   },
   {
    "name": "thegentlemen",
-   "count": 10
+   "count": 9
   },
   {
    "name": "SilentVault",
@@ -44,7 +44,7 @@
   },
   {
    "name": "Professional Services",
-   "count": 12
+   "count": 11
   },
   {
    "name": "Other",
@@ -52,41 +52,41 @@
   },
   {
    "name": "Education",
-   "count": 7
-  },
-  {
-   "name": "Healthcare",
-   "count": 5
+   "count": 6
   },
   {
    "name": "Technology",
+   "count": 6
+  },
+  {
+   "name": "Healthcare",
    "count": 5
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 35,
+   "count": 33,
    "lat": 39.0,
    "lon": -77.5
   },
   {
    "code": "DE",
-   "count": 10,
+   "count": 9,
    "lat": 50.1,
    "lon": 8.7
+  },
+  {
+   "code": "CA",
+   "count": 6,
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "IT",
    "count": 6,
    "lat": 41.9,
    "lon": 12.5
-  },
-  {
-   "code": "CA",
-   "count": 5,
-   "lat": 43.7,
-   "lon": -79.4
   },
   {
    "code": "IN",
@@ -105,6 +105,12 @@
    "count": 2,
    "lat": 51.5,
    "lon": -0.1
+  },
+  {
+   "code": "ID",
+   "count": 2,
+   "lat": -6.2,
+   "lon": 106.8
   },
   {
    "code": "MK",
@@ -137,16 +143,16 @@
    "lon": -3.7
   },
   {
-   "code": "ID",
-   "count": 1,
-   "lat": -6.2,
-   "lon": 106.8
-  },
-  {
    "code": "JP",
    "count": 1,
    "lat": 35.7,
    "lon": 139.7
+  },
+  {
+   "code": "KR",
+   "count": 1,
+   "lat": 37.6,
+   "lon": 127.0
   },
   {
    "code": "NO",
@@ -174,6 +180,42 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Indonesia's national passport database",
+   "group": "HYFLOCK",
+   "date": "2026-11-26T08:53:07+00:00",
+   "attack_date": "2026-11-26",
+   "country": "ID",
+   "sector": "Government & Defense",
+   "url": "https://www.ransomware.live/id/SW5kb25lc2lhJ3MgbmF0aW9uYWwgcGFzc3BvcnQgZGF0YWJhc2VASFlGTE9DSw=="
+  },
+  {
+   "victim": "Koh Young Technology",
+   "group": "everest",
+   "date": "2026-11-26T02:06:32+00:00",
+   "attack_date": "2026-11-26",
+   "country": "KR",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/S29oIFlvdW5nIFRlY2hub2xvZ3lAZXZlcmVzdA=="
+  },
+  {
+   "victim": "Nucleon EDR",
+   "group": "everest",
+   "date": "2026-11-26T02:05:56+00:00",
+   "attack_date": "2026-11-26",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/TnVjbGVvbiBFRFJAZXZlcmVzdA=="
+  },
+  {
+   "victim": "Restaurant Brands International, Inc.",
+   "group": "Inception",
+   "date": "2026-11-26T01:52:28+00:00",
+   "attack_date": "2026-11-26",
+   "country": "CA",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/UmVzdGF1cmFudCBCcmFuZHMgSW50ZXJuYXRpb25hbCwgSW5jLkBJbmNlcHRpb24="
+  },
   {
    "victim": "Tessilopera",
    "group": "medusalocker",
@@ -778,15 +820,6 @@
    "url": "https://www.ransomware.live/id/U3RhbmxleSBQYXJ0cyBhbmQgRXF1aXBtZW50QHBsYXk="
   },
   {
-   "victim": "Steinecke",
-   "group": "thegentlemen",
-   "date": "2026-11-24T18:55:46+00:00",
-   "attack_date": "2026-11-23",
-   "country": "DE",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/U3RlaW5lY2tlQHRoZWdlbnRsZW1lbg=="
-  },
-  {
    "victim": "Berkeley orinda Oral Surgery",
    "group": "thegentlemen",
    "date": "2026-11-24T18:55:25+00:00",
@@ -1028,33 +1061,6 @@
    "country": "BR",
    "sector": "Technology",
    "url": "https://www.ransomware.live/id/WWFob29AbWVkdXNhbG9ja2Vy"
-  },
-  {
-   "victim": "Golden State Baptist College",
-   "group": "Dark Project",
-   "date": "2026-11-23T19:51:14+00:00",
-   "attack_date": "2026-11-23",
-   "country": "US",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/R29sZGVuIFN0YXRlIEJhcHRpc3QgQ29sbGVnZUBEYXJrIFByb2plY3Q="
-  },
-  {
-   "victim": "Lowell Foods",
-   "group": "incransom",
-   "date": "2026-11-23T16:11:48+00:00",
-   "attack_date": "2026-11-23",
-   "country": "US",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/TG93ZWxsIEZvb2RzQGluY3JhbnNvbQ=="
-  },
-  {
-   "victim": "Demas Schaefer Family Lawyers",
-   "group": "rhysida",
-   "date": "2026-11-23T12:24:58+00:00",
-   "attack_date": "2026-11-23",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/RGVtYXMgU2NoYWVmZXIgRmFtaWx5IExhd3llcnNAcmh5c2lkYQ=="
   },
   {
    "victim": "ABL Bio",

@@ -2,20 +2,26 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2442,
-  "c2_servers": 838,
+  "total_iocs": 2499,
+  "c2_servers": 827,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 376,
+    "iocs": 371,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
     "name": "ClearFake",
-    "iocs": 356,
+    "iocs": 365,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 204,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ZStealer",
@@ -25,37 +31,25 @@
    },
    {
     "name": "Vidar",
-    "iocs": 80,
-    "c2": 50,
+    "iocs": 77,
+    "c2": 47,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 70,
-    "c2": 2,
+    "iocs": 55,
+    "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "Cobalt Strike",
-    "iocs": 53,
-    "c2": 52,
+    "iocs": 50,
+    "c2": 49,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
-    "name": "Mozi",
-    "iocs": 39,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mozi"
-   },
-   {
-    "name": "Unknown Stealer",
-    "iocs": 31,
-    "c2": 22,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_stealer"
-   },
-   {
     "name": "Stealc",
-    "iocs": 29,
+    "iocs": 22,
     "c2": 15,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.stealc"
    },
@@ -64,32 +58,38 @@
     "iocs": 21,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
+   },
+   {
+    "name": "ValleyRAT",
+    "iocs": 14,
+    "c2": 3,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
    }
   ]
  },
  "urls": {
-  "sample": 762,
-  "online": 518,
+  "sample": 990,
+  "online": 614,
   "top_tags": [
    {
     "name": "github",
-    "count": 273
+    "count": 291
    },
    {
     "name": "Mozi",
-    "count": 190
+    "count": 260
+   },
+   {
+    "name": "mirai",
+    "count": 183
    },
    {
     "name": "zapret",
     "count": 154
    },
    {
-    "name": "mirai",
-    "count": 121
-   },
-   {
     "name": "elf",
-    "count": 87
+    "count": 104
    },
    {
     "name": "exe",
@@ -101,7 +101,7 @@
    },
    {
     "name": "32-bit",
-    "count": 56
+    "count": 68
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 12288,
-   "targets": 175,
-   "sources": 3361
+   "records": 264157,
+   "targets": 271,
+   "sources": 13130
   },
   {
    "port": 22,
    "service": "SSH",
-   "records": 8048,
-   "targets": 205,
-   "sources": 848
-  },
-  {
-   "port": 123,
-   "service": "NTP",
-   "records": 5475,
-   "targets": 33,
-   "sources": 516
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 3799,
-   "targets": 188,
-   "sources": 571
+   "records": 259262,
+   "targets": 281,
+   "sources": 6576
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 3703,
-   "targets": 155,
-   "sources": 397
+   "records": 137156,
+   "targets": 277,
+   "sources": 3817
   },
   {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 3373,
-   "targets": 156,
-   "sources": 612
+   "port": 23,
+   "service": "Telnet",
+   "records": 126135,
+   "targets": 278,
+   "sources": 5899
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 3303,
-   "targets": 136,
-   "sources": 314
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 2805,
-   "targets": 125,
-   "sources": 474
+   "records": 113636,
+   "targets": 276,
+   "sources": 3099
   },
   {
    "port": 9000,
    "service": null,
-   "records": 2721,
-   "targets": 85,
-   "sources": 159
+   "records": 105497,
+   "targets": 251,
+   "sources": 2056
   },
   {
-   "port": 7547,
-   "service": "Router management (TR-069)",
-   "records": 2286,
-   "targets": 74,
-   "sources": 174
+   "port": 2222,
+   "service": null,
+   "records": 97081,
+   "targets": 272,
+   "sources": 2756
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 89485,
+   "targets": 258,
+   "sources": 5051
+  },
+  {
+   "port": 7680,
+   "service": null,
+   "records": 85198,
+   "targets": 28,
+   "sources": 2116
+  },
+  {
+   "port": 53140,
+   "service": null,
+   "records": 82058,
+   "targets": 4,
+   "sources": 2077
   }
  ],
  "ports_date": "2026-11-26",
@@ -211,6 +211,29 @@
   }
  ],
  "pulses": [
+  {
+   "name": "ROMULUS ClickFix to LegionLoader and Warden Stealer: Breaking Down a Multi-Stage Malware Intrusion",
+   "summary": "In November 2024, a multi-stage intrusion was identified involving ROMULUS, a ClickFix delivery system. The attack chain begins with a ClickFix lure that tricks victims into executing a malicious MSI file through a…",
+   "date": "2026-11-26T10:03:06+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ROMULUS",
+    "LegionLoader",
+    "Warden Loader",
+    "Warden Stealer"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "clickfix",
+    "information stealer",
+    "warden loader",
+    "legionloader",
+    "romulus"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b0803dab6016a11b89943e6"
+  },
   {
    "name": "ShinyHunters-Associated Vishing Group Linked to New INCEPTION Data Leak Site",
    "summary": "A threat cluster designated O-UNC-053, previously linked to the ShinyHunters extortion crew, appears to have rebranded under the name INCEPTION. The group conducts voice phishing attacks to harvest credentials and…",
@@ -482,39 +505,13 @@
     "python bytecode"
    ],
    "url": "https://otx.alienvault.com/pulse/6b05322836d8c5aba9340d1d"
-  },
-  {
-   "name": "Agentic Attacks in the Wild: ARTEX & Offensive AI Frameworks",
-   "summary": "Between late September and November 2026, cloud environments experienced a surge in automated intrusions driven by agentic offensive frameworks, particularly ARTEX and its variants including Cairn, CyberStrikeAI, and…",
-   "date": "2026-11-23T17:05:56+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ARTEX",
-    "Cairn",
-    "CyberStrikeAI",
-    "HexStrike"
-   ],
-   "countries": [],
-   "industries": [
-    "Technology"
-   ],
-   "tags": [
-    "cloud intrusion",
-    "kubernetes",
-    "agentic framework",
-    "residential proxies",
-    "cyberstrikeai",
-    "hexstrike"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b047274d961f9811fa48f1c"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-26T03:31:29+00:00",
-  "sans": "2026-11-26T03:31:29+00:00",
-  "otx": "2026-11-26T03:31:29+00:00",
-  "urlhaus": "2026-11-26T03:31:29+00:00"
+  "threatfox": "2026-11-26T13:08:32+00:00",
+  "sans": "2026-11-26T13:08:32+00:00",
+  "otx": "2026-11-26T13:08:32+00:00",
+  "urlhaus": "2026-11-26T13:08:32+00:00"
  },
- "generated_at": "2026-11-26T03:31:29+00:00"
+ "generated_at": "2026-11-26T13:08:32+00:00"
 }

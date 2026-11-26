@@ -10,20 +10,42 @@
      "date": "2026-11-25T10:43:07+00:00",
      "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
      "group": "Arrests, courts and policy"
-    },
-    {
-     "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
-     "summary": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-24T16:30:19+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
-     "group": "Arrests, courts and policy"
     }
    ]
   },
   {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+     "summary": "Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign. The post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first…",
+     "source": "SecurityWeek",
+     "date": "2026-11-26T11:35:25+00:00",
+     "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+     "group": "Breaches and ransomware",
+     "alerts": [
+      "CVE-2026-133303",
+      "CVE-2026-133323",
+      "CVE-2026-133324",
+      "CVE-2026-133275"
+     ]
+    },
+    {
+     "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+     "summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer…",
+     "source": "The Hacker News",
+     "date": "2026-11-26T10:57:25+00:00",
+     "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+     "summary": "A hacker used a compromised employee GitHub account to push malicious code and steal customer records, but vaults were not accessed. The post 1Password Breach Exposes Customer Data, Internal Source Code appeared first…",
+     "source": "SecurityWeek",
+     "date": "2026-11-26T08:32:10+00:00",
+     "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
      "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
@@ -57,14 +79,6 @@
      "group": "Breaches and ransomware"
     },
     {
-     "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
-     "summary": "It was not clear what specific information was compromised or who was responsible. The post An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-24T22:41:58+00:00",
-     "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
-     "group": "Breaches and ransomware"
-    },
-    {
      "title": "Rackspace shuts down Spot cloud platform after security breach",
      "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and…",
      "source": "BleepingComputer",
@@ -87,20 +101,45 @@
      "date": "2026-11-24T17:49:05+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-     "summary": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The…",
-     "source": "The Hacker News",
-     "date": "2026-11-24T13:28:21+00:00",
-     "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+     "summary": "Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap. The post Drupal Installer Patch Left a Gap Attackers Are Already Exploiting appeared…",
+     "source": "SecurityWeek",
+     "date": "2026-11-26T09:12:26+00:00",
+     "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+     "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case…",
+     "source": "The Hacker News",
+     "date": "2026-11-26T07:02:34+00:00",
+     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-132165"
+     ]
+    },
+    {
+     "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that…",
+     "source": "The Hacker News",
+     "date": "2026-11-26T06:44:46+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-133303",
+      "CVE-2026-133323",
+      "CVE-2026-133324",
+      "CVE-2026-133275"
+     ]
+    },
     {
      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and…",
@@ -191,48 +230,36 @@
      "date": "2026-11-25T08:12:24+00:00",
      "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
      "group": "Exploited right now"
-    },
-    {
-     "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
-     "summary": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days. The post Drupal Flaw Found by Anthropic Scanner Exploited in Attacks appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-25T08:01:06+00:00",
-     "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
-     "summary": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts. The post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-24T16:32:56+00:00",
-     "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-     "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The…",
-     "source": "The Hacker News",
-     "date": "2026-11-24T13:28:26+00:00",
-     "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-123890",
-      "CVE-2026-41709"
-     ]
-    },
-    {
-     "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
-     "summary": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy…",
-     "source": "The Hacker News",
-     "date": "2026-11-24T10:44:49+00:00",
-     "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
-     "group": "Exploited right now"
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+     "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and…",
+     "source": "BleepingComputer",
+     "date": "2026-11-26T11:50:17+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+     "group": "Malware and campaigns"
+    },
+    {
+     "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+     "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to…",
+     "source": "The Hacker News",
+     "date": "2026-11-26T10:57:55+00:00",
+     "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+     "group": "Malware and campaigns"
+    },
+    {
+     "title": "13 Malicious NuGet Packages Turn Fake.NET Job Assessments Into Malware Delivery Traps",
+     "summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows.NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF…",
+     "source": "The Hacker News",
+     "date": "2026-11-26T03:48:52+00:00",
+     "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
      "summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The…",
@@ -343,22 +370,6 @@
      "source": "BleepingComputer",
      "date": "2026-11-24T18:59:52+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
-     "group": "Other news"
-    },
-    {
-     "title": "Google Researcher Shows How a Single Bit Change in.NET Files Bypassed Windows Code Integrity",
-     "summary": "A quirk in how the.NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up…",
-     "source": "The Hacker News",
-     "date": "2026-11-24T12:02:00+00:00",
-     "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
-     "group": "Other news"
-    },
-    {
-     "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
-     "summary": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through…",
-     "source": "The Hacker News",
-     "date": "2026-11-24T12:01:54+00:00",
-     "url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
      "group": "Other news"
     }
    ]
