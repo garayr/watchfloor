@@ -17,6 +17,14 @@
    "group": "Breaches and ransomware",
    "items": [
     {
+     "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+     "summary": "FIFA didn’t say when the cyberattack took place, or the precise nature of the hacked information. The post FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-26T17:06:55+00:00",
+     "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+     "group": "Breaches and ransomware"
+    },
+    {
      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
      "summary": "Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign. The post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first…",
      "source": "SecurityWeek",
@@ -77,36 +85,31 @@
      "date": "2026-11-25T06:37:06+00:00",
      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Rackspace shuts down Spot cloud platform after security breach",
-     "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and…",
-     "source": "BleepingComputer",
-     "date": "2026-11-24T21:37:30+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "New Inception extortion gang launches large-scale vishing campaign",
-     "summary": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-24T20:21:20+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Radware discloses breach exposing customer cloud access keys",
-     "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left…",
-     "source": "BleepingComputer",
-     "date": "2026-11-24T17:49:05+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+     "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-26T15:23:28+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+     "summary": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-26T13:04:06+00:00",
+     "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-103406"
+     ]
+    },
     {
      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
      "summary": "Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap. The post Drupal Installer Patch Left a Gap Attackers Are Already Exploiting appeared…",
@@ -205,30 +208,11 @@
      "group": "Exploited right now"
     },
     {
-     "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
-     "summary": "Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data. The post Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library appeared…",
-     "source": "SecurityWeek",
-     "date": "2026-11-25T09:05:13+00:00",
-     "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-131914"
-     ]
-    },
-    {
      "title": "Microsoft confirms authentication issues after November updates",
      "summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
      "source": "BleepingComputer",
      "date": "2026-11-25T09:02:57+00:00",
      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
-     "summary": "A China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers. The post Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-25T08:12:24+00:00",
-     "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
      "group": "Exploited right now"
     }
    ]
@@ -236,6 +220,22 @@
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+     "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews…",
+     "source": "BleepingComputer",
+     "date": "2026-11-26T17:15:27+00:00",
+     "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+     "group": "Malware and campaigns"
+    },
+    {
+     "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+     "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides…",
+     "source": "The Hacker News",
+     "date": "2026-11-26T15:13:41+00:00",
+     "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
      "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and…",
@@ -267,31 +267,36 @@
      "date": "2026-11-25T06:50:19+00:00",
      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
-     "summary": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise…",
-     "source": "The Hacker News",
-     "date": "2026-11-25T06:21:12+00:00",
-     "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
-     "group": "Malware and campaigns",
-     "alerts": [
-      "CVE-2026-119977"
-     ]
-    },
-    {
-     "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
-     "summary": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a…",
-     "source": "The Hacker News",
-     "date": "2026-11-24T16:54:07+00:00",
-     "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+     "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-26T21:06:22+00:00",
+     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+     "group": "Other news"
+    },
+    {
+     "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+     "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install…",
+     "source": "The Hacker News",
+     "date": "2026-11-26T19:39:57+00:00",
+     "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+     "group": "Other news"
+    },
+    {
+     "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+     "summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-26T17:58:42+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+     "group": "Other news"
+    },
     {
      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
      "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
@@ -362,14 +367,6 @@
      "source": "SecurityWeek",
      "date": "2026-11-25T10:40:07+00:00",
      "url": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
-     "group": "Other news"
-    },
-    {
-     "title": "Turnitin discloses cyberattack affecting customer-facing systems",
-     "summary": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-24T18:59:52+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
      "group": "Other news"
     }
    ]

@@ -17,9 +17,17 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
    "kev": true,
-   "epss": 0.0086,
+   "epss": 0.0154,
    "cvss": 9.8,
-   "sev": "critical"
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+     "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+     "source": "SecurityWeek",
+     "date": "2026-11-26T13:04:06+00:00"
+    }
+   ]
   },
   {
    "id": "CVE-2026-133469",
@@ -38,7 +46,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
    "kev": true,
-   "epss": 0.011,
+   "epss": 0.3177,
    "cvss": 9.8,
    "sev": "critical"
   },
@@ -59,7 +67,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915",
    "kev": true,
-   "epss": 0.0143,
+   "epss": 0.0249,
    "cvss": 9.9,
    "sev": "critical",
    "news": [
@@ -88,7 +96,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
    "kev": true,
-   "epss": 0.0052,
+   "epss": 0.0133,
    "cvss": 9.0,
    "sev": "critical",
    "news": [
@@ -123,7 +131,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
    "kev": true,
-   "epss": 0.0255,
+   "epss": 0.0563,
    "cvss": 10.0,
    "sev": "critical",
    "news": [
@@ -158,7 +166,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
    "kev": true,
-   "epss": 0.0051,
+   "epss": 0.0427,
    "cvss": 8.2,
    "sev": "high",
    "news": [
@@ -187,7 +195,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
    "kev": true,
-   "epss": 0.0108,
+   "epss": 0.0185,
    "cvss": 8.8,
    "sev": "high",
    "news": [
@@ -216,7 +224,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324",
    "kev": true,
-   "epss": 0.0041,
+   "epss": 0.0083,
    "cvss": 5.3,
    "sev": "high",
    "news": [
@@ -251,7 +259,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
    "kev": true,
-   "epss": 0.0032,
+   "epss": 0.0077,
    "cvss": 5.3,
    "sev": "high",
    "news": [
@@ -286,7 +294,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311",
    "kev": true,
-   "epss": 0.004,
+   "epss": 0.0098,
    "cvss": 5.9,
    "sev": "high",
    "news": [
@@ -323,15 +331,7 @@
    "kev": true,
    "epss": 0.0429,
    "cvss": 9.3,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
-     "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
-     "source": "SecurityWeek",
-     "date": "2026-11-25T09:05:13+00:00"
-    }
-   ]
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-132224",
@@ -350,7 +350,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
    "kev": true,
-   "epss": 0.0078,
+   "epss": 0.0106,
    "cvss": 7.1,
    "sev": "high"
   },
@@ -371,6 +371,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
    "kev": true,
+   "epss": 0.1105,
    "sev": "high",
    "news": [
     {
@@ -635,7 +636,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
    "kev": true,
-   "epss": 0.0135,
+   "epss": 0.102,
    "cvss": 8.6,
    "sev": "high"
   },
@@ -931,15 +932,7 @@
    "kev": true,
    "epss": 0.0215,
    "cvss": 8.1,
-   "sev": "high",
-   "news": [
-    {
-     "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
-     "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
-     "source": "The Hacker News",
-     "date": "2026-11-25T06:21:12+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
@@ -1012,7 +1005,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
    "kev": true,
-   "epss": 0.1184,
+   "epss": 0.7431,
    "cvss": 10.0,
    "sev": "critical"
   },

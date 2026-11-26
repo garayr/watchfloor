@@ -2,179 +2,179 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2499,
-  "c2_servers": 827,
+  "total_iocs": 2153,
+  "c2_servers": 846,
   "families": [
    {
     "name": "IClickFix",
-    "iocs": 371,
+    "iocs": 360,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "ClearFake",
-    "iocs": 365,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 204,
+    "iocs": 198,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "ZStealer",
-    "iocs": 204,
+    "name": "ClearFake",
+    "iocs": 123,
     "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 77,
-    "c2": 47,
+    "iocs": 55,
+    "c2": 46,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 51,
+    "c2": 50,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "Mirai",
-    "iocs": 55,
+    "iocs": 48,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 50,
-    "c2": 49,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
-    "name": "Stealc",
-    "iocs": 22,
-    "c2": 15,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.stealc"
+    "name": "Formbook",
+    "iocs": 42,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    },
    {
     "name": "Raven Stealer",
-    "iocs": 21,
+    "iocs": 40,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
    },
    {
+    "name": "Agent Tesla",
+    "iocs": 39,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla"
+   },
+   {
     "name": "ValleyRAT",
-    "iocs": 14,
-    "c2": 3,
+    "iocs": 28,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
    }
   ]
  },
  "urls": {
-  "sample": 990,
-  "online": 614,
+  "sample": 1000,
+  "online": 643,
   "top_tags": [
    {
     "name": "github",
-    "count": 291
+    "count": 310
    },
    {
     "name": "Mozi",
-    "count": 260
-   },
-   {
-    "name": "mirai",
-    "count": 183
+    "count": 251
    },
    {
     "name": "zapret",
-    "count": 154
+    "count": 198
+   },
+   {
+    "name": "mirai",
+    "count": 173
    },
    {
     "name": "elf",
-    "count": 104
+    "count": 100
    },
    {
     "name": "exe",
-    "count": 83
+    "count": 84
    },
    {
     "name": "SalatStealer",
-    "count": 80
+    "count": 81
    },
    {
     "name": "32-bit",
-    "count": 68
+    "count": 58
    }
   ]
  },
  "ports": [
   {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 264157,
-   "targets": 271,
-   "sources": 13130
-  },
-  {
    "port": 22,
    "service": "SSH",
-   "records": 259262,
-   "targets": 281,
-   "sources": 6576
+   "records": 646012,
+   "targets": 293,
+   "sources": 11348
   },
   {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 137156,
-   "targets": 277,
-   "sources": 3817
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 126135,
-   "targets": 278,
-   "sources": 5899
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 113636,
-   "targets": 276,
-   "sources": 3099
-  },
-  {
-   "port": 9000,
-   "service": null,
-   "records": 105497,
-   "targets": 251,
-   "sources": 2056
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 602893,
+   "targets": 307,
+   "sources": 19240
   },
   {
    "port": 2222,
    "service": null,
-   "records": 97081,
-   "targets": 272,
-   "sources": 2756
+   "records": 297365,
+   "targets": 289,
+   "sources": 6403
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 283691,
+   "targets": 286,
+   "sources": 11282
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 273555,
+   "targets": 287,
+   "sources": 6808
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 89485,
-   "targets": 258,
-   "sources": 5051
+   "records": 238577,
+   "targets": 285,
+   "sources": 9200
   },
   {
-   "port": 7680,
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 222287,
+   "targets": 289,
+   "sources": 5063
+  },
+  {
+   "port": 9000,
    "service": null,
-   "records": 85198,
-   "targets": 28,
-   "sources": 2116
+   "records": 207800,
+   "targets": 271,
+   "sources": 4166
   },
   {
    "port": 53140,
    "service": null,
-   "records": 82058,
-   "targets": 4,
-   "sources": 2077
+   "records": 195417,
+   "targets": 10,
+   "sources": 4471
+  },
+  {
+   "port": 7680,
+   "service": null,
+   "records": 183043,
+   "targets": 41,
+   "sources": 2945
   }
  ],
  "ports_date": "2026-11-26",
@@ -212,6 +212,43 @@
  ],
  "pulses": [
   {
+   "name": "Silver Fox SEO Poisoning: How Fake Downloads Spread Gh0stRAT",
+   "summary": "A sophisticated malware distribution campaign leverages SEO poisoning to deliver Gh0stRAT through fake oCam software installers. The threat actor, known as Silver Fox, distributes malicious installers via manipulated…",
+   "date": "2026-11-26T14:37:34+00:00",
+   "author": "AlienVault",
+   "adversary": "Void Arachne",
+   "malware": [
+    "Gh0stRAT"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "ocam",
+    "seo poisoning",
+    "cloudflare workers",
+    "fake installers",
+    "gh0strat"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b08442ee1d2276a3df5eca3"
+  },
+  {
+   "name": "Signed by Microsoft and Mozilla: a Brazilian kit that hands your logged-in browser to an operator",
+   "summary": "HardwareInfo.msi is a Windows installer that quietly sets up a browser-hijacking kit aimed at Brazilian users. It does not install a program you would recognise. Instead, it drops a private copy of Python plus a renamed…",
+   "date": "2026-11-26T14:03:15+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "dll-sideloading",
+    "microsoft-trusted-signing msi",
+    "pdf-viewer-lure",
+    "remote-access-trojan"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b083c2336ec691637c68ca0"
+  },
+  {
    "name": "ROMULUS ClickFix to LegionLoader and Warden Stealer: Breaking Down a Multi-Stage Malware Intrusion",
    "summary": "In November 2024, a multi-stage intrusion was identified involving ROMULUS, a ClickFix delivery system. The attack chain begins with a ClickFix lure that tricks victims into executing a malicious MSI file through a…",
    "date": "2026-11-26T10:03:06+00:00",
@@ -233,6 +270,67 @@
     "romulus"
    ],
    "url": "https://otx.alienvault.com/pulse/6b0803dab6016a11b89943e6"
+  },
+  {
+   "name": "US hospital credentials taken, a US manufacturer's cloud accessed, law firms and federal agencies next",
+   "summary": "Researchers discovered three exposed open directories containing files from an active intrusion crew targeting US organizations. Confirmed compromises include a large US hospital system whose staff credentials…",
+   "date": "2026-11-26T09:55:10+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "Apollo",
+    "Poseidon",
+    "TlsChannelFix"
+   ],
+   "countries": [
+    "United States of America",
+    "Bangladesh",
+    "Switzerland"
+   ],
+   "industries": [
+    "Healthcare",
+    "Manufacturing",
+    "Government"
+   ],
+   "tags": [
+    "tlschannelfix",
+    "citrix exploitation",
+    "apollo implant",
+    "poseidon"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b0801fe5b5f5591879fc74d"
+  },
+  {
+   "name": "SYS010 Malware Targets Meta Business Accounts",
+   "summary": "A sophisticated malvertising operation designated SYS010 leverages paid Meta advertisements promoting free animated wallpaper applications to compromise Meta Business accounts. The campaign distributes malicious browser…",
+   "date": "2026-11-26T09:55:09+00:00",
+   "author": "AlienVault",
+   "adversary": "SYS010",
+   "malware": [
+    "SYS010",
+    "Document Hub",
+    "Docs Helper"
+   ],
+   "countries": [
+    "United States of America",
+    "Algeria",
+    "Bangladesh",
+    "Belgium",
+    "Brazil",
+    "Cambodia"
+   ],
+   "industries": [
+    "Media",
+    "Retail"
+   ],
+   "tags": [
+    "email manipulation",
+    "browser extension",
+    "facebook hijacking",
+    "malvertising",
+    "sys010"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b0801fd2a3012c014f9e051"
   },
   {
    "name": "ShinyHunters-Associated Vishing Group Linked to New INCEPTION Data Leak Site",
@@ -302,29 +400,6 @@
     "malicious chrome extension"
    ],
    "url": "https://otx.alienvault.com/pulse/6b06b3ab67d3d88fe8c63eb4"
-  },
-  {
-   "name": "IkonRAT: A Poisoned Update in the Supply Chain Compromise",
-   "summary": "In November 2026, a software supply chain compromise affected a legitimate business application used within the automotive industry. Threat actors inserted 6,438 bytes of malicious JavaScript into server.bundle.js, a…",
-   "date": "2026-11-25T05:40:40+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "IkonRAT"
-   ],
-   "countries": [],
-   "industries": [
-    "Automotive"
-   ],
-   "tags": [
-    "ikonrat",
-    "uac bypass",
-    "credential theft",
-    "registry hive extraction",
-    "automotive industry",
-    "command and control"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b0674d8bd3e94833f81b5f4"
   },
   {
    "name": "Chaos Ransomware Profile: Tactics, Targets, and Indicators",
@@ -423,95 +498,13 @@
     "cross-platform attacks"
    ],
    "url": "https://otx.alienvault.com/pulse/6b05b4a5dd58cdb3c3b8dc64"
-  },
-  {
-   "name": "ARTEX leads to persistent ZQAgent backdoor",
-   "summary": "NVISO has observed an increase in intrusions leveraging adversary LLM tools such as ARTEX. These LLM-driven attacks typically excel at exploitation and credential abuse, maintaining relatively consistent attack-chains…",
-   "date": "2026-11-24T15:34:41+00:00",
-   "author": "AlienVault",
-   "adversary": "FOG0003",
-   "malware": [
-    "ARTEX",
-    "ZQAgent"
-   ],
-   "countries": [
-    "Belgium",
-    "Taiwan"
-   ],
-   "industries": [
-    "Government"
-   ],
-   "tags": [
-    "persistence",
-    "taiwan",
-    "zqagent",
-    "process spoofing",
-    "backdoor",
-    "human-rights organizations"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b05ae911562fdd4bba9179d"
-  },
-  {
-   "name": "An Active Intrusion Campaign Against Check Point Security Management Servers",
-   "summary": "An active intrusion campaign targeting Check Point Security Management Servers has been identified, impacting at least 22 organizations globally between October 17th and November 2nd, 2026. Tracked as GreyNoise Threat…",
-   "date": "2026-11-24T11:11:58+00:00",
-   "author": "AlienVault",
-   "adversary": "GreyNoise Threat 13",
-   "malware": [
-    "ZULT"
-   ],
-   "countries": [
-    "United States of America",
-    "Australia",
-    "Austria",
-    "British Indian Ocean Territory",
-    "Bulgaria",
-    "China"
-   ],
-   "industries": [
-    "Finance",
-    "Energy",
-    "Government",
-    "Transportation",
-    "Manufacturing"
-   ],
-   "tags": [
-    "cve-2020-1472",
-    "check point",
-    "certificate manipulation",
-    "cve-2026-98432",
-    "security management server",
-    "cve-2021-34473"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b0570fe5ce90c0db1b3cf42"
-  },
-  {
-   "name": "Python, Re-Skinned, Keeping the Steal: Braodo's Latest Python Loader and Obfuscation",
-   "summary": "Attackers have evolved the Braodo Stealer campaign to use sophisticated obfuscation techniques and GitHub-hosted payloads. The malware employs varied social-engineering lures themed around travel, medical records…",
-   "date": "2026-11-24T06:43:52+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Braodo Stealer"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "braodo stealer",
-    "telegram exfiltration",
-    "browser data harvesting",
-    "github payload delivery",
-    "social engineering",
-    "python bytecode"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b05322836d8c5aba9340d1d"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-26T13:08:32+00:00",
-  "sans": "2026-11-26T13:08:32+00:00",
-  "otx": "2026-11-26T13:08:32+00:00",
-  "urlhaus": "2026-11-26T13:08:32+00:00"
+  "threatfox": "2026-11-26T22:17:55+00:00",
+  "sans": "2026-11-26T22:17:55+00:00",
+  "otx": "2026-11-26T22:17:55+00:00",
+  "urlhaus": "2026-11-26T22:17:55+00:00"
  },
- "generated_at": "2026-11-26T13:08:32+00:00"
+ "generated_at": "2026-11-26T22:17:55+00:00"
 }
