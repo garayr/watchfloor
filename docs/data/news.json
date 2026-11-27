@@ -1,27 +1,70 @@
 {
  "groups": [
   {
-   "group": "Arrests, courts and policy",
-   "items": [
-    {
-     "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
-     "summary": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled…",
-     "source": "The Hacker News",
-     "date": "2026-11-25T10:43:07+00:00",
-     "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
-     "group": "Arrests, courts and policy"
-    }
-   ]
-  },
-  {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+     "summary": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. The post In Other News: Tanker…",
+     "source": "SecurityWeek",
+     "date": "2026-11-27T11:00:00+00:00",
+     "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Drupal warns of new site takeover flaw exploited in attacks",
+     "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-27T10:10:15+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "100,000 Potentially Impacted by Colorado Data Breach",
+     "summary": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek.",
+     "source": "SecurityWeek",
+     "date": "2026-11-27T09:30:54+00:00",
+     "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Hex Package Manager Warns of Potential Data Breach",
+     "summary": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach…",
+     "source": "SecurityWeek",
+     "date": "2026-11-27T07:44:49+00:00",
+     "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+     "summary": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on…",
+     "source": "SecurityWeek",
+     "date": "2026-11-27T07:36:14+00:00",
+     "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+     "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the…",
+     "source": "The Hacker News",
+     "date": "2026-11-27T06:04:20+00:00",
+     "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
      "summary": "FIFA didn’t say when the cyberattack took place, or the precise nature of the hacked information. The post FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ appeared first on…",
      "source": "SecurityWeek",
      "date": "2026-11-26T17:06:55+00:00",
      "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+     "summary": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity…",
+     "source": "The Hacker News",
+     "date": "2026-11-26T15:13:41+00:00",
+     "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
      "group": "Breaches and ransomware"
     },
     {
@@ -69,28 +112,28 @@
      "date": "2026-11-25T21:33:33+00:00",
      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Hackers reportedly breached CIA intelligence analysis system",
-     "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T07:45:03+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-     "summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and…",
-     "source": "The Hacker News",
-     "date": "2026-11-25T06:37:06+00:00",
-     "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+     "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-27T08:06:58+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+     "group": "Exploited right now"
+    },
+    {
+     "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+     "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be…",
+     "source": "The Hacker News",
+     "date": "2026-11-27T05:48:20+00:00",
+     "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+     "group": "Exploited right now"
+    },
     {
      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
@@ -165,54 +208,11 @@
      "group": "Exploited right now"
     },
     {
-     "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-     "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than…",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T15:00:00+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-     "group": "Exploited right now"
-    },
-    {
      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -…",
      "source": "The Hacker News",
      "date": "2026-11-25T12:48:54+00:00",
      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by…",
-     "source": "The Hacker News",
-     "date": "2026-11-25T11:23:26+00:00",
-     "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2026-132165"
-     ]
-    },
-    {
-     "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-     "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T10:10:20+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
-     "summary": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the…",
-     "source": "The Hacker News",
-     "date": "2026-11-25T09:06:59+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
-     "group": "Exploited right now"
-    },
-    {
-     "title": "Microsoft confirms authentication issues after November updates",
-     "summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T09:02:57+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
      "group": "Exploited right now"
     }
    ]
@@ -221,19 +221,27 @@
    "group": "Malware and campaigns",
    "items": [
     {
+     "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+     "summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to…",
+     "source": "The Hacker News",
+     "date": "2026-11-27T11:49:34+00:00",
+     "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+     "group": "Malware and campaigns"
+    },
+    {
+     "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+     "summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that…",
+     "source": "The Hacker News",
+     "date": "2026-11-27T09:29:30+00:00",
+     "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+     "group": "Malware and campaigns"
+    },
+    {
      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
      "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews…",
      "source": "BleepingComputer",
      "date": "2026-11-26T17:15:27+00:00",
      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
-     "group": "Malware and campaigns"
-    },
-    {
-     "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-     "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides…",
-     "source": "The Hacker News",
-     "date": "2026-11-26T15:13:41+00:00",
-     "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
      "group": "Malware and campaigns"
     },
     {
@@ -259,20 +267,44 @@
      "date": "2026-11-26T03:48:52+00:00",
      "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
      "group": "Malware and campaigns"
-    },
-    {
-     "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-     "summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The…",
-     "source": "The Hacker News",
-     "date": "2026-11-25T06:50:19+00:00",
-     "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
-     "group": "Malware and campaigns"
     }
    ]
   },
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "Microsoft removes WSUS server role in Windows Server 2028",
+     "summary": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-27T11:18:36+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+     "group": "Other news"
+    },
+    {
+     "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+     "summary": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells…",
+     "source": "The Hacker News",
+     "date": "2026-11-27T10:32:18+00:00",
+     "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+     "group": "Other news"
+    },
+    {
+     "title": "SAP confirms security incident after suspicious GitHub activity",
+     "summary": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-27T09:56:36+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+     "group": "Other news"
+    },
+    {
+     "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+     "summary": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-27T09:08:16+00:00",
+     "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+     "group": "Other news"
+    },
     {
      "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
      "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]",
@@ -314,30 +346,6 @@
      "group": "Other news"
     },
     {
-     "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
-     "summary": "An account tied to ShinyHunters announced the group’s return, as Okta spots possible links between Inception and ShinyHunters hackers. The post ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties…",
-     "source": "SecurityWeek",
-     "date": "2026-11-25T14:15:25+00:00",
-     "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
-     "group": "Other news"
-    },
-    {
-     "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
-     "summary": "FinCEN has extended deadlines for filers affected by the disruptions while it is investigating the incident. The post US Treasury’s FinCEN Disconnects Systems Following Cyber Incident appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-25T13:39:21+00:00",
-     "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
-     "group": "Other news"
-    },
-    {
-     "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
-     "summary": "Matthew Martin is Chief Information Security and Privacy Officer at Western Carolina University. The post Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget appeared first on…",
-     "source": "SecurityWeek",
-     "date": "2026-11-25T13:30:00+00:00",
-     "url": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
-     "group": "Other news"
-    },
-    {
      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
      "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on…",
      "source": "The Hacker News",
@@ -351,22 +359,6 @@
      "source": "The Hacker News",
      "date": "2026-11-25T11:51:48+00:00",
      "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-     "summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T11:16:32+00:00",
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
-     "group": "Other news"
-    },
-    {
-     "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
-     "summary": "The edtech company says the systems are fully operational and safe to use while it investigates the incident. The post Plagiarism Checker Turnitin Investigating Cyberattack appeared first on SecurityWeek.",
-     "source": "SecurityWeek",
-     "date": "2026-11-25T10:40:07+00:00",
-     "url": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
      "group": "Other news"
     }
    ]

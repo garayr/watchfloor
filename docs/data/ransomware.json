@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T04:23:05+00:00",
+ "generated_at": "2026-11-27T14:06:02+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -10,7 +10,7 @@
   },
   {
    "name": "SilentRansomGroup",
-   "count": 10
+   "count": 8
   },
   {
    "name": "PixelLeaks",
@@ -39,11 +39,11 @@
  ],
  "by_sector": [
   {
-   "name": "Manufacturing",
+   "name": "Professional Services",
    "count": 11
   },
   {
-   "name": "Professional Services",
+   "name": "Manufacturing",
    "count": 10
   },
   {
@@ -55,12 +55,12 @@
    "count": 7
   },
   {
-   "name": "Retail & E-Commerce",
-   "count": 7
+   "name": "Education",
+   "count": 6
   },
   {
-   "name": "Education",
-   "count": 5
+   "name": "Retail & E-Commerce",
+   "count": 6
   }
  ],
  "by_country": [
@@ -71,22 +71,28 @@
    "lon": -77.5
   },
   {
-   "code": "CA",
-   "count": 7,
-   "lat": 43.7,
-   "lon": -79.4
-  },
-  {
    "code": "DE",
    "count": 6,
    "lat": 50.1,
    "lon": 8.7
   },
   {
+   "code": "CA",
+   "count": 5,
+   "lat": 43.7,
+   "lon": -79.4
+  },
+  {
    "code": "ID",
    "count": 3,
    "lat": -6.2,
    "lon": 106.8
+  },
+  {
+   "code": "ES",
+   "count": 2,
+   "lat": 40.4,
+   "lon": -3.7
   },
   {
    "code": "GB",
@@ -119,16 +125,16 @@
    "lon": 151.2
   },
   {
+   "code": "BE",
+   "count": 1,
+   "lat": 50.8,
+   "lon": 4.4
+  },
+  {
    "code": "CH",
    "count": 1,
    "lat": 46.9,
    "lon": 7.4
-  },
-  {
-   "code": "ES",
-   "count": 1,
-   "lat": 40.4,
-   "lon": -3.7
   },
   {
    "code": "HK",
@@ -159,6 +165,18 @@
    "count": 1,
    "lat": 19.4,
    "lon": -99.1
+  },
+  {
+   "code": "MY",
+   "count": 1,
+   "lat": 3.1,
+   "lon": 101.7
+  },
+  {
+   "code": "NL",
+   "count": 1,
+   "lat": 52.4,
+   "lon": 4.9
   },
   {
    "code": "NO",
@@ -192,6 +210,69 @@
   }
  ],
  "victims": [
+  {
+   "victim": "pregis",
+   "group": "iah6477",
+   "date": "2026-11-27T08:43:28+00:00",
+   "attack_date": "2026-11-27",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/cHJlZ2lzQGlhaDY0Nzc="
+  },
+  {
+   "victim": "dygav.es",
+   "group": "Puppeteer",
+   "date": "2026-11-27T07:05:42+00:00",
+   "attack_date": "2026-11-25",
+   "country": "ES",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/ZHlnYXYuZXNAUHVwcGV0ZWVy"
+  },
+  {
+   "victim": "signaturelex.com",
+   "group": "Puppeteer",
+   "date": "2026-11-27T07:05:28+00:00",
+   "attack_date": "2026-11-25",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/c2lnbmF0dXJlbGV4LmNvbUBQdXBwZXRlZXI="
+  },
+  {
+   "victim": "Thomas More University",
+   "group": "qilin",
+   "date": "2026-11-27T06:44:27+00:00",
+   "attack_date": "2026-11-27",
+   "country": "BE",
+   "sector": "Education",
+   "url": "https://www.ransomware.live/id/VGhvbWFzIE1vcmUgVW5pdmVyc2l0eUBxaWxpbg=="
+  },
+  {
+   "victim": "SternKlinik (medi-z Bremen GmbH)",
+   "group": "spacebears",
+   "date": "2026-11-27T03:51:24+00:00",
+   "attack_date": "2026-11-27",
+   "country": "DE",
+   "sector": "Healthcare",
+   "url": "https://www.ransomware.live/id/U3Rlcm5LbGluaWsgKG1lZGkteiBCcmVtZW4gR21iSClAc3BhY2ViZWFycw=="
+  },
+  {
+   "victim": "Wolters Kluwer",
+   "group": "direwolf",
+   "date": "2026-11-27T01:02:46+00:00",
+   "attack_date": "2026-11-27",
+   "country": "NL",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/V29sdGVycyBLbHV3ZXJAZGlyZXdvbGY="
+  },
+  {
+   "victim": "Elektro-Ruppen",
+   "group": "bravox",
+   "date": "2026-11-27T00:58:27+00:00",
+   "attack_date": "2026-11-27",
+   "country": "CH",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/RWxla3Ryby1SdXBwZW5AYnJhdm94"
+  },
   {
    "victim": "Eversource",
    "group": "Whitearmor",
@@ -530,7 +611,7 @@
    "group": "BrainCipher",
    "date": "2026-11-25T22:21:01+00:00",
    "attack_date": "2026-11-25",
-   "country": null,
+   "country": "MY",
    "sector": "Other",
    "url": "https://www.ransomware.live/id/cGFjaWZpYy1vcmllbnQuY29tQEJyYWluQ2lwaGVy"
   },
@@ -1010,69 +1091,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Sy4uLiBCLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "Archer & Greiner",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-24T20:39:02+00:00",
-   "attack_date": "2026-11-24",
-   "country": "DE",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/QXJjaGVyICYgR3JlaW5lckBTaWxlbnRSYW5zb21Hcm91cA=="
-  },
-  {
-   "victim": "UltraBac Software",
-   "group": "play",
-   "date": "2026-11-24T19:48:08+00:00",
-   "attack_date": "2026-11-24",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/VWx0cmFCYWMgU29mdHdhcmVAcGxheQ=="
-  },
-  {
-   "victim": "IRL Group",
-   "group": "play",
-   "date": "2026-11-24T19:47:34+00:00",
-   "attack_date": "2026-11-24",
-   "country": "CA",
-   "sector": "Other",
-   "url": "https://www.ransomware.live/id/SVJMIEdyb3VwQHBsYXk="
-  },
-  {
-   "victim": "Valvo Electrical Supply Ltd",
-   "group": "play",
-   "date": "2026-11-24T19:47:00+00:00",
-   "attack_date": "2026-11-24",
-   "country": "CA",
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/VmFsdm8gRWxlY3RyaWNhbCBTdXBwbHkgTHRkQHBsYXk="
-  },
-  {
-   "victim": "Rolf Maier & Co AG",
-   "group": "play",
-   "date": "2026-11-24T19:46:26+00:00",
-   "attack_date": "2026-11-24",
-   "country": "CH",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Um9sZiBNYWllciAmIENvIEFHQHBsYXk="
-  },
-  {
-   "victim": "Stanley Parts and Equipment",
-   "group": "play",
-   "date": "2026-11-24T19:45:52+00:00",
-   "attack_date": "2026-11-24",
-   "country": "US",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/U3RhbmxleSBQYXJ0cyBhbmQgRXF1aXBtZW50QHBsYXk="
-  },
-  {
-   "victim": "A... G...",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-24T17:00:21+00:00",
-   "attack_date": "2026-11-24",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/QS4uLiBHLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
   },
   {
    "victim": "ABL Bio",

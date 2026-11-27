@@ -2,44 +2,44 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1920,
-  "c2_servers": 1025,
+  "total_iocs": 1937,
+  "c2_servers": 1232,
   "families": [
    {
-    "name": "Unknown Loader",
-    "iocs": 201,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
-   },
-   {
     "name": "ClearFake",
-    "iocs": 72,
+    "iocs": 59,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 54,
-    "c2": 45,
+    "iocs": 57,
+    "c2": 48,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Mirai",
-    "iocs": 53,
-    "c2": 2,
+    "iocs": 51,
+    "c2": 3,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 45,
-    "c2": 44,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "AsyncRAT",
+    "iocs": 46,
+    "c2": 43,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
     "name": "Raven Stealer",
     "iocs": 40,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
+   },
+   {
+    "name": "Unknown Loader",
+    "iocs": 40,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "Agent Tesla",
@@ -54,130 +54,130 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
    },
    {
-    "name": "Unknown RAT",
-    "iocs": 29,
-    "c2": 7,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat"
+    "name": "VShell",
+    "iocs": 32,
+    "c2": 32,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "ValleyRAT",
-    "iocs": 28,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.valley_rat"
+    "name": "WARDENStealer",
+    "iocs": 29,
+    "c2": 28,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    }
   ]
  },
  "urls": {
-  "sample": 576,
-  "online": 380,
+  "sample": 1000,
+  "online": 820,
   "top_tags": [
    {
-    "name": "Mozi",
-    "count": 193
+    "name": "github",
+    "count": 538
+   },
+   {
+    "name": "zip",
+    "count": 486
+   },
+   {
+    "name": "SmartLoader",
+    "count": 459
+   },
+   {
+    "name": "luajit",
+    "count": 379
    },
    {
     "name": "mirai",
-    "count": 137
+    "count": 158
    },
    {
-    "name": "github",
-    "count": 84
+    "name": "Mozi",
+    "count": 129
    },
    {
     "name": "elf",
-    "count": 67
+    "count": 85
    },
    {
     "name": "zapret",
-    "count": 54
-   },
-   {
-    "name": "32-bit",
-    "count": 42
-   },
-   {
-    "name": "mips",
-    "count": 28
-   },
-   {
-    "name": "rat",
-    "count": 19
+    "count": 44
    }
   ]
  },
  "ports": [
   {
-   "port": 22,
-   "service": "SSH",
-   "records": 646012,
-   "targets": 293,
-   "sources": 11348
-  },
-  {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 602893,
-   "targets": 307,
-   "sources": 19240
-  },
-  {
-   "port": 2222,
-   "service": null,
-   "records": 297365,
-   "targets": 289,
-   "sources": 6403
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 283691,
-   "targets": 286,
-   "sources": 11282
-  },
-  {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 273555,
-   "targets": 287,
-   "sources": 6808
+   "records": 913352,
+   "targets": 281,
+   "sources": 15112
   },
   {
    "port": 80,
    "service": "Web (HTTP)",
-   "records": 238577,
-   "targets": 285,
-   "sources": 9200
+   "records": 769572,
+   "targets": 267,
+   "sources": 7173
+  },
+  {
+   "port": 22,
+   "service": "SSH",
+   "records": 456194,
+   "targets": 282,
+   "sources": 7998
+  },
+  {
+   "port": 2222,
+   "service": null,
+   "records": 201603,
+   "targets": 279,
+   "sources": 3241
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 189786,
+   "targets": 279,
+   "sources": 5029
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 222287,
-   "targets": 289,
-   "sources": 5063
+   "records": 169258,
+   "targets": 284,
+   "sources": 3787
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 160753,
+   "targets": 280,
+   "sources": 8017
   },
   {
    "port": 9000,
    "service": null,
-   "records": 207800,
-   "targets": 271,
-   "sources": 4166
+   "records": 149669,
+   "targets": 259,
+   "sources": 2818
   },
   {
-   "port": 53140,
-   "service": null,
-   "records": 195417,
-   "targets": 10,
-   "sources": 4471
+   "port": 7547,
+   "service": "Router management (TR-069)",
+   "records": 114707,
+   "targets": 231,
+   "sources": 2153
   },
   {
    "port": 7680,
    "service": null,
-   "records": 183043,
-   "targets": 41,
-   "sources": 2945
+   "records": 102308,
+   "targets": 33,
+   "sources": 2630
   }
  ],
- "ports_date": "2026-11-26",
+ "ports_date": "2026-11-27",
  "diary": [
   {
    "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
@@ -211,6 +211,55 @@
   }
  ],
  "pulses": [
+  {
+   "name": "182 Banks, 38 Crypto Platforms, One Toolkit: The Godfather Tech Android Fraud Arsenal",
+   "summary": "An exposed development folder revealed the operations of Godfather Tech, a Telegram-based seller distributing Android remote-access trojans derived from the Flying Eagle codebase. The toolkit targets 182 banks across 56…",
+   "date": "2026-11-26T18:54:41+00:00",
+   "author": "AlienVault",
+   "adversary": "Godfather Tech",
+   "malware": [
+    "Flying Eagle",
+    "Octopus Goes Overseas",
+    "Galaxy V6",
+    "FinFisher - S0182",
+    "FinSpy",
+    "PandaV7"
+   ],
+   "countries": [],
+   "industries": [
+    "Finance"
+   ],
+   "tags": [
+    "octopus goes overseas",
+    "galaxy v6",
+    "chinese-speaking threat",
+    "banking trojan",
+    "pandav7",
+    "telegram distribution"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b0880718d39da854175cfda"
+  },
+  {
+   "name": "PolinRider Malware Force-Pushed Into AsyncAPI, CircuitVerse and Open Food Facts Pull Requests",
+   "summary": "On October 19, 2026, the GitHub account Eternity0207 force-pushed malicious commits containing obfuscated PolinRider malware loaders into open pull requests across AsyncAPI Generator, CircuitVerse, and Open Food Facts…",
+   "date": "2026-11-26T18:50:24+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "PolinRider"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "pull request poisoning",
+    "polinrider",
+    "github",
+    "cryptocurrency wallet",
+    "fake recruiter",
+    "ci compromise"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b087f709c81241d08ab4b97"
+  },
   {
    "name": "Silver Fox SEO Poisoning: How Fake Downloads Spread Gh0stRAT",
    "summary": "A sophisticated malware distribution campaign leverages SEO poisoning to deliver Gh0stRAT through fake oCam software installers. The threat actor, known as Silver Fox, distributes malicious installers via manipulated…",
@@ -359,156 +408,114 @@
    "url": "https://otx.alienvault.com/pulse/6b06d19082ce9f6140be59eb"
   },
   {
-   "name": "Vinci RAT Delivered Through a Malicious Microsoft Store App",
-   "summary": "In early November 2026, investigators discovered an intrusion initiated through redirection to a fake snipping tool website, leading to installation of a malicious application called Setup Assistant from the Microsoft…",
-   "date": "2026-11-25T10:08:43+00:00",
+   "name": "n0n Ransomware: Inside an AI-Assisted Extortion Operation",
+   "summary": "In September 2026, an exposed staging server revealed the complete operational workspace of a n0n ransomware operator, including breach tools, encryptor source code, extortion infrastructure, and an AI coding agent…",
+   "date": "2026-10-28T14:54:04+00:00",
    "author": "AlienVault",
-   "adversary": null,
+   "adversary": "N0n",
    "malware": [
-    "Vinci RAT",
-    "Setup Assistant"
+    "n0n"
    ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "powershell rat",
-    "setup assistant",
-    "electron backdoor",
-    "fake download pages",
-    "microsoft store abuse",
-    "search-engine redirection"
+   "countries": [
+    "United States of America",
+    "Argentina",
+    "Venezuela, Bolivarian Republic of"
    ],
-   "url": "https://otx.alienvault.com/pulse/6b06b3aba5af3b81ce75b529"
-  },
-  {
-   "name": "Exposing the Gmail \"Zero-Day\" Behind Remus Stealer's Email Interception Feature",
-   "summary": "Developers of Remus Stealer promoted a new Gmail interception feature on November 8, 2026, claiming it exploited a zero-day vulnerability allowing mailbox access independent of stolen cookies, even after password…",
-   "date": "2026-11-25T10:08:43+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "Remus Stealer"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "email exfiltration",
-    "browser manipulation",
-    "credential theft",
-    "gmail interception",
-    "stealer campaign",
-    "malicious chrome extension"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b06b3ab67d3d88fe8c63eb4"
-  },
-  {
-   "name": "Volant Manticore: Flying Under the Radar",
-   "summary": "An Iran-nexus threat group named Volant Manticore has been conducting espionage operations since at least September 2025, with links to the Ministry of Intelligence and Security (MOIS). The group shares tooling and…",
-   "date": "2026-11-24T16:03:11+00:00",
-   "author": "AlienVault",
-   "adversary": "Volant Manticore",
-   "malware": [
-    "KuboShell",
-    "Homa Framework",
-    "MuddyC2Go",
-    "PhonyC2",
-    "DarkBeatC2"
-   ],
-   "countries": [],
    "industries": [
+    "Retail",
+    "Technology",
+    "Education",
     "Telecommunications",
-    "Transportation",
+    "Government",
     "Healthcare"
    ],
    "tags": [
-    "kuboshell",
-    "mois",
-    "muddyc2go",
-    "healthcare sector",
-    "phishing campaigns",
-    "ipfs"
+    "backup destruction",
+    "n0n",
+    "credential stuffing",
+    "destructive extortion",
+    "ai-assisted attacks",
+    "llm coding agent"
    ],
-   "url": "https://otx.alienvault.com/pulse/6b05b53f25f012a58e23b63c"
+   "url": "https://otx.alienvault.com/pulse/6ae20c8c345d85127b06d6d0"
   },
   {
-   "name": "13 Malicious NuGet Packages Target.NET Developers With Fake Job Assessments",
-   "summary": "Thirteen malicious NuGet packages were discovered targeting Windows.NET developers through fake job assessment projects. The operation began on npm in July 2024 and uses WinUI 3 and WPF button controls as lures. The…",
-   "date": "2026-11-24T16:00:41+00:00",
+   "name": "PHP2Shell Weaponized After Japanese Real Estate Extortion",
+   "summary": "An exposed staging server at 96.126.130.81 revealed an operator's extortion campaign targeting Japanese real estate websites between October 9-11, 2026, followed by PHP2Shell exploitation tooling. The operator, using…",
+   "date": "2026-10-28T14:54:03+00:00",
    "author": "AlienVault",
-   "adversary": null,
+   "adversary": "kkkkevin777",
    "malware": [],
-   "countries": [],
+   "countries": [
+    "Japan",
+    "Taiwan"
+   ],
    "industries": [
-    "Technology"
+    "Real Estate",
+    "Finance"
    ],
    "tags": [
-    "github-c2",
-    "dll-side-loading",
-    "nuget-packages",
-    "fake-job-assessment",
-    "credential-theft",
-    "msbuild-abuse"
+    "kkkkevin777",
+    "cve-2026-109618",
+    "php2shell",
+    "shared hosting compromise",
+    "japanese real estate extortion",
+    "cve-2026-109619"
    ],
-   "url": "https://otx.alienvault.com/pulse/6b05b4a9fc9275b1ea55209b"
+   "url": "https://otx.alienvault.com/pulse/6ae20c8b7eea709e876863db"
   },
   {
-   "name": "Recent Trends and Tactics of Agentic AI Attacks",
-   "summary": "Attackers are deploying autonomous AI agents in real-world campaigns, operating at machine speed and compressing attack lifecycles from weeks into hours. Between July and September 2026, over 10 global campaigns were…",
-   "date": "2026-11-24T16:00:37+00:00",
+   "name": "68 GB Stolen From a Philippine Government Agency's Overseas-Employment Databases, Exposed by the Operator's Own Open Directory",
+   "summary": "An unidentified operator exfiltrated 68.837 GiB of database backups from a Philippine government agency managing overseas employment and migrant workers on 6 September 2026. The theft involved 27 SQL Server backups…",
+   "date": "2026-10-28T14:25:18+00:00",
    "author": "AlienVault",
    "adversary": null,
-   "malware": [],
-   "countries": [],
-   "industries": [
-    "Government",
-    "Hospitality",
-    "Manufacturing",
-    "Agriculture",
-    "Education"
-   ],
-   "tags": [
-    "privilege escalation",
-    "edr evasion",
-    "cloud compromise",
-    "web shells",
-    "cve-2026-31431",
-    "cross-platform attacks"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b05b4a5dd58cdb3c3b8dc64"
-  },
-  {
-   "name": "ARTEX leads to persistent ZQAgent backdoor",
-   "summary": "NVISO has observed an increase in intrusions leveraging adversary LLM tools such as ARTEX. These LLM-driven attacks typically excel at exploitation and credential abuse, maintaining relatively consistent attack-chains…",
-   "date": "2026-11-24T15:34:41+00:00",
-   "author": "AlienVault",
-   "adversary": "FOG0003",
    "malware": [
-    "ARTEX",
-    "ZQAgent"
+    "Wrqsnx",
+    "GodPotato"
    ],
    "countries": [
-    "Belgium",
-    "Taiwan"
+    "Philippines"
    ],
    "industries": [
     "Government"
    ],
    "tags": [
-    "persistence",
-    "taiwan",
-    "zqagent",
-    "process spoofing",
-    "backdoor",
-    "human-rights organizations"
+    "impacket toolkit",
+    "database exfiltration",
+    "wrqsnx",
+    "privilege escalation",
+    "philippines government",
+    "open directory exposure"
    ],
-   "url": "https://otx.alienvault.com/pulse/6b05ae911562fdd4bba9179d"
+   "url": "https://otx.alienvault.com/pulse/6ae205cefd1c69f6a9b3116d"
+  },
+  {
+   "name": "RATatouille: Today's Special: Impersonating Companies in Korea, Payments in Cryptocurrency",
+   "summary": "Infrastructure tracking related to ValleyRAT led to the discovery of multiple fraudulent websites impersonating legitimate Korean companies including Doosan Robotics and Cheonjeong. These sites used authentic corporate…",
+   "date": "2026-10-28T05:19:12+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [
+    "ValleyRAT"
+   ],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "usdt",
+    "cryptocurrency fraud",
+    "valleyrat",
+    "phishing websites",
+    "RATatouille"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae185d0d24a85ae5c54ae6f"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-27T04:23:05+00:00",
-  "sans": "2026-11-27T04:23:05+00:00",
-  "otx": "2026-11-27T04:23:05+00:00",
-  "urlhaus": "2026-11-27T04:23:05+00:00"
+  "threatfox": "2026-11-27T14:06:02+00:00",
+  "sans": "2026-11-27T14:06:02+00:00",
+  "otx": "2026-11-27T14:06:02+00:00",
+  "urlhaus": "2026-11-27T14:06:02+00:00"
  },
- "generated_at": "2026-11-27T04:23:05+00:00"
+ "generated_at": "2026-11-27T14:06:02+00:00"
 }

@@ -334,6 +334,35 @@
    "sev": "critical"
   },
   {
+   "id": "CVE-2026-132165",
+   "date": "2026-11-24",
+   "src": "CISA",
+   "vendor": "Drupal Core",
+   "vendor_name": "Drupal",
+   "product": "Core",
+   "title": "Drupal Core Remote Code Execution Vulnerability",
+   "detail": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-132165"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+   "kev": true,
+   "epss": 0.1105,
+   "cvss": 9.8,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+     "source": "The Hacker News",
+     "date": "2026-11-26T07:02:34+00:00"
+    }
+   ]
+  },
+  {
    "id": "CVE-2026-132224",
    "date": "2026-11-24",
    "src": "CISA",
@@ -353,40 +382,6 @@
    "epss": 0.0106,
    "cvss": 7.1,
    "sev": "high"
-  },
-  {
-   "id": "CVE-2026-132165",
-   "date": "2026-11-24",
-   "src": "CISA",
-   "vendor": "Drupal Core",
-   "vendor_name": "Drupal",
-   "product": "Core",
-   "title": "Drupal Core Remote Code Execution Vulnerability",
-   "detail": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-11-27",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-132165"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
-   "kev": true,
-   "epss": 0.1105,
-   "sev": "high",
-   "news": [
-    {
-     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
-     "source": "The Hacker News",
-     "date": "2026-11-26T07:02:34+00:00"
-    },
-    {
-     "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-     "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-     "source": "The Hacker News",
-     "date": "2026-11-25T11:23:26+00:00"
-    }
-   ]
   },
   {
    "id": "CVE-2026-133968",
