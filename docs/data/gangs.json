@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T22:17:55+00:00",
+ "generated_at": "2026-11-27T04:23:05+00:00",
  "source": "Ransomware.live",
  "gangs": {
   "thegentlemen": {
@@ -5814,8 +5814,8 @@
    "description": null,
    "aliases": [],
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-18",
-   "victims_total": 23,
+   "last_seen": "2026-11-26",
+   "victims_total": 28,
    "cves": [],
    "tools": [],
    "techniques": [],
@@ -5824,7 +5824,11 @@
     "countries": [
      {
       "name": "US",
-      "count": 7
+      "count": 8
+     },
+     {
+      "name": "CO",
+      "count": 4
      },
      {
       "name": "AR",
@@ -5832,10 +5836,6 @@
      },
      {
       "name": "CN",
-      "count": 1
-     },
-     {
-      "name": "CO",
       "count": 1
      },
      {
@@ -5853,6 +5853,10 @@
       "count": 6
      },
      {
+      "name": "Healthcare",
+      "count": 5
+     },
+     {
       "name": "Transportation",
       "count": 5
      },
@@ -5867,10 +5871,6 @@
      {
       "name": "Retail & E-Commerce",
       "count": 3
-     },
-     {
-      "name": "Government & Defense",
-      "count": 1
      }
     ]
    },
@@ -5921,11 +5921,11 @@
     },
     {
      "month": "2026-11",
-     "count": 6
+     "count": 11
     }
    ],
-   "history_size": 23,
-   "updated": "2026-11-18T18:00:02+00:00"
+   "history_size": 28,
+   "updated": "2026-11-27T04:23:05+00:00"
   },
   "chaos": {
    "name": "chaos",

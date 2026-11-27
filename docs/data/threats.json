@@ -2,50 +2,38 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2153,
-  "c2_servers": 846,
+  "total_iocs": 1920,
+  "c2_servers": 1025,
   "families": [
    {
-    "name": "IClickFix",
-    "iocs": 360,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 198,
+    "iocs": 201,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "ClearFake",
-    "iocs": 123,
+    "iocs": 72,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
     "name": "Vidar",
-    "iocs": 55,
-    "c2": 46,
+    "iocs": 54,
+    "c2": 45,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 51,
-    "c2": 50,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
-   },
-   {
     "name": "Mirai",
-    "iocs": 48,
-    "c2": 0,
+    "iocs": 53,
+    "c2": 2,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "Formbook",
-    "iocs": 42,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
+    "name": "Cobalt Strike",
+    "iocs": 45,
+    "c2": 44,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    },
    {
     "name": "Raven Stealer",
@@ -60,6 +48,18 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla"
    },
    {
+    "name": "Formbook",
+    "iocs": 39,
+    "c2": 2,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
+   },
+   {
+    "name": "Unknown RAT",
+    "iocs": 29,
+    "c2": 7,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat"
+   },
+   {
     "name": "ValleyRAT",
     "iocs": 28,
     "c2": 2,
@@ -68,40 +68,40 @@
   ]
  },
  "urls": {
-  "sample": 1000,
-  "online": 643,
+  "sample": 576,
+  "online": 380,
   "top_tags": [
    {
-    "name": "github",
-    "count": 310
-   },
-   {
     "name": "Mozi",
-    "count": 251
-   },
-   {
-    "name": "zapret",
-    "count": 198
+    "count": 193
    },
    {
     "name": "mirai",
-    "count": 173
+    "count": 137
    },
    {
-    "name": "elf",
-    "count": 100
-   },
-   {
-    "name": "exe",
+    "name": "github",
     "count": 84
    },
    {
-    "name": "SalatStealer",
-    "count": 81
+    "name": "elf",
+    "count": 67
+   },
+   {
+    "name": "zapret",
+    "count": 54
    },
    {
     "name": "32-bit",
-    "count": 58
+    "count": 42
+   },
+   {
+    "name": "mips",
+    "count": 28
+   },
+   {
+    "name": "rat",
+    "count": 19
    }
   ]
  },
@@ -402,29 +402,6 @@
    "url": "https://otx.alienvault.com/pulse/6b06b3ab67d3d88fe8c63eb4"
   },
   {
-   "name": "Chaos Ransomware Profile: Tactics, Targets, and Indicators",
-   "summary": "Active since 2025, Chaos operates as a financially motivated ransomware-as-a-service group utilizing an affiliate model. Affiliates employ social engineering techniques, particularly spam campaigns and voice phishing…",
-   "date": "2026-11-24T20:33:57+00:00",
-   "author": "AlienVault",
-   "adversary": "chaos",
-   "malware": [
-    "Chaos - S0220"
-   ],
-   "countries": [
-    "United States of America"
-   ],
-   "industries": [],
-   "tags": [
-    "vishing",
-    "affiliate model",
-    "chaos",
-    "it support impersonation",
-    "social engineering",
-    "ddos extortion"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b05f4b567c7668826d406d8"
-  },
-  {
    "name": "Volant Manticore: Flying Under the Radar",
    "summary": "An Iran-nexus threat group named Volant Manticore has been conducting espionage operations since at least September 2025, with links to the Ministry of Intelligence and Security (MOIS). The group shares tooling and…",
    "date": "2026-11-24T16:03:11+00:00",
@@ -498,13 +475,40 @@
     "cross-platform attacks"
    ],
    "url": "https://otx.alienvault.com/pulse/6b05b4a5dd58cdb3c3b8dc64"
+  },
+  {
+   "name": "ARTEX leads to persistent ZQAgent backdoor",
+   "summary": "NVISO has observed an increase in intrusions leveraging adversary LLM tools such as ARTEX. These LLM-driven attacks typically excel at exploitation and credential abuse, maintaining relatively consistent attack-chains…",
+   "date": "2026-11-24T15:34:41+00:00",
+   "author": "AlienVault",
+   "adversary": "FOG0003",
+   "malware": [
+    "ARTEX",
+    "ZQAgent"
+   ],
+   "countries": [
+    "Belgium",
+    "Taiwan"
+   ],
+   "industries": [
+    "Government"
+   ],
+   "tags": [
+    "persistence",
+    "taiwan",
+    "zqagent",
+    "process spoofing",
+    "backdoor",
+    "human-rights organizations"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6b05ae911562fdd4bba9179d"
   }
  ],
  "updated": {
-  "threatfox": "2026-11-26T22:17:55+00:00",
-  "sans": "2026-11-26T22:17:55+00:00",
-  "otx": "2026-11-26T22:17:55+00:00",
-  "urlhaus": "2026-11-26T22:17:55+00:00"
+  "threatfox": "2026-11-27T04:23:05+00:00",
+  "sans": "2026-11-27T04:23:05+00:00",
+  "otx": "2026-11-27T04:23:05+00:00",
+  "urlhaus": "2026-11-27T04:23:05+00:00"
  },
- "generated_at": "2026-11-26T22:17:55+00:00"
+ "generated_at": "2026-11-27T04:23:05+00:00"
 }

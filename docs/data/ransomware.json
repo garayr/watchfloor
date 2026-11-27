@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T22:17:55+00:00",
+ "generated_at": "2026-11-27T04:23:05+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 99,
@@ -10,7 +10,15 @@
   },
   {
    "name": "SilentRansomGroup",
-   "count": 11
+   "count": 10
+  },
+  {
+   "name": "PixelLeaks",
+   "count": 7
+  },
+  {
+   "name": "Inception",
+   "count": 6
   },
   {
    "name": "SilentVault",
@@ -25,41 +33,33 @@
    "count": 6
   },
   {
-   "name": "Inception",
-   "count": 5
-  },
-  {
    "name": "Orova",
-   "count": 5
-  },
-  {
-   "name": "play",
    "count": 5
   }
  ],
  "by_sector": [
   {
    "name": "Manufacturing",
-   "count": 12
-  },
-  {
-   "name": "Professional Services",
    "count": 11
   },
   {
+   "name": "Professional Services",
+   "count": 10
+  },
+  {
    "name": "Technology",
+   "count": 9
+  },
+  {
+   "name": "Financial Services",
+   "count": 7
+  },
+  {
+   "name": "Retail & E-Commerce",
    "count": 7
   },
   {
    "name": "Education",
-   "count": 6
-  },
-  {
-   "name": "Retail & E-Commerce",
-   "count": 6
-  },
-  {
-   "name": "Financial Services",
    "count": 5
   }
  ],
@@ -72,7 +72,7 @@
   },
   {
    "code": "CA",
-   "count": 6,
+   "count": 7,
    "lat": 43.7,
    "lon": -79.4
   },
@@ -83,28 +83,28 @@
    "lon": 8.7
   },
   {
-   "code": "IN",
-   "count": 4,
-   "lat": 19.1,
-   "lon": 72.9
-  },
-  {
    "code": "ID",
    "count": 3,
    "lat": -6.2,
    "lon": 106.8
   },
   {
-   "code": "IT",
-   "count": 3,
-   "lat": 41.9,
-   "lon": 12.5
-  },
-  {
    "code": "GB",
    "count": 2,
    "lat": 51.5,
    "lon": -0.1
+  },
+  {
+   "code": "IN",
+   "count": 2,
+   "lat": 19.1,
+   "lon": 72.9
+  },
+  {
+   "code": "IT",
+   "count": 2,
+   "lat": 41.9,
+   "lon": 12.5
   },
   {
    "code": "AT",
@@ -192,6 +192,87 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Eversource",
+   "group": "Whitearmor",
+   "date": "2026-11-26T23:33:19+00:00",
+   "attack_date": "2026-11-26",
+   "country": "US",
+   "sector": "Energy & Utilities",
+   "url": "https://www.ransomware.live/id/RXZlcnNvdXJjZUBXaGl0ZWFybW9y"
+  },
+  {
+   "victim": "Monolithic Power Systems (NASDAQ: MPWR, mps.com)",
+   "group": "PixelLeaks",
+   "date": "2026-11-26T23:32:02+00:00",
+   "attack_date": "2026-11-26",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/TW9ub2xpdGhpYyBQb3dlciBTeXN0ZW1zIChOQVNEQVE6IE1QV1IsIG1wcy5jb20pQFBpeGVsTGVha3M="
+  },
+  {
+   "victim": "Keyes Financial Strategies Inc.",
+   "group": "PixelLeaks",
+   "date": "2026-11-26T23:31:41+00:00",
+   "attack_date": "2026-11-26",
+   "country": null,
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/S2V5ZXMgRmluYW5jaWFsIFN0cmF0ZWdpZXMgSW5jLkBQaXhlbExlYWtz"
+  },
+  {
+   "victim": "The Law Firm of Kavesh, Minor & Otis, Inc.",
+   "group": "PixelLeaks",
+   "date": "2026-11-26T23:31:21+00:00",
+   "attack_date": "2026-11-26",
+   "country": "CA",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/VGhlIExhdyBGaXJtIG9mIEthdmVzaCwgTWlub3IgJiBPdGlzLCBJbmMuQFBpeGVsTGVha3M="
+  },
+  {
+   "victim": "MHC Financial Inc",
+   "group": "PixelLeaks",
+   "date": "2026-11-26T23:31:01+00:00",
+   "attack_date": "2026-11-26",
+   "country": "US",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/TUhDIEZpbmFuY2lhbCBJbmNAUGl4ZWxMZWFrcw=="
+  },
+  {
+   "victim": "LockeBridge Capital Partners",
+   "group": "PixelLeaks",
+   "date": "2026-11-26T23:30:41+00:00",
+   "attack_date": "2026-11-26",
+   "country": null,
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/TG9ja2VCcmlkZ2UgQ2FwaXRhbCBQYXJ0bmVyc0BQaXhlbExlYWtz"
+  },
+  {
+   "victim": "babaiai",
+   "group": "medusalocker",
+   "date": "2026-11-26T22:54:41+00:00",
+   "attack_date": "2026-11-26",
+   "country": null,
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/YmFiYWlhaUBtZWR1c2Fsb2NrZXI="
+  },
+  {
+   "victim": "FYE",
+   "group": "anubis",
+   "date": "2026-11-26T21:22:20+00:00",
+   "attack_date": "2026-11-26",
+   "country": "US",
+   "sector": "Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/RllFQGFudWJpcw=="
+  },
+  {
+   "victim": "GoDaddy",
+   "group": "Inception",
+   "date": "2026-11-26T18:22:01+00:00",
+   "attack_date": "2026-11-26",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/R29EYWRkeUBJbmNlcHRpb24="
+  },
   {
    "victim": "Sweet Darling Sales",
    "group": "qilin",
@@ -985,15 +1066,6 @@
    "url": "https://www.ransomware.live/id/U3RhbmxleSBQYXJ0cyBhbmQgRXF1aXBtZW50QHBsYXk="
   },
   {
-   "victim": "WHI Holdings / Works Human Intelligence",
-   "group": "incransom",
-   "date": "2026-11-24T17:10:18+00:00",
-   "attack_date": "2026-11-24",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/V0hJIEhvbGRpbmdzIC8gV29ya3MgSHVtYW4gSW50ZWxsaWdlbmNlQGluY3JhbnNvbQ=="
-  },
-  {
    "victim": "A... G...",
    "group": "SilentRansomGroup",
    "date": "2026-11-24T17:00:21+00:00",
@@ -1001,78 +1073,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/QS4uLiBHLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "G... R... S... D...",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-24T14:57:06+00:00",
-   "attack_date": "2026-11-24",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Ry4uLiBSLi4uIFMuLi4gRC4uLkBTaWxlbnRSYW5zb21Hcm91cA=="
-  },
-  {
-   "victim": "Lambert Somec",
-   "group": "secp0",
-   "date": "2026-11-24T14:41:05+00:00",
-   "attack_date": "2026-11-24",
-   "country": "IT",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/TGFtYmVydCBTb21lY0BzZWNwMA=="
-  },
-  {
-   "victim": "fiwealth.com",
-   "group": "incransom",
-   "date": "2026-11-24T11:39:16+00:00",
-   "attack_date": "2026-11-24",
-   "country": "US",
-   "sector": "Financial Services",
-   "url": "https://www.ransomware.live/id/Zml3ZWFsdGguY29tQGluY3JhbnNvbQ=="
-  },
-  {
-   "victim": "Coneco Engineers & Scientists",
-   "group": "Aoqin",
-   "date": "2026-11-24T07:50:30+00:00",
-   "attack_date": "2026-11-24",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/Q29uZWNvIEVuZ2luZWVycyAmIFNjaWVudGlzdHNAQW9xaW4="
-  },
-  {
-   "victim": "IIM Raipur perimeter (Indian Institute of Management)",
-   "group": "PixelLeaks",
-   "date": "2026-11-24T06:59:26+00:00",
-   "attack_date": "2026-11-24",
-   "country": "IN",
-   "sector": "Education",
-   "url": "https://www.ransomware.live/id/SUlNIFJhaXB1ciBwZXJpbWV0ZXIgKEluZGlhbiBJbnN0aXR1dGUgb2YgTWFuYWdlbWVudClAUGl4ZWxMZWFrcw=="
-  },
-  {
-   "victim": "NKN Delhi PoP (National Knowledge Network / NIC / MeitY, India)",
-   "group": "PixelLeaks",
-   "date": "2026-11-24T06:59:06+00:00",
-   "attack_date": "2026-11-24",
-   "country": "IN",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/TktOIERlbGhpIFBvUCAoTmF0aW9uYWwgS25vd2xlZGdlIE5ldHdvcmsgLyBOSUMgLyBNZWl0WSwgSW5kaWEpQFBpeGVsTGVha3M="
-  },
-  {
-   "victim": "kneron.com",
-   "group": "safepay",
-   "date": "2026-11-24T06:24:21+00:00",
-   "attack_date": "2026-11-24",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/a25lcm9uLmNvbUBzYWZlcGF5"
-  },
-  {
-   "victim": "A government website for a county in a U.S. state",
-   "group": "SoulGroup",
-   "date": "2026-11-24T02:56:45+00:00",
-   "attack_date": "2026-11-24",
-   "country": "US",
-   "sector": "Government & Defense",
-   "url": "https://www.ransomware.live/id/QSBnb3Zlcm5tZW50IHdlYnNpdGUgZm9yIGEgY291bnR5IGluIGEgVS5TLiBzdGF0ZUBTb3VsR3JvdXA="
   },
   {
    "victim": "ABL Bio",
