@@ -1,8 +1,37 @@
 {
  "groups": [
   {
+   "group": "Arrests, courts and policy",
+   "items": [
+    {
+     "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+     "summary": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military…",
+     "source": "The Hacker News",
+     "date": "2026-11-27T16:36:11+00:00",
+     "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+     "group": "Arrests, courts and policy"
+    }
+   ]
+  },
+  {
    "group": "Breaches and ransomware",
    "items": [
+    {
+     "title": "New Boston Scientific data breach exposes personal, medical info",
+     "summary": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-27T18:57:42+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+     "group": "Breaches and ransomware"
+    },
+    {
+     "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+     "summary": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-27T15:09:40+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+     "group": "Breaches and ransomware"
+    },
     {
      "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
      "summary": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. The post In Other News: Tanker…",
@@ -96,28 +125,20 @@
      "date": "2026-11-26T08:32:10+00:00",
      "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
      "group": "Breaches and ransomware"
-    },
-    {
-     "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-     "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T22:05:09+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-     "group": "Breaches and ransomware"
-    },
-    {
-     "title": "1Password customer data stolen after employee GitHub account breach",
-     "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T21:33:33+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-     "group": "Breaches and ransomware"
     }
    ]
   },
   {
    "group": "Exploited right now",
    "items": [
+    {
+     "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+     "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-27T17:06:13+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+     "group": "Exploited right now"
+    },
     {
      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
      "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
@@ -169,6 +190,7 @@
      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
      "group": "Exploited right now",
      "alerts": [
+      "CVE-2026-136716",
       "CVE-2026-132165"
      ]
     },
@@ -187,19 +209,6 @@
      ]
     },
     {
-     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and…",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T16:13:40+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-     "group": "Exploited right now",
-     "alerts": [
-      "CVE-2023-25915",
-      "CVE-2025-41450",
-      "CVE-2023-25914"
-     ]
-    },
-    {
      "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
      "summary": "Attackers are probing GeoServer instances for two high-severity flaws that can be chained with other bugs for unauthenticated RCE. The post Two Newly Disclosed GeoServer Vulnerabilities Under Attack appeared first on…",
      "source": "SecurityWeek",
@@ -213,13 +222,25 @@
      "source": "The Hacker News",
      "date": "2026-11-25T12:48:54+00:00",
      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-     "group": "Exploited right now"
+     "group": "Exploited right now",
+     "alerts": [
+      "CVE-2026-120705",
+      "CVE-2026-129243"
+     ]
     }
    ]
   },
   {
    "group": "Malware and campaigns",
    "items": [
+    {
+     "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+     "summary": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft…",
+     "source": "BleepingComputer",
+     "date": "2026-11-27T14:22:06+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+     "group": "Malware and campaigns"
+    },
     {
      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
      "summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to…",
@@ -245,14 +266,6 @@
      "group": "Malware and campaigns"
     },
     {
-     "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-     "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and…",
-     "source": "BleepingComputer",
-     "date": "2026-11-26T11:50:17+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
-     "group": "Malware and campaigns"
-    },
-    {
      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
      "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to…",
      "source": "The Hacker News",
@@ -273,6 +286,22 @@
   {
    "group": "Other news",
    "items": [
+    {
+     "title": "pCloud confirms password manager hack after suspicious login alerts",
+     "summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+     "source": "BleepingComputer",
+     "date": "2026-11-27T19:26:04+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+     "group": "Other news"
+    },
+    {
+     "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+     "summary": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls…",
+     "source": "BleepingComputer",
+     "date": "2026-11-27T15:00:10+00:00",
+     "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+     "group": "Other news"
+    },
     {
      "title": "Microsoft removes WSUS server role in Windows Server 2028",
      "summary": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
@@ -330,35 +359,11 @@
      "group": "Other news"
     },
     {
-     "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-     "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T19:39:31+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-     "group": "Other news"
-    },
-    {
-     "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-     "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more…",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T15:00:10+00:00",
-     "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-     "group": "Other news"
-    },
-    {
      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
      "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on…",
      "source": "The Hacker News",
      "date": "2026-11-25T12:30:08+00:00",
      "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
-     "group": "Other news"
-    },
-    {
-     "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
-     "summary": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will…",
-     "source": "The Hacker News",
-     "date": "2026-11-25T11:51:48+00:00",
-     "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
      "group": "Other news"
     }
    ]

@@ -2,106 +2,106 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 1937,
-  "c2_servers": 1232,
+  "total_iocs": 2099,
+  "c2_servers": 1519,
   "families": [
    {
+    "name": "ZStealer",
+    "iocs": 135,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 59,
+    "iocs": 54,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Vidar",
-    "iocs": 57,
-    "c2": 48,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
-   },
-   {
     "name": "Mirai",
-    "iocs": 51,
-    "c2": 3,
+    "iocs": 53,
+    "c2": 4,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
-    "name": "AsyncRAT",
-    "iocs": 46,
-    "c2": 43,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
-   },
-   {
-    "name": "Raven Stealer",
-    "iocs": 40,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.ravenstealer"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 40,
-    "c2": 0,
+    "iocs": 52,
+    "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
-    "name": "Agent Tesla",
-    "iocs": 39,
-    "c2": 0,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.agent_tesla"
-   },
-   {
-    "name": "Formbook",
-    "iocs": 39,
-    "c2": 2,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook"
-   },
-   {
     "name": "VShell",
-    "iocs": 32,
-    "c2": 32,
+    "iocs": 45,
+    "c2": 45,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
+    "name": "Vidar",
+    "iocs": 41,
+    "c2": 35,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
+    "name": "Unknown RAT",
+    "iocs": 40,
+    "c2": 24,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat"
+   },
+   {
+    "name": "AsyncRAT",
+    "iocs": 39,
+    "c2": 39,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+   },
+   {
     "name": "WARDENStealer",
-    "iocs": 29,
-    "c2": 28,
+    "iocs": 35,
+    "c2": 34,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+   },
+   {
+    "name": "Cobalt Strike",
+    "iocs": 31,
+    "c2": 31,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 820,
+  "online": 760,
   "top_tags": [
    {
     "name": "github",
-    "count": 538
+    "count": 630
    },
    {
     "name": "zip",
-    "count": 486
+    "count": 455
    },
    {
     "name": "SmartLoader",
-    "count": 459
+    "count": 429
    },
    {
     "name": "luajit",
-    "count": 379
+    "count": 299
    },
    {
     "name": "mirai",
-    "count": 158
+    "count": 133
    },
    {
-    "name": "Mozi",
-    "count": 129
+    "name": "github-pages",
+    "count": 118
    },
    {
-    "name": "elf",
-    "count": 85
+    "name": "fake-repo",
+    "count": 117
    },
    {
-    "name": "zapret",
-    "count": 44
+    "name": "redirect",
+    "count": 117
    }
   ]
  },
@@ -298,29 +298,6 @@
    "url": "https://otx.alienvault.com/pulse/6b083c2336ec691637c68ca0"
   },
   {
-   "name": "ROMULUS ClickFix to LegionLoader and Warden Stealer: Breaking Down a Multi-Stage Malware Intrusion",
-   "summary": "In November 2024, a multi-stage intrusion was identified involving ROMULUS, a ClickFix delivery system. The attack chain begins with a ClickFix lure that tricks victims into executing a malicious MSI file through a…",
-   "date": "2026-11-26T10:03:06+00:00",
-   "author": "AlienVault",
-   "adversary": null,
-   "malware": [
-    "ROMULUS",
-    "LegionLoader",
-    "Warden Loader",
-    "Warden Stealer"
-   ],
-   "countries": [],
-   "industries": [],
-   "tags": [
-    "clickfix",
-    "information stealer",
-    "warden loader",
-    "legionloader",
-    "romulus"
-   ],
-   "url": "https://otx.alienvault.com/pulse/6b0803dab6016a11b89943e6"
-  },
-  {
    "name": "US hospital credentials taken, a US manufacturer's cloud accessed, law firms and federal agencies next",
    "summary": "Researchers discovered three exposed open directories containing files from an active intrusion crew targeting US organizations. Confirmed compromises include a large US hospital system whose staff credentials…",
    "date": "2026-11-26T09:55:10+00:00",
@@ -382,30 +359,63 @@
    "url": "https://otx.alienvault.com/pulse/6b0801fd2a3012c014f9e051"
   },
   {
-   "name": "ShinyHunters-Associated Vishing Group Linked to New INCEPTION Data Leak Site",
-   "summary": "A threat cluster designated O-UNC-053, previously linked to the ShinyHunters extortion crew, appears to have rebranded under the name INCEPTION. The group conducts voice phishing attacks to harvest credentials and…",
-   "date": "2026-11-25T12:16:16+00:00",
+   "name": "Adversary Unmasked APT Profile - Star Blizzard",
+   "summary": "Star Blizzard, attributed to the Russian Federal Security Service Centre 18, is a persistent espionage group targeting government officials, defence personnel, think tanks, NGOs, and academia primarily in the UK, US…",
+   "date": "2026-10-28T18:54:54+00:00",
    "author": "AlienVault",
-   "adversary": "O-UNC-053",
-   "malware": [],
-   "countries": [],
+   "adversary": "Callisto",
+   "malware": [
+    "SPICA",
+    "EvilGinx",
+    "COLDCOPY",
+    "LOSTKEYS",
+    "NOROBOT",
+    "BAITSWITCH"
+   ],
+   "countries": [
+    "United States of America",
+    "Canada",
+    "Estonia",
+    "France",
+    "Germany",
+    "Greece"
+   ],
    "industries": [
-    "Technology",
-    "Healthcare",
-    "Finance",
-    "Entertainment",
-    "Retail",
-    "Transportation"
+    "Government",
+    "Defense",
+    "NGO",
+    "Media",
+    "Energy",
+    "Finance"
    ],
    "tags": [
-    "account takeover",
-    "shinyhunters",
-    "inception",
-    "credential harvesting",
-    "data leak site",
-    "social engineering"
+    "evilginx",
+    "simplefix",
+    "ghostblade",
+    "baitswitch",
+    "cosmicpulse",
+    "coldcopy"
    ],
-   "url": "https://otx.alienvault.com/pulse/6b06d19082ce9f6140be59eb"
+   "url": "https://otx.alienvault.com/pulse/6ae244fe073f118d830cf4be"
+  },
+  {
+   "name": "Node2Shell / HTTP2Shell Vulnerability May Allow RCE",
+   "summary": "An out-of-bounds write vulnerability in Google's Brotli decoder, tracked as CVE-2026-111497 and known as Node2Shell or HTTP2Shell, affects Node.js and various other software packages. The critical flaw (CVSS 9.2) can be…",
+   "date": "2026-10-28T18:43:22+00:00",
+   "author": "AlienVault",
+   "adversary": null,
+   "malware": [],
+   "countries": [],
+   "industries": [],
+   "tags": [
+    "http2shell",
+    "remote code execution",
+    "out-of-bounds write",
+    "compression vulnerability",
+    "cve-2026-111497",
+    "brotli decoder"
+   ],
+   "url": "https://otx.alienvault.com/pulse/6ae2424aa801637ecf4942df"
   },
   {
    "name": "n0n Ransomware: Inside an AI-Assisted Extortion Operation",
@@ -512,10 +522,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-27T14:06:02+00:00",
-  "sans": "2026-11-27T14:06:02+00:00",
-  "otx": "2026-11-27T14:06:02+00:00",
-  "urlhaus": "2026-11-27T14:06:02+00:00"
+  "threatfox": "2026-11-27T22:40:05+00:00",
+  "sans": "2026-11-27T22:40:05+00:00",
+  "otx": "2026-11-27T22:40:05+00:00",
+  "urlhaus": "2026-11-27T22:40:05+00:00"
  },
- "generated_at": "2026-11-27T14:06:02+00:00"
+ "generated_at": "2026-11-27T22:40:05+00:00"
 }

@@ -1,23 +1,19 @@
 {
- "generated_at": "2026-11-27T14:06:02+00:00",
+ "generated_at": "2026-11-27T22:40:05+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
- "total": 99,
+ "total": 98,
  "by_group": [
   {
    "name": "N0n",
    "count": 21
   },
   {
-   "name": "SilentRansomGroup",
-   "count": 8
+   "name": "Inception",
+   "count": 6
   },
   {
    "name": "PixelLeaks",
-   "count": 7
-  },
-  {
-   "name": "Inception",
    "count": 6
   },
   {
@@ -26,6 +22,10 @@
   },
   {
    "name": "aurora",
+   "count": 6
+  },
+  {
+   "name": "iah6477",
    "count": 6
   },
   {
@@ -40,11 +40,11 @@
  "by_sector": [
   {
    "name": "Professional Services",
-   "count": 11
+   "count": 13
   },
   {
    "name": "Manufacturing",
-   "count": 10
+   "count": 11
   },
   {
    "name": "Technology",
@@ -52,23 +52,29 @@
   },
   {
    "name": "Financial Services",
-   "count": 7
+   "count": 8
   },
   {
    "name": "Education",
    "count": 6
   },
   {
-   "name": "Retail & E-Commerce",
+   "name": "Other",
    "count": 6
   }
  ],
  "by_country": [
   {
    "code": "US",
-   "count": 34,
+   "count": 35,
    "lat": 39.0,
    "lon": -77.5
+  },
+  {
+   "code": "CA",
+   "count": 6,
+   "lat": 43.7,
+   "lon": -79.4
   },
   {
    "code": "DE",
@@ -77,28 +83,16 @@
    "lon": 8.7
   },
   {
-   "code": "CA",
-   "count": 5,
-   "lat": 43.7,
-   "lon": -79.4
+   "code": "GB",
+   "count": 3,
+   "lat": 51.5,
+   "lon": -0.1
   },
   {
    "code": "ID",
    "count": 3,
    "lat": -6.2,
    "lon": 106.8
-  },
-  {
-   "code": "ES",
-   "count": 2,
-   "lat": 40.4,
-   "lon": -3.7
-  },
-  {
-   "code": "GB",
-   "count": 2,
-   "lat": 51.5,
-   "lon": -0.1
   },
   {
    "code": "IN",
@@ -135,6 +129,18 @@
    "count": 1,
    "lat": 46.9,
    "lon": 7.4
+  },
+  {
+   "code": "CO",
+   "count": 1,
+   "lat": 4.7,
+   "lon": -74.1
+  },
+  {
+   "code": "ES",
+   "count": 1,
+   "lat": 40.4,
+   "lon": -3.7
   },
   {
    "code": "HK",
@@ -210,6 +216,96 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Brit Ltd / Brit Insurance (britinsurance.com)",
+   "group": "incransom",
+   "date": "2026-11-27T16:10:45+00:00",
+   "attack_date": "2026-11-27",
+   "country": "GB",
+   "sector": "Financial Services",
+   "url": "https://www.ransomware.live/id/QnJpdCBMdGQgLyBCcml0IEluc3VyYW5jZSAoYnJpdGluc3VyYW5jZS5jb20pQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "rogers-group",
+   "group": "iah6477",
+   "date": "2026-11-27T15:09:03+00:00",
+   "attack_date": "2026-11-27",
+   "country": "CA",
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/cm9nZXJzLWdyb3VwQGlhaDY0Nzc="
+  },
+  {
+   "victim": "blackstone-consulting",
+   "group": "iah6477",
+   "date": "2026-11-27T15:08:36+00:00",
+   "attack_date": "2026-11-27",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/YmxhY2tzdG9uZS1jb25zdWx0aW5nQGlhaDY0Nzc="
+  },
+  {
+   "victim": "supplyone",
+   "group": "iah6477",
+   "date": "2026-11-27T15:08:09+00:00",
+   "attack_date": "2026-11-27",
+   "country": null,
+   "sector": "Other",
+   "url": "https://www.ransomware.live/id/c3VwcGx5b25lQGlhaDY0Nzc="
+  },
+  {
+   "victim": "Ferrometalco (FMC)",
+   "group": "SoulGroup",
+   "date": "2026-11-27T14:58:55+00:00",
+   "attack_date": "2026-11-27",
+   "country": "CO",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/RmVycm9tZXRhbGNvIChGTUMpQFNvdWxHcm91cA=="
+  },
+  {
+   "victim": "US CNC Machine Company",
+   "group": "SoulGroup",
+   "date": "2026-11-27T14:58:16+00:00",
+   "attack_date": "2026-11-27",
+   "country": "US",
+   "sector": "Manufacturing",
+   "url": "https://www.ransomware.live/id/VVMgQ05DIE1hY2hpbmUgQ29tcGFueUBTb3VsR3JvdXA="
+  },
+  {
+   "victim": "avispl",
+   "group": "iah6477",
+   "date": "2026-11-27T14:13:22+00:00",
+   "attack_date": "2026-11-27",
+   "country": "US",
+   "sector": "Technology",
+   "url": "https://www.ransomware.live/id/YXZpc3BsQGlhaDY0Nzc="
+  },
+  {
+   "victim": "resers",
+   "group": "iah6477",
+   "date": "2026-11-27T14:12:55+00:00",
+   "attack_date": "2026-11-27",
+   "country": null,
+   "sector": "Agriculture and Food Production",
+   "url": "https://www.ransomware.live/id/cmVzZXJzQGlhaDY0Nzc="
+  },
+  {
+   "victim": "RHRS Law Firm",
+   "group": "Barracuda",
+   "date": "2026-11-27T13:50:52+00:00",
+   "attack_date": "2026-11-27",
+   "country": null,
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/UkhSUyBMYXcgRmlybUBCYXJyYWN1ZGE="
+  },
+  {
+   "victim": "VC ERP Consulting Pvt. Ltd.",
+   "group": "rhysida",
+   "date": "2026-11-27T11:32:52+00:00",
+   "attack_date": "2026-11-27",
+   "country": "IN",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/VkMgRVJQIENvbnN1bHRpbmcgUHZ0LiBMdGQuQHJoeXNpZGE="
+  },
   {
    "victim": "pregis",
    "group": "iah6477",
@@ -1001,105 +1097,6 @@
    "country": null,
    "sector": "Not Found",
    "url": "https://www.ransomware.live/id/Tm9uaWdtYW4gTExQQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "O",
-   "group": "medusalocker",
-   "date": "2026-11-24T22:53:30+00:00",
-   "attack_date": "2026-11-24",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/T0BtZWR1c2Fsb2NrZXI="
-  },
-  {
-   "victim": "Islasnatura",
-   "group": "medusalocker",
-   "date": "2026-11-24T22:52:57+00:00",
-   "attack_date": "2026-11-24",
-   "country": "ES",
-   "sector": "Agriculture and Food Production",
-   "url": "https://www.ransomware.live/id/SXNsYXNuYXR1cmFAbWVkdXNhbG9ja2Vy"
-  },
-  {
-   "victim": "Copperstone Clothing Company (Indian garment manufacturer/exporter, SQL Server ERP estate)",
-   "group": "PixelLeaks",
-   "date": "2026-11-24T22:34:48+00:00",
-   "attack_date": "2026-11-24",
-   "country": "IN",
-   "sector": "Manufacturing",
-   "url": "https://www.ransomware.live/id/Q29wcGVyc3RvbmUgQ2xvdGhpbmcgQ29tcGFueSAoSW5kaWFuIGdhcm1lbnQgbWFudWZhY3R1cmVyL2V4cG9ydGVyLCBTUUwgU2VydmVyIEVSUCBlc3RhdGUpQFBpeGVsTGVha3M="
-  },
-  {
-   "victim": "Smile Designs LLC",
-   "group": "rhysida",
-   "date": "2026-11-24T21:52:30+00:00",
-   "attack_date": "2026-11-24",
-   "country": null,
-   "sector": "Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/U21pbGUgRGVzaWducyBMTENAcmh5c2lkYQ=="
-  },
-  {
-   "victim": "CSG Systems International",
-   "group": "Falcon",
-   "date": "2026-11-24T21:22:14+00:00",
-   "attack_date": "2026-11-24",
-   "country": "US",
-   "sector": "Technology",
-   "url": "https://www.ransomware.live/id/Q1NHIFN5c3RlbXMgSW50ZXJuYXRpb25hbEBGYWxjb24="
-  },
-  {
-   "victim": "Aimbridge Hospitality",
-   "group": "Falcon",
-   "date": "2026-11-24T21:21:52+00:00",
-   "attack_date": "2026-11-24",
-   "country": "US",
-   "sector": "Hospitality",
-   "url": "https://www.ransomware.live/id/QWltYnJpZGdlIEhvc3BpdGFsaXR5QEZhbGNvbg=="
-  },
-  {
-   "victim": "Greenbaum, Rowe, Smith, & Davis",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-24T20:43:09+00:00",
-   "attack_date": "2026-11-24",
-   "country": null,
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/R3JlZW5iYXVtLCBSb3dlLCBTbWl0aCwgJiBEYXZpc0BTaWxlbnRSYW5zb21Hcm91cA=="
-  },
-  {
-   "victim": "H... R...",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-24T20:42:49+00:00",
-   "attack_date": "2026-11-24",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/SC4uLiBSLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "H...",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-24T20:41:34+00:00",
-   "attack_date": "2026-11-24",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/SC4uLkBTaWxlbnRSYW5zb21Hcm91cA=="
-  },
-  {
-   "victim": "K... B...",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-24T20:40:19+00:00",
-   "attack_date": "2026-11-24",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Sy4uLiBCLi4uQFNpbGVudFJhbnNvbUdyb3Vw"
-  },
-  {
-   "victim": "ABL Bio",
-   "group": "everest",
-   "date": "2026-11-20T22:02:57+00:00",
-   "attack_date": "2026-11-25",
-   "country": null,
-   "sector": "Healthcare",
-   "url": "https://www.ransomware.live/id/QUJMIEJpb0BldmVyZXN0"
   }
  ]
 }

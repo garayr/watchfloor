@@ -1,6 +1,89 @@
 {
  "alerts": [
   {
+   "id": "CVE-2026-136716",
+   "date": "2026-11-27",
+   "src": "CISA",
+   "vendor": "Drupal Core",
+   "vendor_name": "Drupal",
+   "product": "Core",
+   "title": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+   "detail": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-30",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-136716"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
+   "kev": true,
+   "epss": 0.0121,
+   "cvss": 9.8,
+   "sev": "critical",
+   "news": [
+    {
+     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+     "source": "The Hacker News",
+     "date": "2026-11-26T07:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-120705",
+   "date": "2026-11-27",
+   "src": "CISA",
+   "vendor": "OSGeo GeoServer",
+   "vendor_name": "OSGeo",
+   "product": "GeoServer",
+   "title": "OSGeo GeoServer XML Injection Vulnerability",
+   "detail": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and…",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-30",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-120705"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705",
+   "kev": true,
+   "sev": "high",
+   "news": [
+    {
+     "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+     "source": "The Hacker News",
+     "date": "2026-11-25T12:48:54+00:00"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-129243",
+   "date": "2026-11-27",
+   "src": "CISA",
+   "vendor": "OSGeo GeoServer",
+   "vendor_name": "OSGeo",
+   "product": "GeoServer",
+   "title": "OSGeo GeoServer Incorrect Authorization Vulnerability",
+   "detail": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code…",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-30",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-129243"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243",
+   "kev": true,
+   "sev": "high",
+   "news": [
+    {
+     "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+     "source": "The Hacker News",
+     "date": "2026-11-25T12:48:54+00:00"
+    }
+   ]
+  },
+  {
    "id": "CVE-2026-103406",
    "date": "2026-11-25",
    "src": "CISA",
@@ -69,15 +152,7 @@
    "kev": true,
    "epss": 0.0249,
    "cvss": 9.9,
-   "sev": "critical",
-   "news": [
-    {
-     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T16:13:40+00:00"
-    }
-   ]
+   "sev": "critical"
   },
   {
    "id": "CVE-2026-133303",
@@ -168,15 +243,7 @@
    "kev": true,
    "epss": 0.0427,
    "cvss": 8.2,
-   "sev": "high",
-   "news": [
-    {
-     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T16:13:40+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "CVE-2023-25914",
@@ -197,15 +264,7 @@
    "kev": true,
    "epss": 0.0185,
    "cvss": 8.8,
-   "sev": "high",
-   "news": [
-    {
-     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-     "source": "BleepingComputer",
-     "date": "2026-11-25T16:13:40+00:00"
-    }
-   ]
+   "sev": "high"
   },
   {
    "id": "CVE-2026-133324",
@@ -329,7 +388,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
    "kev": true,
-   "epss": 0.0429,
+   "epss": 0.0424,
    "cvss": 9.3,
    "sev": "critical"
   },
@@ -350,7 +409,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
    "kev": true,
-   "epss": 0.1105,
+   "epss": 0.0838,
    "cvss": 9.8,
    "sev": "critical",
    "news": [
@@ -589,7 +648,7 @@
    ],
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
    "kev": true,
-   "epss": 0.2021,
+   "epss": 0.2063,
    "cvss": 8.8,
    "sev": "high"
   },
@@ -804,6 +863,27 @@
    "sev": "critical"
   },
   {
+   "id": "CVE-2026-123158",
+   "date": "2026-11-09",
+   "src": "CISA",
+   "vendor": "OpenBSD OpenSSH",
+   "vendor_name": "OpenBSD",
+   "product": "OpenSSH",
+   "title": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+   "detail": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+   "kev": true,
+   "epss": 0.8963,
+   "cvss": 8.1,
+   "sev": "critical"
+  },
+  {
    "id": "CVE-2026-116779",
    "date": "2026-11-09",
    "src": "CISA",
@@ -844,27 +924,6 @@
    "epss": 0.0078,
    "cvss": 9.8,
    "sev": "critical"
-  },
-  {
-   "id": "CVE-2026-123158",
-   "date": "2026-11-09",
-   "src": "CISA",
-   "vendor": "OpenBSD OpenSSH",
-   "vendor_name": "OpenBSD",
-   "product": "OpenSSH",
-   "title": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-   "detail": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
-   "todo": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or…",
-   "due": "2026-11-12",
-   "ransomware": false,
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
-   "kev": true,
-   "epss": 0.1421,
-   "cvss": 8.1,
-   "sev": "high"
   },
   {
    "id": "CVE-2026-19868",
