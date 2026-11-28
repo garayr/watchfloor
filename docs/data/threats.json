@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2242,
-  "c2_servers": 1619,
+  "total_iocs": 1538,
+  "c2_servers": 1054,
   "families": [
    {
     "name": "ZStealer",
@@ -13,75 +13,79 @@
    },
    {
     "name": "Mirai",
-    "iocs": 89,
-    "c2": 12,
+    "iocs": 65,
+    "c2": 6,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
    },
    {
     "name": "ClearFake",
-    "iocs": 61,
+    "iocs": 54,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
+    "name": "Cobalt Strike",
+    "iocs": 42,
+    "c2": 42,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+   },
+   {
     "name": "Unknown Loader",
-    "iocs": 51,
+    "iocs": 40,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "VShell",
-    "iocs": 43,
-    "c2": 43,
+    "iocs": 37,
+    "c2": 37,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
    },
    {
-    "name": "Unknown RAT",
-    "iocs": 40,
-    "c2": 24,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_rat"
-   },
-   {
-    "name": "AsyncRAT",
-    "iocs": 39,
-    "c2": 39,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
+    "name": "Jackskid",
+    "iocs": 31,
+    "c2": 31,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.jackskid"
    },
    {
     "name": "Vidar",
-    "iocs": 36,
-    "c2": 29,
+    "iocs": 28,
+    "c2": 21,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
-    "name": "WARDENStealer",
-    "iocs": 33,
-    "c2": 32,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
+    "name": "IClickFix",
+    "iocs": 25,
+    "c2": 0,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.iclickfix"
    },
    {
-    "name": "Cobalt Strike",
-    "iocs": 31,
-    "c2": 31,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike"
+    "name": "PureRAT",
+    "iocs": 24,
+    "c2": 21,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.pure_rat"
    }
   ]
  },
  "urls": {
   "sample": 1000,
-  "online": 769,
+  "online": 732,
   "top_tags": [
    {
     "name": "github",
-    "count": 663
+    "count": 525
+   },
+   {
+    "name": "mirai",
+    "count": 212
    },
    {
     "name": "zip",
-    "count": 348
+    "count": 205
    },
    {
     "name": "SmartLoader",
-    "count": 324
+    "count": 200
    },
    {
     "name": "SalatStealer",
@@ -89,19 +93,15 @@
    },
    {
     "name": "Mozi",
-    "count": 141
+    "count": 175
    },
    {
     "name": "fake-repo",
-    "count": 117
+    "count": 119
    },
    {
     "name": "github-pages",
-    "count": 117
-   },
-   {
-    "name": "mirai",
-    "count": 117
+    "count": 118
    }
   ]
  },
@@ -109,72 +109,72 @@
   {
    "port": 22,
    "service": "SSH",
-   "records": 7681,
-   "targets": 197,
-   "sources": 772
+   "records": 267404,
+   "targets": 278,
+   "sources": 6255
   },
   {
    "port": 443,
    "service": "Web (HTTPS)",
-   "records": 7401,
-   "targets": 168,
-   "sources": 2473
+   "records": 211893,
+   "targets": 269,
+   "sources": 10327
   },
   {
    "port": 2222,
    "service": null,
-   "records": 5538,
-   "targets": 179,
-   "sources": 303
-  },
-  {
-   "port": 16767,
-   "service": null,
-   "records": 5512,
-   "targets": 2,
-   "sources": 827
-  },
-  {
-   "port": 23,
-   "service": "Telnet",
-   "records": 3690,
-   "targets": 183,
-   "sources": 538
+   "records": 183198,
+   "targets": 265,
+   "sources": 2624
   },
   {
    "port": 8080,
    "service": "Web proxy",
-   "records": 3374,
-   "targets": 154,
-   "sources": 304
+   "records": 134631,
+   "targets": 276,
+   "sources": 2965
+  },
+  {
+   "port": 23,
+   "service": "Telnet",
+   "records": 118955,
+   "targets": 280,
+   "sources": 5893
   },
   {
    "port": 8000,
    "service": "Web (alt)",
-   "records": 3143,
-   "targets": 128,
-   "sources": 191
+   "records": 106853,
+   "targets": 272,
+   "sources": 2000
+  },
+  {
+   "port": 80,
+   "service": "Web (HTTP)",
+   "records": 103021,
+   "targets": 252,
+   "sources": 4246
   },
   {
    "port": 9000,
    "service": null,
-   "records": 2981,
-   "targets": 182,
-   "sources": 314
+   "records": 93571,
+   "targets": 253,
+   "sources": 1640
   },
   {
-   "port": 123,
-   "service": "NTP",
-   "records": 2980,
-   "targets": 67,
-   "sources": 384
-  },
-  {
-   "port": 51413,
+   "port": 16767,
    "service": null,
-   "records": 2817,
-   "targets": 6,
-   "sources": 344
+   "records": 82009,
+   "targets": 14,
+   "sources": 3538
+  },
+  {
+   "port": 7547,
+   "service": "Router management (TR-069)",
+   "records": 68999,
+   "targets": 205,
+   "sources": 1050
   }
  ],
  "ports_date": "2026-11-28",
@@ -522,10 +522,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-28T04:13:45+00:00",
-  "sans": "2026-11-28T04:13:45+00:00",
-  "otx": "2026-11-28T04:13:45+00:00",
-  "urlhaus": "2026-11-28T04:13:45+00:00"
+  "threatfox": "2026-11-28T13:00:09+00:00",
+  "sans": "2026-11-28T13:00:09+00:00",
+  "otx": "2026-11-28T13:00:09+00:00",
+  "urlhaus": "2026-11-28T13:00:09+00:00"
  },
- "generated_at": "2026-11-28T04:13:45+00:00"
+ "generated_at": "2026-11-28T13:00:09+00:00"
 }
