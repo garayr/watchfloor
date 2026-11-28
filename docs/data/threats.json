@@ -2,8 +2,8 @@
  "infocon": "green",
  "malware": {
   "window": "24h",
-  "total_iocs": 2099,
-  "c2_servers": 1519,
+  "total_iocs": 2242,
+  "c2_servers": 1619,
   "families": [
    {
     "name": "ZStealer",
@@ -12,34 +12,28 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.zstealer"
    },
    {
+    "name": "Mirai",
+    "iocs": 89,
+    "c2": 12,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
+   },
+   {
     "name": "ClearFake",
-    "iocs": 54,
+    "iocs": 61,
     "c2": 0,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/js.clearfake"
    },
    {
-    "name": "Mirai",
-    "iocs": 53,
-    "c2": 4,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai"
-   },
-   {
     "name": "Unknown Loader",
-    "iocs": 52,
+    "iocs": 51,
     "c2": 1,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/unknown_loader"
    },
    {
     "name": "VShell",
-    "iocs": 45,
-    "c2": 45,
+    "iocs": 43,
+    "c2": 43,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vshell"
-   },
-   {
-    "name": "Vidar",
-    "iocs": 41,
-    "c2": 35,
-    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
    },
    {
     "name": "Unknown RAT",
@@ -54,9 +48,15 @@
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.asyncrat"
    },
    {
+    "name": "Vidar",
+    "iocs": 36,
+    "c2": 29,
+    "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.vidar"
+   },
+   {
     "name": "WARDENStealer",
-    "iocs": 35,
-    "c2": 34,
+    "iocs": 33,
+    "c2": 32,
     "url": "https://malpedia.caad.fkie.fraunhofer.de/details/win.warden_stealer"
    },
    {
@@ -69,115 +69,115 @@
  },
  "urls": {
   "sample": 1000,
-  "online": 760,
+  "online": 769,
   "top_tags": [
    {
     "name": "github",
-    "count": 630
+    "count": 663
    },
    {
     "name": "zip",
-    "count": 455
+    "count": 348
    },
    {
     "name": "SmartLoader",
-    "count": 429
+    "count": 324
    },
    {
-    "name": "luajit",
-    "count": 299
+    "name": "SalatStealer",
+    "count": 190
    },
    {
-    "name": "mirai",
-    "count": 133
-   },
-   {
-    "name": "github-pages",
-    "count": 118
+    "name": "Mozi",
+    "count": 141
    },
    {
     "name": "fake-repo",
     "count": 117
    },
    {
-    "name": "redirect",
+    "name": "github-pages",
+    "count": 117
+   },
+   {
+    "name": "mirai",
     "count": 117
    }
   ]
  },
  "ports": [
   {
-   "port": 443,
-   "service": "Web (HTTPS)",
-   "records": 913352,
-   "targets": 281,
-   "sources": 15112
-  },
-  {
-   "port": 80,
-   "service": "Web (HTTP)",
-   "records": 769572,
-   "targets": 267,
-   "sources": 7173
-  },
-  {
    "port": 22,
    "service": "SSH",
-   "records": 456194,
-   "targets": 282,
-   "sources": 7998
+   "records": 7681,
+   "targets": 197,
+   "sources": 772
+  },
+  {
+   "port": 443,
+   "service": "Web (HTTPS)",
+   "records": 7401,
+   "targets": 168,
+   "sources": 2473
   },
   {
    "port": 2222,
    "service": null,
-   "records": 201603,
-   "targets": 279,
-   "sources": 3241
+   "records": 5538,
+   "targets": 179,
+   "sources": 303
   },
   {
-   "port": 8080,
-   "service": "Web proxy",
-   "records": 189786,
-   "targets": 279,
-   "sources": 5029
-  },
-  {
-   "port": 8000,
-   "service": "Web (alt)",
-   "records": 169258,
-   "targets": 284,
-   "sources": 3787
+   "port": 16767,
+   "service": null,
+   "records": 5512,
+   "targets": 2,
+   "sources": 827
   },
   {
    "port": 23,
    "service": "Telnet",
-   "records": 160753,
-   "targets": 280,
-   "sources": 8017
+   "records": 3690,
+   "targets": 183,
+   "sources": 538
+  },
+  {
+   "port": 8080,
+   "service": "Web proxy",
+   "records": 3374,
+   "targets": 154,
+   "sources": 304
+  },
+  {
+   "port": 8000,
+   "service": "Web (alt)",
+   "records": 3143,
+   "targets": 128,
+   "sources": 191
   },
   {
    "port": 9000,
    "service": null,
-   "records": 149669,
-   "targets": 259,
-   "sources": 2818
+   "records": 2981,
+   "targets": 182,
+   "sources": 314
   },
   {
-   "port": 7547,
-   "service": "Router management (TR-069)",
-   "records": 114707,
-   "targets": 231,
-   "sources": 2153
+   "port": 123,
+   "service": "NTP",
+   "records": 2980,
+   "targets": 67,
+   "sources": 384
   },
   {
-   "port": 7680,
+   "port": 51413,
    "service": null,
-   "records": 102308,
-   "targets": 33,
-   "sources": 2630
+   "records": 2817,
+   "targets": 6,
+   "sources": 344
   }
  ],
- "ports_date": "2026-11-27",
+ "ports_date": "2026-11-28",
  "diary": [
   {
    "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
@@ -522,10 +522,10 @@
   }
  ],
  "updated": {
-  "threatfox": "2026-11-27T22:40:05+00:00",
-  "sans": "2026-11-27T22:40:05+00:00",
-  "otx": "2026-11-27T22:40:05+00:00",
-  "urlhaus": "2026-11-27T22:40:05+00:00"
+  "threatfox": "2026-11-28T04:13:45+00:00",
+  "sans": "2026-11-28T04:13:45+00:00",
+  "otx": "2026-11-28T04:13:45+00:00",
+  "urlhaus": "2026-11-28T04:13:45+00:00"
  },
- "generated_at": "2026-11-27T22:40:05+00:00"
+ "generated_at": "2026-11-28T04:13:45+00:00"
 }

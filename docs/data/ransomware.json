@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T22:40:05+00:00",
+ "generated_at": "2026-11-28T04:13:45+00:00",
  "source": "Ransomware.live",
  "window_days": 7,
  "total": 98,
@@ -95,16 +95,16 @@
    "lon": 106.8
   },
   {
+   "code": "IT",
+   "count": 3,
+   "lat": 41.9,
+   "lon": 12.5
+  },
+  {
    "code": "IN",
    "count": 2,
    "lat": 19.1,
    "lon": 72.9
-  },
-  {
-   "code": "IT",
-   "count": 2,
-   "lat": 41.9,
-   "lon": 12.5
   },
   {
    "code": "AT",
@@ -216,6 +216,24 @@
   }
  ],
  "victims": [
+  {
+   "victim": "Samlut and Company, P.A.",
+   "group": "incransom",
+   "date": "2026-11-27T23:00:19+00:00",
+   "attack_date": "2026-11-27",
+   "country": "US",
+   "sector": "Professional Services",
+   "url": "https://www.ransomware.live/id/U2FtbHV0IGFuZCBDb21wYW55LCBQLkEuQGluY3JhbnNvbQ=="
+  },
+  {
+   "victim": "Cinelandia S.p.A",
+   "group": "incransom",
+   "date": "2026-11-27T21:46:09+00:00",
+   "attack_date": "2026-11-27",
+   "country": "IT",
+   "sector": "Hospitality",
+   "url": "https://www.ransomware.live/id/Q2luZWxhbmRpYSBTLnAuQUBpbmNyYW5zb20="
+  },
   {
    "victim": "Brit Ltd / Brit Insurance (britinsurance.com)",
    "group": "incransom",
@@ -1079,24 +1097,6 @@
    "country": "MX",
    "sector": "Energy & Utilities",
    "url": "https://www.ransomware.live/id/QUROIEVuZXJnw61hIFMuIGRlIFIuTC4gZGUgQy5WLiAoYWxzbyByZWZlcnJlZCB0byBhcyBBRE4gRW5lcmfDrWEgb3IgQUROIEVuZXJnaWEpQHNwYWNlYmVhcnM="
-  },
-  {
-   "victim": "Kegler, Brown, Hill & Ritter",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-24T23:57:20+00:00",
-   "attack_date": "2026-11-24",
-   "country": "US",
-   "sector": "Professional Services",
-   "url": "https://www.ransomware.live/id/S2VnbGVyLCBCcm93biwgSGlsbCAmIFJpdHRlckBTaWxlbnRSYW5zb21Hcm91cA=="
-  },
-  {
-   "victim": "Nonigman LLP",
-   "group": "SilentRansomGroup",
-   "date": "2026-11-24T23:26:44+00:00",
-   "attack_date": "2026-11-24",
-   "country": null,
-   "sector": "Not Found",
-   "url": "https://www.ransomware.live/id/Tm9uaWdtYW4gTExQQFNpbGVudFJhbnNvbUdyb3Vw"
   }
  ]
 }
